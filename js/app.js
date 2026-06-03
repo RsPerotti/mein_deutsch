@@ -82,7 +82,7 @@ async function loadData() {
   const d = window.APP_DATA || {};
   appData.modules                   = d.modules   || [];
   appData.verbs                     = d.verbs     || [];
-  appData.exercises['module_verbs'] = (d.exercises || {}).module_verbs || [];
+  appData.exercises['module_verbs'] = d.exercises_verbs || (d.exercises || {}).module_verbs || [];
 }
 
 // ─────────────────────────────────────────
