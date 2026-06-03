@@ -53,12 +53,14 @@ function startExercise(state) {
 
 function _buildQueue(moduleId, category) {
   const all = appData.exercises[moduleId] || [];
+  const SESSION_SIZE = 20;
 
-  if (moduleId !== 'module_verbs') return all.slice(0, 10);
+  if (moduleId !== 'module_verbs') return _shuffle([...all]).slice(0, SESSION_SIZE);
 
   if (category === 'roots') {
     const rootIds = new Set(appData.verbs.map(v => v.id));
-    return all.filter(ex => rootIds.has(ex.word_id)).slice(0, 10);
+    const filtered = all.filter(ex => rootIds.has(ex.word_id));
+    return _shuffle([...filtered]).slice(0, SESSION_SIZE);
   }
 
   // Variants: only exercises for variants of already-unlocked root verbs
@@ -69,7 +71,8 @@ function _buildQueue(moduleId, category) {
       (verb.prefix_variants || []).forEach(pv => allowedVariantIds.add(pv.id));
     }
   }
-  return all.filter(ex => allowedVariantIds.has(ex.word_id)).slice(0, 10);
+  const filtered = all.filter(ex => allowedVariantIds.has(ex.word_id));
+  return _shuffle([...filtered]).slice(0, SESSION_SIZE);
 }
 
 // --- Show next exercise ---
