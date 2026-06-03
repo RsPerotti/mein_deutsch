@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Project internals (not part of the web app)
+Design_System_App.fig
+screens/
+thumbnail.png

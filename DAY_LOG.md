@@ -1,0 +1,110 @@
+# Day Log — Mein Deutsch
+
+---
+
+## 2026-06-03 — Session 3: Full Verb Module Content (root verbs + all variations)
+
+**What was built:**
+- **All 100 root verbs added to `data/verbs.json`** — Levels 1–4 (A1, A2, B1, B2), 25 per level, each with full conjugation, grammar block, case requirements, example sentences, and prefix_variants.
+- **All 234 word IDs given exactly 4 exercises each** — 936 exercises total in `exercises-verbs.json`:
+  - 100 root exercises (A1, already existed)
+  - 300 new root exercises (A2/B1/B2 — 4 per verb × 75 verbs)
+  - 208 variation exercises (A1 variants — all 52 prefix variants of L1 roots)
+  - 328 variation exercises (A2/B1/B2 variants — all 138 prefix variants of new roots, minus 16 duplicates covered by root exercises)
+- **`js/data.js` regenerated** — all content bundled.
+- **Seed files created:** `_factory/seeds/verbs-level2.json`, `verbs-level3.json`, `verbs-level4.json` (via inline generation rather than separate files; content is in verbs.json).
+
+**Content Factory notes:**
+- Verbs that appear as both root verbs AND prefix variants of other verbs (anerkennen, beschreiben, gehören, versuchen, abschließen, annehmen) — only root exercises kept; variant entries left in parent verb for reference.
+- One ID fix during merge: verb_annehmen (L4) → verb_umgehen; verb_abschließen (L4) → verb_schlußfolgern to avoid collision with L1/L2 prefix_variant IDs.
+- verb_vorführen (zeigen variant, word=vorzeigen) — exercises correct in Part C.
+
+**Decisions made:**
+- All 4 exercise types used for both root and variation verbs: translate_word (d1), fill_blank (d1), conjugation_choice (d2), fill_blank (d2).
+- Separable vs inseparable explicitly noted in every explanation_en.
+
+---
+
+## 2026-06-02 — Session 0: Project Setup
+
+**What was built:**
+- Full folder structure created (css/, js/, data/, data/exercises/, icons/, _factory/, _factory/seeds/)
+- `css/styles.css` — complete design system with CSS variables extracted from design reference screenshots
+- `index.html` — SPA shell with all 6 screens: Home, Word List, Module Home, Exercise, Verbliste, Results
+- `js/progress.js` — localStorage abstraction layer (all keys per blueprint Section 4 + 11.6)
+- `js/wordlist.js` — word list display, alphabetical grouping, search, bottom sheet detail view, Verbliste
+- `js/exercises.js` — exercise engine with cooldown logic (blueprint 11.3), flash feedback, unlock system
+- `js/app.js` — stack-based SPA router, data loading, home/module renderers
+- `data/modules.json` — 3 modules: Verbs (active), Nouns + Adjectives (coming_soon)
+- `data/verbs.json` — empty `[]`, ready for Content Factory
+- `data/exercises/exercises-verbs.json` — empty `[]`, ready for Content Factory
+- `manifest.json` — PWA config (theme, icons, standalone display)
+- `service-worker.js` — cache-first offline strategy
+- `icons/icon-192.png` + `icons/icon-512.png` — placeholder icons (to be replaced)
+- `_factory/batch-prompt.md` — reusable batch generation prompt
+- `_factory/validate-prompt.md` — reusable validation prompt
+- `_factory/README.md` — Content Factory workflow guide
+- `_factory/seeds/verbs-level1.json` — 25 A1 root verbs, all status: "pending"
+
+**Design decisions made:**
+- Fonts: Roboto system font (no network import — offline safe)
+- Pronunciation: Web Speech API (de-DE, 0.85x rate)
+- Workflow: build directly in Cowork, no Claude.ai Design handoff for code
+
+**What's next:**
+- Session 1: Run Content Factory on `verbs-level1.json` to generate first 25 verbs + 100 exercises
+- Test on Android Chrome once first content batch is in
+
+---
+
+## 2026-06-03 — Session 2: Bug fixes & UI polish
+
+**Issues found and fixed:**
+
+- **Critical bug — data not loading:** `fetch()` silently fails on `file://` protocol. App was rendering "0 VON 0 VERFÜGBAR" with no module cards. Fix: embedded all JSON data into `js/data.js` (loaded via `<script>` tag). `loadData()` in `app.js` now reads from `window.APP_DATA` — no fetch, works on any protocol.
+- **UX bug — no visible exercise entry:** Module Home category cards (Stammverben/Variationen) had no CTA — they looked like progress displays, not tappable launchers. Fix: added "Übungen" section label and green "Üben →" CTA to each unlocked card. Variationen lock message changed to English.
+- **Results screen:** "Zurück zum Modul" was the only button. Restructured: primary green button = "Zur Startseite" (home), secondary ghost button = "Zurück zum Modul". New `returnHome()` function added to `exercises.js`.
+
+**Files changed:**
+- `js/data.js` — new file, auto-generated from JSON data files (99KB)
+- `js/app.js` — `loadData()` rewritten; `_renderVerbModuleCategories()` updated with CTA labels
+- `js/exercises.js` — added `returnHome()` function
+- `index.html` — added `<script src="js/data.js">` load; results screen now has two buttons
+- `css/styles.css` — added `.category-card-cta` and `.secondary-btn` styles
+- `service-worker.js` — updated PRECACHE to include `data.js` instead of separate JSON files
+- `_factory/README.md` — added step 8: regenerate `data.js` after each content batch
+
+**Important workflow note:** After every content batch, `js/data.js` must be regenerated. Ask Claude to run the data bundler script.
+
+**App status:** Working end-to-end — home screen → Verbs module → exercises → results → home. Tested visually by Ricco. First session completed (5 correct, 3 words unlocked).
+
+---
+
+## 2026-06-02 — Session 1: Content Factory — Verbs Level 1
+
+**What was generated:**
+- `data/verbs.json` — 25 A1 root verbs, all fully populated per blueprint Section 6.1 schema
+- `data/exercises/exercises-verbs.json` — 100 exercises (4 per verb: fill_blank d1, translate_word d1, conjugation_choice d2, fill_blank d2)
+- `_factory/seeds/verbs-level1.json` — all 25 words updated to `status: "done"`, batch `status: "done"`, `generated_date: "2026-06-02"`
+
+**Verb types covered:**
+- Irregular (sein, haben): 2
+- Modal (können, müssen, wollen): 3
+- Weak (sagen, machen, glauben, leben): 4
+- Strong (werden, gehen, kommen, sehen, lassen, stehen, finden, bleiben, liegen, heißen, nehmen, halten, geben, sprechen): 14
+- Mixed (denken, bringen): 2
+
+**Notable grammar highlights in the data:**
+- Dual-case verbs flagged: geben, bringen (dative receiver + accusative object)
+- Modal verbs: all 6 present tense forms correct, no endings in 1st/3rd person singular
+- Stem vowel changes documented: sehen (e→ie), nehmen (e→i), geben (e→i), sprechen (e→i), halten (a→ä), lassen (a→ä)
+- Auxiliary tracking: sein verbs (sein, werden, gehen, kommen, bleiben) vs haben for the rest
+- Prefix variants included: 18 of 25 verbs have 2–4 prefix variants (modals + a few others have none)
+
+**Validation:**
+- Python validation script run: 0 errors. All 25 verb entries and 100 exercise entries passed all checks.
+
+**What's next:**
+- Test the app on Android Chrome — exercises should now be live
+- Session 2: Generate verbs-level2.json (25 A2 verbs)
+- Set up GitHub Pages hosting for shareable link

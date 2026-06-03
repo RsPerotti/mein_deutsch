@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#EDE9E1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Mein Deutsch">
+  <title>Mein Deutsch</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Flash overlay for correct/wrong feedback -->
+  <div class="flash-overlay" id="flash-overlay"></div>
+
+  <!-- ═══════════════════════════════════════════
+       SCREEN: Home
+  ═══════════════════════════════════════════ -->
+  <div id="screen-home" class="screen active">
+    <div class="home-header">
+      <div>
+        <div class="home-greeting">Guten Tag, Ricco</div>
+        <div class="home-title">Mein Deutsch.</div>
+      </div>
+      <div class="streak-badge">
+        <span>🔥</span>
+        <span id="home-streak">0</span>
+      </div>
+    </div>
+
+    <div class="screen-content">
+      <!-- Word List Hero Card -->
+      <div class="hero-card" onclick="navigateTo('screen-wordlist')">
+        <div class="hero-card-ghost">Wö</div>
+        <div class="hero-card-arrow">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+               stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"/>
+          </svg>
+        </div>
+        <div class="label">Dein Wortschatz</div>
+        <div class="hero-card-title">Wortliste</div>
+        <div class="hero-card-count">
+          <span class="num" id="home-unlocked-count">0</span>
+          <span class="total"> / <span id="home-total-count">0</span> freigeschaltet</span>
+        </div>
+        <div class="hero-progress">
+          <div class="hero-progress-fill" id="home-progress-fill" style="width:0%"></div>
+        </div>
+        <div class="hero-card-recent" id="home-recent-words"></div>
+      </div>
+
+      <!-- Modules -->
+      <div class="section-header mt-6">
+        <span class="label" style="color:var(--color-text-primary)">Module</span>
+        <span class="label" id="home-modules-label"></span>
+      </div>
+      <div id="home-modules-list" style="display:flex;flex-direction:column;gap:10px"></div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       SCREEN: Word List
+  ═══════════════════════════════════════════ -->
+  <div id="screen-wordlist" class="screen">
+    <div class="nav-header">
+      <button class="back-btn" onclick="navigateBack()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+             stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="screen-content" style="padding-top:0">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px">
+        <div class="label">Dein Wortschatz</div>
+        <div style="font-size:var(--font-size-lg);font-weight:var(--fw-bold)">
+          <span id="wl-count" style="color:var(--color-green-accent)">0</span>
+          <span style="color:var(--color-text-muted)"> / <span id="wl-total">0</span></span>
+        </div>
+      </div>
+      <div class="heading-lg" style="margin-bottom:var(--sp-4)">Wortliste</div>
+
+      <div class="search-bar">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+             style="color:var(--color-text-muted);flex-shrink:0">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input type="text" id="wl-search" placeholder="Wörter suchen…"
+               oninput="filterWordList(this.value)">
+        <span class="search-count" id="wl-search-count"></span>
+      </div>
+
+      <div id="wordlist-content"></div>
+    </div>
+
+    <!-- Word detail bottom sheet -->
+    <div class="sheet-overlay" id="sheet-overlay" onclick="closeWordSheet()"></div>
+    <div class="bottom-sheet" id="word-sheet">
+      <div class="sheet-handle"></div>
+      <div class="sheet-word-row">
+        <span class="sheet-word" id="sheet-word"></span>
+        <span class="sheet-meta" id="sheet-meta"></span>
+      </div>
+      <div class="sheet-translation" id="sheet-translation"></div>
+      <button class="pronounce-btn" onclick="pronounceSheetWord()">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+          <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+          <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+        </svg>
+        Aussprechen
+      </button>
+      <div class="sheet-section-label">Beispiele</div>
+      <div id="sheet-examples"></div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       SCREEN: Module Home
+  ═══════════════════════════════════════════ -->
+  <div id="screen-module-home" class="screen">
+    <div class="nav-header">
+      <button class="back-btn" onclick="navigateBack()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+             stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"/>
+        </svg>
+      </button>
+      <span class="nav-context" id="module-nav-context"></span>
+    </div>
+
+    <div class="screen-content" style="padding-top:0">
+      <div class="heading-xl" id="module-title"></div>
+      <div id="module-description"
+           style="color:var(--color-text-secondary);font-size:var(--font-size-base);
+                  margin-top:var(--sp-2);margin-bottom:var(--sp-5);line-height:1.5"></div>
+
+      <!-- Overall progress -->
+      <div class="card">
+        <div class="label">Modul-Fortschritt</div>
+        <div style="margin-top:4px;display:flex;align-items:baseline;gap:6px">
+          <span id="module-progress-count"
+                style="font-size:var(--font-size-2xl);font-weight:var(--fw-bold)">0</span>
+          <span style="color:var(--color-text-muted);font-size:var(--font-size-sm)">
+            Wörter freigeschaltet
+          </span>
+        </div>
+        <div class="progress-bar mt-2">
+          <div class="progress-fill" id="module-progress-fill" style="width:0%"></div>
+        </div>
+      </div>
+
+      <!-- Category section (populated by JS) -->
+      <div id="module-categories" class="mt-4"></div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       SCREEN: Exercise
+  ═══════════════════════════════════════════ -->
+  <div id="screen-exercise" class="screen">
+    <div class="nav-header" style="padding-bottom:var(--sp-2)">
+      <button class="back-btn" onclick="exitExerciseEarly()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+             stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"/>
+        </svg>
+      </button>
+      <div class="nav-pill" id="exercise-context-pill">
+        <span class="dot"></span>
+        <span id="exercise-context-label">Verben</span>
+      </div>
+    </div>
+
+    <!-- Status chips -->
+    <div class="chips-row">
+      <div class="chip">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="20 6 9 17 4 12"/>
+        </svg>
+        <span id="chip-correct">0</span> Richtig
+      </div>
+      <div class="chip">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="3" width="18" height="18" rx="2"/>
+          <line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/>
+        </svg>
+        <span id="chip-queue">0</span> Queue
+      </div>
+      <div class="chip cooldown">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/>
+          <polyline points="12 6 12 12 16 14"/>
+        </svg>
+        <span id="chip-cooldown">0</span> Cooldown
+      </div>
+    </div>
+
+    <!-- Exercise progress bar -->
+    <div class="exercise-progress-bar">
+      <div class="exercise-progress-fill" id="exercise-progress-fill" style="width:0%"></div>
+    </div>
+
+    <!-- Exercise card (populated by JS) -->
+    <div class="exercise-card" id="exercise-card"></div>
+
+    <!-- Next button (shown after wrong answer) -->
+    <button class="primary-btn" id="next-btn" style="display:none" onclick="advanceExercise()">
+      Weiter →
+    </button>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       SCREEN: Verbliste
+  ═══════════════════════════════════════════ -->
+  <div id="screen-verbliste" class="screen">
+    <div class="nav-header">
+      <button class="back-btn" onclick="navigateBack()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+             stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"/>
+        </svg>
+      </button>
+      <span class="nav-context">Verbliste</span>
+    </div>
+
+    <div class="screen-content" style="padding-top:0">
+      <div class="heading-lg" style="margin-bottom:var(--sp-4)">Verbliste</div>
+      <div class="search-bar">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+             style="color:var(--color-text-muted);flex-shrink:0">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input type="text" id="vl-search" placeholder="Verb suchen…"
+               oninput="filterVerbList(this.value)">
+        <button class="search-count" id="vl-sort-btn"
+                style="background:none;border:none;cursor:pointer;color:var(--color-green-accent)"
+                onclick="toggleVerbSort()">A–Z</button>
+      </div>
+      <div id="verbliste-content"></div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       SCREEN: Results
+  ═══════════════════════════════════════════ -->
+  <div id="screen-results" class="screen">
+    <div class="results-content">
+      <div class="results-emoji">🎉</div>
+      <div class="heading-xl mt-4">Gut gemacht!</div>
+      <div style="color:var(--color-text-secondary);margin-top:var(--sp-2)"
+           id="results-summary"></div>
+
+      <div class="card mt-6" style="text-align:left">
+        <div id="results-stats"></div>
+      </div>
+
+      <div id="results-unlocked" class="mt-4"></div>
+
+      <button class="primary-btn" style="margin-top:var(--sp-6)"
+              onclick="returnHome()">
+        Zur Startseite
+      </button>
+      <button class="secondary-btn" style="margin-top:var(--sp-3)"
+              onclick="returnFromResults()">
+        Zurück zum Modul
+      </button>
+    </div>
+  </div>
+
+  <!-- JS — load order matters -->
+  <script src="js/data.js"></script>
+  <script src="js/progress.js"></script>
+  <script src="js/wordlist.js"></script>
+  <script src="js/exercises.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

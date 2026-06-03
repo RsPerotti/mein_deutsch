@@ -1,0 +1,35 @@
+[
+  {
+    "id": "module_verbs",
+    "title_de": "Verben",
+    "title_en": "Verbs",
+    "description_en": "Master the 100 most important German root verbs — with conjugations, case requirements, and prefix variations.",
+    "icon": "🔤",
+    "data_file": "verbs.json",
+    "exercises_file": "exercises-verbs.json",
+    "unlock_order": 1,
+    "status": "active"
+  },
+  {
+    "id": "module_nouns",
+    "title_de": "Nomen",
+    "title_en": "Nouns",
+    "description_en": "200 essential German nouns — with articles, plurals, and case forms.",
+    "icon": "📦",
+    "data_file": "nouns.json",
+    "exercises_file": "exercises-nouns.json",
+    "unlock_order": 2,
+    "status": "coming_soon"
+  },
+  {
+    "id": "module_adjectives",
+    "title_de": "Adjektive",
+    "title_en": "Adjectives",
+    "description_en": "150 key adjectives with declension rules and usage examples.",
+    "icon": "🎨",
+    "data_file": "adjectives.json",
+    "exercises_file": "exercises-adjectives.json",
+    "unlock_order": 3,
+    "status": "coming_soon"
+  }
+]
