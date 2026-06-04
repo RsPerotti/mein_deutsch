@@ -44,8 +44,14 @@ function startExercise(state) {
   session.queue = _shuffle([...exercises]);
 
   // Context pill
-  const label = category === 'roots' ? 'STAMMVERBEN' : 'VARIATIONEN';
-  document.getElementById('exercise-context-label').textContent = 'VERBEN · ' + label;
+  let contextLabel;
+  if (moduleId === 'module_nouns') {
+    contextLabel = 'NOMEN · ÜBUNGEN';
+  } else {
+    const label = category === 'roots' ? 'STAMMVERBEN' : 'VARIATIONEN';
+    contextLabel = 'VERBEN · ' + label;
+  }
+  document.getElementById('exercise-context-label').textContent = contextLabel;
 
   _updateChips();
   _showNext();
@@ -53,6 +59,9 @@ function startExercise(state) {
 
 function _buildQueue(moduleId, category) {
   const all = appData.exercises[moduleId] || [];
+
+  // Nouns — single category, serve all exercises
+  if (moduleId === 'module_nouns') return _shuffle([...all]);
 
   // Full queue — no session cap. User works through all exercises until complete.
   if (moduleId !== 'module_verbs') return _shuffle([...all]);
@@ -103,6 +112,8 @@ function _showNext() {
     card.innerHTML = _renderTranslateWord(ex);
   } else if (ex.type === 'fill_blank') {
     card.innerHTML = _renderFillBlank(ex);
+  } else if (ex.type === 'article_choice') {
+    card.innerHTML = _renderArticleChoice(ex);
   } else if (ex.type === 'conjugation_choice') {
     card.innerHTML = _renderConjugation(ex);
   } else {
@@ -171,6 +182,34 @@ function _renderFillBlank(ex) {
     <div class="exercise-meta">
       <div class="exercise-counter">FRAGE ${session.correctCount + 1}</div>
       <div class="exercise-type-label">Lückentext</div>
+    </div>
+    <div class="exercise-sentence">${sentHtml}</div>
+    <div class="exercise-translation" id="ex-translation">${_esc(sentEN)}</div>
+    <div class="options-grid" id="opts">
+      ${options.map(opt => `
+        <button class="option-btn grid-opt"
+                data-answer="${_esc(opt)}"
+                onclick="selectAnswer(this)">
+          <span class="opt-word">${_esc(opt)}</span>
+        </button>`).join('')}
+    </div>
+    <div class="feedback-text" id="feedback"></div>`;
+}
+
+// --- Render: article_choice ---
+// Identical layout to fill_blank but labelled "Artikel"
+function _renderArticleChoice(ex) {
+  const sentDE  = ex.question?.de || '';
+  const sentEN  = ex.question?.en || '';
+  const options = _shuffle([ex.correct_answer, ...ex.wrong_answers.slice(0, 3)]);
+
+  const sentHtml = _esc(sentDE).replace('_____',
+    '<span class="exercise-blank" id="blank-span"></span>');
+
+  return `
+    <div class="exercise-meta">
+      <div class="exercise-counter">FRAGE ${session.correctCount + 1}</div>
+      <div class="exercise-type-label">Artikel</div>
     </div>
     <div class="exercise-sentence">${sentHtml}</div>
     <div class="exercise-translation" id="ex-translation">${_esc(sentEN)}</div>
@@ -269,11 +308,16 @@ function exitExerciseEarly() {
 function _unlockWord(wordId) {
   if (Progress.isUnlocked(wordId)) return;
 
-  const isRoot = appData.verbs.some(v => v.id === wordId);
-  if (isRoot) {
-    Progress.unlockRootVerb(wordId);
+  const isNoun = appData.nouns && appData.nouns.some(n => n.id === wordId);
+  if (isNoun) {
+    Progress.unlockNoun(wordId);
   } else {
-    Progress.unlockVariant(wordId);
+    const isRoot = appData.verbs.some(v => v.id === wordId);
+    if (isRoot) {
+      Progress.unlockRootVerb(wordId);
+    } else {
+      Progress.unlockVariant(wordId);
+    }
   }
   session.newlyUnlocked.push(wordId);
 }
@@ -347,6 +391,8 @@ function _findPrefixVerb(word) {
 }
 
 function _wordLabel(id) {
+  const noun = appData.nouns && appData.nouns.find(n => n.id === id);
+  if (noun) return `${noun.article} ${noun.word}`;
   const root = appData.verbs.find(v => v.id === id);
   if (root) return root.root;
   for (const v of appData.verbs) {

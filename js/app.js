@@ -14,6 +14,7 @@ let   currentExerciseState = null;   // set before navigating to exercise
 const appData = {
   modules:   [],
   verbs:     [],
+  nouns:     [],
   exercises: {}   // keyed by moduleId e.g. 'module_verbs'
 };
 
@@ -56,6 +57,7 @@ function onScreenEnter(screenId) {
     case 'screen-module-home': renderModuleHome(currentModuleId);       break;
     case 'screen-exercise':    startExercise(currentExerciseState);     break;
     case 'screen-verbliste':   renderVerbliste();                       break;
+    case 'screen-nomenliste':  renderNomenliste();                      break;
     case 'screen-results':     /* rendered by exercises.js */           break;
   }
 }
@@ -80,9 +82,11 @@ async function loadData() {
   // Data is embedded via js/data.js (window.APP_DATA) — no fetch needed.
   // This works with file://, localhost, and GitHub Pages equally.
   const d = window.APP_DATA || {};
-  appData.modules                   = d.modules   || [];
-  appData.verbs                     = d.verbs     || [];
-  appData.exercises['module_verbs'] = d.exercises_verbs || (d.exercises || {}).module_verbs || [];
+  appData.modules                    = d.modules        || [];
+  appData.verbs                      = d.verbs          || [];
+  appData.nouns                      = d.nouns          || [];
+  appData.exercises['module_verbs']  = d.exercises_verbs || (d.exercises || {}).module_verbs || [];
+  appData.exercises['module_nouns']  = d.exercises_nouns || [];
 }
 
 // ─────────────────────────────────────────
@@ -116,12 +120,14 @@ function renderHome() {
 }
 
 function _totalWordCount() {
-  let n = appData.verbs.length;
+  let n = appData.verbs.length + appData.nouns.length;
   for (const v of appData.verbs) n += (v.prefix_variants || []).length;
   return n;
 }
 
 function _wordLabel(id) {
+  const noun = appData.nouns.find(n => n.id === id);
+  if (noun) return `${noun.article} ${noun.word}`;
   const root = appData.verbs.find(v => v.id === id);
   if (root) return root.root;
   for (const v of appData.verbs) {
@@ -181,6 +187,8 @@ function renderModuleHome(moduleId) {
 
   if (moduleId === 'module_verbs') {
     _renderVerbModuleCategories();
+  } else if (moduleId === 'module_nouns') {
+    _renderNounModuleCategories();
   }
 }
 
@@ -251,6 +259,171 @@ function _renderVerbModuleCategories() {
         </svg>
       </div>
     </div>`;
+}
+
+// ─────────────────────────────────────────
+// MODULE HOME — NOUNS
+// ─────────────────────────────────────────
+
+function _renderNounModuleCategories() {
+  const total    = appData.nouns.length;
+  const unlocked = Progress.getUnlockedNouns().length;
+  const pct      = total > 0 ? Math.round(unlocked / total * 100) : 0;
+
+  document.getElementById('module-progress-count').textContent = `${unlocked} / ${total}`;
+  document.getElementById('module-progress-fill').style.width  = pct + '%';
+
+  document.getElementById('module-categories').innerHTML = `
+    <div class="label mt-4" style="color:var(--color-text-primary);margin-bottom:var(--sp-3)">
+      Übungen
+    </div>
+
+    <div class="category-pair">
+      <div class="category-card" style="grid-column:1/-1"
+           onclick="openExercise('module_nouns','all')">
+        <div class="category-card-title">Nomen üben</div>
+        <div class="category-card-subtitle">Articles, plurals &amp; vocabulary</div>
+        <div class="category-card-count mt-3">${unlocked} / ${total} gelernt</div>
+        <div class="progress-bar mt-2">
+          <div class="progress-fill" style="width:${pct}%"></div>
+        </div>
+        <div class="category-card-cta">Üben →</div>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="cursor:pointer" onclick="navigateTo('screen-nomenliste')">
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <div>
+          <div style="font-weight:var(--fw-bold)">Nomenliste</div>
+          <div style="font-size:var(--font-size-sm);color:var(--color-text-secondary);margin-top:2px">
+            Freigeschaltete Nomen nachschlagen</div>
+        </div>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+             style="color:var(--color-text-muted)">
+          <polyline points="9 18 15 12 9 6"/>
+        </svg>
+      </div>
+    </div>`;
+}
+
+// ─────────────────────────────────────────
+// NOMENLISTE (Noun Reference)
+// ─────────────────────────────────────────
+
+function renderNomenliste() {
+  const unlockedIds = new Set(Progress.getUnlockedNouns());
+  let nouns = appData.nouns.filter(n => unlockedIds.has(n.id));
+  nouns.sort((a, b) => a.word.localeCompare(b.word, 'de'));
+
+  const container = document.getElementById('nomenliste-content');
+
+  if (nouns.length === 0) {
+    container.innerHTML = `
+      <div class="empty-state">
+        <div class="empty-icon">📖</div>
+        <p>Noch keine Nomen freigeschaltet.</p>
+      </div>`;
+    return;
+  }
+
+  container.innerHTML = nouns.map(noun => `
+    <div class="card verb-card">
+      <div class="verb-card-header" onclick="toggleNounCard('${noun.id}')">
+        <div>
+          <span class="tag" style="margin-right:6px;background:${_articleColor(noun.article)};color:#fff">
+            ${noun.article}</span>
+          <span class="verb-card-title">${noun.word}</span>
+          <span class="verb-card-en"> — ${noun.english}</span>
+        </div>
+        <svg id="nl-arr-${noun.id}" width="16" height="16" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+             stroke-linejoin="round" style="color:var(--color-text-muted);transition:transform 0.2s">
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </div>
+
+      <div class="verb-detail" id="nl-det-${noun.id}">
+        <div class="conj-grid mt-3" style="grid-template-columns:1fr 1fr">
+          <div><span class="pronoun">Singular</span> <strong>${noun.article} ${noun.word}</strong></div>
+          <div><span class="pronoun">Plural</span> <strong>${noun.plural_article || 'die'} ${noun.plural}</strong></div>
+          <div><span class="pronoun">Genitiv</span> <strong>${noun.genitive || '—'}</strong></div>
+        </div>
+        ${noun.example_sentences && noun.example_sentences.length > 0 ? `
+          <div class="label mt-3" style="margin-bottom:var(--sp-2)">Beispiele</div>
+          ${noun.example_sentences.map(ex => `
+            <div class="example-card">
+              <div class="example-de">${ex.de}</div>
+              <div class="example-en">${ex.en}</div>
+            </div>`).join('')}` : ''}
+      </div>
+    </div>`).join('');
+}
+
+function toggleNounCard(nounId) {
+  const det = document.getElementById(`nl-det-${nounId}`);
+  const arr = document.getElementById(`nl-arr-${nounId}`);
+  const isOpen = det.classList.contains('open');
+  det.classList.toggle('open', !isOpen);
+  arr.style.transform = isOpen ? '' : 'rotate(180deg)';
+}
+
+function filterNounList(query) {
+  const q = query.toLowerCase().trim();
+  const unlockedIds = new Set(Progress.getUnlockedNouns());
+  let nouns = appData.nouns.filter(n => unlockedIds.has(n.id));
+  if (q) {
+    nouns = nouns.filter(n =>
+      n.word.toLowerCase().includes(q) || n.english.toLowerCase().includes(q));
+  }
+  nouns.sort((a, b) => a.word.localeCompare(b.word, 'de'));
+
+  const container = document.getElementById('nomenliste-content');
+  if (nouns.length === 0) {
+    container.innerHTML = `<div style="color:var(--color-text-muted);padding:var(--sp-4)">
+      Keine Ergebnisse.</div>`;
+    return;
+  }
+  // Re-render (reuse renderNomenliste logic via temp override)
+  const saved = Progress.getUnlockedNouns;
+  container.innerHTML = nouns.map(noun => `
+    <div class="card verb-card">
+      <div class="verb-card-header" onclick="toggleNounCard('${noun.id}')">
+        <div>
+          <span class="tag" style="margin-right:6px;background:${_articleColor(noun.article)};color:#fff">
+            ${noun.article}</span>
+          <span class="verb-card-title">${noun.word}</span>
+          <span class="verb-card-en"> — ${noun.english}</span>
+        </div>
+        <svg id="nl-arr-${noun.id}" width="16" height="16" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+             stroke-linejoin="round" style="color:var(--color-text-muted);transition:transform 0.2s">
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </div>
+      <div class="verb-detail" id="nl-det-${noun.id}">
+        <div class="conj-grid mt-3" style="grid-template-columns:1fr 1fr">
+          <div><span class="pronoun">Singular</span> <strong>${noun.article} ${noun.word}</strong></div>
+          <div><span class="pronoun">Plural</span> <strong>${noun.plural_article || 'die'} ${noun.plural}</strong></div>
+          <div><span class="pronoun">Genitiv</span> <strong>${noun.genitive || '—'}</strong></div>
+        </div>
+        ${noun.example_sentences && noun.example_sentences.length > 0 ? `
+          <div class="label mt-3" style="margin-bottom:var(--sp-2)">Beispiele</div>
+          ${noun.example_sentences.map(ex => `
+            <div class="example-card">
+              <div class="example-de">${ex.de}</div>
+              <div class="example-en">${ex.en}</div>
+            </div>`).join('')}` : ''}
+      </div>
+    </div>`).join('');
+}
+
+// Article badge colours (gender-coded: der=blue, die=red, das=green)
+function _articleColor(article) {
+  if (article === 'der') return '#4A7FC1';
+  if (article === 'die') return '#C14A4A';
+  if (article === 'das') return '#4A8C4A';
+  return '#888';
 }
 
 // ─────────────────────────────────────────

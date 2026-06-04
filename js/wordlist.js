@@ -12,6 +12,25 @@ function buildWordObjects() {
   const unlocked = Progress.getUnlockedWords();
   const words = [];
 
+  // Nouns
+  for (const noun of (appData.nouns || [])) {
+    if (unlocked.includes(noun.id)) {
+      words.push({
+        id:          noun.id,
+        german:      noun.word,
+        prefix:      null,
+        type:        'NOMEN',
+        article:     noun.article,
+        translation: noun.english,
+        level:       _extractLevel(noun.tags),
+        examples:    noun.example_sentences || [],
+        grammar:     null,
+        plural:      noun.plural
+      });
+    }
+  }
+
+  // Verbs
   for (const verb of appData.verbs) {
     if (unlocked.includes(verb.id)) {
       words.push({
@@ -66,7 +85,7 @@ function renderWordList() {
 }
 
 function _countTotalWords() {
-  let n = appData.verbs.length;
+  let n = appData.verbs.length + (appData.nouns || []).length;
   for (const v of appData.verbs) n += (v.prefix_variants || []).length;
   return n;
 }
@@ -145,7 +164,9 @@ function openWordSheet(wordId) {
     : w.german;
 
   document.getElementById('sheet-word').innerHTML  = wordHtml;
-  document.getElementById('sheet-meta').textContent = w.type + (w.level ? ` · ${w.level.toUpperCase()}` : '');
+  let metaText = w.type + (w.level ? ` · ${w.level.toUpperCase()}` : '');
+  if (w.type === 'NOMEN' && w.plural) metaText += ` · Pl: ${w.plural}`;
+  document.getElementById('sheet-meta').textContent = metaText;
   document.getElementById('sheet-translation').textContent = w.translation;
 
   // Examples

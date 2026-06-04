@@ -19,7 +19,7 @@
     "data_file": "nouns.json",
     "exercises_file": "exercises-nouns.json",
     "unlock_order": 2,
-    "status": "coming_soon"
+    "status": "active"
   },
   {
     "id": "module_adjectives",

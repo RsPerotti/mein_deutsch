@@ -22,7 +22,7 @@ window.APP_DATA = {
     "data_file": "nouns.json",
     "exercises_file": "exercises-nouns.json",
     "unlock_order": 2,
-    "status": "coming_soon"
+    "status": "active"
   },
   {
     "id": "module_adjectives",
@@ -6495,7 +6495,852 @@ window.APP_DATA = {
     ]
   }
 ],
-  exercises_verbs: 
+  nouns:
+[
+  {
+    "id": "noun_mann",
+    "word": "Mann",
+    "article": "der",
+    "english": "man",
+    "plural": "Männer",
+    "plural_article": "die",
+    "genitive": "des Mannes",
+    "frequency_rank": 1,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Der Mann geht in die Stadt.",
+        "en": "The man goes into the city.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Kennst du diesen Mann?",
+        "en": "Do you know this man?",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "people",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_frau",
+    "word": "Frau",
+    "article": "die",
+    "english": "woman",
+    "plural": "Frauen",
+    "plural_article": "die",
+    "genitive": "der Frau",
+    "frequency_rank": 2,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Die Frau arbeitet in einem Büro.",
+        "en": "The woman works in an office.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Eine Frau kommt aus Deutschland.",
+        "en": "A woman comes from Germany.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "people",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_kind",
+    "word": "Kind",
+    "article": "das",
+    "english": "child",
+    "plural": "Kinder",
+    "plural_article": "die",
+    "genitive": "des Kindes",
+    "frequency_rank": 3,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Das Kind spielt im Park.",
+        "en": "The child plays in the park.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Kinder gehen in die Schule.",
+        "en": "The children go to school.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "people",
+      "family",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_tag",
+    "word": "Tag",
+    "article": "der",
+    "english": "day",
+    "plural": "Tage",
+    "plural_article": "die",
+    "genitive": "des Tages",
+    "frequency_rank": 4,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Heute ist ein schöner Tag.",
+        "en": "Today is a beautiful day.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir haben sieben Tage in einer Woche.",
+        "en": "We have seven days in a week.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "time",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_jahr",
+    "word": "Jahr",
+    "article": "das",
+    "english": "year",
+    "plural": "Jahre",
+    "plural_article": "die",
+    "genitive": "des Jahres",
+    "frequency_rank": 5,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Das Jahr hat zwölf Monate.",
+        "en": "The year has twelve months.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich lerne seit einem Jahr Deutsch.",
+        "en": "I have been learning German for a year.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "time",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_zeit",
+    "word": "Zeit",
+    "article": "die",
+    "english": "time",
+    "plural": "Zeiten",
+    "plural_article": "die",
+    "genitive": "der Zeit",
+    "frequency_rank": 6,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Ich habe keine Zeit.",
+        "en": "I have no time.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Zeit vergeht schnell.",
+        "en": "Time passes quickly.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "time",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_haus",
+    "word": "Haus",
+    "article": "das",
+    "english": "house",
+    "plural": "Häuser",
+    "plural_article": "die",
+    "genitive": "des Hauses",
+    "frequency_rank": 7,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Das Haus ist sehr groß.",
+        "en": "The house is very big.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich wohne in einem kleinen Haus.",
+        "en": "I live in a small house.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "home",
+      "buildings",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_arbeit",
+    "word": "Arbeit",
+    "article": "die",
+    "english": "work",
+    "plural": "Arbeiten",
+    "plural_article": "die",
+    "genitive": "der Arbeit",
+    "frequency_rank": 8,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Die Arbeit beginnt um neun Uhr.",
+        "en": "Work begins at nine o'clock.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er sucht eine neue Arbeit.",
+        "en": "He is looking for a new job.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "work",
+      "daily_life",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_schule",
+    "word": "Schule",
+    "article": "die",
+    "english": "school",
+    "plural": "Schulen",
+    "plural_article": "die",
+    "genitive": "der Schule",
+    "frequency_rank": 9,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Die Schule beginnt um acht Uhr.",
+        "en": "School starts at eight o'clock.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Kind geht gern in die Schule.",
+        "en": "The child likes going to school.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "education",
+      "buildings",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_stadt",
+    "word": "Stadt",
+    "article": "die",
+    "english": "city/town",
+    "plural": "Städte",
+    "plural_article": "die",
+    "genitive": "der Stadt",
+    "frequency_rank": 10,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Berlin ist eine große Stadt.",
+        "en": "Berlin is a big city.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich wohne in der Stadt.",
+        "en": "I live in the city.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "places",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_land",
+    "word": "Land",
+    "article": "das",
+    "english": "country",
+    "plural": "Länder",
+    "plural_article": "die",
+    "genitive": "des Landes",
+    "frequency_rank": 11,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Deutschland ist ein großes Land.",
+        "en": "Germany is a large country.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Aus welchem Land kommst du?",
+        "en": "Which country are you from?",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "places",
+      "geography",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_geld",
+    "word": "Geld",
+    "article": "das",
+    "english": "money",
+    "plural": "Gelder",
+    "plural_article": "die",
+    "genitive": "des Geldes",
+    "frequency_rank": 12,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Ich habe kein Geld dabei.",
+        "en": "I don't have any money with me.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Geld liegt auf dem Tisch.",
+        "en": "The money is on the table.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "daily_life",
+      "finance",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_auto",
+    "word": "Auto",
+    "article": "das",
+    "english": "car",
+    "plural": "Autos",
+    "plural_article": "die",
+    "genitive": "des Autos",
+    "frequency_rank": 13,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Das Auto ist rot.",
+        "en": "The car is red.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er fährt jeden Tag mit dem Auto.",
+        "en": "He drives by car every day.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "transport",
+      "daily_life",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_tisch",
+    "word": "Tisch",
+    "article": "der",
+    "english": "table",
+    "plural": "Tische",
+    "plural_article": "die",
+    "genitive": "des Tisches",
+    "frequency_rank": 14,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Das Buch liegt auf dem Tisch.",
+        "en": "The book is on the table.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir essen am Tisch.",
+        "en": "We eat at the table.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "home",
+      "furniture",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_tuer",
+    "word": "Tür",
+    "article": "die",
+    "english": "door",
+    "plural": "Türen",
+    "plural_article": "die",
+    "genitive": "der Tür",
+    "frequency_rank": 15,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Bitte mach die Tür zu.",
+        "en": "Please close the door.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Tür ist offen.",
+        "en": "The door is open.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "home",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_strasse",
+    "word": "Straße",
+    "article": "die",
+    "english": "street",
+    "plural": "Straßen",
+    "plural_article": "die",
+    "genitive": "der Straße",
+    "frequency_rank": 16,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Die Straße ist sehr laut.",
+        "en": "The street is very loud.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er wohnt in der nächsten Straße.",
+        "en": "He lives in the next street.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "places",
+      "transport",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_familie",
+    "word": "Familie",
+    "article": "die",
+    "english": "family",
+    "plural": "Familien",
+    "plural_article": "die",
+    "genitive": "der Familie",
+    "frequency_rank": 17,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Meine Familie wohnt in Berlin.",
+        "en": "My family lives in Berlin.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Familie isst zusammen.",
+        "en": "The family eats together.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "family",
+      "people",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_freund",
+    "word": "Freund",
+    "article": "der",
+    "english": "friend",
+    "plural": "Freunde",
+    "plural_article": "die",
+    "genitive": "des Freundes",
+    "frequency_rank": 18,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Er ist mein bester Freund.",
+        "en": "He is my best friend.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich treffe meinen Freund heute.",
+        "en": "I am meeting my friend today.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "people",
+      "social",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_wasser",
+    "word": "Wasser",
+    "article": "das",
+    "english": "water",
+    "plural": "Wässer",
+    "plural_article": "die",
+    "genitive": "des Wassers",
+    "frequency_rank": 19,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Ich trinke ein Glas Wasser.",
+        "en": "I drink a glass of water.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Wasser ist kalt.",
+        "en": "The water is cold.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "food_drink",
+      "nature",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_buch",
+    "word": "Buch",
+    "article": "das",
+    "english": "book",
+    "plural": "Bücher",
+    "plural_article": "die",
+    "genitive": "des Buches",
+    "frequency_rank": 20,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Das Buch ist sehr interessant.",
+        "en": "The book is very interesting.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich lese gern Bücher.",
+        "en": "I like reading books.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "education",
+      "leisure",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_frage",
+    "word": "Frage",
+    "article": "die",
+    "english": "question",
+    "plural": "Fragen",
+    "plural_article": "die",
+    "genitive": "der Frage",
+    "frequency_rank": 21,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Ich habe eine Frage.",
+        "en": "I have a question.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Frage ist nicht einfach.",
+        "en": "The question is not simple.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "communication",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_wort",
+    "word": "Wort",
+    "article": "das",
+    "english": "word",
+    "plural": "Wörter",
+    "plural_article": "die",
+    "genitive": "des Wortes",
+    "frequency_rank": 22,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Ich kenne dieses Wort nicht.",
+        "en": "I don't know this word.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Wort kommt aus dem Lateinischen.",
+        "en": "The word comes from Latin.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "language",
+      "communication",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_nummer",
+    "word": "Nummer",
+    "article": "die",
+    "english": "number",
+    "plural": "Nummern",
+    "plural_article": "die",
+    "genitive": "der Nummer",
+    "frequency_rank": 23,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Was ist deine Telefonnummer?",
+        "en": "What is your phone number?",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Nummer ist falsch.",
+        "en": "The number is wrong.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "communication",
+      "daily_life",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_stuhl",
+    "word": "Stuhl",
+    "article": "der",
+    "english": "chair",
+    "plural": "Stühle",
+    "plural_article": "die",
+    "genitive": "des Stuhles",
+    "frequency_rank": 24,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Bitte nimm einen Stuhl.",
+        "en": "Please take a chair.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Stuhl steht neben dem Tisch.",
+        "en": "The chair stands next to the table.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "home",
+      "furniture",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_essen",
+    "word": "Essen",
+    "article": "das",
+    "english": "food/meal",
+    "plural": "Essen",
+    "plural_article": "die",
+    "genitive": "des Essens",
+    "frequency_rank": 25,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Das Essen schmeckt sehr gut.",
+        "en": "The food tastes very good.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Essen ist fertig.",
+        "en": "The meal is ready.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "food_drink",
+      "daily_life",
+      "a1"
+    ]
+  }
+],
+  exercises_verbs:
 [
   {
     "exercise_id": "ex_verb_sein_001",
@@ -24046,6 +24891,1809 @@ window.APP_DATA = {
       "mitgelitten"
     ],
     "explanation_en": "Perfekt of 'mitfühlen': 'mit-ge-fühlt'. Auxiliary: 'haben'."
+  }
+],
+  exercises_nouns:
+[
+  {
+    "exercise_id": "ex_noun_mann_001",
+    "word_id": "noun_mann",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Mann",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the man",
+    "wrong_answers": [
+      "the woman",
+      "the child",
+      "the boy",
+      "the person"
+    ],
+    "explanation_en": "'Mann' means 'man' in German. It takes the article 'der' (masculine)."
+  },
+  {
+    "exercise_id": "ex_noun_mann_002",
+    "word_id": "noun_mann",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Mann geht in die Stadt.",
+      "en": "The man goes into the city."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Mann' is a masculine noun. In the nominative case (subject of the sentence), it takes the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_mann_003",
+    "word_id": "noun_mann",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ liest ein Buch.",
+      "en": "The man is reading a book."
+    },
+    "correct_answer": "Mann",
+    "wrong_answers": [
+      "Frau",
+      "Kind",
+      "Freund",
+      "Junge"
+    ],
+    "explanation_en": "'Mann' means 'man'. It is the subject of this sentence, so it uses the nominative form with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_mann_004",
+    "word_id": "noun_mann",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich sehe den _____ auf der Straße.",
+      "en": "I see the man on the street."
+    },
+    "correct_answer": "Mann",
+    "wrong_answers": [
+      "Frau",
+      "Kind",
+      "Jungen",
+      "Freund"
+    ],
+    "explanation_en": "'Mann' is the direct object here, so it takes the accusative case: 'den Mann' (masculine accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_frau_001",
+    "word_id": "noun_frau",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Frau",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the woman",
+    "wrong_answers": [
+      "the man",
+      "the girl",
+      "the wife",
+      "the child"
+    ],
+    "explanation_en": "'Frau' means 'woman' in German. It takes the article 'die' (feminine). Note: 'Frau' also means 'Mrs.' as a title."
+  },
+  {
+    "exercise_id": "ex_noun_frau_002",
+    "word_id": "noun_frau",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Frau arbeitet in einem Büro.",
+      "en": "The woman works in an office."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Dem"
+    ],
+    "explanation_en": "'Frau' is a feminine noun. In the nominative case, it takes the article 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_frau_003",
+    "word_id": "noun_frau",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ kommt aus Österreich.",
+      "en": "The woman comes from Austria."
+    },
+    "correct_answer": "Frau",
+    "wrong_answers": [
+      "Mann",
+      "Kind",
+      "Mädchen",
+      "Freundin"
+    ],
+    "explanation_en": "'Frau' means 'woman'. As the subject, it uses nominative 'die Frau'."
+  },
+  {
+    "exercise_id": "ex_noun_frau_004",
+    "word_id": "noun_frau",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er kennt die _____ gut.",
+      "en": "He knows the woman well."
+    },
+    "correct_answer": "Frau",
+    "wrong_answers": [
+      "Mann",
+      "Kind",
+      "Freund",
+      "Person"
+    ],
+    "explanation_en": "'Frau' is the direct object here. Feminine nouns keep 'die' in the accusative case: 'die Frau'."
+  },
+  {
+    "exercise_id": "ex_noun_kind_001",
+    "word_id": "noun_kind",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Kind",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the child",
+    "wrong_answers": [
+      "the baby",
+      "the boy",
+      "the girl",
+      "the teenager"
+    ],
+    "explanation_en": "'Kind' means 'child' in German. It takes the neuter article 'das'. The plural is 'Kinder' (children)."
+  },
+  {
+    "exercise_id": "ex_noun_kind_002",
+    "word_id": "noun_kind",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Kind spielt im Park.",
+      "en": "The child plays in the park."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Des"
+    ],
+    "explanation_en": "'Kind' is a neuter noun. In the nominative case, it takes the article 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_kind_003",
+    "word_id": "noun_kind",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ ist sehr müde.",
+      "en": "The child is very tired."
+    },
+    "correct_answer": "Kind",
+    "wrong_answers": [
+      "Mann",
+      "Frau",
+      "Baby",
+      "Junge"
+    ],
+    "explanation_en": "'Kind' means 'child'. As a neuter noun, it uses 'das Kind' in the nominative."
+  },
+  {
+    "exercise_id": "ex_noun_kind_004",
+    "word_id": "noun_kind",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Eltern lieben ihr _____.",
+      "en": "The parents love their child."
+    },
+    "correct_answer": "Kind",
+    "wrong_answers": [
+      "Kinder",
+      "Baby",
+      "Tochter",
+      "Sohn"
+    ],
+    "explanation_en": "'Kind' (child) is the direct object. Neuter nouns keep 'das/ihr' in the accusative case: 'ihr Kind'."
+  },
+  {
+    "exercise_id": "ex_noun_tag_001",
+    "word_id": "noun_tag",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Tag",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the day",
+    "wrong_answers": [
+      "the week",
+      "the night",
+      "the morning",
+      "the hour"
+    ],
+    "explanation_en": "'Tag' means 'day' in German. It takes the masculine article 'der'. The plural is 'Tage'."
+  },
+  {
+    "exercise_id": "ex_noun_tag_002",
+    "word_id": "noun_tag",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "Heute ist ein schöner _____.",
+      "en": "Today is a beautiful day."
+    },
+    "correct_answer": "Tag",
+    "wrong_answers": [
+      "Nacht",
+      "Morgen",
+      "Abend",
+      "Woche"
+    ],
+    "explanation_en": "'Tag' means 'day'. It is masculine: 'der Tag', 'ein Tag'."
+  },
+  {
+    "exercise_id": "ex_noun_tag_003",
+    "word_id": "noun_tag",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ beginnt früh.",
+      "en": "The day starts early."
+    },
+    "correct_answer": "Tag",
+    "wrong_answers": [
+      "Abend",
+      "Morgen",
+      "Nachmittag",
+      "Nacht"
+    ],
+    "explanation_en": "'Tag' means 'day'. As the sentence subject, it uses nominative 'der Tag'."
+  },
+  {
+    "exercise_id": "ex_noun_tag_004",
+    "word_id": "noun_tag",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir haben sieben _____ in einer Woche.",
+      "en": "We have seven days in a week."
+    },
+    "correct_answer": "Tage",
+    "wrong_answers": [
+      "Tag",
+      "Tagen",
+      "Tags",
+      "Täge"
+    ],
+    "explanation_en": "The plural of 'Tag' is 'Tage'. In the accusative (after 'haben'), it stays 'Tage'."
+  },
+  {
+    "exercise_id": "ex_noun_jahr_001",
+    "word_id": "noun_jahr",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Jahr",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the year",
+    "wrong_answers": [
+      "the month",
+      "the week",
+      "the day",
+      "the decade"
+    ],
+    "explanation_en": "'Jahr' means 'year' in German. It is neuter: 'das Jahr'. Plural: 'Jahre'."
+  },
+  {
+    "exercise_id": "ex_noun_jahr_002",
+    "word_id": "noun_jahr",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Jahr hat zwölf Monate.",
+      "en": "The year has twelve months."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Des"
+    ],
+    "explanation_en": "'Jahr' is a neuter noun. In the nominative case, it takes the article 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_jahr_003",
+    "word_id": "noun_jahr",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ 2024 war sehr interessant.",
+      "en": "The year 2024 was very interesting."
+    },
+    "correct_answer": "Jahr",
+    "wrong_answers": [
+      "Monat",
+      "Tag",
+      "Jahrzehnt",
+      "Woche"
+    ],
+    "explanation_en": "'Jahr' means 'year'. As a neuter noun, it uses 'das Jahr' in the nominative."
+  },
+  {
+    "exercise_id": "ex_noun_jahr_004",
+    "word_id": "noun_jahr",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich lerne seit einem _____ Deutsch.",
+      "en": "I have been learning German for a year."
+    },
+    "correct_answer": "Jahr",
+    "wrong_answers": [
+      "Jahre",
+      "Jahren",
+      "Jahres",
+      "Monat"
+    ],
+    "explanation_en": "After 'seit' (for/since), the dative case is used: 'seit einem Jahr'. 'Jahr' stays the same in dative singular."
+  },
+  {
+    "exercise_id": "ex_noun_zeit_001",
+    "word_id": "noun_zeit",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Zeit",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the time",
+    "wrong_answers": [
+      "the clock",
+      "the hour",
+      "the moment",
+      "the day"
+    ],
+    "explanation_en": "'Zeit' means 'time' in German. It is feminine: 'die Zeit'. Plural: 'Zeiten'."
+  },
+  {
+    "exercise_id": "ex_noun_zeit_002",
+    "word_id": "noun_zeit",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich habe keine _____.",
+      "en": "I have no time."
+    },
+    "correct_answer": "Zeit",
+    "wrong_answers": [
+      "Uhr",
+      "Stunde",
+      "Moment",
+      "Pause"
+    ],
+    "explanation_en": "'Zeit' means 'time'. It is feminine: 'die Zeit', 'keine Zeit'."
+  },
+  {
+    "exercise_id": "ex_noun_zeit_003",
+    "word_id": "noun_zeit",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ vergeht schnell.",
+      "en": "Time passes quickly."
+    },
+    "correct_answer": "Zeit",
+    "wrong_answers": [
+      "Uhr",
+      "Stunde",
+      "Woche",
+      "Nacht"
+    ],
+    "explanation_en": "'Zeit' means 'time'. As a feminine noun in the nominative, it uses 'die Zeit'."
+  },
+  {
+    "exercise_id": "ex_noun_zeit_004",
+    "word_id": "noun_zeit",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Hast du _____ für ein Gespräch?",
+      "en": "Do you have time for a conversation?"
+    },
+    "correct_answer": "Zeit",
+    "wrong_answers": [
+      "Zeiten",
+      "eine Uhr",
+      "Stunden",
+      "Platz"
+    ],
+    "explanation_en": "'Zeit' is used without an article here (no time = keine Zeit, some time = Zeit). This is common with abstract nouns in German."
+  },
+  {
+    "exercise_id": "ex_noun_haus_001",
+    "word_id": "noun_haus",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Haus",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the house",
+    "wrong_answers": [
+      "the apartment",
+      "the building",
+      "the room",
+      "the flat"
+    ],
+    "explanation_en": "'Haus' means 'house' in German. It is neuter: 'das Haus'. Plural: 'Häuser' (note the umlaut)."
+  },
+  {
+    "exercise_id": "ex_noun_haus_002",
+    "word_id": "noun_haus",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Haus ist sehr groß.",
+      "en": "The house is very big."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Des"
+    ],
+    "explanation_en": "'Haus' is a neuter noun. In the nominative case, it takes the article 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_haus_003",
+    "word_id": "noun_haus",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ hat einen Garten.",
+      "en": "The house has a garden."
+    },
+    "correct_answer": "Haus",
+    "wrong_answers": [
+      "Wohnung",
+      "Zimmer",
+      "Gebäude",
+      "Hof"
+    ],
+    "explanation_en": "'Haus' means 'house'. As a neuter noun, it uses 'das Haus' as the sentence subject."
+  },
+  {
+    "exercise_id": "ex_noun_haus_004",
+    "word_id": "noun_haus",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir kaufen ein neues _____.",
+      "en": "We are buying a new house."
+    },
+    "correct_answer": "Haus",
+    "wrong_answers": [
+      "Häuser",
+      "Hauses",
+      "Wohnung",
+      "Gebäude"
+    ],
+    "explanation_en": "'Haus' is the accusative direct object here. Neuter nouns use 'ein Haus' in the accusative (same as nominative for neuter)."
+  },
+  {
+    "exercise_id": "ex_noun_arbeit_001",
+    "word_id": "noun_arbeit",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Arbeit",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the work / the job",
+    "wrong_answers": [
+      "the office",
+      "the task",
+      "the project",
+      "the career"
+    ],
+    "explanation_en": "'Arbeit' means 'work' or 'job' in German. It is feminine: 'die Arbeit'. Plural: 'Arbeiten'."
+  },
+  {
+    "exercise_id": "ex_noun_arbeit_002",
+    "word_id": "noun_arbeit",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Arbeit beginnt um neun Uhr.",
+      "en": "Work begins at nine o'clock."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Dem"
+    ],
+    "explanation_en": "'Arbeit' is a feminine noun. In the nominative case, it takes the article 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_arbeit_003",
+    "word_id": "noun_arbeit",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ macht mir Spaß.",
+      "en": "The work is fun for me."
+    },
+    "correct_answer": "Arbeit",
+    "wrong_answers": [
+      "Schule",
+      "Aufgabe",
+      "Stelle",
+      "Karriere"
+    ],
+    "explanation_en": "'Arbeit' means 'work'. As the sentence subject, it uses the nominative 'die Arbeit'."
+  },
+  {
+    "exercise_id": "ex_noun_arbeit_004",
+    "word_id": "noun_arbeit",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er sucht eine neue _____.",
+      "en": "He is looking for a new job."
+    },
+    "correct_answer": "Arbeit",
+    "wrong_answers": [
+      "Arbeiten",
+      "Stelle",
+      "Beruf",
+      "Aufgabe"
+    ],
+    "explanation_en": "'Arbeit' here means 'job'. After 'eine' (feminine indefinite accusative), 'Arbeit' is the direct object. Feminine accusative: 'eine Arbeit'."
+  },
+  {
+    "exercise_id": "ex_noun_schule_001",
+    "word_id": "noun_schule",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Schule",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the school",
+    "wrong_answers": [
+      "the university",
+      "the class",
+      "the lesson",
+      "the library"
+    ],
+    "explanation_en": "'Schule' means 'school' in German. It is feminine: 'die Schule'. Plural: 'Schulen'."
+  },
+  {
+    "exercise_id": "ex_noun_schule_002",
+    "word_id": "noun_schule",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Schule beginnt um acht Uhr.",
+      "en": "School starts at eight o'clock."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Dem"
+    ],
+    "explanation_en": "'Schule' is a feminine noun. In the nominative case, it takes the article 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_schule_003",
+    "word_id": "noun_schule",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Kind geht in die _____.",
+      "en": "The child goes to school."
+    },
+    "correct_answer": "Schule",
+    "wrong_answers": [
+      "Universität",
+      "Klasse",
+      "Bibliothek",
+      "Kita"
+    ],
+    "explanation_en": "'in die Schule' means 'to school'. After 'in' with direction of movement, the accusative is used: 'die Schule' (feminine accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_schule_004",
+    "word_id": "noun_schule",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Es gibt viele _____ in dieser Stadt.",
+      "en": "There are many schools in this city."
+    },
+    "correct_answer": "Schulen",
+    "wrong_answers": [
+      "Schule",
+      "Schulen",
+      "Schüler",
+      "Lehrer"
+    ],
+    "explanation_en": "The plural of 'Schule' is 'Schulen'. After 'viele' (many), use the plural form."
+  },
+  {
+    "exercise_id": "ex_noun_stadt_001",
+    "word_id": "noun_stadt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Stadt",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the city / the town",
+    "wrong_answers": [
+      "the village",
+      "the country",
+      "the district",
+      "the capital"
+    ],
+    "explanation_en": "'Stadt' means 'city' or 'town' in German. It is feminine: 'die Stadt'. Plural: 'Städte' (with umlaut)."
+  },
+  {
+    "exercise_id": "ex_noun_stadt_002",
+    "word_id": "noun_stadt",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "Berlin ist eine große _____.",
+      "en": "Berlin is a big city."
+    },
+    "correct_answer": "Stadt",
+    "wrong_answers": [
+      "Dorf",
+      "Land",
+      "Region",
+      "Hauptstadt"
+    ],
+    "explanation_en": "'Stadt' means 'city/town'. It is feminine: 'eine Stadt' (feminine indefinite nominative)."
+  },
+  {
+    "exercise_id": "ex_noun_stadt_003",
+    "word_id": "noun_stadt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ hat viele Parks.",
+      "en": "The city has many parks."
+    },
+    "correct_answer": "Stadt",
+    "wrong_answers": [
+      "Dorf",
+      "Region",
+      "Gemeinde",
+      "Hauptstadt"
+    ],
+    "explanation_en": "'Stadt' means 'city'. As a feminine noun, it uses 'die Stadt' in the nominative."
+  },
+  {
+    "exercise_id": "ex_noun_stadt_004",
+    "word_id": "noun_stadt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er fährt in die _____ zum Einkaufen.",
+      "en": "He goes into the city to go shopping."
+    },
+    "correct_answer": "Stadt",
+    "wrong_answers": [
+      "Dorf",
+      "Städte",
+      "Region",
+      "Mitte"
+    ],
+    "explanation_en": "'in die Stadt' uses accusative because there is movement toward the city (direction). Feminine accusative: 'die Stadt'."
+  },
+  {
+    "exercise_id": "ex_noun_land_001",
+    "word_id": "noun_land",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Land",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the country",
+    "wrong_answers": [
+      "the city",
+      "the region",
+      "the state",
+      "the continent"
+    ],
+    "explanation_en": "'Land' means 'country' in German. It is neuter: 'das Land'. Plural: 'Länder' (with umlaut). It can also mean 'countryside'."
+  },
+  {
+    "exercise_id": "ex_noun_land_002",
+    "word_id": "noun_land",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "Deutschland ist ein großes _____.",
+      "en": "Germany is a large country."
+    },
+    "correct_answer": "Land",
+    "wrong_answers": [
+      "Stadt",
+      "Region",
+      "Kontinent",
+      "Staat"
+    ],
+    "explanation_en": "'Land' means 'country'. It is neuter: 'ein Land' (neuter indefinite nominative)."
+  },
+  {
+    "exercise_id": "ex_noun_land_003",
+    "word_id": "noun_land",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ hat viele Einwohner.",
+      "en": "The country has many inhabitants."
+    },
+    "correct_answer": "Land",
+    "wrong_answers": [
+      "Stadt",
+      "Region",
+      "Dorf",
+      "Bundesland"
+    ],
+    "explanation_en": "'Land' means 'country'. As a neuter noun, it uses 'das Land' in the nominative."
+  },
+  {
+    "exercise_id": "ex_noun_land_004",
+    "word_id": "noun_land",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Es gibt viele _____ in Europa.",
+      "en": "There are many countries in Europe."
+    },
+    "correct_answer": "Länder",
+    "wrong_answers": [
+      "Land",
+      "Landes",
+      "Ländern",
+      "Staaten"
+    ],
+    "explanation_en": "The plural of 'Land' is 'Länder' (with umlaut). After 'viele' (many), use the plural form."
+  },
+  {
+    "exercise_id": "ex_noun_geld_001",
+    "word_id": "noun_geld",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Geld",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the money",
+    "wrong_answers": [
+      "the coin",
+      "the cash",
+      "the price",
+      "the bank"
+    ],
+    "explanation_en": "'Geld' means 'money' in German. It is neuter: 'das Geld'. It is usually used without a plural (uncountable)."
+  },
+  {
+    "exercise_id": "ex_noun_geld_002",
+    "word_id": "noun_geld",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich habe kein _____.",
+      "en": "I have no money."
+    },
+    "correct_answer": "Geld",
+    "wrong_answers": [
+      "Euro",
+      "Münze",
+      "Guthaben",
+      "Budget"
+    ],
+    "explanation_en": "'Geld' means 'money'. It is neuter: 'das Geld', 'kein Geld' (no money — neuter accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_geld_003",
+    "word_id": "noun_geld",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ liegt auf dem Tisch.",
+      "en": "The money is on the table."
+    },
+    "correct_answer": "Geld",
+    "wrong_answers": [
+      "Münze",
+      "Euro",
+      "Geldbeutel",
+      "Schein"
+    ],
+    "explanation_en": "'Geld' means 'money'. As a neuter noun, it uses 'das Geld' in the nominative."
+  },
+  {
+    "exercise_id": "ex_noun_geld_004",
+    "word_id": "noun_geld",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie gibt ihm das _____ zurück.",
+      "en": "She gives him the money back."
+    },
+    "correct_answer": "Geld",
+    "wrong_answers": [
+      "Gelder",
+      "Geldes",
+      "Euro",
+      "Münzen"
+    ],
+    "explanation_en": "'Geld' is the accusative direct object here ('gives back what?'). Neuter accusative: 'das Geld' (same form as nominative)."
+  },
+  {
+    "exercise_id": "ex_noun_auto_001",
+    "word_id": "noun_auto",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Auto",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the car",
+    "wrong_answers": [
+      "the bus",
+      "the truck",
+      "the bicycle",
+      "the vehicle"
+    ],
+    "explanation_en": "'Auto' means 'car' in German. It is neuter: 'das Auto'. Plural: 'Autos'. Short for 'Automobil'."
+  },
+  {
+    "exercise_id": "ex_noun_auto_002",
+    "word_id": "noun_auto",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Auto ist rot.",
+      "en": "The car is red."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Des"
+    ],
+    "explanation_en": "'Auto' is a neuter noun. In the nominative case, it takes the article 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_auto_003",
+    "word_id": "noun_auto",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ steht vor dem Haus.",
+      "en": "The car is parked in front of the house."
+    },
+    "correct_answer": "Auto",
+    "wrong_answers": [
+      "Bus",
+      "Fahrrad",
+      "Lastwagen",
+      "Fahrzeug"
+    ],
+    "explanation_en": "'Auto' means 'car'. As a neuter noun, it uses 'das Auto' in the nominative."
+  },
+  {
+    "exercise_id": "ex_noun_auto_004",
+    "word_id": "noun_auto",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er kauft ein neues _____.",
+      "en": "He is buying a new car."
+    },
+    "correct_answer": "Auto",
+    "wrong_answers": [
+      "Autos",
+      "Fahrrad",
+      "Bus",
+      "Wagen"
+    ],
+    "explanation_en": "'Auto' is the accusative direct object. Neuter nouns take 'ein Auto' in the accusative (same as nominative for neuter)."
+  },
+  {
+    "exercise_id": "ex_noun_tisch_001",
+    "word_id": "noun_tisch",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Tisch",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the table",
+    "wrong_answers": [
+      "the chair",
+      "the desk",
+      "the bench",
+      "the shelf"
+    ],
+    "explanation_en": "'Tisch' means 'table' in German. It is masculine: 'der Tisch'. Plural: 'Tische'."
+  },
+  {
+    "exercise_id": "ex_noun_tisch_002",
+    "word_id": "noun_tisch",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Buch liegt auf dem _____.",
+      "en": "The book is on the table."
+    },
+    "correct_answer": "Tisch",
+    "wrong_answers": [
+      "Stuhl",
+      "Boden",
+      "Regal",
+      "Schreibtisch"
+    ],
+    "explanation_en": "'Tisch' means 'table'. After 'auf dem' (on the — dative), masculine nouns use 'dem Tisch'."
+  },
+  {
+    "exercise_id": "ex_noun_tisch_003",
+    "word_id": "noun_tisch",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ ist aus Holz.",
+      "en": "The table is made of wood."
+    },
+    "correct_answer": "Tisch",
+    "wrong_answers": [
+      "Stuhl",
+      "Schrank",
+      "Regal",
+      "Schreibtisch"
+    ],
+    "explanation_en": "'Tisch' means 'table'. As a masculine noun, it uses 'der Tisch' in the nominative."
+  },
+  {
+    "exercise_id": "ex_noun_tisch_004",
+    "word_id": "noun_tisch",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie stellen das Essen auf den _____ .",
+      "en": "They put the food on the table."
+    },
+    "correct_answer": "Tisch",
+    "wrong_answers": [
+      "Stuhl",
+      "Boden",
+      "Tischen",
+      "Schrank"
+    ],
+    "explanation_en": "'auf den Tisch' uses the accusative because there is movement (putting something onto the table). Masculine accusative: 'den Tisch'."
+  },
+  {
+    "exercise_id": "ex_noun_tuer_001",
+    "word_id": "noun_tuer",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Tür",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the door",
+    "wrong_answers": [
+      "the window",
+      "the gate",
+      "the wall",
+      "the entrance"
+    ],
+    "explanation_en": "'Tür' means 'door' in German. It is feminine: 'die Tür'. Plural: 'Türen'."
+  },
+  {
+    "exercise_id": "ex_noun_tuer_002",
+    "word_id": "noun_tuer",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Tür ist offen.",
+      "en": "The door is open."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Dem"
+    ],
+    "explanation_en": "'Tür' is a feminine noun. In the nominative case, it takes the article 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_tuer_003",
+    "word_id": "noun_tuer",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Bitte mach die _____ zu.",
+      "en": "Please close the door."
+    },
+    "correct_answer": "Tür",
+    "wrong_answers": [
+      "Fenster",
+      "Tor",
+      "Wand",
+      "Eingang"
+    ],
+    "explanation_en": "'Tür' means 'door'. 'die Tür' is the accusative direct object (close what? the door). Feminine accusative = same as nominative: 'die Tür'."
+  },
+  {
+    "exercise_id": "ex_noun_tuer_004",
+    "word_id": "noun_tuer",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er klopft an die _____.",
+      "en": "He knocks on the door."
+    },
+    "correct_answer": "Tür",
+    "wrong_answers": [
+      "Fenster",
+      "Türen",
+      "Wand",
+      "Tor"
+    ],
+    "explanation_en": "'an die Tür' uses the accusative because of directed movement (knocking toward/at the door). Feminine accusative: 'die Tür'."
+  },
+  {
+    "exercise_id": "ex_noun_strasse_001",
+    "word_id": "noun_strasse",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Straße",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the street",
+    "wrong_answers": [
+      "the road",
+      "the path",
+      "the highway",
+      "the alley"
+    ],
+    "explanation_en": "'Straße' means 'street' in German. It is feminine: 'die Straße'. Plural: 'Straßen'. The ß (Eszett) represents a long 's' sound."
+  },
+  {
+    "exercise_id": "ex_noun_strasse_002",
+    "word_id": "noun_strasse",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Straße ist sehr laut.",
+      "en": "The street is very loud."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Dem"
+    ],
+    "explanation_en": "'Straße' is a feminine noun. In the nominative case, it takes the article 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_strasse_003",
+    "word_id": "noun_strasse",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Kind spielt auf der _____.",
+      "en": "The child plays on the street."
+    },
+    "correct_answer": "Straße",
+    "wrong_answers": [
+      "Weg",
+      "Autobahn",
+      "Allee",
+      "Gasse"
+    ],
+    "explanation_en": "'auf der Straße' uses the dative (location, not movement). Feminine dative: 'der Straße'."
+  },
+  {
+    "exercise_id": "ex_noun_strasse_004",
+    "word_id": "noun_strasse",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er wohnt in der nächsten _____.",
+      "en": "He lives in the next street."
+    },
+    "correct_answer": "Straße",
+    "wrong_answers": [
+      "Straßen",
+      "Weg",
+      "Allee",
+      "Gasse"
+    ],
+    "explanation_en": "'in der nächsten Straße' uses the dative (location). Feminine dative: 'der Straße'."
+  },
+  {
+    "exercise_id": "ex_noun_familie_001",
+    "word_id": "noun_familie",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Familie",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the family",
+    "wrong_answers": [
+      "the relatives",
+      "the household",
+      "the parents",
+      "the couple"
+    ],
+    "explanation_en": "'Familie' means 'family' in German. It is feminine: 'die Familie'. Plural: 'Familien'."
+  },
+  {
+    "exercise_id": "ex_noun_familie_002",
+    "word_id": "noun_familie",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Familie wohnt in München.",
+      "en": "The family lives in Munich."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Dem"
+    ],
+    "explanation_en": "'Familie' is a feminine noun. In the nominative case, it takes the article 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_familie_003",
+    "word_id": "noun_familie",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Meine _____ ist sehr groß.",
+      "en": "My family is very big."
+    },
+    "correct_answer": "Familie",
+    "wrong_answers": [
+      "Verwandten",
+      "Eltern",
+      "Haushalt",
+      "Gruppe"
+    ],
+    "explanation_en": "'Familie' means 'family'. With possessive 'meine' (my — feminine nominative), it remains 'meine Familie'."
+  },
+  {
+    "exercise_id": "ex_noun_familie_004",
+    "word_id": "noun_familie",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er besucht seine _____ am Wochenende.",
+      "en": "He visits his family at the weekend."
+    },
+    "correct_answer": "Familie",
+    "wrong_answers": [
+      "Familien",
+      "Verwandten",
+      "Eltern",
+      "Freunde"
+    ],
+    "explanation_en": "'Familie' is the accusative direct object. With 'seine' (his — feminine accusative), it stays 'seine Familie'."
+  },
+  {
+    "exercise_id": "ex_noun_freund_001",
+    "word_id": "noun_freund",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Freund",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the friend (male)",
+    "wrong_answers": [
+      "the colleague",
+      "the acquaintance",
+      "the partner",
+      "the neighbour"
+    ],
+    "explanation_en": "'Freund' means 'friend' (male) in German. It is masculine: 'der Freund'. Plural: 'Freunde'. The female form is 'Freundin'. Note: 'Freund/Freundin' also means boyfriend/girlfriend in context."
+  },
+  {
+    "exercise_id": "ex_noun_freund_002",
+    "word_id": "noun_freund",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Freund kommt heute.",
+      "en": "My friend is coming today."
+    },
+    "correct_answer": "Mein",
+    "wrong_answers": [
+      "Meine",
+      "Mein",
+      "Der",
+      "Sein"
+    ],
+    "explanation_en": "'Freund' is a masculine noun. The possessive 'my' for masculine nominative is 'mein' (not 'meine')."
+  },
+  {
+    "exercise_id": "ex_noun_freund_003",
+    "word_id": "noun_freund",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er ist mein bester _____.",
+      "en": "He is my best friend."
+    },
+    "correct_answer": "Freund",
+    "wrong_answers": [
+      "Kollege",
+      "Bekannter",
+      "Nachbar",
+      "Partner"
+    ],
+    "explanation_en": "'Freund' means 'friend (male)'. As a masculine nominative, it uses 'mein Freund' or 'der Freund'."
+  },
+  {
+    "exercise_id": "ex_noun_freund_004",
+    "word_id": "noun_freund",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich besuche meinen _____ in Hamburg.",
+      "en": "I am visiting my friend in Hamburg."
+    },
+    "correct_answer": "Freund",
+    "wrong_answers": [
+      "Freunde",
+      "Freundin",
+      "Kollegen",
+      "Bekannten"
+    ],
+    "explanation_en": "'Freund' is the accusative direct object. Masculine accusative: 'meinen Freund' (note the -en ending on the possessive)."
+  },
+  {
+    "exercise_id": "ex_noun_wasser_001",
+    "word_id": "noun_wasser",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Wasser",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the water",
+    "wrong_answers": [
+      "the juice",
+      "the milk",
+      "the drink",
+      "the river"
+    ],
+    "explanation_en": "'Wasser' means 'water' in German. It is neuter: 'das Wasser'. Plural: 'Wässer' (mostly used for mineral waters)."
+  },
+  {
+    "exercise_id": "ex_noun_wasser_002",
+    "word_id": "noun_wasser",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Wasser ist kalt.",
+      "en": "The water is cold."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Des"
+    ],
+    "explanation_en": "'Wasser' is a neuter noun. In the nominative case, it takes the article 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_wasser_003",
+    "word_id": "noun_wasser",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich trinke ein Glas _____.",
+      "en": "I drink a glass of water."
+    },
+    "correct_answer": "Wasser",
+    "wrong_answers": [
+      "Saft",
+      "Milch",
+      "Tee",
+      "Bier"
+    ],
+    "explanation_en": "'Wasser' means 'water'. After 'ein Glas' (a glass of), use the noun without article: 'ein Glas Wasser'."
+  },
+  {
+    "exercise_id": "ex_noun_wasser_004",
+    "word_id": "noun_wasser",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Hast du das _____ schon bestellt?",
+      "en": "Have you already ordered the water?"
+    },
+    "correct_answer": "Wasser",
+    "wrong_answers": [
+      "Getränk",
+      "Saft",
+      "Wässer",
+      "Glas"
+    ],
+    "explanation_en": "'Wasser' is the accusative direct object. Neuter accusative: 'das Wasser' (same form as nominative)."
+  },
+  {
+    "exercise_id": "ex_noun_buch_001",
+    "word_id": "noun_buch",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Buch",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the book",
+    "wrong_answers": [
+      "the magazine",
+      "the newspaper",
+      "the notebook",
+      "the novel"
+    ],
+    "explanation_en": "'Buch' means 'book' in German. It is neuter: 'das Buch'. Plural: 'Bücher' (with umlaut)."
+  },
+  {
+    "exercise_id": "ex_noun_buch_002",
+    "word_id": "noun_buch",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Buch ist sehr interessant.",
+      "en": "The book is very interesting."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Des"
+    ],
+    "explanation_en": "'Buch' is a neuter noun. In the nominative case, it takes the article 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_buch_003",
+    "word_id": "noun_buch",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ liegt auf dem Tisch.",
+      "en": "The book is lying on the table."
+    },
+    "correct_answer": "Buch",
+    "wrong_answers": [
+      "Heft",
+      "Magazin",
+      "Zeitung",
+      "Roman"
+    ],
+    "explanation_en": "'Buch' means 'book'. As a neuter noun in the nominative, it uses 'das Buch'."
+  },
+  {
+    "exercise_id": "ex_noun_buch_004",
+    "word_id": "noun_buch",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er liest ein _____ über Geschichte.",
+      "en": "He is reading a book about history."
+    },
+    "correct_answer": "Buch",
+    "wrong_answers": [
+      "Bücher",
+      "Buches",
+      "Roman",
+      "Heft"
+    ],
+    "explanation_en": "'Buch' is the accusative direct object. Neuter indefinite accusative: 'ein Buch' (same as nominative for neuter)."
+  },
+  {
+    "exercise_id": "ex_noun_frage_001",
+    "word_id": "noun_frage",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Frage",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the question",
+    "wrong_answers": [
+      "the answer",
+      "the problem",
+      "the task",
+      "the topic"
+    ],
+    "explanation_en": "'Frage' means 'question' in German. It is feminine: 'die Frage'. Plural: 'Fragen'."
+  },
+  {
+    "exercise_id": "ex_noun_frage_002",
+    "word_id": "noun_frage",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich habe eine _____.",
+      "en": "I have a question."
+    },
+    "correct_answer": "Frage",
+    "wrong_answers": [
+      "Antwort",
+      "Aufgabe",
+      "Problem",
+      "Idee"
+    ],
+    "explanation_en": "'Frage' means 'question'. It is feminine: 'eine Frage' (feminine indefinite accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_frage_003",
+    "word_id": "noun_frage",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ ist nicht einfach.",
+      "en": "The question is not simple."
+    },
+    "correct_answer": "Frage",
+    "wrong_answers": [
+      "Antwort",
+      "Aufgabe",
+      "Thema",
+      "Problem"
+    ],
+    "explanation_en": "'Frage' means 'question'. As a feminine noun in the nominative, it uses 'die Frage'."
+  },
+  {
+    "exercise_id": "ex_noun_frage_004",
+    "word_id": "noun_frage",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er beantwortet alle _____.",
+      "en": "He answers all the questions."
+    },
+    "correct_answer": "Fragen",
+    "wrong_answers": [
+      "Frage",
+      "Antworten",
+      "Aufgaben",
+      "Themen"
+    ],
+    "explanation_en": "The plural of 'Frage' is 'Fragen'. After 'alle' (all), use the plural form."
+  },
+  {
+    "exercise_id": "ex_noun_wort_001",
+    "word_id": "noun_wort",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Wort",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the word",
+    "wrong_answers": [
+      "the sentence",
+      "the letter",
+      "the term",
+      "the phrase"
+    ],
+    "explanation_en": "'Wort' means 'word' in German. It is neuter: 'das Wort'. It has two plurals: 'Wörter' (individual words) and 'Worte' (words in context or quotations)."
+  },
+  {
+    "exercise_id": "ex_noun_wort_002",
+    "word_id": "noun_wort",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich kenne dieses _____ nicht.",
+      "en": "I don't know this word."
+    },
+    "correct_answer": "Wort",
+    "wrong_answers": [
+      "Satz",
+      "Buchstabe",
+      "Begriff",
+      "Ausdruck"
+    ],
+    "explanation_en": "'Wort' means 'word'. It is neuter: 'dieses Wort' (this word — neuter accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_wort_003",
+    "word_id": "noun_wort",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ ist sehr lang.",
+      "en": "The word is very long."
+    },
+    "correct_answer": "Wort",
+    "wrong_answers": [
+      "Satz",
+      "Buchstabe",
+      "Ausdruck",
+      "Begriff"
+    ],
+    "explanation_en": "'Wort' means 'word'. As a neuter noun, it uses 'das Wort' in the nominative."
+  },
+  {
+    "exercise_id": "ex_noun_wort_004",
+    "word_id": "noun_wort",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Im Deutschen gibt es viele lange _____.",
+      "en": "In German there are many long words."
+    },
+    "correct_answer": "Wörter",
+    "wrong_answers": [
+      "Worte",
+      "Wort",
+      "Wortes",
+      "Sätze"
+    ],
+    "explanation_en": "Use 'Wörter' for individual separate words (e.g. in a list or dictionary). 'Worte' is used for words in a meaningful context ('seine letzten Worte' = his last words)."
+  },
+  {
+    "exercise_id": "ex_noun_nummer_001",
+    "word_id": "noun_nummer",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Nummer",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the number",
+    "wrong_answers": [
+      "the digit",
+      "the code",
+      "the amount",
+      "the figure"
+    ],
+    "explanation_en": "'Nummer' means 'number' in German. It is feminine: 'die Nummer'. Plural: 'Nummern'. Used for identifiers like phone numbers, house numbers."
+  },
+  {
+    "exercise_id": "ex_noun_nummer_002",
+    "word_id": "noun_nummer",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ ist falsch.",
+      "en": "The number is wrong."
+    },
+    "correct_answer": "Nummer",
+    "wrong_answers": [
+      "Zahl",
+      "Code",
+      "Ziffer",
+      "Betrag"
+    ],
+    "explanation_en": "'Nummer' means 'number'. It is feminine: 'die Nummer' in the nominative."
+  },
+  {
+    "exercise_id": "ex_noun_nummer_003",
+    "word_id": "noun_nummer",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Was ist deine Telefon_____?",
+      "en": "What is your phone number?"
+    },
+    "correct_answer": "nummer",
+    "wrong_answers": [
+      "zahl",
+      "code",
+      "adresse",
+      "id"
+    ],
+    "explanation_en": "'Telefonnummer' is a compound noun (Telefon + Nummer). German frequently combines nouns into one long word. The gender is determined by the last noun: 'die Nummer' → 'die Telefonnummer'."
+  },
+  {
+    "exercise_id": "ex_noun_nummer_004",
+    "word_id": "noun_nummer",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er hat die _____ aufgeschrieben.",
+      "en": "He wrote down the number."
+    },
+    "correct_answer": "Nummer",
+    "wrong_answers": [
+      "Nummern",
+      "Zahl",
+      "Code",
+      "Ziffer"
+    ],
+    "explanation_en": "'Nummer' is the accusative direct object. Feminine accusative: 'die Nummer' (same form as nominative)."
+  },
+  {
+    "exercise_id": "ex_noun_stuhl_001",
+    "word_id": "noun_stuhl",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Stuhl",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the chair",
+    "wrong_answers": [
+      "the table",
+      "the sofa",
+      "the bench",
+      "the stool"
+    ],
+    "explanation_en": "'Stuhl' means 'chair' in German. It is masculine: 'der Stuhl'. Plural: 'Stühle' (with umlaut)."
+  },
+  {
+    "exercise_id": "ex_noun_stuhl_002",
+    "word_id": "noun_stuhl",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Stuhl steht neben dem Tisch.",
+      "en": "The chair stands next to the table."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Stuhl' is a masculine noun. In the nominative case, it takes the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_stuhl_003",
+    "word_id": "noun_stuhl",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Bitte nimm einen _____.",
+      "en": "Please take a chair."
+    },
+    "correct_answer": "Stuhl",
+    "wrong_answers": [
+      "Tisch",
+      "Sofa",
+      "Bank",
+      "Hocker"
+    ],
+    "explanation_en": "'Stuhl' means 'chair'. As a masculine accusative with indefinite article: 'einen Stuhl' (note the -en ending on 'ein')."
+  },
+  {
+    "exercise_id": "ex_noun_stuhl_004",
+    "word_id": "noun_stuhl",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie stellt sich auf den _____.",
+      "en": "She stands on the chair."
+    },
+    "correct_answer": "Stuhl",
+    "wrong_answers": [
+      "Tisch",
+      "Stühle",
+      "Boden",
+      "Hocker"
+    ],
+    "explanation_en": "'auf den Stuhl' uses the accusative because of upward directed movement. Masculine accusative: 'den Stuhl'."
+  },
+  {
+    "exercise_id": "ex_noun_essen_001",
+    "word_id": "noun_essen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Essen",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the food / the meal",
+    "wrong_answers": [
+      "the drink",
+      "the snack",
+      "the recipe",
+      "the restaurant"
+    ],
+    "explanation_en": "'Essen' means 'food' or 'meal' in German. It is neuter: 'das Essen'. It comes from the verb 'essen' (to eat). The plural 'Essen' is the same as the singular."
+  },
+  {
+    "exercise_id": "ex_noun_essen_002",
+    "word_id": "noun_essen",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Essen schmeckt sehr gut.",
+      "en": "The food tastes very good."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Des"
+    ],
+    "explanation_en": "'Essen' is a neuter noun. In the nominative case, it takes the article 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_essen_003",
+    "word_id": "noun_essen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ ist fertig.",
+      "en": "The meal is ready."
+    },
+    "correct_answer": "Essen",
+    "wrong_answers": [
+      "Getränk",
+      "Snack",
+      "Rezept",
+      "Gericht"
+    ],
+    "explanation_en": "'Essen' means 'meal' or 'food'. As a neuter noun, it uses 'das Essen' in the nominative."
+  },
+  {
+    "exercise_id": "ex_noun_essen_004",
+    "word_id": "noun_essen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich bestelle das _____ für alle.",
+      "en": "I am ordering the food for everyone."
+    },
+    "correct_answer": "Essen",
+    "wrong_answers": [
+      "Getränke",
+      "Gericht",
+      "Speise",
+      "Mahlzeit"
+    ],
+    "explanation_en": "'Essen' is the accusative direct object. Neuter accusative: 'das Essen' (same form as nominative)."
   }
 ]
 };

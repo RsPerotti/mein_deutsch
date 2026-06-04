@@ -19,7 +19,8 @@ const Progress = {
     COOLDOWN:            'app_cooldown_words',
     NEEDS_REVIEW:        'app_needs_review',
     STREAK:              'app_streak',
-    STREAK_DATE:         'app_streak_last_date'
+    STREAK_DATE:         'app_streak_last_date',
+    NOUNS_UNLOCKED:      'app_nouns_unlocked'
   },
 
   // --- Generic helpers ---
@@ -84,6 +85,15 @@ const Progress = {
     const list = this.getUnlockedVariants();
     if (!list.includes(variantId)) { list.push(variantId); this._set(this.KEYS.VERBS_VARIANT, list); }
     this.unlockWord(variantId);
+  },
+
+  // --- Nouns ---
+  getUnlockedNouns() { return this._get(this.KEYS.NOUNS_UNLOCKED, []); },
+
+  unlockNoun(nounId) {
+    const list = this.getUnlockedNouns();
+    if (!list.includes(nounId)) { list.push(nounId); this._set(this.KEYS.NOUNS_UNLOCKED, list); }
+    this.unlockWord(nounId);
   },
 
   // --- Cooldown (Section 11.3) ---
