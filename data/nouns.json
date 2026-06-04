@@ -1,0 +1,844 @@
+[
+  {
+    "id": "noun_mann",
+    "word": "Mann",
+    "article": "der",
+    "english": "man",
+    "plural": "Männer",
+    "plural_article": "die",
+    "genitive": "des Mannes",
+    "frequency_rank": 1,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Der Mann geht in die Stadt.",
+        "en": "The man goes into the city.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Kennst du diesen Mann?",
+        "en": "Do you know this man?",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "people",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_frau",
+    "word": "Frau",
+    "article": "die",
+    "english": "woman",
+    "plural": "Frauen",
+    "plural_article": "die",
+    "genitive": "der Frau",
+    "frequency_rank": 2,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Die Frau arbeitet in einem Büro.",
+        "en": "The woman works in an office.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Eine Frau kommt aus Deutschland.",
+        "en": "A woman comes from Germany.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "people",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_kind",
+    "word": "Kind",
+    "article": "das",
+    "english": "child",
+    "plural": "Kinder",
+    "plural_article": "die",
+    "genitive": "des Kindes",
+    "frequency_rank": 3,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Das Kind spielt im Park.",
+        "en": "The child plays in the park.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Kinder gehen in die Schule.",
+        "en": "The children go to school.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "people",
+      "family",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_tag",
+    "word": "Tag",
+    "article": "der",
+    "english": "day",
+    "plural": "Tage",
+    "plural_article": "die",
+    "genitive": "des Tages",
+    "frequency_rank": 4,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Heute ist ein schöner Tag.",
+        "en": "Today is a beautiful day.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir haben sieben Tage in einer Woche.",
+        "en": "We have seven days in a week.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "time",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_jahr",
+    "word": "Jahr",
+    "article": "das",
+    "english": "year",
+    "plural": "Jahre",
+    "plural_article": "die",
+    "genitive": "des Jahres",
+    "frequency_rank": 5,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Das Jahr hat zwölf Monate.",
+        "en": "The year has twelve months.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich lerne seit einem Jahr Deutsch.",
+        "en": "I have been learning German for a year.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "time",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_zeit",
+    "word": "Zeit",
+    "article": "die",
+    "english": "time",
+    "plural": "Zeiten",
+    "plural_article": "die",
+    "genitive": "der Zeit",
+    "frequency_rank": 6,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Ich habe keine Zeit.",
+        "en": "I have no time.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Zeit vergeht schnell.",
+        "en": "Time passes quickly.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "time",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_haus",
+    "word": "Haus",
+    "article": "das",
+    "english": "house",
+    "plural": "Häuser",
+    "plural_article": "die",
+    "genitive": "des Hauses",
+    "frequency_rank": 7,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Das Haus ist sehr groß.",
+        "en": "The house is very big.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich wohne in einem kleinen Haus.",
+        "en": "I live in a small house.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "home",
+      "buildings",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_arbeit",
+    "word": "Arbeit",
+    "article": "die",
+    "english": "work",
+    "plural": "Arbeiten",
+    "plural_article": "die",
+    "genitive": "der Arbeit",
+    "frequency_rank": 8,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Die Arbeit beginnt um neun Uhr.",
+        "en": "Work begins at nine o'clock.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er sucht eine neue Arbeit.",
+        "en": "He is looking for a new job.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "work",
+      "daily_life",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_schule",
+    "word": "Schule",
+    "article": "die",
+    "english": "school",
+    "plural": "Schulen",
+    "plural_article": "die",
+    "genitive": "der Schule",
+    "frequency_rank": 9,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Die Schule beginnt um acht Uhr.",
+        "en": "School starts at eight o'clock.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Kind geht gern in die Schule.",
+        "en": "The child likes going to school.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "education",
+      "buildings",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_stadt",
+    "word": "Stadt",
+    "article": "die",
+    "english": "city/town",
+    "plural": "Städte",
+    "plural_article": "die",
+    "genitive": "der Stadt",
+    "frequency_rank": 10,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Berlin ist eine große Stadt.",
+        "en": "Berlin is a big city.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich wohne in der Stadt.",
+        "en": "I live in the city.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "places",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_land",
+    "word": "Land",
+    "article": "das",
+    "english": "country",
+    "plural": "Länder",
+    "plural_article": "die",
+    "genitive": "des Landes",
+    "frequency_rank": 11,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Deutschland ist ein großes Land.",
+        "en": "Germany is a large country.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Aus welchem Land kommst du?",
+        "en": "Which country are you from?",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "places",
+      "geography",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_geld",
+    "word": "Geld",
+    "article": "das",
+    "english": "money",
+    "plural": "Gelder",
+    "plural_article": "die",
+    "genitive": "des Geldes",
+    "frequency_rank": 12,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Ich habe kein Geld dabei.",
+        "en": "I don't have any money with me.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Geld liegt auf dem Tisch.",
+        "en": "The money is on the table.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "daily_life",
+      "finance",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_auto",
+    "word": "Auto",
+    "article": "das",
+    "english": "car",
+    "plural": "Autos",
+    "plural_article": "die",
+    "genitive": "des Autos",
+    "frequency_rank": 13,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Das Auto ist rot.",
+        "en": "The car is red.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er fährt jeden Tag mit dem Auto.",
+        "en": "He drives by car every day.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "transport",
+      "daily_life",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_tisch",
+    "word": "Tisch",
+    "article": "der",
+    "english": "table",
+    "plural": "Tische",
+    "plural_article": "die",
+    "genitive": "des Tisches",
+    "frequency_rank": 14,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Das Buch liegt auf dem Tisch.",
+        "en": "The book is on the table.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir essen am Tisch.",
+        "en": "We eat at the table.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "home",
+      "furniture",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_tuer",
+    "word": "Tür",
+    "article": "die",
+    "english": "door",
+    "plural": "Türen",
+    "plural_article": "die",
+    "genitive": "der Tür",
+    "frequency_rank": 15,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Bitte mach die Tür zu.",
+        "en": "Please close the door.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Tür ist offen.",
+        "en": "The door is open.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "home",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_strasse",
+    "word": "Straße",
+    "article": "die",
+    "english": "street",
+    "plural": "Straßen",
+    "plural_article": "die",
+    "genitive": "der Straße",
+    "frequency_rank": 16,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Die Straße ist sehr laut.",
+        "en": "The street is very loud.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er wohnt in der nächsten Straße.",
+        "en": "He lives in the next street.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "places",
+      "transport",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_familie",
+    "word": "Familie",
+    "article": "die",
+    "english": "family",
+    "plural": "Familien",
+    "plural_article": "die",
+    "genitive": "der Familie",
+    "frequency_rank": 17,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Meine Familie wohnt in Berlin.",
+        "en": "My family lives in Berlin.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Familie isst zusammen.",
+        "en": "The family eats together.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "family",
+      "people",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_freund",
+    "word": "Freund",
+    "article": "der",
+    "english": "friend",
+    "plural": "Freunde",
+    "plural_article": "die",
+    "genitive": "des Freundes",
+    "frequency_rank": 18,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Er ist mein bester Freund.",
+        "en": "He is my best friend.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich treffe meinen Freund heute.",
+        "en": "I am meeting my friend today.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "people",
+      "social",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_wasser",
+    "word": "Wasser",
+    "article": "das",
+    "english": "water",
+    "plural": "Wässer",
+    "plural_article": "die",
+    "genitive": "des Wassers",
+    "frequency_rank": 19,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Ich trinke ein Glas Wasser.",
+        "en": "I drink a glass of water.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Wasser ist kalt.",
+        "en": "The water is cold.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "food_drink",
+      "nature",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_buch",
+    "word": "Buch",
+    "article": "das",
+    "english": "book",
+    "plural": "Bücher",
+    "plural_article": "die",
+    "genitive": "des Buches",
+    "frequency_rank": 20,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Das Buch ist sehr interessant.",
+        "en": "The book is very interesting.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich lese gern Bücher.",
+        "en": "I like reading books.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "education",
+      "leisure",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_frage",
+    "word": "Frage",
+    "article": "die",
+    "english": "question",
+    "plural": "Fragen",
+    "plural_article": "die",
+    "genitive": "der Frage",
+    "frequency_rank": 21,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Ich habe eine Frage.",
+        "en": "I have a question.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Frage ist nicht einfach.",
+        "en": "The question is not simple.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "communication",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_wort",
+    "word": "Wort",
+    "article": "das",
+    "english": "word",
+    "plural": "Wörter",
+    "plural_article": "die",
+    "genitive": "des Wortes",
+    "frequency_rank": 22,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Ich kenne dieses Wort nicht.",
+        "en": "I don't know this word.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Wort kommt aus dem Lateinischen.",
+        "en": "The word comes from Latin.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "language",
+      "communication",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_nummer",
+    "word": "Nummer",
+    "article": "die",
+    "english": "number",
+    "plural": "Nummern",
+    "plural_article": "die",
+    "genitive": "der Nummer",
+    "frequency_rank": 23,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Was ist deine Telefonnummer?",
+        "en": "What is your phone number?",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Nummer ist falsch.",
+        "en": "The number is wrong.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "communication",
+      "daily_life",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_stuhl",
+    "word": "Stuhl",
+    "article": "der",
+    "english": "chair",
+    "plural": "Stühle",
+    "plural_article": "die",
+    "genitive": "des Stuhles",
+    "frequency_rank": 24,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Bitte nimm einen Stuhl.",
+        "en": "Please take a chair.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Stuhl steht neben dem Tisch.",
+        "en": "The chair stands next to the table.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "home",
+      "furniture",
+      "a1"
+    ]
+  },
+  {
+    "id": "noun_essen",
+    "word": "Essen",
+    "article": "das",
+    "english": "food/meal",
+    "plural": "Essen",
+    "plural_article": "die",
+    "genitive": "des Essens",
+    "frequency_rank": 25,
+    "module": "nouns",
+    "unlock_level": 1,
+    "example_sentences": [
+      {
+        "de": "Das Essen schmeckt sehr gut.",
+        "en": "The food tastes very good.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Essen ist fertig.",
+        "en": "The meal is ready.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "food_drink",
+      "daily_life",
+      "a1"
+    ]
+  }
+]

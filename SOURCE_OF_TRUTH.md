@@ -1,11 +1,11 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-06-03 — Session 3*
+*Last updated: 2026-06-04 — Session 6*
 
 ---
 
 ## Current State
 
-App is working end-to-end with full verb content. All 100 root verbs (A1–B2) are populated with conjugations, grammar info, and prefix variants. All 234 word IDs (100 roots + 138 variants — after deduplication) have exactly 4 exercises each, giving 936 exercises total. `js/data.js` is regenerated and ready. The Verbs module is content-complete for v1.
+**Nouns module fully live.** App at https://rsperotti.github.io/mein_deutsch. Verbs: complete (100 roots + 138 variants, 936 exercises). Nouns: 25 A1 words playable with full UI — exercises, Nomenliste reference screen, word list integration. Next: nouns-level2 (A2) content batch.
 
 ## What Exists
 
@@ -23,12 +23,19 @@ App is working end-to-end with full verb content. All 100 root verbs (A1–B2) a
 | `data/exercises/exercises-verbs.json` | ✅ **936 exercises** | 234 word IDs × 4 exercises each |
 | `manifest.json` | ✅ Built | PWA config |
 | `service-worker.js` | ✅ Built | Cache-first offline strategy |
-| `icons/icon-192.png` | ✅ Placeholder | To be replaced with proper icon |
-| `icons/icon-512.png` | ✅ Placeholder | To be replaced with proper icon |
+| `icons/icon-192.png` | ✅ Done | Speech bubble "de" icon, #85B7EB blue background |
+| `icons/icon-512.png` | ✅ Done | Speech bubble "de" icon, #85B7EB blue background |
 | `_factory/seeds/verbs-level1.json` | ✅ Done | All 25 words status: done |
 | `_factory/seeds/verbs-level2.json` | ✅ Done | 25 A2 verbs — generated in Session 3 |
 | `_factory/seeds/verbs-level3.json` | ✅ Done | 25 B1 verbs — generated in Session 3 |
 | `_factory/seeds/verbs-level4.json` | ✅ Done | 25 B2 verbs — generated in Session 3 |
+| `data/nouns.json` | ✅ **25 nouns** | A1 level — batch 1 complete |
+| `data/exercises/exercises-nouns.json` | ✅ **100 exercises** | 25 nouns × 4 exercises each |
+| `_factory/seeds/nouns-level1.json` | ✅ Done | 25 A1 nouns — status: done |
+| `js/app.js` | ✅ Updated | Noun module home, Nomenliste, router entry |
+| `js/exercises.js` | ✅ Updated | article_choice renderer, noun unlock/label |
+| `js/wordlist.js` | ✅ Updated | Nouns in word list with article + plural |
+| `js/progress.js` | ✅ Updated | `app_nouns_unlocked` key + methods |
 
 ## Design System
 
@@ -50,6 +57,7 @@ Extracted from design reference screenshots:
 | Pronunciation | Web Speech API (`speechSynthesis`, `de-DE`) |
 | Exercises per word | 4 (blueprint rule) |
 | Default sort | Alphabetical |
+| Session size | **No cap** — full queue served until complete. Applies to all modules. No artificial limits. |
 
 ## Content Progress
 
@@ -63,15 +71,24 @@ Extracted from design reference screenshots:
 
 *Note: Some verbs appear as both root verbs (at a higher level) and prefix variants of lower-level roots (e.g. anerkennen, gehören). Their exercises count once, as root exercises.*
 
+## Hosting
+
+- **Live URL:** https://rsperotti.github.io/mein_deutsch
+- **Repo:** https://github.com/RsPerotti/mein_deutsch (public)
+- **Deploy:** push to `main` branch → GitHub Pages auto-deploys
+
+## Content Progress
+
+| Batch | Category | Level | Words | Exercises | Status |
+|---|---|---|---|---|---|
+| verbs-level1–4 | Verbs | A1–B2 | 100 root + 138 variants | 936 | ✅ Done |
+| nouns-level1 | Nouns | A1 | 25 | 100 | ✅ Done |
+
 ## Next Steps
 
-1. **Icons:** Replace placeholder icons with proper "MD" branded icons (design in Claude.ai Design).
-2. **GitHub Pages:** Set up hosting so the app is shareable via link.
-3. **Test full exercise flow** with new content — verify all levels unlock and display correctly.
-4. **Nouns module** — next content batch when ready.
+1. **nouns-level2 (A2)** — next 25 nouns content batch (25 words, 100 exercises)
+2. Continue toward full 200 nouns across 4 levels
 
 ## Open Questions / Known Gaps
 
-- Icons are placeholder — need proper branded design
 - Pronunciation uses device TTS (no audio files) — acceptable for v1
-- GitHub Pages hosting: set up when first content batch is ready

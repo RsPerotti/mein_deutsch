@@ -2,6 +2,84 @@
 
 ---
 
+## 2026-06-04 — Session 6: Nouns Module UI
+
+**What was built:**
+- `data/modules.json` — Nouns status changed from `coming_soon` → `active`
+- `js/data.js` — Regenerated to include `nouns` and `exercises_nouns` (705KB)
+- `js/progress.js` — Added `NOUNS_UNLOCKED` key, `unlockNoun()`, `getUnlockedNouns()`
+- `js/exercises.js` — Added `article_choice` renderer, noun queue building, noun unlock logic, noun word label
+- `js/app.js` — Added `appData.nouns`, nouns to `loadData()` + `_totalWordCount()` + `_wordLabel()`, `_renderNounModuleCategories()`, `renderNomenliste()`, `filterNounList()`, `toggleNounCard()`, `_articleColor()`, router entry for `screen-nomenliste`
+- `js/wordlist.js` — Nouns included in `buildWordObjects()` with article display; plural shown in bottom sheet
+- `index.html` — Added `screen-nomenliste` screen
+
+**Features live:**
+- Nouns module card appears as Module 02 on home screen
+- Exercise screen supports all 4 noun exercise types (translate_word, article_choice ×1, fill_blank ×2)
+- Article choice exercises use grid layout with der/die/das/declined options
+- Nomenliste reference screen: article badge colour-coded (der=blue, die=red, das=green), singular/plural/genitive, examples
+- Nouns appear in global Word List with article displayed; bottom sheet shows plural
+- Progress tracked separately under `app_nouns_unlocked`
+
+**Status:** Nouns module fully playable. 25 A1 nouns live. Next: nouns-level2 (A2) content batch.
+
+---
+
+## 2026-06-04 — Session 5: Nouns Module — Batch 1 (A1)
+
+**What was built:**
+- Created `data/nouns.json` with 25 A1 nouns (Mann, Frau, Kind, Tag, Jahr, Zeit, Haus, Arbeit, Schule, Stadt, Land, Geld, Auto, Tisch, Tür, Straße, Familie, Freund, Wasser, Buch, Frage, Wort, Nummer, Stuhl, Essen)
+- Created `data/exercises/exercises-nouns.json` with 100 exercises (4 per noun): translate_word, article_choice, fill_blank ×2
+- Created `_factory/seeds/nouns-level1.json` — batch marked done
+- Validation passed: 25 words, 100 exercises, all checks green
+
+**Exercise types used:**
+- `translate_word` (difficulty 1) — see German word, pick English meaning
+- `article_choice` (difficulty 1) — pick correct article in sentence
+- `fill_blank` (difficulty 1) — choose correct noun
+- `fill_blank` (difficulty 2) — harder context, tests case awareness
+
+**Status:** Nouns module content batch 1 complete. Nouns module UI not yet built. Next: nouns-level1 (A2) batch OR build the Nouns module UI.
+
+---
+
+## 2026-06-04 — Session 4: Icons + GitHub Pages + Bug Fixes
+
+**Icons**
+- Designed speech bubble "de" icon in blue (#85B7EB) with white bubble and dark blue text (#185FA5)
+- Generated icon-192.png and icon-512.png using cairosvg, saved to `icons/`
+
+**GitHub Pages**
+- Created `.gitignore` (excludes .DS_Store, .fig, screens/, thumbnail.png)
+- User ran git init, commit, remote add, push from Terminal
+- Repo public at https://github.com/RsPerotti/mein_deutsch
+- GitHub Pages enabled — app live at https://rsperotti.github.io/mein_deutsch
+
+**Bug fixes (found on first live test)**
+- `app.js`: fixed data key mismatch — was reading `d.exercises.module_verbs`, data.js uses `d.exercises_verbs`
+- `exercises.js`: removed hardcoded `.slice(0, 10)` dev testing limit that locked queue to first 10 exercises
+- `exercises.js`: confirmed session design — **no cap**, full queue served until complete, applies to all modules
+
+**Status:** App fully live and functional. Verbs module shippable. Next: Nouns module.
+
+---
+
+## 2026-06-04 — Session 4: Icons + GitHub Pages
+
+**Icons**
+- Designed speech bubble "de" icon in blue (#85B7EB) with white bubble and dark blue text (#185FA5)
+- Generated icon-192.png and icon-512.png using cairosvg, saved to `icons/`
+
+**GitHub Pages**
+- Created `.gitignore` (excludes .DS_Store, .fig, screens/, thumbnail.png)
+- User ran git init, commit, remote add, push from Terminal
+- Repo public at https://github.com/RsPerotti/mein_deutsch
+- GitHub Pages enabled — app live at https://rsperotti.github.io/mein_deutsch
+
+**Status:** Verbs module fully shipped. Next: Nouns module content batch.
+
+---
+
 ## 2026-06-03 — Session 3: Full Verb Module Content (root verbs + all variations)
 
 **What was built:**
