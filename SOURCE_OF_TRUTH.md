@@ -5,7 +5,7 @@
 
 ## Current State
 
-**Nouns module fully live.** App at https://rsperotti.github.io/mein_deutsch. Verbs: complete (100 roots + 138 variants, 936 exercises). Nouns: 25 A1 words playable with full UI — exercises, Nomenliste reference screen, word list integration. Next: nouns-level2 (A2) content batch.
+**Nouns module content-complete (A1–B2).** App at https://rsperotti.github.io/mein_deutsch. Verbs: complete (100 roots + 138 variants, 936 exercises). Nouns: 175 words across all 4 levels (25 A1 + 50 A2 + 50 B1 + 50 B2), 700 exercises, full UI live. Next: push to GitHub Pages and consider adjectives module.
 
 ## What Exists
 
@@ -29,9 +29,12 @@
 | `_factory/seeds/verbs-level2.json` | ✅ Done | 25 A2 verbs — generated in Session 3 |
 | `_factory/seeds/verbs-level3.json` | ✅ Done | 25 B1 verbs — generated in Session 3 |
 | `_factory/seeds/verbs-level4.json` | ✅ Done | 25 B2 verbs — generated in Session 3 |
-| `data/nouns.json` | ✅ **25 nouns** | A1 level — batch 1 complete |
-| `data/exercises/exercises-nouns.json` | ✅ **100 exercises** | 25 nouns × 4 exercises each |
-| `_factory/seeds/nouns-level1.json` | ✅ Done | 25 A1 nouns — status: done |
+| `data/nouns.json` | ✅ **175 nouns** | A1–B2 complete (25+50+50+50) |
+| `data/exercises/exercises-nouns.json` | ✅ **700 exercises** | 175 nouns × 4 each |
+| `_factory/seeds/nouns-level1.json` | ✅ Done | 25 A1 nouns |
+| `_factory/seeds/nouns-level2.json` | ✅ Done | 50 A2 nouns |
+| `_factory/seeds/nouns-level3.json` | ✅ Done | 50 B1 nouns |
+| `_factory/seeds/nouns-level4.json` | ✅ Done | 50 B2 nouns |
 | `js/app.js` | ✅ Updated | Noun module home, Nomenliste, router entry |
 | `js/exercises.js` | ✅ Updated | article_choice renderer, noun unlock/label |
 | `js/wordlist.js` | ✅ Updated | Nouns in word list with article + plural |
@@ -83,11 +86,14 @@ Extracted from design reference screenshots:
 |---|---|---|---|---|---|
 | verbs-level1–4 | Verbs | A1–B2 | 100 root + 138 variants | 936 | ✅ Done |
 | nouns-level1 | Nouns | A1 | 25 | 100 | ✅ Done |
+| nouns-level2 | Nouns | A2 | 50 | 200 | ✅ Done |
+| nouns-level3 | Nouns | B1 | 50 | 200 | ✅ Done |
+| nouns-level4 | Nouns | B2 | 50 | 200 | ✅ Done |
 
 ## Next Steps
 
-1. **nouns-level2 (A2)** — next 25 nouns content batch (25 words, 100 exercises)
-2. Continue toward full 200 nouns across 4 levels
+1. **Push to GitHub Pages** — deploy the expanded data.js (175 nouns, 700 exercises)
+2. **Adjectives module** — next grammar category to build
 
 ## Open Questions / Known Gaps
 

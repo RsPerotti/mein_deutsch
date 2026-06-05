@@ -6495,7 +6495,7 @@ window.APP_DATA = {
     ]
   }
 ],
-  nouns:
+  nouns: 
 [
   {
     "id": "noun_mann",
@@ -7338,9 +7338,5081 @@ window.APP_DATA = {
       "daily_life",
       "a1"
     ]
+  },
+  {
+    "id": "noun_mutter",
+    "word": "Mutter",
+    "article": "die",
+    "english": "mother",
+    "plural": "Mütter",
+    "plural_article": "die",
+    "genitive": "der Mutter",
+    "frequency_rank": 26,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Meine Mutter kocht sehr gut.",
+        "en": "My mother cooks very well.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Mutter bringt das Kind zur Schule.",
+        "en": "The mother takes the child to school.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "family",
+      "people",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_vater",
+    "word": "Vater",
+    "article": "der",
+    "english": "father",
+    "plural": "Väter",
+    "plural_article": "die",
+    "genitive": "des Vaters",
+    "frequency_rank": 27,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Mein Vater arbeitet als Ingenieur.",
+        "en": "My father works as an engineer.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Vater liest seinem Kind ein Buch vor.",
+        "en": "The father reads a book to his child.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "family",
+      "people",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_bruder",
+    "word": "Bruder",
+    "article": "der",
+    "english": "brother",
+    "plural": "Brüder",
+    "plural_article": "die",
+    "genitive": "des Bruders",
+    "frequency_rank": 28,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Mein Bruder ist zwei Jahre älter als ich.",
+        "en": "My brother is two years older than me.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich habe einen Bruder und eine Schwester.",
+        "en": "I have a brother and a sister.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "family",
+      "people",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_schwester",
+    "word": "Schwester",
+    "article": "die",
+    "english": "sister",
+    "plural": "Schwestern",
+    "plural_article": "die",
+    "genitive": "der Schwester",
+    "frequency_rank": 29,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Meine Schwester wohnt in München.",
+        "en": "My sister lives in Munich.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Schwester hilft ihrem Bruder.",
+        "en": "The sister helps her brother.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "family",
+      "people",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_eltern",
+    "word": "Eltern",
+    "article": "die",
+    "english": "parents",
+    "plural": "Eltern",
+    "plural_article": "die",
+    "genitive": "der Eltern",
+    "frequency_rank": 30,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Meine Eltern wohnen auf dem Land.",
+        "en": "My parents live in the countryside.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Eltern kommen zum Schulfest.",
+        "en": "The parents come to the school event.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "family",
+      "people",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_lehrer",
+    "word": "Lehrer",
+    "article": "der",
+    "english": "teacher",
+    "plural": "Lehrer",
+    "plural_article": "die",
+    "genitive": "des Lehrers",
+    "frequency_rank": 31,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Der Lehrer erklärt die Grammatik.",
+        "en": "The teacher explains the grammar.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Unser Lehrer kommt aus Österreich.",
+        "en": "Our teacher comes from Austria.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "education",
+      "people",
+      "work",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_arzt",
+    "word": "Arzt",
+    "article": "der",
+    "english": "doctor",
+    "plural": "Ärzte",
+    "plural_article": "die",
+    "genitive": "des Arztes",
+    "frequency_rank": 32,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich muss zum Arzt gehen.",
+        "en": "I have to go to the doctor.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Arzt untersucht den Patienten.",
+        "en": "The doctor examines the patient.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "health",
+      "people",
+      "work",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_kollege",
+    "word": "Kollege",
+    "article": "der",
+    "english": "colleague",
+    "plural": "Kollegen",
+    "plural_article": "die",
+    "genitive": "des Kollegen",
+    "frequency_rank": 33,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Mein Kollege hilft mir mit dem Projekt.",
+        "en": "My colleague helps me with the project.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Kollegen essen zusammen in der Pause.",
+        "en": "The colleagues eat together during the break.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "work",
+      "people",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_nachbar",
+    "word": "Nachbar",
+    "article": "der",
+    "english": "neighbour",
+    "plural": "Nachbarn",
+    "plural_article": "die",
+    "genitive": "des Nachbarn",
+    "frequency_rank": 34,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Unser Nachbar ist sehr freundlich.",
+        "en": "Our neighbour is very friendly.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Nachbar hat einen großen Hund.",
+        "en": "The neighbour has a big dog.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "people",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_chef",
+    "word": "Chef",
+    "article": "der",
+    "english": "boss",
+    "plural": "Chefs",
+    "plural_article": "die",
+    "genitive": "des Chefs",
+    "frequency_rank": 35,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Mein Chef ist heute nicht im Büro.",
+        "en": "My boss is not in the office today.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Chef gibt der Mitarbeiterin eine Aufgabe.",
+        "en": "The boss gives the employee a task.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "work",
+      "people",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_zimmer",
+    "word": "Zimmer",
+    "article": "das",
+    "english": "room",
+    "plural": "Zimmer",
+    "plural_article": "die",
+    "genitive": "des Zimmers",
+    "frequency_rank": 36,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Das Zimmer ist sehr sauber.",
+        "en": "The room is very clean.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich suche ein Zimmer in der Stadt.",
+        "en": "I am looking for a room in the city.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "home",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_kueche",
+    "word": "Küche",
+    "article": "die",
+    "english": "kitchen",
+    "plural": "Küchen",
+    "plural_article": "die",
+    "genitive": "der Küche",
+    "frequency_rank": 37,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Die Küche ist klein, aber modern.",
+        "en": "The kitchen is small but modern.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er kocht in der Küche das Abendessen.",
+        "en": "He cooks dinner in the kitchen.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "home",
+      "food_drink",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_garten",
+    "word": "Garten",
+    "article": "der",
+    "english": "garden",
+    "plural": "Gärten",
+    "plural_article": "die",
+    "genitive": "des Gartens",
+    "frequency_rank": 38,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Im Garten wachsen viele Blumen.",
+        "en": "Many flowers grow in the garden.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Kinder spielen im Garten.",
+        "en": "The children play in the garden.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "home",
+      "nature",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_bahnhof",
+    "word": "Bahnhof",
+    "article": "der",
+    "english": "train station",
+    "plural": "Bahnhöfe",
+    "plural_article": "die",
+    "genitive": "des Bahnhofs",
+    "frequency_rank": 39,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Der Bahnhof ist zehn Minuten entfernt.",
+        "en": "The train station is ten minutes away.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich warte am Bahnhof auf meinen Zug.",
+        "en": "I am waiting at the train station for my train.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "transport",
+      "places",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_buero",
+    "word": "Büro",
+    "article": "das",
+    "english": "office",
+    "plural": "Büros",
+    "plural_article": "die",
+    "genitive": "des Büros",
+    "frequency_rank": 40,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Das Büro öffnet um neun Uhr.",
+        "en": "The office opens at nine o'clock.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Sie arbeitet täglich in ihrem Büro.",
+        "en": "She works in her office every day.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "work",
+      "places",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_fenster",
+    "word": "Fenster",
+    "article": "das",
+    "english": "window",
+    "plural": "Fenster",
+    "plural_article": "die",
+    "genitive": "des Fensters",
+    "frequency_rank": 41,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Bitte mach das Fenster auf.",
+        "en": "Please open the window.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Fenster ist kaputt.",
+        "en": "The window is broken.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "home",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_bett",
+    "word": "Bett",
+    "article": "das",
+    "english": "bed",
+    "plural": "Betten",
+    "plural_article": "die",
+    "genitive": "des Bettes",
+    "frequency_rank": 42,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich gehe um zehn Uhr ins Bett.",
+        "en": "I go to bed at ten o'clock.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Bett ist sehr bequem.",
+        "en": "The bed is very comfortable.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "home",
+      "furniture",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_handy",
+    "word": "Handy",
+    "article": "das",
+    "english": "mobile phone",
+    "plural": "Handys",
+    "plural_article": "die",
+    "genitive": "des Handys",
+    "frequency_rank": 43,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich habe mein Handy vergessen.",
+        "en": "I forgot my mobile phone.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Handy klingelt im Unterricht.",
+        "en": "The mobile phone rings during the lesson.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "technology",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_tasche",
+    "word": "Tasche",
+    "article": "die",
+    "english": "bag",
+    "plural": "Taschen",
+    "plural_article": "die",
+    "genitive": "der Tasche",
+    "frequency_rank": 44,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Meine Tasche ist sehr schwer.",
+        "en": "My bag is very heavy.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Schlüssel ist in der Tasche.",
+        "en": "The key is in the bag.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_schluessel",
+    "word": "Schlüssel",
+    "article": "der",
+    "english": "key",
+    "plural": "Schlüssel",
+    "plural_article": "die",
+    "genitive": "des Schlüssels",
+    "frequency_rank": 45,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich finde meinen Schlüssel nicht.",
+        "en": "I cannot find my key.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Schlüssel liegt auf dem Tisch.",
+        "en": "The key is on the table.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "daily_life",
+      "home",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_brief",
+    "word": "Brief",
+    "article": "der",
+    "english": "letter",
+    "plural": "Briefe",
+    "plural_article": "die",
+    "genitive": "des Briefes",
+    "frequency_rank": 46,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich schreibe einen Brief an meine Oma.",
+        "en": "I am writing a letter to my grandmother.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Brief kommt aus dem Ausland.",
+        "en": "The letter comes from abroad.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "communication",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_stunde",
+    "word": "Stunde",
+    "article": "die",
+    "english": "hour",
+    "plural": "Stunden",
+    "plural_article": "die",
+    "genitive": "der Stunde",
+    "frequency_rank": 47,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich warte seit einer Stunde.",
+        "en": "I have been waiting for an hour.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Stunde vergeht sehr schnell.",
+        "en": "The hour passes very quickly.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "time",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_woche",
+    "word": "Woche",
+    "article": "die",
+    "english": "week",
+    "plural": "Wochen",
+    "plural_article": "die",
+    "genitive": "der Woche",
+    "frequency_rank": 48,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Diese Woche habe ich viel zu tun.",
+        "en": "This week I have a lot to do.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Woche hat sieben Tage.",
+        "en": "The week has seven days.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "time",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_monat",
+    "word": "Monat",
+    "article": "der",
+    "english": "month",
+    "plural": "Monate",
+    "plural_article": "die",
+    "genitive": "des Monats",
+    "frequency_rank": 49,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Im nächsten Monat fahren wir in den Urlaub.",
+        "en": "Next month we are going on holiday.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Monat Januar ist oft kalt.",
+        "en": "The month of January is often cold.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "time",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_morgen",
+    "word": "Morgen",
+    "article": "der",
+    "english": "morning",
+    "plural": "Morgen",
+    "plural_article": "die",
+    "genitive": "des Morgens",
+    "frequency_rank": 50,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Am Morgen trinke ich immer Kaffee.",
+        "en": "In the morning I always drink coffee.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Morgen beginnt früh für uns.",
+        "en": "The morning starts early for us.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "time",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_abend",
+    "word": "Abend",
+    "article": "der",
+    "english": "evening",
+    "plural": "Abende",
+    "plural_article": "die",
+    "genitive": "des Abends",
+    "frequency_rank": 51,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Am Abend schauen wir fern.",
+        "en": "In the evening we watch television.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Abend war sehr schön.",
+        "en": "The evening was very nice.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "time",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_nacht",
+    "word": "Nacht",
+    "article": "die",
+    "english": "night",
+    "plural": "Nächte",
+    "plural_article": "die",
+    "genitive": "der Nacht",
+    "frequency_rank": 52,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "In der Nacht ist es sehr ruhig.",
+        "en": "At night it is very quiet.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Nacht war kurz und kalt.",
+        "en": "The night was short and cold.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "time",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_brot",
+    "word": "Brot",
+    "article": "das",
+    "english": "bread",
+    "plural": "Brote",
+    "plural_article": "die",
+    "genitive": "des Brotes",
+    "frequency_rank": 53,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich kaufe jeden Morgen frisches Brot.",
+        "en": "I buy fresh bread every morning.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Brot schmeckt sehr gut.",
+        "en": "The bread tastes very good.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "food_drink",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_milch",
+    "word": "Milch",
+    "article": "die",
+    "english": "milk",
+    "plural": "Milch",
+    "plural_article": "die",
+    "genitive": "der Milch",
+    "frequency_rank": 54,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich trinke jeden Abend ein Glas Milch.",
+        "en": "I drink a glass of milk every evening.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Milch ist heute abgelaufen.",
+        "en": "The milk expired today.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "food_drink",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_kaffee",
+    "word": "Kaffee",
+    "article": "der",
+    "english": "coffee",
+    "plural": "Kaffees",
+    "plural_article": "die",
+    "genitive": "des Kaffees",
+    "frequency_rank": 55,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich brauche morgens meinen Kaffee.",
+        "en": "I need my coffee in the morning.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Kaffee ist noch heiß.",
+        "en": "The coffee is still hot.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "food_drink",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_sonne",
+    "word": "Sonne",
+    "article": "die",
+    "english": "sun",
+    "plural": "Sonnen",
+    "plural_article": "die",
+    "genitive": "der Sonne",
+    "frequency_rank": 56,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Die Sonne scheint heute sehr hell.",
+        "en": "The sun is shining very brightly today.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Sonne geht im Westen unter.",
+        "en": "The sun sets in the west.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "nature",
+      "weather",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_regen",
+    "word": "Regen",
+    "article": "der",
+    "english": "rain",
+    "plural": "Regen",
+    "plural_article": "die",
+    "genitive": "des Regens",
+    "frequency_rank": 57,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Der Regen hört nicht auf.",
+        "en": "The rain doesn't stop.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich mag keinen Regen.",
+        "en": "I don't like rain.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "nature",
+      "weather",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_berg",
+    "word": "Berg",
+    "article": "der",
+    "english": "mountain",
+    "plural": "Berge",
+    "plural_article": "die",
+    "genitive": "des Berges",
+    "frequency_rank": 58,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Der Berg ist sehr hoch.",
+        "en": "The mountain is very high.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir wandern heute auf den Berg.",
+        "en": "We are hiking up the mountain today.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "nature",
+      "geography",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_fluss",
+    "word": "Fluss",
+    "article": "der",
+    "english": "river",
+    "plural": "Flüsse",
+    "plural_article": "die",
+    "genitive": "des Flusses",
+    "frequency_rank": 59,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Der Fluss fließt durch die Stadt.",
+        "en": "The river flows through the city.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Kinder schwimmen im Fluss.",
+        "en": "The children swim in the river.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "nature",
+      "geography",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_problem",
+    "word": "Problem",
+    "article": "das",
+    "english": "problem",
+    "plural": "Probleme",
+    "plural_article": "die",
+    "genitive": "des Problems",
+    "frequency_rank": 60,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Das Problem ist nicht leicht zu lösen.",
+        "en": "The problem is not easy to solve.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Hast du ein Problem mit meiner Entscheidung?",
+        "en": "Do you have a problem with my decision?",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_idee",
+    "word": "Idee",
+    "article": "die",
+    "english": "idea",
+    "plural": "Ideen",
+    "plural_article": "die",
+    "genitive": "der Idee",
+    "frequency_rank": 61,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Das ist eine gute Idee.",
+        "en": "That is a good idea.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Hast du eine Idee, wie wir das lösen können?",
+        "en": "Do you have an idea how we can solve this?",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "communication",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_meinung",
+    "word": "Meinung",
+    "article": "die",
+    "english": "opinion",
+    "plural": "Meinungen",
+    "plural_article": "die",
+    "genitive": "der Meinung",
+    "frequency_rank": 62,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Was ist deine Meinung dazu?",
+        "en": "What is your opinion on this?",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich bin anderer Meinung als du.",
+        "en": "I have a different opinion than you.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "communication",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_grund",
+    "word": "Grund",
+    "article": "der",
+    "english": "reason",
+    "plural": "Gründe",
+    "plural_article": "die",
+    "genitive": "des Grundes",
+    "frequency_rank": 63,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Was ist der Grund für deine Verspätung?",
+        "en": "What is the reason for your delay?",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Es gibt keinen Grund zur Sorge.",
+        "en": "There is no reason to worry.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "communication",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_weg",
+    "word": "Weg",
+    "article": "der",
+    "english": "way / path",
+    "plural": "Wege",
+    "plural_article": "die",
+    "genitive": "des Weges",
+    "frequency_rank": 64,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich kenne den Weg nicht.",
+        "en": "I don't know the way.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Weg durch den Wald ist lang.",
+        "en": "The path through the forest is long.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "places",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_platz",
+    "word": "Platz",
+    "article": "der",
+    "english": "place / seat / square",
+    "plural": "Plätze",
+    "plural_article": "die",
+    "genitive": "des Platzes",
+    "frequency_rank": 65,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ist hier noch ein Platz frei?",
+        "en": "Is there still a free seat here?",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Platz vor dem Rathaus ist sehr groß.",
+        "en": "The square in front of the town hall is very large.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "places",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_seite",
+    "word": "Seite",
+    "article": "die",
+    "english": "side / page",
+    "plural": "Seiten",
+    "plural_article": "die",
+    "genitive": "der Seite",
+    "frequency_rank": 66,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Bitte lest Seite zwanzig im Buch.",
+        "en": "Please read page twenty in the book.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Auf der anderen Seite des Flusses liegt ein Dorf.",
+        "en": "On the other side of the river there is a village.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "language",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_art",
+    "word": "Art",
+    "article": "die",
+    "english": "type / kind / way",
+    "plural": "Arten",
+    "plural_article": "die",
+    "genitive": "der Art",
+    "frequency_rank": 67,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Das ist eine neue Art zu lernen.",
+        "en": "That is a new way of learning.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Es gibt viele Arten von Tieren im Zoo.",
+        "en": "There are many kinds of animals in the zoo.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_name",
+    "word": "Name",
+    "article": "der",
+    "english": "name",
+    "plural": "Namen",
+    "plural_article": "die",
+    "genitive": "des Namens",
+    "frequency_rank": 68,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Wie ist dein Name?",
+        "en": "What is your name?",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich erinnere mich nicht an seinen Namen.",
+        "en": "I don't remember his name.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "communication",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_kopf",
+    "word": "Kopf",
+    "article": "der",
+    "english": "head",
+    "plural": "Köpfe",
+    "plural_article": "die",
+    "genitive": "des Kopfes",
+    "frequency_rank": 69,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich habe Schmerzen im Kopf.",
+        "en": "I have pain in my head.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er schüttelt den Kopf.",
+        "en": "He shakes his head.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "body",
+      "health",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_hand",
+    "word": "Hand",
+    "article": "die",
+    "english": "hand",
+    "plural": "Hände",
+    "plural_article": "die",
+    "genitive": "der Hand",
+    "frequency_rank": 70,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Sie gibt mir die Hand zur Begrüßung.",
+        "en": "She gives me her hand in greeting.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Hand ist kalt.",
+        "en": "The hand is cold.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "body",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_herz",
+    "word": "Herz",
+    "article": "das",
+    "english": "heart",
+    "plural": "Herzen",
+    "plural_article": "die",
+    "genitive": "des Herzens",
+    "frequency_rank": 71,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Das Herz schlägt sehr schnell.",
+        "en": "The heart beats very fast.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er hat ein gutes Herz.",
+        "en": "He has a good heart.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "body",
+      "health",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_stimme",
+    "word": "Stimme",
+    "article": "die",
+    "english": "voice",
+    "plural": "Stimmen",
+    "plural_article": "die",
+    "genitive": "der Stimme",
+    "frequency_rank": 72,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Sie hat eine schöne Stimme.",
+        "en": "She has a beautiful voice.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich erkenne seine Stimme sofort.",
+        "en": "I recognise his voice immediately.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "body",
+      "communication",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_gesicht",
+    "word": "Gesicht",
+    "article": "das",
+    "english": "face",
+    "plural": "Gesichter",
+    "plural_article": "die",
+    "genitive": "des Gesichts",
+    "frequency_rank": 73,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Das Gesicht des Kindes ist sehr süß.",
+        "en": "The child's face is very sweet.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Sie wäscht sich das Gesicht.",
+        "en": "She washes her face.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "body",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_zug",
+    "word": "Zug",
+    "article": "der",
+    "english": "train",
+    "plural": "Züge",
+    "plural_article": "die",
+    "genitive": "des Zuges",
+    "frequency_rank": 74,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Der Zug fährt um acht Uhr ab.",
+        "en": "The train departs at eight o'clock.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich nehme den Zug nach Berlin.",
+        "en": "I take the train to Berlin.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "transport",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_preis",
+    "word": "Preis",
+    "article": "der",
+    "english": "price / prize",
+    "plural": "Preise",
+    "plural_article": "die",
+    "genitive": "des Preises",
+    "frequency_rank": 75,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Der Preis ist leider zu hoch.",
+        "en": "The price is unfortunately too high.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Sie hat einen Preis für ihr Buch gewonnen.",
+        "en": "She won a prize for her book.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "finance",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_erfahrung",
+    "word": "Erfahrung",
+    "article": "die",
+    "english": "experience",
+    "plural": "Erfahrungen",
+    "plural_article": "die",
+    "genitive": "der Erfahrung",
+    "frequency_rank": 76,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Er hat viel Erfahrung in diesem Beruf.",
+        "en": "He has a lot of experience in this profession.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Erfahrung zeigt, dass das nicht einfach ist.",
+        "en": "Experience shows that this is not easy.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "work",
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_entwicklung",
+    "word": "Entwicklung",
+    "article": "die",
+    "english": "development",
+    "plural": "Entwicklungen",
+    "plural_article": "die",
+    "genitive": "der Entwicklung",
+    "frequency_rank": 77,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Entwicklung der Technik geht sehr schnell.",
+        "en": "The development of technology is very fast.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Diese Entwicklung ist sehr positiv.",
+        "en": "This development is very positive.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "technology",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_bedeutung",
+    "word": "Bedeutung",
+    "article": "die",
+    "english": "meaning / importance",
+    "plural": "Bedeutungen",
+    "plural_article": "die",
+    "genitive": "der Bedeutung",
+    "frequency_rank": 78,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Bedeutung dieses Wortes kenne ich nicht.",
+        "en": "I don't know the meaning of this word.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das hat eine große Bedeutung für uns.",
+        "en": "That has great importance for us.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "language",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_moeglichkeit",
+    "word": "Möglichkeit",
+    "article": "die",
+    "english": "possibility",
+    "plural": "Möglichkeiten",
+    "plural_article": "die",
+    "genitive": "der Möglichkeit",
+    "frequency_rank": 79,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Es gibt immer eine Möglichkeit, das zu lösen.",
+        "en": "There is always a possibility to solve this.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir haben viele Möglichkeiten.",
+        "en": "We have many possibilities.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_veraenderung",
+    "word": "Veränderung",
+    "article": "die",
+    "english": "change",
+    "plural": "Veränderungen",
+    "plural_article": "die",
+    "genitive": "der Veränderung",
+    "frequency_rank": 80,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Veränderung kam sehr plötzlich.",
+        "en": "The change came very suddenly.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Veränderungen sind manchmal schwer.",
+        "en": "Changes are sometimes difficult.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_entscheidung",
+    "word": "Entscheidung",
+    "article": "die",
+    "english": "decision",
+    "plural": "Entscheidungen",
+    "plural_article": "die",
+    "genitive": "der Entscheidung",
+    "frequency_rank": 81,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Es war eine schwierige Entscheidung.",
+        "en": "It was a difficult decision.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Entscheidung liegt bei dir.",
+        "en": "The decision is up to you.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_gesellschaft",
+    "word": "Gesellschaft",
+    "article": "die",
+    "english": "society",
+    "plural": "Gesellschaften",
+    "plural_article": "die",
+    "genitive": "der Gesellschaft",
+    "frequency_rank": 82,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Gesellschaft verändert sich ständig.",
+        "en": "Society is constantly changing.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er ist wichtig für die Gesellschaft.",
+        "en": "He is important for society.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_wirtschaft",
+    "word": "Wirtschaft",
+    "article": "die",
+    "english": "economy",
+    "plural": "Wirtschaften",
+    "plural_article": "die",
+    "genitive": "der Wirtschaft",
+    "frequency_rank": 83,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Wirtschaft wächst dieses Jahr stark.",
+        "en": "The economy is growing strongly this year.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Wirtschaft ist ein wichtiges Thema.",
+        "en": "The economy is an important topic.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "finance",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_wissenschaft",
+    "word": "Wissenschaft",
+    "article": "die",
+    "english": "science",
+    "plural": "Wissenschaften",
+    "plural_article": "die",
+    "genitive": "der Wissenschaft",
+    "frequency_rank": 84,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Wissenschaft macht große Fortschritte.",
+        "en": "Science is making great progress.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er interessiert sich sehr für Wissenschaft.",
+        "en": "He is very interested in science.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "education",
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_sprache",
+    "word": "Sprache",
+    "article": "die",
+    "english": "language",
+    "plural": "Sprachen",
+    "plural_article": "die",
+    "genitive": "der Sprache",
+    "frequency_rank": 85,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die deutsche Sprache ist nicht leicht.",
+        "en": "The German language is not easy.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich lerne gerade eine neue Sprache.",
+        "en": "I am currently learning a new language.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "language",
+      "education",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_kultur",
+    "word": "Kultur",
+    "article": "die",
+    "english": "culture",
+    "plural": "Kulturen",
+    "plural_article": "die",
+    "genitive": "der Kultur",
+    "frequency_rank": 86,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Kultur Deutschlands ist sehr reich.",
+        "en": "The culture of Germany is very rich.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich finde andere Kulturen sehr interessant.",
+        "en": "I find other cultures very interesting.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_umgebung",
+    "word": "Umgebung",
+    "article": "die",
+    "english": "surroundings / environment",
+    "plural": "Umgebungen",
+    "plural_article": "die",
+    "genitive": "der Umgebung",
+    "frequency_rank": 87,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Umgebung der Stadt ist sehr schön.",
+        "en": "The surroundings of the city are very beautiful.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich kenne meine Umgebung gut.",
+        "en": "I know my surroundings well.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "nature",
+      "places",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_loesung",
+    "word": "Lösung",
+    "article": "die",
+    "english": "solution",
+    "plural": "Lösungen",
+    "plural_article": "die",
+    "genitive": "der Lösung",
+    "frequency_rank": 88,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Wir suchen eine Lösung für das Problem.",
+        "en": "We are looking for a solution to the problem.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Lösung war einfacher als gedacht.",
+        "en": "The solution was simpler than expected.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_aufgabe",
+    "word": "Aufgabe",
+    "article": "die",
+    "english": "task",
+    "plural": "Aufgaben",
+    "plural_article": "die",
+    "genitive": "der Aufgabe",
+    "frequency_rank": 89,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Diese Aufgabe ist sehr schwierig.",
+        "en": "This task is very difficult.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich habe noch viele Aufgaben zu erledigen.",
+        "en": "I still have many tasks to complete.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "work",
+      "education",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_wirkung",
+    "word": "Wirkung",
+    "article": "die",
+    "english": "effect",
+    "plural": "Wirkungen",
+    "plural_article": "die",
+    "genitive": "der Wirkung",
+    "frequency_rank": 90,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Das Medikament hat eine starke Wirkung.",
+        "en": "The medicine has a strong effect.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Wirkung des Trainings ist sichtbar.",
+        "en": "The effect of the training is visible.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "health",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_verhaeltnis",
+    "word": "Verhältnis",
+    "article": "das",
+    "english": "relationship / ratio",
+    "plural": "Verhältnisse",
+    "plural_article": "die",
+    "genitive": "des Verhältnisses",
+    "frequency_rank": 91,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Das Verhältnis zwischen den Ländern ist gut.",
+        "en": "The relationship between the countries is good.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Verhältnis von Arbeit zu Freizeit ist wichtig.",
+        "en": "The ratio of work to leisure time is important.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_ergebnis",
+    "word": "Ergebnis",
+    "article": "das",
+    "english": "result",
+    "plural": "Ergebnisse",
+    "plural_article": "die",
+    "genitive": "des Ergebnisses",
+    "frequency_rank": 92,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Das Ergebnis des Tests war gut.",
+        "en": "The result of the test was good.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir warten auf das Ergebnis.",
+        "en": "We are waiting for the result.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "education",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_beispiel",
+    "word": "Beispiel",
+    "article": "das",
+    "english": "example",
+    "plural": "Beispiele",
+    "plural_article": "die",
+    "genitive": "des Beispiels",
+    "frequency_rank": 93,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Kannst du mir ein Beispiel geben?",
+        "en": "Can you give me an example?",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das ist ein gutes Beispiel.",
+        "en": "That is a good example.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "language",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_angebot",
+    "word": "Angebot",
+    "article": "das",
+    "english": "offer",
+    "plural": "Angebote",
+    "plural_article": "die",
+    "genitive": "des Angebots",
+    "frequency_rank": 94,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Das Angebot klingt sehr gut.",
+        "en": "The offer sounds very good.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Im Supermarkt gibt es viele Angebote.",
+        "en": "There are many special offers in the supermarket.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "finance",
+      "daily_life",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_interesse",
+    "word": "Interesse",
+    "article": "das",
+    "english": "interest",
+    "plural": "Interessen",
+    "plural_article": "die",
+    "genitive": "des Interesses",
+    "frequency_rank": 95,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Das Interesse an Kunst ist gewachsen.",
+        "en": "Interest in art has grown.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich habe kein Interesse daran.",
+        "en": "I have no interest in that.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_verhalten",
+    "word": "Verhalten",
+    "article": "das",
+    "english": "behaviour",
+    "plural": "Verhalten",
+    "plural_article": "die",
+    "genitive": "des Verhaltens",
+    "frequency_rank": 96,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Das Verhalten des Kindes ist seltsam.",
+        "en": "The child's behaviour is strange.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ihr Verhalten war sehr professionell.",
+        "en": "Her behaviour was very professional.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_ziel",
+    "word": "Ziel",
+    "article": "das",
+    "english": "goal / aim",
+    "plural": "Ziele",
+    "plural_article": "die",
+    "genitive": "des Ziels",
+    "frequency_rank": 97,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Mein Ziel ist es, fließend Deutsch zu sprechen.",
+        "en": "My goal is to speak German fluently.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Ziel ist noch weit entfernt.",
+        "en": "The goal is still far away.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_thema",
+    "word": "Thema",
+    "article": "das",
+    "english": "topic / theme",
+    "plural": "Themen",
+    "plural_article": "die",
+    "genitive": "des Themas",
+    "frequency_rank": 98,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Das Thema der Diskussion ist Klimawandel.",
+        "en": "The topic of the discussion is climate change.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Dieses Thema interessiert mich sehr.",
+        "en": "This topic interests me very much.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "language",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_recht",
+    "word": "Recht",
+    "article": "das",
+    "english": "right / law",
+    "plural": "Rechte",
+    "plural_article": "die",
+    "genitive": "des Rechts",
+    "frequency_rank": 99,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Jeder Mensch hat das Recht auf Freiheit.",
+        "en": "Every person has the right to freedom.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das ist mein gutes Recht.",
+        "en": "That is my legal right.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_gebiet",
+    "word": "Gebiet",
+    "article": "das",
+    "english": "area / field",
+    "plural": "Gebiete",
+    "plural_article": "die",
+    "genitive": "des Gebiets",
+    "frequency_rank": 100,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "In diesem Gebiet kenne ich mich gut aus.",
+        "en": "I know my way around in this field.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das ist ein gefährliches Gebiet.",
+        "en": "That is a dangerous area.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "places",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_einfluss",
+    "word": "Einfluss",
+    "article": "der",
+    "english": "influence",
+    "plural": "Einflüsse",
+    "plural_article": "die",
+    "genitive": "des Einflusses",
+    "frequency_rank": 101,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Der Einfluss der Medien ist sehr groß.",
+        "en": "The influence of the media is very great.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er hat großen Einfluss auf die Entscheidung.",
+        "en": "He has great influence on the decision.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_unterschied",
+    "word": "Unterschied",
+    "article": "der",
+    "english": "difference",
+    "plural": "Unterschiede",
+    "plural_article": "die",
+    "genitive": "des Unterschieds",
+    "frequency_rank": 102,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Was ist der Unterschied zwischen diesen beiden Wörtern?",
+        "en": "What is the difference between these two words?",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Es gibt einen großen Unterschied.",
+        "en": "There is a big difference.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "language",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_zusammenhang",
+    "word": "Zusammenhang",
+    "article": "der",
+    "english": "connection / context",
+    "plural": "Zusammenhänge",
+    "plural_article": "die",
+    "genitive": "des Zusammenhangs",
+    "frequency_rank": 103,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Ich verstehe den Zusammenhang nicht.",
+        "en": "I don't understand the connection.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das muss im Zusammenhang gesehen werden.",
+        "en": "This must be seen in context.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "language",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_bereich",
+    "word": "Bereich",
+    "article": "der",
+    "english": "area / field / sector",
+    "plural": "Bereiche",
+    "plural_article": "die",
+    "genitive": "des Bereichs",
+    "frequency_rank": 104,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "In diesem Bereich bin ich Experte.",
+        "en": "I am an expert in this field.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Bereich der Medizin entwickelt sich schnell.",
+        "en": "The field of medicine is developing quickly.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_inhalt",
+    "word": "Inhalt",
+    "article": "der",
+    "english": "content",
+    "plural": "Inhalte",
+    "plural_article": "die",
+    "genitive": "des Inhalts",
+    "frequency_rank": 105,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Der Inhalt des Buches ist sehr interessant.",
+        "en": "The content of the book is very interesting.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich habe den Inhalt nicht verstanden.",
+        "en": "I did not understand the content.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "language",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_ausdruck",
+    "word": "Ausdruck",
+    "article": "der",
+    "english": "expression",
+    "plural": "Ausdrücke",
+    "plural_article": "die",
+    "genitive": "des Ausdrucks",
+    "frequency_rank": 106,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Dieser Ausdruck ist sehr typisch für die Mundart.",
+        "en": "This expression is very typical of the dialect.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich suche den richtigen Ausdruck.",
+        "en": "I am looking for the right expression.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "language",
+      "communication",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_fehler",
+    "word": "Fehler",
+    "article": "der",
+    "english": "mistake",
+    "plural": "Fehler",
+    "plural_article": "die",
+    "genitive": "des Fehlers",
+    "frequency_rank": 107,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Ich habe einen Fehler gemacht.",
+        "en": "I made a mistake.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Fehler liegt im zweiten Satz.",
+        "en": "The mistake is in the second sentence.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "education",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_vorteil",
+    "word": "Vorteil",
+    "article": "der",
+    "english": "advantage",
+    "plural": "Vorteile",
+    "plural_article": "die",
+    "genitive": "des Vorteils",
+    "frequency_rank": 108,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Das hat einen großen Vorteil für uns.",
+        "en": "That has a great advantage for us.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Vorteil dieser Methode ist die Schnelligkeit.",
+        "en": "The advantage of this method is its speed.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_nachteil",
+    "word": "Nachteil",
+    "article": "der",
+    "english": "disadvantage",
+    "plural": "Nachteile",
+    "plural_article": "die",
+    "genitive": "des Nachteils",
+    "frequency_rank": 109,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Der Nachteil ist der hohe Preis.",
+        "en": "The disadvantage is the high price.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Es gibt auch Nachteile bei dieser Lösung.",
+        "en": "There are also disadvantages with this solution.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_einwohner",
+    "word": "Einwohner",
+    "article": "der",
+    "english": "inhabitant",
+    "plural": "Einwohner",
+    "plural_article": "die",
+    "genitive": "des Einwohners",
+    "frequency_rank": 110,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Stadt hat drei Millionen Einwohner.",
+        "en": "The city has three million inhabitants.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Einwohner der Stadt kennt jeden Weg.",
+        "en": "The inhabitant of the city knows every path.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "people",
+      "places",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_zustand",
+    "word": "Zustand",
+    "article": "der",
+    "english": "condition / state",
+    "plural": "Zustände",
+    "plural_article": "die",
+    "genitive": "des Zustands",
+    "frequency_rank": 111,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Das Auto ist in einem schlechten Zustand.",
+        "en": "The car is in a bad condition.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Zustand des Patienten hat sich verbessert.",
+        "en": "The patient's condition has improved.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "health",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_verlust",
+    "word": "Verlust",
+    "article": "der",
+    "english": "loss",
+    "plural": "Verluste",
+    "plural_article": "die",
+    "genitive": "des Verlustes",
+    "frequency_rank": 112,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Der Verlust war sehr schmerzhaft.",
+        "en": "The loss was very painful.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Unternehmen hat große Verluste gemacht.",
+        "en": "The company made great losses.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "finance",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_fortschritt",
+    "word": "Fortschritt",
+    "article": "der",
+    "english": "progress",
+    "plural": "Fortschritte",
+    "plural_article": "die",
+    "genitive": "des Fortschritts",
+    "frequency_rank": 113,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Der Fortschritt in der Medizin ist beeindruckend.",
+        "en": "The progress in medicine is impressive.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich mache gute Fortschritte beim Deutschlernen.",
+        "en": "I am making good progress learning German.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_beitrag",
+    "word": "Beitrag",
+    "article": "der",
+    "english": "contribution",
+    "plural": "Beiträge",
+    "plural_article": "die",
+    "genitive": "des Beitrags",
+    "frequency_rank": 114,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Sein Beitrag zum Projekt war sehr wichtig.",
+        "en": "His contribution to the project was very important.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Sie leistet einen großen Beitrag zur Gesellschaft.",
+        "en": "She makes a great contribution to society.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_zweck",
+    "word": "Zweck",
+    "article": "der",
+    "english": "purpose",
+    "plural": "Zwecke",
+    "plural_article": "die",
+    "genitive": "des Zwecks",
+    "frequency_rank": 115,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Was ist der Zweck dieser Übung?",
+        "en": "What is the purpose of this exercise?",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Zweck heiligt nicht immer die Mittel.",
+        "en": "The end does not always justify the means.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_krankenhaus",
+    "word": "Krankenhaus",
+    "article": "das",
+    "english": "hospital",
+    "plural": "Krankenhäuser",
+    "plural_article": "die",
+    "genitive": "des Krankenhauses",
+    "frequency_rank": 116,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Er liegt seit einer Woche im Krankenhaus.",
+        "en": "He has been in hospital for a week.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Krankenhaus ist gut ausgestattet.",
+        "en": "The hospital is well equipped.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "health",
+      "places",
+      "buildings",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_rathaus",
+    "word": "Rathaus",
+    "article": "das",
+    "english": "town hall",
+    "plural": "Rathäuser",
+    "plural_article": "die",
+    "genitive": "des Rathauses",
+    "frequency_rank": 117,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Das Rathaus liegt in der Stadtmitte.",
+        "en": "The town hall is in the city centre.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir haben unsere Ehe im Rathaus angemeldet.",
+        "en": "We registered our marriage at the town hall.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "buildings",
+      "places",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_flughafen",
+    "word": "Flughafen",
+    "article": "der",
+    "english": "airport",
+    "plural": "Flughäfen",
+    "plural_article": "die",
+    "genitive": "des Flughafens",
+    "frequency_rank": 118,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Der Flughafen ist sehr weit von der Stadt entfernt.",
+        "en": "The airport is very far from the city.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir müssen um fünf Uhr am Flughafen sein.",
+        "en": "We have to be at the airport at five o'clock.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "transport",
+      "places",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_umwelt",
+    "word": "Umwelt",
+    "article": "die",
+    "english": "environment",
+    "plural": "Umwelten",
+    "plural_article": "die",
+    "genitive": "der Umwelt",
+    "frequency_rank": 119,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Wir müssen die Umwelt schützen.",
+        "en": "We must protect the environment.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Umwelt leidet unter der Industrie.",
+        "en": "The environment suffers from industry.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "nature",
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_energie",
+    "word": "Energie",
+    "article": "die",
+    "english": "energy",
+    "plural": "Energien",
+    "plural_article": "die",
+    "genitive": "der Energie",
+    "frequency_rank": 120,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Erneuerbare Energie ist die Zukunft.",
+        "en": "Renewable energy is the future.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich habe heute keine Energie.",
+        "en": "I have no energy today.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "technology",
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_technik",
+    "word": "Technik",
+    "article": "die",
+    "english": "technology / technique",
+    "plural": "Techniken",
+    "plural_article": "die",
+    "genitive": "der Technik",
+    "frequency_rank": 121,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die moderne Technik macht vieles einfacher.",
+        "en": "Modern technology makes many things easier.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er beherrscht diese Technik sehr gut.",
+        "en": "He has mastered this technique very well.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "technology",
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_gesundheit",
+    "word": "Gesundheit",
+    "article": "die",
+    "english": "health",
+    "plural": "Gesundheiten",
+    "plural_article": "die",
+    "genitive": "der Gesundheit",
+    "frequency_rank": 122,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Gesundheit ist das Wichtigste im Leben.",
+        "en": "Health is the most important thing in life.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Sie achtet sehr auf ihre Gesundheit.",
+        "en": "She pays close attention to her health.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "health",
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_gewalt",
+    "word": "Gewalt",
+    "article": "die",
+    "english": "violence / force",
+    "plural": "Gewalten",
+    "plural_article": "die",
+    "genitive": "der Gewalt",
+    "frequency_rank": 123,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Gewalt ist keine Lösung.",
+        "en": "Violence is not a solution.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Gewalt des Sturms war unglaublich.",
+        "en": "The force of the storm was incredible.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_freiheit",
+    "word": "Freiheit",
+    "article": "die",
+    "english": "freedom",
+    "plural": "Freiheiten",
+    "plural_article": "die",
+    "genitive": "der Freiheit",
+    "frequency_rank": 124,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Freiheit ist ein grundlegendes Menschenrecht.",
+        "en": "Freedom is a fundamental human right.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Freiheit der Presse ist wichtig.",
+        "en": "The freedom of the press is important.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_verantwortung",
+    "word": "Verantwortung",
+    "article": "die",
+    "english": "responsibility",
+    "plural": "Verantwortungen",
+    "plural_article": "die",
+    "genitive": "der Verantwortung",
+    "frequency_rank": 125,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Du trägst die Verantwortung für dieses Projekt.",
+        "en": "You bear the responsibility for this project.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Verantwortung zu übernehmen ist schwierig.",
+        "en": "Taking on responsibility is difficult.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_auseinandersetzung",
+    "word": "Auseinandersetzung",
+    "article": "die",
+    "english": "dispute / confrontation",
+    "plural": "Auseinandersetzungen",
+    "plural_article": "die",
+    "genitive": "der Auseinandersetzung",
+    "frequency_rank": 126,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Auseinandersetzung zwischen den Parteien war heftig.",
+        "en": "The dispute between the parties was fierce.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er hat die Auseinandersetzung sachlich geführt.",
+        "en": "He conducted the confrontation in a factual manner.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "communication",
+      "social",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_anerkennung",
+    "word": "Anerkennung",
+    "article": "die",
+    "english": "recognition / acknowledgement",
+    "plural": "Anerkennungen",
+    "plural_article": "die",
+    "genitive": "der Anerkennung",
+    "frequency_rank": 127,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Sie verdient Anerkennung für ihre Arbeit.",
+        "en": "She deserves recognition for her work.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Anerkennung seines Abschlusses dauerte lange.",
+        "en": "The recognition of his qualification took a long time.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_herausforderung",
+    "word": "Herausforderung",
+    "article": "die",
+    "english": "challenge",
+    "plural": "Herausforderungen",
+    "plural_article": "die",
+    "genitive": "der Herausforderung",
+    "frequency_rank": 128,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das ist eine große Herausforderung für uns alle.",
+        "en": "That is a great challenge for all of us.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er stellt sich der Herausforderung.",
+        "en": "He is facing up to the challenge.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_umsetzung",
+    "word": "Umsetzung",
+    "article": "die",
+    "english": "implementation",
+    "plural": "Umsetzungen",
+    "plural_article": "die",
+    "genitive": "der Umsetzung",
+    "frequency_rank": 129,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Umsetzung des Plans erfordert viel Arbeit.",
+        "en": "The implementation of the plan requires a lot of work.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Umsetzung scheiterte an finanziellen Problemen.",
+        "en": "The implementation failed due to financial problems.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_ueberzeugung",
+    "word": "Überzeugung",
+    "article": "die",
+    "english": "conviction / belief",
+    "plural": "Überzeugungen",
+    "plural_article": "die",
+    "genitive": "der Überzeugung",
+    "frequency_rank": 130,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Er handelt aus Überzeugung.",
+        "en": "He acts out of conviction.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Meine Überzeugung ist, dass Bildung wichtig ist.",
+        "en": "My conviction is that education is important.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_voraussetzung",
+    "word": "Voraussetzung",
+    "article": "die",
+    "english": "prerequisite",
+    "plural": "Voraussetzungen",
+    "plural_article": "die",
+    "genitive": "der Voraussetzung",
+    "frequency_rank": 131,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Eine gute Ausbildung ist die Voraussetzung für diesen Job.",
+        "en": "A good education is the prerequisite for this job.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Voraussetzungen für das Projekt sind erfüllt.",
+        "en": "The prerequisites for the project are met.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_wahrnehmung",
+    "word": "Wahrnehmung",
+    "article": "die",
+    "english": "perception",
+    "plural": "Wahrnehmungen",
+    "plural_article": "die",
+    "genitive": "der Wahrnehmung",
+    "frequency_rank": 132,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Wahrnehmung der Realität ist subjektiv.",
+        "en": "The perception of reality is subjective.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Seine Wahrnehmung des Problems ist verzerrt.",
+        "en": "His perception of the problem is distorted.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_beruecksichtigung",
+    "word": "Berücksichtigung",
+    "article": "die",
+    "english": "consideration",
+    "plural": "Berücksichtigungen",
+    "plural_article": "die",
+    "genitive": "der Berücksichtigung",
+    "frequency_rank": 133,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Unter Berücksichtigung aller Faktoren ist die Entscheidung richtig.",
+        "en": "Taking all factors into consideration, the decision is correct.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Berücksichtigung der Kosten ist wichtig.",
+        "en": "The consideration of costs is important.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_durchfuehrung",
+    "word": "Durchführung",
+    "article": "die",
+    "english": "implementation / execution",
+    "plural": "Durchführungen",
+    "plural_article": "die",
+    "genitive": "der Durchführung",
+    "frequency_rank": 134,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Durchführung des Projekts begann im Januar.",
+        "en": "The implementation of the project began in January.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Für die Durchführung sind drei Personen zuständig.",
+        "en": "Three people are responsible for the execution.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_einschraenkung",
+    "word": "Einschränkung",
+    "article": "die",
+    "english": "restriction / limitation",
+    "plural": "Einschränkungen",
+    "plural_article": "die",
+    "genitive": "der Einschränkung",
+    "frequency_rank": 135,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die neuen Regeln bringen viele Einschränkungen.",
+        "en": "The new rules bring many restrictions.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Diese Einschränkung gilt für alle.",
+        "en": "This restriction applies to everyone.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_foerderung",
+    "word": "Förderung",
+    "article": "die",
+    "english": "promotion / funding",
+    "plural": "Förderungen",
+    "plural_article": "die",
+    "genitive": "der Förderung",
+    "frequency_rank": 136,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Förderung junger Talente ist sehr wichtig.",
+        "en": "The promotion of young talents is very important.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Projekt erhält staatliche Förderung.",
+        "en": "The project receives state funding.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "education",
+      "finance",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_grundlage",
+    "word": "Grundlage",
+    "article": "die",
+    "english": "basis / foundation",
+    "plural": "Grundlagen",
+    "plural_article": "die",
+    "genitive": "der Grundlage",
+    "frequency_rank": 137,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Vertrauen ist die Grundlage jeder guten Beziehung.",
+        "en": "Trust is the foundation of every good relationship.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Auf dieser Grundlage können wir weiterarbeiten.",
+        "en": "On this basis we can continue working.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_haltung",
+    "word": "Haltung",
+    "article": "die",
+    "english": "attitude / posture",
+    "plural": "Haltungen",
+    "plural_article": "die",
+    "genitive": "der Haltung",
+    "frequency_rank": 138,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Seine Haltung zu diesem Thema hat sich verändert.",
+        "en": "His attitude to this topic has changed.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Eine aufrechte Haltung ist gesund für den Rücken.",
+        "en": "An upright posture is healthy for the back.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "body",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_leistung",
+    "word": "Leistung",
+    "article": "die",
+    "english": "performance / achievement",
+    "plural": "Leistungen",
+    "plural_article": "die",
+    "genitive": "der Leistung",
+    "frequency_rank": 139,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Seine schulische Leistung ist sehr gut.",
+        "en": "His academic performance is very good.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Leistung des Motors ist beeindruckend.",
+        "en": "The performance of the engine is impressive.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "education",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_massnahme",
+    "word": "Maßnahme",
+    "article": "die",
+    "english": "measure / step",
+    "plural": "Maßnahmen",
+    "plural_article": "die",
+    "genitive": "der Maßnahme",
+    "frequency_rank": 140,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Regierung ergreift strenge Maßnahmen.",
+        "en": "The government is taking strict measures.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Diese Maßnahme ist notwendig.",
+        "en": "This measure is necessary.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_mehrheit",
+    "word": "Mehrheit",
+    "article": "die",
+    "english": "majority",
+    "plural": "Mehrheiten",
+    "plural_article": "die",
+    "genitive": "der Mehrheit",
+    "frequency_rank": 141,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Mehrheit der Bevölkerung ist dafür.",
+        "en": "The majority of the population is in favour.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Gesetz wurde mit großer Mehrheit verabschiedet.",
+        "en": "The law was passed with a large majority.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_schicht",
+    "word": "Schicht",
+    "article": "die",
+    "english": "layer / class / shift",
+    "plural": "Schichten",
+    "plural_article": "die",
+    "genitive": "der Schicht",
+    "frequency_rank": 142,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Er arbeitet in der Nachtschicht.",
+        "en": "He works the night shift.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die gesellschaftliche Schicht bestimmt viele Chancen.",
+        "en": "The social class determines many opportunities.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_tendenz",
+    "word": "Tendenz",
+    "article": "die",
+    "english": "tendency / trend",
+    "plural": "Tendenzen",
+    "plural_article": "die",
+    "genitive": "der Tendenz",
+    "frequency_rank": 143,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Es gibt eine Tendenz zu mehr Homeoffice.",
+        "en": "There is a tendency towards more working from home.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Tendenz ist klar erkennbar.",
+        "en": "The trend is clearly recognisable.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_verfassung",
+    "word": "Verfassung",
+    "article": "die",
+    "english": "constitution / condition",
+    "plural": "Verfassungen",
+    "plural_article": "die",
+    "genitive": "der Verfassung",
+    "frequency_rank": 144,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Verfassung schützt die Grundrechte der Bürger.",
+        "en": "The constitution protects citizens' fundamental rights.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er ist in guter körperlicher Verfassung.",
+        "en": "He is in good physical condition.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "health",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_wirklichkeit",
+    "word": "Wirklichkeit",
+    "article": "die",
+    "english": "reality",
+    "plural": "Wirklichkeiten",
+    "plural_article": "die",
+    "genitive": "der Wirklichkeit",
+    "frequency_rank": 145,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "In der Wirklichkeit sieht das ganz anders aus.",
+        "en": "In reality it looks quite different.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er flieht vor der Wirklichkeit.",
+        "en": "He is fleeing from reality.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_ausmass",
+    "word": "Ausmaß",
+    "article": "das",
+    "english": "extent / scale",
+    "plural": "Ausmaße",
+    "plural_article": "die",
+    "genitive": "des Ausmaßes",
+    "frequency_rank": 146,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das Ausmaß des Schadens ist enorm.",
+        "en": "The extent of the damage is enormous.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Ausmaß der Krise wurde unterschätzt.",
+        "en": "The scale of the crisis was underestimated.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_bewusstsein",
+    "word": "Bewusstsein",
+    "article": "das",
+    "english": "consciousness / awareness",
+    "plural": "Bewusstseine",
+    "plural_article": "die",
+    "genitive": "des Bewusstseins",
+    "frequency_rank": 147,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das Bewusstsein für Umweltprobleme wächst.",
+        "en": "Awareness of environmental problems is growing.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er verlor das Bewusstsein nach dem Unfall.",
+        "en": "He lost consciousness after the accident.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "health",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_gleichgewicht",
+    "word": "Gleichgewicht",
+    "article": "das",
+    "english": "balance / equilibrium",
+    "plural": "Gleichgewichte",
+    "plural_article": "die",
+    "genitive": "des Gleichgewichts",
+    "frequency_rank": 148,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das Gleichgewicht zwischen Arbeit und Freizeit ist wichtig.",
+        "en": "The balance between work and leisure is important.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er verlor das Gleichgewicht und fiel hin.",
+        "en": "He lost his balance and fell.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_konzept",
+    "word": "Konzept",
+    "article": "das",
+    "english": "concept / plan",
+    "plural": "Konzepte",
+    "plural_article": "die",
+    "genitive": "des Konzepts",
+    "frequency_rank": 149,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das Konzept des Projekts ist überzeugend.",
+        "en": "The concept of the project is convincing.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir haben noch kein klares Konzept.",
+        "en": "We don't have a clear plan yet.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_kriterium",
+    "word": "Kriterium",
+    "article": "das",
+    "english": "criterion",
+    "plural": "Kriterien",
+    "plural_article": "die",
+    "genitive": "des Kriteriums",
+    "frequency_rank": 150,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das wichtigste Kriterium ist die Qualität.",
+        "en": "The most important criterion is quality.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Bewerber müssen mehrere Kriterien erfüllen.",
+        "en": "The applicants must meet several criteria.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_merkmal",
+    "word": "Merkmal",
+    "article": "das",
+    "english": "characteristic / feature",
+    "plural": "Merkmale",
+    "plural_article": "die",
+    "genitive": "des Merkmals",
+    "frequency_rank": 151,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Ein typisches Merkmal dieser Sprache ist die Wortstellung.",
+        "en": "A typical characteristic of this language is word order.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das ist ein wichtiges Merkmal guter Führung.",
+        "en": "That is an important feature of good leadership.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "language",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_phaenomen",
+    "word": "Phänomen",
+    "article": "das",
+    "english": "phenomenon",
+    "plural": "Phänomene",
+    "plural_article": "die",
+    "genitive": "des Phänomens",
+    "frequency_rank": 152,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das ist ein interessantes soziales Phänomen.",
+        "en": "That is an interesting social phenomenon.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Wissenschaft untersucht dieses Phänomen.",
+        "en": "Science is investigating this phenomenon.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "education",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_prinzip",
+    "word": "Prinzip",
+    "article": "das",
+    "english": "principle",
+    "plural": "Prinzipien",
+    "plural_article": "die",
+    "genitive": "des Prinzips",
+    "frequency_rank": 153,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das Prinzip der Gleichheit gilt für alle.",
+        "en": "The principle of equality applies to everyone.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er handelt nach diesem Prinzip.",
+        "en": "He acts according to this principle.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_risiko",
+    "word": "Risiko",
+    "article": "das",
+    "english": "risk",
+    "plural": "Risiken",
+    "plural_article": "die",
+    "genitive": "des Risikos",
+    "frequency_rank": 154,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das Risiko ist zu hoch.",
+        "en": "The risk is too high.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir müssen das Risiko abwägen.",
+        "en": "We must weigh up the risk.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_scheitern",
+    "word": "Scheitern",
+    "article": "das",
+    "english": "failure / failing",
+    "plural": "Scheitern",
+    "plural_article": "die",
+    "genitive": "des Scheiterns",
+    "frequency_rank": 155,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das Scheitern des Projekts war unvermeidlich.",
+        "en": "The failure of the project was inevitable.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Aus dem Scheitern kann man viel lernen.",
+        "en": "You can learn a lot from failure.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_ansatz",
+    "word": "Ansatz",
+    "article": "der",
+    "english": "approach / starting point",
+    "plural": "Ansätze",
+    "plural_article": "die",
+    "genitive": "des Ansatzes",
+    "frequency_rank": 156,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Dieser Ansatz ist sehr innovativ.",
+        "en": "This approach is very innovative.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir brauchen einen neuen Ansatz für das Problem.",
+        "en": "We need a new approach to the problem.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_aspekt",
+    "word": "Aspekt",
+    "article": "der",
+    "english": "aspect",
+    "plural": "Aspekte",
+    "plural_article": "die",
+    "genitive": "des Aspekts",
+    "frequency_rank": 157,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Dieser Aspekt des Problems wurde übersehen.",
+        "en": "This aspect of the problem was overlooked.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Man muss alle Aspekte berücksichtigen.",
+        "en": "One must take all aspects into consideration.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_aufwand",
+    "word": "Aufwand",
+    "article": "der",
+    "english": "effort / expenditure",
+    "plural": "Aufwände",
+    "plural_article": "die",
+    "genitive": "des Aufwands",
+    "frequency_rank": 158,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Der Aufwand ist sehr hoch.",
+        "en": "The effort is very high.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das lohnt sich nicht, gemessen am Aufwand.",
+        "en": "It's not worth it, given the effort involved.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_begriff",
+    "word": "Begriff",
+    "article": "der",
+    "english": "term / concept",
+    "plural": "Begriffe",
+    "plural_article": "die",
+    "genitive": "des Begriffs",
+    "frequency_rank": 159,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Dieser Begriff ist schwer zu definieren.",
+        "en": "This term is difficult to define.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Begriff 'Demokratie' hat viele Bedeutungen.",
+        "en": "The concept of 'democracy' has many meanings.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "language",
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_einwand",
+    "word": "Einwand",
+    "article": "der",
+    "english": "objection",
+    "plural": "Einwände",
+    "plural_article": "die",
+    "genitive": "des Einwands",
+    "frequency_rank": 160,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Er erhob einen Einwand gegen den Plan.",
+        "en": "He raised an objection to the plan.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Mein Einwand wurde ignoriert.",
+        "en": "My objection was ignored.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "communication",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_kontext",
+    "word": "Kontext",
+    "article": "der",
+    "english": "context",
+    "plural": "Kontexte",
+    "plural_article": "die",
+    "genitive": "des Kontexts",
+    "frequency_rank": 161,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Man muss den Kontext verstehen, um den Satz zu deuten.",
+        "en": "You must understand the context to interpret the sentence.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Wort hat in diesem Kontext eine andere Bedeutung.",
+        "en": "The word has a different meaning in this context.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "language",
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_rueckgang",
+    "word": "Rückgang",
+    "article": "der",
+    "english": "decline / decrease",
+    "plural": "Rückgänge",
+    "plural_article": "die",
+    "genitive": "des Rückgangs",
+    "frequency_rank": 162,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Der Rückgang der Geburtenrate ist ein Problem.",
+        "en": "The decline in the birth rate is a problem.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Es gibt einen starken Rückgang im Export.",
+        "en": "There is a sharp decrease in exports.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "finance",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_schwerpunkt",
+    "word": "Schwerpunkt",
+    "article": "der",
+    "english": "focus / priority",
+    "plural": "Schwerpunkte",
+    "plural_article": "die",
+    "genitive": "des Schwerpunkts",
+    "frequency_rank": 163,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Der Schwerpunkt liegt auf der Qualitätssicherung.",
+        "en": "The focus is on quality assurance.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir setzen neue Schwerpunkte in der Forschung.",
+        "en": "We are setting new priorities in research.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_standpunkt",
+    "word": "Standpunkt",
+    "article": "der",
+    "english": "point of view / standpoint",
+    "plural": "Standpunkte",
+    "plural_article": "die",
+    "genitive": "des Standpunkts",
+    "frequency_rank": 164,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Von meinem Standpunkt aus ist das falsch.",
+        "en": "From my point of view, that is wrong.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Sie verteidigte ihren Standpunkt überzeugend.",
+        "en": "She defended her standpoint convincingly.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "communication",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_umfang",
+    "word": "Umfang",
+    "article": "der",
+    "english": "scope / extent",
+    "plural": "Umfänge",
+    "plural_article": "die",
+    "genitive": "des Umfangs",
+    "frequency_rank": 165,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Der Umfang des Projekts ist sehr groß.",
+        "en": "The scope of the project is very large.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir unterschätzen den Umfang der Aufgabe.",
+        "en": "We underestimate the extent of the task.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_vorwurf",
+    "word": "Vorwurf",
+    "article": "der",
+    "english": "accusation / reproach",
+    "plural": "Vorwürfe",
+    "plural_article": "die",
+    "genitive": "des Vorwurfs",
+    "frequency_rank": 166,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Der Vorwurf ist unbegründet.",
+        "en": "The accusation is unfounded.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er wies den Vorwurf zurück.",
+        "en": "He rejected the accusation.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "communication",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_widerspruch",
+    "word": "Widerspruch",
+    "article": "der",
+    "english": "contradiction",
+    "plural": "Widersprüche",
+    "plural_article": "die",
+    "genitive": "des Widerspruchs",
+    "frequency_rank": 167,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Hier liegt ein Widerspruch vor.",
+        "en": "There is a contradiction here.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Widerspruch zwischen seinen Worten und Taten ist offensichtlich.",
+        "en": "The contradiction between his words and actions is obvious.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "language",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_ueberblick",
+    "word": "Überblick",
+    "article": "der",
+    "english": "overview",
+    "plural": "Überblicke",
+    "plural_article": "die",
+    "genitive": "des Überblicks",
+    "frequency_rank": 168,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Der Überblick über das Thema fehlt ihr noch.",
+        "en": "She still lacks an overview of the topic.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Dieser Bericht gibt einen guten Überblick.",
+        "en": "This report gives a good overview.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_kompromiss",
+    "word": "Kompromiss",
+    "article": "der",
+    "english": "compromise",
+    "plural": "Kompromisse",
+    "plural_article": "die",
+    "genitive": "des Kompromisses",
+    "frequency_rank": 169,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Wir müssen einen Kompromiss finden.",
+        "en": "We need to find a compromise.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Kompromiss wurde von beiden Seiten akzeptiert.",
+        "en": "The compromise was accepted by both sides.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_ruecksicht",
+    "word": "Rücksicht",
+    "article": "die",
+    "english": "consideration / regard",
+    "plural": "Rücksichten",
+    "plural_article": "die",
+    "genitive": "der Rücksicht",
+    "frequency_rank": 170,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Er nimmt keine Rücksicht auf andere.",
+        "en": "He shows no consideration for others.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Rücksicht ist in einer Gemeinschaft unerlässlich.",
+        "en": "Consideration for others is essential in a community.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_sorgfalt",
+    "word": "Sorgfalt",
+    "article": "die",
+    "english": "care / diligence",
+    "plural": "Sorgfalt",
+    "plural_article": "die",
+    "genitive": "der Sorgfalt",
+    "frequency_rank": 171,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Diese Arbeit erfordert große Sorgfalt.",
+        "en": "This work requires great care.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Mit der nötigen Sorgfalt lassen sich Fehler vermeiden.",
+        "en": "With the necessary diligence, mistakes can be avoided.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_beziehung",
+    "word": "Beziehung",
+    "article": "die",
+    "english": "relationship",
+    "plural": "Beziehungen",
+    "plural_article": "die",
+    "genitive": "der Beziehung",
+    "frequency_rank": 172,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Beziehung zwischen den beiden ist kompliziert.",
+        "en": "The relationship between the two is complicated.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Gute Beziehungen sind entscheidend für den Erfolg.",
+        "en": "Good relationships are crucial for success.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_erwartung",
+    "word": "Erwartung",
+    "article": "die",
+    "english": "expectation",
+    "plural": "Erwartungen",
+    "plural_article": "die",
+    "genitive": "der Erwartung",
+    "frequency_rank": 173,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das Ergebnis übertraf alle Erwartungen.",
+        "en": "The result exceeded all expectations.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Erwartung war hoch, aber die Realität war anders.",
+        "en": "The expectation was high, but the reality was different.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_staerke",
+    "word": "Stärke",
+    "article": "die",
+    "english": "strength",
+    "plural": "Stärken",
+    "plural_article": "die",
+    "genitive": "der Stärke",
+    "frequency_rank": 174,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Geduld ist eine seiner größten Stärken.",
+        "en": "Patience is one of his greatest strengths.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Stärke des Arguments liegt in seiner Klarheit.",
+        "en": "The strength of the argument lies in its clarity.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_schwasche",
+    "word": "Schwäche",
+    "article": "die",
+    "english": "weakness",
+    "plural": "Schwächen",
+    "plural_article": "die",
+    "genitive": "der Schwäche",
+    "frequency_rank": 175,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Seine Schwäche ist mangelnde Geduld.",
+        "en": "His weakness is a lack of patience.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Schwäche des Plans liegt in der Finanzierung.",
+        "en": "The weakness of the plan lies in the financing.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
   }
 ],
-  exercises_verbs:
+  exercises_verbs: 
 [
   {
     "exercise_id": "ex_verb_sein_001",
@@ -24893,7 +29965,7 @@ window.APP_DATA = {
     "explanation_en": "Perfekt of 'mitfühlen': 'mit-ge-fühlt'. Auxiliary: 'haben'."
   }
 ],
-  exercises_nouns:
+  exercises_nouns: 
 [
   {
     "exercise_id": "ex_noun_mann_001",
@@ -26694,6 +31766,10806 @@ window.APP_DATA = {
       "Mahlzeit"
     ],
     "explanation_en": "'Essen' is the accusative direct object. Neuter accusative: 'das Essen' (same form as nominative)."
+  },
+  {
+    "exercise_id": "ex_noun_mutter_001",
+    "word_id": "noun_mutter",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Mutter",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the mother",
+    "wrong_answers": [
+      "the father",
+      "the sister",
+      "the daughter",
+      "the woman"
+    ],
+    "explanation_en": "'Mutter' means 'mother'. It is a feminine noun taking the article 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_mutter_002",
+    "word_id": "noun_mutter",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Mutter kocht jeden Abend.",
+      "en": "The mother cooks every evening."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Mutter' is a feminine noun. In the nominative case (subject), it takes the article 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_mutter_003",
+    "word_id": "noun_mutter",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ liest dem Kind ein Buch vor.",
+      "en": "The mother reads a book to the child."
+    },
+    "correct_answer": "Mutter",
+    "wrong_answers": [
+      "Schwester",
+      "Frau",
+      "Lehrerin",
+      "Tochter"
+    ],
+    "explanation_en": "'Mutter' means 'mother'. It is the subject here, used in the nominative with 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_mutter_004",
+    "word_id": "noun_mutter",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich rufe meine _____ jeden Sonntag an.",
+      "en": "I call my mother every Sunday."
+    },
+    "correct_answer": "Mutter",
+    "wrong_answers": [
+      "Schwester",
+      "Freundin",
+      "Lehrerin",
+      "Nachbarin"
+    ],
+    "explanation_en": "After the possessive 'meine', 'Mutter' is used in the accusative case — but its form does not change (feminine accusative = same as nominative)."
+  },
+  {
+    "exercise_id": "ex_noun_vater_001",
+    "word_id": "noun_vater",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Vater",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the father",
+    "wrong_answers": [
+      "the brother",
+      "the uncle",
+      "the grandfather",
+      "the man"
+    ],
+    "explanation_en": "'Vater' means 'father'. It is a masculine noun taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_vater_002",
+    "word_id": "noun_vater",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Vater arbeitet als Arzt.",
+      "en": "The father works as a doctor."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Vater' is a masculine noun. As the subject (nominative), it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_vater_003",
+    "word_id": "noun_vater",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ spielt mit seinem Sohn im Garten.",
+      "en": "The father plays with his son in the garden."
+    },
+    "correct_answer": "Vater",
+    "wrong_answers": [
+      "Bruder",
+      "Nachbar",
+      "Lehrer",
+      "Chef"
+    ],
+    "explanation_en": "'Vater' means 'father'. It is the subject of the sentence, used in the nominative with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_vater_004",
+    "word_id": "noun_vater",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich besuche meinen _____ am Wochenende.",
+      "en": "I visit my father at the weekend."
+    },
+    "correct_answer": "Vater",
+    "wrong_answers": [
+      "Bruder",
+      "Kollegen",
+      "Nachbarn",
+      "Chef"
+    ],
+    "explanation_en": "After 'meinen', 'Vater' is in the accusative case (masculine accusative adds -n to the article: 'meinen Vater')."
+  },
+  {
+    "exercise_id": "ex_noun_bruder_001",
+    "word_id": "noun_bruder",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Bruder",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the brother",
+    "wrong_answers": [
+      "the father",
+      "the uncle",
+      "the cousin",
+      "the son"
+    ],
+    "explanation_en": "'Bruder' means 'brother'. It is a masculine noun taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_bruder_002",
+    "word_id": "noun_bruder",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Bruder kommt morgen zu Besuch.",
+      "en": "The brother is coming to visit tomorrow."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Bruder' is masculine. As the subject (nominative), it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_bruder_003",
+    "word_id": "noun_bruder",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Mein _____ ist zwei Jahre älter als ich.",
+      "en": "My brother is two years older than me."
+    },
+    "correct_answer": "Bruder",
+    "wrong_answers": [
+      "Vater",
+      "Freund",
+      "Kollege",
+      "Nachbar"
+    ],
+    "explanation_en": "'Bruder' means 'brother'. After 'mein' (nominative, masculine), the noun does not change."
+  },
+  {
+    "exercise_id": "ex_noun_bruder_004",
+    "word_id": "noun_bruder",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich habe meinen _____ lange nicht gesehen.",
+      "en": "I haven't seen my brother for a long time."
+    },
+    "correct_answer": "Bruder",
+    "wrong_answers": [
+      "Vater",
+      "Freund",
+      "Kollegen",
+      "Nachbarn"
+    ],
+    "explanation_en": "'sehen' takes the accusative. 'meinen Bruder' — masculine accusative uses 'meinen' + the noun unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_schwester_001",
+    "word_id": "noun_schwester",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Schwester",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the sister",
+    "wrong_answers": [
+      "the mother",
+      "the aunt",
+      "the cousin",
+      "the daughter"
+    ],
+    "explanation_en": "'Schwester' means 'sister'. It is a feminine noun taking the article 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_schwester_002",
+    "word_id": "noun_schwester",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Schwester wohnt in Hamburg.",
+      "en": "The sister lives in Hamburg."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Schwester' is feminine. As the subject (nominative), it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_schwester_003",
+    "word_id": "noun_schwester",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Meine _____ studiert in Berlin.",
+      "en": "My sister studies in Berlin."
+    },
+    "correct_answer": "Schwester",
+    "wrong_answers": [
+      "Mutter",
+      "Freundin",
+      "Kollegin",
+      "Nachbarin"
+    ],
+    "explanation_en": "'Schwester' means 'sister'. After 'meine' (nominative, feminine), the noun is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_schwester_004",
+    "word_id": "noun_schwester",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich vermisse meine _____ sehr.",
+      "en": "I miss my sister very much."
+    },
+    "correct_answer": "Schwester",
+    "wrong_answers": [
+      "Mutter",
+      "Freundin",
+      "Lehrerin",
+      "Kollegin"
+    ],
+    "explanation_en": "'vermissen' takes the accusative. Feminine nouns look the same in nominative and accusative: 'meine Schwester'."
+  },
+  {
+    "exercise_id": "ex_noun_eltern_001",
+    "word_id": "noun_eltern",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Eltern",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the parents",
+    "wrong_answers": [
+      "the children",
+      "the family",
+      "the grandparents",
+      "the siblings"
+    ],
+    "explanation_en": "'Eltern' means 'parents'. It is a plural-only noun and always uses 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_eltern_002",
+    "word_id": "noun_eltern",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Eltern kommen zum Schulabschluss.",
+      "en": "The parents are coming to the school graduation."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Ein",
+      "Einen"
+    ],
+    "explanation_en": "'Eltern' is a plural-only noun. All plural nouns in German use 'die' as their definite article."
+  },
+  {
+    "exercise_id": "ex_noun_eltern_003",
+    "word_id": "noun_eltern",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Meine _____ wohnen auf dem Land.",
+      "en": "My parents live in the countryside."
+    },
+    "correct_answer": "Eltern",
+    "wrong_answers": [
+      "Geschwister",
+      "Großeltern",
+      "Nachbarn",
+      "Kollegen"
+    ],
+    "explanation_en": "'Eltern' means 'parents' and is always plural. 'Meine Eltern' uses the plural possessive form."
+  },
+  {
+    "exercise_id": "ex_noun_eltern_004",
+    "word_id": "noun_eltern",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich besuche meine _____ jedes Weihnachten.",
+      "en": "I visit my parents every Christmas."
+    },
+    "correct_answer": "Eltern",
+    "wrong_answers": [
+      "Geschwister",
+      "Großeltern",
+      "Freunde",
+      "Nachbarn"
+    ],
+    "explanation_en": "'Eltern' is plural-only. In the accusative, plural nouns take 'die' / 'meine' — the form is the same as nominative."
+  },
+  {
+    "exercise_id": "ex_noun_lehrer_001",
+    "word_id": "noun_lehrer",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Lehrer",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the teacher",
+    "wrong_answers": [
+      "the doctor",
+      "the professor",
+      "the student",
+      "the director"
+    ],
+    "explanation_en": "'Lehrer' means 'teacher' (male). It is a masculine noun taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_lehrer_002",
+    "word_id": "noun_lehrer",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Lehrer erklärt die Aufgabe.",
+      "en": "The teacher explains the task."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Lehrer' is masculine. As the subject (nominative), it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_lehrer_003",
+    "word_id": "noun_lehrer",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Unser _____ kommt immer pünktlich.",
+      "en": "Our teacher always comes on time."
+    },
+    "correct_answer": "Lehrer",
+    "wrong_answers": [
+      "Chef",
+      "Arzt",
+      "Kollege",
+      "Nachbar"
+    ],
+    "explanation_en": "'Lehrer' means 'teacher'. After 'unser' (nominative, masculine), the noun is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_lehrer_004",
+    "word_id": "noun_lehrer",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Schüler mögen ihren _____ sehr.",
+      "en": "The pupils like their teacher very much."
+    },
+    "correct_answer": "Lehrer",
+    "wrong_answers": [
+      "Chef",
+      "Arzt",
+      "Kollegen",
+      "Nachbarn"
+    ],
+    "explanation_en": "'mögen' takes the accusative. 'ihren Lehrer' — masculine accusative uses 'ihren' before the noun."
+  },
+  {
+    "exercise_id": "ex_noun_arzt_001",
+    "word_id": "noun_arzt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Arzt",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the doctor",
+    "wrong_answers": [
+      "the nurse",
+      "the dentist",
+      "the pharmacist",
+      "the teacher"
+    ],
+    "explanation_en": "'Arzt' means 'doctor'. It is a masculine noun taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_arzt_002",
+    "word_id": "noun_arzt",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Arzt kommt gleich.",
+      "en": "The doctor is coming shortly."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Arzt' is masculine. As the subject (nominative), it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_arzt_003",
+    "word_id": "noun_arzt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ untersucht den Patienten.",
+      "en": "The doctor examines the patient."
+    },
+    "correct_answer": "Arzt",
+    "wrong_answers": [
+      "Lehrer",
+      "Chef",
+      "Kollege",
+      "Nachbar"
+    ],
+    "explanation_en": "'Arzt' means 'doctor'. It is the nominative subject here, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_arzt_004",
+    "word_id": "noun_arzt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich muss morgen zum _____ gehen.",
+      "en": "I have to go to the doctor tomorrow."
+    },
+    "correct_answer": "Arzt",
+    "wrong_answers": [
+      "Lehrer",
+      "Chef",
+      "Kollegen",
+      "Zahnarzt"
+    ],
+    "explanation_en": "After 'zum' (= zu + dem), the dative case is used. Masculine nouns do not change form in the dative: 'zum Arzt'."
+  },
+  {
+    "exercise_id": "ex_noun_kollege_001",
+    "word_id": "noun_kollege",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Kollege",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the colleague",
+    "wrong_answers": [
+      "the boss",
+      "the friend",
+      "the neighbour",
+      "the partner"
+    ],
+    "explanation_en": "'Kollege' means 'colleague'. It is a masculine noun taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_kollege_002",
+    "word_id": "noun_kollege",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Kollege hilft mir mit dem Bericht.",
+      "en": "The colleague helps me with the report."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Kollege' is a masculine noun. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_kollege_003",
+    "word_id": "noun_kollege",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Mein _____ wohnt in der Nähe.",
+      "en": "My colleague lives nearby."
+    },
+    "correct_answer": "Kollege",
+    "wrong_answers": [
+      "Chef",
+      "Freund",
+      "Nachbar",
+      "Lehrer"
+    ],
+    "explanation_en": "'Kollege' means 'colleague'. After 'mein' (nominative, masculine) the noun is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_kollege_004",
+    "word_id": "noun_kollege",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich treffe meinen _____ nach der Arbeit.",
+      "en": "I am meeting my colleague after work."
+    },
+    "correct_answer": "Kollegen",
+    "wrong_answers": [
+      "Freund",
+      "Chef",
+      "Nachbar",
+      "Lehrer"
+    ],
+    "explanation_en": "'Kollege' is a weak masculine noun (N-Deklination). In the accusative, it adds -n: 'meinen Kollegen'."
+  },
+  {
+    "exercise_id": "ex_noun_nachbar_001",
+    "word_id": "noun_nachbar",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Nachbar",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the neighbour",
+    "wrong_answers": [
+      "the colleague",
+      "the friend",
+      "the stranger",
+      "the guest"
+    ],
+    "explanation_en": "'Nachbar' means 'neighbour'. It is a masculine noun taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_nachbar_002",
+    "word_id": "noun_nachbar",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Nachbar hat einen großen Garten.",
+      "en": "The neighbour has a large garden."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Nachbar' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_nachbar_003",
+    "word_id": "noun_nachbar",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Unser _____ ist sehr freundlich.",
+      "en": "Our neighbour is very friendly."
+    },
+    "correct_answer": "Nachbar",
+    "wrong_answers": [
+      "Kollege",
+      "Freund",
+      "Chef",
+      "Lehrer"
+    ],
+    "explanation_en": "'Nachbar' means 'neighbour'. After 'unser' (nominative, masculine), the noun is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_nachbar_004",
+    "word_id": "noun_nachbar",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich habe meinen _____ heute nicht gesehen.",
+      "en": "I haven't seen my neighbour today."
+    },
+    "correct_answer": "Nachbarn",
+    "wrong_answers": [
+      "Freund",
+      "Chef",
+      "Kollegen",
+      "Lehrer"
+    ],
+    "explanation_en": "'Nachbar' is a weak masculine noun. In the accusative, it takes -n: 'meinen Nachbarn'."
+  },
+  {
+    "exercise_id": "ex_noun_chef_001",
+    "word_id": "noun_chef",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Chef",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the boss",
+    "wrong_answers": [
+      "the colleague",
+      "the director",
+      "the employee",
+      "the manager"
+    ],
+    "explanation_en": "'Chef' means 'boss' or 'head'. It is a masculine noun taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_chef_002",
+    "word_id": "noun_chef",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Chef ist heute im Urlaub.",
+      "en": "The boss is on holiday today."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Chef' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_chef_003",
+    "word_id": "noun_chef",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Mein _____ gibt mir viel Arbeit.",
+      "en": "My boss gives me a lot of work."
+    },
+    "correct_answer": "Chef",
+    "wrong_answers": [
+      "Kollege",
+      "Lehrer",
+      "Nachbar",
+      "Arzt"
+    ],
+    "explanation_en": "'Chef' means 'boss'. After 'mein' (nominative, masculine), the noun is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_chef_004",
+    "word_id": "noun_chef",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich muss meinen _____ um Erlaubnis fragen.",
+      "en": "I have to ask my boss for permission."
+    },
+    "correct_answer": "Chef",
+    "wrong_answers": [
+      "Kollegen",
+      "Lehrer",
+      "Nachbarn",
+      "Arzt"
+    ],
+    "explanation_en": "After 'meinen' (masculine accusative), 'Chef' is unchanged — it is a regular (strong) masculine noun, not weak declension."
+  },
+  {
+    "exercise_id": "ex_noun_zimmer_001",
+    "word_id": "noun_zimmer",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Zimmer",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the room",
+    "wrong_answers": [
+      "the house",
+      "the office",
+      "the kitchen",
+      "the flat"
+    ],
+    "explanation_en": "'Zimmer' means 'room'. It is a neuter noun taking the article 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_zimmer_002",
+    "word_id": "noun_zimmer",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Zimmer ist sehr groß.",
+      "en": "The room is very large."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Zimmer' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_zimmer_003",
+    "word_id": "noun_zimmer",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ hat ein großes Fenster.",
+      "en": "The room has a large window."
+    },
+    "correct_answer": "Zimmer",
+    "wrong_answers": [
+      "Büro",
+      "Haus",
+      "Hotel",
+      "Bad"
+    ],
+    "explanation_en": "'Zimmer' means 'room'. It is the neuter subject, used with 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_zimmer_004",
+    "word_id": "noun_zimmer",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich suche ein _____ in der Stadtmitte.",
+      "en": "I am looking for a room in the city centre."
+    },
+    "correct_answer": "Zimmer",
+    "wrong_answers": [
+      "Büro",
+      "Haus",
+      "Hotel",
+      "Bett"
+    ],
+    "explanation_en": "After 'ein' (indefinite article, neuter accusative), 'Zimmer' is unchanged — neuter nouns have the same form in nominative and accusative."
+  },
+  {
+    "exercise_id": "ex_noun_kueche_001",
+    "word_id": "noun_kueche",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Küche",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the kitchen",
+    "wrong_answers": [
+      "the bathroom",
+      "the bedroom",
+      "the living room",
+      "the garage"
+    ],
+    "explanation_en": "'Küche' means 'kitchen'. It is a feminine noun taking the article 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_kueche_002",
+    "word_id": "noun_kueche",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Küche ist sehr modern.",
+      "en": "The kitchen is very modern."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Küche' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_kueche_003",
+    "word_id": "noun_kueche",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ ist frisch renoviert.",
+      "en": "The kitchen has just been renovated."
+    },
+    "correct_answer": "Küche",
+    "wrong_answers": [
+      "Wohnung",
+      "Garage",
+      "Terrasse",
+      "Toilette"
+    ],
+    "explanation_en": "'Küche' means 'kitchen'. It is the feminine subject here, used with 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_kueche_004",
+    "word_id": "noun_kueche",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir haben die _____ gerade gestrichen.",
+      "en": "We have just painted the kitchen."
+    },
+    "correct_answer": "Küche",
+    "wrong_answers": [
+      "Garage",
+      "Terrasse",
+      "Toilette",
+      "Wohnung"
+    ],
+    "explanation_en": "'haben … gestrichen' uses the accusative for the object. Feminine nouns look the same in nominative and accusative: 'die Küche'."
+  },
+  {
+    "exercise_id": "ex_noun_garten_001",
+    "word_id": "noun_garten",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Garten",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the garden",
+    "wrong_answers": [
+      "the park",
+      "the forest",
+      "the field",
+      "the yard"
+    ],
+    "explanation_en": "'Garten' means 'garden'. It is a masculine noun taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_garten_002",
+    "word_id": "noun_garten",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Garten ist im Frühling sehr schön.",
+      "en": "The garden is very beautiful in spring."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Garten' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_garten_003",
+    "word_id": "noun_garten",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ braucht viel Wasser.",
+      "en": "The garden needs a lot of water."
+    },
+    "correct_answer": "Garten",
+    "wrong_answers": [
+      "Wald",
+      "Park",
+      "Hof",
+      "Weg"
+    ],
+    "explanation_en": "'Garten' means 'garden'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_garten_004",
+    "word_id": "noun_garten",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir pflegen unseren _____ jedes Wochenende.",
+      "en": "We tend our garden every weekend."
+    },
+    "correct_answer": "Garten",
+    "wrong_answers": [
+      "Wald",
+      "Park",
+      "Hof",
+      "Rasen"
+    ],
+    "explanation_en": "'pflegen' takes the accusative. 'unseren Garten' — masculine accusative uses 'unseren' + the noun."
+  },
+  {
+    "exercise_id": "ex_noun_bahnhof_001",
+    "word_id": "noun_bahnhof",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Bahnhof",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the train station",
+    "wrong_answers": [
+      "the airport",
+      "the bus stop",
+      "the harbour",
+      "the car park"
+    ],
+    "explanation_en": "'Bahnhof' means 'train station'. It is a masculine noun taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_bahnhof_002",
+    "word_id": "noun_bahnhof",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Bahnhof ist in der Stadtmitte.",
+      "en": "The train station is in the city centre."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Bahnhof' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_bahnhof_003",
+    "word_id": "noun_bahnhof",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ ist sehr groß und modern.",
+      "en": "The train station is very large and modern."
+    },
+    "correct_answer": "Bahnhof",
+    "wrong_answers": [
+      "Flughafen",
+      "Busbahnhof",
+      "Hafen",
+      "Parkplatz"
+    ],
+    "explanation_en": "'Bahnhof' means 'train station'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_bahnhof_004",
+    "word_id": "noun_bahnhof",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich fahre zum _____, um meinen Zug zu nehmen.",
+      "en": "I go to the train station to catch my train."
+    },
+    "correct_answer": "Bahnhof",
+    "wrong_answers": [
+      "Flughafen",
+      "Busbahnhof",
+      "Hafen",
+      "Hotel"
+    ],
+    "explanation_en": "'zum' = zu + dem (dative). Masculine nouns in the dative with 'dem' are unchanged: 'zum Bahnhof'."
+  },
+  {
+    "exercise_id": "ex_noun_buero_001",
+    "word_id": "noun_buero",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Büro",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the office",
+    "wrong_answers": [
+      "the room",
+      "the school",
+      "the workshop",
+      "the studio"
+    ],
+    "explanation_en": "'Büro' means 'office'. It is a neuter noun taking the article 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_buero_002",
+    "word_id": "noun_buero",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Büro ist im dritten Stock.",
+      "en": "The office is on the third floor."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Büro' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_buero_003",
+    "word_id": "noun_buero",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ öffnet um neun Uhr.",
+      "en": "The office opens at nine o'clock."
+    },
+    "correct_answer": "Büro",
+    "wrong_answers": [
+      "Zimmer",
+      "Geschäft",
+      "Hotel",
+      "Café"
+    ],
+    "explanation_en": "'Büro' means 'office'. It is the neuter subject, used with 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_buero_004",
+    "word_id": "noun_buero",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er verlässt sein _____ um sechs Uhr abends.",
+      "en": "He leaves his office at six in the evening."
+    },
+    "correct_answer": "Büro",
+    "wrong_answers": [
+      "Zimmer",
+      "Geschäft",
+      "Hotel",
+      "Café"
+    ],
+    "explanation_en": "After 'sein' (possessive, neuter accusative), 'Büro' is unchanged — neuter nominative and accusative forms are identical."
+  },
+  {
+    "exercise_id": "ex_noun_fenster_001",
+    "word_id": "noun_fenster",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Fenster",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the window",
+    "wrong_answers": [
+      "the door",
+      "the wall",
+      "the ceiling",
+      "the curtain"
+    ],
+    "explanation_en": "'Fenster' means 'window'. It is a neuter noun taking the article 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_fenster_002",
+    "word_id": "noun_fenster",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Fenster ist offen.",
+      "en": "The window is open."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Fenster' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_fenster_003",
+    "word_id": "noun_fenster",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ lässt viel Licht herein.",
+      "en": "The window lets in a lot of light."
+    },
+    "correct_answer": "Fenster",
+    "wrong_answers": [
+      "Dach",
+      "Bett",
+      "Zimmer",
+      "Regal"
+    ],
+    "explanation_en": "'Fenster' means 'window'. It is the neuter subject, used with 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_fenster_004",
+    "word_id": "noun_fenster",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Bitte schließ das _____, es ist kalt.",
+      "en": "Please close the window, it is cold."
+    },
+    "correct_answer": "Fenster",
+    "wrong_answers": [
+      "Dach",
+      "Bett",
+      "Zimmer",
+      "Regal"
+    ],
+    "explanation_en": "'schließen' takes the accusative. Neuter nouns use 'das' in both nominative and accusative: 'das Fenster'."
+  },
+  {
+    "exercise_id": "ex_noun_bett_001",
+    "word_id": "noun_bett",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Bett",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the bed",
+    "wrong_answers": [
+      "the sofa",
+      "the chair",
+      "the table",
+      "the wardrobe"
+    ],
+    "explanation_en": "'Bett' means 'bed'. It is a neuter noun taking the article 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_bett_002",
+    "word_id": "noun_bett",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Bett ist sehr bequem.",
+      "en": "The bed is very comfortable."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Bett' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_bett_003",
+    "word_id": "noun_bett",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ steht am Fenster.",
+      "en": "The bed stands by the window."
+    },
+    "correct_answer": "Bett",
+    "wrong_answers": [
+      "Sofa",
+      "Tisch",
+      "Stuhl",
+      "Regal"
+    ],
+    "explanation_en": "'Bett' means 'bed'. It is the neuter subject, used with 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_bett_004",
+    "word_id": "noun_bett",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich gehe um elf Uhr ins _____.",
+      "en": "I go to bed at eleven o'clock."
+    },
+    "correct_answer": "Bett",
+    "wrong_answers": [
+      "Zimmer",
+      "Haus",
+      "Hotel",
+      "Sofa"
+    ],
+    "explanation_en": "'ins' = in + das (accusative, showing movement into a place). 'ins Bett gehen' is a fixed phrase meaning 'to go to bed'."
+  },
+  {
+    "exercise_id": "ex_noun_handy_001",
+    "word_id": "noun_handy",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Handy",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the mobile phone",
+    "wrong_answers": [
+      "the computer",
+      "the tablet",
+      "the telephone",
+      "the camera"
+    ],
+    "explanation_en": "'Handy' means 'mobile phone' in German. It is a neuter noun taking the article 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_handy_002",
+    "word_id": "noun_handy",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Handy klingelt gerade.",
+      "en": "The mobile phone is ringing right now."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Handy' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_handy_003",
+    "word_id": "noun_handy",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ ist neu und sehr teuer.",
+      "en": "The mobile phone is new and very expensive."
+    },
+    "correct_answer": "Handy",
+    "wrong_answers": [
+      "Tablet",
+      "Computer",
+      "Radio",
+      "Fernseher"
+    ],
+    "explanation_en": "'Handy' means 'mobile phone' in German. It is the neuter subject, used with 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_handy_004",
+    "word_id": "noun_handy",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich habe mein _____ zu Hause vergessen.",
+      "en": "I forgot my mobile phone at home."
+    },
+    "correct_answer": "Handy",
+    "wrong_answers": [
+      "Tablet",
+      "Computer",
+      "Buch",
+      "Schlüssel"
+    ],
+    "explanation_en": "After 'mein' (possessive, neuter accusative), 'Handy' is unchanged — neuter nominative and accusative are identical."
+  },
+  {
+    "exercise_id": "ex_noun_tasche_001",
+    "word_id": "noun_tasche",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Tasche",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the bag",
+    "wrong_answers": [
+      "the suitcase",
+      "the purse",
+      "the pocket",
+      "the backpack"
+    ],
+    "explanation_en": "'Tasche' means 'bag' or 'pocket'. It is a feminine noun taking the article 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_tasche_002",
+    "word_id": "noun_tasche",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Tasche ist sehr schwer.",
+      "en": "The bag is very heavy."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Tasche' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_tasche_003",
+    "word_id": "noun_tasche",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ liegt auf dem Stuhl.",
+      "en": "The bag is on the chair."
+    },
+    "correct_answer": "Tasche",
+    "wrong_answers": [
+      "Jacke",
+      "Schachtel",
+      "Flasche",
+      "Mappe"
+    ],
+    "explanation_en": "'Tasche' means 'bag'. It is the feminine subject, used with 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_tasche_004",
+    "word_id": "noun_tasche",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich packe meine _____ für die Reise.",
+      "en": "I am packing my bag for the trip."
+    },
+    "correct_answer": "Tasche",
+    "wrong_answers": [
+      "Jacke",
+      "Flasche",
+      "Mappe",
+      "Karte"
+    ],
+    "explanation_en": "After 'meine' (possessive, feminine accusative), 'Tasche' is unchanged — feminine nominative and accusative are identical."
+  },
+  {
+    "exercise_id": "ex_noun_schluessel_001",
+    "word_id": "noun_schluessel",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Schlüssel",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the key",
+    "wrong_answers": [
+      "the lock",
+      "the door",
+      "the handle",
+      "the wallet"
+    ],
+    "explanation_en": "'Schlüssel' means 'key'. It is a masculine noun taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_schluessel_002",
+    "word_id": "noun_schluessel",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Schlüssel ist nicht da.",
+      "en": "The key is not here."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Schlüssel' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_schluessel_003",
+    "word_id": "noun_schluessel",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ passt nicht ins Schloss.",
+      "en": "The key does not fit the lock."
+    },
+    "correct_answer": "Schlüssel",
+    "wrong_answers": [
+      "Stift",
+      "Zettel",
+      "Brief",
+      "Chip"
+    ],
+    "explanation_en": "'Schlüssel' means 'key'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_schluessel_004",
+    "word_id": "noun_schluessel",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich habe meinen _____ verloren.",
+      "en": "I have lost my key."
+    },
+    "correct_answer": "Schlüssel",
+    "wrong_answers": [
+      "Stift",
+      "Ausweis",
+      "Brief",
+      "Chip"
+    ],
+    "explanation_en": "'verloren haben' takes the accusative. 'meinen Schlüssel' — masculine accusative uses 'meinen'. The noun itself is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_brief_001",
+    "word_id": "noun_brief",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Brief",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the letter",
+    "wrong_answers": [
+      "the email",
+      "the postcard",
+      "the parcel",
+      "the message"
+    ],
+    "explanation_en": "'Brief' means 'letter' (written correspondence). It is a masculine noun taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_brief_002",
+    "word_id": "noun_brief",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Brief kommt aus dem Ausland.",
+      "en": "The letter comes from abroad."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Brief' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_brief_003",
+    "word_id": "noun_brief",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ liegt im Briefkasten.",
+      "en": "The letter is in the letterbox."
+    },
+    "correct_answer": "Brief",
+    "wrong_answers": [
+      "Zettel",
+      "Paket",
+      "Katalog",
+      "Vertrag"
+    ],
+    "explanation_en": "'Brief' means 'letter'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_brief_004",
+    "word_id": "noun_brief",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich schreibe meiner Oma einen _____.",
+      "en": "I am writing my grandmother a letter."
+    },
+    "correct_answer": "Brief",
+    "wrong_answers": [
+      "Zettel",
+      "Bericht",
+      "Aufsatz",
+      "Vertrag"
+    ],
+    "explanation_en": "'schreiben' here takes a dative object (meiner Oma) and an accusative object (einen Brief). 'Brief' is masculine accusative: 'einen Brief'."
+  },
+  {
+    "exercise_id": "ex_noun_stunde_001",
+    "word_id": "noun_stunde",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Stunde",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the hour",
+    "wrong_answers": [
+      "the minute",
+      "the day",
+      "the week",
+      "the lesson"
+    ],
+    "explanation_en": "'Stunde' means 'hour' (and also 'lesson' in school context). It is a feminine noun taking the article 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_stunde_002",
+    "word_id": "noun_stunde",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Stunde vergeht sehr schnell.",
+      "en": "The hour passes very quickly."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Stunde' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_stunde_003",
+    "word_id": "noun_stunde",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ Deutsch war sehr interessant.",
+      "en": "The German lesson was very interesting."
+    },
+    "correct_answer": "Stunde",
+    "wrong_answers": [
+      "Woche",
+      "Nacht",
+      "Pause",
+      "Zeit"
+    ],
+    "explanation_en": "'Stunde' means both 'hour' and 'lesson'. It is the feminine subject here, used with 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_stunde_004",
+    "word_id": "noun_stunde",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich warte seit einer _____ auf den Bus.",
+      "en": "I have been waiting for a bus for an hour."
+    },
+    "correct_answer": "Stunde",
+    "wrong_answers": [
+      "Woche",
+      "Nacht",
+      "Pause",
+      "Weile"
+    ],
+    "explanation_en": "'seit einer Stunde' — 'seit' takes the dative. Feminine dative: 'einer Stunde' (the noun itself is unchanged)."
+  },
+  {
+    "exercise_id": "ex_noun_woche_001",
+    "word_id": "noun_woche",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Woche",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the week",
+    "wrong_answers": [
+      "the day",
+      "the month",
+      "the weekend",
+      "the year"
+    ],
+    "explanation_en": "'Woche' means 'week'. It is a feminine noun taking the article 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_woche_002",
+    "word_id": "noun_woche",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Woche war sehr stressig.",
+      "en": "The week was very stressful."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Woche' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_woche_003",
+    "word_id": "noun_woche",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Diese _____ lerne ich jeden Tag Deutsch.",
+      "en": "This week I am learning German every day."
+    },
+    "correct_answer": "Woche",
+    "wrong_answers": [
+      "Nacht",
+      "Stunde",
+      "Saison",
+      "Zeit"
+    ],
+    "explanation_en": "'Woche' means 'week'. After 'diese' (demonstrative, feminine nominative), the noun is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_woche_004",
+    "word_id": "noun_woche",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "In einer _____ fahre ich nach München.",
+      "en": "In one week I am travelling to Munich."
+    },
+    "correct_answer": "Woche",
+    "wrong_answers": [
+      "Nacht",
+      "Stunde",
+      "Saison",
+      "Pause"
+    ],
+    "explanation_en": "'In einer Woche' — 'in' with dative for time expressions. Feminine dative: 'einer Woche' (the noun is unchanged)."
+  },
+  {
+    "exercise_id": "ex_noun_monat_001",
+    "word_id": "noun_monat",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Monat",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the month",
+    "wrong_answers": [
+      "the week",
+      "the year",
+      "the season",
+      "the day"
+    ],
+    "explanation_en": "'Monat' means 'month'. It is a masculine noun taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_monat_002",
+    "word_id": "noun_monat",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Monat Januar ist oft kalt.",
+      "en": "The month of January is often cold."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Monat' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_monat_003",
+    "word_id": "noun_monat",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ Mai ist mein Lieblingsmonat.",
+      "en": "The month of May is my favourite month."
+    },
+    "correct_answer": "Monat",
+    "wrong_answers": [
+      "Sommer",
+      "Herbst",
+      "Tag",
+      "Urlaub"
+    ],
+    "explanation_en": "'Monat' means 'month'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_monat_004",
+    "word_id": "noun_monat",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "In diesem _____ haben wir viel Regen.",
+      "en": "This month we have a lot of rain."
+    },
+    "correct_answer": "Monat",
+    "wrong_answers": [
+      "Sommer",
+      "Herbst",
+      "Urlaub",
+      "Jahr"
+    ],
+    "explanation_en": "'In diesem Monat' — 'in' with dative for time. 'diesem' is the masculine dative demonstrative. The noun 'Monat' is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_morgen_001",
+    "word_id": "noun_morgen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Morgen",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the morning",
+    "wrong_answers": [
+      "the evening",
+      "the night",
+      "the afternoon",
+      "the dawn"
+    ],
+    "explanation_en": "'Morgen' (with capital M) means 'morning'. It is a masculine noun. Note: 'morgen' (lowercase) means 'tomorrow'."
+  },
+  {
+    "exercise_id": "ex_noun_morgen_002",
+    "word_id": "noun_morgen",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Morgen beginnt sehr früh für uns.",
+      "en": "The morning starts very early for us."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Morgen' (morning) is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_morgen_003",
+    "word_id": "noun_morgen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ ist meine liebste Tageszeit.",
+      "en": "The morning is my favourite time of day."
+    },
+    "correct_answer": "Morgen",
+    "wrong_answers": [
+      "Abend",
+      "Mittag",
+      "Nachmittag",
+      "Sonnenaufgang"
+    ],
+    "explanation_en": "'Morgen' means 'morning'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_morgen_004",
+    "word_id": "noun_morgen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Am _____ trinke ich immer eine Tasse Kaffee.",
+      "en": "In the morning I always drink a cup of coffee."
+    },
+    "correct_answer": "Morgen",
+    "wrong_answers": [
+      "Abend",
+      "Mittag",
+      "Nachmittag",
+      "Wochenende"
+    ],
+    "explanation_en": "'Am Morgen' = 'in the morning'. 'am' = an + dem (dative). Masculine dative: 'dem Morgen' → 'am Morgen'."
+  },
+  {
+    "exercise_id": "ex_noun_abend_001",
+    "word_id": "noun_abend",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Abend",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the evening",
+    "wrong_answers": [
+      "the morning",
+      "the night",
+      "the afternoon",
+      "the sunset"
+    ],
+    "explanation_en": "'Abend' means 'evening'. It is a masculine noun taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_abend_002",
+    "word_id": "noun_abend",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Abend war wirklich schön.",
+      "en": "The evening was really lovely."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Abend' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_abend_003",
+    "word_id": "noun_abend",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ beginnt nach der Arbeit.",
+      "en": "The evening starts after work."
+    },
+    "correct_answer": "Abend",
+    "wrong_answers": [
+      "Morgen",
+      "Mittag",
+      "Nachmittag",
+      "Tag"
+    ],
+    "explanation_en": "'Abend' means 'evening'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_abend_004",
+    "word_id": "noun_abend",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Am _____ gehen wir oft spazieren.",
+      "en": "In the evening we often go for a walk."
+    },
+    "correct_answer": "Abend",
+    "wrong_answers": [
+      "Morgen",
+      "Mittag",
+      "Wochenende",
+      "Nachmittag"
+    ],
+    "explanation_en": "'Am Abend' = 'in the evening'. 'am' = an + dem (dative masculine). The noun itself is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_nacht_001",
+    "word_id": "noun_nacht",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Nacht",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the night",
+    "wrong_answers": [
+      "the evening",
+      "the morning",
+      "the darkness",
+      "the dream"
+    ],
+    "explanation_en": "'Nacht' means 'night'. It is a feminine noun taking the article 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_nacht_002",
+    "word_id": "noun_nacht",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Nacht war sehr laut.",
+      "en": "The night was very loud."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Nacht' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_nacht_003",
+    "word_id": "noun_nacht",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ ist sehr dunkel und ruhig.",
+      "en": "The night is very dark and quiet."
+    },
+    "correct_answer": "Nacht",
+    "wrong_answers": [
+      "Abend",
+      "Zeit",
+      "Stille",
+      "Dämmerung"
+    ],
+    "explanation_en": "'Nacht' means 'night'. It is the feminine subject, used with 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_nacht_004",
+    "word_id": "noun_nacht",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "In der _____ kann ich nicht schlafen.",
+      "en": "At night I cannot sleep."
+    },
+    "correct_answer": "Nacht",
+    "wrong_answers": [
+      "Stunde",
+      "Zeit",
+      "Ruhe",
+      "Stille"
+    ],
+    "explanation_en": "'In der Nacht' = 'at night'. 'in der' is feminine dative. The noun 'Nacht' is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_brot_001",
+    "word_id": "noun_brot",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Brot",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the bread",
+    "wrong_answers": [
+      "the roll",
+      "the cake",
+      "the biscuit",
+      "the toast"
+    ],
+    "explanation_en": "'Brot' means 'bread'. It is a neuter noun taking the article 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_brot_002",
+    "word_id": "noun_brot",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Brot ist noch frisch.",
+      "en": "The bread is still fresh."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Brot' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_brot_003",
+    "word_id": "noun_brot",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ kommt frisch aus der Bäckerei.",
+      "en": "The bread comes fresh from the bakery."
+    },
+    "correct_answer": "Brot",
+    "wrong_answers": [
+      "Kuchen",
+      "Brötchen",
+      "Keks",
+      "Croissant"
+    ],
+    "explanation_en": "'Brot' means 'bread'. It is the neuter subject, used with 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_brot_004",
+    "word_id": "noun_brot",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich kaufe jeden Morgen ein frisches _____.",
+      "en": "I buy a fresh loaf of bread every morning."
+    },
+    "correct_answer": "Brot",
+    "wrong_answers": [
+      "Kuchen",
+      "Brötchen",
+      "Baguette",
+      "Keks"
+    ],
+    "explanation_en": "After 'ein frisches' (neuter accusative adjective), 'Brot' is unchanged — neuter nominative and accusative forms are identical."
+  },
+  {
+    "exercise_id": "ex_noun_milch_001",
+    "word_id": "noun_milch",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Milch",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the milk",
+    "wrong_answers": [
+      "the juice",
+      "the water",
+      "the yoghurt",
+      "the cream"
+    ],
+    "explanation_en": "'Milch' means 'milk'. It is a feminine noun taking the article 'die'. It has no common plural form."
+  },
+  {
+    "exercise_id": "ex_noun_milch_002",
+    "word_id": "noun_milch",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Milch ist heute abgelaufen.",
+      "en": "The milk expired today."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Milch' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_milch_003",
+    "word_id": "noun_milch",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ im Kühlschrank ist kalt.",
+      "en": "The milk in the fridge is cold."
+    },
+    "correct_answer": "Milch",
+    "wrong_answers": [
+      "Butter",
+      "Sahne",
+      "Soße",
+      "Brühe"
+    ],
+    "explanation_en": "'Milch' means 'milk'. It is the feminine subject, used with 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_milch_004",
+    "word_id": "noun_milch",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Kannst du bitte die _____ kaufen?",
+      "en": "Can you please buy the milk?"
+    },
+    "correct_answer": "Milch",
+    "wrong_answers": [
+      "Butter",
+      "Sahne",
+      "Soße",
+      "Schokolade"
+    ],
+    "explanation_en": "'kaufen' takes the accusative. Feminine nouns look the same in nominative and accusative: 'die Milch'."
+  },
+  {
+    "exercise_id": "ex_noun_kaffee_001",
+    "word_id": "noun_kaffee",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Kaffee",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the coffee",
+    "wrong_answers": [
+      "the tea",
+      "the cocoa",
+      "the juice",
+      "the water"
+    ],
+    "explanation_en": "'Kaffee' means 'coffee'. It is a masculine noun taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_kaffee_002",
+    "word_id": "noun_kaffee",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Kaffee ist zu heiß.",
+      "en": "The coffee is too hot."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Kaffee' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_kaffee_003",
+    "word_id": "noun_kaffee",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ riecht wunderbar.",
+      "en": "The coffee smells wonderful."
+    },
+    "correct_answer": "Kaffee",
+    "wrong_answers": [
+      "Tee",
+      "Kakao",
+      "Saft",
+      "Wein"
+    ],
+    "explanation_en": "'Kaffee' means 'coffee'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_kaffee_004",
+    "word_id": "noun_kaffee",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich trinke jeden Morgen meinen _____ ohne Zucker.",
+      "en": "I drink my coffee without sugar every morning."
+    },
+    "correct_answer": "Kaffee",
+    "wrong_answers": [
+      "Tee",
+      "Kakao",
+      "Saft",
+      "Milch"
+    ],
+    "explanation_en": "'meinen Kaffee' — masculine accusative uses 'meinen'. The noun 'Kaffee' is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_sonne_001",
+    "word_id": "noun_sonne",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Sonne",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the sun",
+    "wrong_answers": [
+      "the moon",
+      "the star",
+      "the cloud",
+      "the sky"
+    ],
+    "explanation_en": "'Sonne' means 'sun'. It is a feminine noun taking the article 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_sonne_002",
+    "word_id": "noun_sonne",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Sonne scheint heute.",
+      "en": "The sun is shining today."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Sonne' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_sonne_003",
+    "word_id": "noun_sonne",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ geht im Osten auf.",
+      "en": "The sun rises in the east."
+    },
+    "correct_answer": "Sonne",
+    "wrong_answers": [
+      "Mond",
+      "Wolke",
+      "Erde",
+      "Welt"
+    ],
+    "explanation_en": "'Sonne' means 'sun'. It is the feminine subject, used with 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_sonne_004",
+    "word_id": "noun_sonne",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir genießen die warme _____ am Strand.",
+      "en": "We enjoy the warm sun on the beach."
+    },
+    "correct_answer": "Sonne",
+    "wrong_answers": [
+      "Wärme",
+      "Luft",
+      "Brise",
+      "Hitze"
+    ],
+    "explanation_en": "'genießen' takes the accusative. Feminine nouns look the same in nominative and accusative: 'die warme Sonne'."
+  },
+  {
+    "exercise_id": "ex_noun_regen_001",
+    "word_id": "noun_regen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Regen",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the rain",
+    "wrong_answers": [
+      "the snow",
+      "the storm",
+      "the wind",
+      "the cloud"
+    ],
+    "explanation_en": "'Regen' means 'rain'. It is a masculine noun taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_regen_002",
+    "word_id": "noun_regen",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Regen hört nicht auf.",
+      "en": "The rain doesn't stop."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Regen' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_regen_003",
+    "word_id": "noun_regen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ ist heute sehr stark.",
+      "en": "The rain is very heavy today."
+    },
+    "correct_answer": "Regen",
+    "wrong_answers": [
+      "Schnee",
+      "Hagel",
+      "Wind",
+      "Nebel"
+    ],
+    "explanation_en": "'Regen' means 'rain'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_regen_004",
+    "word_id": "noun_regen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wegen des starken _____ bleiben wir zu Hause.",
+      "en": "Because of the heavy rain we are staying at home."
+    },
+    "correct_answer": "Regens",
+    "wrong_answers": [
+      "Schnees",
+      "Windes",
+      "Nebels",
+      "Frostes"
+    ],
+    "explanation_en": "'Wegen' takes the genitive case. Masculine genitive: 'des Regens' (adding -s to the noun)."
+  },
+  {
+    "exercise_id": "ex_noun_berg_001",
+    "word_id": "noun_berg",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Berg",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the mountain",
+    "wrong_answers": [
+      "the hill",
+      "the valley",
+      "the forest",
+      "the cliff"
+    ],
+    "explanation_en": "'Berg' means 'mountain'. It is a masculine noun taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_berg_002",
+    "word_id": "noun_berg",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Berg ist über 3000 Meter hoch.",
+      "en": "The mountain is over 3000 metres high."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Berg' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_berg_003",
+    "word_id": "noun_berg",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ ist im Winter mit Schnee bedeckt.",
+      "en": "The mountain is covered with snow in winter."
+    },
+    "correct_answer": "Berg",
+    "wrong_answers": [
+      "Hügel",
+      "Wald",
+      "Fels",
+      "Hang"
+    ],
+    "explanation_en": "'Berg' means 'mountain'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_berg_004",
+    "word_id": "noun_berg",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir wandern auf den _____ und genießen die Aussicht.",
+      "en": "We hike up the mountain and enjoy the view."
+    },
+    "correct_answer": "Berg",
+    "wrong_answers": [
+      "Hügel",
+      "Wald",
+      "Hang",
+      "Gipfel"
+    ],
+    "explanation_en": "'auf den Berg' — movement upward uses 'auf' + accusative. Masculine accusative: 'auf den Berg'."
+  },
+  {
+    "exercise_id": "ex_noun_fluss_001",
+    "word_id": "noun_fluss",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Fluss",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the river",
+    "wrong_answers": [
+      "the lake",
+      "the sea",
+      "the stream",
+      "the canal"
+    ],
+    "explanation_en": "'Fluss' means 'river'. It is a masculine noun taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_fluss_002",
+    "word_id": "noun_fluss",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Fluss ist sehr breit.",
+      "en": "The river is very wide."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Fluss' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_fluss_003",
+    "word_id": "noun_fluss",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ fließt durch die Stadt.",
+      "en": "The river flows through the city."
+    },
+    "correct_answer": "Fluss",
+    "wrong_answers": [
+      "Bach",
+      "Kanal",
+      "See",
+      "Graben"
+    ],
+    "explanation_en": "'Fluss' means 'river'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_fluss_004",
+    "word_id": "noun_fluss",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir überqueren den _____ mit dem Boot.",
+      "en": "We cross the river by boat."
+    },
+    "correct_answer": "Fluss",
+    "wrong_answers": [
+      "Bach",
+      "Kanal",
+      "See",
+      "Graben"
+    ],
+    "explanation_en": "'überqueren' takes the accusative. 'den Fluss' — masculine accusative uses 'den'."
+  },
+  {
+    "exercise_id": "ex_noun_problem_001",
+    "word_id": "noun_problem",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Problem",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the problem",
+    "wrong_answers": [
+      "the solution",
+      "the question",
+      "the task",
+      "the mistake"
+    ],
+    "explanation_en": "'Problem' means 'problem'. It is a neuter noun taking the article 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_problem_002",
+    "word_id": "noun_problem",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Problem ist gelöst.",
+      "en": "The problem is solved."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Problem' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_problem_003",
+    "word_id": "noun_problem",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ ist nicht leicht zu lösen.",
+      "en": "The problem is not easy to solve."
+    },
+    "correct_answer": "Problem",
+    "wrong_answers": [
+      "Rätsel",
+      "Thema",
+      "Fehler",
+      "Aufgabe"
+    ],
+    "explanation_en": "'Problem' means 'problem'. It is the neuter subject, used with 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_problem_004",
+    "word_id": "noun_problem",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich habe ein großes _____ mit meinem Auto.",
+      "en": "I have a big problem with my car."
+    },
+    "correct_answer": "Problem",
+    "wrong_answers": [
+      "Rätsel",
+      "Thema",
+      "Fehler",
+      "Risiko"
+    ],
+    "explanation_en": "After 'ein großes' (neuter accusative adjective), 'Problem' is unchanged — neuter accusative is identical to nominative."
+  },
+  {
+    "exercise_id": "ex_noun_idee_001",
+    "word_id": "noun_idee",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Idee",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the idea",
+    "wrong_answers": [
+      "the opinion",
+      "the plan",
+      "the thought",
+      "the suggestion"
+    ],
+    "explanation_en": "'Idee' means 'idea'. It is a feminine noun taking the article 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_idee_002",
+    "word_id": "noun_idee",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Idee ist sehr kreativ.",
+      "en": "The idea is very creative."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Idee' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_idee_003",
+    "word_id": "noun_idee",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ ist wirklich gut.",
+      "en": "The idea is really good."
+    },
+    "correct_answer": "Idee",
+    "wrong_answers": [
+      "Meinung",
+      "Lösung",
+      "Frage",
+      "Antwort"
+    ],
+    "explanation_en": "'Idee' means 'idea'. It is the feminine subject, used with 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_idee_004",
+    "word_id": "noun_idee",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich habe eine gute _____ für das Projekt.",
+      "en": "I have a good idea for the project."
+    },
+    "correct_answer": "Idee",
+    "wrong_answers": [
+      "Meinung",
+      "Lösung",
+      "Frage",
+      "Antwort"
+    ],
+    "explanation_en": "After 'eine gute' (feminine indefinite article + adjective in accusative), 'Idee' is unchanged — feminine accusative is the same form as nominative."
+  },
+  {
+    "exercise_id": "ex_noun_meinung_001",
+    "word_id": "noun_meinung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Meinung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the opinion",
+    "wrong_answers": [
+      "the idea",
+      "the knowledge",
+      "the belief",
+      "the feeling"
+    ],
+    "explanation_en": "'Meinung' means 'opinion'. It is a feminine noun taking the article 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_meinung_002",
+    "word_id": "noun_meinung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Meinung des Lehrers ist wichtig.",
+      "en": "The teacher's opinion is important."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Meinung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_meinung_003",
+    "word_id": "noun_meinung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Meine _____ ist, dass wir mehr Pausen brauchen.",
+      "en": "My opinion is that we need more breaks."
+    },
+    "correct_answer": "Meinung",
+    "wrong_answers": [
+      "Idee",
+      "Antwort",
+      "Frage",
+      "Aussage"
+    ],
+    "explanation_en": "'Meinung' means 'opinion'. After 'meine' (feminine nominative), the noun is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_meinung_004",
+    "word_id": "noun_meinung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich respektiere deine _____, auch wenn ich anderer Ansicht bin.",
+      "en": "I respect your opinion, even if I see it differently."
+    },
+    "correct_answer": "Meinung",
+    "wrong_answers": [
+      "Idee",
+      "Antwort",
+      "Entscheidung",
+      "Aussage"
+    ],
+    "explanation_en": "After 'deine' (possessive, feminine accusative), 'Meinung' is unchanged — feminine nominative and accusative are identical."
+  },
+  {
+    "exercise_id": "ex_noun_grund_001",
+    "word_id": "noun_grund",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Grund",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the reason",
+    "wrong_answers": [
+      "the result",
+      "the question",
+      "the problem",
+      "the goal"
+    ],
+    "explanation_en": "'Grund' means 'reason' or 'ground'. It is a masculine noun taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_grund_002",
+    "word_id": "noun_grund",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Grund für seinen Fehler ist unklar.",
+      "en": "The reason for his mistake is unclear."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Grund' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_grund_003",
+    "word_id": "noun_grund",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ für ihre Entscheidung ist verständlich.",
+      "en": "The reason for her decision is understandable."
+    },
+    "correct_answer": "Grund",
+    "wrong_answers": [
+      "Anlass",
+      "Zweck",
+      "Ziel",
+      "Beweis"
+    ],
+    "explanation_en": "'Grund' means 'reason'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_grund_004",
+    "word_id": "noun_grund",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Es gibt keinen _____ zur Sorge.",
+      "en": "There is no reason to worry."
+    },
+    "correct_answer": "Grund",
+    "wrong_answers": [
+      "Anlass",
+      "Beweis",
+      "Zweck",
+      "Vorteil"
+    ],
+    "explanation_en": "After 'keinen' (masculine accusative of 'kein'), 'Grund' is unchanged — masculine accusative uses 'keinen' before the unchanged noun."
+  },
+  {
+    "exercise_id": "ex_noun_weg_001",
+    "word_id": "noun_weg",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Weg",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the way / path",
+    "wrong_answers": [
+      "the street",
+      "the road",
+      "the direction",
+      "the route"
+    ],
+    "explanation_en": "'Weg' means 'way', 'path', or 'route'. It is a masculine noun taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_weg_002",
+    "word_id": "noun_weg",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Weg durch den Wald ist schön.",
+      "en": "The path through the forest is beautiful."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Weg' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_weg_003",
+    "word_id": "noun_weg",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ zur Schule dauert zehn Minuten.",
+      "en": "The way to school takes ten minutes."
+    },
+    "correct_answer": "Weg",
+    "wrong_answers": [
+      "Pfad",
+      "Eingang",
+      "Ausgang",
+      "Umweg"
+    ],
+    "explanation_en": "'Weg' means 'way' or 'path'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_weg_004",
+    "word_id": "noun_weg",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich kenne den _____ leider nicht.",
+      "en": "I'm afraid I don't know the way."
+    },
+    "correct_answer": "Weg",
+    "wrong_answers": [
+      "Pfad",
+      "Eingang",
+      "Ausgang",
+      "Umweg"
+    ],
+    "explanation_en": "'kennen' takes the accusative. 'den Weg' — masculine accusative uses 'den'. The noun is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_platz_001",
+    "word_id": "noun_platz",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Platz",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the place / seat / square",
+    "wrong_answers": [
+      "the room",
+      "the space",
+      "the area",
+      "the corner"
+    ],
+    "explanation_en": "'Platz' means 'place', 'seat', or 'square'. It is a masculine noun taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_platz_002",
+    "word_id": "noun_platz",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Platz vor dem Rathaus ist sehr groß.",
+      "en": "The square in front of the town hall is very large."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Platz' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_platz_003",
+    "word_id": "noun_platz",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ neben mir ist noch frei.",
+      "en": "The seat next to me is still free."
+    },
+    "correct_answer": "Platz",
+    "wrong_answers": [
+      "Tisch",
+      "Stuhl",
+      "Raum",
+      "Bereich"
+    ],
+    "explanation_en": "'Platz' means 'seat' or 'place'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_platz_004",
+    "word_id": "noun_platz",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Darf ich diesen _____ nehmen?",
+      "en": "May I take this seat?"
+    },
+    "correct_answer": "Platz",
+    "wrong_answers": [
+      "Tisch",
+      "Stuhl",
+      "Raum",
+      "Bereich"
+    ],
+    "explanation_en": "'nehmen' takes the accusative. 'diesen Platz' — masculine accusative uses 'diesen' before the unchanged noun."
+  },
+  {
+    "exercise_id": "ex_noun_seite_001",
+    "word_id": "noun_seite",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Seite",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the side / page",
+    "wrong_answers": [
+      "the front",
+      "the back",
+      "the edge",
+      "the line"
+    ],
+    "explanation_en": "'Seite' means 'side' or 'page'. It is a feminine noun taking the article 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_seite_002",
+    "word_id": "noun_seite",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Seite des Buches ist beschädigt.",
+      "en": "The page of the book is damaged."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Seite' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_seite_003",
+    "word_id": "noun_seite",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ drei enthält die Antwort.",
+      "en": "Page three contains the answer."
+    },
+    "correct_answer": "Seite",
+    "wrong_answers": [
+      "Zeile",
+      "Spalte",
+      "Zeitung",
+      "Hälfte"
+    ],
+    "explanation_en": "'Seite' means 'page'. It is the feminine subject, used with 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_seite_004",
+    "word_id": "noun_seite",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Bitte lest die nächste _____ im Buch.",
+      "en": "Please read the next page in the book."
+    },
+    "correct_answer": "Seite",
+    "wrong_answers": [
+      "Zeile",
+      "Spalte",
+      "Hälfte",
+      "Ecke"
+    ],
+    "explanation_en": "'lesen' takes the accusative. Feminine nouns look the same in nominative and accusative: 'die nächste Seite'."
+  },
+  {
+    "exercise_id": "ex_noun_art_001",
+    "word_id": "noun_art",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Art",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the type / kind / way",
+    "wrong_answers": [
+      "the style",
+      "the method",
+      "the form",
+      "the sort"
+    ],
+    "explanation_en": "'Art' means 'type', 'kind', or 'way of doing something'. It is a feminine noun taking the article 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_art_002",
+    "word_id": "noun_art",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Art, wie er spricht, gefällt mir.",
+      "en": "The way he speaks appeals to me."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Art' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_art_003",
+    "word_id": "noun_art",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Diese _____ zu lernen ist sehr effektiv.",
+      "en": "This way of learning is very effective."
+    },
+    "correct_answer": "Art",
+    "wrong_answers": [
+      "Methode",
+      "Form",
+      "Weise",
+      "Strategie"
+    ],
+    "explanation_en": "'Art' means 'way' or 'kind'. After 'diese' (feminine nominative), the noun is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_art_004",
+    "word_id": "noun_art",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Es gibt viele verschiedene _____ von Tieren.",
+      "en": "There are many different kinds of animals."
+    },
+    "correct_answer": "Arten",
+    "wrong_answers": [
+      "Methoden",
+      "Formen",
+      "Weisen",
+      "Typen"
+    ],
+    "explanation_en": "The plural of 'Art' is 'Arten'. 'viele verschiedene Arten' uses the plural accusative form of the noun."
+  },
+  {
+    "exercise_id": "ex_noun_name_001",
+    "word_id": "noun_name",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Name",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the name",
+    "wrong_answers": [
+      "the word",
+      "the title",
+      "the label",
+      "the number"
+    ],
+    "explanation_en": "'Name' means 'name'. It is a masculine noun — and a weak noun (N-Deklination), taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_name_002",
+    "word_id": "noun_name",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Name des Restaurants ist unbekannt.",
+      "en": "The name of the restaurant is unknown."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Name' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_name_003",
+    "word_id": "noun_name",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ der Stadt ist sehr bekannt.",
+      "en": "The name of the city is very well known."
+    },
+    "correct_answer": "Name",
+    "wrong_answers": [
+      "Titel",
+      "Begriff",
+      "Buchstabe",
+      "Ausdruck"
+    ],
+    "explanation_en": "'Name' means 'name'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_name_004",
+    "word_id": "noun_name",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich habe seinen _____ vergessen.",
+      "en": "I have forgotten his name."
+    },
+    "correct_answer": "Namen",
+    "wrong_answers": [
+      "Titel",
+      "Begriff",
+      "Buchstaben",
+      "Ausdruck"
+    ],
+    "explanation_en": "'Name' is a weak masculine noun. In the accusative, it adds -n: 'seinen Namen'. This is the N-Deklination pattern."
+  },
+  {
+    "exercise_id": "ex_noun_kopf_001",
+    "word_id": "noun_kopf",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Kopf",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the head",
+    "wrong_answers": [
+      "the face",
+      "the hair",
+      "the neck",
+      "the brain"
+    ],
+    "explanation_en": "'Kopf' means 'head'. It is a masculine noun taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_kopf_002",
+    "word_id": "noun_kopf",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Kopf tut mir weh.",
+      "en": "My head hurts."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Kopf' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_kopf_003",
+    "word_id": "noun_kopf",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ ist der oberste Teil des Körpers.",
+      "en": "The head is the uppermost part of the body."
+    },
+    "correct_answer": "Kopf",
+    "wrong_answers": [
+      "Hals",
+      "Arm",
+      "Rücken",
+      "Bauch"
+    ],
+    "explanation_en": "'Kopf' means 'head'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_kopf_004",
+    "word_id": "noun_kopf",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er schüttelt den _____ und sagt nichts.",
+      "en": "He shakes his head and says nothing."
+    },
+    "correct_answer": "Kopf",
+    "wrong_answers": [
+      "Arm",
+      "Hals",
+      "Finger",
+      "Rücken"
+    ],
+    "explanation_en": "'schütteln' takes the accusative. 'den Kopf' — masculine accusative uses 'den'. The noun is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_hand_001",
+    "word_id": "noun_hand",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Hand",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the hand",
+    "wrong_answers": [
+      "the arm",
+      "the finger",
+      "the wrist",
+      "the fist"
+    ],
+    "explanation_en": "'Hand' means 'hand'. It is a feminine noun taking the article 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_hand_002",
+    "word_id": "noun_hand",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Hand ist sehr kalt.",
+      "en": "The hand is very cold."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Hand' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_hand_003",
+    "word_id": "noun_hand",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ des Kindes ist sehr klein.",
+      "en": "The child's hand is very small."
+    },
+    "correct_answer": "Hand",
+    "wrong_answers": [
+      "Arm",
+      "Finger",
+      "Schulter",
+      "Faust"
+    ],
+    "explanation_en": "'Hand' means 'hand'. It is the feminine subject, used with 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_hand_004",
+    "word_id": "noun_hand",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er gibt mir die _____ zur Begrüßung.",
+      "en": "He gives me his hand in greeting."
+    },
+    "correct_answer": "Hand",
+    "wrong_answers": [
+      "Arm",
+      "Finger",
+      "Schulter",
+      "Faust"
+    ],
+    "explanation_en": "'geben' takes a dative object (mir) and accusative object (die Hand). Feminine nouns look the same in nominative and accusative: 'die Hand'."
+  },
+  {
+    "exercise_id": "ex_noun_herz_001",
+    "word_id": "noun_herz",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Herz",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the heart",
+    "wrong_answers": [
+      "the liver",
+      "the lung",
+      "the brain",
+      "the stomach"
+    ],
+    "explanation_en": "'Herz' means 'heart'. It is a neuter noun taking the article 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_herz_002",
+    "word_id": "noun_herz",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Herz schlägt sehr schnell.",
+      "en": "The heart is beating very fast."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Herz' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_herz_003",
+    "word_id": "noun_herz",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ ist ein wichtiges Organ.",
+      "en": "The heart is an important organ."
+    },
+    "correct_answer": "Herz",
+    "wrong_answers": [
+      "Gehirn",
+      "Lunge",
+      "Leber",
+      "Magen"
+    ],
+    "explanation_en": "'Herz' means 'heart'. It is the neuter subject, used with 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_herz_004",
+    "word_id": "noun_herz",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er hat ein großes _____ und hilft immer anderen.",
+      "en": "He has a big heart and always helps others."
+    },
+    "correct_answer": "Herz",
+    "wrong_answers": [
+      "Gehirn",
+      "Talent",
+      "Lächeln",
+      "Gefühl"
+    ],
+    "explanation_en": "After 'ein großes' (neuter accusative adjective), 'Herz' is unchanged — neuter nominative and accusative are identical."
+  },
+  {
+    "exercise_id": "ex_noun_stimme_001",
+    "word_id": "noun_stimme",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Stimme",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the voice",
+    "wrong_answers": [
+      "the sound",
+      "the noise",
+      "the speech",
+      "the tone"
+    ],
+    "explanation_en": "'Stimme' means 'voice'. It is a feminine noun taking the article 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_stimme_002",
+    "word_id": "noun_stimme",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Stimme ist sehr laut.",
+      "en": "The voice is very loud."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Stimme' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_stimme_003",
+    "word_id": "noun_stimme",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ des Sängers ist wunderschön.",
+      "en": "The singer's voice is wonderful."
+    },
+    "correct_answer": "Stimme",
+    "wrong_answers": [
+      "Melodie",
+      "Musik",
+      "Sprache",
+      "Aussprache"
+    ],
+    "explanation_en": "'Stimme' means 'voice'. It is the feminine subject, used with 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_stimme_004",
+    "word_id": "noun_stimme",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich erkenne seine _____ sofort.",
+      "en": "I recognise his voice immediately."
+    },
+    "correct_answer": "Stimme",
+    "wrong_answers": [
+      "Sprache",
+      "Aussprache",
+      "Melodie",
+      "Art"
+    ],
+    "explanation_en": "'erkennen' takes the accusative. Feminine nouns look the same in nominative and accusative: 'seine Stimme'."
+  },
+  {
+    "exercise_id": "ex_noun_gesicht_001",
+    "word_id": "noun_gesicht",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Gesicht",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the face",
+    "wrong_answers": [
+      "the head",
+      "the expression",
+      "the cheek",
+      "the profile"
+    ],
+    "explanation_en": "'Gesicht' means 'face'. It is a neuter noun taking the article 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_gesicht_002",
+    "word_id": "noun_gesicht",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Gesicht des Kindes ist sehr süß.",
+      "en": "The child's face is very sweet."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Gesicht' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_gesicht_003",
+    "word_id": "noun_gesicht",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ zeigt, was er fühlt.",
+      "en": "The face shows what he feels."
+    },
+    "correct_answer": "Gesicht",
+    "wrong_answers": [
+      "Verhalten",
+      "Blick",
+      "Ausdruck",
+      "Aussehen"
+    ],
+    "explanation_en": "'Gesicht' means 'face'. It is the neuter subject, used with 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_gesicht_004",
+    "word_id": "noun_gesicht",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie wäscht ihr _____ mit kaltem Wasser.",
+      "en": "She washes her face with cold water."
+    },
+    "correct_answer": "Gesicht",
+    "wrong_answers": [
+      "Haar",
+      "Blick",
+      "Aussehen",
+      "Kinn"
+    ],
+    "explanation_en": "After 'ihr' (possessive, neuter accusative), 'Gesicht' is unchanged — neuter nominative and accusative are identical."
+  },
+  {
+    "exercise_id": "ex_noun_zug_001",
+    "word_id": "noun_zug",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Zug",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the train",
+    "wrong_answers": [
+      "the bus",
+      "the tram",
+      "the underground",
+      "the plane"
+    ],
+    "explanation_en": "'Zug' means 'train'. It is a masculine noun taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_zug_002",
+    "word_id": "noun_zug",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Zug fährt um 9 Uhr ab.",
+      "en": "The train departs at 9 o'clock."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Zug' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_zug_003",
+    "word_id": "noun_zug",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ nach Berlin fährt von Gleis drei.",
+      "en": "The train to Berlin leaves from platform three."
+    },
+    "correct_answer": "Zug",
+    "wrong_answers": [
+      "Bus",
+      "Tram",
+      "Fähre",
+      "Flug"
+    ],
+    "explanation_en": "'Zug' means 'train'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_zug_004",
+    "word_id": "noun_zug",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich nehme den nächsten _____ nach Hamburg.",
+      "en": "I am taking the next train to Hamburg."
+    },
+    "correct_answer": "Zug",
+    "wrong_answers": [
+      "Bus",
+      "Tram",
+      "Fähre",
+      "Flug"
+    ],
+    "explanation_en": "'nehmen' takes the accusative. 'den nächsten Zug' — masculine accusative uses 'den'."
+  },
+  {
+    "exercise_id": "ex_noun_preis_001",
+    "word_id": "noun_preis",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Preis",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the price / prize",
+    "wrong_answers": [
+      "the cost",
+      "the fee",
+      "the value",
+      "the discount"
+    ],
+    "explanation_en": "'Preis' means both 'price' and 'prize'. It is a masculine noun taking the article 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_preis_002",
+    "word_id": "noun_preis",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Preis ist sehr hoch.",
+      "en": "The price is very high."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Preis' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_preis_003",
+    "word_id": "noun_preis",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ für das Ticket ist gestiegen.",
+      "en": "The price for the ticket has gone up."
+    },
+    "correct_answer": "Preis",
+    "wrong_answers": [
+      "Betrag",
+      "Lohn",
+      "Rabatt",
+      "Wert"
+    ],
+    "explanation_en": "'Preis' means 'price'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_preis_004",
+    "word_id": "noun_preis",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie hat den ersten _____ im Wettbewerb gewonnen.",
+      "en": "She won first prize in the competition."
+    },
+    "correct_answer": "Preis",
+    "wrong_answers": [
+      "Pokal",
+      "Lohn",
+      "Betrag",
+      "Titel"
+    ],
+    "explanation_en": "'gewinnen' takes the accusative. 'den ersten Preis' — masculine accusative uses 'den'."
+  },
+  {
+    "exercise_id": "ex_noun_erfahrung_001",
+    "word_id": "noun_erfahrung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Erfahrung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the experience",
+    "wrong_answers": [
+      "the knowledge",
+      "the skill",
+      "the practice",
+      "the ability"
+    ],
+    "explanation_en": "'Erfahrung' means 'experience'. It is a feminine noun taking 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_erfahrung_002",
+    "word_id": "noun_erfahrung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Erfahrung ist der beste Lehrer.",
+      "en": "Experience is the best teacher."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Erfahrung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_erfahrung_003",
+    "word_id": "noun_erfahrung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ zeigt, dass Geduld wichtig ist.",
+      "en": "Experience shows that patience is important."
+    },
+    "correct_answer": "Erfahrung",
+    "wrong_answers": [
+      "Meinung",
+      "Idee",
+      "Aussage",
+      "Erkenntnis"
+    ],
+    "explanation_en": "'Erfahrung' means 'experience'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_erfahrung_004",
+    "word_id": "noun_erfahrung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er hat viele Jahre _____ in diesem Beruf.",
+      "en": "He has many years of experience in this profession."
+    },
+    "correct_answer": "Erfahrung",
+    "wrong_answers": [
+      "Kenntnisse",
+      "Ausbildung",
+      "Übung",
+      "Praxis"
+    ],
+    "explanation_en": "'Erfahrung' is used without an article in this context — expressing an uncountable amount of experience."
+  },
+  {
+    "exercise_id": "ex_noun_entwicklung_001",
+    "word_id": "noun_entwicklung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Entwicklung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the development",
+    "wrong_answers": [
+      "the change",
+      "the growth",
+      "the process",
+      "the trend"
+    ],
+    "explanation_en": "'Entwicklung' means 'development'. It is a feminine noun taking 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_entwicklung_002",
+    "word_id": "noun_entwicklung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Entwicklung der Technologie ist beeindruckend.",
+      "en": "The development of technology is impressive."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Entwicklung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_entwicklung_003",
+    "word_id": "noun_entwicklung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ der Wirtschaft läuft gut.",
+      "en": "The development of the economy is going well."
+    },
+    "correct_answer": "Entwicklung",
+    "wrong_answers": [
+      "Veränderung",
+      "Erholung",
+      "Lage",
+      "Situation"
+    ],
+    "explanation_en": "'Entwicklung' means 'development'. It is the feminine subject, used with 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_entwicklung_004",
+    "word_id": "noun_entwicklung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir beobachten diese _____ seit Jahren.",
+      "en": "We have been observing this development for years."
+    },
+    "correct_answer": "Entwicklung",
+    "wrong_answers": [
+      "Veränderung",
+      "Tendenz",
+      "Lage",
+      "Bewegung"
+    ],
+    "explanation_en": "'beobachten' takes the accusative. Feminine nouns look the same in nominative and accusative: 'diese Entwicklung'."
+  },
+  {
+    "exercise_id": "ex_noun_bedeutung_001",
+    "word_id": "noun_bedeutung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Bedeutung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the meaning / importance",
+    "wrong_answers": [
+      "the definition",
+      "the purpose",
+      "the value",
+      "the function"
+    ],
+    "explanation_en": "'Bedeutung' means both 'meaning' (of a word) and 'importance'. It is a feminine noun taking 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_bedeutung_002",
+    "word_id": "noun_bedeutung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Bedeutung dieses Wortes ist mir unklar.",
+      "en": "The meaning of this word is unclear to me."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Bedeutung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_bedeutung_003",
+    "word_id": "noun_bedeutung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ dieser Entscheidung ist enorm.",
+      "en": "The importance of this decision is enormous."
+    },
+    "correct_answer": "Bedeutung",
+    "wrong_answers": [
+      "Meinung",
+      "Wirkung",
+      "Auswirkung",
+      "Folge"
+    ],
+    "explanation_en": "'Bedeutung' means 'importance' here. It is the feminine subject, used with 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_bedeutung_004",
+    "word_id": "noun_bedeutung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich verstehe die _____ dieses Satzes nicht.",
+      "en": "I don't understand the meaning of this sentence."
+    },
+    "correct_answer": "Bedeutung",
+    "wrong_answers": [
+      "Struktur",
+      "Aussage",
+      "Formulierung",
+      "Wirkung"
+    ],
+    "explanation_en": "'verstehen' takes the accusative. Feminine: 'die Bedeutung' (same in accusative as nominative)."
+  },
+  {
+    "exercise_id": "ex_noun_moeglichkeit_001",
+    "word_id": "noun_moeglichkeit",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Möglichkeit",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the possibility",
+    "wrong_answers": [
+      "the opportunity",
+      "the chance",
+      "the option",
+      "the condition"
+    ],
+    "explanation_en": "'Möglichkeit' means 'possibility'. It is a feminine noun taking 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_moeglichkeit_002",
+    "word_id": "noun_moeglichkeit",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Möglichkeit besteht noch.",
+      "en": "The possibility still exists."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Möglichkeit' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_moeglichkeit_003",
+    "word_id": "noun_moeglichkeit",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____, ins Ausland zu reisen, ist teuer.",
+      "en": "The possibility of travelling abroad is expensive."
+    },
+    "correct_answer": "Möglichkeit",
+    "wrong_answers": [
+      "Chance",
+      "Idee",
+      "Absicht",
+      "Option"
+    ],
+    "explanation_en": "'Möglichkeit' means 'possibility'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_moeglichkeit_004",
+    "word_id": "noun_moeglichkeit",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir haben keine _____ mehr, das zu ändern.",
+      "en": "We no longer have the possibility of changing that."
+    },
+    "correct_answer": "Möglichkeit",
+    "wrong_answers": [
+      "Chance",
+      "Idee",
+      "Option",
+      "Lösung"
+    ],
+    "explanation_en": "'keine Möglichkeit' — 'keine' negates the feminine noun in the accusative. The noun form is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_veraenderung_001",
+    "word_id": "noun_veraenderung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Veränderung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the change",
+    "wrong_answers": [
+      "the development",
+      "the difference",
+      "the shift",
+      "the transition"
+    ],
+    "explanation_en": "'Veränderung' means 'change'. It is a feminine noun taking 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_veraenderung_002",
+    "word_id": "noun_veraenderung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Veränderung war unerwartet.",
+      "en": "The change was unexpected."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Veränderung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_veraenderung_003",
+    "word_id": "noun_veraenderung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ des Klimas macht uns Sorgen.",
+      "en": "The change in the climate worries us."
+    },
+    "correct_answer": "Veränderung",
+    "wrong_answers": [
+      "Entwicklung",
+      "Verschiebung",
+      "Verschlechterung",
+      "Störung"
+    ],
+    "explanation_en": "'Veränderung' means 'change'. It is the feminine subject, used with 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_veraenderung_004",
+    "word_id": "noun_veraenderung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich begrüße diese _____ sehr.",
+      "en": "I welcome this change very much."
+    },
+    "correct_answer": "Veränderung",
+    "wrong_answers": [
+      "Entwicklung",
+      "Entscheidung",
+      "Lösung",
+      "Aussage"
+    ],
+    "explanation_en": "'begrüßen' takes the accusative. Feminine nouns look the same in nominative and accusative."
+  },
+  {
+    "exercise_id": "ex_noun_entscheidung_001",
+    "word_id": "noun_entscheidung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Entscheidung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the decision",
+    "wrong_answers": [
+      "the opinion",
+      "the result",
+      "the conclusion",
+      "the suggestion"
+    ],
+    "explanation_en": "'Entscheidung' means 'decision'. It is a feminine noun taking 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_entscheidung_002",
+    "word_id": "noun_entscheidung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Entscheidung war richtig.",
+      "en": "The decision was correct."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Entscheidung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_entscheidung_003",
+    "word_id": "noun_entscheidung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ liegt nun bei dir.",
+      "en": "The decision is now up to you."
+    },
+    "correct_answer": "Entscheidung",
+    "wrong_answers": [
+      "Meinung",
+      "Wahl",
+      "Verantwortung",
+      "Aufgabe"
+    ],
+    "explanation_en": "'Entscheidung' means 'decision'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_entscheidung_004",
+    "word_id": "noun_entscheidung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er bereut seine _____ jetzt sehr.",
+      "en": "He deeply regrets his decision now."
+    },
+    "correct_answer": "Entscheidung",
+    "wrong_answers": [
+      "Meinung",
+      "Wahl",
+      "Aussage",
+      "Handlung"
+    ],
+    "explanation_en": "'bereuen' takes the accusative. 'seine Entscheidung' — feminine accusative is the same form as nominative."
+  },
+  {
+    "exercise_id": "ex_noun_gesellschaft_001",
+    "word_id": "noun_gesellschaft",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Gesellschaft",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the society",
+    "wrong_answers": [
+      "the group",
+      "the community",
+      "the culture",
+      "the state"
+    ],
+    "explanation_en": "'Gesellschaft' means 'society'. It is a feminine noun taking 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_gesellschaft_002",
+    "word_id": "noun_gesellschaft",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Gesellschaft verändert sich.",
+      "en": "Society is changing."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Gesellschaft' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_gesellschaft_003",
+    "word_id": "noun_gesellschaft",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ muss gemeinsam handeln.",
+      "en": "Society must act together."
+    },
+    "correct_answer": "Gesellschaft",
+    "wrong_answers": [
+      "Regierung",
+      "Bevölkerung",
+      "Gemeinschaft",
+      "Gruppe"
+    ],
+    "explanation_en": "'Gesellschaft' means 'society'. It is the feminine subject."
+  },
+  {
+    "exercise_id": "ex_noun_gesellschaft_004",
+    "word_id": "noun_gesellschaft",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er hat viel für die _____ getan.",
+      "en": "He has done a lot for society."
+    },
+    "correct_answer": "Gesellschaft",
+    "wrong_answers": [
+      "Regierung",
+      "Bevölkerung",
+      "Gemeinschaft",
+      "Gruppe"
+    ],
+    "explanation_en": "'für' takes the accusative. Feminine: 'die Gesellschaft' (same in accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_wirtschaft_001",
+    "word_id": "noun_wirtschaft",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Wirtschaft",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the economy",
+    "wrong_answers": [
+      "the politics",
+      "the science",
+      "the industry",
+      "the finance"
+    ],
+    "explanation_en": "'Wirtschaft' means 'economy'. It is a feminine noun taking 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_wirtschaft_002",
+    "word_id": "noun_wirtschaft",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Wirtschaft wächst langsam.",
+      "en": "The economy is growing slowly."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Wirtschaft' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_wirtschaft_003",
+    "word_id": "noun_wirtschaft",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ des Landes ist sehr stark.",
+      "en": "The economy of the country is very strong."
+    },
+    "correct_answer": "Wirtschaft",
+    "wrong_answers": [
+      "Politik",
+      "Industrie",
+      "Infrastruktur",
+      "Verwaltung"
+    ],
+    "explanation_en": "'Wirtschaft' means 'economy'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_wirtschaft_004",
+    "word_id": "noun_wirtschaft",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Regierung will die _____ ankurbeln.",
+      "en": "The government wants to boost the economy."
+    },
+    "correct_answer": "Wirtschaft",
+    "wrong_answers": [
+      "Politik",
+      "Industrie",
+      "Infrastruktur",
+      "Verwaltung"
+    ],
+    "explanation_en": "'ankurbeln' takes the accusative. Feminine: 'die Wirtschaft' (same form in accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_wissenschaft_001",
+    "word_id": "noun_wissenschaft",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Wissenschaft",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the science",
+    "wrong_answers": [
+      "the research",
+      "the knowledge",
+      "the education",
+      "the technology"
+    ],
+    "explanation_en": "'Wissenschaft' means 'science'. It is a feminine noun taking 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_wissenschaft_002",
+    "word_id": "noun_wissenschaft",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Wissenschaft hilft uns, die Welt zu verstehen.",
+      "en": "Science helps us to understand the world."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Wissenschaft' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_wissenschaft_003",
+    "word_id": "noun_wissenschaft",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ macht immer neue Entdeckungen.",
+      "en": "Science is always making new discoveries."
+    },
+    "correct_answer": "Wissenschaft",
+    "wrong_answers": [
+      "Technik",
+      "Forschung",
+      "Industrie",
+      "Ausbildung"
+    ],
+    "explanation_en": "'Wissenschaft' means 'science'. It is the feminine subject, used with 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_wissenschaft_004",
+    "word_id": "noun_wissenschaft",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er hat sein Leben der _____ gewidmet.",
+      "en": "He devoted his life to science."
+    },
+    "correct_answer": "Wissenschaft",
+    "wrong_answers": [
+      "Technik",
+      "Forschung",
+      "Ausbildung",
+      "Kunst"
+    ],
+    "explanation_en": "'widmen' with dative: 'der Wissenschaft' — feminine dative uses 'der'. The noun is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_sprache_001",
+    "word_id": "noun_sprache",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Sprache",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the language",
+    "wrong_answers": [
+      "the dialect",
+      "the accent",
+      "the speech",
+      "the vocabulary"
+    ],
+    "explanation_en": "'Sprache' means 'language'. It is a feminine noun taking 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_sprache_002",
+    "word_id": "noun_sprache",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Sprache ist ein wichtiges Kommunikationsmittel.",
+      "en": "Language is an important means of communication."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Sprache' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_sprache_003",
+    "word_id": "noun_sprache",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die deutsche _____ hat viele interessante Regeln.",
+      "en": "The German language has many interesting rules."
+    },
+    "correct_answer": "Sprache",
+    "wrong_answers": [
+      "Grammatik",
+      "Kultur",
+      "Literatur",
+      "Schrift"
+    ],
+    "explanation_en": "'Sprache' means 'language'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_sprache_004",
+    "word_id": "noun_sprache",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich lerne gerade eine neue _____.",
+      "en": "I am currently learning a new language."
+    },
+    "correct_answer": "Sprache",
+    "wrong_answers": [
+      "Fähigkeit",
+      "Fertigkeit",
+      "Kunst",
+      "Kultur"
+    ],
+    "explanation_en": "'lernen' takes the accusative. 'eine neue Sprache' — feminine indefinite accusative: 'eine'."
+  },
+  {
+    "exercise_id": "ex_noun_kultur_001",
+    "word_id": "noun_kultur",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Kultur",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the culture",
+    "wrong_answers": [
+      "the tradition",
+      "the art",
+      "the society",
+      "the heritage"
+    ],
+    "explanation_en": "'Kultur' means 'culture'. It is a feminine noun taking 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_kultur_002",
+    "word_id": "noun_kultur",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Kultur eines Landes ist einzigartig.",
+      "en": "The culture of a country is unique."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Kultur' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_kultur_003",
+    "word_id": "noun_kultur",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ Deutschlands ist reich und vielfältig.",
+      "en": "The culture of Germany is rich and diverse."
+    },
+    "correct_answer": "Kultur",
+    "wrong_answers": [
+      "Geschichte",
+      "Tradition",
+      "Gesellschaft",
+      "Literatur"
+    ],
+    "explanation_en": "'Kultur' means 'culture'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_kultur_004",
+    "word_id": "noun_kultur",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich interessiere mich für die _____ anderer Länder.",
+      "en": "I am interested in the culture of other countries."
+    },
+    "correct_answer": "Kultur",
+    "wrong_answers": [
+      "Geschichte",
+      "Tradition",
+      "Politik",
+      "Natur"
+    ],
+    "explanation_en": "'interessieren für' takes accusative. Feminine: 'die Kultur' (unchanged in accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_umgebung_001",
+    "word_id": "noun_umgebung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Umgebung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the surroundings / environment",
+    "wrong_answers": [
+      "the neighbourhood",
+      "the landscape",
+      "the area",
+      "the region"
+    ],
+    "explanation_en": "'Umgebung' means 'surroundings' or 'environment' (immediate area around something). Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_umgebung_002",
+    "word_id": "noun_umgebung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Umgebung der Stadt ist sehr grün.",
+      "en": "The surroundings of the city are very green."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Umgebung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_umgebung_003",
+    "word_id": "noun_umgebung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ hier ist sehr ruhig.",
+      "en": "The surroundings here are very quiet."
+    },
+    "correct_answer": "Umgebung",
+    "wrong_answers": [
+      "Gegend",
+      "Natur",
+      "Nachbarschaft",
+      "Landschaft"
+    ],
+    "explanation_en": "'Umgebung' means 'surroundings'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_umgebung_004",
+    "word_id": "noun_umgebung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir erkunden die _____ der Stadt.",
+      "en": "We are exploring the surroundings of the city."
+    },
+    "correct_answer": "Umgebung",
+    "wrong_answers": [
+      "Gegend",
+      "Natur",
+      "Nachbarschaft",
+      "Landschaft"
+    ],
+    "explanation_en": "'erkunden' takes the accusative. Feminine: 'die Umgebung' (unchanged in accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_loesung_001",
+    "word_id": "noun_loesung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Lösung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the solution",
+    "wrong_answers": [
+      "the answer",
+      "the result",
+      "the method",
+      "the conclusion"
+    ],
+    "explanation_en": "'Lösung' means 'solution'. It is a feminine noun taking 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_loesung_002",
+    "word_id": "noun_loesung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Lösung ist endlich gefunden.",
+      "en": "The solution has finally been found."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Lösung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_loesung_003",
+    "word_id": "noun_loesung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ ist einfacher als gedacht.",
+      "en": "The solution is simpler than expected."
+    },
+    "correct_answer": "Lösung",
+    "wrong_answers": [
+      "Antwort",
+      "Idee",
+      "Methode",
+      "Möglichkeit"
+    ],
+    "explanation_en": "'Lösung' means 'solution'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_loesung_004",
+    "word_id": "noun_loesung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir suchen eine kreative _____ für dieses Problem.",
+      "en": "We are looking for a creative solution to this problem."
+    },
+    "correct_answer": "Lösung",
+    "wrong_answers": [
+      "Antwort",
+      "Idee",
+      "Methode",
+      "Alternative"
+    ],
+    "explanation_en": "'suchen' takes the accusative. 'eine kreative Lösung' — feminine indefinite accusative: 'eine'."
+  },
+  {
+    "exercise_id": "ex_noun_aufgabe_001",
+    "word_id": "noun_aufgabe",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Aufgabe",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the task",
+    "wrong_answers": [
+      "the exercise",
+      "the problem",
+      "the duty",
+      "the test"
+    ],
+    "explanation_en": "'Aufgabe' means 'task' or 'exercise'. It is a feminine noun taking 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_aufgabe_002",
+    "word_id": "noun_aufgabe",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Aufgabe ist nicht leicht.",
+      "en": "The task is not easy."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Aufgabe' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_aufgabe_003",
+    "word_id": "noun_aufgabe",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ muss bis Freitag fertig sein.",
+      "en": "The task must be finished by Friday."
+    },
+    "correct_answer": "Aufgabe",
+    "wrong_answers": [
+      "Übung",
+      "Prüfung",
+      "Hausaufgabe",
+      "Pflicht"
+    ],
+    "explanation_en": "'Aufgabe' means 'task'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_aufgabe_004",
+    "word_id": "noun_aufgabe",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Chef gibt ihr eine wichtige _____ .",
+      "en": "The boss gives her an important task."
+    },
+    "correct_answer": "Aufgabe",
+    "wrong_answers": [
+      "Übung",
+      "Pflicht",
+      "Arbeit",
+      "Rolle"
+    ],
+    "explanation_en": "'geben' takes dative (ihr) + accusative (Aufgabe). 'eine wichtige Aufgabe' — feminine indefinite accusative."
+  },
+  {
+    "exercise_id": "ex_noun_wirkung_001",
+    "word_id": "noun_wirkung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Wirkung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the effect",
+    "wrong_answers": [
+      "the cause",
+      "the result",
+      "the impact",
+      "the influence"
+    ],
+    "explanation_en": "'Wirkung' means 'effect'. It is a feminine noun taking 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_wirkung_002",
+    "word_id": "noun_wirkung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Wirkung des Medikaments ist stark.",
+      "en": "The effect of the medicine is strong."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Wirkung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_wirkung_003",
+    "word_id": "noun_wirkung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ des Trainings ist nach zwei Wochen sichtbar.",
+      "en": "The effect of the training is visible after two weeks."
+    },
+    "correct_answer": "Wirkung",
+    "wrong_answers": [
+      "Folge",
+      "Auswirkung",
+      "Reaktion",
+      "Konsequenz"
+    ],
+    "explanation_en": "'Wirkung' means 'effect'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_wirkung_004",
+    "word_id": "noun_wirkung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Ereignis hatte eine große _____ auf die Öffentlichkeit.",
+      "en": "The event had a great effect on the public."
+    },
+    "correct_answer": "Wirkung",
+    "wrong_answers": [
+      "Folge",
+      "Reaktion",
+      "Auswirkung",
+      "Bedeutung"
+    ],
+    "explanation_en": "'hatte eine Wirkung' — 'haben' takes accusative. 'eine große Wirkung' — feminine indefinite accusative."
+  },
+  {
+    "exercise_id": "ex_noun_verhaeltnis_001",
+    "word_id": "noun_verhaeltnis",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Verhältnis",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the relationship / ratio",
+    "wrong_answers": [
+      "the connection",
+      "the contract",
+      "the comparison",
+      "the situation"
+    ],
+    "explanation_en": "'Verhältnis' means 'relationship' or 'ratio'. It is a neuter noun taking 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_verhaeltnis_002",
+    "word_id": "noun_verhaeltnis",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Verhältnis zwischen den beiden ist gut.",
+      "en": "The relationship between the two is good."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Verhältnis' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_verhaeltnis_003",
+    "word_id": "noun_verhaeltnis",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ von Arbeit zu Freizeit ist wichtig.",
+      "en": "The ratio of work to leisure time is important."
+    },
+    "correct_answer": "Verhältnis",
+    "wrong_answers": [
+      "Gleichgewicht",
+      "Vergleich",
+      "Unterschied",
+      "Verteilung"
+    ],
+    "explanation_en": "'Verhältnis' means 'ratio' here. It is the neuter subject, used with 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_verhaeltnis_004",
+    "word_id": "noun_verhaeltnis",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir müssen das _____ verbessern.",
+      "en": "We need to improve the relationship."
+    },
+    "correct_answer": "Verhältnis",
+    "wrong_answers": [
+      "Gleichgewicht",
+      "Verhalten",
+      "Gespräch",
+      "Ergebnis"
+    ],
+    "explanation_en": "'verbessern' takes the accusative. Neuter: 'das Verhältnis' (unchanged in accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_ergebnis_001",
+    "word_id": "noun_ergebnis",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Ergebnis",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the result",
+    "wrong_answers": [
+      "the conclusion",
+      "the outcome",
+      "the answer",
+      "the performance"
+    ],
+    "explanation_en": "'Ergebnis' means 'result'. It is a neuter noun taking 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_ergebnis_002",
+    "word_id": "noun_ergebnis",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Ergebnis war besser als erwartet.",
+      "en": "The result was better than expected."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Ergebnis' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_ergebnis_003",
+    "word_id": "noun_ergebnis",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ der Prüfung kommt nächste Woche.",
+      "en": "The result of the exam comes next week."
+    },
+    "correct_answer": "Ergebnis",
+    "wrong_answers": [
+      "Resultat",
+      "Zeugnis",
+      "Bericht",
+      "Urteil"
+    ],
+    "explanation_en": "'Ergebnis' means 'result'. It is the neuter subject, used with 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_ergebnis_004",
+    "word_id": "noun_ergebnis",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir warten auf das _____ der Untersuchung.",
+      "en": "We are waiting for the result of the investigation."
+    },
+    "correct_answer": "Ergebnis",
+    "wrong_answers": [
+      "Resultat",
+      "Bericht",
+      "Urteil",
+      "Fazit"
+    ],
+    "explanation_en": "'warten auf' takes the accusative. Neuter: 'das Ergebnis' (unchanged in accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_beispiel_001",
+    "word_id": "noun_beispiel",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Beispiel",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the example",
+    "wrong_answers": [
+      "the sample",
+      "the model",
+      "the exercise",
+      "the case"
+    ],
+    "explanation_en": "'Beispiel' means 'example'. It is a neuter noun taking 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_beispiel_002",
+    "word_id": "noun_beispiel",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Beispiel erklärt die Regel gut.",
+      "en": "The example explains the rule well."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Beispiel' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_beispiel_003",
+    "word_id": "noun_beispiel",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ macht den Unterschied klar.",
+      "en": "The example makes the difference clear."
+    },
+    "correct_answer": "Beispiel",
+    "wrong_answers": [
+      "Modell",
+      "Muster",
+      "Fall",
+      "Satz"
+    ],
+    "explanation_en": "'Beispiel' means 'example'. It is the neuter subject, used with 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_beispiel_004",
+    "word_id": "noun_beispiel",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Kannst du mir ein _____ nennen?",
+      "en": "Can you give me an example?"
+    },
+    "correct_answer": "Beispiel",
+    "wrong_answers": [
+      "Modell",
+      "Muster",
+      "Fall",
+      "Hinweis"
+    ],
+    "explanation_en": "After 'ein' (neuter indefinite accusative), 'Beispiel' is unchanged — neuter nominative and accusative are identical."
+  },
+  {
+    "exercise_id": "ex_noun_angebot_001",
+    "word_id": "noun_angebot",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Angebot",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the offer",
+    "wrong_answers": [
+      "the request",
+      "the deal",
+      "the discount",
+      "the supply"
+    ],
+    "explanation_en": "'Angebot' means 'offer' or 'special offer'. It is a neuter noun taking 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_angebot_002",
+    "word_id": "noun_angebot",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Angebot ist sehr verlockend.",
+      "en": "The offer is very tempting."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Angebot' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_angebot_003",
+    "word_id": "noun_angebot",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ gilt bis Ende des Monats.",
+      "en": "The offer is valid until the end of the month."
+    },
+    "correct_answer": "Angebot",
+    "wrong_answers": [
+      "Rabatt",
+      "Paket",
+      "Produkt",
+      "Geschäft"
+    ],
+    "explanation_en": "'Angebot' means 'offer'. It is the neuter subject, used with 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_angebot_004",
+    "word_id": "noun_angebot",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich nehme das _____ gerne an.",
+      "en": "I gladly accept the offer."
+    },
+    "correct_answer": "Angebot",
+    "wrong_answers": [
+      "Rabatt",
+      "Paket",
+      "Geschenk",
+      "Vorschlag"
+    ],
+    "explanation_en": "'annehmen' takes the accusative. Neuter: 'das Angebot' (unchanged in accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_interesse_001",
+    "word_id": "noun_interesse",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Interesse",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the interest",
+    "wrong_answers": [
+      "the curiosity",
+      "the attention",
+      "the enthusiasm",
+      "the passion"
+    ],
+    "explanation_en": "'Interesse' means 'interest'. It is a neuter noun taking 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_interesse_002",
+    "word_id": "noun_interesse",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Interesse an Kunst wächst.",
+      "en": "The interest in art is growing."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Interesse' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_interesse_003",
+    "word_id": "noun_interesse",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ an diesem Thema ist groß.",
+      "en": "The interest in this topic is great."
+    },
+    "correct_answer": "Interesse",
+    "wrong_answers": [
+      "Engagement",
+      "Neugier",
+      "Begeisterung",
+      "Freude"
+    ],
+    "explanation_en": "'Interesse' means 'interest'. It is the neuter subject here."
+  },
+  {
+    "exercise_id": "ex_noun_interesse_004",
+    "word_id": "noun_interesse",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er zeigt großes _____ an Musik.",
+      "en": "He shows great interest in music."
+    },
+    "correct_answer": "Interesse",
+    "wrong_answers": [
+      "Talent",
+      "Engagement",
+      "Begeisterung",
+      "Wissen"
+    ],
+    "explanation_en": "After 'großes' (neuter accusative adjective), 'Interesse' is unchanged — neuter nominative and accusative are identical."
+  },
+  {
+    "exercise_id": "ex_noun_verhalten_001",
+    "word_id": "noun_verhalten",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Verhalten",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the behaviour",
+    "wrong_answers": [
+      "the attitude",
+      "the manner",
+      "the action",
+      "the reaction"
+    ],
+    "explanation_en": "'Verhalten' means 'behaviour'. It is a neuter noun taking 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_verhalten_002",
+    "word_id": "noun_verhalten",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Verhalten des Schülers ist seltsam.",
+      "en": "The pupil's behaviour is strange."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Verhalten' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_verhalten_003",
+    "word_id": "noun_verhalten",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ der Kinder ist manchmal schwer zu verstehen.",
+      "en": "Children's behaviour is sometimes hard to understand."
+    },
+    "correct_answer": "Verhalten",
+    "wrong_answers": [
+      "Auftreten",
+      "Handeln",
+      "Denken",
+      "Reagieren"
+    ],
+    "explanation_en": "'Verhalten' means 'behaviour'. It is the neuter subject, used with 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_verhalten_004",
+    "word_id": "noun_verhalten",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir müssen sein _____ besprechen.",
+      "en": "We need to discuss his behaviour."
+    },
+    "correct_answer": "Verhalten",
+    "wrong_answers": [
+      "Auftreten",
+      "Handeln",
+      "Fehler",
+      "Reaktion"
+    ],
+    "explanation_en": "'besprechen' takes the accusative. Neuter: 'sein Verhalten' (unchanged in accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_ziel_001",
+    "word_id": "noun_ziel",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Ziel",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the goal / aim",
+    "wrong_answers": [
+      "the plan",
+      "the idea",
+      "the task",
+      "the result"
+    ],
+    "explanation_en": "'Ziel' means 'goal', 'aim', or 'destination'. It is a neuter noun taking 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_ziel_002",
+    "word_id": "noun_ziel",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Ziel ist klar definiert.",
+      "en": "The goal is clearly defined."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Ziel' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_ziel_003",
+    "word_id": "noun_ziel",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ des Projekts ist mehr Nachhaltigkeit.",
+      "en": "The goal of the project is more sustainability."
+    },
+    "correct_answer": "Ziel",
+    "wrong_answers": [
+      "Ergebnis",
+      "Zweck",
+      "Thema",
+      "Inhalt"
+    ],
+    "explanation_en": "'Ziel' means 'goal'. It is the neuter subject, used with 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_ziel_004",
+    "word_id": "noun_ziel",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich verfolge mein _____ mit großer Ausdauer.",
+      "en": "I pursue my goal with great perseverance."
+    },
+    "correct_answer": "Ziel",
+    "wrong_answers": [
+      "Ergebnis",
+      "Zweck",
+      "Traum",
+      "Vorhaben"
+    ],
+    "explanation_en": "'verfolgen' takes the accusative. 'mein Ziel' — neuter possessive accusative: 'mein' (unchanged). Noun also unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_thema_001",
+    "word_id": "noun_thema",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Thema",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the topic / theme",
+    "wrong_answers": [
+      "the question",
+      "the chapter",
+      "the issue",
+      "the discussion"
+    ],
+    "explanation_en": "'Thema' means 'topic' or 'theme'. It is a neuter noun taking 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_thema_002",
+    "word_id": "noun_thema",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Thema ist sehr aktuell.",
+      "en": "The topic is very current."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Thema' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_thema_003",
+    "word_id": "noun_thema",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ des Aufsatzes ist die Umwelt.",
+      "en": "The topic of the essay is the environment."
+    },
+    "correct_answer": "Thema",
+    "wrong_answers": [
+      "Inhalt",
+      "Titel",
+      "Kapitel",
+      "Abschnitt"
+    ],
+    "explanation_en": "'Thema' means 'topic'. It is the neuter subject, used with 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_thema_004",
+    "word_id": "noun_thema",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir wählen ein neues _____ für das Projekt.",
+      "en": "We are choosing a new topic for the project."
+    },
+    "correct_answer": "Thema",
+    "wrong_answers": [
+      "Inhalt",
+      "Titel",
+      "Kapitel",
+      "Konzept"
+    ],
+    "explanation_en": "After 'ein neues' (neuter indefinite accusative adjective), 'Thema' is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_recht_001",
+    "word_id": "noun_recht",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Recht",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the right / law",
+    "wrong_answers": [
+      "the duty",
+      "the rule",
+      "the justice",
+      "the freedom"
+    ],
+    "explanation_en": "'Recht' means 'right' (entitlement) or 'law'. It is a neuter noun taking 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_recht_002",
+    "word_id": "noun_recht",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Recht auf Bildung gilt für alle.",
+      "en": "The right to education applies to everyone."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Recht' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_recht_003",
+    "word_id": "noun_recht",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ auf Meinungsfreiheit ist wichtig.",
+      "en": "The right to freedom of expression is important."
+    },
+    "correct_answer": "Recht",
+    "wrong_answers": [
+      "Gesetz",
+      "Prinzip",
+      "Anspruch",
+      "Privileg"
+    ],
+    "explanation_en": "'Recht' means 'right'. It is the neuter subject, used with 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_recht_004",
+    "word_id": "noun_recht",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Jeder Bürger hat das _____, zu wählen.",
+      "en": "Every citizen has the right to vote."
+    },
+    "correct_answer": "Recht",
+    "wrong_answers": [
+      "Gesetz",
+      "Pflicht",
+      "Anspruch",
+      "Privileg"
+    ],
+    "explanation_en": "'hat das Recht' — 'haben' takes accusative. Neuter: 'das Recht' (unchanged in accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_gebiet_001",
+    "word_id": "noun_gebiet",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Gebiet",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the area / field",
+    "wrong_answers": [
+      "the region",
+      "the subject",
+      "the territory",
+      "the zone"
+    ],
+    "explanation_en": "'Gebiet' means 'area', 'field', or 'territory'. It is a neuter noun taking 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_gebiet_002",
+    "word_id": "noun_gebiet",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Gebiet ist sehr groß.",
+      "en": "The area is very large."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Gebiet' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_gebiet_003",
+    "word_id": "noun_gebiet",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ der Medizin entwickelt sich schnell.",
+      "en": "The field of medicine is developing rapidly."
+    },
+    "correct_answer": "Gebiet",
+    "wrong_answers": [
+      "Bereich",
+      "Fach",
+      "Fachgebiet",
+      "Thema"
+    ],
+    "explanation_en": "'Gebiet' means 'field'. It is the neuter subject, used with 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_gebiet_004",
+    "word_id": "noun_gebiet",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich kenne dieses _____ sehr gut.",
+      "en": "I know this area very well."
+    },
+    "correct_answer": "Gebiet",
+    "wrong_answers": [
+      "Bereich",
+      "Fach",
+      "Terrain",
+      "Thema"
+    ],
+    "explanation_en": "'kennen' takes the accusative. Neuter: 'dieses Gebiet' (neuter accusative demonstrative 'dieses', noun unchanged)."
+  },
+  {
+    "exercise_id": "ex_noun_einfluss_001",
+    "word_id": "noun_einfluss",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Einfluss",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the influence",
+    "wrong_answers": [
+      "the effect",
+      "the impact",
+      "the power",
+      "the pressure"
+    ],
+    "explanation_en": "'Einfluss' means 'influence'. It is a masculine noun taking 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_einfluss_002",
+    "word_id": "noun_einfluss",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Einfluss der Medien ist enorm.",
+      "en": "The influence of the media is enormous."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Einfluss' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_einfluss_003",
+    "word_id": "noun_einfluss",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ dieser Person auf die Gruppe ist groß.",
+      "en": "This person's influence on the group is great."
+    },
+    "correct_answer": "Einfluss",
+    "wrong_answers": [
+      "Druck",
+      "Effekt",
+      "Beitrag",
+      "Anteil"
+    ],
+    "explanation_en": "'Einfluss' means 'influence'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_einfluss_004",
+    "word_id": "noun_einfluss",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er nutzt seinen _____ für gute Zwecke.",
+      "en": "He uses his influence for good purposes."
+    },
+    "correct_answer": "Einfluss",
+    "wrong_answers": [
+      "Druck",
+      "Ruf",
+      "Status",
+      "Reichtum"
+    ],
+    "explanation_en": "'nutzen' takes the accusative. 'seinen Einfluss' — masculine accusative uses 'seinen'. Noun is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_unterschied_001",
+    "word_id": "noun_unterschied",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Unterschied",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the difference",
+    "wrong_answers": [
+      "the similarity",
+      "the contrast",
+      "the comparison",
+      "the gap"
+    ],
+    "explanation_en": "'Unterschied' means 'difference'. It is a masculine noun taking 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_unterschied_002",
+    "word_id": "noun_unterschied",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Unterschied ist klein, aber wichtig.",
+      "en": "The difference is small but important."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Unterschied' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_unterschied_003",
+    "word_id": "noun_unterschied",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ zwischen den zwei Wörtern ist subtil.",
+      "en": "The difference between the two words is subtle."
+    },
+    "correct_answer": "Unterschied",
+    "wrong_answers": [
+      "Vergleich",
+      "Kontrast",
+      "Gegensatz",
+      "Abstand"
+    ],
+    "explanation_en": "'Unterschied' means 'difference'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_unterschied_004",
+    "word_id": "noun_unterschied",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich sehe keinen _____ zwischen den beiden Optionen.",
+      "en": "I see no difference between the two options."
+    },
+    "correct_answer": "Unterschied",
+    "wrong_answers": [
+      "Vergleich",
+      "Kontrast",
+      "Vorteil",
+      "Nachteil"
+    ],
+    "explanation_en": "'sehen' takes the accusative. 'keinen Unterschied' — masculine accusative uses 'keinen'."
+  },
+  {
+    "exercise_id": "ex_noun_zusammenhang_001",
+    "word_id": "noun_zusammenhang",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Zusammenhang",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the connection / context",
+    "wrong_answers": [
+      "the relationship",
+      "the link",
+      "the combination",
+      "the system"
+    ],
+    "explanation_en": "'Zusammenhang' means 'connection' or 'context'. It is a masculine noun taking 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_zusammenhang_002",
+    "word_id": "noun_zusammenhang",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Zusammenhang ist wichtig für das Verständnis.",
+      "en": "The context is important for understanding."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Zusammenhang' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_zusammenhang_003",
+    "word_id": "noun_zusammenhang",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ zwischen den Ereignissen ist klar.",
+      "en": "The connection between the events is clear."
+    },
+    "correct_answer": "Zusammenhang",
+    "wrong_answers": [
+      "Unterschied",
+      "Vergleich",
+      "Einfluss",
+      "Bezug"
+    ],
+    "explanation_en": "'Zusammenhang' means 'connection'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_zusammenhang_004",
+    "word_id": "noun_zusammenhang",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich verstehe den _____ nicht ganz.",
+      "en": "I don't quite understand the context."
+    },
+    "correct_answer": "Zusammenhang",
+    "wrong_answers": [
+      "Unterschied",
+      "Vergleich",
+      "Inhalt",
+      "Bezug"
+    ],
+    "explanation_en": "'verstehen' takes the accusative. 'den Zusammenhang' — masculine accusative uses 'den'. Noun is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_bereich_001",
+    "word_id": "noun_bereich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Bereich",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the area / field / sector",
+    "wrong_answers": [
+      "the level",
+      "the subject",
+      "the space",
+      "the zone"
+    ],
+    "explanation_en": "'Bereich' means 'area', 'field', or 'sector'. It is a masculine noun taking 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_bereich_002",
+    "word_id": "noun_bereich",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Bereich der Bildung braucht mehr Geld.",
+      "en": "The field of education needs more money."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Bereich' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_bereich_003",
+    "word_id": "noun_bereich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "In diesem _____ habe ich viel Erfahrung.",
+      "en": "In this field I have a lot of experience."
+    },
+    "correct_answer": "Bereich",
+    "wrong_answers": [
+      "Gebiet",
+      "Fach",
+      "Sektor",
+      "Feld"
+    ],
+    "explanation_en": "'Bereich' means 'field' or 'area'. After 'diesem' (dative, masculine), the noun is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_bereich_004",
+    "word_id": "noun_bereich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir müssen diesen _____ weiterentwickeln.",
+      "en": "We need to further develop this sector."
+    },
+    "correct_answer": "Bereich",
+    "wrong_answers": [
+      "Gebiet",
+      "Fach",
+      "Sektor",
+      "Abschnitt"
+    ],
+    "explanation_en": "'weiterentwickeln' takes the accusative. 'diesen Bereich' — masculine accusative uses 'diesen'. Noun unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_inhalt_001",
+    "word_id": "noun_inhalt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Inhalt",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the content",
+    "wrong_answers": [
+      "the form",
+      "the meaning",
+      "the structure",
+      "the summary"
+    ],
+    "explanation_en": "'Inhalt' means 'content'. It is a masculine noun taking 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_inhalt_002",
+    "word_id": "noun_inhalt",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Inhalt des Films ist sehr spannend.",
+      "en": "The content of the film is very exciting."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Inhalt' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_inhalt_003",
+    "word_id": "noun_inhalt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ des Buches ist sehr interessant.",
+      "en": "The content of the book is very interesting."
+    },
+    "correct_answer": "Inhalt",
+    "wrong_answers": [
+      "Titel",
+      "Stil",
+      "Aufbau",
+      "Abschnitt"
+    ],
+    "explanation_en": "'Inhalt' means 'content'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_inhalt_004",
+    "word_id": "noun_inhalt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir besprechen den _____ des Artikels.",
+      "en": "We are discussing the content of the article."
+    },
+    "correct_answer": "Inhalt",
+    "wrong_answers": [
+      "Titel",
+      "Aufbau",
+      "Stil",
+      "Abschnitt"
+    ],
+    "explanation_en": "'besprechen' takes the accusative. 'den Inhalt' — masculine accusative uses 'den'. Noun is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_ausdruck_001",
+    "word_id": "noun_ausdruck",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Ausdruck",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the expression",
+    "wrong_answers": [
+      "the word",
+      "the sentence",
+      "the phrase",
+      "the saying"
+    ],
+    "explanation_en": "'Ausdruck' means 'expression'. It is a masculine noun taking 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_ausdruck_002",
+    "word_id": "noun_ausdruck",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Ausdruck ist sehr typisch für die Umgangssprache.",
+      "en": "The expression is very typical of colloquial speech."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Ausdruck' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_ausdruck_003",
+    "word_id": "noun_ausdruck",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ ist mir nicht bekannt.",
+      "en": "The expression is not familiar to me."
+    },
+    "correct_answer": "Ausdruck",
+    "wrong_answers": [
+      "Begriff",
+      "Satz",
+      "Wort",
+      "Redewendung"
+    ],
+    "explanation_en": "'Ausdruck' means 'expression'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_ausdruck_004",
+    "word_id": "noun_ausdruck",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich suche den passenden _____ auf Deutsch.",
+      "en": "I am looking for the right expression in German."
+    },
+    "correct_answer": "Ausdruck",
+    "wrong_answers": [
+      "Begriff",
+      "Satz",
+      "Wort",
+      "Stil"
+    ],
+    "explanation_en": "'suchen' takes the accusative. 'den passenden Ausdruck' — masculine accusative uses 'den'."
+  },
+  {
+    "exercise_id": "ex_noun_fehler_001",
+    "word_id": "noun_fehler",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Fehler",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the mistake",
+    "wrong_answers": [
+      "the problem",
+      "the fault",
+      "the error",
+      "the defect"
+    ],
+    "explanation_en": "'Fehler' means 'mistake' or 'error'. It is a masculine noun taking 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_fehler_002",
+    "word_id": "noun_fehler",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Fehler ist leicht zu beheben.",
+      "en": "The mistake is easy to fix."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Fehler' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_fehler_003",
+    "word_id": "noun_fehler",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ liegt in der dritten Zeile.",
+      "en": "The mistake is in the third line."
+    },
+    "correct_answer": "Fehler",
+    "wrong_answers": [
+      "Irrtum",
+      "Mangel",
+      "Versehen",
+      "Defekt"
+    ],
+    "explanation_en": "'Fehler' means 'mistake'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_fehler_004",
+    "word_id": "noun_fehler",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich habe meinen _____ erkannt und korrigiert.",
+      "en": "I recognised and corrected my mistake."
+    },
+    "correct_answer": "Fehler",
+    "wrong_answers": [
+      "Irrtum",
+      "Mangel",
+      "Versehen",
+      "Nachteil"
+    ],
+    "explanation_en": "'erkennen' and 'korrigieren' take the accusative. 'meinen Fehler' — masculine accusative uses 'meinen'. Noun unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_vorteil_001",
+    "word_id": "noun_vorteil",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Vorteil",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the advantage",
+    "wrong_answers": [
+      "the benefit",
+      "the gain",
+      "the strength",
+      "the profit"
+    ],
+    "explanation_en": "'Vorteil' means 'advantage'. It is a masculine noun taking 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_vorteil_002",
+    "word_id": "noun_vorteil",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Vorteil dieser Methode ist die Schnelligkeit.",
+      "en": "The advantage of this method is its speed."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Vorteil' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_vorteil_003",
+    "word_id": "noun_vorteil",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ liegt auf der Hand.",
+      "en": "The advantage is obvious."
+    },
+    "correct_answer": "Vorteil",
+    "wrong_answers": [
+      "Nachteil",
+      "Aspekt",
+      "Grund",
+      "Nutzen"
+    ],
+    "explanation_en": "'Vorteil' means 'advantage'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_vorteil_004",
+    "word_id": "noun_vorteil",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das bietet uns einen großen _____.",
+      "en": "That offers us a great advantage."
+    },
+    "correct_answer": "Vorteil",
+    "wrong_answers": [
+      "Nachteil",
+      "Nutzen",
+      "Gewinn",
+      "Erfolg"
+    ],
+    "explanation_en": "'bieten' takes dative (uns) + accusative (Vorteil). 'einen großen Vorteil' — masculine indefinite accusative."
+  },
+  {
+    "exercise_id": "ex_noun_nachteil_001",
+    "word_id": "noun_nachteil",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Nachteil",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the disadvantage",
+    "wrong_answers": [
+      "the problem",
+      "the risk",
+      "the weakness",
+      "the cost"
+    ],
+    "explanation_en": "'Nachteil' means 'disadvantage'. It is a masculine noun taking 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_nachteil_002",
+    "word_id": "noun_nachteil",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Nachteil ist der hohe Preis.",
+      "en": "The disadvantage is the high price."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Nachteil' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_nachteil_003",
+    "word_id": "noun_nachteil",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ dieser Lösung ist offensichtlich.",
+      "en": "The disadvantage of this solution is obvious."
+    },
+    "correct_answer": "Nachteil",
+    "wrong_answers": [
+      "Vorteil",
+      "Aspekt",
+      "Risiko",
+      "Fehler"
+    ],
+    "explanation_en": "'Nachteil' means 'disadvantage'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_nachteil_004",
+    "word_id": "noun_nachteil",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich sehe einen großen _____ in diesem Plan.",
+      "en": "I see a big disadvantage in this plan."
+    },
+    "correct_answer": "Nachteil",
+    "wrong_answers": [
+      "Fehler",
+      "Risiko",
+      "Irrtum",
+      "Verlust"
+    ],
+    "explanation_en": "'sehen' takes the accusative. 'einen großen Nachteil' — masculine indefinite accusative uses 'einen'."
+  },
+  {
+    "exercise_id": "ex_noun_einwohner_001",
+    "word_id": "noun_einwohner",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Einwohner",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the inhabitant",
+    "wrong_answers": [
+      "the citizen",
+      "the resident",
+      "the visitor",
+      "the foreigner"
+    ],
+    "explanation_en": "'Einwohner' means 'inhabitant'. It is a masculine noun taking 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_einwohner_002",
+    "word_id": "noun_einwohner",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Einwohner der Stadt kennt diese Straße.",
+      "en": "The inhabitant of the city knows this street."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Einwohner' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_einwohner_003",
+    "word_id": "noun_einwohner",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ wohnt seit Jahren hier.",
+      "en": "The inhabitant has lived here for years."
+    },
+    "correct_answer": "Einwohner",
+    "wrong_answers": [
+      "Bürger",
+      "Tourist",
+      "Besucher",
+      "Ausländer"
+    ],
+    "explanation_en": "'Einwohner' means 'inhabitant'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_einwohner_004",
+    "word_id": "noun_einwohner",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Stadt hat über eine Million _____.",
+      "en": "The city has over one million inhabitants."
+    },
+    "correct_answer": "Einwohner",
+    "wrong_answers": [
+      "Bürger",
+      "Touristen",
+      "Besucher",
+      "Bewohner"
+    ],
+    "explanation_en": "'Einwohner' is the plural form here (same as singular). After a number, the plural is used without an article."
+  },
+  {
+    "exercise_id": "ex_noun_zustand_001",
+    "word_id": "noun_zustand",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Zustand",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the condition / state",
+    "wrong_answers": [
+      "the situation",
+      "the status",
+      "the phase",
+      "the level"
+    ],
+    "explanation_en": "'Zustand' means 'condition' or 'state'. It is a masculine noun taking 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_zustand_002",
+    "word_id": "noun_zustand",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Zustand des Gebäudes ist schlecht.",
+      "en": "The condition of the building is poor."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Zustand' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_zustand_003",
+    "word_id": "noun_zustand",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ des Autos hat sich verbessert.",
+      "en": "The condition of the car has improved."
+    },
+    "correct_answer": "Zustand",
+    "wrong_answers": [
+      "Wert",
+      "Status",
+      "Betrieb",
+      "Verlauf"
+    ],
+    "explanation_en": "'Zustand' means 'condition'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_zustand_004",
+    "word_id": "noun_zustand",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir müssen den _____ des Patienten überwachen.",
+      "en": "We need to monitor the patient's condition."
+    },
+    "correct_answer": "Zustand",
+    "wrong_answers": [
+      "Verlauf",
+      "Status",
+      "Fortschritt",
+      "Wert"
+    ],
+    "explanation_en": "'überwachen' takes the accusative. 'den Zustand' — masculine accusative uses 'den'. Noun unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_verlust_001",
+    "word_id": "noun_verlust",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Verlust",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the loss",
+    "wrong_answers": [
+      "the damage",
+      "the failure",
+      "the decrease",
+      "the defeat"
+    ],
+    "explanation_en": "'Verlust' means 'loss'. It is a masculine noun taking 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_verlust_002",
+    "word_id": "noun_verlust",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Verlust war sehr schmerzhaft.",
+      "en": "The loss was very painful."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Verlust' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_verlust_003",
+    "word_id": "noun_verlust",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ seiner Arbeit hat ihn sehr getroffen.",
+      "en": "The loss of his job hit him very hard."
+    },
+    "correct_answer": "Verlust",
+    "wrong_answers": [
+      "Schaden",
+      "Rückgang",
+      "Fehler",
+      "Misserfolg"
+    ],
+    "explanation_en": "'Verlust' means 'loss'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_verlust_004",
+    "word_id": "noun_verlust",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Unternehmen hat einen großen _____ erlitten.",
+      "en": "The company suffered a great loss."
+    },
+    "correct_answer": "Verlust",
+    "wrong_answers": [
+      "Schaden",
+      "Rückgang",
+      "Fehler",
+      "Einbruch"
+    ],
+    "explanation_en": "'erleiden' takes the accusative. 'einen großen Verlust' — masculine indefinite accusative uses 'einen'."
+  },
+  {
+    "exercise_id": "ex_noun_fortschritt_001",
+    "word_id": "noun_fortschritt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Fortschritt",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the progress",
+    "wrong_answers": [
+      "the success",
+      "the development",
+      "the improvement",
+      "the advance"
+    ],
+    "explanation_en": "'Fortschritt' means 'progress'. It is a masculine noun taking 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_fortschritt_002",
+    "word_id": "noun_fortschritt",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Fortschritt in der Wissenschaft ist beeindruckend.",
+      "en": "The progress in science is impressive."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Fortschritt' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_fortschritt_003",
+    "word_id": "noun_fortschritt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ beim Deutschlernen ist sichtbar.",
+      "en": "The progress in learning German is visible."
+    },
+    "correct_answer": "Fortschritt",
+    "wrong_answers": [
+      "Erfolg",
+      "Ergebnis",
+      "Gewinn",
+      "Vorteil"
+    ],
+    "explanation_en": "'Fortschritt' means 'progress'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_fortschritt_004",
+    "word_id": "noun_fortschritt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir feiern den _____, den wir gemacht haben.",
+      "en": "We celebrate the progress we have made."
+    },
+    "correct_answer": "Fortschritt",
+    "wrong_answers": [
+      "Erfolg",
+      "Ergebnis",
+      "Gewinn",
+      "Schritt"
+    ],
+    "explanation_en": "'feiern' takes the accusative. 'den Fortschritt' — masculine accusative uses 'den'. Noun unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_beitrag_001",
+    "word_id": "noun_beitrag",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Beitrag",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the contribution",
+    "wrong_answers": [
+      "the donation",
+      "the article",
+      "the share",
+      "the fee"
+    ],
+    "explanation_en": "'Beitrag' means 'contribution'. It is a masculine noun taking 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_beitrag_002",
+    "word_id": "noun_beitrag",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Beitrag zur Lösung ist wichtig.",
+      "en": "The contribution to the solution is important."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Beitrag' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_beitrag_003",
+    "word_id": "noun_beitrag",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ jedes Einzelnen zählt.",
+      "en": "The contribution of every individual counts."
+    },
+    "correct_answer": "Beitrag",
+    "wrong_answers": [
+      "Anteil",
+      "Einfluss",
+      "Leistung",
+      "Einsatz"
+    ],
+    "explanation_en": "'Beitrag' means 'contribution'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_beitrag_004",
+    "word_id": "noun_beitrag",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie leistet einen wichtigen _____ zum Klimaschutz.",
+      "en": "She makes an important contribution to climate protection."
+    },
+    "correct_answer": "Beitrag",
+    "wrong_answers": [
+      "Anteil",
+      "Einfluss",
+      "Schritt",
+      "Einsatz"
+    ],
+    "explanation_en": "'leisten' takes the accusative. 'einen wichtigen Beitrag' — masculine indefinite accusative uses 'einen'."
+  },
+  {
+    "exercise_id": "ex_noun_zweck_001",
+    "word_id": "noun_zweck",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Zweck",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the purpose",
+    "wrong_answers": [
+      "the goal",
+      "the reason",
+      "the function",
+      "the benefit"
+    ],
+    "explanation_en": "'Zweck' means 'purpose'. It is a masculine noun taking 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_zweck_002",
+    "word_id": "noun_zweck",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Zweck dieser Übung ist unklar.",
+      "en": "The purpose of this exercise is unclear."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Zweck' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_zweck_003",
+    "word_id": "noun_zweck",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ des Treffens ist die Planung.",
+      "en": "The purpose of the meeting is planning."
+    },
+    "correct_answer": "Zweck",
+    "wrong_answers": [
+      "Grund",
+      "Ziel",
+      "Thema",
+      "Inhalt"
+    ],
+    "explanation_en": "'Zweck' means 'purpose'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_zweck_004",
+    "word_id": "noun_zweck",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich sehe keinen _____ in dieser Diskussion.",
+      "en": "I see no purpose in this discussion."
+    },
+    "correct_answer": "Zweck",
+    "wrong_answers": [
+      "Grund",
+      "Sinn",
+      "Nutzen",
+      "Vorteil"
+    ],
+    "explanation_en": "'sehen' takes the accusative. 'keinen Zweck' — masculine accusative uses 'keinen'. Noun unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_krankenhaus_001",
+    "word_id": "noun_krankenhaus",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Krankenhaus",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the hospital",
+    "wrong_answers": [
+      "the clinic",
+      "the doctor's surgery",
+      "the pharmacy",
+      "the nursing home"
+    ],
+    "explanation_en": "'Krankenhaus' means 'hospital'. It is a neuter noun taking 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_krankenhaus_002",
+    "word_id": "noun_krankenhaus",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Krankenhaus ist gut ausgestattet.",
+      "en": "The hospital is well equipped."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Krankenhaus' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_krankenhaus_003",
+    "word_id": "noun_krankenhaus",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ liegt in der Nähe des Bahnhofs.",
+      "en": "The hospital is near the train station."
+    },
+    "correct_answer": "Krankenhaus",
+    "wrong_answers": [
+      "Rathaus",
+      "Gebäude",
+      "Zentrum",
+      "Institut"
+    ],
+    "explanation_en": "'Krankenhaus' means 'hospital'. It is the neuter subject, used with 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_krankenhaus_004",
+    "word_id": "noun_krankenhaus",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er wurde sofort ins _____ gebracht.",
+      "en": "He was taken to hospital immediately."
+    },
+    "correct_answer": "Krankenhaus",
+    "wrong_answers": [
+      "Rathaus",
+      "Gebäude",
+      "Zentrum",
+      "Institut"
+    ],
+    "explanation_en": "'ins' = in + das (accusative, showing movement into a place). 'ins Krankenhaus' is a fixed phrase used when going into hospital."
+  },
+  {
+    "exercise_id": "ex_noun_rathaus_001",
+    "word_id": "noun_rathaus",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Rathaus",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the town hall",
+    "wrong_answers": [
+      "the city hall",
+      "the courthouse",
+      "the parliament",
+      "the ministry"
+    ],
+    "explanation_en": "'Rathaus' means 'town hall'. It is a neuter noun taking 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_rathaus_002",
+    "word_id": "noun_rathaus",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Rathaus steht auf dem Marktplatz.",
+      "en": "The town hall stands on the market square."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Rathaus' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_rathaus_003",
+    "word_id": "noun_rathaus",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ ist ein historisches Gebäude.",
+      "en": "The town hall is a historic building."
+    },
+    "correct_answer": "Rathaus",
+    "wrong_answers": [
+      "Krankenhaus",
+      "Schloss",
+      "Gebäude",
+      "Zentrum"
+    ],
+    "explanation_en": "'Rathaus' means 'town hall'. It is the neuter subject, used with 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_rathaus_004",
+    "word_id": "noun_rathaus",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir müssen zum _____ gehen, um die Dokumente einzureichen.",
+      "en": "We have to go to the town hall to submit the documents."
+    },
+    "correct_answer": "Rathaus",
+    "wrong_answers": [
+      "Krankenhaus",
+      "Bahnhof",
+      "Amt",
+      "Gericht"
+    ],
+    "explanation_en": "'zum' = zu + dem (dative). Neuter dative: 'dem Rathaus' → 'zum Rathaus'. The noun is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_flughafen_001",
+    "word_id": "noun_flughafen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Flughafen",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the airport",
+    "wrong_answers": [
+      "the train station",
+      "the harbour",
+      "the bus terminal",
+      "the helipad"
+    ],
+    "explanation_en": "'Flughafen' means 'airport'. It is a masculine noun taking 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_flughafen_002",
+    "word_id": "noun_flughafen",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Flughafen ist sehr modern.",
+      "en": "The airport is very modern."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Flughafen' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_flughafen_003",
+    "word_id": "noun_flughafen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ liegt 30 Kilometer von der Stadt entfernt.",
+      "en": "The airport is 30 kilometres from the city."
+    },
+    "correct_answer": "Flughafen",
+    "wrong_answers": [
+      "Bahnhof",
+      "Hafen",
+      "Terminal",
+      "Abflug"
+    ],
+    "explanation_en": "'Flughafen' means 'airport'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_flughafen_004",
+    "word_id": "noun_flughafen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir müssen in zwei Stunden am _____ sein.",
+      "en": "We have to be at the airport in two hours."
+    },
+    "correct_answer": "Flughafen",
+    "wrong_answers": [
+      "Bahnhof",
+      "Hafen",
+      "Terminal",
+      "Abflug"
+    ],
+    "explanation_en": "'am' = an + dem (dative). Masculine dative: 'dem Flughafen' → 'am Flughafen'. Noun unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_umwelt_001",
+    "word_id": "noun_umwelt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Umwelt",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the environment",
+    "wrong_answers": [
+      "the nature",
+      "the ecology",
+      "the climate",
+      "the landscape"
+    ],
+    "explanation_en": "'Umwelt' means 'environment' (the natural world around us). It is a feminine noun taking 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_umwelt_002",
+    "word_id": "noun_umwelt",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Umwelt leidet unter der Verschmutzung.",
+      "en": "The environment suffers from pollution."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Umwelt' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_umwelt_003",
+    "word_id": "noun_umwelt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ muss für die nächste Generation geschützt werden.",
+      "en": "The environment must be protected for the next generation."
+    },
+    "correct_answer": "Umwelt",
+    "wrong_answers": [
+      "Natur",
+      "Erde",
+      "Welt",
+      "Ökologie"
+    ],
+    "explanation_en": "'Umwelt' means 'environment'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_umwelt_004",
+    "word_id": "noun_umwelt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir müssen die _____ besser schützen.",
+      "en": "We need to better protect the environment."
+    },
+    "correct_answer": "Umwelt",
+    "wrong_answers": [
+      "Natur",
+      "Erde",
+      "Welt",
+      "Ökologie"
+    ],
+    "explanation_en": "'schützen' takes the accusative. Feminine: 'die Umwelt' (same form in accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_energie_001",
+    "word_id": "noun_energie",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Energie",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the energy",
+    "wrong_answers": [
+      "the power",
+      "the electricity",
+      "the fuel",
+      "the strength"
+    ],
+    "explanation_en": "'Energie' means 'energy'. It is a feminine noun taking 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_energie_002",
+    "word_id": "noun_energie",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Energie der Sonne ist erneuerbar.",
+      "en": "The energy of the sun is renewable."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Energie' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_energie_003",
+    "word_id": "noun_energie",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ ist teurer geworden.",
+      "en": "Energy has become more expensive."
+    },
+    "correct_answer": "Energie",
+    "wrong_answers": [
+      "Elektrizität",
+      "Kraft",
+      "Strom",
+      "Leistung"
+    ],
+    "explanation_en": "'Energie' means 'energy'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_energie_004",
+    "word_id": "noun_energie",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir brauchen mehr erneuerbare _____.",
+      "en": "We need more renewable energy."
+    },
+    "correct_answer": "Energie",
+    "wrong_answers": [
+      "Elektrizität",
+      "Kraft",
+      "Strom",
+      "Leistung"
+    ],
+    "explanation_en": "After 'erneuerbare' (feminine accusative adjective), 'Energie' is unchanged — feminine nominative and accusative are identical."
+  },
+  {
+    "exercise_id": "ex_noun_technik_001",
+    "word_id": "noun_technik",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Technik",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the technology / technique",
+    "wrong_answers": [
+      "the science",
+      "the engineering",
+      "the method",
+      "the system"
+    ],
+    "explanation_en": "'Technik' means 'technology' or 'technique'. It is a feminine noun taking 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_technik_002",
+    "word_id": "noun_technik",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Technik entwickelt sich sehr schnell.",
+      "en": "Technology is developing very quickly."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Technik' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_technik_003",
+    "word_id": "noun_technik",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die moderne _____ vereinfacht unser Leben.",
+      "en": "Modern technology simplifies our lives."
+    },
+    "correct_answer": "Technik",
+    "wrong_answers": [
+      "Wissenschaft",
+      "Informatik",
+      "Forschung",
+      "Innovation"
+    ],
+    "explanation_en": "'Technik' means 'technology'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_technik_004",
+    "word_id": "noun_technik",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er beherrscht diese _____ sehr gut.",
+      "en": "He has mastered this technique very well."
+    },
+    "correct_answer": "Technik",
+    "wrong_answers": [
+      "Methode",
+      "Strategie",
+      "Fertigkeit",
+      "Fähigkeit"
+    ],
+    "explanation_en": "'beherrschen' takes the accusative. 'diese Technik' — feminine accusative demonstrative 'diese'. Noun unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_gesundheit_001",
+    "word_id": "noun_gesundheit",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Gesundheit",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the health",
+    "wrong_answers": [
+      "the fitness",
+      "the wellbeing",
+      "the condition",
+      "the recovery"
+    ],
+    "explanation_en": "'Gesundheit' means 'health'. It is a feminine noun taking 'die'. Also used as 'Bless you!' when someone sneezes."
+  },
+  {
+    "exercise_id": "ex_noun_gesundheit_002",
+    "word_id": "noun_gesundheit",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Gesundheit ist das Wichtigste.",
+      "en": "Health is the most important thing."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Gesundheit' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_gesundheit_003",
+    "word_id": "noun_gesundheit",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ der Bevölkerung hat sich verbessert.",
+      "en": "The health of the population has improved."
+    },
+    "correct_answer": "Gesundheit",
+    "wrong_answers": [
+      "Fitness",
+      "Stärke",
+      "Kondition",
+      "Leistung"
+    ],
+    "explanation_en": "'Gesundheit' means 'health'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_gesundheit_004",
+    "word_id": "noun_gesundheit",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich möchte meine _____ verbessern.",
+      "en": "I want to improve my health."
+    },
+    "correct_answer": "Gesundheit",
+    "wrong_answers": [
+      "Fitness",
+      "Stärke",
+      "Kondition",
+      "Leistung"
+    ],
+    "explanation_en": "'verbessern' takes the accusative. 'meine Gesundheit' — feminine accusative is same as nominative."
+  },
+  {
+    "exercise_id": "ex_noun_gewalt_001",
+    "word_id": "noun_gewalt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Gewalt",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the violence / force",
+    "wrong_answers": [
+      "the power",
+      "the strength",
+      "the conflict",
+      "the aggression"
+    ],
+    "explanation_en": "'Gewalt' means 'violence' or 'force'. It is a feminine noun taking 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_gewalt_002",
+    "word_id": "noun_gewalt",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Gewalt ist in einer Demokratie verboten.",
+      "en": "Violence is forbidden in a democracy."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Gewalt' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_gewalt_003",
+    "word_id": "noun_gewalt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ in den Nachrichten macht mich traurig.",
+      "en": "The violence in the news makes me sad."
+    },
+    "correct_answer": "Gewalt",
+    "wrong_answers": [
+      "Aggression",
+      "Kriminalität",
+      "Spannung",
+      "Konflikte"
+    ],
+    "explanation_en": "'Gewalt' means 'violence'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_gewalt_004",
+    "word_id": "noun_gewalt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir müssen die _____ in der Gesellschaft bekämpfen.",
+      "en": "We must fight violence in society."
+    },
+    "correct_answer": "Gewalt",
+    "wrong_answers": [
+      "Aggression",
+      "Kriminalität",
+      "Ungerechtigkeit",
+      "Korruption"
+    ],
+    "explanation_en": "'bekämpfen' takes the accusative. Feminine: 'die Gewalt' (same in accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_freiheit_001",
+    "word_id": "noun_freiheit",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Freiheit",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the freedom",
+    "wrong_answers": [
+      "the right",
+      "the democracy",
+      "the independence",
+      "the justice"
+    ],
+    "explanation_en": "'Freiheit' means 'freedom'. It is a feminine noun taking 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_freiheit_002",
+    "word_id": "noun_freiheit",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Freiheit ist ein Grundrecht.",
+      "en": "Freedom is a fundamental right."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Freiheit' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_freiheit_003",
+    "word_id": "noun_freiheit",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ der Presse ist wichtig.",
+      "en": "The freedom of the press is important."
+    },
+    "correct_answer": "Freiheit",
+    "wrong_answers": [
+      "Unabhängigkeit",
+      "Gerechtigkeit",
+      "Demokratie",
+      "Würde"
+    ],
+    "explanation_en": "'Freiheit' means 'freedom'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_freiheit_004",
+    "word_id": "noun_freiheit",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir schätzen die _____, die wir haben.",
+      "en": "We value the freedom that we have."
+    },
+    "correct_answer": "Freiheit",
+    "wrong_answers": [
+      "Unabhängigkeit",
+      "Gerechtigkeit",
+      "Sicherheit",
+      "Würde"
+    ],
+    "explanation_en": "'schätzen' takes the accusative. Feminine: 'die Freiheit' (unchanged in accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_verantwortung_001",
+    "word_id": "noun_verantwortung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Verantwortung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the responsibility",
+    "wrong_answers": [
+      "the duty",
+      "the obligation",
+      "the task",
+      "the authority"
+    ],
+    "explanation_en": "'Verantwortung' means 'responsibility'. It is a feminine noun taking 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_verantwortung_002",
+    "word_id": "noun_verantwortung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Verantwortung liegt bei jedem Einzelnen.",
+      "en": "The responsibility lies with every individual."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Verantwortung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_verantwortung_003",
+    "word_id": "noun_verantwortung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ für dieses Projekt liegt bei dir.",
+      "en": "The responsibility for this project lies with you."
+    },
+    "correct_answer": "Verantwortung",
+    "wrong_answers": [
+      "Pflicht",
+      "Aufgabe",
+      "Last",
+      "Schuld"
+    ],
+    "explanation_en": "'Verantwortung' means 'responsibility'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_verantwortung_004",
+    "word_id": "noun_verantwortung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er übernimmt die _____ für sein Handeln.",
+      "en": "He takes responsibility for his actions."
+    },
+    "correct_answer": "Verantwortung",
+    "wrong_answers": [
+      "Pflicht",
+      "Schuld",
+      "Last",
+      "Konsequenz"
+    ],
+    "explanation_en": "'übernehmen' takes the accusative. Feminine: 'die Verantwortung' (unchanged in accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_auseinandersetzung_001",
+    "word_id": "noun_auseinandersetzung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Auseinandersetzung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the dispute / confrontation",
+    "wrong_answers": [
+      "the discussion",
+      "the negotiation",
+      "the debate",
+      "the argument"
+    ],
+    "explanation_en": "'Auseinandersetzung' means 'dispute' or 'confrontation'. Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_auseinandersetzung_002",
+    "word_id": "noun_auseinandersetzung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Auseinandersetzung war sehr heftig.",
+      "en": "The dispute was very fierce."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Auseinandersetzung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_auseinandersetzung_003",
+    "word_id": "noun_auseinandersetzung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ zwischen den Parteien dauert an.",
+      "en": "The dispute between the parties continues."
+    },
+    "correct_answer": "Auseinandersetzung",
+    "wrong_answers": [
+      "Diskussion",
+      "Verhandlung",
+      "Debatte",
+      "Unterhaltung"
+    ],
+    "explanation_en": "'Auseinandersetzung' means 'dispute'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_auseinandersetzung_004",
+    "word_id": "noun_auseinandersetzung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir müssen uns dieser _____ stellen.",
+      "en": "We must face up to this confrontation."
+    },
+    "correct_answer": "Auseinandersetzung",
+    "wrong_answers": [
+      "Diskussion",
+      "Herausforderung",
+      "Kritik",
+      "Situation"
+    ],
+    "explanation_en": "'stellen' with dative here: 'sich einer Auseinandersetzung stellen'. Feminine dative: 'dieser Auseinandersetzung'."
+  },
+  {
+    "exercise_id": "ex_noun_anerkennung_001",
+    "word_id": "noun_anerkennung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Anerkennung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the recognition / acknowledgement",
+    "wrong_answers": [
+      "the approval",
+      "the reward",
+      "the praise",
+      "the acceptance"
+    ],
+    "explanation_en": "'Anerkennung' means 'recognition' or 'acknowledgement'. Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_anerkennung_002",
+    "word_id": "noun_anerkennung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Anerkennung seiner Arbeit fehlt.",
+      "en": "The recognition of his work is missing."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Anerkennung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_anerkennung_003",
+    "word_id": "noun_anerkennung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ ausländischer Abschlüsse ist wichtig.",
+      "en": "The recognition of foreign qualifications is important."
+    },
+    "correct_answer": "Anerkennung",
+    "wrong_answers": [
+      "Beurteilung",
+      "Bewertung",
+      "Bestätigung",
+      "Zulassung"
+    ],
+    "explanation_en": "'Anerkennung' means 'recognition'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_anerkennung_004",
+    "word_id": "noun_anerkennung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie verdient mehr _____ für ihre Leistung.",
+      "en": "She deserves more recognition for her achievement."
+    },
+    "correct_answer": "Anerkennung",
+    "wrong_answers": [
+      "Lob",
+      "Belohnung",
+      "Aufmerksamkeit",
+      "Unterstützung"
+    ],
+    "explanation_en": "'verdienen' takes the accusative. 'mehr Anerkennung' — used here without article as a mass noun expressing an amount."
+  },
+  {
+    "exercise_id": "ex_noun_herausforderung_001",
+    "word_id": "noun_herausforderung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Herausforderung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the challenge",
+    "wrong_answers": [
+      "the task",
+      "the problem",
+      "the requirement",
+      "the difficulty"
+    ],
+    "explanation_en": "'Herausforderung' means 'challenge'. Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_herausforderung_002",
+    "word_id": "noun_herausforderung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Herausforderung ist enorm.",
+      "en": "The challenge is enormous."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Herausforderung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_herausforderung_003",
+    "word_id": "noun_herausforderung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ des Klimawandels betrifft uns alle.",
+      "en": "The challenge of climate change affects us all."
+    },
+    "correct_answer": "Herausforderung",
+    "wrong_answers": [
+      "Bedrohung",
+      "Aufgabe",
+      "Gefahr",
+      "Schwierigkeit"
+    ],
+    "explanation_en": "'Herausforderung' means 'challenge'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_herausforderung_004",
+    "word_id": "noun_herausforderung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er nimmt jede _____ an.",
+      "en": "He accepts every challenge."
+    },
+    "correct_answer": "Herausforderung",
+    "wrong_answers": [
+      "Aufgabe",
+      "Anfrage",
+      "Einladung",
+      "Gelegenheit"
+    ],
+    "explanation_en": "'annehmen' takes the accusative. 'jede Herausforderung' — 'jede' is feminine accusative determiner."
+  },
+  {
+    "exercise_id": "ex_noun_umsetzung_001",
+    "word_id": "noun_umsetzung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Umsetzung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the implementation",
+    "wrong_answers": [
+      "the planning",
+      "the execution",
+      "the analysis",
+      "the strategy"
+    ],
+    "explanation_en": "'Umsetzung' means 'implementation' (putting a plan into practice). Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_umsetzung_002",
+    "word_id": "noun_umsetzung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Umsetzung der Strategie dauert Monate.",
+      "en": "The implementation of the strategy takes months."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Umsetzung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_umsetzung_003",
+    "word_id": "noun_umsetzung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ des Gesetzes ist komplex.",
+      "en": "The implementation of the law is complex."
+    },
+    "correct_answer": "Umsetzung",
+    "wrong_answers": [
+      "Durchführung",
+      "Planung",
+      "Analyse",
+      "Bewertung"
+    ],
+    "explanation_en": "'Umsetzung' means 'implementation'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_umsetzung_004",
+    "word_id": "noun_umsetzung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Bei der _____ sind viele Probleme aufgetreten.",
+      "en": "During the implementation many problems arose."
+    },
+    "correct_answer": "Umsetzung",
+    "wrong_answers": [
+      "Durchführung",
+      "Planung",
+      "Analyse",
+      "Überprüfung"
+    ],
+    "explanation_en": "'bei der Umsetzung' — 'bei' takes dative. Feminine dative: 'der Umsetzung'. The noun is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_ueberzeugung_001",
+    "word_id": "noun_ueberzeugung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Überzeugung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the conviction / belief",
+    "wrong_answers": [
+      "the opinion",
+      "the assumption",
+      "the persuasion",
+      "the confidence"
+    ],
+    "explanation_en": "'Überzeugung' means 'conviction' or 'firmly held belief'. Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_ueberzeugung_002",
+    "word_id": "noun_ueberzeugung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Überzeugung, die er vertritt, ist klar.",
+      "en": "The conviction he holds is clear."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Überzeugung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_ueberzeugung_003",
+    "word_id": "noun_ueberzeugung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Meine _____ ist, dass Ehrlichkeit am wichtigsten ist.",
+      "en": "My conviction is that honesty is most important."
+    },
+    "correct_answer": "Überzeugung",
+    "wrong_answers": [
+      "Meinung",
+      "Ansicht",
+      "Einschätzung",
+      "Vermutung"
+    ],
+    "explanation_en": "'Überzeugung' means 'conviction'. After 'meine' (feminine nominative), the noun is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_ueberzeugung_004",
+    "word_id": "noun_ueberzeugung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er handelt stets aus innerer _____.",
+      "en": "He always acts out of inner conviction."
+    },
+    "correct_answer": "Überzeugung",
+    "wrong_answers": [
+      "Meinung",
+      "Pflicht",
+      "Gewohnheit",
+      "Intuition"
+    ],
+    "explanation_en": "'aus innerer Überzeugung' — 'aus' takes dative. Feminine dative: 'innerer Überzeugung' (adjective takes strong ending)."
+  },
+  {
+    "exercise_id": "ex_noun_voraussetzung_001",
+    "word_id": "noun_voraussetzung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Voraussetzung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the prerequisite",
+    "wrong_answers": [
+      "the condition",
+      "the requirement",
+      "the assumption",
+      "the basis"
+    ],
+    "explanation_en": "'Voraussetzung' means 'prerequisite' — a condition that must be met beforehand. Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_voraussetzung_002",
+    "word_id": "noun_voraussetzung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Voraussetzung für den Job ist ein Studium.",
+      "en": "The prerequisite for the job is a university degree."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Voraussetzung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_voraussetzung_003",
+    "word_id": "noun_voraussetzung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ für den Erfolg ist harte Arbeit.",
+      "en": "The prerequisite for success is hard work."
+    },
+    "correct_answer": "Voraussetzung",
+    "wrong_answers": [
+      "Grundlage",
+      "Bedingung",
+      "Anforderung",
+      "Garantie"
+    ],
+    "explanation_en": "'Voraussetzung' means 'prerequisite'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_voraussetzung_004",
+    "word_id": "noun_voraussetzung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er erfüllt alle _____ für die Stelle.",
+      "en": "He meets all the prerequisites for the position."
+    },
+    "correct_answer": "Voraussetzungen",
+    "wrong_answers": [
+      "Bedingungen",
+      "Anforderungen",
+      "Kriterien",
+      "Qualifikationen"
+    ],
+    "explanation_en": "'erfüllen' takes the accusative. Plural: 'alle Voraussetzungen' — adding -en to the singular form."
+  },
+  {
+    "exercise_id": "ex_noun_wahrnehmung_001",
+    "word_id": "noun_wahrnehmung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Wahrnehmung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the perception",
+    "wrong_answers": [
+      "the observation",
+      "the attention",
+      "the impression",
+      "the awareness"
+    ],
+    "explanation_en": "'Wahrnehmung' means 'perception'. Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_wahrnehmung_002",
+    "word_id": "noun_wahrnehmung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Wahrnehmung kann täuschen.",
+      "en": "Perception can be deceiving."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Wahrnehmung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_wahrnehmung_003",
+    "word_id": "noun_wahrnehmung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ der Zeit ist subjektiv.",
+      "en": "The perception of time is subjective."
+    },
+    "correct_answer": "Wahrnehmung",
+    "wrong_answers": [
+      "Einschätzung",
+      "Beurteilung",
+      "Erfahrung",
+      "Empfindung"
+    ],
+    "explanation_en": "'Wahrnehmung' means 'perception'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_wahrnehmung_004",
+    "word_id": "noun_wahrnehmung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Seine _____ der Situation ist verzerrt.",
+      "en": "His perception of the situation is distorted."
+    },
+    "correct_answer": "Wahrnehmung",
+    "wrong_answers": [
+      "Einschätzung",
+      "Beurteilung",
+      "Sichtweise",
+      "Meinung"
+    ],
+    "explanation_en": "After 'seine' (possessive, feminine accusative), 'Wahrnehmung' is unchanged — feminine nominative and accusative are identical."
+  },
+  {
+    "exercise_id": "ex_noun_beruecksichtigung_001",
+    "word_id": "noun_beruecksichtigung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Berücksichtigung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the consideration",
+    "wrong_answers": [
+      "the evaluation",
+      "the inclusion",
+      "the recognition",
+      "the attention"
+    ],
+    "explanation_en": "'Berücksichtigung' means 'taking into consideration'. Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_beruecksichtigung_002",
+    "word_id": "noun_beruecksichtigung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Berücksichtigung aller Faktoren ist nötig.",
+      "en": "Consideration of all factors is necessary."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Berücksichtigung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_beruecksichtigung_003",
+    "word_id": "noun_beruecksichtigung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ der Kosten ist entscheidend.",
+      "en": "The consideration of costs is decisive."
+    },
+    "correct_answer": "Berücksichtigung",
+    "wrong_answers": [
+      "Einbeziehung",
+      "Beachtung",
+      "Bewertung",
+      "Überprüfung"
+    ],
+    "explanation_en": "'Berücksichtigung' means 'consideration'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_beruecksichtigung_004",
+    "word_id": "noun_beruecksichtigung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Unter _____ aller Umstände ist das vertretbar.",
+      "en": "Taking all circumstances into consideration, this is justifiable."
+    },
+    "correct_answer": "Berücksichtigung",
+    "wrong_answers": [
+      "Einbeziehung",
+      "Beachtung",
+      "Kenntnis",
+      "Abwägung"
+    ],
+    "explanation_en": "'Unter Berücksichtigung' is a fixed phrase meaning 'taking into consideration'. 'unter' takes dative."
+  },
+  {
+    "exercise_id": "ex_noun_durchfuehrung_001",
+    "word_id": "noun_durchfuehrung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Durchführung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the implementation / execution",
+    "wrong_answers": [
+      "the planning",
+      "the preparation",
+      "the completion",
+      "the analysis"
+    ],
+    "explanation_en": "'Durchführung' means 'implementation' or 'execution' of a plan or event. Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_durchfuehrung_002",
+    "word_id": "noun_durchfuehrung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Durchführung liegt in unseren Händen.",
+      "en": "The execution is in our hands."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Durchführung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_durchfuehrung_003",
+    "word_id": "noun_durchfuehrung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ des Experiments war erfolgreich.",
+      "en": "The execution of the experiment was successful."
+    },
+    "correct_answer": "Durchführung",
+    "wrong_answers": [
+      "Umsetzung",
+      "Planung",
+      "Auswertung",
+      "Vorbereitung"
+    ],
+    "explanation_en": "'Durchführung' means 'execution'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_durchfuehrung_004",
+    "word_id": "noun_durchfuehrung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Bei der _____ der Veranstaltung gab es Probleme.",
+      "en": "During the execution of the event there were problems."
+    },
+    "correct_answer": "Durchführung",
+    "wrong_answers": [
+      "Umsetzung",
+      "Planung",
+      "Auswertung",
+      "Vorbereitung"
+    ],
+    "explanation_en": "'bei der Durchführung' — 'bei' takes dative. Feminine dative: 'der Durchführung'. Noun unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_einschraenkung_001",
+    "word_id": "noun_einschraenkung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Einschränkung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the restriction / limitation",
+    "wrong_answers": [
+      "the condition",
+      "the rule",
+      "the prohibition",
+      "the reduction"
+    ],
+    "explanation_en": "'Einschränkung' means 'restriction' or 'limitation'. Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_einschraenkung_002",
+    "word_id": "noun_einschraenkung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Einschränkung ist vorübergehend.",
+      "en": "The restriction is temporary."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Einschränkung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_einschraenkung_003",
+    "word_id": "noun_einschraenkung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ der Reisefreiheit war schwer zu ertragen.",
+      "en": "The restriction on freedom of travel was hard to bear."
+    },
+    "correct_answer": "Einschränkung",
+    "wrong_answers": [
+      "Regelung",
+      "Verbot",
+      "Bedingung",
+      "Beschränkung"
+    ],
+    "explanation_en": "'Einschränkung' means 'restriction'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_einschraenkung_004",
+    "word_id": "noun_einschraenkung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir akzeptieren diese _____ nicht.",
+      "en": "We do not accept this restriction."
+    },
+    "correct_answer": "Einschränkung",
+    "wrong_answers": [
+      "Regelung",
+      "Bedingung",
+      "Beschränkung",
+      "Maßnahme"
+    ],
+    "explanation_en": "'akzeptieren' takes the accusative. Feminine: 'diese Einschränkung' (unchanged in accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_foerderung_001",
+    "word_id": "noun_foerderung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Förderung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the promotion / funding",
+    "wrong_answers": [
+      "the support",
+      "the investment",
+      "the development",
+      "the encouragement"
+    ],
+    "explanation_en": "'Förderung' means 'promotion' or 'funding'. Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_foerderung_002",
+    "word_id": "noun_foerderung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Förderung talentierter Jugendlicher ist wichtig.",
+      "en": "The promotion of talented young people is important."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Förderung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_foerderung_003",
+    "word_id": "noun_foerderung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die staatliche _____ für das Projekt läuft aus.",
+      "en": "The state funding for the project is running out."
+    },
+    "correct_answer": "Förderung",
+    "wrong_answers": [
+      "Unterstützung",
+      "Finanzierung",
+      "Investition",
+      "Subvention"
+    ],
+    "explanation_en": "'Förderung' means 'funding'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_foerderung_004",
+    "word_id": "noun_foerderung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Gemeinde beantragt mehr _____ für Bildung.",
+      "en": "The municipality is applying for more funding for education."
+    },
+    "correct_answer": "Förderung",
+    "wrong_answers": [
+      "Unterstützung",
+      "Finanzierung",
+      "Investition",
+      "Hilfe"
+    ],
+    "explanation_en": "'beantragen' takes the accusative. 'mehr Förderung' — used without article as a mass noun expressing quantity."
+  },
+  {
+    "exercise_id": "ex_noun_grundlage_001",
+    "word_id": "noun_grundlage",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Grundlage",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the basis / foundation",
+    "wrong_answers": [
+      "the principle",
+      "the structure",
+      "the framework",
+      "the starting point"
+    ],
+    "explanation_en": "'Grundlage' means 'basis' or 'foundation'. Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_grundlage_002",
+    "word_id": "noun_grundlage",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Grundlage des Vertrags ist solide.",
+      "en": "The basis of the contract is solid."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Grundlage' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_grundlage_003",
+    "word_id": "noun_grundlage",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ für eine gute Zusammenarbeit ist Vertrauen.",
+      "en": "The foundation for good collaboration is trust."
+    },
+    "correct_answer": "Grundlage",
+    "wrong_answers": [
+      "Bedingung",
+      "Voraussetzung",
+      "Basis",
+      "Regel"
+    ],
+    "explanation_en": "'Grundlage' means 'foundation'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_grundlage_004",
+    "word_id": "noun_grundlage",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Auf dieser _____ können wir aufbauen.",
+      "en": "We can build on this foundation."
+    },
+    "correct_answer": "Grundlage",
+    "wrong_answers": [
+      "Bedingung",
+      "Basis",
+      "Regel",
+      "Annahme"
+    ],
+    "explanation_en": "'auf dieser Grundlage' — 'auf' with dative for static location. Feminine dative: 'dieser Grundlage'."
+  },
+  {
+    "exercise_id": "ex_noun_haltung_001",
+    "word_id": "noun_haltung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Haltung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the attitude / posture",
+    "wrong_answers": [
+      "the opinion",
+      "the stance",
+      "the behaviour",
+      "the gesture"
+    ],
+    "explanation_en": "'Haltung' means 'attitude' or 'posture'. Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_haltung_002",
+    "word_id": "noun_haltung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Haltung der Regierung ist unklar.",
+      "en": "The government's attitude is unclear."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Haltung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_haltung_003",
+    "word_id": "noun_haltung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Seine _____ zu diesem Problem ist entschieden.",
+      "en": "His attitude to this problem is decided."
+    },
+    "correct_answer": "Haltung",
+    "wrong_answers": [
+      "Meinung",
+      "Einstellung",
+      "Ansicht",
+      "Position"
+    ],
+    "explanation_en": "'Haltung' means 'attitude'. After 'seine' (feminine accusative used as possessive), the noun is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_haltung_004",
+    "word_id": "noun_haltung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich bewundere ihre klare _____ zu diesem Thema.",
+      "en": "I admire her clear attitude on this topic."
+    },
+    "correct_answer": "Haltung",
+    "wrong_answers": [
+      "Meinung",
+      "Einstellung",
+      "Ansicht",
+      "Position"
+    ],
+    "explanation_en": "'bewundern' takes the accusative. 'ihre klare Haltung' — feminine accusative is same as nominative."
+  },
+  {
+    "exercise_id": "ex_noun_leistung_001",
+    "word_id": "noun_leistung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Leistung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the performance / achievement",
+    "wrong_answers": [
+      "the result",
+      "the effort",
+      "the output",
+      "the quality"
+    ],
+    "explanation_en": "'Leistung' means 'performance' or 'achievement'. Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_leistung_002",
+    "word_id": "noun_leistung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Leistung des Teams war außergewöhnlich.",
+      "en": "The performance of the team was exceptional."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Leistung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_leistung_003",
+    "word_id": "noun_leistung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ der Schüler hat sich verbessert.",
+      "en": "The pupils' performance has improved."
+    },
+    "correct_answer": "Leistung",
+    "wrong_answers": [
+      "Arbeit",
+      "Note",
+      "Ergebnis",
+      "Qualität"
+    ],
+    "explanation_en": "'Leistung' means 'performance'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_leistung_004",
+    "word_id": "noun_leistung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir müssen die _____ steigern.",
+      "en": "We need to increase the performance."
+    },
+    "correct_answer": "Leistung",
+    "wrong_answers": [
+      "Arbeit",
+      "Note",
+      "Effizienz",
+      "Qualität"
+    ],
+    "explanation_en": "'steigern' takes the accusative. Feminine: 'die Leistung' (unchanged in accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_massnahme_001",
+    "word_id": "noun_massnahme",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Maßnahme",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the measure / step",
+    "wrong_answers": [
+      "the law",
+      "the regulation",
+      "the action",
+      "the decision"
+    ],
+    "explanation_en": "'Maßnahme' means 'measure' or 'step' taken to address a situation. Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_massnahme_002",
+    "word_id": "noun_massnahme",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Maßnahme ist dringend notwendig.",
+      "en": "The measure is urgently necessary."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Maßnahme' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_massnahme_003",
+    "word_id": "noun_massnahme",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ wurde sofort ergriffen.",
+      "en": "The measure was taken immediately."
+    },
+    "correct_answer": "Maßnahme",
+    "wrong_answers": [
+      "Entscheidung",
+      "Lösung",
+      "Reaktion",
+      "Aktion"
+    ],
+    "explanation_en": "'Maßnahme' means 'measure'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_massnahme_004",
+    "word_id": "noun_massnahme",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Regierung ergreift strenge _____.",
+      "en": "The government is taking strict measures."
+    },
+    "correct_answer": "Maßnahmen",
+    "wrong_answers": [
+      "Entscheidungen",
+      "Gesetze",
+      "Reaktionen",
+      "Schritte"
+    ],
+    "explanation_en": "'ergreifen' takes accusative. Plural: 'strenge Maßnahmen' (plural of Maßnahme adds -n)."
+  },
+  {
+    "exercise_id": "ex_noun_mehrheit_001",
+    "word_id": "noun_mehrheit",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Mehrheit",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the majority",
+    "wrong_answers": [
+      "the minority",
+      "the majority vote",
+      "the population",
+      "the plurality"
+    ],
+    "explanation_en": "'Mehrheit' means 'majority'. Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_mehrheit_002",
+    "word_id": "noun_mehrheit",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Mehrheit stimmte für den Vorschlag.",
+      "en": "The majority voted for the proposal."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Mehrheit' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_mehrheit_003",
+    "word_id": "noun_mehrheit",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ der Bevölkerung ist dafür.",
+      "en": "The majority of the population is in favour."
+    },
+    "correct_answer": "Mehrheit",
+    "wrong_answers": [
+      "Minderheit",
+      "Hälfte",
+      "Masse",
+      "Gruppe"
+    ],
+    "explanation_en": "'Mehrheit' means 'majority'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_mehrheit_004",
+    "word_id": "noun_mehrheit",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Gesetz wurde mit knapper _____ verabschiedet.",
+      "en": "The law was passed with a slim majority."
+    },
+    "correct_answer": "Mehrheit",
+    "wrong_answers": [
+      "Minderheit",
+      "Hälfte",
+      "Zustimmung",
+      "Stimme"
+    ],
+    "explanation_en": "'mit knapper Mehrheit' — 'mit' takes dative. Feminine dative: 'knapper Mehrheit' (adj. takes strong ending without article)."
+  },
+  {
+    "exercise_id": "ex_noun_schicht_001",
+    "word_id": "noun_schicht",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Schicht",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the layer / class / shift",
+    "wrong_answers": [
+      "the group",
+      "the level",
+      "the phase",
+      "the category"
+    ],
+    "explanation_en": "'Schicht' has three meanings: a layer (of something), a social class, or a work shift. Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_schicht_002",
+    "word_id": "noun_schicht",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Schicht beginnt um sechs Uhr morgens.",
+      "en": "The shift begins at six in the morning."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Schicht' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_schicht_003",
+    "word_id": "noun_schicht",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er arbeitet in der Nacht_____.",
+      "en": "He works the night shift."
+    },
+    "correct_answer": "Schicht",
+    "wrong_answers": [
+      "Runde",
+      "Periode",
+      "Phase",
+      "Tour"
+    ],
+    "explanation_en": "'Schicht' means 'shift' (work). 'Nachtschicht' is a compound: night + shift."
+  },
+  {
+    "exercise_id": "ex_noun_schicht_004",
+    "word_id": "noun_schicht",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die soziale _____ bestimmt viele Lebenschancen.",
+      "en": "Social class determines many life opportunities."
+    },
+    "correct_answer": "Schicht",
+    "wrong_answers": [
+      "Gruppe",
+      "Klasse",
+      "Kategorie",
+      "Ebene"
+    ],
+    "explanation_en": "'bestimmt' takes accusative. 'Die soziale Schicht' as subject, but 'Lebenschancen' as object. 'Schicht' here is nominative subject."
+  },
+  {
+    "exercise_id": "ex_noun_tendenz_001",
+    "word_id": "noun_tendenz",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Tendenz",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the tendency / trend",
+    "wrong_answers": [
+      "the direction",
+      "the pattern",
+      "the shift",
+      "the inclination"
+    ],
+    "explanation_en": "'Tendenz' means 'tendency' or 'trend'. Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_tendenz_002",
+    "word_id": "noun_tendenz",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Tendenz ist deutlich erkennbar.",
+      "en": "The trend is clearly recognisable."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Tendenz' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_tendenz_003",
+    "word_id": "noun_tendenz",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ zu mehr Online-Arbeit wächst.",
+      "en": "The trend towards more online work is growing."
+    },
+    "correct_answer": "Tendenz",
+    "wrong_answers": [
+      "Entwicklung",
+      "Bewegung",
+      "Strömung",
+      "Richtung"
+    ],
+    "explanation_en": "'Tendenz' means 'trend'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_tendenz_004",
+    "word_id": "noun_tendenz",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir beobachten eine beunruhigende _____.",
+      "en": "We are observing a worrying trend."
+    },
+    "correct_answer": "Tendenz",
+    "wrong_answers": [
+      "Entwicklung",
+      "Bewegung",
+      "Neigung",
+      "Richtung"
+    ],
+    "explanation_en": "'beobachten' takes the accusative. 'eine beunruhigende Tendenz' — feminine indefinite accusative: 'eine'."
+  },
+  {
+    "exercise_id": "ex_noun_verfassung_001",
+    "word_id": "noun_verfassung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Verfassung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the constitution / condition",
+    "wrong_answers": [
+      "the government",
+      "the law",
+      "the regulation",
+      "the charter"
+    ],
+    "explanation_en": "'Verfassung' means 'constitution' (legal document) or 'condition' (physical/mental state). Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_verfassung_002",
+    "word_id": "noun_verfassung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Verfassung schützt die Grundrechte.",
+      "en": "The constitution protects fundamental rights."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Verfassung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_verfassung_003",
+    "word_id": "noun_verfassung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ Deutschlands wurde 1949 verabschiedet.",
+      "en": "The constitution of Germany was passed in 1949."
+    },
+    "correct_answer": "Verfassung",
+    "wrong_answers": [
+      "Gesetzgebung",
+      "Ordnung",
+      "Charta",
+      "Regelung"
+    ],
+    "explanation_en": "'Verfassung' means 'constitution'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_verfassung_004",
+    "word_id": "noun_verfassung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er ist in guter körperlicher _____.",
+      "en": "He is in good physical condition."
+    },
+    "correct_answer": "Verfassung",
+    "wrong_answers": [
+      "Gesundheit",
+      "Form",
+      "Kondition",
+      "Stimmung"
+    ],
+    "explanation_en": "'in guter Verfassung' — 'in' with dative. Feminine dative: 'guter Verfassung' (adj. takes strong ending without article)."
+  },
+  {
+    "exercise_id": "ex_noun_wirklichkeit_001",
+    "word_id": "noun_wirklichkeit",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Wirklichkeit",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the reality",
+    "wrong_answers": [
+      "the truth",
+      "the fact",
+      "the actuality",
+      "the existence"
+    ],
+    "explanation_en": "'Wirklichkeit' means 'reality'. Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_wirklichkeit_002",
+    "word_id": "noun_wirklichkeit",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Wirklichkeit ist oft komplizierter als die Theorie.",
+      "en": "Reality is often more complicated than theory."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Wirklichkeit' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_wirklichkeit_003",
+    "word_id": "noun_wirklichkeit",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "In der _____ sieht das anders aus.",
+      "en": "In reality it looks different."
+    },
+    "correct_answer": "Wirklichkeit",
+    "wrong_answers": [
+      "Praxis",
+      "Wahrheit",
+      "Realität",
+      "Tatsache"
+    ],
+    "explanation_en": "'Wirklichkeit' means 'reality'. After 'in der' (dative feminine), the noun is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_wirklichkeit_004",
+    "word_id": "noun_wirklichkeit",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er verdrängt die _____ und lebt in einer Traumwelt.",
+      "en": "He suppresses reality and lives in a dream world."
+    },
+    "correct_answer": "Wirklichkeit",
+    "wrong_answers": [
+      "Wahrheit",
+      "Realität",
+      "Tatsache",
+      "Gegenwart"
+    ],
+    "explanation_en": "'verdrängen' takes accusative. Feminine: 'die Wirklichkeit' (unchanged in accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_ausmass_001",
+    "word_id": "noun_ausmass",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Ausmaß",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the extent / scale",
+    "wrong_answers": [
+      "the size",
+      "the degree",
+      "the scope",
+      "the dimension"
+    ],
+    "explanation_en": "'Ausmaß' means 'extent' or 'scale'. Neuter, takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_ausmass_002",
+    "word_id": "noun_ausmass",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Ausmaß des Problems ist noch nicht klar.",
+      "en": "The extent of the problem is not yet clear."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Ausmaß' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_ausmass_003",
+    "word_id": "noun_ausmass",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ der Katastrophe war erschreckend.",
+      "en": "The scale of the catastrophe was alarming."
+    },
+    "correct_answer": "Ausmaß",
+    "wrong_answers": [
+      "Umfang",
+      "Niveau",
+      "Grad",
+      "Tiefe"
+    ],
+    "explanation_en": "'Ausmaß' means 'scale'. It is the neuter subject, used with 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_ausmass_004",
+    "word_id": "noun_ausmass",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir unterschätzen das _____ der Veränderungen.",
+      "en": "We underestimate the extent of the changes."
+    },
+    "correct_answer": "Ausmaß",
+    "wrong_answers": [
+      "Umfang",
+      "Niveau",
+      "Grad",
+      "Gewicht"
+    ],
+    "explanation_en": "'unterschätzen' takes accusative. Neuter: 'das Ausmaß' (unchanged in accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_bewusstsein_001",
+    "word_id": "noun_bewusstsein",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Bewusstsein",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the consciousness / awareness",
+    "wrong_answers": [
+      "the mind",
+      "the thought",
+      "the knowledge",
+      "the sense"
+    ],
+    "explanation_en": "'Bewusstsein' means 'consciousness' (being awake) or 'awareness' (knowing something). Neuter, takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_bewusstsein_002",
+    "word_id": "noun_bewusstsein",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Bewusstsein für das Problem wächst.",
+      "en": "Awareness of the problem is growing."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Bewusstsein' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_bewusstsein_003",
+    "word_id": "noun_bewusstsein",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ für Umweltschutz muss gestärkt werden.",
+      "en": "Awareness of environmental protection must be strengthened."
+    },
+    "correct_answer": "Bewusstsein",
+    "wrong_answers": [
+      "Verständnis",
+      "Wissen",
+      "Gefühl",
+      "Interesse"
+    ],
+    "explanation_en": "'Bewusstsein' means 'awareness'. It is the neuter subject here."
+  },
+  {
+    "exercise_id": "ex_noun_bewusstsein_004",
+    "word_id": "noun_bewusstsein",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er verlor das _____ nach dem Unfall.",
+      "en": "He lost consciousness after the accident."
+    },
+    "correct_answer": "Bewusstsein",
+    "wrong_answers": [
+      "Gleichgewicht",
+      "Orientierung",
+      "Gedächtnis",
+      "Gefühl"
+    ],
+    "explanation_en": "'verlieren' takes accusative. Neuter: 'das Bewusstsein' (unchanged in accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_gleichgewicht_001",
+    "word_id": "noun_gleichgewicht",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Gleichgewicht",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the balance / equilibrium",
+    "wrong_answers": [
+      "the equality",
+      "the symmetry",
+      "the harmony",
+      "the stability"
+    ],
+    "explanation_en": "'Gleichgewicht' means 'balance' or 'equilibrium'. Neuter, takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_gleichgewicht_002",
+    "word_id": "noun_gleichgewicht",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Gleichgewicht zwischen Angebot und Nachfrage ist wichtig.",
+      "en": "The balance between supply and demand is important."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Gleichgewicht' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_gleichgewicht_003",
+    "word_id": "noun_gleichgewicht",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ zwischen Arbeit und Freizeit ist schwer zu halten.",
+      "en": "The balance between work and leisure is hard to maintain."
+    },
+    "correct_answer": "Gleichgewicht",
+    "wrong_answers": [
+      "Verhältnis",
+      "Ausgewogenheit",
+      "Harmonie",
+      "Balance"
+    ],
+    "explanation_en": "'Gleichgewicht' means 'balance'. It is the neuter subject here."
+  },
+  {
+    "exercise_id": "ex_noun_gleichgewicht_004",
+    "word_id": "noun_gleichgewicht",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er verlor das _____ und fiel.",
+      "en": "He lost his balance and fell."
+    },
+    "correct_answer": "Gleichgewicht",
+    "wrong_answers": [
+      "Bewusstsein",
+      "Halt",
+      "Orientierung",
+      "Kontrolle"
+    ],
+    "explanation_en": "'verlieren' takes accusative. Neuter: 'das Gleichgewicht' (unchanged in accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_konzept_001",
+    "word_id": "noun_konzept",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Konzept",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the concept / plan",
+    "wrong_answers": [
+      "the idea",
+      "the design",
+      "the model",
+      "the framework"
+    ],
+    "explanation_en": "'Konzept' means 'concept' or 'plan'. Neuter, takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_konzept_002",
+    "word_id": "noun_konzept",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Konzept ist sehr durchdacht.",
+      "en": "The concept is very well thought out."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Konzept' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_konzept_003",
+    "word_id": "noun_konzept",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ des Projekts muss noch verfeinert werden.",
+      "en": "The concept of the project still needs to be refined."
+    },
+    "correct_answer": "Konzept",
+    "wrong_answers": [
+      "Modell",
+      "Design",
+      "Entwurf",
+      "Vorhaben"
+    ],
+    "explanation_en": "'Konzept' means 'concept'. It is the neuter subject here."
+  },
+  {
+    "exercise_id": "ex_noun_konzept_004",
+    "word_id": "noun_konzept",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir entwickeln ein neues _____ für die Kampagne.",
+      "en": "We are developing a new concept for the campaign."
+    },
+    "correct_answer": "Konzept",
+    "wrong_answers": [
+      "Modell",
+      "Design",
+      "Entwurf",
+      "Vorhaben"
+    ],
+    "explanation_en": "After 'ein neues' (neuter accusative adjective), 'Konzept' is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_kriterium_001",
+    "word_id": "noun_kriterium",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Kriterium",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the criterion",
+    "wrong_answers": [
+      "the condition",
+      "the standard",
+      "the requirement",
+      "the rule"
+    ],
+    "explanation_en": "'Kriterium' means 'criterion' (a standard for judging). Neuter, takes 'das'. Plural: 'Kriterien'."
+  },
+  {
+    "exercise_id": "ex_noun_kriterium_002",
+    "word_id": "noun_kriterium",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Kriterium ist entscheidend für die Auswahl.",
+      "en": "The criterion is decisive for the selection."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Kriterium' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_kriterium_003",
+    "word_id": "noun_kriterium",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das wichtigste _____ ist die Qualität.",
+      "en": "The most important criterion is quality."
+    },
+    "correct_answer": "Kriterium",
+    "wrong_answers": [
+      "Merkmal",
+      "Prinzip",
+      "Maßstab",
+      "Standard"
+    ],
+    "explanation_en": "'Kriterium' means 'criterion'. It is the neuter subject here."
+  },
+  {
+    "exercise_id": "ex_noun_kriterium_004",
+    "word_id": "noun_kriterium",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Bewerber müssen mehrere _____ erfüllen.",
+      "en": "The applicants must meet several criteria."
+    },
+    "correct_answer": "Kriterien",
+    "wrong_answers": [
+      "Merkmale",
+      "Prinzipien",
+      "Standards",
+      "Bedingungen"
+    ],
+    "explanation_en": "'erfüllen' takes accusative. Plural of 'Kriterium': 'Kriterien' (Latin-origin noun, irregular plural)."
+  },
+  {
+    "exercise_id": "ex_noun_merkmal_001",
+    "word_id": "noun_merkmal",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Merkmal",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the characteristic / feature",
+    "wrong_answers": [
+      "the symbol",
+      "the sign",
+      "the quality",
+      "the trait"
+    ],
+    "explanation_en": "'Merkmal' means 'characteristic' or 'feature'. Neuter, takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_merkmal_002",
+    "word_id": "noun_merkmal",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Merkmal dieser Tierart ist der rote Schwanz.",
+      "en": "The characteristic of this animal species is the red tail."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Merkmal' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_merkmal_003",
+    "word_id": "noun_merkmal",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ guter Führung ist Empathie.",
+      "en": "The feature of good leadership is empathy."
+    },
+    "correct_answer": "Merkmal",
+    "wrong_answers": [
+      "Zeichen",
+      "Symbol",
+      "Kennzeichen",
+      "Eigenschaft"
+    ],
+    "explanation_en": "'Merkmal' means 'feature'. It is the neuter subject here."
+  },
+  {
+    "exercise_id": "ex_noun_merkmal_004",
+    "word_id": "noun_merkmal",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir analysieren die typischen _____ dieser Textsorte.",
+      "en": "We are analysing the typical features of this text type."
+    },
+    "correct_answer": "Merkmale",
+    "wrong_answers": [
+      "Zeichen",
+      "Eigenschaften",
+      "Kennzeichen",
+      "Elemente"
+    ],
+    "explanation_en": "'analysieren' takes accusative. Plural of 'Merkmal': 'Merkmale' (adds -e)."
+  },
+  {
+    "exercise_id": "ex_noun_phaenomen_001",
+    "word_id": "noun_phaenomen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Phänomen",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the phenomenon",
+    "wrong_answers": [
+      "the event",
+      "the effect",
+      "the occurrence",
+      "the spectacle"
+    ],
+    "explanation_en": "'Phänomen' means 'phenomenon'. Neuter, takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_phaenomen_002",
+    "word_id": "noun_phaenomen",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Phänomen ist noch nicht vollständig erklärt.",
+      "en": "The phenomenon has not yet been fully explained."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Phänomen' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_phaenomen_003",
+    "word_id": "noun_phaenomen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ des Regenbogens fasziniert mich.",
+      "en": "The phenomenon of the rainbow fascinates me."
+    },
+    "correct_answer": "Phänomen",
+    "wrong_answers": [
+      "Ereignis",
+      "Spektakel",
+      "Effekt",
+      "Erscheinung"
+    ],
+    "explanation_en": "'Phänomen' means 'phenomenon'. It is the neuter subject here."
+  },
+  {
+    "exercise_id": "ex_noun_phaenomen_004",
+    "word_id": "noun_phaenomen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Forscher untersuchen dieses seltsame _____.",
+      "en": "The researchers are investigating this strange phenomenon."
+    },
+    "correct_answer": "Phänomen",
+    "wrong_answers": [
+      "Ereignis",
+      "Spektakel",
+      "Effekt",
+      "Problem"
+    ],
+    "explanation_en": "'untersuchen' takes accusative. Neuter: 'dieses Phänomen' (neuter accusative demonstrative; noun unchanged)."
+  },
+  {
+    "exercise_id": "ex_noun_prinzip_001",
+    "word_id": "noun_prinzip",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Prinzip",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the principle",
+    "wrong_answers": [
+      "the rule",
+      "the guideline",
+      "the law",
+      "the concept"
+    ],
+    "explanation_en": "'Prinzip' means 'principle'. Neuter, takes 'das'. Plural: 'Prinzipien'."
+  },
+  {
+    "exercise_id": "ex_noun_prinzip_002",
+    "word_id": "noun_prinzip",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Prinzip der Gleichheit gilt universell.",
+      "en": "The principle of equality applies universally."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Prinzip' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_prinzip_003",
+    "word_id": "noun_prinzip",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ der Nachhaltigkeit leitet unser Handeln.",
+      "en": "The principle of sustainability guides our actions."
+    },
+    "correct_answer": "Prinzip",
+    "wrong_answers": [
+      "Konzept",
+      "Kriterium",
+      "Merkmal",
+      "Grundsatz"
+    ],
+    "explanation_en": "'Prinzip' means 'principle'. It is the neuter subject here."
+  },
+  {
+    "exercise_id": "ex_noun_prinzip_004",
+    "word_id": "noun_prinzip",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er hält an seinen _____ fest.",
+      "en": "He holds fast to his principles."
+    },
+    "correct_answer": "Prinzipien",
+    "wrong_answers": [
+      "Grundsätzen",
+      "Werten",
+      "Regeln",
+      "Überzeugungen"
+    ],
+    "explanation_en": "'festhalten an' takes dative. Plural dative of 'Prinzip': 'Prinzipien' (Latin irregular plural)."
+  },
+  {
+    "exercise_id": "ex_noun_risiko_001",
+    "word_id": "noun_risiko",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Risiko",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the risk",
+    "wrong_answers": [
+      "the danger",
+      "the threat",
+      "the chance",
+      "the probability"
+    ],
+    "explanation_en": "'Risiko' means 'risk'. Neuter, takes 'das'. Plural: 'Risiken'."
+  },
+  {
+    "exercise_id": "ex_noun_risiko_002",
+    "word_id": "noun_risiko",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Risiko ist kalkulierbar.",
+      "en": "The risk is calculable."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Risiko' is neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_risiko_003",
+    "word_id": "noun_risiko",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ eines Scheiterns ist hoch.",
+      "en": "The risk of failure is high."
+    },
+    "correct_answer": "Risiko",
+    "wrong_answers": [
+      "Gefahr",
+      "Bedrohung",
+      "Problem",
+      "Nachteil"
+    ],
+    "explanation_en": "'Risiko' means 'risk'. It is the neuter subject here."
+  },
+  {
+    "exercise_id": "ex_noun_risiko_004",
+    "word_id": "noun_risiko",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir müssen das _____ sorgfältig abwägen.",
+      "en": "We must carefully weigh up the risk."
+    },
+    "correct_answer": "Risiko",
+    "wrong_answers": [
+      "Gefahr",
+      "Bedrohung",
+      "Problem",
+      "Nachteil"
+    ],
+    "explanation_en": "'abwägen' takes accusative. Neuter: 'das Risiko' (unchanged in accusative)."
+  },
+  {
+    "exercise_id": "ex_noun_scheitern_001",
+    "word_id": "noun_scheitern",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Scheitern",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the failure / failing",
+    "wrong_answers": [
+      "the mistake",
+      "the loss",
+      "the defeat",
+      "the setback"
+    ],
+    "explanation_en": "'Scheitern' is a nominalised infinitive meaning 'failure' or 'failing'. Neuter, takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_scheitern_002",
+    "word_id": "noun_scheitern",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Scheitern ist nicht das Ende.",
+      "en": "Failure is not the end."
+    },
+    "correct_answer": "Das",
+    "wrong_answers": [
+      "Der",
+      "Die",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Scheitern' is a nominalised infinitive — neuter. As the nominative subject, it takes 'das'."
+  },
+  {
+    "exercise_id": "ex_noun_scheitern_003",
+    "word_id": "noun_scheitern",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ des Projekts war vorhersehbar.",
+      "en": "The failure of the project was foreseeable."
+    },
+    "correct_answer": "Scheitern",
+    "wrong_answers": [
+      "Ende",
+      "Aufgeben",
+      "Misserfolg",
+      "Verlust"
+    ],
+    "explanation_en": "'Scheitern' means 'failure' (the act of failing). It is the neuter subject here."
+  },
+  {
+    "exercise_id": "ex_noun_scheitern_004",
+    "word_id": "noun_scheitern",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Aus dem _____ kann man viel lernen.",
+      "en": "You can learn a lot from failure."
+    },
+    "correct_answer": "Scheitern",
+    "wrong_answers": [
+      "Fehler",
+      "Misserfolg",
+      "Rückschlag",
+      "Verlust"
+    ],
+    "explanation_en": "'aus dem Scheitern' — 'aus' takes dative. Neuter dative: 'dem Scheitern'. Noun unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_ansatz_001",
+    "word_id": "noun_ansatz",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Ansatz",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the approach / starting point",
+    "wrong_answers": [
+      "the plan",
+      "the method",
+      "the attempt",
+      "the beginning"
+    ],
+    "explanation_en": "'Ansatz' means 'approach' or 'starting point'. Masculine, takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_ansatz_002",
+    "word_id": "noun_ansatz",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Ansatz ist sehr innovativ.",
+      "en": "The approach is very innovative."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Ansatz' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_ansatz_003",
+    "word_id": "noun_ansatz",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ zur Lösung ist vielversprechend.",
+      "en": "The approach to the solution is promising."
+    },
+    "correct_answer": "Ansatz",
+    "wrong_answers": [
+      "Versuch",
+      "Plan",
+      "Weg",
+      "Schritt"
+    ],
+    "explanation_en": "'Ansatz' means 'approach'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_ansatz_004",
+    "word_id": "noun_ansatz",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir verfolgen einen neuen _____.",
+      "en": "We are pursuing a new approach."
+    },
+    "correct_answer": "Ansatz",
+    "wrong_answers": [
+      "Versuch",
+      "Plan",
+      "Weg",
+      "Schritt"
+    ],
+    "explanation_en": "'verfolgen' takes accusative. 'einen neuen Ansatz' — masculine indefinite accusative uses 'einen'."
+  },
+  {
+    "exercise_id": "ex_noun_aspekt_001",
+    "word_id": "noun_aspekt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Aspekt",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the aspect",
+    "wrong_answers": [
+      "the factor",
+      "the element",
+      "the point",
+      "the dimension"
+    ],
+    "explanation_en": "'Aspekt' means 'aspect'. Masculine, takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_aspekt_002",
+    "word_id": "noun_aspekt",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Aspekt wurde nicht berücksichtigt.",
+      "en": "The aspect was not taken into consideration."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Aspekt' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_aspekt_003",
+    "word_id": "noun_aspekt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der rechtliche _____ ist besonders wichtig.",
+      "en": "The legal aspect is particularly important."
+    },
+    "correct_answer": "Aspekt",
+    "wrong_answers": [
+      "Faktor",
+      "Punkt",
+      "Bereich",
+      "Teil"
+    ],
+    "explanation_en": "'Aspekt' means 'aspect'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_aspekt_004",
+    "word_id": "noun_aspekt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir müssen jeden _____ genau analysieren.",
+      "en": "We must carefully analyse every aspect."
+    },
+    "correct_answer": "Aspekt",
+    "wrong_answers": [
+      "Faktor",
+      "Punkt",
+      "Bereich",
+      "Teil"
+    ],
+    "explanation_en": "'analysieren' takes accusative. 'jeden Aspekt' — masculine accusative: 'jeden' before unchanged noun."
+  },
+  {
+    "exercise_id": "ex_noun_aufwand_001",
+    "word_id": "noun_aufwand",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Aufwand",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the effort / expenditure",
+    "wrong_answers": [
+      "the work",
+      "the cost",
+      "the investment",
+      "the time"
+    ],
+    "explanation_en": "'Aufwand' means 'effort' or 'expenditure'. Masculine, takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_aufwand_002",
+    "word_id": "noun_aufwand",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Aufwand ist sehr hoch.",
+      "en": "The effort is very high."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Aufwand' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_aufwand_003",
+    "word_id": "noun_aufwand",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ für das Projekt ist enorm.",
+      "en": "The effort for the project is enormous."
+    },
+    "correct_answer": "Aufwand",
+    "wrong_answers": [
+      "Einsatz",
+      "Preis",
+      "Kosten",
+      "Zeitplan"
+    ],
+    "explanation_en": "'Aufwand' means 'effort'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_aufwand_004",
+    "word_id": "noun_aufwand",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Es lohnt sich nicht, diesen _____ zu betreiben.",
+      "en": "It is not worth making this effort."
+    },
+    "correct_answer": "Aufwand",
+    "wrong_answers": [
+      "Einsatz",
+      "Versuch",
+      "Schritt",
+      "Kompromiss"
+    ],
+    "explanation_en": "'betreiben' takes accusative. 'diesen Aufwand' — masculine accusative uses 'diesen'. Noun unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_begriff_001",
+    "word_id": "noun_begriff",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Begriff",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the term / concept",
+    "wrong_answers": [
+      "the word",
+      "the idea",
+      "the expression",
+      "the definition"
+    ],
+    "explanation_en": "'Begriff' means 'term' or 'concept'. Masculine, takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_begriff_002",
+    "word_id": "noun_begriff",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Begriff ist schwer zu definieren.",
+      "en": "The term is hard to define."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Begriff' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_begriff_003",
+    "word_id": "noun_begriff",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ 'Nachhaltigkeit' ist heute allgegenwärtig.",
+      "en": "The term 'sustainability' is ubiquitous today."
+    },
+    "correct_answer": "Begriff",
+    "wrong_answers": [
+      "Ausdruck",
+      "Wort",
+      "Name",
+      "Titel"
+    ],
+    "explanation_en": "'Begriff' means 'term'. It is the masculine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_begriff_004",
+    "word_id": "noun_begriff",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich verstehe diesen _____ nicht.",
+      "en": "I don't understand this term."
+    },
+    "correct_answer": "Begriff",
+    "wrong_answers": [
+      "Ausdruck",
+      "Wort",
+      "Satz",
+      "Titel"
+    ],
+    "explanation_en": "'verstehen' takes accusative. 'diesen Begriff' — masculine accusative uses 'diesen'. Noun unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_einwand_001",
+    "word_id": "noun_einwand",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Einwand",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the objection",
+    "wrong_answers": [
+      "the complaint",
+      "the argument",
+      "the protest",
+      "the criticism"
+    ],
+    "explanation_en": "'Einwand' means 'objection'. Masculine, takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_einwand_002",
+    "word_id": "noun_einwand",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Einwand wurde nicht beachtet.",
+      "en": "The objection was not heeded."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Einwand' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_einwand_003",
+    "word_id": "noun_einwand",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Sein _____ gegen den Plan ist berechtigt.",
+      "en": "His objection to the plan is justified."
+    },
+    "correct_answer": "Einwand",
+    "wrong_answers": [
+      "Protest",
+      "Widerstand",
+      "Kritik",
+      "Vorwurf"
+    ],
+    "explanation_en": "'Einwand' means 'objection'. After 'sein' (masculine nominative), the noun is unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_einwand_004",
+    "word_id": "noun_einwand",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er erhob einen _____ gegen den Beschluss.",
+      "en": "He raised an objection against the resolution."
+    },
+    "correct_answer": "Einwand",
+    "wrong_answers": [
+      "Protest",
+      "Widerstand",
+      "Vorwurf",
+      "Antrag"
+    ],
+    "explanation_en": "'erheben' takes accusative. 'einen Einwand' — masculine indefinite accusative uses 'einen'. Noun unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_kontext_001",
+    "word_id": "noun_kontext",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Kontext",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the context",
+    "wrong_answers": [
+      "the background",
+      "the setting",
+      "the framework",
+      "the situation"
+    ],
+    "explanation_en": "'Kontext' means 'context'. Masculine, takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_kontext_002",
+    "word_id": "noun_kontext",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Kontext ist wichtig für das Verstehen.",
+      "en": "The context is important for understanding."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Kontext' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_kontext_003",
+    "word_id": "noun_kontext",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der historische _____ muss berücksichtigt werden.",
+      "en": "The historical context must be taken into consideration."
+    },
+    "correct_answer": "Kontext",
+    "wrong_answers": [
+      "Hintergrund",
+      "Zusammenhang",
+      "Rahmen",
+      "Umstand"
+    ],
+    "explanation_en": "'Kontext' means 'context'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_kontext_004",
+    "word_id": "noun_kontext",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Wort hat in diesem _____ eine andere Bedeutung.",
+      "en": "The word has a different meaning in this context."
+    },
+    "correct_answer": "Kontext",
+    "wrong_answers": [
+      "Zusammenhang",
+      "Rahmen",
+      "Satz",
+      "Umfeld"
+    ],
+    "explanation_en": "'in diesem Kontext' — 'in' with dative. Masculine dative: 'diesem Kontext'."
+  },
+  {
+    "exercise_id": "ex_noun_rueckgang_001",
+    "word_id": "noun_rueckgang",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Rückgang",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the decline / decrease",
+    "wrong_answers": [
+      "the increase",
+      "the slowdown",
+      "the setback",
+      "the fall"
+    ],
+    "explanation_en": "'Rückgang' means 'decline' or 'decrease'. Masculine, takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_rueckgang_002",
+    "word_id": "noun_rueckgang",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Rückgang der Verkaufszahlen beunruhigt uns.",
+      "en": "The decline in sales figures worries us."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Rückgang' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_rueckgang_003",
+    "word_id": "noun_rueckgang",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ der Bevölkerungszahl ist ein Problem.",
+      "en": "The decline in the population figure is a problem."
+    },
+    "correct_answer": "Rückgang",
+    "wrong_answers": [
+      "Anstieg",
+      "Absturz",
+      "Verlust",
+      "Einbruch"
+    ],
+    "explanation_en": "'Rückgang' means 'decline'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_rueckgang_004",
+    "word_id": "noun_rueckgang",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Wirtschaft verzeichnet einen starken _____.",
+      "en": "The economy is recording a sharp decline."
+    },
+    "correct_answer": "Rückgang",
+    "wrong_answers": [
+      "Absturz",
+      "Einbruch",
+      "Verlust",
+      "Tiefpunkt"
+    ],
+    "explanation_en": "'verzeichnen' takes accusative. 'einen starken Rückgang' — masculine indefinite accusative uses 'einen'."
+  },
+  {
+    "exercise_id": "ex_noun_schwerpunkt_001",
+    "word_id": "noun_schwerpunkt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Schwerpunkt",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the focus / priority",
+    "wrong_answers": [
+      "the goal",
+      "the centre",
+      "the highlight",
+      "the emphasis"
+    ],
+    "explanation_en": "'Schwerpunkt' means 'focus' or 'main priority'. Masculine, takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_schwerpunkt_002",
+    "word_id": "noun_schwerpunkt",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Schwerpunkt der Diskussion ist die Digitalisierung.",
+      "en": "The focus of the discussion is digitalisation."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Schwerpunkt' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_schwerpunkt_003",
+    "word_id": "noun_schwerpunkt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ liegt auf der Qualitätssicherung.",
+      "en": "The focus is on quality assurance."
+    },
+    "correct_answer": "Schwerpunkt",
+    "wrong_answers": [
+      "Fokus",
+      "Ziel",
+      "Kern",
+      "Mittelpunkt"
+    ],
+    "explanation_en": "'Schwerpunkt' means 'focus'. It is the masculine subject, used with 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_schwerpunkt_004",
+    "word_id": "noun_schwerpunkt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir setzen einen neuen _____ in der Forschung.",
+      "en": "We are setting a new focus in research."
+    },
+    "correct_answer": "Schwerpunkt",
+    "wrong_answers": [
+      "Fokus",
+      "Ansatz",
+      "Kern",
+      "Schritt"
+    ],
+    "explanation_en": "'setzen' takes accusative. 'einen neuen Schwerpunkt' — masculine indefinite accusative uses 'einen'."
+  },
+  {
+    "exercise_id": "ex_noun_standpunkt_001",
+    "word_id": "noun_standpunkt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Standpunkt",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the point of view / standpoint",
+    "wrong_answers": [
+      "the opinion",
+      "the position",
+      "the argument",
+      "the attitude"
+    ],
+    "explanation_en": "'Standpunkt' means 'standpoint' or 'point of view'. Masculine, takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_standpunkt_002",
+    "word_id": "noun_standpunkt",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Standpunkt ist nachvollziehbar.",
+      "en": "The standpoint is understandable."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Standpunkt' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_standpunkt_003",
+    "word_id": "noun_standpunkt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Von meinem _____ aus ist das falsch.",
+      "en": "From my point of view, that is wrong."
+    },
+    "correct_answer": "Standpunkt",
+    "wrong_answers": [
+      "Blickwinkel",
+      "Aspekt",
+      "Gesichtspunkt",
+      "Perspektive"
+    ],
+    "explanation_en": "'von meinem Standpunkt aus' — 'von' takes dative. Masculine dative: 'meinem Standpunkt'. Noun unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_standpunkt_004",
+    "word_id": "noun_standpunkt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie verteidigte ihren _____ überzeugend.",
+      "en": "She defended her standpoint convincingly."
+    },
+    "correct_answer": "Standpunkt",
+    "wrong_answers": [
+      "Blickwinkel",
+      "Aspekt",
+      "Gesichtspunkt",
+      "Plan"
+    ],
+    "explanation_en": "'verteidigen' takes accusative. 'ihren Standpunkt' — masculine accusative uses 'ihren'."
+  },
+  {
+    "exercise_id": "ex_noun_umfang_001",
+    "word_id": "noun_umfang",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Umfang",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the scope / extent",
+    "wrong_answers": [
+      "the size",
+      "the volume",
+      "the range",
+      "the circumference"
+    ],
+    "explanation_en": "'Umfang' means 'scope', 'extent', or 'circumference'. Masculine, takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_umfang_002",
+    "word_id": "noun_umfang",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Umfang des Projekts ist unterschätzt worden.",
+      "en": "The scope of the project has been underestimated."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Umfang' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_umfang_003",
+    "word_id": "noun_umfang",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ der Studie ist sehr breit.",
+      "en": "The scope of the study is very broad."
+    },
+    "correct_answer": "Umfang",
+    "wrong_answers": [
+      "Inhalt",
+      "Ausmaß",
+      "Bereich",
+      "Rahmen"
+    ],
+    "explanation_en": "'Umfang' means 'scope'. It is the masculine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_umfang_004",
+    "word_id": "noun_umfang",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir müssen den _____ der Arbeit reduzieren.",
+      "en": "We need to reduce the scope of the work."
+    },
+    "correct_answer": "Umfang",
+    "wrong_answers": [
+      "Inhalt",
+      "Ausmaß",
+      "Bereich",
+      "Aufwand"
+    ],
+    "explanation_en": "'reduzieren' takes accusative. 'den Umfang' — masculine accusative uses 'den'. Noun unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_vorwurf_001",
+    "word_id": "noun_vorwurf",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Vorwurf",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the accusation / reproach",
+    "wrong_answers": [
+      "the complaint",
+      "the allegation",
+      "the blame",
+      "the criticism"
+    ],
+    "explanation_en": "'Vorwurf' means 'accusation' or 'reproach'. Masculine, takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_vorwurf_002",
+    "word_id": "noun_vorwurf",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Vorwurf ist haltlos.",
+      "en": "The accusation is groundless."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Vorwurf' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_vorwurf_003",
+    "word_id": "noun_vorwurf",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ der Korruption ist schwerwiegend.",
+      "en": "The accusation of corruption is serious."
+    },
+    "correct_answer": "Vorwurf",
+    "wrong_answers": [
+      "Verdacht",
+      "Anschuldigung",
+      "Behauptung",
+      "Kritik"
+    ],
+    "explanation_en": "'Vorwurf' means 'accusation'. It is the masculine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_vorwurf_004",
+    "word_id": "noun_vorwurf",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er wies den _____ entschieden zurück.",
+      "en": "He firmly rejected the accusation."
+    },
+    "correct_answer": "Vorwurf",
+    "wrong_answers": [
+      "Verdacht",
+      "Behauptung",
+      "Antrag",
+      "Einwand"
+    ],
+    "explanation_en": "'zurückweisen' takes accusative. 'den Vorwurf' — masculine accusative uses 'den'. Noun unchanged."
+  },
+  {
+    "exercise_id": "ex_noun_widerspruch_001",
+    "word_id": "noun_widerspruch",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Widerspruch",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the contradiction",
+    "wrong_answers": [
+      "the objection",
+      "the conflict",
+      "the disagreement",
+      "the paradox"
+    ],
+    "explanation_en": "'Widerspruch' means 'contradiction'. Masculine, takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_widerspruch_002",
+    "word_id": "noun_widerspruch",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Widerspruch ist offensichtlich.",
+      "en": "The contradiction is obvious."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Widerspruch' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_widerspruch_003",
+    "word_id": "noun_widerspruch",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ in seiner Argumentation fällt sofort auf.",
+      "en": "The contradiction in his argument is immediately apparent."
+    },
+    "correct_answer": "Widerspruch",
+    "wrong_answers": [
+      "Fehler",
+      "Irrtum",
+      "Mangel",
+      "Kontrast"
+    ],
+    "explanation_en": "'Widerspruch' means 'contradiction'. It is the masculine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_widerspruch_004",
+    "word_id": "noun_widerspruch",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie duldet keinen _____ gegen ihre Entscheidungen.",
+      "en": "She tolerates no contradiction of her decisions."
+    },
+    "correct_answer": "Widerspruch",
+    "wrong_answers": [
+      "Einwand",
+      "Kritik",
+      "Protest",
+      "Einspruch"
+    ],
+    "explanation_en": "'dulden' takes accusative. 'keinen Widerspruch' — masculine accusative uses 'keinen'."
+  },
+  {
+    "exercise_id": "ex_noun_ueberblick_001",
+    "word_id": "noun_ueberblick",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Überblick",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the overview",
+    "wrong_answers": [
+      "the summary",
+      "the view",
+      "the perspective",
+      "the survey"
+    ],
+    "explanation_en": "'Überblick' means 'overview'. Masculine, takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_ueberblick_002",
+    "word_id": "noun_ueberblick",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Überblick fehlt ihr noch.",
+      "en": "She still lacks the overview."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Überblick' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_ueberblick_003",
+    "word_id": "noun_ueberblick",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ über das Thema fehlt mir noch.",
+      "en": "I still lack an overview of the topic."
+    },
+    "correct_answer": "Überblick",
+    "wrong_answers": [
+      "Einblick",
+      "Zusammenfassung",
+      "Einführung",
+      "Ausblick"
+    ],
+    "explanation_en": "'Überblick' means 'overview'. It is the masculine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_ueberblick_004",
+    "word_id": "noun_ueberblick",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Dieser Bericht gibt einen guten _____.",
+      "en": "This report gives a good overview."
+    },
+    "correct_answer": "Überblick",
+    "wrong_answers": [
+      "Einblick",
+      "Zusammenfassung",
+      "Einführung",
+      "Ausblick"
+    ],
+    "explanation_en": "'geben' takes accusative. 'einen guten Überblick' — masculine indefinite accusative uses 'einen'."
+  },
+  {
+    "exercise_id": "ex_noun_kompromiss_001",
+    "word_id": "noun_kompromiss",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Kompromiss",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the compromise",
+    "wrong_answers": [
+      "the agreement",
+      "the solution",
+      "the settlement",
+      "the concession"
+    ],
+    "explanation_en": "'Kompromiss' means 'compromise'. Masculine, takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_kompromiss_002",
+    "word_id": "noun_kompromiss",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Kompromiss wurde von allen akzeptiert.",
+      "en": "The compromise was accepted by everyone."
+    },
+    "correct_answer": "Der",
+    "wrong_answers": [
+      "Die",
+      "Das",
+      "Ein",
+      "Den"
+    ],
+    "explanation_en": "'Kompromiss' is masculine. As the nominative subject, it takes 'der'."
+  },
+  {
+    "exercise_id": "ex_noun_kompromiss_003",
+    "word_id": "noun_kompromiss",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ war schwer zu erreichen.",
+      "en": "The compromise was hard to reach."
+    },
+    "correct_answer": "Kompromiss",
+    "wrong_answers": [
+      "Einigung",
+      "Vereinbarung",
+      "Beschluss",
+      "Abkommen"
+    ],
+    "explanation_en": "'Kompromiss' means 'compromise'. It is the masculine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_kompromiss_004",
+    "word_id": "noun_kompromiss",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir müssen einen _____ finden.",
+      "en": "We need to find a compromise."
+    },
+    "correct_answer": "Kompromiss",
+    "wrong_answers": [
+      "Einigung",
+      "Vereinbarung",
+      "Beschluss",
+      "Ausweg"
+    ],
+    "explanation_en": "'finden' takes accusative. 'einen Kompromiss' — masculine indefinite accusative uses 'einen'."
+  },
+  {
+    "exercise_id": "ex_noun_ruecksicht_001",
+    "word_id": "noun_ruecksicht",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Rücksicht",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the consideration / regard",
+    "wrong_answers": [
+      "the respect",
+      "the empathy",
+      "the care",
+      "the patience"
+    ],
+    "explanation_en": "'Rücksicht' means 'consideration for others'. Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_ruecksicht_002",
+    "word_id": "noun_ruecksicht",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Rücksicht auf andere ist wichtig.",
+      "en": "Consideration for others is important."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Rücksicht' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_ruecksicht_003",
+    "word_id": "noun_ruecksicht",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ auf andere Menschen fehlt ihm völlig.",
+      "en": "He completely lacks consideration for other people."
+    },
+    "correct_answer": "Rücksicht",
+    "wrong_answers": [
+      "Empathie",
+      "Geduld",
+      "Toleranz",
+      "Höflichkeit"
+    ],
+    "explanation_en": "'Rücksicht' means 'consideration'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_ruecksicht_004",
+    "word_id": "noun_ruecksicht",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er nimmt keine _____ auf die Gefühle anderer.",
+      "en": "He shows no consideration for others' feelings."
+    },
+    "correct_answer": "Rücksicht",
+    "wrong_answers": [
+      "Empathie",
+      "Geduld",
+      "Toleranz",
+      "Höflichkeit"
+    ],
+    "explanation_en": "'Rücksicht nehmen auf' is a fixed phrase meaning 'to show consideration for'. 'keine Rücksicht' — accusative after 'nehmen'."
+  },
+  {
+    "exercise_id": "ex_noun_sorgfalt_001",
+    "word_id": "noun_sorgfalt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Sorgfalt",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the care / diligence",
+    "wrong_answers": [
+      "the attention",
+      "the precision",
+      "the thoroughness",
+      "the patience"
+    ],
+    "explanation_en": "'Sorgfalt' means 'care' or 'diligence'. Feminine, takes 'die'. No common plural form."
+  },
+  {
+    "exercise_id": "ex_noun_sorgfalt_002",
+    "word_id": "noun_sorgfalt",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Sorgfalt ist bei dieser Arbeit nötig.",
+      "en": "Care is needed for this work."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Sorgfalt' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_sorgfalt_003",
+    "word_id": "noun_sorgfalt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ bei der Ausführung ist entscheidend.",
+      "en": "The care in the execution is decisive."
+    },
+    "correct_answer": "Sorgfalt",
+    "wrong_answers": [
+      "Genauigkeit",
+      "Geduld",
+      "Präzision",
+      "Gewissenhaftigkeit"
+    ],
+    "explanation_en": "'Sorgfalt' means 'care'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_sorgfalt_004",
+    "word_id": "noun_sorgfalt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er arbeitet mit großer _____ und Genauigkeit.",
+      "en": "He works with great care and precision."
+    },
+    "correct_answer": "Sorgfalt",
+    "wrong_answers": [
+      "Geduld",
+      "Präzision",
+      "Ausdauer",
+      "Disziplin"
+    ],
+    "explanation_en": "'mit großer Sorgfalt' — 'mit' takes dative. Feminine dative: 'großer Sorgfalt' (adj. strong ending without article)."
+  },
+  {
+    "exercise_id": "ex_noun_beziehung_001",
+    "word_id": "noun_beziehung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Beziehung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the relationship",
+    "wrong_answers": [
+      "the connection",
+      "the partnership",
+      "the friendship",
+      "the link"
+    ],
+    "explanation_en": "'Beziehung' means 'relationship'. Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_beziehung_002",
+    "word_id": "noun_beziehung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Beziehung der beiden ist kompliziert.",
+      "en": "The relationship between the two is complicated."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Beziehung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_beziehung_003",
+    "word_id": "noun_beziehung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ zwischen den Ländern ist gut.",
+      "en": "The relationship between the countries is good."
+    },
+    "correct_answer": "Beziehung",
+    "wrong_answers": [
+      "Verbindung",
+      "Zusammenarbeit",
+      "Abhängigkeit",
+      "Vereinbarung"
+    ],
+    "explanation_en": "'Beziehung' means 'relationship'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_beziehung_004",
+    "word_id": "noun_beziehung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er pflegt eine gute _____ zu seinen Nachbarn.",
+      "en": "He maintains a good relationship with his neighbours."
+    },
+    "correct_answer": "Beziehung",
+    "wrong_answers": [
+      "Verbindung",
+      "Abhängigkeit",
+      "Freundschaft",
+      "Verbindlichkeit"
+    ],
+    "explanation_en": "'pflegen' takes accusative. 'eine gute Beziehung' — feminine indefinite accusative: 'eine'."
+  },
+  {
+    "exercise_id": "ex_noun_erwartung_001",
+    "word_id": "noun_erwartung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Erwartung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the expectation",
+    "wrong_answers": [
+      "the hope",
+      "the wish",
+      "the anticipation",
+      "the requirement"
+    ],
+    "explanation_en": "'Erwartung' means 'expectation'. Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_erwartung_002",
+    "word_id": "noun_erwartung",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Erwartung war sehr hoch.",
+      "en": "The expectation was very high."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Erwartung' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_erwartung_003",
+    "word_id": "noun_erwartung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ der Kunden muss erfüllt werden.",
+      "en": "The expectation of customers must be met."
+    },
+    "correct_answer": "Erwartung",
+    "wrong_answers": [
+      "Hoffnung",
+      "Anforderung",
+      "Forderung",
+      "Vorstellung"
+    ],
+    "explanation_en": "'Erwartung' means 'expectation'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_erwartung_004",
+    "word_id": "noun_erwartung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Ergebnis übertraf alle _____.",
+      "en": "The result exceeded all expectations."
+    },
+    "correct_answer": "Erwartungen",
+    "wrong_answers": [
+      "Hoffnungen",
+      "Wünsche",
+      "Vorstellungen",
+      "Ziele"
+    ],
+    "explanation_en": "'übertreffen' takes accusative. Plural: 'alle Erwartungen' (adds -en to the singular form)."
+  },
+  {
+    "exercise_id": "ex_noun_staerke_001",
+    "word_id": "noun_staerke",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Stärke",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the strength",
+    "wrong_answers": [
+      "the power",
+      "the force",
+      "the intensity",
+      "the ability"
+    ],
+    "explanation_en": "'Stärke' means 'strength'. Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_staerke_002",
+    "word_id": "noun_staerke",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Stärke seiner Argumente überzeugte alle.",
+      "en": "The strength of his arguments convinced everyone."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Stärke' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_staerke_003",
+    "word_id": "noun_staerke",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ des Teams liegt in seiner Vielfalt.",
+      "en": "The strength of the team lies in its diversity."
+    },
+    "correct_answer": "Stärke",
+    "wrong_answers": [
+      "Schwäche",
+      "Qualität",
+      "Einheit",
+      "Erfahrung"
+    ],
+    "explanation_en": "'Stärke' means 'strength'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_staerke_004",
+    "word_id": "noun_staerke",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir sollten unsere _____ nutzen.",
+      "en": "We should use our strengths."
+    },
+    "correct_answer": "Stärken",
+    "wrong_answers": [
+      "Schwächen",
+      "Fähigkeiten",
+      "Erfahrungen",
+      "Talente"
+    ],
+    "explanation_en": "'nutzen' takes accusative. Plural: 'unsere Stärken' (adds -n to the singular form)."
+  },
+  {
+    "exercise_id": "ex_noun_schwasche_001",
+    "word_id": "noun_schwasche",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Schwäche",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the weakness",
+    "wrong_answers": [
+      "the flaw",
+      "the deficiency",
+      "the disadvantage",
+      "the fragility"
+    ],
+    "explanation_en": "'Schwäche' means 'weakness'. Feminine, takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_schwasche_002",
+    "word_id": "noun_schwasche",
+    "type": "article_choice",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Schwäche des Plans ist die Finanzierung.",
+      "en": "The weakness of the plan is the financing."
+    },
+    "correct_answer": "Die",
+    "wrong_answers": [
+      "Der",
+      "Das",
+      "Eine",
+      "Den"
+    ],
+    "explanation_en": "'Schwäche' is feminine. As the nominative subject, it takes 'die'."
+  },
+  {
+    "exercise_id": "ex_noun_schwasche_003",
+    "word_id": "noun_schwasche",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ des Arguments ist offensichtlich.",
+      "en": "The weakness of the argument is obvious."
+    },
+    "correct_answer": "Schwäche",
+    "wrong_answers": [
+      "Stärke",
+      "Lücke",
+      "Fehler",
+      "Unklarheit"
+    ],
+    "explanation_en": "'Schwäche' means 'weakness'. It is the feminine subject here."
+  },
+  {
+    "exercise_id": "ex_noun_schwasche_004",
+    "word_id": "noun_schwasche",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er kennt seine _____ und arbeitet daran.",
+      "en": "He knows his weaknesses and works on them."
+    },
+    "correct_answer": "Schwächen",
+    "wrong_answers": [
+      "Fehler",
+      "Mängel",
+      "Probleme",
+      "Defizite"
+    ],
+    "explanation_en": "'kennen' takes accusative. Plural: 'seine Schwächen' (adds -n to the singular form)."
   }
-]
+],
 };

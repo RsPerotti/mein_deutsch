@@ -2,6 +2,22 @@
 
 ---
 
+## 2026-06-05 — Session 7: Nouns Content — A2, B1, B2 Batches
+
+**What was built:**
+- `data/nouns.json` — Expanded from 25 (A1) → 175 total: +50 A2, +50 B1, +50 B2
+- `data/exercises/exercises-nouns.json` — Expanded from 100 → 700 total: +200 A2, +200 B1, +200 B2
+- `js/data.js` — Regenerated with all new content
+- `_factory/seeds/nouns-level2.json` — 50 A2 noun seed file (all done)
+- `_factory/seeds/nouns-level3.json` — 50 B1 noun seed file (all done)
+- `_factory/seeds/nouns-level4.json` — 50 B2 noun seed file (all done)
+
+**Approach:** 6-pass generation (nouns then exercises per level). Caught and fixed one duplicate ID (Einfluss already in B1; replaced with Überblick + Kompromiss at B2).
+
+**Exercise types per noun:** translate_word (diff 1) → article_choice (diff 1) → fill_blank (diff 1) → fill_blank (diff 2). Grammar explanations cover nominative, accusative, dative, genitive usage.
+
+---
+
 ## 2026-06-04 — Session 6: Nouns Module UI
 
 **What was built:**

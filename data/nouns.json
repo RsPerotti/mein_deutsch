@@ -840,5 +840,5077 @@
       "daily_life",
       "a1"
     ]
+  },
+  {
+    "id": "noun_mutter",
+    "word": "Mutter",
+    "article": "die",
+    "english": "mother",
+    "plural": "Mütter",
+    "plural_article": "die",
+    "genitive": "der Mutter",
+    "frequency_rank": 26,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Meine Mutter kocht sehr gut.",
+        "en": "My mother cooks very well.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Mutter bringt das Kind zur Schule.",
+        "en": "The mother takes the child to school.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "family",
+      "people",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_vater",
+    "word": "Vater",
+    "article": "der",
+    "english": "father",
+    "plural": "Väter",
+    "plural_article": "die",
+    "genitive": "des Vaters",
+    "frequency_rank": 27,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Mein Vater arbeitet als Ingenieur.",
+        "en": "My father works as an engineer.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Vater liest seinem Kind ein Buch vor.",
+        "en": "The father reads a book to his child.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "family",
+      "people",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_bruder",
+    "word": "Bruder",
+    "article": "der",
+    "english": "brother",
+    "plural": "Brüder",
+    "plural_article": "die",
+    "genitive": "des Bruders",
+    "frequency_rank": 28,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Mein Bruder ist zwei Jahre älter als ich.",
+        "en": "My brother is two years older than me.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich habe einen Bruder und eine Schwester.",
+        "en": "I have a brother and a sister.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "family",
+      "people",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_schwester",
+    "word": "Schwester",
+    "article": "die",
+    "english": "sister",
+    "plural": "Schwestern",
+    "plural_article": "die",
+    "genitive": "der Schwester",
+    "frequency_rank": 29,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Meine Schwester wohnt in München.",
+        "en": "My sister lives in Munich.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Schwester hilft ihrem Bruder.",
+        "en": "The sister helps her brother.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "family",
+      "people",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_eltern",
+    "word": "Eltern",
+    "article": "die",
+    "english": "parents",
+    "plural": "Eltern",
+    "plural_article": "die",
+    "genitive": "der Eltern",
+    "frequency_rank": 30,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Meine Eltern wohnen auf dem Land.",
+        "en": "My parents live in the countryside.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Eltern kommen zum Schulfest.",
+        "en": "The parents come to the school event.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "family",
+      "people",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_lehrer",
+    "word": "Lehrer",
+    "article": "der",
+    "english": "teacher",
+    "plural": "Lehrer",
+    "plural_article": "die",
+    "genitive": "des Lehrers",
+    "frequency_rank": 31,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Der Lehrer erklärt die Grammatik.",
+        "en": "The teacher explains the grammar.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Unser Lehrer kommt aus Österreich.",
+        "en": "Our teacher comes from Austria.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "education",
+      "people",
+      "work",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_arzt",
+    "word": "Arzt",
+    "article": "der",
+    "english": "doctor",
+    "plural": "Ärzte",
+    "plural_article": "die",
+    "genitive": "des Arztes",
+    "frequency_rank": 32,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich muss zum Arzt gehen.",
+        "en": "I have to go to the doctor.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Arzt untersucht den Patienten.",
+        "en": "The doctor examines the patient.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "health",
+      "people",
+      "work",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_kollege",
+    "word": "Kollege",
+    "article": "der",
+    "english": "colleague",
+    "plural": "Kollegen",
+    "plural_article": "die",
+    "genitive": "des Kollegen",
+    "frequency_rank": 33,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Mein Kollege hilft mir mit dem Projekt.",
+        "en": "My colleague helps me with the project.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Kollegen essen zusammen in der Pause.",
+        "en": "The colleagues eat together during the break.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "work",
+      "people",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_nachbar",
+    "word": "Nachbar",
+    "article": "der",
+    "english": "neighbour",
+    "plural": "Nachbarn",
+    "plural_article": "die",
+    "genitive": "des Nachbarn",
+    "frequency_rank": 34,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Unser Nachbar ist sehr freundlich.",
+        "en": "Our neighbour is very friendly.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Nachbar hat einen großen Hund.",
+        "en": "The neighbour has a big dog.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "people",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_chef",
+    "word": "Chef",
+    "article": "der",
+    "english": "boss",
+    "plural": "Chefs",
+    "plural_article": "die",
+    "genitive": "des Chefs",
+    "frequency_rank": 35,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Mein Chef ist heute nicht im Büro.",
+        "en": "My boss is not in the office today.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Chef gibt der Mitarbeiterin eine Aufgabe.",
+        "en": "The boss gives the employee a task.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "work",
+      "people",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_zimmer",
+    "word": "Zimmer",
+    "article": "das",
+    "english": "room",
+    "plural": "Zimmer",
+    "plural_article": "die",
+    "genitive": "des Zimmers",
+    "frequency_rank": 36,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Das Zimmer ist sehr sauber.",
+        "en": "The room is very clean.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich suche ein Zimmer in der Stadt.",
+        "en": "I am looking for a room in the city.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "home",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_kueche",
+    "word": "Küche",
+    "article": "die",
+    "english": "kitchen",
+    "plural": "Küchen",
+    "plural_article": "die",
+    "genitive": "der Küche",
+    "frequency_rank": 37,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Die Küche ist klein, aber modern.",
+        "en": "The kitchen is small but modern.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er kocht in der Küche das Abendessen.",
+        "en": "He cooks dinner in the kitchen.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "home",
+      "food_drink",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_garten",
+    "word": "Garten",
+    "article": "der",
+    "english": "garden",
+    "plural": "Gärten",
+    "plural_article": "die",
+    "genitive": "des Gartens",
+    "frequency_rank": 38,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Im Garten wachsen viele Blumen.",
+        "en": "Many flowers grow in the garden.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Kinder spielen im Garten.",
+        "en": "The children play in the garden.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "home",
+      "nature",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_bahnhof",
+    "word": "Bahnhof",
+    "article": "der",
+    "english": "train station",
+    "plural": "Bahnhöfe",
+    "plural_article": "die",
+    "genitive": "des Bahnhofs",
+    "frequency_rank": 39,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Der Bahnhof ist zehn Minuten entfernt.",
+        "en": "The train station is ten minutes away.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich warte am Bahnhof auf meinen Zug.",
+        "en": "I am waiting at the train station for my train.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "transport",
+      "places",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_buero",
+    "word": "Büro",
+    "article": "das",
+    "english": "office",
+    "plural": "Büros",
+    "plural_article": "die",
+    "genitive": "des Büros",
+    "frequency_rank": 40,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Das Büro öffnet um neun Uhr.",
+        "en": "The office opens at nine o'clock.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Sie arbeitet täglich in ihrem Büro.",
+        "en": "She works in her office every day.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "work",
+      "places",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_fenster",
+    "word": "Fenster",
+    "article": "das",
+    "english": "window",
+    "plural": "Fenster",
+    "plural_article": "die",
+    "genitive": "des Fensters",
+    "frequency_rank": 41,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Bitte mach das Fenster auf.",
+        "en": "Please open the window.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Fenster ist kaputt.",
+        "en": "The window is broken.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "home",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_bett",
+    "word": "Bett",
+    "article": "das",
+    "english": "bed",
+    "plural": "Betten",
+    "plural_article": "die",
+    "genitive": "des Bettes",
+    "frequency_rank": 42,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich gehe um zehn Uhr ins Bett.",
+        "en": "I go to bed at ten o'clock.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Bett ist sehr bequem.",
+        "en": "The bed is very comfortable.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "home",
+      "furniture",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_handy",
+    "word": "Handy",
+    "article": "das",
+    "english": "mobile phone",
+    "plural": "Handys",
+    "plural_article": "die",
+    "genitive": "des Handys",
+    "frequency_rank": 43,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich habe mein Handy vergessen.",
+        "en": "I forgot my mobile phone.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Handy klingelt im Unterricht.",
+        "en": "The mobile phone rings during the lesson.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "technology",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_tasche",
+    "word": "Tasche",
+    "article": "die",
+    "english": "bag",
+    "plural": "Taschen",
+    "plural_article": "die",
+    "genitive": "der Tasche",
+    "frequency_rank": 44,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Meine Tasche ist sehr schwer.",
+        "en": "My bag is very heavy.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Schlüssel ist in der Tasche.",
+        "en": "The key is in the bag.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_schluessel",
+    "word": "Schlüssel",
+    "article": "der",
+    "english": "key",
+    "plural": "Schlüssel",
+    "plural_article": "die",
+    "genitive": "des Schlüssels",
+    "frequency_rank": 45,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich finde meinen Schlüssel nicht.",
+        "en": "I cannot find my key.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Schlüssel liegt auf dem Tisch.",
+        "en": "The key is on the table.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "daily_life",
+      "home",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_brief",
+    "word": "Brief",
+    "article": "der",
+    "english": "letter",
+    "plural": "Briefe",
+    "plural_article": "die",
+    "genitive": "des Briefes",
+    "frequency_rank": 46,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich schreibe einen Brief an meine Oma.",
+        "en": "I am writing a letter to my grandmother.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Brief kommt aus dem Ausland.",
+        "en": "The letter comes from abroad.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "communication",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_stunde",
+    "word": "Stunde",
+    "article": "die",
+    "english": "hour",
+    "plural": "Stunden",
+    "plural_article": "die",
+    "genitive": "der Stunde",
+    "frequency_rank": 47,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich warte seit einer Stunde.",
+        "en": "I have been waiting for an hour.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Stunde vergeht sehr schnell.",
+        "en": "The hour passes very quickly.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "time",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_woche",
+    "word": "Woche",
+    "article": "die",
+    "english": "week",
+    "plural": "Wochen",
+    "plural_article": "die",
+    "genitive": "der Woche",
+    "frequency_rank": 48,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Diese Woche habe ich viel zu tun.",
+        "en": "This week I have a lot to do.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Woche hat sieben Tage.",
+        "en": "The week has seven days.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "time",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_monat",
+    "word": "Monat",
+    "article": "der",
+    "english": "month",
+    "plural": "Monate",
+    "plural_article": "die",
+    "genitive": "des Monats",
+    "frequency_rank": 49,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Im nächsten Monat fahren wir in den Urlaub.",
+        "en": "Next month we are going on holiday.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Monat Januar ist oft kalt.",
+        "en": "The month of January is often cold.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "time",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_morgen",
+    "word": "Morgen",
+    "article": "der",
+    "english": "morning",
+    "plural": "Morgen",
+    "plural_article": "die",
+    "genitive": "des Morgens",
+    "frequency_rank": 50,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Am Morgen trinke ich immer Kaffee.",
+        "en": "In the morning I always drink coffee.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Morgen beginnt früh für uns.",
+        "en": "The morning starts early for us.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "time",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_abend",
+    "word": "Abend",
+    "article": "der",
+    "english": "evening",
+    "plural": "Abende",
+    "plural_article": "die",
+    "genitive": "des Abends",
+    "frequency_rank": 51,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Am Abend schauen wir fern.",
+        "en": "In the evening we watch television.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Abend war sehr schön.",
+        "en": "The evening was very nice.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "time",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_nacht",
+    "word": "Nacht",
+    "article": "die",
+    "english": "night",
+    "plural": "Nächte",
+    "plural_article": "die",
+    "genitive": "der Nacht",
+    "frequency_rank": 52,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "In der Nacht ist es sehr ruhig.",
+        "en": "At night it is very quiet.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Nacht war kurz und kalt.",
+        "en": "The night was short and cold.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "time",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_brot",
+    "word": "Brot",
+    "article": "das",
+    "english": "bread",
+    "plural": "Brote",
+    "plural_article": "die",
+    "genitive": "des Brotes",
+    "frequency_rank": 53,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich kaufe jeden Morgen frisches Brot.",
+        "en": "I buy fresh bread every morning.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Brot schmeckt sehr gut.",
+        "en": "The bread tastes very good.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "food_drink",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_milch",
+    "word": "Milch",
+    "article": "die",
+    "english": "milk",
+    "plural": "Milch",
+    "plural_article": "die",
+    "genitive": "der Milch",
+    "frequency_rank": 54,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich trinke jeden Abend ein Glas Milch.",
+        "en": "I drink a glass of milk every evening.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Milch ist heute abgelaufen.",
+        "en": "The milk expired today.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "food_drink",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_kaffee",
+    "word": "Kaffee",
+    "article": "der",
+    "english": "coffee",
+    "plural": "Kaffees",
+    "plural_article": "die",
+    "genitive": "des Kaffees",
+    "frequency_rank": 55,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich brauche morgens meinen Kaffee.",
+        "en": "I need my coffee in the morning.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Kaffee ist noch heiß.",
+        "en": "The coffee is still hot.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "food_drink",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_sonne",
+    "word": "Sonne",
+    "article": "die",
+    "english": "sun",
+    "plural": "Sonnen",
+    "plural_article": "die",
+    "genitive": "der Sonne",
+    "frequency_rank": 56,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Die Sonne scheint heute sehr hell.",
+        "en": "The sun is shining very brightly today.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Sonne geht im Westen unter.",
+        "en": "The sun sets in the west.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "nature",
+      "weather",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_regen",
+    "word": "Regen",
+    "article": "der",
+    "english": "rain",
+    "plural": "Regen",
+    "plural_article": "die",
+    "genitive": "des Regens",
+    "frequency_rank": 57,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Der Regen hört nicht auf.",
+        "en": "The rain doesn't stop.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich mag keinen Regen.",
+        "en": "I don't like rain.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "nature",
+      "weather",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_berg",
+    "word": "Berg",
+    "article": "der",
+    "english": "mountain",
+    "plural": "Berge",
+    "plural_article": "die",
+    "genitive": "des Berges",
+    "frequency_rank": 58,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Der Berg ist sehr hoch.",
+        "en": "The mountain is very high.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir wandern heute auf den Berg.",
+        "en": "We are hiking up the mountain today.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "nature",
+      "geography",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_fluss",
+    "word": "Fluss",
+    "article": "der",
+    "english": "river",
+    "plural": "Flüsse",
+    "plural_article": "die",
+    "genitive": "des Flusses",
+    "frequency_rank": 59,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Der Fluss fließt durch die Stadt.",
+        "en": "The river flows through the city.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Kinder schwimmen im Fluss.",
+        "en": "The children swim in the river.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "nature",
+      "geography",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_problem",
+    "word": "Problem",
+    "article": "das",
+    "english": "problem",
+    "plural": "Probleme",
+    "plural_article": "die",
+    "genitive": "des Problems",
+    "frequency_rank": 60,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Das Problem ist nicht leicht zu lösen.",
+        "en": "The problem is not easy to solve.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Hast du ein Problem mit meiner Entscheidung?",
+        "en": "Do you have a problem with my decision?",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_idee",
+    "word": "Idee",
+    "article": "die",
+    "english": "idea",
+    "plural": "Ideen",
+    "plural_article": "die",
+    "genitive": "der Idee",
+    "frequency_rank": 61,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Das ist eine gute Idee.",
+        "en": "That is a good idea.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Hast du eine Idee, wie wir das lösen können?",
+        "en": "Do you have an idea how we can solve this?",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "communication",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_meinung",
+    "word": "Meinung",
+    "article": "die",
+    "english": "opinion",
+    "plural": "Meinungen",
+    "plural_article": "die",
+    "genitive": "der Meinung",
+    "frequency_rank": 62,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Was ist deine Meinung dazu?",
+        "en": "What is your opinion on this?",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich bin anderer Meinung als du.",
+        "en": "I have a different opinion than you.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "communication",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_grund",
+    "word": "Grund",
+    "article": "der",
+    "english": "reason",
+    "plural": "Gründe",
+    "plural_article": "die",
+    "genitive": "des Grundes",
+    "frequency_rank": 63,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Was ist der Grund für deine Verspätung?",
+        "en": "What is the reason for your delay?",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Es gibt keinen Grund zur Sorge.",
+        "en": "There is no reason to worry.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "communication",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_weg",
+    "word": "Weg",
+    "article": "der",
+    "english": "way / path",
+    "plural": "Wege",
+    "plural_article": "die",
+    "genitive": "des Weges",
+    "frequency_rank": 64,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich kenne den Weg nicht.",
+        "en": "I don't know the way.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Weg durch den Wald ist lang.",
+        "en": "The path through the forest is long.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "places",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_platz",
+    "word": "Platz",
+    "article": "der",
+    "english": "place / seat / square",
+    "plural": "Plätze",
+    "plural_article": "die",
+    "genitive": "des Platzes",
+    "frequency_rank": 65,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ist hier noch ein Platz frei?",
+        "en": "Is there still a free seat here?",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Platz vor dem Rathaus ist sehr groß.",
+        "en": "The square in front of the town hall is very large.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "places",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_seite",
+    "word": "Seite",
+    "article": "die",
+    "english": "side / page",
+    "plural": "Seiten",
+    "plural_article": "die",
+    "genitive": "der Seite",
+    "frequency_rank": 66,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Bitte lest Seite zwanzig im Buch.",
+        "en": "Please read page twenty in the book.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Auf der anderen Seite des Flusses liegt ein Dorf.",
+        "en": "On the other side of the river there is a village.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "language",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_art",
+    "word": "Art",
+    "article": "die",
+    "english": "type / kind / way",
+    "plural": "Arten",
+    "plural_article": "die",
+    "genitive": "der Art",
+    "frequency_rank": 67,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Das ist eine neue Art zu lernen.",
+        "en": "That is a new way of learning.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Es gibt viele Arten von Tieren im Zoo.",
+        "en": "There are many kinds of animals in the zoo.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_name",
+    "word": "Name",
+    "article": "der",
+    "english": "name",
+    "plural": "Namen",
+    "plural_article": "die",
+    "genitive": "des Namens",
+    "frequency_rank": 68,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Wie ist dein Name?",
+        "en": "What is your name?",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich erinnere mich nicht an seinen Namen.",
+        "en": "I don't remember his name.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "communication",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_kopf",
+    "word": "Kopf",
+    "article": "der",
+    "english": "head",
+    "plural": "Köpfe",
+    "plural_article": "die",
+    "genitive": "des Kopfes",
+    "frequency_rank": 69,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich habe Schmerzen im Kopf.",
+        "en": "I have pain in my head.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er schüttelt den Kopf.",
+        "en": "He shakes his head.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "body",
+      "health",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_hand",
+    "word": "Hand",
+    "article": "die",
+    "english": "hand",
+    "plural": "Hände",
+    "plural_article": "die",
+    "genitive": "der Hand",
+    "frequency_rank": 70,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Sie gibt mir die Hand zur Begrüßung.",
+        "en": "She gives me her hand in greeting.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Hand ist kalt.",
+        "en": "The hand is cold.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "body",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_herz",
+    "word": "Herz",
+    "article": "das",
+    "english": "heart",
+    "plural": "Herzen",
+    "plural_article": "die",
+    "genitive": "des Herzens",
+    "frequency_rank": 71,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Das Herz schlägt sehr schnell.",
+        "en": "The heart beats very fast.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er hat ein gutes Herz.",
+        "en": "He has a good heart.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "body",
+      "health",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_stimme",
+    "word": "Stimme",
+    "article": "die",
+    "english": "voice",
+    "plural": "Stimmen",
+    "plural_article": "die",
+    "genitive": "der Stimme",
+    "frequency_rank": 72,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Sie hat eine schöne Stimme.",
+        "en": "She has a beautiful voice.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich erkenne seine Stimme sofort.",
+        "en": "I recognise his voice immediately.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "body",
+      "communication",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_gesicht",
+    "word": "Gesicht",
+    "article": "das",
+    "english": "face",
+    "plural": "Gesichter",
+    "plural_article": "die",
+    "genitive": "des Gesichts",
+    "frequency_rank": 73,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Das Gesicht des Kindes ist sehr süß.",
+        "en": "The child's face is very sweet.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Sie wäscht sich das Gesicht.",
+        "en": "She washes her face.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "body",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_zug",
+    "word": "Zug",
+    "article": "der",
+    "english": "train",
+    "plural": "Züge",
+    "plural_article": "die",
+    "genitive": "des Zuges",
+    "frequency_rank": 74,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Der Zug fährt um acht Uhr ab.",
+        "en": "The train departs at eight o'clock.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich nehme den Zug nach Berlin.",
+        "en": "I take the train to Berlin.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "transport",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_preis",
+    "word": "Preis",
+    "article": "der",
+    "english": "price / prize",
+    "plural": "Preise",
+    "plural_article": "die",
+    "genitive": "des Preises",
+    "frequency_rank": 75,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Der Preis ist leider zu hoch.",
+        "en": "The price is unfortunately too high.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Sie hat einen Preis für ihr Buch gewonnen.",
+        "en": "She won a prize for her book.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "finance",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "noun_erfahrung",
+    "word": "Erfahrung",
+    "article": "die",
+    "english": "experience",
+    "plural": "Erfahrungen",
+    "plural_article": "die",
+    "genitive": "der Erfahrung",
+    "frequency_rank": 76,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Er hat viel Erfahrung in diesem Beruf.",
+        "en": "He has a lot of experience in this profession.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Erfahrung zeigt, dass das nicht einfach ist.",
+        "en": "Experience shows that this is not easy.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "work",
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_entwicklung",
+    "word": "Entwicklung",
+    "article": "die",
+    "english": "development",
+    "plural": "Entwicklungen",
+    "plural_article": "die",
+    "genitive": "der Entwicklung",
+    "frequency_rank": 77,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Entwicklung der Technik geht sehr schnell.",
+        "en": "The development of technology is very fast.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Diese Entwicklung ist sehr positiv.",
+        "en": "This development is very positive.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "technology",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_bedeutung",
+    "word": "Bedeutung",
+    "article": "die",
+    "english": "meaning / importance",
+    "plural": "Bedeutungen",
+    "plural_article": "die",
+    "genitive": "der Bedeutung",
+    "frequency_rank": 78,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Bedeutung dieses Wortes kenne ich nicht.",
+        "en": "I don't know the meaning of this word.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das hat eine große Bedeutung für uns.",
+        "en": "That has great importance for us.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "language",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_moeglichkeit",
+    "word": "Möglichkeit",
+    "article": "die",
+    "english": "possibility",
+    "plural": "Möglichkeiten",
+    "plural_article": "die",
+    "genitive": "der Möglichkeit",
+    "frequency_rank": 79,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Es gibt immer eine Möglichkeit, das zu lösen.",
+        "en": "There is always a possibility to solve this.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir haben viele Möglichkeiten.",
+        "en": "We have many possibilities.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_veraenderung",
+    "word": "Veränderung",
+    "article": "die",
+    "english": "change",
+    "plural": "Veränderungen",
+    "plural_article": "die",
+    "genitive": "der Veränderung",
+    "frequency_rank": 80,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Veränderung kam sehr plötzlich.",
+        "en": "The change came very suddenly.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Veränderungen sind manchmal schwer.",
+        "en": "Changes are sometimes difficult.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_entscheidung",
+    "word": "Entscheidung",
+    "article": "die",
+    "english": "decision",
+    "plural": "Entscheidungen",
+    "plural_article": "die",
+    "genitive": "der Entscheidung",
+    "frequency_rank": 81,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Es war eine schwierige Entscheidung.",
+        "en": "It was a difficult decision.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Entscheidung liegt bei dir.",
+        "en": "The decision is up to you.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_gesellschaft",
+    "word": "Gesellschaft",
+    "article": "die",
+    "english": "society",
+    "plural": "Gesellschaften",
+    "plural_article": "die",
+    "genitive": "der Gesellschaft",
+    "frequency_rank": 82,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Gesellschaft verändert sich ständig.",
+        "en": "Society is constantly changing.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er ist wichtig für die Gesellschaft.",
+        "en": "He is important for society.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_wirtschaft",
+    "word": "Wirtschaft",
+    "article": "die",
+    "english": "economy",
+    "plural": "Wirtschaften",
+    "plural_article": "die",
+    "genitive": "der Wirtschaft",
+    "frequency_rank": 83,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Wirtschaft wächst dieses Jahr stark.",
+        "en": "The economy is growing strongly this year.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Wirtschaft ist ein wichtiges Thema.",
+        "en": "The economy is an important topic.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "finance",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_wissenschaft",
+    "word": "Wissenschaft",
+    "article": "die",
+    "english": "science",
+    "plural": "Wissenschaften",
+    "plural_article": "die",
+    "genitive": "der Wissenschaft",
+    "frequency_rank": 84,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Wissenschaft macht große Fortschritte.",
+        "en": "Science is making great progress.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er interessiert sich sehr für Wissenschaft.",
+        "en": "He is very interested in science.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "education",
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_sprache",
+    "word": "Sprache",
+    "article": "die",
+    "english": "language",
+    "plural": "Sprachen",
+    "plural_article": "die",
+    "genitive": "der Sprache",
+    "frequency_rank": 85,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die deutsche Sprache ist nicht leicht.",
+        "en": "The German language is not easy.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich lerne gerade eine neue Sprache.",
+        "en": "I am currently learning a new language.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "language",
+      "education",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_kultur",
+    "word": "Kultur",
+    "article": "die",
+    "english": "culture",
+    "plural": "Kulturen",
+    "plural_article": "die",
+    "genitive": "der Kultur",
+    "frequency_rank": 86,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Kultur Deutschlands ist sehr reich.",
+        "en": "The culture of Germany is very rich.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich finde andere Kulturen sehr interessant.",
+        "en": "I find other cultures very interesting.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_umgebung",
+    "word": "Umgebung",
+    "article": "die",
+    "english": "surroundings / environment",
+    "plural": "Umgebungen",
+    "plural_article": "die",
+    "genitive": "der Umgebung",
+    "frequency_rank": 87,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Umgebung der Stadt ist sehr schön.",
+        "en": "The surroundings of the city are very beautiful.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich kenne meine Umgebung gut.",
+        "en": "I know my surroundings well.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "nature",
+      "places",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_loesung",
+    "word": "Lösung",
+    "article": "die",
+    "english": "solution",
+    "plural": "Lösungen",
+    "plural_article": "die",
+    "genitive": "der Lösung",
+    "frequency_rank": 88,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Wir suchen eine Lösung für das Problem.",
+        "en": "We are looking for a solution to the problem.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Lösung war einfacher als gedacht.",
+        "en": "The solution was simpler than expected.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_aufgabe",
+    "word": "Aufgabe",
+    "article": "die",
+    "english": "task",
+    "plural": "Aufgaben",
+    "plural_article": "die",
+    "genitive": "der Aufgabe",
+    "frequency_rank": 89,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Diese Aufgabe ist sehr schwierig.",
+        "en": "This task is very difficult.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich habe noch viele Aufgaben zu erledigen.",
+        "en": "I still have many tasks to complete.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "work",
+      "education",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_wirkung",
+    "word": "Wirkung",
+    "article": "die",
+    "english": "effect",
+    "plural": "Wirkungen",
+    "plural_article": "die",
+    "genitive": "der Wirkung",
+    "frequency_rank": 90,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Das Medikament hat eine starke Wirkung.",
+        "en": "The medicine has a strong effect.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Wirkung des Trainings ist sichtbar.",
+        "en": "The effect of the training is visible.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "health",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_verhaeltnis",
+    "word": "Verhältnis",
+    "article": "das",
+    "english": "relationship / ratio",
+    "plural": "Verhältnisse",
+    "plural_article": "die",
+    "genitive": "des Verhältnisses",
+    "frequency_rank": 91,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Das Verhältnis zwischen den Ländern ist gut.",
+        "en": "The relationship between the countries is good.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Verhältnis von Arbeit zu Freizeit ist wichtig.",
+        "en": "The ratio of work to leisure time is important.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_ergebnis",
+    "word": "Ergebnis",
+    "article": "das",
+    "english": "result",
+    "plural": "Ergebnisse",
+    "plural_article": "die",
+    "genitive": "des Ergebnisses",
+    "frequency_rank": 92,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Das Ergebnis des Tests war gut.",
+        "en": "The result of the test was good.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir warten auf das Ergebnis.",
+        "en": "We are waiting for the result.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "education",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_beispiel",
+    "word": "Beispiel",
+    "article": "das",
+    "english": "example",
+    "plural": "Beispiele",
+    "plural_article": "die",
+    "genitive": "des Beispiels",
+    "frequency_rank": 93,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Kannst du mir ein Beispiel geben?",
+        "en": "Can you give me an example?",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das ist ein gutes Beispiel.",
+        "en": "That is a good example.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "language",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_angebot",
+    "word": "Angebot",
+    "article": "das",
+    "english": "offer",
+    "plural": "Angebote",
+    "plural_article": "die",
+    "genitive": "des Angebots",
+    "frequency_rank": 94,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Das Angebot klingt sehr gut.",
+        "en": "The offer sounds very good.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Im Supermarkt gibt es viele Angebote.",
+        "en": "There are many special offers in the supermarket.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "finance",
+      "daily_life",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_interesse",
+    "word": "Interesse",
+    "article": "das",
+    "english": "interest",
+    "plural": "Interessen",
+    "plural_article": "die",
+    "genitive": "des Interesses",
+    "frequency_rank": 95,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Das Interesse an Kunst ist gewachsen.",
+        "en": "Interest in art has grown.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich habe kein Interesse daran.",
+        "en": "I have no interest in that.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_verhalten",
+    "word": "Verhalten",
+    "article": "das",
+    "english": "behaviour",
+    "plural": "Verhalten",
+    "plural_article": "die",
+    "genitive": "des Verhaltens",
+    "frequency_rank": 96,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Das Verhalten des Kindes ist seltsam.",
+        "en": "The child's behaviour is strange.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ihr Verhalten war sehr professionell.",
+        "en": "Her behaviour was very professional.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_ziel",
+    "word": "Ziel",
+    "article": "das",
+    "english": "goal / aim",
+    "plural": "Ziele",
+    "plural_article": "die",
+    "genitive": "des Ziels",
+    "frequency_rank": 97,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Mein Ziel ist es, fließend Deutsch zu sprechen.",
+        "en": "My goal is to speak German fluently.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Ziel ist noch weit entfernt.",
+        "en": "The goal is still far away.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_thema",
+    "word": "Thema",
+    "article": "das",
+    "english": "topic / theme",
+    "plural": "Themen",
+    "plural_article": "die",
+    "genitive": "des Themas",
+    "frequency_rank": 98,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Das Thema der Diskussion ist Klimawandel.",
+        "en": "The topic of the discussion is climate change.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Dieses Thema interessiert mich sehr.",
+        "en": "This topic interests me very much.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "language",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_recht",
+    "word": "Recht",
+    "article": "das",
+    "english": "right / law",
+    "plural": "Rechte",
+    "plural_article": "die",
+    "genitive": "des Rechts",
+    "frequency_rank": 99,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Jeder Mensch hat das Recht auf Freiheit.",
+        "en": "Every person has the right to freedom.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das ist mein gutes Recht.",
+        "en": "That is my legal right.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_gebiet",
+    "word": "Gebiet",
+    "article": "das",
+    "english": "area / field",
+    "plural": "Gebiete",
+    "plural_article": "die",
+    "genitive": "des Gebiets",
+    "frequency_rank": 100,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "In diesem Gebiet kenne ich mich gut aus.",
+        "en": "I know my way around in this field.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das ist ein gefährliches Gebiet.",
+        "en": "That is a dangerous area.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "places",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_einfluss",
+    "word": "Einfluss",
+    "article": "der",
+    "english": "influence",
+    "plural": "Einflüsse",
+    "plural_article": "die",
+    "genitive": "des Einflusses",
+    "frequency_rank": 101,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Der Einfluss der Medien ist sehr groß.",
+        "en": "The influence of the media is very great.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er hat großen Einfluss auf die Entscheidung.",
+        "en": "He has great influence on the decision.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_unterschied",
+    "word": "Unterschied",
+    "article": "der",
+    "english": "difference",
+    "plural": "Unterschiede",
+    "plural_article": "die",
+    "genitive": "des Unterschieds",
+    "frequency_rank": 102,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Was ist der Unterschied zwischen diesen beiden Wörtern?",
+        "en": "What is the difference between these two words?",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Es gibt einen großen Unterschied.",
+        "en": "There is a big difference.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "language",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_zusammenhang",
+    "word": "Zusammenhang",
+    "article": "der",
+    "english": "connection / context",
+    "plural": "Zusammenhänge",
+    "plural_article": "die",
+    "genitive": "des Zusammenhangs",
+    "frequency_rank": 103,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Ich verstehe den Zusammenhang nicht.",
+        "en": "I don't understand the connection.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das muss im Zusammenhang gesehen werden.",
+        "en": "This must be seen in context.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "language",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_bereich",
+    "word": "Bereich",
+    "article": "der",
+    "english": "area / field / sector",
+    "plural": "Bereiche",
+    "plural_article": "die",
+    "genitive": "des Bereichs",
+    "frequency_rank": 104,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "In diesem Bereich bin ich Experte.",
+        "en": "I am an expert in this field.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Bereich der Medizin entwickelt sich schnell.",
+        "en": "The field of medicine is developing quickly.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_inhalt",
+    "word": "Inhalt",
+    "article": "der",
+    "english": "content",
+    "plural": "Inhalte",
+    "plural_article": "die",
+    "genitive": "des Inhalts",
+    "frequency_rank": 105,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Der Inhalt des Buches ist sehr interessant.",
+        "en": "The content of the book is very interesting.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich habe den Inhalt nicht verstanden.",
+        "en": "I did not understand the content.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "language",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_ausdruck",
+    "word": "Ausdruck",
+    "article": "der",
+    "english": "expression",
+    "plural": "Ausdrücke",
+    "plural_article": "die",
+    "genitive": "des Ausdrucks",
+    "frequency_rank": 106,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Dieser Ausdruck ist sehr typisch für die Mundart.",
+        "en": "This expression is very typical of the dialect.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich suche den richtigen Ausdruck.",
+        "en": "I am looking for the right expression.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "language",
+      "communication",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_fehler",
+    "word": "Fehler",
+    "article": "der",
+    "english": "mistake",
+    "plural": "Fehler",
+    "plural_article": "die",
+    "genitive": "des Fehlers",
+    "frequency_rank": 107,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Ich habe einen Fehler gemacht.",
+        "en": "I made a mistake.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Fehler liegt im zweiten Satz.",
+        "en": "The mistake is in the second sentence.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "education",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_vorteil",
+    "word": "Vorteil",
+    "article": "der",
+    "english": "advantage",
+    "plural": "Vorteile",
+    "plural_article": "die",
+    "genitive": "des Vorteils",
+    "frequency_rank": 108,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Das hat einen großen Vorteil für uns.",
+        "en": "That has a great advantage for us.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Vorteil dieser Methode ist die Schnelligkeit.",
+        "en": "The advantage of this method is its speed.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_nachteil",
+    "word": "Nachteil",
+    "article": "der",
+    "english": "disadvantage",
+    "plural": "Nachteile",
+    "plural_article": "die",
+    "genitive": "des Nachteils",
+    "frequency_rank": 109,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Der Nachteil ist der hohe Preis.",
+        "en": "The disadvantage is the high price.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Es gibt auch Nachteile bei dieser Lösung.",
+        "en": "There are also disadvantages with this solution.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_einwohner",
+    "word": "Einwohner",
+    "article": "der",
+    "english": "inhabitant",
+    "plural": "Einwohner",
+    "plural_article": "die",
+    "genitive": "des Einwohners",
+    "frequency_rank": 110,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Stadt hat drei Millionen Einwohner.",
+        "en": "The city has three million inhabitants.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Einwohner der Stadt kennt jeden Weg.",
+        "en": "The inhabitant of the city knows every path.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "people",
+      "places",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_zustand",
+    "word": "Zustand",
+    "article": "der",
+    "english": "condition / state",
+    "plural": "Zustände",
+    "plural_article": "die",
+    "genitive": "des Zustands",
+    "frequency_rank": 111,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Das Auto ist in einem schlechten Zustand.",
+        "en": "The car is in a bad condition.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Zustand des Patienten hat sich verbessert.",
+        "en": "The patient's condition has improved.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "health",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_verlust",
+    "word": "Verlust",
+    "article": "der",
+    "english": "loss",
+    "plural": "Verluste",
+    "plural_article": "die",
+    "genitive": "des Verlustes",
+    "frequency_rank": 112,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Der Verlust war sehr schmerzhaft.",
+        "en": "The loss was very painful.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Unternehmen hat große Verluste gemacht.",
+        "en": "The company made great losses.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "finance",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_fortschritt",
+    "word": "Fortschritt",
+    "article": "der",
+    "english": "progress",
+    "plural": "Fortschritte",
+    "plural_article": "die",
+    "genitive": "des Fortschritts",
+    "frequency_rank": 113,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Der Fortschritt in der Medizin ist beeindruckend.",
+        "en": "The progress in medicine is impressive.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich mache gute Fortschritte beim Deutschlernen.",
+        "en": "I am making good progress learning German.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_beitrag",
+    "word": "Beitrag",
+    "article": "der",
+    "english": "contribution",
+    "plural": "Beiträge",
+    "plural_article": "die",
+    "genitive": "des Beitrags",
+    "frequency_rank": 114,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Sein Beitrag zum Projekt war sehr wichtig.",
+        "en": "His contribution to the project was very important.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Sie leistet einen großen Beitrag zur Gesellschaft.",
+        "en": "She makes a great contribution to society.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_zweck",
+    "word": "Zweck",
+    "article": "der",
+    "english": "purpose",
+    "plural": "Zwecke",
+    "plural_article": "die",
+    "genitive": "des Zwecks",
+    "frequency_rank": 115,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Was ist der Zweck dieser Übung?",
+        "en": "What is the purpose of this exercise?",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Zweck heiligt nicht immer die Mittel.",
+        "en": "The end does not always justify the means.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_krankenhaus",
+    "word": "Krankenhaus",
+    "article": "das",
+    "english": "hospital",
+    "plural": "Krankenhäuser",
+    "plural_article": "die",
+    "genitive": "des Krankenhauses",
+    "frequency_rank": 116,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Er liegt seit einer Woche im Krankenhaus.",
+        "en": "He has been in hospital for a week.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Krankenhaus ist gut ausgestattet.",
+        "en": "The hospital is well equipped.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "health",
+      "places",
+      "buildings",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_rathaus",
+    "word": "Rathaus",
+    "article": "das",
+    "english": "town hall",
+    "plural": "Rathäuser",
+    "plural_article": "die",
+    "genitive": "des Rathauses",
+    "frequency_rank": 117,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Das Rathaus liegt in der Stadtmitte.",
+        "en": "The town hall is in the city centre.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir haben unsere Ehe im Rathaus angemeldet.",
+        "en": "We registered our marriage at the town hall.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "buildings",
+      "places",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_flughafen",
+    "word": "Flughafen",
+    "article": "der",
+    "english": "airport",
+    "plural": "Flughäfen",
+    "plural_article": "die",
+    "genitive": "des Flughafens",
+    "frequency_rank": 118,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Der Flughafen ist sehr weit von der Stadt entfernt.",
+        "en": "The airport is very far from the city.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir müssen um fünf Uhr am Flughafen sein.",
+        "en": "We have to be at the airport at five o'clock.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "transport",
+      "places",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_umwelt",
+    "word": "Umwelt",
+    "article": "die",
+    "english": "environment",
+    "plural": "Umwelten",
+    "plural_article": "die",
+    "genitive": "der Umwelt",
+    "frequency_rank": 119,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Wir müssen die Umwelt schützen.",
+        "en": "We must protect the environment.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Umwelt leidet unter der Industrie.",
+        "en": "The environment suffers from industry.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "nature",
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_energie",
+    "word": "Energie",
+    "article": "die",
+    "english": "energy",
+    "plural": "Energien",
+    "plural_article": "die",
+    "genitive": "der Energie",
+    "frequency_rank": 120,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Erneuerbare Energie ist die Zukunft.",
+        "en": "Renewable energy is the future.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Ich habe heute keine Energie.",
+        "en": "I have no energy today.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "technology",
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_technik",
+    "word": "Technik",
+    "article": "die",
+    "english": "technology / technique",
+    "plural": "Techniken",
+    "plural_article": "die",
+    "genitive": "der Technik",
+    "frequency_rank": 121,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die moderne Technik macht vieles einfacher.",
+        "en": "Modern technology makes many things easier.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er beherrscht diese Technik sehr gut.",
+        "en": "He has mastered this technique very well.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "technology",
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_gesundheit",
+    "word": "Gesundheit",
+    "article": "die",
+    "english": "health",
+    "plural": "Gesundheiten",
+    "plural_article": "die",
+    "genitive": "der Gesundheit",
+    "frequency_rank": 122,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Gesundheit ist das Wichtigste im Leben.",
+        "en": "Health is the most important thing in life.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Sie achtet sehr auf ihre Gesundheit.",
+        "en": "She pays close attention to her health.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "health",
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_gewalt",
+    "word": "Gewalt",
+    "article": "die",
+    "english": "violence / force",
+    "plural": "Gewalten",
+    "plural_article": "die",
+    "genitive": "der Gewalt",
+    "frequency_rank": 123,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Gewalt ist keine Lösung.",
+        "en": "Violence is not a solution.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Gewalt des Sturms war unglaublich.",
+        "en": "The force of the storm was incredible.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_freiheit",
+    "word": "Freiheit",
+    "article": "die",
+    "english": "freedom",
+    "plural": "Freiheiten",
+    "plural_article": "die",
+    "genitive": "der Freiheit",
+    "frequency_rank": 124,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Freiheit ist ein grundlegendes Menschenrecht.",
+        "en": "Freedom is a fundamental human right.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Freiheit der Presse ist wichtig.",
+        "en": "The freedom of the press is important.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_verantwortung",
+    "word": "Verantwortung",
+    "article": "die",
+    "english": "responsibility",
+    "plural": "Verantwortungen",
+    "plural_article": "die",
+    "genitive": "der Verantwortung",
+    "frequency_rank": 125,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Du trägst die Verantwortung für dieses Projekt.",
+        "en": "You bear the responsibility for this project.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Verantwortung zu übernehmen ist schwierig.",
+        "en": "Taking on responsibility is difficult.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b1"
+    ]
+  },
+  {
+    "id": "noun_auseinandersetzung",
+    "word": "Auseinandersetzung",
+    "article": "die",
+    "english": "dispute / confrontation",
+    "plural": "Auseinandersetzungen",
+    "plural_article": "die",
+    "genitive": "der Auseinandersetzung",
+    "frequency_rank": 126,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Auseinandersetzung zwischen den Parteien war heftig.",
+        "en": "The dispute between the parties was fierce.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er hat die Auseinandersetzung sachlich geführt.",
+        "en": "He conducted the confrontation in a factual manner.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "communication",
+      "social",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_anerkennung",
+    "word": "Anerkennung",
+    "article": "die",
+    "english": "recognition / acknowledgement",
+    "plural": "Anerkennungen",
+    "plural_article": "die",
+    "genitive": "der Anerkennung",
+    "frequency_rank": 127,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Sie verdient Anerkennung für ihre Arbeit.",
+        "en": "She deserves recognition for her work.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Anerkennung seines Abschlusses dauerte lange.",
+        "en": "The recognition of his qualification took a long time.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_herausforderung",
+    "word": "Herausforderung",
+    "article": "die",
+    "english": "challenge",
+    "plural": "Herausforderungen",
+    "plural_article": "die",
+    "genitive": "der Herausforderung",
+    "frequency_rank": 128,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das ist eine große Herausforderung für uns alle.",
+        "en": "That is a great challenge for all of us.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er stellt sich der Herausforderung.",
+        "en": "He is facing up to the challenge.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_umsetzung",
+    "word": "Umsetzung",
+    "article": "die",
+    "english": "implementation",
+    "plural": "Umsetzungen",
+    "plural_article": "die",
+    "genitive": "der Umsetzung",
+    "frequency_rank": 129,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Umsetzung des Plans erfordert viel Arbeit.",
+        "en": "The implementation of the plan requires a lot of work.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Umsetzung scheiterte an finanziellen Problemen.",
+        "en": "The implementation failed due to financial problems.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_ueberzeugung",
+    "word": "Überzeugung",
+    "article": "die",
+    "english": "conviction / belief",
+    "plural": "Überzeugungen",
+    "plural_article": "die",
+    "genitive": "der Überzeugung",
+    "frequency_rank": 130,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Er handelt aus Überzeugung.",
+        "en": "He acts out of conviction.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Meine Überzeugung ist, dass Bildung wichtig ist.",
+        "en": "My conviction is that education is important.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_voraussetzung",
+    "word": "Voraussetzung",
+    "article": "die",
+    "english": "prerequisite",
+    "plural": "Voraussetzungen",
+    "plural_article": "die",
+    "genitive": "der Voraussetzung",
+    "frequency_rank": 131,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Eine gute Ausbildung ist die Voraussetzung für diesen Job.",
+        "en": "A good education is the prerequisite for this job.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Voraussetzungen für das Projekt sind erfüllt.",
+        "en": "The prerequisites for the project are met.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_wahrnehmung",
+    "word": "Wahrnehmung",
+    "article": "die",
+    "english": "perception",
+    "plural": "Wahrnehmungen",
+    "plural_article": "die",
+    "genitive": "der Wahrnehmung",
+    "frequency_rank": 132,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Wahrnehmung der Realität ist subjektiv.",
+        "en": "The perception of reality is subjective.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Seine Wahrnehmung des Problems ist verzerrt.",
+        "en": "His perception of the problem is distorted.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_beruecksichtigung",
+    "word": "Berücksichtigung",
+    "article": "die",
+    "english": "consideration",
+    "plural": "Berücksichtigungen",
+    "plural_article": "die",
+    "genitive": "der Berücksichtigung",
+    "frequency_rank": 133,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Unter Berücksichtigung aller Faktoren ist die Entscheidung richtig.",
+        "en": "Taking all factors into consideration, the decision is correct.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Berücksichtigung der Kosten ist wichtig.",
+        "en": "The consideration of costs is important.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_durchfuehrung",
+    "word": "Durchführung",
+    "article": "die",
+    "english": "implementation / execution",
+    "plural": "Durchführungen",
+    "plural_article": "die",
+    "genitive": "der Durchführung",
+    "frequency_rank": 134,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Durchführung des Projekts begann im Januar.",
+        "en": "The implementation of the project began in January.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Für die Durchführung sind drei Personen zuständig.",
+        "en": "Three people are responsible for the execution.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_einschraenkung",
+    "word": "Einschränkung",
+    "article": "die",
+    "english": "restriction / limitation",
+    "plural": "Einschränkungen",
+    "plural_article": "die",
+    "genitive": "der Einschränkung",
+    "frequency_rank": 135,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die neuen Regeln bringen viele Einschränkungen.",
+        "en": "The new rules bring many restrictions.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Diese Einschränkung gilt für alle.",
+        "en": "This restriction applies to everyone.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_foerderung",
+    "word": "Förderung",
+    "article": "die",
+    "english": "promotion / funding",
+    "plural": "Förderungen",
+    "plural_article": "die",
+    "genitive": "der Förderung",
+    "frequency_rank": 136,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Förderung junger Talente ist sehr wichtig.",
+        "en": "The promotion of young talents is very important.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Projekt erhält staatliche Förderung.",
+        "en": "The project receives state funding.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "education",
+      "finance",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_grundlage",
+    "word": "Grundlage",
+    "article": "die",
+    "english": "basis / foundation",
+    "plural": "Grundlagen",
+    "plural_article": "die",
+    "genitive": "der Grundlage",
+    "frequency_rank": 137,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Vertrauen ist die Grundlage jeder guten Beziehung.",
+        "en": "Trust is the foundation of every good relationship.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Auf dieser Grundlage können wir weiterarbeiten.",
+        "en": "On this basis we can continue working.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_haltung",
+    "word": "Haltung",
+    "article": "die",
+    "english": "attitude / posture",
+    "plural": "Haltungen",
+    "plural_article": "die",
+    "genitive": "der Haltung",
+    "frequency_rank": 138,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Seine Haltung zu diesem Thema hat sich verändert.",
+        "en": "His attitude to this topic has changed.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Eine aufrechte Haltung ist gesund für den Rücken.",
+        "en": "An upright posture is healthy for the back.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "body",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_leistung",
+    "word": "Leistung",
+    "article": "die",
+    "english": "performance / achievement",
+    "plural": "Leistungen",
+    "plural_article": "die",
+    "genitive": "der Leistung",
+    "frequency_rank": 139,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Seine schulische Leistung ist sehr gut.",
+        "en": "His academic performance is very good.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Leistung des Motors ist beeindruckend.",
+        "en": "The performance of the engine is impressive.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "education",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_massnahme",
+    "word": "Maßnahme",
+    "article": "die",
+    "english": "measure / step",
+    "plural": "Maßnahmen",
+    "plural_article": "die",
+    "genitive": "der Maßnahme",
+    "frequency_rank": 140,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Regierung ergreift strenge Maßnahmen.",
+        "en": "The government is taking strict measures.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Diese Maßnahme ist notwendig.",
+        "en": "This measure is necessary.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_mehrheit",
+    "word": "Mehrheit",
+    "article": "die",
+    "english": "majority",
+    "plural": "Mehrheiten",
+    "plural_article": "die",
+    "genitive": "der Mehrheit",
+    "frequency_rank": 141,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Mehrheit der Bevölkerung ist dafür.",
+        "en": "The majority of the population is in favour.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Gesetz wurde mit großer Mehrheit verabschiedet.",
+        "en": "The law was passed with a large majority.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_schicht",
+    "word": "Schicht",
+    "article": "die",
+    "english": "layer / class / shift",
+    "plural": "Schichten",
+    "plural_article": "die",
+    "genitive": "der Schicht",
+    "frequency_rank": 142,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Er arbeitet in der Nachtschicht.",
+        "en": "He works the night shift.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die gesellschaftliche Schicht bestimmt viele Chancen.",
+        "en": "The social class determines many opportunities.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_tendenz",
+    "word": "Tendenz",
+    "article": "die",
+    "english": "tendency / trend",
+    "plural": "Tendenzen",
+    "plural_article": "die",
+    "genitive": "der Tendenz",
+    "frequency_rank": 143,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Es gibt eine Tendenz zu mehr Homeoffice.",
+        "en": "There is a tendency towards more working from home.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Tendenz ist klar erkennbar.",
+        "en": "The trend is clearly recognisable.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_verfassung",
+    "word": "Verfassung",
+    "article": "die",
+    "english": "constitution / condition",
+    "plural": "Verfassungen",
+    "plural_article": "die",
+    "genitive": "der Verfassung",
+    "frequency_rank": 144,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Verfassung schützt die Grundrechte der Bürger.",
+        "en": "The constitution protects citizens' fundamental rights.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er ist in guter körperlicher Verfassung.",
+        "en": "He is in good physical condition.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "health",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_wirklichkeit",
+    "word": "Wirklichkeit",
+    "article": "die",
+    "english": "reality",
+    "plural": "Wirklichkeiten",
+    "plural_article": "die",
+    "genitive": "der Wirklichkeit",
+    "frequency_rank": 145,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "In der Wirklichkeit sieht das ganz anders aus.",
+        "en": "In reality it looks quite different.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er flieht vor der Wirklichkeit.",
+        "en": "He is fleeing from reality.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_ausmass",
+    "word": "Ausmaß",
+    "article": "das",
+    "english": "extent / scale",
+    "plural": "Ausmaße",
+    "plural_article": "die",
+    "genitive": "des Ausmaßes",
+    "frequency_rank": 146,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das Ausmaß des Schadens ist enorm.",
+        "en": "The extent of the damage is enormous.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Ausmaß der Krise wurde unterschätzt.",
+        "en": "The scale of the crisis was underestimated.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_bewusstsein",
+    "word": "Bewusstsein",
+    "article": "das",
+    "english": "consciousness / awareness",
+    "plural": "Bewusstseine",
+    "plural_article": "die",
+    "genitive": "des Bewusstseins",
+    "frequency_rank": 147,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das Bewusstsein für Umweltprobleme wächst.",
+        "en": "Awareness of environmental problems is growing.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er verlor das Bewusstsein nach dem Unfall.",
+        "en": "He lost consciousness after the accident.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "health",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_gleichgewicht",
+    "word": "Gleichgewicht",
+    "article": "das",
+    "english": "balance / equilibrium",
+    "plural": "Gleichgewichte",
+    "plural_article": "die",
+    "genitive": "des Gleichgewichts",
+    "frequency_rank": 148,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das Gleichgewicht zwischen Arbeit und Freizeit ist wichtig.",
+        "en": "The balance between work and leisure is important.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er verlor das Gleichgewicht und fiel hin.",
+        "en": "He lost his balance and fell.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_konzept",
+    "word": "Konzept",
+    "article": "das",
+    "english": "concept / plan",
+    "plural": "Konzepte",
+    "plural_article": "die",
+    "genitive": "des Konzepts",
+    "frequency_rank": 149,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das Konzept des Projekts ist überzeugend.",
+        "en": "The concept of the project is convincing.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir haben noch kein klares Konzept.",
+        "en": "We don't have a clear plan yet.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_kriterium",
+    "word": "Kriterium",
+    "article": "das",
+    "english": "criterion",
+    "plural": "Kriterien",
+    "plural_article": "die",
+    "genitive": "des Kriteriums",
+    "frequency_rank": 150,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das wichtigste Kriterium ist die Qualität.",
+        "en": "The most important criterion is quality.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Bewerber müssen mehrere Kriterien erfüllen.",
+        "en": "The applicants must meet several criteria.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_merkmal",
+    "word": "Merkmal",
+    "article": "das",
+    "english": "characteristic / feature",
+    "plural": "Merkmale",
+    "plural_article": "die",
+    "genitive": "des Merkmals",
+    "frequency_rank": 151,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Ein typisches Merkmal dieser Sprache ist die Wortstellung.",
+        "en": "A typical characteristic of this language is word order.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das ist ein wichtiges Merkmal guter Führung.",
+        "en": "That is an important feature of good leadership.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "language",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_phaenomen",
+    "word": "Phänomen",
+    "article": "das",
+    "english": "phenomenon",
+    "plural": "Phänomene",
+    "plural_article": "die",
+    "genitive": "des Phänomens",
+    "frequency_rank": 152,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das ist ein interessantes soziales Phänomen.",
+        "en": "That is an interesting social phenomenon.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Wissenschaft untersucht dieses Phänomen.",
+        "en": "Science is investigating this phenomenon.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "education",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_prinzip",
+    "word": "Prinzip",
+    "article": "das",
+    "english": "principle",
+    "plural": "Prinzipien",
+    "plural_article": "die",
+    "genitive": "des Prinzips",
+    "frequency_rank": 153,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das Prinzip der Gleichheit gilt für alle.",
+        "en": "The principle of equality applies to everyone.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er handelt nach diesem Prinzip.",
+        "en": "He acts according to this principle.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_risiko",
+    "word": "Risiko",
+    "article": "das",
+    "english": "risk",
+    "plural": "Risiken",
+    "plural_article": "die",
+    "genitive": "des Risikos",
+    "frequency_rank": 154,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das Risiko ist zu hoch.",
+        "en": "The risk is too high.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir müssen das Risiko abwägen.",
+        "en": "We must weigh up the risk.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_scheitern",
+    "word": "Scheitern",
+    "article": "das",
+    "english": "failure / failing",
+    "plural": "Scheitern",
+    "plural_article": "die",
+    "genitive": "des Scheiterns",
+    "frequency_rank": 155,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das Scheitern des Projekts war unvermeidlich.",
+        "en": "The failure of the project was inevitable.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Aus dem Scheitern kann man viel lernen.",
+        "en": "You can learn a lot from failure.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_ansatz",
+    "word": "Ansatz",
+    "article": "der",
+    "english": "approach / starting point",
+    "plural": "Ansätze",
+    "plural_article": "die",
+    "genitive": "des Ansatzes",
+    "frequency_rank": 156,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Dieser Ansatz ist sehr innovativ.",
+        "en": "This approach is very innovative.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir brauchen einen neuen Ansatz für das Problem.",
+        "en": "We need a new approach to the problem.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_aspekt",
+    "word": "Aspekt",
+    "article": "der",
+    "english": "aspect",
+    "plural": "Aspekte",
+    "plural_article": "die",
+    "genitive": "des Aspekts",
+    "frequency_rank": 157,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Dieser Aspekt des Problems wurde übersehen.",
+        "en": "This aspect of the problem was overlooked.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Man muss alle Aspekte berücksichtigen.",
+        "en": "One must take all aspects into consideration.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_aufwand",
+    "word": "Aufwand",
+    "article": "der",
+    "english": "effort / expenditure",
+    "plural": "Aufwände",
+    "plural_article": "die",
+    "genitive": "des Aufwands",
+    "frequency_rank": 158,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Der Aufwand ist sehr hoch.",
+        "en": "The effort is very high.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das lohnt sich nicht, gemessen am Aufwand.",
+        "en": "It's not worth it, given the effort involved.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_begriff",
+    "word": "Begriff",
+    "article": "der",
+    "english": "term / concept",
+    "plural": "Begriffe",
+    "plural_article": "die",
+    "genitive": "des Begriffs",
+    "frequency_rank": 159,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Dieser Begriff ist schwer zu definieren.",
+        "en": "This term is difficult to define.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Begriff 'Demokratie' hat viele Bedeutungen.",
+        "en": "The concept of 'democracy' has many meanings.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "language",
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_einwand",
+    "word": "Einwand",
+    "article": "der",
+    "english": "objection",
+    "plural": "Einwände",
+    "plural_article": "die",
+    "genitive": "des Einwands",
+    "frequency_rank": 160,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Er erhob einen Einwand gegen den Plan.",
+        "en": "He raised an objection to the plan.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Mein Einwand wurde ignoriert.",
+        "en": "My objection was ignored.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "communication",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_kontext",
+    "word": "Kontext",
+    "article": "der",
+    "english": "context",
+    "plural": "Kontexte",
+    "plural_article": "die",
+    "genitive": "des Kontexts",
+    "frequency_rank": 161,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Man muss den Kontext verstehen, um den Satz zu deuten.",
+        "en": "You must understand the context to interpret the sentence.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Das Wort hat in diesem Kontext eine andere Bedeutung.",
+        "en": "The word has a different meaning in this context.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "language",
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_rueckgang",
+    "word": "Rückgang",
+    "article": "der",
+    "english": "decline / decrease",
+    "plural": "Rückgänge",
+    "plural_article": "die",
+    "genitive": "des Rückgangs",
+    "frequency_rank": 162,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Der Rückgang der Geburtenrate ist ein Problem.",
+        "en": "The decline in the birth rate is a problem.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Es gibt einen starken Rückgang im Export.",
+        "en": "There is a sharp decrease in exports.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "finance",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_schwerpunkt",
+    "word": "Schwerpunkt",
+    "article": "der",
+    "english": "focus / priority",
+    "plural": "Schwerpunkte",
+    "plural_article": "die",
+    "genitive": "des Schwerpunkts",
+    "frequency_rank": 163,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Der Schwerpunkt liegt auf der Qualitätssicherung.",
+        "en": "The focus is on quality assurance.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir setzen neue Schwerpunkte in der Forschung.",
+        "en": "We are setting new priorities in research.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_standpunkt",
+    "word": "Standpunkt",
+    "article": "der",
+    "english": "point of view / standpoint",
+    "plural": "Standpunkte",
+    "plural_article": "die",
+    "genitive": "des Standpunkts",
+    "frequency_rank": 164,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Von meinem Standpunkt aus ist das falsch.",
+        "en": "From my point of view, that is wrong.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Sie verteidigte ihren Standpunkt überzeugend.",
+        "en": "She defended her standpoint convincingly.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "communication",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_umfang",
+    "word": "Umfang",
+    "article": "der",
+    "english": "scope / extent",
+    "plural": "Umfänge",
+    "plural_article": "die",
+    "genitive": "des Umfangs",
+    "frequency_rank": 165,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Der Umfang des Projekts ist sehr groß.",
+        "en": "The scope of the project is very large.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Wir unterschätzen den Umfang der Aufgabe.",
+        "en": "We underestimate the extent of the task.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_vorwurf",
+    "word": "Vorwurf",
+    "article": "der",
+    "english": "accusation / reproach",
+    "plural": "Vorwürfe",
+    "plural_article": "die",
+    "genitive": "des Vorwurfs",
+    "frequency_rank": 166,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Der Vorwurf ist unbegründet.",
+        "en": "The accusation is unfounded.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Er wies den Vorwurf zurück.",
+        "en": "He rejected the accusation.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "communication",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_widerspruch",
+    "word": "Widerspruch",
+    "article": "der",
+    "english": "contradiction",
+    "plural": "Widersprüche",
+    "plural_article": "die",
+    "genitive": "des Widerspruchs",
+    "frequency_rank": 167,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Hier liegt ein Widerspruch vor.",
+        "en": "There is a contradiction here.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Widerspruch zwischen seinen Worten und Taten ist offensichtlich.",
+        "en": "The contradiction between his words and actions is obvious.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "language",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_ueberblick",
+    "word": "Überblick",
+    "article": "der",
+    "english": "overview",
+    "plural": "Überblicke",
+    "plural_article": "die",
+    "genitive": "des Überblicks",
+    "frequency_rank": 168,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Der Überblick über das Thema fehlt ihr noch.",
+        "en": "She still lacks an overview of the topic.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Dieser Bericht gibt einen guten Überblick.",
+        "en": "This report gives a good overview.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_kompromiss",
+    "word": "Kompromiss",
+    "article": "der",
+    "english": "compromise",
+    "plural": "Kompromisse",
+    "plural_article": "die",
+    "genitive": "des Kompromisses",
+    "frequency_rank": 169,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Wir müssen einen Kompromiss finden.",
+        "en": "We need to find a compromise.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Der Kompromiss wurde von beiden Seiten akzeptiert.",
+        "en": "The compromise was accepted by both sides.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_ruecksicht",
+    "word": "Rücksicht",
+    "article": "die",
+    "english": "consideration / regard",
+    "plural": "Rücksichten",
+    "plural_article": "die",
+    "genitive": "der Rücksicht",
+    "frequency_rank": 170,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Er nimmt keine Rücksicht auf andere.",
+        "en": "He shows no consideration for others.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Rücksicht ist in einer Gemeinschaft unerlässlich.",
+        "en": "Consideration for others is essential in a community.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_sorgfalt",
+    "word": "Sorgfalt",
+    "article": "die",
+    "english": "care / diligence",
+    "plural": "Sorgfalt",
+    "plural_article": "die",
+    "genitive": "der Sorgfalt",
+    "frequency_rank": 171,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Diese Arbeit erfordert große Sorgfalt.",
+        "en": "This work requires great care.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Mit der nötigen Sorgfalt lassen sich Fehler vermeiden.",
+        "en": "With the necessary diligence, mistakes can be avoided.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_beziehung",
+    "word": "Beziehung",
+    "article": "die",
+    "english": "relationship",
+    "plural": "Beziehungen",
+    "plural_article": "die",
+    "genitive": "der Beziehung",
+    "frequency_rank": 172,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Beziehung zwischen den beiden ist kompliziert.",
+        "en": "The relationship between the two is complicated.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Gute Beziehungen sind entscheidend für den Erfolg.",
+        "en": "Good relationships are crucial for success.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_erwartung",
+    "word": "Erwartung",
+    "article": "die",
+    "english": "expectation",
+    "plural": "Erwartungen",
+    "plural_article": "die",
+    "genitive": "der Erwartung",
+    "frequency_rank": 173,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das Ergebnis übertraf alle Erwartungen.",
+        "en": "The result exceeded all expectations.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Erwartung war hoch, aber die Realität war anders.",
+        "en": "The expectation was high, but the reality was different.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_staerke",
+    "word": "Stärke",
+    "article": "die",
+    "english": "strength",
+    "plural": "Stärken",
+    "plural_article": "die",
+    "genitive": "der Stärke",
+    "frequency_rank": 174,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Geduld ist eine seiner größten Stärken.",
+        "en": "Patience is one of his greatest strengths.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Stärke des Arguments liegt in seiner Klarheit.",
+        "en": "The strength of the argument lies in its clarity.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "noun_schwasche",
+    "word": "Schwäche",
+    "article": "die",
+    "english": "weakness",
+    "plural": "Schwächen",
+    "plural_article": "die",
+    "genitive": "der Schwäche",
+    "frequency_rank": 175,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Seine Schwäche ist mangelnde Geduld.",
+        "en": "His weakness is a lack of patience.",
+        "exercise_type": [
+          "fill_blank",
+          "article_choice"
+        ]
+      },
+      {
+        "de": "Die Schwäche des Plans liegt in der Finanzierung.",
+        "en": "The weakness of the plan lies in the financing.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ]
   }
 ]
