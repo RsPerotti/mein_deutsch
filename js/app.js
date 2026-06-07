@@ -55,16 +55,18 @@ function navigateBack() {
 
 function onScreenEnter(screenId) {
   switch (screenId) {
-    case 'screen-home':        renderHome();                            break;
-    case 'screen-wordlist':    renderWordList();                        break;
-    case 'screen-module-home': renderModuleHome(currentModuleId);       break;
-    case 'screen-exercise':    startExercise(currentExerciseState);     break;
-    case 'screen-verbliste':   renderVerbliste();                       break;
-    case 'screen-nomenliste':  renderNomenliste();                      break;
-    case 'screen-adverbliste':     renderAdverbliste();                  break;
-    case 'screen-adjektivliste':       renderAdjektivliste();             break;
-    case 'screen-prapositionsliste':   renderPrapositionsliste();         break;
-    case 'screen-results':             /* rendered by exercises.js */     break;
+    case 'screen-home':              renderHome();                            break;
+    case 'screen-wordlist':          renderWordList();                        break;
+    case 'screen-module-home':       renderModuleHome(currentModuleId);       break;
+    case 'screen-exercise':          startExercise(currentExerciseState);     break;
+    case 'screen-verbliste':         renderVerbliste();                       break;
+    case 'screen-nomenliste':        renderNomenliste();                      break;
+    case 'screen-adverbliste':       renderAdverbliste();                     break;
+    case 'screen-adjektivliste':     renderAdjektivliste();                   break;
+    case 'screen-prapositionsliste': renderPrapositionsliste();               break;
+    case 'screen-listening-list':    renderListeningList();                   break;
+    case 'screen-listening-reader':  /* rendered by listening.js on demand */ break;
+    case 'screen-results':           /* rendered by exercises.js */           break;
   }
 }
 
@@ -99,6 +101,14 @@ async function loadData() {
   appData.exercises['module_adjectives']    = d.exercises_adjectives   || [];
   appData.prepositions                      = d.prepositions            || [];
   appData.exercises['module_prepositions']  = d.exercises_prepositions  || [];
+
+  // Listening module — metadata + articles bundled in js/listening-data.js
+  const ld = window.LISTENING_DATA || {};
+  if (ld.module) {
+    // Merge listening module into modules list (keeps data.js untouched)
+    const already = appData.modules.find(m => m.id === 'module_listening');
+    if (!already) appData.modules.push(ld.module);
+  }
 }
 
 // ─────────────────────────────────────────
@@ -166,14 +176,16 @@ function _moduleIcon(moduleId) {
       `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" ${sw}><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`,
     module_prepositions:
       `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" ${sw}><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>`,
+    module_listening:
+      `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" ${sw}><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>`,
   };
   return icons[moduleId] ||
     `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" ${sw}><circle cx="12" cy="12" r="10"/></svg>`;
 }
 
 function _renderModuleCards() {
-  const container = document.getElementById('home-modules-list');
-  const activeCount = appData.modules.filter(m => m.status === 'active').length;
+  const container    = document.getElementById('home-modules-list');
+  const activeCount  = appData.modules.filter(m => m.status === 'active').length;
 
   document.getElementById('home-modules-label').textContent =
     `${activeCount} von ${appData.modules.length} verfügbar`;
@@ -181,15 +193,25 @@ function _renderModuleCards() {
   container.innerHTML = appData.modules.map((mod, idx) => {
     const num    = String(idx + 1).padStart(2, '0');
     const locked = mod.status !== 'active';
+    const isReading = mod.type === 'reading';
+    const clickFn = locked ? '' : isReading ? `navigateTo('screen-listening-list')` : `openModule('${mod.id}')`;
+
+    // Reading module: show article count as subtitle
+    const readCount  = isReading ? Progress.getReadArticles().length : 0;
+    const totalArts  = isReading ? ((window.LISTENING_DATA || {}).articles || []).length : 0;
+    const readSub    = isReading
+      ? `<div class="module-card-sub">${readCount} / ${totalArts} gelesen</div>`
+      : '';
 
     return `
       <button class="module-card ${locked ? 'locked' : ''}"
-              onclick="${locked ? '' : `openModule('${mod.id}')`}"
+              onclick="${clickFn}"
               ${locked ? 'disabled' : ''}>
         <div class="module-number-badge">${_moduleIcon(mod.id)}</div>
         <div class="module-card-content">
           <div class="module-card-eyebrow">Modul ${num}</div>
           <div class="module-card-title">${mod.title_en}</div>
+          ${readSub}
         </div>
         ${locked
           ? `<span style="color:var(--color-text-muted);font-size:18px">🔒</span>`

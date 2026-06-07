@@ -25,7 +25,8 @@ const Progress = {
     NOUNS_VARIANT:       'app_nouns_variant_unlocked',
     ADVERBS_UNLOCKED:       'app_adverbs_unlocked',
     ADJECTIVES_UNLOCKED:    'app_adjectives_unlocked',
-    PREPOSITIONS_DIFFICULTY: 'app_prepositions_difficulty'
+    PREPOSITIONS_DIFFICULTY: 'app_prepositions_difficulty',
+    ARTICLES_READ:           'app_articles_read'
   },
 
   // --- Generic helpers ---
@@ -183,6 +184,14 @@ const Progress = {
   getPrepositionsDifficulty() { return this._get(this.KEYS.PREPOSITIONS_DIFFICULTY, 'A1'); },
 
   setPrepositionsDifficulty(level) { this._set(this.KEYS.PREPOSITIONS_DIFFICULTY, level); },
+
+  // --- Article read state ---
+  getReadArticles()       { return this._get(this.KEYS.ARTICLES_READ, []); },
+  isArticleRead(id)       { return this.getReadArticles().includes(id); },
+  markArticleRead(id) {
+    const list = this.getReadArticles();
+    if (!list.includes(id)) { list.push(id); this._set(this.KEYS.ARTICLES_READ, list); }
+  },
 
   // --- Session ---
   recordSession() { this._set(this.KEYS.LAST_SESSION, new Date().toISOString()); }

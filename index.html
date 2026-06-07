@@ -435,6 +435,105 @@
   </div>
 
   <!-- ═══════════════════════════════════════════
+       SCREEN: Lesen & Hören — Article List
+  ═══════════════════════════════════════════ -->
+  <div id="screen-listening-list" class="screen">
+    <div class="nav-header">
+      <button class="back-btn" onclick="navigateBack()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+             stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"/>
+        </svg>
+      </button>
+      <span class="nav-context">Lesen &amp; Hören</span>
+    </div>
+
+    <div class="screen-content" style="padding-top:0">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px">
+        <div class="heading-lg">Artikel</div>
+        <div id="listening-list-summary"
+             style="font-size:var(--font-size-sm);color:var(--color-text-muted)"></div>
+      </div>
+
+      <div style="margin-bottom:var(--sp-4)">
+        <button id="listening-toggle-read"
+                class="secondary-btn"
+                style="font-size:var(--font-size-sm);padding:6px 14px;min-width:0"
+                onclick="toggleReadArticles()">Gelesen ausblenden</button>
+      </div>
+
+      <div id="listening-list-content"></div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       SCREEN: Lesen & Hören — Article Reader
+  ═══════════════════════════════════════════ -->
+  <div id="screen-listening-reader" class="screen">
+    <div class="nav-header">
+      <button class="back-btn" onclick="navigateBack()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+             stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"/>
+        </svg>
+      </button>
+      <span class="nav-context" id="listening-reader-context">Lesen &amp; Hören</span>
+      <!-- Mark as read button -->
+      <button id="listening-read-btn"
+              class="listening-read-btn"
+              onclick="toggleArticleRead()"
+              title="Als gelesen markieren">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+          <circle cx="12" cy="12" r="3"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="screen-content" style="padding-top:0">
+      <!-- Article header -->
+      <div class="listening-article-header">
+        <h1 class="listening-article-title" id="listening-reader-title"></h1>
+        <div class="listening-article-meta">
+          <span id="listening-reader-date"></span>
+          <span class="article-meta-dot" id="listening-reader-meta-dot">·</span>
+          <span id="listening-reader-vocab-count"></span>
+        </div>
+      </div>
+
+      <!-- Audio player -->
+      <div class="listening-audio-wrap">
+        <audio id="listening-audio"
+               controls
+               preload="none"
+               style="width:100%">
+          Ihr Browser unterstützt kein Audio.
+        </audio>
+      </div>
+
+      <!-- Vocab hint -->
+      <div class="listening-vocab-hint">
+        Markierte Wörter antippen für Erklärungen.
+      </div>
+
+      <!-- Transcript -->
+      <div id="listening-transcript" class="listening-transcript"></div>
+    </div>
+  </div>
+
+  <!-- Vocab bottom sheet -->
+  <div class="sheet-overlay" id="listening-vocab-overlay" onclick="closeVocabSheet()"></div>
+  <div class="bottom-sheet" id="listening-vocab-sheet">
+    <div class="sheet-handle"></div>
+    <div class="sheet-word-row">
+      <span class="sheet-word" id="vocab-sheet-word"></span>
+    </div>
+    <div class="sheet-translation" id="vocab-sheet-explanation"
+         style="font-size:var(--font-size-base);line-height:1.6;margin-top:var(--sp-3)"></div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
        SCREEN: Results
   ═══════════════════════════════════════════ -->
   <div id="screen-results" class="screen">
@@ -499,10 +598,12 @@
 
   <!-- JS — load order matters -->
   <script src="js/data.js"></script>
+  <script src="js/listening-data.js"></script>
   <script src="js/progress.js"></script>
   <script src="js/wordlist.js"></script>
   <script src="js/exercises.js"></script>
   <script src="js/wordpractice.js"></script>
+  <script src="js/listening.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

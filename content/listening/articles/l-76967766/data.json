@@ -1,0 +1,111 @@
+{
+  "id": "l-76967766",
+  "title": "Sorge um die Rente in Deutschland",
+  "url": "https://learngerman.dw.com/de/l-76967766",
+  "date": "2026-04-28",
+  "crawled_at": "2026-06-07T17:37:46+00:00",
+  "audio_file": "audio.mp3",
+  "transcript": "Sorge um die Rente in Deutschland\n\nIhr ganzes Berufsleben zahlen Arbeitnehmerinnen und Arbeitnehmer in die gesetzliche Rentenversicherung ein. Das Ziel ist, im Alter genug Geld zu haben. Doch viele Menschen fragen sich, ob ihre Rente ausreichen wird.\n\n Die Rente ist sicher.  Mit diesem Versprechen des früheren Bundesarbeitsministers Norbert Blüm machte die CDU in den 1980er-Jahren Wahlkampf. Heute glauben jedoch viele Menschen nicht mehr daran: Sie haben Angst vor Altersarmut. Bundeskanzler Friedrich Merz hat 2026 sogar gewarnt: Die Rente wird  nicht mehr ausreichen, auf Dauer den Lebensstandard zu sichern. \n\nEine Untersuchung der OECD in 38 Staaten zeigt: In Deutschland beträgt die Nettorente eines männlichen Arbeitnehmers etwa 53 Prozent des letzten Einkommens – wenn er sein ganzes Arbeitsleben lang Rentenbeiträge gezahlt hat. Verglichen mit anderen Ländern ist das ein unterdurchschnittlicher Wert: In Frankreich beträgt die Nettorente 70, in Spanien sogar über 80 Prozent. Schwierig ist die Situation dadurch vor allem für Menschen mit niedrigem Einkommen. Auch aus anderen Gründen kann der Rentenanspruch vermindert sein, zum Beispiel wenn man viele Jahre nicht gearbeitet hat – etwa weil man sich um seine Kinder gekümmert hat oder arbeitslos war.\n\nDas deutsche Rentensystem funktioniert nach dem Umlageverfahren: Arbeitnehmerinnen und Arbeitnehmer bezahlen mit ihren Beiträgen die Renten derjenigen, die heute alt sind oder aus anderen Gründen nicht mehr arbeiten können. Fachleute warnen, dass dieses System in Zukunft nicht mehr funktionieren könnte. Denn einerseits werden in Deutschland seit vielen Jahren immer weniger Kinder geboren, andererseits gibt es immer mehr Rentnerinnen und Rentner.\n\nDie Bundesregierung diskutiert darüber, wie das Rentensystem langfristig gesichert werden kann. Der Bundeskanzler spricht sich dafür aus, die private Altersvorsorge zu stärken, etwa durch Aktien. Aktien unterliegen jedoch auch Kursschwankungen. Die Höhe der späteren Auszahlung ist daher unklar. Die Rente – bei vielen Menschen sorgt sie zunehmend für Verunsicherung.",
+  "vocabulary": [
+    {
+      "word": "zahlen",
+      "explanation_de": "(in etwas) ein|zahlen",
+      "explanation_en": "To pay or contribute money into something."
+    },
+    {
+      "word": "gesetzliche Rentenversicherung",
+      "explanation_de": "gesetzliche Rentenversicherung (f., nur Singular)",
+      "explanation_en": "Statutory pension insurance, the mandatory public pension system."
+    },
+    {
+      "word": "ein",
+      "explanation_de": "(in etwas) ein|zahlen",
+      "explanation_en": "Prefix meaning 'in' or 'into,' used in 'einzahlen' (to pay in)."
+    },
+    {
+      "word": "Bundesarbeitsministers",
+      "explanation_de": "Bundesarbeitsminister, -/Bundesarbeitsministerin, -nen",
+      "explanation_en": "Federal Minister of Labor (genitive form)."
+    },
+    {
+      "word": "Wahlkampf",
+      "explanation_de": "Wahlkampf (m., nur Singular)",
+      "explanation_en": "Election campaign."
+    },
+    {
+      "word": "Altersarmut",
+      "explanation_de": "Altersarmut (f., nur Singular)",
+      "explanation_en": "Poverty in old age."
+    },
+    {
+      "word": "den Lebensstandard",
+      "explanation_de": "den Lebensstandard sichern",
+      "explanation_en": "The standard of living (accusative form)."
+    },
+    {
+      "word": "sichern",
+      "explanation_de": "den Lebensstandard sichern",
+      "explanation_en": "To secure or maintain."
+    },
+    {
+      "word": "OECD",
+      "explanation_de": "OECD (f., nur Singular)",
+      "explanation_en": "Organization for Economic Co-operation and Development."
+    },
+    {
+      "word": "beträgt",
+      "explanation_de": "etwas betragen",
+      "explanation_en": "Amounts to or equals."
+    },
+    {
+      "word": "Nettorente",
+      "explanation_de": "Nettorente, -n (f.)",
+      "explanation_en": "Net pension (pension after deductions)."
+    },
+    {
+      "word": "Rentenanspruch vermindert sein",
+      "explanation_de": "der Rentenanspruch ist vermindert",
+      "explanation_en": "Pension entitlement is reduced."
+    },
+    {
+      "word": "Umlageverfahren",
+      "explanation_de": "Umlageverfahren, - (n.)",
+      "explanation_en": "Pay-as-you-go system (pension contributions fund current retirees)."
+    },
+    {
+      "word": "langfristig",
+      "explanation_de": "langfristig",
+      "explanation_en": "Long-term."
+    },
+    {
+      "word": "spricht sich",
+      "explanation_de": "sich für etwas aus|sprechen",
+      "explanation_en": "Advocates or speaks out (reflexive verb)."
+    },
+    {
+      "word": "für aus",
+      "explanation_de": "sich für etwas aus|sprechen",
+      "explanation_en": "Part of 'aussprechen für' meaning to advocate for or support."
+    },
+    {
+      "word": "Altersvorsorge",
+      "explanation_de": "Altersvorsorge (f., nur Singular)",
+      "explanation_en": "Retirement provision or old-age insurance."
+    },
+    {
+      "word": "unterliegen",
+      "explanation_de": "Kursschwankungen unterliegen",
+      "explanation_en": "To be subject to or exposed to."
+    },
+    {
+      "word": "Kursschwankungen",
+      "explanation_de": "Kursschwankungen unterliegen",
+      "explanation_en": "Price fluctuations or exchange rate fluctuations."
+    },
+    {
+      "word": "Verunsicherung",
+      "explanation_de": "Verunsicherung, -en (f.)",
+      "explanation_en": "Uncertainty or insecurity."
+    }
+  ]
+}

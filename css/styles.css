@@ -1280,3 +1280,183 @@ button {
   border-bottom: 1px solid var(--color-border);
 }
 .case-legend-row:last-child { border-bottom: none; }
+
+/* ─────────────────────────────────────────
+   LESEN & HÖREN MODULE
+   ───────────────────────────────────────── */
+
+/* Module card subtitle (read count) */
+.module-card-sub {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  margin-top: 2px;
+}
+
+/* Article list card */
+.article-list-card {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  background: var(--color-surface);
+  border-radius: var(--r-md);
+  padding: var(--sp-4);
+  margin-bottom: var(--sp-3);
+  cursor: pointer;
+  border: 1.5px solid var(--color-border);
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.article-list-card:active {
+  border-color: var(--color-green-accent);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.article-list-card.article-read {
+  opacity: 0.65;
+}
+.article-list-card-body {
+  flex: 1;
+  min-width: 0;
+}
+.article-list-title {
+  font-weight: var(--fw-semibold);
+  font-size: var(--font-size-base);
+  line-height: 1.4;
+  color: var(--color-text-primary);
+}
+.article-list-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+}
+.article-meta-dot {
+  opacity: 0.5;
+}
+.article-list-right {
+  flex-shrink: 0;
+}
+.article-read-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--color-green-lime);
+  color: var(--color-green-dark);
+}
+
+/* Reader nav: read button */
+.nav-header {
+  position: relative;
+}
+.listening-read-btn {
+  position: absolute;
+  right: var(--sp-4);
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: 1.5px solid var(--color-border);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--color-text-muted);
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.listening-read-btn:active,
+.listening-read-btn:hover {
+  background: var(--color-bg-secondary);
+}
+.listening-read-btn.read {
+  background: var(--color-green-lime);
+  border-color: var(--color-green-lime);
+  color: var(--color-green-dark);
+}
+
+/* Article reader header */
+.listening-article-header {
+  margin-bottom: var(--sp-4);
+}
+.listening-article-title {
+  font-size: var(--font-size-xl);
+  font-weight: var(--fw-bold);
+  line-height: 1.35;
+  color: var(--color-text-primary);
+  margin: 0 0 var(--sp-2) 0;
+}
+.listening-article-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}
+
+/* Audio player wrapper */
+.listening-audio-wrap {
+  margin-bottom: var(--sp-4);
+  background: var(--color-surface);
+  border-radius: var(--r-md);
+  padding: var(--sp-3);
+  border: 1.5px solid var(--color-border);
+}
+.listening-audio-wrap audio {
+  display: block;
+  width: 100%;
+  height: 44px;
+  border-radius: 6px;
+}
+
+/* Vocab hint */
+.listening-vocab-hint {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  margin-bottom: var(--sp-4);
+  font-style: italic;
+}
+
+/* Transcript */
+.listening-transcript {
+  font-size: var(--font-size-base);
+  line-height: 1.75;
+  color: var(--color-text-primary);
+  padding-bottom: var(--sp-8);
+}
+.transcript-para {
+  margin: 0 0 var(--sp-4) 0;
+}
+.transcript-para:first-child {
+  font-weight: var(--fw-semibold);
+  font-size: var(--font-size-lg);
+  color: var(--color-text-primary);
+  margin-bottom: var(--sp-5);
+}
+
+/* Vocab highlight spans */
+.vocab-highlight {
+  background: rgba(141, 196, 74, 0.25);
+  border-bottom: 1.5px solid var(--color-green-accent);
+  border-radius: 2px;
+  padding: 0 1px;
+  cursor: pointer;
+  transition: background 0.1s;
+}
+.vocab-highlight:active {
+  background: rgba(141, 196, 74, 0.5);
+}
+
+/* Empty state */
+.empty-state {
+  text-align: center;
+  padding: var(--sp-8) var(--sp-4);
+  color: var(--color-text-muted);
+}
+.empty-state .empty-icon {
+  font-size: 2.5rem;
+  margin-bottom: var(--sp-3);
+}

@@ -2,6 +2,140 @@
 
 ---
 
+## 2026-06-07 — Session 18: Lesen & Hören Module
+
+**Files created:** `js/listening-data.js` (new), `js/listening.js` (new)
+**Files modified:** `index.html`, `js/app.js`, `js/progress.js`, `css/styles.css`, `service-worker.js`, `data/modules.json`
+
+### What was built
+
+Full **Lesen & Hören** module integrated into the app. All 45 Deutsche Welle articles available offline from install.
+
+**Architecture decisions made (reviewed by staff dev agent before build):**
+
+- **Data bundling:** All 45 article transcripts + vocabulary bundled into `js/listening-data.js` (212 KB). Served as `window.LISTENING_DATA`. Article text is available offline from install — no fetch required. Audio lazy-loads and caches on first play.
+- **No `data.js` changes:** Listening module metadata injected via `loadData()` merging `LISTENING_DATA.module` into `appData.modules`. Keeps `data.js` untouched.
+- **Module card routing:** `_renderModuleCards()` checks `mod.type === 'reading'` and routes the listening card directly to `screen-listening-list` — bypasses `screen-module-home` entirely (which is exercise-module-only infrastructure).
+- **Service worker v2:** Bumped cache version. Added `listening-data.js` + `listening.js` to PRECACHE. Extended fetch cache handler to cover `/content/listening/` paths. Added `serveAudioRange()` — synthesises correct 206 Partial Content responses from cached blobs so audio works offline.
+- **Progress tracking:** Three new methods in `progress.js` (`markArticleRead`, `isArticleRead`, `getReadArticles`) using `app_articles_read` localStorage key. Consistent with all other progress patterns.
+- **Vocab highlighting:** Single-pass combined regex. All vocab words sorted by length descending, built into one `RegExp`, applied in a single `.replace()` call. Entries with `word.length < 4` excluded (catches common function words like "für", "als"). Matched words wrapped in `<span class="vocab-highlight">`.
+- **Sort order:** Newest first (descending by date string, then by numeric article ID for same-date tiebreak). Slug-id article (`wieso-immer-weniger-kinder-schwimmen-k-nnen`) sorts by its date correctly.
+
+**Feature breakdown:**
+
+*Article list screen (`screen-listening-list`):*
+- Shows all 45 articles newest-first
+- Each card shows title, date, vocab count
+- Read articles shown with checkmark badge + muted opacity
+- "Gelesen ausblenden / anzeigen" toggle button filters the list
+- Module home card on home screen shows `X / 45 gelesen` count
+
+*Article reader screen (`screen-listening-reader`):*
+- Title + date header
+- Native `<audio controls preload="none">` player pointing to local MP3
+- On first play: fires a background full-GET so SW caches the audio
+- Transcript rendered as paragraphs; first paragraph (title line) bold/large
+- Vocab words highlighted in green underline, tap to open bottom sheet with EN explanation
+- Bottom sheet reuses existing `.bottom-sheet` / `.sheet-overlay` pattern
+- "Mark as read" button (eye icon) in nav header — tap marks article read, icon changes to green checkmark. One-way (no unread).
+
+**Known limitation documented:** Vocab highlighting matches the exact word form present in the article (e.g. "erwerben" matches "erwerben" in transcript but not "erworben"). This is by design — DW's vocabulary list contains contextual word forms, not abstract lemmas.
+
+**Not pushed to GitHub yet.**
+
+---
+
+## 2026-06-07 — Session 17: DW Crawler — Build & Run
+
+**Files changed:** `crawler.py` (new), `probe_article.py` (new, debug tool), `content/listening/` (new output tree)
+
+### What happened
+
+Built and ran the DW Top-Thema crawler. 45 articles crawled successfully (45 complete, 0 failed).
+
+**How it actually works (confirmed by probing the real DOM):**
+
+DW's learngerman site is a React SPA. Everything needed is embedded in a `window.__APOLLO_STATE__` JSON blob in the main article page — no sub-page navigation required. The crawler:
+1. Loads the archive page with Playwright (JS-rendered)
+2. Finds all article links (`/de/l-{id}` format — DW doesn't always include the human slug in archive links)
+3. For each article: loads the page, extracts the Apollo state JSON, parses `Lesson:{id}.manuscript` for transcript + vocab, grabs the MP3 `src` attribute
+4. Calls Claude Haiku in one batch call per article to translate German vocab definitions to English
+5. Saves `data.json` + `audio.mp3` per article; updates `index.json`
+
+**Key bugs fixed during build:**
+- `str | None` type hints incompatible with Python < 3.10 → removed return type annotations
+- `url_to_slug()` was splitting the full URL string (including domain) instead of just the path → switched to `urlparse().path`
+- Sub-page navigation via `/manuskript` suffix returned 404 → real paths are `/lm` (Manuskript) and `/le` (Extras), but ultimately unnecessary since all content is in the Apollo state on the main page
+- Vocab regex had `data-type` before `data-title` — actual HTML has them reversed → rewrote to find spans by `data-type="GLOSSARY"` then extract `data-title` from the matched span
+
+**Output structure:**
+```
+content/listening/
+├── index.json                    ← 45 entries, all "complete"
+└── articles/
+    └── {slug}/
+        ├── data.json             ← title, date, transcript, vocabulary (DE + EN)
+        └── audio.mp3
+```
+
+**Vocab per article:** ~15–25 words. Each has `word`, `explanation_de` (German dictionary form from DW), `explanation_en` (Claude translation).
+
+### Adding more years (2025, 2024, etc.)
+
+See SOURCE_OF_TRUTH.md → "DW Crawler — How to Add More Years".
+
+### Next session
+
+Build the **Lesen & Hören** module in the app — new card on the module home screen, article list, article reader with tappable vocab and audio playback.
+
+---
+
+## 2026-06-07 — Session 16: DW Crawler — Design & Documentation
+
+**Files changed:** `SOURCE_OF_TRUTH.md`
+
+### What happened
+
+Scoped and fully designed the DW Crawler — a new standalone tool (separate from the app) that will power a new Reading & Listening Comprehension module.
+
+**Key decisions made:**
+
+- **Audio:** Download MP3s locally (not URL-only). Reason: DW changes CDN paths over time, which would silently break playback.
+- **Translation:** Claude API (not Google Translate). Reason: better context retention for German vocabulary explanations.
+- **Renderer:** Playwright (headless Chromium), not `requests`. Reason: DW pages are JavaScript-rendered — plain HTTP requests return empty shells.
+- **API cost control:** All vocabulary explanations per article batched into a single Claude API call.
+- **Deduplication:** `index.json` tracks crawl status per article. `"complete"` articles are skipped on re-runs; `"failed"` / `"partial"` are retried.
+- **Scope:** 2026 archive first. Expand to prior years once output is verified.
+- **CLI:** `python crawler.py` (normal), `--recrawl {slug}` (force), `--dry-run` (preview).
+
+Full technical spec (schemas, file structure, library choices, integration plan) documented in SOURCE_OF_TRUTH.md under "Feature: DW Crawler".
+
+### Next session
+
+Build the crawler script.
+
+---
+
+## 2026-06-07 — Session 15: UI Cleanup (4 Changes)
+
+**Files changed:** `js/app.js`
+
+### Change 1 — Module cards: icons replace number badges, descriptions removed
+- `_moduleIcon(moduleId)` helper added — returns a flat single-color stroke SVG per module: lightning bolt (Verbs), price tag (Nouns), clock (Adverbs), star (Adjectives), map pin (Prepositions).
+- `_renderModuleCards()` — `module-number-badge` now renders the SVG icon instead of a padded number. `module-card-desc` div removed entirely.
+
+### Change 2 — Word list card moved to top of module home screens
+- Verbs, Nouns, Adverbs, Adjectives: Verbliste / Nomenliste / Adverbliste / Adjektivliste card now renders first, above the "Übungen" label and category cards.
+
+### Change 3 — Exercise entry cards show completed vs total exercises
+- All four modules (Verbs roots/variants, Nouns roots/variants, Adverbs, Adjectives Grundformen): replaced `X / Y gelernt` (word unlock count) with `X / Y Übungen` (exercises completed vs total). Progress bar percentage updated to match.
+- Completion is defined as `Progress.getExerciseHistory(ex.exercise_id).correct > 0`.
+
+### Change 4 — Prepositions module: Präpositionsliste card first
+- `_renderPrepositionModuleCategories()` — Präpositionsliste card moved above the "Übungen" label and the exercise card.
+
+---
+
 ## 2026-06-07 — Session 14: UI Debug Pass (4 Fixes)
 
 **Files changed:** `js/app.js`, `js/wordlist.js`, `js/exercises.js`, `css/styles.css`

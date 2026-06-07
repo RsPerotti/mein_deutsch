@@ -1,0 +1,111 @@
+{
+  "id": "l-75403792",
+  "title": "Deutschlands Probleme mit der Digitalisierung",
+  "url": "https://learngerman.dw.com/de/l-75403792",
+  "date": "2026-01-06",
+  "crawled_at": "2026-06-07T17:30:43+00:00",
+  "audio_file": "audio.mp3",
+  "transcript": "Deutschlands Probleme mit der Digitalisierung \n\nIn Deutschland gehören Faxgeräte und Papierformulare immer noch zum Behördenalltag. Während andere Länder immer digitaler werden, hinkt Deutschlands Verwaltung hinterher. Woran liegt das?\n\nWer in Deutschland umzieht oder ein Auto anmelden möchte, muss das den Behörden mitteilen. Dazu muss man in der Regel wochenlang auf einen Termin vor Ort warten und dann die ausgefüllten Formulare mitbringen. Das ist Alltag auf deutschen Ämtern, denn digitale Angebote gibt es nur selten.  Rund drei Viertel, genauer 77 Prozent der deutschen Unternehmen, nutzen noch Faxgeräte , erklärt Felix Lesner vom IT-Branchenverband Bitkom. Nur so können sie sicher mit den Behörden kommunizieren. Und das im Jahr 2025.\n\nIm Vergleich zu den anderen 26 EU-Ländern liegt Deutschland bei der digitalen Entwicklung nur im Mittelfeld. Bei der digitalen öffentlichen Verwaltung liegt es sogar weit hinten, auf Platz 24. Dabei fehlt es nicht an Wissen oder Ideen:  Unser Problem ist die Umsetzung , sagt Frank Reinartz, Leiter der Digitalagentur Düsseldorf. Selbst Städte, die als modern gelten, bieten bisher nur einen Bruchteil ihrer Verwaltungsdienstleistungen online an. In Düsseldorf, einer Stadt mit 650.000 Einwohnerinnen und Einwohnern, sind es nur etwas mehr als 20 Prozent.\n\nEin Grund dafür ist die föderale Struktur Deutschlands.  Es gibt nicht viele Softwarelösungen und Prozesse von der Bundesebene , so Reinartz. Zuständig sind meist die Bundesländer oder die Kommunenund es fehlen bundesweite Standards. Die Folge: Insellösungen und fehlende Schnittstellen, weil Systeme nicht miteinander arbeiten können.\n\nAndere Länder zeigen längst, wie gut Digitalisierung funktionieren kann. In Dänemark zum Beispiel können mit dem digitalen Personalausweis (eID) über eine zentrale Plattform mehr als 2000 öffentliche Dienstleistungen genutzt werden. Auch Indien hat in nur 15 Jahren ein eigenes zentrales System entwickelt. Es wird nicht nur für die digitale, staatliche Verwaltung genutzt; mittlerweile kann man sogar bei Straßenhändlern mit dem Smartphone zahlen. Nur in Deutschland wird noch diskutiert, wie man am besten digital wird – irgendwann.",
+  "vocabulary": [
+    {
+      "word": "Digitalisierung",
+      "explanation_de": "Digitalisierung (f., nur Singular)",
+      "explanation_en": "The process of converting information and processes into digital form."
+    },
+    {
+      "word": "Faxgeräte",
+      "explanation_de": "Faxgerät, -e (n.)",
+      "explanation_en": "Fax machines (plural of Faxgerät)."
+    },
+    {
+      "word": "hinkt",
+      "explanation_de": "hinterher|hinken",
+      "explanation_en": "Limps or lags behind (third person singular of hinken)."
+    },
+    {
+      "word": "hinterher",
+      "explanation_de": "hinterher|hinken",
+      "explanation_en": "Behind or after something; lagging."
+    },
+    {
+      "word": "vor Ort",
+      "explanation_de": "vor Ort",
+      "explanation_en": "On-site or at the location."
+    },
+    {
+      "word": "drei Viertel",
+      "explanation_de": "drei Viertel",
+      "explanation_en": "Three quarters (3/4)."
+    },
+    {
+      "word": "IT-Branchenverband",
+      "explanation_de": "IT-Branchenverband, Branchenverbände (m.)",
+      "explanation_en": "An industry association for the IT sector."
+    },
+    {
+      "word": "Mittelfeld",
+      "explanation_de": "Mittelfeld (n., nur Singular)",
+      "explanation_en": "Middle field or middle ground; the intermediate level."
+    },
+    {
+      "word": "Umsetzung",
+      "explanation_de": "Umsetzung, -en (f.)",
+      "explanation_en": "Implementation or putting something into practice."
+    },
+    {
+      "word": "Digitalagentur",
+      "explanation_de": "Digitalagentur, -en (f.)",
+      "explanation_en": "A digital agency that provides digital services."
+    },
+    {
+      "word": "Bruchteil",
+      "explanation_de": "Bruchteile, -e (m.)",
+      "explanation_en": "A fraction or a tiny portion of something."
+    },
+    {
+      "word": "dienstleistungen",
+      "explanation_de": "Dienstleistung, -en (f.)",
+      "explanation_en": "Services (plural of Dienstleistung)."
+    },
+    {
+      "word": "föderale",
+      "explanation_de": "föderal",
+      "explanation_en": "Federal; relating to a system of government with shared power between central and regional authorities."
+    },
+    {
+      "word": "Prozesse",
+      "explanation_de": "Prozess, -e (m.)",
+      "explanation_en": "Processes or procedures (plural of Prozess)."
+    },
+    {
+      "word": "Bundesebene",
+      "explanation_de": "Bundesebene (f., nur Singular)",
+      "explanation_en": "Federal level or the level of national government."
+    },
+    {
+      "word": "Kommunen",
+      "explanation_de": "Kommune, -n (f.)",
+      "explanation_en": "Municipalities or local government units (plural of Kommune)."
+    },
+    {
+      "word": "bundesweite Standards",
+      "explanation_de": "bundesweite Standard, -s (m.)",
+      "explanation_en": "Nationwide or nation-wide standards applied uniformly across a country."
+    },
+    {
+      "word": "Insellösungen",
+      "explanation_de": "Insellösung, -en (f.)",
+      "explanation_en": "Isolated solutions; separate, unconnected systems that don't integrate with each other."
+    },
+    {
+      "word": "Schnittstellen",
+      "explanation_de": "Schnittstelle, -n (f.)",
+      "explanation_en": "Interfaces or points of connection between different systems or processes."
+    },
+    {
+      "word": "Personalausweis",
+      "explanation_de": "Personalausweis, -e (m.)",
+      "explanation_en": "A national identity card or personal identification document."
+    }
+  ]
+}

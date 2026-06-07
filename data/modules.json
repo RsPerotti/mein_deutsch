@@ -53,5 +53,15 @@
     "exercises_file": "exercises-prepositions.json",
     "unlock_order": 5,
     "status": "active"
+  },
+  {
+    "id": "module_listening",
+    "title_de": "Lesen & Hören",
+    "title_en": "Reading & Listening",
+    "description_en": "45 real Deutsche Welle articles — read transcripts with highlighted vocabulary and listen to native audio.",
+    "icon": "📖",
+    "unlock_order": 6,
+    "status": "active",
+    "type": "reading"
   }
 ]
