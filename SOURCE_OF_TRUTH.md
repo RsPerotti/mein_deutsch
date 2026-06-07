@@ -1,23 +1,23 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-06-04 — Session 6*
+*Last updated: 2026-06-07 — Session 8*
 
 ---
 
 ## Current State
 
-**Nouns module content-complete (A1–B2).** App at https://rsperotti.github.io/mein_deutsch. Verbs: complete (100 roots + 138 variants, 936 exercises). Nouns: 175 words across all 4 levels (25 A1 + 50 A2 + 50 B1 + 50 B2), 700 exercises, full UI live. Next: push to GitHub Pages and consider adjectives module.
+**Adverbs module content-complete (A1–B2).** App at https://rsperotti.github.io/mein_deutsch. Verbs: complete (100 roots + 138 variants, 936 exercises). Nouns: 175 words, 700 exercises. Adverbs: 127 words across 4 levels (29 A1 + 25 A2 + 51 B1 + 22 B2), 508 exercises, full UI live. Next: push to GitHub Pages.
 
 ## What Exists
 
 | File / Folder | Status | Notes |
 |---|---|---|
-| `index.html` | ✅ Built | All screens embedded: Home, Word List, Module Home, Exercise, Verbliste, Results |
+| `index.html` | ✅ Updated | All screens: Home, Word List, Module Home, Exercise, Verbliste, Nomenliste, Adverbliste, Results |
 | `css/styles.css` | ✅ Built | Full design system — CSS variables, all components |
 | `js/app.js` | ✅ Built | Router, data loading, home + module home renderers |
 | `js/progress.js` | ✅ Built | localStorage abstraction — all keys from blueprint Section 4 + 11.6 |
 | `js/exercises.js` | ✅ Built | Exercise engine — fill_blank, translate_word, conjugation_choice, cooldown |
 | `js/wordlist.js` | ✅ Built | Word list display, search, bottom sheet, Verbliste, pronunciation |
-| `data/modules.json` | ✅ Built | 3 modules: Verbs (active), Nouns + Adjectives (coming_soon) |
+| `data/modules.json` | ✅ Updated | 4 modules: Verbs + Nouns + Adverbs (active), Adjectives (coming_soon) |
 | `js/data.js` | ✅ **Bundled** | All content embedded here — replaces fetch(). Regenerate after each batch. |
 | `data/verbs.json` | ✅ **100 verbs** | All 4 levels (A1–B2), 25 per level — complete |
 | `data/exercises/exercises-verbs.json` | ✅ **936 exercises** | 234 word IDs × 4 exercises each |
@@ -38,7 +38,13 @@
 | `js/app.js` | ✅ Updated | Noun module home, Nomenliste, router entry |
 | `js/exercises.js` | ✅ Updated | article_choice renderer, noun unlock/label |
 | `js/wordlist.js` | ✅ Updated | Nouns in word list with article + plural |
-| `js/progress.js` | ✅ Updated | `app_nouns_unlocked` key + methods |
+| `js/progress.js` | ✅ Updated | `app_nouns_unlocked` + `app_adverbs_unlocked` keys + methods |
+| `data/adverbs.json` | ✅ **127 adverbs** | A1–B2 complete (29+25+51+22) — sourced from conversation database |
+| `data/exercises/exercises-adverbs.json` | ✅ **508 exercises** | 127 adverbs × 4 each (translate_word DE→EN, fill_blank, translate_word EN→DE, sentence comprehension) |
+| `_factory/seeds/adverbs-level1.json` | ✅ Done | 29 A1 adverbs |
+| `_factory/seeds/adverbs-level2.json` | ✅ Done | 25 A2 adverbs |
+| `_factory/seeds/adverbs-level3.json` | ✅ Done | 51 B1 adverbs |
+| `_factory/seeds/adverbs-level4.json` | ✅ Done | 22 B2 adverbs |
 
 ## Design System
 
@@ -89,10 +95,15 @@ Extracted from design reference screenshots:
 | nouns-level2 | Nouns | A2 | 50 | 200 | ✅ Done |
 | nouns-level3 | Nouns | B1 | 50 | 200 | ✅ Done |
 | nouns-level4 | Nouns | B2 | 50 | 200 | ✅ Done |
+| adverbs-level1 | Adverbs | A1 | 29 | 116 | ✅ Done |
+| adverbs-level2 | Adverbs | A2 | 25 | 100 | ✅ Done |
+| adverbs-level3 | Adverbs | B1 | 51 | 204 | ✅ Done |
+| adverbs-level4 | Adverbs | B2 | 22 | 88 | ✅ Done |
+| **Adverbs total** | | A1–B2 | **127** | **508** | ✅ Done |
 
 ## Next Steps
 
-1. **Push to GitHub Pages** — deploy the expanded data.js (175 nouns, 700 exercises)
+1. **Push to GitHub Pages** — deploy updated data.js (now includes adverbs)
 2. **Adjectives module** — next grammar category to build
 
 ## Open Questions / Known Gaps

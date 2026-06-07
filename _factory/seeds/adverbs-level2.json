@@ -1,0 +1,161 @@
+{
+  "batch_id": "adverbs_level2",
+  "category": "adverbs",
+  "unlock_level": 2,
+  "target_level": "A2",
+  "status": "done",
+  "generated_date": "2026-06-07",
+  "validated_date": "2026-06-07",
+  "words": [
+    {
+      "word": "niemals",
+      "english": "never (emphatic)",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "meistens",
+      "english": "usually / mostly",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "normalerweise",
+      "english": "normally",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "nicht mehr",
+      "english": "not anymore",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "vorhin",
+      "english": "earlier / a moment ago",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "früher",
+      "english": "earlier / in the past",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "ab und zu",
+      "english": "now and then",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "regelmäßig",
+      "english": "regularly",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "außerdem",
+      "english": "besides / additionally",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "deshalb",
+      "english": "therefore / that's why",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "deswegen",
+      "english": "that's why / because of that",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "darum",
+      "english": "for that reason / that's why",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "übrigens",
+      "english": "by the way",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "wahrscheinlich",
+      "english": "probably",
+      "category": "Certainty & Probability",
+      "status": "done"
+    },
+    {
+      "word": "bestimmt",
+      "english": "definitely / for sure",
+      "category": "Certainty & Probability",
+      "status": "done"
+    },
+    {
+      "word": "auf jeden Fall",
+      "english": "definitely / in any case",
+      "category": "Certainty & Probability",
+      "status": "done"
+    },
+    {
+      "word": "total",
+      "english": "totally / completely",
+      "category": "Intensifiers",
+      "status": "done"
+    },
+    {
+      "word": "ziemlich",
+      "english": "quite / fairly / pretty",
+      "category": "Intensifiers",
+      "status": "done"
+    },
+    {
+      "word": "echt",
+      "english": "really / genuinely",
+      "category": "Intensifiers",
+      "status": "done"
+    },
+    {
+      "word": "voll",
+      "english": "totally / completely (slang)",
+      "category": "Intensifiers",
+      "status": "done"
+    },
+    {
+      "word": "besonders",
+      "english": "especially / particularly",
+      "category": "Intensifiers",
+      "status": "done"
+    },
+    {
+      "word": "mega",
+      "english": "mega / super (slang)",
+      "category": "Intensifiers",
+      "status": "done"
+    },
+    {
+      "word": "deswegen",
+      "english": "that's why / because of that",
+      "category": "Cause & Effect",
+      "status": "done"
+    },
+    {
+      "word": "deshalb",
+      "english": "therefore / that's why",
+      "category": "Cause & Effect",
+      "status": "done"
+    },
+    {
+      "word": "leider",
+      "english": "unfortunately",
+      "category": "Agreement & Reaction",
+      "status": "done"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "batch_id": "adverbs_level1",
+  "category": "adverbs",
+  "unlock_level": 1,
+  "target_level": "A1",
+  "status": "done",
+  "generated_date": "2026-06-07",
+  "validated_date": "2026-06-07",
+  "words": [
+    {
+      "word": "immer",
+      "english": "always",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "oft",
+      "english": "often",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "manchmal",
+      "english": "sometimes",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "selten",
+      "english": "rarely",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "nie",
+      "english": "never",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "schon",
+      "english": "already",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "noch",
+      "english": "still",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "gerade",
+      "english": "right now / just",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "bald",
+      "english": "soon",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "später",
+      "english": "later",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "sofort",
+      "english": "immediately",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "gleich",
+      "english": "in a moment / right away",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "täglich",
+      "english": "daily / every day",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "danach",
+      "english": "afterwards / after that",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "dann",
+      "english": "then",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "zuerst",
+      "english": "first",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "vielleicht",
+      "english": "maybe / perhaps",
+      "category": "Certainty & Probability",
+      "status": "done"
+    },
+    {
+      "word": "natürlich",
+      "english": "of course / naturally",
+      "category": "Certainty & Probability",
+      "status": "done"
+    },
+    {
+      "word": "also",
+      "english": "so / well then",
+      "category": "Fillers & Conversation Flow",
+      "status": "done"
+    },
+    {
+      "word": "sehr",
+      "english": "very",
+      "category": "Intensifiers",
+      "status": "done"
+    },
+    {
+      "word": "wirklich",
+      "english": "really / truly",
+      "category": "Intensifiers",
+      "status": "done"
+    },
+    {
+      "word": "so",
+      "english": "so (intensifier)",
+      "category": "Intensifiers",
+      "status": "done"
+    },
+    {
+      "word": "genau",
+      "english": "exactly / precisely",
+      "category": "Agreement & Reaction",
+      "status": "done"
+    },
+    {
+      "word": "stimmt",
+      "english": "true / right / correct",
+      "category": "Agreement & Reaction",
+      "status": "done"
+    },
+    {
+      "word": "klar",
+      "english": "sure / obviously / of course",
+      "category": "Agreement & Reaction",
+      "status": "done"
+    },
+    {
+      "word": "natürlich",
+      "english": "of course / naturally",
+      "category": "Agreement & Reaction",
+      "status": "done"
+    },
+    {
+      "word": "vielleicht",
+      "english": "maybe / perhaps (softener)",
+      "category": "Politeness & Softeners",
+      "status": "done"
+    },
+    {
+      "word": "ein bisschen",
+      "english": "a little / a bit",
+      "category": "Politeness & Softeners",
+      "status": "done"
+    },
+    {
+      "word": "bitte",
+      "english": "please",
+      "category": "Politeness & Softeners",
+      "status": "done"
+    }
+  ]
+}

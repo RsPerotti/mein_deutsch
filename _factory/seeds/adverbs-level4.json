@@ -1,0 +1,143 @@
+{
+  "batch_id": "adverbs_level4",
+  "category": "adverbs",
+  "unlock_level": 4,
+  "target_level": "B2",
+  "status": "done",
+  "generated_date": "2026-06-07",
+  "validated_date": "2026-06-07",
+  "words": [
+    {
+      "word": "darüber hinaus",
+      "english": "beyond that / furthermore",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "andererseits",
+      "english": "on the other hand",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "dennoch",
+      "english": "nonetheless / yet",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "einerseits",
+      "english": "on one hand",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "voraussichtlich",
+      "english": "as expected / likely",
+      "category": "Certainty & Probability",
+      "status": "done"
+    },
+    {
+      "word": "offenbar",
+      "english": "apparently / obviously",
+      "category": "Certainty & Probability",
+      "status": "done"
+    },
+    {
+      "word": "möglicherweise",
+      "english": "possibly",
+      "category": "Certainty & Probability",
+      "status": "done"
+    },
+    {
+      "word": "sozusagen",
+      "english": "so to speak / as it were",
+      "category": "Fillers & Conversation Flow",
+      "status": "done"
+    },
+    {
+      "word": "im Grunde genommen",
+      "english": "basically / all things considered",
+      "category": "Fillers & Conversation Flow",
+      "status": "done"
+    },
+    {
+      "word": "somit",
+      "english": "thus / therefore",
+      "category": "Cause & Effect",
+      "status": "done"
+    },
+    {
+      "word": "infolgedessen",
+      "english": "as a result / consequently",
+      "category": "Cause & Effect",
+      "status": "done"
+    },
+    {
+      "word": "folglich",
+      "english": "consequently / as a result",
+      "category": "Cause & Effect",
+      "status": "done"
+    },
+    {
+      "word": "dennoch",
+      "english": "nonetheless / yet",
+      "category": "Contrast",
+      "status": "done"
+    },
+    {
+      "word": "hingegen",
+      "english": "whereas / on the other hand",
+      "category": "Contrast",
+      "status": "done"
+    },
+    {
+      "word": "im Gegenteil",
+      "english": "on the contrary",
+      "category": "Contrast",
+      "status": "done"
+    },
+    {
+      "word": "im Allgemeinen",
+      "english": "generally speaking / in general",
+      "category": "Sentence Openers",
+      "status": "done"
+    },
+    {
+      "word": "grundsätzlich",
+      "english": "in principle / fundamentally",
+      "category": "Sentence Openers",
+      "status": "done"
+    },
+    {
+      "word": "ehrlicherweise",
+      "english": "honestly speaking",
+      "category": "Sentence Openers",
+      "status": "done"
+    },
+    {
+      "word": "genauer gesagt",
+      "english": "more precisely / to be exact",
+      "category": "Sentence Openers",
+      "status": "done"
+    },
+    {
+      "word": "soweit ich weiß",
+      "english": "as far as I know",
+      "category": "Sentence Openers",
+      "status": "done"
+    },
+    {
+      "word": "was mich betrifft",
+      "english": "as far as I'm concerned",
+      "category": "Sentence Openers",
+      "status": "done"
+    },
+    {
+      "word": "um das zu sagen",
+      "english": "to put it that way",
+      "category": "Sentence Openers",
+      "status": "done"
+    }
+  ]
+}

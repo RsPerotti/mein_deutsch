@@ -31,5 +31,16 @@
     "exercises_file": "exercises-adjectives.json",
     "unlock_order": 3,
     "status": "coming_soon"
+  },
+  {
+    "id": "module_adverbs",
+    "title_de": "Adverbien",
+    "title_en": "Adverbs",
+    "description_en": "127 essential German adverbs — frequency, time, certainty, contrast, connectors, and more.",
+    "icon": "⚡",
+    "data_file": "adverbs.json",
+    "exercises_file": "exercises-adverbs.json",
+    "unlock_order": 4,
+    "status": "active"
   }
 ]

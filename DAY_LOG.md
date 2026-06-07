@@ -2,6 +2,36 @@
 
 ---
 
+## 2026-06-07 — Session 8: Adverbs Module — Full Content + UI
+
+**What was built:**
+- `data/adverbs.json` — 127 adverbs sourced from uploaded conversation database spreadsheet. 4 levels: 29 A1 + 25 A2 + 51 B1 + 22 B2 (1 C1 folded into B2). Categories: Frequency & Time, Connectors, Certainty & Probability, Intensifiers, Contrast, Cause & Effect, Agreement & Reaction, Politeness & Softeners, Sentence Openers, Fillers & Conversation Flow, Modal Particles.
+- `data/exercises/exercises-adverbs.json` — 508 exercises (127 × 4). Types: translate_word DE→EN (difficulty 1), fill_blank sentence (difficulty 2), translate_word EN→DE / "Wie sagt man das auf Deutsch?" (difficulty 2), sentence comprehension (difficulty 3). Distractors drawn from same category first, same level fallback.
+- `_factory/seeds/adverbs-level1–4.json` — Seed files for all 4 levels, status: done.
+- `data/modules.json` — Added `module_adverbs` (active, unlock_order 4).
+- `index.html` — Added `screen-adverbliste` screen.
+- `js/app.js` — Added: `appData.adverbs`, `loadData` entry, `_totalWordCount` update, `_wordLabel` lookup, `onScreenEnter` routing, `_renderAdverbModuleCategories()`, `renderAdverbliste()`, `_renderAdverbCards()`, `toggleAdverbCard()`, `filterAdverbList()`.
+- `js/exercises.js` — Added: `module_adverbs` context label, build queue handler, `unlockAdverb` call in `_unlockWord`.
+- `js/progress.js` — Added: `ADVERBS_UNLOCKED` key, `getUnlockedAdverbs()`, `unlockAdverb()` methods.
+- `js/data.js` — Regenerated: now bundles modules (4), verbs (100), nouns (175), adverbs (127), exercises_verbs (936), exercises_nouns (700), exercises_adverbs (508).
+
+**Decisions made:**
+- Skipped adjectives, built adverbs first — all words sourced from existing spreadsheet (less token-intensive).
+- Kept uneven level distribution as-is (29/25/51/22) — authentic to source material, no artificial curation.
+- C1 adverb (1 entry) folded into B2.
+- Exercise type 4 (sentence comprehension): wrong answers use other adverbs' full English example sentences rather than word-substitution (more natural distractors).
+
+**Validation:**
+- All 508 exercises have required fields, zero duplicate IDs.
+- All fill_blank exercises confirmed to have `_____` in question.
+- All 7 data.js keys verified present.
+
+**What's next:**
+- Push to GitHub Pages (data.js is updated)
+- Consider adjectives module
+
+---
+
 ## 2026-06-05 — Session 7: Nouns Content — A2, B1, B2 Batches
 
 **What was built:**

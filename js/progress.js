@@ -20,7 +20,8 @@ const Progress = {
     NEEDS_REVIEW:        'app_needs_review',
     STREAK:              'app_streak',
     STREAK_DATE:         'app_streak_last_date',
-    NOUNS_UNLOCKED:      'app_nouns_unlocked'
+    NOUNS_UNLOCKED:      'app_nouns_unlocked',
+    ADVERBS_UNLOCKED:    'app_adverbs_unlocked'
   },
 
   // --- Generic helpers ---
@@ -94,6 +95,15 @@ const Progress = {
     const list = this.getUnlockedNouns();
     if (!list.includes(nounId)) { list.push(nounId); this._set(this.KEYS.NOUNS_UNLOCKED, list); }
     this.unlockWord(nounId);
+  },
+
+  // --- Adverbs ---
+  getUnlockedAdverbs() { return this._get(this.KEYS.ADVERBS_UNLOCKED, []); },
+
+  unlockAdverb(advId) {
+    const list = this.getUnlockedAdverbs();
+    if (!list.includes(advId)) { list.push(advId); this._set(this.KEYS.ADVERBS_UNLOCKED, list); }
+    this.unlockWord(advId);
   },
 
   // --- Cooldown (Section 11.3) ---

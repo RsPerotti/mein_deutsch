@@ -1,0 +1,317 @@
+{
+  "batch_id": "adverbs_level3",
+  "category": "adverbs",
+  "unlock_level": 3,
+  "target_level": "B1",
+  "status": "done",
+  "generated_date": "2026-06-07",
+  "validated_date": "2026-06-07",
+  "words": [
+    {
+      "word": "häufig",
+      "english": "frequently",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "gelegentlich",
+      "english": "occasionally",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "ständig",
+      "english": "constantly",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "dauernd",
+      "english": "all the time",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "inzwischen",
+      "english": "by now / meanwhile",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "neulich",
+      "english": "recently",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "von Zeit zu Zeit",
+      "english": "from time to time",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "wöchentlich",
+      "english": "weekly",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "kaum",
+      "english": "hardly / barely",
+      "category": "Frequency & Time",
+      "status": "done"
+    },
+    {
+      "word": "zusätzlich",
+      "english": "in addition",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "zudem",
+      "english": "moreover",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "erstens",
+      "english": "firstly / first of all",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "zweitens",
+      "english": "secondly",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "drittens",
+      "english": "thirdly",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "schließlich",
+      "english": "eventually / after all",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "daher",
+      "english": "for that reason / hence",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "dadurch",
+      "english": "through that / because of that",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "trotzdem",
+      "english": "nevertheless / still",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "allerdings",
+      "english": "however / though",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "tatsächlich",
+      "english": "actually / in fact",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "jedenfalls",
+      "english": "anyway / at any rate",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "nämlich",
+      "english": "namely / because (explanatory)",
+      "category": "Connectors",
+      "status": "done"
+    },
+    {
+      "word": "sicherlich",
+      "english": "certainly / surely",
+      "category": "Certainty & Probability",
+      "status": "done"
+    },
+    {
+      "word": "definitiv",
+      "english": "definitely",
+      "category": "Certainty & Probability",
+      "status": "done"
+    },
+    {
+      "word": "eventuell",
+      "english": "possibly / perhaps",
+      "category": "Certainty & Probability",
+      "status": "done"
+    },
+    {
+      "word": "anscheinend",
+      "english": "apparently / it seems",
+      "category": "Certainty & Probability",
+      "status": "done"
+    },
+    {
+      "word": "angeblich",
+      "english": "supposedly / allegedly",
+      "category": "Certainty & Probability",
+      "status": "done"
+    },
+    {
+      "word": "unwahrscheinlich",
+      "english": "unlikely",
+      "category": "Certainty & Probability",
+      "status": "done"
+    },
+    {
+      "word": "ehrlich gesagt",
+      "english": "honestly / to be honest",
+      "category": "Certainty & Probability",
+      "status": "done"
+    },
+    {
+      "word": "eigentlich",
+      "english": "actually / in theory",
+      "category": "Certainty & Probability",
+      "status": "done"
+    },
+    {
+      "word": "gar",
+      "english": "at all / not at all (with negation)",
+      "category": "Modal Particles",
+      "status": "done"
+    },
+    {
+      "word": "im Grunde",
+      "english": "basically / at the core",
+      "category": "Fillers & Conversation Flow",
+      "status": "done"
+    },
+    {
+      "word": "jedenfalls",
+      "english": "anyway / regardless",
+      "category": "Fillers & Conversation Flow",
+      "status": "done"
+    },
+    {
+      "word": "extrem",
+      "english": "extremely",
+      "category": "Intensifiers",
+      "status": "done"
+    },
+    {
+      "word": "absolut",
+      "english": "absolutely",
+      "category": "Intensifiers",
+      "status": "done"
+    },
+    {
+      "word": "unglaublich",
+      "english": "incredibly / unbelievably",
+      "category": "Intensifiers",
+      "status": "done"
+    },
+    {
+      "word": "wahnsinnig",
+      "english": "incredibly / insanely",
+      "category": "Intensifiers",
+      "status": "done"
+    },
+    {
+      "word": "kaum",
+      "english": "barely / hardly (downscaler)",
+      "category": "Intensifiers",
+      "status": "done"
+    },
+    {
+      "word": "dadurch",
+      "english": "through that / as a result",
+      "category": "Cause & Effect",
+      "status": "done"
+    },
+    {
+      "word": "daher",
+      "english": "hence / for that reason",
+      "category": "Cause & Effect",
+      "status": "done"
+    },
+    {
+      "word": "auf keinen Fall",
+      "english": "absolutely not / no way",
+      "category": "Agreement & Reaction",
+      "status": "done"
+    },
+    {
+      "word": "jedoch",
+      "english": "however / yet",
+      "category": "Contrast",
+      "status": "done"
+    },
+    {
+      "word": "allerdings",
+      "english": "however / though / admittedly",
+      "category": "Contrast",
+      "status": "done"
+    },
+    {
+      "word": "trotzdem",
+      "english": "nevertheless / even so",
+      "category": "Contrast",
+      "status": "done"
+    },
+    {
+      "word": "stattdessen",
+      "english": "instead",
+      "category": "Contrast",
+      "status": "done"
+    },
+    {
+      "word": "irgendwie",
+      "english": "kind of / somehow",
+      "category": "Politeness & Softeners",
+      "status": "done"
+    },
+    {
+      "word": "eventuell",
+      "english": "possibly / perhaps (polite hedge)",
+      "category": "Politeness & Softeners",
+      "status": "done"
+    },
+    {
+      "word": "ehrlich gesagt",
+      "english": "to be honest",
+      "category": "Sentence Openers",
+      "status": "done"
+    },
+    {
+      "word": "um ehrlich zu sein",
+      "english": "to be honest",
+      "category": "Sentence Openers",
+      "status": "done"
+    },
+    {
+      "word": "meiner Meinung nach",
+      "english": "in my opinion",
+      "category": "Sentence Openers",
+      "status": "done"
+    },
+    {
+      "word": "kurz gesagt",
+      "english": "in short / to put it briefly",
+      "category": "Sentence Openers",
+      "status": "done"
+    }
+  ]
+}

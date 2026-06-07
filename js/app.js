@@ -15,6 +15,7 @@ const appData = {
   modules:   [],
   verbs:     [],
   nouns:     [],
+  adverbs:   [],
   exercises: {}   // keyed by moduleId e.g. 'module_verbs'
 };
 
@@ -58,6 +59,7 @@ function onScreenEnter(screenId) {
     case 'screen-exercise':    startExercise(currentExerciseState);     break;
     case 'screen-verbliste':   renderVerbliste();                       break;
     case 'screen-nomenliste':  renderNomenliste();                      break;
+    case 'screen-adverbliste': renderAdverbliste();                     break;
     case 'screen-results':     /* rendered by exercises.js */           break;
   }
 }
@@ -82,11 +84,13 @@ async function loadData() {
   // Data is embedded via js/data.js (window.APP_DATA) — no fetch needed.
   // This works with file://, localhost, and GitHub Pages equally.
   const d = window.APP_DATA || {};
-  appData.modules                    = d.modules        || [];
-  appData.verbs                      = d.verbs          || [];
-  appData.nouns                      = d.nouns          || [];
-  appData.exercises['module_verbs']  = d.exercises_verbs || (d.exercises || {}).module_verbs || [];
-  appData.exercises['module_nouns']  = d.exercises_nouns || [];
+  appData.modules                      = d.modules          || [];
+  appData.verbs                        = d.verbs            || [];
+  appData.nouns                        = d.nouns            || [];
+  appData.adverbs                      = d.adverbs          || [];
+  appData.exercises['module_verbs']    = d.exercises_verbs  || (d.exercises || {}).module_verbs || [];
+  appData.exercises['module_nouns']    = d.exercises_nouns  || [];
+  appData.exercises['module_adverbs']  = d.exercises_adverbs || [];
 }
 
 // ─────────────────────────────────────────
@@ -120,7 +124,7 @@ function renderHome() {
 }
 
 function _totalWordCount() {
-  let n = appData.verbs.length + appData.nouns.length;
+  let n = appData.verbs.length + appData.nouns.length + appData.adverbs.length;
   for (const v of appData.verbs) n += (v.prefix_variants || []).length;
   return n;
 }
@@ -128,6 +132,8 @@ function _totalWordCount() {
 function _wordLabel(id) {
   const noun = appData.nouns.find(n => n.id === id);
   if (noun) return `${noun.article} ${noun.word}`;
+  const adv = appData.adverbs.find(a => a.id === id);
+  if (adv) return adv.word;
   const root = appData.verbs.find(v => v.id === id);
   if (root) return root.root;
   for (const v of appData.verbs) {
@@ -189,6 +195,8 @@ function renderModuleHome(moduleId) {
     _renderVerbModuleCategories();
   } else if (moduleId === 'module_nouns') {
     _renderNounModuleCategories();
+  } else if (moduleId === 'module_adverbs') {
+    _renderAdverbModuleCategories();
   }
 }
 
@@ -424,6 +432,136 @@ function _articleColor(article) {
   if (article === 'die') return '#C14A4A';
   if (article === 'das') return '#4A8C4A';
   return '#888';
+}
+
+// ─────────────────────────────────────────
+// MODULE HOME — ADVERBS
+// ─────────────────────────────────────────
+
+function _renderAdverbModuleCategories() {
+  const total    = appData.adverbs.length;
+  const unlocked = Progress.getUnlockedAdverbs().length;
+  const pct      = total > 0 ? Math.round(unlocked / total * 100) : 0;
+
+  document.getElementById('module-progress-count').textContent = `${unlocked} / ${total}`;
+  document.getElementById('module-progress-fill').style.width  = pct + '%';
+
+  document.getElementById('module-categories').innerHTML = `
+    <div class="label mt-4" style="color:var(--color-text-primary);margin-bottom:var(--sp-3)">
+      Übungen
+    </div>
+
+    <div class="category-pair">
+      <div class="category-card" style="grid-column:1/-1"
+           onclick="openExercise('module_adverbs','all')">
+        <div class="category-card-title">Adverbien üben</div>
+        <div class="category-card-subtitle">Frequency, time, certainty &amp; more</div>
+        <div class="category-card-count mt-3">${unlocked} / ${total} gelernt</div>
+        <div class="progress-bar mt-2">
+          <div class="progress-fill" style="width:${pct}%"></div>
+        </div>
+        <div class="category-card-cta">Üben →</div>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="cursor:pointer" onclick="navigateTo('screen-adverbliste')">
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <div>
+          <div style="font-weight:var(--fw-bold)">Adverbliste</div>
+          <div style="font-size:var(--font-size-sm);color:var(--color-text-secondary);margin-top:2px">
+            Freigeschaltete Adverbien nachschlagen</div>
+        </div>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+             style="color:var(--color-text-muted)">
+          <polyline points="9 18 15 12 9 6"/>
+        </svg>
+      </div>
+    </div>`;
+}
+
+// ─────────────────────────────────────────
+// ADVERBLISTE (Adverb Reference)
+// ─────────────────────────────────────────
+
+function renderAdverbliste() {
+  const unlockedIds = new Set(Progress.getUnlockedAdverbs());
+  let adverbs = appData.adverbs.filter(a => unlockedIds.has(a.id));
+  adverbs.sort((a, b) => a.word.localeCompare(b.word, 'de'));
+
+  const container = document.getElementById('adverbliste-content');
+
+  if (adverbs.length === 0) {
+    container.innerHTML = `
+      <div class="empty-state">
+        <div class="empty-icon">📖</div>
+        <p>Noch keine Adverbien freigeschaltet.</p>
+      </div>`;
+    return;
+  }
+
+  container.innerHTML = _renderAdverbCards(adverbs);
+}
+
+function _renderAdverbCards(adverbs) {
+  return adverbs.map(adv => `
+    <div class="card verb-card">
+      <div class="verb-card-header" onclick="toggleAdverbCard('${adv.id}')">
+        <div>
+          <span class="tag" style="margin-right:6px;background:var(--color-green-dark);color:#fff;font-size:var(--font-size-xs);padding:2px 7px;border-radius:4px">
+            ${adv.cefr}</span>
+          <span class="verb-card-title">${adv.word}</span>
+          <span class="verb-card-en"> — ${adv.english}</span>
+        </div>
+        <svg id="al-arr-${adv.id}" width="16" height="16" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+             stroke-linejoin="round" style="color:var(--color-text-muted);transition:transform 0.2s">
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </div>
+
+      <div class="verb-detail" id="al-det-${adv.id}">
+        <div style="margin-top:var(--sp-3);font-size:var(--font-size-sm);color:var(--color-text-muted)">
+          ${adv.category}${adv.register && adv.register !== 'Neutral' ? ' · ' + adv.register : ''}
+        </div>
+        ${adv.example_sentences && adv.example_sentences.length > 0 ? `
+          <div class="label mt-3" style="margin-bottom:var(--sp-2)">Beispiele</div>
+          ${adv.example_sentences.map(ex => `
+            <div class="example-card">
+              <div class="example-de">${ex.de}</div>
+              <div class="example-en">${ex.en}</div>
+            </div>`).join('')}` : ''}
+      </div>
+    </div>`).join('');
+}
+
+function toggleAdverbCard(advId) {
+  const det = document.getElementById(`al-det-${advId}`);
+  const arr = document.getElementById(`al-arr-${advId}`);
+  const isOpen = det.classList.contains('open');
+  det.classList.toggle('open', !isOpen);
+  arr.style.transform = isOpen ? '' : 'rotate(180deg)';
+}
+
+function filterAdverbList(query) {
+  const q = query.toLowerCase().trim();
+  const unlockedIds = new Set(Progress.getUnlockedAdverbs());
+  let adverbs = appData.adverbs.filter(a => unlockedIds.has(a.id));
+  if (q) {
+    adverbs = adverbs.filter(a =>
+      a.word.toLowerCase().includes(q) ||
+      a.english.toLowerCase().includes(q) ||
+      a.category.toLowerCase().includes(q));
+  }
+  adverbs.sort((a, b) => a.word.localeCompare(b.word, 'de'));
+
+  const container = document.getElementById('adverbliste-content');
+  if (adverbs.length === 0) {
+    container.innerHTML = `<div style="color:var(--color-text-muted);padding:var(--sp-4)">
+      Keine Ergebnisse.</div>`;
+    return;
+  }
+  container.innerHTML = _renderAdverbCards(adverbs);
 }
 
 // ─────────────────────────────────────────

@@ -47,6 +47,8 @@ function startExercise(state) {
   let contextLabel;
   if (moduleId === 'module_nouns') {
     contextLabel = 'NOMEN · ÜBUNGEN';
+  } else if (moduleId === 'module_adverbs') {
+    contextLabel = 'ADVERBIEN · ÜBUNGEN';
   } else {
     const label = category === 'roots' ? 'STAMMVERBEN' : 'VARIATIONEN';
     contextLabel = 'VERBEN · ' + label;
@@ -62,6 +64,9 @@ function _buildQueue(moduleId, category) {
 
   // Nouns — single category, serve all exercises
   if (moduleId === 'module_nouns') return _shuffle([...all]);
+
+  // Adverbs — single category, serve all exercises
+  if (moduleId === 'module_adverbs') return _shuffle([...all]);
 
   // Full queue — no session cap. User works through all exercises until complete.
   if (moduleId !== 'module_verbs') return _shuffle([...all]);
@@ -311,6 +316,8 @@ function _unlockWord(wordId) {
   const isNoun = appData.nouns && appData.nouns.some(n => n.id === wordId);
   if (isNoun) {
     Progress.unlockNoun(wordId);
+  } else if (appData.adverbs && appData.adverbs.some(a => a.id === wordId)) {
+    Progress.unlockAdverb(wordId);
   } else {
     const isRoot = appData.verbs.some(v => v.id === wordId);
     if (isRoot) {

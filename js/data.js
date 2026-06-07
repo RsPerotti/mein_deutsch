@@ -34,6 +34,17 @@ window.APP_DATA = {
     "exercises_file": "exercises-adjectives.json",
     "unlock_order": 3,
     "status": "coming_soon"
+  },
+  {
+    "id": "module_adverbs",
+    "title_de": "Adverbien",
+    "title_en": "Adverbs",
+    "description_en": "127 essential German adverbs — frequency, time, certainty, contrast, connectors, and more.",
+    "icon": "⚡",
+    "data_file": "adverbs.json",
+    "exercises_file": "exercises-adverbs.json",
+    "unlock_order": 4,
+    "status": "active"
   }
 ],
   verbs: 
@@ -12408,6 +12419,3057 @@ window.APP_DATA = {
     ],
     "tags": [
       "abstract",
+      "b2"
+    ]
+  }
+],
+  adverbs: 
+[
+  {
+    "id": "adv_immer",
+    "word": "immer",
+    "english": "always",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich komme immer zu spät.",
+        "en": "I'm always late.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_oft",
+    "word": "oft",
+    "english": "often",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Wir gehen oft spazieren.",
+        "en": "We often go for walks.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_haeufig",
+    "word": "häufig",
+    "english": "frequently",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Er reist häufig beruflich.",
+        "en": "He travels frequently for work.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_manchmal",
+    "word": "manchmal",
+    "english": "sometimes",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Manchmal brauche ich Ruhe.",
+        "en": "Sometimes I need quiet.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_gelegentlich",
+    "word": "gelegentlich",
+    "english": "occasionally",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Wir treffen uns gelegentlich.",
+        "en": "We meet occasionally.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_selten",
+    "word": "selten",
+    "english": "rarely",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich esse selten Fleisch.",
+        "en": "I rarely eat meat.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_nie",
+    "word": "nie",
+    "english": "never",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich trinke nie Kaffee.",
+        "en": "I never drink coffee.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_niemals",
+    "word": "niemals",
+    "english": "never (emphatic)",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das werde ich niemals tun.",
+        "en": "I will never do that.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_staendig",
+    "word": "ständig",
+    "english": "constantly",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Mein Handy klingelt ständig.",
+        "en": "My phone keeps ringing constantly.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_dauernd",
+    "word": "dauernd",
+    "english": "all the time",
+    "category": "Frequency & Time",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Er beschwert sich dauernd.",
+        "en": "He complains all the time.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_meistens",
+    "word": "meistens",
+    "english": "usually / mostly",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ich arbeite meistens von zu Hause.",
+        "en": "I usually work from home.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_normalerweise",
+    "word": "normalerweise",
+    "english": "normally",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Normalerweise bin ich pünktlich.",
+        "en": "Normally I'm punctual.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_inzwischen",
+    "word": "inzwischen",
+    "english": "by now / meanwhile",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Inzwischen wohnt sie in Berlin.",
+        "en": "By now she lives in Berlin.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_schon",
+    "word": "schon",
+    "english": "already",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich habe schon gegessen.",
+        "en": "I already ate.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_noch",
+    "word": "noch",
+    "english": "still",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Bist du noch hier?",
+        "en": "Are you still here?",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_nicht_mehr",
+    "word": "nicht mehr",
+    "english": "not anymore",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ich rauche nicht mehr.",
+        "en": "I don't smoke anymore.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_gerade",
+    "word": "gerade",
+    "english": "right now / just",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich arbeite gerade.",
+        "en": "I'm working right now.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_vorhin",
+    "word": "vorhin",
+    "english": "earlier / a moment ago",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ich habe ihn vorhin gesehen.",
+        "en": "I saw him earlier.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_neulich",
+    "word": "neulich",
+    "english": "recently",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Wir haben uns neulich getroffen.",
+        "en": "We met recently.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_bald",
+    "word": "bald",
+    "english": "soon",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich komme bald zurück.",
+        "en": "I'll be back soon.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_spaeter",
+    "word": "später",
+    "english": "later",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Wir reden später.",
+        "en": "We'll talk later.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_frueher",
+    "word": "früher",
+    "english": "earlier / in the past",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Früher war alles billiger.",
+        "en": "Things used to be cheaper.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_sofort",
+    "word": "sofort",
+    "english": "immediately",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Mach das sofort.",
+        "en": "Do that immediately.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_gleich",
+    "word": "gleich",
+    "english": "in a moment / right away",
+    "category": "Frequency & Time",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich komme gleich.",
+        "en": "I'll be there in a moment.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_ab_und_zu",
+    "word": "ab und zu",
+    "english": "now and then",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ab und zu gehe ich ins Kino.",
+        "en": "Now and then I go to the cinema.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_von_zeit_zu_zeit",
+    "word": "von Zeit zu Zeit",
+    "english": "from time to time",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Von Zeit zu Zeit besuche ich meine Eltern.",
+        "en": "From time to time I visit my parents.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_regelmaessig",
+    "word": "regelmäßig",
+    "english": "regularly",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ich laufe regelmäßig.",
+        "en": "I run regularly.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_taeglich",
+    "word": "täglich",
+    "english": "daily / every day",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich lerne täglich Deutsch.",
+        "en": "I study German every day.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_woechentlich",
+    "word": "wöchentlich",
+    "english": "weekly",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Wir haben wöchentlich ein Meeting.",
+        "en": "We have a meeting weekly.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_kaum",
+    "word": "kaum",
+    "english": "hardly / barely",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ich kenne ihn kaum.",
+        "en": "I barely know him.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_ausserdem",
+    "word": "außerdem",
+    "english": "besides / additionally",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Außerdem ist es günstiger.",
+        "en": "Besides, it's cheaper.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_zusaetzlich",
+    "word": "zusätzlich",
+    "english": "in addition",
+    "category": "Connectors",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Zusätzlich brauchen wir Wasser.",
+        "en": "In addition, we need water.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_darueber_hinaus",
+    "word": "darüber hinaus",
+    "english": "beyond that / furthermore",
+    "category": "Connectors",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Darüber hinaus gibt es Risiken.",
+        "en": "Beyond that, there are risks.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_zudem",
+    "word": "zudem",
+    "english": "moreover",
+    "category": "Connectors",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Zudem war er krank.",
+        "en": "Moreover, he was sick.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_danach",
+    "word": "danach",
+    "english": "afterwards / after that",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Danach gehen wir essen.",
+        "en": "Afterwards we'll eat.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_dann",
+    "word": "dann",
+    "english": "then",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Dann machen wir weiter.",
+        "en": "Then we continue.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_zuerst",
+    "word": "zuerst",
+    "english": "first",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Zuerst musst du bezahlen.",
+        "en": "First you must pay.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_erstens",
+    "word": "erstens",
+    "english": "firstly / first of all",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Erstens haben wir keine Zeit.",
+        "en": "First of all, we have no time.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_zweitens",
+    "word": "zweitens",
+    "english": "secondly",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Zweitens ist es zu teuer.",
+        "en": "Secondly, it's too expensive.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_drittens",
+    "word": "drittens",
+    "english": "thirdly",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Drittens fehlt uns Personal.",
+        "en": "Thirdly, we lack staff.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_schliesslich",
+    "word": "schließlich",
+    "english": "eventually / after all",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Schließlich haben wir zugestimmt.",
+        "en": "Eventually we agreed.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_deshalb",
+    "word": "deshalb",
+    "english": "therefore / that's why",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Es regnet, deshalb bleiben wir hier.",
+        "en": "It's raining, so we're staying.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_deswegen",
+    "word": "deswegen",
+    "english": "that's why / because of that",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ich bin müde, deswegen gehe ich heim.",
+        "en": "I'm tired, that's why I'm going home.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_daher",
+    "word": "daher",
+    "english": "for that reason / hence",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Daher kommt das Problem.",
+        "en": "That's where the problem comes from.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_darum",
+    "word": "darum",
+    "english": "for that reason / that's why",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Darum geht es nicht.",
+        "en": "That's not the point.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_dadurch",
+    "word": "dadurch",
+    "english": "through that / because of that",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Dadurch wurde alles einfacher.",
+        "en": "That made everything easier.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_trotzdem",
+    "word": "trotzdem",
+    "english": "nevertheless / still",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Es war kalt, trotzdem sind wir gegangen.",
+        "en": "It was cold, but we went anyway.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_allerdings",
+    "word": "allerdings",
+    "english": "however / though",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das ist allerdings schwierig.",
+        "en": "That is however difficult.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_andererseits",
+    "word": "andererseits",
+    "english": "on the other hand",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Andererseits verstehe ich ihn.",
+        "en": "On the other hand, I understand him.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_dennoch",
+    "word": "dennoch",
+    "english": "nonetheless / yet",
+    "category": "Connectors",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Dennoch hat es funktioniert.",
+        "en": "Nonetheless it worked.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_tatsaechlich",
+    "word": "tatsächlich",
+    "english": "actually / in fact",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Tatsächlich hatte sie recht.",
+        "en": "In fact she was right.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_jedenfalls",
+    "word": "jedenfalls",
+    "english": "anyway / at any rate",
+    "category": "Connectors",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Jedenfalls müssen wir los.",
+        "en": "Anyway, we need to go.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_uebrigens",
+    "word": "übrigens",
+    "english": "by the way",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Übrigens habe ich Anna gesehen.",
+        "en": "By the way, I saw Anna.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_naemlich",
+    "word": "nämlich",
+    "english": "namely / because (explanatory)",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ich bleibe zu Hause, ich bin nämlich krank.",
+        "en": "I'm staying home — I'm sick, you see.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_einerseits",
+    "word": "einerseits",
+    "english": "on one hand",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Einerseits ist es praktisch.",
+        "en": "On one hand, it's practical.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_vielleicht",
+    "word": "vielleicht",
+    "english": "maybe / perhaps",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Vielleicht kommt er später.",
+        "en": "Maybe he'll come later.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_wahrscheinlich",
+    "word": "wahrscheinlich",
+    "english": "probably",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Sie kommt wahrscheinlich morgen.",
+        "en": "She'll probably come tomorrow.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_sicherlich",
+    "word": "sicherlich",
+    "english": "certainly / surely",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das ist sicherlich möglich.",
+        "en": "That's certainly possible.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_bestimmt",
+    "word": "bestimmt",
+    "english": "definitely / for sure",
+    "category": "Certainty & Probability",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das klappt bestimmt.",
+        "en": "That'll definitely work.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_definitiv",
+    "word": "definitiv",
+    "english": "definitely",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das ist definitiv besser.",
+        "en": "That is definitely better.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_eventuell",
+    "word": "eventuell",
+    "english": "possibly / perhaps",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Eventuell bleiben wir länger.",
+        "en": "We might stay longer.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_voraussichtlich",
+    "word": "voraussichtlich",
+    "english": "as expected / likely",
+    "category": "Certainty & Probability",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Der Zug kommt voraussichtlich pünktlich.",
+        "en": "The train is expected to arrive on time.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_anscheinend",
+    "word": "anscheinend",
+    "english": "apparently / it seems",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Anscheinend wusste er Bescheid.",
+        "en": "Apparently he knew about it.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_offenbar",
+    "word": "offenbar",
+    "english": "apparently / obviously",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Offenbar gab es ein Problem.",
+        "en": "Apparently there was a problem.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_angeblich",
+    "word": "angeblich",
+    "english": "supposedly / allegedly",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Angeblich war er krank.",
+        "en": "Supposedly he was sick.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_unwahrscheinlich",
+    "word": "unwahrscheinlich",
+    "english": "unlikely",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das ist eher unwahrscheinlich.",
+        "en": "That's rather unlikely.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_natuerlich",
+    "word": "natürlich",
+    "english": "of course / naturally",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Natürlich helfe ich dir.",
+        "en": "Of course I'll help you.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_ehrlich_gesagt",
+    "word": "ehrlich gesagt",
+    "english": "honestly / to be honest",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ehrlich gesagt verstehe ich das nicht.",
+        "en": "Honestly, I don't understand that.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_auf_jeden_fall",
+    "word": "auf jeden Fall",
+    "english": "definitely / in any case",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das mache ich auf jeden Fall.",
+        "en": "I will definitely do that.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_eigentlich",
+    "word": "eigentlich",
+    "english": "actually / in theory",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Eigentlich sollte er hier sein.",
+        "en": "He should actually be here.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_moeglicherweise",
+    "word": "möglicherweise",
+    "english": "possibly",
+    "category": "Certainty & Probability",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Möglicherweise hat er die E-Mail nicht gesehen.",
+        "en": "He possibly didn't see the email.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_gar",
+    "word": "gar",
+    "english": "at all / not at all (with negation)",
+    "category": "Modal Particles",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das geht gar nicht.",
+        "en": "That's completely unacceptable.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "modal_particles",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_also",
+    "word": "also",
+    "english": "so / well then",
+    "category": "Fillers & Conversation Flow",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Also, was machen wir jetzt?",
+        "en": "So, what are we doing now?",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "fillers_conversation_flow",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_sozusagen",
+    "word": "sozusagen",
+    "english": "so to speak / as it were",
+    "category": "Fillers & Conversation Flow",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Er ist sozusagen der Chef.",
+        "en": "He's basically the boss.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "fillers_conversation_flow",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_im_grunde",
+    "word": "im Grunde",
+    "english": "basically / at the core",
+    "category": "Fillers & Conversation Flow",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Im Grunde hat sie recht.",
+        "en": "Basically she's right.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "fillers_conversation_flow",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_im_grunde_genommen",
+    "word": "im Grunde genommen",
+    "english": "basically / all things considered",
+    "category": "Fillers & Conversation Flow",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Im Grunde genommen war es eine gute Idee.",
+        "en": "All things considered, it was a good idea.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "fillers_conversation_flow",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_jedenfalls_2",
+    "word": "jedenfalls",
+    "english": "anyway / regardless",
+    "category": "Fillers & Conversation Flow",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Jedenfalls war es interessant.",
+        "en": "Anyway, it was interesting.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "fillers_conversation_flow",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_sehr",
+    "word": "sehr",
+    "english": "very",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Das ist sehr wichtig.",
+        "en": "That is very important.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_wirklich",
+    "word": "wirklich",
+    "english": "really / truly",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Das ist wirklich gut.",
+        "en": "That is really good.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_total",
+    "word": "total",
+    "english": "totally / completely",
+    "category": "Intensifiers",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ich bin total müde.",
+        "en": "I'm totally tired.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_extrem",
+    "word": "extrem",
+    "english": "extremely",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das war extrem teuer.",
+        "en": "That was extremely expensive.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_ziemlich",
+    "word": "ziemlich",
+    "english": "quite / fairly / pretty",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das ist ziemlich schwer.",
+        "en": "That is quite difficult.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_absolut",
+    "word": "absolut",
+    "english": "absolutely",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das ist absolut richtig.",
+        "en": "That is absolutely correct.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_unglaublich",
+    "word": "unglaublich",
+    "english": "incredibly / unbelievably",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das war unglaublich schnell.",
+        "en": "That was incredibly fast.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_echt",
+    "word": "echt",
+    "english": "really / genuinely",
+    "category": "Intensifiers",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das ist echt interessant.",
+        "en": "That's really interesting.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_voll",
+    "word": "voll",
+    "english": "totally / completely (slang)",
+    "category": "Intensifiers",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das ist voll cool.",
+        "en": "That's totally cool.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_besonders",
+    "word": "besonders",
+    "english": "especially / particularly",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das gefällt mir besonders.",
+        "en": "I especially like that.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_so",
+    "word": "so",
+    "english": "so (intensifier)",
+    "category": "Intensifiers",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Das war so schön!",
+        "en": "That was so beautiful!",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_mega",
+    "word": "mega",
+    "english": "mega / super (slang)",
+    "category": "Intensifiers",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das ist mega lecker.",
+        "en": "That is super delicious.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_wahnsinnig",
+    "word": "wahnsinnig",
+    "english": "incredibly / insanely",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das hat wahnsinnig viel Spaß gemacht.",
+        "en": "That was incredibly fun.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_kaum_2",
+    "word": "kaum",
+    "english": "barely / hardly (downscaler)",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das ist kaum zu glauben.",
+        "en": "That is barely believable.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_deswegen_2",
+    "word": "deswegen",
+    "english": "that's why / because of that",
+    "category": "Cause & Effect",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ich hatte keine Zeit, deswegen war ich spät.",
+        "en": "I had no time, that's why I was late.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "cause_effect",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_dadurch_2",
+    "word": "dadurch",
+    "english": "through that / as a result",
+    "category": "Cause & Effect",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Dadurch wurde alles einfacher.",
+        "en": "That made everything easier.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "cause_effect",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_somit",
+    "word": "somit",
+    "english": "thus / therefore",
+    "category": "Cause & Effect",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Somit ist das Problem gelöst.",
+        "en": "Thus the problem is solved.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "cause_effect",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_infolgedessen",
+    "word": "infolgedessen",
+    "english": "as a result / consequently",
+    "category": "Cause & Effect",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Infolgedessen wurde das Projekt gestoppt.",
+        "en": "As a result the project was stopped.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "cause_effect",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_deshalb_2",
+    "word": "deshalb",
+    "english": "therefore / that's why",
+    "category": "Cause & Effect",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Es war spät, deshalb gingen wir.",
+        "en": "It was late, therefore we left.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "cause_effect",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_daher_2",
+    "word": "daher",
+    "english": "hence / for that reason",
+    "category": "Cause & Effect",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Er hat nicht gelernt, daher hat er die Prüfung nicht bestanden.",
+        "en": "He didn't study, hence he failed the exam.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "cause_effect",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_folglich",
+    "word": "folglich",
+    "english": "consequently / as a result",
+    "category": "Cause & Effect",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Er hat gelogen, folglich vertraue ich ihm nicht mehr.",
+        "en": "He lied, consequently I no longer trust him.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "cause_effect",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_genau",
+    "word": "genau",
+    "english": "exactly / precisely",
+    "category": "Agreement & Reaction",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Genau das meine ich.",
+        "en": "That's exactly what I mean.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "agreement_reaction",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_stimmt",
+    "word": "stimmt",
+    "english": "true / right / correct",
+    "category": "Agreement & Reaction",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Stimmt, du hast recht.",
+        "en": "True, you're right.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "agreement_reaction",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_klar",
+    "word": "klar",
+    "english": "sure / obviously / of course",
+    "category": "Agreement & Reaction",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Klar komme ich mit.",
+        "en": "Sure I'll come along.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "agreement_reaction",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_natuerlich_2",
+    "word": "natürlich",
+    "english": "of course / naturally",
+    "category": "Agreement & Reaction",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Natürlich verstehe ich das.",
+        "en": "Of course I understand that.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "agreement_reaction",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_auf_keinen_fall",
+    "word": "auf keinen Fall",
+    "english": "absolutely not / no way",
+    "category": "Agreement & Reaction",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Auf keinen Fall mache ich das.",
+        "en": "There's no way I'm doing that.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "agreement_reaction",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_leider",
+    "word": "leider",
+    "english": "unfortunately",
+    "category": "Agreement & Reaction",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Leider kann ich nicht kommen.",
+        "en": "Unfortunately I can't come.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "agreement_reaction",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_jedoch",
+    "word": "jedoch",
+    "english": "however / yet",
+    "category": "Contrast",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das ist jedoch kompliziert.",
+        "en": "However, that is complicated.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "contrast",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_allerdings_2",
+    "word": "allerdings",
+    "english": "however / though / admittedly",
+    "category": "Contrast",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Allerdings fehlt uns Zeit.",
+        "en": "However, we lack time.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "contrast",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_trotzdem_2",
+    "word": "trotzdem",
+    "english": "nevertheless / even so",
+    "category": "Contrast",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Trotzdem hat er gewonnen.",
+        "en": "Nevertheless he won.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "contrast",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_dennoch_2",
+    "word": "dennoch",
+    "english": "nonetheless / yet",
+    "category": "Contrast",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Dennoch machen wir weiter.",
+        "en": "Nonetheless we continue.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "contrast",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_hingegen",
+    "word": "hingegen",
+    "english": "whereas / on the other hand",
+    "category": "Contrast",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Sie liebt Berge, ich hingegen das Meer.",
+        "en": "She loves mountains, whereas I love the sea.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "contrast",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_stattdessen",
+    "word": "stattdessen",
+    "english": "instead",
+    "category": "Contrast",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Stattdessen blieben wir zu Hause.",
+        "en": "Instead we stayed home.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "contrast",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_im_gegenteil",
+    "word": "im Gegenteil",
+    "english": "on the contrary",
+    "category": "Contrast",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Im Gegenteil, es war wunderbar.",
+        "en": "On the contrary, it was wonderful.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "contrast",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_vielleicht_2",
+    "word": "vielleicht",
+    "english": "maybe / perhaps (softener)",
+    "category": "Politeness & Softeners",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Vielleicht können wir später reden.",
+        "en": "Maybe we can talk later.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "politeness_softeners",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_ein_bisschen",
+    "word": "ein bisschen",
+    "english": "a little / a bit",
+    "category": "Politeness & Softeners",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich bin ein bisschen müde.",
+        "en": "I'm a little tired.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "politeness_softeners",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_irgendwie",
+    "word": "irgendwie",
+    "english": "kind of / somehow",
+    "category": "Politeness & Softeners",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das fühlt sich irgendwie komisch an.",
+        "en": "That feels kind of strange.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "politeness_softeners",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_eventuell_2",
+    "word": "eventuell",
+    "english": "possibly / perhaps (polite hedge)",
+    "category": "Politeness & Softeners",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Eventuell könnten wir verschieben.",
+        "en": "We could possibly postpone.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "politeness_softeners",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_bitte",
+    "word": "bitte",
+    "english": "please",
+    "category": "Politeness & Softeners",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Kannst du das bitte wiederholen?",
+        "en": "Can you please repeat that?",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "politeness_softeners",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_ehrlich_gesagt_2",
+    "word": "ehrlich gesagt",
+    "english": "to be honest",
+    "category": "Sentence Openers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ehrlich gesagt bin ich müde.",
+        "en": "To be honest I'm tired.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "sentence_openers",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_im_allgemeinen",
+    "word": "im Allgemeinen",
+    "english": "generally speaking / in general",
+    "category": "Sentence Openers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Im Allgemeinen mag ich den Winter.",
+        "en": "Generally speaking I like winter.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "sentence_openers",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_grundsaetzlich",
+    "word": "grundsätzlich",
+    "english": "in principle / fundamentally",
+    "category": "Sentence Openers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Grundsätzlich stimme ich zu.",
+        "en": "In principle I agree.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "sentence_openers",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_um_ehrlich_zu_sein",
+    "word": "um ehrlich zu sein",
+    "english": "to be honest",
+    "category": "Sentence Openers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Um ehrlich zu sein, war ich nervös.",
+        "en": "To be honest, I was nervous.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "sentence_openers",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_ehrlicherweise",
+    "word": "ehrlicherweise",
+    "english": "honestly speaking",
+    "category": "Sentence Openers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Ehrlicherweise war das meine Schuld.",
+        "en": "Honestly speaking, that was my fault.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "sentence_openers",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_meiner_meinung_nach",
+    "word": "meiner Meinung nach",
+    "english": "in my opinion",
+    "category": "Sentence Openers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Meiner Meinung nach ist das falsch.",
+        "en": "In my opinion that is wrong.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "sentence_openers",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_kurz_gesagt",
+    "word": "kurz gesagt",
+    "english": "in short / to put it briefly",
+    "category": "Sentence Openers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Kurz gesagt: Es hat nicht funktioniert.",
+        "en": "In short: it didn't work.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "sentence_openers",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_genauer_gesagt",
+    "word": "genauer gesagt",
+    "english": "more precisely / to be exact",
+    "category": "Sentence Openers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Genauer gesagt war es gestern.",
+        "en": "More precisely, it was yesterday.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "sentence_openers",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_soweit_ich_weiss",
+    "word": "soweit ich weiß",
+    "english": "as far as I know",
+    "category": "Sentence Openers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Soweit ich weiß, kommt er morgen.",
+        "en": "As far as I know, he's coming tomorrow.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "sentence_openers",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_was_mich_betrifft",
+    "word": "was mich betrifft",
+    "english": "as far as I'm concerned",
+    "category": "Sentence Openers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Was mich betrifft, bin ich einverstanden.",
+        "en": "As far as I'm concerned, I agree.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "sentence_openers",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_um_das_zu_sagen",
+    "word": "um das zu sagen",
+    "english": "to put it that way",
+    "category": "Sentence Openers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Um das zu sagen: Es war ein Fehler.",
+        "en": "To put it plainly: it was a mistake.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "sentence_openers",
       "b2"
     ]
   }
@@ -42568,4 +45630,9024 @@ window.APP_DATA = {
     "explanation_en": "'kennen' takes accusative. Plural: 'seine Schwächen' (adds -n to the singular form)."
   }
 ],
+  exercises_adverbs: 
+[
+  {
+    "exercise_id": "ex_adv_immer_001",
+    "word_id": "adv_immer",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "immer",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "always",
+    "wrong_answers": [
+      "sometimes",
+      "earlier / in the past",
+      "daily / every day",
+      "immediately"
+    ],
+    "explanation_en": "'immer' means 'always' in German."
+  },
+  {
+    "exercise_id": "ex_adv_immer_002",
+    "word_id": "adv_immer",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich komme _____ zu spät.",
+      "en": "I'm always late."
+    },
+    "correct_answer": "immer",
+    "wrong_answers": [
+      "vorhin",
+      "selten",
+      "oft",
+      "gerade"
+    ],
+    "explanation_en": "The correct adverb here is 'immer', meaning 'always'."
+  },
+  {
+    "exercise_id": "ex_adv_immer_003",
+    "word_id": "adv_immer",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "always",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "immer",
+    "wrong_answers": [
+      "vorhin",
+      "selten",
+      "oft",
+      "gerade"
+    ],
+    "explanation_en": "'always' is 'immer' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_immer_004",
+    "word_id": "adv_immer",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ich komme immer zu spät.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I'm always late.",
+    "wrong_answers": [
+      "We meet occasionally.",
+      "I'll be there in a moment.",
+      "I usually work from home."
+    ],
+    "explanation_en": "'immer' = 'always'. Full sentence: \"I'm always late.\""
+  },
+  {
+    "exercise_id": "ex_adv_oft_001",
+    "word_id": "adv_oft",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "oft",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "often",
+    "wrong_answers": [
+      "by now / meanwhile",
+      "not anymore",
+      "sometimes",
+      "rarely"
+    ],
+    "explanation_en": "'oft' means 'often' in German."
+  },
+  {
+    "exercise_id": "ex_adv_oft_002",
+    "word_id": "adv_oft",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir gehen _____ spazieren.",
+      "en": "We often go for walks."
+    },
+    "correct_answer": "oft",
+    "wrong_answers": [
+      "immer",
+      "ab und zu",
+      "niemals",
+      "dauernd"
+    ],
+    "explanation_en": "The correct adverb here is 'oft', meaning 'often'."
+  },
+  {
+    "exercise_id": "ex_adv_oft_003",
+    "word_id": "adv_oft",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "often",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "oft",
+    "wrong_answers": [
+      "immer",
+      "ab und zu",
+      "niemals",
+      "dauernd"
+    ],
+    "explanation_en": "'often' is 'oft' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_oft_004",
+    "word_id": "adv_oft",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Wir gehen oft spazieren.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "We often go for walks.",
+    "wrong_answers": [
+      "I usually work from home.",
+      "I run regularly.",
+      "Things used to be cheaper."
+    ],
+    "explanation_en": "'oft' = 'often'. Full sentence: \"We often go for walks.\""
+  },
+  {
+    "exercise_id": "ex_adv_haeufig_001",
+    "word_id": "adv_haeufig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "häufig",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "frequently",
+    "wrong_answers": [
+      "from time to time",
+      "daily / every day",
+      "immediately",
+      "by now / meanwhile"
+    ],
+    "explanation_en": "'häufig' means 'frequently' in German."
+  },
+  {
+    "exercise_id": "ex_adv_haeufig_002",
+    "word_id": "adv_haeufig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er reist _____ beruflich.",
+      "en": "He travels frequently for work."
+    },
+    "correct_answer": "häufig",
+    "wrong_answers": [
+      "gelegentlich",
+      "von Zeit zu Zeit",
+      "ab und zu",
+      "gerade"
+    ],
+    "explanation_en": "The correct adverb here is 'häufig', meaning 'frequently'."
+  },
+  {
+    "exercise_id": "ex_adv_haeufig_003",
+    "word_id": "adv_haeufig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "frequently",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "häufig",
+    "wrong_answers": [
+      "gelegentlich",
+      "von Zeit zu Zeit",
+      "ab und zu",
+      "gerade"
+    ],
+    "explanation_en": "'frequently' is 'häufig' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_haeufig_004",
+    "word_id": "adv_haeufig",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Er reist häufig beruflich.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "He travels frequently for work.",
+    "wrong_answers": [
+      "He complains all the time.",
+      "From time to time I visit my parents.",
+      "I'm working right now."
+    ],
+    "explanation_en": "'häufig' = 'frequently'. Full sentence: \"He travels frequently for work.\""
+  },
+  {
+    "exercise_id": "ex_adv_manchmal_001",
+    "word_id": "adv_manchmal",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "manchmal",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "sometimes",
+    "wrong_answers": [
+      "constantly",
+      "already",
+      "later",
+      "now and then"
+    ],
+    "explanation_en": "'manchmal' means 'sometimes' in German."
+  },
+  {
+    "exercise_id": "ex_adv_manchmal_002",
+    "word_id": "adv_manchmal",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ brauche ich Ruhe.",
+      "en": "Sometimes I need quiet."
+    },
+    "correct_answer": "manchmal",
+    "wrong_answers": [
+      "vorhin",
+      "täglich",
+      "von Zeit zu Zeit",
+      "inzwischen"
+    ],
+    "explanation_en": "The correct adverb here is 'manchmal', meaning 'sometimes'."
+  },
+  {
+    "exercise_id": "ex_adv_manchmal_003",
+    "word_id": "adv_manchmal",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "sometimes",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "manchmal",
+    "wrong_answers": [
+      "vorhin",
+      "täglich",
+      "von Zeit zu Zeit",
+      "inzwischen"
+    ],
+    "explanation_en": "'sometimes' is 'manchmal' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_manchmal_004",
+    "word_id": "adv_manchmal",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Manchmal brauche ich Ruhe.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Sometimes I need quiet.",
+    "wrong_answers": [
+      "I will never do that.",
+      "Things used to be cheaper.",
+      "I already ate."
+    ],
+    "explanation_en": "'manchmal' = 'sometimes'. Full sentence: \"Sometimes I need quiet.\""
+  },
+  {
+    "exercise_id": "ex_adv_gelegentlich_001",
+    "word_id": "adv_gelegentlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "gelegentlich",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "occasionally",
+    "wrong_answers": [
+      "already",
+      "never (emphatic)",
+      "not anymore",
+      "all the time"
+    ],
+    "explanation_en": "'gelegentlich' means 'occasionally' in German."
+  },
+  {
+    "exercise_id": "ex_adv_gelegentlich_002",
+    "word_id": "adv_gelegentlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir treffen uns _____.",
+      "en": "We meet occasionally."
+    },
+    "correct_answer": "gelegentlich",
+    "wrong_answers": [
+      "gleich",
+      "neulich",
+      "von Zeit zu Zeit",
+      "dauernd"
+    ],
+    "explanation_en": "The correct adverb here is 'gelegentlich', meaning 'occasionally'."
+  },
+  {
+    "exercise_id": "ex_adv_gelegentlich_003",
+    "word_id": "adv_gelegentlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "occasionally",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "gelegentlich",
+    "wrong_answers": [
+      "gleich",
+      "neulich",
+      "von Zeit zu Zeit",
+      "dauernd"
+    ],
+    "explanation_en": "'occasionally' is 'gelegentlich' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_gelegentlich_004",
+    "word_id": "adv_gelegentlich",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Wir treffen uns gelegentlich.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "We meet occasionally.",
+    "wrong_answers": [
+      "We often go for walks.",
+      "I rarely eat meat.",
+      "I'll be there in a moment."
+    ],
+    "explanation_en": "'gelegentlich' = 'occasionally'. Full sentence: \"We meet occasionally.\""
+  },
+  {
+    "exercise_id": "ex_adv_selten_001",
+    "word_id": "adv_selten",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "selten",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "rarely",
+    "wrong_answers": [
+      "by now / meanwhile",
+      "from time to time",
+      "soon",
+      "all the time"
+    ],
+    "explanation_en": "'selten' means 'rarely' in German."
+  },
+  {
+    "exercise_id": "ex_adv_selten_002",
+    "word_id": "adv_selten",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich esse _____ Fleisch.",
+      "en": "I rarely eat meat."
+    },
+    "correct_answer": "selten",
+    "wrong_answers": [
+      "schon",
+      "früher",
+      "manchmal",
+      "nicht mehr"
+    ],
+    "explanation_en": "The correct adverb here is 'selten', meaning 'rarely'."
+  },
+  {
+    "exercise_id": "ex_adv_selten_003",
+    "word_id": "adv_selten",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "rarely",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "selten",
+    "wrong_answers": [
+      "schon",
+      "früher",
+      "manchmal",
+      "nicht mehr"
+    ],
+    "explanation_en": "'rarely' is 'selten' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_selten_004",
+    "word_id": "adv_selten",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ich esse selten Fleisch.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I rarely eat meat.",
+    "wrong_answers": [
+      "He complains all the time.",
+      "We often go for walks.",
+      "I'm working right now."
+    ],
+    "explanation_en": "'selten' = 'rarely'. Full sentence: \"I rarely eat meat.\""
+  },
+  {
+    "exercise_id": "ex_adv_nie_001",
+    "word_id": "adv_nie",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "nie",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "never",
+    "wrong_answers": [
+      "occasionally",
+      "soon",
+      "frequently",
+      "daily / every day"
+    ],
+    "explanation_en": "'nie' means 'never' in German."
+  },
+  {
+    "exercise_id": "ex_adv_nie_002",
+    "word_id": "adv_nie",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich trinke _____ Kaffee.",
+      "en": "I never drink coffee."
+    },
+    "correct_answer": "nie",
+    "wrong_answers": [
+      "neulich",
+      "inzwischen",
+      "täglich",
+      "noch"
+    ],
+    "explanation_en": "The correct adverb here is 'nie', meaning 'never'."
+  },
+  {
+    "exercise_id": "ex_adv_nie_003",
+    "word_id": "adv_nie",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "never",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "nie",
+    "wrong_answers": [
+      "neulich",
+      "inzwischen",
+      "täglich",
+      "noch"
+    ],
+    "explanation_en": "'never' is 'nie' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_nie_004",
+    "word_id": "adv_nie",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ich trinke nie Kaffee.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I never drink coffee.",
+    "wrong_answers": [
+      "Now and then I go to the cinema.",
+      "I saw him earlier.",
+      "I don't smoke anymore."
+    ],
+    "explanation_en": "'nie' = 'never'. Full sentence: \"I never drink coffee.\""
+  },
+  {
+    "exercise_id": "ex_adv_niemals_001",
+    "word_id": "adv_niemals",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "niemals",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "never (emphatic)",
+    "wrong_answers": [
+      "immediately",
+      "right now / just",
+      "daily / every day",
+      "rarely"
+    ],
+    "explanation_en": "'niemals' means 'never (emphatic)' in German."
+  },
+  {
+    "exercise_id": "ex_adv_niemals_002",
+    "word_id": "adv_niemals",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das werde ich _____ tun.",
+      "en": "I will never do that."
+    },
+    "correct_answer": "niemals",
+    "wrong_answers": [
+      "ständig",
+      "nicht mehr",
+      "inzwischen",
+      "von Zeit zu Zeit"
+    ],
+    "explanation_en": "The correct adverb here is 'niemals', meaning 'never (emphatic)'."
+  },
+  {
+    "exercise_id": "ex_adv_niemals_003",
+    "word_id": "adv_niemals",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "never (emphatic)",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "niemals",
+    "wrong_answers": [
+      "ständig",
+      "nicht mehr",
+      "inzwischen",
+      "von Zeit zu Zeit"
+    ],
+    "explanation_en": "'never (emphatic)' is 'niemals' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_niemals_004",
+    "word_id": "adv_niemals",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Das werde ich niemals tun.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I will never do that.",
+    "wrong_answers": [
+      "I rarely eat meat.",
+      "Do that immediately.",
+      "My phone keeps ringing constantly."
+    ],
+    "explanation_en": "'niemals' = 'never (emphatic)'. Full sentence: \"I will never do that.\""
+  },
+  {
+    "exercise_id": "ex_adv_staendig_001",
+    "word_id": "adv_staendig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "ständig",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "constantly",
+    "wrong_answers": [
+      "normally",
+      "later",
+      "by now / meanwhile",
+      "rarely"
+    ],
+    "explanation_en": "'ständig' means 'constantly' in German."
+  },
+  {
+    "exercise_id": "ex_adv_staendig_002",
+    "word_id": "adv_staendig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Mein Handy klingelt _____.",
+      "en": "My phone keeps ringing constantly."
+    },
+    "correct_answer": "ständig",
+    "wrong_answers": [
+      "kaum",
+      "gerade",
+      "meistens",
+      "gleich"
+    ],
+    "explanation_en": "The correct adverb here is 'ständig', meaning 'constantly'."
+  },
+  {
+    "exercise_id": "ex_adv_staendig_003",
+    "word_id": "adv_staendig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "constantly",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "ständig",
+    "wrong_answers": [
+      "kaum",
+      "gerade",
+      "meistens",
+      "gleich"
+    ],
+    "explanation_en": "'constantly' is 'ständig' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_staendig_004",
+    "word_id": "adv_staendig",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Mein Handy klingelt ständig.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "My phone keeps ringing constantly.",
+    "wrong_answers": [
+      "I'm always late.",
+      "I run regularly.",
+      "Now and then I go to the cinema."
+    ],
+    "explanation_en": "'ständig' = 'constantly'. Full sentence: \"My phone keeps ringing constantly.\""
+  },
+  {
+    "exercise_id": "ex_adv_dauernd_001",
+    "word_id": "adv_dauernd",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "dauernd",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "all the time",
+    "wrong_answers": [
+      "earlier / in the past",
+      "by now / meanwhile",
+      "already",
+      "hardly / barely"
+    ],
+    "explanation_en": "'dauernd' means 'all the time' in German."
+  },
+  {
+    "exercise_id": "ex_adv_dauernd_002",
+    "word_id": "adv_dauernd",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er beschwert sich _____.",
+      "en": "He complains all the time."
+    },
+    "correct_answer": "dauernd",
+    "wrong_answers": [
+      "noch",
+      "inzwischen",
+      "wöchentlich",
+      "kaum"
+    ],
+    "explanation_en": "The correct adverb here is 'dauernd', meaning 'all the time'."
+  },
+  {
+    "exercise_id": "ex_adv_dauernd_003",
+    "word_id": "adv_dauernd",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "all the time",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "dauernd",
+    "wrong_answers": [
+      "noch",
+      "inzwischen",
+      "wöchentlich",
+      "kaum"
+    ],
+    "explanation_en": "'all the time' is 'dauernd' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_dauernd_004",
+    "word_id": "adv_dauernd",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Er beschwert sich dauernd.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "He complains all the time.",
+    "wrong_answers": [
+      "Do that immediately.",
+      "From time to time I visit my parents.",
+      "I don't smoke anymore."
+    ],
+    "explanation_en": "'dauernd' = 'all the time'. Full sentence: \"He complains all the time.\""
+  },
+  {
+    "exercise_id": "ex_adv_meistens_001",
+    "word_id": "adv_meistens",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "meistens",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "usually / mostly",
+    "wrong_answers": [
+      "from time to time",
+      "by now / meanwhile",
+      "never",
+      "occasionally"
+    ],
+    "explanation_en": "'meistens' means 'usually / mostly' in German."
+  },
+  {
+    "exercise_id": "ex_adv_meistens_002",
+    "word_id": "adv_meistens",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich arbeite _____ von zu Hause.",
+      "en": "I usually work from home."
+    },
+    "correct_answer": "meistens",
+    "wrong_answers": [
+      "ab und zu",
+      "später",
+      "wöchentlich",
+      "selten"
+    ],
+    "explanation_en": "The correct adverb here is 'meistens', meaning 'usually / mostly'."
+  },
+  {
+    "exercise_id": "ex_adv_meistens_003",
+    "word_id": "adv_meistens",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "usually / mostly",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "meistens",
+    "wrong_answers": [
+      "ab und zu",
+      "später",
+      "wöchentlich",
+      "selten"
+    ],
+    "explanation_en": "'usually / mostly' is 'meistens' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_meistens_004",
+    "word_id": "adv_meistens",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ich arbeite meistens von zu Hause.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I usually work from home.",
+    "wrong_answers": [
+      "I'm working right now.",
+      "We'll talk later.",
+      "By now she lives in Berlin."
+    ],
+    "explanation_en": "'meistens' = 'usually / mostly'. Full sentence: \"I usually work from home.\""
+  },
+  {
+    "exercise_id": "ex_adv_normalerweise_001",
+    "word_id": "adv_normalerweise",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "normalerweise",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "normally",
+    "wrong_answers": [
+      "constantly",
+      "hardly / barely",
+      "frequently",
+      "now and then"
+    ],
+    "explanation_en": "'normalerweise' means 'normally' in German."
+  },
+  {
+    "exercise_id": "ex_adv_normalerweise_002",
+    "word_id": "adv_normalerweise",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ bin ich pünktlich.",
+      "en": "Normally I'm punctual."
+    },
+    "correct_answer": "normalerweise",
+    "wrong_answers": [
+      "gleich",
+      "immer",
+      "ständig",
+      "noch"
+    ],
+    "explanation_en": "The correct adverb here is 'normalerweise', meaning 'normally'."
+  },
+  {
+    "exercise_id": "ex_adv_normalerweise_003",
+    "word_id": "adv_normalerweise",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "normally",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "normalerweise",
+    "wrong_answers": [
+      "gleich",
+      "immer",
+      "ständig",
+      "noch"
+    ],
+    "explanation_en": "'normally' is 'normalerweise' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_normalerweise_004",
+    "word_id": "adv_normalerweise",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Normalerweise bin ich pünktlich.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Normally I'm punctual.",
+    "wrong_answers": [
+      "Are you still here?",
+      "We meet occasionally.",
+      "From time to time I visit my parents."
+    ],
+    "explanation_en": "'normalerweise' = 'normally'. Full sentence: \"Normally I'm punctual.\""
+  },
+  {
+    "exercise_id": "ex_adv_inzwischen_001",
+    "word_id": "adv_inzwischen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "inzwischen",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "by now / meanwhile",
+    "wrong_answers": [
+      "right now / just",
+      "usually / mostly",
+      "recently",
+      "from time to time"
+    ],
+    "explanation_en": "'inzwischen' means 'by now / meanwhile' in German."
+  },
+  {
+    "exercise_id": "ex_adv_inzwischen_002",
+    "word_id": "adv_inzwischen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ wohnt sie in Berlin.",
+      "en": "By now she lives in Berlin."
+    },
+    "correct_answer": "inzwischen",
+    "wrong_answers": [
+      "kaum",
+      "früher",
+      "schon",
+      "wöchentlich"
+    ],
+    "explanation_en": "The correct adverb here is 'inzwischen', meaning 'by now / meanwhile'."
+  },
+  {
+    "exercise_id": "ex_adv_inzwischen_003",
+    "word_id": "adv_inzwischen",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "by now / meanwhile",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "inzwischen",
+    "wrong_answers": [
+      "kaum",
+      "früher",
+      "schon",
+      "wöchentlich"
+    ],
+    "explanation_en": "'by now / meanwhile' is 'inzwischen' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_inzwischen_004",
+    "word_id": "adv_inzwischen",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Inzwischen wohnt sie in Berlin.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "By now she lives in Berlin.",
+    "wrong_answers": [
+      "I run regularly.",
+      "He travels frequently for work.",
+      "I barely know him."
+    ],
+    "explanation_en": "'inzwischen' = 'by now / meanwhile'. Full sentence: \"By now she lives in Berlin.\""
+  },
+  {
+    "exercise_id": "ex_adv_schon_001",
+    "word_id": "adv_schon",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "schon",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "already",
+    "wrong_answers": [
+      "daily / every day",
+      "constantly",
+      "earlier / a moment ago",
+      "occasionally"
+    ],
+    "explanation_en": "'schon' means 'already' in German."
+  },
+  {
+    "exercise_id": "ex_adv_schon_002",
+    "word_id": "adv_schon",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich habe _____ gegessen.",
+      "en": "I already ate."
+    },
+    "correct_answer": "schon",
+    "wrong_answers": [
+      "gleich",
+      "kaum",
+      "normalerweise",
+      "vorhin"
+    ],
+    "explanation_en": "The correct adverb here is 'schon', meaning 'already'."
+  },
+  {
+    "exercise_id": "ex_adv_schon_003",
+    "word_id": "adv_schon",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "already",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "schon",
+    "wrong_answers": [
+      "gleich",
+      "kaum",
+      "normalerweise",
+      "vorhin"
+    ],
+    "explanation_en": "'already' is 'schon' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_schon_004",
+    "word_id": "adv_schon",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ich habe schon gegessen.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I already ate.",
+    "wrong_answers": [
+      "I'll be back soon.",
+      "I study German every day.",
+      "Do that immediately."
+    ],
+    "explanation_en": "'schon' = 'already'. Full sentence: \"I already ate.\""
+  },
+  {
+    "exercise_id": "ex_adv_noch_001",
+    "word_id": "adv_noch",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "noch",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "still",
+    "wrong_answers": [
+      "recently",
+      "from time to time",
+      "daily / every day",
+      "by now / meanwhile"
+    ],
+    "explanation_en": "'noch' means 'still' in German."
+  },
+  {
+    "exercise_id": "ex_adv_noch_002",
+    "word_id": "adv_noch",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Bist du _____ hier?",
+      "en": "Are you still here?"
+    },
+    "correct_answer": "noch",
+    "wrong_answers": [
+      "täglich",
+      "früher",
+      "sofort",
+      "häufig"
+    ],
+    "explanation_en": "The correct adverb here is 'noch', meaning 'still'."
+  },
+  {
+    "exercise_id": "ex_adv_noch_003",
+    "word_id": "adv_noch",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "still",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "noch",
+    "wrong_answers": [
+      "täglich",
+      "früher",
+      "sofort",
+      "häufig"
+    ],
+    "explanation_en": "'still' is 'noch' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_noch_004",
+    "word_id": "adv_noch",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Bist du noch hier?",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Are you still here?",
+    "wrong_answers": [
+      "My phone keeps ringing constantly.",
+      "I'll be there in a moment.",
+      "I rarely eat meat."
+    ],
+    "explanation_en": "'noch' = 'still'. Full sentence: \"Are you still here?\""
+  },
+  {
+    "exercise_id": "ex_adv_nicht_mehr_001",
+    "word_id": "adv_nicht_mehr",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "nicht mehr",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "not anymore",
+    "wrong_answers": [
+      "never (emphatic)",
+      "later",
+      "already",
+      "earlier / a moment ago"
+    ],
+    "explanation_en": "'nicht mehr' means 'not anymore' in German."
+  },
+  {
+    "exercise_id": "ex_adv_nicht_mehr_002",
+    "word_id": "adv_nicht_mehr",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich rauche _____.",
+      "en": "I don't smoke anymore."
+    },
+    "correct_answer": "nicht mehr",
+    "wrong_answers": [
+      "später",
+      "neulich",
+      "gerade",
+      "gelegentlich"
+    ],
+    "explanation_en": "The correct adverb here is 'nicht mehr', meaning 'not anymore'."
+  },
+  {
+    "exercise_id": "ex_adv_nicht_mehr_003",
+    "word_id": "adv_nicht_mehr",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "not anymore",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "nicht mehr",
+    "wrong_answers": [
+      "später",
+      "neulich",
+      "gerade",
+      "gelegentlich"
+    ],
+    "explanation_en": "'not anymore' is 'nicht mehr' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_nicht_mehr_004",
+    "word_id": "adv_nicht_mehr",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ich rauche nicht mehr.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I don't smoke anymore.",
+    "wrong_answers": [
+      "I'll be there in a moment.",
+      "We'll talk later.",
+      "From time to time I visit my parents."
+    ],
+    "explanation_en": "'nicht mehr' = 'not anymore'. Full sentence: \"I don't smoke anymore.\""
+  },
+  {
+    "exercise_id": "ex_adv_gerade_001",
+    "word_id": "adv_gerade",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "gerade",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "right now / just",
+    "wrong_answers": [
+      "now and then",
+      "always",
+      "weekly",
+      "often"
+    ],
+    "explanation_en": "'gerade' means 'right now / just' in German."
+  },
+  {
+    "exercise_id": "ex_adv_gerade_002",
+    "word_id": "adv_gerade",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich arbeite _____.",
+      "en": "I'm working right now."
+    },
+    "correct_answer": "gerade",
+    "wrong_answers": [
+      "oft",
+      "wöchentlich",
+      "täglich",
+      "dauernd"
+    ],
+    "explanation_en": "The correct adverb here is 'gerade', meaning 'right now / just'."
+  },
+  {
+    "exercise_id": "ex_adv_gerade_003",
+    "word_id": "adv_gerade",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "right now / just",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "gerade",
+    "wrong_answers": [
+      "oft",
+      "wöchentlich",
+      "täglich",
+      "dauernd"
+    ],
+    "explanation_en": "'right now / just' is 'gerade' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_gerade_004",
+    "word_id": "adv_gerade",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ich arbeite gerade.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I'm working right now.",
+    "wrong_answers": [
+      "We have a meeting weekly.",
+      "Do that immediately.",
+      "I usually work from home."
+    ],
+    "explanation_en": "'gerade' = 'right now / just'. Full sentence: \"I'm working right now.\""
+  },
+  {
+    "exercise_id": "ex_adv_vorhin_001",
+    "word_id": "adv_vorhin",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "vorhin",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "earlier / a moment ago",
+    "wrong_answers": [
+      "all the time",
+      "often",
+      "still",
+      "recently"
+    ],
+    "explanation_en": "'vorhin' means 'earlier / a moment ago' in German."
+  },
+  {
+    "exercise_id": "ex_adv_vorhin_002",
+    "word_id": "adv_vorhin",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich habe ihn _____ gesehen.",
+      "en": "I saw him earlier."
+    },
+    "correct_answer": "vorhin",
+    "wrong_answers": [
+      "früher",
+      "gelegentlich",
+      "gerade",
+      "selten"
+    ],
+    "explanation_en": "The correct adverb here is 'vorhin', meaning 'earlier / a moment ago'."
+  },
+  {
+    "exercise_id": "ex_adv_vorhin_003",
+    "word_id": "adv_vorhin",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "earlier / a moment ago",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "vorhin",
+    "wrong_answers": [
+      "früher",
+      "gelegentlich",
+      "gerade",
+      "selten"
+    ],
+    "explanation_en": "'earlier / a moment ago' is 'vorhin' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_vorhin_004",
+    "word_id": "adv_vorhin",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ich habe ihn vorhin gesehen.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I saw him earlier.",
+    "wrong_answers": [
+      "I barely know him.",
+      "We meet occasionally.",
+      "We often go for walks."
+    ],
+    "explanation_en": "'vorhin' = 'earlier / a moment ago'. Full sentence: \"I saw him earlier.\""
+  },
+  {
+    "exercise_id": "ex_adv_neulich_001",
+    "word_id": "adv_neulich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "neulich",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "recently",
+    "wrong_answers": [
+      "in a moment / right away",
+      "all the time",
+      "by now / meanwhile",
+      "now and then"
+    ],
+    "explanation_en": "'neulich' means 'recently' in German."
+  },
+  {
+    "exercise_id": "ex_adv_neulich_002",
+    "word_id": "adv_neulich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir haben uns _____ getroffen.",
+      "en": "We met recently."
+    },
+    "correct_answer": "neulich",
+    "wrong_answers": [
+      "manchmal",
+      "gelegentlich",
+      "nicht mehr",
+      "früher"
+    ],
+    "explanation_en": "The correct adverb here is 'neulich', meaning 'recently'."
+  },
+  {
+    "exercise_id": "ex_adv_neulich_003",
+    "word_id": "adv_neulich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "recently",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "neulich",
+    "wrong_answers": [
+      "manchmal",
+      "gelegentlich",
+      "nicht mehr",
+      "früher"
+    ],
+    "explanation_en": "'recently' is 'neulich' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_neulich_004",
+    "word_id": "adv_neulich",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Wir haben uns neulich getroffen.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "We met recently.",
+    "wrong_answers": [
+      "I barely know him.",
+      "I don't smoke anymore.",
+      "I'll be back soon."
+    ],
+    "explanation_en": "'neulich' = 'recently'. Full sentence: \"We met recently.\""
+  },
+  {
+    "exercise_id": "ex_adv_bald_001",
+    "word_id": "adv_bald",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "bald",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "soon",
+    "wrong_answers": [
+      "daily / every day",
+      "by now / meanwhile",
+      "from time to time",
+      "not anymore"
+    ],
+    "explanation_en": "'bald' means 'soon' in German."
+  },
+  {
+    "exercise_id": "ex_adv_bald_002",
+    "word_id": "adv_bald",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich komme _____ zurück.",
+      "en": "I'll be back soon."
+    },
+    "correct_answer": "bald",
+    "wrong_answers": [
+      "oft",
+      "gleich",
+      "manchmal",
+      "selten"
+    ],
+    "explanation_en": "The correct adverb here is 'bald', meaning 'soon'."
+  },
+  {
+    "exercise_id": "ex_adv_bald_003",
+    "word_id": "adv_bald",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "soon",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "bald",
+    "wrong_answers": [
+      "oft",
+      "gleich",
+      "manchmal",
+      "selten"
+    ],
+    "explanation_en": "'soon' is 'bald' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_bald_004",
+    "word_id": "adv_bald",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ich komme bald zurück.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I'll be back soon.",
+    "wrong_answers": [
+      "My phone keeps ringing constantly.",
+      "Sometimes I need quiet.",
+      "He travels frequently for work."
+    ],
+    "explanation_en": "'bald' = 'soon'. Full sentence: \"I'll be back soon.\""
+  },
+  {
+    "exercise_id": "ex_adv_spaeter_001",
+    "word_id": "adv_spaeter",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "später",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "later",
+    "wrong_answers": [
+      "usually / mostly",
+      "regularly",
+      "still",
+      "right now / just"
+    ],
+    "explanation_en": "'später' means 'later' in German."
+  },
+  {
+    "exercise_id": "ex_adv_spaeter_002",
+    "word_id": "adv_spaeter",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir reden _____.",
+      "en": "We'll talk later."
+    },
+    "correct_answer": "später",
+    "wrong_answers": [
+      "ständig",
+      "wöchentlich",
+      "von Zeit zu Zeit",
+      "schon"
+    ],
+    "explanation_en": "The correct adverb here is 'später', meaning 'later'."
+  },
+  {
+    "exercise_id": "ex_adv_spaeter_003",
+    "word_id": "adv_spaeter",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "later",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "später",
+    "wrong_answers": [
+      "ständig",
+      "wöchentlich",
+      "von Zeit zu Zeit",
+      "schon"
+    ],
+    "explanation_en": "'later' is 'später' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_spaeter_004",
+    "word_id": "adv_spaeter",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Wir reden später.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "We'll talk later.",
+    "wrong_answers": [
+      "I'll be back soon.",
+      "I run regularly.",
+      "I'm always late."
+    ],
+    "explanation_en": "'später' = 'later'. Full sentence: \"We'll talk later.\""
+  },
+  {
+    "exercise_id": "ex_adv_frueher_001",
+    "word_id": "adv_frueher",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "früher",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "earlier / in the past",
+    "wrong_answers": [
+      "soon",
+      "still",
+      "from time to time",
+      "constantly"
+    ],
+    "explanation_en": "'früher' means 'earlier / in the past' in German."
+  },
+  {
+    "exercise_id": "ex_adv_frueher_002",
+    "word_id": "adv_frueher",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ war alles billiger.",
+      "en": "Things used to be cheaper."
+    },
+    "correct_answer": "früher",
+    "wrong_answers": [
+      "nie",
+      "vorhin",
+      "nicht mehr",
+      "inzwischen"
+    ],
+    "explanation_en": "The correct adverb here is 'früher', meaning 'earlier / in the past'."
+  },
+  {
+    "exercise_id": "ex_adv_frueher_003",
+    "word_id": "adv_frueher",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "earlier / in the past",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "früher",
+    "wrong_answers": [
+      "nie",
+      "vorhin",
+      "nicht mehr",
+      "inzwischen"
+    ],
+    "explanation_en": "'earlier / in the past' is 'früher' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_frueher_004",
+    "word_id": "adv_frueher",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Früher war alles billiger.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Things used to be cheaper.",
+    "wrong_answers": [
+      "He complains all the time.",
+      "I study German every day.",
+      "We met recently."
+    ],
+    "explanation_en": "'früher' = 'earlier / in the past'. Full sentence: \"Things used to be cheaper.\""
+  },
+  {
+    "exercise_id": "ex_adv_sofort_001",
+    "word_id": "adv_sofort",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "sofort",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "immediately",
+    "wrong_answers": [
+      "regularly",
+      "often",
+      "rarely",
+      "weekly"
+    ],
+    "explanation_en": "'sofort' means 'immediately' in German."
+  },
+  {
+    "exercise_id": "ex_adv_sofort_002",
+    "word_id": "adv_sofort",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Mach das _____.",
+      "en": "Do that immediately."
+    },
+    "correct_answer": "sofort",
+    "wrong_answers": [
+      "bald",
+      "inzwischen",
+      "vorhin",
+      "noch"
+    ],
+    "explanation_en": "The correct adverb here is 'sofort', meaning 'immediately'."
+  },
+  {
+    "exercise_id": "ex_adv_sofort_003",
+    "word_id": "adv_sofort",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "immediately",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "sofort",
+    "wrong_answers": [
+      "bald",
+      "inzwischen",
+      "vorhin",
+      "noch"
+    ],
+    "explanation_en": "'immediately' is 'sofort' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_sofort_004",
+    "word_id": "adv_sofort",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Mach das sofort.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Do that immediately.",
+    "wrong_answers": [
+      "Now and then I go to the cinema.",
+      "We meet occasionally.",
+      "I'm always late."
+    ],
+    "explanation_en": "'sofort' = 'immediately'. Full sentence: \"Do that immediately.\""
+  },
+  {
+    "exercise_id": "ex_adv_gleich_001",
+    "word_id": "adv_gleich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "gleich",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "in a moment / right away",
+    "wrong_answers": [
+      "from time to time",
+      "never (emphatic)",
+      "all the time",
+      "earlier / a moment ago"
+    ],
+    "explanation_en": "'gleich' means 'in a moment / right away' in German."
+  },
+  {
+    "exercise_id": "ex_adv_gleich_002",
+    "word_id": "adv_gleich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich komme _____.",
+      "en": "I'll be there in a moment."
+    },
+    "correct_answer": "gleich",
+    "wrong_answers": [
+      "manchmal",
+      "gelegentlich",
+      "immer",
+      "oft"
+    ],
+    "explanation_en": "The correct adverb here is 'gleich', meaning 'in a moment / right away'."
+  },
+  {
+    "exercise_id": "ex_adv_gleich_003",
+    "word_id": "adv_gleich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "in a moment / right away",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "gleich",
+    "wrong_answers": [
+      "manchmal",
+      "gelegentlich",
+      "immer",
+      "oft"
+    ],
+    "explanation_en": "'in a moment / right away' is 'gleich' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_gleich_004",
+    "word_id": "adv_gleich",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ich komme gleich.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I'll be there in a moment.",
+    "wrong_answers": [
+      "I'm always late.",
+      "Things used to be cheaper.",
+      "I'll be back soon."
+    ],
+    "explanation_en": "'gleich' = 'in a moment / right away'. Full sentence: \"I'll be there in a moment.\""
+  },
+  {
+    "exercise_id": "ex_adv_ab_und_zu_001",
+    "word_id": "adv_ab_und_zu",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "ab und zu",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "now and then",
+    "wrong_answers": [
+      "often",
+      "normally",
+      "earlier / in the past",
+      "by now / meanwhile"
+    ],
+    "explanation_en": "'ab und zu' means 'now and then' in German."
+  },
+  {
+    "exercise_id": "ex_adv_ab_und_zu_002",
+    "word_id": "adv_ab_und_zu",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ gehe ich ins Kino.",
+      "en": "Now and then I go to the cinema."
+    },
+    "correct_answer": "ab und zu",
+    "wrong_answers": [
+      "immer",
+      "manchmal",
+      "gelegentlich",
+      "wöchentlich"
+    ],
+    "explanation_en": "The correct adverb here is 'ab und zu', meaning 'now and then'."
+  },
+  {
+    "exercise_id": "ex_adv_ab_und_zu_003",
+    "word_id": "adv_ab_und_zu",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "now and then",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "ab und zu",
+    "wrong_answers": [
+      "immer",
+      "manchmal",
+      "gelegentlich",
+      "wöchentlich"
+    ],
+    "explanation_en": "'now and then' is 'ab und zu' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_ab_und_zu_004",
+    "word_id": "adv_ab_und_zu",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ab und zu gehe ich ins Kino.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Now and then I go to the cinema.",
+    "wrong_answers": [
+      "I never drink coffee.",
+      "We have a meeting weekly.",
+      "From time to time I visit my parents."
+    ],
+    "explanation_en": "'ab und zu' = 'now and then'. Full sentence: \"Now and then I go to the cinema.\""
+  },
+  {
+    "exercise_id": "ex_adv_von_zeit_zu_zeit_001",
+    "word_id": "adv_von_zeit_zu_zeit",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "von Zeit zu Zeit",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "from time to time",
+    "wrong_answers": [
+      "in a moment / right away",
+      "already",
+      "now and then",
+      "not anymore"
+    ],
+    "explanation_en": "'von Zeit zu Zeit' means 'from time to time' in German."
+  },
+  {
+    "exercise_id": "ex_adv_von_zeit_zu_zeit_002",
+    "word_id": "adv_von_zeit_zu_zeit",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ besuche ich meine Eltern.",
+      "en": "From time to time I visit my parents."
+    },
+    "correct_answer": "von Zeit zu Zeit",
+    "wrong_answers": [
+      "manchmal",
+      "normalerweise",
+      "häufig",
+      "immer"
+    ],
+    "explanation_en": "The correct adverb here is 'von Zeit zu Zeit', meaning 'from time to time'."
+  },
+  {
+    "exercise_id": "ex_adv_von_zeit_zu_zeit_003",
+    "word_id": "adv_von_zeit_zu_zeit",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "from time to time",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "von Zeit zu Zeit",
+    "wrong_answers": [
+      "manchmal",
+      "normalerweise",
+      "häufig",
+      "immer"
+    ],
+    "explanation_en": "'from time to time' is 'von Zeit zu Zeit' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_von_zeit_zu_zeit_004",
+    "word_id": "adv_von_zeit_zu_zeit",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Von Zeit zu Zeit besuche ich meine Eltern.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "From time to time I visit my parents.",
+    "wrong_answers": [
+      "I already ate.",
+      "He complains all the time.",
+      "I will never do that."
+    ],
+    "explanation_en": "'von Zeit zu Zeit' = 'from time to time'. Full sentence: \"From time to time I visit my parents.\""
+  },
+  {
+    "exercise_id": "ex_adv_regelmaessig_001",
+    "word_id": "adv_regelmaessig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "regelmäßig",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "regularly",
+    "wrong_answers": [
+      "never (emphatic)",
+      "rarely",
+      "recently",
+      "often"
+    ],
+    "explanation_en": "'regelmäßig' means 'regularly' in German."
+  },
+  {
+    "exercise_id": "ex_adv_regelmaessig_002",
+    "word_id": "adv_regelmaessig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich laufe _____.",
+      "en": "I run regularly."
+    },
+    "correct_answer": "regelmäßig",
+    "wrong_answers": [
+      "oft",
+      "selten",
+      "kaum",
+      "dauernd"
+    ],
+    "explanation_en": "The correct adverb here is 'regelmäßig', meaning 'regularly'."
+  },
+  {
+    "exercise_id": "ex_adv_regelmaessig_003",
+    "word_id": "adv_regelmaessig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "regularly",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "regelmäßig",
+    "wrong_answers": [
+      "oft",
+      "selten",
+      "kaum",
+      "dauernd"
+    ],
+    "explanation_en": "'regularly' is 'regelmäßig' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_regelmaessig_004",
+    "word_id": "adv_regelmaessig",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ich laufe regelmäßig.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I run regularly.",
+    "wrong_answers": [
+      "I study German every day.",
+      "We meet occasionally.",
+      "We met recently."
+    ],
+    "explanation_en": "'regelmäßig' = 'regularly'. Full sentence: \"I run regularly.\""
+  },
+  {
+    "exercise_id": "ex_adv_taeglich_001",
+    "word_id": "adv_taeglich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "täglich",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "daily / every day",
+    "wrong_answers": [
+      "normally",
+      "hardly / barely",
+      "never",
+      "earlier / in the past"
+    ],
+    "explanation_en": "'täglich' means 'daily / every day' in German."
+  },
+  {
+    "exercise_id": "ex_adv_taeglich_002",
+    "word_id": "adv_taeglich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich lerne _____ Deutsch.",
+      "en": "I study German every day."
+    },
+    "correct_answer": "täglich",
+    "wrong_answers": [
+      "oft",
+      "gerade",
+      "nicht mehr",
+      "später"
+    ],
+    "explanation_en": "The correct adverb here is 'täglich', meaning 'daily / every day'."
+  },
+  {
+    "exercise_id": "ex_adv_taeglich_003",
+    "word_id": "adv_taeglich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "daily / every day",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "täglich",
+    "wrong_answers": [
+      "oft",
+      "gerade",
+      "nicht mehr",
+      "später"
+    ],
+    "explanation_en": "'daily / every day' is 'täglich' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_taeglich_004",
+    "word_id": "adv_taeglich",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ich lerne täglich Deutsch.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I study German every day.",
+    "wrong_answers": [
+      "We meet occasionally.",
+      "I'm always late.",
+      "Now and then I go to the cinema."
+    ],
+    "explanation_en": "'täglich' = 'daily / every day'. Full sentence: \"I study German every day.\""
+  },
+  {
+    "exercise_id": "ex_adv_woechentlich_001",
+    "word_id": "adv_woechentlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "wöchentlich",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "weekly",
+    "wrong_answers": [
+      "earlier / in the past",
+      "right now / just",
+      "regularly",
+      "occasionally"
+    ],
+    "explanation_en": "'wöchentlich' means 'weekly' in German."
+  },
+  {
+    "exercise_id": "ex_adv_woechentlich_002",
+    "word_id": "adv_woechentlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir haben _____ ein Meeting.",
+      "en": "We have a meeting weekly."
+    },
+    "correct_answer": "wöchentlich",
+    "wrong_answers": [
+      "niemals",
+      "häufig",
+      "neulich",
+      "ständig"
+    ],
+    "explanation_en": "The correct adverb here is 'wöchentlich', meaning 'weekly'."
+  },
+  {
+    "exercise_id": "ex_adv_woechentlich_003",
+    "word_id": "adv_woechentlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "weekly",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "wöchentlich",
+    "wrong_answers": [
+      "niemals",
+      "häufig",
+      "neulich",
+      "ständig"
+    ],
+    "explanation_en": "'weekly' is 'wöchentlich' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_woechentlich_004",
+    "word_id": "adv_woechentlich",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Wir haben wöchentlich ein Meeting.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "We have a meeting weekly.",
+    "wrong_answers": [
+      "I run regularly.",
+      "I study German every day.",
+      "We'll talk later."
+    ],
+    "explanation_en": "'wöchentlich' = 'weekly'. Full sentence: \"We have a meeting weekly.\""
+  },
+  {
+    "exercise_id": "ex_adv_kaum_001",
+    "word_id": "adv_kaum",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "kaum",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "hardly / barely",
+    "wrong_answers": [
+      "regularly",
+      "never",
+      "never (emphatic)",
+      "earlier / in the past"
+    ],
+    "explanation_en": "'kaum' means 'hardly / barely' in German."
+  },
+  {
+    "exercise_id": "ex_adv_kaum_002",
+    "word_id": "adv_kaum",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich kenne ihn _____.",
+      "en": "I barely know him."
+    },
+    "correct_answer": "kaum",
+    "wrong_answers": [
+      "inzwischen",
+      "täglich",
+      "wöchentlich",
+      "regelmäßig"
+    ],
+    "explanation_en": "The correct adverb here is 'kaum', meaning 'hardly / barely'."
+  },
+  {
+    "exercise_id": "ex_adv_kaum_003",
+    "word_id": "adv_kaum",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "hardly / barely",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "kaum",
+    "wrong_answers": [
+      "inzwischen",
+      "täglich",
+      "wöchentlich",
+      "regelmäßig"
+    ],
+    "explanation_en": "'hardly / barely' is 'kaum' in German. (Frequency & Time)"
+  },
+  {
+    "exercise_id": "ex_adv_kaum_004",
+    "word_id": "adv_kaum",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ich kenne ihn kaum.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I barely know him.",
+    "wrong_answers": [
+      "Now and then I go to the cinema.",
+      "I run regularly.",
+      "Sometimes I need quiet."
+    ],
+    "explanation_en": "'kaum' = 'hardly / barely'. Full sentence: \"I barely know him.\""
+  },
+  {
+    "exercise_id": "ex_adv_ausserdem_001",
+    "word_id": "adv_ausserdem",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "außerdem",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "besides / additionally",
+    "wrong_answers": [
+      "for that reason / that's why",
+      "for that reason / hence",
+      "namely / because (explanatory)",
+      "then"
+    ],
+    "explanation_en": "'außerdem' means 'besides / additionally' in German."
+  },
+  {
+    "exercise_id": "ex_adv_ausserdem_002",
+    "word_id": "adv_ausserdem",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ ist es günstiger.",
+      "en": "Besides, it's cheaper."
+    },
+    "correct_answer": "außerdem",
+    "wrong_answers": [
+      "zuerst",
+      "darüber hinaus",
+      "zweitens",
+      "dennoch"
+    ],
+    "explanation_en": "The correct adverb here is 'außerdem', meaning 'besides / additionally'."
+  },
+  {
+    "exercise_id": "ex_adv_ausserdem_003",
+    "word_id": "adv_ausserdem",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "besides / additionally",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "außerdem",
+    "wrong_answers": [
+      "zuerst",
+      "darüber hinaus",
+      "zweitens",
+      "dennoch"
+    ],
+    "explanation_en": "'besides / additionally' is 'außerdem' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_ausserdem_004",
+    "word_id": "adv_ausserdem",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Außerdem ist es günstiger.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Besides, it's cheaper.",
+    "wrong_answers": [
+      "First you must pay.",
+      "That's not the point.",
+      "Nonetheless it worked."
+    ],
+    "explanation_en": "'außerdem' = 'besides / additionally'. Full sentence: \"Besides, it's cheaper.\""
+  },
+  {
+    "exercise_id": "ex_adv_zusaetzlich_001",
+    "word_id": "adv_zusaetzlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "zusätzlich",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "in addition",
+    "wrong_answers": [
+      "on the other hand",
+      "first",
+      "for that reason / that's why",
+      "besides / additionally"
+    ],
+    "explanation_en": "'zusätzlich' means 'in addition' in German."
+  },
+  {
+    "exercise_id": "ex_adv_zusaetzlich_002",
+    "word_id": "adv_zusaetzlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ brauchen wir Wasser.",
+      "en": "In addition, we need water."
+    },
+    "correct_answer": "zusätzlich",
+    "wrong_answers": [
+      "allerdings",
+      "deshalb",
+      "nämlich",
+      "schließlich"
+    ],
+    "explanation_en": "The correct adverb here is 'zusätzlich', meaning 'in addition'."
+  },
+  {
+    "exercise_id": "ex_adv_zusaetzlich_003",
+    "word_id": "adv_zusaetzlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "in addition",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "zusätzlich",
+    "wrong_answers": [
+      "allerdings",
+      "deshalb",
+      "nämlich",
+      "schließlich"
+    ],
+    "explanation_en": "'in addition' is 'zusätzlich' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_zusaetzlich_004",
+    "word_id": "adv_zusaetzlich",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Zusätzlich brauchen wir Wasser.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "In addition, we need water.",
+    "wrong_answers": [
+      "Then we continue.",
+      "I'm tired, that's why I'm going home.",
+      "First of all, we have no time."
+    ],
+    "explanation_en": "'zusätzlich' = 'in addition'. Full sentence: \"In addition, we need water.\""
+  },
+  {
+    "exercise_id": "ex_adv_darueber_hinaus_001",
+    "word_id": "adv_darueber_hinaus",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "darüber hinaus",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "beyond that / furthermore",
+    "wrong_answers": [
+      "namely / because (explanatory)",
+      "first",
+      "afterwards / after that",
+      "secondly"
+    ],
+    "explanation_en": "'darüber hinaus' means 'beyond that / furthermore' in German."
+  },
+  {
+    "exercise_id": "ex_adv_darueber_hinaus_002",
+    "word_id": "adv_darueber_hinaus",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ gibt es Risiken.",
+      "en": "Beyond that, there are risks."
+    },
+    "correct_answer": "darüber hinaus",
+    "wrong_answers": [
+      "darum",
+      "deswegen",
+      "jedenfalls",
+      "dennoch"
+    ],
+    "explanation_en": "The correct adverb here is 'darüber hinaus', meaning 'beyond that / furthermore'."
+  },
+  {
+    "exercise_id": "ex_adv_darueber_hinaus_003",
+    "word_id": "adv_darueber_hinaus",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "beyond that / furthermore",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "darüber hinaus",
+    "wrong_answers": [
+      "darum",
+      "deswegen",
+      "jedenfalls",
+      "dennoch"
+    ],
+    "explanation_en": "'beyond that / furthermore' is 'darüber hinaus' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_darueber_hinaus_004",
+    "word_id": "adv_darueber_hinaus",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Darüber hinaus gibt es Risiken.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Beyond that, there are risks.",
+    "wrong_answers": [
+      "Then we continue.",
+      "In fact she was right.",
+      "Anyway, we need to go."
+    ],
+    "explanation_en": "'darüber hinaus' = 'beyond that / furthermore'. Full sentence: \"Beyond that, there are risks.\""
+  },
+  {
+    "exercise_id": "ex_adv_zudem_001",
+    "word_id": "adv_zudem",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "zudem",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "moreover",
+    "wrong_answers": [
+      "for that reason / that's why",
+      "through that / because of that",
+      "namely / because (explanatory)",
+      "eventually / after all"
+    ],
+    "explanation_en": "'zudem' means 'moreover' in German."
+  },
+  {
+    "exercise_id": "ex_adv_zudem_002",
+    "word_id": "adv_zudem",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ war er krank.",
+      "en": "Moreover, he was sick."
+    },
+    "correct_answer": "zudem",
+    "wrong_answers": [
+      "allerdings",
+      "darüber hinaus",
+      "deswegen",
+      "danach"
+    ],
+    "explanation_en": "The correct adverb here is 'zudem', meaning 'moreover'."
+  },
+  {
+    "exercise_id": "ex_adv_zudem_003",
+    "word_id": "adv_zudem",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "moreover",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "zudem",
+    "wrong_answers": [
+      "allerdings",
+      "darüber hinaus",
+      "deswegen",
+      "danach"
+    ],
+    "explanation_en": "'moreover' is 'zudem' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_zudem_004",
+    "word_id": "adv_zudem",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Zudem war er krank.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Moreover, he was sick.",
+    "wrong_answers": [
+      "Anyway, we need to go.",
+      "It's raining, so we're staying.",
+      "That's where the problem comes from."
+    ],
+    "explanation_en": "'zudem' = 'moreover'. Full sentence: \"Moreover, he was sick.\""
+  },
+  {
+    "exercise_id": "ex_adv_danach_001",
+    "word_id": "adv_danach",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "danach",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "afterwards / after that",
+    "wrong_answers": [
+      "namely / because (explanatory)",
+      "for that reason / hence",
+      "first",
+      "however / though"
+    ],
+    "explanation_en": "'danach' means 'afterwards / after that' in German."
+  },
+  {
+    "exercise_id": "ex_adv_danach_002",
+    "word_id": "adv_danach",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ gehen wir essen.",
+      "en": "Afterwards we'll eat."
+    },
+    "correct_answer": "danach",
+    "wrong_answers": [
+      "trotzdem",
+      "zudem",
+      "schließlich",
+      "dann"
+    ],
+    "explanation_en": "The correct adverb here is 'danach', meaning 'afterwards / after that'."
+  },
+  {
+    "exercise_id": "ex_adv_danach_003",
+    "word_id": "adv_danach",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "afterwards / after that",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "danach",
+    "wrong_answers": [
+      "trotzdem",
+      "zudem",
+      "schließlich",
+      "dann"
+    ],
+    "explanation_en": "'afterwards / after that' is 'danach' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_danach_004",
+    "word_id": "adv_danach",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Danach gehen wir essen.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Afterwards we'll eat.",
+    "wrong_answers": [
+      "First you must pay.",
+      "I'm tired, that's why I'm going home.",
+      "Besides, it's cheaper."
+    ],
+    "explanation_en": "'danach' = 'afterwards / after that'. Full sentence: \"Afterwards we'll eat.\""
+  },
+  {
+    "exercise_id": "ex_adv_dann_001",
+    "word_id": "adv_dann",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "dann",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "then",
+    "wrong_answers": [
+      "however / though",
+      "for that reason / hence",
+      "secondly",
+      "nonetheless / yet"
+    ],
+    "explanation_en": "'dann' means 'then' in German."
+  },
+  {
+    "exercise_id": "ex_adv_dann_002",
+    "word_id": "adv_dann",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ machen wir weiter.",
+      "en": "Then we continue."
+    },
+    "correct_answer": "dann",
+    "wrong_answers": [
+      "trotzdem",
+      "übrigens",
+      "schließlich",
+      "außerdem"
+    ],
+    "explanation_en": "The correct adverb here is 'dann', meaning 'then'."
+  },
+  {
+    "exercise_id": "ex_adv_dann_003",
+    "word_id": "adv_dann",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "then",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "dann",
+    "wrong_answers": [
+      "trotzdem",
+      "übrigens",
+      "schließlich",
+      "außerdem"
+    ],
+    "explanation_en": "'then' is 'dann' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_dann_004",
+    "word_id": "adv_dann",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Dann machen wir weiter.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Then we continue.",
+    "wrong_answers": [
+      "It was cold, but we went anyway.",
+      "Anyway, we need to go.",
+      "Nonetheless it worked."
+    ],
+    "explanation_en": "'dann' = 'then'. Full sentence: \"Then we continue.\""
+  },
+  {
+    "exercise_id": "ex_adv_zuerst_001",
+    "word_id": "adv_zuerst",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "zuerst",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "first",
+    "wrong_answers": [
+      "on the other hand",
+      "that's why / because of that",
+      "moreover",
+      "in addition"
+    ],
+    "explanation_en": "'zuerst' means 'first' in German."
+  },
+  {
+    "exercise_id": "ex_adv_zuerst_002",
+    "word_id": "adv_zuerst",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ musst du bezahlen.",
+      "en": "First you must pay."
+    },
+    "correct_answer": "zuerst",
+    "wrong_answers": [
+      "zweitens",
+      "dadurch",
+      "zudem",
+      "außerdem"
+    ],
+    "explanation_en": "The correct adverb here is 'zuerst', meaning 'first'."
+  },
+  {
+    "exercise_id": "ex_adv_zuerst_003",
+    "word_id": "adv_zuerst",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "first",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "zuerst",
+    "wrong_answers": [
+      "zweitens",
+      "dadurch",
+      "zudem",
+      "außerdem"
+    ],
+    "explanation_en": "'first' is 'zuerst' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_zuerst_004",
+    "word_id": "adv_zuerst",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Zuerst musst du bezahlen.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "First you must pay.",
+    "wrong_answers": [
+      "Nonetheless it worked.",
+      "By the way, I saw Anna.",
+      "I'm staying home — I'm sick, you see."
+    ],
+    "explanation_en": "'zuerst' = 'first'. Full sentence: \"First you must pay.\""
+  },
+  {
+    "exercise_id": "ex_adv_erstens_001",
+    "word_id": "adv_erstens",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "erstens",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "firstly / first of all",
+    "wrong_answers": [
+      "by the way",
+      "anyway / at any rate",
+      "for that reason / that's why",
+      "in addition"
+    ],
+    "explanation_en": "'erstens' means 'firstly / first of all' in German."
+  },
+  {
+    "exercise_id": "ex_adv_erstens_002",
+    "word_id": "adv_erstens",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ haben wir keine Zeit.",
+      "en": "First of all, we have no time."
+    },
+    "correct_answer": "erstens",
+    "wrong_answers": [
+      "jedenfalls",
+      "einerseits",
+      "deswegen",
+      "zudem"
+    ],
+    "explanation_en": "The correct adverb here is 'erstens', meaning 'firstly / first of all'."
+  },
+  {
+    "exercise_id": "ex_adv_erstens_003",
+    "word_id": "adv_erstens",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "firstly / first of all",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "erstens",
+    "wrong_answers": [
+      "jedenfalls",
+      "einerseits",
+      "deswegen",
+      "zudem"
+    ],
+    "explanation_en": "'firstly / first of all' is 'erstens' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_erstens_004",
+    "word_id": "adv_erstens",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Erstens haben wir keine Zeit.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "First of all, we have no time.",
+    "wrong_answers": [
+      "That's where the problem comes from.",
+      "Thirdly, we lack staff.",
+      "Nonetheless it worked."
+    ],
+    "explanation_en": "'erstens' = 'firstly / first of all'. Full sentence: \"First of all, we have no time.\""
+  },
+  {
+    "exercise_id": "ex_adv_zweitens_001",
+    "word_id": "adv_zweitens",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "zweitens",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "secondly",
+    "wrong_answers": [
+      "for that reason / hence",
+      "afterwards / after that",
+      "therefore / that's why",
+      "through that / because of that"
+    ],
+    "explanation_en": "'zweitens' means 'secondly' in German."
+  },
+  {
+    "exercise_id": "ex_adv_zweitens_002",
+    "word_id": "adv_zweitens",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ ist es zu teuer.",
+      "en": "Secondly, it's too expensive."
+    },
+    "correct_answer": "zweitens",
+    "wrong_answers": [
+      "danach",
+      "zudem",
+      "deswegen",
+      "dann"
+    ],
+    "explanation_en": "The correct adverb here is 'zweitens', meaning 'secondly'."
+  },
+  {
+    "exercise_id": "ex_adv_zweitens_003",
+    "word_id": "adv_zweitens",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "secondly",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "zweitens",
+    "wrong_answers": [
+      "danach",
+      "zudem",
+      "deswegen",
+      "dann"
+    ],
+    "explanation_en": "'secondly' is 'zweitens' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_zweitens_004",
+    "word_id": "adv_zweitens",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Zweitens ist es zu teuer.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Secondly, it's too expensive.",
+    "wrong_answers": [
+      "It's raining, so we're staying.",
+      "By the way, I saw Anna.",
+      "Then we continue."
+    ],
+    "explanation_en": "'zweitens' = 'secondly'. Full sentence: \"Secondly, it's too expensive.\""
+  },
+  {
+    "exercise_id": "ex_adv_drittens_001",
+    "word_id": "adv_drittens",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "drittens",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "thirdly",
+    "wrong_answers": [
+      "for that reason / hence",
+      "afterwards / after that",
+      "by the way",
+      "secondly"
+    ],
+    "explanation_en": "'drittens' means 'thirdly' in German."
+  },
+  {
+    "exercise_id": "ex_adv_drittens_002",
+    "word_id": "adv_drittens",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ fehlt uns Personal.",
+      "en": "Thirdly, we lack staff."
+    },
+    "correct_answer": "drittens",
+    "wrong_answers": [
+      "trotzdem",
+      "dennoch",
+      "dadurch",
+      "nämlich"
+    ],
+    "explanation_en": "The correct adverb here is 'drittens', meaning 'thirdly'."
+  },
+  {
+    "exercise_id": "ex_adv_drittens_003",
+    "word_id": "adv_drittens",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "thirdly",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "drittens",
+    "wrong_answers": [
+      "trotzdem",
+      "dennoch",
+      "dadurch",
+      "nämlich"
+    ],
+    "explanation_en": "'thirdly' is 'drittens' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_drittens_004",
+    "word_id": "adv_drittens",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Drittens fehlt uns Personal.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Thirdly, we lack staff.",
+    "wrong_answers": [
+      "In fact she was right.",
+      "Eventually we agreed.",
+      "On one hand, it's practical."
+    ],
+    "explanation_en": "'drittens' = 'thirdly'. Full sentence: \"Thirdly, we lack staff.\""
+  },
+  {
+    "exercise_id": "ex_adv_schliesslich_001",
+    "word_id": "adv_schliesslich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "schließlich",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "eventually / after all",
+    "wrong_answers": [
+      "afterwards / after that",
+      "nonetheless / yet",
+      "for that reason / hence",
+      "for that reason / that's why"
+    ],
+    "explanation_en": "'schließlich' means 'eventually / after all' in German."
+  },
+  {
+    "exercise_id": "ex_adv_schliesslich_002",
+    "word_id": "adv_schliesslich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ haben wir zugestimmt.",
+      "en": "Eventually we agreed."
+    },
+    "correct_answer": "schließlich",
+    "wrong_answers": [
+      "danach",
+      "einerseits",
+      "zusätzlich",
+      "zudem"
+    ],
+    "explanation_en": "The correct adverb here is 'schließlich', meaning 'eventually / after all'."
+  },
+  {
+    "exercise_id": "ex_adv_schliesslich_003",
+    "word_id": "adv_schliesslich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "eventually / after all",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "schließlich",
+    "wrong_answers": [
+      "danach",
+      "einerseits",
+      "zusätzlich",
+      "zudem"
+    ],
+    "explanation_en": "'eventually / after all' is 'schließlich' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_schliesslich_004",
+    "word_id": "adv_schliesslich",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Schließlich haben wir zugestimmt.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Eventually we agreed.",
+    "wrong_answers": [
+      "Beyond that, there are risks.",
+      "First you must pay.",
+      "In fact she was right."
+    ],
+    "explanation_en": "'schließlich' = 'eventually / after all'. Full sentence: \"Eventually we agreed.\""
+  },
+  {
+    "exercise_id": "ex_adv_deshalb_001",
+    "word_id": "adv_deshalb",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "deshalb",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "therefore / that's why",
+    "wrong_answers": [
+      "on one hand",
+      "in addition",
+      "namely / because (explanatory)",
+      "beyond that / furthermore"
+    ],
+    "explanation_en": "'deshalb' means 'therefore / that's why' in German."
+  },
+  {
+    "exercise_id": "ex_adv_deshalb_002",
+    "word_id": "adv_deshalb",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Es regnet, _____ bleiben wir hier.",
+      "en": "It's raining, so we're staying."
+    },
+    "correct_answer": "deshalb",
+    "wrong_answers": [
+      "trotzdem",
+      "danach",
+      "zudem",
+      "dann"
+    ],
+    "explanation_en": "The correct adverb here is 'deshalb', meaning 'therefore / that's why'."
+  },
+  {
+    "exercise_id": "ex_adv_deshalb_003",
+    "word_id": "adv_deshalb",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "therefore / that's why",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "deshalb",
+    "wrong_answers": [
+      "trotzdem",
+      "danach",
+      "zudem",
+      "dann"
+    ],
+    "explanation_en": "'therefore / that's why' is 'deshalb' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_deshalb_004",
+    "word_id": "adv_deshalb",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Es regnet, deshalb bleiben wir hier.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "It's raining, so we're staying.",
+    "wrong_answers": [
+      "Then we continue.",
+      "On one hand, it's practical.",
+      "Beyond that, there are risks."
+    ],
+    "explanation_en": "'deshalb' = 'therefore / that's why'. Full sentence: \"It's raining, so we're staying.\""
+  },
+  {
+    "exercise_id": "ex_adv_deswegen_001",
+    "word_id": "adv_deswegen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "deswegen",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "that's why / because of that",
+    "wrong_answers": [
+      "on the other hand",
+      "namely / because (explanatory)",
+      "afterwards / after that",
+      "actually / in fact"
+    ],
+    "explanation_en": "'deswegen' means 'that's why / because of that' in German."
+  },
+  {
+    "exercise_id": "ex_adv_deswegen_002",
+    "word_id": "adv_deswegen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich bin müde, _____ gehe ich heim.",
+      "en": "I'm tired, that's why I'm going home."
+    },
+    "correct_answer": "deswegen",
+    "wrong_answers": [
+      "außerdem",
+      "trotzdem",
+      "zweitens",
+      "erstens"
+    ],
+    "explanation_en": "The correct adverb here is 'deswegen', meaning 'that's why / because of that'."
+  },
+  {
+    "exercise_id": "ex_adv_deswegen_003",
+    "word_id": "adv_deswegen",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "that's why / because of that",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "deswegen",
+    "wrong_answers": [
+      "außerdem",
+      "trotzdem",
+      "zweitens",
+      "erstens"
+    ],
+    "explanation_en": "'that's why / because of that' is 'deswegen' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_deswegen_004",
+    "word_id": "adv_deswegen",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ich bin müde, deswegen gehe ich heim.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I'm tired, that's why I'm going home.",
+    "wrong_answers": [
+      "It was cold, but we went anyway.",
+      "On one hand, it's practical.",
+      "Besides, it's cheaper."
+    ],
+    "explanation_en": "'deswegen' = 'that's why / because of that'. Full sentence: \"I'm tired, that's why I'm going home.\""
+  },
+  {
+    "exercise_id": "ex_adv_daher_001",
+    "word_id": "adv_daher",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "daher",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "for that reason / hence",
+    "wrong_answers": [
+      "first",
+      "actually / in fact",
+      "afterwards / after that",
+      "nonetheless / yet"
+    ],
+    "explanation_en": "'daher' means 'for that reason / hence' in German."
+  },
+  {
+    "exercise_id": "ex_adv_daher_002",
+    "word_id": "adv_daher",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ kommt das Problem.",
+      "en": "That's where the problem comes from."
+    },
+    "correct_answer": "daher",
+    "wrong_answers": [
+      "einerseits",
+      "zweitens",
+      "dann",
+      "zuerst"
+    ],
+    "explanation_en": "The correct adverb here is 'daher', meaning 'for that reason / hence'."
+  },
+  {
+    "exercise_id": "ex_adv_daher_003",
+    "word_id": "adv_daher",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "for that reason / hence",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "daher",
+    "wrong_answers": [
+      "einerseits",
+      "zweitens",
+      "dann",
+      "zuerst"
+    ],
+    "explanation_en": "'for that reason / hence' is 'daher' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_daher_004",
+    "word_id": "adv_daher",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Daher kommt das Problem.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That's where the problem comes from.",
+    "wrong_answers": [
+      "Secondly, it's too expensive.",
+      "On one hand, it's practical.",
+      "Then we continue."
+    ],
+    "explanation_en": "'daher' = 'for that reason / hence'. Full sentence: \"That's where the problem comes from.\""
+  },
+  {
+    "exercise_id": "ex_adv_darum_001",
+    "word_id": "adv_darum",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "darum",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "for that reason / that's why",
+    "wrong_answers": [
+      "afterwards / after that",
+      "that's why / because of that",
+      "firstly / first of all",
+      "however / though"
+    ],
+    "explanation_en": "'darum' means 'for that reason / that's why' in German."
+  },
+  {
+    "exercise_id": "ex_adv_darum_002",
+    "word_id": "adv_darum",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ geht es nicht.",
+      "en": "That's not the point."
+    },
+    "correct_answer": "darum",
+    "wrong_answers": [
+      "jedenfalls",
+      "zudem",
+      "drittens",
+      "erstens"
+    ],
+    "explanation_en": "The correct adverb here is 'darum', meaning 'for that reason / that's why'."
+  },
+  {
+    "exercise_id": "ex_adv_darum_003",
+    "word_id": "adv_darum",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "for that reason / that's why",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "darum",
+    "wrong_answers": [
+      "jedenfalls",
+      "zudem",
+      "drittens",
+      "erstens"
+    ],
+    "explanation_en": "'for that reason / that's why' is 'darum' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_darum_004",
+    "word_id": "adv_darum",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Darum geht es nicht.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That's not the point.",
+    "wrong_answers": [
+      "Nonetheless it worked.",
+      "Besides, it's cheaper.",
+      "I'm tired, that's why I'm going home."
+    ],
+    "explanation_en": "'darum' = 'for that reason / that's why'. Full sentence: \"That's not the point.\""
+  },
+  {
+    "exercise_id": "ex_adv_dadurch_001",
+    "word_id": "adv_dadurch",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "dadurch",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "through that / because of that",
+    "wrong_answers": [
+      "that's why / because of that",
+      "by the way",
+      "actually / in fact",
+      "then"
+    ],
+    "explanation_en": "'dadurch' means 'through that / because of that' in German."
+  },
+  {
+    "exercise_id": "ex_adv_dadurch_002",
+    "word_id": "adv_dadurch",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ wurde alles einfacher.",
+      "en": "That made everything easier."
+    },
+    "correct_answer": "dadurch",
+    "wrong_answers": [
+      "darüber hinaus",
+      "erstens",
+      "daher",
+      "trotzdem"
+    ],
+    "explanation_en": "The correct adverb here is 'dadurch', meaning 'through that / because of that'."
+  },
+  {
+    "exercise_id": "ex_adv_dadurch_003",
+    "word_id": "adv_dadurch",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "through that / because of that",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "dadurch",
+    "wrong_answers": [
+      "darüber hinaus",
+      "erstens",
+      "daher",
+      "trotzdem"
+    ],
+    "explanation_en": "'through that / because of that' is 'dadurch' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_dadurch_004",
+    "word_id": "adv_dadurch",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Dadurch wurde alles einfacher.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That made everything easier.",
+    "wrong_answers": [
+      "I'm staying home — I'm sick, you see.",
+      "First you must pay.",
+      "Then we continue."
+    ],
+    "explanation_en": "'dadurch' = 'through that / because of that'. Full sentence: \"That made everything easier.\""
+  },
+  {
+    "exercise_id": "ex_adv_trotzdem_001",
+    "word_id": "adv_trotzdem",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "trotzdem",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "nevertheless / still",
+    "wrong_answers": [
+      "namely / because (explanatory)",
+      "by the way",
+      "nonetheless / yet",
+      "however / though"
+    ],
+    "explanation_en": "'trotzdem' means 'nevertheless / still' in German."
+  },
+  {
+    "exercise_id": "ex_adv_trotzdem_002",
+    "word_id": "adv_trotzdem",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Es war kalt, _____ sind wir gegangen.",
+      "en": "It was cold, but we went anyway."
+    },
+    "correct_answer": "trotzdem",
+    "wrong_answers": [
+      "zweitens",
+      "drittens",
+      "deshalb",
+      "zuerst"
+    ],
+    "explanation_en": "The correct adverb here is 'trotzdem', meaning 'nevertheless / still'."
+  },
+  {
+    "exercise_id": "ex_adv_trotzdem_003",
+    "word_id": "adv_trotzdem",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "nevertheless / still",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "trotzdem",
+    "wrong_answers": [
+      "zweitens",
+      "drittens",
+      "deshalb",
+      "zuerst"
+    ],
+    "explanation_en": "'nevertheless / still' is 'trotzdem' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_trotzdem_004",
+    "word_id": "adv_trotzdem",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Es war kalt, trotzdem sind wir gegangen.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "It was cold, but we went anyway.",
+    "wrong_answers": [
+      "On the other hand, I understand him.",
+      "That's where the problem comes from.",
+      "It's raining, so we're staying."
+    ],
+    "explanation_en": "'trotzdem' = 'nevertheless / still'. Full sentence: \"It was cold, but we went anyway.\""
+  },
+  {
+    "exercise_id": "ex_adv_allerdings_001",
+    "word_id": "adv_allerdings",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "allerdings",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "however / though",
+    "wrong_answers": [
+      "thirdly",
+      "beyond that / furthermore",
+      "secondly",
+      "for that reason / hence"
+    ],
+    "explanation_en": "'allerdings' means 'however / though' in German."
+  },
+  {
+    "exercise_id": "ex_adv_allerdings_002",
+    "word_id": "adv_allerdings",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das ist _____ schwierig.",
+      "en": "That is however difficult."
+    },
+    "correct_answer": "allerdings",
+    "wrong_answers": [
+      "zudem",
+      "übrigens",
+      "danach",
+      "außerdem"
+    ],
+    "explanation_en": "The correct adverb here is 'allerdings', meaning 'however / though'."
+  },
+  {
+    "exercise_id": "ex_adv_allerdings_003",
+    "word_id": "adv_allerdings",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "however / though",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "allerdings",
+    "wrong_answers": [
+      "zudem",
+      "übrigens",
+      "danach",
+      "außerdem"
+    ],
+    "explanation_en": "'however / though' is 'allerdings' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_allerdings_004",
+    "word_id": "adv_allerdings",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Das ist allerdings schwierig.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That is however difficult.",
+    "wrong_answers": [
+      "On the other hand, I understand him.",
+      "Afterwards we'll eat.",
+      "In fact she was right."
+    ],
+    "explanation_en": "'allerdings' = 'however / though'. Full sentence: \"That is however difficult.\""
+  },
+  {
+    "exercise_id": "ex_adv_andererseits_001",
+    "word_id": "adv_andererseits",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "andererseits",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "on the other hand",
+    "wrong_answers": [
+      "on one hand",
+      "firstly / first of all",
+      "therefore / that's why",
+      "through that / because of that"
+    ],
+    "explanation_en": "'andererseits' means 'on the other hand' in German."
+  },
+  {
+    "exercise_id": "ex_adv_andererseits_002",
+    "word_id": "adv_andererseits",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ verstehe ich ihn.",
+      "en": "On the other hand, I understand him."
+    },
+    "correct_answer": "andererseits",
+    "wrong_answers": [
+      "schließlich",
+      "zweitens",
+      "drittens",
+      "dennoch"
+    ],
+    "explanation_en": "The correct adverb here is 'andererseits', meaning 'on the other hand'."
+  },
+  {
+    "exercise_id": "ex_adv_andererseits_003",
+    "word_id": "adv_andererseits",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "on the other hand",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "andererseits",
+    "wrong_answers": [
+      "schließlich",
+      "zweitens",
+      "drittens",
+      "dennoch"
+    ],
+    "explanation_en": "'on the other hand' is 'andererseits' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_andererseits_004",
+    "word_id": "adv_andererseits",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Andererseits verstehe ich ihn.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "On the other hand, I understand him.",
+    "wrong_answers": [
+      "Besides, it's cheaper.",
+      "Afterwards we'll eat.",
+      "Eventually we agreed."
+    ],
+    "explanation_en": "'andererseits' = 'on the other hand'. Full sentence: \"On the other hand, I understand him.\""
+  },
+  {
+    "exercise_id": "ex_adv_dennoch_001",
+    "word_id": "adv_dennoch",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "dennoch",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "nonetheless / yet",
+    "wrong_answers": [
+      "secondly",
+      "moreover",
+      "anyway / at any rate",
+      "on the other hand"
+    ],
+    "explanation_en": "'dennoch' means 'nonetheless / yet' in German."
+  },
+  {
+    "exercise_id": "ex_adv_dennoch_002",
+    "word_id": "adv_dennoch",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ hat es funktioniert.",
+      "en": "Nonetheless it worked."
+    },
+    "correct_answer": "dennoch",
+    "wrong_answers": [
+      "außerdem",
+      "nämlich",
+      "zweitens",
+      "tatsächlich"
+    ],
+    "explanation_en": "The correct adverb here is 'dennoch', meaning 'nonetheless / yet'."
+  },
+  {
+    "exercise_id": "ex_adv_dennoch_003",
+    "word_id": "adv_dennoch",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "nonetheless / yet",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "dennoch",
+    "wrong_answers": [
+      "außerdem",
+      "nämlich",
+      "zweitens",
+      "tatsächlich"
+    ],
+    "explanation_en": "'nonetheless / yet' is 'dennoch' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_dennoch_004",
+    "word_id": "adv_dennoch",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Dennoch hat es funktioniert.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Nonetheless it worked.",
+    "wrong_answers": [
+      "It's raining, so we're staying.",
+      "In addition, we need water.",
+      "Afterwards we'll eat."
+    ],
+    "explanation_en": "'dennoch' = 'nonetheless / yet'. Full sentence: \"Nonetheless it worked.\""
+  },
+  {
+    "exercise_id": "ex_adv_tatsaechlich_001",
+    "word_id": "adv_tatsaechlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "tatsächlich",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "actually / in fact",
+    "wrong_answers": [
+      "nonetheless / yet",
+      "first",
+      "by the way",
+      "through that / because of that"
+    ],
+    "explanation_en": "'tatsächlich' means 'actually / in fact' in German."
+  },
+  {
+    "exercise_id": "ex_adv_tatsaechlich_002",
+    "word_id": "adv_tatsaechlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ hatte sie recht.",
+      "en": "In fact she was right."
+    },
+    "correct_answer": "tatsächlich",
+    "wrong_answers": [
+      "zweitens",
+      "dann",
+      "danach",
+      "drittens"
+    ],
+    "explanation_en": "The correct adverb here is 'tatsächlich', meaning 'actually / in fact'."
+  },
+  {
+    "exercise_id": "ex_adv_tatsaechlich_003",
+    "word_id": "adv_tatsaechlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "actually / in fact",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "tatsächlich",
+    "wrong_answers": [
+      "zweitens",
+      "dann",
+      "danach",
+      "drittens"
+    ],
+    "explanation_en": "'actually / in fact' is 'tatsächlich' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_tatsaechlich_004",
+    "word_id": "adv_tatsaechlich",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Tatsächlich hatte sie recht.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "In fact she was right.",
+    "wrong_answers": [
+      "It's raining, so we're staying.",
+      "By the way, I saw Anna.",
+      "Besides, it's cheaper."
+    ],
+    "explanation_en": "'tatsächlich' = 'actually / in fact'. Full sentence: \"In fact she was right.\""
+  },
+  {
+    "exercise_id": "ex_adv_jedenfalls_001",
+    "word_id": "adv_jedenfalls",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "jedenfalls",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "anyway / at any rate",
+    "wrong_answers": [
+      "through that / because of that",
+      "secondly",
+      "then",
+      "nevertheless / still"
+    ],
+    "explanation_en": "'jedenfalls' means 'anyway / at any rate' in German."
+  },
+  {
+    "exercise_id": "ex_adv_jedenfalls_002",
+    "word_id": "adv_jedenfalls",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ müssen wir los.",
+      "en": "Anyway, we need to go."
+    },
+    "correct_answer": "jedenfalls",
+    "wrong_answers": [
+      "andererseits",
+      "dadurch",
+      "zweitens",
+      "einerseits"
+    ],
+    "explanation_en": "The correct adverb here is 'jedenfalls', meaning 'anyway / at any rate'."
+  },
+  {
+    "exercise_id": "ex_adv_jedenfalls_003",
+    "word_id": "adv_jedenfalls",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "anyway / at any rate",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "jedenfalls",
+    "wrong_answers": [
+      "andererseits",
+      "dadurch",
+      "zweitens",
+      "einerseits"
+    ],
+    "explanation_en": "'anyway / at any rate' is 'jedenfalls' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_jedenfalls_004",
+    "word_id": "adv_jedenfalls",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Jedenfalls müssen wir los.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Anyway, we need to go.",
+    "wrong_answers": [
+      "Moreover, he was sick.",
+      "Then we continue.",
+      "It was cold, but we went anyway."
+    ],
+    "explanation_en": "'jedenfalls' = 'anyway / at any rate'. Full sentence: \"Anyway, we need to go.\""
+  },
+  {
+    "exercise_id": "ex_adv_uebrigens_001",
+    "word_id": "adv_uebrigens",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "übrigens",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "by the way",
+    "wrong_answers": [
+      "afterwards / after that",
+      "eventually / after all",
+      "first",
+      "firstly / first of all"
+    ],
+    "explanation_en": "'übrigens' means 'by the way' in German."
+  },
+  {
+    "exercise_id": "ex_adv_uebrigens_002",
+    "word_id": "adv_uebrigens",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ habe ich Anna gesehen.",
+      "en": "By the way, I saw Anna."
+    },
+    "correct_answer": "übrigens",
+    "wrong_answers": [
+      "zusätzlich",
+      "andererseits",
+      "zudem",
+      "daher"
+    ],
+    "explanation_en": "The correct adverb here is 'übrigens', meaning 'by the way'."
+  },
+  {
+    "exercise_id": "ex_adv_uebrigens_003",
+    "word_id": "adv_uebrigens",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "by the way",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "übrigens",
+    "wrong_answers": [
+      "zusätzlich",
+      "andererseits",
+      "zudem",
+      "daher"
+    ],
+    "explanation_en": "'by the way' is 'übrigens' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_uebrigens_004",
+    "word_id": "adv_uebrigens",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Übrigens habe ich Anna gesehen.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "By the way, I saw Anna.",
+    "wrong_answers": [
+      "It's raining, so we're staying.",
+      "That's not the point.",
+      "That's where the problem comes from."
+    ],
+    "explanation_en": "'übrigens' = 'by the way'. Full sentence: \"By the way, I saw Anna.\""
+  },
+  {
+    "exercise_id": "ex_adv_naemlich_001",
+    "word_id": "adv_naemlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "nämlich",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "namely / because (explanatory)",
+    "wrong_answers": [
+      "through that / because of that",
+      "on one hand",
+      "first",
+      "therefore / that's why"
+    ],
+    "explanation_en": "'nämlich' means 'namely / because (explanatory)' in German."
+  },
+  {
+    "exercise_id": "ex_adv_naemlich_002",
+    "word_id": "adv_naemlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich bleibe zu Hause, ich bin _____ krank.",
+      "en": "I'm staying home — I'm sick, you see."
+    },
+    "correct_answer": "nämlich",
+    "wrong_answers": [
+      "einerseits",
+      "darum",
+      "jedenfalls",
+      "daher"
+    ],
+    "explanation_en": "The correct adverb here is 'nämlich', meaning 'namely / because (explanatory)'."
+  },
+  {
+    "exercise_id": "ex_adv_naemlich_003",
+    "word_id": "adv_naemlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "namely / because (explanatory)",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "nämlich",
+    "wrong_answers": [
+      "einerseits",
+      "darum",
+      "jedenfalls",
+      "daher"
+    ],
+    "explanation_en": "'namely / because (explanatory)' is 'nämlich' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_naemlich_004",
+    "word_id": "adv_naemlich",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ich bleibe zu Hause, ich bin nämlich krank.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I'm staying home — I'm sick, you see.",
+    "wrong_answers": [
+      "That made everything easier.",
+      "Anyway, we need to go.",
+      "I'm tired, that's why I'm going home."
+    ],
+    "explanation_en": "'nämlich' = 'namely / because (explanatory)'. Full sentence: \"I'm staying home — I'm sick, you see.\""
+  },
+  {
+    "exercise_id": "ex_adv_einerseits_001",
+    "word_id": "adv_einerseits",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "einerseits",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "on one hand",
+    "wrong_answers": [
+      "by the way",
+      "nonetheless / yet",
+      "moreover",
+      "for that reason / hence"
+    ],
+    "explanation_en": "'einerseits' means 'on one hand' in German."
+  },
+  {
+    "exercise_id": "ex_adv_einerseits_002",
+    "word_id": "adv_einerseits",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ ist es praktisch.",
+      "en": "On one hand, it's practical."
+    },
+    "correct_answer": "einerseits",
+    "wrong_answers": [
+      "übrigens",
+      "deswegen",
+      "allerdings",
+      "zweitens"
+    ],
+    "explanation_en": "The correct adverb here is 'einerseits', meaning 'on one hand'."
+  },
+  {
+    "exercise_id": "ex_adv_einerseits_003",
+    "word_id": "adv_einerseits",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "on one hand",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "einerseits",
+    "wrong_answers": [
+      "übrigens",
+      "deswegen",
+      "allerdings",
+      "zweitens"
+    ],
+    "explanation_en": "'on one hand' is 'einerseits' in German. (Connectors)"
+  },
+  {
+    "exercise_id": "ex_adv_einerseits_004",
+    "word_id": "adv_einerseits",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Einerseits ist es praktisch.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "On one hand, it's practical.",
+    "wrong_answers": [
+      "I'm staying home — I'm sick, you see.",
+      "Nonetheless it worked.",
+      "Eventually we agreed."
+    ],
+    "explanation_en": "'einerseits' = 'on one hand'. Full sentence: \"On one hand, it's practical.\""
+  },
+  {
+    "exercise_id": "ex_adv_vielleicht_001",
+    "word_id": "adv_vielleicht",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "vielleicht",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "maybe / perhaps",
+    "wrong_answers": [
+      "probably",
+      "possibly / perhaps",
+      "of course / naturally",
+      "honestly / to be honest"
+    ],
+    "explanation_en": "'vielleicht' means 'maybe / perhaps' in German."
+  },
+  {
+    "exercise_id": "ex_adv_vielleicht_002",
+    "word_id": "adv_vielleicht",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ kommt er später.",
+      "en": "Maybe he'll come later."
+    },
+    "correct_answer": "vielleicht",
+    "wrong_answers": [
+      "natürlich",
+      "bestimmt",
+      "eigentlich",
+      "wahrscheinlich"
+    ],
+    "explanation_en": "The correct adverb here is 'vielleicht', meaning 'maybe / perhaps'."
+  },
+  {
+    "exercise_id": "ex_adv_vielleicht_003",
+    "word_id": "adv_vielleicht",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "maybe / perhaps",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "vielleicht",
+    "wrong_answers": [
+      "natürlich",
+      "bestimmt",
+      "eigentlich",
+      "wahrscheinlich"
+    ],
+    "explanation_en": "'maybe / perhaps' is 'vielleicht' in German. (Certainty & Probability)"
+  },
+  {
+    "exercise_id": "ex_adv_vielleicht_004",
+    "word_id": "adv_vielleicht",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Vielleicht kommt er später.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Maybe he'll come later.",
+    "wrong_answers": [
+      "That's rather unlikely.",
+      "He possibly didn't see the email.",
+      "I will definitely do that."
+    ],
+    "explanation_en": "'vielleicht' = 'maybe / perhaps'. Full sentence: \"Maybe he'll come later.\""
+  },
+  {
+    "exercise_id": "ex_adv_wahrscheinlich_001",
+    "word_id": "adv_wahrscheinlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "wahrscheinlich",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "probably",
+    "wrong_answers": [
+      "apparently / it seems",
+      "apparently / obviously",
+      "definitely / for sure",
+      "definitely"
+    ],
+    "explanation_en": "'wahrscheinlich' means 'probably' in German."
+  },
+  {
+    "exercise_id": "ex_adv_wahrscheinlich_002",
+    "word_id": "adv_wahrscheinlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie kommt _____ morgen.",
+      "en": "She'll probably come tomorrow."
+    },
+    "correct_answer": "wahrscheinlich",
+    "wrong_answers": [
+      "definitiv",
+      "eigentlich",
+      "auf jeden Fall",
+      "unwahrscheinlich"
+    ],
+    "explanation_en": "The correct adverb here is 'wahrscheinlich', meaning 'probably'."
+  },
+  {
+    "exercise_id": "ex_adv_wahrscheinlich_003",
+    "word_id": "adv_wahrscheinlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "probably",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "wahrscheinlich",
+    "wrong_answers": [
+      "definitiv",
+      "eigentlich",
+      "auf jeden Fall",
+      "unwahrscheinlich"
+    ],
+    "explanation_en": "'probably' is 'wahrscheinlich' in German. (Certainty & Probability)"
+  },
+  {
+    "exercise_id": "ex_adv_wahrscheinlich_004",
+    "word_id": "adv_wahrscheinlich",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Sie kommt wahrscheinlich morgen.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "She'll probably come tomorrow.",
+    "wrong_answers": [
+      "He should actually be here.",
+      "I will definitely do that.",
+      "That'll definitely work."
+    ],
+    "explanation_en": "'wahrscheinlich' = 'probably'. Full sentence: \"She'll probably come tomorrow.\""
+  },
+  {
+    "exercise_id": "ex_adv_sicherlich_001",
+    "word_id": "adv_sicherlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "sicherlich",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "certainly / surely",
+    "wrong_answers": [
+      "maybe / perhaps",
+      "of course / naturally",
+      "definitely / for sure",
+      "probably"
+    ],
+    "explanation_en": "'sicherlich' means 'certainly / surely' in German."
+  },
+  {
+    "exercise_id": "ex_adv_sicherlich_002",
+    "word_id": "adv_sicherlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das ist _____ möglich.",
+      "en": "That's certainly possible."
+    },
+    "correct_answer": "sicherlich",
+    "wrong_answers": [
+      "bestimmt",
+      "offenbar",
+      "eigentlich",
+      "angeblich"
+    ],
+    "explanation_en": "The correct adverb here is 'sicherlich', meaning 'certainly / surely'."
+  },
+  {
+    "exercise_id": "ex_adv_sicherlich_003",
+    "word_id": "adv_sicherlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "certainly / surely",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "sicherlich",
+    "wrong_answers": [
+      "bestimmt",
+      "offenbar",
+      "eigentlich",
+      "angeblich"
+    ],
+    "explanation_en": "'certainly / surely' is 'sicherlich' in German. (Certainty & Probability)"
+  },
+  {
+    "exercise_id": "ex_adv_sicherlich_004",
+    "word_id": "adv_sicherlich",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Das ist sicherlich möglich.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That's certainly possible.",
+    "wrong_answers": [
+      "Supposedly he was sick.",
+      "Honestly, I don't understand that.",
+      "She'll probably come tomorrow."
+    ],
+    "explanation_en": "'sicherlich' = 'certainly / surely'. Full sentence: \"That's certainly possible.\""
+  },
+  {
+    "exercise_id": "ex_adv_bestimmt_001",
+    "word_id": "adv_bestimmt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "bestimmt",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "definitely / for sure",
+    "wrong_answers": [
+      "certainly / surely",
+      "of course / naturally",
+      "apparently / obviously",
+      "definitely"
+    ],
+    "explanation_en": "'bestimmt' means 'definitely / for sure' in German."
+  },
+  {
+    "exercise_id": "ex_adv_bestimmt_002",
+    "word_id": "adv_bestimmt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das klappt _____.",
+      "en": "That'll definitely work."
+    },
+    "correct_answer": "bestimmt",
+    "wrong_answers": [
+      "eigentlich",
+      "voraussichtlich",
+      "anscheinend",
+      "ehrlich gesagt"
+    ],
+    "explanation_en": "The correct adverb here is 'bestimmt', meaning 'definitely / for sure'."
+  },
+  {
+    "exercise_id": "ex_adv_bestimmt_003",
+    "word_id": "adv_bestimmt",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "definitely / for sure",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "bestimmt",
+    "wrong_answers": [
+      "eigentlich",
+      "voraussichtlich",
+      "anscheinend",
+      "ehrlich gesagt"
+    ],
+    "explanation_en": "'definitely / for sure' is 'bestimmt' in German. (Certainty & Probability)"
+  },
+  {
+    "exercise_id": "ex_adv_bestimmt_004",
+    "word_id": "adv_bestimmt",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Das klappt bestimmt.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That'll definitely work.",
+    "wrong_answers": [
+      "Maybe he'll come later.",
+      "The train is expected to arrive on time.",
+      "That is definitely better."
+    ],
+    "explanation_en": "'bestimmt' = 'definitely / for sure'. Full sentence: \"That'll definitely work.\""
+  },
+  {
+    "exercise_id": "ex_adv_definitiv_001",
+    "word_id": "adv_definitiv",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "definitiv",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "definitely",
+    "wrong_answers": [
+      "definitely / for sure",
+      "probably",
+      "definitely / in any case",
+      "unlikely"
+    ],
+    "explanation_en": "'definitiv' means 'definitely' in German."
+  },
+  {
+    "exercise_id": "ex_adv_definitiv_002",
+    "word_id": "adv_definitiv",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das ist _____ besser.",
+      "en": "That is definitely better."
+    },
+    "correct_answer": "definitiv",
+    "wrong_answers": [
+      "bestimmt",
+      "eventuell",
+      "sicherlich",
+      "unwahrscheinlich"
+    ],
+    "explanation_en": "The correct adverb here is 'definitiv', meaning 'definitely'."
+  },
+  {
+    "exercise_id": "ex_adv_definitiv_003",
+    "word_id": "adv_definitiv",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "definitely",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "definitiv",
+    "wrong_answers": [
+      "bestimmt",
+      "eventuell",
+      "sicherlich",
+      "unwahrscheinlich"
+    ],
+    "explanation_en": "'definitely' is 'definitiv' in German. (Certainty & Probability)"
+  },
+  {
+    "exercise_id": "ex_adv_definitiv_004",
+    "word_id": "adv_definitiv",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Das ist definitiv besser.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That is definitely better.",
+    "wrong_answers": [
+      "He possibly didn't see the email.",
+      "He should actually be here.",
+      "Maybe he'll come later."
+    ],
+    "explanation_en": "'definitiv' = 'definitely'. Full sentence: \"That is definitely better.\""
+  },
+  {
+    "exercise_id": "ex_adv_eventuell_001",
+    "word_id": "adv_eventuell",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "eventuell",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "possibly / perhaps",
+    "wrong_answers": [
+      "actually / in theory",
+      "as expected / likely",
+      "of course / naturally",
+      "certainly / surely"
+    ],
+    "explanation_en": "'eventuell' means 'possibly / perhaps' in German."
+  },
+  {
+    "exercise_id": "ex_adv_eventuell_002",
+    "word_id": "adv_eventuell",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ bleiben wir länger.",
+      "en": "We might stay longer."
+    },
+    "correct_answer": "eventuell",
+    "wrong_answers": [
+      "möglicherweise",
+      "unwahrscheinlich",
+      "voraussichtlich",
+      "definitiv"
+    ],
+    "explanation_en": "The correct adverb here is 'eventuell', meaning 'possibly / perhaps'."
+  },
+  {
+    "exercise_id": "ex_adv_eventuell_003",
+    "word_id": "adv_eventuell",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "possibly / perhaps",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "eventuell",
+    "wrong_answers": [
+      "möglicherweise",
+      "unwahrscheinlich",
+      "voraussichtlich",
+      "definitiv"
+    ],
+    "explanation_en": "'possibly / perhaps' is 'eventuell' in German. (Certainty & Probability)"
+  },
+  {
+    "exercise_id": "ex_adv_eventuell_004",
+    "word_id": "adv_eventuell",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Eventuell bleiben wir länger.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "We might stay longer.",
+    "wrong_answers": [
+      "Supposedly he was sick.",
+      "That'll definitely work.",
+      "She'll probably come tomorrow."
+    ],
+    "explanation_en": "'eventuell' = 'possibly / perhaps'. Full sentence: \"We might stay longer.\""
+  },
+  {
+    "exercise_id": "ex_adv_voraussichtlich_001",
+    "word_id": "adv_voraussichtlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "voraussichtlich",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "as expected / likely",
+    "wrong_answers": [
+      "definitely / in any case",
+      "actually / in theory",
+      "possibly",
+      "definitely"
+    ],
+    "explanation_en": "'voraussichtlich' means 'as expected / likely' in German."
+  },
+  {
+    "exercise_id": "ex_adv_voraussichtlich_002",
+    "word_id": "adv_voraussichtlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Zug kommt _____ pünktlich.",
+      "en": "The train is expected to arrive on time."
+    },
+    "correct_answer": "voraussichtlich",
+    "wrong_answers": [
+      "vielleicht",
+      "eigentlich",
+      "auf jeden Fall",
+      "definitiv"
+    ],
+    "explanation_en": "The correct adverb here is 'voraussichtlich', meaning 'as expected / likely'."
+  },
+  {
+    "exercise_id": "ex_adv_voraussichtlich_003",
+    "word_id": "adv_voraussichtlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "as expected / likely",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "voraussichtlich",
+    "wrong_answers": [
+      "vielleicht",
+      "eigentlich",
+      "auf jeden Fall",
+      "definitiv"
+    ],
+    "explanation_en": "'as expected / likely' is 'voraussichtlich' in German. (Certainty & Probability)"
+  },
+  {
+    "exercise_id": "ex_adv_voraussichtlich_004",
+    "word_id": "adv_voraussichtlich",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Der Zug kommt voraussichtlich pünktlich.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "The train is expected to arrive on time.",
+    "wrong_answers": [
+      "Apparently there was a problem.",
+      "That's certainly possible.",
+      "That'll definitely work."
+    ],
+    "explanation_en": "'voraussichtlich' = 'as expected / likely'. Full sentence: \"The train is expected to arrive on time.\""
+  },
+  {
+    "exercise_id": "ex_adv_anscheinend_001",
+    "word_id": "adv_anscheinend",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "anscheinend",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "apparently / it seems",
+    "wrong_answers": [
+      "apparently / obviously",
+      "actually / in theory",
+      "probably",
+      "definitely / in any case"
+    ],
+    "explanation_en": "'anscheinend' means 'apparently / it seems' in German."
+  },
+  {
+    "exercise_id": "ex_adv_anscheinend_002",
+    "word_id": "adv_anscheinend",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ wusste er Bescheid.",
+      "en": "Apparently he knew about it."
+    },
+    "correct_answer": "anscheinend",
+    "wrong_answers": [
+      "sicherlich",
+      "voraussichtlich",
+      "vielleicht",
+      "ehrlich gesagt"
+    ],
+    "explanation_en": "The correct adverb here is 'anscheinend', meaning 'apparently / it seems'."
+  },
+  {
+    "exercise_id": "ex_adv_anscheinend_003",
+    "word_id": "adv_anscheinend",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "apparently / it seems",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "anscheinend",
+    "wrong_answers": [
+      "sicherlich",
+      "voraussichtlich",
+      "vielleicht",
+      "ehrlich gesagt"
+    ],
+    "explanation_en": "'apparently / it seems' is 'anscheinend' in German. (Certainty & Probability)"
+  },
+  {
+    "exercise_id": "ex_adv_anscheinend_004",
+    "word_id": "adv_anscheinend",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Anscheinend wusste er Bescheid.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Apparently he knew about it.",
+    "wrong_answers": [
+      "Supposedly he was sick.",
+      "That's rather unlikely.",
+      "He should actually be here."
+    ],
+    "explanation_en": "'anscheinend' = 'apparently / it seems'. Full sentence: \"Apparently he knew about it.\""
+  },
+  {
+    "exercise_id": "ex_adv_offenbar_001",
+    "word_id": "adv_offenbar",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "offenbar",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "apparently / obviously",
+    "wrong_answers": [
+      "unlikely",
+      "probably",
+      "definitely / for sure",
+      "definitely"
+    ],
+    "explanation_en": "'offenbar' means 'apparently / obviously' in German."
+  },
+  {
+    "exercise_id": "ex_adv_offenbar_002",
+    "word_id": "adv_offenbar",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ gab es ein Problem.",
+      "en": "Apparently there was a problem."
+    },
+    "correct_answer": "offenbar",
+    "wrong_answers": [
+      "wahrscheinlich",
+      "eventuell",
+      "voraussichtlich",
+      "anscheinend"
+    ],
+    "explanation_en": "The correct adverb here is 'offenbar', meaning 'apparently / obviously'."
+  },
+  {
+    "exercise_id": "ex_adv_offenbar_003",
+    "word_id": "adv_offenbar",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "apparently / obviously",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "offenbar",
+    "wrong_answers": [
+      "wahrscheinlich",
+      "eventuell",
+      "voraussichtlich",
+      "anscheinend"
+    ],
+    "explanation_en": "'apparently / obviously' is 'offenbar' in German. (Certainty & Probability)"
+  },
+  {
+    "exercise_id": "ex_adv_offenbar_004",
+    "word_id": "adv_offenbar",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Offenbar gab es ein Problem.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Apparently there was a problem.",
+    "wrong_answers": [
+      "That is definitely better.",
+      "That'll definitely work.",
+      "The train is expected to arrive on time."
+    ],
+    "explanation_en": "'offenbar' = 'apparently / obviously'. Full sentence: \"Apparently there was a problem.\""
+  },
+  {
+    "exercise_id": "ex_adv_angeblich_001",
+    "word_id": "adv_angeblich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "angeblich",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "supposedly / allegedly",
+    "wrong_answers": [
+      "certainly / surely",
+      "possibly / perhaps",
+      "apparently / obviously",
+      "probably"
+    ],
+    "explanation_en": "'angeblich' means 'supposedly / allegedly' in German."
+  },
+  {
+    "exercise_id": "ex_adv_angeblich_002",
+    "word_id": "adv_angeblich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ war er krank.",
+      "en": "Supposedly he was sick."
+    },
+    "correct_answer": "angeblich",
+    "wrong_answers": [
+      "vielleicht",
+      "definitiv",
+      "offenbar",
+      "auf jeden Fall"
+    ],
+    "explanation_en": "The correct adverb here is 'angeblich', meaning 'supposedly / allegedly'."
+  },
+  {
+    "exercise_id": "ex_adv_angeblich_003",
+    "word_id": "adv_angeblich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "supposedly / allegedly",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "angeblich",
+    "wrong_answers": [
+      "vielleicht",
+      "definitiv",
+      "offenbar",
+      "auf jeden Fall"
+    ],
+    "explanation_en": "'supposedly / allegedly' is 'angeblich' in German. (Certainty & Probability)"
+  },
+  {
+    "exercise_id": "ex_adv_angeblich_004",
+    "word_id": "adv_angeblich",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Angeblich war er krank.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Supposedly he was sick.",
+    "wrong_answers": [
+      "Honestly, I don't understand that.",
+      "That'll definitely work.",
+      "That's certainly possible."
+    ],
+    "explanation_en": "'angeblich' = 'supposedly / allegedly'. Full sentence: \"Supposedly he was sick.\""
+  },
+  {
+    "exercise_id": "ex_adv_unwahrscheinlich_001",
+    "word_id": "adv_unwahrscheinlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "unwahrscheinlich",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "unlikely",
+    "wrong_answers": [
+      "as expected / likely",
+      "of course / naturally",
+      "definitely / in any case",
+      "maybe / perhaps"
+    ],
+    "explanation_en": "'unwahrscheinlich' means 'unlikely' in German."
+  },
+  {
+    "exercise_id": "ex_adv_unwahrscheinlich_002",
+    "word_id": "adv_unwahrscheinlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das ist eher _____.",
+      "en": "That's rather unlikely."
+    },
+    "correct_answer": "unwahrscheinlich",
+    "wrong_answers": [
+      "eigentlich",
+      "wahrscheinlich",
+      "definitiv",
+      "sicherlich"
+    ],
+    "explanation_en": "The correct adverb here is 'unwahrscheinlich', meaning 'unlikely'."
+  },
+  {
+    "exercise_id": "ex_adv_unwahrscheinlich_003",
+    "word_id": "adv_unwahrscheinlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "unlikely",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "unwahrscheinlich",
+    "wrong_answers": [
+      "eigentlich",
+      "wahrscheinlich",
+      "definitiv",
+      "sicherlich"
+    ],
+    "explanation_en": "'unlikely' is 'unwahrscheinlich' in German. (Certainty & Probability)"
+  },
+  {
+    "exercise_id": "ex_adv_unwahrscheinlich_004",
+    "word_id": "adv_unwahrscheinlich",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Das ist eher unwahrscheinlich.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That's rather unlikely.",
+    "wrong_answers": [
+      "He possibly didn't see the email.",
+      "Apparently he knew about it.",
+      "Apparently there was a problem."
+    ],
+    "explanation_en": "'unwahrscheinlich' = 'unlikely'. Full sentence: \"That's rather unlikely.\""
+  },
+  {
+    "exercise_id": "ex_adv_natuerlich_001",
+    "word_id": "adv_natuerlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "natürlich",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "of course / naturally",
+    "wrong_answers": [
+      "as expected / likely",
+      "actually / in theory",
+      "certainly / surely",
+      "apparently / obviously"
+    ],
+    "explanation_en": "'natürlich' means 'of course / naturally' in German."
+  },
+  {
+    "exercise_id": "ex_adv_natuerlich_002",
+    "word_id": "adv_natuerlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ helfe ich dir.",
+      "en": "Of course I'll help you."
+    },
+    "correct_answer": "natürlich",
+    "wrong_answers": [
+      "eigentlich",
+      "wahrscheinlich",
+      "bestimmt",
+      "auf jeden Fall"
+    ],
+    "explanation_en": "The correct adverb here is 'natürlich', meaning 'of course / naturally'."
+  },
+  {
+    "exercise_id": "ex_adv_natuerlich_003",
+    "word_id": "adv_natuerlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "of course / naturally",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "natürlich",
+    "wrong_answers": [
+      "eigentlich",
+      "wahrscheinlich",
+      "bestimmt",
+      "auf jeden Fall"
+    ],
+    "explanation_en": "'of course / naturally' is 'natürlich' in German. (Certainty & Probability)"
+  },
+  {
+    "exercise_id": "ex_adv_natuerlich_004",
+    "word_id": "adv_natuerlich",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Natürlich helfe ich dir.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Of course I'll help you.",
+    "wrong_answers": [
+      "The train is expected to arrive on time.",
+      "He possibly didn't see the email.",
+      "She'll probably come tomorrow."
+    ],
+    "explanation_en": "'natürlich' = 'of course / naturally'. Full sentence: \"Of course I'll help you.\""
+  },
+  {
+    "exercise_id": "ex_adv_ehrlich_gesagt_001",
+    "word_id": "adv_ehrlich_gesagt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "ehrlich gesagt",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "honestly / to be honest",
+    "wrong_answers": [
+      "possibly",
+      "definitely",
+      "supposedly / allegedly",
+      "possibly / perhaps"
+    ],
+    "explanation_en": "'ehrlich gesagt' means 'honestly / to be honest' in German."
+  },
+  {
+    "exercise_id": "ex_adv_ehrlich_gesagt_002",
+    "word_id": "adv_ehrlich_gesagt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ verstehe ich das nicht.",
+      "en": "Honestly, I don't understand that."
+    },
+    "correct_answer": "ehrlich gesagt",
+    "wrong_answers": [
+      "definitiv",
+      "voraussichtlich",
+      "offenbar",
+      "angeblich"
+    ],
+    "explanation_en": "The correct adverb here is 'ehrlich gesagt', meaning 'honestly / to be honest'."
+  },
+  {
+    "exercise_id": "ex_adv_ehrlich_gesagt_003",
+    "word_id": "adv_ehrlich_gesagt",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "honestly / to be honest",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "ehrlich gesagt",
+    "wrong_answers": [
+      "definitiv",
+      "voraussichtlich",
+      "offenbar",
+      "angeblich"
+    ],
+    "explanation_en": "'honestly / to be honest' is 'ehrlich gesagt' in German. (Certainty & Probability)"
+  },
+  {
+    "exercise_id": "ex_adv_ehrlich_gesagt_004",
+    "word_id": "adv_ehrlich_gesagt",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ehrlich gesagt verstehe ich das nicht.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Honestly, I don't understand that.",
+    "wrong_answers": [
+      "He should actually be here.",
+      "Supposedly he was sick.",
+      "That'll definitely work."
+    ],
+    "explanation_en": "'ehrlich gesagt' = 'honestly / to be honest'. Full sentence: \"Honestly, I don't understand that.\""
+  },
+  {
+    "exercise_id": "ex_adv_auf_jeden_fall_001",
+    "word_id": "adv_auf_jeden_fall",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "auf jeden Fall",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "definitely / in any case",
+    "wrong_answers": [
+      "certainly / surely",
+      "possibly",
+      "definitely",
+      "as expected / likely"
+    ],
+    "explanation_en": "'auf jeden Fall' means 'definitely / in any case' in German."
+  },
+  {
+    "exercise_id": "ex_adv_auf_jeden_fall_002",
+    "word_id": "adv_auf_jeden_fall",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das mache ich _____.",
+      "en": "I will definitely do that."
+    },
+    "correct_answer": "auf jeden Fall",
+    "wrong_answers": [
+      "bestimmt",
+      "wahrscheinlich",
+      "vielleicht",
+      "ehrlich gesagt"
+    ],
+    "explanation_en": "The correct adverb here is 'auf jeden Fall', meaning 'definitely / in any case'."
+  },
+  {
+    "exercise_id": "ex_adv_auf_jeden_fall_003",
+    "word_id": "adv_auf_jeden_fall",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "definitely / in any case",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "auf jeden Fall",
+    "wrong_answers": [
+      "bestimmt",
+      "wahrscheinlich",
+      "vielleicht",
+      "ehrlich gesagt"
+    ],
+    "explanation_en": "'definitely / in any case' is 'auf jeden Fall' in German. (Certainty & Probability)"
+  },
+  {
+    "exercise_id": "ex_adv_auf_jeden_fall_004",
+    "word_id": "adv_auf_jeden_fall",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Das mache ich auf jeden Fall.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I will definitely do that.",
+    "wrong_answers": [
+      "He possibly didn't see the email.",
+      "That is definitely better.",
+      "That'll definitely work."
+    ],
+    "explanation_en": "'auf jeden Fall' = 'definitely / in any case'. Full sentence: \"I will definitely do that.\""
+  },
+  {
+    "exercise_id": "ex_adv_eigentlich_001",
+    "word_id": "adv_eigentlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "eigentlich",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "actually / in theory",
+    "wrong_answers": [
+      "apparently / obviously",
+      "probably",
+      "apparently / it seems",
+      "maybe / perhaps"
+    ],
+    "explanation_en": "'eigentlich' means 'actually / in theory' in German."
+  },
+  {
+    "exercise_id": "ex_adv_eigentlich_002",
+    "word_id": "adv_eigentlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ sollte er hier sein.",
+      "en": "He should actually be here."
+    },
+    "correct_answer": "eigentlich",
+    "wrong_answers": [
+      "sicherlich",
+      "voraussichtlich",
+      "ehrlich gesagt",
+      "anscheinend"
+    ],
+    "explanation_en": "The correct adverb here is 'eigentlich', meaning 'actually / in theory'."
+  },
+  {
+    "exercise_id": "ex_adv_eigentlich_003",
+    "word_id": "adv_eigentlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "actually / in theory",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "eigentlich",
+    "wrong_answers": [
+      "sicherlich",
+      "voraussichtlich",
+      "ehrlich gesagt",
+      "anscheinend"
+    ],
+    "explanation_en": "'actually / in theory' is 'eigentlich' in German. (Certainty & Probability)"
+  },
+  {
+    "exercise_id": "ex_adv_eigentlich_004",
+    "word_id": "adv_eigentlich",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Eigentlich sollte er hier sein.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "He should actually be here.",
+    "wrong_answers": [
+      "Of course I'll help you.",
+      "That's rather unlikely.",
+      "That'll definitely work."
+    ],
+    "explanation_en": "'eigentlich' = 'actually / in theory'. Full sentence: \"He should actually be here.\""
+  },
+  {
+    "exercise_id": "ex_adv_moeglicherweise_001",
+    "word_id": "adv_moeglicherweise",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "möglicherweise",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "possibly",
+    "wrong_answers": [
+      "possibly / perhaps",
+      "apparently / obviously",
+      "unlikely",
+      "definitely / in any case"
+    ],
+    "explanation_en": "'möglicherweise' means 'possibly' in German."
+  },
+  {
+    "exercise_id": "ex_adv_moeglicherweise_002",
+    "word_id": "adv_moeglicherweise",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ hat er die E-Mail nicht gesehen.",
+      "en": "He possibly didn't see the email."
+    },
+    "correct_answer": "möglicherweise",
+    "wrong_answers": [
+      "eventuell",
+      "auf jeden Fall",
+      "eigentlich",
+      "offenbar"
+    ],
+    "explanation_en": "The correct adverb here is 'möglicherweise', meaning 'possibly'."
+  },
+  {
+    "exercise_id": "ex_adv_moeglicherweise_003",
+    "word_id": "adv_moeglicherweise",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "possibly",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "möglicherweise",
+    "wrong_answers": [
+      "eventuell",
+      "auf jeden Fall",
+      "eigentlich",
+      "offenbar"
+    ],
+    "explanation_en": "'possibly' is 'möglicherweise' in German. (Certainty & Probability)"
+  },
+  {
+    "exercise_id": "ex_adv_moeglicherweise_004",
+    "word_id": "adv_moeglicherweise",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Möglicherweise hat er die E-Mail nicht gesehen.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "He possibly didn't see the email.",
+    "wrong_answers": [
+      "Maybe he'll come later.",
+      "She'll probably come tomorrow.",
+      "The train is expected to arrive on time."
+    ],
+    "explanation_en": "'möglicherweise' = 'possibly'. Full sentence: \"He possibly didn't see the email.\""
+  },
+  {
+    "exercise_id": "ex_adv_gar_001",
+    "word_id": "adv_gar",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "gar",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "at all / not at all (with negation)",
+    "wrong_answers": [
+      "constantly",
+      "incredibly / insanely",
+      "secondly",
+      "hence / for that reason"
+    ],
+    "explanation_en": "'gar' means 'at all / not at all (with negation)' in German."
+  },
+  {
+    "exercise_id": "ex_adv_gar_002",
+    "word_id": "adv_gar",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das geht _____ nicht.",
+      "en": "That's completely unacceptable."
+    },
+    "correct_answer": "gar",
+    "wrong_answers": [
+      "stattdessen",
+      "kaum",
+      "jedenfalls",
+      "definitiv"
+    ],
+    "explanation_en": "The correct adverb here is 'gar', meaning 'at all / not at all (with negation)'."
+  },
+  {
+    "exercise_id": "ex_adv_gar_003",
+    "word_id": "adv_gar",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "at all / not at all (with negation)",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "gar",
+    "wrong_answers": [
+      "stattdessen",
+      "kaum",
+      "jedenfalls",
+      "definitiv"
+    ],
+    "explanation_en": "'at all / not at all (with negation)' is 'gar' in German. (Modal Particles)"
+  },
+  {
+    "exercise_id": "ex_adv_gar_004",
+    "word_id": "adv_gar",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Das geht gar nicht.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That's completely unacceptable.",
+    "wrong_answers": [
+      "Nevertheless he won.",
+      "That's where the problem comes from.",
+      "That is absolutely correct."
+    ],
+    "explanation_en": "'gar' = 'at all / not at all (with negation)'. Full sentence: \"That's completely unacceptable.\""
+  },
+  {
+    "exercise_id": "ex_adv_also_001",
+    "word_id": "adv_also",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "also",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "so / well then",
+    "wrong_answers": [
+      "basically / at the core",
+      "so to speak / as it were",
+      "anyway / regardless",
+      "basically / all things considered"
+    ],
+    "explanation_en": "'also' means 'so / well then' in German."
+  },
+  {
+    "exercise_id": "ex_adv_also_002",
+    "word_id": "adv_also",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____, was machen wir jetzt?",
+      "en": "So, what are we doing now?"
+    },
+    "correct_answer": "also",
+    "wrong_answers": [
+      "jedenfalls",
+      "im Grunde",
+      "im Grunde genommen",
+      "sozusagen"
+    ],
+    "explanation_en": "The correct adverb here is 'also', meaning 'so / well then'."
+  },
+  {
+    "exercise_id": "ex_adv_also_003",
+    "word_id": "adv_also",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "so / well then",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "also",
+    "wrong_answers": [
+      "jedenfalls",
+      "im Grunde",
+      "im Grunde genommen",
+      "sozusagen"
+    ],
+    "explanation_en": "'so / well then' is 'also' in German. (Fillers & Conversation Flow)"
+  },
+  {
+    "exercise_id": "ex_adv_also_004",
+    "word_id": "adv_also",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Also, was machen wir jetzt?",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "So, what are we doing now?",
+    "wrong_answers": [
+      "Basically she's right.",
+      "He's basically the boss.",
+      "Anyway, it was interesting."
+    ],
+    "explanation_en": "'also' = 'so / well then'. Full sentence: \"So, what are we doing now?\""
+  },
+  {
+    "exercise_id": "ex_adv_sozusagen_001",
+    "word_id": "adv_sozusagen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "sozusagen",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "so to speak / as it were",
+    "wrong_answers": [
+      "so / well then",
+      "basically / all things considered",
+      "basically / at the core",
+      "anyway / regardless"
+    ],
+    "explanation_en": "'sozusagen' means 'so to speak / as it were' in German."
+  },
+  {
+    "exercise_id": "ex_adv_sozusagen_002",
+    "word_id": "adv_sozusagen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er ist _____ der Chef.",
+      "en": "He's basically the boss."
+    },
+    "correct_answer": "sozusagen",
+    "wrong_answers": [
+      "jedenfalls",
+      "also",
+      "im Grunde genommen",
+      "im Grunde"
+    ],
+    "explanation_en": "The correct adverb here is 'sozusagen', meaning 'so to speak / as it were'."
+  },
+  {
+    "exercise_id": "ex_adv_sozusagen_003",
+    "word_id": "adv_sozusagen",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "so to speak / as it were",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "sozusagen",
+    "wrong_answers": [
+      "jedenfalls",
+      "also",
+      "im Grunde genommen",
+      "im Grunde"
+    ],
+    "explanation_en": "'so to speak / as it were' is 'sozusagen' in German. (Fillers & Conversation Flow)"
+  },
+  {
+    "exercise_id": "ex_adv_sozusagen_004",
+    "word_id": "adv_sozusagen",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Er ist sozusagen der Chef.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "He's basically the boss.",
+    "wrong_answers": [
+      "Basically she's right.",
+      "Anyway, it was interesting.",
+      "So, what are we doing now?"
+    ],
+    "explanation_en": "'sozusagen' = 'so to speak / as it were'. Full sentence: \"He's basically the boss.\""
+  },
+  {
+    "exercise_id": "ex_adv_im_grunde_001",
+    "word_id": "adv_im_grunde",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "im Grunde",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "basically / at the core",
+    "wrong_answers": [
+      "basically / all things considered",
+      "so / well then",
+      "anyway / regardless",
+      "so to speak / as it were"
+    ],
+    "explanation_en": "'im Grunde' means 'basically / at the core' in German."
+  },
+  {
+    "exercise_id": "ex_adv_im_grunde_002",
+    "word_id": "adv_im_grunde",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ hat sie recht.",
+      "en": "Basically she's right."
+    },
+    "correct_answer": "im Grunde",
+    "wrong_answers": [
+      "jedenfalls",
+      "also",
+      "sozusagen",
+      "im Grunde genommen"
+    ],
+    "explanation_en": "The correct adverb here is 'im Grunde', meaning 'basically / at the core'."
+  },
+  {
+    "exercise_id": "ex_adv_im_grunde_003",
+    "word_id": "adv_im_grunde",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "basically / at the core",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "im Grunde",
+    "wrong_answers": [
+      "jedenfalls",
+      "also",
+      "sozusagen",
+      "im Grunde genommen"
+    ],
+    "explanation_en": "'basically / at the core' is 'im Grunde' in German. (Fillers & Conversation Flow)"
+  },
+  {
+    "exercise_id": "ex_adv_im_grunde_004",
+    "word_id": "adv_im_grunde",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Im Grunde hat sie recht.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Basically she's right.",
+    "wrong_answers": [
+      "So, what are we doing now?",
+      "All things considered, it was a good idea.",
+      "He's basically the boss."
+    ],
+    "explanation_en": "'im Grunde' = 'basically / at the core'. Full sentence: \"Basically she's right.\""
+  },
+  {
+    "exercise_id": "ex_adv_im_grunde_genommen_001",
+    "word_id": "adv_im_grunde_genommen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "im Grunde genommen",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "basically / all things considered",
+    "wrong_answers": [
+      "so / well then",
+      "anyway / regardless",
+      "so to speak / as it were",
+      "basically / at the core"
+    ],
+    "explanation_en": "'im Grunde genommen' means 'basically / all things considered' in German."
+  },
+  {
+    "exercise_id": "ex_adv_im_grunde_genommen_002",
+    "word_id": "adv_im_grunde_genommen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ war es eine gute Idee.",
+      "en": "All things considered, it was a good idea."
+    },
+    "correct_answer": "im Grunde genommen",
+    "wrong_answers": [
+      "sozusagen",
+      "also",
+      "im Grunde",
+      "jedenfalls"
+    ],
+    "explanation_en": "The correct adverb here is 'im Grunde genommen', meaning 'basically / all things considered'."
+  },
+  {
+    "exercise_id": "ex_adv_im_grunde_genommen_003",
+    "word_id": "adv_im_grunde_genommen",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "basically / all things considered",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "im Grunde genommen",
+    "wrong_answers": [
+      "sozusagen",
+      "also",
+      "im Grunde",
+      "jedenfalls"
+    ],
+    "explanation_en": "'basically / all things considered' is 'im Grunde genommen' in German. (Fillers & Conversation Flow)"
+  },
+  {
+    "exercise_id": "ex_adv_im_grunde_genommen_004",
+    "word_id": "adv_im_grunde_genommen",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Im Grunde genommen war es eine gute Idee.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "All things considered, it was a good idea.",
+    "wrong_answers": [
+      "He's basically the boss.",
+      "So, what are we doing now?",
+      "Basically she's right."
+    ],
+    "explanation_en": "'im Grunde genommen' = 'basically / all things considered'. Full sentence: \"All things considered, it was a good idea.\""
+  },
+  {
+    "exercise_id": "ex_adv_jedenfalls_2_001",
+    "word_id": "adv_jedenfalls_2",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "jedenfalls",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "anyway / regardless",
+    "wrong_answers": [
+      "basically / all things considered",
+      "basically / at the core",
+      "so to speak / as it were",
+      "so / well then"
+    ],
+    "explanation_en": "'jedenfalls' means 'anyway / regardless' in German."
+  },
+  {
+    "exercise_id": "ex_adv_jedenfalls_2_002",
+    "word_id": "adv_jedenfalls_2",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ war es interessant.",
+      "en": "Anyway, it was interesting."
+    },
+    "correct_answer": "jedenfalls",
+    "wrong_answers": [
+      "sozusagen",
+      "also",
+      "im Grunde genommen",
+      "im Grunde"
+    ],
+    "explanation_en": "The correct adverb here is 'jedenfalls', meaning 'anyway / regardless'."
+  },
+  {
+    "exercise_id": "ex_adv_jedenfalls_2_003",
+    "word_id": "adv_jedenfalls_2",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "anyway / regardless",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "jedenfalls",
+    "wrong_answers": [
+      "sozusagen",
+      "also",
+      "im Grunde genommen",
+      "im Grunde"
+    ],
+    "explanation_en": "'anyway / regardless' is 'jedenfalls' in German. (Fillers & Conversation Flow)"
+  },
+  {
+    "exercise_id": "ex_adv_jedenfalls_2_004",
+    "word_id": "adv_jedenfalls_2",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Jedenfalls war es interessant.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Anyway, it was interesting.",
+    "wrong_answers": [
+      "All things considered, it was a good idea.",
+      "He's basically the boss.",
+      "So, what are we doing now?"
+    ],
+    "explanation_en": "'jedenfalls' = 'anyway / regardless'. Full sentence: \"Anyway, it was interesting.\""
+  },
+  {
+    "exercise_id": "ex_adv_sehr_001",
+    "word_id": "adv_sehr",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "sehr",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "very",
+    "wrong_answers": [
+      "incredibly / insanely",
+      "really / genuinely",
+      "totally / completely (slang)",
+      "quite / fairly / pretty"
+    ],
+    "explanation_en": "'sehr' means 'very' in German."
+  },
+  {
+    "exercise_id": "ex_adv_sehr_002",
+    "word_id": "adv_sehr",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das ist _____ wichtig.",
+      "en": "That is very important."
+    },
+    "correct_answer": "sehr",
+    "wrong_answers": [
+      "echt",
+      "ziemlich",
+      "total",
+      "extrem"
+    ],
+    "explanation_en": "The correct adverb here is 'sehr', meaning 'very'."
+  },
+  {
+    "exercise_id": "ex_adv_sehr_003",
+    "word_id": "adv_sehr",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "very",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "sehr",
+    "wrong_answers": [
+      "echt",
+      "ziemlich",
+      "total",
+      "extrem"
+    ],
+    "explanation_en": "'very' is 'sehr' in German. (Intensifiers)"
+  },
+  {
+    "exercise_id": "ex_adv_sehr_004",
+    "word_id": "adv_sehr",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Das ist sehr wichtig.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That is very important.",
+    "wrong_answers": [
+      "That's really interesting.",
+      "I'm totally tired.",
+      "I especially like that."
+    ],
+    "explanation_en": "'sehr' = 'very'. Full sentence: \"That is very important.\""
+  },
+  {
+    "exercise_id": "ex_adv_wirklich_001",
+    "word_id": "adv_wirklich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "wirklich",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "really / truly",
+    "wrong_answers": [
+      "absolutely",
+      "incredibly / insanely",
+      "so (intensifier)",
+      "incredibly / unbelievably"
+    ],
+    "explanation_en": "'wirklich' means 'really / truly' in German."
+  },
+  {
+    "exercise_id": "ex_adv_wirklich_002",
+    "word_id": "adv_wirklich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das ist _____ gut.",
+      "en": "That is really good."
+    },
+    "correct_answer": "wirklich",
+    "wrong_answers": [
+      "extrem",
+      "wahnsinnig",
+      "voll",
+      "ziemlich"
+    ],
+    "explanation_en": "The correct adverb here is 'wirklich', meaning 'really / truly'."
+  },
+  {
+    "exercise_id": "ex_adv_wirklich_003",
+    "word_id": "adv_wirklich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "really / truly",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "wirklich",
+    "wrong_answers": [
+      "extrem",
+      "wahnsinnig",
+      "voll",
+      "ziemlich"
+    ],
+    "explanation_en": "'really / truly' is 'wirklich' in German. (Intensifiers)"
+  },
+  {
+    "exercise_id": "ex_adv_wirklich_004",
+    "word_id": "adv_wirklich",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Das ist wirklich gut.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That is really good.",
+    "wrong_answers": [
+      "I especially like that.",
+      "That is barely believable.",
+      "That is very important."
+    ],
+    "explanation_en": "'wirklich' = 'really / truly'. Full sentence: \"That is really good.\""
+  },
+  {
+    "exercise_id": "ex_adv_total_001",
+    "word_id": "adv_total",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "total",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "totally / completely",
+    "wrong_answers": [
+      "especially / particularly",
+      "so (intensifier)",
+      "mega / super (slang)",
+      "totally / completely (slang)"
+    ],
+    "explanation_en": "'total' means 'totally / completely' in German."
+  },
+  {
+    "exercise_id": "ex_adv_total_002",
+    "word_id": "adv_total",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich bin _____ müde.",
+      "en": "I'm totally tired."
+    },
+    "correct_answer": "total",
+    "wrong_answers": [
+      "absolut",
+      "voll",
+      "wahnsinnig",
+      "sehr"
+    ],
+    "explanation_en": "The correct adverb here is 'total', meaning 'totally / completely'."
+  },
+  {
+    "exercise_id": "ex_adv_total_003",
+    "word_id": "adv_total",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "totally / completely",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "total",
+    "wrong_answers": [
+      "absolut",
+      "voll",
+      "wahnsinnig",
+      "sehr"
+    ],
+    "explanation_en": "'totally / completely' is 'total' in German. (Intensifiers)"
+  },
+  {
+    "exercise_id": "ex_adv_total_004",
+    "word_id": "adv_total",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ich bin total müde.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I'm totally tired.",
+    "wrong_answers": [
+      "That was incredibly fast.",
+      "That was so beautiful!",
+      "That's really interesting."
+    ],
+    "explanation_en": "'total' = 'totally / completely'. Full sentence: \"I'm totally tired.\""
+  },
+  {
+    "exercise_id": "ex_adv_extrem_001",
+    "word_id": "adv_extrem",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "extrem",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "extremely",
+    "wrong_answers": [
+      "incredibly / unbelievably",
+      "especially / particularly",
+      "so (intensifier)",
+      "mega / super (slang)"
+    ],
+    "explanation_en": "'extrem' means 'extremely' in German."
+  },
+  {
+    "exercise_id": "ex_adv_extrem_002",
+    "word_id": "adv_extrem",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das war _____ teuer.",
+      "en": "That was extremely expensive."
+    },
+    "correct_answer": "extrem",
+    "wrong_answers": [
+      "besonders",
+      "wirklich",
+      "sehr",
+      "unglaublich"
+    ],
+    "explanation_en": "The correct adverb here is 'extrem', meaning 'extremely'."
+  },
+  {
+    "exercise_id": "ex_adv_extrem_003",
+    "word_id": "adv_extrem",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "extremely",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "extrem",
+    "wrong_answers": [
+      "besonders",
+      "wirklich",
+      "sehr",
+      "unglaublich"
+    ],
+    "explanation_en": "'extremely' is 'extrem' in German. (Intensifiers)"
+  },
+  {
+    "exercise_id": "ex_adv_extrem_004",
+    "word_id": "adv_extrem",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Das war extrem teuer.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That was extremely expensive.",
+    "wrong_answers": [
+      "That is really good.",
+      "That was incredibly fun.",
+      "That is absolutely correct."
+    ],
+    "explanation_en": "'extrem' = 'extremely'. Full sentence: \"That was extremely expensive.\""
+  },
+  {
+    "exercise_id": "ex_adv_ziemlich_001",
+    "word_id": "adv_ziemlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "ziemlich",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "quite / fairly / pretty",
+    "wrong_answers": [
+      "totally / completely (slang)",
+      "barely / hardly (downscaler)",
+      "mega / super (slang)",
+      "incredibly / insanely"
+    ],
+    "explanation_en": "'ziemlich' means 'quite / fairly / pretty' in German."
+  },
+  {
+    "exercise_id": "ex_adv_ziemlich_002",
+    "word_id": "adv_ziemlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das ist _____ schwer.",
+      "en": "That is quite difficult."
+    },
+    "correct_answer": "ziemlich",
+    "wrong_answers": [
+      "extrem",
+      "absolut",
+      "echt",
+      "besonders"
+    ],
+    "explanation_en": "The correct adverb here is 'ziemlich', meaning 'quite / fairly / pretty'."
+  },
+  {
+    "exercise_id": "ex_adv_ziemlich_003",
+    "word_id": "adv_ziemlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "quite / fairly / pretty",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "ziemlich",
+    "wrong_answers": [
+      "extrem",
+      "absolut",
+      "echt",
+      "besonders"
+    ],
+    "explanation_en": "'quite / fairly / pretty' is 'ziemlich' in German. (Intensifiers)"
+  },
+  {
+    "exercise_id": "ex_adv_ziemlich_004",
+    "word_id": "adv_ziemlich",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Das ist ziemlich schwer.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That is quite difficult.",
+    "wrong_answers": [
+      "That is really good.",
+      "That is barely believable.",
+      "That's really interesting."
+    ],
+    "explanation_en": "'ziemlich' = 'quite / fairly / pretty'. Full sentence: \"That is quite difficult.\""
+  },
+  {
+    "exercise_id": "ex_adv_absolut_001",
+    "word_id": "adv_absolut",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "absolut",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "absolutely",
+    "wrong_answers": [
+      "extremely",
+      "incredibly / unbelievably",
+      "very",
+      "incredibly / insanely"
+    ],
+    "explanation_en": "'absolut' means 'absolutely' in German."
+  },
+  {
+    "exercise_id": "ex_adv_absolut_002",
+    "word_id": "adv_absolut",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das ist _____ richtig.",
+      "en": "That is absolutely correct."
+    },
+    "correct_answer": "absolut",
+    "wrong_answers": [
+      "mega",
+      "echt",
+      "unglaublich",
+      "wahnsinnig"
+    ],
+    "explanation_en": "The correct adverb here is 'absolut', meaning 'absolutely'."
+  },
+  {
+    "exercise_id": "ex_adv_absolut_003",
+    "word_id": "adv_absolut",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "absolutely",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "absolut",
+    "wrong_answers": [
+      "mega",
+      "echt",
+      "unglaublich",
+      "wahnsinnig"
+    ],
+    "explanation_en": "'absolutely' is 'absolut' in German. (Intensifiers)"
+  },
+  {
+    "exercise_id": "ex_adv_absolut_004",
+    "word_id": "adv_absolut",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Das ist absolut richtig.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That is absolutely correct.",
+    "wrong_answers": [
+      "That was extremely expensive.",
+      "That is barely believable.",
+      "That was incredibly fun."
+    ],
+    "explanation_en": "'absolut' = 'absolutely'. Full sentence: \"That is absolutely correct.\""
+  },
+  {
+    "exercise_id": "ex_adv_unglaublich_001",
+    "word_id": "adv_unglaublich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "unglaublich",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "incredibly / unbelievably",
+    "wrong_answers": [
+      "incredibly / insanely",
+      "totally / completely (slang)",
+      "barely / hardly (downscaler)",
+      "quite / fairly / pretty"
+    ],
+    "explanation_en": "'unglaublich' means 'incredibly / unbelievably' in German."
+  },
+  {
+    "exercise_id": "ex_adv_unglaublich_002",
+    "word_id": "adv_unglaublich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das war _____ schnell.",
+      "en": "That was incredibly fast."
+    },
+    "correct_answer": "unglaublich",
+    "wrong_answers": [
+      "total",
+      "wahnsinnig",
+      "extrem",
+      "wirklich"
+    ],
+    "explanation_en": "The correct adverb here is 'unglaublich', meaning 'incredibly / unbelievably'."
+  },
+  {
+    "exercise_id": "ex_adv_unglaublich_003",
+    "word_id": "adv_unglaublich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "incredibly / unbelievably",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "unglaublich",
+    "wrong_answers": [
+      "total",
+      "wahnsinnig",
+      "extrem",
+      "wirklich"
+    ],
+    "explanation_en": "'incredibly / unbelievably' is 'unglaublich' in German. (Intensifiers)"
+  },
+  {
+    "exercise_id": "ex_adv_unglaublich_004",
+    "word_id": "adv_unglaublich",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Das war unglaublich schnell.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That was incredibly fast.",
+    "wrong_answers": [
+      "I'm totally tired.",
+      "That was so beautiful!",
+      "That is very important."
+    ],
+    "explanation_en": "'unglaublich' = 'incredibly / unbelievably'. Full sentence: \"That was incredibly fast.\""
+  },
+  {
+    "exercise_id": "ex_adv_echt_001",
+    "word_id": "adv_echt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "echt",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "really / genuinely",
+    "wrong_answers": [
+      "totally / completely",
+      "mega / super (slang)",
+      "incredibly / insanely",
+      "totally / completely (slang)"
+    ],
+    "explanation_en": "'echt' means 'really / genuinely' in German."
+  },
+  {
+    "exercise_id": "ex_adv_echt_002",
+    "word_id": "adv_echt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das ist _____ interessant.",
+      "en": "That's really interesting."
+    },
+    "correct_answer": "echt",
+    "wrong_answers": [
+      "besonders",
+      "voll",
+      "unglaublich",
+      "sehr"
+    ],
+    "explanation_en": "The correct adverb here is 'echt', meaning 'really / genuinely'."
+  },
+  {
+    "exercise_id": "ex_adv_echt_003",
+    "word_id": "adv_echt",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "really / genuinely",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "echt",
+    "wrong_answers": [
+      "besonders",
+      "voll",
+      "unglaublich",
+      "sehr"
+    ],
+    "explanation_en": "'really / genuinely' is 'echt' in German. (Intensifiers)"
+  },
+  {
+    "exercise_id": "ex_adv_echt_004",
+    "word_id": "adv_echt",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Das ist echt interessant.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That's really interesting.",
+    "wrong_answers": [
+      "That was incredibly fast.",
+      "That is super delicious.",
+      "That was so beautiful!"
+    ],
+    "explanation_en": "'echt' = 'really / genuinely'. Full sentence: \"That's really interesting.\""
+  },
+  {
+    "exercise_id": "ex_adv_voll_001",
+    "word_id": "adv_voll",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "voll",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "totally / completely (slang)",
+    "wrong_answers": [
+      "so (intensifier)",
+      "quite / fairly / pretty",
+      "incredibly / unbelievably",
+      "really / genuinely"
+    ],
+    "explanation_en": "'voll' means 'totally / completely (slang)' in German."
+  },
+  {
+    "exercise_id": "ex_adv_voll_002",
+    "word_id": "adv_voll",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das ist _____ cool.",
+      "en": "That's totally cool."
+    },
+    "correct_answer": "voll",
+    "wrong_answers": [
+      "echt",
+      "wahnsinnig",
+      "mega",
+      "wirklich"
+    ],
+    "explanation_en": "The correct adverb here is 'voll', meaning 'totally / completely (slang)'."
+  },
+  {
+    "exercise_id": "ex_adv_voll_003",
+    "word_id": "adv_voll",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "totally / completely (slang)",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "voll",
+    "wrong_answers": [
+      "echt",
+      "wahnsinnig",
+      "mega",
+      "wirklich"
+    ],
+    "explanation_en": "'totally / completely (slang)' is 'voll' in German. (Intensifiers)"
+  },
+  {
+    "exercise_id": "ex_adv_voll_004",
+    "word_id": "adv_voll",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Das ist voll cool.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That's totally cool.",
+    "wrong_answers": [
+      "That was so beautiful!",
+      "That is quite difficult.",
+      "That is super delicious."
+    ],
+    "explanation_en": "'voll' = 'totally / completely (slang)'. Full sentence: \"That's totally cool.\""
+  },
+  {
+    "exercise_id": "ex_adv_besonders_001",
+    "word_id": "adv_besonders",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "besonders",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "especially / particularly",
+    "wrong_answers": [
+      "extremely",
+      "so (intensifier)",
+      "absolutely",
+      "really / truly"
+    ],
+    "explanation_en": "'besonders' means 'especially / particularly' in German."
+  },
+  {
+    "exercise_id": "ex_adv_besonders_002",
+    "word_id": "adv_besonders",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das gefällt mir _____.",
+      "en": "I especially like that."
+    },
+    "correct_answer": "besonders",
+    "wrong_answers": [
+      "extrem",
+      "total",
+      "kaum",
+      "absolut"
+    ],
+    "explanation_en": "The correct adverb here is 'besonders', meaning 'especially / particularly'."
+  },
+  {
+    "exercise_id": "ex_adv_besonders_003",
+    "word_id": "adv_besonders",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "especially / particularly",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "besonders",
+    "wrong_answers": [
+      "extrem",
+      "total",
+      "kaum",
+      "absolut"
+    ],
+    "explanation_en": "'especially / particularly' is 'besonders' in German. (Intensifiers)"
+  },
+  {
+    "exercise_id": "ex_adv_besonders_004",
+    "word_id": "adv_besonders",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Das gefällt mir besonders.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I especially like that.",
+    "wrong_answers": [
+      "That is very important.",
+      "That is absolutely correct.",
+      "That is barely believable."
+    ],
+    "explanation_en": "'besonders' = 'especially / particularly'. Full sentence: \"I especially like that.\""
+  },
+  {
+    "exercise_id": "ex_adv_so_001",
+    "word_id": "adv_so",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "so",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "so (intensifier)",
+    "wrong_answers": [
+      "totally / completely (slang)",
+      "mega / super (slang)",
+      "extremely",
+      "barely / hardly (downscaler)"
+    ],
+    "explanation_en": "'so' means 'so (intensifier)' in German."
+  },
+  {
+    "exercise_id": "ex_adv_so_002",
+    "word_id": "adv_so",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das war _____ schön!",
+      "en": "That was so beautiful!"
+    },
+    "correct_answer": "so",
+    "wrong_answers": [
+      "ziemlich",
+      "mega",
+      "besonders",
+      "kaum"
+    ],
+    "explanation_en": "The correct adverb here is 'so', meaning 'so (intensifier)'."
+  },
+  {
+    "exercise_id": "ex_adv_so_003",
+    "word_id": "adv_so",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "so (intensifier)",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "so",
+    "wrong_answers": [
+      "ziemlich",
+      "mega",
+      "besonders",
+      "kaum"
+    ],
+    "explanation_en": "'so (intensifier)' is 'so' in German. (Intensifiers)"
+  },
+  {
+    "exercise_id": "ex_adv_so_004",
+    "word_id": "adv_so",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Das war so schön!",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That was so beautiful!",
+    "wrong_answers": [
+      "I especially like that.",
+      "That was extremely expensive.",
+      "That is really good."
+    ],
+    "explanation_en": "'so' = 'so (intensifier)'. Full sentence: \"That was so beautiful!\""
+  },
+  {
+    "exercise_id": "ex_adv_mega_001",
+    "word_id": "adv_mega",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "mega",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "mega / super (slang)",
+    "wrong_answers": [
+      "quite / fairly / pretty",
+      "extremely",
+      "totally / completely",
+      "totally / completely (slang)"
+    ],
+    "explanation_en": "'mega' means 'mega / super (slang)' in German."
+  },
+  {
+    "exercise_id": "ex_adv_mega_002",
+    "word_id": "adv_mega",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das ist _____ lecker.",
+      "en": "That is super delicious."
+    },
+    "correct_answer": "mega",
+    "wrong_answers": [
+      "extrem",
+      "wirklich",
+      "ziemlich",
+      "wahnsinnig"
+    ],
+    "explanation_en": "The correct adverb here is 'mega', meaning 'mega / super (slang)'."
+  },
+  {
+    "exercise_id": "ex_adv_mega_003",
+    "word_id": "adv_mega",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "mega / super (slang)",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "mega",
+    "wrong_answers": [
+      "extrem",
+      "wirklich",
+      "ziemlich",
+      "wahnsinnig"
+    ],
+    "explanation_en": "'mega / super (slang)' is 'mega' in German. (Intensifiers)"
+  },
+  {
+    "exercise_id": "ex_adv_mega_004",
+    "word_id": "adv_mega",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Das ist mega lecker.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That is super delicious.",
+    "wrong_answers": [
+      "That is really good.",
+      "That is absolutely correct.",
+      "That's totally cool."
+    ],
+    "explanation_en": "'mega' = 'mega / super (slang)'. Full sentence: \"That is super delicious.\""
+  },
+  {
+    "exercise_id": "ex_adv_wahnsinnig_001",
+    "word_id": "adv_wahnsinnig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "wahnsinnig",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "incredibly / insanely",
+    "wrong_answers": [
+      "really / truly",
+      "totally / completely (slang)",
+      "absolutely",
+      "especially / particularly"
+    ],
+    "explanation_en": "'wahnsinnig' means 'incredibly / insanely' in German."
+  },
+  {
+    "exercise_id": "ex_adv_wahnsinnig_002",
+    "word_id": "adv_wahnsinnig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das hat _____ viel Spaß gemacht.",
+      "en": "That was incredibly fun."
+    },
+    "correct_answer": "wahnsinnig",
+    "wrong_answers": [
+      "so",
+      "sehr",
+      "unglaublich",
+      "voll"
+    ],
+    "explanation_en": "The correct adverb here is 'wahnsinnig', meaning 'incredibly / insanely'."
+  },
+  {
+    "exercise_id": "ex_adv_wahnsinnig_003",
+    "word_id": "adv_wahnsinnig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "incredibly / insanely",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "wahnsinnig",
+    "wrong_answers": [
+      "so",
+      "sehr",
+      "unglaublich",
+      "voll"
+    ],
+    "explanation_en": "'incredibly / insanely' is 'wahnsinnig' in German. (Intensifiers)"
+  },
+  {
+    "exercise_id": "ex_adv_wahnsinnig_004",
+    "word_id": "adv_wahnsinnig",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Das hat wahnsinnig viel Spaß gemacht.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That was incredibly fun.",
+    "wrong_answers": [
+      "I'm totally tired.",
+      "That was incredibly fast.",
+      "That was so beautiful!"
+    ],
+    "explanation_en": "'wahnsinnig' = 'incredibly / insanely'. Full sentence: \"That was incredibly fun.\""
+  },
+  {
+    "exercise_id": "ex_adv_kaum_2_001",
+    "word_id": "adv_kaum_2",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "kaum",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "barely / hardly (downscaler)",
+    "wrong_answers": [
+      "quite / fairly / pretty",
+      "so (intensifier)",
+      "totally / completely (slang)",
+      "mega / super (slang)"
+    ],
+    "explanation_en": "'kaum' means 'barely / hardly (downscaler)' in German."
+  },
+  {
+    "exercise_id": "ex_adv_kaum_2_002",
+    "word_id": "adv_kaum_2",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das ist _____ zu glauben.",
+      "en": "That is barely believable."
+    },
+    "correct_answer": "kaum",
+    "wrong_answers": [
+      "so",
+      "mega",
+      "besonders",
+      "total"
+    ],
+    "explanation_en": "The correct adverb here is 'kaum', meaning 'barely / hardly (downscaler)'."
+  },
+  {
+    "exercise_id": "ex_adv_kaum_2_003",
+    "word_id": "adv_kaum_2",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "barely / hardly (downscaler)",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "kaum",
+    "wrong_answers": [
+      "so",
+      "mega",
+      "besonders",
+      "total"
+    ],
+    "explanation_en": "'barely / hardly (downscaler)' is 'kaum' in German. (Intensifiers)"
+  },
+  {
+    "exercise_id": "ex_adv_kaum_2_004",
+    "word_id": "adv_kaum_2",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Das ist kaum zu glauben.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That is barely believable.",
+    "wrong_answers": [
+      "That is absolutely correct.",
+      "That was incredibly fast.",
+      "That is very important."
+    ],
+    "explanation_en": "'kaum' = 'barely / hardly (downscaler)'. Full sentence: \"That is barely believable.\""
+  },
+  {
+    "exercise_id": "ex_adv_deswegen_2_001",
+    "word_id": "adv_deswegen_2",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "deswegen",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "that's why / because of that",
+    "wrong_answers": [
+      "hence / for that reason",
+      "through that / as a result",
+      "consequently / as a result",
+      "thus / therefore"
+    ],
+    "explanation_en": "'deswegen' means 'that's why / because of that' in German."
+  },
+  {
+    "exercise_id": "ex_adv_deswegen_2_002",
+    "word_id": "adv_deswegen_2",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich hatte keine Zeit, _____ war ich spät.",
+      "en": "I had no time, that's why I was late."
+    },
+    "correct_answer": "deswegen",
+    "wrong_answers": [
+      "daher",
+      "deshalb",
+      "folglich",
+      "dadurch"
+    ],
+    "explanation_en": "The correct adverb here is 'deswegen', meaning 'that's why / because of that'."
+  },
+  {
+    "exercise_id": "ex_adv_deswegen_2_003",
+    "word_id": "adv_deswegen_2",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "that's why / because of that",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "deswegen",
+    "wrong_answers": [
+      "daher",
+      "deshalb",
+      "folglich",
+      "dadurch"
+    ],
+    "explanation_en": "'that's why / because of that' is 'deswegen' in German. (Cause & Effect)"
+  },
+  {
+    "exercise_id": "ex_adv_deswegen_2_004",
+    "word_id": "adv_deswegen_2",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ich hatte keine Zeit, deswegen war ich spät.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I had no time, that's why I was late.",
+    "wrong_answers": [
+      "As a result the project was stopped.",
+      "Thus the problem is solved.",
+      "It was late, therefore we left."
+    ],
+    "explanation_en": "'deswegen' = 'that's why / because of that'. Full sentence: \"I had no time, that's why I was late.\""
+  },
+  {
+    "exercise_id": "ex_adv_dadurch_2_001",
+    "word_id": "adv_dadurch_2",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "dadurch",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "through that / as a result",
+    "wrong_answers": [
+      "hence / for that reason",
+      "that's why / because of that",
+      "as a result / consequently",
+      "therefore / that's why"
+    ],
+    "explanation_en": "'dadurch' means 'through that / as a result' in German."
+  },
+  {
+    "exercise_id": "ex_adv_dadurch_2_002",
+    "word_id": "adv_dadurch_2",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ wurde alles einfacher.",
+      "en": "That made everything easier."
+    },
+    "correct_answer": "dadurch",
+    "wrong_answers": [
+      "daher",
+      "deswegen",
+      "deshalb",
+      "folglich"
+    ],
+    "explanation_en": "The correct adverb here is 'dadurch', meaning 'through that / as a result'."
+  },
+  {
+    "exercise_id": "ex_adv_dadurch_2_003",
+    "word_id": "adv_dadurch_2",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "through that / as a result",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "dadurch",
+    "wrong_answers": [
+      "daher",
+      "deswegen",
+      "deshalb",
+      "folglich"
+    ],
+    "explanation_en": "'through that / as a result' is 'dadurch' in German. (Cause & Effect)"
+  },
+  {
+    "exercise_id": "ex_adv_dadurch_2_004",
+    "word_id": "adv_dadurch_2",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Dadurch wurde alles einfacher.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That made everything easier.",
+    "wrong_answers": [
+      "He lied, consequently I no longer trust him.",
+      "Thus the problem is solved.",
+      "He didn't study, hence he failed the exam."
+    ],
+    "explanation_en": "'dadurch' = 'through that / as a result'. Full sentence: \"That made everything easier.\""
+  },
+  {
+    "exercise_id": "ex_adv_somit_001",
+    "word_id": "adv_somit",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "somit",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "thus / therefore",
+    "wrong_answers": [
+      "that's why / because of that",
+      "through that / as a result",
+      "as a result / consequently",
+      "therefore / that's why"
+    ],
+    "explanation_en": "'somit' means 'thus / therefore' in German."
+  },
+  {
+    "exercise_id": "ex_adv_somit_002",
+    "word_id": "adv_somit",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ ist das Problem gelöst.",
+      "en": "Thus the problem is solved."
+    },
+    "correct_answer": "somit",
+    "wrong_answers": [
+      "daher",
+      "infolgedessen",
+      "dadurch",
+      "deshalb"
+    ],
+    "explanation_en": "The correct adverb here is 'somit', meaning 'thus / therefore'."
+  },
+  {
+    "exercise_id": "ex_adv_somit_003",
+    "word_id": "adv_somit",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "thus / therefore",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "somit",
+    "wrong_answers": [
+      "daher",
+      "infolgedessen",
+      "dadurch",
+      "deshalb"
+    ],
+    "explanation_en": "'thus / therefore' is 'somit' in German. (Cause & Effect)"
+  },
+  {
+    "exercise_id": "ex_adv_somit_004",
+    "word_id": "adv_somit",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Somit ist das Problem gelöst.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Thus the problem is solved.",
+    "wrong_answers": [
+      "As a result the project was stopped.",
+      "It was late, therefore we left.",
+      "I had no time, that's why I was late."
+    ],
+    "explanation_en": "'somit' = 'thus / therefore'. Full sentence: \"Thus the problem is solved.\""
+  },
+  {
+    "exercise_id": "ex_adv_infolgedessen_001",
+    "word_id": "adv_infolgedessen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "infolgedessen",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "as a result / consequently",
+    "wrong_answers": [
+      "through that / as a result",
+      "thus / therefore",
+      "consequently / as a result",
+      "therefore / that's why"
+    ],
+    "explanation_en": "'infolgedessen' means 'as a result / consequently' in German."
+  },
+  {
+    "exercise_id": "ex_adv_infolgedessen_002",
+    "word_id": "adv_infolgedessen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ wurde das Projekt gestoppt.",
+      "en": "As a result the project was stopped."
+    },
+    "correct_answer": "infolgedessen",
+    "wrong_answers": [
+      "deswegen",
+      "folglich",
+      "somit",
+      "deshalb"
+    ],
+    "explanation_en": "The correct adverb here is 'infolgedessen', meaning 'as a result / consequently'."
+  },
+  {
+    "exercise_id": "ex_adv_infolgedessen_003",
+    "word_id": "adv_infolgedessen",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "as a result / consequently",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "infolgedessen",
+    "wrong_answers": [
+      "deswegen",
+      "folglich",
+      "somit",
+      "deshalb"
+    ],
+    "explanation_en": "'as a result / consequently' is 'infolgedessen' in German. (Cause & Effect)"
+  },
+  {
+    "exercise_id": "ex_adv_infolgedessen_004",
+    "word_id": "adv_infolgedessen",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Infolgedessen wurde das Projekt gestoppt.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "As a result the project was stopped.",
+    "wrong_answers": [
+      "He didn't study, hence he failed the exam.",
+      "That made everything easier.",
+      "I had no time, that's why I was late."
+    ],
+    "explanation_en": "'infolgedessen' = 'as a result / consequently'. Full sentence: \"As a result the project was stopped.\""
+  },
+  {
+    "exercise_id": "ex_adv_deshalb_2_001",
+    "word_id": "adv_deshalb_2",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "deshalb",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "therefore / that's why",
+    "wrong_answers": [
+      "thus / therefore",
+      "through that / as a result",
+      "that's why / because of that",
+      "as a result / consequently"
+    ],
+    "explanation_en": "'deshalb' means 'therefore / that's why' in German."
+  },
+  {
+    "exercise_id": "ex_adv_deshalb_2_002",
+    "word_id": "adv_deshalb_2",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Es war spät, _____ gingen wir.",
+      "en": "It was late, therefore we left."
+    },
+    "correct_answer": "deshalb",
+    "wrong_answers": [
+      "daher",
+      "deswegen",
+      "infolgedessen",
+      "folglich"
+    ],
+    "explanation_en": "The correct adverb here is 'deshalb', meaning 'therefore / that's why'."
+  },
+  {
+    "exercise_id": "ex_adv_deshalb_2_003",
+    "word_id": "adv_deshalb_2",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "therefore / that's why",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "deshalb",
+    "wrong_answers": [
+      "daher",
+      "deswegen",
+      "infolgedessen",
+      "folglich"
+    ],
+    "explanation_en": "'therefore / that's why' is 'deshalb' in German. (Cause & Effect)"
+  },
+  {
+    "exercise_id": "ex_adv_deshalb_2_004",
+    "word_id": "adv_deshalb_2",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Es war spät, deshalb gingen wir.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "It was late, therefore we left.",
+    "wrong_answers": [
+      "As a result the project was stopped.",
+      "He didn't study, hence he failed the exam.",
+      "That made everything easier."
+    ],
+    "explanation_en": "'deshalb' = 'therefore / that's why'. Full sentence: \"It was late, therefore we left.\""
+  },
+  {
+    "exercise_id": "ex_adv_daher_2_001",
+    "word_id": "adv_daher_2",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "daher",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "hence / for that reason",
+    "wrong_answers": [
+      "as a result / consequently",
+      "consequently / as a result",
+      "thus / therefore",
+      "therefore / that's why"
+    ],
+    "explanation_en": "'daher' means 'hence / for that reason' in German."
+  },
+  {
+    "exercise_id": "ex_adv_daher_2_002",
+    "word_id": "adv_daher_2",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er hat nicht gelernt, _____ hat er die Prüfung nicht bestanden.",
+      "en": "He didn't study, hence he failed the exam."
+    },
+    "correct_answer": "daher",
+    "wrong_answers": [
+      "dadurch",
+      "deshalb",
+      "folglich",
+      "infolgedessen"
+    ],
+    "explanation_en": "The correct adverb here is 'daher', meaning 'hence / for that reason'."
+  },
+  {
+    "exercise_id": "ex_adv_daher_2_003",
+    "word_id": "adv_daher_2",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "hence / for that reason",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "daher",
+    "wrong_answers": [
+      "dadurch",
+      "deshalb",
+      "folglich",
+      "infolgedessen"
+    ],
+    "explanation_en": "'hence / for that reason' is 'daher' in German. (Cause & Effect)"
+  },
+  {
+    "exercise_id": "ex_adv_daher_2_004",
+    "word_id": "adv_daher_2",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Er hat nicht gelernt, daher hat er die Prüfung nicht bestanden.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "He didn't study, hence he failed the exam.",
+    "wrong_answers": [
+      "I had no time, that's why I was late.",
+      "As a result the project was stopped.",
+      "He lied, consequently I no longer trust him."
+    ],
+    "explanation_en": "'daher' = 'hence / for that reason'. Full sentence: \"He didn't study, hence he failed the exam.\""
+  },
+  {
+    "exercise_id": "ex_adv_folglich_001",
+    "word_id": "adv_folglich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "folglich",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "consequently / as a result",
+    "wrong_answers": [
+      "thus / therefore",
+      "hence / for that reason",
+      "as a result / consequently",
+      "that's why / because of that"
+    ],
+    "explanation_en": "'folglich' means 'consequently / as a result' in German."
+  },
+  {
+    "exercise_id": "ex_adv_folglich_002",
+    "word_id": "adv_folglich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er hat gelogen, _____ vertraue ich ihm nicht mehr.",
+      "en": "He lied, consequently I no longer trust him."
+    },
+    "correct_answer": "folglich",
+    "wrong_answers": [
+      "daher",
+      "somit",
+      "dadurch",
+      "infolgedessen"
+    ],
+    "explanation_en": "The correct adverb here is 'folglich', meaning 'consequently / as a result'."
+  },
+  {
+    "exercise_id": "ex_adv_folglich_003",
+    "word_id": "adv_folglich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "consequently / as a result",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "folglich",
+    "wrong_answers": [
+      "daher",
+      "somit",
+      "dadurch",
+      "infolgedessen"
+    ],
+    "explanation_en": "'consequently / as a result' is 'folglich' in German. (Cause & Effect)"
+  },
+  {
+    "exercise_id": "ex_adv_folglich_004",
+    "word_id": "adv_folglich",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Er hat gelogen, folglich vertraue ich ihm nicht mehr.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "He lied, consequently I no longer trust him.",
+    "wrong_answers": [
+      "Thus the problem is solved.",
+      "It was late, therefore we left.",
+      "That made everything easier."
+    ],
+    "explanation_en": "'folglich' = 'consequently / as a result'. Full sentence: \"He lied, consequently I no longer trust him.\""
+  },
+  {
+    "exercise_id": "ex_adv_genau_001",
+    "word_id": "adv_genau",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "genau",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "exactly / precisely",
+    "wrong_answers": [
+      "absolutely not / no way",
+      "of course / naturally",
+      "sure / obviously / of course",
+      "true / right / correct"
+    ],
+    "explanation_en": "'genau' means 'exactly / precisely' in German."
+  },
+  {
+    "exercise_id": "ex_adv_genau_002",
+    "word_id": "adv_genau",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ das meine ich.",
+      "en": "That's exactly what I mean."
+    },
+    "correct_answer": "genau",
+    "wrong_answers": [
+      "leider",
+      "auf keinen Fall",
+      "stimmt",
+      "natürlich"
+    ],
+    "explanation_en": "The correct adverb here is 'genau', meaning 'exactly / precisely'."
+  },
+  {
+    "exercise_id": "ex_adv_genau_003",
+    "word_id": "adv_genau",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "exactly / precisely",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "genau",
+    "wrong_answers": [
+      "leider",
+      "auf keinen Fall",
+      "stimmt",
+      "natürlich"
+    ],
+    "explanation_en": "'exactly / precisely' is 'genau' in German. (Agreement & Reaction)"
+  },
+  {
+    "exercise_id": "ex_adv_genau_004",
+    "word_id": "adv_genau",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Genau das meine ich.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That's exactly what I mean.",
+    "wrong_answers": [
+      "Unfortunately I can't come.",
+      "Of course I understand that.",
+      "There's no way I'm doing that."
+    ],
+    "explanation_en": "'genau' = 'exactly / precisely'. Full sentence: \"That's exactly what I mean.\""
+  },
+  {
+    "exercise_id": "ex_adv_stimmt_001",
+    "word_id": "adv_stimmt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "stimmt",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "true / right / correct",
+    "wrong_answers": [
+      "exactly / precisely",
+      "unfortunately",
+      "sure / obviously / of course",
+      "absolutely not / no way"
+    ],
+    "explanation_en": "'stimmt' means 'true / right / correct' in German."
+  },
+  {
+    "exercise_id": "ex_adv_stimmt_002",
+    "word_id": "adv_stimmt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____, du hast recht.",
+      "en": "True, you're right."
+    },
+    "correct_answer": "stimmt",
+    "wrong_answers": [
+      "leider",
+      "auf keinen Fall",
+      "genau",
+      "natürlich"
+    ],
+    "explanation_en": "The correct adverb here is 'stimmt', meaning 'true / right / correct'."
+  },
+  {
+    "exercise_id": "ex_adv_stimmt_003",
+    "word_id": "adv_stimmt",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "true / right / correct",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "stimmt",
+    "wrong_answers": [
+      "leider",
+      "auf keinen Fall",
+      "genau",
+      "natürlich"
+    ],
+    "explanation_en": "'true / right / correct' is 'stimmt' in German. (Agreement & Reaction)"
+  },
+  {
+    "exercise_id": "ex_adv_stimmt_004",
+    "word_id": "adv_stimmt",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Stimmt, du hast recht.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "True, you're right.",
+    "wrong_answers": [
+      "There's no way I'm doing that.",
+      "That's exactly what I mean.",
+      "Of course I understand that."
+    ],
+    "explanation_en": "'stimmt' = 'true / right / correct'. Full sentence: \"True, you're right.\""
+  },
+  {
+    "exercise_id": "ex_adv_klar_001",
+    "word_id": "adv_klar",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "klar",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "sure / obviously / of course",
+    "wrong_answers": [
+      "true / right / correct",
+      "of course / naturally",
+      "unfortunately",
+      "exactly / precisely"
+    ],
+    "explanation_en": "'klar' means 'sure / obviously / of course' in German."
+  },
+  {
+    "exercise_id": "ex_adv_klar_002",
+    "word_id": "adv_klar",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ komme ich mit.",
+      "en": "Sure I'll come along."
+    },
+    "correct_answer": "klar",
+    "wrong_answers": [
+      "leider",
+      "natürlich",
+      "auf keinen Fall",
+      "stimmt"
+    ],
+    "explanation_en": "The correct adverb here is 'klar', meaning 'sure / obviously / of course'."
+  },
+  {
+    "exercise_id": "ex_adv_klar_003",
+    "word_id": "adv_klar",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "sure / obviously / of course",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "klar",
+    "wrong_answers": [
+      "leider",
+      "natürlich",
+      "auf keinen Fall",
+      "stimmt"
+    ],
+    "explanation_en": "'sure / obviously / of course' is 'klar' in German. (Agreement & Reaction)"
+  },
+  {
+    "exercise_id": "ex_adv_klar_004",
+    "word_id": "adv_klar",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Klar komme ich mit.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Sure I'll come along.",
+    "wrong_answers": [
+      "That's exactly what I mean.",
+      "True, you're right.",
+      "Unfortunately I can't come."
+    ],
+    "explanation_en": "'klar' = 'sure / obviously / of course'. Full sentence: \"Sure I'll come along.\""
+  },
+  {
+    "exercise_id": "ex_adv_natuerlich_2_001",
+    "word_id": "adv_natuerlich_2",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "natürlich",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "of course / naturally",
+    "wrong_answers": [
+      "exactly / precisely",
+      "absolutely not / no way",
+      "sure / obviously / of course",
+      "true / right / correct"
+    ],
+    "explanation_en": "'natürlich' means 'of course / naturally' in German."
+  },
+  {
+    "exercise_id": "ex_adv_natuerlich_2_002",
+    "word_id": "adv_natuerlich_2",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ verstehe ich das.",
+      "en": "Of course I understand that."
+    },
+    "correct_answer": "natürlich",
+    "wrong_answers": [
+      "stimmt",
+      "klar",
+      "leider",
+      "genau"
+    ],
+    "explanation_en": "The correct adverb here is 'natürlich', meaning 'of course / naturally'."
+  },
+  {
+    "exercise_id": "ex_adv_natuerlich_2_003",
+    "word_id": "adv_natuerlich_2",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "of course / naturally",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "natürlich",
+    "wrong_answers": [
+      "stimmt",
+      "klar",
+      "leider",
+      "genau"
+    ],
+    "explanation_en": "'of course / naturally' is 'natürlich' in German. (Agreement & Reaction)"
+  },
+  {
+    "exercise_id": "ex_adv_natuerlich_2_004",
+    "word_id": "adv_natuerlich_2",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Natürlich verstehe ich das.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Of course I understand that.",
+    "wrong_answers": [
+      "That's exactly what I mean.",
+      "True, you're right.",
+      "Sure I'll come along."
+    ],
+    "explanation_en": "'natürlich' = 'of course / naturally'. Full sentence: \"Of course I understand that.\""
+  },
+  {
+    "exercise_id": "ex_adv_auf_keinen_fall_001",
+    "word_id": "adv_auf_keinen_fall",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "auf keinen Fall",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "absolutely not / no way",
+    "wrong_answers": [
+      "true / right / correct",
+      "of course / naturally",
+      "sure / obviously / of course",
+      "exactly / precisely"
+    ],
+    "explanation_en": "'auf keinen Fall' means 'absolutely not / no way' in German."
+  },
+  {
+    "exercise_id": "ex_adv_auf_keinen_fall_002",
+    "word_id": "adv_auf_keinen_fall",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ mache ich das.",
+      "en": "There's no way I'm doing that."
+    },
+    "correct_answer": "auf keinen Fall",
+    "wrong_answers": [
+      "genau",
+      "leider",
+      "natürlich",
+      "klar"
+    ],
+    "explanation_en": "The correct adverb here is 'auf keinen Fall', meaning 'absolutely not / no way'."
+  },
+  {
+    "exercise_id": "ex_adv_auf_keinen_fall_003",
+    "word_id": "adv_auf_keinen_fall",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "absolutely not / no way",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "auf keinen Fall",
+    "wrong_answers": [
+      "genau",
+      "leider",
+      "natürlich",
+      "klar"
+    ],
+    "explanation_en": "'absolutely not / no way' is 'auf keinen Fall' in German. (Agreement & Reaction)"
+  },
+  {
+    "exercise_id": "ex_adv_auf_keinen_fall_004",
+    "word_id": "adv_auf_keinen_fall",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Auf keinen Fall mache ich das.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "There's no way I'm doing that.",
+    "wrong_answers": [
+      "Of course I understand that.",
+      "True, you're right.",
+      "Unfortunately I can't come."
+    ],
+    "explanation_en": "'auf keinen Fall' = 'absolutely not / no way'. Full sentence: \"There's no way I'm doing that.\""
+  },
+  {
+    "exercise_id": "ex_adv_leider_001",
+    "word_id": "adv_leider",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "leider",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "unfortunately",
+    "wrong_answers": [
+      "of course / naturally",
+      "absolutely not / no way",
+      "sure / obviously / of course",
+      "true / right / correct"
+    ],
+    "explanation_en": "'leider' means 'unfortunately' in German."
+  },
+  {
+    "exercise_id": "ex_adv_leider_002",
+    "word_id": "adv_leider",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ kann ich nicht kommen.",
+      "en": "Unfortunately I can't come."
+    },
+    "correct_answer": "leider",
+    "wrong_answers": [
+      "stimmt",
+      "klar",
+      "auf keinen Fall",
+      "genau"
+    ],
+    "explanation_en": "The correct adverb here is 'leider', meaning 'unfortunately'."
+  },
+  {
+    "exercise_id": "ex_adv_leider_003",
+    "word_id": "adv_leider",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "unfortunately",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "leider",
+    "wrong_answers": [
+      "stimmt",
+      "klar",
+      "auf keinen Fall",
+      "genau"
+    ],
+    "explanation_en": "'unfortunately' is 'leider' in German. (Agreement & Reaction)"
+  },
+  {
+    "exercise_id": "ex_adv_leider_004",
+    "word_id": "adv_leider",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Leider kann ich nicht kommen.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Unfortunately I can't come.",
+    "wrong_answers": [
+      "Of course I understand that.",
+      "That's exactly what I mean.",
+      "Sure I'll come along."
+    ],
+    "explanation_en": "'leider' = 'unfortunately'. Full sentence: \"Unfortunately I can't come.\""
+  },
+  {
+    "exercise_id": "ex_adv_jedoch_001",
+    "word_id": "adv_jedoch",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "jedoch",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "however / yet",
+    "wrong_answers": [
+      "on the contrary",
+      "instead",
+      "however / though / admittedly",
+      "nonetheless / yet"
+    ],
+    "explanation_en": "'jedoch' means 'however / yet' in German."
+  },
+  {
+    "exercise_id": "ex_adv_jedoch_002",
+    "word_id": "adv_jedoch",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das ist _____ kompliziert.",
+      "en": "However, that is complicated."
+    },
+    "correct_answer": "jedoch",
+    "wrong_answers": [
+      "stattdessen",
+      "allerdings",
+      "im Gegenteil",
+      "trotzdem"
+    ],
+    "explanation_en": "The correct adverb here is 'jedoch', meaning 'however / yet'."
+  },
+  {
+    "exercise_id": "ex_adv_jedoch_003",
+    "word_id": "adv_jedoch",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "however / yet",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "jedoch",
+    "wrong_answers": [
+      "stattdessen",
+      "allerdings",
+      "im Gegenteil",
+      "trotzdem"
+    ],
+    "explanation_en": "'however / yet' is 'jedoch' in German. (Contrast)"
+  },
+  {
+    "exercise_id": "ex_adv_jedoch_004",
+    "word_id": "adv_jedoch",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Das ist jedoch kompliziert.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "However, that is complicated.",
+    "wrong_answers": [
+      "On the contrary, it was wonderful.",
+      "Nevertheless he won.",
+      "Instead we stayed home."
+    ],
+    "explanation_en": "'jedoch' = 'however / yet'. Full sentence: \"However, that is complicated.\""
+  },
+  {
+    "exercise_id": "ex_adv_allerdings_2_001",
+    "word_id": "adv_allerdings_2",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "allerdings",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "however / though / admittedly",
+    "wrong_answers": [
+      "instead",
+      "however / yet",
+      "on the contrary",
+      "nevertheless / even so"
+    ],
+    "explanation_en": "'allerdings' means 'however / though / admittedly' in German."
+  },
+  {
+    "exercise_id": "ex_adv_allerdings_2_002",
+    "word_id": "adv_allerdings_2",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ fehlt uns Zeit.",
+      "en": "However, we lack time."
+    },
+    "correct_answer": "allerdings",
+    "wrong_answers": [
+      "trotzdem",
+      "stattdessen",
+      "jedoch",
+      "im Gegenteil"
+    ],
+    "explanation_en": "The correct adverb here is 'allerdings', meaning 'however / though / admittedly'."
+  },
+  {
+    "exercise_id": "ex_adv_allerdings_2_003",
+    "word_id": "adv_allerdings_2",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "however / though / admittedly",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "allerdings",
+    "wrong_answers": [
+      "trotzdem",
+      "stattdessen",
+      "jedoch",
+      "im Gegenteil"
+    ],
+    "explanation_en": "'however / though / admittedly' is 'allerdings' in German. (Contrast)"
+  },
+  {
+    "exercise_id": "ex_adv_allerdings_2_004",
+    "word_id": "adv_allerdings_2",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Allerdings fehlt uns Zeit.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "However, we lack time.",
+    "wrong_answers": [
+      "Nonetheless we continue.",
+      "Instead we stayed home.",
+      "On the contrary, it was wonderful."
+    ],
+    "explanation_en": "'allerdings' = 'however / though / admittedly'. Full sentence: \"However, we lack time.\""
+  },
+  {
+    "exercise_id": "ex_adv_trotzdem_2_001",
+    "word_id": "adv_trotzdem_2",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "trotzdem",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "nevertheless / even so",
+    "wrong_answers": [
+      "nonetheless / yet",
+      "on the contrary",
+      "however / though / admittedly",
+      "whereas / on the other hand"
+    ],
+    "explanation_en": "'trotzdem' means 'nevertheless / even so' in German."
+  },
+  {
+    "exercise_id": "ex_adv_trotzdem_2_002",
+    "word_id": "adv_trotzdem_2",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ hat er gewonnen.",
+      "en": "Nevertheless he won."
+    },
+    "correct_answer": "trotzdem",
+    "wrong_answers": [
+      "im Gegenteil",
+      "hingegen",
+      "dennoch",
+      "allerdings"
+    ],
+    "explanation_en": "The correct adverb here is 'trotzdem', meaning 'nevertheless / even so'."
+  },
+  {
+    "exercise_id": "ex_adv_trotzdem_2_003",
+    "word_id": "adv_trotzdem_2",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "nevertheless / even so",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "trotzdem",
+    "wrong_answers": [
+      "im Gegenteil",
+      "hingegen",
+      "dennoch",
+      "allerdings"
+    ],
+    "explanation_en": "'nevertheless / even so' is 'trotzdem' in German. (Contrast)"
+  },
+  {
+    "exercise_id": "ex_adv_trotzdem_2_004",
+    "word_id": "adv_trotzdem_2",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Trotzdem hat er gewonnen.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Nevertheless he won.",
+    "wrong_answers": [
+      "On the contrary, it was wonderful.",
+      "She loves mountains, whereas I love the sea.",
+      "However, we lack time."
+    ],
+    "explanation_en": "'trotzdem' = 'nevertheless / even so'. Full sentence: \"Nevertheless he won.\""
+  },
+  {
+    "exercise_id": "ex_adv_dennoch_2_001",
+    "word_id": "adv_dennoch_2",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "dennoch",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "nonetheless / yet",
+    "wrong_answers": [
+      "nevertheless / even so",
+      "on the contrary",
+      "however / yet",
+      "instead"
+    ],
+    "explanation_en": "'dennoch' means 'nonetheless / yet' in German."
+  },
+  {
+    "exercise_id": "ex_adv_dennoch_2_002",
+    "word_id": "adv_dennoch_2",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ machen wir weiter.",
+      "en": "Nonetheless we continue."
+    },
+    "correct_answer": "dennoch",
+    "wrong_answers": [
+      "allerdings",
+      "im Gegenteil",
+      "trotzdem",
+      "jedoch"
+    ],
+    "explanation_en": "The correct adverb here is 'dennoch', meaning 'nonetheless / yet'."
+  },
+  {
+    "exercise_id": "ex_adv_dennoch_2_003",
+    "word_id": "adv_dennoch_2",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "nonetheless / yet",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "dennoch",
+    "wrong_answers": [
+      "allerdings",
+      "im Gegenteil",
+      "trotzdem",
+      "jedoch"
+    ],
+    "explanation_en": "'nonetheless / yet' is 'dennoch' in German. (Contrast)"
+  },
+  {
+    "exercise_id": "ex_adv_dennoch_2_004",
+    "word_id": "adv_dennoch_2",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Dennoch machen wir weiter.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Nonetheless we continue.",
+    "wrong_answers": [
+      "However, we lack time.",
+      "Nevertheless he won.",
+      "However, that is complicated."
+    ],
+    "explanation_en": "'dennoch' = 'nonetheless / yet'. Full sentence: \"Nonetheless we continue.\""
+  },
+  {
+    "exercise_id": "ex_adv_hingegen_001",
+    "word_id": "adv_hingegen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "hingegen",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "whereas / on the other hand",
+    "wrong_answers": [
+      "on the contrary",
+      "nonetheless / yet",
+      "instead",
+      "however / yet"
+    ],
+    "explanation_en": "'hingegen' means 'whereas / on the other hand' in German."
+  },
+  {
+    "exercise_id": "ex_adv_hingegen_002",
+    "word_id": "adv_hingegen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie liebt Berge, ich _____ das Meer.",
+      "en": "She loves mountains, whereas I love the sea."
+    },
+    "correct_answer": "hingegen",
+    "wrong_answers": [
+      "allerdings",
+      "stattdessen",
+      "im Gegenteil",
+      "dennoch"
+    ],
+    "explanation_en": "The correct adverb here is 'hingegen', meaning 'whereas / on the other hand'."
+  },
+  {
+    "exercise_id": "ex_adv_hingegen_003",
+    "word_id": "adv_hingegen",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "whereas / on the other hand",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "hingegen",
+    "wrong_answers": [
+      "allerdings",
+      "stattdessen",
+      "im Gegenteil",
+      "dennoch"
+    ],
+    "explanation_en": "'whereas / on the other hand' is 'hingegen' in German. (Contrast)"
+  },
+  {
+    "exercise_id": "ex_adv_hingegen_004",
+    "word_id": "adv_hingegen",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Sie liebt Berge, ich hingegen das Meer.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "She loves mountains, whereas I love the sea.",
+    "wrong_answers": [
+      "On the contrary, it was wonderful.",
+      "Nonetheless we continue.",
+      "However, we lack time."
+    ],
+    "explanation_en": "'hingegen' = 'whereas / on the other hand'. Full sentence: \"She loves mountains, whereas I love the sea.\""
+  },
+  {
+    "exercise_id": "ex_adv_stattdessen_001",
+    "word_id": "adv_stattdessen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "stattdessen",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "instead",
+    "wrong_answers": [
+      "on the contrary",
+      "whereas / on the other hand",
+      "however / yet",
+      "nonetheless / yet"
+    ],
+    "explanation_en": "'stattdessen' means 'instead' in German."
+  },
+  {
+    "exercise_id": "ex_adv_stattdessen_002",
+    "word_id": "adv_stattdessen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ blieben wir zu Hause.",
+      "en": "Instead we stayed home."
+    },
+    "correct_answer": "stattdessen",
+    "wrong_answers": [
+      "im Gegenteil",
+      "dennoch",
+      "jedoch",
+      "allerdings"
+    ],
+    "explanation_en": "The correct adverb here is 'stattdessen', meaning 'instead'."
+  },
+  {
+    "exercise_id": "ex_adv_stattdessen_003",
+    "word_id": "adv_stattdessen",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "instead",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "stattdessen",
+    "wrong_answers": [
+      "im Gegenteil",
+      "dennoch",
+      "jedoch",
+      "allerdings"
+    ],
+    "explanation_en": "'instead' is 'stattdessen' in German. (Contrast)"
+  },
+  {
+    "exercise_id": "ex_adv_stattdessen_004",
+    "word_id": "adv_stattdessen",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Stattdessen blieben wir zu Hause.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Instead we stayed home.",
+    "wrong_answers": [
+      "However, that is complicated.",
+      "Nonetheless we continue.",
+      "She loves mountains, whereas I love the sea."
+    ],
+    "explanation_en": "'stattdessen' = 'instead'. Full sentence: \"Instead we stayed home.\""
+  },
+  {
+    "exercise_id": "ex_adv_im_gegenteil_001",
+    "word_id": "adv_im_gegenteil",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "im Gegenteil",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "on the contrary",
+    "wrong_answers": [
+      "however / yet",
+      "instead",
+      "however / though / admittedly",
+      "whereas / on the other hand"
+    ],
+    "explanation_en": "'im Gegenteil' means 'on the contrary' in German."
+  },
+  {
+    "exercise_id": "ex_adv_im_gegenteil_002",
+    "word_id": "adv_im_gegenteil",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____, es war wunderbar.",
+      "en": "On the contrary, it was wonderful."
+    },
+    "correct_answer": "im Gegenteil",
+    "wrong_answers": [
+      "trotzdem",
+      "jedoch",
+      "allerdings",
+      "hingegen"
+    ],
+    "explanation_en": "The correct adverb here is 'im Gegenteil', meaning 'on the contrary'."
+  },
+  {
+    "exercise_id": "ex_adv_im_gegenteil_003",
+    "word_id": "adv_im_gegenteil",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "on the contrary",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "im Gegenteil",
+    "wrong_answers": [
+      "trotzdem",
+      "jedoch",
+      "allerdings",
+      "hingegen"
+    ],
+    "explanation_en": "'on the contrary' is 'im Gegenteil' in German. (Contrast)"
+  },
+  {
+    "exercise_id": "ex_adv_im_gegenteil_004",
+    "word_id": "adv_im_gegenteil",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Im Gegenteil, es war wunderbar.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "On the contrary, it was wonderful.",
+    "wrong_answers": [
+      "Instead we stayed home.",
+      "Nevertheless he won.",
+      "However, we lack time."
+    ],
+    "explanation_en": "'im Gegenteil' = 'on the contrary'. Full sentence: \"On the contrary, it was wonderful.\""
+  },
+  {
+    "exercise_id": "ex_adv_vielleicht_2_001",
+    "word_id": "adv_vielleicht_2",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "vielleicht",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "maybe / perhaps (softener)",
+    "wrong_answers": [
+      "please",
+      "a little / a bit",
+      "possibly / perhaps (polite hedge)",
+      "kind of / somehow"
+    ],
+    "explanation_en": "'vielleicht' means 'maybe / perhaps (softener)' in German."
+  },
+  {
+    "exercise_id": "ex_adv_vielleicht_2_002",
+    "word_id": "adv_vielleicht_2",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ können wir später reden.",
+      "en": "Maybe we can talk later."
+    },
+    "correct_answer": "vielleicht",
+    "wrong_answers": [
+      "bitte",
+      "ein bisschen",
+      "eventuell",
+      "irgendwie"
+    ],
+    "explanation_en": "The correct adverb here is 'vielleicht', meaning 'maybe / perhaps (softener)'."
+  },
+  {
+    "exercise_id": "ex_adv_vielleicht_2_003",
+    "word_id": "adv_vielleicht_2",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "maybe / perhaps (softener)",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "vielleicht",
+    "wrong_answers": [
+      "bitte",
+      "ein bisschen",
+      "eventuell",
+      "irgendwie"
+    ],
+    "explanation_en": "'maybe / perhaps (softener)' is 'vielleicht' in German. (Politeness & Softeners)"
+  },
+  {
+    "exercise_id": "ex_adv_vielleicht_2_004",
+    "word_id": "adv_vielleicht_2",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Vielleicht können wir später reden.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Maybe we can talk later.",
+    "wrong_answers": [
+      "That feels kind of strange.",
+      "I'm a little tired.",
+      "Can you please repeat that?"
+    ],
+    "explanation_en": "'vielleicht' = 'maybe / perhaps (softener)'. Full sentence: \"Maybe we can talk later.\""
+  },
+  {
+    "exercise_id": "ex_adv_ein_bisschen_001",
+    "word_id": "adv_ein_bisschen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "ein bisschen",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "a little / a bit",
+    "wrong_answers": [
+      "possibly / perhaps (polite hedge)",
+      "please",
+      "maybe / perhaps (softener)",
+      "kind of / somehow"
+    ],
+    "explanation_en": "'ein bisschen' means 'a little / a bit' in German."
+  },
+  {
+    "exercise_id": "ex_adv_ein_bisschen_002",
+    "word_id": "adv_ein_bisschen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich bin _____ müde.",
+      "en": "I'm a little tired."
+    },
+    "correct_answer": "ein bisschen",
+    "wrong_answers": [
+      "irgendwie",
+      "eventuell",
+      "vielleicht",
+      "bitte"
+    ],
+    "explanation_en": "The correct adverb here is 'ein bisschen', meaning 'a little / a bit'."
+  },
+  {
+    "exercise_id": "ex_adv_ein_bisschen_003",
+    "word_id": "adv_ein_bisschen",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "a little / a bit",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "ein bisschen",
+    "wrong_answers": [
+      "irgendwie",
+      "eventuell",
+      "vielleicht",
+      "bitte"
+    ],
+    "explanation_en": "'a little / a bit' is 'ein bisschen' in German. (Politeness & Softeners)"
+  },
+  {
+    "exercise_id": "ex_adv_ein_bisschen_004",
+    "word_id": "adv_ein_bisschen",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ich bin ein bisschen müde.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I'm a little tired.",
+    "wrong_answers": [
+      "Can you please repeat that?",
+      "We could possibly postpone.",
+      "Maybe we can talk later."
+    ],
+    "explanation_en": "'ein bisschen' = 'a little / a bit'. Full sentence: \"I'm a little tired.\""
+  },
+  {
+    "exercise_id": "ex_adv_irgendwie_001",
+    "word_id": "adv_irgendwie",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "irgendwie",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "kind of / somehow",
+    "wrong_answers": [
+      "maybe / perhaps (softener)",
+      "a little / a bit",
+      "please",
+      "possibly / perhaps (polite hedge)"
+    ],
+    "explanation_en": "'irgendwie' means 'kind of / somehow' in German."
+  },
+  {
+    "exercise_id": "ex_adv_irgendwie_002",
+    "word_id": "adv_irgendwie",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das fühlt sich _____ komisch an.",
+      "en": "That feels kind of strange."
+    },
+    "correct_answer": "irgendwie",
+    "wrong_answers": [
+      "ein bisschen",
+      "vielleicht",
+      "eventuell",
+      "bitte"
+    ],
+    "explanation_en": "The correct adverb here is 'irgendwie', meaning 'kind of / somehow'."
+  },
+  {
+    "exercise_id": "ex_adv_irgendwie_003",
+    "word_id": "adv_irgendwie",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "kind of / somehow",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "irgendwie",
+    "wrong_answers": [
+      "ein bisschen",
+      "vielleicht",
+      "eventuell",
+      "bitte"
+    ],
+    "explanation_en": "'kind of / somehow' is 'irgendwie' in German. (Politeness & Softeners)"
+  },
+  {
+    "exercise_id": "ex_adv_irgendwie_004",
+    "word_id": "adv_irgendwie",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Das fühlt sich irgendwie komisch an.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "That feels kind of strange.",
+    "wrong_answers": [
+      "Maybe we can talk later.",
+      "I'm a little tired.",
+      "We could possibly postpone."
+    ],
+    "explanation_en": "'irgendwie' = 'kind of / somehow'. Full sentence: \"That feels kind of strange.\""
+  },
+  {
+    "exercise_id": "ex_adv_eventuell_2_001",
+    "word_id": "adv_eventuell_2",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "eventuell",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "possibly / perhaps (polite hedge)",
+    "wrong_answers": [
+      "kind of / somehow",
+      "maybe / perhaps (softener)",
+      "a little / a bit",
+      "please"
+    ],
+    "explanation_en": "'eventuell' means 'possibly / perhaps (polite hedge)' in German."
+  },
+  {
+    "exercise_id": "ex_adv_eventuell_2_002",
+    "word_id": "adv_eventuell_2",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ könnten wir verschieben.",
+      "en": "We could possibly postpone."
+    },
+    "correct_answer": "eventuell",
+    "wrong_answers": [
+      "ein bisschen",
+      "vielleicht",
+      "irgendwie",
+      "bitte"
+    ],
+    "explanation_en": "The correct adverb here is 'eventuell', meaning 'possibly / perhaps (polite hedge)'."
+  },
+  {
+    "exercise_id": "ex_adv_eventuell_2_003",
+    "word_id": "adv_eventuell_2",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "possibly / perhaps (polite hedge)",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "eventuell",
+    "wrong_answers": [
+      "ein bisschen",
+      "vielleicht",
+      "irgendwie",
+      "bitte"
+    ],
+    "explanation_en": "'possibly / perhaps (polite hedge)' is 'eventuell' in German. (Politeness & Softeners)"
+  },
+  {
+    "exercise_id": "ex_adv_eventuell_2_004",
+    "word_id": "adv_eventuell_2",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Eventuell könnten wir verschieben.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "We could possibly postpone.",
+    "wrong_answers": [
+      "That feels kind of strange.",
+      "Maybe we can talk later.",
+      "Can you please repeat that?"
+    ],
+    "explanation_en": "'eventuell' = 'possibly / perhaps (polite hedge)'. Full sentence: \"We could possibly postpone.\""
+  },
+  {
+    "exercise_id": "ex_adv_bitte_001",
+    "word_id": "adv_bitte",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "bitte",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "please",
+    "wrong_answers": [
+      "kind of / somehow",
+      "maybe / perhaps (softener)",
+      "a little / a bit",
+      "possibly / perhaps (polite hedge)"
+    ],
+    "explanation_en": "'bitte' means 'please' in German."
+  },
+  {
+    "exercise_id": "ex_adv_bitte_002",
+    "word_id": "adv_bitte",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Kannst du das _____ wiederholen?",
+      "en": "Can you please repeat that?"
+    },
+    "correct_answer": "bitte",
+    "wrong_answers": [
+      "vielleicht",
+      "eventuell",
+      "irgendwie",
+      "ein bisschen"
+    ],
+    "explanation_en": "The correct adverb here is 'bitte', meaning 'please'."
+  },
+  {
+    "exercise_id": "ex_adv_bitte_003",
+    "word_id": "adv_bitte",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "please",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "bitte",
+    "wrong_answers": [
+      "vielleicht",
+      "eventuell",
+      "irgendwie",
+      "ein bisschen"
+    ],
+    "explanation_en": "'please' is 'bitte' in German. (Politeness & Softeners)"
+  },
+  {
+    "exercise_id": "ex_adv_bitte_004",
+    "word_id": "adv_bitte",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Kannst du das bitte wiederholen?",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Can you please repeat that?",
+    "wrong_answers": [
+      "That feels kind of strange.",
+      "We could possibly postpone.",
+      "I'm a little tired."
+    ],
+    "explanation_en": "'bitte' = 'please'. Full sentence: \"Can you please repeat that?\""
+  },
+  {
+    "exercise_id": "ex_adv_ehrlich_gesagt_2_001",
+    "word_id": "adv_ehrlich_gesagt_2",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "ehrlich gesagt",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "to be honest",
+    "wrong_answers": [
+      "more precisely / to be exact",
+      "generally speaking / in general",
+      "as far as I'm concerned",
+      "to put it that way"
+    ],
+    "explanation_en": "'ehrlich gesagt' means 'to be honest' in German."
+  },
+  {
+    "exercise_id": "ex_adv_ehrlich_gesagt_2_002",
+    "word_id": "adv_ehrlich_gesagt_2",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ bin ich müde.",
+      "en": "To be honest I'm tired."
+    },
+    "correct_answer": "ehrlich gesagt",
+    "wrong_answers": [
+      "um ehrlich zu sein",
+      "ehrlicherweise",
+      "im Allgemeinen",
+      "genauer gesagt"
+    ],
+    "explanation_en": "The correct adverb here is 'ehrlich gesagt', meaning 'to be honest'."
+  },
+  {
+    "exercise_id": "ex_adv_ehrlich_gesagt_2_003",
+    "word_id": "adv_ehrlich_gesagt_2",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "to be honest",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "ehrlich gesagt",
+    "wrong_answers": [
+      "um ehrlich zu sein",
+      "ehrlicherweise",
+      "im Allgemeinen",
+      "genauer gesagt"
+    ],
+    "explanation_en": "'to be honest' is 'ehrlich gesagt' in German. (Sentence Openers)"
+  },
+  {
+    "exercise_id": "ex_adv_ehrlich_gesagt_2_004",
+    "word_id": "adv_ehrlich_gesagt_2",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ehrlich gesagt bin ich müde.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "To be honest I'm tired.",
+    "wrong_answers": [
+      "In short: it didn't work.",
+      "As far as I'm concerned, I agree.",
+      "Generally speaking I like winter."
+    ],
+    "explanation_en": "'ehrlich gesagt' = 'to be honest'. Full sentence: \"To be honest I'm tired.\""
+  },
+  {
+    "exercise_id": "ex_adv_im_allgemeinen_001",
+    "word_id": "adv_im_allgemeinen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "im Allgemeinen",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "generally speaking / in general",
+    "wrong_answers": [
+      "to be honest",
+      "in short / to put it briefly",
+      "to be honest",
+      "in principle / fundamentally"
+    ],
+    "explanation_en": "'im Allgemeinen' means 'generally speaking / in general' in German."
+  },
+  {
+    "exercise_id": "ex_adv_im_allgemeinen_002",
+    "word_id": "adv_im_allgemeinen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ mag ich den Winter.",
+      "en": "Generally speaking I like winter."
+    },
+    "correct_answer": "im Allgemeinen",
+    "wrong_answers": [
+      "grundsätzlich",
+      "was mich betrifft",
+      "genauer gesagt",
+      "ehrlicherweise"
+    ],
+    "explanation_en": "The correct adverb here is 'im Allgemeinen', meaning 'generally speaking / in general'."
+  },
+  {
+    "exercise_id": "ex_adv_im_allgemeinen_003",
+    "word_id": "adv_im_allgemeinen",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "generally speaking / in general",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "im Allgemeinen",
+    "wrong_answers": [
+      "grundsätzlich",
+      "was mich betrifft",
+      "genauer gesagt",
+      "ehrlicherweise"
+    ],
+    "explanation_en": "'generally speaking / in general' is 'im Allgemeinen' in German. (Sentence Openers)"
+  },
+  {
+    "exercise_id": "ex_adv_im_allgemeinen_004",
+    "word_id": "adv_im_allgemeinen",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Im Allgemeinen mag ich den Winter.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Generally speaking I like winter.",
+    "wrong_answers": [
+      "To be honest I'm tired.",
+      "To put it plainly: it was a mistake.",
+      "As far as I know, he's coming tomorrow."
+    ],
+    "explanation_en": "'im Allgemeinen' = 'generally speaking / in general'. Full sentence: \"Generally speaking I like winter.\""
+  },
+  {
+    "exercise_id": "ex_adv_grundsaetzlich_001",
+    "word_id": "adv_grundsaetzlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "grundsätzlich",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "in principle / fundamentally",
+    "wrong_answers": [
+      "to be honest",
+      "generally speaking / in general",
+      "in my opinion",
+      "as far as I'm concerned"
+    ],
+    "explanation_en": "'grundsätzlich' means 'in principle / fundamentally' in German."
+  },
+  {
+    "exercise_id": "ex_adv_grundsaetzlich_002",
+    "word_id": "adv_grundsaetzlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ stimme ich zu.",
+      "en": "In principle I agree."
+    },
+    "correct_answer": "grundsätzlich",
+    "wrong_answers": [
+      "genauer gesagt",
+      "meiner Meinung nach",
+      "ehrlich gesagt",
+      "soweit ich weiß"
+    ],
+    "explanation_en": "The correct adverb here is 'grundsätzlich', meaning 'in principle / fundamentally'."
+  },
+  {
+    "exercise_id": "ex_adv_grundsaetzlich_003",
+    "word_id": "adv_grundsaetzlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "in principle / fundamentally",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "grundsätzlich",
+    "wrong_answers": [
+      "genauer gesagt",
+      "meiner Meinung nach",
+      "ehrlich gesagt",
+      "soweit ich weiß"
+    ],
+    "explanation_en": "'in principle / fundamentally' is 'grundsätzlich' in German. (Sentence Openers)"
+  },
+  {
+    "exercise_id": "ex_adv_grundsaetzlich_004",
+    "word_id": "adv_grundsaetzlich",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Grundsätzlich stimme ich zu.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "In principle I agree.",
+    "wrong_answers": [
+      "As far as I'm concerned, I agree.",
+      "Honestly speaking, that was my fault.",
+      "To put it plainly: it was a mistake."
+    ],
+    "explanation_en": "'grundsätzlich' = 'in principle / fundamentally'. Full sentence: \"In principle I agree.\""
+  },
+  {
+    "exercise_id": "ex_adv_um_ehrlich_zu_sein_001",
+    "word_id": "adv_um_ehrlich_zu_sein",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "um ehrlich zu sein",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "to be honest",
+    "wrong_answers": [
+      "generally speaking / in general",
+      "as far as I know",
+      "in principle / fundamentally",
+      "to be honest"
+    ],
+    "explanation_en": "'um ehrlich zu sein' means 'to be honest' in German."
+  },
+  {
+    "exercise_id": "ex_adv_um_ehrlich_zu_sein_002",
+    "word_id": "adv_um_ehrlich_zu_sein",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____, war ich nervös.",
+      "en": "To be honest, I was nervous."
+    },
+    "correct_answer": "um ehrlich zu sein",
+    "wrong_answers": [
+      "meiner Meinung nach",
+      "im Allgemeinen",
+      "kurz gesagt",
+      "ehrlicherweise"
+    ],
+    "explanation_en": "The correct adverb here is 'um ehrlich zu sein', meaning 'to be honest'."
+  },
+  {
+    "exercise_id": "ex_adv_um_ehrlich_zu_sein_003",
+    "word_id": "adv_um_ehrlich_zu_sein",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "to be honest",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "um ehrlich zu sein",
+    "wrong_answers": [
+      "meiner Meinung nach",
+      "im Allgemeinen",
+      "kurz gesagt",
+      "ehrlicherweise"
+    ],
+    "explanation_en": "'to be honest' is 'um ehrlich zu sein' in German. (Sentence Openers)"
+  },
+  {
+    "exercise_id": "ex_adv_um_ehrlich_zu_sein_004",
+    "word_id": "adv_um_ehrlich_zu_sein",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Um ehrlich zu sein, war ich nervös.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "To be honest, I was nervous.",
+    "wrong_answers": [
+      "More precisely, it was yesterday.",
+      "To put it plainly: it was a mistake.",
+      "To be honest I'm tired."
+    ],
+    "explanation_en": "'um ehrlich zu sein' = 'to be honest'. Full sentence: \"To be honest, I was nervous.\""
+  },
+  {
+    "exercise_id": "ex_adv_ehrlicherweise_001",
+    "word_id": "adv_ehrlicherweise",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "ehrlicherweise",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "honestly speaking",
+    "wrong_answers": [
+      "as far as I know",
+      "generally speaking / in general",
+      "as far as I'm concerned",
+      "to be honest"
+    ],
+    "explanation_en": "'ehrlicherweise' means 'honestly speaking' in German."
+  },
+  {
+    "exercise_id": "ex_adv_ehrlicherweise_002",
+    "word_id": "adv_ehrlicherweise",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ war das meine Schuld.",
+      "en": "Honestly speaking, that was my fault."
+    },
+    "correct_answer": "ehrlicherweise",
+    "wrong_answers": [
+      "meiner Meinung nach",
+      "um ehrlich zu sein",
+      "grundsätzlich",
+      "im Allgemeinen"
+    ],
+    "explanation_en": "The correct adverb here is 'ehrlicherweise', meaning 'honestly speaking'."
+  },
+  {
+    "exercise_id": "ex_adv_ehrlicherweise_003",
+    "word_id": "adv_ehrlicherweise",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "honestly speaking",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "ehrlicherweise",
+    "wrong_answers": [
+      "meiner Meinung nach",
+      "um ehrlich zu sein",
+      "grundsätzlich",
+      "im Allgemeinen"
+    ],
+    "explanation_en": "'honestly speaking' is 'ehrlicherweise' in German. (Sentence Openers)"
+  },
+  {
+    "exercise_id": "ex_adv_ehrlicherweise_004",
+    "word_id": "adv_ehrlicherweise",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ehrlicherweise war das meine Schuld.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Honestly speaking, that was my fault.",
+    "wrong_answers": [
+      "Generally speaking I like winter.",
+      "In short: it didn't work.",
+      "To be honest, I was nervous."
+    ],
+    "explanation_en": "'ehrlicherweise' = 'honestly speaking'. Full sentence: \"Honestly speaking, that was my fault.\""
+  },
+  {
+    "exercise_id": "ex_adv_meiner_meinung_nach_001",
+    "word_id": "adv_meiner_meinung_nach",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "meiner Meinung nach",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "in my opinion",
+    "wrong_answers": [
+      "honestly speaking",
+      "generally speaking / in general",
+      "more precisely / to be exact",
+      "to put it that way"
+    ],
+    "explanation_en": "'meiner Meinung nach' means 'in my opinion' in German."
+  },
+  {
+    "exercise_id": "ex_adv_meiner_meinung_nach_002",
+    "word_id": "adv_meiner_meinung_nach",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ ist das falsch.",
+      "en": "In my opinion that is wrong."
+    },
+    "correct_answer": "meiner Meinung nach",
+    "wrong_answers": [
+      "was mich betrifft",
+      "genauer gesagt",
+      "soweit ich weiß",
+      "um das zu sagen"
+    ],
+    "explanation_en": "The correct adverb here is 'meiner Meinung nach', meaning 'in my opinion'."
+  },
+  {
+    "exercise_id": "ex_adv_meiner_meinung_nach_003",
+    "word_id": "adv_meiner_meinung_nach",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "in my opinion",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "meiner Meinung nach",
+    "wrong_answers": [
+      "was mich betrifft",
+      "genauer gesagt",
+      "soweit ich weiß",
+      "um das zu sagen"
+    ],
+    "explanation_en": "'in my opinion' is 'meiner Meinung nach' in German. (Sentence Openers)"
+  },
+  {
+    "exercise_id": "ex_adv_meiner_meinung_nach_004",
+    "word_id": "adv_meiner_meinung_nach",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Meiner Meinung nach ist das falsch.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "In my opinion that is wrong.",
+    "wrong_answers": [
+      "In principle I agree.",
+      "As far as I know, he's coming tomorrow.",
+      "To put it plainly: it was a mistake."
+    ],
+    "explanation_en": "'meiner Meinung nach' = 'in my opinion'. Full sentence: \"In my opinion that is wrong.\""
+  },
+  {
+    "exercise_id": "ex_adv_kurz_gesagt_001",
+    "word_id": "adv_kurz_gesagt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "kurz gesagt",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "in short / to put it briefly",
+    "wrong_answers": [
+      "more precisely / to be exact",
+      "generally speaking / in general",
+      "to be honest",
+      "in principle / fundamentally"
+    ],
+    "explanation_en": "'kurz gesagt' means 'in short / to put it briefly' in German."
+  },
+  {
+    "exercise_id": "ex_adv_kurz_gesagt_002",
+    "word_id": "adv_kurz_gesagt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____: Es hat nicht funktioniert.",
+      "en": "In short: it didn't work."
+    },
+    "correct_answer": "kurz gesagt",
+    "wrong_answers": [
+      "um das zu sagen",
+      "um ehrlich zu sein",
+      "ehrlich gesagt",
+      "genauer gesagt"
+    ],
+    "explanation_en": "The correct adverb here is 'kurz gesagt', meaning 'in short / to put it briefly'."
+  },
+  {
+    "exercise_id": "ex_adv_kurz_gesagt_003",
+    "word_id": "adv_kurz_gesagt",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "in short / to put it briefly",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "kurz gesagt",
+    "wrong_answers": [
+      "um das zu sagen",
+      "um ehrlich zu sein",
+      "ehrlich gesagt",
+      "genauer gesagt"
+    ],
+    "explanation_en": "'in short / to put it briefly' is 'kurz gesagt' in German. (Sentence Openers)"
+  },
+  {
+    "exercise_id": "ex_adv_kurz_gesagt_004",
+    "word_id": "adv_kurz_gesagt",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Kurz gesagt: Es hat nicht funktioniert.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "In short: it didn't work.",
+    "wrong_answers": [
+      "To be honest, I was nervous.",
+      "In my opinion that is wrong.",
+      "In principle I agree."
+    ],
+    "explanation_en": "'kurz gesagt' = 'in short / to put it briefly'. Full sentence: \"In short: it didn't work.\""
+  },
+  {
+    "exercise_id": "ex_adv_genauer_gesagt_001",
+    "word_id": "adv_genauer_gesagt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "genauer gesagt",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "more precisely / to be exact",
+    "wrong_answers": [
+      "honestly speaking",
+      "generally speaking / in general",
+      "in short / to put it briefly",
+      "in principle / fundamentally"
+    ],
+    "explanation_en": "'genauer gesagt' means 'more precisely / to be exact' in German."
+  },
+  {
+    "exercise_id": "ex_adv_genauer_gesagt_002",
+    "word_id": "adv_genauer_gesagt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ war es gestern.",
+      "en": "More precisely, it was yesterday."
+    },
+    "correct_answer": "genauer gesagt",
+    "wrong_answers": [
+      "kurz gesagt",
+      "was mich betrifft",
+      "im Allgemeinen",
+      "um das zu sagen"
+    ],
+    "explanation_en": "The correct adverb here is 'genauer gesagt', meaning 'more precisely / to be exact'."
+  },
+  {
+    "exercise_id": "ex_adv_genauer_gesagt_003",
+    "word_id": "adv_genauer_gesagt",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "more precisely / to be exact",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "genauer gesagt",
+    "wrong_answers": [
+      "kurz gesagt",
+      "was mich betrifft",
+      "im Allgemeinen",
+      "um das zu sagen"
+    ],
+    "explanation_en": "'more precisely / to be exact' is 'genauer gesagt' in German. (Sentence Openers)"
+  },
+  {
+    "exercise_id": "ex_adv_genauer_gesagt_004",
+    "word_id": "adv_genauer_gesagt",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Genauer gesagt war es gestern.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "More precisely, it was yesterday.",
+    "wrong_answers": [
+      "Generally speaking I like winter.",
+      "In principle I agree.",
+      "As far as I'm concerned, I agree."
+    ],
+    "explanation_en": "'genauer gesagt' = 'more precisely / to be exact'. Full sentence: \"More precisely, it was yesterday.\""
+  },
+  {
+    "exercise_id": "ex_adv_soweit_ich_weiss_001",
+    "word_id": "adv_soweit_ich_weiss",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "soweit ich weiß",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "as far as I know",
+    "wrong_answers": [
+      "to be honest",
+      "to be honest",
+      "in short / to put it briefly",
+      "in principle / fundamentally"
+    ],
+    "explanation_en": "'soweit ich weiß' means 'as far as I know' in German."
+  },
+  {
+    "exercise_id": "ex_adv_soweit_ich_weiss_002",
+    "word_id": "adv_soweit_ich_weiss",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____, kommt er morgen.",
+      "en": "As far as I know, he's coming tomorrow."
+    },
+    "correct_answer": "soweit ich weiß",
+    "wrong_answers": [
+      "ehrlicherweise",
+      "genauer gesagt",
+      "um das zu sagen",
+      "meiner Meinung nach"
+    ],
+    "explanation_en": "The correct adverb here is 'soweit ich weiß', meaning 'as far as I know'."
+  },
+  {
+    "exercise_id": "ex_adv_soweit_ich_weiss_003",
+    "word_id": "adv_soweit_ich_weiss",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "as far as I know",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "soweit ich weiß",
+    "wrong_answers": [
+      "ehrlicherweise",
+      "genauer gesagt",
+      "um das zu sagen",
+      "meiner Meinung nach"
+    ],
+    "explanation_en": "'as far as I know' is 'soweit ich weiß' in German. (Sentence Openers)"
+  },
+  {
+    "exercise_id": "ex_adv_soweit_ich_weiss_004",
+    "word_id": "adv_soweit_ich_weiss",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Soweit ich weiß, kommt er morgen.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "As far as I know, he's coming tomorrow.",
+    "wrong_answers": [
+      "Honestly speaking, that was my fault.",
+      "In my opinion that is wrong.",
+      "In short: it didn't work."
+    ],
+    "explanation_en": "'soweit ich weiß' = 'as far as I know'. Full sentence: \"As far as I know, he's coming tomorrow.\""
+  },
+  {
+    "exercise_id": "ex_adv_was_mich_betrifft_001",
+    "word_id": "adv_was_mich_betrifft",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "was mich betrifft",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "as far as I'm concerned",
+    "wrong_answers": [
+      "in principle / fundamentally",
+      "to put it that way",
+      "generally speaking / in general",
+      "in my opinion"
+    ],
+    "explanation_en": "'was mich betrifft' means 'as far as I'm concerned' in German."
+  },
+  {
+    "exercise_id": "ex_adv_was_mich_betrifft_002",
+    "word_id": "adv_was_mich_betrifft",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____, bin ich einverstanden.",
+      "en": "As far as I'm concerned, I agree."
+    },
+    "correct_answer": "was mich betrifft",
+    "wrong_answers": [
+      "im Allgemeinen",
+      "ehrlicherweise",
+      "um ehrlich zu sein",
+      "meiner Meinung nach"
+    ],
+    "explanation_en": "The correct adverb here is 'was mich betrifft', meaning 'as far as I'm concerned'."
+  },
+  {
+    "exercise_id": "ex_adv_was_mich_betrifft_003",
+    "word_id": "adv_was_mich_betrifft",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "as far as I'm concerned",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "was mich betrifft",
+    "wrong_answers": [
+      "im Allgemeinen",
+      "ehrlicherweise",
+      "um ehrlich zu sein",
+      "meiner Meinung nach"
+    ],
+    "explanation_en": "'as far as I'm concerned' is 'was mich betrifft' in German. (Sentence Openers)"
+  },
+  {
+    "exercise_id": "ex_adv_was_mich_betrifft_004",
+    "word_id": "adv_was_mich_betrifft",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Was mich betrifft, bin ich einverstanden.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "As far as I'm concerned, I agree.",
+    "wrong_answers": [
+      "More precisely, it was yesterday.",
+      "In short: it didn't work.",
+      "To be honest, I was nervous."
+    ],
+    "explanation_en": "'was mich betrifft' = 'as far as I'm concerned'. Full sentence: \"As far as I'm concerned, I agree.\""
+  },
+  {
+    "exercise_id": "ex_adv_um_das_zu_sagen_001",
+    "word_id": "adv_um_das_zu_sagen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "um das zu sagen",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "to put it that way",
+    "wrong_answers": [
+      "in principle / fundamentally",
+      "as far as I'm concerned",
+      "to be honest",
+      "generally speaking / in general"
+    ],
+    "explanation_en": "'um das zu sagen' means 'to put it that way' in German."
+  },
+  {
+    "exercise_id": "ex_adv_um_das_zu_sagen_002",
+    "word_id": "adv_um_das_zu_sagen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____: Es war ein Fehler.",
+      "en": "To put it plainly: it was a mistake."
+    },
+    "correct_answer": "um das zu sagen",
+    "wrong_answers": [
+      "kurz gesagt",
+      "was mich betrifft",
+      "soweit ich weiß",
+      "um ehrlich zu sein"
+    ],
+    "explanation_en": "The correct adverb here is 'um das zu sagen', meaning 'to put it that way'."
+  },
+  {
+    "exercise_id": "ex_adv_um_das_zu_sagen_003",
+    "word_id": "adv_um_das_zu_sagen",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "to put it that way",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "um das zu sagen",
+    "wrong_answers": [
+      "kurz gesagt",
+      "was mich betrifft",
+      "soweit ich weiß",
+      "um ehrlich zu sein"
+    ],
+    "explanation_en": "'to put it that way' is 'um das zu sagen' in German. (Sentence Openers)"
+  },
+  {
+    "exercise_id": "ex_adv_um_das_zu_sagen_004",
+    "word_id": "adv_um_das_zu_sagen",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Um das zu sagen: Es war ein Fehler.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "To put it plainly: it was a mistake.",
+    "wrong_answers": [
+      "In my opinion that is wrong.",
+      "To be honest, I was nervous.",
+      "As far as I know, he's coming tomorrow."
+    ],
+    "explanation_en": "'um das zu sagen' = 'to put it that way'. Full sentence: \"To put it plainly: it was a mistake.\""
+  }
+]
 };
