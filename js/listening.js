@@ -15,29 +15,15 @@ let _currentArticleId = null;        // article open in reader
 // ARTICLE LIST SCREEN
 // ─────────────────────────────────────────
 
-// SVG icons for the show/hide toggle
-const _EYE_ICON = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-     stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
-  <circle cx="12" cy="12" r="3"/>
-</svg>`;
-
-const _EYE_SLASH_ICON = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-     stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M17.94 17.94A10.07 10.07 0 0112 20c-7 0-11-8-11-8a18.45 18.45 0 015.06-5.94"/>
-  <path d="M9.9 4.24A9.12 9.12 0 0112 4c7 0 11 8 11 8a18.5 18.5 0 01-2.16 3.19"/>
-  <line x1="1" y1="1" x2="23" y2="23"/>
-</svg>`;
 
 function renderListeningList() {
   const articles = (window.LISTENING_DATA || {}).articles || [];
   const container = document.getElementById('listening-list-content');
   const toggleBtn = document.getElementById('listening-toggle-read');
 
-  // Update toggle icon: eye = "read visible" (click to hide), slash = "read hidden" (click to show)
+  // Update pill button label
   if (toggleBtn) {
-    toggleBtn.innerHTML = _showReadArticles ? _EYE_ICON : _EYE_SLASH_ICON;
-    toggleBtn.title = _showReadArticles ? 'Gelesen ausblenden' : 'Gelesen anzeigen';
+    toggleBtn.textContent = _showReadArticles ? 'Hide read' : 'Show read';
   }
 
   // Filter if needed
@@ -252,21 +238,14 @@ function _updateReadButton(isRead) {
   if (!btn) return;
   if (isRead) {
     btn.classList.add('read');
-    btn.title = 'Bereits gelesen';
-    btn.innerHTML = `
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-           stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    btn.innerHTML = `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+         stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+         style="margin-right:4px;flex-shrink:0">
         <polyline points="20 6 9 17 4 12"/>
-      </svg>`;
+      </svg>Read`;
   } else {
     btn.classList.remove('read');
-    btn.title = 'Als gelesen markieren';
-    btn.innerHTML = `
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-           stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
-        <circle cx="12" cy="12" r="3"/>
-      </svg>`;
+    btn.textContent = 'Read';
   }
 }
 

@@ -384,6 +384,50 @@ button {
 
 .module-card-arrow { color: var(--color-text-muted); align-self: center; flex-shrink: 0; }
 
+/* --- MODULE GRID (home screen) --- */
+.home-modules-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.module-card-grid {
+  background: var(--color-surface);
+  border-radius: var(--r-lg);
+  padding: var(--sp-4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  border: none;
+  width: 100%;
+  text-align: left;
+  transition: transform 0.15s;
+  min-height: 96px;
+}
+.module-card-grid:active { transform: scale(0.97); }
+.module-card-grid.locked { opacity: 0.45; cursor: default; }
+.module-card-grid.locked:active { transform: none; }
+
+.module-grid-title {
+  font-size: var(--font-size-base);
+  font-weight: var(--fw-bold);
+  color: var(--color-text-primary);
+  line-height: 1.25;
+}
+
+.module-grid-sub {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  margin-top: 3px;
+}
+
+.module-grid-bottom {
+  margin-top: auto;
+  padding-top: var(--sp-3);
+}
+
 /* --- SECTION HEADER --- */
 .section-header {
   display: flex;
@@ -1055,10 +1099,11 @@ button {
   border-radius: var(--r-full);
   padding: 8px 14px;
   box-shadow: var(--shadow-sm);
-  font-weight: var(--fw-bold);
-  font-size: var(--font-size-base);
+  font-weight: var(--fw-semibold);
+  font-size: var(--font-size-sm);
   color: var(--color-text-primary);
   flex-shrink: 0;
+  white-space: nowrap;
 }
 
 /* --- CATEGORY PAIR (module home) --- */
@@ -1305,23 +1350,25 @@ button {
   line-height: 1.15;
   color: var(--color-text-primary);
 }
-.listening-toggle-btn {
+/* Pill toggle button — "Hide read" / "Show read" */
+.pill-toggle-btn {
   flex-shrink: 0;
-  background: none;
-  border: none;
-  padding: 6px;
-  cursor: pointer;
-  color: var(--color-text-muted);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background: var(--color-surface);
+  border: 1.5px solid var(--color-border);
   border-radius: var(--r-full);
-  transition: color 0.15s, background 0.15s;
+  padding: 5px 12px;
+  font-size: var(--font-size-xs);
+  font-weight: var(--fw-semibold);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  white-space: nowrap;
 }
-.listening-toggle-btn:active,
-.listening-toggle-btn:hover {
-  color: var(--color-text-primary);
+.pill-toggle-btn:active,
+.pill-toggle-btn:hover {
   background: var(--color-bg-secondary);
+  color: var(--color-text-primary);
+  border-color: var(--color-text-muted);
 }
 
 /* Module card subtitle (read count) */
@@ -1386,29 +1433,28 @@ button {
   color: var(--color-green-dark);
 }
 
-/* Reader nav: read button — absolutely positioned right, same pattern as nav-context left */
-.listening-read-btn {
-  position: absolute;
-  right: var(--sp-4);
-  top: 50%;
-  transform: translateY(-50%);
-  background: none;
-  border: 1.5px solid var(--color-border);
-  border-radius: 50%;
-  width: 36px;
-  height: 36px;
-  display: flex;
+/* Reader nav: "Read" pill button (right side of nav-header) */
+.pill-read-btn {
+  flex-shrink: 0;
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
+  background: var(--color-surface);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--r-full);
+  padding: 5px 12px;
+  font-size: var(--font-size-xs);
+  font-weight: var(--fw-semibold);
+  color: var(--color-text-secondary);
   cursor: pointer;
-  color: var(--color-text-muted);
+  white-space: nowrap;
   transition: background 0.15s, color 0.15s, border-color 0.15s;
 }
-.listening-read-btn:active,
-.listening-read-btn:hover {
+.pill-read-btn:active,
+.pill-read-btn:hover {
   background: var(--color-bg-secondary);
+  color: var(--color-text-primary);
 }
-.listening-read-btn.read {
+.pill-read-btn.read {
   background: var(--color-green-lime);
   border-color: var(--color-green-lime);
   color: var(--color-green-dark);

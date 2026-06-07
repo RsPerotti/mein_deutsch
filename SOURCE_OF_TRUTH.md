@@ -5,7 +5,7 @@
 
 ## Current State
 
-**Lesen & Hören module live.** App at https://rsperotti.github.io/mein_deutsch. Six modules active. New Reading & Listening module: 45 DW articles, highlighted vocabulary, audio playback, manual read-state tracking, show/hide read toggle. Not yet pushed to GitHub.
+**Lesen & Hören module live.** App at https://rsperotti.github.io/mein_deutsch. Six modules active. New Reading & Listening module: 45 DW articles, highlighted vocabulary, audio playback, manual read-state tracking, show/hide read toggle. **Pushed to GitHub — Session 18 complete.**
 
 ## What Exists
 
@@ -269,4 +269,4 @@ Once the crawler is verified to produce correct output, a new module will be add
 - Pronunciation uses device TTS (no audio files) — acceptable for v1
 - Prepositions not in Word List Practice mode (no unlock mechanic — by design)
 - `verpflichten` remains a standalone root (base `pflichten` is archaic — left as-is by design)
-- Session 13 changes not yet pushed to GitHub
+- All sessions through 18 pushed to GitHub

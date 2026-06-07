@@ -29,7 +29,7 @@
 - Fixed: all references changed from `'active'` to `'visible'`
 - Overlay's `onclick = closeVocabSheet` wired in `_renderArticle()` for outside-tap dismissal
 
-**Not yet pushed to GitHub.**
+**Pushed to GitHub. Live at https://rsperotti.github.io/mein_deutsch**
 
 ---
 
