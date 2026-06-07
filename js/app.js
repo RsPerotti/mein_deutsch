@@ -153,6 +153,24 @@ function _wordLabel(id) {
   return null;
 }
 
+function _moduleIcon(moduleId) {
+  const sw = 'stroke-width="2" stroke-linecap="round" stroke-linejoin="round"';
+  const icons = {
+    module_verbs:
+      `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" ${sw}><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>`,
+    module_nouns:
+      `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" ${sw}><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7" stroke-width="3"/></svg>`,
+    module_adverbs:
+      `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" ${sw}><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>`,
+    module_adjectives:
+      `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" ${sw}><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`,
+    module_prepositions:
+      `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" ${sw}><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>`,
+  };
+  return icons[moduleId] ||
+    `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" ${sw}><circle cx="12" cy="12" r="10"/></svg>`;
+}
+
 function _renderModuleCards() {
   const container = document.getElementById('home-modules-list');
   const activeCount = appData.modules.filter(m => m.status === 'active').length;
@@ -168,11 +186,10 @@ function _renderModuleCards() {
       <button class="module-card ${locked ? 'locked' : ''}"
               onclick="${locked ? '' : `openModule('${mod.id}')`}"
               ${locked ? 'disabled' : ''}>
-        <div class="module-number-badge">${num}</div>
+        <div class="module-number-badge">${_moduleIcon(mod.id)}</div>
         <div class="module-card-content">
           <div class="module-card-eyebrow">Modul ${num}</div>
           <div class="module-card-title">${mod.title_en}</div>
-          <div class="module-card-desc">${mod.description_en || ''}</div>
         </div>
         ${locked
           ? `<span style="color:var(--color-text-muted);font-size:18px">🔒</span>`
@@ -216,8 +233,8 @@ function renderModuleHome(moduleId) {
 
 function _renderVerbModuleCategories() {
   const rootUnlocked = Progress.getUnlockedRootVerbs().length;
-  const rootTotal    = appData.verbs.length;
   const varUnlocked  = Progress.getUnlockedVariants().length;
+  const rootTotal    = appData.verbs.length;
   const varTotal     = appData.verbs.reduce((n, v) => n + (v.prefix_variants || []).length, 0);
 
   const totalUnlocked = rootUnlocked + varUnlocked;
@@ -227,11 +244,40 @@ function _renderVerbModuleCategories() {
   document.getElementById('module-progress-count').textContent = `${totalUnlocked} / ${totalAll}`;
   document.getElementById('module-progress-fill').style.width  = pct + '%';
 
-  const varLocked  = rootUnlocked === 0;
-  const rootPct    = rootTotal  > 0 ? Math.round(rootUnlocked  / rootTotal  * 100) : 0;
-  const varPct     = varTotal   > 0 ? Math.round(varUnlocked   / varTotal   * 100) : 0;
+  const varLocked = rootUnlocked === 0;
+
+  // Exercise completion counts
+  const allVerbEx     = appData.exercises['module_verbs'] || [];
+  const rootIds       = new Set(appData.verbs.map(v => v.id));
+  const rootExs       = allVerbEx.filter(ex => rootIds.has(ex.word_id));
+  const rootExDone    = rootExs.filter(ex => Progress.getExerciseHistory(ex.exercise_id).correct > 0).length;
+  const rootExTotal   = rootExs.length;
+  const rootExPct     = rootExTotal > 0 ? Math.round(rootExDone / rootExTotal * 100) : 0;
+
+  const variantIds    = new Set();
+  for (const v of appData.verbs) (v.prefix_variants || []).forEach(pv => variantIds.add(pv.id));
+  const varExs        = allVerbEx.filter(ex => variantIds.has(ex.word_id));
+  const varExDone     = varExs.filter(ex => Progress.getExerciseHistory(ex.exercise_id).correct > 0).length;
+  const varExTotal    = varExs.length;
+  const varExPct      = varExTotal > 0 ? Math.round(varExDone / varExTotal * 100) : 0;
 
   document.getElementById('module-categories').innerHTML = `
+    <!-- Verbliste link -->
+    <div class="card" style="cursor:pointer" onclick="navigateTo('screen-verbliste')">
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <div>
+          <div style="font-weight:var(--fw-bold)">Verbliste</div>
+          <div style="font-size:var(--font-size-sm);color:var(--color-text-secondary);margin-top:2px">
+            Freigeschaltete Verben nachschlagen</div>
+        </div>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+             style="color:var(--color-text-muted)">
+          <polyline points="9 18 15 12 9 6"/>
+        </svg>
+      </div>
+    </div>
+
     <!-- Section label -->
     <div class="label mt-4" style="color:var(--color-text-primary);margin-bottom:var(--sp-3)">
       Übungen
@@ -242,9 +288,9 @@ function _renderVerbModuleCategories() {
       <div class="category-card" onclick="openExercise('module_verbs','roots')">
         <div class="category-card-title">Stammverben</div>
         <div class="category-card-subtitle">Root verbs</div>
-        <div class="category-card-count mt-3">${rootUnlocked} / ${rootTotal} gelernt</div>
+        <div class="category-card-count mt-3">${rootExDone} / ${rootExTotal} Übungen</div>
         <div class="progress-bar mt-2">
-          <div class="progress-fill" style="width:${rootPct}%"></div>
+          <div class="progress-fill" style="width:${rootExPct}%"></div>
         </div>
         <div class="category-card-cta">Üben →</div>
       </div>
@@ -258,27 +304,11 @@ function _renderVerbModuleCategories() {
           ? `<div style="margin-top:var(--sp-3);font-size:20px">🔒</div>
              <div style="font-size:var(--font-size-xs);color:var(--color-text-muted);margin-top:var(--sp-2);line-height:1.4">
                Unlock by practising Stammverben first</div>`
-          : `<div class="category-card-count mt-3">${varUnlocked} / ${varTotal} gelernt</div>
+          : `<div class="category-card-count mt-3">${varExDone} / ${varExTotal} Übungen</div>
              <div class="progress-bar mt-2">
-               <div class="progress-fill" style="width:${varPct}%"></div>
+               <div class="progress-fill" style="width:${varExPct}%"></div>
              </div>
              <div class="category-card-cta">Üben →</div>`}
-      </div>
-    </div>
-
-    <!-- Verbliste link -->
-    <div class="card mt-3" style="cursor:pointer" onclick="navigateTo('screen-verbliste')">
-      <div style="display:flex;align-items:center;justify-content:space-between">
-        <div>
-          <div style="font-weight:var(--fw-bold)">Verbliste</div>
-          <div style="font-size:var(--font-size-sm);color:var(--color-text-secondary);margin-top:2px">
-            Freigeschaltete Verben nachschlagen</div>
-        </div>
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-             stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
-             style="color:var(--color-text-muted)">
-          <polyline points="9 18 15 12 9 6"/>
-        </svg>
       </div>
     </div>`;
 }
@@ -304,7 +334,37 @@ function _renderNounModuleCategories() {
   const rootPct   = rootTotal > 0 ? Math.round(rootUnlocked / rootTotal * 100) : 0;
   const varPct    = varTotal  > 0 ? Math.round(varUnlocked  / varTotal  * 100) : 0;
 
+  // Exercise completion counts
+  const allNounEx       = appData.exercises['module_nouns'] || [];
+  const rootNounIds     = new Set(appData.nouns.filter(n => n.section === 'roots').map(n => n.id));
+  const rootNounExs     = allNounEx.filter(ex => rootNounIds.has(ex.word_id));
+  const rootNounExDone  = rootNounExs.filter(ex => Progress.getExerciseHistory(ex.exercise_id).correct > 0).length;
+  const rootNounExTotal = rootNounExs.length;
+  const rootNounExPct   = rootNounExTotal > 0 ? Math.round(rootNounExDone / rootNounExTotal * 100) : 0;
+
+  const varNounIds      = new Set(appData.nouns.filter(n => n.section === 'variations').map(n => n.id));
+  const varNounExs      = allNounEx.filter(ex => varNounIds.has(ex.word_id));
+  const varNounExDone   = varNounExs.filter(ex => Progress.getExerciseHistory(ex.exercise_id).correct > 0).length;
+  const varNounExTotal  = varNounExs.length;
+  const varNounExPct    = varNounExTotal > 0 ? Math.round(varNounExDone / varNounExTotal * 100) : 0;
+
   document.getElementById('module-categories').innerHTML = `
+    <!-- Nomenliste link -->
+    <div class="card" style="cursor:pointer" onclick="navigateTo('screen-nomenliste')">
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <div>
+          <div style="font-weight:var(--fw-bold)">Nomenliste</div>
+          <div style="font-size:var(--font-size-sm);color:var(--color-text-secondary);margin-top:2px">
+            Freigeschaltete Nomen nachschlagen</div>
+        </div>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+             style="color:var(--color-text-muted)">
+          <polyline points="9 18 15 12 9 6"/>
+        </svg>
+      </div>
+    </div>
+
     <div class="label mt-4" style="color:var(--color-text-primary);margin-bottom:var(--sp-3)">
       Übungen
     </div>
@@ -314,9 +374,9 @@ function _renderNounModuleCategories() {
       <div class="category-card" onclick="openExercise('module_nouns','roots')">
         <div class="category-card-title">Stammnomen</div>
         <div class="category-card-subtitle">Root nouns</div>
-        <div class="category-card-count mt-3">${rootUnlocked} / ${rootTotal} gelernt</div>
+        <div class="category-card-count mt-3">${rootNounExDone} / ${rootNounExTotal} Übungen</div>
         <div class="progress-bar mt-2">
-          <div class="progress-fill" style="width:${rootPct}%"></div>
+          <div class="progress-fill" style="width:${rootNounExPct}%"></div>
         </div>
         <div class="category-card-cta">Üben →</div>
       </div>
@@ -330,27 +390,11 @@ function _renderNounModuleCategories() {
           ? `<div style="margin-top:var(--sp-3);font-size:20px">🔒</div>
              <div style="font-size:var(--font-size-xs);color:var(--color-text-muted);margin-top:var(--sp-2);line-height:1.4">
                Unlock by practising Stammnomen first</div>`
-          : `<div class="category-card-count mt-3">${varUnlocked} / ${varTotal} gelernt</div>
+          : `<div class="category-card-count mt-3">${varNounExDone} / ${varNounExTotal} Übungen</div>
              <div class="progress-bar mt-2">
-               <div class="progress-fill" style="width:${varPct}%"></div>
+               <div class="progress-fill" style="width:${varNounExPct}%"></div>
              </div>
              <div class="category-card-cta">Üben →</div>`}
-      </div>
-    </div>
-
-    <!-- Nomenliste link -->
-    <div class="card mt-3" style="cursor:pointer" onclick="navigateTo('screen-nomenliste')">
-      <div style="display:flex;align-items:center;justify-content:space-between">
-        <div>
-          <div style="font-weight:var(--fw-bold)">Nomenliste</div>
-          <div style="font-size:var(--font-size-sm);color:var(--color-text-secondary);margin-top:2px">
-            Freigeschaltete Nomen nachschlagen</div>
-        </div>
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-             stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
-             style="color:var(--color-text-muted)">
-          <polyline points="9 18 15 12 9 6"/>
-        </svg>
       </div>
     </div>`;
 }
@@ -496,25 +540,14 @@ function _renderAdverbModuleCategories() {
   document.getElementById('module-progress-count').textContent = `${unlocked} / ${total}`;
   document.getElementById('module-progress-fill').style.width  = pct + '%';
 
+  // Exercise completion counts
+  const allAdvEx    = appData.exercises['module_adverbs'] || [];
+  const advExDone   = allAdvEx.filter(ex => Progress.getExerciseHistory(ex.exercise_id).correct > 0).length;
+  const advExTotal  = allAdvEx.length;
+  const advExPct    = advExTotal > 0 ? Math.round(advExDone / advExTotal * 100) : 0;
+
   document.getElementById('module-categories').innerHTML = `
-    <div class="label mt-4" style="color:var(--color-text-primary);margin-bottom:var(--sp-3)">
-      Übungen
-    </div>
-
-    <div class="category-pair">
-      <div class="category-card" style="grid-column:1/-1"
-           onclick="openExercise('module_adverbs','all')">
-        <div class="category-card-title">Adverbien üben</div>
-        <div class="category-card-subtitle">Frequency, time, certainty &amp; more</div>
-        <div class="category-card-count mt-3">${unlocked} / ${total} gelernt</div>
-        <div class="progress-bar mt-2">
-          <div class="progress-fill" style="width:${pct}%"></div>
-        </div>
-        <div class="category-card-cta">Üben →</div>
-      </div>
-    </div>
-
-    <div class="card mt-3" style="cursor:pointer" onclick="navigateTo('screen-adverbliste')">
+    <div class="card" style="cursor:pointer" onclick="navigateTo('screen-adverbliste')">
       <div style="display:flex;align-items:center;justify-content:space-between">
         <div>
           <div style="font-weight:var(--fw-bold)">Adverbliste</div>
@@ -526,6 +559,23 @@ function _renderAdverbModuleCategories() {
              style="color:var(--color-text-muted)">
           <polyline points="9 18 15 12 9 6"/>
         </svg>
+      </div>
+    </div>
+
+    <div class="label mt-4" style="color:var(--color-text-primary);margin-bottom:var(--sp-3)">
+      Übungen
+    </div>
+
+    <div class="category-pair">
+      <div class="category-card" style="grid-column:1/-1"
+           onclick="openExercise('module_adverbs','all')">
+        <div class="category-card-title">Adverbien üben</div>
+        <div class="category-card-subtitle">Frequency, time, certainty &amp; more</div>
+        <div class="category-card-count mt-3">${advExDone} / ${advExTotal} Übungen</div>
+        <div class="progress-bar mt-2">
+          <div class="progress-fill" style="width:${advExPct}%"></div>
+        </div>
+        <div class="category-card-cta">Üben →</div>
       </div>
     </div>`;
 }
@@ -626,34 +676,15 @@ function _renderAdjectiveModuleCategories() {
   document.getElementById('module-progress-count').textContent = `${unlocked} / ${total}`;
   document.getElementById('module-progress-fill').style.width  = pct + '%';
 
+  // Exercise completion counts
+  const allAdjEx    = appData.exercises['module_adjectives'] || [];
+  const adjExDone   = allAdjEx.filter(ex => Progress.getExerciseHistory(ex.exercise_id).correct > 0).length;
+  const adjExTotal  = allAdjEx.length;
+  const adjExPct    = adjExTotal > 0 ? Math.round(adjExDone / adjExTotal * 100) : 0;
+
   document.getElementById('module-categories').innerHTML = `
-    <div class="label mt-4" style="color:var(--color-text-primary);margin-bottom:var(--sp-3)">
-      Übungen
-    </div>
-
-    <!-- Two category cards: Grundformen (active) + Deklinationen (placeholder) -->
-    <div class="category-pair">
-      <div class="category-card" onclick="openExercise('module_adjectives','all')">
-        <div class="category-card-title">Grundformen</div>
-        <div class="category-card-subtitle">Meanings &amp; vocabulary</div>
-        <div class="category-card-count mt-3">${unlocked} / ${total} gelernt</div>
-        <div class="progress-bar mt-2">
-          <div class="progress-fill" style="width:${pct}%"></div>
-        </div>
-        <div class="category-card-cta">Üben →</div>
-      </div>
-
-      <div class="category-card locked">
-        <div class="category-card-title" style="color:var(--color-text-muted)">Deklinationen</div>
-        <div class="category-card-subtitle">Gender &amp; case forms</div>
-        <div style="margin-top:var(--sp-3);font-size:20px">🔒</div>
-        <div style="font-size:var(--font-size-xs);color:var(--color-text-muted);margin-top:var(--sp-2);line-height:1.4">
-          Coming soon</div>
-      </div>
-    </div>
-
     <!-- Adjektivliste link -->
-    <div class="card mt-3" style="cursor:pointer" onclick="navigateTo('screen-adjektivliste')">
+    <div class="card" style="cursor:pointer" onclick="navigateTo('screen-adjektivliste')">
       <div style="display:flex;align-items:center;justify-content:space-between">
         <div>
           <div style="font-weight:var(--fw-bold)">Adjektivliste</div>
@@ -665,6 +696,31 @@ function _renderAdjectiveModuleCategories() {
              style="color:var(--color-text-muted)">
           <polyline points="9 18 15 12 9 6"/>
         </svg>
+      </div>
+    </div>
+
+    <div class="label mt-4" style="color:var(--color-text-primary);margin-bottom:var(--sp-3)">
+      Übungen
+    </div>
+
+    <!-- Two category cards: Grundformen (active) + Deklinationen (placeholder) -->
+    <div class="category-pair">
+      <div class="category-card" onclick="openExercise('module_adjectives','all')">
+        <div class="category-card-title">Grundformen</div>
+        <div class="category-card-subtitle">Meanings &amp; vocabulary</div>
+        <div class="category-card-count mt-3">${adjExDone} / ${adjExTotal} Übungen</div>
+        <div class="progress-bar mt-2">
+          <div class="progress-fill" style="width:${adjExPct}%"></div>
+        </div>
+        <div class="category-card-cta">Üben →</div>
+      </div>
+
+      <div class="category-card locked">
+        <div class="category-card-title" style="color:var(--color-text-muted)">Deklinationen</div>
+        <div class="category-card-subtitle">Gender &amp; case forms</div>
+        <div style="margin-top:var(--sp-3);font-size:20px">🔒</div>
+        <div style="font-size:var(--font-size-xs);color:var(--color-text-muted);margin-top:var(--sp-2);line-height:1.4">
+          Coming soon</div>
       </div>
     </div>`;
 }
@@ -776,6 +832,22 @@ function _renderPrepositionModuleCategories() {
   document.getElementById('module-progress-fill').style.width = pct + '%';
 
   document.getElementById('module-categories').innerHTML = `
+    <!-- Präpositionsliste link -->
+    <div class="card" style="cursor:pointer" onclick="navigateTo('screen-prapositionsliste')">
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <div>
+          <div style="font-weight:var(--fw-bold)">Präpositionsliste</div>
+          <div style="font-size:var(--font-size-sm);color:var(--color-text-secondary);margin-top:2px">
+            Alle ${total} Präpositionen nachschlagen</div>
+        </div>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+             style="color:var(--color-text-muted)">
+          <polyline points="9 18 15 12 9 6"/>
+        </svg>
+      </div>
+    </div>
+
     <div class="label mt-4" style="color:var(--color-text-primary);margin-bottom:var(--sp-3)">
       Übungen
     </div>
@@ -792,22 +864,6 @@ function _renderPrepositionModuleCategories() {
           <div class="progress-fill" style="width:${pct}%"></div>
         </div>
         <div class="category-card-cta">Üben →</div>
-      </div>
-    </div>
-
-    <!-- Präpositionsliste link -->
-    <div class="card mt-3" style="cursor:pointer" onclick="navigateTo('screen-prapositionsliste')">
-      <div style="display:flex;align-items:center;justify-content:space-between">
-        <div>
-          <div style="font-weight:var(--fw-bold)">Präpositionsliste</div>
-          <div style="font-size:var(--font-size-sm);color:var(--color-text-secondary);margin-top:2px">
-            Alle ${total} Präpositionen nachschlagen</div>
-        </div>
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-             stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
-             style="color:var(--color-text-muted)">
-          <polyline points="9 18 15 12 9 6"/>
-        </svg>
       </div>
     </div>`;
 }
