@@ -2,9 +2,25 @@
  * EXERCISES.JS — Exercise engine
  * Implements: session management, cooldown (blueprint 11.3),
  * scoring, unlock logic, correct/wrong feedback with flash.
+ * Also handles Word List Practice mode (exerciseMode = 'wordlist').
  */
 
-// --- Session state ---
+// --- Exercise mode: 'module' | 'wordlist' ---
+let exerciseMode = 'module';
+
+// --- Word List Practice state ---
+let wlAllWords = [];   // full pool for the session
+let wlSession  = {
+  queue:         [],
+  passCount:     1,
+  passTotal:     0,
+  correctCount:  0,
+  incorrectCount:0,
+  current:       null,
+  answered:      false
+};
+
+// --- Module session state ---
 let session = {
   moduleId:       null,
   category:       null,   // 'roots' | 'variants'
@@ -49,6 +65,8 @@ function startExercise(state) {
     contextLabel = 'NOMEN · ÜBUNGEN';
   } else if (moduleId === 'module_adverbs') {
     contextLabel = 'ADVERBIEN · ÜBUNGEN';
+  } else if (moduleId === 'module_adjectives') {
+    contextLabel = 'ADJEKTIVE · GRUNDFORMEN';
   } else {
     const label = category === 'roots' ? 'STAMMVERBEN' : 'VARIATIONEN';
     contextLabel = 'VERBEN · ' + label;
@@ -67,6 +85,9 @@ function _buildQueue(moduleId, category) {
 
   // Adverbs — single category, serve all exercises
   if (moduleId === 'module_adverbs') return _shuffle([...all]);
+
+  // Adjectives — single category (Grundformen), serve all exercises
+  if (moduleId === 'module_adjectives') return _shuffle([...all]);
 
   // Full queue — no session cap. User works through all exercises until complete.
   if (moduleId !== 'module_verbs') return _shuffle([...all]);
@@ -236,8 +257,9 @@ function _renderConjugation(ex) {
   return html.replace('Übersetzen', 'Konjugation');
 }
 
-// --- Answer selection ---
+// --- Answer selection (routes to module or WL handler) ---
 function selectAnswer(btn) {
+  if (exerciseMode === 'wordlist') { _selectWLAnswer(btn); return; }
   if (session.answered) return;
   session.answered = true;
 
@@ -301,11 +323,18 @@ function selectAnswer(btn) {
 
 // Called by the "Weiter →" button
 function advanceExercise() {
+  if (exerciseMode === 'wordlist') { _showNextWL(); return; }
   _showNext();
 }
 
 // Called by the back button inside the exercise screen
 function exitExerciseEarly() {
+  if (exerciseMode === 'wordlist') {
+    exerciseMode = 'module';
+    _restoreModuleChips();
+    navigateTo('screen-wordlist');
+    return;
+  }
   _showResults();
 }
 
@@ -318,6 +347,8 @@ function _unlockWord(wordId) {
     Progress.unlockNoun(wordId);
   } else if (appData.adverbs && appData.adverbs.some(a => a.id === wordId)) {
     Progress.unlockAdverb(wordId);
+  } else if (appData.adjectives && appData.adjectives.some(a => a.id === wordId)) {
+    Progress.unlockAdjective(wordId);
   } else {
     const isRoot = appData.verbs.some(v => v.id === wordId);
     if (isRoot) {
@@ -425,6 +456,192 @@ function _esc(str) {
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#39;');
 }
+
+// ═══════════════════════════════════════════════════════
+// WORD LIST PRACTICE MODE
+// ═══════════════════════════════════════════════════════
+
+// --- Entry point (called from wordpractice.js) ---
+function startWordListExercise(words) {
+  exerciseMode = 'wordlist';
+
+  wlAllWords = words;
+  wlSession  = {
+    queue:          _shuffle([...words]),
+    passCount:      1,
+    passTotal:      words.length,
+    correctCount:   0,
+    incorrectCount: 0,
+    current:        null,
+    answered:       false
+  };
+
+  // Swap chip row for WL-specific labels
+  document.getElementById('chip-cooldown-label').textContent = ' Falsch';
+  document.getElementById('chip-cooldown-wrap').className    = 'chip';
+  document.getElementById('chip-cooldown-icon').innerHTML =
+    '<line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>';
+
+  document.getElementById('exercise-context-label').textContent = 'WORTLISTE · ÜBEN';
+  _updateWLChips();
+
+  navigateTo('screen-exercise');
+  _showNextWL();
+}
+
+// --- Restore module chip row on exit ---
+function _restoreModuleChips() {
+  document.getElementById('chip-cooldown-label').textContent = ' Cooldown';
+  document.getElementById('chip-cooldown-wrap').className    = 'chip cooldown';
+  document.getElementById('chip-cooldown-icon').innerHTML =
+    '<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>';
+}
+
+// --- Show next WL question (loops when pass ends) ---
+function _showNextWL() {
+  if (wlSession.queue.length === 0) {
+    // New pass — reshuffle the full pool
+    wlSession.passCount++;
+    wlSession.queue     = _shuffle([...wlAllWords]);
+    wlSession.passTotal = wlSession.queue.length;
+  }
+
+  wlSession.current  = wlSession.queue.shift();
+  wlSession.answered = false;
+
+  // Progress bar shows current-pass completion
+  const done  = wlSession.passTotal - wlSession.queue.length;
+  const total = wlSession.passTotal;
+  document.getElementById('exercise-progress-fill').style.width =
+    total > 0 ? Math.round(done / total * 100) + '%' : '0%';
+
+  document.getElementById('exercise-card').innerHTML =
+    _renderWLQuestion(wlSession.current);
+
+  document.getElementById('next-btn').style.display = 'none';
+  _updateWLChips();
+}
+
+// --- Render a single WL question ---
+function _renderWLQuestion(word) {
+  const pool         = wlAllWords.filter(w => w.id !== word.id);
+  const wrongAnswers = _getWLWrongAnswers(word, pool);
+  const options      = _shuffle([word.translation, ...wrongAnswers]);
+  const letters      = ['A', 'B', 'C', 'D'];
+
+  // German word display (prefix-colored for verb variants)
+  let wordHtml = _esc(word.german);
+  if (word.isVariant && word.prefix) {
+    wordHtml = `<span class="prefix">${_esc(word.prefix)}</span>${_esc(word.german.slice(word.prefix.length))}`;
+  }
+
+  // Pronunciation target: skip article for nouns
+  const speakTarget = word.germanBase || word.german;
+
+  // Type badge
+  const typeBadge = word.type === 'VERB' && word.isVariant ? 'VERB · VARIATION' : word.type;
+
+  const passDone = wlSession.passTotal - wlSession.queue.length;
+
+  return `
+    <div class="exercise-meta">
+      <div class="exercise-counter">PASS ${wlSession.passCount} · ${passDone} / ${wlSession.passTotal}</div>
+      <div class="exercise-type-label">${_esc(typeBadge)}</div>
+    </div>
+    <div class="exercise-word-display">
+      <div class="exercise-word">${wordHtml}</div>
+      <div>
+        <button class="pronounce-btn" onclick="_speak('${_esc(speakTarget)}')">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+            <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+          </svg>
+          Aussprechen
+        </button>
+      </div>
+      <div class="exercise-word-prompt">WAS BEDEUTET DIESES WORT?</div>
+    </div>
+    <div class="options-stack" id="opts">
+      ${options.map((opt, i) => `
+        <button class="option-btn stack-opt"
+                data-answer="${_esc(opt)}"
+                onclick="selectAnswer(this)">
+          <span class="opt-letter">${letters[i]}</span>
+          <span class="opt-text">${_esc(opt)}</span>
+        </button>`).join('')}
+    </div>
+    <div class="feedback-text" id="feedback"></div>`;
+}
+
+// --- Generate 3 plausible wrong answers ---
+function _getWLWrongAnswers(word, pool) {
+  // Same type first — more plausible distractors
+  const sameType  = _shuffle(pool.filter(w => w.type === word.type));
+  const otherType = _shuffle(pool.filter(w => w.type !== word.type));
+  const candidates = [...sameType, ...otherType];
+
+  const wrong = [];
+  const seen  = new Set([word.translation.toLowerCase()]);
+
+  for (const c of candidates) {
+    const t = c.translation;
+    if (!seen.has(t.toLowerCase())) {
+      wrong.push(t);
+      seen.add(t.toLowerCase());
+      if (wrong.length === 3) break;
+    }
+  }
+
+  // Pad if pool is very small (edge case)
+  while (wrong.length < 3) wrong.push('—');
+
+  return wrong;
+}
+
+// --- Handle answer in WL mode ---
+function _selectWLAnswer(btn) {
+  if (wlSession.answered) return;
+  wlSession.answered = true;
+
+  const chosen  = btn.dataset.answer;
+  const correct = wlSession.current.translation;
+  const isRight = chosen === correct;
+
+  document.querySelectorAll('#opts .option-btn').forEach(b => {
+    b.style.pointerEvents = 'none';
+  });
+
+  Progress.recordWordPractice(wlSession.current.id, isRight);
+
+  if (isRight) {
+    btn.classList.add('state-correct');
+    wlSession.correctCount++;
+    _flash('green');
+    _updateWLChips();
+    setTimeout(() => _showNextWL(), 1500); // auto-advance on correct
+
+  } else {
+    btn.classList.add('state-wrong');
+    // Reveal correct answer
+    document.querySelectorAll('#opts .option-btn').forEach(b => {
+      if (b.dataset.answer === correct) b.classList.add('state-correct');
+    });
+    wlSession.incorrectCount++;
+    _flash('red');
+    _updateWLChips();
+    document.getElementById('next-btn').style.display = 'block'; // manual advance on wrong
+  }
+}
+
+// --- Update chips for WL mode ---
+function _updateWLChips() {
+  document.getElementById('chip-correct').textContent  = wlSession.correctCount;
+  document.getElementById('chip-queue').textContent    = wlSession.queue.length;
+  document.getElementById('chip-cooldown').textContent = wlSession.incorrectCount;
+}
+
+// ═══════════════════════════════════════════════════════
 
 // Pronunciation (also used inline in exercise HTML)
 function _speak(text) {

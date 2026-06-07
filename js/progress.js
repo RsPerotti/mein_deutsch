@@ -21,7 +21,8 @@ const Progress = {
     STREAK:              'app_streak',
     STREAK_DATE:         'app_streak_last_date',
     NOUNS_UNLOCKED:      'app_nouns_unlocked',
-    ADVERBS_UNLOCKED:    'app_adverbs_unlocked'
+    ADVERBS_UNLOCKED:    'app_adverbs_unlocked',
+    ADJECTIVES_UNLOCKED: 'app_adjectives_unlocked'
   },
 
   // --- Generic helpers ---
@@ -106,6 +107,15 @@ const Progress = {
     this.unlockWord(advId);
   },
 
+  // --- Adjectives ---
+  getUnlockedAdjectives() { return this._get(this.KEYS.ADJECTIVES_UNLOCKED, []); },
+
+  unlockAdjective(adjId) {
+    const list = this.getUnlockedAdjectives();
+    if (!list.includes(adjId)) { list.push(adjId); this._set(this.KEYS.ADJECTIVES_UNLOCKED, list); }
+    this.unlockWord(adjId);
+  },
+
   // --- Cooldown (Section 11.3) ---
   getCooldown() { return this._get(this.KEYS.COOLDOWN, []); },
   setCooldown(ids) { this._set(this.KEYS.COOLDOWN, ids); },
@@ -134,6 +144,18 @@ const Progress = {
     this._set(this.KEYS.STREAK, streak);
     this._set(this.KEYS.STREAK_DATE, today);
     return streak;
+  },
+
+  // --- Word List Practice scores ---
+  getWordPracticeScore(wordId) {
+    return (this._get(this.KEYS.WORD_SCORES, {}))[wordId] || { correct: 0, incorrect: 0 };
+  },
+
+  recordWordPractice(wordId, correct) {
+    const all = this._get(this.KEYS.WORD_SCORES, {});
+    if (!all[wordId]) all[wordId] = { correct: 0, incorrect: 0 };
+    correct ? all[wordId].correct++ : all[wordId].incorrect++;
+    this._set(this.KEYS.WORD_SCORES, all);
   },
 
   // --- Session ---

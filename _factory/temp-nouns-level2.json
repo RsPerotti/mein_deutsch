@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "noun_mutter",
+    "word": "Mutter",
+    "article": "die",
+    "english": "mother",
+    "plural": "Mütter",
+    "plural_article": "die",
+    "genitive": "der Mutter",
+    "frequency_rank": 26,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Meine Mutter kocht sehr gut.",
+        "en": "My mother cooks very well.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Die Mutter bringt das Kind zur Schule.",
+        "en": "The mother takes the child to school.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["family", "people", "a2"]
+  },
+  {
+    "id": "noun_vater",
+    "word": "Vater",
+    "article": "der",
+    "english": "father",
+    "plural": "Väter",
+    "plural_article": "die",
+    "genitive": "des Vaters",
+    "frequency_rank": 27,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Mein Vater arbeitet als Ingenieur.",
+        "en": "My father works as an engineer.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Der Vater liest seinem Kind ein Buch vor.",
+        "en": "The father reads a book to his child.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["family", "people", "a2"]
+  },
+  {
+    "id": "noun_bruder",
+    "word": "Bruder",
+    "article": "der",
+    "english": "brother",
+    "plural": "Brüder",
+    "plural_article": "die",
+    "genitive": "des Bruders",
+    "frequency_rank": 28,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Mein Bruder ist zwei Jahre älter als ich.",
+        "en": "My brother is two years older than me.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Ich habe einen Bruder und eine Schwester.",
+        "en": "I have a brother and a sister.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["family", "people", "a2"]
+  },
+  {
+    "id": "noun_schwester",
+    "word": "Schwester",
+    "article": "die",
+    "english": "sister",
+    "plural": "Schwestern",
+    "plural_article": "die",
+    "genitive": "der Schwester",
+    "frequency_rank": 29,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Meine Schwester wohnt in München.",
+        "en": "My sister lives in Munich.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Die Schwester hilft ihrem Bruder.",
+        "en": "The sister helps her brother.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["family", "people", "a2"]
+  },
+  {
+    "id": "noun_eltern",
+    "word": "Eltern",
+    "article": "die",
+    "english": "parents",
+    "plural": "Eltern",
+    "plural_article": "die",
+    "genitive": "der Eltern",
+    "frequency_rank": 30,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Meine Eltern wohnen auf dem Land.",
+        "en": "My parents live in the countryside.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Die Eltern kommen zum Schulfest.",
+        "en": "The parents come to the school event.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["family", "people", "a2"]
+  },
+  {
+    "id": "noun_lehrer",
+    "word": "Lehrer",
+    "article": "der",
+    "english": "teacher",
+    "plural": "Lehrer",
+    "plural_article": "die",
+    "genitive": "des Lehrers",
+    "frequency_rank": 31,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Der Lehrer erklärt die Grammatik.",
+        "en": "The teacher explains the grammar.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Unser Lehrer kommt aus Österreich.",
+        "en": "Our teacher comes from Austria.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["education", "people", "work", "a2"]
+  },
+  {
+    "id": "noun_arzt",
+    "word": "Arzt",
+    "article": "der",
+    "english": "doctor",
+    "plural": "Ärzte",
+    "plural_article": "die",
+    "genitive": "des Arztes",
+    "frequency_rank": 32,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich muss zum Arzt gehen.",
+        "en": "I have to go to the doctor.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Der Arzt untersucht den Patienten.",
+        "en": "The doctor examines the patient.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["health", "people", "work", "a2"]
+  },
+  {
+    "id": "noun_kollege",
+    "word": "Kollege",
+    "article": "der",
+    "english": "colleague",
+    "plural": "Kollegen",
+    "plural_article": "die",
+    "genitive": "des Kollegen",
+    "frequency_rank": 33,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Mein Kollege hilft mir mit dem Projekt.",
+        "en": "My colleague helps me with the project.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Die Kollegen essen zusammen in der Pause.",
+        "en": "The colleagues eat together during the break.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["work", "people", "a2"]
+  },
+  {
+    "id": "noun_nachbar",
+    "word": "Nachbar",
+    "article": "der",
+    "english": "neighbour",
+    "plural": "Nachbarn",
+    "plural_article": "die",
+    "genitive": "des Nachbarn",
+    "frequency_rank": 34,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Unser Nachbar ist sehr freundlich.",
+        "en": "Our neighbour is very friendly.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Der Nachbar hat einen großen Hund.",
+        "en": "The neighbour has a big dog.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["people", "daily_life", "a2"]
+  },
+  {
+    "id": "noun_chef",
+    "word": "Chef",
+    "article": "der",
+    "english": "boss",
+    "plural": "Chefs",
+    "plural_article": "die",
+    "genitive": "des Chefs",
+    "frequency_rank": 35,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Mein Chef ist heute nicht im Büro.",
+        "en": "My boss is not in the office today.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Der Chef gibt der Mitarbeiterin eine Aufgabe.",
+        "en": "The boss gives the employee a task.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["work", "people", "a2"]
+  },
+  {
+    "id": "noun_zimmer",
+    "word": "Zimmer",
+    "article": "das",
+    "english": "room",
+    "plural": "Zimmer",
+    "plural_article": "die",
+    "genitive": "des Zimmers",
+    "frequency_rank": 36,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Das Zimmer ist sehr sauber.",
+        "en": "The room is very clean.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Ich suche ein Zimmer in der Stadt.",
+        "en": "I am looking for a room in the city.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["home", "a2"]
+  },
+  {
+    "id": "noun_kueche",
+    "word": "Küche",
+    "article": "die",
+    "english": "kitchen",
+    "plural": "Küchen",
+    "plural_article": "die",
+    "genitive": "der Küche",
+    "frequency_rank": 37,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Die Küche ist klein, aber modern.",
+        "en": "The kitchen is small but modern.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Er kocht in der Küche das Abendessen.",
+        "en": "He cooks dinner in the kitchen.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["home", "food_drink", "a2"]
+  },
+  {
+    "id": "noun_garten",
+    "word": "Garten",
+    "article": "der",
+    "english": "garden",
+    "plural": "Gärten",
+    "plural_article": "die",
+    "genitive": "des Gartens",
+    "frequency_rank": 38,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Im Garten wachsen viele Blumen.",
+        "en": "Many flowers grow in the garden.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Die Kinder spielen im Garten.",
+        "en": "The children play in the garden.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["home", "nature", "a2"]
+  },
+  {
+    "id": "noun_bahnhof",
+    "word": "Bahnhof",
+    "article": "der",
+    "english": "train station",
+    "plural": "Bahnhöfe",
+    "plural_article": "die",
+    "genitive": "des Bahnhofs",
+    "frequency_rank": 39,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Der Bahnhof ist zehn Minuten entfernt.",
+        "en": "The train station is ten minutes away.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Ich warte am Bahnhof auf meinen Zug.",
+        "en": "I am waiting at the train station for my train.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["transport", "places", "a2"]
+  },
+  {
+    "id": "noun_buero",
+    "word": "Büro",
+    "article": "das",
+    "english": "office",
+    "plural": "Büros",
+    "plural_article": "die",
+    "genitive": "des Büros",
+    "frequency_rank": 40,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Das Büro öffnet um neun Uhr.",
+        "en": "The office opens at nine o'clock.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Sie arbeitet täglich in ihrem Büro.",
+        "en": "She works in her office every day.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["work", "places", "a2"]
+  },
+  {
+    "id": "noun_fenster",
+    "word": "Fenster",
+    "article": "das",
+    "english": "window",
+    "plural": "Fenster",
+    "plural_article": "die",
+    "genitive": "des Fensters",
+    "frequency_rank": 41,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Bitte mach das Fenster auf.",
+        "en": "Please open the window.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Das Fenster ist kaputt.",
+        "en": "The window is broken.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["home", "a2"]
+  },
+  {
+    "id": "noun_bett",
+    "word": "Bett",
+    "article": "das",
+    "english": "bed",
+    "plural": "Betten",
+    "plural_article": "die",
+    "genitive": "des Bettes",
+    "frequency_rank": 42,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich gehe um zehn Uhr ins Bett.",
+        "en": "I go to bed at ten o'clock.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Das Bett ist sehr bequem.",
+        "en": "The bed is very comfortable.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["home", "furniture", "a2"]
+  },
+  {
+    "id": "noun_handy",
+    "word": "Handy",
+    "article": "das",
+    "english": "mobile phone",
+    "plural": "Handys",
+    "plural_article": "die",
+    "genitive": "des Handys",
+    "frequency_rank": 43,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich habe mein Handy vergessen.",
+        "en": "I forgot my mobile phone.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Das Handy klingelt im Unterricht.",
+        "en": "The mobile phone rings during the lesson.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["technology", "daily_life", "a2"]
+  },
+  {
+    "id": "noun_tasche",
+    "word": "Tasche",
+    "article": "die",
+    "english": "bag",
+    "plural": "Taschen",
+    "plural_article": "die",
+    "genitive": "der Tasche",
+    "frequency_rank": 44,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Meine Tasche ist sehr schwer.",
+        "en": "My bag is very heavy.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Der Schlüssel ist in der Tasche.",
+        "en": "The key is in the bag.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["daily_life", "a2"]
+  },
+  {
+    "id": "noun_schluessel",
+    "word": "Schlüssel",
+    "article": "der",
+    "english": "key",
+    "plural": "Schlüssel",
+    "plural_article": "die",
+    "genitive": "des Schlüssels",
+    "frequency_rank": 45,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich finde meinen Schlüssel nicht.",
+        "en": "I cannot find my key.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Der Schlüssel liegt auf dem Tisch.",
+        "en": "The key is on the table.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["daily_life", "home", "a2"]
+  },
+  {
+    "id": "noun_brief",
+    "word": "Brief",
+    "article": "der",
+    "english": "letter",
+    "plural": "Briefe",
+    "plural_article": "die",
+    "genitive": "des Briefes",
+    "frequency_rank": 46,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich schreibe einen Brief an meine Oma.",
+        "en": "I am writing a letter to my grandmother.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Der Brief kommt aus dem Ausland.",
+        "en": "The letter comes from abroad.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["communication", "daily_life", "a2"]
+  },
+  {
+    "id": "noun_stunde",
+    "word": "Stunde",
+    "article": "die",
+    "english": "hour",
+    "plural": "Stunden",
+    "plural_article": "die",
+    "genitive": "der Stunde",
+    "frequency_rank": 47,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich warte seit einer Stunde.",
+        "en": "I have been waiting for an hour.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Die Stunde vergeht sehr schnell.",
+        "en": "The hour passes very quickly.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["time", "a2"]
+  },
+  {
+    "id": "noun_woche",
+    "word": "Woche",
+    "article": "die",
+    "english": "week",
+    "plural": "Wochen",
+    "plural_article": "die",
+    "genitive": "der Woche",
+    "frequency_rank": 48,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Diese Woche habe ich viel zu tun.",
+        "en": "This week I have a lot to do.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Die Woche hat sieben Tage.",
+        "en": "The week has seven days.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["time", "a2"]
+  },
+  {
+    "id": "noun_monat",
+    "word": "Monat",
+    "article": "der",
+    "english": "month",
+    "plural": "Monate",
+    "plural_article": "die",
+    "genitive": "des Monats",
+    "frequency_rank": 49,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Im nächsten Monat fahren wir in den Urlaub.",
+        "en": "Next month we are going on holiday.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Der Monat Januar ist oft kalt.",
+        "en": "The month of January is often cold.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["time", "a2"]
+  },
+  {
+    "id": "noun_morgen",
+    "word": "Morgen",
+    "article": "der",
+    "english": "morning",
+    "plural": "Morgen",
+    "plural_article": "die",
+    "genitive": "des Morgens",
+    "frequency_rank": 50,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Am Morgen trinke ich immer Kaffee.",
+        "en": "In the morning I always drink coffee.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Der Morgen beginnt früh für uns.",
+        "en": "The morning starts early for us.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["time", "daily_life", "a2"]
+  },
+  {
+    "id": "noun_abend",
+    "word": "Abend",
+    "article": "der",
+    "english": "evening",
+    "plural": "Abende",
+    "plural_article": "die",
+    "genitive": "des Abends",
+    "frequency_rank": 51,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Am Abend schauen wir fern.",
+        "en": "In the evening we watch television.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Der Abend war sehr schön.",
+        "en": "The evening was very nice.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["time", "daily_life", "a2"]
+  },
+  {
+    "id": "noun_nacht",
+    "word": "Nacht",
+    "article": "die",
+    "english": "night",
+    "plural": "Nächte",
+    "plural_article": "die",
+    "genitive": "der Nacht",
+    "frequency_rank": 52,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "In der Nacht ist es sehr ruhig.",
+        "en": "At night it is very quiet.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Die Nacht war kurz und kalt.",
+        "en": "The night was short and cold.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["time", "daily_life", "a2"]
+  },
+  {
+    "id": "noun_brot",
+    "word": "Brot",
+    "article": "das",
+    "english": "bread",
+    "plural": "Brote",
+    "plural_article": "die",
+    "genitive": "des Brotes",
+    "frequency_rank": 53,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich kaufe jeden Morgen frisches Brot.",
+        "en": "I buy fresh bread every morning.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Das Brot schmeckt sehr gut.",
+        "en": "The bread tastes very good.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["food_drink", "daily_life", "a2"]
+  },
+  {
+    "id": "noun_milch",
+    "word": "Milch",
+    "article": "die",
+    "english": "milk",
+    "plural": "Milch",
+    "plural_article": "die",
+    "genitive": "der Milch",
+    "frequency_rank": 54,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich trinke jeden Abend ein Glas Milch.",
+        "en": "I drink a glass of milk every evening.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Die Milch ist heute abgelaufen.",
+        "en": "The milk expired today.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["food_drink", "a2"]
+  },
+  {
+    "id": "noun_kaffee",
+    "word": "Kaffee",
+    "article": "der",
+    "english": "coffee",
+    "plural": "Kaffees",
+    "plural_article": "die",
+    "genitive": "des Kaffees",
+    "frequency_rank": 55,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich brauche morgens meinen Kaffee.",
+        "en": "I need my coffee in the morning.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Der Kaffee ist noch heiß.",
+        "en": "The coffee is still hot.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["food_drink", "daily_life", "a2"]
+  },
+  {
+    "id": "noun_sonne",
+    "word": "Sonne",
+    "article": "die",
+    "english": "sun",
+    "plural": "Sonnen",
+    "plural_article": "die",
+    "genitive": "der Sonne",
+    "frequency_rank": 56,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Die Sonne scheint heute sehr hell.",
+        "en": "The sun is shining very brightly today.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Die Sonne geht im Westen unter.",
+        "en": "The sun sets in the west.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["nature", "weather", "a2"]
+  },
+  {
+    "id": "noun_regen",
+    "word": "Regen",
+    "article": "der",
+    "english": "rain",
+    "plural": "Regen",
+    "plural_article": "die",
+    "genitive": "des Regens",
+    "frequency_rank": 57,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Der Regen hört nicht auf.",
+        "en": "The rain doesn't stop.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Ich mag keinen Regen.",
+        "en": "I don't like rain.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["nature", "weather", "a2"]
+  },
+  {
+    "id": "noun_berg",
+    "word": "Berg",
+    "article": "der",
+    "english": "mountain",
+    "plural": "Berge",
+    "plural_article": "die",
+    "genitive": "des Berges",
+    "frequency_rank": 58,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Der Berg ist sehr hoch.",
+        "en": "The mountain is very high.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Wir wandern heute auf den Berg.",
+        "en": "We are hiking up the mountain today.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["nature", "geography", "a2"]
+  },
+  {
+    "id": "noun_fluss",
+    "word": "Fluss",
+    "article": "der",
+    "english": "river",
+    "plural": "Flüsse",
+    "plural_article": "die",
+    "genitive": "des Flusses",
+    "frequency_rank": 59,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Der Fluss fließt durch die Stadt.",
+        "en": "The river flows through the city.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Die Kinder schwimmen im Fluss.",
+        "en": "The children swim in the river.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["nature", "geography", "a2"]
+  },
+  {
+    "id": "noun_problem",
+    "word": "Problem",
+    "article": "das",
+    "english": "problem",
+    "plural": "Probleme",
+    "plural_article": "die",
+    "genitive": "des Problems",
+    "frequency_rank": 60,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Das Problem ist nicht leicht zu lösen.",
+        "en": "The problem is not easy to solve.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Hast du ein Problem mit meiner Entscheidung?",
+        "en": "Do you have a problem with my decision?",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["abstract", "daily_life", "a2"]
+  },
+  {
+    "id": "noun_idee",
+    "word": "Idee",
+    "article": "die",
+    "english": "idea",
+    "plural": "Ideen",
+    "plural_article": "die",
+    "genitive": "der Idee",
+    "frequency_rank": 61,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Das ist eine gute Idee.",
+        "en": "That is a good idea.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Hast du eine Idee, wie wir das lösen können?",
+        "en": "Do you have an idea how we can solve this?",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["abstract", "communication", "a2"]
+  },
+  {
+    "id": "noun_meinung",
+    "word": "Meinung",
+    "article": "die",
+    "english": "opinion",
+    "plural": "Meinungen",
+    "plural_article": "die",
+    "genitive": "der Meinung",
+    "frequency_rank": 62,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Was ist deine Meinung dazu?",
+        "en": "What is your opinion on this?",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Ich bin anderer Meinung als du.",
+        "en": "I have a different opinion than you.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["abstract", "communication", "a2"]
+  },
+  {
+    "id": "noun_grund",
+    "word": "Grund",
+    "article": "der",
+    "english": "reason",
+    "plural": "Gründe",
+    "plural_article": "die",
+    "genitive": "des Grundes",
+    "frequency_rank": 63,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Was ist der Grund für deine Verspätung?",
+        "en": "What is the reason for your delay?",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Es gibt keinen Grund zur Sorge.",
+        "en": "There is no reason to worry.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["abstract", "communication", "a2"]
+  },
+  {
+    "id": "noun_weg",
+    "word": "Weg",
+    "article": "der",
+    "english": "way / path",
+    "plural": "Wege",
+    "plural_article": "die",
+    "genitive": "des Weges",
+    "frequency_rank": 64,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich kenne den Weg nicht.",
+        "en": "I don't know the way.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Der Weg durch den Wald ist lang.",
+        "en": "The path through the forest is long.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["places", "daily_life", "a2"]
+  },
+  {
+    "id": "noun_platz",
+    "word": "Platz",
+    "article": "der",
+    "english": "place / seat / square",
+    "plural": "Plätze",
+    "plural_article": "die",
+    "genitive": "des Platzes",
+    "frequency_rank": 65,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ist hier noch ein Platz frei?",
+        "en": "Is there still a free seat here?",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Der Platz vor dem Rathaus ist sehr groß.",
+        "en": "The square in front of the town hall is very large.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["places", "daily_life", "a2"]
+  },
+  {
+    "id": "noun_seite",
+    "word": "Seite",
+    "article": "die",
+    "english": "side / page",
+    "plural": "Seiten",
+    "plural_article": "die",
+    "genitive": "der Seite",
+    "frequency_rank": 66,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Bitte lest Seite zwanzig im Buch.",
+        "en": "Please read page twenty in the book.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Auf der anderen Seite des Flusses liegt ein Dorf.",
+        "en": "On the other side of the river there is a village.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["abstract", "language", "a2"]
+  },
+  {
+    "id": "noun_art",
+    "word": "Art",
+    "article": "die",
+    "english": "type / kind / way",
+    "plural": "Arten",
+    "plural_article": "die",
+    "genitive": "der Art",
+    "frequency_rank": 67,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Das ist eine neue Art zu lernen.",
+        "en": "That is a new way of learning.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Es gibt viele Arten von Tieren im Zoo.",
+        "en": "There are many kinds of animals in the zoo.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["abstract", "a2"]
+  },
+  {
+    "id": "noun_name",
+    "word": "Name",
+    "article": "der",
+    "english": "name",
+    "plural": "Namen",
+    "plural_article": "die",
+    "genitive": "des Namens",
+    "frequency_rank": 68,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Wie ist dein Name?",
+        "en": "What is your name?",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Ich erinnere mich nicht an seinen Namen.",
+        "en": "I don't remember his name.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["communication", "daily_life", "a2"]
+  },
+  {
+    "id": "noun_kopf",
+    "word": "Kopf",
+    "article": "der",
+    "english": "head",
+    "plural": "Köpfe",
+    "plural_article": "die",
+    "genitive": "des Kopfes",
+    "frequency_rank": 69,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Ich habe Schmerzen im Kopf.",
+        "en": "I have pain in my head.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Er schüttelt den Kopf.",
+        "en": "He shakes his head.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["body", "health", "a2"]
+  },
+  {
+    "id": "noun_hand",
+    "word": "Hand",
+    "article": "die",
+    "english": "hand",
+    "plural": "Hände",
+    "plural_article": "die",
+    "genitive": "der Hand",
+    "frequency_rank": 70,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Sie gibt mir die Hand zur Begrüßung.",
+        "en": "She gives me her hand in greeting.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Die Hand ist kalt.",
+        "en": "The hand is cold.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["body", "a2"]
+  },
+  {
+    "id": "noun_herz",
+    "word": "Herz",
+    "article": "das",
+    "english": "heart",
+    "plural": "Herzen",
+    "plural_article": "die",
+    "genitive": "des Herzens",
+    "frequency_rank": 71,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Das Herz schlägt sehr schnell.",
+        "en": "The heart beats very fast.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Er hat ein gutes Herz.",
+        "en": "He has a good heart.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["body", "health", "a2"]
+  },
+  {
+    "id": "noun_stimme",
+    "word": "Stimme",
+    "article": "die",
+    "english": "voice",
+    "plural": "Stimmen",
+    "plural_article": "die",
+    "genitive": "der Stimme",
+    "frequency_rank": 72,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Sie hat eine schöne Stimme.",
+        "en": "She has a beautiful voice.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Ich erkenne seine Stimme sofort.",
+        "en": "I recognise his voice immediately.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["body", "communication", "a2"]
+  },
+  {
+    "id": "noun_gesicht",
+    "word": "Gesicht",
+    "article": "das",
+    "english": "face",
+    "plural": "Gesichter",
+    "plural_article": "die",
+    "genitive": "des Gesichts",
+    "frequency_rank": 73,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Das Gesicht des Kindes ist sehr süß.",
+        "en": "The child's face is very sweet.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Sie wäscht sich das Gesicht.",
+        "en": "She washes her face.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["body", "a2"]
+  },
+  {
+    "id": "noun_zug",
+    "word": "Zug",
+    "article": "der",
+    "english": "train",
+    "plural": "Züge",
+    "plural_article": "die",
+    "genitive": "des Zuges",
+    "frequency_rank": 74,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Der Zug fährt um acht Uhr ab.",
+        "en": "The train departs at eight o'clock.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Ich nehme den Zug nach Berlin.",
+        "en": "I take the train to Berlin.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["transport", "a2"]
+  },
+  {
+    "id": "noun_preis",
+    "word": "Preis",
+    "article": "der",
+    "english": "price / prize",
+    "plural": "Preise",
+    "plural_article": "die",
+    "genitive": "des Preises",
+    "frequency_rank": 75,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Der Preis ist leider zu hoch.",
+        "en": "The price is unfortunately too high.",
+        "exercise_type": ["fill_blank", "article_choice"]
+      },
+      {
+        "de": "Sie hat einen Preis für ihr Buch gewonnen.",
+        "en": "She won a prize for her book.",
+        "exercise_type": ["translate_word"]
+      }
+    ],
+    "tags": ["finance", "daily_life", "a2"]
+  }
+]

@@ -2,6 +2,45 @@
 
 ---
 
+## 2026-06-07 — Session 9A: Adverbs Deploy
+
+Adverbs module (Session 8 content) pushed to GitHub Pages. Live at https://rsperotti.github.io/mein_deutsch.
+
+---
+
+## 2026-06-07 — Session 9B: Word List Practice Mode
+
+**What was built:**
+- New `"Wörter üben"` button on the Word List screen (dark green, above the word list)
+- New `screen-wl-picker` — class selector screen where user picks which grammatical classes to practice (Verben, Nomen, Adverbien), showing word count per class and checkmark chips
+- New `js/wordpractice.js` — handles picker logic, word pool building per class
+- Extended `js/exercises.js` — new `exerciseMode` flag + full WL exercise engine: `startWordListExercise()`, `_showNextWL()`, `_renderWLQuestion()`, `_getWLWrongAnswers()`, `_selectWLAnswer()`, `_updateWLChips()`
+- Updated `js/progress.js` — `recordWordPractice()` and `getWordPracticeScore()` methods using `app_word_practice_scores` key
+- Updated `css/styles.css` — styles for `.wl-practice-btn` and `.wlp-class-chip` components
+
+**Behaviour:**
+- Exercise type: translate_word (German → meaning, 4 options, 1 correct + 3 same-class distractors)
+- Correct answer: green flash, auto-advance after 1.5s
+- Wrong answer: red flash, correct answer revealed, manual "Weiter" to continue
+- Session: infinite loop — reshuffles and starts new pass when all words exhausted. Back button returns to Word List.
+- Chips show: ✓ Richtig / Queue (remaining this pass) / ✗ Falsch — chips restored to module state on exit
+- Scores recorded to `app_word_practice_scores` per word (shared with word score bars)
+
+**Files changed:** `index.html`, `css/styles.css`, `js/exercises.js`, `js/progress.js`
+**Files created:** `js/wordpractice.js`
+
+**Next:** Push to GitHub Pages. Then: Adjectives module.
+
+---
+
+## 2026-06-07 — Session 8: Adverbs Module — Full Content, UI + Deploy
+
+**Deploy:**
+- Commit `eaecde1` pushed to `main` → GitHub Pages auto-deploys to https://rsperotti.github.io/mein_deutsch
+- Push run from local terminal (sandbox has no GitHub credentials)
+
+---
+
 ## 2026-06-07 — Session 8: Adverbs Module — Full Content + UI
 
 **What was built:**

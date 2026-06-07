@@ -1,11 +1,11 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-06-07 — Session 8*
+*Last updated: 2026-06-07 — Session 9B*
 
 ---
 
 ## Current State
 
-**Adverbs module content-complete (A1–B2).** App at https://rsperotti.github.io/mein_deutsch. Verbs: complete (100 roots + 138 variants, 936 exercises). Nouns: 175 words, 700 exercises. Adverbs: 127 words across 4 levels (29 A1 + 25 A2 + 51 B1 + 22 B2), 508 exercises, full UI live. Next: push to GitHub Pages.
+**Word List Practice live.** App at https://rsperotti.github.io/mein_deutsch. Verbs (100 roots + 138 variants, 936 exercises), Nouns (175 words, 700 exercises), Adverbs (127 words, 508 exercises) all deployed. Word List now has a cross-module translation drill ("Wörter üben") — class picker → infinite-loop translate exercise, scores shared with word score bars. Next: Adjectives module.
 
 ## What Exists
 
@@ -14,8 +14,9 @@
 | `index.html` | ✅ Updated | All screens: Home, Word List, Module Home, Exercise, Verbliste, Nomenliste, Adverbliste, Results |
 | `css/styles.css` | ✅ Built | Full design system — CSS variables, all components |
 | `js/app.js` | ✅ Built | Router, data loading, home + module home renderers |
-| `js/progress.js` | ✅ Built | localStorage abstraction — all keys from blueprint Section 4 + 11.6 |
-| `js/exercises.js` | ✅ Built | Exercise engine — fill_blank, translate_word, conjugation_choice, cooldown |
+| `js/progress.js` | ✅ Updated | localStorage abstraction + `recordWordPractice()` / `getWordPracticeScore()` |
+| `js/exercises.js` | ✅ Updated | Exercise engine — all module types + Word List Practice mode (exerciseMode flag) |
+| `js/wordpractice.js` | ✅ New | Word List Practice picker — class selection, word pool builder, handoff to exercises.js |
 | `js/wordlist.js` | ✅ Built | Word list display, search, bottom sheet, Verbliste, pronunciation |
 | `data/modules.json` | ✅ Updated | 4 modules: Verbs + Nouns + Adverbs (active), Adjectives (coming_soon) |
 | `js/data.js` | ✅ **Bundled** | All content embedded here — replaces fetch(). Regenerate after each batch. |
@@ -103,8 +104,7 @@ Extracted from design reference screenshots:
 
 ## Next Steps
 
-1. **Push to GitHub Pages** — deploy updated data.js (now includes adverbs)
-2. **Adjectives module** — next grammar category to build
+1. **Adjectives module** — next grammar category to build
 
 ## Open Questions / Known Gaps
 

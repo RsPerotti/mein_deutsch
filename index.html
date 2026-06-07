@@ -97,6 +97,21 @@
         <span class="search-count" id="wl-search-count"></span>
       </div>
 
+      <!-- Word List Practice entry -->
+      <button class="wl-practice-btn" onclick="openWLPicker()">
+        <div style="display:flex;align-items:center;gap:12px">
+          <span style="font-size:22px;line-height:1">🎯</span>
+          <div style="text-align:left">
+            <div style="font-weight:var(--fw-semibold);font-size:var(--font-size-base)">Wörter üben</div>
+            <div style="font-size:var(--font-size-xs);opacity:0.75;margin-top:2px">Übersetze deine freigeschalteten Wörter</div>
+          </div>
+        </div>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="9 18 15 12 9 6"/>
+        </svg>
+      </button>
+
       <div id="wordlist-content"></div>
     </div>
 
@@ -197,13 +212,13 @@
         </svg>
         <span id="chip-queue">0</span> Queue
       </div>
-      <div class="chip cooldown">
+      <div class="chip cooldown" id="chip-cooldown-wrap">
         <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="chip-cooldown-icon">
           <circle cx="12" cy="12" r="10"/>
           <polyline points="12 6 12 12 16 14"/>
         </svg>
-        <span id="chip-cooldown">0</span> Cooldown
+        <span id="chip-cooldown">0</span><span id="chip-cooldown-label"> Cooldown</span>
       </div>
     </div>
 
@@ -338,11 +353,48 @@
     </div>
   </div>
 
+  <!-- ═══════════════════════════════════════════
+       SCREEN: Word List Practice — Class Picker
+  ═══════════════════════════════════════════ -->
+  <div id="screen-wl-picker" class="screen">
+    <div class="nav-header">
+      <button class="back-btn" onclick="navigateBack()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+             stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"/>
+        </svg>
+      </button>
+      <span class="nav-context">Wortliste</span>
+    </div>
+
+    <div class="screen-content" style="padding-top:0">
+      <div class="heading-lg" style="margin-bottom:var(--sp-2)">Wörter üben</div>
+      <div style="color:var(--color-text-secondary);font-size:var(--font-size-base);
+                  margin-bottom:var(--sp-5);line-height:1.5">
+        Wähle die Wortklassen, die du üben möchtest.
+      </div>
+
+      <div id="wlp-classes" style="display:flex;flex-direction:column;gap:10px"></div>
+
+      <div id="wlp-count"
+           style="margin-top:var(--sp-5);font-size:var(--font-size-sm);
+                  color:var(--color-text-secondary);text-align:center">
+        0 Wörter ausgewählt
+      </div>
+
+      <button id="wlp-start-btn" class="primary-btn"
+              style="margin-top:var(--sp-4)" onclick="startWLPractice()">
+        Starten →
+      </button>
+    </div>
+  </div>
+
   <!-- JS — load order matters -->
   <script src="js/data.js"></script>
   <script src="js/progress.js"></script>
   <script src="js/wordlist.js"></script>
   <script src="js/exercises.js"></script>
+  <script src="js/wordpractice.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
