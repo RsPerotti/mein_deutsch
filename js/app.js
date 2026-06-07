@@ -12,12 +12,13 @@ let   currentExerciseState = null;   // set before navigating to exercise
 
 // --- App data (populated on load) ---
 const appData = {
-  modules:    [],
-  verbs:      [],
-  nouns:      [],
-  adverbs:    [],
-  adjectives: [],
-  exercises:  {}   // keyed by moduleId e.g. 'module_verbs'
+  modules:      [],
+  verbs:        [],
+  nouns:        [],
+  adverbs:      [],
+  adjectives:   [],
+  prepositions: [],
+  exercises:    {}   // keyed by moduleId e.g. 'module_verbs'
 };
 
 // ─────────────────────────────────────────
@@ -61,8 +62,9 @@ function onScreenEnter(screenId) {
     case 'screen-verbliste':   renderVerbliste();                       break;
     case 'screen-nomenliste':  renderNomenliste();                      break;
     case 'screen-adverbliste':     renderAdverbliste();                  break;
-    case 'screen-adjektivliste':   renderAdjektivliste();                break;
-    case 'screen-results':         /* rendered by exercises.js */        break;
+    case 'screen-adjektivliste':       renderAdjektivliste();             break;
+    case 'screen-prapositionsliste':   renderPrapositionsliste();         break;
+    case 'screen-results':             /* rendered by exercises.js */     break;
   }
 }
 
@@ -94,7 +96,9 @@ async function loadData() {
   appData.exercises['module_verbs']         = d.exercises_verbs       || (d.exercises || {}).module_verbs || [];
   appData.exercises['module_nouns']         = d.exercises_nouns       || [];
   appData.exercises['module_adverbs']       = d.exercises_adverbs     || [];
-  appData.exercises['module_adjectives']    = d.exercises_adjectives  || [];
+  appData.exercises['module_adjectives']    = d.exercises_adjectives   || [];
+  appData.prepositions                      = d.prepositions            || [];
+  appData.exercises['module_prepositions']  = d.exercises_prepositions  || [];
 }
 
 // ─────────────────────────────────────────
@@ -205,6 +209,8 @@ function renderModuleHome(moduleId) {
     _renderAdverbModuleCategories();
   } else if (moduleId === 'module_adjectives') {
     _renderAdjectiveModuleCategories();
+  } else if (moduleId === 'module_prepositions') {
+    _renderPrepositionModuleCategories();
   }
 }
 
@@ -746,6 +752,155 @@ function filterAdjektivList(query) {
     return;
   }
   container.innerHTML = _renderAdjektivCards(adjs);
+}
+
+// ─────────────────────────────────────────
+// MODULE HOME — PREPOSITIONS
+// ─────────────────────────────────────────
+
+function _renderPrepositionModuleCategories() {
+  const total      = appData.prepositions.length;
+  const allEx      = appData.exercises['module_prepositions'] || [];
+  const difficulty = Progress.getPrepositionsDifficulty();
+
+  // Progress: count unique exercises with at least 1 correct answer
+  const history    = allEx.filter(ex => {
+    const h = Progress.getExerciseHistory(ex.exercise_id);
+    return h.correct > 0;
+  });
+  const seen       = history.length;
+  const pct        = allEx.length > 0 ? Math.round(seen / allEx.length * 100) : 0;
+
+  document.getElementById('module-progress-count').textContent =
+    `${total} Präpositionen · ${seen} / ${allEx.length} Übungen`;
+  document.getElementById('module-progress-fill').style.width = pct + '%';
+
+  document.getElementById('module-categories').innerHTML = `
+    <div class="label mt-4" style="color:var(--color-text-primary);margin-bottom:var(--sp-3)">
+      Übungen
+    </div>
+
+    <div class="category-pair">
+      <div class="category-card" style="grid-column:1/-1"
+           onclick="openExercise('module_prepositions','all')">
+        <div class="category-card-title">Präpositionen üben</div>
+        <div class="category-card-subtitle">
+          Gap-fill &amp; case selection · Niveau <strong>${difficulty}</strong>
+        </div>
+        <div class="category-card-count mt-3">${seen} / ${allEx.length} Übungen gemacht</div>
+        <div class="progress-bar mt-2">
+          <div class="progress-fill" style="width:${pct}%"></div>
+        </div>
+        <div class="category-card-cta">Üben →</div>
+      </div>
+    </div>
+
+    <!-- Präpositionsliste link -->
+    <div class="card mt-3" style="cursor:pointer" onclick="navigateTo('screen-prapositionsliste')">
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <div>
+          <div style="font-weight:var(--fw-bold)">Präpositionsliste</div>
+          <div style="font-size:var(--font-size-sm);color:var(--color-text-secondary);margin-top:2px">
+            Alle ${total} Präpositionen nachschlagen</div>
+        </div>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+             style="color:var(--color-text-muted)">
+          <polyline points="9 18 15 12 9 6"/>
+        </svg>
+      </div>
+    </div>`;
+}
+
+// ─────────────────────────────────────────
+// PRÄPOSITIONSLISTE (Preposition Reference)
+// Shows ALL prepositions — no unlock gate
+// ─────────────────────────────────────────
+
+function renderPrapositionsliste() {
+  const container = document.getElementById('prapositionsliste-content');
+  const query     = document.getElementById('pl-search').value || '';
+  _renderPrapositionslisteFiltered(appData.prepositions, container, query);
+}
+
+function filterPrapositionsliste(query) {
+  const q         = query.toLowerCase().trim();
+  const container = document.getElementById('prapositionsliste-content');
+  const filtered  = q
+    ? appData.prepositions.filter(p =>
+        p.preposition.toLowerCase().includes(q) ||
+        p.english.toLowerCase().includes(q) ||
+        p.category.toLowerCase().includes(q))
+    : appData.prepositions;
+
+  const count = document.getElementById('pl-search-count');
+  if (count) count.textContent = q ? `${filtered.length} / ${appData.prepositions.length}` : '';
+
+  _renderPrapositionslisteFiltered(filtered, container, q);
+}
+
+function _renderPrapositionslisteFiltered(preps, container, query) {
+  if (preps.length === 0) {
+    container.innerHTML = `<div style="color:var(--color-text-muted);padding:var(--sp-4)">Keine Ergebnisse.</div>`;
+    return;
+  }
+  container.innerHTML = preps.map(p => _renderPrepCard(p)).join('');
+}
+
+function _renderPrepCard(p) {
+  const caseLabels  = p.cases.join(' / ');
+  const categoryMap = { 'two-way': 'Wechselpräp.', 'akkusativ': 'Akkusativ', 'dativ': 'Dativ', 'genitiv': 'Genitiv' };
+  const catLabel    = categoryMap[p.category] || p.category;
+
+  return `
+    <div class="card verb-card">
+      <div class="verb-card-header" onclick="togglePrepCard('${p.id}')">
+        <div>
+          <span class="tag" style="margin-right:6px;background:var(--color-green-dark);color:#fff;
+                font-size:var(--font-size-xs);padding:2px 7px;border-radius:4px">${p.cefr}</span>
+          <span class="verb-card-title">${p.preposition}</span>
+          <span class="verb-card-en"> — ${p.english}</span>
+        </div>
+        <svg id="pl-arr-${p.id}" width="16" height="16" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+             stroke-linejoin="round" style="color:var(--color-text-muted);transition:transform 0.2s">
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </div>
+
+      <div class="verb-detail" id="pl-det-${p.id}">
+        <div style="margin-top:var(--sp-3);display:flex;gap:8px;flex-wrap:wrap">
+          <span class="tag" style="background:var(--color-surface);border:1.5px solid var(--color-border);
+                color:var(--color-text-secondary);font-size:var(--font-size-xs);padding:3px 8px;border-radius:4px">
+            ${catLabel}</span>
+          <span class="tag" style="background:var(--color-surface);border:1.5px solid var(--color-border);
+                color:var(--color-text-secondary);font-size:var(--font-size-xs);padding:3px 8px;border-radius:4px">
+            ${caseLabels}</span>
+        </div>
+        ${p.case_notes ? `
+          <div style="margin-top:var(--sp-3);font-size:var(--font-size-sm);
+                color:var(--color-text-secondary);line-height:1.5">${p.case_notes}</div>` : ''}
+        ${p.example_sentences && p.example_sentences.length > 0 ? `
+          <div class="label mt-3" style="margin-bottom:var(--sp-2)">Beispiele</div>
+          ${p.example_sentences.map(ex => `
+            <div class="example-card">
+              <div class="example-de">
+                ${ex.de}
+                ${ex.case ? `<span style="margin-left:8px;font-size:var(--font-size-xs);
+                  color:var(--color-text-muted);font-weight:var(--fw-medium)">[${ex.case}]</span>` : ''}
+              </div>
+              <div class="example-en">${ex.en}</div>
+            </div>`).join('')}` : ''}
+      </div>
+    </div>`;
+}
+
+function togglePrepCard(prepId) {
+  const det = document.getElementById(`pl-det-${prepId}`);
+  const arr = document.getElementById(`pl-arr-${prepId}`);
+  const isOpen = det.classList.contains('open');
+  det.classList.toggle('open', !isOpen);
+  arr.style.transform = isOpen ? '' : 'rotate(180deg)';
 }
 
 // ─────────────────────────────────────────

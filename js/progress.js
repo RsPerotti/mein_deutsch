@@ -23,8 +23,9 @@ const Progress = {
     NOUNS_UNLOCKED:      'app_nouns_unlocked',
     NOUNS_ROOT:          'app_nouns_root_unlocked',
     NOUNS_VARIANT:       'app_nouns_variant_unlocked',
-    ADVERBS_UNLOCKED:    'app_adverbs_unlocked',
-    ADJECTIVES_UNLOCKED: 'app_adjectives_unlocked'
+    ADVERBS_UNLOCKED:       'app_adverbs_unlocked',
+    ADJECTIVES_UNLOCKED:    'app_adjectives_unlocked',
+    PREPOSITIONS_DIFFICULTY: 'app_prepositions_difficulty'
   },
 
   // --- Generic helpers ---
@@ -176,6 +177,12 @@ const Progress = {
     correct ? all[wordId].correct++ : all[wordId].incorrect++;
     this._set(this.KEYS.WORD_SCORES, all);
   },
+
+  // --- Prepositions difficulty ---
+  // Supported levels: 'A1', 'A2', 'B1', 'B2' (C1/C2 reserved for future expansion)
+  getPrepositionsDifficulty() { return this._get(this.KEYS.PREPOSITIONS_DIFFICULTY, 'A1'); },
+
+  setPrepositionsDifficulty(level) { this._set(this.KEYS.PREPOSITIONS_DIFFICULTY, level); },
 
   // --- Session ---
   recordSession() { this._set(this.KEYS.LAST_SESSION, new Date().toISOString()); }

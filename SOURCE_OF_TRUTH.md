@@ -1,5 +1,5 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-06-07 — Session 10*
+*Last updated: 2026-06-07 — Session 11*
 
 ---
 
@@ -14,8 +14,8 @@
 | `index.html` | ✅ Updated | All screens: Home, Word List, Module Home, Exercise, Verbliste, Nomenliste, Adverbliste, Adjektivliste, Results |
 | `css/styles.css` | ✅ Built | Full design system — CSS variables, all components |
 | `js/app.js` | ✅ Updated | Router, data loading, all module home renderers + Adjektivliste |
-| `js/progress.js` | ✅ Updated | `app_adjectives_unlocked` key + `getUnlockedAdjectives()` / `unlockAdjective()` methods |
-| `js/exercises.js` | ✅ Updated | Adjectives in queue builder, context label, unlockWord |
+| `js/progress.js` | ✅ Updated | Root/variant split for nouns (`app_nouns_root_unlocked` + `app_nouns_variant_unlocked`). Adjectives unlocked key. |
+| `js/exercises.js` | ✅ Updated | Nouns queue filters roots vs variations. Adjectives in queue builder. |
 | `js/wordpractice.js` | ✅ Updated | Adjektive class added to WLP_CLASSES picker |
 | `js/wordlist.js` | ✅ Updated | Adjectives in buildWordObjects() and _countTotalWords() |
 | `data/modules.json` | ✅ Updated | 4 modules: Verbs + Nouns + Adjectives + Adverbs (all active) |
@@ -75,7 +75,7 @@
 | adjectives-level4 | Adjectives | B2 | 25 | 100 | ✅ Done |
 | **Adjectives total** | | A1–B2 | **100** | **400** | ✅ Done |
 
-## Total app content: 2,544 exercises across 4 modules
+## Total app content: 2,369 exercises across 4 modules
 
 ## Hosting
 
@@ -85,11 +85,13 @@
 
 ## Next Steps
 
-1. **Push Session 10 to GitHub** — Adjectives module is live locally, needs deploy
+1. **Push Session 11 to GitHub** — Nouns restructure live locally, needs deploy
 2. **Deklinationen area** — second card in Adjectives module (gender/case matching exercises)
 3. **Enrich adjective content** — add more words once Deklinationen is built
+4. **Articles module** — future module; article_choice exercises from Nouns are now removed and ready to be rebuilt there
 
 ## Open Questions / Known Gaps
 
 - Adjectives Deklinationen card is a placeholder — exercises and UI not yet built
+- Articles module not yet started — article_choice exercises have been stripped from Nouns in preparation
 - Pronunciation uses device TTS (no audio files) — acceptable for v1

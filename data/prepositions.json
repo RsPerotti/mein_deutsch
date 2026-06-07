@@ -1,0 +1,744 @@
+[
+  {
+    "id": "prep_an",
+    "preposition": "an",
+    "english": "at, on, to",
+    "cases": ["Dativ", "Akkusativ"],
+    "case_notes": "Two-way: Dativ = location/rest, Akkusativ = movement toward",
+    "category": "two-way",
+    "cefr": "A1",
+    "frequency_rank": 1,
+    "example_sentences": [
+      { "de": "Ich stehe an der Tür.", "en": "I am standing at the door.", "case": "Dativ" },
+      { "de": "Er geht an die Tafel.", "en": "He goes to the board.", "case": "Akkusativ" }
+    ]
+  },
+  {
+    "id": "prep_auf",
+    "preposition": "auf",
+    "english": "on, onto, at",
+    "cases": ["Dativ", "Akkusativ"],
+    "case_notes": "Two-way: Dativ = location on a surface, Akkusativ = movement onto a surface",
+    "category": "two-way",
+    "cefr": "A1",
+    "frequency_rank": 2,
+    "example_sentences": [
+      { "de": "Das Buch liegt auf dem Tisch.", "en": "The book is on the table.", "case": "Dativ" },
+      { "de": "Ich lege das Buch auf den Tisch.", "en": "I put the book on the table.", "case": "Akkusativ" }
+    ]
+  },
+  {
+    "id": "prep_in",
+    "preposition": "in",
+    "english": "in, into",
+    "cases": ["Dativ", "Akkusativ"],
+    "case_notes": "Two-way: Dativ = location inside, Akkusativ = movement into",
+    "category": "two-way",
+    "cefr": "A1",
+    "frequency_rank": 3,
+    "example_sentences": [
+      { "de": "Sie wohnt in der Stadt.", "en": "She lives in the city.", "case": "Dativ" },
+      { "de": "Wir fahren in die Stadt.", "en": "We are driving into the city.", "case": "Akkusativ" }
+    ]
+  },
+  {
+    "id": "prep_mit",
+    "preposition": "mit",
+    "english": "with, by (transport)",
+    "cases": ["Dativ"],
+    "case_notes": "Always Dativ. Used for accompaniment and means of transport.",
+    "category": "dativ",
+    "cefr": "A1",
+    "frequency_rank": 4,
+    "example_sentences": [
+      { "de": "Ich fahre mit dem Bus.", "en": "I travel by bus.", "case": "Dativ" },
+      { "de": "Sie kommt mit ihrer Freundin.", "en": "She comes with her friend.", "case": "Dativ" }
+    ]
+  },
+  {
+    "id": "prep_von",
+    "preposition": "von",
+    "english": "from, of, by",
+    "cases": ["Dativ"],
+    "case_notes": "Always Dativ. Used for origin, possession (instead of Genitiv in spoken German), and authorship.",
+    "category": "dativ",
+    "cefr": "A1",
+    "frequency_rank": 5,
+    "example_sentences": [
+      { "de": "Das ist ein Buch von Goethe.", "en": "That is a book by Goethe.", "case": "Dativ" },
+      { "de": "Ich komme von der Arbeit.", "en": "I'm coming from work.", "case": "Dativ" }
+    ]
+  },
+  {
+    "id": "prep_zu",
+    "preposition": "zu",
+    "english": "to, at, for",
+    "cases": ["Dativ"],
+    "case_notes": "Always Dativ. Used for movement to people/places (not countries), purpose, and time expressions.",
+    "category": "dativ",
+    "cefr": "A1",
+    "frequency_rank": 6,
+    "example_sentences": [
+      { "de": "Ich gehe zu meinem Freund.", "en": "I'm going to my friend's place.", "case": "Dativ" },
+      { "de": "Wir essen zu Mittag.", "en": "We eat at noon.", "case": "Dativ" }
+    ]
+  },
+  {
+    "id": "prep_aus",
+    "preposition": "aus",
+    "english": "from, out of",
+    "cases": ["Dativ"],
+    "case_notes": "Always Dativ. Used for origin (cities/countries) and movement out of enclosed spaces.",
+    "category": "dativ",
+    "cefr": "A1",
+    "frequency_rank": 7,
+    "example_sentences": [
+      { "de": "Er kommt aus Deutschland.", "en": "He comes from Germany.", "case": "Dativ" },
+      { "de": "Sie geht aus dem Zimmer.", "en": "She goes out of the room.", "case": "Dativ" }
+    ]
+  },
+  {
+    "id": "prep_bei",
+    "preposition": "bei",
+    "english": "at, near, with",
+    "cases": ["Dativ"],
+    "case_notes": "Always Dativ. Used for location near a place/person, or for workplace.",
+    "category": "dativ",
+    "cefr": "A1",
+    "frequency_rank": 8,
+    "example_sentences": [
+      { "de": "Ich bin beim Arzt.", "en": "I am at the doctor's.", "case": "Dativ" },
+      { "de": "Er wohnt bei seinen Eltern.", "en": "He lives with his parents.", "case": "Dativ" }
+    ]
+  },
+  {
+    "id": "prep_nach",
+    "preposition": "nach",
+    "english": "after, to (cities/countries), according to",
+    "cases": ["Dativ"],
+    "case_notes": "Always Dativ. Used for movement to cities/countries/home, time (after), and expressing order/opinion.",
+    "category": "dativ",
+    "cefr": "A1",
+    "frequency_rank": 9,
+    "example_sentences": [
+      { "de": "Wir fahren nach Berlin.", "en": "We are going to Berlin.", "case": "Dativ" },
+      { "de": "Nach dem Essen gehen wir spazieren.", "en": "After the meal we go for a walk.", "case": "Dativ" }
+    ]
+  },
+  {
+    "id": "prep_seit",
+    "preposition": "seit",
+    "english": "since, for (ongoing duration)",
+    "cases": ["Dativ"],
+    "case_notes": "Always Dativ. Used with ongoing actions that started in the past and continue to the present. Used with present tense in German (not past).",
+    "category": "dativ",
+    "cefr": "A1",
+    "frequency_rank": 10,
+    "example_sentences": [
+      { "de": "Ich wohne seit drei Jahren hier.", "en": "I have been living here for three years.", "case": "Dativ" },
+      { "de": "Sie lernt seit dem Sommer Deutsch.", "en": "She has been learning German since summer.", "case": "Dativ" }
+    ]
+  },
+  {
+    "id": "prep_fuer",
+    "preposition": "für",
+    "english": "for",
+    "cases": ["Akkusativ"],
+    "case_notes": "Always Akkusativ. Used for purpose, benefit, duration, and exchange.",
+    "category": "akkusativ",
+    "cefr": "A1",
+    "frequency_rank": 11,
+    "example_sentences": [
+      { "de": "Das Geschenk ist für dich.", "en": "The gift is for you.", "case": "Akkusativ" },
+      { "de": "Ich lerne für die Prüfung.", "en": "I am studying for the exam.", "case": "Akkusativ" }
+    ]
+  },
+  {
+    "id": "prep_durch",
+    "preposition": "durch",
+    "english": "through, by (means)",
+    "cases": ["Akkusativ"],
+    "case_notes": "Always Akkusativ. Used for movement through a space or means by which something is achieved.",
+    "category": "akkusativ",
+    "cefr": "A1",
+    "frequency_rank": 12,
+    "example_sentences": [
+      { "de": "Wir gehen durch den Park.", "en": "We walk through the park.", "case": "Akkusativ" },
+      { "de": "Er lernte Deutsch durch Filme.", "en": "He learned German through films.", "case": "Akkusativ" }
+    ]
+  },
+  {
+    "id": "prep_ohne",
+    "preposition": "ohne",
+    "english": "without",
+    "cases": ["Akkusativ"],
+    "case_notes": "Always Akkusativ. Expresses absence or exclusion.",
+    "category": "akkusativ",
+    "cefr": "A1",
+    "frequency_rank": 13,
+    "example_sentences": [
+      { "de": "Ich trinke Kaffee ohne Zucker.", "en": "I drink coffee without sugar.", "case": "Akkusativ" },
+      { "de": "Sie fährt ohne ihren Mann.", "en": "She travels without her husband.", "case": "Akkusativ" }
+    ]
+  },
+  {
+    "id": "prep_um",
+    "preposition": "um",
+    "english": "around, at (time), for",
+    "cases": ["Akkusativ"],
+    "case_notes": "Always Akkusativ. Used for movement around something, clock times, and approximation.",
+    "category": "akkusativ",
+    "cefr": "A1",
+    "frequency_rank": 14,
+    "example_sentences": [
+      { "de": "Der Zug fährt um acht Uhr ab.", "en": "The train departs at eight o'clock.", "case": "Akkusativ" },
+      { "de": "Wir gehen um den See.", "en": "We walk around the lake.", "case": "Akkusativ" }
+    ]
+  },
+  {
+    "id": "prep_bis",
+    "preposition": "bis",
+    "english": "until, up to, by",
+    "cases": ["Akkusativ"],
+    "case_notes": "Always Akkusativ. Used for time limits and spatial endpoints. Often combined with other prepositions (bis zu, bis in).",
+    "category": "akkusativ",
+    "cefr": "A1",
+    "frequency_rank": 15,
+    "example_sentences": [
+      { "de": "Der Laden ist bis achtzehn Uhr geöffnet.", "en": "The shop is open until 6 p.m.", "case": "Akkusativ" },
+      { "de": "Ich bleibe bis nächste Woche.", "en": "I am staying until next week.", "case": "Akkusativ" }
+    ]
+  },
+  {
+    "id": "prep_ueber",
+    "preposition": "über",
+    "english": "over, above, about, via",
+    "cases": ["Dativ", "Akkusativ"],
+    "case_notes": "Two-way: Dativ = location above/over, Akkusativ = movement over or concerning (topic).",
+    "category": "two-way",
+    "cefr": "A1",
+    "frequency_rank": 16,
+    "example_sentences": [
+      { "de": "Das Bild hängt über dem Bett.", "en": "The picture hangs above the bed.", "case": "Dativ" },
+      { "de": "Wir sprechen über das Problem.", "en": "We are talking about the problem.", "case": "Akkusativ" }
+    ]
+  },
+  {
+    "id": "prep_unter",
+    "preposition": "unter",
+    "english": "under, below, among",
+    "cases": ["Dativ", "Akkusativ"],
+    "case_notes": "Two-way: Dativ = location below/among, Akkusativ = movement to a position below.",
+    "category": "two-way",
+    "cefr": "A1",
+    "frequency_rank": 17,
+    "example_sentences": [
+      { "de": "Die Katze schläft unter dem Tisch.", "en": "The cat sleeps under the table.", "case": "Dativ" },
+      { "de": "Er stellt die Kiste unter den Tisch.", "en": "He puts the box under the table.", "case": "Akkusativ" }
+    ]
+  },
+  {
+    "id": "prep_vor",
+    "preposition": "vor",
+    "english": "in front of, before, ago",
+    "cases": ["Dativ", "Akkusativ"],
+    "case_notes": "Two-way: Dativ = location in front of / time expressions (vor drei Tagen), Akkusativ = movement to position in front of.",
+    "category": "two-way",
+    "cefr": "A1",
+    "frequency_rank": 18,
+    "example_sentences": [
+      { "de": "Das Auto steht vor dem Haus.", "en": "The car is parked in front of the house.", "case": "Dativ" },
+      { "de": "Sie stellt die Vase vor das Fenster.", "en": "She puts the vase in front of the window.", "case": "Akkusativ" }
+    ]
+  },
+  {
+    "id": "prep_hinter",
+    "preposition": "hinter",
+    "english": "behind, after",
+    "cases": ["Dativ", "Akkusativ"],
+    "case_notes": "Two-way: Dativ = location behind, Akkusativ = movement to a position behind.",
+    "category": "two-way",
+    "cefr": "A1",
+    "frequency_rank": 19,
+    "example_sentences": [
+      { "de": "Der Garten ist hinter dem Haus.", "en": "The garden is behind the house.", "case": "Dativ" },
+      { "de": "Er stellt das Fahrrad hinter das Haus.", "en": "He puts the bicycle behind the house.", "case": "Akkusativ" }
+    ]
+  },
+  {
+    "id": "prep_neben",
+    "preposition": "neben",
+    "english": "next to, beside",
+    "cases": ["Dativ", "Akkusativ"],
+    "case_notes": "Two-way: Dativ = location beside, Akkusativ = movement to a position beside.",
+    "category": "two-way",
+    "cefr": "A1",
+    "frequency_rank": 20,
+    "example_sentences": [
+      { "de": "Er sitzt neben mir.", "en": "He sits next to me.", "case": "Dativ" },
+      { "de": "Sie setzt sich neben mich.", "en": "She sits down next to me.", "case": "Akkusativ" }
+    ]
+  },
+  {
+    "id": "prep_zwischen",
+    "preposition": "zwischen",
+    "english": "between",
+    "cases": ["Dativ", "Akkusativ"],
+    "case_notes": "Two-way: Dativ = location between two things, Akkusativ = movement into a position between.",
+    "category": "two-way",
+    "cefr": "A1",
+    "frequency_rank": 21,
+    "example_sentences": [
+      { "de": "Die Bank steht zwischen den Bäumen.", "en": "The bench stands between the trees.", "case": "Dativ" },
+      { "de": "Er stellt den Stuhl zwischen die Tische.", "en": "He puts the chair between the tables.", "case": "Akkusativ" }
+    ]
+  },
+  {
+    "id": "prep_gegen",
+    "preposition": "gegen",
+    "english": "against, around (time), versus",
+    "cases": ["Akkusativ"],
+    "case_notes": "Always Akkusativ. Used for opposition, approximate time, and collisions.",
+    "category": "akkusativ",
+    "cefr": "A2",
+    "frequency_rank": 22,
+    "example_sentences": [
+      { "de": "Er ist gegen die Idee.", "en": "He is against the idea.", "case": "Akkusativ" },
+      { "de": "Das Spiel beginnt gegen drei Uhr.", "en": "The game starts around three o'clock.", "case": "Akkusativ" }
+    ]
+  },
+  {
+    "id": "prep_ausser",
+    "preposition": "außer",
+    "english": "except, besides, out of",
+    "cases": ["Dativ"],
+    "case_notes": "Always Dativ. Used for exclusion and set phrases (außer Betrieb = out of service).",
+    "category": "dativ",
+    "cefr": "A2",
+    "frequency_rank": 23,
+    "example_sentences": [
+      { "de": "Alle kommen außer ihm.", "en": "Everyone is coming except him.", "case": "Dativ" },
+      { "de": "Der Aufzug ist außer Betrieb.", "en": "The elevator is out of service.", "case": "Dativ" }
+    ]
+  },
+  {
+    "id": "prep_ab",
+    "preposition": "ab",
+    "english": "from, as of, starting from",
+    "cases": ["Dativ"],
+    "case_notes": "Always Dativ. Used for a starting point in time or place.",
+    "category": "dativ",
+    "cefr": "A2",
+    "frequency_rank": 24,
+    "example_sentences": [
+      { "de": "Ab dem ersten Januar gilt die neue Regel.", "en": "As of January 1st the new rule applies.", "case": "Dativ" },
+      { "de": "Der Zug fährt ab dem nächsten Bahnhof nicht mehr.", "en": "The train no longer runs from the next station.", "case": "Dativ" }
+    ]
+  },
+  {
+    "id": "prep_entlang",
+    "preposition": "entlang",
+    "english": "along",
+    "cases": ["Akkusativ"],
+    "case_notes": "Usually Akkusativ when placed after the noun (den Fluss entlang). Can also govern Dativ when placed before the noun (entlang dem Fluss) — but post-position is far more common.",
+    "category": "akkusativ",
+    "cefr": "A2",
+    "frequency_rank": 25,
+    "example_sentences": [
+      { "de": "Wir gehen den Fluss entlang.", "en": "We walk along the river.", "case": "Akkusativ" },
+      { "de": "Fahren Sie die Straße entlang bis zur Ampel.", "en": "Drive along the road to the traffic light.", "case": "Akkusativ" }
+    ]
+  },
+  {
+    "id": "prep_wegen",
+    "preposition": "wegen",
+    "english": "because of, due to",
+    "cases": ["Genitiv"],
+    "case_notes": "Formally Genitiv. In colloquial German often used with Dativ (wegen dem Regen instead of wegen des Regens). Formal written German requires Genitiv.",
+    "category": "genitiv",
+    "cefr": "A2",
+    "frequency_rank": 26,
+    "example_sentences": [
+      { "de": "Wegen des Regens bleiben wir zu Hause.", "en": "Because of the rain we stay at home.", "case": "Genitiv" },
+      { "de": "Der Flug wurde wegen des Sturms gestrichen.", "en": "The flight was cancelled due to the storm.", "case": "Genitiv" }
+    ]
+  },
+  {
+    "id": "prep_dank",
+    "preposition": "dank",
+    "english": "thanks to, due to",
+    "cases": ["Dativ", "Genitiv"],
+    "case_notes": "Can take Dativ or Genitiv. Dativ is standard in modern usage. Expresses positive cause.",
+    "category": "dativ",
+    "cefr": "B1",
+    "frequency_rank": 27,
+    "example_sentences": [
+      { "de": "Dank deiner Hilfe habe ich es geschafft.", "en": "Thanks to your help I managed it.", "case": "Dativ" },
+      { "de": "Dank dem guten Wetter war der Ausflug ein Erfolg.", "en": "Thanks to the good weather the trip was a success.", "case": "Dativ" }
+    ]
+  },
+  {
+    "id": "prep_gegenueber",
+    "preposition": "gegenüber",
+    "english": "opposite, across from, toward",
+    "cases": ["Dativ"],
+    "case_notes": "Always Dativ. Can be placed before or after the noun (gegenüber dem Bahnhof / dem Bahnhof gegenüber). When used with a pronoun it always follows (mir gegenüber).",
+    "category": "dativ",
+    "cefr": "B1",
+    "frequency_rank": 28,
+    "example_sentences": [
+      { "de": "Das Hotel liegt gegenüber dem Bahnhof.", "en": "The hotel is opposite the train station.", "case": "Dativ" },
+      { "de": "Er war mir gegenüber immer freundlich.", "en": "He was always friendly toward me.", "case": "Dativ" }
+    ]
+  },
+  {
+    "id": "prep_laut",
+    "preposition": "laut",
+    "english": "according to, as per",
+    "cases": ["Dativ", "Genitiv"],
+    "case_notes": "Takes Dativ when no article, Genitiv or Dativ with an article. Commonly used in formal or journalistic writing.",
+    "category": "dativ",
+    "cefr": "B1",
+    "frequency_rank": 29,
+    "example_sentences": [
+      { "de": "Laut Bericht hat er keine Fehler gemacht.", "en": "According to the report he made no mistakes.", "case": "Dativ" },
+      { "de": "Laut dem Chef beginnt die Sitzung um zehn.", "en": "According to the boss the meeting starts at ten.", "case": "Dativ" }
+    ]
+  },
+  {
+    "id": "prep_trotz",
+    "preposition": "trotz",
+    "english": "despite, in spite of",
+    "cases": ["Genitiv"],
+    "case_notes": "Formally Genitiv. In colloquial speech sometimes used with Dativ (trotz dem Regen). Formal writing requires Genitiv.",
+    "category": "genitiv",
+    "cefr": "B1",
+    "frequency_rank": 30,
+    "example_sentences": [
+      { "de": "Trotz des schlechten Wetters gingen wir spazieren.", "en": "Despite the bad weather we went for a walk.", "case": "Genitiv" },
+      { "de": "Sie hat trotz ihrer Müdigkeit weitergearbeitet.", "en": "She kept working despite her tiredness.", "case": "Genitiv" }
+    ]
+  },
+  {
+    "id": "prep_waehrend",
+    "preposition": "während",
+    "english": "during, while",
+    "cases": ["Genitiv"],
+    "case_notes": "Genitiv. Very commonly used in written German. Also functions as a conjunction (while/whereas).",
+    "category": "genitiv",
+    "cefr": "B1",
+    "frequency_rank": 31,
+    "example_sentences": [
+      { "de": "Während des Unterrichts ist Stille geboten.", "en": "During the lesson silence is required.", "case": "Genitiv" },
+      { "de": "Während seines Urlaubs hat er viel gelesen.", "en": "During his holiday he read a lot.", "case": "Genitiv" }
+    ]
+  },
+  {
+    "id": "prep_statt",
+    "preposition": "statt",
+    "english": "instead of",
+    "cases": ["Genitiv"],
+    "case_notes": "Genitiv. Also written as 'anstatt' with identical meaning and usage. Expresses substitution.",
+    "category": "genitiv",
+    "cefr": "B1",
+    "frequency_rank": 32,
+    "example_sentences": [
+      { "de": "Ich nehme Tee statt des Kaffees.", "en": "I will have tea instead of the coffee.", "case": "Genitiv" },
+      { "de": "Statt einer Antwort gab er nur ein Lächeln.", "en": "Instead of an answer he gave only a smile.", "case": "Genitiv" }
+    ]
+  },
+  {
+    "id": "prep_innerhalb",
+    "preposition": "innerhalb",
+    "english": "within, inside",
+    "cases": ["Genitiv"],
+    "case_notes": "Genitiv. Used for both spatial (inside a place) and temporal (within a time frame) meaning.",
+    "category": "genitiv",
+    "cefr": "B1",
+    "frequency_rank": 33,
+    "example_sentences": [
+      { "de": "Die Pakete werden innerhalb von zwei Tagen geliefert.", "en": "The parcels will be delivered within two days.", "case": "Genitiv" },
+      { "de": "Innerhalb des Gebäudes ist Rauchen verboten.", "en": "Smoking is forbidden inside the building.", "case": "Genitiv" }
+    ]
+  },
+  {
+    "id": "prep_ausserhalb",
+    "preposition": "außerhalb",
+    "english": "outside of, beyond",
+    "cases": ["Genitiv"],
+    "case_notes": "Genitiv. Used for location or context outside a boundary. Opposite of innerhalb.",
+    "category": "genitiv",
+    "cefr": "B1",
+    "frequency_rank": 34,
+    "example_sentences": [
+      { "de": "Er wohnt außerhalb der Stadt.", "en": "He lives outside the city.", "case": "Genitiv" },
+      { "de": "Das liegt außerhalb meiner Zuständigkeit.", "en": "That is outside my area of responsibility.", "case": "Genitiv" }
+    ]
+  },
+  {
+    "id": "prep_aufgrund",
+    "preposition": "aufgrund",
+    "english": "due to, on the basis of, because of",
+    "cases": ["Genitiv"],
+    "case_notes": "Genitiv. Common in written and formal German. Also written as 'auf Grund' (two words).",
+    "category": "genitiv",
+    "cefr": "B1",
+    "frequency_rank": 35,
+    "example_sentences": [
+      { "de": "Aufgrund der Verspätung mussten wir warten.", "en": "Due to the delay we had to wait.", "case": "Genitiv" },
+      { "de": "Aufgrund seiner Erfahrung bekam er den Job.", "en": "On the basis of his experience he got the job.", "case": "Genitiv" }
+    ]
+  },
+  {
+    "id": "prep_oberhalb",
+    "preposition": "oberhalb",
+    "english": "above, over",
+    "cases": ["Genitiv"],
+    "case_notes": "Genitiv. Used for location above a reference point on a vertical scale. More precise than 'über'.",
+    "category": "genitiv",
+    "cefr": "B1",
+    "frequency_rank": 36,
+    "example_sentences": [
+      { "de": "Das Dorf liegt oberhalb der Baumgrenze.", "en": "The village lies above the tree line.", "case": "Genitiv" },
+      { "de": "Die Temperatur bleibt oberhalb des Gefrierpunkts.", "en": "The temperature stays above the freezing point.", "case": "Genitiv" }
+    ]
+  },
+  {
+    "id": "prep_unterhalb",
+    "preposition": "unterhalb",
+    "english": "below, beneath",
+    "cases": ["Genitiv"],
+    "case_notes": "Genitiv. Used for location below a reference point on a vertical scale. More precise than 'unter'.",
+    "category": "genitiv",
+    "cefr": "B1",
+    "frequency_rank": 37,
+    "example_sentences": [
+      { "de": "Die Höhle liegt unterhalb des Gipfels.", "en": "The cave is located below the summit.", "case": "Genitiv" },
+      { "de": "Temperaturen unterhalb des Nullpunkts sind gefährlich.", "en": "Temperatures below zero are dangerous.", "case": "Genitiv" }
+    ]
+  },
+  {
+    "id": "prep_wider",
+    "preposition": "wider",
+    "english": "against, contrary to",
+    "cases": ["Akkusativ"],
+    "case_notes": "Akkusativ. Formal and literary register. Expresses opposition or contradiction. Do not confuse with 'wieder' (again).",
+    "category": "akkusativ",
+    "cefr": "B2",
+    "frequency_rank": 38,
+    "example_sentences": [
+      { "de": "Er handelte wider besseres Wissen.", "en": "He acted against his better judgment.", "case": "Akkusativ" },
+      { "de": "Das geht wider meine Überzeugungen.", "en": "That goes against my convictions.", "case": "Akkusativ" }
+    ]
+  },
+  {
+    "id": "prep_entgegen",
+    "preposition": "entgegen",
+    "english": "contrary to, against, despite",
+    "cases": ["Dativ"],
+    "case_notes": "Dativ. Often placed after the noun (meiner Erwartung entgegen). Expresses that something happens in opposition to something else.",
+    "category": "dativ",
+    "cefr": "B2",
+    "frequency_rank": 39,
+    "example_sentences": [
+      { "de": "Entgegen unserer Erwartung kam er doch.", "en": "Contrary to our expectation he came after all.", "case": "Dativ" },
+      { "de": "Er handelte entgegen den Vorschriften.", "en": "He acted contrary to the regulations.", "case": "Dativ" }
+    ]
+  },
+  {
+    "id": "prep_gemaess",
+    "preposition": "gemäß",
+    "english": "in accordance with, according to",
+    "cases": ["Dativ"],
+    "case_notes": "Dativ. Formal register. Often used in legal, official, and formal texts. Can be placed before or after the noun.",
+    "category": "dativ",
+    "cefr": "B2",
+    "frequency_rank": 40,
+    "example_sentences": [
+      { "de": "Gemäß dem Vertrag zahlt er monatlich.", "en": "In accordance with the contract he pays monthly.", "case": "Dativ" },
+      { "de": "Den Regeln gemäß muss er eine Strafe zahlen.", "en": "According to the rules he must pay a fine.", "case": "Dativ" }
+    ]
+  },
+  {
+    "id": "prep_samt",
+    "preposition": "samt",
+    "english": "together with, along with",
+    "cases": ["Dativ"],
+    "case_notes": "Dativ. Used to include additional items or persons. Similar to 'mitsamt'. Often used in enumerations.",
+    "category": "dativ",
+    "cefr": "B2",
+    "frequency_rank": 41,
+    "example_sentences": [
+      { "de": "Er kam samt seiner Familie.", "en": "He came along with his family.", "case": "Dativ" },
+      { "de": "Das Haus wurde samt Möbeln verkauft.", "en": "The house was sold together with the furniture.", "case": "Dativ" }
+    ]
+  },
+  {
+    "id": "prep_zufolge",
+    "preposition": "zufolge",
+    "english": "according to",
+    "cases": ["Dativ"],
+    "case_notes": "Dativ. Usually placed after the noun as a postposition (dem Bericht zufolge). Formal register, used in journalism and official texts.",
+    "category": "dativ",
+    "cefr": "B2",
+    "frequency_rank": 42,
+    "example_sentences": [
+      { "de": "Dem Bericht zufolge stieg die Temperatur.", "en": "According to the report the temperature rose.", "case": "Dativ" },
+      { "de": "Laut Zeugen zufolge war er nicht dort.", "en": "According to the witnesses he was not there.", "case": "Dativ" }
+    ]
+  },
+  {
+    "id": "prep_diesseits",
+    "preposition": "diesseits",
+    "english": "on this side of",
+    "cases": ["Genitiv"],
+    "case_notes": "Genitiv. Used for spatial reference on the near side of a boundary. Opposite of 'jenseits'.",
+    "category": "genitiv",
+    "cefr": "B2",
+    "frequency_rank": 43,
+    "example_sentences": [
+      { "de": "Das Dorf liegt diesseits der Grenze.", "en": "The village is on this side of the border.", "case": "Genitiv" },
+      { "de": "Diesseits des Flusses ist das Land fruchtbar.", "en": "On this side of the river the land is fertile.", "case": "Genitiv" }
+    ]
+  },
+  {
+    "id": "prep_jenseits",
+    "preposition": "jenseits",
+    "english": "on the other side of, beyond",
+    "cases": ["Genitiv"],
+    "case_notes": "Genitiv. Used for spatial reference on the far side of a boundary. Also used figuratively ('beyond understanding').",
+    "category": "genitiv",
+    "cefr": "B2",
+    "frequency_rank": 44,
+    "example_sentences": [
+      { "de": "Jenseits des Gebirges liegt eine weite Ebene.", "en": "Beyond the mountains lies a wide plain.", "case": "Genitiv" },
+      { "de": "Das liegt jenseits meiner Möglichkeiten.", "en": "That is beyond my capabilities.", "case": "Genitiv" }
+    ]
+  },
+  {
+    "id": "prep_infolge",
+    "preposition": "infolge",
+    "english": "as a result of, due to",
+    "cases": ["Genitiv"],
+    "case_notes": "Genitiv. Formal register. Indicates a direct consequence or result. Common in written German.",
+    "category": "genitiv",
+    "cefr": "B2",
+    "frequency_rank": 45,
+    "example_sentences": [
+      { "de": "Infolge des Unfalls kam es zu Staus.", "en": "As a result of the accident there were traffic jams.", "case": "Genitiv" },
+      { "de": "Infolge seiner Nachlässigkeit entstanden Schäden.", "en": "Due to his negligence damage was caused.", "case": "Genitiv" }
+    ]
+  },
+  {
+    "id": "prep_mithilfe",
+    "preposition": "mithilfe",
+    "english": "with the help of, by means of",
+    "cases": ["Genitiv"],
+    "case_notes": "Genitiv. Also written as 'mit Hilfe' (two words). Indicates the means or assistance used to achieve something.",
+    "category": "genitiv",
+    "cefr": "B2",
+    "frequency_rank": 46,
+    "example_sentences": [
+      { "de": "Mithilfe des Wörterbuchs verstand ich den Text.", "en": "With the help of the dictionary I understood the text.", "case": "Genitiv" },
+      { "de": "Mithilfe moderner Technik ist das möglich.", "en": "With the help of modern technology that is possible.", "case": "Genitiv" }
+    ]
+  },
+  {
+    "id": "prep_mangels",
+    "preposition": "mangels",
+    "english": "for lack of, due to lack of",
+    "cases": ["Genitiv"],
+    "case_notes": "Genitiv. Formal register. Used in legal and official texts. Indicates something cannot happen because of a lack of something.",
+    "category": "genitiv",
+    "cefr": "B2",
+    "frequency_rank": 47,
+    "example_sentences": [
+      { "de": "Mangels Beweisen wurde er freigelassen.", "en": "For lack of evidence he was released.", "case": "Genitiv" },
+      { "de": "Mangels einer besseren Alternative entschieden wir uns dafür.", "en": "Due to lack of a better alternative we decided on it.", "case": "Genitiv" }
+    ]
+  },
+  {
+    "id": "prep_anlaesslich",
+    "preposition": "anlässlich",
+    "english": "on the occasion of",
+    "cases": ["Genitiv"],
+    "case_notes": "Genitiv. Formal and ceremonial register. Used for events or occasions. Common in speeches, invitations, and formal texts.",
+    "category": "genitiv",
+    "cefr": "B2",
+    "frequency_rank": 48,
+    "example_sentences": [
+      { "de": "Anlässlich seines Geburtstags gab es eine Feier.", "en": "On the occasion of his birthday there was a celebration.", "case": "Genitiv" },
+      { "de": "Anlässlich des Jubiläums hielt er eine Rede.", "en": "On the occasion of the anniversary he gave a speech.", "case": "Genitiv" }
+    ]
+  },
+  {
+    "id": "prep_bezueglich",
+    "preposition": "bezüglich",
+    "english": "regarding, with regard to, concerning",
+    "cases": ["Genitiv"],
+    "case_notes": "Genitiv. Formal register. Very common in business correspondence and official communication. Abbreviated as 'bzgl.' in written German.",
+    "category": "genitiv",
+    "cefr": "B2",
+    "frequency_rank": 49,
+    "example_sentences": [
+      { "de": "Bezüglich Ihrer Anfrage senden wir Ihnen die Unterlagen.", "en": "Regarding your inquiry we are sending you the documents.", "case": "Genitiv" },
+      { "de": "Es gibt noch Fragen bezüglich des Vertrags.", "en": "There are still questions regarding the contract.", "case": "Genitiv" }
+    ]
+  },
+  {
+    "id": "prep_hinsichtlich",
+    "preposition": "hinsichtlich",
+    "english": "with regard to, in terms of",
+    "cases": ["Genitiv"],
+    "case_notes": "Genitiv. Formal register. Used in professional, academic, and official texts. Often interchangeable with 'bezüglich'.",
+    "category": "genitiv",
+    "cefr": "B2",
+    "frequency_rank": 50,
+    "example_sentences": [
+      { "de": "Hinsichtlich der Kosten gibt es noch Unklarheiten.", "en": "With regard to the costs there are still uncertainties.", "case": "Genitiv" },
+      { "de": "Hinsichtlich seiner Qualifikation ist er gut geeignet.", "en": "In terms of his qualifications he is well suited.", "case": "Genitiv" }
+    ]
+  },
+  {
+    "id": "prep_zwecks",
+    "preposition": "zwecks",
+    "english": "for the purpose of, in order to",
+    "cases": ["Genitiv"],
+    "case_notes": "Genitiv. Very formal and bureaucratic register. Common in official documents and legal texts. Rarely used in spoken German.",
+    "category": "genitiv",
+    "cefr": "B2",
+    "frequency_rank": 51,
+    "example_sentences": [
+      { "de": "Zwecks besserer Verständigung schreiben wir auf Deutsch.", "en": "For the purpose of better communication we write in German.", "case": "Genitiv" },
+      { "de": "Er reiste zwecks einer Konferenz nach Wien.", "en": "He travelled to Vienna for the purpose of a conference.", "case": "Genitiv" }
+    ]
+  },
+  {
+    "id": "prep_einschliesslich",
+    "preposition": "einschließlich",
+    "english": "including, inclusive of",
+    "cases": ["Genitiv"],
+    "case_notes": "Genitiv. Can also take Dativ when used without a following article. Common in formal and commercial texts. Abbreviated as 'einschl.' or 'inkl.'",
+    "category": "genitiv",
+    "cefr": "B2",
+    "frequency_rank": 52,
+    "example_sentences": [
+      { "de": "Der Preis beträgt 200 Euro einschließlich der Mehrwertsteuer.", "en": "The price is 200 euros including VAT.", "case": "Genitiv" },
+      { "de": "Alle Mitarbeiter einschließlich der Teilzeitkräfte sind eingeladen.", "en": "All employees including part-time workers are invited.", "case": "Genitiv" }
+    ]
+  },
+  {
+    "id": "prep_abzueglich",
+    "preposition": "abzüglich",
+    "english": "minus, less, after deduction of",
+    "cases": ["Genitiv"],
+    "case_notes": "Genitiv. Formal, primarily used in financial and commercial contexts. Abbreviated as 'abzgl.'",
+    "category": "genitiv",
+    "cefr": "B2",
+    "frequency_rank": 53,
+    "example_sentences": [
+      { "de": "Der Nettopreis beträgt 100 Euro abzüglich der Rabatte.", "en": "The net price is 100 euros minus the discounts.", "case": "Genitiv" },
+      { "de": "Abzüglich der Steuern bleiben 800 Euro übrig.", "en": "After deduction of taxes 800 euros remain.", "case": "Genitiv" }
+    ]
+  }
+]

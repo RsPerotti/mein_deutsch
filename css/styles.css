@@ -443,6 +443,27 @@ button {
   color: var(--color-cooldown-text);
 }
 
+/* --- DIFFICULTY PICKER (Prepositions) --- */
+.diff-btn {
+  flex: 1;
+  padding: 8px 0;
+  border-radius: var(--r-lg);
+  border: 1.5px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-semibold);
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.diff-btn.active {
+  background: var(--color-green-accent);
+  border-color: var(--color-green-accent);
+  color: #fff;
+}
+
 /* --- EXERCISE CARD --- */
 .exercise-card {
   background: var(--color-surface);
@@ -513,6 +534,14 @@ button {
   border-bottom: 3px solid var(--color-wrong);
   padding-bottom: 1px;
   top: 0;
+}
+
+/* Highlighted preposition phrase in select_case exercises */
+.prep-highlight {
+  font-weight: var(--fw-bold);
+  color: var(--color-green-dark);
+  border-bottom: 2px solid var(--color-green-dark);
+  padding-bottom: 1px;
 }
 
 .exercise-translation {

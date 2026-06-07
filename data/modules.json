@@ -42,5 +42,16 @@
     "exercises_file": "exercises-adverbs.json",
     "unlock_order": 4,
     "status": "active"
+  },
+  {
+    "id": "module_prepositions",
+    "title_de": "Präpositionen",
+    "title_en": "Prepositions",
+    "description_en": "53 essential German prepositions — case requirements, usage notes, and contextual exercises across A1–B2 levels.",
+    "icon": "🔗",
+    "data_file": "prepositions.json",
+    "exercises_file": "exercises-prepositions.json",
+    "unlock_order": 5,
+    "status": "active"
   }
 ]

@@ -68,11 +68,22 @@ function startExercise(state) {
     contextLabel = 'ADVERBIEN · ÜBUNGEN';
   } else if (moduleId === 'module_adjectives') {
     contextLabel = 'ADJEKTIVE · GRUNDFORMEN';
+  } else if (moduleId === 'module_prepositions') {
+    contextLabel = 'PRÄPOSITIONEN · ÜBUNGEN';
   } else {
     const label = category === 'roots' ? 'STAMMVERBEN' : 'VARIATIONEN';
     contextLabel = 'VERBEN · ' + label;
   }
   document.getElementById('exercise-context-label').textContent = contextLabel;
+
+  // Show/hide difficulty picker for prepositions
+  const picker = document.getElementById('prep-difficulty-picker');
+  if (picker) {
+    picker.style.display = moduleId === 'module_prepositions' ? 'block' : 'none';
+    if (moduleId === 'module_prepositions') {
+      _updateDifficultyPicker(Progress.getPrepositionsDifficulty());
+    }
+  }
 
   _updateChips();
   _showNext();
@@ -99,6 +110,13 @@ function _buildQueue(moduleId, category) {
 
   // Adjectives — single category (Grundformen), serve all exercises
   if (moduleId === 'module_adjectives') return _shuffle([...all]);
+
+  // Prepositions — filter by selected difficulty level (exact match)
+  // Difficulty levels: 'A1' | 'A2' | 'B1' | 'B2'  (C1/C2 reserved for future expansion)
+  if (moduleId === 'module_prepositions') {
+    const difficulty = Progress.getPrepositionsDifficulty();
+    return _shuffle(all.filter(ex => ex.difficulty === difficulty));
+  }
 
   // Full queue — no session cap. User works through all exercises until complete.
   if (moduleId !== 'module_verbs') return _shuffle([...all]);
@@ -153,6 +171,10 @@ function _showNext() {
     card.innerHTML = _renderArticleChoice(ex);
   } else if (ex.type === 'conjugation_choice') {
     card.innerHTML = _renderConjugation(ex);
+  } else if (ex.type === 'select_preposition') {
+    card.innerHTML = _renderSelectPreposition(ex);
+  } else if (ex.type === 'select_case') {
+    card.innerHTML = _renderSelectCase(ex);
   } else {
     card.innerHTML = _renderTranslateWord(ex); // fallback
   }
@@ -268,6 +290,72 @@ function _renderConjugation(ex) {
   return html.replace('Übersetzen', 'Konjugation');
 }
 
+// --- Render: select_preposition ---
+// Sentence with a _____ gap; choose the correct preposition from 4 options
+function _renderSelectPreposition(ex) {
+  const sentDE  = ex.question?.de || '';
+  const sentEN  = ex.question?.en || '';
+  const options = _shuffle([ex.correct_answer, ...ex.wrong_answers.slice(0, 3)]);
+
+  const sentHtml = _esc(sentDE).replace('_____',
+    '<span class="exercise-blank" id="blank-span"></span>');
+
+  return `
+    <div class="exercise-meta">
+      <div class="exercise-counter">FRAGE ${session.correctCount + 1}</div>
+      <div class="exercise-type-label">Präposition</div>
+    </div>
+    <div class="exercise-sentence">${sentHtml}</div>
+    <div class="exercise-translation" id="ex-translation">${_esc(sentEN)}</div>
+    <div class="options-grid" id="opts">
+      ${options.map(opt => `
+        <button class="option-btn grid-opt"
+                data-answer="${_esc(opt)}"
+                onclick="selectAnswer(this)">
+          <span class="opt-word">${_esc(opt)}</span>
+        </button>`).join('')}
+    </div>
+    <div class="feedback-text" id="feedback"></div>`;
+}
+
+// --- Render: select_case ---
+// Full sentence shown with preposition phrase highlighted; choose the case it governs
+function _renderSelectCase(ex) {
+  const sentDE    = ex.question?.de  || '';
+  const sentEN    = ex.question?.en  || '';
+  const highlight = ex.question?.highlight || '';
+  const options   = _shuffle([ex.correct_answer, ...ex.wrong_answers.slice(0, 3)]);
+
+  // Bold the highlighted phrase inside the German sentence
+  let sentHtml = _esc(sentDE);
+  if (highlight) {
+    const escaped = _esc(highlight);
+    sentHtml = sentHtml.replace(escaped,
+      `<span class="prep-highlight">${escaped}</span>`);
+  }
+
+  return `
+    <div class="exercise-meta">
+      <div class="exercise-counter">FRAGE ${session.correctCount + 1}</div>
+      <div class="exercise-type-label">Kasus</div>
+    </div>
+    <div class="exercise-sentence">${sentHtml}</div>
+    <div class="exercise-translation" id="ex-translation">${_esc(sentEN)}</div>
+    <div style="font-size:var(--font-size-xs);color:var(--color-text-muted);
+                margin:-4px var(--sp-5) var(--sp-3);text-align:center;letter-spacing:0.03em">
+      Welchen Kasus regiert die hervorgehobene Präposition?
+    </div>
+    <div class="options-grid" id="opts">
+      ${options.map(opt => `
+        <button class="option-btn grid-opt"
+                data-answer="${_esc(opt)}"
+                onclick="selectAnswer(this)">
+          <span class="opt-word">${_esc(opt)}</span>
+        </button>`).join('')}
+    </div>
+    <div class="feedback-text" id="feedback"></div>`;
+}
+
 // --- Answer selection (routes to module or WL handler) ---
 function selectAnswer(btn) {
   if (exerciseMode === 'wordlist') { _selectWLAnswer(btn); return; }
@@ -287,9 +375,12 @@ function selectAnswer(btn) {
     btn.classList.add('state-correct');
     session.correctCount++;
     Progress.recordResult(session.current.exercise_id, true);
-    _unlockWord(session.current.word_id);
+    // Prepositions have no word unlock mechanic — skip for that module
+    if (session.moduleId !== 'module_prepositions') {
+      _unlockWord(session.current.word_id);
+    }
 
-    // Fill blank (if fill_blank type)
+    // Fill blank (if fill_blank / select_preposition type)
     _fillBlank(chosen, true);
 
     // Green flash → auto-advance after 1.5s
@@ -317,12 +408,13 @@ function selectAnswer(btn) {
     Progress.recordResult(session.current.exercise_id, false);
 
     // Cooldown logic (Section 11.3)
-    const wordId = session.current.word_id;
-    session.retries[wordId] = (session.retries[wordId] || 0) + 1;
-    if (session.retries[wordId] <= 2) {
+    // Use exercise_id as key for prepositions (no word_id); word_id for other modules
+    const retryKey = session.current.word_id || session.current.exercise_id;
+    session.retries[retryKey] = (session.retries[retryKey] || 0) + 1;
+    if (session.retries[retryKey] <= 2) {
       session.cooldown.push(session.current); // back to queue
-    } else {
-      Progress.addNeedsReview(wordId);        // persistent review flag
+    } else if (session.moduleId !== 'module_prepositions') {
+      Progress.addNeedsReview(retryKey);      // persistent review flag (not for prepositions)
     }
 
     _flash('red');
@@ -470,6 +562,32 @@ function _esc(str) {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#39;');
+}
+
+// ═══════════════════════════════════════════════════════
+// PREPOSITION DIFFICULTY PICKER
+// ═══════════════════════════════════════════════════════
+
+// Called by diff-btn buttons in index.html
+function setPrepositionDifficulty(level) {
+  Progress.setPrepositionsDifficulty(level);
+  _updateDifficultyPicker(level);
+
+  // Rebuild queue with new difficulty, preserving session stats
+  const exercises = _buildQueue('module_prepositions', 'all');
+  session.queue   = _shuffle([...exercises]);
+  session.cooldown = [];
+  session.current  = null;
+  session.answered = false;
+  _updateChips();
+  _showNext();
+}
+
+function _updateDifficultyPicker(level) {
+  ['A1', 'A2', 'B1', 'B2'].forEach(l => {
+    const btn = document.getElementById('diff-' + l);
+    if (btn) btn.classList.toggle('active', l === level);
+  });
 }
 
 // ═══════════════════════════════════════════════════════
