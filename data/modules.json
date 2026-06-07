@@ -25,12 +25,12 @@
     "id": "module_adjectives",
     "title_de": "Adjektive",
     "title_en": "Adjectives",
-    "description_en": "150 key adjectives with declension rules and usage examples.",
+    "description_en": "100 essential adjectives — meanings, comparatives, and usage examples.",
     "icon": "🎨",
     "data_file": "adjectives.json",
     "exercises_file": "exercises-adjectives.json",
     "unlock_order": 3,
-    "status": "coming_soon"
+    "status": "active"
   },
   {
     "id": "module_adverbs",

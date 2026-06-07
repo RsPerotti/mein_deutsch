@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "adj_gross",
+    "word": "groß",
+    "english": "big / large / tall",
+    "comparative": "größer",
+    "superlative": "am größten",
+    "antonym": "klein",
+    "frequency_rank": 1,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Das Haus ist sehr groß.", "en": "The house is very big." },
+      { "de": "Er ist groß und stark.", "en": "He is tall and strong." }
+    ],
+    "tags": ["size", "description", "a1"]
+  },
+  {
+    "id": "adj_klein",
+    "word": "klein",
+    "english": "small / little",
+    "comparative": "kleiner",
+    "superlative": "am kleinsten",
+    "antonym": "groß",
+    "frequency_rank": 2,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Die Katze ist klein und süß.", "en": "The cat is small and cute." },
+      { "de": "Mein Auto ist kleiner als deins.", "en": "My car is smaller than yours." }
+    ],
+    "tags": ["size", "description", "a1"]
+  },
+  {
+    "id": "adj_gut",
+    "word": "gut",
+    "english": "good",
+    "comparative": "besser",
+    "superlative": "am besten",
+    "antonym": "schlecht",
+    "frequency_rank": 3,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Das Essen schmeckt gut.", "en": "The food tastes good." },
+      { "de": "Sie ist eine gute Lehrerin.", "en": "She is a good teacher." }
+    ],
+    "tags": ["quality", "a1"]
+  },
+  {
+    "id": "adj_schlecht",
+    "word": "schlecht",
+    "english": "bad",
+    "comparative": "schlechter",
+    "superlative": "am schlechtesten",
+    "antonym": "gut",
+    "frequency_rank": 4,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Das Wetter ist heute schlecht.", "en": "The weather is bad today." },
+      { "de": "Ich fühle mich schlecht.", "en": "I feel bad." }
+    ],
+    "tags": ["quality", "a1"]
+  },
+  {
+    "id": "adj_alt",
+    "word": "alt",
+    "english": "old",
+    "comparative": "älter",
+    "superlative": "am ältesten",
+    "antonym": "neu",
+    "frequency_rank": 5,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Das ist ein altes Buch.", "en": "That is an old book." },
+      { "de": "Mein Großvater ist sehr alt.", "en": "My grandfather is very old." }
+    ],
+    "tags": ["age", "a1"]
+  },
+  {
+    "id": "adj_neu",
+    "word": "neu",
+    "english": "new",
+    "comparative": "neuer",
+    "superlative": "am neuesten",
+    "antonym": "alt",
+    "frequency_rank": 6,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Ich habe ein neues Handy.", "en": "I have a new phone." },
+      { "de": "Das Restaurant ist neu.", "en": "The restaurant is new." }
+    ],
+    "tags": ["age", "a1"]
+  },
+  {
+    "id": "adj_jung",
+    "word": "jung",
+    "english": "young",
+    "comparative": "jünger",
+    "superlative": "am jüngsten",
+    "antonym": "alt",
+    "frequency_rank": 7,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Sie ist noch sehr jung.", "en": "She is still very young." },
+      { "de": "Der Hund ist jung und energisch.", "en": "The dog is young and energetic." }
+    ],
+    "tags": ["age", "a1"]
+  },
+  {
+    "id": "adj_lang",
+    "word": "lang",
+    "english": "long",
+    "comparative": "länger",
+    "superlative": "am längsten",
+    "antonym": "kurz",
+    "frequency_rank": 8,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Der Weg ist lang.", "en": "The way is long." },
+      { "de": "Sie hat lange Haare.", "en": "She has long hair." }
+    ],
+    "tags": ["size", "a1"]
+  },
+  {
+    "id": "adj_kurz",
+    "word": "kurz",
+    "english": "short",
+    "comparative": "kürzer",
+    "superlative": "am kürzesten",
+    "antonym": "lang",
+    "frequency_rank": 9,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Das Gespräch war kurz.", "en": "The conversation was short." },
+      { "de": "Er trägt kurze Haare.", "en": "He wears short hair." }
+    ],
+    "tags": ["size", "a1"]
+  },
+  {
+    "id": "adj_schon",
+    "word": "schön",
+    "english": "beautiful / nice",
+    "comparative": "schöner",
+    "superlative": "am schönsten",
+    "antonym": "hässlich",
+    "frequency_rank": 10,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Das Wetter ist schön heute.", "en": "The weather is nice today." },
+      { "de": "Sie hat ein schönes Lächeln.", "en": "She has a beautiful smile." }
+    ],
+    "tags": ["appearance", "a1"]
+  },
+  {
+    "id": "adj_warm",
+    "word": "warm",
+    "english": "warm",
+    "comparative": "wärmer",
+    "superlative": "am wärmsten",
+    "antonym": "kalt",
+    "frequency_rank": 11,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Das Wasser ist warm.", "en": "The water is warm." },
+      { "de": "Im Sommer ist es warm.", "en": "In summer it is warm." }
+    ],
+    "tags": ["temperature", "a1"]
+  },
+  {
+    "id": "adj_kalt",
+    "word": "kalt",
+    "english": "cold",
+    "comparative": "kälter",
+    "superlative": "am kältesten",
+    "antonym": "warm",
+    "frequency_rank": 12,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Es ist kalt draußen.", "en": "It is cold outside." },
+      { "de": "Ich trinke gerne kalten Kaffee.", "en": "I like to drink cold coffee." }
+    ],
+    "tags": ["temperature", "a1"]
+  },
+  {
+    "id": "adj_schnell",
+    "word": "schnell",
+    "english": "fast / quick",
+    "comparative": "schneller",
+    "superlative": "am schnellsten",
+    "antonym": "langsam",
+    "frequency_rank": 13,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Das Auto fährt sehr schnell.", "en": "The car goes very fast." },
+      { "de": "Er ist ein schneller Läufer.", "en": "He is a fast runner." }
+    ],
+    "tags": ["speed", "a1"]
+  },
+  {
+    "id": "adj_langsam",
+    "word": "langsam",
+    "english": "slow",
+    "comparative": "langsamer",
+    "superlative": "am langsamsten",
+    "antonym": "schnell",
+    "frequency_rank": 14,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Die Schildkröte ist langsam.", "en": "The turtle is slow." },
+      { "de": "Bitte sprich langsamer!", "en": "Please speak more slowly!" }
+    ],
+    "tags": ["speed", "a1"]
+  },
+  {
+    "id": "adj_laut",
+    "word": "laut",
+    "english": "loud / noisy",
+    "comparative": "lauter",
+    "superlative": "am lautesten",
+    "antonym": "leise",
+    "frequency_rank": 15,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Die Musik ist zu laut.", "en": "The music is too loud." },
+      { "de": "Das Baby schreit laut.", "en": "The baby is crying loudly." }
+    ],
+    "tags": ["sound", "a1"]
+  },
+  {
+    "id": "adj_leise",
+    "word": "leise",
+    "english": "quiet / soft",
+    "comparative": "leiser",
+    "superlative": "am leisesten",
+    "antonym": "laut",
+    "frequency_rank": 16,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Bitte sei leise!", "en": "Please be quiet!" },
+      { "de": "Sie spricht mit leiser Stimme.", "en": "She speaks in a soft voice." }
+    ],
+    "tags": ["sound", "a1"]
+  },
+  {
+    "id": "adj_leicht",
+    "word": "leicht",
+    "english": "easy / light",
+    "comparative": "leichter",
+    "superlative": "am leichtesten",
+    "antonym": "schwer",
+    "frequency_rank": 17,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Die Aufgabe ist leicht.", "en": "The task is easy." },
+      { "de": "Der Koffer ist leicht.", "en": "The suitcase is light." }
+    ],
+    "tags": ["difficulty", "weight", "a1"]
+  },
+  {
+    "id": "adj_schwer",
+    "word": "schwer",
+    "english": "heavy / difficult",
+    "comparative": "schwerer",
+    "superlative": "am schwersten",
+    "antonym": "leicht",
+    "frequency_rank": 18,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Das Paket ist sehr schwer.", "en": "The package is very heavy." },
+      { "de": "Das Examen war schwer.", "en": "The exam was difficult." }
+    ],
+    "tags": ["difficulty", "weight", "a1"]
+  },
+  {
+    "id": "adj_billig",
+    "word": "billig",
+    "english": "cheap / inexpensive",
+    "comparative": "billiger",
+    "superlative": "am billigsten",
+    "antonym": "teuer",
+    "frequency_rank": 19,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Das ist ein billiges Hotel.", "en": "That is a cheap hotel." },
+      { "de": "Die Schuhe sind billig.", "en": "The shoes are cheap." }
+    ],
+    "tags": ["price", "a1"]
+  },
+  {
+    "id": "adj_teuer",
+    "word": "teuer",
+    "english": "expensive",
+    "comparative": "teurer",
+    "superlative": "am teuersten",
+    "antonym": "billig",
+    "frequency_rank": 20,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Das Restaurant ist sehr teuer.", "en": "The restaurant is very expensive." },
+      { "de": "Das Auto ist zu teuer für mich.", "en": "The car is too expensive for me." }
+    ],
+    "tags": ["price", "a1"]
+  },
+  {
+    "id": "adj_voll",
+    "word": "voll",
+    "english": "full",
+    "comparative": "voller",
+    "superlative": "am vollsten",
+    "antonym": "leer",
+    "frequency_rank": 21,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Das Glas ist voll.", "en": "The glass is full." },
+      { "de": "Der Zug ist voll besetzt.", "en": "The train is completely full." }
+    ],
+    "tags": ["quantity", "a1"]
+  },
+  {
+    "id": "adj_leer",
+    "word": "leer",
+    "english": "empty",
+    "comparative": "leerer",
+    "superlative": "am leersten",
+    "antonym": "voll",
+    "frequency_rank": 22,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Die Flasche ist leer.", "en": "The bottle is empty." },
+      { "de": "Der Raum war leer.", "en": "The room was empty." }
+    ],
+    "tags": ["quantity", "a1"]
+  },
+  {
+    "id": "adj_richtig",
+    "word": "richtig",
+    "english": "correct / right",
+    "comparative": "richtiger",
+    "superlative": "am richtigsten",
+    "antonym": "falsch",
+    "frequency_rank": 23,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Das ist die richtige Antwort.", "en": "That is the correct answer." },
+      { "de": "Bist du sicher, dass das richtig ist?", "en": "Are you sure that is right?" }
+    ],
+    "tags": ["evaluation", "a1"]
+  },
+  {
+    "id": "adj_falsch",
+    "word": "falsch",
+    "english": "wrong / incorrect",
+    "comparative": "falscher",
+    "superlative": "am falschsten",
+    "antonym": "richtig",
+    "frequency_rank": 24,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Das ist falsch.", "en": "That is wrong." },
+      { "de": "Ich habe die falsche Antwort gegeben.", "en": "I gave the wrong answer." }
+    ],
+    "tags": ["evaluation", "a1"]
+  },
+  {
+    "id": "adj_heis",
+    "word": "heiß",
+    "english": "hot",
+    "comparative": "heißer",
+    "superlative": "am heißesten",
+    "antonym": "kalt",
+    "frequency_rank": 25,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      { "de": "Der Kaffee ist zu heiß.", "en": "The coffee is too hot." },
+      { "de": "Es ist heiß im Sommer.", "en": "It is hot in summer." }
+    ],
+    "tags": ["temperature", "a1"]
+  },
+  {
+    "id": "adj_interessant",
+    "word": "interessant",
+    "english": "interesting",
+    "comparative": "interessanter",
+    "superlative": "am interessantesten",
+    "antonym": "langweilig",
+    "frequency_rank": 26,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Das Buch ist sehr interessant.", "en": "The book is very interesting." },
+      { "de": "Sie findet Geschichte interessant.", "en": "She finds history interesting." }
+    ],
+    "tags": ["evaluation", "a2"]
+  },
+  {
+    "id": "adj_langweilig",
+    "word": "langweilig",
+    "english": "boring",
+    "comparative": "langweiliger",
+    "superlative": "am langweiligsten",
+    "antonym": "interessant",
+    "frequency_rank": 27,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Der Film war langweilig.", "en": "The movie was boring." },
+      { "de": "Ich finde die Arbeit langweilig.", "en": "I find the work boring." }
+    ],
+    "tags": ["evaluation", "a2"]
+  },
+  {
+    "id": "adj_wichtig",
+    "word": "wichtig",
+    "english": "important",
+    "comparative": "wichtiger",
+    "superlative": "am wichtigsten",
+    "antonym": "unwichtig",
+    "frequency_rank": 28,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Das ist eine wichtige Frage.", "en": "That is an important question." },
+      { "de": "Gesundheit ist sehr wichtig.", "en": "Health is very important." }
+    ],
+    "tags": ["evaluation", "a2"]
+  },
+  {
+    "id": "adj_einfach",
+    "word": "einfach",
+    "english": "simple / easy",
+    "comparative": "einfacher",
+    "superlative": "am einfachsten",
+    "antonym": "schwierig",
+    "frequency_rank": 29,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Das ist ganz einfach.", "en": "That is quite simple." },
+      { "de": "Die Lösung war einfach.", "en": "The solution was simple." }
+    ],
+    "tags": ["difficulty", "a2"]
+  },
+  {
+    "id": "adj_schwierig",
+    "word": "schwierig",
+    "english": "difficult",
+    "comparative": "schwieriger",
+    "superlative": "am schwierigsten",
+    "antonym": "einfach",
+    "frequency_rank": 30,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Deutsch ist manchmal schwierig.", "en": "German is sometimes difficult." },
+      { "de": "Das Problem ist schwierig zu lösen.", "en": "The problem is difficult to solve." }
+    ],
+    "tags": ["difficulty", "a2"]
+  },
+  {
+    "id": "adj_mude",
+    "word": "müde",
+    "english": "tired",
+    "comparative": "müder",
+    "superlative": "am müdesten",
+    "antonym": "wach",
+    "frequency_rank": 31,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Ich bin sehr müde.", "en": "I am very tired." },
+      { "de": "Nach der Arbeit bin ich immer müde.", "en": "After work I am always tired." }
+    ],
+    "tags": ["feeling", "a2"]
+  },
+  {
+    "id": "adj_glucklich",
+    "word": "glücklich",
+    "english": "happy",
+    "comparative": "glücklicher",
+    "superlative": "am glücklichsten",
+    "antonym": "traurig",
+    "frequency_rank": 32,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Ich bin sehr glücklich.", "en": "I am very happy." },
+      { "de": "Sie macht mich glücklich.", "en": "She makes me happy." }
+    ],
+    "tags": ["feeling", "emotion", "a2"]
+  },
+  {
+    "id": "adj_traurig",
+    "word": "traurig",
+    "english": "sad",
+    "comparative": "trauriger",
+    "superlative": "am traurigsten",
+    "antonym": "glücklich",
+    "frequency_rank": 33,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Er ist sehr traurig.", "en": "He is very sad." },
+      { "de": "Der Film hat mich traurig gemacht.", "en": "The movie made me sad." }
+    ],
+    "tags": ["feeling", "emotion", "a2"]
+  },
+  {
+    "id": "adj_krank",
+    "word": "krank",
+    "english": "sick / ill",
+    "comparative": "kränker",
+    "superlative": "am kränksten",
+    "antonym": "gesund",
+    "frequency_rank": 34,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Ich bin krank und bleibe zu Hause.", "en": "I am sick and staying home." },
+      { "de": "Das Kind ist krank.", "en": "The child is sick." }
+    ],
+    "tags": ["health", "a2"]
+  },
+  {
+    "id": "adj_gesund",
+    "word": "gesund",
+    "english": "healthy",
+    "comparative": "gesünder",
+    "superlative": "am gesündesten",
+    "antonym": "krank",
+    "frequency_rank": 35,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Obst und Gemüse sind gesund.", "en": "Fruit and vegetables are healthy." },
+      { "de": "Er ist wieder gesund.", "en": "He is healthy again." }
+    ],
+    "tags": ["health", "a2"]
+  },
+  {
+    "id": "adj_sauber",
+    "word": "sauber",
+    "english": "clean",
+    "comparative": "sauberer",
+    "superlative": "am saubersten",
+    "antonym": "schmutzig",
+    "frequency_rank": 36,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Das Zimmer ist sauber.", "en": "The room is clean." },
+      { "de": "Ich wasche meine Hände, damit sie sauber sind.", "en": "I wash my hands so that they are clean." }
+    ],
+    "tags": ["cleanliness", "a2"]
+  },
+  {
+    "id": "adj_schmutzig",
+    "word": "schmutzig",
+    "english": "dirty",
+    "comparative": "schmutziger",
+    "superlative": "am schmutzigsten",
+    "antonym": "sauber",
+    "frequency_rank": 37,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Die Schuhe sind schmutzig.", "en": "The shoes are dirty." },
+      { "de": "Das Fenster ist schmutzig.", "en": "The window is dirty." }
+    ],
+    "tags": ["cleanliness", "a2"]
+  },
+  {
+    "id": "adj_offen",
+    "word": "offen",
+    "english": "open",
+    "comparative": "offener",
+    "superlative": "am offensten",
+    "antonym": "geschlossen",
+    "frequency_rank": 38,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Das Fenster ist offen.", "en": "The window is open." },
+      { "de": "Das Geschäft ist offen.", "en": "The shop is open." }
+    ],
+    "tags": ["state", "a2"]
+  },
+  {
+    "id": "adj_geschlossen",
+    "word": "geschlossen",
+    "english": "closed",
+    "comparative": null,
+    "superlative": null,
+    "antonym": "offen",
+    "frequency_rank": 39,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Das Café ist geschlossen.", "en": "The café is closed." },
+      { "de": "Die Tür ist geschlossen.", "en": "The door is closed." }
+    ],
+    "tags": ["state", "a2"]
+  },
+  {
+    "id": "adj_hell",
+    "word": "hell",
+    "english": "bright / light",
+    "comparative": "heller",
+    "superlative": "am hellsten",
+    "antonym": "dunkel",
+    "frequency_rank": 40,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Das Zimmer ist hell.", "en": "The room is bright." },
+      { "de": "Draußen ist es noch hell.", "en": "It is still light outside." }
+    ],
+    "tags": ["light", "a2"]
+  },
+  {
+    "id": "adj_dunkel",
+    "word": "dunkel",
+    "english": "dark",
+    "comparative": "dunkler",
+    "superlative": "am dunkelsten",
+    "antonym": "hell",
+    "frequency_rank": 41,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Es ist dunkel draußen.", "en": "It is dark outside." },
+      { "de": "Der Keller ist dunkel.", "en": "The cellar is dark." }
+    ],
+    "tags": ["light", "a2"]
+  },
+  {
+    "id": "adj_breit",
+    "word": "breit",
+    "english": "wide / broad",
+    "comparative": "breiter",
+    "superlative": "am breitesten",
+    "antonym": "eng",
+    "frequency_rank": 42,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Die Straße ist sehr breit.", "en": "The street is very wide." },
+      { "de": "Er hat breite Schultern.", "en": "He has broad shoulders." }
+    ],
+    "tags": ["size", "a2"]
+  },
+  {
+    "id": "adj_eng",
+    "word": "eng",
+    "english": "narrow / tight",
+    "comparative": "enger",
+    "superlative": "am engsten",
+    "antonym": "breit",
+    "frequency_rank": 43,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Die Hose ist eng.", "en": "The trousers are tight." },
+      { "de": "Die Gasse ist sehr eng.", "en": "The alley is very narrow." }
+    ],
+    "tags": ["size", "a2"]
+  },
+  {
+    "id": "adj_hoch",
+    "word": "hoch",
+    "english": "high / tall",
+    "comparative": "höher",
+    "superlative": "am höchsten",
+    "antonym": "niedrig",
+    "frequency_rank": 44,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Der Berg ist sehr hoch.", "en": "The mountain is very high." },
+      { "de": "Die Miete ist hoch.", "en": "The rent is high." }
+    ],
+    "tags": ["size", "a2"]
+  },
+  {
+    "id": "adj_nass",
+    "word": "nass",
+    "english": "wet",
+    "comparative": "nasser",
+    "superlative": "am nassesten",
+    "antonym": "trocken",
+    "frequency_rank": 45,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Meine Kleidung ist nass.", "en": "My clothes are wet." },
+      { "de": "Der Boden ist nass nach dem Regen.", "en": "The floor is wet after the rain." }
+    ],
+    "tags": ["state", "a2"]
+  },
+  {
+    "id": "adj_trocken",
+    "word": "trocken",
+    "english": "dry",
+    "comparative": "trockener",
+    "superlative": "am trockensten",
+    "antonym": "nass",
+    "frequency_rank": 46,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Die Luft ist heute sehr trocken.", "en": "The air is very dry today." },
+      { "de": "Das Handtuch ist trocken.", "en": "The towel is dry." }
+    ],
+    "tags": ["state", "a2"]
+  },
+  {
+    "id": "adj_sicher",
+    "word": "sicher",
+    "english": "safe / certain",
+    "comparative": "sicherer",
+    "superlative": "am sichersten",
+    "antonym": "gefährlich",
+    "frequency_rank": 47,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Diese Stadt ist sehr sicher.", "en": "This city is very safe." },
+      { "de": "Ich bin mir sicher.", "en": "I am certain." }
+    ],
+    "tags": ["safety", "a2"]
+  },
+  {
+    "id": "adj_gefahrlich",
+    "word": "gefährlich",
+    "english": "dangerous",
+    "comparative": "gefährlicher",
+    "superlative": "am gefährlichsten",
+    "antonym": "sicher",
+    "frequency_rank": 48,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Das ist sehr gefährlich!", "en": "That is very dangerous!" },
+      { "de": "Fahren bei Eis ist gefährlich.", "en": "Driving on ice is dangerous." }
+    ],
+    "tags": ["safety", "a2"]
+  },
+  {
+    "id": "adj_stark",
+    "word": "stark",
+    "english": "strong",
+    "comparative": "stärker",
+    "superlative": "am stärksten",
+    "antonym": "schwach",
+    "frequency_rank": 49,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Er ist sehr stark.", "en": "He is very strong." },
+      { "de": "Der Wind ist stark.", "en": "The wind is strong." }
+    ],
+    "tags": ["strength", "a2"]
+  },
+  {
+    "id": "adj_schwach",
+    "word": "schwach",
+    "english": "weak",
+    "comparative": "schwächer",
+    "superlative": "am schwächsten",
+    "antonym": "stark",
+    "frequency_rank": 50,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      { "de": "Nach der Krankheit war er schwach.", "en": "After the illness he was weak." },
+      { "de": "Das Signal ist schwach.", "en": "The signal is weak." }
+    ],
+    "tags": ["strength", "a2"]
+  },
+  {
+    "id": "adj_freundlich",
+    "word": "freundlich",
+    "english": "friendly / kind",
+    "comparative": "freundlicher",
+    "superlative": "am freundlichsten",
+    "antonym": "unfreundlich",
+    "frequency_rank": 51,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Die Mitarbeiter sind sehr freundlich.", "en": "The staff are very friendly." },
+      { "de": "Er ist immer freundlich zu mir.", "en": "He is always friendly to me." }
+    ],
+    "tags": ["personality", "b1"]
+  },
+  {
+    "id": "adj_hoflich",
+    "word": "höflich",
+    "english": "polite",
+    "comparative": "höflicher",
+    "superlative": "am höflichsten",
+    "antonym": "unhöflich",
+    "frequency_rank": 52,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Es ist wichtig, höflich zu sein.", "en": "It is important to be polite." },
+      { "de": "Die Kinder sind sehr höflich.", "en": "The children are very polite." }
+    ],
+    "tags": ["personality", "b1"]
+  },
+  {
+    "id": "adj_geduldig",
+    "word": "geduldig",
+    "english": "patient",
+    "comparative": "geduldiger",
+    "superlative": "am geduldigsten",
+    "antonym": "ungeduldig",
+    "frequency_rank": 53,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Man muss geduldig sein.", "en": "One must be patient." },
+      { "de": "Sie ist sehr geduldig mit den Kindern.", "en": "She is very patient with the children." }
+    ],
+    "tags": ["personality", "b1"]
+  },
+  {
+    "id": "adj_nervos",
+    "word": "nervös",
+    "english": "nervous",
+    "comparative": "nervöser",
+    "superlative": "am nervösesten",
+    "antonym": "ruhig",
+    "frequency_rank": 54,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Ich bin vor dem Examen nervös.", "en": "I am nervous before the exam." },
+      { "de": "Sie wirkt nervös.", "en": "She seems nervous." }
+    ],
+    "tags": ["feeling", "emotion", "b1"]
+  },
+  {
+    "id": "adj_ruhig",
+    "word": "ruhig",
+    "english": "calm / quiet",
+    "comparative": "ruhiger",
+    "superlative": "am ruhigsten",
+    "antonym": "nervös",
+    "frequency_rank": 55,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Bleib ruhig!", "en": "Stay calm!" },
+      { "de": "Das ist ein ruhiges Dorf.", "en": "That is a quiet village." }
+    ],
+    "tags": ["feeling", "personality", "b1"]
+  },
+  {
+    "id": "adj_nutzlich",
+    "word": "nützlich",
+    "english": "useful",
+    "comparative": "nützlicher",
+    "superlative": "am nützlichsten",
+    "antonym": "nutzlos",
+    "frequency_rank": 56,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Das ist ein nützliches Werkzeug.", "en": "That is a useful tool." },
+      { "de": "Deutsch zu lernen ist sehr nützlich.", "en": "Learning German is very useful." }
+    ],
+    "tags": ["evaluation", "b1"]
+  },
+  {
+    "id": "adj_neugierig",
+    "word": "neugierig",
+    "english": "curious",
+    "comparative": "neugieriger",
+    "superlative": "am neugierigsten",
+    "antonym": null,
+    "frequency_rank": 57,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Kinder sind von Natur aus neugierig.", "en": "Children are naturally curious." },
+      { "de": "Ich bin neugierig auf das Ergebnis.", "en": "I am curious about the result." }
+    ],
+    "tags": ["personality", "b1"]
+  },
+  {
+    "id": "adj_vorsichtig",
+    "word": "vorsichtig",
+    "english": "careful / cautious",
+    "comparative": "vorsichtiger",
+    "superlative": "am vorsichtigsten",
+    "antonym": "unvorsichtig",
+    "frequency_rank": 58,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Sei vorsichtig auf der Straße!", "en": "Be careful on the road!" },
+      { "de": "Er ist ein vorsichtiger Fahrer.", "en": "He is a careful driver." }
+    ],
+    "tags": ["personality", "b1"]
+  },
+  {
+    "id": "adj_ehrlich",
+    "word": "ehrlich",
+    "english": "honest",
+    "comparative": "ehrlicher",
+    "superlative": "am ehrlichsten",
+    "antonym": "unehrlich",
+    "frequency_rank": 59,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Er ist immer ehrlich.", "en": "He is always honest." },
+      { "de": "Sei ehrlich zu mir.", "en": "Be honest with me." }
+    ],
+    "tags": ["personality", "b1"]
+  },
+  {
+    "id": "adj_faul",
+    "word": "faul",
+    "english": "lazy",
+    "comparative": "fauler",
+    "superlative": "am faulsten",
+    "antonym": "fleißig",
+    "frequency_rank": 60,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Er ist heute sehr faul.", "en": "He is very lazy today." },
+      { "de": "Sei nicht so faul!", "en": "Don't be so lazy!" }
+    ],
+    "tags": ["personality", "b1"]
+  },
+  {
+    "id": "adj_fleissig",
+    "word": "fleißig",
+    "english": "hardworking / diligent",
+    "comparative": "fleißiger",
+    "superlative": "am fleißigsten",
+    "antonym": "faul",
+    "frequency_rank": 61,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Sie ist eine fleißige Studentin.", "en": "She is a hardworking student." },
+      { "de": "Fleißige Arbeit zahlt sich aus.", "en": "Diligent work pays off." }
+    ],
+    "tags": ["personality", "b1"]
+  },
+  {
+    "id": "adj_punktlich",
+    "word": "pünktlich",
+    "english": "punctual / on time",
+    "comparative": "pünktlicher",
+    "superlative": "am pünktlichsten",
+    "antonym": "unpünktlich",
+    "frequency_rank": 62,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Der Zug ist pünktlich.", "en": "The train is on time." },
+      { "de": "Er ist immer pünktlich.", "en": "He is always punctual." }
+    ],
+    "tags": ["personality", "time", "b1"]
+  },
+  {
+    "id": "adj_zuverlassig",
+    "word": "zuverlässig",
+    "english": "reliable",
+    "comparative": "zuverlässiger",
+    "superlative": "am zuverlässigsten",
+    "antonym": null,
+    "frequency_rank": 63,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Er ist ein zuverlässiger Freund.", "en": "He is a reliable friend." },
+      { "de": "Das Auto ist sehr zuverlässig.", "en": "The car is very reliable." }
+    ],
+    "tags": ["personality", "b1"]
+  },
+  {
+    "id": "adj_zufrieden",
+    "word": "zufrieden",
+    "english": "satisfied / content",
+    "comparative": "zufriedener",
+    "superlative": "am zufriedensten",
+    "antonym": "unzufrieden",
+    "frequency_rank": 64,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Ich bin mit meiner Arbeit zufrieden.", "en": "I am satisfied with my work." },
+      { "de": "Bist du zufrieden?", "en": "Are you content?" }
+    ],
+    "tags": ["feeling", "emotion", "b1"]
+  },
+  {
+    "id": "adj_enttauscht",
+    "word": "enttäuscht",
+    "english": "disappointed",
+    "comparative": "enttäuschter",
+    "superlative": "am enttäuschtesten",
+    "antonym": null,
+    "frequency_rank": 65,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Ich bin sehr enttäuscht.", "en": "I am very disappointed." },
+      { "de": "Sie war enttäuscht vom Ergebnis.", "en": "She was disappointed by the result." }
+    ],
+    "tags": ["feeling", "emotion", "b1"]
+  },
+  {
+    "id": "adj_stolz",
+    "word": "stolz",
+    "english": "proud",
+    "comparative": "stolzer",
+    "superlative": "am stolzesten",
+    "antonym": null,
+    "frequency_rank": 66,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Ich bin stolz auf dich.", "en": "I am proud of you." },
+      { "de": "Sie ist eine stolze Mutter.", "en": "She is a proud mother." }
+    ],
+    "tags": ["feeling", "emotion", "b1"]
+  },
+  {
+    "id": "adj_angstlich",
+    "word": "ängstlich",
+    "english": "anxious / fearful",
+    "comparative": "ängstlicher",
+    "superlative": "am ängstlichsten",
+    "antonym": "mutig",
+    "frequency_rank": 67,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Das Kind ist ängstlich vor dem Hund.", "en": "The child is fearful of the dog." },
+      { "de": "Er ist von Natur aus ängstlich.", "en": "He is naturally anxious." }
+    ],
+    "tags": ["feeling", "emotion", "b1"]
+  },
+  {
+    "id": "adj_mutig",
+    "word": "mutig",
+    "english": "brave / courageous",
+    "comparative": "mutiger",
+    "superlative": "am mutigsten",
+    "antonym": "ängstlich",
+    "frequency_rank": 68,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Der mutige Soldat half den Verletzten.", "en": "The brave soldier helped the injured." },
+      { "de": "Es war mutig von dir.", "en": "That was brave of you." }
+    ],
+    "tags": ["personality", "b1"]
+  },
+  {
+    "id": "adj_uberrascht",
+    "word": "überrascht",
+    "english": "surprised",
+    "comparative": "überraschter",
+    "superlative": "am überraschtesten",
+    "antonym": null,
+    "frequency_rank": 69,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Ich war sehr überrascht.", "en": "I was very surprised." },
+      { "de": "Sie sah überrascht aus.", "en": "She looked surprised." }
+    ],
+    "tags": ["feeling", "emotion", "b1"]
+  },
+  {
+    "id": "adj_aufgeregt",
+    "word": "aufgeregt",
+    "english": "excited",
+    "comparative": "aufgeregter",
+    "superlative": "am aufgeregtesten",
+    "antonym": "ruhig",
+    "frequency_rank": 70,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Die Kinder sind aufgeregt.", "en": "The children are excited." },
+      { "de": "Ich bin aufgeregt wegen der Reise.", "en": "I am excited about the trip." }
+    ],
+    "tags": ["feeling", "emotion", "b1"]
+  },
+  {
+    "id": "adj_beschaftigt",
+    "word": "beschäftigt",
+    "english": "busy",
+    "comparative": "beschäftigter",
+    "superlative": "am beschäftigtsten",
+    "antonym": null,
+    "frequency_rank": 71,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Ich bin heute sehr beschäftigt.", "en": "I am very busy today." },
+      { "de": "Er ist immer beschäftigt.", "en": "He is always busy." }
+    ],
+    "tags": ["state", "work", "b1"]
+  },
+  {
+    "id": "adj_lustig",
+    "word": "lustig",
+    "english": "funny / amusing",
+    "comparative": "lustiger",
+    "superlative": "am lustigsten",
+    "antonym": "langweilig",
+    "frequency_rank": 72,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Der Film ist sehr lustig.", "en": "The movie is very funny." },
+      { "de": "Er macht immer lustige Witze.", "en": "He always makes funny jokes." }
+    ],
+    "tags": ["personality", "b1"]
+  },
+  {
+    "id": "adj_klug",
+    "word": "klug",
+    "english": "clever / smart",
+    "comparative": "klüger",
+    "superlative": "am klügsten",
+    "antonym": "dumm",
+    "frequency_rank": 73,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Das ist eine kluge Entscheidung.", "en": "That is a smart decision." },
+      { "de": "Sie ist sehr klug.", "en": "She is very clever." }
+    ],
+    "tags": ["personality", "intelligence", "b1"]
+  },
+  {
+    "id": "adj_lecker",
+    "word": "lecker",
+    "english": "delicious / tasty",
+    "comparative": "leckerer",
+    "superlative": "am leckersten",
+    "antonym": null,
+    "frequency_rank": 74,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Das Essen ist sehr lecker.", "en": "The food is very delicious." },
+      { "de": "Die Torte sieht lecker aus.", "en": "The cake looks tasty." }
+    ],
+    "tags": ["food", "taste", "b1"]
+  },
+  {
+    "id": "adj_hasslich",
+    "word": "hässlich",
+    "english": "ugly",
+    "comparative": "hässlicher",
+    "superlative": "am hässlichsten",
+    "antonym": "schön",
+    "frequency_rank": 75,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      { "de": "Das Wetter ist hässlich heute.", "en": "The weather is ugly today." },
+      { "de": "Das Gebäude ist wirklich hässlich.", "en": "The building is really ugly." }
+    ],
+    "tags": ["appearance", "b1"]
+  },
+  {
+    "id": "adj_begeistert",
+    "word": "begeistert",
+    "english": "enthusiastic / thrilled",
+    "comparative": "begeisterter",
+    "superlative": "am begeistertsten",
+    "antonym": "gleichgültig",
+    "frequency_rank": 76,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Er ist von dem Projekt begeistert.", "en": "He is enthusiastic about the project." },
+      { "de": "Die Zuschauer waren begeistert.", "en": "The audience was thrilled." }
+    ],
+    "tags": ["feeling", "emotion", "b2"]
+  },
+  {
+    "id": "adj_erschopft",
+    "word": "erschöpft",
+    "english": "exhausted",
+    "comparative": "erschöpfter",
+    "superlative": "am erschöpftesten",
+    "antonym": "ausgeruht",
+    "frequency_rank": 77,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Nach dem Marathon war er erschöpft.", "en": "After the marathon he was exhausted." },
+      { "de": "Ich bin völlig erschöpft.", "en": "I am completely exhausted." }
+    ],
+    "tags": ["feeling", "state", "b2"]
+  },
+  {
+    "id": "adj_entschlossen",
+    "word": "entschlossen",
+    "english": "determined / resolute",
+    "comparative": "entschlossener",
+    "superlative": "am entschlossensten",
+    "antonym": "unentschlossen",
+    "frequency_rank": 78,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Sie ist entschlossen, ihr Ziel zu erreichen.", "en": "She is determined to reach her goal." },
+      { "de": "Er trat entschlossen auf.", "en": "He acted resolutely." }
+    ],
+    "tags": ["personality", "b2"]
+  },
+  {
+    "id": "adj_verantwortlich",
+    "word": "verantwortlich",
+    "english": "responsible",
+    "comparative": "verantwortlicher",
+    "superlative": "am verantwortlichsten",
+    "antonym": null,
+    "frequency_rank": 79,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Wer ist dafür verantwortlich?", "en": "Who is responsible for that?" },
+      { "de": "Sie übernimmt verantwortliche Aufgaben.", "en": "She takes on responsible tasks." }
+    ],
+    "tags": ["personality", "b2"]
+  },
+  {
+    "id": "adj_selbststandig",
+    "word": "selbstständig",
+    "english": "independent / self-reliant",
+    "comparative": "selbstständiger",
+    "superlative": "am selbstständigsten",
+    "antonym": "abhängig",
+    "frequency_rank": 80,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Er arbeitet selbstständig.", "en": "He works independently." },
+      { "de": "Das Kind ist sehr selbstständig.", "en": "The child is very self-reliant." }
+    ],
+    "tags": ["personality", "work", "b2"]
+  },
+  {
+    "id": "adj_kreativ",
+    "word": "kreativ",
+    "english": "creative",
+    "comparative": "kreativer",
+    "superlative": "am kreativsten",
+    "antonym": null,
+    "frequency_rank": 81,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Sie ist sehr kreativ.", "en": "She is very creative." },
+      { "de": "Wir brauchen eine kreative Lösung.", "en": "We need a creative solution." }
+    ],
+    "tags": ["personality", "b2"]
+  },
+  {
+    "id": "adj_vernunftig",
+    "word": "vernünftig",
+    "english": "reasonable / sensible",
+    "comparative": "vernünftiger",
+    "superlative": "am vernünftigsten",
+    "antonym": "unvernünftig",
+    "frequency_rank": 82,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Das ist ein vernünftiger Vorschlag.", "en": "That is a reasonable proposal." },
+      { "de": "Sei vernünftig!", "en": "Be sensible!" }
+    ],
+    "tags": ["personality", "evaluation", "b2"]
+  },
+  {
+    "id": "adj_grundlich",
+    "word": "gründlich",
+    "english": "thorough",
+    "comparative": "gründlicher",
+    "superlative": "am gründlichsten",
+    "antonym": "oberflächlich",
+    "frequency_rank": 83,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Sie arbeitet gründlich und sorgfältig.", "en": "She works thoroughly and carefully." },
+      { "de": "Eine gründliche Analyse ist nötig.", "en": "A thorough analysis is necessary." }
+    ],
+    "tags": ["personality", "work", "b2"]
+  },
+  {
+    "id": "adj_bedeutsam",
+    "word": "bedeutsam",
+    "english": "significant / meaningful",
+    "comparative": "bedeutsamer",
+    "superlative": "am bedeutsamsten",
+    "antonym": "unbedeutsam",
+    "frequency_rank": 84,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Das ist ein bedeutsames Ereignis.", "en": "That is a significant event." },
+      { "de": "Ihre Worte waren sehr bedeutsam.", "en": "Her words were very meaningful." }
+    ],
+    "tags": ["evaluation", "b2"]
+  },
+  {
+    "id": "adj_dringend",
+    "word": "dringend",
+    "english": "urgent",
+    "comparative": "dringender",
+    "superlative": "am dringendsten",
+    "antonym": null,
+    "frequency_rank": 85,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Das ist eine dringende Angelegenheit.", "en": "This is an urgent matter." },
+      { "de": "Ich muss dringend mit dir sprechen.", "en": "I urgently need to speak with you." }
+    ],
+    "tags": ["evaluation", "b2"]
+  },
+  {
+    "id": "adj_nachhaltig",
+    "word": "nachhaltig",
+    "english": "sustainable / lasting",
+    "comparative": "nachhaltiger",
+    "superlative": "am nachhaltigsten",
+    "antonym": null,
+    "frequency_rank": 86,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Wir brauchen nachhaltige Lösungen.", "en": "We need sustainable solutions." },
+      { "de": "Nachhaltiges Handeln ist wichtig.", "en": "Sustainable action is important." }
+    ],
+    "tags": ["evaluation", "b2"]
+  },
+  {
+    "id": "adj_uberzeugend",
+    "word": "überzeugend",
+    "english": "convincing / persuasive",
+    "comparative": "überzeugender",
+    "superlative": "am überzeugendsten",
+    "antonym": "unüberzeugend",
+    "frequency_rank": 87,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Das Argument ist sehr überzeugend.", "en": "The argument is very convincing." },
+      { "de": "Er hat überzeugend gesprochen.", "en": "He spoke persuasively." }
+    ],
+    "tags": ["evaluation", "communication", "b2"]
+  },
+  {
+    "id": "adj_aufmerksam",
+    "word": "aufmerksam",
+    "english": "attentive",
+    "comparative": "aufmerksamer",
+    "superlative": "am aufmerksamsten",
+    "antonym": "unaufmerksam",
+    "frequency_rank": 88,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Die Schüler waren sehr aufmerksam.", "en": "The students were very attentive." },
+      { "de": "Sei aufmerksam im Straßenverkehr.", "en": "Be attentive in traffic." }
+    ],
+    "tags": ["personality", "b2"]
+  },
+  {
+    "id": "adj_kritisch",
+    "word": "kritisch",
+    "english": "critical",
+    "comparative": "kritischer",
+    "superlative": "am kritischsten",
+    "antonym": null,
+    "frequency_rank": 89,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Er ist sehr kritisch gegenüber der Politik.", "en": "He is very critical of politics." },
+      { "de": "Das ist eine kritische Situation.", "en": "This is a critical situation." }
+    ],
+    "tags": ["evaluation", "personality", "b2"]
+  },
+  {
+    "id": "adj_kompetent",
+    "word": "kompetent",
+    "english": "competent",
+    "comparative": "kompetenter",
+    "superlative": "am kompetentesten",
+    "antonym": "inkompetent",
+    "frequency_rank": 90,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Sie ist eine kompetente Ärztin.", "en": "She is a competent doctor." },
+      { "de": "Das Team ist sehr kompetent.", "en": "The team is very competent." }
+    ],
+    "tags": ["personality", "work", "b2"]
+  },
+  {
+    "id": "adj_vielfaltig",
+    "word": "vielfältig",
+    "english": "diverse / varied",
+    "comparative": "vielfältiger",
+    "superlative": "am vielfältigsten",
+    "antonym": "einseitig",
+    "frequency_rank": 91,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Das Angebot ist sehr vielfältig.", "en": "The selection is very diverse." },
+      { "de": "Die Stadt hat eine vielfältige Kultur.", "en": "The city has a varied culture." }
+    ],
+    "tags": ["evaluation", "b2"]
+  },
+  {
+    "id": "adj_ausgepragt",
+    "word": "ausgeprägt",
+    "english": "pronounced / marked",
+    "comparative": "ausgeprägter",
+    "superlative": "am ausgeprägtesten",
+    "antonym": null,
+    "frequency_rank": 92,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Er hat eine ausgeprägte Persönlichkeit.", "en": "He has a pronounced personality." },
+      { "de": "Das Interesse ist stark ausgeprägt.", "en": "The interest is strongly marked." }
+    ],
+    "tags": ["evaluation", "b2"]
+  },
+  {
+    "id": "adj_wesentlich",
+    "word": "wesentlich",
+    "english": "essential / fundamental",
+    "comparative": "wesentlicher",
+    "superlative": "am wesentlichsten",
+    "antonym": "unwesentlich",
+    "frequency_rank": 93,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Das ist ein wesentlicher Punkt.", "en": "That is an essential point." },
+      { "de": "Vertrauen ist wesentlich für eine gute Beziehung.", "en": "Trust is fundamental to a good relationship." }
+    ],
+    "tags": ["evaluation", "b2"]
+  },
+  {
+    "id": "adj_erheblich",
+    "word": "erheblich",
+    "english": "considerable / significant",
+    "comparative": "erheblicher",
+    "superlative": "am erheblichsten",
+    "antonym": null,
+    "frequency_rank": 94,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Die Kosten sind erheblich gestiegen.", "en": "The costs have risen considerably." },
+      { "de": "Es gibt erhebliche Unterschiede.", "en": "There are significant differences." }
+    ],
+    "tags": ["evaluation", "b2"]
+  },
+  {
+    "id": "adj_vorlaufig",
+    "word": "vorläufig",
+    "english": "provisional / temporary",
+    "comparative": "vorläufiger",
+    "superlative": "am vorläufigsten",
+    "antonym": "endgültig",
+    "frequency_rank": 95,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Das ist nur eine vorläufige Lösung.", "en": "That is only a provisional solution." },
+      { "de": "Die Ergebnisse sind vorläufig.", "en": "The results are temporary." }
+    ],
+    "tags": ["evaluation", "time", "b2"]
+  },
+  {
+    "id": "adj_umfangreich",
+    "word": "umfangreich",
+    "english": "extensive / comprehensive",
+    "comparative": "umfangreicher",
+    "superlative": "am umfangreichsten",
+    "antonym": null,
+    "frequency_rank": 96,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Das ist ein umfangreiches Projekt.", "en": "That is an extensive project." },
+      { "de": "Sie hat umfangreiche Kenntnisse.", "en": "She has comprehensive knowledge." }
+    ],
+    "tags": ["evaluation", "b2"]
+  },
+  {
+    "id": "adj_gleichgultig",
+    "word": "gleichgültig",
+    "english": "indifferent",
+    "comparative": "gleichgültiger",
+    "superlative": "am gleichgültigsten",
+    "antonym": "begeistert",
+    "frequency_rank": 97,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Er ist gleichgültig gegenüber der Kritik.", "en": "He is indifferent to the criticism." },
+      { "de": "Das ist mir gleichgültig.", "en": "I am indifferent about that." }
+    ],
+    "tags": ["feeling", "personality", "b2"]
+  },
+  {
+    "id": "adj_angemessen",
+    "word": "angemessen",
+    "english": "appropriate / adequate",
+    "comparative": "angemessener",
+    "superlative": "am angemessensten",
+    "antonym": "unangemessen",
+    "frequency_rank": 98,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Der Preis ist angemessen.", "en": "The price is appropriate." },
+      { "de": "Das ist eine angemessene Reaktion.", "en": "That is an adequate response." }
+    ],
+    "tags": ["evaluation", "b2"]
+  },
+  {
+    "id": "adj_ausfuhrlich",
+    "word": "ausführlich",
+    "english": "detailed / thorough",
+    "comparative": "ausführlicher",
+    "superlative": "am ausführlichsten",
+    "antonym": "knapp",
+    "frequency_rank": 99,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Er hat ausführlich erklärt.", "en": "He explained in detail." },
+      { "de": "Bitte gib mir eine ausführliche Antwort.", "en": "Please give me a detailed answer." }
+    ],
+    "tags": ["evaluation", "communication", "b2"]
+  },
+  {
+    "id": "adj_widersprechlich",
+    "word": "widersprüchlich",
+    "english": "contradictory",
+    "comparative": "widersprüchlicher",
+    "superlative": "am widersprüchlichsten",
+    "antonym": null,
+    "frequency_rank": 100,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      { "de": "Die Informationen sind widersprüchlich.", "en": "The information is contradictory." },
+      { "de": "Sein Verhalten ist widersprüchlich.", "en": "His behaviour is contradictory." }
+    ],
+    "tags": ["evaluation", "b2"]
+  }
+]

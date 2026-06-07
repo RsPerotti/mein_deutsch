@@ -12,11 +12,12 @@ let   currentExerciseState = null;   // set before navigating to exercise
 
 // --- App data (populated on load) ---
 const appData = {
-  modules:   [],
-  verbs:     [],
-  nouns:     [],
-  adverbs:   [],
-  exercises: {}   // keyed by moduleId e.g. 'module_verbs'
+  modules:    [],
+  verbs:      [],
+  nouns:      [],
+  adverbs:    [],
+  adjectives: [],
+  exercises:  {}   // keyed by moduleId e.g. 'module_verbs'
 };
 
 // ─────────────────────────────────────────
@@ -59,8 +60,9 @@ function onScreenEnter(screenId) {
     case 'screen-exercise':    startExercise(currentExerciseState);     break;
     case 'screen-verbliste':   renderVerbliste();                       break;
     case 'screen-nomenliste':  renderNomenliste();                      break;
-    case 'screen-adverbliste': renderAdverbliste();                     break;
-    case 'screen-results':     /* rendered by exercises.js */           break;
+    case 'screen-adverbliste':     renderAdverbliste();                  break;
+    case 'screen-adjektivliste':   renderAdjektivliste();                break;
+    case 'screen-results':         /* rendered by exercises.js */        break;
   }
 }
 
@@ -84,13 +86,15 @@ async function loadData() {
   // Data is embedded via js/data.js (window.APP_DATA) — no fetch needed.
   // This works with file://, localhost, and GitHub Pages equally.
   const d = window.APP_DATA || {};
-  appData.modules                      = d.modules          || [];
-  appData.verbs                        = d.verbs            || [];
-  appData.nouns                        = d.nouns            || [];
-  appData.adverbs                      = d.adverbs          || [];
-  appData.exercises['module_verbs']    = d.exercises_verbs  || (d.exercises || {}).module_verbs || [];
-  appData.exercises['module_nouns']    = d.exercises_nouns  || [];
-  appData.exercises['module_adverbs']  = d.exercises_adverbs || [];
+  appData.modules                           = d.modules               || [];
+  appData.verbs                             = d.verbs                 || [];
+  appData.nouns                             = d.nouns                 || [];
+  appData.adverbs                           = d.adverbs               || [];
+  appData.adjectives                        = d.adjectives            || [];
+  appData.exercises['module_verbs']         = d.exercises_verbs       || (d.exercises || {}).module_verbs || [];
+  appData.exercises['module_nouns']         = d.exercises_nouns       || [];
+  appData.exercises['module_adverbs']       = d.exercises_adverbs     || [];
+  appData.exercises['module_adjectives']    = d.exercises_adjectives  || [];
 }
 
 // ─────────────────────────────────────────
@@ -124,7 +128,7 @@ function renderHome() {
 }
 
 function _totalWordCount() {
-  let n = appData.verbs.length + appData.nouns.length + appData.adverbs.length;
+  let n = appData.verbs.length + appData.nouns.length + appData.adverbs.length + appData.adjectives.length;
   for (const v of appData.verbs) n += (v.prefix_variants || []).length;
   return n;
 }
@@ -134,6 +138,8 @@ function _wordLabel(id) {
   if (noun) return `${noun.article} ${noun.word}`;
   const adv = appData.adverbs.find(a => a.id === id);
   if (adv) return adv.word;
+  const adj = appData.adjectives.find(a => a.id === id);
+  if (adj) return adj.word;
   const root = appData.verbs.find(v => v.id === id);
   if (root) return root.root;
   for (const v of appData.verbs) {
@@ -197,6 +203,8 @@ function renderModuleHome(moduleId) {
     _renderNounModuleCategories();
   } else if (moduleId === 'module_adverbs') {
     _renderAdverbModuleCategories();
+  } else if (moduleId === 'module_adjectives') {
+    _renderAdjectiveModuleCategories();
   }
 }
 
@@ -562,6 +570,146 @@ function filterAdverbList(query) {
     return;
   }
   container.innerHTML = _renderAdverbCards(adverbs);
+}
+
+// ─────────────────────────────────────────
+// MODULE HOME — ADJECTIVES
+// ─────────────────────────────────────────
+
+function _renderAdjectiveModuleCategories() {
+  const total    = appData.adjectives.length;
+  const unlocked = Progress.getUnlockedAdjectives().length;
+  const pct      = total > 0 ? Math.round(unlocked / total * 100) : 0;
+
+  document.getElementById('module-progress-count').textContent = `${unlocked} / ${total}`;
+  document.getElementById('module-progress-fill').style.width  = pct + '%';
+
+  document.getElementById('module-categories').innerHTML = `
+    <div class="label mt-4" style="color:var(--color-text-primary);margin-bottom:var(--sp-3)">
+      Übungen
+    </div>
+
+    <!-- Two category cards: Grundformen (active) + Deklinationen (placeholder) -->
+    <div class="category-pair">
+      <div class="category-card" onclick="openExercise('module_adjectives','all')">
+        <div class="category-card-title">Grundformen</div>
+        <div class="category-card-subtitle">Meanings &amp; vocabulary</div>
+        <div class="category-card-count mt-3">${unlocked} / ${total} gelernt</div>
+        <div class="progress-bar mt-2">
+          <div class="progress-fill" style="width:${pct}%"></div>
+        </div>
+        <div class="category-card-cta">Üben →</div>
+      </div>
+
+      <div class="category-card locked">
+        <div class="category-card-title" style="color:var(--color-text-muted)">Deklinationen</div>
+        <div class="category-card-subtitle">Gender &amp; case forms</div>
+        <div style="margin-top:var(--sp-3);font-size:20px">🔒</div>
+        <div style="font-size:var(--font-size-xs);color:var(--color-text-muted);margin-top:var(--sp-2);line-height:1.4">
+          Coming soon</div>
+      </div>
+    </div>
+
+    <!-- Adjektivliste link -->
+    <div class="card mt-3" style="cursor:pointer" onclick="navigateTo('screen-adjektivliste')">
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <div>
+          <div style="font-weight:var(--fw-bold)">Adjektivliste</div>
+          <div style="font-size:var(--font-size-sm);color:var(--color-text-secondary);margin-top:2px">
+            Freigeschaltete Adjektive nachschlagen</div>
+        </div>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+             style="color:var(--color-text-muted)">
+          <polyline points="9 18 15 12 9 6"/>
+        </svg>
+      </div>
+    </div>`;
+}
+
+// ─────────────────────────────────────────
+// ADJEKTIVLISTE (Adjective Reference)
+// ─────────────────────────────────────────
+
+function renderAdjektivliste() {
+  const unlockedIds = new Set(Progress.getUnlockedAdjectives());
+  let adjs = appData.adjectives.filter(a => unlockedIds.has(a.id));
+  adjs.sort((a, b) => a.word.localeCompare(b.word, 'de'));
+
+  const container = document.getElementById('adjektivliste-content');
+
+  if (adjs.length === 0) {
+    container.innerHTML = `
+      <div class="empty-state">
+        <div class="empty-icon">📖</div>
+        <p>Noch keine Adjektive freigeschaltet.</p>
+      </div>`;
+    return;
+  }
+
+  container.innerHTML = _renderAdjektivCards(adjs);
+}
+
+function _renderAdjektivCards(adjs) {
+  return adjs.map(adj => `
+    <div class="card verb-card">
+      <div class="verb-card-header" onclick="toggleAdjektivCard('${adj.id}')">
+        <div>
+          <span class="tag" style="margin-right:6px;background:var(--color-green-dark);color:#fff;font-size:var(--font-size-xs);padding:2px 7px;border-radius:4px">
+            ${adj.cefr || ''}</span>
+          <span class="verb-card-title">${adj.word}</span>
+          <span class="verb-card-en"> — ${adj.english}</span>
+        </div>
+        <svg id="ajl-arr-${adj.id}" width="16" height="16" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+             stroke-linejoin="round" style="color:var(--color-text-muted);transition:transform 0.2s">
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </div>
+
+      <div class="verb-detail" id="ajl-det-${adj.id}">
+        <div class="conj-grid mt-3" style="grid-template-columns:1fr 1fr">
+          <div><span class="pronoun">Komparativ</span> <strong>${adj.comparative || '—'}</strong></div>
+          <div><span class="pronoun">Superlativ</span> <strong>${adj.superlative || '—'}</strong></div>
+          ${adj.antonym ? `<div style="grid-column:1/-1"><span class="pronoun">Gegenteil</span> <strong>${adj.antonym}</strong></div>` : ''}
+        </div>
+        ${adj.example_sentences && adj.example_sentences.length > 0 ? `
+          <div class="label mt-3" style="margin-bottom:var(--sp-2)">Beispiele</div>
+          ${adj.example_sentences.map(ex => `
+            <div class="example-card">
+              <div class="example-de">${ex.de}</div>
+              <div class="example-en">${ex.en}</div>
+            </div>`).join('')}` : ''}
+      </div>
+    </div>`).join('');
+}
+
+function toggleAdjektivCard(adjId) {
+  const det = document.getElementById(`ajl-det-${adjId}`);
+  const arr = document.getElementById(`ajl-arr-${adjId}`);
+  const isOpen = det.classList.contains('open');
+  det.classList.toggle('open', !isOpen);
+  arr.style.transform = isOpen ? '' : 'rotate(180deg)';
+}
+
+function filterAdjektivList(query) {
+  const q = query.toLowerCase().trim();
+  const unlockedIds = new Set(Progress.getUnlockedAdjectives());
+  let adjs = appData.adjectives.filter(a => unlockedIds.has(a.id));
+  if (q) {
+    adjs = adjs.filter(a =>
+      a.word.toLowerCase().includes(q) ||
+      a.english.toLowerCase().includes(q));
+  }
+  adjs.sort((a, b) => a.word.localeCompare(b.word, 'de'));
+
+  const container = document.getElementById('adjektivliste-content');
+  if (adjs.length === 0) {
+    container.innerHTML = `<div style="color:var(--color-text-muted);padding:var(--sp-4)">
+      Keine Ergebnisse.</div>`;
+    return;
+  }
+  container.innerHTML = _renderAdjektivCards(adjs);
 }
 
 // ─────────────────────────────────────────

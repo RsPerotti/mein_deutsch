@@ -6,9 +6,10 @@
 
 // Classes available for selection (extend this as new modules are added)
 const WLP_CLASSES = [
-  { id: 'verbs',   label: 'Verben',    sublabel: 'Stammverben & Variationen', emoji: '🔤' },
-  { id: 'nouns',   label: 'Nomen',     sublabel: 'Mit Artikel',               emoji: '📦' },
-  { id: 'adverbs', label: 'Adverbien', sublabel: 'Zeitlich, modal, lokal…',   emoji: '📍' },
+  { id: 'verbs',      label: 'Verben',      sublabel: 'Stammverben & Variationen', emoji: '🔤' },
+  { id: 'nouns',      label: 'Nomen',       sublabel: 'Mit Artikel',               emoji: '📦' },
+  { id: 'adverbs',    label: 'Adverbien',   sublabel: 'Zeitlich, modal, lokal…',   emoji: '📍' },
+  { id: 'adjectives', label: 'Adjektive',   sublabel: 'Beschreibungen & Formen',   emoji: '🎨' },
 ];
 
 let _wlpSelected = new Set();
@@ -136,6 +137,19 @@ function _wlpWordsForClass(cls, unlocked) {
           german:      adv.word,
           translation: adv.english,
           type:        'ADVERB',
+          isVariant:   false
+        });
+      }
+    }
+
+  } else if (cls === 'adjectives') {
+    for (const adj of (appData.adjectives || [])) {
+      if (unlocked.includes(adj.id)) {
+        words.push({
+          id:          adj.id,
+          german:      adj.word,
+          translation: adj.english,
+          type:        'ADJEKTIV',
           isVariant:   false
         });
       }

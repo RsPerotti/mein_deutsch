@@ -1,0 +1,186 @@
+{
+  "batch_id": "adjectives_level3",
+  "category": "adjectives",
+  "unlock_level": 3,
+  "target_level": "B1",
+  "status": "done",
+  "generated_date": "2026-06-07",
+  "validated_date": "2026-06-07",
+  "words": [
+    {
+      "word": "freundlich",
+      "english": "friendly / kind",
+      "antonym": "unfreundlich",
+      "priority": 1,
+      "status": "done"
+    },
+    {
+      "word": "höflich",
+      "english": "polite",
+      "antonym": "unhöflich",
+      "priority": 2,
+      "status": "done"
+    },
+    {
+      "word": "geduldig",
+      "english": "patient",
+      "antonym": "ungeduldig",
+      "priority": 3,
+      "status": "done"
+    },
+    {
+      "word": "nervös",
+      "english": "nervous",
+      "antonym": "ruhig",
+      "priority": 4,
+      "status": "done"
+    },
+    {
+      "word": "ruhig",
+      "english": "calm / quiet",
+      "antonym": "nervös",
+      "priority": 5,
+      "status": "done"
+    },
+    {
+      "word": "nützlich",
+      "english": "useful",
+      "antonym": "nutzlos",
+      "priority": 6,
+      "status": "done"
+    },
+    {
+      "word": "neugierig",
+      "english": "curious",
+      "antonym": null,
+      "priority": 7,
+      "status": "done"
+    },
+    {
+      "word": "vorsichtig",
+      "english": "careful / cautious",
+      "antonym": "unvorsichtig",
+      "priority": 8,
+      "status": "done"
+    },
+    {
+      "word": "ehrlich",
+      "english": "honest",
+      "antonym": "unehrlich",
+      "priority": 9,
+      "status": "done"
+    },
+    {
+      "word": "faul",
+      "english": "lazy",
+      "antonym": "fleißig",
+      "priority": 10,
+      "status": "done"
+    },
+    {
+      "word": "fleißig",
+      "english": "hardworking / diligent",
+      "antonym": "faul",
+      "priority": 11,
+      "status": "done"
+    },
+    {
+      "word": "pünktlich",
+      "english": "punctual / on time",
+      "antonym": "unpünktlich",
+      "priority": 12,
+      "status": "done"
+    },
+    {
+      "word": "zuverlässig",
+      "english": "reliable",
+      "antonym": null,
+      "priority": 13,
+      "status": "done"
+    },
+    {
+      "word": "zufrieden",
+      "english": "satisfied / content",
+      "antonym": "unzufrieden",
+      "priority": 14,
+      "status": "done"
+    },
+    {
+      "word": "enttäuscht",
+      "english": "disappointed",
+      "antonym": null,
+      "priority": 15,
+      "status": "done"
+    },
+    {
+      "word": "stolz",
+      "english": "proud",
+      "antonym": null,
+      "priority": 16,
+      "status": "done"
+    },
+    {
+      "word": "ängstlich",
+      "english": "anxious / fearful",
+      "antonym": "mutig",
+      "priority": 17,
+      "status": "done"
+    },
+    {
+      "word": "mutig",
+      "english": "brave / courageous",
+      "antonym": "ängstlich",
+      "priority": 18,
+      "status": "done"
+    },
+    {
+      "word": "überrascht",
+      "english": "surprised",
+      "antonym": null,
+      "priority": 19,
+      "status": "done"
+    },
+    {
+      "word": "aufgeregt",
+      "english": "excited",
+      "antonym": "ruhig",
+      "priority": 20,
+      "status": "done"
+    },
+    {
+      "word": "beschäftigt",
+      "english": "busy",
+      "antonym": null,
+      "priority": 21,
+      "status": "done"
+    },
+    {
+      "word": "lustig",
+      "english": "funny / amusing",
+      "antonym": "langweilig",
+      "priority": 22,
+      "status": "done"
+    },
+    {
+      "word": "klug",
+      "english": "clever / smart",
+      "antonym": "dumm",
+      "priority": 23,
+      "status": "done"
+    },
+    {
+      "word": "lecker",
+      "english": "delicious / tasty",
+      "antonym": null,
+      "priority": 24,
+      "status": "done"
+    },
+    {
+      "word": "hässlich",
+      "english": "ugly",
+      "antonym": "schön",
+      "priority": 25,
+      "status": "done"
+    }
+  ]
+}

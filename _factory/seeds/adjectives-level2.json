@@ -1,0 +1,186 @@
+{
+  "batch_id": "adjectives_level2",
+  "category": "adjectives",
+  "unlock_level": 2,
+  "target_level": "A2",
+  "status": "done",
+  "generated_date": "2026-06-07",
+  "validated_date": "2026-06-07",
+  "words": [
+    {
+      "word": "interessant",
+      "english": "interesting",
+      "antonym": "langweilig",
+      "priority": 1,
+      "status": "done"
+    },
+    {
+      "word": "langweilig",
+      "english": "boring",
+      "antonym": "interessant",
+      "priority": 2,
+      "status": "done"
+    },
+    {
+      "word": "wichtig",
+      "english": "important",
+      "antonym": "unwichtig",
+      "priority": 3,
+      "status": "done"
+    },
+    {
+      "word": "einfach",
+      "english": "simple / easy",
+      "antonym": "schwierig",
+      "priority": 4,
+      "status": "done"
+    },
+    {
+      "word": "schwierig",
+      "english": "difficult",
+      "antonym": "einfach",
+      "priority": 5,
+      "status": "done"
+    },
+    {
+      "word": "müde",
+      "english": "tired",
+      "antonym": "wach",
+      "priority": 6,
+      "status": "done"
+    },
+    {
+      "word": "glücklich",
+      "english": "happy",
+      "antonym": "traurig",
+      "priority": 7,
+      "status": "done"
+    },
+    {
+      "word": "traurig",
+      "english": "sad",
+      "antonym": "glücklich",
+      "priority": 8,
+      "status": "done"
+    },
+    {
+      "word": "krank",
+      "english": "sick / ill",
+      "antonym": "gesund",
+      "priority": 9,
+      "status": "done"
+    },
+    {
+      "word": "gesund",
+      "english": "healthy",
+      "antonym": "krank",
+      "priority": 10,
+      "status": "done"
+    },
+    {
+      "word": "sauber",
+      "english": "clean",
+      "antonym": "schmutzig",
+      "priority": 11,
+      "status": "done"
+    },
+    {
+      "word": "schmutzig",
+      "english": "dirty",
+      "antonym": "sauber",
+      "priority": 12,
+      "status": "done"
+    },
+    {
+      "word": "offen",
+      "english": "open",
+      "antonym": "geschlossen",
+      "priority": 13,
+      "status": "done"
+    },
+    {
+      "word": "geschlossen",
+      "english": "closed",
+      "antonym": "offen",
+      "priority": 14,
+      "status": "done"
+    },
+    {
+      "word": "hell",
+      "english": "bright / light",
+      "antonym": "dunkel",
+      "priority": 15,
+      "status": "done"
+    },
+    {
+      "word": "dunkel",
+      "english": "dark",
+      "antonym": "hell",
+      "priority": 16,
+      "status": "done"
+    },
+    {
+      "word": "breit",
+      "english": "wide / broad",
+      "antonym": "eng",
+      "priority": 17,
+      "status": "done"
+    },
+    {
+      "word": "eng",
+      "english": "narrow / tight",
+      "antonym": "breit",
+      "priority": 18,
+      "status": "done"
+    },
+    {
+      "word": "hoch",
+      "english": "high / tall",
+      "antonym": "niedrig",
+      "priority": 19,
+      "status": "done"
+    },
+    {
+      "word": "nass",
+      "english": "wet",
+      "antonym": "trocken",
+      "priority": 20,
+      "status": "done"
+    },
+    {
+      "word": "trocken",
+      "english": "dry",
+      "antonym": "nass",
+      "priority": 21,
+      "status": "done"
+    },
+    {
+      "word": "sicher",
+      "english": "safe / certain",
+      "antonym": "gefährlich",
+      "priority": 22,
+      "status": "done"
+    },
+    {
+      "word": "gefährlich",
+      "english": "dangerous",
+      "antonym": "sicher",
+      "priority": 23,
+      "status": "done"
+    },
+    {
+      "word": "stark",
+      "english": "strong",
+      "antonym": "schwach",
+      "priority": 24,
+      "status": "done"
+    },
+    {
+      "word": "schwach",
+      "english": "weak",
+      "antonym": "stark",
+      "priority": 25,
+      "status": "done"
+    }
+  ]
+}

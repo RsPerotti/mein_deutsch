@@ -1,55 +1,44 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-06-07 — Session 9B*
+*Last updated: 2026-06-07 — Session 10*
 
 ---
 
 ## Current State
 
-**Word List Practice live.** App at https://rsperotti.github.io/mein_deutsch. Verbs (100 roots + 138 variants, 936 exercises), Nouns (175 words, 700 exercises), Adverbs (127 words, 508 exercises) all deployed. Word List now has a cross-module translation drill ("Wörter üben") — class picker → infinite-loop translate exercise, scores shared with word score bars. Next: Adjectives module.
+**Adjectives module live.** App at https://rsperotti.github.io/mein_deutsch. All four modules active: Verbs (100 roots + 138 variants, 936 exercises), Nouns (175 words, 700 exercises), Adverbs (127 words, 508 exercises), Adjectives (100 words, 400 exercises). Adjectives module has two areas: Grundformen (active — meanings + vocabulary) and Deklinationen (placeholder, locked). Next: push to GitHub Pages, then build Deklinationen area.
 
 ## What Exists
 
 | File / Folder | Status | Notes |
 |---|---|---|
-| `index.html` | ✅ Updated | All screens: Home, Word List, Module Home, Exercise, Verbliste, Nomenliste, Adverbliste, Results |
+| `index.html` | ✅ Updated | All screens: Home, Word List, Module Home, Exercise, Verbliste, Nomenliste, Adverbliste, Adjektivliste, Results |
 | `css/styles.css` | ✅ Built | Full design system — CSS variables, all components |
-| `js/app.js` | ✅ Built | Router, data loading, home + module home renderers |
-| `js/progress.js` | ✅ Updated | localStorage abstraction + `recordWordPractice()` / `getWordPracticeScore()` |
-| `js/exercises.js` | ✅ Updated | Exercise engine — all module types + Word List Practice mode (exerciseMode flag) |
-| `js/wordpractice.js` | ✅ New | Word List Practice picker — class selection, word pool builder, handoff to exercises.js |
-| `js/wordlist.js` | ✅ Built | Word list display, search, bottom sheet, Verbliste, pronunciation |
-| `data/modules.json` | ✅ Updated | 4 modules: Verbs + Nouns + Adverbs (active), Adjectives (coming_soon) |
-| `js/data.js` | ✅ **Bundled** | All content embedded here — replaces fetch(). Regenerate after each batch. |
+| `js/app.js` | ✅ Updated | Router, data loading, all module home renderers + Adjektivliste |
+| `js/progress.js` | ✅ Updated | `app_adjectives_unlocked` key + `getUnlockedAdjectives()` / `unlockAdjective()` methods |
+| `js/exercises.js` | ✅ Updated | Adjectives in queue builder, context label, unlockWord |
+| `js/wordpractice.js` | ✅ Updated | Adjektive class added to WLP_CLASSES picker |
+| `js/wordlist.js` | ✅ Updated | Adjectives in buildWordObjects() and _countTotalWords() |
+| `data/modules.json` | ✅ Updated | 4 modules: Verbs + Nouns + Adjectives + Adverbs (all active) |
+| `js/data.js` | ✅ **Bundled** | All content embedded — 1640 KB. Regenerate after each batch. |
 | `data/verbs.json` | ✅ **100 verbs** | All 4 levels (A1–B2), 25 per level — complete |
 | `data/exercises/exercises-verbs.json` | ✅ **936 exercises** | 234 word IDs × 4 exercises each |
 | `manifest.json` | ✅ Built | PWA config |
 | `service-worker.js` | ✅ Built | Cache-first offline strategy |
 | `icons/icon-192.png` | ✅ Done | Speech bubble "de" icon, #85B7EB blue background |
 | `icons/icon-512.png` | ✅ Done | Speech bubble "de" icon, #85B7EB blue background |
-| `_factory/seeds/verbs-level1.json` | ✅ Done | All 25 words status: done |
-| `_factory/seeds/verbs-level2.json` | ✅ Done | 25 A2 verbs — generated in Session 3 |
-| `_factory/seeds/verbs-level3.json` | ✅ Done | 25 B1 verbs — generated in Session 3 |
-| `_factory/seeds/verbs-level4.json` | ✅ Done | 25 B2 verbs — generated in Session 3 |
+| `_factory/seeds/verbs-level1–4.json` | ✅ Done | All 100 verbs status: done |
 | `data/nouns.json` | ✅ **175 nouns** | A1–B2 complete (25+50+50+50) |
 | `data/exercises/exercises-nouns.json` | ✅ **700 exercises** | 175 nouns × 4 each |
-| `_factory/seeds/nouns-level1.json` | ✅ Done | 25 A1 nouns |
-| `_factory/seeds/nouns-level2.json` | ✅ Done | 50 A2 nouns |
-| `_factory/seeds/nouns-level3.json` | ✅ Done | 50 B1 nouns |
-| `_factory/seeds/nouns-level4.json` | ✅ Done | 50 B2 nouns |
-| `js/app.js` | ✅ Updated | Noun module home, Nomenliste, router entry |
-| `js/exercises.js` | ✅ Updated | article_choice renderer, noun unlock/label |
-| `js/wordlist.js` | ✅ Updated | Nouns in word list with article + plural |
-| `js/progress.js` | ✅ Updated | `app_nouns_unlocked` + `app_adverbs_unlocked` keys + methods |
-| `data/adverbs.json` | ✅ **127 adverbs** | A1–B2 complete (29+25+51+22) — sourced from conversation database |
-| `data/exercises/exercises-adverbs.json` | ✅ **508 exercises** | 127 adverbs × 4 each (translate_word DE→EN, fill_blank, translate_word EN→DE, sentence comprehension) |
-| `_factory/seeds/adverbs-level1.json` | ✅ Done | 29 A1 adverbs |
-| `_factory/seeds/adverbs-level2.json` | ✅ Done | 25 A2 adverbs |
-| `_factory/seeds/adverbs-level3.json` | ✅ Done | 51 B1 adverbs |
-| `_factory/seeds/adverbs-level4.json` | ✅ Done | 22 B2 adverbs |
+| `_factory/seeds/nouns-level1–4.json` | ✅ Done | All 175 nouns status: done |
+| `data/adverbs.json` | ✅ **127 adverbs** | A1–B2 complete (29+25+51+22) |
+| `data/exercises/exercises-adverbs.json` | ✅ **508 exercises** | 127 adverbs × 4 each |
+| `_factory/seeds/adverbs-level1–4.json` | ✅ Done | All 127 adverbs status: done |
+| `data/adjectives.json` | ✅ **100 adjectives** | A1–B2 complete (25+25+25+25) |
+| `data/exercises/exercises-adjectives.json` | ✅ **400 exercises** | 100 adjectives × 4 each (translate DE→EN, fill_blank, translate EN→DE, fill_blank harder) |
+| `_factory/seeds/adjectives-level1–4.json` | ✅ Done | All 100 adjectives status: done |
 
 ## Design System
 
-Extracted from design reference screenshots:
 - **Background:** `#EDE9E1` (warm beige)
 - **Surface:** `#FFFFFF` (white cards)
 - **Green dark:** `#2D4A1A` (accent, text, progress bars)
@@ -67,25 +56,8 @@ Extracted from design reference screenshots:
 | Pronunciation | Web Speech API (`speechSynthesis`, `de-DE`) |
 | Exercises per word | 4 (blueprint rule) |
 | Default sort | Alphabetical |
-| Session size | **No cap** — full queue served until complete. Applies to all modules. No artificial limits. |
-
-## Content Progress
-
-| Batch | Level | Root Words | Variant Words | Exercises | Status |
-|---|---|---|---|---|---|
-| verbs-level1 | A1 | 25 | 52 | 308 (100 root + 208 variant) | ✅ Done |
-| verbs-level2 | A2 | 25 | 50 | ~240 | ✅ Done |
-| verbs-level3 | B1 | 25 | 33 | ~232 | ✅ Done |
-| verbs-level4 | B2 | 25 | 3 | ~112 | ✅ Done |
-| **Total** | A1–B2 | **100** | **138** | **936** | ✅ Done |
-
-*Note: Some verbs appear as both root verbs (at a higher level) and prefix variants of lower-level roots (e.g. anerkennen, gehören). Their exercises count once, as root exercises.*
-
-## Hosting
-
-- **Live URL:** https://rsperotti.github.io/mein_deutsch
-- **Repo:** https://github.com/RsPerotti/mein_deutsch (public)
-- **Deploy:** push to `main` branch → GitHub Pages auto-deploys
+| Session size | **No cap** — full queue served until complete. Applies to all modules. |
+| Adjectives scope | 100 adjectives (25 per level A1–B2); more to be added when Deklinationen area is built |
 
 ## Content Progress
 
@@ -96,16 +68,28 @@ Extracted from design reference screenshots:
 | nouns-level2 | Nouns | A2 | 50 | 200 | ✅ Done |
 | nouns-level3 | Nouns | B1 | 50 | 200 | ✅ Done |
 | nouns-level4 | Nouns | B2 | 50 | 200 | ✅ Done |
-| adverbs-level1 | Adverbs | A1 | 29 | 116 | ✅ Done |
-| adverbs-level2 | Adverbs | A2 | 25 | 100 | ✅ Done |
-| adverbs-level3 | Adverbs | B1 | 51 | 204 | ✅ Done |
-| adverbs-level4 | Adverbs | B2 | 22 | 88 | ✅ Done |
-| **Adverbs total** | | A1–B2 | **127** | **508** | ✅ Done |
+| adverbs-level1–4 | Adverbs | A1–B2 | 127 | 508 | ✅ Done |
+| adjectives-level1 | Adjectives | A1 | 25 | 100 | ✅ Done |
+| adjectives-level2 | Adjectives | A2 | 25 | 100 | ✅ Done |
+| adjectives-level3 | Adjectives | B1 | 25 | 100 | ✅ Done |
+| adjectives-level4 | Adjectives | B2 | 25 | 100 | ✅ Done |
+| **Adjectives total** | | A1–B2 | **100** | **400** | ✅ Done |
+
+## Total app content: 2,544 exercises across 4 modules
+
+## Hosting
+
+- **Live URL:** https://rsperotti.github.io/mein_deutsch
+- **Repo:** https://github.com/RsPerotti/mein_deutsch (public)
+- **Deploy:** push to `main` branch → GitHub Pages auto-deploys
 
 ## Next Steps
 
-1. **Adjectives module** — next grammar category to build
+1. **Push Session 10 to GitHub** — Adjectives module is live locally, needs deploy
+2. **Deklinationen area** — second card in Adjectives module (gender/case matching exercises)
+3. **Enrich adjective content** — add more words once Deklinationen is built
 
 ## Open Questions / Known Gaps
 
+- Adjectives Deklinationen card is a placeholder — exercises and UI not yet built
 - Pronunciation uses device TTS (no audio files) — acceptable for v1

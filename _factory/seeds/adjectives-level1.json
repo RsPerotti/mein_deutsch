@@ -1,0 +1,186 @@
+{
+  "batch_id": "adjectives_level1",
+  "category": "adjectives",
+  "unlock_level": 1,
+  "target_level": "A1",
+  "status": "done",
+  "generated_date": "2026-06-07",
+  "validated_date": "2026-06-07",
+  "words": [
+    {
+      "word": "groß",
+      "english": "big / large / tall",
+      "antonym": "klein",
+      "priority": 1,
+      "status": "done"
+    },
+    {
+      "word": "klein",
+      "english": "small / little",
+      "antonym": "groß",
+      "priority": 2,
+      "status": "done"
+    },
+    {
+      "word": "gut",
+      "english": "good",
+      "antonym": "schlecht",
+      "priority": 3,
+      "status": "done"
+    },
+    {
+      "word": "schlecht",
+      "english": "bad",
+      "antonym": "gut",
+      "priority": 4,
+      "status": "done"
+    },
+    {
+      "word": "alt",
+      "english": "old",
+      "antonym": "neu",
+      "priority": 5,
+      "status": "done"
+    },
+    {
+      "word": "neu",
+      "english": "new",
+      "antonym": "alt",
+      "priority": 6,
+      "status": "done"
+    },
+    {
+      "word": "jung",
+      "english": "young",
+      "antonym": "alt",
+      "priority": 7,
+      "status": "done"
+    },
+    {
+      "word": "lang",
+      "english": "long",
+      "antonym": "kurz",
+      "priority": 8,
+      "status": "done"
+    },
+    {
+      "word": "kurz",
+      "english": "short",
+      "antonym": "lang",
+      "priority": 9,
+      "status": "done"
+    },
+    {
+      "word": "schön",
+      "english": "beautiful / nice",
+      "antonym": "hässlich",
+      "priority": 10,
+      "status": "done"
+    },
+    {
+      "word": "warm",
+      "english": "warm",
+      "antonym": "kalt",
+      "priority": 11,
+      "status": "done"
+    },
+    {
+      "word": "kalt",
+      "english": "cold",
+      "antonym": "warm",
+      "priority": 12,
+      "status": "done"
+    },
+    {
+      "word": "schnell",
+      "english": "fast / quick",
+      "antonym": "langsam",
+      "priority": 13,
+      "status": "done"
+    },
+    {
+      "word": "langsam",
+      "english": "slow",
+      "antonym": "schnell",
+      "priority": 14,
+      "status": "done"
+    },
+    {
+      "word": "laut",
+      "english": "loud / noisy",
+      "antonym": "leise",
+      "priority": 15,
+      "status": "done"
+    },
+    {
+      "word": "leise",
+      "english": "quiet / soft",
+      "antonym": "laut",
+      "priority": 16,
+      "status": "done"
+    },
+    {
+      "word": "leicht",
+      "english": "easy / light",
+      "antonym": "schwer",
+      "priority": 17,
+      "status": "done"
+    },
+    {
+      "word": "schwer",
+      "english": "heavy / difficult",
+      "antonym": "leicht",
+      "priority": 18,
+      "status": "done"
+    },
+    {
+      "word": "billig",
+      "english": "cheap / inexpensive",
+      "antonym": "teuer",
+      "priority": 19,
+      "status": "done"
+    },
+    {
+      "word": "teuer",
+      "english": "expensive",
+      "antonym": "billig",
+      "priority": 20,
+      "status": "done"
+    },
+    {
+      "word": "voll",
+      "english": "full",
+      "antonym": "leer",
+      "priority": 21,
+      "status": "done"
+    },
+    {
+      "word": "leer",
+      "english": "empty",
+      "antonym": "voll",
+      "priority": 22,
+      "status": "done"
+    },
+    {
+      "word": "richtig",
+      "english": "correct / right",
+      "antonym": "falsch",
+      "priority": 23,
+      "status": "done"
+    },
+    {
+      "word": "falsch",
+      "english": "wrong / incorrect",
+      "antonym": "richtig",
+      "priority": 24,
+      "status": "done"
+    },
+    {
+      "word": "heiß",
+      "english": "hot",
+      "antonym": "kalt",
+      "priority": 25,
+      "status": "done"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "batch_id": "adjectives_level4",
+  "category": "adjectives",
+  "unlock_level": 4,
+  "target_level": "B2",
+  "status": "done",
+  "generated_date": "2026-06-07",
+  "validated_date": "2026-06-07",
+  "words": [
+    {
+      "word": "begeistert",
+      "english": "enthusiastic / thrilled",
+      "antonym": "gleichgültig",
+      "priority": 1,
+      "status": "done"
+    },
+    {
+      "word": "erschöpft",
+      "english": "exhausted",
+      "antonym": "ausgeruht",
+      "priority": 2,
+      "status": "done"
+    },
+    {
+      "word": "entschlossen",
+      "english": "determined / resolute",
+      "antonym": "unentschlossen",
+      "priority": 3,
+      "status": "done"
+    },
+    {
+      "word": "verantwortlich",
+      "english": "responsible",
+      "antonym": null,
+      "priority": 4,
+      "status": "done"
+    },
+    {
+      "word": "selbstständig",
+      "english": "independent / self-reliant",
+      "antonym": "abhängig",
+      "priority": 5,
+      "status": "done"
+    },
+    {
+      "word": "kreativ",
+      "english": "creative",
+      "antonym": null,
+      "priority": 6,
+      "status": "done"
+    },
+    {
+      "word": "vernünftig",
+      "english": "reasonable / sensible",
+      "antonym": "unvernünftig",
+      "priority": 7,
+      "status": "done"
+    },
+    {
+      "word": "gründlich",
+      "english": "thorough",
+      "antonym": "oberflächlich",
+      "priority": 8,
+      "status": "done"
+    },
+    {
+      "word": "bedeutsam",
+      "english": "significant / meaningful",
+      "antonym": "unbedeutsam",
+      "priority": 9,
+      "status": "done"
+    },
+    {
+      "word": "dringend",
+      "english": "urgent",
+      "antonym": null,
+      "priority": 10,
+      "status": "done"
+    },
+    {
+      "word": "nachhaltig",
+      "english": "sustainable / lasting",
+      "antonym": null,
+      "priority": 11,
+      "status": "done"
+    },
+    {
+      "word": "überzeugend",
+      "english": "convincing / persuasive",
+      "antonym": "unüberzeugend",
+      "priority": 12,
+      "status": "done"
+    },
+    {
+      "word": "aufmerksam",
+      "english": "attentive",
+      "antonym": "unaufmerksam",
+      "priority": 13,
+      "status": "done"
+    },
+    {
+      "word": "kritisch",
+      "english": "critical",
+      "antonym": null,
+      "priority": 14,
+      "status": "done"
+    },
+    {
+      "word": "kompetent",
+      "english": "competent",
+      "antonym": "inkompetent",
+      "priority": 15,
+      "status": "done"
+    },
+    {
+      "word": "vielfältig",
+      "english": "diverse / varied",
+      "antonym": "einseitig",
+      "priority": 16,
+      "status": "done"
+    },
+    {
+      "word": "ausgeprägt",
+      "english": "pronounced / marked",
+      "antonym": null,
+      "priority": 17,
+      "status": "done"
+    },
+    {
+      "word": "wesentlich",
+      "english": "essential / fundamental",
+      "antonym": "unwesentlich",
+      "priority": 18,
+      "status": "done"
+    },
+    {
+      "word": "erheblich",
+      "english": "considerable / significant",
+      "antonym": null,
+      "priority": 19,
+      "status": "done"
+    },
+    {
+      "word": "vorläufig",
+      "english": "provisional / temporary",
+      "antonym": "endgültig",
+      "priority": 20,
+      "status": "done"
+    },
+    {
+      "word": "umfangreich",
+      "english": "extensive / comprehensive",
+      "antonym": null,
+      "priority": 21,
+      "status": "done"
+    },
+    {
+      "word": "gleichgültig",
+      "english": "indifferent",
+      "antonym": "begeistert",
+      "priority": 22,
+      "status": "done"
+    },
+    {
+      "word": "angemessen",
+      "english": "appropriate / adequate",
+      "antonym": "unangemessen",
+      "priority": 23,
+      "status": "done"
+    },
+    {
+      "word": "ausführlich",
+      "english": "detailed / thorough",
+      "antonym": "knapp",
+      "priority": 24,
+      "status": "done"
+    },
+    {
+      "word": "widersprüchlich",
+      "english": "contradictory",
+      "antonym": null,
+      "priority": 25,
+      "status": "done"
+    }
+  ]
+}

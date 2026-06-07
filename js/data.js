@@ -28,12 +28,12 @@ window.APP_DATA = {
     "id": "module_adjectives",
     "title_de": "Adjektive",
     "title_en": "Adjectives",
-    "description_en": "150 key adjectives with declension rules and usage examples.",
+    "description_en": "100 essential adjectives — meanings, comparatives, and usage examples.",
     "icon": "🎨",
     "data_file": "adjectives.json",
     "exercises_file": "exercises-adjectives.json",
     "unlock_order": 3,
-    "status": "coming_soon"
+    "status": "active"
   },
   {
     "id": "module_adverbs",
@@ -15470,6 +15470,2638 @@ window.APP_DATA = {
     ],
     "tags": [
       "sentence_openers",
+      "b2"
+    ]
+  }
+],
+  adjectives: 
+[
+  {
+    "id": "adj_gross",
+    "word": "groß",
+    "english": "big / large / tall",
+    "comparative": "größer",
+    "superlative": "am größten",
+    "antonym": "klein",
+    "frequency_rank": 1,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Das Haus ist sehr groß.",
+        "en": "The house is very big."
+      },
+      {
+        "de": "Er ist groß und stark.",
+        "en": "He is tall and strong."
+      }
+    ],
+    "tags": [
+      "size",
+      "description",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_klein",
+    "word": "klein",
+    "english": "small / little",
+    "comparative": "kleiner",
+    "superlative": "am kleinsten",
+    "antonym": "groß",
+    "frequency_rank": 2,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Die Katze ist klein und süß.",
+        "en": "The cat is small and cute."
+      },
+      {
+        "de": "Mein Auto ist kleiner als deins.",
+        "en": "My car is smaller than yours."
+      }
+    ],
+    "tags": [
+      "size",
+      "description",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_gut",
+    "word": "gut",
+    "english": "good",
+    "comparative": "besser",
+    "superlative": "am besten",
+    "antonym": "schlecht",
+    "frequency_rank": 3,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Das Essen schmeckt gut.",
+        "en": "The food tastes good."
+      },
+      {
+        "de": "Sie ist eine gute Lehrerin.",
+        "en": "She is a good teacher."
+      }
+    ],
+    "tags": [
+      "quality",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_schlecht",
+    "word": "schlecht",
+    "english": "bad",
+    "comparative": "schlechter",
+    "superlative": "am schlechtesten",
+    "antonym": "gut",
+    "frequency_rank": 4,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Das Wetter ist heute schlecht.",
+        "en": "The weather is bad today."
+      },
+      {
+        "de": "Ich fühle mich schlecht.",
+        "en": "I feel bad."
+      }
+    ],
+    "tags": [
+      "quality",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_alt",
+    "word": "alt",
+    "english": "old",
+    "comparative": "älter",
+    "superlative": "am ältesten",
+    "antonym": "neu",
+    "frequency_rank": 5,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Das ist ein altes Buch.",
+        "en": "That is an old book."
+      },
+      {
+        "de": "Mein Großvater ist sehr alt.",
+        "en": "My grandfather is very old."
+      }
+    ],
+    "tags": [
+      "age",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_neu",
+    "word": "neu",
+    "english": "new",
+    "comparative": "neuer",
+    "superlative": "am neuesten",
+    "antonym": "alt",
+    "frequency_rank": 6,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich habe ein neues Handy.",
+        "en": "I have a new phone."
+      },
+      {
+        "de": "Das Restaurant ist neu.",
+        "en": "The restaurant is new."
+      }
+    ],
+    "tags": [
+      "age",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_jung",
+    "word": "jung",
+    "english": "young",
+    "comparative": "jünger",
+    "superlative": "am jüngsten",
+    "antonym": "alt",
+    "frequency_rank": 7,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Sie ist noch sehr jung.",
+        "en": "She is still very young."
+      },
+      {
+        "de": "Der Hund ist jung und energisch.",
+        "en": "The dog is young and energetic."
+      }
+    ],
+    "tags": [
+      "age",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_lang",
+    "word": "lang",
+    "english": "long",
+    "comparative": "länger",
+    "superlative": "am längsten",
+    "antonym": "kurz",
+    "frequency_rank": 8,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Der Weg ist lang.",
+        "en": "The way is long."
+      },
+      {
+        "de": "Sie hat lange Haare.",
+        "en": "She has long hair."
+      }
+    ],
+    "tags": [
+      "size",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_kurz",
+    "word": "kurz",
+    "english": "short",
+    "comparative": "kürzer",
+    "superlative": "am kürzesten",
+    "antonym": "lang",
+    "frequency_rank": 9,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Das Gespräch war kurz.",
+        "en": "The conversation was short."
+      },
+      {
+        "de": "Er trägt kurze Haare.",
+        "en": "He wears short hair."
+      }
+    ],
+    "tags": [
+      "size",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_schon",
+    "word": "schön",
+    "english": "beautiful / nice",
+    "comparative": "schöner",
+    "superlative": "am schönsten",
+    "antonym": "hässlich",
+    "frequency_rank": 10,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Das Wetter ist schön heute.",
+        "en": "The weather is nice today."
+      },
+      {
+        "de": "Sie hat ein schönes Lächeln.",
+        "en": "She has a beautiful smile."
+      }
+    ],
+    "tags": [
+      "appearance",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_warm",
+    "word": "warm",
+    "english": "warm",
+    "comparative": "wärmer",
+    "superlative": "am wärmsten",
+    "antonym": "kalt",
+    "frequency_rank": 11,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Das Wasser ist warm.",
+        "en": "The water is warm."
+      },
+      {
+        "de": "Im Sommer ist es warm.",
+        "en": "In summer it is warm."
+      }
+    ],
+    "tags": [
+      "temperature",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_kalt",
+    "word": "kalt",
+    "english": "cold",
+    "comparative": "kälter",
+    "superlative": "am kältesten",
+    "antonym": "warm",
+    "frequency_rank": 12,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Es ist kalt draußen.",
+        "en": "It is cold outside."
+      },
+      {
+        "de": "Ich trinke gerne kalten Kaffee.",
+        "en": "I like to drink cold coffee."
+      }
+    ],
+    "tags": [
+      "temperature",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_schnell",
+    "word": "schnell",
+    "english": "fast / quick",
+    "comparative": "schneller",
+    "superlative": "am schnellsten",
+    "antonym": "langsam",
+    "frequency_rank": 13,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Das Auto fährt sehr schnell.",
+        "en": "The car goes very fast."
+      },
+      {
+        "de": "Er ist ein schneller Läufer.",
+        "en": "He is a fast runner."
+      }
+    ],
+    "tags": [
+      "speed",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_langsam",
+    "word": "langsam",
+    "english": "slow",
+    "comparative": "langsamer",
+    "superlative": "am langsamsten",
+    "antonym": "schnell",
+    "frequency_rank": 14,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Die Schildkröte ist langsam.",
+        "en": "The turtle is slow."
+      },
+      {
+        "de": "Bitte sprich langsamer!",
+        "en": "Please speak more slowly!"
+      }
+    ],
+    "tags": [
+      "speed",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_laut",
+    "word": "laut",
+    "english": "loud / noisy",
+    "comparative": "lauter",
+    "superlative": "am lautesten",
+    "antonym": "leise",
+    "frequency_rank": 15,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Die Musik ist zu laut.",
+        "en": "The music is too loud."
+      },
+      {
+        "de": "Das Baby schreit laut.",
+        "en": "The baby is crying loudly."
+      }
+    ],
+    "tags": [
+      "sound",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_leise",
+    "word": "leise",
+    "english": "quiet / soft",
+    "comparative": "leiser",
+    "superlative": "am leisesten",
+    "antonym": "laut",
+    "frequency_rank": 16,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Bitte sei leise!",
+        "en": "Please be quiet!"
+      },
+      {
+        "de": "Sie spricht mit leiser Stimme.",
+        "en": "She speaks in a soft voice."
+      }
+    ],
+    "tags": [
+      "sound",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_leicht",
+    "word": "leicht",
+    "english": "easy / light",
+    "comparative": "leichter",
+    "superlative": "am leichtesten",
+    "antonym": "schwer",
+    "frequency_rank": 17,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Die Aufgabe ist leicht.",
+        "en": "The task is easy."
+      },
+      {
+        "de": "Der Koffer ist leicht.",
+        "en": "The suitcase is light."
+      }
+    ],
+    "tags": [
+      "difficulty",
+      "weight",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_schwer",
+    "word": "schwer",
+    "english": "heavy / difficult",
+    "comparative": "schwerer",
+    "superlative": "am schwersten",
+    "antonym": "leicht",
+    "frequency_rank": 18,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Das Paket ist sehr schwer.",
+        "en": "The package is very heavy."
+      },
+      {
+        "de": "Das Examen war schwer.",
+        "en": "The exam was difficult."
+      }
+    ],
+    "tags": [
+      "difficulty",
+      "weight",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_billig",
+    "word": "billig",
+    "english": "cheap / inexpensive",
+    "comparative": "billiger",
+    "superlative": "am billigsten",
+    "antonym": "teuer",
+    "frequency_rank": 19,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Das ist ein billiges Hotel.",
+        "en": "That is a cheap hotel."
+      },
+      {
+        "de": "Die Schuhe sind billig.",
+        "en": "The shoes are cheap."
+      }
+    ],
+    "tags": [
+      "price",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_teuer",
+    "word": "teuer",
+    "english": "expensive",
+    "comparative": "teurer",
+    "superlative": "am teuersten",
+    "antonym": "billig",
+    "frequency_rank": 20,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Das Restaurant ist sehr teuer.",
+        "en": "The restaurant is very expensive."
+      },
+      {
+        "de": "Das Auto ist zu teuer für mich.",
+        "en": "The car is too expensive for me."
+      }
+    ],
+    "tags": [
+      "price",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_voll",
+    "word": "voll",
+    "english": "full",
+    "comparative": "voller",
+    "superlative": "am vollsten",
+    "antonym": "leer",
+    "frequency_rank": 21,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Das Glas ist voll.",
+        "en": "The glass is full."
+      },
+      {
+        "de": "Der Zug ist voll besetzt.",
+        "en": "The train is completely full."
+      }
+    ],
+    "tags": [
+      "quantity",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_leer",
+    "word": "leer",
+    "english": "empty",
+    "comparative": "leerer",
+    "superlative": "am leersten",
+    "antonym": "voll",
+    "frequency_rank": 22,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Die Flasche ist leer.",
+        "en": "The bottle is empty."
+      },
+      {
+        "de": "Der Raum war leer.",
+        "en": "The room was empty."
+      }
+    ],
+    "tags": [
+      "quantity",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_richtig",
+    "word": "richtig",
+    "english": "correct / right",
+    "comparative": "richtiger",
+    "superlative": "am richtigsten",
+    "antonym": "falsch",
+    "frequency_rank": 23,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Das ist die richtige Antwort.",
+        "en": "That is the correct answer."
+      },
+      {
+        "de": "Bist du sicher, dass das richtig ist?",
+        "en": "Are you sure that is right?"
+      }
+    ],
+    "tags": [
+      "evaluation",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_falsch",
+    "word": "falsch",
+    "english": "wrong / incorrect",
+    "comparative": "falscher",
+    "superlative": "am falschsten",
+    "antonym": "richtig",
+    "frequency_rank": 24,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Das ist falsch.",
+        "en": "That is wrong."
+      },
+      {
+        "de": "Ich habe die falsche Antwort gegeben.",
+        "en": "I gave the wrong answer."
+      }
+    ],
+    "tags": [
+      "evaluation",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_heis",
+    "word": "heiß",
+    "english": "hot",
+    "comparative": "heißer",
+    "superlative": "am heißesten",
+    "antonym": "kalt",
+    "frequency_rank": 25,
+    "module": "adjectives",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Der Kaffee ist zu heiß.",
+        "en": "The coffee is too hot."
+      },
+      {
+        "de": "Es ist heiß im Sommer.",
+        "en": "It is hot in summer."
+      }
+    ],
+    "tags": [
+      "temperature",
+      "a1"
+    ]
+  },
+  {
+    "id": "adj_interessant",
+    "word": "interessant",
+    "english": "interesting",
+    "comparative": "interessanter",
+    "superlative": "am interessantesten",
+    "antonym": "langweilig",
+    "frequency_rank": 26,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das Buch ist sehr interessant.",
+        "en": "The book is very interesting."
+      },
+      {
+        "de": "Sie findet Geschichte interessant.",
+        "en": "She finds history interesting."
+      }
+    ],
+    "tags": [
+      "evaluation",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_langweilig",
+    "word": "langweilig",
+    "english": "boring",
+    "comparative": "langweiliger",
+    "superlative": "am langweiligsten",
+    "antonym": "interessant",
+    "frequency_rank": 27,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Der Film war langweilig.",
+        "en": "The movie was boring."
+      },
+      {
+        "de": "Ich finde die Arbeit langweilig.",
+        "en": "I find the work boring."
+      }
+    ],
+    "tags": [
+      "evaluation",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_wichtig",
+    "word": "wichtig",
+    "english": "important",
+    "comparative": "wichtiger",
+    "superlative": "am wichtigsten",
+    "antonym": "unwichtig",
+    "frequency_rank": 28,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das ist eine wichtige Frage.",
+        "en": "That is an important question."
+      },
+      {
+        "de": "Gesundheit ist sehr wichtig.",
+        "en": "Health is very important."
+      }
+    ],
+    "tags": [
+      "evaluation",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_einfach",
+    "word": "einfach",
+    "english": "simple / easy",
+    "comparative": "einfacher",
+    "superlative": "am einfachsten",
+    "antonym": "schwierig",
+    "frequency_rank": 29,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das ist ganz einfach.",
+        "en": "That is quite simple."
+      },
+      {
+        "de": "Die Lösung war einfach.",
+        "en": "The solution was simple."
+      }
+    ],
+    "tags": [
+      "difficulty",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_schwierig",
+    "word": "schwierig",
+    "english": "difficult",
+    "comparative": "schwieriger",
+    "superlative": "am schwierigsten",
+    "antonym": "einfach",
+    "frequency_rank": 30,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Deutsch ist manchmal schwierig.",
+        "en": "German is sometimes difficult."
+      },
+      {
+        "de": "Das Problem ist schwierig zu lösen.",
+        "en": "The problem is difficult to solve."
+      }
+    ],
+    "tags": [
+      "difficulty",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_mude",
+    "word": "müde",
+    "english": "tired",
+    "comparative": "müder",
+    "superlative": "am müdesten",
+    "antonym": "wach",
+    "frequency_rank": 31,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ich bin sehr müde.",
+        "en": "I am very tired."
+      },
+      {
+        "de": "Nach der Arbeit bin ich immer müde.",
+        "en": "After work I am always tired."
+      }
+    ],
+    "tags": [
+      "feeling",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_glucklich",
+    "word": "glücklich",
+    "english": "happy",
+    "comparative": "glücklicher",
+    "superlative": "am glücklichsten",
+    "antonym": "traurig",
+    "frequency_rank": 32,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ich bin sehr glücklich.",
+        "en": "I am very happy."
+      },
+      {
+        "de": "Sie macht mich glücklich.",
+        "en": "She makes me happy."
+      }
+    ],
+    "tags": [
+      "feeling",
+      "emotion",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_traurig",
+    "word": "traurig",
+    "english": "sad",
+    "comparative": "trauriger",
+    "superlative": "am traurigsten",
+    "antonym": "glücklich",
+    "frequency_rank": 33,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Er ist sehr traurig.",
+        "en": "He is very sad."
+      },
+      {
+        "de": "Der Film hat mich traurig gemacht.",
+        "en": "The movie made me sad."
+      }
+    ],
+    "tags": [
+      "feeling",
+      "emotion",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_krank",
+    "word": "krank",
+    "english": "sick / ill",
+    "comparative": "kränker",
+    "superlative": "am kränksten",
+    "antonym": "gesund",
+    "frequency_rank": 34,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ich bin krank und bleibe zu Hause.",
+        "en": "I am sick and staying home."
+      },
+      {
+        "de": "Das Kind ist krank.",
+        "en": "The child is sick."
+      }
+    ],
+    "tags": [
+      "health",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_gesund",
+    "word": "gesund",
+    "english": "healthy",
+    "comparative": "gesünder",
+    "superlative": "am gesündesten",
+    "antonym": "krank",
+    "frequency_rank": 35,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Obst und Gemüse sind gesund.",
+        "en": "Fruit and vegetables are healthy."
+      },
+      {
+        "de": "Er ist wieder gesund.",
+        "en": "He is healthy again."
+      }
+    ],
+    "tags": [
+      "health",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_sauber",
+    "word": "sauber",
+    "english": "clean",
+    "comparative": "sauberer",
+    "superlative": "am saubersten",
+    "antonym": "schmutzig",
+    "frequency_rank": 36,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das Zimmer ist sauber.",
+        "en": "The room is clean."
+      },
+      {
+        "de": "Ich wasche meine Hände, damit sie sauber sind.",
+        "en": "I wash my hands so that they are clean."
+      }
+    ],
+    "tags": [
+      "cleanliness",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_schmutzig",
+    "word": "schmutzig",
+    "english": "dirty",
+    "comparative": "schmutziger",
+    "superlative": "am schmutzigsten",
+    "antonym": "sauber",
+    "frequency_rank": 37,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Die Schuhe sind schmutzig.",
+        "en": "The shoes are dirty."
+      },
+      {
+        "de": "Das Fenster ist schmutzig.",
+        "en": "The window is dirty."
+      }
+    ],
+    "tags": [
+      "cleanliness",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_offen",
+    "word": "offen",
+    "english": "open",
+    "comparative": "offener",
+    "superlative": "am offensten",
+    "antonym": "geschlossen",
+    "frequency_rank": 38,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das Fenster ist offen.",
+        "en": "The window is open."
+      },
+      {
+        "de": "Das Geschäft ist offen.",
+        "en": "The shop is open."
+      }
+    ],
+    "tags": [
+      "state",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_geschlossen",
+    "word": "geschlossen",
+    "english": "closed",
+    "comparative": null,
+    "superlative": null,
+    "antonym": "offen",
+    "frequency_rank": 39,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das Café ist geschlossen.",
+        "en": "The café is closed."
+      },
+      {
+        "de": "Die Tür ist geschlossen.",
+        "en": "The door is closed."
+      }
+    ],
+    "tags": [
+      "state",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_hell",
+    "word": "hell",
+    "english": "bright / light",
+    "comparative": "heller",
+    "superlative": "am hellsten",
+    "antonym": "dunkel",
+    "frequency_rank": 40,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das Zimmer ist hell.",
+        "en": "The room is bright."
+      },
+      {
+        "de": "Draußen ist es noch hell.",
+        "en": "It is still light outside."
+      }
+    ],
+    "tags": [
+      "light",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_dunkel",
+    "word": "dunkel",
+    "english": "dark",
+    "comparative": "dunkler",
+    "superlative": "am dunkelsten",
+    "antonym": "hell",
+    "frequency_rank": 41,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Es ist dunkel draußen.",
+        "en": "It is dark outside."
+      },
+      {
+        "de": "Der Keller ist dunkel.",
+        "en": "The cellar is dark."
+      }
+    ],
+    "tags": [
+      "light",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_breit",
+    "word": "breit",
+    "english": "wide / broad",
+    "comparative": "breiter",
+    "superlative": "am breitesten",
+    "antonym": "eng",
+    "frequency_rank": 42,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Die Straße ist sehr breit.",
+        "en": "The street is very wide."
+      },
+      {
+        "de": "Er hat breite Schultern.",
+        "en": "He has broad shoulders."
+      }
+    ],
+    "tags": [
+      "size",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_eng",
+    "word": "eng",
+    "english": "narrow / tight",
+    "comparative": "enger",
+    "superlative": "am engsten",
+    "antonym": "breit",
+    "frequency_rank": 43,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Die Hose ist eng.",
+        "en": "The trousers are tight."
+      },
+      {
+        "de": "Die Gasse ist sehr eng.",
+        "en": "The alley is very narrow."
+      }
+    ],
+    "tags": [
+      "size",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_hoch",
+    "word": "hoch",
+    "english": "high / tall",
+    "comparative": "höher",
+    "superlative": "am höchsten",
+    "antonym": "niedrig",
+    "frequency_rank": 44,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Der Berg ist sehr hoch.",
+        "en": "The mountain is very high."
+      },
+      {
+        "de": "Die Miete ist hoch.",
+        "en": "The rent is high."
+      }
+    ],
+    "tags": [
+      "size",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_nass",
+    "word": "nass",
+    "english": "wet",
+    "comparative": "nasser",
+    "superlative": "am nassesten",
+    "antonym": "trocken",
+    "frequency_rank": 45,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Meine Kleidung ist nass.",
+        "en": "My clothes are wet."
+      },
+      {
+        "de": "Der Boden ist nass nach dem Regen.",
+        "en": "The floor is wet after the rain."
+      }
+    ],
+    "tags": [
+      "state",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_trocken",
+    "word": "trocken",
+    "english": "dry",
+    "comparative": "trockener",
+    "superlative": "am trockensten",
+    "antonym": "nass",
+    "frequency_rank": 46,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Die Luft ist heute sehr trocken.",
+        "en": "The air is very dry today."
+      },
+      {
+        "de": "Das Handtuch ist trocken.",
+        "en": "The towel is dry."
+      }
+    ],
+    "tags": [
+      "state",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_sicher",
+    "word": "sicher",
+    "english": "safe / certain",
+    "comparative": "sicherer",
+    "superlative": "am sichersten",
+    "antonym": "gefährlich",
+    "frequency_rank": 47,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Diese Stadt ist sehr sicher.",
+        "en": "This city is very safe."
+      },
+      {
+        "de": "Ich bin mir sicher.",
+        "en": "I am certain."
+      }
+    ],
+    "tags": [
+      "safety",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_gefahrlich",
+    "word": "gefährlich",
+    "english": "dangerous",
+    "comparative": "gefährlicher",
+    "superlative": "am gefährlichsten",
+    "antonym": "sicher",
+    "frequency_rank": 48,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das ist sehr gefährlich!",
+        "en": "That is very dangerous!"
+      },
+      {
+        "de": "Fahren bei Eis ist gefährlich.",
+        "en": "Driving on ice is dangerous."
+      }
+    ],
+    "tags": [
+      "safety",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_stark",
+    "word": "stark",
+    "english": "strong",
+    "comparative": "stärker",
+    "superlative": "am stärksten",
+    "antonym": "schwach",
+    "frequency_rank": 49,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Er ist sehr stark.",
+        "en": "He is very strong."
+      },
+      {
+        "de": "Der Wind ist stark.",
+        "en": "The wind is strong."
+      }
+    ],
+    "tags": [
+      "strength",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_schwach",
+    "word": "schwach",
+    "english": "weak",
+    "comparative": "schwächer",
+    "superlative": "am schwächsten",
+    "antonym": "stark",
+    "frequency_rank": 50,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Nach der Krankheit war er schwach.",
+        "en": "After the illness he was weak."
+      },
+      {
+        "de": "Das Signal ist schwach.",
+        "en": "The signal is weak."
+      }
+    ],
+    "tags": [
+      "strength",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_freundlich",
+    "word": "freundlich",
+    "english": "friendly / kind",
+    "comparative": "freundlicher",
+    "superlative": "am freundlichsten",
+    "antonym": "unfreundlich",
+    "frequency_rank": 51,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Die Mitarbeiter sind sehr freundlich.",
+        "en": "The staff are very friendly."
+      },
+      {
+        "de": "Er ist immer freundlich zu mir.",
+        "en": "He is always friendly to me."
+      }
+    ],
+    "tags": [
+      "personality",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_hoflich",
+    "word": "höflich",
+    "english": "polite",
+    "comparative": "höflicher",
+    "superlative": "am höflichsten",
+    "antonym": "unhöflich",
+    "frequency_rank": 52,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Es ist wichtig, höflich zu sein.",
+        "en": "It is important to be polite."
+      },
+      {
+        "de": "Die Kinder sind sehr höflich.",
+        "en": "The children are very polite."
+      }
+    ],
+    "tags": [
+      "personality",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_geduldig",
+    "word": "geduldig",
+    "english": "patient",
+    "comparative": "geduldiger",
+    "superlative": "am geduldigsten",
+    "antonym": "ungeduldig",
+    "frequency_rank": 53,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Man muss geduldig sein.",
+        "en": "One must be patient."
+      },
+      {
+        "de": "Sie ist sehr geduldig mit den Kindern.",
+        "en": "She is very patient with the children."
+      }
+    ],
+    "tags": [
+      "personality",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_nervos",
+    "word": "nervös",
+    "english": "nervous",
+    "comparative": "nervöser",
+    "superlative": "am nervösesten",
+    "antonym": "ruhig",
+    "frequency_rank": 54,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ich bin vor dem Examen nervös.",
+        "en": "I am nervous before the exam."
+      },
+      {
+        "de": "Sie wirkt nervös.",
+        "en": "She seems nervous."
+      }
+    ],
+    "tags": [
+      "feeling",
+      "emotion",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_ruhig",
+    "word": "ruhig",
+    "english": "calm / quiet",
+    "comparative": "ruhiger",
+    "superlative": "am ruhigsten",
+    "antonym": "nervös",
+    "frequency_rank": 55,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Bleib ruhig!",
+        "en": "Stay calm!"
+      },
+      {
+        "de": "Das ist ein ruhiges Dorf.",
+        "en": "That is a quiet village."
+      }
+    ],
+    "tags": [
+      "feeling",
+      "personality",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_nutzlich",
+    "word": "nützlich",
+    "english": "useful",
+    "comparative": "nützlicher",
+    "superlative": "am nützlichsten",
+    "antonym": "nutzlos",
+    "frequency_rank": 56,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das ist ein nützliches Werkzeug.",
+        "en": "That is a useful tool."
+      },
+      {
+        "de": "Deutsch zu lernen ist sehr nützlich.",
+        "en": "Learning German is very useful."
+      }
+    ],
+    "tags": [
+      "evaluation",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_neugierig",
+    "word": "neugierig",
+    "english": "curious",
+    "comparative": "neugieriger",
+    "superlative": "am neugierigsten",
+    "antonym": null,
+    "frequency_rank": 57,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Kinder sind von Natur aus neugierig.",
+        "en": "Children are naturally curious."
+      },
+      {
+        "de": "Ich bin neugierig auf das Ergebnis.",
+        "en": "I am curious about the result."
+      }
+    ],
+    "tags": [
+      "personality",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_vorsichtig",
+    "word": "vorsichtig",
+    "english": "careful / cautious",
+    "comparative": "vorsichtiger",
+    "superlative": "am vorsichtigsten",
+    "antonym": "unvorsichtig",
+    "frequency_rank": 58,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Sei vorsichtig auf der Straße!",
+        "en": "Be careful on the road!"
+      },
+      {
+        "de": "Er ist ein vorsichtiger Fahrer.",
+        "en": "He is a careful driver."
+      }
+    ],
+    "tags": [
+      "personality",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_ehrlich",
+    "word": "ehrlich",
+    "english": "honest",
+    "comparative": "ehrlicher",
+    "superlative": "am ehrlichsten",
+    "antonym": "unehrlich",
+    "frequency_rank": 59,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Er ist immer ehrlich.",
+        "en": "He is always honest."
+      },
+      {
+        "de": "Sei ehrlich zu mir.",
+        "en": "Be honest with me."
+      }
+    ],
+    "tags": [
+      "personality",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_faul",
+    "word": "faul",
+    "english": "lazy",
+    "comparative": "fauler",
+    "superlative": "am faulsten",
+    "antonym": "fleißig",
+    "frequency_rank": 60,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Er ist heute sehr faul.",
+        "en": "He is very lazy today."
+      },
+      {
+        "de": "Sei nicht so faul!",
+        "en": "Don't be so lazy!"
+      }
+    ],
+    "tags": [
+      "personality",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_fleissig",
+    "word": "fleißig",
+    "english": "hardworking / diligent",
+    "comparative": "fleißiger",
+    "superlative": "am fleißigsten",
+    "antonym": "faul",
+    "frequency_rank": 61,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Sie ist eine fleißige Studentin.",
+        "en": "She is a hardworking student."
+      },
+      {
+        "de": "Fleißige Arbeit zahlt sich aus.",
+        "en": "Diligent work pays off."
+      }
+    ],
+    "tags": [
+      "personality",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_punktlich",
+    "word": "pünktlich",
+    "english": "punctual / on time",
+    "comparative": "pünktlicher",
+    "superlative": "am pünktlichsten",
+    "antonym": "unpünktlich",
+    "frequency_rank": 62,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Der Zug ist pünktlich.",
+        "en": "The train is on time."
+      },
+      {
+        "de": "Er ist immer pünktlich.",
+        "en": "He is always punctual."
+      }
+    ],
+    "tags": [
+      "personality",
+      "time",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_zuverlassig",
+    "word": "zuverlässig",
+    "english": "reliable",
+    "comparative": "zuverlässiger",
+    "superlative": "am zuverlässigsten",
+    "antonym": null,
+    "frequency_rank": 63,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Er ist ein zuverlässiger Freund.",
+        "en": "He is a reliable friend."
+      },
+      {
+        "de": "Das Auto ist sehr zuverlässig.",
+        "en": "The car is very reliable."
+      }
+    ],
+    "tags": [
+      "personality",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_zufrieden",
+    "word": "zufrieden",
+    "english": "satisfied / content",
+    "comparative": "zufriedener",
+    "superlative": "am zufriedensten",
+    "antonym": "unzufrieden",
+    "frequency_rank": 64,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ich bin mit meiner Arbeit zufrieden.",
+        "en": "I am satisfied with my work."
+      },
+      {
+        "de": "Bist du zufrieden?",
+        "en": "Are you content?"
+      }
+    ],
+    "tags": [
+      "feeling",
+      "emotion",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_enttauscht",
+    "word": "enttäuscht",
+    "english": "disappointed",
+    "comparative": "enttäuschter",
+    "superlative": "am enttäuschtesten",
+    "antonym": null,
+    "frequency_rank": 65,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ich bin sehr enttäuscht.",
+        "en": "I am very disappointed."
+      },
+      {
+        "de": "Sie war enttäuscht vom Ergebnis.",
+        "en": "She was disappointed by the result."
+      }
+    ],
+    "tags": [
+      "feeling",
+      "emotion",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_stolz",
+    "word": "stolz",
+    "english": "proud",
+    "comparative": "stolzer",
+    "superlative": "am stolzesten",
+    "antonym": null,
+    "frequency_rank": 66,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ich bin stolz auf dich.",
+        "en": "I am proud of you."
+      },
+      {
+        "de": "Sie ist eine stolze Mutter.",
+        "en": "She is a proud mother."
+      }
+    ],
+    "tags": [
+      "feeling",
+      "emotion",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_angstlich",
+    "word": "ängstlich",
+    "english": "anxious / fearful",
+    "comparative": "ängstlicher",
+    "superlative": "am ängstlichsten",
+    "antonym": "mutig",
+    "frequency_rank": 67,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das Kind ist ängstlich vor dem Hund.",
+        "en": "The child is fearful of the dog."
+      },
+      {
+        "de": "Er ist von Natur aus ängstlich.",
+        "en": "He is naturally anxious."
+      }
+    ],
+    "tags": [
+      "feeling",
+      "emotion",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_mutig",
+    "word": "mutig",
+    "english": "brave / courageous",
+    "comparative": "mutiger",
+    "superlative": "am mutigsten",
+    "antonym": "ängstlich",
+    "frequency_rank": 68,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Der mutige Soldat half den Verletzten.",
+        "en": "The brave soldier helped the injured."
+      },
+      {
+        "de": "Es war mutig von dir.",
+        "en": "That was brave of you."
+      }
+    ],
+    "tags": [
+      "personality",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_uberrascht",
+    "word": "überrascht",
+    "english": "surprised",
+    "comparative": "überraschter",
+    "superlative": "am überraschtesten",
+    "antonym": null,
+    "frequency_rank": 69,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ich war sehr überrascht.",
+        "en": "I was very surprised."
+      },
+      {
+        "de": "Sie sah überrascht aus.",
+        "en": "She looked surprised."
+      }
+    ],
+    "tags": [
+      "feeling",
+      "emotion",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_aufgeregt",
+    "word": "aufgeregt",
+    "english": "excited",
+    "comparative": "aufgeregter",
+    "superlative": "am aufgeregtesten",
+    "antonym": "ruhig",
+    "frequency_rank": 70,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Die Kinder sind aufgeregt.",
+        "en": "The children are excited."
+      },
+      {
+        "de": "Ich bin aufgeregt wegen der Reise.",
+        "en": "I am excited about the trip."
+      }
+    ],
+    "tags": [
+      "feeling",
+      "emotion",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_beschaftigt",
+    "word": "beschäftigt",
+    "english": "busy",
+    "comparative": "beschäftigter",
+    "superlative": "am beschäftigtsten",
+    "antonym": null,
+    "frequency_rank": 71,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ich bin heute sehr beschäftigt.",
+        "en": "I am very busy today."
+      },
+      {
+        "de": "Er ist immer beschäftigt.",
+        "en": "He is always busy."
+      }
+    ],
+    "tags": [
+      "state",
+      "work",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_lustig",
+    "word": "lustig",
+    "english": "funny / amusing",
+    "comparative": "lustiger",
+    "superlative": "am lustigsten",
+    "antonym": "langweilig",
+    "frequency_rank": 72,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Der Film ist sehr lustig.",
+        "en": "The movie is very funny."
+      },
+      {
+        "de": "Er macht immer lustige Witze.",
+        "en": "He always makes funny jokes."
+      }
+    ],
+    "tags": [
+      "personality",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_klug",
+    "word": "klug",
+    "english": "clever / smart",
+    "comparative": "klüger",
+    "superlative": "am klügsten",
+    "antonym": "dumm",
+    "frequency_rank": 73,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das ist eine kluge Entscheidung.",
+        "en": "That is a smart decision."
+      },
+      {
+        "de": "Sie ist sehr klug.",
+        "en": "She is very clever."
+      }
+    ],
+    "tags": [
+      "personality",
+      "intelligence",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_lecker",
+    "word": "lecker",
+    "english": "delicious / tasty",
+    "comparative": "leckerer",
+    "superlative": "am leckersten",
+    "antonym": null,
+    "frequency_rank": 74,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das Essen ist sehr lecker.",
+        "en": "The food is very delicious."
+      },
+      {
+        "de": "Die Torte sieht lecker aus.",
+        "en": "The cake looks tasty."
+      }
+    ],
+    "tags": [
+      "food",
+      "taste",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_hasslich",
+    "word": "hässlich",
+    "english": "ugly",
+    "comparative": "hässlicher",
+    "superlative": "am hässlichsten",
+    "antonym": "schön",
+    "frequency_rank": 75,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das Wetter ist hässlich heute.",
+        "en": "The weather is ugly today."
+      },
+      {
+        "de": "Das Gebäude ist wirklich hässlich.",
+        "en": "The building is really ugly."
+      }
+    ],
+    "tags": [
+      "appearance",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_begeistert",
+    "word": "begeistert",
+    "english": "enthusiastic / thrilled",
+    "comparative": "begeisterter",
+    "superlative": "am begeistertsten",
+    "antonym": "gleichgültig",
+    "frequency_rank": 76,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Er ist von dem Projekt begeistert.",
+        "en": "He is enthusiastic about the project."
+      },
+      {
+        "de": "Die Zuschauer waren begeistert.",
+        "en": "The audience was thrilled."
+      }
+    ],
+    "tags": [
+      "feeling",
+      "emotion",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_erschopft",
+    "word": "erschöpft",
+    "english": "exhausted",
+    "comparative": "erschöpfter",
+    "superlative": "am erschöpftesten",
+    "antonym": "ausgeruht",
+    "frequency_rank": 77,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Nach dem Marathon war er erschöpft.",
+        "en": "After the marathon he was exhausted."
+      },
+      {
+        "de": "Ich bin völlig erschöpft.",
+        "en": "I am completely exhausted."
+      }
+    ],
+    "tags": [
+      "feeling",
+      "state",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_entschlossen",
+    "word": "entschlossen",
+    "english": "determined / resolute",
+    "comparative": "entschlossener",
+    "superlative": "am entschlossensten",
+    "antonym": "unentschlossen",
+    "frequency_rank": 78,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Sie ist entschlossen, ihr Ziel zu erreichen.",
+        "en": "She is determined to reach her goal."
+      },
+      {
+        "de": "Er trat entschlossen auf.",
+        "en": "He acted resolutely."
+      }
+    ],
+    "tags": [
+      "personality",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_verantwortlich",
+    "word": "verantwortlich",
+    "english": "responsible",
+    "comparative": "verantwortlicher",
+    "superlative": "am verantwortlichsten",
+    "antonym": null,
+    "frequency_rank": 79,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Wer ist dafür verantwortlich?",
+        "en": "Who is responsible for that?"
+      },
+      {
+        "de": "Sie übernimmt verantwortliche Aufgaben.",
+        "en": "She takes on responsible tasks."
+      }
+    ],
+    "tags": [
+      "personality",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_selbststandig",
+    "word": "selbstständig",
+    "english": "independent / self-reliant",
+    "comparative": "selbstständiger",
+    "superlative": "am selbstständigsten",
+    "antonym": "abhängig",
+    "frequency_rank": 80,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Er arbeitet selbstständig.",
+        "en": "He works independently."
+      },
+      {
+        "de": "Das Kind ist sehr selbstständig.",
+        "en": "The child is very self-reliant."
+      }
+    ],
+    "tags": [
+      "personality",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_kreativ",
+    "word": "kreativ",
+    "english": "creative",
+    "comparative": "kreativer",
+    "superlative": "am kreativsten",
+    "antonym": null,
+    "frequency_rank": 81,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Sie ist sehr kreativ.",
+        "en": "She is very creative."
+      },
+      {
+        "de": "Wir brauchen eine kreative Lösung.",
+        "en": "We need a creative solution."
+      }
+    ],
+    "tags": [
+      "personality",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_vernunftig",
+    "word": "vernünftig",
+    "english": "reasonable / sensible",
+    "comparative": "vernünftiger",
+    "superlative": "am vernünftigsten",
+    "antonym": "unvernünftig",
+    "frequency_rank": 82,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Das ist ein vernünftiger Vorschlag.",
+        "en": "That is a reasonable proposal."
+      },
+      {
+        "de": "Sei vernünftig!",
+        "en": "Be sensible!"
+      }
+    ],
+    "tags": [
+      "personality",
+      "evaluation",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_grundlich",
+    "word": "gründlich",
+    "english": "thorough",
+    "comparative": "gründlicher",
+    "superlative": "am gründlichsten",
+    "antonym": "oberflächlich",
+    "frequency_rank": 83,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Sie arbeitet gründlich und sorgfältig.",
+        "en": "She works thoroughly and carefully."
+      },
+      {
+        "de": "Eine gründliche Analyse ist nötig.",
+        "en": "A thorough analysis is necessary."
+      }
+    ],
+    "tags": [
+      "personality",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_bedeutsam",
+    "word": "bedeutsam",
+    "english": "significant / meaningful",
+    "comparative": "bedeutsamer",
+    "superlative": "am bedeutsamsten",
+    "antonym": "unbedeutsam",
+    "frequency_rank": 84,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Das ist ein bedeutsames Ereignis.",
+        "en": "That is a significant event."
+      },
+      {
+        "de": "Ihre Worte waren sehr bedeutsam.",
+        "en": "Her words were very meaningful."
+      }
+    ],
+    "tags": [
+      "evaluation",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_dringend",
+    "word": "dringend",
+    "english": "urgent",
+    "comparative": "dringender",
+    "superlative": "am dringendsten",
+    "antonym": null,
+    "frequency_rank": 85,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Das ist eine dringende Angelegenheit.",
+        "en": "This is an urgent matter."
+      },
+      {
+        "de": "Ich muss dringend mit dir sprechen.",
+        "en": "I urgently need to speak with you."
+      }
+    ],
+    "tags": [
+      "evaluation",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_nachhaltig",
+    "word": "nachhaltig",
+    "english": "sustainable / lasting",
+    "comparative": "nachhaltiger",
+    "superlative": "am nachhaltigsten",
+    "antonym": null,
+    "frequency_rank": 86,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Wir brauchen nachhaltige Lösungen.",
+        "en": "We need sustainable solutions."
+      },
+      {
+        "de": "Nachhaltiges Handeln ist wichtig.",
+        "en": "Sustainable action is important."
+      }
+    ],
+    "tags": [
+      "evaluation",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_uberzeugend",
+    "word": "überzeugend",
+    "english": "convincing / persuasive",
+    "comparative": "überzeugender",
+    "superlative": "am überzeugendsten",
+    "antonym": "unüberzeugend",
+    "frequency_rank": 87,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Das Argument ist sehr überzeugend.",
+        "en": "The argument is very convincing."
+      },
+      {
+        "de": "Er hat überzeugend gesprochen.",
+        "en": "He spoke persuasively."
+      }
+    ],
+    "tags": [
+      "evaluation",
+      "communication",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_aufmerksam",
+    "word": "aufmerksam",
+    "english": "attentive",
+    "comparative": "aufmerksamer",
+    "superlative": "am aufmerksamsten",
+    "antonym": "unaufmerksam",
+    "frequency_rank": 88,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Die Schüler waren sehr aufmerksam.",
+        "en": "The students were very attentive."
+      },
+      {
+        "de": "Sei aufmerksam im Straßenverkehr.",
+        "en": "Be attentive in traffic."
+      }
+    ],
+    "tags": [
+      "personality",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_kritisch",
+    "word": "kritisch",
+    "english": "critical",
+    "comparative": "kritischer",
+    "superlative": "am kritischsten",
+    "antonym": null,
+    "frequency_rank": 89,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Er ist sehr kritisch gegenüber der Politik.",
+        "en": "He is very critical of politics."
+      },
+      {
+        "de": "Das ist eine kritische Situation.",
+        "en": "This is a critical situation."
+      }
+    ],
+    "tags": [
+      "evaluation",
+      "personality",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_kompetent",
+    "word": "kompetent",
+    "english": "competent",
+    "comparative": "kompetenter",
+    "superlative": "am kompetentesten",
+    "antonym": "inkompetent",
+    "frequency_rank": 90,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Sie ist eine kompetente Ärztin.",
+        "en": "She is a competent doctor."
+      },
+      {
+        "de": "Das Team ist sehr kompetent.",
+        "en": "The team is very competent."
+      }
+    ],
+    "tags": [
+      "personality",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_vielfaltig",
+    "word": "vielfältig",
+    "english": "diverse / varied",
+    "comparative": "vielfältiger",
+    "superlative": "am vielfältigsten",
+    "antonym": "einseitig",
+    "frequency_rank": 91,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Das Angebot ist sehr vielfältig.",
+        "en": "The selection is very diverse."
+      },
+      {
+        "de": "Die Stadt hat eine vielfältige Kultur.",
+        "en": "The city has a varied culture."
+      }
+    ],
+    "tags": [
+      "evaluation",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_ausgepragt",
+    "word": "ausgeprägt",
+    "english": "pronounced / marked",
+    "comparative": "ausgeprägter",
+    "superlative": "am ausgeprägtesten",
+    "antonym": null,
+    "frequency_rank": 92,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Er hat eine ausgeprägte Persönlichkeit.",
+        "en": "He has a pronounced personality."
+      },
+      {
+        "de": "Das Interesse ist stark ausgeprägt.",
+        "en": "The interest is strongly marked."
+      }
+    ],
+    "tags": [
+      "evaluation",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_wesentlich",
+    "word": "wesentlich",
+    "english": "essential / fundamental",
+    "comparative": "wesentlicher",
+    "superlative": "am wesentlichsten",
+    "antonym": "unwesentlich",
+    "frequency_rank": 93,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Das ist ein wesentlicher Punkt.",
+        "en": "That is an essential point."
+      },
+      {
+        "de": "Vertrauen ist wesentlich für eine gute Beziehung.",
+        "en": "Trust is fundamental to a good relationship."
+      }
+    ],
+    "tags": [
+      "evaluation",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_erheblich",
+    "word": "erheblich",
+    "english": "considerable / significant",
+    "comparative": "erheblicher",
+    "superlative": "am erheblichsten",
+    "antonym": null,
+    "frequency_rank": 94,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Die Kosten sind erheblich gestiegen.",
+        "en": "The costs have risen considerably."
+      },
+      {
+        "de": "Es gibt erhebliche Unterschiede.",
+        "en": "There are significant differences."
+      }
+    ],
+    "tags": [
+      "evaluation",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_vorlaufig",
+    "word": "vorläufig",
+    "english": "provisional / temporary",
+    "comparative": "vorläufiger",
+    "superlative": "am vorläufigsten",
+    "antonym": "endgültig",
+    "frequency_rank": 95,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Das ist nur eine vorläufige Lösung.",
+        "en": "That is only a provisional solution."
+      },
+      {
+        "de": "Die Ergebnisse sind vorläufig.",
+        "en": "The results are temporary."
+      }
+    ],
+    "tags": [
+      "evaluation",
+      "time",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_umfangreich",
+    "word": "umfangreich",
+    "english": "extensive / comprehensive",
+    "comparative": "umfangreicher",
+    "superlative": "am umfangreichsten",
+    "antonym": null,
+    "frequency_rank": 96,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Das ist ein umfangreiches Projekt.",
+        "en": "That is an extensive project."
+      },
+      {
+        "de": "Sie hat umfangreiche Kenntnisse.",
+        "en": "She has comprehensive knowledge."
+      }
+    ],
+    "tags": [
+      "evaluation",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_gleichgultig",
+    "word": "gleichgültig",
+    "english": "indifferent",
+    "comparative": "gleichgültiger",
+    "superlative": "am gleichgültigsten",
+    "antonym": "begeistert",
+    "frequency_rank": 97,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Er ist gleichgültig gegenüber der Kritik.",
+        "en": "He is indifferent to the criticism."
+      },
+      {
+        "de": "Das ist mir gleichgültig.",
+        "en": "I am indifferent about that."
+      }
+    ],
+    "tags": [
+      "feeling",
+      "personality",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_angemessen",
+    "word": "angemessen",
+    "english": "appropriate / adequate",
+    "comparative": "angemessener",
+    "superlative": "am angemessensten",
+    "antonym": "unangemessen",
+    "frequency_rank": 98,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Der Preis ist angemessen.",
+        "en": "The price is appropriate."
+      },
+      {
+        "de": "Das ist eine angemessene Reaktion.",
+        "en": "That is an adequate response."
+      }
+    ],
+    "tags": [
+      "evaluation",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_ausfuhrlich",
+    "word": "ausführlich",
+    "english": "detailed / thorough",
+    "comparative": "ausführlicher",
+    "superlative": "am ausführlichsten",
+    "antonym": "knapp",
+    "frequency_rank": 99,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Er hat ausführlich erklärt.",
+        "en": "He explained in detail."
+      },
+      {
+        "de": "Bitte gib mir eine ausführliche Antwort.",
+        "en": "Please give me a detailed answer."
+      }
+    ],
+    "tags": [
+      "evaluation",
+      "communication",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_widersprechlich",
+    "word": "widersprüchlich",
+    "english": "contradictory",
+    "comparative": "widersprüchlicher",
+    "superlative": "am widersprüchlichsten",
+    "antonym": null,
+    "frequency_rank": 100,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Die Informationen sind widersprüchlich.",
+        "en": "The information is contradictory."
+      },
+      {
+        "de": "Sein Verhalten ist widersprüchlich.",
+        "en": "His behaviour is contradictory."
+      }
+    ],
+    "tags": [
+      "evaluation",
       "b2"
     ]
   }
@@ -54648,6 +57280,6809 @@ window.APP_DATA = {
       "As far as I know, he's coming tomorrow."
     ],
     "explanation_en": "'um das zu sagen' = 'to put it that way'. Full sentence: \"To put it plainly: it was a mistake.\""
+  }
+],
+  exercises_adjectives: 
+[
+  {
+    "exercise_id": "ex_adj_gross_001",
+    "word_id": "adj_gross",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "groß",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "big / large / tall",
+    "wrong_answers": [
+      "small / little",
+      "good",
+      "bad"
+    ],
+    "explanation_en": "'groß' means 'big / large / tall' in German. Opposite: 'klein'."
+  },
+  {
+    "exercise_id": "ex_adj_gross_002",
+    "word_id": "adj_gross",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Haus ist sehr _____.",
+      "en": "The house is very big."
+    },
+    "correct_answer": "groß",
+    "wrong_answers": [
+      "klein",
+      "gut",
+      "schlecht"
+    ],
+    "explanation_en": "The adjective 'groß' (big / large / tall) fits this sentence. Its opposite is 'klein'."
+  },
+  {
+    "exercise_id": "ex_adj_gross_003",
+    "word_id": "adj_gross",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "big / large / tall",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "groß",
+    "wrong_answers": [
+      "klein",
+      "gut",
+      "schlecht"
+    ],
+    "explanation_en": "'big / large / tall' translates to 'groß' in German. Comparative: 'größer', Superlative: 'am größten'."
+  },
+  {
+    "exercise_id": "ex_adj_gross_004",
+    "word_id": "adj_gross",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er ist _____ und stark.",
+      "en": "He is tall and strong."
+    },
+    "correct_answer": "groß",
+    "wrong_answers": [
+      "klein",
+      "gut",
+      "schlecht"
+    ],
+    "explanation_en": "'groß' (big / large / tall) is the correct adjective for this context. Opposite: 'klein'."
+  },
+  {
+    "exercise_id": "ex_adj_klein_001",
+    "word_id": "adj_klein",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "klein",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "small / little",
+    "wrong_answers": [
+      "big / large / tall",
+      "good",
+      "bad"
+    ],
+    "explanation_en": "'klein' means 'small / little' in German. Opposite: 'groß'."
+  },
+  {
+    "exercise_id": "ex_adj_klein_002",
+    "word_id": "adj_klein",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Katze ist _____ und süß.",
+      "en": "The cat is small and cute."
+    },
+    "correct_answer": "klein",
+    "wrong_answers": [
+      "groß",
+      "gut",
+      "schlecht"
+    ],
+    "explanation_en": "The adjective 'klein' (small / little) fits this sentence. Its opposite is 'groß'."
+  },
+  {
+    "exercise_id": "ex_adj_klein_003",
+    "word_id": "adj_klein",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "small / little",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "klein",
+    "wrong_answers": [
+      "groß",
+      "gut",
+      "schlecht"
+    ],
+    "explanation_en": "'small / little' translates to 'klein' in German. Comparative: 'kleiner', Superlative: 'am kleinsten'."
+  },
+  {
+    "exercise_id": "ex_adj_klein_004",
+    "word_id": "adj_klein",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Mein Auto ist _____er als deins.",
+      "en": "My car is smaller than yours."
+    },
+    "correct_answer": "klein",
+    "wrong_answers": [
+      "groß",
+      "gut",
+      "schlecht"
+    ],
+    "explanation_en": "'klein' (small / little) is the correct adjective for this context. Opposite: 'groß'."
+  },
+  {
+    "exercise_id": "ex_adj_gut_001",
+    "word_id": "adj_gut",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "gut",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "good",
+    "wrong_answers": [
+      "big / large / tall",
+      "small / little",
+      "bad"
+    ],
+    "explanation_en": "'gut' means 'good' in German. Opposite: 'schlecht'."
+  },
+  {
+    "exercise_id": "ex_adj_gut_002",
+    "word_id": "adj_gut",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Essen schmeckt _____.",
+      "en": "The food tastes good."
+    },
+    "correct_answer": "gut",
+    "wrong_answers": [
+      "schlecht",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "The adjective 'gut' (good) fits this sentence. Its opposite is 'schlecht'."
+  },
+  {
+    "exercise_id": "ex_adj_gut_003",
+    "word_id": "adj_gut",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "good",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "gut",
+    "wrong_answers": [
+      "groß",
+      "klein",
+      "schlecht"
+    ],
+    "explanation_en": "'good' translates to 'gut' in German. Comparative: 'besser', Superlative: 'am besten'."
+  },
+  {
+    "exercise_id": "ex_adj_gut_004",
+    "word_id": "adj_gut",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie ist eine _____e Lehrerin.",
+      "en": "She is a good teacher."
+    },
+    "correct_answer": "gut",
+    "wrong_answers": [
+      "schlecht",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "'gut' (good) is the correct adjective for this context. Opposite: 'schlecht'."
+  },
+  {
+    "exercise_id": "ex_adj_schlecht_001",
+    "word_id": "adj_schlecht",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "schlecht",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "bad",
+    "wrong_answers": [
+      "big / large / tall",
+      "small / little",
+      "good"
+    ],
+    "explanation_en": "'schlecht' means 'bad' in German. Opposite: 'gut'."
+  },
+  {
+    "exercise_id": "ex_adj_schlecht_002",
+    "word_id": "adj_schlecht",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Wetter ist heute _____.",
+      "en": "The weather is bad today."
+    },
+    "correct_answer": "schlecht",
+    "wrong_answers": [
+      "gut",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "The adjective 'schlecht' (bad) fits this sentence. Its opposite is 'gut'."
+  },
+  {
+    "exercise_id": "ex_adj_schlecht_003",
+    "word_id": "adj_schlecht",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "bad",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "schlecht",
+    "wrong_answers": [
+      "groß",
+      "klein",
+      "gut"
+    ],
+    "explanation_en": "'bad' translates to 'schlecht' in German. Comparative: 'schlechter', Superlative: 'am schlechtesten'."
+  },
+  {
+    "exercise_id": "ex_adj_schlecht_004",
+    "word_id": "adj_schlecht",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich fühle mich _____.",
+      "en": "I feel bad."
+    },
+    "correct_answer": "schlecht",
+    "wrong_answers": [
+      "gut",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "'schlecht' (bad) is the correct adjective for this context. Opposite: 'gut'."
+  },
+  {
+    "exercise_id": "ex_adj_alt_001",
+    "word_id": "adj_alt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "alt",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "old",
+    "wrong_answers": [
+      "big / large / tall",
+      "small / little",
+      "good"
+    ],
+    "explanation_en": "'alt' means 'old' in German. Opposite: 'neu'."
+  },
+  {
+    "exercise_id": "ex_adj_alt_002",
+    "word_id": "adj_alt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das ist ein _____es Buch.",
+      "en": "That is an old book."
+    },
+    "correct_answer": "alt",
+    "wrong_answers": [
+      "neu",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "The adjective 'alt' (old) fits this sentence. Its opposite is 'neu'."
+  },
+  {
+    "exercise_id": "ex_adj_alt_003",
+    "word_id": "adj_alt",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "old",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "alt",
+    "wrong_answers": [
+      "groß",
+      "klein",
+      "gut"
+    ],
+    "explanation_en": "'old' translates to 'alt' in German. Comparative: 'älter', Superlative: 'am ältesten'."
+  },
+  {
+    "exercise_id": "ex_adj_alt_004",
+    "word_id": "adj_alt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Mein Großvater ist sehr _____.",
+      "en": "My grandfather is very old."
+    },
+    "correct_answer": "alt",
+    "wrong_answers": [
+      "neu",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "'alt' (old) is the correct adjective for this context. Opposite: 'neu'."
+  },
+  {
+    "exercise_id": "ex_adj_neu_001",
+    "word_id": "adj_neu",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "neu",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "new",
+    "wrong_answers": [
+      "big / large / tall",
+      "small / little",
+      "good"
+    ],
+    "explanation_en": "'neu' means 'new' in German. Opposite: 'alt'."
+  },
+  {
+    "exercise_id": "ex_adj_neu_002",
+    "word_id": "adj_neu",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich habe ein _____es Handy.",
+      "en": "I have a new phone."
+    },
+    "correct_answer": "neu",
+    "wrong_answers": [
+      "alt",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "The adjective 'neu' (new) fits this sentence. Its opposite is 'alt'."
+  },
+  {
+    "exercise_id": "ex_adj_neu_003",
+    "word_id": "adj_neu",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "new",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "neu",
+    "wrong_answers": [
+      "groß",
+      "klein",
+      "gut"
+    ],
+    "explanation_en": "'new' translates to 'neu' in German. Comparative: 'neuer', Superlative: 'am neuesten'."
+  },
+  {
+    "exercise_id": "ex_adj_neu_004",
+    "word_id": "adj_neu",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Restaurant ist _____.",
+      "en": "The restaurant is new."
+    },
+    "correct_answer": "neu",
+    "wrong_answers": [
+      "alt",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "'neu' (new) is the correct adjective for this context. Opposite: 'alt'."
+  },
+  {
+    "exercise_id": "ex_adj_jung_001",
+    "word_id": "adj_jung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "jung",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "young",
+    "wrong_answers": [
+      "big / large / tall",
+      "small / little",
+      "good"
+    ],
+    "explanation_en": "'jung' means 'young' in German. Opposite: 'alt'."
+  },
+  {
+    "exercise_id": "ex_adj_jung_002",
+    "word_id": "adj_jung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Sie ist noch sehr _____.",
+      "en": "She is still very young."
+    },
+    "correct_answer": "jung",
+    "wrong_answers": [
+      "alt",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "The adjective 'jung' (young) fits this sentence. Its opposite is 'alt'."
+  },
+  {
+    "exercise_id": "ex_adj_jung_003",
+    "word_id": "adj_jung",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "young",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "jung",
+    "wrong_answers": [
+      "groß",
+      "klein",
+      "gut"
+    ],
+    "explanation_en": "'young' translates to 'jung' in German. Comparative: 'jünger', Superlative: 'am jüngsten'."
+  },
+  {
+    "exercise_id": "ex_adj_jung_004",
+    "word_id": "adj_jung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Hund ist _____ und energisch.",
+      "en": "The dog is young and energetic."
+    },
+    "correct_answer": "jung",
+    "wrong_answers": [
+      "alt",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "'jung' (young) is the correct adjective for this context. Opposite: 'alt'."
+  },
+  {
+    "exercise_id": "ex_adj_lang_001",
+    "word_id": "adj_lang",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "lang",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "long",
+    "wrong_answers": [
+      "big / large / tall",
+      "small / little",
+      "good"
+    ],
+    "explanation_en": "'lang' means 'long' in German. Opposite: 'kurz'."
+  },
+  {
+    "exercise_id": "ex_adj_lang_002",
+    "word_id": "adj_lang",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Weg ist _____.",
+      "en": "The way is long."
+    },
+    "correct_answer": "lang",
+    "wrong_answers": [
+      "kurz",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "The adjective 'lang' (long) fits this sentence. Its opposite is 'kurz'."
+  },
+  {
+    "exercise_id": "ex_adj_lang_003",
+    "word_id": "adj_lang",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "long",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "lang",
+    "wrong_answers": [
+      "groß",
+      "klein",
+      "gut"
+    ],
+    "explanation_en": "'long' translates to 'lang' in German. Comparative: 'länger', Superlative: 'am längsten'."
+  },
+  {
+    "exercise_id": "ex_adj_lang_004",
+    "word_id": "adj_lang",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie hat _____e Haare.",
+      "en": "She has long hair."
+    },
+    "correct_answer": "lang",
+    "wrong_answers": [
+      "kurz",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "'lang' (long) is the correct adjective for this context. Opposite: 'kurz'."
+  },
+  {
+    "exercise_id": "ex_adj_kurz_001",
+    "word_id": "adj_kurz",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "kurz",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "short",
+    "wrong_answers": [
+      "big / large / tall",
+      "small / little",
+      "good"
+    ],
+    "explanation_en": "'kurz' means 'short' in German. Opposite: 'lang'."
+  },
+  {
+    "exercise_id": "ex_adj_kurz_002",
+    "word_id": "adj_kurz",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Gespräch war _____.",
+      "en": "The conversation was short."
+    },
+    "correct_answer": "kurz",
+    "wrong_answers": [
+      "lang",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "The adjective 'kurz' (short) fits this sentence. Its opposite is 'lang'."
+  },
+  {
+    "exercise_id": "ex_adj_kurz_003",
+    "word_id": "adj_kurz",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "short",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "kurz",
+    "wrong_answers": [
+      "groß",
+      "klein",
+      "gut"
+    ],
+    "explanation_en": "'short' translates to 'kurz' in German. Comparative: 'kürzer', Superlative: 'am kürzesten'."
+  },
+  {
+    "exercise_id": "ex_adj_kurz_004",
+    "word_id": "adj_kurz",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er trägt _____e Haare.",
+      "en": "He wears short hair."
+    },
+    "correct_answer": "kurz",
+    "wrong_answers": [
+      "lang",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "'kurz' (short) is the correct adjective for this context. Opposite: 'lang'."
+  },
+  {
+    "exercise_id": "ex_adj_schon_001",
+    "word_id": "adj_schon",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "schön",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "beautiful / nice",
+    "wrong_answers": [
+      "big / large / tall",
+      "small / little",
+      "good"
+    ],
+    "explanation_en": "'schön' means 'beautiful / nice' in German. Opposite: 'hässlich'."
+  },
+  {
+    "exercise_id": "ex_adj_schon_002",
+    "word_id": "adj_schon",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Wetter ist _____ heute.",
+      "en": "The weather is nice today."
+    },
+    "correct_answer": "schön",
+    "wrong_answers": [
+      "hässlich",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "The adjective 'schön' (beautiful / nice) fits this sentence. Its opposite is 'hässlich'."
+  },
+  {
+    "exercise_id": "ex_adj_schon_003",
+    "word_id": "adj_schon",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "beautiful / nice",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "schön",
+    "wrong_answers": [
+      "groß",
+      "klein",
+      "gut"
+    ],
+    "explanation_en": "'beautiful / nice' translates to 'schön' in German. Comparative: 'schöner', Superlative: 'am schönsten'."
+  },
+  {
+    "exercise_id": "ex_adj_schon_004",
+    "word_id": "adj_schon",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie hat ein _____es Lächeln.",
+      "en": "She has a beautiful smile."
+    },
+    "correct_answer": "schön",
+    "wrong_answers": [
+      "hässlich",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "'schön' (beautiful / nice) is the correct adjective for this context. Opposite: 'hässlich'."
+  },
+  {
+    "exercise_id": "ex_adj_warm_001",
+    "word_id": "adj_warm",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "warm",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "warm",
+    "wrong_answers": [
+      "big / large / tall",
+      "small / little",
+      "good"
+    ],
+    "explanation_en": "'warm' means 'warm' in German. Opposite: 'kalt'."
+  },
+  {
+    "exercise_id": "ex_adj_warm_002",
+    "word_id": "adj_warm",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Wasser ist _____.",
+      "en": "The water is warm."
+    },
+    "correct_answer": "warm",
+    "wrong_answers": [
+      "kalt",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "The adjective 'warm' (warm) fits this sentence. Its opposite is 'kalt'."
+  },
+  {
+    "exercise_id": "ex_adj_warm_003",
+    "word_id": "adj_warm",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "warm",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "warm",
+    "wrong_answers": [
+      "groß",
+      "klein",
+      "gut"
+    ],
+    "explanation_en": "'warm' translates to 'warm' in German. Comparative: 'wärmer', Superlative: 'am wärmsten'."
+  },
+  {
+    "exercise_id": "ex_adj_warm_004",
+    "word_id": "adj_warm",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Im Sommer ist es _____.",
+      "en": "In summer it is warm."
+    },
+    "correct_answer": "warm",
+    "wrong_answers": [
+      "kalt",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "'warm' (warm) is the correct adjective for this context. Opposite: 'kalt'."
+  },
+  {
+    "exercise_id": "ex_adj_kalt_001",
+    "word_id": "adj_kalt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "kalt",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "cold",
+    "wrong_answers": [
+      "big / large / tall",
+      "small / little",
+      "good"
+    ],
+    "explanation_en": "'kalt' means 'cold' in German. Opposite: 'warm'."
+  },
+  {
+    "exercise_id": "ex_adj_kalt_002",
+    "word_id": "adj_kalt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Es ist _____ draußen.",
+      "en": "It is cold outside."
+    },
+    "correct_answer": "kalt",
+    "wrong_answers": [
+      "warm",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "The adjective 'kalt' (cold) fits this sentence. Its opposite is 'warm'."
+  },
+  {
+    "exercise_id": "ex_adj_kalt_003",
+    "word_id": "adj_kalt",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "cold",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "kalt",
+    "wrong_answers": [
+      "groß",
+      "klein",
+      "gut"
+    ],
+    "explanation_en": "'cold' translates to 'kalt' in German. Comparative: 'kälter', Superlative: 'am kältesten'."
+  },
+  {
+    "exercise_id": "ex_adj_kalt_004",
+    "word_id": "adj_kalt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich trinke gerne _____en Kaffee.",
+      "en": "I like to drink cold coffee."
+    },
+    "correct_answer": "kalt",
+    "wrong_answers": [
+      "warm",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "'kalt' (cold) is the correct adjective for this context. Opposite: 'warm'."
+  },
+  {
+    "exercise_id": "ex_adj_schnell_001",
+    "word_id": "adj_schnell",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "schnell",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "fast / quick",
+    "wrong_answers": [
+      "big / large / tall",
+      "small / little",
+      "good"
+    ],
+    "explanation_en": "'schnell' means 'fast / quick' in German. Opposite: 'langsam'."
+  },
+  {
+    "exercise_id": "ex_adj_schnell_002",
+    "word_id": "adj_schnell",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Auto fährt sehr _____.",
+      "en": "The car goes very fast."
+    },
+    "correct_answer": "schnell",
+    "wrong_answers": [
+      "langsam",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "The adjective 'schnell' (fast / quick) fits this sentence. Its opposite is 'langsam'."
+  },
+  {
+    "exercise_id": "ex_adj_schnell_003",
+    "word_id": "adj_schnell",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "fast / quick",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "schnell",
+    "wrong_answers": [
+      "groß",
+      "klein",
+      "gut"
+    ],
+    "explanation_en": "'fast / quick' translates to 'schnell' in German. Comparative: 'schneller', Superlative: 'am schnellsten'."
+  },
+  {
+    "exercise_id": "ex_adj_schnell_004",
+    "word_id": "adj_schnell",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er ist ein _____er Läufer.",
+      "en": "He is a fast runner."
+    },
+    "correct_answer": "schnell",
+    "wrong_answers": [
+      "langsam",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "'schnell' (fast / quick) is the correct adjective for this context. Opposite: 'langsam'."
+  },
+  {
+    "exercise_id": "ex_adj_langsam_001",
+    "word_id": "adj_langsam",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "langsam",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "slow",
+    "wrong_answers": [
+      "big / large / tall",
+      "small / little",
+      "good"
+    ],
+    "explanation_en": "'langsam' means 'slow' in German. Opposite: 'schnell'."
+  },
+  {
+    "exercise_id": "ex_adj_langsam_002",
+    "word_id": "adj_langsam",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Schildkröte ist _____.",
+      "en": "The turtle is slow."
+    },
+    "correct_answer": "langsam",
+    "wrong_answers": [
+      "schnell",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "The adjective 'langsam' (slow) fits this sentence. Its opposite is 'schnell'."
+  },
+  {
+    "exercise_id": "ex_adj_langsam_003",
+    "word_id": "adj_langsam",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "slow",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "langsam",
+    "wrong_answers": [
+      "groß",
+      "klein",
+      "gut"
+    ],
+    "explanation_en": "'slow' translates to 'langsam' in German. Comparative: 'langsamer', Superlative: 'am langsamsten'."
+  },
+  {
+    "exercise_id": "ex_adj_langsam_004",
+    "word_id": "adj_langsam",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Bitte sprich _____er!",
+      "en": "Please speak more slowly!"
+    },
+    "correct_answer": "langsam",
+    "wrong_answers": [
+      "schnell",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "'langsam' (slow) is the correct adjective for this context. Opposite: 'schnell'."
+  },
+  {
+    "exercise_id": "ex_adj_laut_001",
+    "word_id": "adj_laut",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "laut",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "loud / noisy",
+    "wrong_answers": [
+      "big / large / tall",
+      "small / little",
+      "good"
+    ],
+    "explanation_en": "'laut' means 'loud / noisy' in German. Opposite: 'leise'."
+  },
+  {
+    "exercise_id": "ex_adj_laut_002",
+    "word_id": "adj_laut",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Musik ist zu _____.",
+      "en": "The music is too loud."
+    },
+    "correct_answer": "laut",
+    "wrong_answers": [
+      "leise",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "The adjective 'laut' (loud / noisy) fits this sentence. Its opposite is 'leise'."
+  },
+  {
+    "exercise_id": "ex_adj_laut_003",
+    "word_id": "adj_laut",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "loud / noisy",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "laut",
+    "wrong_answers": [
+      "groß",
+      "klein",
+      "gut"
+    ],
+    "explanation_en": "'loud / noisy' translates to 'laut' in German. Comparative: 'lauter', Superlative: 'am lautesten'."
+  },
+  {
+    "exercise_id": "ex_adj_laut_004",
+    "word_id": "adj_laut",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Baby schreit _____.",
+      "en": "The baby is crying loudly."
+    },
+    "correct_answer": "laut",
+    "wrong_answers": [
+      "leise",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "'laut' (loud / noisy) is the correct adjective for this context. Opposite: 'leise'."
+  },
+  {
+    "exercise_id": "ex_adj_leise_001",
+    "word_id": "adj_leise",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "leise",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "quiet / soft",
+    "wrong_answers": [
+      "big / large / tall",
+      "small / little",
+      "good"
+    ],
+    "explanation_en": "'leise' means 'quiet / soft' in German. Opposite: 'laut'."
+  },
+  {
+    "exercise_id": "ex_adj_leise_002",
+    "word_id": "adj_leise",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Bitte sei _____!",
+      "en": "Please be quiet!"
+    },
+    "correct_answer": "leise",
+    "wrong_answers": [
+      "laut",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "The adjective 'leise' (quiet / soft) fits this sentence. Its opposite is 'laut'."
+  },
+  {
+    "exercise_id": "ex_adj_leise_003",
+    "word_id": "adj_leise",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "quiet / soft",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "leise",
+    "wrong_answers": [
+      "groß",
+      "klein",
+      "gut"
+    ],
+    "explanation_en": "'quiet / soft' translates to 'leise' in German. Comparative: 'leiser', Superlative: 'am leisesten'."
+  },
+  {
+    "exercise_id": "ex_adj_leise_004",
+    "word_id": "adj_leise",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie spricht mit _____r Stimme.",
+      "en": "She speaks in a soft voice."
+    },
+    "correct_answer": "leise",
+    "wrong_answers": [
+      "laut",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "'leise' (quiet / soft) is the correct adjective for this context. Opposite: 'laut'."
+  },
+  {
+    "exercise_id": "ex_adj_leicht_001",
+    "word_id": "adj_leicht",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "leicht",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "easy / light",
+    "wrong_answers": [
+      "big / large / tall",
+      "small / little",
+      "good"
+    ],
+    "explanation_en": "'leicht' means 'easy / light' in German. Opposite: 'schwer'."
+  },
+  {
+    "exercise_id": "ex_adj_leicht_002",
+    "word_id": "adj_leicht",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Aufgabe ist _____.",
+      "en": "The task is easy."
+    },
+    "correct_answer": "leicht",
+    "wrong_answers": [
+      "schwer",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "The adjective 'leicht' (easy / light) fits this sentence. Its opposite is 'schwer'."
+  },
+  {
+    "exercise_id": "ex_adj_leicht_003",
+    "word_id": "adj_leicht",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "easy / light",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "leicht",
+    "wrong_answers": [
+      "groß",
+      "klein",
+      "gut"
+    ],
+    "explanation_en": "'easy / light' translates to 'leicht' in German. Comparative: 'leichter', Superlative: 'am leichtesten'."
+  },
+  {
+    "exercise_id": "ex_adj_leicht_004",
+    "word_id": "adj_leicht",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Koffer ist _____.",
+      "en": "The suitcase is light."
+    },
+    "correct_answer": "leicht",
+    "wrong_answers": [
+      "schwer",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "'leicht' (easy / light) is the correct adjective for this context. Opposite: 'schwer'."
+  },
+  {
+    "exercise_id": "ex_adj_schwer_001",
+    "word_id": "adj_schwer",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "schwer",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "heavy / difficult",
+    "wrong_answers": [
+      "big / large / tall",
+      "small / little",
+      "good"
+    ],
+    "explanation_en": "'schwer' means 'heavy / difficult' in German. Opposite: 'leicht'."
+  },
+  {
+    "exercise_id": "ex_adj_schwer_002",
+    "word_id": "adj_schwer",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Paket ist sehr _____.",
+      "en": "The package is very heavy."
+    },
+    "correct_answer": "schwer",
+    "wrong_answers": [
+      "leicht",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "The adjective 'schwer' (heavy / difficult) fits this sentence. Its opposite is 'leicht'."
+  },
+  {
+    "exercise_id": "ex_adj_schwer_003",
+    "word_id": "adj_schwer",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "heavy / difficult",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "schwer",
+    "wrong_answers": [
+      "groß",
+      "klein",
+      "gut"
+    ],
+    "explanation_en": "'heavy / difficult' translates to 'schwer' in German. Comparative: 'schwerer', Superlative: 'am schwersten'."
+  },
+  {
+    "exercise_id": "ex_adj_schwer_004",
+    "word_id": "adj_schwer",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Examen war _____.",
+      "en": "The exam was difficult."
+    },
+    "correct_answer": "schwer",
+    "wrong_answers": [
+      "leicht",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "'schwer' (heavy / difficult) is the correct adjective for this context. Opposite: 'leicht'."
+  },
+  {
+    "exercise_id": "ex_adj_billig_001",
+    "word_id": "adj_billig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "billig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "cheap / inexpensive",
+    "wrong_answers": [
+      "big / large / tall",
+      "small / little",
+      "good"
+    ],
+    "explanation_en": "'billig' means 'cheap / inexpensive' in German. Opposite: 'teuer'."
+  },
+  {
+    "exercise_id": "ex_adj_billig_002",
+    "word_id": "adj_billig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das ist ein _____es Hotel.",
+      "en": "That is a cheap hotel."
+    },
+    "correct_answer": "billig",
+    "wrong_answers": [
+      "teuer",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "The adjective 'billig' (cheap / inexpensive) fits this sentence. Its opposite is 'teuer'."
+  },
+  {
+    "exercise_id": "ex_adj_billig_003",
+    "word_id": "adj_billig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "cheap / inexpensive",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "billig",
+    "wrong_answers": [
+      "groß",
+      "klein",
+      "gut"
+    ],
+    "explanation_en": "'cheap / inexpensive' translates to 'billig' in German. Comparative: 'billiger', Superlative: 'am billigsten'."
+  },
+  {
+    "exercise_id": "ex_adj_billig_004",
+    "word_id": "adj_billig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Schuhe sind _____.",
+      "en": "The shoes are cheap."
+    },
+    "correct_answer": "billig",
+    "wrong_answers": [
+      "teuer",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "'billig' (cheap / inexpensive) is the correct adjective for this context. Opposite: 'teuer'."
+  },
+  {
+    "exercise_id": "ex_adj_teuer_001",
+    "word_id": "adj_teuer",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "teuer",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "expensive",
+    "wrong_answers": [
+      "big / large / tall",
+      "small / little",
+      "good"
+    ],
+    "explanation_en": "'teuer' means 'expensive' in German. Opposite: 'billig'."
+  },
+  {
+    "exercise_id": "ex_adj_teuer_002",
+    "word_id": "adj_teuer",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Restaurant ist sehr _____.",
+      "en": "The restaurant is very expensive."
+    },
+    "correct_answer": "teuer",
+    "wrong_answers": [
+      "billig",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "The adjective 'teuer' (expensive) fits this sentence. Its opposite is 'billig'."
+  },
+  {
+    "exercise_id": "ex_adj_teuer_003",
+    "word_id": "adj_teuer",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "expensive",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "teuer",
+    "wrong_answers": [
+      "groß",
+      "klein",
+      "gut"
+    ],
+    "explanation_en": "'expensive' translates to 'teuer' in German. Comparative: 'teurer', Superlative: 'am teuersten'."
+  },
+  {
+    "exercise_id": "ex_adj_teuer_004",
+    "word_id": "adj_teuer",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Auto ist zu _____ für mich.",
+      "en": "The car is too expensive for me."
+    },
+    "correct_answer": "teuer",
+    "wrong_answers": [
+      "billig",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "'teuer' (expensive) is the correct adjective for this context. Opposite: 'billig'."
+  },
+  {
+    "exercise_id": "ex_adj_voll_001",
+    "word_id": "adj_voll",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "voll",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "full",
+    "wrong_answers": [
+      "big / large / tall",
+      "small / little",
+      "good"
+    ],
+    "explanation_en": "'voll' means 'full' in German. Opposite: 'leer'."
+  },
+  {
+    "exercise_id": "ex_adj_voll_002",
+    "word_id": "adj_voll",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Glas ist _____.",
+      "en": "The glass is full."
+    },
+    "correct_answer": "voll",
+    "wrong_answers": [
+      "leer",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "The adjective 'voll' (full) fits this sentence. Its opposite is 'leer'."
+  },
+  {
+    "exercise_id": "ex_adj_voll_003",
+    "word_id": "adj_voll",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "full",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "voll",
+    "wrong_answers": [
+      "groß",
+      "klein",
+      "gut"
+    ],
+    "explanation_en": "'full' translates to 'voll' in German. Comparative: 'voller', Superlative: 'am vollsten'."
+  },
+  {
+    "exercise_id": "ex_adj_voll_004",
+    "word_id": "adj_voll",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Zug ist _____ besetzt.",
+      "en": "The train is completely full."
+    },
+    "correct_answer": "voll",
+    "wrong_answers": [
+      "leer",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "'voll' (full) is the correct adjective for this context. Opposite: 'leer'."
+  },
+  {
+    "exercise_id": "ex_adj_leer_001",
+    "word_id": "adj_leer",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "leer",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "empty",
+    "wrong_answers": [
+      "big / large / tall",
+      "small / little",
+      "good"
+    ],
+    "explanation_en": "'leer' means 'empty' in German. Opposite: 'voll'."
+  },
+  {
+    "exercise_id": "ex_adj_leer_002",
+    "word_id": "adj_leer",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Flasche ist _____.",
+      "en": "The bottle is empty."
+    },
+    "correct_answer": "leer",
+    "wrong_answers": [
+      "voll",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "The adjective 'leer' (empty) fits this sentence. Its opposite is 'voll'."
+  },
+  {
+    "exercise_id": "ex_adj_leer_003",
+    "word_id": "adj_leer",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "empty",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "leer",
+    "wrong_answers": [
+      "groß",
+      "klein",
+      "gut"
+    ],
+    "explanation_en": "'empty' translates to 'leer' in German. Comparative: 'leerer', Superlative: 'am leersten'."
+  },
+  {
+    "exercise_id": "ex_adj_leer_004",
+    "word_id": "adj_leer",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Raum war _____.",
+      "en": "The room was empty."
+    },
+    "correct_answer": "leer",
+    "wrong_answers": [
+      "voll",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "'leer' (empty) is the correct adjective for this context. Opposite: 'voll'."
+  },
+  {
+    "exercise_id": "ex_adj_richtig_001",
+    "word_id": "adj_richtig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "richtig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "correct / right",
+    "wrong_answers": [
+      "big / large / tall",
+      "small / little",
+      "good"
+    ],
+    "explanation_en": "'richtig' means 'correct / right' in German. Opposite: 'falsch'."
+  },
+  {
+    "exercise_id": "ex_adj_richtig_002",
+    "word_id": "adj_richtig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das ist die _____e Antwort.",
+      "en": "That is the correct answer."
+    },
+    "correct_answer": "richtig",
+    "wrong_answers": [
+      "falsch",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "The adjective 'richtig' (correct / right) fits this sentence. Its opposite is 'falsch'."
+  },
+  {
+    "exercise_id": "ex_adj_richtig_003",
+    "word_id": "adj_richtig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "correct / right",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "richtig",
+    "wrong_answers": [
+      "groß",
+      "klein",
+      "gut"
+    ],
+    "explanation_en": "'correct / right' translates to 'richtig' in German. Comparative: 'richtiger', Superlative: 'am richtigsten'."
+  },
+  {
+    "exercise_id": "ex_adj_richtig_004",
+    "word_id": "adj_richtig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Bist du sicher, dass das _____ ist?",
+      "en": "Are you sure that is right?"
+    },
+    "correct_answer": "richtig",
+    "wrong_answers": [
+      "falsch",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "'richtig' (correct / right) is the correct adjective for this context. Opposite: 'falsch'."
+  },
+  {
+    "exercise_id": "ex_adj_falsch_001",
+    "word_id": "adj_falsch",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "falsch",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "wrong / incorrect",
+    "wrong_answers": [
+      "big / large / tall",
+      "small / little",
+      "good"
+    ],
+    "explanation_en": "'falsch' means 'wrong / incorrect' in German. Opposite: 'richtig'."
+  },
+  {
+    "exercise_id": "ex_adj_falsch_002",
+    "word_id": "adj_falsch",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das ist _____.",
+      "en": "That is wrong."
+    },
+    "correct_answer": "falsch",
+    "wrong_answers": [
+      "richtig",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "The adjective 'falsch' (wrong / incorrect) fits this sentence. Its opposite is 'richtig'."
+  },
+  {
+    "exercise_id": "ex_adj_falsch_003",
+    "word_id": "adj_falsch",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "wrong / incorrect",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "falsch",
+    "wrong_answers": [
+      "groß",
+      "klein",
+      "gut"
+    ],
+    "explanation_en": "'wrong / incorrect' translates to 'falsch' in German. Comparative: 'falscher', Superlative: 'am falschsten'."
+  },
+  {
+    "exercise_id": "ex_adj_falsch_004",
+    "word_id": "adj_falsch",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich habe die _____e Antwort gegeben.",
+      "en": "I gave the wrong answer."
+    },
+    "correct_answer": "falsch",
+    "wrong_answers": [
+      "richtig",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "'falsch' (wrong / incorrect) is the correct adjective for this context. Opposite: 'richtig'."
+  },
+  {
+    "exercise_id": "ex_adj_heis_001",
+    "word_id": "adj_heis",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "heiß",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "hot",
+    "wrong_answers": [
+      "big / large / tall",
+      "small / little",
+      "good"
+    ],
+    "explanation_en": "'heiß' means 'hot' in German. Opposite: 'kalt'."
+  },
+  {
+    "exercise_id": "ex_adj_heis_002",
+    "word_id": "adj_heis",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Kaffee ist zu _____.",
+      "en": "The coffee is too hot."
+    },
+    "correct_answer": "heiß",
+    "wrong_answers": [
+      "kalt",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "The adjective 'heiß' (hot) fits this sentence. Its opposite is 'kalt'."
+  },
+  {
+    "exercise_id": "ex_adj_heis_003",
+    "word_id": "adj_heis",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "hot",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "heiß",
+    "wrong_answers": [
+      "groß",
+      "klein",
+      "gut"
+    ],
+    "explanation_en": "'hot' translates to 'heiß' in German. Comparative: 'heißer', Superlative: 'am heißesten'."
+  },
+  {
+    "exercise_id": "ex_adj_heis_004",
+    "word_id": "adj_heis",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Es ist _____ im Sommer.",
+      "en": "It is hot in summer."
+    },
+    "correct_answer": "heiß",
+    "wrong_answers": [
+      "kalt",
+      "groß",
+      "klein"
+    ],
+    "explanation_en": "'heiß' (hot) is the correct adjective for this context. Opposite: 'kalt'."
+  },
+  {
+    "exercise_id": "ex_adj_interessant_001",
+    "word_id": "adj_interessant",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "interessant",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "interesting",
+    "wrong_answers": [
+      "boring",
+      "important",
+      "simple / easy"
+    ],
+    "explanation_en": "'interessant' means 'interesting' in German. Opposite: 'langweilig'."
+  },
+  {
+    "exercise_id": "ex_adj_interessant_002",
+    "word_id": "adj_interessant",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Buch ist sehr _____.",
+      "en": "The book is very interesting."
+    },
+    "correct_answer": "interessant",
+    "wrong_answers": [
+      "langweilig",
+      "wichtig",
+      "einfach"
+    ],
+    "explanation_en": "The adjective 'interessant' (interesting) fits this sentence. Its opposite is 'langweilig'."
+  },
+  {
+    "exercise_id": "ex_adj_interessant_003",
+    "word_id": "adj_interessant",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "interesting",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "interessant",
+    "wrong_answers": [
+      "langweilig",
+      "wichtig",
+      "einfach"
+    ],
+    "explanation_en": "'interesting' translates to 'interessant' in German. Comparative: 'interessanter', Superlative: 'am interessantesten'."
+  },
+  {
+    "exercise_id": "ex_adj_interessant_004",
+    "word_id": "adj_interessant",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie findet Geschichte _____.",
+      "en": "She finds history interesting."
+    },
+    "correct_answer": "interessant",
+    "wrong_answers": [
+      "langweilig",
+      "wichtig",
+      "einfach"
+    ],
+    "explanation_en": "'interessant' (interesting) is the correct adjective for this context. Opposite: 'langweilig'."
+  },
+  {
+    "exercise_id": "ex_adj_langweilig_001",
+    "word_id": "adj_langweilig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "langweilig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "boring",
+    "wrong_answers": [
+      "interesting",
+      "important",
+      "simple / easy"
+    ],
+    "explanation_en": "'langweilig' means 'boring' in German. Opposite: 'interessant'."
+  },
+  {
+    "exercise_id": "ex_adj_langweilig_002",
+    "word_id": "adj_langweilig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Film war _____.",
+      "en": "The movie was boring."
+    },
+    "correct_answer": "langweilig",
+    "wrong_answers": [
+      "interessant",
+      "wichtig",
+      "einfach"
+    ],
+    "explanation_en": "The adjective 'langweilig' (boring) fits this sentence. Its opposite is 'interessant'."
+  },
+  {
+    "exercise_id": "ex_adj_langweilig_003",
+    "word_id": "adj_langweilig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "boring",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "langweilig",
+    "wrong_answers": [
+      "interessant",
+      "wichtig",
+      "einfach"
+    ],
+    "explanation_en": "'boring' translates to 'langweilig' in German. Comparative: 'langweiliger', Superlative: 'am langweiligsten'."
+  },
+  {
+    "exercise_id": "ex_adj_langweilig_004",
+    "word_id": "adj_langweilig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich finde die Arbeit _____.",
+      "en": "I find the work boring."
+    },
+    "correct_answer": "langweilig",
+    "wrong_answers": [
+      "interessant",
+      "wichtig",
+      "einfach"
+    ],
+    "explanation_en": "'langweilig' (boring) is the correct adjective for this context. Opposite: 'interessant'."
+  },
+  {
+    "exercise_id": "ex_adj_wichtig_001",
+    "word_id": "adj_wichtig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "wichtig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "important",
+    "wrong_answers": [
+      "interesting",
+      "boring",
+      "simple / easy"
+    ],
+    "explanation_en": "'wichtig' means 'important' in German. Opposite: 'unwichtig'."
+  },
+  {
+    "exercise_id": "ex_adj_wichtig_002",
+    "word_id": "adj_wichtig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das ist eine _____e Frage.",
+      "en": "That is an important question."
+    },
+    "correct_answer": "wichtig",
+    "wrong_answers": [
+      "unwichtig",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "The adjective 'wichtig' (important) fits this sentence. Its opposite is 'unwichtig'."
+  },
+  {
+    "exercise_id": "ex_adj_wichtig_003",
+    "word_id": "adj_wichtig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "important",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "wichtig",
+    "wrong_answers": [
+      "interessant",
+      "langweilig",
+      "einfach"
+    ],
+    "explanation_en": "'important' translates to 'wichtig' in German. Comparative: 'wichtiger', Superlative: 'am wichtigsten'."
+  },
+  {
+    "exercise_id": "ex_adj_wichtig_004",
+    "word_id": "adj_wichtig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Gesundheit ist sehr _____.",
+      "en": "Health is very important."
+    },
+    "correct_answer": "wichtig",
+    "wrong_answers": [
+      "unwichtig",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "'wichtig' (important) is the correct adjective for this context. Opposite: 'unwichtig'."
+  },
+  {
+    "exercise_id": "ex_adj_einfach_001",
+    "word_id": "adj_einfach",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "einfach",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "simple / easy",
+    "wrong_answers": [
+      "interesting",
+      "boring",
+      "important"
+    ],
+    "explanation_en": "'einfach' means 'simple / easy' in German. Opposite: 'schwierig'."
+  },
+  {
+    "exercise_id": "ex_adj_einfach_002",
+    "word_id": "adj_einfach",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das ist ganz _____.",
+      "en": "That is quite simple."
+    },
+    "correct_answer": "einfach",
+    "wrong_answers": [
+      "schwierig",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "The adjective 'einfach' (simple / easy) fits this sentence. Its opposite is 'schwierig'."
+  },
+  {
+    "exercise_id": "ex_adj_einfach_003",
+    "word_id": "adj_einfach",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "simple / easy",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "einfach",
+    "wrong_answers": [
+      "interessant",
+      "langweilig",
+      "wichtig"
+    ],
+    "explanation_en": "'simple / easy' translates to 'einfach' in German. Comparative: 'einfacher', Superlative: 'am einfachsten'."
+  },
+  {
+    "exercise_id": "ex_adj_einfach_004",
+    "word_id": "adj_einfach",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Lösung war _____.",
+      "en": "The solution was simple."
+    },
+    "correct_answer": "einfach",
+    "wrong_answers": [
+      "schwierig",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "'einfach' (simple / easy) is the correct adjective for this context. Opposite: 'schwierig'."
+  },
+  {
+    "exercise_id": "ex_adj_schwierig_001",
+    "word_id": "adj_schwierig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "schwierig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "difficult",
+    "wrong_answers": [
+      "interesting",
+      "boring",
+      "important"
+    ],
+    "explanation_en": "'schwierig' means 'difficult' in German. Opposite: 'einfach'."
+  },
+  {
+    "exercise_id": "ex_adj_schwierig_002",
+    "word_id": "adj_schwierig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Deutsch ist manchmal _____.",
+      "en": "German is sometimes difficult."
+    },
+    "correct_answer": "schwierig",
+    "wrong_answers": [
+      "einfach",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "The adjective 'schwierig' (difficult) fits this sentence. Its opposite is 'einfach'."
+  },
+  {
+    "exercise_id": "ex_adj_schwierig_003",
+    "word_id": "adj_schwierig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "difficult",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "schwierig",
+    "wrong_answers": [
+      "interessant",
+      "langweilig",
+      "wichtig"
+    ],
+    "explanation_en": "'difficult' translates to 'schwierig' in German. Comparative: 'schwieriger', Superlative: 'am schwierigsten'."
+  },
+  {
+    "exercise_id": "ex_adj_schwierig_004",
+    "word_id": "adj_schwierig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Problem ist _____ zu lösen.",
+      "en": "The problem is difficult to solve."
+    },
+    "correct_answer": "schwierig",
+    "wrong_answers": [
+      "einfach",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "'schwierig' (difficult) is the correct adjective for this context. Opposite: 'einfach'."
+  },
+  {
+    "exercise_id": "ex_adj_mude_001",
+    "word_id": "adj_mude",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "müde",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "tired",
+    "wrong_answers": [
+      "interesting",
+      "boring",
+      "important"
+    ],
+    "explanation_en": "'müde' means 'tired' in German. Opposite: 'wach'."
+  },
+  {
+    "exercise_id": "ex_adj_mude_002",
+    "word_id": "adj_mude",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich bin sehr _____.",
+      "en": "I am very tired."
+    },
+    "correct_answer": "müde",
+    "wrong_answers": [
+      "wach",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "The adjective 'müde' (tired) fits this sentence. Its opposite is 'wach'."
+  },
+  {
+    "exercise_id": "ex_adj_mude_003",
+    "word_id": "adj_mude",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "tired",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "müde",
+    "wrong_answers": [
+      "interessant",
+      "langweilig",
+      "wichtig"
+    ],
+    "explanation_en": "'tired' translates to 'müde' in German. Comparative: 'müder', Superlative: 'am müdesten'."
+  },
+  {
+    "exercise_id": "ex_adj_mude_004",
+    "word_id": "adj_mude",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Nach der Arbeit bin ich immer _____.",
+      "en": "After work I am always tired."
+    },
+    "correct_answer": "müde",
+    "wrong_answers": [
+      "wach",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "'müde' (tired) is the correct adjective for this context. Opposite: 'wach'."
+  },
+  {
+    "exercise_id": "ex_adj_glucklich_001",
+    "word_id": "adj_glucklich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "glücklich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "happy",
+    "wrong_answers": [
+      "interesting",
+      "boring",
+      "important"
+    ],
+    "explanation_en": "'glücklich' means 'happy' in German. Opposite: 'traurig'."
+  },
+  {
+    "exercise_id": "ex_adj_glucklich_002",
+    "word_id": "adj_glucklich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich bin sehr _____.",
+      "en": "I am very happy."
+    },
+    "correct_answer": "glücklich",
+    "wrong_answers": [
+      "traurig",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "The adjective 'glücklich' (happy) fits this sentence. Its opposite is 'traurig'."
+  },
+  {
+    "exercise_id": "ex_adj_glucklich_003",
+    "word_id": "adj_glucklich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "happy",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "glücklich",
+    "wrong_answers": [
+      "interessant",
+      "langweilig",
+      "wichtig"
+    ],
+    "explanation_en": "'happy' translates to 'glücklich' in German. Comparative: 'glücklicher', Superlative: 'am glücklichsten'."
+  },
+  {
+    "exercise_id": "ex_adj_glucklich_004",
+    "word_id": "adj_glucklich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie macht mich _____.",
+      "en": "She makes me happy."
+    },
+    "correct_answer": "glücklich",
+    "wrong_answers": [
+      "traurig",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "'glücklich' (happy) is the correct adjective for this context. Opposite: 'traurig'."
+  },
+  {
+    "exercise_id": "ex_adj_traurig_001",
+    "word_id": "adj_traurig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "traurig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "sad",
+    "wrong_answers": [
+      "interesting",
+      "boring",
+      "important"
+    ],
+    "explanation_en": "'traurig' means 'sad' in German. Opposite: 'glücklich'."
+  },
+  {
+    "exercise_id": "ex_adj_traurig_002",
+    "word_id": "adj_traurig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er ist sehr _____.",
+      "en": "He is very sad."
+    },
+    "correct_answer": "traurig",
+    "wrong_answers": [
+      "glücklich",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "The adjective 'traurig' (sad) fits this sentence. Its opposite is 'glücklich'."
+  },
+  {
+    "exercise_id": "ex_adj_traurig_003",
+    "word_id": "adj_traurig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "sad",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "traurig",
+    "wrong_answers": [
+      "interessant",
+      "langweilig",
+      "wichtig"
+    ],
+    "explanation_en": "'sad' translates to 'traurig' in German. Comparative: 'trauriger', Superlative: 'am traurigsten'."
+  },
+  {
+    "exercise_id": "ex_adj_traurig_004",
+    "word_id": "adj_traurig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Film hat mich _____ gemacht.",
+      "en": "The movie made me sad."
+    },
+    "correct_answer": "traurig",
+    "wrong_answers": [
+      "glücklich",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "'traurig' (sad) is the correct adjective for this context. Opposite: 'glücklich'."
+  },
+  {
+    "exercise_id": "ex_adj_krank_001",
+    "word_id": "adj_krank",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "krank",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "sick / ill",
+    "wrong_answers": [
+      "interesting",
+      "boring",
+      "important"
+    ],
+    "explanation_en": "'krank' means 'sick / ill' in German. Opposite: 'gesund'."
+  },
+  {
+    "exercise_id": "ex_adj_krank_002",
+    "word_id": "adj_krank",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich bin _____ und bleibe zu Hause.",
+      "en": "I am sick and staying home."
+    },
+    "correct_answer": "krank",
+    "wrong_answers": [
+      "gesund",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "The adjective 'krank' (sick / ill) fits this sentence. Its opposite is 'gesund'."
+  },
+  {
+    "exercise_id": "ex_adj_krank_003",
+    "word_id": "adj_krank",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "sick / ill",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "krank",
+    "wrong_answers": [
+      "interessant",
+      "langweilig",
+      "wichtig"
+    ],
+    "explanation_en": "'sick / ill' translates to 'krank' in German. Comparative: 'kränker', Superlative: 'am kränksten'."
+  },
+  {
+    "exercise_id": "ex_adj_krank_004",
+    "word_id": "adj_krank",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Kind ist _____.",
+      "en": "The child is sick."
+    },
+    "correct_answer": "krank",
+    "wrong_answers": [
+      "gesund",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "'krank' (sick / ill) is the correct adjective for this context. Opposite: 'gesund'."
+  },
+  {
+    "exercise_id": "ex_adj_gesund_001",
+    "word_id": "adj_gesund",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "gesund",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "healthy",
+    "wrong_answers": [
+      "interesting",
+      "boring",
+      "important"
+    ],
+    "explanation_en": "'gesund' means 'healthy' in German. Opposite: 'krank'."
+  },
+  {
+    "exercise_id": "ex_adj_gesund_002",
+    "word_id": "adj_gesund",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Obst und Gemüse sind _____.",
+      "en": "Fruit and vegetables are healthy."
+    },
+    "correct_answer": "gesund",
+    "wrong_answers": [
+      "krank",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "The adjective 'gesund' (healthy) fits this sentence. Its opposite is 'krank'."
+  },
+  {
+    "exercise_id": "ex_adj_gesund_003",
+    "word_id": "adj_gesund",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "healthy",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "gesund",
+    "wrong_answers": [
+      "interessant",
+      "langweilig",
+      "wichtig"
+    ],
+    "explanation_en": "'healthy' translates to 'gesund' in German. Comparative: 'gesünder', Superlative: 'am gesündesten'."
+  },
+  {
+    "exercise_id": "ex_adj_gesund_004",
+    "word_id": "adj_gesund",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er ist wieder _____.",
+      "en": "He is healthy again."
+    },
+    "correct_answer": "gesund",
+    "wrong_answers": [
+      "krank",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "'gesund' (healthy) is the correct adjective for this context. Opposite: 'krank'."
+  },
+  {
+    "exercise_id": "ex_adj_sauber_001",
+    "word_id": "adj_sauber",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "sauber",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "clean",
+    "wrong_answers": [
+      "interesting",
+      "boring",
+      "important"
+    ],
+    "explanation_en": "'sauber' means 'clean' in German. Opposite: 'schmutzig'."
+  },
+  {
+    "exercise_id": "ex_adj_sauber_002",
+    "word_id": "adj_sauber",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Zimmer ist _____.",
+      "en": "The room is clean."
+    },
+    "correct_answer": "sauber",
+    "wrong_answers": [
+      "schmutzig",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "The adjective 'sauber' (clean) fits this sentence. Its opposite is 'schmutzig'."
+  },
+  {
+    "exercise_id": "ex_adj_sauber_003",
+    "word_id": "adj_sauber",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "clean",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "sauber",
+    "wrong_answers": [
+      "interessant",
+      "langweilig",
+      "wichtig"
+    ],
+    "explanation_en": "'clean' translates to 'sauber' in German. Comparative: 'sauberer', Superlative: 'am saubersten'."
+  },
+  {
+    "exercise_id": "ex_adj_sauber_004",
+    "word_id": "adj_sauber",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich wasche meine Hände, damit sie _____ sind.",
+      "en": "I wash my hands so that they are clean."
+    },
+    "correct_answer": "sauber",
+    "wrong_answers": [
+      "schmutzig",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "'sauber' (clean) is the correct adjective for this context. Opposite: 'schmutzig'."
+  },
+  {
+    "exercise_id": "ex_adj_schmutzig_001",
+    "word_id": "adj_schmutzig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "schmutzig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "dirty",
+    "wrong_answers": [
+      "interesting",
+      "boring",
+      "important"
+    ],
+    "explanation_en": "'schmutzig' means 'dirty' in German. Opposite: 'sauber'."
+  },
+  {
+    "exercise_id": "ex_adj_schmutzig_002",
+    "word_id": "adj_schmutzig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Schuhe sind _____.",
+      "en": "The shoes are dirty."
+    },
+    "correct_answer": "schmutzig",
+    "wrong_answers": [
+      "sauber",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "The adjective 'schmutzig' (dirty) fits this sentence. Its opposite is 'sauber'."
+  },
+  {
+    "exercise_id": "ex_adj_schmutzig_003",
+    "word_id": "adj_schmutzig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "dirty",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "schmutzig",
+    "wrong_answers": [
+      "interessant",
+      "langweilig",
+      "wichtig"
+    ],
+    "explanation_en": "'dirty' translates to 'schmutzig' in German. Comparative: 'schmutziger', Superlative: 'am schmutzigsten'."
+  },
+  {
+    "exercise_id": "ex_adj_schmutzig_004",
+    "word_id": "adj_schmutzig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Fenster ist _____.",
+      "en": "The window is dirty."
+    },
+    "correct_answer": "schmutzig",
+    "wrong_answers": [
+      "sauber",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "'schmutzig' (dirty) is the correct adjective for this context. Opposite: 'sauber'."
+  },
+  {
+    "exercise_id": "ex_adj_offen_001",
+    "word_id": "adj_offen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "offen",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "open",
+    "wrong_answers": [
+      "interesting",
+      "boring",
+      "important"
+    ],
+    "explanation_en": "'offen' means 'open' in German. Opposite: 'geschlossen'."
+  },
+  {
+    "exercise_id": "ex_adj_offen_002",
+    "word_id": "adj_offen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Fenster ist _____.",
+      "en": "The window is open."
+    },
+    "correct_answer": "offen",
+    "wrong_answers": [
+      "geschlossen",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "The adjective 'offen' (open) fits this sentence. Its opposite is 'geschlossen'."
+  },
+  {
+    "exercise_id": "ex_adj_offen_003",
+    "word_id": "adj_offen",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "open",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "offen",
+    "wrong_answers": [
+      "interessant",
+      "langweilig",
+      "wichtig"
+    ],
+    "explanation_en": "'open' translates to 'offen' in German. Comparative: 'offener', Superlative: 'am offensten'."
+  },
+  {
+    "exercise_id": "ex_adj_offen_004",
+    "word_id": "adj_offen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Geschäft ist _____.",
+      "en": "The shop is open."
+    },
+    "correct_answer": "offen",
+    "wrong_answers": [
+      "geschlossen",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "'offen' (open) is the correct adjective for this context. Opposite: 'geschlossen'."
+  },
+  {
+    "exercise_id": "ex_adj_geschlossen_001",
+    "word_id": "adj_geschlossen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "geschlossen",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "closed",
+    "wrong_answers": [
+      "interesting",
+      "boring",
+      "important"
+    ],
+    "explanation_en": "'geschlossen' means 'closed' in German. Opposite: 'offen'."
+  },
+  {
+    "exercise_id": "ex_adj_geschlossen_002",
+    "word_id": "adj_geschlossen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Café ist _____.",
+      "en": "The café is closed."
+    },
+    "correct_answer": "geschlossen",
+    "wrong_answers": [
+      "offen",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "The adjective 'geschlossen' (closed) fits this sentence. Its opposite is 'offen'."
+  },
+  {
+    "exercise_id": "ex_adj_geschlossen_003",
+    "word_id": "adj_geschlossen",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "closed",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "geschlossen",
+    "wrong_answers": [
+      "interessant",
+      "langweilig",
+      "wichtig"
+    ],
+    "explanation_en": "'closed' translates to 'geschlossen' in German. Comparative: '—', Superlative: '—'."
+  },
+  {
+    "exercise_id": "ex_adj_geschlossen_004",
+    "word_id": "adj_geschlossen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Tür ist _____.",
+      "en": "The door is closed."
+    },
+    "correct_answer": "geschlossen",
+    "wrong_answers": [
+      "offen",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "'geschlossen' (closed) is the correct adjective for this context. Opposite: 'offen'."
+  },
+  {
+    "exercise_id": "ex_adj_hell_001",
+    "word_id": "adj_hell",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "hell",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "bright / light",
+    "wrong_answers": [
+      "interesting",
+      "boring",
+      "important"
+    ],
+    "explanation_en": "'hell' means 'bright / light' in German. Opposite: 'dunkel'."
+  },
+  {
+    "exercise_id": "ex_adj_hell_002",
+    "word_id": "adj_hell",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Zimmer ist _____.",
+      "en": "The room is bright."
+    },
+    "correct_answer": "hell",
+    "wrong_answers": [
+      "dunkel",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "The adjective 'hell' (bright / light) fits this sentence. Its opposite is 'dunkel'."
+  },
+  {
+    "exercise_id": "ex_adj_hell_003",
+    "word_id": "adj_hell",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "bright / light",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "hell",
+    "wrong_answers": [
+      "interessant",
+      "langweilig",
+      "wichtig"
+    ],
+    "explanation_en": "'bright / light' translates to 'hell' in German. Comparative: 'heller', Superlative: 'am hellsten'."
+  },
+  {
+    "exercise_id": "ex_adj_hell_004",
+    "word_id": "adj_hell",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Draußen ist es noch _____.",
+      "en": "It is still light outside."
+    },
+    "correct_answer": "hell",
+    "wrong_answers": [
+      "dunkel",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "'hell' (bright / light) is the correct adjective for this context. Opposite: 'dunkel'."
+  },
+  {
+    "exercise_id": "ex_adj_dunkel_001",
+    "word_id": "adj_dunkel",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "dunkel",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "dark",
+    "wrong_answers": [
+      "interesting",
+      "boring",
+      "important"
+    ],
+    "explanation_en": "'dunkel' means 'dark' in German. Opposite: 'hell'."
+  },
+  {
+    "exercise_id": "ex_adj_dunkel_002",
+    "word_id": "adj_dunkel",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Es ist _____ draußen.",
+      "en": "It is dark outside."
+    },
+    "correct_answer": "dunkel",
+    "wrong_answers": [
+      "hell",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "The adjective 'dunkel' (dark) fits this sentence. Its opposite is 'hell'."
+  },
+  {
+    "exercise_id": "ex_adj_dunkel_003",
+    "word_id": "adj_dunkel",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "dark",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "dunkel",
+    "wrong_answers": [
+      "interessant",
+      "langweilig",
+      "wichtig"
+    ],
+    "explanation_en": "'dark' translates to 'dunkel' in German. Comparative: 'dunkler', Superlative: 'am dunkelsten'."
+  },
+  {
+    "exercise_id": "ex_adj_dunkel_004",
+    "word_id": "adj_dunkel",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Keller ist _____.",
+      "en": "The cellar is dark."
+    },
+    "correct_answer": "dunkel",
+    "wrong_answers": [
+      "hell",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "'dunkel' (dark) is the correct adjective for this context. Opposite: 'hell'."
+  },
+  {
+    "exercise_id": "ex_adj_breit_001",
+    "word_id": "adj_breit",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "breit",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "wide / broad",
+    "wrong_answers": [
+      "interesting",
+      "boring",
+      "important"
+    ],
+    "explanation_en": "'breit' means 'wide / broad' in German. Opposite: 'eng'."
+  },
+  {
+    "exercise_id": "ex_adj_breit_002",
+    "word_id": "adj_breit",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Straße ist sehr _____.",
+      "en": "The street is very wide."
+    },
+    "correct_answer": "breit",
+    "wrong_answers": [
+      "eng",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "The adjective 'breit' (wide / broad) fits this sentence. Its opposite is 'eng'."
+  },
+  {
+    "exercise_id": "ex_adj_breit_003",
+    "word_id": "adj_breit",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "wide / broad",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "breit",
+    "wrong_answers": [
+      "interessant",
+      "langweilig",
+      "wichtig"
+    ],
+    "explanation_en": "'wide / broad' translates to 'breit' in German. Comparative: 'breiter', Superlative: 'am breitesten'."
+  },
+  {
+    "exercise_id": "ex_adj_breit_004",
+    "word_id": "adj_breit",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er hat _____e Schultern.",
+      "en": "He has broad shoulders."
+    },
+    "correct_answer": "breit",
+    "wrong_answers": [
+      "eng",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "'breit' (wide / broad) is the correct adjective for this context. Opposite: 'eng'."
+  },
+  {
+    "exercise_id": "ex_adj_eng_001",
+    "word_id": "adj_eng",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "eng",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "narrow / tight",
+    "wrong_answers": [
+      "interesting",
+      "boring",
+      "important"
+    ],
+    "explanation_en": "'eng' means 'narrow / tight' in German. Opposite: 'breit'."
+  },
+  {
+    "exercise_id": "ex_adj_eng_002",
+    "word_id": "adj_eng",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Hose ist _____.",
+      "en": "The trousers are tight."
+    },
+    "correct_answer": "eng",
+    "wrong_answers": [
+      "breit",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "The adjective 'eng' (narrow / tight) fits this sentence. Its opposite is 'breit'."
+  },
+  {
+    "exercise_id": "ex_adj_eng_003",
+    "word_id": "adj_eng",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "narrow / tight",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "eng",
+    "wrong_answers": [
+      "interessant",
+      "langweilig",
+      "wichtig"
+    ],
+    "explanation_en": "'narrow / tight' translates to 'eng' in German. Comparative: 'enger', Superlative: 'am engsten'."
+  },
+  {
+    "exercise_id": "ex_adj_eng_004",
+    "word_id": "adj_eng",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Gasse ist sehr _____.",
+      "en": "The alley is very narrow."
+    },
+    "correct_answer": "eng",
+    "wrong_answers": [
+      "breit",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "'eng' (narrow / tight) is the correct adjective for this context. Opposite: 'breit'."
+  },
+  {
+    "exercise_id": "ex_adj_hoch_001",
+    "word_id": "adj_hoch",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "hoch",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "high / tall",
+    "wrong_answers": [
+      "interesting",
+      "boring",
+      "important"
+    ],
+    "explanation_en": "'hoch' means 'high / tall' in German. Opposite: 'niedrig'."
+  },
+  {
+    "exercise_id": "ex_adj_hoch_002",
+    "word_id": "adj_hoch",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Berg ist sehr _____.",
+      "en": "The mountain is very high."
+    },
+    "correct_answer": "hoch",
+    "wrong_answers": [
+      "niedrig",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "The adjective 'hoch' (high / tall) fits this sentence. Its opposite is 'niedrig'."
+  },
+  {
+    "exercise_id": "ex_adj_hoch_003",
+    "word_id": "adj_hoch",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "high / tall",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "hoch",
+    "wrong_answers": [
+      "interessant",
+      "langweilig",
+      "wichtig"
+    ],
+    "explanation_en": "'high / tall' translates to 'hoch' in German. Comparative: 'höher', Superlative: 'am höchsten'."
+  },
+  {
+    "exercise_id": "ex_adj_hoch_004",
+    "word_id": "adj_hoch",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Miete ist _____.",
+      "en": "The rent is high."
+    },
+    "correct_answer": "hoch",
+    "wrong_answers": [
+      "niedrig",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "'hoch' (high / tall) is the correct adjective for this context. Opposite: 'niedrig'."
+  },
+  {
+    "exercise_id": "ex_adj_nass_001",
+    "word_id": "adj_nass",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "nass",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "wet",
+    "wrong_answers": [
+      "interesting",
+      "boring",
+      "important"
+    ],
+    "explanation_en": "'nass' means 'wet' in German. Opposite: 'trocken'."
+  },
+  {
+    "exercise_id": "ex_adj_nass_002",
+    "word_id": "adj_nass",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Meine Kleidung ist _____.",
+      "en": "My clothes are wet."
+    },
+    "correct_answer": "nass",
+    "wrong_answers": [
+      "trocken",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "The adjective 'nass' (wet) fits this sentence. Its opposite is 'trocken'."
+  },
+  {
+    "exercise_id": "ex_adj_nass_003",
+    "word_id": "adj_nass",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "wet",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "nass",
+    "wrong_answers": [
+      "interessant",
+      "langweilig",
+      "wichtig"
+    ],
+    "explanation_en": "'wet' translates to 'nass' in German. Comparative: 'nasser', Superlative: 'am nassesten'."
+  },
+  {
+    "exercise_id": "ex_adj_nass_004",
+    "word_id": "adj_nass",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Boden ist _____ nach dem Regen.",
+      "en": "The floor is wet after the rain."
+    },
+    "correct_answer": "nass",
+    "wrong_answers": [
+      "trocken",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "'nass' (wet) is the correct adjective for this context. Opposite: 'trocken'."
+  },
+  {
+    "exercise_id": "ex_adj_trocken_001",
+    "word_id": "adj_trocken",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "trocken",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "dry",
+    "wrong_answers": [
+      "interesting",
+      "boring",
+      "important"
+    ],
+    "explanation_en": "'trocken' means 'dry' in German. Opposite: 'nass'."
+  },
+  {
+    "exercise_id": "ex_adj_trocken_002",
+    "word_id": "adj_trocken",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Luft ist heute sehr _____.",
+      "en": "The air is very dry today."
+    },
+    "correct_answer": "trocken",
+    "wrong_answers": [
+      "nass",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "The adjective 'trocken' (dry) fits this sentence. Its opposite is 'nass'."
+  },
+  {
+    "exercise_id": "ex_adj_trocken_003",
+    "word_id": "adj_trocken",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "dry",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "trocken",
+    "wrong_answers": [
+      "interessant",
+      "langweilig",
+      "wichtig"
+    ],
+    "explanation_en": "'dry' translates to 'trocken' in German. Comparative: 'trockener', Superlative: 'am trockensten'."
+  },
+  {
+    "exercise_id": "ex_adj_trocken_004",
+    "word_id": "adj_trocken",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Handtuch ist _____.",
+      "en": "The towel is dry."
+    },
+    "correct_answer": "trocken",
+    "wrong_answers": [
+      "nass",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "'trocken' (dry) is the correct adjective for this context. Opposite: 'nass'."
+  },
+  {
+    "exercise_id": "ex_adj_sicher_001",
+    "word_id": "adj_sicher",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "sicher",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "safe / certain",
+    "wrong_answers": [
+      "interesting",
+      "boring",
+      "important"
+    ],
+    "explanation_en": "'sicher' means 'safe / certain' in German. Opposite: 'gefährlich'."
+  },
+  {
+    "exercise_id": "ex_adj_sicher_002",
+    "word_id": "adj_sicher",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Diese Stadt ist sehr _____.",
+      "en": "This city is very safe."
+    },
+    "correct_answer": "sicher",
+    "wrong_answers": [
+      "gefährlich",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "The adjective 'sicher' (safe / certain) fits this sentence. Its opposite is 'gefährlich'."
+  },
+  {
+    "exercise_id": "ex_adj_sicher_003",
+    "word_id": "adj_sicher",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "safe / certain",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "sicher",
+    "wrong_answers": [
+      "interessant",
+      "langweilig",
+      "wichtig"
+    ],
+    "explanation_en": "'safe / certain' translates to 'sicher' in German. Comparative: 'sicherer', Superlative: 'am sichersten'."
+  },
+  {
+    "exercise_id": "ex_adj_sicher_004",
+    "word_id": "adj_sicher",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich bin mir _____.",
+      "en": "I am certain."
+    },
+    "correct_answer": "sicher",
+    "wrong_answers": [
+      "gefährlich",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "'sicher' (safe / certain) is the correct adjective for this context. Opposite: 'gefährlich'."
+  },
+  {
+    "exercise_id": "ex_adj_gefahrlich_001",
+    "word_id": "adj_gefahrlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "gefährlich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "dangerous",
+    "wrong_answers": [
+      "interesting",
+      "boring",
+      "important"
+    ],
+    "explanation_en": "'gefährlich' means 'dangerous' in German. Opposite: 'sicher'."
+  },
+  {
+    "exercise_id": "ex_adj_gefahrlich_002",
+    "word_id": "adj_gefahrlich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das ist sehr _____!",
+      "en": "That is very dangerous!"
+    },
+    "correct_answer": "gefährlich",
+    "wrong_answers": [
+      "sicher",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "The adjective 'gefährlich' (dangerous) fits this sentence. Its opposite is 'sicher'."
+  },
+  {
+    "exercise_id": "ex_adj_gefahrlich_003",
+    "word_id": "adj_gefahrlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "dangerous",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "gefährlich",
+    "wrong_answers": [
+      "interessant",
+      "langweilig",
+      "wichtig"
+    ],
+    "explanation_en": "'dangerous' translates to 'gefährlich' in German. Comparative: 'gefährlicher', Superlative: 'am gefährlichsten'."
+  },
+  {
+    "exercise_id": "ex_adj_gefahrlich_004",
+    "word_id": "adj_gefahrlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Fahren bei Eis ist _____.",
+      "en": "Driving on ice is dangerous."
+    },
+    "correct_answer": "gefährlich",
+    "wrong_answers": [
+      "sicher",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "'gefährlich' (dangerous) is the correct adjective for this context. Opposite: 'sicher'."
+  },
+  {
+    "exercise_id": "ex_adj_stark_001",
+    "word_id": "adj_stark",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "stark",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "strong",
+    "wrong_answers": [
+      "interesting",
+      "boring",
+      "important"
+    ],
+    "explanation_en": "'stark' means 'strong' in German. Opposite: 'schwach'."
+  },
+  {
+    "exercise_id": "ex_adj_stark_002",
+    "word_id": "adj_stark",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er ist sehr _____.",
+      "en": "He is very strong."
+    },
+    "correct_answer": "stark",
+    "wrong_answers": [
+      "schwach",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "The adjective 'stark' (strong) fits this sentence. Its opposite is 'schwach'."
+  },
+  {
+    "exercise_id": "ex_adj_stark_003",
+    "word_id": "adj_stark",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "strong",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "stark",
+    "wrong_answers": [
+      "interessant",
+      "langweilig",
+      "wichtig"
+    ],
+    "explanation_en": "'strong' translates to 'stark' in German. Comparative: 'stärker', Superlative: 'am stärksten'."
+  },
+  {
+    "exercise_id": "ex_adj_stark_004",
+    "word_id": "adj_stark",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Wind ist _____.",
+      "en": "The wind is strong."
+    },
+    "correct_answer": "stark",
+    "wrong_answers": [
+      "schwach",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "'stark' (strong) is the correct adjective for this context. Opposite: 'schwach'."
+  },
+  {
+    "exercise_id": "ex_adj_schwach_001",
+    "word_id": "adj_schwach",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "schwach",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "weak",
+    "wrong_answers": [
+      "interesting",
+      "boring",
+      "important"
+    ],
+    "explanation_en": "'schwach' means 'weak' in German. Opposite: 'stark'."
+  },
+  {
+    "exercise_id": "ex_adj_schwach_002",
+    "word_id": "adj_schwach",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Nach der Krankheit war er _____.",
+      "en": "After the illness he was weak."
+    },
+    "correct_answer": "schwach",
+    "wrong_answers": [
+      "stark",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "The adjective 'schwach' (weak) fits this sentence. Its opposite is 'stark'."
+  },
+  {
+    "exercise_id": "ex_adj_schwach_003",
+    "word_id": "adj_schwach",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "weak",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "schwach",
+    "wrong_answers": [
+      "interessant",
+      "langweilig",
+      "wichtig"
+    ],
+    "explanation_en": "'weak' translates to 'schwach' in German. Comparative: 'schwächer', Superlative: 'am schwächsten'."
+  },
+  {
+    "exercise_id": "ex_adj_schwach_004",
+    "word_id": "adj_schwach",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Signal ist _____.",
+      "en": "The signal is weak."
+    },
+    "correct_answer": "schwach",
+    "wrong_answers": [
+      "stark",
+      "interessant",
+      "langweilig"
+    ],
+    "explanation_en": "'schwach' (weak) is the correct adjective for this context. Opposite: 'stark'."
+  },
+  {
+    "exercise_id": "ex_adj_freundlich_001",
+    "word_id": "adj_freundlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "freundlich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "friendly / kind",
+    "wrong_answers": [
+      "polite",
+      "patient",
+      "nervous"
+    ],
+    "explanation_en": "'freundlich' means 'friendly / kind' in German. Opposite: 'unfreundlich'."
+  },
+  {
+    "exercise_id": "ex_adj_freundlich_002",
+    "word_id": "adj_freundlich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Mitarbeiter sind sehr _____.",
+      "en": "The staff are very friendly."
+    },
+    "correct_answer": "freundlich",
+    "wrong_answers": [
+      "unfreundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "The adjective 'freundlich' (friendly / kind) fits this sentence. Its opposite is 'unfreundlich'."
+  },
+  {
+    "exercise_id": "ex_adj_freundlich_003",
+    "word_id": "adj_freundlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "friendly / kind",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "freundlich",
+    "wrong_answers": [
+      "höflich",
+      "geduldig",
+      "nervös"
+    ],
+    "explanation_en": "'friendly / kind' translates to 'freundlich' in German. Comparative: 'freundlicher', Superlative: 'am freundlichsten'."
+  },
+  {
+    "exercise_id": "ex_adj_freundlich_004",
+    "word_id": "adj_freundlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er ist immer _____ zu mir.",
+      "en": "He is always friendly to me."
+    },
+    "correct_answer": "freundlich",
+    "wrong_answers": [
+      "unfreundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'freundlich' (friendly / kind) is the correct adjective for this context. Opposite: 'unfreundlich'."
+  },
+  {
+    "exercise_id": "ex_adj_hoflich_001",
+    "word_id": "adj_hoflich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "höflich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "polite",
+    "wrong_answers": [
+      "friendly / kind",
+      "patient",
+      "nervous"
+    ],
+    "explanation_en": "'höflich' means 'polite' in German. Opposite: 'unhöflich'."
+  },
+  {
+    "exercise_id": "ex_adj_hoflich_002",
+    "word_id": "adj_hoflich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Es ist wichtig, _____ zu sein.",
+      "en": "It is important to be polite."
+    },
+    "correct_answer": "höflich",
+    "wrong_answers": [
+      "unhöflich",
+      "freundlich",
+      "geduldig"
+    ],
+    "explanation_en": "The adjective 'höflich' (polite) fits this sentence. Its opposite is 'unhöflich'."
+  },
+  {
+    "exercise_id": "ex_adj_hoflich_003",
+    "word_id": "adj_hoflich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "polite",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "höflich",
+    "wrong_answers": [
+      "freundlich",
+      "geduldig",
+      "nervös"
+    ],
+    "explanation_en": "'polite' translates to 'höflich' in German. Comparative: 'höflicher', Superlative: 'am höflichsten'."
+  },
+  {
+    "exercise_id": "ex_adj_hoflich_004",
+    "word_id": "adj_hoflich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Kinder sind sehr _____.",
+      "en": "The children are very polite."
+    },
+    "correct_answer": "höflich",
+    "wrong_answers": [
+      "unhöflich",
+      "freundlich",
+      "geduldig"
+    ],
+    "explanation_en": "'höflich' (polite) is the correct adjective for this context. Opposite: 'unhöflich'."
+  },
+  {
+    "exercise_id": "ex_adj_geduldig_001",
+    "word_id": "adj_geduldig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "geduldig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "patient",
+    "wrong_answers": [
+      "friendly / kind",
+      "polite",
+      "nervous"
+    ],
+    "explanation_en": "'geduldig' means 'patient' in German. Opposite: 'ungeduldig'."
+  },
+  {
+    "exercise_id": "ex_adj_geduldig_002",
+    "word_id": "adj_geduldig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Man muss _____ sein.",
+      "en": "One must be patient."
+    },
+    "correct_answer": "geduldig",
+    "wrong_answers": [
+      "ungeduldig",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "The adjective 'geduldig' (patient) fits this sentence. Its opposite is 'ungeduldig'."
+  },
+  {
+    "exercise_id": "ex_adj_geduldig_003",
+    "word_id": "adj_geduldig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "patient",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "geduldig",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "nervös"
+    ],
+    "explanation_en": "'patient' translates to 'geduldig' in German. Comparative: 'geduldiger', Superlative: 'am geduldigsten'."
+  },
+  {
+    "exercise_id": "ex_adj_geduldig_004",
+    "word_id": "adj_geduldig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie ist sehr _____ mit den Kindern.",
+      "en": "She is very patient with the children."
+    },
+    "correct_answer": "geduldig",
+    "wrong_answers": [
+      "ungeduldig",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "'geduldig' (patient) is the correct adjective for this context. Opposite: 'ungeduldig'."
+  },
+  {
+    "exercise_id": "ex_adj_nervos_001",
+    "word_id": "adj_nervos",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "nervös",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "nervous",
+    "wrong_answers": [
+      "friendly / kind",
+      "polite",
+      "patient"
+    ],
+    "explanation_en": "'nervös' means 'nervous' in German. Opposite: 'ruhig'."
+  },
+  {
+    "exercise_id": "ex_adj_nervos_002",
+    "word_id": "adj_nervos",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich bin vor dem Examen _____.",
+      "en": "I am nervous before the exam."
+    },
+    "correct_answer": "nervös",
+    "wrong_answers": [
+      "ruhig",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "The adjective 'nervös' (nervous) fits this sentence. Its opposite is 'ruhig'."
+  },
+  {
+    "exercise_id": "ex_adj_nervos_003",
+    "word_id": "adj_nervos",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "nervous",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "nervös",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'nervous' translates to 'nervös' in German. Comparative: 'nervöser', Superlative: 'am nervösesten'."
+  },
+  {
+    "exercise_id": "ex_adj_nervos_004",
+    "word_id": "adj_nervos",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie wirkt _____.",
+      "en": "She seems nervous."
+    },
+    "correct_answer": "nervös",
+    "wrong_answers": [
+      "ruhig",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "'nervös' (nervous) is the correct adjective for this context. Opposite: 'ruhig'."
+  },
+  {
+    "exercise_id": "ex_adj_ruhig_001",
+    "word_id": "adj_ruhig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "ruhig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "calm / quiet",
+    "wrong_answers": [
+      "friendly / kind",
+      "polite",
+      "patient"
+    ],
+    "explanation_en": "'ruhig' means 'calm / quiet' in German. Opposite: 'nervös'."
+  },
+  {
+    "exercise_id": "ex_adj_ruhig_002",
+    "word_id": "adj_ruhig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Bleib _____!",
+      "en": "Stay calm!"
+    },
+    "correct_answer": "ruhig",
+    "wrong_answers": [
+      "nervös",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "The adjective 'ruhig' (calm / quiet) fits this sentence. Its opposite is 'nervös'."
+  },
+  {
+    "exercise_id": "ex_adj_ruhig_003",
+    "word_id": "adj_ruhig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "calm / quiet",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "ruhig",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'calm / quiet' translates to 'ruhig' in German. Comparative: 'ruhiger', Superlative: 'am ruhigsten'."
+  },
+  {
+    "exercise_id": "ex_adj_ruhig_004",
+    "word_id": "adj_ruhig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das ist ein _____es Dorf.",
+      "en": "That is a quiet village."
+    },
+    "correct_answer": "ruhig",
+    "wrong_answers": [
+      "nervös",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "'ruhig' (calm / quiet) is the correct adjective for this context. Opposite: 'nervös'."
+  },
+  {
+    "exercise_id": "ex_adj_nutzlich_001",
+    "word_id": "adj_nutzlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "nützlich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "useful",
+    "wrong_answers": [
+      "friendly / kind",
+      "polite",
+      "patient"
+    ],
+    "explanation_en": "'nützlich' means 'useful' in German. Opposite: 'nutzlos'."
+  },
+  {
+    "exercise_id": "ex_adj_nutzlich_002",
+    "word_id": "adj_nutzlich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das ist ein _____es Werkzeug.",
+      "en": "That is a useful tool."
+    },
+    "correct_answer": "nützlich",
+    "wrong_answers": [
+      "nutzlos",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "The adjective 'nützlich' (useful) fits this sentence. Its opposite is 'nutzlos'."
+  },
+  {
+    "exercise_id": "ex_adj_nutzlich_003",
+    "word_id": "adj_nutzlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "useful",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "nützlich",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'useful' translates to 'nützlich' in German. Comparative: 'nützlicher', Superlative: 'am nützlichsten'."
+  },
+  {
+    "exercise_id": "ex_adj_nutzlich_004",
+    "word_id": "adj_nutzlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Deutsch zu lernen ist sehr _____.",
+      "en": "Learning German is very useful."
+    },
+    "correct_answer": "nützlich",
+    "wrong_answers": [
+      "nutzlos",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "'nützlich' (useful) is the correct adjective for this context. Opposite: 'nutzlos'."
+  },
+  {
+    "exercise_id": "ex_adj_neugierig_001",
+    "word_id": "adj_neugierig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "neugierig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "curious",
+    "wrong_answers": [
+      "friendly / kind",
+      "polite",
+      "patient"
+    ],
+    "explanation_en": "'neugierig' means 'curious' in German."
+  },
+  {
+    "exercise_id": "ex_adj_neugierig_002",
+    "word_id": "adj_neugierig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Kinder sind von Natur aus _____.",
+      "en": "Children are naturally curious."
+    },
+    "correct_answer": "neugierig",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "The adjective 'neugierig' (curious) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_neugierig_003",
+    "word_id": "adj_neugierig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "curious",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "neugierig",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'curious' translates to 'neugierig' in German. Comparative: 'neugieriger', Superlative: 'am neugierigsten'."
+  },
+  {
+    "exercise_id": "ex_adj_neugierig_004",
+    "word_id": "adj_neugierig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich bin _____ auf das Ergebnis.",
+      "en": "I am curious about the result."
+    },
+    "correct_answer": "neugierig",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'neugierig' (curious) is the correct adjective for this context."
+  },
+  {
+    "exercise_id": "ex_adj_vorsichtig_001",
+    "word_id": "adj_vorsichtig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "vorsichtig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "careful / cautious",
+    "wrong_answers": [
+      "friendly / kind",
+      "polite",
+      "patient"
+    ],
+    "explanation_en": "'vorsichtig' means 'careful / cautious' in German. Opposite: 'unvorsichtig'."
+  },
+  {
+    "exercise_id": "ex_adj_vorsichtig_002",
+    "word_id": "adj_vorsichtig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Sei _____ auf der Straße!",
+      "en": "Be careful on the road!"
+    },
+    "correct_answer": "vorsichtig",
+    "wrong_answers": [
+      "unvorsichtig",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "The adjective 'vorsichtig' (careful / cautious) fits this sentence. Its opposite is 'unvorsichtig'."
+  },
+  {
+    "exercise_id": "ex_adj_vorsichtig_003",
+    "word_id": "adj_vorsichtig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "careful / cautious",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "vorsichtig",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'careful / cautious' translates to 'vorsichtig' in German. Comparative: 'vorsichtiger', Superlative: 'am vorsichtigsten'."
+  },
+  {
+    "exercise_id": "ex_adj_vorsichtig_004",
+    "word_id": "adj_vorsichtig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er ist ein _____er Fahrer.",
+      "en": "He is a careful driver."
+    },
+    "correct_answer": "vorsichtig",
+    "wrong_answers": [
+      "unvorsichtig",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "'vorsichtig' (careful / cautious) is the correct adjective for this context. Opposite: 'unvorsichtig'."
+  },
+  {
+    "exercise_id": "ex_adj_ehrlich_001",
+    "word_id": "adj_ehrlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "ehrlich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "honest",
+    "wrong_answers": [
+      "friendly / kind",
+      "polite",
+      "patient"
+    ],
+    "explanation_en": "'ehrlich' means 'honest' in German. Opposite: 'unehrlich'."
+  },
+  {
+    "exercise_id": "ex_adj_ehrlich_002",
+    "word_id": "adj_ehrlich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er ist immer _____.",
+      "en": "He is always honest."
+    },
+    "correct_answer": "ehrlich",
+    "wrong_answers": [
+      "unehrlich",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "The adjective 'ehrlich' (honest) fits this sentence. Its opposite is 'unehrlich'."
+  },
+  {
+    "exercise_id": "ex_adj_ehrlich_003",
+    "word_id": "adj_ehrlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "honest",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "ehrlich",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'honest' translates to 'ehrlich' in German. Comparative: 'ehrlicher', Superlative: 'am ehrlichsten'."
+  },
+  {
+    "exercise_id": "ex_adj_ehrlich_004",
+    "word_id": "adj_ehrlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sei _____ zu mir.",
+      "en": "Be honest with me."
+    },
+    "correct_answer": "ehrlich",
+    "wrong_answers": [
+      "unehrlich",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "'ehrlich' (honest) is the correct adjective for this context. Opposite: 'unehrlich'."
+  },
+  {
+    "exercise_id": "ex_adj_faul_001",
+    "word_id": "adj_faul",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "faul",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "lazy",
+    "wrong_answers": [
+      "friendly / kind",
+      "polite",
+      "patient"
+    ],
+    "explanation_en": "'faul' means 'lazy' in German. Opposite: 'fleißig'."
+  },
+  {
+    "exercise_id": "ex_adj_faul_002",
+    "word_id": "adj_faul",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er ist heute sehr _____.",
+      "en": "He is very lazy today."
+    },
+    "correct_answer": "faul",
+    "wrong_answers": [
+      "fleißig",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "The adjective 'faul' (lazy) fits this sentence. Its opposite is 'fleißig'."
+  },
+  {
+    "exercise_id": "ex_adj_faul_003",
+    "word_id": "adj_faul",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "lazy",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "faul",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'lazy' translates to 'faul' in German. Comparative: 'fauler', Superlative: 'am faulsten'."
+  },
+  {
+    "exercise_id": "ex_adj_faul_004",
+    "word_id": "adj_faul",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sei nicht so _____!",
+      "en": "Don't be so lazy!"
+    },
+    "correct_answer": "faul",
+    "wrong_answers": [
+      "fleißig",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "'faul' (lazy) is the correct adjective for this context. Opposite: 'fleißig'."
+  },
+  {
+    "exercise_id": "ex_adj_fleissig_001",
+    "word_id": "adj_fleissig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "fleißig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "hardworking / diligent",
+    "wrong_answers": [
+      "friendly / kind",
+      "polite",
+      "patient"
+    ],
+    "explanation_en": "'fleißig' means 'hardworking / diligent' in German. Opposite: 'faul'."
+  },
+  {
+    "exercise_id": "ex_adj_fleissig_002",
+    "word_id": "adj_fleissig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Sie ist eine _____e Studentin.",
+      "en": "She is a hardworking student."
+    },
+    "correct_answer": "fleißig",
+    "wrong_answers": [
+      "faul",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "The adjective 'fleißig' (hardworking / diligent) fits this sentence. Its opposite is 'faul'."
+  },
+  {
+    "exercise_id": "ex_adj_fleissig_003",
+    "word_id": "adj_fleissig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "hardworking / diligent",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "fleißig",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'hardworking / diligent' translates to 'fleißig' in German. Comparative: 'fleißiger', Superlative: 'am fleißigsten'."
+  },
+  {
+    "exercise_id": "ex_adj_fleissig_004",
+    "word_id": "adj_fleissig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ (Fleißige Arbeit zahlt sich aus.)",
+      "en": "(Fill in the adjective: Diligent work pays off.)"
+    },
+    "correct_answer": "fleißig",
+    "wrong_answers": [
+      "faul",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "'fleißig' (hardworking / diligent) is the correct adjective for this context. Opposite: 'faul'."
+  },
+  {
+    "exercise_id": "ex_adj_punktlich_001",
+    "word_id": "adj_punktlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "pünktlich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "punctual / on time",
+    "wrong_answers": [
+      "friendly / kind",
+      "polite",
+      "patient"
+    ],
+    "explanation_en": "'pünktlich' means 'punctual / on time' in German. Opposite: 'unpünktlich'."
+  },
+  {
+    "exercise_id": "ex_adj_punktlich_002",
+    "word_id": "adj_punktlich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Zug ist _____.",
+      "en": "The train is on time."
+    },
+    "correct_answer": "pünktlich",
+    "wrong_answers": [
+      "unpünktlich",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "The adjective 'pünktlich' (punctual / on time) fits this sentence. Its opposite is 'unpünktlich'."
+  },
+  {
+    "exercise_id": "ex_adj_punktlich_003",
+    "word_id": "adj_punktlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "punctual / on time",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "pünktlich",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'punctual / on time' translates to 'pünktlich' in German. Comparative: 'pünktlicher', Superlative: 'am pünktlichsten'."
+  },
+  {
+    "exercise_id": "ex_adj_punktlich_004",
+    "word_id": "adj_punktlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er ist immer _____.",
+      "en": "He is always punctual."
+    },
+    "correct_answer": "pünktlich",
+    "wrong_answers": [
+      "unpünktlich",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "'pünktlich' (punctual / on time) is the correct adjective for this context. Opposite: 'unpünktlich'."
+  },
+  {
+    "exercise_id": "ex_adj_zuverlassig_001",
+    "word_id": "adj_zuverlassig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "zuverlässig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "reliable",
+    "wrong_answers": [
+      "friendly / kind",
+      "polite",
+      "patient"
+    ],
+    "explanation_en": "'zuverlässig' means 'reliable' in German."
+  },
+  {
+    "exercise_id": "ex_adj_zuverlassig_002",
+    "word_id": "adj_zuverlassig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er ist ein _____er Freund.",
+      "en": "He is a reliable friend."
+    },
+    "correct_answer": "zuverlässig",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "The adjective 'zuverlässig' (reliable) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_zuverlassig_003",
+    "word_id": "adj_zuverlassig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "reliable",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "zuverlässig",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'reliable' translates to 'zuverlässig' in German. Comparative: 'zuverlässiger', Superlative: 'am zuverlässigsten'."
+  },
+  {
+    "exercise_id": "ex_adj_zuverlassig_004",
+    "word_id": "adj_zuverlassig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Auto ist sehr _____.",
+      "en": "The car is very reliable."
+    },
+    "correct_answer": "zuverlässig",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'zuverlässig' (reliable) is the correct adjective for this context."
+  },
+  {
+    "exercise_id": "ex_adj_zufrieden_001",
+    "word_id": "adj_zufrieden",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "zufrieden",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "satisfied / content",
+    "wrong_answers": [
+      "friendly / kind",
+      "polite",
+      "patient"
+    ],
+    "explanation_en": "'zufrieden' means 'satisfied / content' in German. Opposite: 'unzufrieden'."
+  },
+  {
+    "exercise_id": "ex_adj_zufrieden_002",
+    "word_id": "adj_zufrieden",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich bin mit meiner Arbeit _____.",
+      "en": "I am satisfied with my work."
+    },
+    "correct_answer": "zufrieden",
+    "wrong_answers": [
+      "unzufrieden",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "The adjective 'zufrieden' (satisfied / content) fits this sentence. Its opposite is 'unzufrieden'."
+  },
+  {
+    "exercise_id": "ex_adj_zufrieden_003",
+    "word_id": "adj_zufrieden",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "satisfied / content",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "zufrieden",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'satisfied / content' translates to 'zufrieden' in German. Comparative: 'zufriedener', Superlative: 'am zufriedensten'."
+  },
+  {
+    "exercise_id": "ex_adj_zufrieden_004",
+    "word_id": "adj_zufrieden",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Bist du _____?",
+      "en": "Are you content?"
+    },
+    "correct_answer": "zufrieden",
+    "wrong_answers": [
+      "unzufrieden",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "'zufrieden' (satisfied / content) is the correct adjective for this context. Opposite: 'unzufrieden'."
+  },
+  {
+    "exercise_id": "ex_adj_enttauscht_001",
+    "word_id": "adj_enttauscht",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "enttäuscht",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "disappointed",
+    "wrong_answers": [
+      "friendly / kind",
+      "polite",
+      "patient"
+    ],
+    "explanation_en": "'enttäuscht' means 'disappointed' in German."
+  },
+  {
+    "exercise_id": "ex_adj_enttauscht_002",
+    "word_id": "adj_enttauscht",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich bin sehr _____.",
+      "en": "I am very disappointed."
+    },
+    "correct_answer": "enttäuscht",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "The adjective 'enttäuscht' (disappointed) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_enttauscht_003",
+    "word_id": "adj_enttauscht",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "disappointed",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "enttäuscht",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'disappointed' translates to 'enttäuscht' in German. Comparative: 'enttäuschter', Superlative: 'am enttäuschtesten'."
+  },
+  {
+    "exercise_id": "ex_adj_enttauscht_004",
+    "word_id": "adj_enttauscht",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie war _____ vom Ergebnis.",
+      "en": "She was disappointed by the result."
+    },
+    "correct_answer": "enttäuscht",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'enttäuscht' (disappointed) is the correct adjective for this context."
+  },
+  {
+    "exercise_id": "ex_adj_stolz_001",
+    "word_id": "adj_stolz",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "stolz",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "proud",
+    "wrong_answers": [
+      "friendly / kind",
+      "polite",
+      "patient"
+    ],
+    "explanation_en": "'stolz' means 'proud' in German."
+  },
+  {
+    "exercise_id": "ex_adj_stolz_002",
+    "word_id": "adj_stolz",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich bin _____ auf dich.",
+      "en": "I am proud of you."
+    },
+    "correct_answer": "stolz",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "The adjective 'stolz' (proud) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_stolz_003",
+    "word_id": "adj_stolz",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "proud",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "stolz",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'proud' translates to 'stolz' in German. Comparative: 'stolzer', Superlative: 'am stolzesten'."
+  },
+  {
+    "exercise_id": "ex_adj_stolz_004",
+    "word_id": "adj_stolz",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie ist eine _____e Mutter.",
+      "en": "She is a proud mother."
+    },
+    "correct_answer": "stolz",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'stolz' (proud) is the correct adjective for this context."
+  },
+  {
+    "exercise_id": "ex_adj_angstlich_001",
+    "word_id": "adj_angstlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "ängstlich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "anxious / fearful",
+    "wrong_answers": [
+      "friendly / kind",
+      "polite",
+      "patient"
+    ],
+    "explanation_en": "'ängstlich' means 'anxious / fearful' in German. Opposite: 'mutig'."
+  },
+  {
+    "exercise_id": "ex_adj_angstlich_002",
+    "word_id": "adj_angstlich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Kind ist _____ vor dem Hund.",
+      "en": "The child is fearful of the dog."
+    },
+    "correct_answer": "ängstlich",
+    "wrong_answers": [
+      "mutig",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "The adjective 'ängstlich' (anxious / fearful) fits this sentence. Its opposite is 'mutig'."
+  },
+  {
+    "exercise_id": "ex_adj_angstlich_003",
+    "word_id": "adj_angstlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "anxious / fearful",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "ängstlich",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'anxious / fearful' translates to 'ängstlich' in German. Comparative: 'ängstlicher', Superlative: 'am ängstlichsten'."
+  },
+  {
+    "exercise_id": "ex_adj_angstlich_004",
+    "word_id": "adj_angstlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er ist von Natur aus _____.",
+      "en": "He is naturally anxious."
+    },
+    "correct_answer": "ängstlich",
+    "wrong_answers": [
+      "mutig",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "'ängstlich' (anxious / fearful) is the correct adjective for this context. Opposite: 'mutig'."
+  },
+  {
+    "exercise_id": "ex_adj_mutig_001",
+    "word_id": "adj_mutig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "mutig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "brave / courageous",
+    "wrong_answers": [
+      "friendly / kind",
+      "polite",
+      "patient"
+    ],
+    "explanation_en": "'mutig' means 'brave / courageous' in German. Opposite: 'ängstlich'."
+  },
+  {
+    "exercise_id": "ex_adj_mutig_002",
+    "word_id": "adj_mutig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____e Soldat half den Verletzten.",
+      "en": "The brave soldier helped the injured."
+    },
+    "correct_answer": "mutig",
+    "wrong_answers": [
+      "ängstlich",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "The adjective 'mutig' (brave / courageous) fits this sentence. Its opposite is 'ängstlich'."
+  },
+  {
+    "exercise_id": "ex_adj_mutig_003",
+    "word_id": "adj_mutig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "brave / courageous",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "mutig",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'brave / courageous' translates to 'mutig' in German. Comparative: 'mutiger', Superlative: 'am mutigsten'."
+  },
+  {
+    "exercise_id": "ex_adj_mutig_004",
+    "word_id": "adj_mutig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Es war _____ von dir.",
+      "en": "That was brave of you."
+    },
+    "correct_answer": "mutig",
+    "wrong_answers": [
+      "ängstlich",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "'mutig' (brave / courageous) is the correct adjective for this context. Opposite: 'ängstlich'."
+  },
+  {
+    "exercise_id": "ex_adj_uberrascht_001",
+    "word_id": "adj_uberrascht",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "überrascht",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "surprised",
+    "wrong_answers": [
+      "friendly / kind",
+      "polite",
+      "patient"
+    ],
+    "explanation_en": "'überrascht' means 'surprised' in German."
+  },
+  {
+    "exercise_id": "ex_adj_uberrascht_002",
+    "word_id": "adj_uberrascht",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich war sehr _____.",
+      "en": "I was very surprised."
+    },
+    "correct_answer": "überrascht",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "The adjective 'überrascht' (surprised) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_uberrascht_003",
+    "word_id": "adj_uberrascht",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "surprised",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "überrascht",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'surprised' translates to 'überrascht' in German. Comparative: 'überraschter', Superlative: 'am überraschtesten'."
+  },
+  {
+    "exercise_id": "ex_adj_uberrascht_004",
+    "word_id": "adj_uberrascht",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie sah _____ aus.",
+      "en": "She looked surprised."
+    },
+    "correct_answer": "überrascht",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'überrascht' (surprised) is the correct adjective for this context."
+  },
+  {
+    "exercise_id": "ex_adj_aufgeregt_001",
+    "word_id": "adj_aufgeregt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "aufgeregt",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "excited",
+    "wrong_answers": [
+      "friendly / kind",
+      "polite",
+      "patient"
+    ],
+    "explanation_en": "'aufgeregt' means 'excited' in German. Opposite: 'ruhig'."
+  },
+  {
+    "exercise_id": "ex_adj_aufgeregt_002",
+    "word_id": "adj_aufgeregt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Kinder sind _____.",
+      "en": "The children are excited."
+    },
+    "correct_answer": "aufgeregt",
+    "wrong_answers": [
+      "ruhig",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "The adjective 'aufgeregt' (excited) fits this sentence. Its opposite is 'ruhig'."
+  },
+  {
+    "exercise_id": "ex_adj_aufgeregt_003",
+    "word_id": "adj_aufgeregt",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "excited",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "aufgeregt",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'excited' translates to 'aufgeregt' in German. Comparative: 'aufgeregter', Superlative: 'am aufgeregtesten'."
+  },
+  {
+    "exercise_id": "ex_adj_aufgeregt_004",
+    "word_id": "adj_aufgeregt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich bin _____ wegen der Reise.",
+      "en": "I am excited about the trip."
+    },
+    "correct_answer": "aufgeregt",
+    "wrong_answers": [
+      "ruhig",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "'aufgeregt' (excited) is the correct adjective for this context. Opposite: 'ruhig'."
+  },
+  {
+    "exercise_id": "ex_adj_beschaftigt_001",
+    "word_id": "adj_beschaftigt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "beschäftigt",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "busy",
+    "wrong_answers": [
+      "friendly / kind",
+      "polite",
+      "patient"
+    ],
+    "explanation_en": "'beschäftigt' means 'busy' in German."
+  },
+  {
+    "exercise_id": "ex_adj_beschaftigt_002",
+    "word_id": "adj_beschaftigt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich bin heute sehr _____.",
+      "en": "I am very busy today."
+    },
+    "correct_answer": "beschäftigt",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "The adjective 'beschäftigt' (busy) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_beschaftigt_003",
+    "word_id": "adj_beschaftigt",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "busy",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "beschäftigt",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'busy' translates to 'beschäftigt' in German. Comparative: 'beschäftigter', Superlative: 'am beschäftigtsten'."
+  },
+  {
+    "exercise_id": "ex_adj_beschaftigt_004",
+    "word_id": "adj_beschaftigt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er ist immer _____.",
+      "en": "He is always busy."
+    },
+    "correct_answer": "beschäftigt",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'beschäftigt' (busy) is the correct adjective for this context."
+  },
+  {
+    "exercise_id": "ex_adj_lustig_001",
+    "word_id": "adj_lustig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "lustig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "funny / amusing",
+    "wrong_answers": [
+      "friendly / kind",
+      "polite",
+      "patient"
+    ],
+    "explanation_en": "'lustig' means 'funny / amusing' in German. Opposite: 'langweilig'."
+  },
+  {
+    "exercise_id": "ex_adj_lustig_002",
+    "word_id": "adj_lustig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Film ist sehr _____.",
+      "en": "The movie is very funny."
+    },
+    "correct_answer": "lustig",
+    "wrong_answers": [
+      "langweilig",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "The adjective 'lustig' (funny / amusing) fits this sentence. Its opposite is 'langweilig'."
+  },
+  {
+    "exercise_id": "ex_adj_lustig_003",
+    "word_id": "adj_lustig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "funny / amusing",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "lustig",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'funny / amusing' translates to 'lustig' in German. Comparative: 'lustiger', Superlative: 'am lustigsten'."
+  },
+  {
+    "exercise_id": "ex_adj_lustig_004",
+    "word_id": "adj_lustig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er macht immer _____e Witze.",
+      "en": "He always makes funny jokes."
+    },
+    "correct_answer": "lustig",
+    "wrong_answers": [
+      "langweilig",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "'lustig' (funny / amusing) is the correct adjective for this context. Opposite: 'langweilig'."
+  },
+  {
+    "exercise_id": "ex_adj_klug_001",
+    "word_id": "adj_klug",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "klug",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "clever / smart",
+    "wrong_answers": [
+      "friendly / kind",
+      "polite",
+      "patient"
+    ],
+    "explanation_en": "'klug' means 'clever / smart' in German. Opposite: 'dumm'."
+  },
+  {
+    "exercise_id": "ex_adj_klug_002",
+    "word_id": "adj_klug",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das ist eine _____e Entscheidung.",
+      "en": "That is a smart decision."
+    },
+    "correct_answer": "klug",
+    "wrong_answers": [
+      "dumm",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "The adjective 'klug' (clever / smart) fits this sentence. Its opposite is 'dumm'."
+  },
+  {
+    "exercise_id": "ex_adj_klug_003",
+    "word_id": "adj_klug",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "clever / smart",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "klug",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'clever / smart' translates to 'klug' in German. Comparative: 'klüger', Superlative: 'am klügsten'."
+  },
+  {
+    "exercise_id": "ex_adj_klug_004",
+    "word_id": "adj_klug",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie ist sehr _____.",
+      "en": "She is very clever."
+    },
+    "correct_answer": "klug",
+    "wrong_answers": [
+      "dumm",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "'klug' (clever / smart) is the correct adjective for this context. Opposite: 'dumm'."
+  },
+  {
+    "exercise_id": "ex_adj_lecker_001",
+    "word_id": "adj_lecker",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "lecker",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "delicious / tasty",
+    "wrong_answers": [
+      "friendly / kind",
+      "polite",
+      "patient"
+    ],
+    "explanation_en": "'lecker' means 'delicious / tasty' in German."
+  },
+  {
+    "exercise_id": "ex_adj_lecker_002",
+    "word_id": "adj_lecker",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Essen ist sehr _____.",
+      "en": "The food is very delicious."
+    },
+    "correct_answer": "lecker",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "The adjective 'lecker' (delicious / tasty) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_lecker_003",
+    "word_id": "adj_lecker",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "delicious / tasty",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "lecker",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'delicious / tasty' translates to 'lecker' in German. Comparative: 'leckerer', Superlative: 'am leckersten'."
+  },
+  {
+    "exercise_id": "ex_adj_lecker_004",
+    "word_id": "adj_lecker",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Torte sieht _____ aus.",
+      "en": "The cake looks tasty."
+    },
+    "correct_answer": "lecker",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'lecker' (delicious / tasty) is the correct adjective for this context."
+  },
+  {
+    "exercise_id": "ex_adj_hasslich_001",
+    "word_id": "adj_hasslich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "hässlich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "ugly",
+    "wrong_answers": [
+      "friendly / kind",
+      "polite",
+      "patient"
+    ],
+    "explanation_en": "'hässlich' means 'ugly' in German. Opposite: 'schön'."
+  },
+  {
+    "exercise_id": "ex_adj_hasslich_002",
+    "word_id": "adj_hasslich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Wetter ist _____ heute.",
+      "en": "The weather is ugly today."
+    },
+    "correct_answer": "hässlich",
+    "wrong_answers": [
+      "schön",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "The adjective 'hässlich' (ugly) fits this sentence. Its opposite is 'schön'."
+  },
+  {
+    "exercise_id": "ex_adj_hasslich_003",
+    "word_id": "adj_hasslich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "ugly",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "hässlich",
+    "wrong_answers": [
+      "freundlich",
+      "höflich",
+      "geduldig"
+    ],
+    "explanation_en": "'ugly' translates to 'hässlich' in German. Comparative: 'hässlicher', Superlative: 'am hässlichsten'."
+  },
+  {
+    "exercise_id": "ex_adj_hasslich_004",
+    "word_id": "adj_hasslich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Gebäude ist wirklich _____.",
+      "en": "The building is really ugly."
+    },
+    "correct_answer": "hässlich",
+    "wrong_answers": [
+      "schön",
+      "freundlich",
+      "höflich"
+    ],
+    "explanation_en": "'hässlich' (ugly) is the correct adjective for this context. Opposite: 'schön'."
+  },
+  {
+    "exercise_id": "ex_adj_begeistert_001",
+    "word_id": "adj_begeistert",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "begeistert",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "enthusiastic / thrilled",
+    "wrong_answers": [
+      "exhausted",
+      "determined / resolute",
+      "responsible"
+    ],
+    "explanation_en": "'begeistert' means 'enthusiastic / thrilled' in German. Opposite: 'gleichgültig'."
+  },
+  {
+    "exercise_id": "ex_adj_begeistert_002",
+    "word_id": "adj_begeistert",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er ist von dem Projekt _____.",
+      "en": "He is enthusiastic about the project."
+    },
+    "correct_answer": "begeistert",
+    "wrong_answers": [
+      "gleichgültig",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "The adjective 'begeistert' (enthusiastic / thrilled) fits this sentence. Its opposite is 'gleichgültig'."
+  },
+  {
+    "exercise_id": "ex_adj_begeistert_003",
+    "word_id": "adj_begeistert",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "enthusiastic / thrilled",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "begeistert",
+    "wrong_answers": [
+      "erschöpft",
+      "entschlossen",
+      "verantwortlich"
+    ],
+    "explanation_en": "'enthusiastic / thrilled' translates to 'begeistert' in German. Comparative: 'begeisterter', Superlative: 'am begeistertsten'."
+  },
+  {
+    "exercise_id": "ex_adj_begeistert_004",
+    "word_id": "adj_begeistert",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Zuschauer waren _____.",
+      "en": "The audience was thrilled."
+    },
+    "correct_answer": "begeistert",
+    "wrong_answers": [
+      "gleichgültig",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'begeistert' (enthusiastic / thrilled) is the correct adjective for this context. Opposite: 'gleichgültig'."
+  },
+  {
+    "exercise_id": "ex_adj_erschopft_001",
+    "word_id": "adj_erschopft",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "erschöpft",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "exhausted",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "determined / resolute",
+      "responsible"
+    ],
+    "explanation_en": "'erschöpft' means 'exhausted' in German. Opposite: 'ausgeruht'."
+  },
+  {
+    "exercise_id": "ex_adj_erschopft_002",
+    "word_id": "adj_erschopft",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Nach dem Marathon war er _____.",
+      "en": "After the marathon he was exhausted."
+    },
+    "correct_answer": "erschöpft",
+    "wrong_answers": [
+      "ausgeruht",
+      "begeistert",
+      "entschlossen"
+    ],
+    "explanation_en": "The adjective 'erschöpft' (exhausted) fits this sentence. Its opposite is 'ausgeruht'."
+  },
+  {
+    "exercise_id": "ex_adj_erschopft_003",
+    "word_id": "adj_erschopft",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "exhausted",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "erschöpft",
+    "wrong_answers": [
+      "begeistert",
+      "entschlossen",
+      "verantwortlich"
+    ],
+    "explanation_en": "'exhausted' translates to 'erschöpft' in German. Comparative: 'erschöpfter', Superlative: 'am erschöpftesten'."
+  },
+  {
+    "exercise_id": "ex_adj_erschopft_004",
+    "word_id": "adj_erschopft",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich bin völlig _____.",
+      "en": "I am completely exhausted."
+    },
+    "correct_answer": "erschöpft",
+    "wrong_answers": [
+      "ausgeruht",
+      "begeistert",
+      "entschlossen"
+    ],
+    "explanation_en": "'erschöpft' (exhausted) is the correct adjective for this context. Opposite: 'ausgeruht'."
+  },
+  {
+    "exercise_id": "ex_adj_entschlossen_001",
+    "word_id": "adj_entschlossen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "entschlossen",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "determined / resolute",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "exhausted",
+      "responsible"
+    ],
+    "explanation_en": "'entschlossen' means 'determined / resolute' in German. Opposite: 'unentschlossen'."
+  },
+  {
+    "exercise_id": "ex_adj_entschlossen_002",
+    "word_id": "adj_entschlossen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Sie ist _____, ihr Ziel zu erreichen.",
+      "en": "She is determined to reach her goal."
+    },
+    "correct_answer": "entschlossen",
+    "wrong_answers": [
+      "unentschlossen",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "The adjective 'entschlossen' (determined / resolute) fits this sentence. Its opposite is 'unentschlossen'."
+  },
+  {
+    "exercise_id": "ex_adj_entschlossen_003",
+    "word_id": "adj_entschlossen",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "determined / resolute",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "entschlossen",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "verantwortlich"
+    ],
+    "explanation_en": "'determined / resolute' translates to 'entschlossen' in German. Comparative: 'entschlossener', Superlative: 'am entschlossensten'."
+  },
+  {
+    "exercise_id": "ex_adj_entschlossen_004",
+    "word_id": "adj_entschlossen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er trat _____ auf.",
+      "en": "He acted resolutely."
+    },
+    "correct_answer": "entschlossen",
+    "wrong_answers": [
+      "unentschlossen",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "'entschlossen' (determined / resolute) is the correct adjective for this context. Opposite: 'unentschlossen'."
+  },
+  {
+    "exercise_id": "ex_adj_verantwortlich_001",
+    "word_id": "adj_verantwortlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "verantwortlich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "responsible",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "exhausted",
+      "determined / resolute"
+    ],
+    "explanation_en": "'verantwortlich' means 'responsible' in German."
+  },
+  {
+    "exercise_id": "ex_adj_verantwortlich_002",
+    "word_id": "adj_verantwortlich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wer ist dafür _____?",
+      "en": "Who is responsible for that?"
+    },
+    "correct_answer": "verantwortlich",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "The adjective 'verantwortlich' (responsible) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_verantwortlich_003",
+    "word_id": "adj_verantwortlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "responsible",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "verantwortlich",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'responsible' translates to 'verantwortlich' in German. Comparative: 'verantwortlicher', Superlative: 'am verantwortlichsten'."
+  },
+  {
+    "exercise_id": "ex_adj_verantwortlich_004",
+    "word_id": "adj_verantwortlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie übernimmt _____e Aufgaben.",
+      "en": "She takes on responsible tasks."
+    },
+    "correct_answer": "verantwortlich",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'verantwortlich' (responsible) is the correct adjective for this context."
+  },
+  {
+    "exercise_id": "ex_adj_selbststandig_001",
+    "word_id": "adj_selbststandig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "selbstständig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "independent / self-reliant",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "exhausted",
+      "determined / resolute"
+    ],
+    "explanation_en": "'selbstständig' means 'independent / self-reliant' in German. Opposite: 'abhängig'."
+  },
+  {
+    "exercise_id": "ex_adj_selbststandig_002",
+    "word_id": "adj_selbststandig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er arbeitet _____.",
+      "en": "He works independently."
+    },
+    "correct_answer": "selbstständig",
+    "wrong_answers": [
+      "abhängig",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "The adjective 'selbstständig' (independent / self-reliant) fits this sentence. Its opposite is 'abhängig'."
+  },
+  {
+    "exercise_id": "ex_adj_selbststandig_003",
+    "word_id": "adj_selbststandig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "independent / self-reliant",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "selbstständig",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'independent / self-reliant' translates to 'selbstständig' in German. Comparative: 'selbstständiger', Superlative: 'am selbstständigsten'."
+  },
+  {
+    "exercise_id": "ex_adj_selbststandig_004",
+    "word_id": "adj_selbststandig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Kind ist sehr _____.",
+      "en": "The child is very self-reliant."
+    },
+    "correct_answer": "selbstständig",
+    "wrong_answers": [
+      "abhängig",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "'selbstständig' (independent / self-reliant) is the correct adjective for this context. Opposite: 'abhängig'."
+  },
+  {
+    "exercise_id": "ex_adj_kreativ_001",
+    "word_id": "adj_kreativ",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "kreativ",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "creative",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "exhausted",
+      "determined / resolute"
+    ],
+    "explanation_en": "'kreativ' means 'creative' in German."
+  },
+  {
+    "exercise_id": "ex_adj_kreativ_002",
+    "word_id": "adj_kreativ",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Sie ist sehr _____.",
+      "en": "She is very creative."
+    },
+    "correct_answer": "kreativ",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "The adjective 'kreativ' (creative) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_kreativ_003",
+    "word_id": "adj_kreativ",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "creative",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "kreativ",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'creative' translates to 'kreativ' in German. Comparative: 'kreativer', Superlative: 'am kreativsten'."
+  },
+  {
+    "exercise_id": "ex_adj_kreativ_004",
+    "word_id": "adj_kreativ",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir brauchen eine _____e Lösung.",
+      "en": "We need a creative solution."
+    },
+    "correct_answer": "kreativ",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'kreativ' (creative) is the correct adjective for this context."
+  },
+  {
+    "exercise_id": "ex_adj_vernunftig_001",
+    "word_id": "adj_vernunftig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "vernünftig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "reasonable / sensible",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "exhausted",
+      "determined / resolute"
+    ],
+    "explanation_en": "'vernünftig' means 'reasonable / sensible' in German. Opposite: 'unvernünftig'."
+  },
+  {
+    "exercise_id": "ex_adj_vernunftig_002",
+    "word_id": "adj_vernunftig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das ist ein _____er Vorschlag.",
+      "en": "That is a reasonable proposal."
+    },
+    "correct_answer": "vernünftig",
+    "wrong_answers": [
+      "unvernünftig",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "The adjective 'vernünftig' (reasonable / sensible) fits this sentence. Its opposite is 'unvernünftig'."
+  },
+  {
+    "exercise_id": "ex_adj_vernunftig_003",
+    "word_id": "adj_vernunftig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "reasonable / sensible",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "vernünftig",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'reasonable / sensible' translates to 'vernünftig' in German. Comparative: 'vernünftiger', Superlative: 'am vernünftigsten'."
+  },
+  {
+    "exercise_id": "ex_adj_vernunftig_004",
+    "word_id": "adj_vernunftig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sei _____!",
+      "en": "Be sensible!"
+    },
+    "correct_answer": "vernünftig",
+    "wrong_answers": [
+      "unvernünftig",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "'vernünftig' (reasonable / sensible) is the correct adjective for this context. Opposite: 'unvernünftig'."
+  },
+  {
+    "exercise_id": "ex_adj_grundlich_001",
+    "word_id": "adj_grundlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "gründlich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "thorough",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "exhausted",
+      "determined / resolute"
+    ],
+    "explanation_en": "'gründlich' means 'thorough' in German. Opposite: 'oberflächlich'."
+  },
+  {
+    "exercise_id": "ex_adj_grundlich_002",
+    "word_id": "adj_grundlich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Sie arbeitet _____ und sorgfältig.",
+      "en": "She works thoroughly and carefully."
+    },
+    "correct_answer": "gründlich",
+    "wrong_answers": [
+      "oberflächlich",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "The adjective 'gründlich' (thorough) fits this sentence. Its opposite is 'oberflächlich'."
+  },
+  {
+    "exercise_id": "ex_adj_grundlich_003",
+    "word_id": "adj_grundlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "thorough",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "gründlich",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'thorough' translates to 'gründlich' in German. Comparative: 'gründlicher', Superlative: 'am gründlichsten'."
+  },
+  {
+    "exercise_id": "ex_adj_grundlich_004",
+    "word_id": "adj_grundlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Eine _____e Analyse ist nötig.",
+      "en": "A thorough analysis is necessary."
+    },
+    "correct_answer": "gründlich",
+    "wrong_answers": [
+      "oberflächlich",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "'gründlich' (thorough) is the correct adjective for this context. Opposite: 'oberflächlich'."
+  },
+  {
+    "exercise_id": "ex_adj_bedeutsam_001",
+    "word_id": "adj_bedeutsam",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "bedeutsam",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "significant / meaningful",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "exhausted",
+      "determined / resolute"
+    ],
+    "explanation_en": "'bedeutsam' means 'significant / meaningful' in German. Opposite: 'unbedeutsam'."
+  },
+  {
+    "exercise_id": "ex_adj_bedeutsam_002",
+    "word_id": "adj_bedeutsam",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das ist ein _____es Ereignis.",
+      "en": "That is a significant event."
+    },
+    "correct_answer": "bedeutsam",
+    "wrong_answers": [
+      "unbedeutsam",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "The adjective 'bedeutsam' (significant / meaningful) fits this sentence. Its opposite is 'unbedeutsam'."
+  },
+  {
+    "exercise_id": "ex_adj_bedeutsam_003",
+    "word_id": "adj_bedeutsam",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "significant / meaningful",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "bedeutsam",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'significant / meaningful' translates to 'bedeutsam' in German. Comparative: 'bedeutsamer', Superlative: 'am bedeutsamsten'."
+  },
+  {
+    "exercise_id": "ex_adj_bedeutsam_004",
+    "word_id": "adj_bedeutsam",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ihre Worte waren sehr _____.",
+      "en": "Her words were very meaningful."
+    },
+    "correct_answer": "bedeutsam",
+    "wrong_answers": [
+      "unbedeutsam",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "'bedeutsam' (significant / meaningful) is the correct adjective for this context. Opposite: 'unbedeutsam'."
+  },
+  {
+    "exercise_id": "ex_adj_dringend_001",
+    "word_id": "adj_dringend",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "dringend",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "urgent",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "exhausted",
+      "determined / resolute"
+    ],
+    "explanation_en": "'dringend' means 'urgent' in German."
+  },
+  {
+    "exercise_id": "ex_adj_dringend_002",
+    "word_id": "adj_dringend",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das ist eine _____e Angelegenheit.",
+      "en": "This is an urgent matter."
+    },
+    "correct_answer": "dringend",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "The adjective 'dringend' (urgent) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_dringend_003",
+    "word_id": "adj_dringend",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "urgent",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "dringend",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'urgent' translates to 'dringend' in German. Comparative: 'dringender', Superlative: 'am dringendsten'."
+  },
+  {
+    "exercise_id": "ex_adj_dringend_004",
+    "word_id": "adj_dringend",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich muss _____ mit dir sprechen.",
+      "en": "I urgently need to speak with you."
+    },
+    "correct_answer": "dringend",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'dringend' (urgent) is the correct adjective for this context."
+  },
+  {
+    "exercise_id": "ex_adj_nachhaltig_001",
+    "word_id": "adj_nachhaltig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "nachhaltig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "sustainable / lasting",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "exhausted",
+      "determined / resolute"
+    ],
+    "explanation_en": "'nachhaltig' means 'sustainable / lasting' in German."
+  },
+  {
+    "exercise_id": "ex_adj_nachhaltig_002",
+    "word_id": "adj_nachhaltig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wir brauchen _____e Lösungen.",
+      "en": "We need sustainable solutions."
+    },
+    "correct_answer": "nachhaltig",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "The adjective 'nachhaltig' (sustainable / lasting) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_nachhaltig_003",
+    "word_id": "adj_nachhaltig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "sustainable / lasting",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "nachhaltig",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'sustainable / lasting' translates to 'nachhaltig' in German. Comparative: 'nachhaltiger', Superlative: 'am nachhaltigsten'."
+  },
+  {
+    "exercise_id": "ex_adj_nachhaltig_004",
+    "word_id": "adj_nachhaltig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ (Nachhaltiges Handeln ist wichtig.)",
+      "en": "(Fill in the adjective: Sustainable action is important.)"
+    },
+    "correct_answer": "nachhaltig",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'nachhaltig' (sustainable / lasting) is the correct adjective for this context."
+  },
+  {
+    "exercise_id": "ex_adj_uberzeugend_001",
+    "word_id": "adj_uberzeugend",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "überzeugend",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "convincing / persuasive",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "exhausted",
+      "determined / resolute"
+    ],
+    "explanation_en": "'überzeugend' means 'convincing / persuasive' in German. Opposite: 'unüberzeugend'."
+  },
+  {
+    "exercise_id": "ex_adj_uberzeugend_002",
+    "word_id": "adj_uberzeugend",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Argument ist sehr _____.",
+      "en": "The argument is very convincing."
+    },
+    "correct_answer": "überzeugend",
+    "wrong_answers": [
+      "unüberzeugend",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "The adjective 'überzeugend' (convincing / persuasive) fits this sentence. Its opposite is 'unüberzeugend'."
+  },
+  {
+    "exercise_id": "ex_adj_uberzeugend_003",
+    "word_id": "adj_uberzeugend",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "convincing / persuasive",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "überzeugend",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'convincing / persuasive' translates to 'überzeugend' in German. Comparative: 'überzeugender', Superlative: 'am überzeugendsten'."
+  },
+  {
+    "exercise_id": "ex_adj_uberzeugend_004",
+    "word_id": "adj_uberzeugend",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er hat _____ gesprochen.",
+      "en": "He spoke persuasively."
+    },
+    "correct_answer": "überzeugend",
+    "wrong_answers": [
+      "unüberzeugend",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "'überzeugend' (convincing / persuasive) is the correct adjective for this context. Opposite: 'unüberzeugend'."
+  },
+  {
+    "exercise_id": "ex_adj_aufmerksam_001",
+    "word_id": "adj_aufmerksam",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "aufmerksam",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "attentive",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "exhausted",
+      "determined / resolute"
+    ],
+    "explanation_en": "'aufmerksam' means 'attentive' in German. Opposite: 'unaufmerksam'."
+  },
+  {
+    "exercise_id": "ex_adj_aufmerksam_002",
+    "word_id": "adj_aufmerksam",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Schüler waren sehr _____.",
+      "en": "The students were very attentive."
+    },
+    "correct_answer": "aufmerksam",
+    "wrong_answers": [
+      "unaufmerksam",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "The adjective 'aufmerksam' (attentive) fits this sentence. Its opposite is 'unaufmerksam'."
+  },
+  {
+    "exercise_id": "ex_adj_aufmerksam_003",
+    "word_id": "adj_aufmerksam",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "attentive",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "aufmerksam",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'attentive' translates to 'aufmerksam' in German. Comparative: 'aufmerksamer', Superlative: 'am aufmerksamsten'."
+  },
+  {
+    "exercise_id": "ex_adj_aufmerksam_004",
+    "word_id": "adj_aufmerksam",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sei _____ im Straßenverkehr.",
+      "en": "Be attentive in traffic."
+    },
+    "correct_answer": "aufmerksam",
+    "wrong_answers": [
+      "unaufmerksam",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "'aufmerksam' (attentive) is the correct adjective for this context. Opposite: 'unaufmerksam'."
+  },
+  {
+    "exercise_id": "ex_adj_kritisch_001",
+    "word_id": "adj_kritisch",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "kritisch",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "critical",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "exhausted",
+      "determined / resolute"
+    ],
+    "explanation_en": "'kritisch' means 'critical' in German."
+  },
+  {
+    "exercise_id": "ex_adj_kritisch_002",
+    "word_id": "adj_kritisch",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er ist sehr _____ gegenüber der Politik.",
+      "en": "He is very critical of politics."
+    },
+    "correct_answer": "kritisch",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "The adjective 'kritisch' (critical) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_kritisch_003",
+    "word_id": "adj_kritisch",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "critical",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "kritisch",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'critical' translates to 'kritisch' in German. Comparative: 'kritischer', Superlative: 'am kritischsten'."
+  },
+  {
+    "exercise_id": "ex_adj_kritisch_004",
+    "word_id": "adj_kritisch",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das ist eine _____e Situation.",
+      "en": "This is a critical situation."
+    },
+    "correct_answer": "kritisch",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'kritisch' (critical) is the correct adjective for this context."
+  },
+  {
+    "exercise_id": "ex_adj_kompetent_001",
+    "word_id": "adj_kompetent",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "kompetent",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "competent",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "exhausted",
+      "determined / resolute"
+    ],
+    "explanation_en": "'kompetent' means 'competent' in German. Opposite: 'inkompetent'."
+  },
+  {
+    "exercise_id": "ex_adj_kompetent_002",
+    "word_id": "adj_kompetent",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Sie ist eine _____e Ärztin.",
+      "en": "She is a competent doctor."
+    },
+    "correct_answer": "kompetent",
+    "wrong_answers": [
+      "inkompetent",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "The adjective 'kompetent' (competent) fits this sentence. Its opposite is 'inkompetent'."
+  },
+  {
+    "exercise_id": "ex_adj_kompetent_003",
+    "word_id": "adj_kompetent",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "competent",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "kompetent",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'competent' translates to 'kompetent' in German. Comparative: 'kompetenter', Superlative: 'am kompetentesten'."
+  },
+  {
+    "exercise_id": "ex_adj_kompetent_004",
+    "word_id": "adj_kompetent",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Team ist sehr _____.",
+      "en": "The team is very competent."
+    },
+    "correct_answer": "kompetent",
+    "wrong_answers": [
+      "inkompetent",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "'kompetent' (competent) is the correct adjective for this context. Opposite: 'inkompetent'."
+  },
+  {
+    "exercise_id": "ex_adj_vielfaltig_001",
+    "word_id": "adj_vielfaltig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "vielfältig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "diverse / varied",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "exhausted",
+      "determined / resolute"
+    ],
+    "explanation_en": "'vielfältig' means 'diverse / varied' in German. Opposite: 'einseitig'."
+  },
+  {
+    "exercise_id": "ex_adj_vielfaltig_002",
+    "word_id": "adj_vielfaltig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Angebot ist sehr _____.",
+      "en": "The selection is very diverse."
+    },
+    "correct_answer": "vielfältig",
+    "wrong_answers": [
+      "einseitig",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "The adjective 'vielfältig' (diverse / varied) fits this sentence. Its opposite is 'einseitig'."
+  },
+  {
+    "exercise_id": "ex_adj_vielfaltig_003",
+    "word_id": "adj_vielfaltig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "diverse / varied",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "vielfältig",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'diverse / varied' translates to 'vielfältig' in German. Comparative: 'vielfältiger', Superlative: 'am vielfältigsten'."
+  },
+  {
+    "exercise_id": "ex_adj_vielfaltig_004",
+    "word_id": "adj_vielfaltig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Stadt hat eine _____e Kultur.",
+      "en": "The city has a varied culture."
+    },
+    "correct_answer": "vielfältig",
+    "wrong_answers": [
+      "einseitig",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "'vielfältig' (diverse / varied) is the correct adjective for this context. Opposite: 'einseitig'."
+  },
+  {
+    "exercise_id": "ex_adj_ausgepragt_001",
+    "word_id": "adj_ausgepragt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "ausgeprägt",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "pronounced / marked",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "exhausted",
+      "determined / resolute"
+    ],
+    "explanation_en": "'ausgeprägt' means 'pronounced / marked' in German."
+  },
+  {
+    "exercise_id": "ex_adj_ausgepragt_002",
+    "word_id": "adj_ausgepragt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er hat eine _____e Persönlichkeit.",
+      "en": "He has a pronounced personality."
+    },
+    "correct_answer": "ausgeprägt",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "The adjective 'ausgeprägt' (pronounced / marked) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_ausgepragt_003",
+    "word_id": "adj_ausgepragt",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "pronounced / marked",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "ausgeprägt",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'pronounced / marked' translates to 'ausgeprägt' in German. Comparative: 'ausgeprägter', Superlative: 'am ausgeprägtesten'."
+  },
+  {
+    "exercise_id": "ex_adj_ausgepragt_004",
+    "word_id": "adj_ausgepragt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Interesse ist stark _____.",
+      "en": "The interest is strongly marked."
+    },
+    "correct_answer": "ausgeprägt",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'ausgeprägt' (pronounced / marked) is the correct adjective for this context."
+  },
+  {
+    "exercise_id": "ex_adj_wesentlich_001",
+    "word_id": "adj_wesentlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "wesentlich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "essential / fundamental",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "exhausted",
+      "determined / resolute"
+    ],
+    "explanation_en": "'wesentlich' means 'essential / fundamental' in German. Opposite: 'unwesentlich'."
+  },
+  {
+    "exercise_id": "ex_adj_wesentlich_002",
+    "word_id": "adj_wesentlich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das ist ein _____er Punkt.",
+      "en": "That is an essential point."
+    },
+    "correct_answer": "wesentlich",
+    "wrong_answers": [
+      "unwesentlich",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "The adjective 'wesentlich' (essential / fundamental) fits this sentence. Its opposite is 'unwesentlich'."
+  },
+  {
+    "exercise_id": "ex_adj_wesentlich_003",
+    "word_id": "adj_wesentlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "essential / fundamental",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "wesentlich",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'essential / fundamental' translates to 'wesentlich' in German. Comparative: 'wesentlicher', Superlative: 'am wesentlichsten'."
+  },
+  {
+    "exercise_id": "ex_adj_wesentlich_004",
+    "word_id": "adj_wesentlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Vertrauen ist _____ für eine gute Beziehung.",
+      "en": "Trust is fundamental to a good relationship."
+    },
+    "correct_answer": "wesentlich",
+    "wrong_answers": [
+      "unwesentlich",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "'wesentlich' (essential / fundamental) is the correct adjective for this context. Opposite: 'unwesentlich'."
+  },
+  {
+    "exercise_id": "ex_adj_erheblich_001",
+    "word_id": "adj_erheblich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "erheblich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "considerable / significant",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "exhausted",
+      "determined / resolute"
+    ],
+    "explanation_en": "'erheblich' means 'considerable / significant' in German."
+  },
+  {
+    "exercise_id": "ex_adj_erheblich_002",
+    "word_id": "adj_erheblich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Kosten sind _____ gestiegen.",
+      "en": "The costs have risen considerably."
+    },
+    "correct_answer": "erheblich",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "The adjective 'erheblich' (considerable / significant) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_erheblich_003",
+    "word_id": "adj_erheblich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "considerable / significant",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "erheblich",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'considerable / significant' translates to 'erheblich' in German. Comparative: 'erheblicher', Superlative: 'am erheblichsten'."
+  },
+  {
+    "exercise_id": "ex_adj_erheblich_004",
+    "word_id": "adj_erheblich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Es gibt _____e Unterschiede.",
+      "en": "There are significant differences."
+    },
+    "correct_answer": "erheblich",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'erheblich' (considerable / significant) is the correct adjective for this context."
+  },
+  {
+    "exercise_id": "ex_adj_vorlaufig_001",
+    "word_id": "adj_vorlaufig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "vorläufig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "provisional / temporary",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "exhausted",
+      "determined / resolute"
+    ],
+    "explanation_en": "'vorläufig' means 'provisional / temporary' in German. Opposite: 'endgültig'."
+  },
+  {
+    "exercise_id": "ex_adj_vorlaufig_002",
+    "word_id": "adj_vorlaufig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das ist nur eine _____e Lösung.",
+      "en": "That is only a provisional solution."
+    },
+    "correct_answer": "vorläufig",
+    "wrong_answers": [
+      "endgültig",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "The adjective 'vorläufig' (provisional / temporary) fits this sentence. Its opposite is 'endgültig'."
+  },
+  {
+    "exercise_id": "ex_adj_vorlaufig_003",
+    "word_id": "adj_vorlaufig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "provisional / temporary",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "vorläufig",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'provisional / temporary' translates to 'vorläufig' in German. Comparative: 'vorläufiger', Superlative: 'am vorläufigsten'."
+  },
+  {
+    "exercise_id": "ex_adj_vorlaufig_004",
+    "word_id": "adj_vorlaufig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Ergebnisse sind _____.",
+      "en": "The results are temporary."
+    },
+    "correct_answer": "vorläufig",
+    "wrong_answers": [
+      "endgültig",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "'vorläufig' (provisional / temporary) is the correct adjective for this context. Opposite: 'endgültig'."
+  },
+  {
+    "exercise_id": "ex_adj_umfangreich_001",
+    "word_id": "adj_umfangreich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "umfangreich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "extensive / comprehensive",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "exhausted",
+      "determined / resolute"
+    ],
+    "explanation_en": "'umfangreich' means 'extensive / comprehensive' in German."
+  },
+  {
+    "exercise_id": "ex_adj_umfangreich_002",
+    "word_id": "adj_umfangreich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das ist ein _____es Projekt.",
+      "en": "That is an extensive project."
+    },
+    "correct_answer": "umfangreich",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "The adjective 'umfangreich' (extensive / comprehensive) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_umfangreich_003",
+    "word_id": "adj_umfangreich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "extensive / comprehensive",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "umfangreich",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'extensive / comprehensive' translates to 'umfangreich' in German. Comparative: 'umfangreicher', Superlative: 'am umfangreichsten'."
+  },
+  {
+    "exercise_id": "ex_adj_umfangreich_004",
+    "word_id": "adj_umfangreich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie hat _____e Kenntnisse.",
+      "en": "She has comprehensive knowledge."
+    },
+    "correct_answer": "umfangreich",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'umfangreich' (extensive / comprehensive) is the correct adjective for this context."
+  },
+  {
+    "exercise_id": "ex_adj_gleichgultig_001",
+    "word_id": "adj_gleichgultig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "gleichgültig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "indifferent",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "exhausted",
+      "determined / resolute"
+    ],
+    "explanation_en": "'gleichgültig' means 'indifferent' in German. Opposite: 'begeistert'."
+  },
+  {
+    "exercise_id": "ex_adj_gleichgultig_002",
+    "word_id": "adj_gleichgultig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er ist _____ gegenüber der Kritik.",
+      "en": "He is indifferent to the criticism."
+    },
+    "correct_answer": "gleichgültig",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "The adjective 'gleichgültig' (indifferent) fits this sentence. Its opposite is 'begeistert'."
+  },
+  {
+    "exercise_id": "ex_adj_gleichgultig_003",
+    "word_id": "adj_gleichgultig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "indifferent",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "gleichgültig",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'indifferent' translates to 'gleichgültig' in German. Comparative: 'gleichgültiger', Superlative: 'am gleichgültigsten'."
+  },
+  {
+    "exercise_id": "ex_adj_gleichgultig_004",
+    "word_id": "adj_gleichgultig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das ist mir _____.",
+      "en": "I am indifferent about that."
+    },
+    "correct_answer": "gleichgültig",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'gleichgültig' (indifferent) is the correct adjective for this context. Opposite: 'begeistert'."
+  },
+  {
+    "exercise_id": "ex_adj_angemessen_001",
+    "word_id": "adj_angemessen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "angemessen",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "appropriate / adequate",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "exhausted",
+      "determined / resolute"
+    ],
+    "explanation_en": "'angemessen' means 'appropriate / adequate' in German. Opposite: 'unangemessen'."
+  },
+  {
+    "exercise_id": "ex_adj_angemessen_002",
+    "word_id": "adj_angemessen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Preis ist _____.",
+      "en": "The price is appropriate."
+    },
+    "correct_answer": "angemessen",
+    "wrong_answers": [
+      "unangemessen",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "The adjective 'angemessen' (appropriate / adequate) fits this sentence. Its opposite is 'unangemessen'."
+  },
+  {
+    "exercise_id": "ex_adj_angemessen_003",
+    "word_id": "adj_angemessen",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "appropriate / adequate",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "angemessen",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'appropriate / adequate' translates to 'angemessen' in German. Comparative: 'angemessener', Superlative: 'am angemessensten'."
+  },
+  {
+    "exercise_id": "ex_adj_angemessen_004",
+    "word_id": "adj_angemessen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das ist eine _____e Reaktion.",
+      "en": "That is an adequate response."
+    },
+    "correct_answer": "angemessen",
+    "wrong_answers": [
+      "unangemessen",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "'angemessen' (appropriate / adequate) is the correct adjective for this context. Opposite: 'unangemessen'."
+  },
+  {
+    "exercise_id": "ex_adj_ausfuhrlich_001",
+    "word_id": "adj_ausfuhrlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "ausführlich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "detailed / thorough",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "exhausted",
+      "determined / resolute"
+    ],
+    "explanation_en": "'ausführlich' means 'detailed / thorough' in German. Opposite: 'knapp'."
+  },
+  {
+    "exercise_id": "ex_adj_ausfuhrlich_002",
+    "word_id": "adj_ausfuhrlich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er hat _____ erklärt.",
+      "en": "He explained in detail."
+    },
+    "correct_answer": "ausführlich",
+    "wrong_answers": [
+      "knapp",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "The adjective 'ausführlich' (detailed / thorough) fits this sentence. Its opposite is 'knapp'."
+  },
+  {
+    "exercise_id": "ex_adj_ausfuhrlich_003",
+    "word_id": "adj_ausfuhrlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "detailed / thorough",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "ausführlich",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'detailed / thorough' translates to 'ausführlich' in German. Comparative: 'ausführlicher', Superlative: 'am ausführlichsten'."
+  },
+  {
+    "exercise_id": "ex_adj_ausfuhrlich_004",
+    "word_id": "adj_ausfuhrlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Bitte gib mir eine _____e Antwort.",
+      "en": "Please give me a detailed answer."
+    },
+    "correct_answer": "ausführlich",
+    "wrong_answers": [
+      "knapp",
+      "begeistert",
+      "erschöpft"
+    ],
+    "explanation_en": "'ausführlich' (detailed / thorough) is the correct adjective for this context. Opposite: 'knapp'."
+  },
+  {
+    "exercise_id": "ex_adj_widersprechlich_001",
+    "word_id": "adj_widersprechlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "widersprüchlich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "contradictory",
+    "wrong_answers": [
+      "enthusiastic / thrilled",
+      "exhausted",
+      "determined / resolute"
+    ],
+    "explanation_en": "'widersprüchlich' means 'contradictory' in German."
+  },
+  {
+    "exercise_id": "ex_adj_widersprechlich_002",
+    "word_id": "adj_widersprechlich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Informationen sind _____.",
+      "en": "The information is contradictory."
+    },
+    "correct_answer": "widersprüchlich",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "The adjective 'widersprüchlich' (contradictory) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_widersprechlich_003",
+    "word_id": "adj_widersprechlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "contradictory",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "widersprüchlich",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'contradictory' translates to 'widersprüchlich' in German. Comparative: 'widersprüchlicher', Superlative: 'am widersprüchlichsten'."
+  },
+  {
+    "exercise_id": "ex_adj_widersprechlich_004",
+    "word_id": "adj_widersprechlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sein Verhalten ist _____.",
+      "en": "His behaviour is contradictory."
+    },
+    "correct_answer": "widersprüchlich",
+    "wrong_answers": [
+      "begeistert",
+      "erschöpft",
+      "entschlossen"
+    ],
+    "explanation_en": "'widersprüchlich' (contradictory) is the correct adjective for this context."
   }
 ]
 };

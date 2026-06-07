@@ -2,6 +2,30 @@
 
 ---
 
+## 2026-06-07 — Session 10: Adjectives Module
+
+**What was built:**
+- `data/adjectives.json` — 100 adjectives across A1–B2 (25 per level). Fields: id, word, english, comparative, superlative, antonym, frequency_rank, cefr, example_sentences, tags.
+- `data/exercises/exercises-adjectives.json` — 400 exercises (4 per adjective): translate DE→EN, fill_blank (easy), translate EN→DE, fill_blank (harder).
+- `_factory/seeds/adjectives-level1–4.json` — all marked done.
+- `js/progress.js` — added `ADJECTIVES_UNLOCKED` key + `getUnlockedAdjectives()` / `unlockAdjective()` methods.
+- `js/exercises.js` — adjectives added to `_buildQueue`, context label, `_unlockWord`.
+- `js/wordlist.js` — adjectives added to `buildWordObjects()` and `_countTotalWords()`.
+- `js/wordpractice.js` — Adjektive class added to `WLP_CLASSES` picker.
+- `js/app.js` — adjectives in data loading + `_totalWordCount` + `_wordLabel`; `_renderAdjectiveModuleCategories()` (two cards: Grundformen active + Deklinationen placeholder); `renderAdjektivliste()`, `_renderAdjektivCards()`, `toggleAdjektivCard()`, `filterAdjektivList()`.
+- `index.html` — added `screen-adjektivliste` with search bar.
+- `data/modules.json` — Adjectives status changed from `coming_soon` → `active`.
+- `js/data.js` — rebundled. Now 1640 KB. Total exercises: 2,544.
+
+**Decisions made:**
+- Adjectives module has two cards: Grundformen (meanings, active) + Deklinationen (case/gender, locked placeholder for future session).
+- Starting with 100 adjectives; content will be enriched when Deklinationen is built.
+- Same 4-exercise format as other modules (no new exercise types this session).
+
+**Next:** Push to GitHub, then build Deklinationen area.
+
+---
+
 ## 2026-06-07 — Session 9A: Adverbs Deploy
 
 Adverbs module (Session 8 content) pushed to GitHub Pages. Live at https://rsperotti.github.io/mein_deutsch.
@@ -29,7 +53,9 @@ Adverbs module (Session 8 content) pushed to GitHub Pages. Live at https://rsper
 **Files changed:** `index.html`, `css/styles.css`, `js/exercises.js`, `js/progress.js`
 **Files created:** `js/wordpractice.js`
 
-**Next:** Push to GitHub Pages. Then: Adjectives module.
+**Auto-prep noted:** linter also added `ADJECTIVES_UNLOCKED` key + `getUnlockedAdjectives()` / `unlockAdjective()` to `progress.js`, and `module_adjectives` handling to `exercises.js`. No action needed — already in place for the next module.
+
+**Next:** Adjectives module.
 
 ---
 
