@@ -21,6 +21,8 @@ const Progress = {
     STREAK:              'app_streak',
     STREAK_DATE:         'app_streak_last_date',
     NOUNS_UNLOCKED:      'app_nouns_unlocked',
+    NOUNS_ROOT:          'app_nouns_root_unlocked',
+    NOUNS_VARIANT:       'app_nouns_variant_unlocked',
     ADVERBS_UNLOCKED:    'app_adverbs_unlocked',
     ADJECTIVES_UNLOCKED: 'app_adjectives_unlocked'
   },
@@ -90,11 +92,28 @@ const Progress = {
   },
 
   // --- Nouns ---
-  getUnlockedNouns() { return this._get(this.KEYS.NOUNS_UNLOCKED, []); },
+  // Combined list (for Nomenliste and word count)
+  getUnlockedNouns() {
+    const roots    = this._get(this.KEYS.NOUNS_ROOT, []);
+    const variants = this._get(this.KEYS.NOUNS_VARIANT, []);
+    return [...new Set([...roots, ...variants])];
+  },
 
-  unlockNoun(nounId) {
-    const list = this.getUnlockedNouns();
-    if (!list.includes(nounId)) { list.push(nounId); this._set(this.KEYS.NOUNS_UNLOCKED, list); }
+  // Root nouns
+  getUnlockedRootNouns() { return this._get(this.KEYS.NOUNS_ROOT, []); },
+
+  unlockRootNoun(nounId) {
+    const list = this.getUnlockedRootNouns();
+    if (!list.includes(nounId)) { list.push(nounId); this._set(this.KEYS.NOUNS_ROOT, list); }
+    this.unlockWord(nounId);
+  },
+
+  // Variation nouns
+  getUnlockedVariantNouns() { return this._get(this.KEYS.NOUNS_VARIANT, []); },
+
+  unlockVariantNoun(nounId) {
+    const list = this.getUnlockedVariantNouns();
+    if (!list.includes(nounId)) { list.push(nounId); this._set(this.KEYS.NOUNS_VARIANT, list); }
     this.unlockWord(nounId);
   },
 

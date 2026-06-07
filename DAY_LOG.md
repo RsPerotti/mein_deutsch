@@ -2,6 +2,24 @@
 
 ---
 
+## 2026-06-07 — Session 11: Nouns Module Restructure
+
+**What was changed:**
+- `data/nouns.json` — Added `section` field to all 175 nouns: 97 `"roots"` (all A1/A2 + simple/foreign-origin B1/B2), 78 `"variations"` (compound/derived B1/B2 nouns). Added `formation` field to all 78 variations (e.g. `"aus + Druck"`, `"frei + -heit"`). Added `base_noun_id` to 4 variations whose root is in the list (Krankenhaus→noun_haus, Rathaus→noun_haus, Einfluss→noun_fluss, Grundlage→noun_grund). Removed `article_choice` from all `exercise_type` arrays.
+- `data/exercises/exercises-nouns.json` — Removed all 175 `article_choice` exercises. Now 525 exercises (350 fill_blank + 175 translate_word). Article exercises belong in a future Articles module.
+- `js/progress.js` — Added `NOUNS_ROOT` and `NOUNS_VARIANT` localStorage keys. Replaced flat `unlockNoun()` with `unlockRootNoun()` / `unlockVariantNoun()`. `getUnlockedNouns()` now returns combined list for backwards-compatible Nomenliste.
+- `js/exercises.js` — Updated `_buildQueue` for `module_nouns` to filter roots vs variations. Updated context label (NOMEN · STAMMNOMEN / NOMEN · VARIATIONEN). Updated `_unlockWord` to call `unlockRootNoun` vs `unlockVariantNoun` based on noun `section` field.
+- `js/app.js` — Rewrote `_renderNounModuleCategories()`: now shows Stammnomen + Variationen cards (Variationen locked until first Stammnomen unlocked), mirroring verbs pattern exactly. Updated Nomenliste detail cards to show `Bildung:` formation string for variation nouns.
+- `js/data.js` — Rebundled. Total exercises now 2,369 (down from 2,544 — 175 article_choice removed).
+
+**Decisions made:**
+- Articles belong in a future Articles module; article_choice exercises removed from Nouns entirely.
+- Root/variation split: A1+A2 = all roots. B1/B2: simple, opaque, or foreign-origin nouns = roots; transparently compound or suffix-derived nouns = variations.
+- Variationen locked until at least 1 Stammnomen unlocked (same logic as verbs).
+- Formation displayed in Nomenliste detail card for variation nouns.
+
+---
+
 ## 2026-06-07 — Session 10: Adjectives Module
 
 **What was built:**

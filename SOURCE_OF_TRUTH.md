@@ -5,7 +5,7 @@
 
 ## Current State
 
-**Adjectives module live.** App at https://rsperotti.github.io/mein_deutsch. All four modules active: Verbs (100 roots + 138 variants, 936 exercises), Nouns (175 words, 700 exercises), Adverbs (127 words, 508 exercises), Adjectives (100 words, 400 exercises). Adjectives module has two areas: Grundformen (active — meanings + vocabulary) and Deklinationen (placeholder, locked). Next: push to GitHub Pages, then build Deklinationen area.
+**Nouns module restructured.** App at https://rsperotti.github.io/mein_deutsch. All four modules active. Nouns module now has Stammnomen + Variationen structure (mirroring verbs). Article exercises removed from Nouns (will move to future Articles module). Next: push to GitHub Pages.
 
 ## What Exists
 
@@ -19,7 +19,7 @@
 | `js/wordpractice.js` | ✅ Updated | Adjektive class added to WLP_CLASSES picker |
 | `js/wordlist.js` | ✅ Updated | Adjectives in buildWordObjects() and _countTotalWords() |
 | `data/modules.json` | ✅ Updated | 4 modules: Verbs + Nouns + Adjectives + Adverbs (all active) |
-| `js/data.js` | ✅ **Bundled** | All content embedded — 1640 KB. Regenerate after each batch. |
+| `js/data.js` | ✅ **Bundled** | All content embedded. Total exercises: 2,369. Regenerate after each batch. |
 | `data/verbs.json` | ✅ **100 verbs** | All 4 levels (A1–B2), 25 per level — complete |
 | `data/exercises/exercises-verbs.json` | ✅ **936 exercises** | 234 word IDs × 4 exercises each |
 | `manifest.json` | ✅ Built | PWA config |
@@ -27,8 +27,8 @@
 | `icons/icon-192.png` | ✅ Done | Speech bubble "de" icon, #85B7EB blue background |
 | `icons/icon-512.png` | ✅ Done | Speech bubble "de" icon, #85B7EB blue background |
 | `_factory/seeds/verbs-level1–4.json` | ✅ Done | All 100 verbs status: done |
-| `data/nouns.json` | ✅ **175 nouns** | A1–B2 complete (25+50+50+50) |
-| `data/exercises/exercises-nouns.json` | ✅ **700 exercises** | 175 nouns × 4 each |
+| `data/nouns.json` | ✅ **175 nouns** | A1–B2 complete. 97 roots + 78 variations. `section` + `formation` fields added. No article_choice exercises. |
+| `data/exercises/exercises-nouns.json` | ✅ **525 exercises** | 175 × 3 (fill_blank ×2 + translate_word ×1). article_choice removed (future Articles module). |
 | `_factory/seeds/nouns-level1–4.json` | ✅ Done | All 175 nouns status: done |
 | `data/adverbs.json` | ✅ **127 adverbs** | A1–B2 complete (29+25+51+22) |
 | `data/exercises/exercises-adverbs.json` | ✅ **508 exercises** | 127 adverbs × 4 each |

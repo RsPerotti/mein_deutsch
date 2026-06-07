@@ -15,8 +15,7 @@
         "de": "Der Mann geht in die Stadt.",
         "en": "The man goes into the city.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -30,7 +29,8 @@
     "tags": [
       "people",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_frau",
@@ -48,8 +48,7 @@
         "de": "Die Frau arbeitet in einem Büro.",
         "en": "The woman works in an office.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -63,7 +62,8 @@
     "tags": [
       "people",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_kind",
@@ -81,8 +81,7 @@
         "de": "Das Kind spielt im Park.",
         "en": "The child plays in the park.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -97,7 +96,8 @@
       "people",
       "family",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_tag",
@@ -115,8 +115,7 @@
         "de": "Heute ist ein schöner Tag.",
         "en": "Today is a beautiful day.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -130,7 +129,8 @@
     "tags": [
       "time",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_jahr",
@@ -148,8 +148,7 @@
         "de": "Das Jahr hat zwölf Monate.",
         "en": "The year has twelve months.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -163,7 +162,8 @@
     "tags": [
       "time",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_zeit",
@@ -181,8 +181,7 @@
         "de": "Ich habe keine Zeit.",
         "en": "I have no time.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -196,7 +195,8 @@
     "tags": [
       "time",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_haus",
@@ -214,8 +214,7 @@
         "de": "Das Haus ist sehr groß.",
         "en": "The house is very big.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -230,7 +229,8 @@
       "home",
       "buildings",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_arbeit",
@@ -248,8 +248,7 @@
         "de": "Die Arbeit beginnt um neun Uhr.",
         "en": "Work begins at nine o'clock.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -264,7 +263,8 @@
       "work",
       "daily_life",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_schule",
@@ -282,8 +282,7 @@
         "de": "Die Schule beginnt um acht Uhr.",
         "en": "School starts at eight o'clock.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -298,7 +297,8 @@
       "education",
       "buildings",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_stadt",
@@ -316,8 +316,7 @@
         "de": "Berlin ist eine große Stadt.",
         "en": "Berlin is a big city.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -331,7 +330,8 @@
     "tags": [
       "places",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_land",
@@ -349,8 +349,7 @@
         "de": "Deutschland ist ein großes Land.",
         "en": "Germany is a large country.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -365,7 +364,8 @@
       "places",
       "geography",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_geld",
@@ -383,8 +383,7 @@
         "de": "Ich habe kein Geld dabei.",
         "en": "I don't have any money with me.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -399,7 +398,8 @@
       "daily_life",
       "finance",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_auto",
@@ -417,8 +417,7 @@
         "de": "Das Auto ist rot.",
         "en": "The car is red.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -433,7 +432,8 @@
       "transport",
       "daily_life",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_tisch",
@@ -451,8 +451,7 @@
         "de": "Das Buch liegt auf dem Tisch.",
         "en": "The book is on the table.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -467,7 +466,8 @@
       "home",
       "furniture",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_tuer",
@@ -485,8 +485,7 @@
         "de": "Bitte mach die Tür zu.",
         "en": "Please close the door.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -500,7 +499,8 @@
     "tags": [
       "home",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_strasse",
@@ -518,8 +518,7 @@
         "de": "Die Straße ist sehr laut.",
         "en": "The street is very loud.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -534,7 +533,8 @@
       "places",
       "transport",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_familie",
@@ -552,8 +552,7 @@
         "de": "Meine Familie wohnt in Berlin.",
         "en": "My family lives in Berlin.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -568,7 +567,8 @@
       "family",
       "people",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_freund",
@@ -586,8 +586,7 @@
         "de": "Er ist mein bester Freund.",
         "en": "He is my best friend.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -602,7 +601,8 @@
       "people",
       "social",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_wasser",
@@ -620,8 +620,7 @@
         "de": "Ich trinke ein Glas Wasser.",
         "en": "I drink a glass of water.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -636,7 +635,8 @@
       "food_drink",
       "nature",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_buch",
@@ -654,8 +654,7 @@
         "de": "Das Buch ist sehr interessant.",
         "en": "The book is very interesting.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -670,7 +669,8 @@
       "education",
       "leisure",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_frage",
@@ -688,8 +688,7 @@
         "de": "Ich habe eine Frage.",
         "en": "I have a question.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -703,7 +702,8 @@
     "tags": [
       "communication",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_wort",
@@ -721,8 +721,7 @@
         "de": "Ich kenne dieses Wort nicht.",
         "en": "I don't know this word.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -737,7 +736,8 @@
       "language",
       "communication",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_nummer",
@@ -755,8 +755,7 @@
         "de": "Was ist deine Telefonnummer?",
         "en": "What is your phone number?",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -771,7 +770,8 @@
       "communication",
       "daily_life",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_stuhl",
@@ -789,8 +789,7 @@
         "de": "Bitte nimm einen Stuhl.",
         "en": "Please take a chair.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -805,7 +804,8 @@
       "home",
       "furniture",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_essen",
@@ -823,8 +823,7 @@
         "de": "Das Essen schmeckt sehr gut.",
         "en": "The food tastes very good.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -839,7 +838,8 @@
       "food_drink",
       "daily_life",
       "a1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_mutter",
@@ -857,8 +857,7 @@
         "de": "Meine Mutter kocht sehr gut.",
         "en": "My mother cooks very well.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -873,7 +872,8 @@
       "family",
       "people",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_vater",
@@ -891,8 +891,7 @@
         "de": "Mein Vater arbeitet als Ingenieur.",
         "en": "My father works as an engineer.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -907,7 +906,8 @@
       "family",
       "people",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_bruder",
@@ -925,8 +925,7 @@
         "de": "Mein Bruder ist zwei Jahre älter als ich.",
         "en": "My brother is two years older than me.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -941,7 +940,8 @@
       "family",
       "people",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_schwester",
@@ -959,8 +959,7 @@
         "de": "Meine Schwester wohnt in München.",
         "en": "My sister lives in Munich.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -975,7 +974,8 @@
       "family",
       "people",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_eltern",
@@ -993,8 +993,7 @@
         "de": "Meine Eltern wohnen auf dem Land.",
         "en": "My parents live in the countryside.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1009,7 +1008,8 @@
       "family",
       "people",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_lehrer",
@@ -1027,8 +1027,7 @@
         "de": "Der Lehrer erklärt die Grammatik.",
         "en": "The teacher explains the grammar.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1044,7 +1043,8 @@
       "people",
       "work",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_arzt",
@@ -1062,8 +1062,7 @@
         "de": "Ich muss zum Arzt gehen.",
         "en": "I have to go to the doctor.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1079,7 +1078,8 @@
       "people",
       "work",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_kollege",
@@ -1097,8 +1097,7 @@
         "de": "Mein Kollege hilft mir mit dem Projekt.",
         "en": "My colleague helps me with the project.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1113,7 +1112,8 @@
       "work",
       "people",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_nachbar",
@@ -1131,8 +1131,7 @@
         "de": "Unser Nachbar ist sehr freundlich.",
         "en": "Our neighbour is very friendly.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1147,7 +1146,8 @@
       "people",
       "daily_life",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_chef",
@@ -1165,8 +1165,7 @@
         "de": "Mein Chef ist heute nicht im Büro.",
         "en": "My boss is not in the office today.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1181,7 +1180,8 @@
       "work",
       "people",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_zimmer",
@@ -1199,8 +1199,7 @@
         "de": "Das Zimmer ist sehr sauber.",
         "en": "The room is very clean.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1214,7 +1213,8 @@
     "tags": [
       "home",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_kueche",
@@ -1232,8 +1232,7 @@
         "de": "Die Küche ist klein, aber modern.",
         "en": "The kitchen is small but modern.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1248,7 +1247,8 @@
       "home",
       "food_drink",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_garten",
@@ -1266,8 +1266,7 @@
         "de": "Im Garten wachsen viele Blumen.",
         "en": "Many flowers grow in the garden.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1282,7 +1281,8 @@
       "home",
       "nature",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_bahnhof",
@@ -1300,8 +1300,7 @@
         "de": "Der Bahnhof ist zehn Minuten entfernt.",
         "en": "The train station is ten minutes away.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1316,7 +1315,8 @@
       "transport",
       "places",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_buero",
@@ -1334,8 +1334,7 @@
         "de": "Das Büro öffnet um neun Uhr.",
         "en": "The office opens at nine o'clock.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1350,7 +1349,8 @@
       "work",
       "places",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_fenster",
@@ -1368,8 +1368,7 @@
         "de": "Bitte mach das Fenster auf.",
         "en": "Please open the window.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1383,7 +1382,8 @@
     "tags": [
       "home",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_bett",
@@ -1401,8 +1401,7 @@
         "de": "Ich gehe um zehn Uhr ins Bett.",
         "en": "I go to bed at ten o'clock.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1417,7 +1416,8 @@
       "home",
       "furniture",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_handy",
@@ -1435,8 +1435,7 @@
         "de": "Ich habe mein Handy vergessen.",
         "en": "I forgot my mobile phone.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1451,7 +1450,8 @@
       "technology",
       "daily_life",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_tasche",
@@ -1469,8 +1469,7 @@
         "de": "Meine Tasche ist sehr schwer.",
         "en": "My bag is very heavy.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1484,7 +1483,8 @@
     "tags": [
       "daily_life",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_schluessel",
@@ -1502,8 +1502,7 @@
         "de": "Ich finde meinen Schlüssel nicht.",
         "en": "I cannot find my key.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1518,7 +1517,8 @@
       "daily_life",
       "home",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_brief",
@@ -1536,8 +1536,7 @@
         "de": "Ich schreibe einen Brief an meine Oma.",
         "en": "I am writing a letter to my grandmother.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1552,7 +1551,8 @@
       "communication",
       "daily_life",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_stunde",
@@ -1570,8 +1570,7 @@
         "de": "Ich warte seit einer Stunde.",
         "en": "I have been waiting for an hour.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1585,7 +1584,8 @@
     "tags": [
       "time",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_woche",
@@ -1603,8 +1603,7 @@
         "de": "Diese Woche habe ich viel zu tun.",
         "en": "This week I have a lot to do.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1618,7 +1617,8 @@
     "tags": [
       "time",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_monat",
@@ -1636,8 +1636,7 @@
         "de": "Im nächsten Monat fahren wir in den Urlaub.",
         "en": "Next month we are going on holiday.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1651,7 +1650,8 @@
     "tags": [
       "time",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_morgen",
@@ -1669,8 +1669,7 @@
         "de": "Am Morgen trinke ich immer Kaffee.",
         "en": "In the morning I always drink coffee.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1685,7 +1684,8 @@
       "time",
       "daily_life",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_abend",
@@ -1703,8 +1703,7 @@
         "de": "Am Abend schauen wir fern.",
         "en": "In the evening we watch television.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1719,7 +1718,8 @@
       "time",
       "daily_life",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_nacht",
@@ -1737,8 +1737,7 @@
         "de": "In der Nacht ist es sehr ruhig.",
         "en": "At night it is very quiet.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1753,7 +1752,8 @@
       "time",
       "daily_life",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_brot",
@@ -1771,8 +1771,7 @@
         "de": "Ich kaufe jeden Morgen frisches Brot.",
         "en": "I buy fresh bread every morning.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1787,7 +1786,8 @@
       "food_drink",
       "daily_life",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_milch",
@@ -1805,8 +1805,7 @@
         "de": "Ich trinke jeden Abend ein Glas Milch.",
         "en": "I drink a glass of milk every evening.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1820,7 +1819,8 @@
     "tags": [
       "food_drink",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_kaffee",
@@ -1838,8 +1838,7 @@
         "de": "Ich brauche morgens meinen Kaffee.",
         "en": "I need my coffee in the morning.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1854,7 +1853,8 @@
       "food_drink",
       "daily_life",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_sonne",
@@ -1872,8 +1872,7 @@
         "de": "Die Sonne scheint heute sehr hell.",
         "en": "The sun is shining very brightly today.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1888,7 +1887,8 @@
       "nature",
       "weather",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_regen",
@@ -1906,8 +1906,7 @@
         "de": "Der Regen hört nicht auf.",
         "en": "The rain doesn't stop.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1922,7 +1921,8 @@
       "nature",
       "weather",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_berg",
@@ -1940,8 +1940,7 @@
         "de": "Der Berg ist sehr hoch.",
         "en": "The mountain is very high.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1956,7 +1955,8 @@
       "nature",
       "geography",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_fluss",
@@ -1974,8 +1974,7 @@
         "de": "Der Fluss fließt durch die Stadt.",
         "en": "The river flows through the city.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -1990,7 +1989,8 @@
       "nature",
       "geography",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_problem",
@@ -2008,8 +2008,7 @@
         "de": "Das Problem ist nicht leicht zu lösen.",
         "en": "The problem is not easy to solve.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2024,7 +2023,8 @@
       "abstract",
       "daily_life",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_idee",
@@ -2042,8 +2042,7 @@
         "de": "Das ist eine gute Idee.",
         "en": "That is a good idea.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2058,7 +2057,8 @@
       "abstract",
       "communication",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_meinung",
@@ -2076,8 +2076,7 @@
         "de": "Was ist deine Meinung dazu?",
         "en": "What is your opinion on this?",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2092,7 +2091,8 @@
       "abstract",
       "communication",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_grund",
@@ -2110,8 +2110,7 @@
         "de": "Was ist der Grund für deine Verspätung?",
         "en": "What is the reason for your delay?",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2126,7 +2125,8 @@
       "abstract",
       "communication",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_weg",
@@ -2144,8 +2144,7 @@
         "de": "Ich kenne den Weg nicht.",
         "en": "I don't know the way.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2160,7 +2159,8 @@
       "places",
       "daily_life",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_platz",
@@ -2178,8 +2178,7 @@
         "de": "Ist hier noch ein Platz frei?",
         "en": "Is there still a free seat here?",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2194,7 +2193,8 @@
       "places",
       "daily_life",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_seite",
@@ -2212,8 +2212,7 @@
         "de": "Bitte lest Seite zwanzig im Buch.",
         "en": "Please read page twenty in the book.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2228,7 +2227,8 @@
       "abstract",
       "language",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_art",
@@ -2246,8 +2246,7 @@
         "de": "Das ist eine neue Art zu lernen.",
         "en": "That is a new way of learning.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2261,7 +2260,8 @@
     "tags": [
       "abstract",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_name",
@@ -2279,8 +2279,7 @@
         "de": "Wie ist dein Name?",
         "en": "What is your name?",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2295,7 +2294,8 @@
       "communication",
       "daily_life",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_kopf",
@@ -2313,8 +2313,7 @@
         "de": "Ich habe Schmerzen im Kopf.",
         "en": "I have pain in my head.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2329,7 +2328,8 @@
       "body",
       "health",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_hand",
@@ -2347,8 +2347,7 @@
         "de": "Sie gibt mir die Hand zur Begrüßung.",
         "en": "She gives me her hand in greeting.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2362,7 +2361,8 @@
     "tags": [
       "body",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_herz",
@@ -2380,8 +2380,7 @@
         "de": "Das Herz schlägt sehr schnell.",
         "en": "The heart beats very fast.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2396,7 +2395,8 @@
       "body",
       "health",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_stimme",
@@ -2414,8 +2414,7 @@
         "de": "Sie hat eine schöne Stimme.",
         "en": "She has a beautiful voice.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2430,7 +2429,8 @@
       "body",
       "communication",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_gesicht",
@@ -2448,8 +2448,7 @@
         "de": "Das Gesicht des Kindes ist sehr süß.",
         "en": "The child's face is very sweet.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2463,7 +2462,8 @@
     "tags": [
       "body",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_zug",
@@ -2481,8 +2481,7 @@
         "de": "Der Zug fährt um acht Uhr ab.",
         "en": "The train departs at eight o'clock.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2496,7 +2495,8 @@
     "tags": [
       "transport",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_preis",
@@ -2514,8 +2514,7 @@
         "de": "Der Preis ist leider zu hoch.",
         "en": "The price is unfortunately too high.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2530,7 +2529,8 @@
       "finance",
       "daily_life",
       "a2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_erfahrung",
@@ -2548,8 +2548,7 @@
         "de": "Er hat viel Erfahrung in diesem Beruf.",
         "en": "He has a lot of experience in this profession.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2564,7 +2563,9 @@
       "work",
       "abstract",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "er- + Fahrt"
   },
   {
     "id": "noun_entwicklung",
@@ -2582,8 +2583,7 @@
         "de": "Die Entwicklung der Technik geht sehr schnell.",
         "en": "The development of technology is very fast.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2598,7 +2598,9 @@
       "abstract",
       "technology",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "ent- + Wicklung"
   },
   {
     "id": "noun_bedeutung",
@@ -2616,8 +2618,7 @@
         "de": "Die Bedeutung dieses Wortes kenne ich nicht.",
         "en": "I don't know the meaning of this word.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2632,7 +2633,9 @@
       "abstract",
       "language",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "be- + Deutung"
   },
   {
     "id": "noun_moeglichkeit",
@@ -2650,8 +2653,7 @@
         "de": "Es gibt immer eine Möglichkeit, das zu lösen.",
         "en": "There is always a possibility to solve this.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2665,7 +2667,9 @@
     "tags": [
       "abstract",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "möglich + -keit"
   },
   {
     "id": "noun_veraenderung",
@@ -2683,8 +2687,7 @@
         "de": "Die Veränderung kam sehr plötzlich.",
         "en": "The change came very suddenly.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2698,7 +2701,9 @@
     "tags": [
       "abstract",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "ver- + Änderung"
   },
   {
     "id": "noun_entscheidung",
@@ -2716,8 +2721,7 @@
         "de": "Es war eine schwierige Entscheidung.",
         "en": "It was a difficult decision.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2731,7 +2735,9 @@
     "tags": [
       "abstract",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "ent- + Scheidung"
   },
   {
     "id": "noun_gesellschaft",
@@ -2749,8 +2755,7 @@
         "de": "Die Gesellschaft verändert sich ständig.",
         "en": "Society is constantly changing.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2765,7 +2770,9 @@
       "abstract",
       "social",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Geselle + -schaft"
   },
   {
     "id": "noun_wirtschaft",
@@ -2783,8 +2790,7 @@
         "de": "Die Wirtschaft wächst dieses Jahr stark.",
         "en": "The economy is growing strongly this year.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2799,7 +2805,9 @@
       "abstract",
       "finance",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Wirt + -schaft"
   },
   {
     "id": "noun_wissenschaft",
@@ -2817,8 +2825,7 @@
         "de": "Die Wissenschaft macht große Fortschritte.",
         "en": "Science is making great progress.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2833,7 +2840,9 @@
       "education",
       "abstract",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Wissen + -schaft"
   },
   {
     "id": "noun_sprache",
@@ -2851,8 +2860,7 @@
         "de": "Die deutsche Sprache ist nicht leicht.",
         "en": "The German language is not easy.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2867,7 +2875,8 @@
       "language",
       "education",
       "b1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_kultur",
@@ -2885,8 +2894,7 @@
         "de": "Die Kultur Deutschlands ist sehr reich.",
         "en": "The culture of Germany is very rich.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2901,7 +2909,8 @@
       "abstract",
       "social",
       "b1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_umgebung",
@@ -2919,8 +2928,7 @@
         "de": "Die Umgebung der Stadt ist sehr schön.",
         "en": "The surroundings of the city are very beautiful.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2935,7 +2943,9 @@
       "nature",
       "places",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "um- + Gebung"
   },
   {
     "id": "noun_loesung",
@@ -2953,8 +2963,7 @@
         "de": "Wir suchen eine Lösung für das Problem.",
         "en": "We are looking for a solution to the problem.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -2968,7 +2977,9 @@
     "tags": [
       "abstract",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "lösen + -ung"
   },
   {
     "id": "noun_aufgabe",
@@ -2986,8 +2997,7 @@
         "de": "Diese Aufgabe ist sehr schwierig.",
         "en": "This task is very difficult.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3002,7 +3012,9 @@
       "work",
       "education",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "auf + Gabe"
   },
   {
     "id": "noun_wirkung",
@@ -3020,8 +3032,7 @@
         "de": "Das Medikament hat eine starke Wirkung.",
         "en": "The medicine has a strong effect.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3036,7 +3047,9 @@
       "abstract",
       "health",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "wirken + -ung"
   },
   {
     "id": "noun_verhaeltnis",
@@ -3054,8 +3067,7 @@
         "de": "Das Verhältnis zwischen den Ländern ist gut.",
         "en": "The relationship between the countries is good.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3070,7 +3082,9 @@
       "abstract",
       "social",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "ver- + Haltnis"
   },
   {
     "id": "noun_ergebnis",
@@ -3088,8 +3102,7 @@
         "de": "Das Ergebnis des Tests war gut.",
         "en": "The result of the test was good.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3104,7 +3117,9 @@
       "abstract",
       "education",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "er- + Gebnis"
   },
   {
     "id": "noun_beispiel",
@@ -3122,8 +3137,7 @@
         "de": "Kannst du mir ein Beispiel geben?",
         "en": "Can you give me an example?",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3138,7 +3152,9 @@
       "abstract",
       "language",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Bei + Spiel"
   },
   {
     "id": "noun_angebot",
@@ -3156,8 +3172,7 @@
         "de": "Das Angebot klingt sehr gut.",
         "en": "The offer sounds very good.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3172,7 +3187,9 @@
       "finance",
       "daily_life",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "an + Gebot"
   },
   {
     "id": "noun_interesse",
@@ -3190,8 +3207,7 @@
         "de": "Das Interesse an Kunst ist gewachsen.",
         "en": "Interest in art has grown.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3205,7 +3221,8 @@
     "tags": [
       "abstract",
       "b1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_verhalten",
@@ -3223,8 +3240,7 @@
         "de": "Das Verhalten des Kindes ist seltsam.",
         "en": "The child's behaviour is strange.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3239,7 +3255,9 @@
       "abstract",
       "social",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "ver- + halten"
   },
   {
     "id": "noun_ziel",
@@ -3257,8 +3275,7 @@
         "de": "Mein Ziel ist es, fließend Deutsch zu sprechen.",
         "en": "My goal is to speak German fluently.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3272,7 +3289,8 @@
     "tags": [
       "abstract",
       "b1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_thema",
@@ -3290,8 +3308,7 @@
         "de": "Das Thema der Diskussion ist Klimawandel.",
         "en": "The topic of the discussion is climate change.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3306,7 +3323,8 @@
       "abstract",
       "language",
       "b1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_recht",
@@ -3324,8 +3342,7 @@
         "de": "Jeder Mensch hat das Recht auf Freiheit.",
         "en": "Every person has the right to freedom.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3340,7 +3357,8 @@
       "abstract",
       "social",
       "b1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_gebiet",
@@ -3358,8 +3376,7 @@
         "de": "In diesem Gebiet kenne ich mich gut aus.",
         "en": "I know my way around in this field.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3374,7 +3391,9 @@
       "abstract",
       "places",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Ge- + bieten"
   },
   {
     "id": "noun_einfluss",
@@ -3392,8 +3411,7 @@
         "de": "Der Einfluss der Medien ist sehr groß.",
         "en": "The influence of the media is very great.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3408,7 +3426,10 @@
       "abstract",
       "social",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "ein + Fluss",
+    "base_noun_id": "noun_fluss"
   },
   {
     "id": "noun_unterschied",
@@ -3426,8 +3447,7 @@
         "de": "Was ist der Unterschied zwischen diesen beiden Wörtern?",
         "en": "What is the difference between these two words?",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3442,7 +3462,9 @@
       "abstract",
       "language",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Unter + Schied"
   },
   {
     "id": "noun_zusammenhang",
@@ -3460,8 +3482,7 @@
         "de": "Ich verstehe den Zusammenhang nicht.",
         "en": "I don't understand the connection.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3476,7 +3497,9 @@
       "abstract",
       "language",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "zusammen + Hang"
   },
   {
     "id": "noun_bereich",
@@ -3494,8 +3517,7 @@
         "de": "In diesem Bereich bin ich Experte.",
         "en": "I am an expert in this field.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3510,7 +3532,9 @@
       "abstract",
       "work",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "be- + Reich"
   },
   {
     "id": "noun_inhalt",
@@ -3528,8 +3552,7 @@
         "de": "Der Inhalt des Buches ist sehr interessant.",
         "en": "The content of the book is very interesting.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3544,7 +3567,9 @@
       "abstract",
       "language",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "in + Halt"
   },
   {
     "id": "noun_ausdruck",
@@ -3562,8 +3587,7 @@
         "de": "Dieser Ausdruck ist sehr typisch für die Mundart.",
         "en": "This expression is very typical of the dialect.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3578,7 +3602,9 @@
       "language",
       "communication",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "aus + Druck"
   },
   {
     "id": "noun_fehler",
@@ -3596,8 +3622,7 @@
         "de": "Ich habe einen Fehler gemacht.",
         "en": "I made a mistake.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3612,7 +3637,8 @@
       "abstract",
       "education",
       "b1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_vorteil",
@@ -3630,8 +3656,7 @@
         "de": "Das hat einen großen Vorteil für uns.",
         "en": "That has a great advantage for us.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3645,7 +3670,9 @@
     "tags": [
       "abstract",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Vor + Teil"
   },
   {
     "id": "noun_nachteil",
@@ -3663,8 +3690,7 @@
         "de": "Der Nachteil ist der hohe Preis.",
         "en": "The disadvantage is the high price.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3678,7 +3704,9 @@
     "tags": [
       "abstract",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Nach + Teil"
   },
   {
     "id": "noun_einwohner",
@@ -3696,8 +3724,7 @@
         "de": "Die Stadt hat drei Millionen Einwohner.",
         "en": "The city has three million inhabitants.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3712,7 +3739,9 @@
       "people",
       "places",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "ein + Wohner"
   },
   {
     "id": "noun_zustand",
@@ -3730,8 +3759,7 @@
         "de": "Das Auto ist in einem schlechten Zustand.",
         "en": "The car is in a bad condition.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3746,7 +3774,9 @@
       "abstract",
       "health",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "zu + Stand"
   },
   {
     "id": "noun_verlust",
@@ -3764,8 +3794,7 @@
         "de": "Der Verlust war sehr schmerzhaft.",
         "en": "The loss was very painful.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3780,7 +3809,9 @@
       "abstract",
       "finance",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "ver- + lieren"
   },
   {
     "id": "noun_fortschritt",
@@ -3798,8 +3829,7 @@
         "de": "Der Fortschritt in der Medizin ist beeindruckend.",
         "en": "The progress in medicine is impressive.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3813,7 +3843,9 @@
     "tags": [
       "abstract",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Fort + Schritt"
   },
   {
     "id": "noun_beitrag",
@@ -3831,8 +3863,7 @@
         "de": "Sein Beitrag zum Projekt war sehr wichtig.",
         "en": "His contribution to the project was very important.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3847,7 +3878,9 @@
       "abstract",
       "social",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "bei + Trag"
   },
   {
     "id": "noun_zweck",
@@ -3865,8 +3898,7 @@
         "de": "Was ist der Zweck dieser Übung?",
         "en": "What is the purpose of this exercise?",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3880,7 +3912,8 @@
     "tags": [
       "abstract",
       "b1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_krankenhaus",
@@ -3898,8 +3931,7 @@
         "de": "Er liegt seit einer Woche im Krankenhaus.",
         "en": "He has been in hospital for a week.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3915,7 +3947,10 @@
       "places",
       "buildings",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Kranken + Haus",
+    "base_noun_id": "noun_haus"
   },
   {
     "id": "noun_rathaus",
@@ -3933,8 +3968,7 @@
         "de": "Das Rathaus liegt in der Stadtmitte.",
         "en": "The town hall is in the city centre.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3949,7 +3983,10 @@
       "buildings",
       "places",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Rat + Haus",
+    "base_noun_id": "noun_haus"
   },
   {
     "id": "noun_flughafen",
@@ -3967,8 +4004,7 @@
         "de": "Der Flughafen ist sehr weit von der Stadt entfernt.",
         "en": "The airport is very far from the city.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -3983,7 +4019,9 @@
       "transport",
       "places",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Flug + Hafen"
   },
   {
     "id": "noun_umwelt",
@@ -4001,8 +4039,7 @@
         "de": "Wir müssen die Umwelt schützen.",
         "en": "We must protect the environment.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4017,7 +4054,9 @@
       "nature",
       "abstract",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Um + Welt"
   },
   {
     "id": "noun_energie",
@@ -4035,8 +4074,7 @@
         "de": "Erneuerbare Energie ist die Zukunft.",
         "en": "Renewable energy is the future.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4051,7 +4089,8 @@
       "technology",
       "abstract",
       "b1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_technik",
@@ -4069,8 +4108,7 @@
         "de": "Die moderne Technik macht vieles einfacher.",
         "en": "Modern technology makes many things easier.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4085,7 +4123,8 @@
       "technology",
       "abstract",
       "b1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_gesundheit",
@@ -4103,8 +4142,7 @@
         "de": "Gesundheit ist das Wichtigste im Leben.",
         "en": "Health is the most important thing in life.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4119,7 +4157,9 @@
       "health",
       "abstract",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "gesund + -heit"
   },
   {
     "id": "noun_gewalt",
@@ -4137,8 +4177,7 @@
         "de": "Gewalt ist keine Lösung.",
         "en": "Violence is not a solution.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4153,7 +4192,8 @@
       "abstract",
       "social",
       "b1"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_freiheit",
@@ -4171,8 +4211,7 @@
         "de": "Freiheit ist ein grundlegendes Menschenrecht.",
         "en": "Freedom is a fundamental human right.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4187,7 +4226,9 @@
       "abstract",
       "social",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "frei + -heit"
   },
   {
     "id": "noun_verantwortung",
@@ -4205,8 +4246,7 @@
         "de": "Du trägst die Verantwortung für dieses Projekt.",
         "en": "You bear the responsibility for this project.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4221,7 +4261,9 @@
       "abstract",
       "work",
       "b1"
-    ]
+    ],
+    "section": "variations",
+    "formation": "ver- + Antwortung"
   },
   {
     "id": "noun_auseinandersetzung",
@@ -4239,8 +4281,7 @@
         "de": "Die Auseinandersetzung zwischen den Parteien war heftig.",
         "en": "The dispute between the parties was fierce.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4256,7 +4297,9 @@
       "communication",
       "social",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "aus + einander + Setzung"
   },
   {
     "id": "noun_anerkennung",
@@ -4274,8 +4317,7 @@
         "de": "Sie verdient Anerkennung für ihre Arbeit.",
         "en": "She deserves recognition for her work.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4290,7 +4332,9 @@
       "abstract",
       "work",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "an- + Erkennung"
   },
   {
     "id": "noun_herausforderung",
@@ -4308,8 +4352,7 @@
         "de": "Das ist eine große Herausforderung für uns alle.",
         "en": "That is a great challenge for all of us.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4323,7 +4366,9 @@
     "tags": [
       "abstract",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "heraus + Forderung"
   },
   {
     "id": "noun_umsetzung",
@@ -4341,8 +4386,7 @@
         "de": "Die Umsetzung des Plans erfordert viel Arbeit.",
         "en": "The implementation of the plan requires a lot of work.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4357,7 +4401,9 @@
       "abstract",
       "work",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "um- + Setzung"
   },
   {
     "id": "noun_ueberzeugung",
@@ -4375,8 +4421,7 @@
         "de": "Er handelt aus Überzeugung.",
         "en": "He acts out of conviction.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4390,7 +4435,9 @@
     "tags": [
       "abstract",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "über- + Zeugung"
   },
   {
     "id": "noun_voraussetzung",
@@ -4408,8 +4455,7 @@
         "de": "Eine gute Ausbildung ist die Voraussetzung für diesen Job.",
         "en": "A good education is the prerequisite for this job.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4424,7 +4470,9 @@
       "abstract",
       "work",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "vor + aus + Setzung"
   },
   {
     "id": "noun_wahrnehmung",
@@ -4442,8 +4490,7 @@
         "de": "Die Wahrnehmung der Realität ist subjektiv.",
         "en": "The perception of reality is subjective.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4457,7 +4504,9 @@
     "tags": [
       "abstract",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "wahr + Nehmung"
   },
   {
     "id": "noun_beruecksichtigung",
@@ -4475,8 +4524,7 @@
         "de": "Unter Berücksichtigung aller Faktoren ist die Entscheidung richtig.",
         "en": "Taking all factors into consideration, the decision is correct.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4491,7 +4539,9 @@
       "abstract",
       "work",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "be + Rück + Sicht + -igung"
   },
   {
     "id": "noun_durchfuehrung",
@@ -4509,8 +4559,7 @@
         "de": "Die Durchführung des Projekts begann im Januar.",
         "en": "The implementation of the project began in January.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4525,7 +4574,9 @@
       "abstract",
       "work",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "durch- + Führung"
   },
   {
     "id": "noun_einschraenkung",
@@ -4543,8 +4594,7 @@
         "de": "Die neuen Regeln bringen viele Einschränkungen.",
         "en": "The new rules bring many restrictions.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4559,7 +4609,9 @@
       "abstract",
       "social",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "ein- + Schränkung"
   },
   {
     "id": "noun_foerderung",
@@ -4577,8 +4629,7 @@
         "de": "Die Förderung junger Talente ist sehr wichtig.",
         "en": "The promotion of young talents is very important.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4594,7 +4645,9 @@
       "education",
       "finance",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "fördern + -ung"
   },
   {
     "id": "noun_grundlage",
@@ -4612,8 +4665,7 @@
         "de": "Vertrauen ist die Grundlage jeder guten Beziehung.",
         "en": "Trust is the foundation of every good relationship.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4627,7 +4679,10 @@
     "tags": [
       "abstract",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Grund + Lage",
+    "base_noun_id": "noun_grund"
   },
   {
     "id": "noun_haltung",
@@ -4645,8 +4700,7 @@
         "de": "Seine Haltung zu diesem Thema hat sich verändert.",
         "en": "His attitude to this topic has changed.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4661,7 +4715,9 @@
       "abstract",
       "body",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "halten + -ung"
   },
   {
     "id": "noun_leistung",
@@ -4679,8 +4735,7 @@
         "de": "Seine schulische Leistung ist sehr gut.",
         "en": "His academic performance is very good.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4696,7 +4751,9 @@
       "work",
       "education",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "leisten + -ung"
   },
   {
     "id": "noun_massnahme",
@@ -4714,8 +4771,7 @@
         "de": "Die Regierung ergreift strenge Maßnahmen.",
         "en": "The government is taking strict measures.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4730,7 +4786,9 @@
       "abstract",
       "social",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Maß + Nahme"
   },
   {
     "id": "noun_mehrheit",
@@ -4748,8 +4806,7 @@
         "de": "Die Mehrheit der Bevölkerung ist dafür.",
         "en": "The majority of the population is in favour.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4764,7 +4821,9 @@
       "abstract",
       "social",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "mehr + -heit"
   },
   {
     "id": "noun_schicht",
@@ -4782,8 +4841,7 @@
         "de": "Er arbeitet in der Nachtschicht.",
         "en": "He works the night shift.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4799,7 +4857,8 @@
       "social",
       "work",
       "b2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_tendenz",
@@ -4817,8 +4876,7 @@
         "de": "Es gibt eine Tendenz zu mehr Homeoffice.",
         "en": "There is a tendency towards more working from home.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4832,7 +4890,8 @@
     "tags": [
       "abstract",
       "b2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_verfassung",
@@ -4850,8 +4909,7 @@
         "de": "Die Verfassung schützt die Grundrechte der Bürger.",
         "en": "The constitution protects citizens' fundamental rights.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4867,7 +4925,9 @@
       "social",
       "health",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "ver- + Fassung"
   },
   {
     "id": "noun_wirklichkeit",
@@ -4885,8 +4945,7 @@
         "de": "In der Wirklichkeit sieht das ganz anders aus.",
         "en": "In reality it looks quite different.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4900,7 +4959,9 @@
     "tags": [
       "abstract",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "wirklich + -keit"
   },
   {
     "id": "noun_ausmass",
@@ -4918,8 +4979,7 @@
         "de": "Das Ausmaß des Schadens ist enorm.",
         "en": "The extent of the damage is enormous.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4933,7 +4993,9 @@
     "tags": [
       "abstract",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Aus + Maß"
   },
   {
     "id": "noun_bewusstsein",
@@ -4951,8 +5013,7 @@
         "de": "Das Bewusstsein für Umweltprobleme wächst.",
         "en": "Awareness of environmental problems is growing.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -4967,7 +5028,9 @@
       "abstract",
       "health",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "bewusst + Sein"
   },
   {
     "id": "noun_gleichgewicht",
@@ -4985,8 +5048,7 @@
         "de": "Das Gleichgewicht zwischen Arbeit und Freizeit ist wichtig.",
         "en": "The balance between work and leisure is important.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5000,7 +5062,9 @@
     "tags": [
       "abstract",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Gleich + Gewicht"
   },
   {
     "id": "noun_konzept",
@@ -5018,8 +5082,7 @@
         "de": "Das Konzept des Projekts ist überzeugend.",
         "en": "The concept of the project is convincing.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5034,7 +5097,8 @@
       "abstract",
       "work",
       "b2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_kriterium",
@@ -5052,8 +5116,7 @@
         "de": "Das wichtigste Kriterium ist die Qualität.",
         "en": "The most important criterion is quality.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5068,7 +5131,8 @@
       "abstract",
       "work",
       "b2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_merkmal",
@@ -5086,8 +5150,7 @@
         "de": "Ein typisches Merkmal dieser Sprache ist die Wortstellung.",
         "en": "A typical characteristic of this language is word order.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5102,7 +5165,9 @@
       "abstract",
       "language",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Merk + Mal"
   },
   {
     "id": "noun_phaenomen",
@@ -5120,8 +5185,7 @@
         "de": "Das ist ein interessantes soziales Phänomen.",
         "en": "That is an interesting social phenomenon.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5136,7 +5200,8 @@
       "abstract",
       "education",
       "b2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_prinzip",
@@ -5154,8 +5219,7 @@
         "de": "Das Prinzip der Gleichheit gilt für alle.",
         "en": "The principle of equality applies to everyone.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5170,7 +5234,8 @@
       "abstract",
       "social",
       "b2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_risiko",
@@ -5188,8 +5253,7 @@
         "de": "Das Risiko ist zu hoch.",
         "en": "The risk is too high.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5203,7 +5267,8 @@
     "tags": [
       "abstract",
       "b2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_scheitern",
@@ -5221,8 +5286,7 @@
         "de": "Das Scheitern des Projekts war unvermeidlich.",
         "en": "The failure of the project was inevitable.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5236,7 +5300,8 @@
     "tags": [
       "abstract",
       "b2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_ansatz",
@@ -5254,8 +5319,7 @@
         "de": "Dieser Ansatz ist sehr innovativ.",
         "en": "This approach is very innovative.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5270,7 +5334,9 @@
       "abstract",
       "work",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "an- + Satz"
   },
   {
     "id": "noun_aspekt",
@@ -5288,8 +5354,7 @@
         "de": "Dieser Aspekt des Problems wurde übersehen.",
         "en": "This aspect of the problem was overlooked.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5303,7 +5368,8 @@
     "tags": [
       "abstract",
       "b2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_aufwand",
@@ -5321,8 +5387,7 @@
         "de": "Der Aufwand ist sehr hoch.",
         "en": "The effort is very high.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5337,7 +5402,9 @@
       "abstract",
       "work",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "auf- + Wand"
   },
   {
     "id": "noun_begriff",
@@ -5355,8 +5422,7 @@
         "de": "Dieser Begriff ist schwer zu definieren.",
         "en": "This term is difficult to define.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5371,7 +5437,9 @@
       "language",
       "abstract",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "be- + Griff"
   },
   {
     "id": "noun_einwand",
@@ -5389,8 +5457,7 @@
         "de": "Er erhob einen Einwand gegen den Plan.",
         "en": "He raised an objection to the plan.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5405,7 +5472,9 @@
       "abstract",
       "communication",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "ein- + Wand"
   },
   {
     "id": "noun_kontext",
@@ -5423,8 +5492,7 @@
         "de": "Man muss den Kontext verstehen, um den Satz zu deuten.",
         "en": "You must understand the context to interpret the sentence.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5439,7 +5507,8 @@
       "language",
       "abstract",
       "b2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_rueckgang",
@@ -5457,8 +5526,7 @@
         "de": "Der Rückgang der Geburtenrate ist ein Problem.",
         "en": "The decline in the birth rate is a problem.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5473,7 +5541,9 @@
       "abstract",
       "finance",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Rück + Gang"
   },
   {
     "id": "noun_schwerpunkt",
@@ -5491,8 +5561,7 @@
         "de": "Der Schwerpunkt liegt auf der Qualitätssicherung.",
         "en": "The focus is on quality assurance.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5507,7 +5576,9 @@
       "abstract",
       "work",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Schwer + Punkt"
   },
   {
     "id": "noun_standpunkt",
@@ -5525,8 +5596,7 @@
         "de": "Von meinem Standpunkt aus ist das falsch.",
         "en": "From my point of view, that is wrong.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5541,7 +5611,9 @@
       "abstract",
       "communication",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Stand + Punkt"
   },
   {
     "id": "noun_umfang",
@@ -5559,8 +5631,7 @@
         "de": "Der Umfang des Projekts ist sehr groß.",
         "en": "The scope of the project is very large.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5575,7 +5646,9 @@
       "abstract",
       "work",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Um + Fang"
   },
   {
     "id": "noun_vorwurf",
@@ -5593,8 +5666,7 @@
         "de": "Der Vorwurf ist unbegründet.",
         "en": "The accusation is unfounded.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5609,7 +5681,9 @@
       "abstract",
       "communication",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Vor + Wurf"
   },
   {
     "id": "noun_widerspruch",
@@ -5627,8 +5701,7 @@
         "de": "Hier liegt ein Widerspruch vor.",
         "en": "There is a contradiction here.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5643,7 +5716,9 @@
       "abstract",
       "language",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Wider + Spruch"
   },
   {
     "id": "noun_ueberblick",
@@ -5661,8 +5736,7 @@
         "de": "Der Überblick über das Thema fehlt ihr noch.",
         "en": "She still lacks an overview of the topic.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5676,7 +5750,9 @@
     "tags": [
       "abstract",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Über + Blick"
   },
   {
     "id": "noun_kompromiss",
@@ -5694,8 +5770,7 @@
         "de": "Wir müssen einen Kompromiss finden.",
         "en": "We need to find a compromise.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5710,7 +5785,8 @@
       "abstract",
       "social",
       "b2"
-    ]
+    ],
+    "section": "roots"
   },
   {
     "id": "noun_ruecksicht",
@@ -5728,8 +5804,7 @@
         "de": "Er nimmt keine Rücksicht auf andere.",
         "en": "He shows no consideration for others.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5744,7 +5819,9 @@
       "abstract",
       "social",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Rück + Sicht"
   },
   {
     "id": "noun_sorgfalt",
@@ -5762,8 +5839,7 @@
         "de": "Diese Arbeit erfordert große Sorgfalt.",
         "en": "This work requires great care.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5778,7 +5854,9 @@
       "abstract",
       "work",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "Sorge + Falt"
   },
   {
     "id": "noun_beziehung",
@@ -5796,8 +5874,7 @@
         "de": "Die Beziehung zwischen den beiden ist kompliziert.",
         "en": "The relationship between the two is complicated.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5812,7 +5889,9 @@
       "abstract",
       "social",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "be- + Ziehung"
   },
   {
     "id": "noun_erwartung",
@@ -5830,8 +5909,7 @@
         "de": "Das Ergebnis übertraf alle Erwartungen.",
         "en": "The result exceeded all expectations.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5845,7 +5923,9 @@
     "tags": [
       "abstract",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "er- + Wartung"
   },
   {
     "id": "noun_staerke",
@@ -5863,8 +5943,7 @@
         "de": "Geduld ist eine seiner größten Stärken.",
         "en": "Patience is one of his greatest strengths.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5878,7 +5957,9 @@
     "tags": [
       "abstract",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "stark + -e"
   },
   {
     "id": "noun_schwasche",
@@ -5896,8 +5977,7 @@
         "de": "Seine Schwäche ist mangelnde Geduld.",
         "en": "His weakness is a lack of patience.",
         "exercise_type": [
-          "fill_blank",
-          "article_choice"
+          "fill_blank"
         ]
       },
       {
@@ -5911,6 +5991,8 @@
     "tags": [
       "abstract",
       "b2"
-    ]
+    ],
+    "section": "variations",
+    "formation": "schwach + -e"
   }
 ]

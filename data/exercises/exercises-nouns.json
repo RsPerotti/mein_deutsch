@@ -18,24 +18,6 @@
     "explanation_en": "'Mann' means 'man' in German. It takes the article 'der' (masculine)."
   },
   {
-    "exercise_id": "ex_noun_mann_002",
-    "word_id": "noun_mann",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Mann geht in die Stadt.",
-      "en": "The man goes into the city."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Mann' is a masculine noun. In the nominative case (subject of the sentence), it takes the article 'der'."
-  },
-  {
     "exercise_id": "ex_noun_mann_003",
     "word_id": "noun_mann",
     "type": "fill_blank",
@@ -88,24 +70,6 @@
       "the child"
     ],
     "explanation_en": "'Frau' means 'woman' in German. It takes the article 'die' (feminine). Note: 'Frau' also means 'Mrs.' as a title."
-  },
-  {
-    "exercise_id": "ex_noun_frau_002",
-    "word_id": "noun_frau",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Frau arbeitet in einem Büro.",
-      "en": "The woman works in an office."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Dem"
-    ],
-    "explanation_en": "'Frau' is a feminine noun. In the nominative case, it takes the article 'die'."
   },
   {
     "exercise_id": "ex_noun_frau_003",
@@ -162,24 +126,6 @@
     "explanation_en": "'Kind' means 'child' in German. It takes the neuter article 'das'. The plural is 'Kinder' (children)."
   },
   {
-    "exercise_id": "ex_noun_kind_002",
-    "word_id": "noun_kind",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Kind spielt im Park.",
-      "en": "The child plays in the park."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Des"
-    ],
-    "explanation_en": "'Kind' is a neuter noun. In the nominative case, it takes the article 'das'."
-  },
-  {
     "exercise_id": "ex_noun_kind_003",
     "word_id": "noun_kind",
     "type": "fill_blank",
@@ -232,24 +178,6 @@
       "the hour"
     ],
     "explanation_en": "'Tag' means 'day' in German. It takes the masculine article 'der'. The plural is 'Tage'."
-  },
-  {
-    "exercise_id": "ex_noun_tag_002",
-    "word_id": "noun_tag",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "Heute ist ein schöner _____.",
-      "en": "Today is a beautiful day."
-    },
-    "correct_answer": "Tag",
-    "wrong_answers": [
-      "Nacht",
-      "Morgen",
-      "Abend",
-      "Woche"
-    ],
-    "explanation_en": "'Tag' means 'day'. It is masculine: 'der Tag', 'ein Tag'."
   },
   {
     "exercise_id": "ex_noun_tag_003",
@@ -306,24 +234,6 @@
     "explanation_en": "'Jahr' means 'year' in German. It is neuter: 'das Jahr'. Plural: 'Jahre'."
   },
   {
-    "exercise_id": "ex_noun_jahr_002",
-    "word_id": "noun_jahr",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Jahr hat zwölf Monate.",
-      "en": "The year has twelve months."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Des"
-    ],
-    "explanation_en": "'Jahr' is a neuter noun. In the nominative case, it takes the article 'das'."
-  },
-  {
     "exercise_id": "ex_noun_jahr_003",
     "word_id": "noun_jahr",
     "type": "fill_blank",
@@ -376,24 +286,6 @@
       "the day"
     ],
     "explanation_en": "'Zeit' means 'time' in German. It is feminine: 'die Zeit'. Plural: 'Zeiten'."
-  },
-  {
-    "exercise_id": "ex_noun_zeit_002",
-    "word_id": "noun_zeit",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "Ich habe keine _____.",
-      "en": "I have no time."
-    },
-    "correct_answer": "Zeit",
-    "wrong_answers": [
-      "Uhr",
-      "Stunde",
-      "Moment",
-      "Pause"
-    ],
-    "explanation_en": "'Zeit' means 'time'. It is feminine: 'die Zeit', 'keine Zeit'."
   },
   {
     "exercise_id": "ex_noun_zeit_003",
@@ -450,24 +342,6 @@
     "explanation_en": "'Haus' means 'house' in German. It is neuter: 'das Haus'. Plural: 'Häuser' (note the umlaut)."
   },
   {
-    "exercise_id": "ex_noun_haus_002",
-    "word_id": "noun_haus",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Haus ist sehr groß.",
-      "en": "The house is very big."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Des"
-    ],
-    "explanation_en": "'Haus' is a neuter noun. In the nominative case, it takes the article 'das'."
-  },
-  {
     "exercise_id": "ex_noun_haus_003",
     "word_id": "noun_haus",
     "type": "fill_blank",
@@ -520,24 +394,6 @@
       "the career"
     ],
     "explanation_en": "'Arbeit' means 'work' or 'job' in German. It is feminine: 'die Arbeit'. Plural: 'Arbeiten'."
-  },
-  {
-    "exercise_id": "ex_noun_arbeit_002",
-    "word_id": "noun_arbeit",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Arbeit beginnt um neun Uhr.",
-      "en": "Work begins at nine o'clock."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Dem"
-    ],
-    "explanation_en": "'Arbeit' is a feminine noun. In the nominative case, it takes the article 'die'."
   },
   {
     "exercise_id": "ex_noun_arbeit_003",
@@ -594,24 +450,6 @@
     "explanation_en": "'Schule' means 'school' in German. It is feminine: 'die Schule'. Plural: 'Schulen'."
   },
   {
-    "exercise_id": "ex_noun_schule_002",
-    "word_id": "noun_schule",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Schule beginnt um acht Uhr.",
-      "en": "School starts at eight o'clock."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Dem"
-    ],
-    "explanation_en": "'Schule' is a feminine noun. In the nominative case, it takes the article 'die'."
-  },
-  {
     "exercise_id": "ex_noun_schule_003",
     "word_id": "noun_schule",
     "type": "fill_blank",
@@ -664,24 +502,6 @@
       "the capital"
     ],
     "explanation_en": "'Stadt' means 'city' or 'town' in German. It is feminine: 'die Stadt'. Plural: 'Städte' (with umlaut)."
-  },
-  {
-    "exercise_id": "ex_noun_stadt_002",
-    "word_id": "noun_stadt",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "Berlin ist eine große _____.",
-      "en": "Berlin is a big city."
-    },
-    "correct_answer": "Stadt",
-    "wrong_answers": [
-      "Dorf",
-      "Land",
-      "Region",
-      "Hauptstadt"
-    ],
-    "explanation_en": "'Stadt' means 'city/town'. It is feminine: 'eine Stadt' (feminine indefinite nominative)."
   },
   {
     "exercise_id": "ex_noun_stadt_003",
@@ -738,24 +558,6 @@
     "explanation_en": "'Land' means 'country' in German. It is neuter: 'das Land'. Plural: 'Länder' (with umlaut). It can also mean 'countryside'."
   },
   {
-    "exercise_id": "ex_noun_land_002",
-    "word_id": "noun_land",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "Deutschland ist ein großes _____.",
-      "en": "Germany is a large country."
-    },
-    "correct_answer": "Land",
-    "wrong_answers": [
-      "Stadt",
-      "Region",
-      "Kontinent",
-      "Staat"
-    ],
-    "explanation_en": "'Land' means 'country'. It is neuter: 'ein Land' (neuter indefinite nominative)."
-  },
-  {
     "exercise_id": "ex_noun_land_003",
     "word_id": "noun_land",
     "type": "fill_blank",
@@ -808,24 +610,6 @@
       "the bank"
     ],
     "explanation_en": "'Geld' means 'money' in German. It is neuter: 'das Geld'. It is usually used without a plural (uncountable)."
-  },
-  {
-    "exercise_id": "ex_noun_geld_002",
-    "word_id": "noun_geld",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "Ich habe kein _____.",
-      "en": "I have no money."
-    },
-    "correct_answer": "Geld",
-    "wrong_answers": [
-      "Euro",
-      "Münze",
-      "Guthaben",
-      "Budget"
-    ],
-    "explanation_en": "'Geld' means 'money'. It is neuter: 'das Geld', 'kein Geld' (no money — neuter accusative)."
   },
   {
     "exercise_id": "ex_noun_geld_003",
@@ -882,24 +666,6 @@
     "explanation_en": "'Auto' means 'car' in German. It is neuter: 'das Auto'. Plural: 'Autos'. Short for 'Automobil'."
   },
   {
-    "exercise_id": "ex_noun_auto_002",
-    "word_id": "noun_auto",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Auto ist rot.",
-      "en": "The car is red."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Des"
-    ],
-    "explanation_en": "'Auto' is a neuter noun. In the nominative case, it takes the article 'das'."
-  },
-  {
     "exercise_id": "ex_noun_auto_003",
     "word_id": "noun_auto",
     "type": "fill_blank",
@@ -952,24 +718,6 @@
       "the shelf"
     ],
     "explanation_en": "'Tisch' means 'table' in German. It is masculine: 'der Tisch'. Plural: 'Tische'."
-  },
-  {
-    "exercise_id": "ex_noun_tisch_002",
-    "word_id": "noun_tisch",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "Das Buch liegt auf dem _____.",
-      "en": "The book is on the table."
-    },
-    "correct_answer": "Tisch",
-    "wrong_answers": [
-      "Stuhl",
-      "Boden",
-      "Regal",
-      "Schreibtisch"
-    ],
-    "explanation_en": "'Tisch' means 'table'. After 'auf dem' (on the — dative), masculine nouns use 'dem Tisch'."
   },
   {
     "exercise_id": "ex_noun_tisch_003",
@@ -1026,24 +774,6 @@
     "explanation_en": "'Tür' means 'door' in German. It is feminine: 'die Tür'. Plural: 'Türen'."
   },
   {
-    "exercise_id": "ex_noun_tuer_002",
-    "word_id": "noun_tuer",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Tür ist offen.",
-      "en": "The door is open."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Dem"
-    ],
-    "explanation_en": "'Tür' is a feminine noun. In the nominative case, it takes the article 'die'."
-  },
-  {
     "exercise_id": "ex_noun_tuer_003",
     "word_id": "noun_tuer",
     "type": "fill_blank",
@@ -1096,24 +826,6 @@
       "the alley"
     ],
     "explanation_en": "'Straße' means 'street' in German. It is feminine: 'die Straße'. Plural: 'Straßen'. The ß (Eszett) represents a long 's' sound."
-  },
-  {
-    "exercise_id": "ex_noun_strasse_002",
-    "word_id": "noun_strasse",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Straße ist sehr laut.",
-      "en": "The street is very loud."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Dem"
-    ],
-    "explanation_en": "'Straße' is a feminine noun. In the nominative case, it takes the article 'die'."
   },
   {
     "exercise_id": "ex_noun_strasse_003",
@@ -1170,24 +882,6 @@
     "explanation_en": "'Familie' means 'family' in German. It is feminine: 'die Familie'. Plural: 'Familien'."
   },
   {
-    "exercise_id": "ex_noun_familie_002",
-    "word_id": "noun_familie",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Familie wohnt in München.",
-      "en": "The family lives in Munich."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Dem"
-    ],
-    "explanation_en": "'Familie' is a feminine noun. In the nominative case, it takes the article 'die'."
-  },
-  {
     "exercise_id": "ex_noun_familie_003",
     "word_id": "noun_familie",
     "type": "fill_blank",
@@ -1240,24 +934,6 @@
       "the neighbour"
     ],
     "explanation_en": "'Freund' means 'friend' (male) in German. It is masculine: 'der Freund'. Plural: 'Freunde'. The female form is 'Freundin'. Note: 'Freund/Freundin' also means boyfriend/girlfriend in context."
-  },
-  {
-    "exercise_id": "ex_noun_freund_002",
-    "word_id": "noun_freund",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Freund kommt heute.",
-      "en": "My friend is coming today."
-    },
-    "correct_answer": "Mein",
-    "wrong_answers": [
-      "Meine",
-      "Mein",
-      "Der",
-      "Sein"
-    ],
-    "explanation_en": "'Freund' is a masculine noun. The possessive 'my' for masculine nominative is 'mein' (not 'meine')."
   },
   {
     "exercise_id": "ex_noun_freund_003",
@@ -1314,24 +990,6 @@
     "explanation_en": "'Wasser' means 'water' in German. It is neuter: 'das Wasser'. Plural: 'Wässer' (mostly used for mineral waters)."
   },
   {
-    "exercise_id": "ex_noun_wasser_002",
-    "word_id": "noun_wasser",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Wasser ist kalt.",
-      "en": "The water is cold."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Des"
-    ],
-    "explanation_en": "'Wasser' is a neuter noun. In the nominative case, it takes the article 'das'."
-  },
-  {
     "exercise_id": "ex_noun_wasser_003",
     "word_id": "noun_wasser",
     "type": "fill_blank",
@@ -1384,24 +1042,6 @@
       "the novel"
     ],
     "explanation_en": "'Buch' means 'book' in German. It is neuter: 'das Buch'. Plural: 'Bücher' (with umlaut)."
-  },
-  {
-    "exercise_id": "ex_noun_buch_002",
-    "word_id": "noun_buch",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Buch ist sehr interessant.",
-      "en": "The book is very interesting."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Des"
-    ],
-    "explanation_en": "'Buch' is a neuter noun. In the nominative case, it takes the article 'das'."
   },
   {
     "exercise_id": "ex_noun_buch_003",
@@ -1458,24 +1098,6 @@
     "explanation_en": "'Frage' means 'question' in German. It is feminine: 'die Frage'. Plural: 'Fragen'."
   },
   {
-    "exercise_id": "ex_noun_frage_002",
-    "word_id": "noun_frage",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "Ich habe eine _____.",
-      "en": "I have a question."
-    },
-    "correct_answer": "Frage",
-    "wrong_answers": [
-      "Antwort",
-      "Aufgabe",
-      "Problem",
-      "Idee"
-    ],
-    "explanation_en": "'Frage' means 'question'. It is feminine: 'eine Frage' (feminine indefinite accusative)."
-  },
-  {
     "exercise_id": "ex_noun_frage_003",
     "word_id": "noun_frage",
     "type": "fill_blank",
@@ -1528,24 +1150,6 @@
       "the phrase"
     ],
     "explanation_en": "'Wort' means 'word' in German. It is neuter: 'das Wort'. It has two plurals: 'Wörter' (individual words) and 'Worte' (words in context or quotations)."
-  },
-  {
-    "exercise_id": "ex_noun_wort_002",
-    "word_id": "noun_wort",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "Ich kenne dieses _____ nicht.",
-      "en": "I don't know this word."
-    },
-    "correct_answer": "Wort",
-    "wrong_answers": [
-      "Satz",
-      "Buchstabe",
-      "Begriff",
-      "Ausdruck"
-    ],
-    "explanation_en": "'Wort' means 'word'. It is neuter: 'dieses Wort' (this word — neuter accusative)."
   },
   {
     "exercise_id": "ex_noun_wort_003",
@@ -1602,24 +1206,6 @@
     "explanation_en": "'Nummer' means 'number' in German. It is feminine: 'die Nummer'. Plural: 'Nummern'. Used for identifiers like phone numbers, house numbers."
   },
   {
-    "exercise_id": "ex_noun_nummer_002",
-    "word_id": "noun_nummer",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "Die _____ ist falsch.",
-      "en": "The number is wrong."
-    },
-    "correct_answer": "Nummer",
-    "wrong_answers": [
-      "Zahl",
-      "Code",
-      "Ziffer",
-      "Betrag"
-    ],
-    "explanation_en": "'Nummer' means 'number'. It is feminine: 'die Nummer' in the nominative."
-  },
-  {
     "exercise_id": "ex_noun_nummer_003",
     "word_id": "noun_nummer",
     "type": "fill_blank",
@@ -1672,24 +1258,6 @@
       "the stool"
     ],
     "explanation_en": "'Stuhl' means 'chair' in German. It is masculine: 'der Stuhl'. Plural: 'Stühle' (with umlaut)."
-  },
-  {
-    "exercise_id": "ex_noun_stuhl_002",
-    "word_id": "noun_stuhl",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Stuhl steht neben dem Tisch.",
-      "en": "The chair stands next to the table."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Stuhl' is a masculine noun. In the nominative case, it takes the article 'der'."
   },
   {
     "exercise_id": "ex_noun_stuhl_003",
@@ -1746,24 +1314,6 @@
     "explanation_en": "'Essen' means 'food' or 'meal' in German. It is neuter: 'das Essen'. It comes from the verb 'essen' (to eat). The plural 'Essen' is the same as the singular."
   },
   {
-    "exercise_id": "ex_noun_essen_002",
-    "word_id": "noun_essen",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Essen schmeckt sehr gut.",
-      "en": "The food tastes very good."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Des"
-    ],
-    "explanation_en": "'Essen' is a neuter noun. In the nominative case, it takes the article 'das'."
-  },
-  {
     "exercise_id": "ex_noun_essen_003",
     "word_id": "noun_essen",
     "type": "fill_blank",
@@ -1816,24 +1366,6 @@
       "the woman"
     ],
     "explanation_en": "'Mutter' means 'mother'. It is a feminine noun taking the article 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_mutter_002",
-    "word_id": "noun_mutter",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Mutter kocht jeden Abend.",
-      "en": "The mother cooks every evening."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Mutter' is a feminine noun. In the nominative case (subject), it takes the article 'die'."
   },
   {
     "exercise_id": "ex_noun_mutter_003",
@@ -1890,24 +1422,6 @@
     "explanation_en": "'Vater' means 'father'. It is a masculine noun taking the article 'der'."
   },
   {
-    "exercise_id": "ex_noun_vater_002",
-    "word_id": "noun_vater",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Vater arbeitet als Arzt.",
-      "en": "The father works as a doctor."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Vater' is a masculine noun. As the subject (nominative), it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_vater_003",
     "word_id": "noun_vater",
     "type": "fill_blank",
@@ -1960,24 +1474,6 @@
       "the son"
     ],
     "explanation_en": "'Bruder' means 'brother'. It is a masculine noun taking the article 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_bruder_002",
-    "word_id": "noun_bruder",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Bruder kommt morgen zu Besuch.",
-      "en": "The brother is coming to visit tomorrow."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Bruder' is masculine. As the subject (nominative), it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_bruder_003",
@@ -2034,24 +1530,6 @@
     "explanation_en": "'Schwester' means 'sister'. It is a feminine noun taking the article 'die'."
   },
   {
-    "exercise_id": "ex_noun_schwester_002",
-    "word_id": "noun_schwester",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Schwester wohnt in Hamburg.",
-      "en": "The sister lives in Hamburg."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Schwester' is feminine. As the subject (nominative), it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_schwester_003",
     "word_id": "noun_schwester",
     "type": "fill_blank",
@@ -2104,24 +1582,6 @@
       "the siblings"
     ],
     "explanation_en": "'Eltern' means 'parents'. It is a plural-only noun and always uses 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_eltern_002",
-    "word_id": "noun_eltern",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Eltern kommen zum Schulabschluss.",
-      "en": "The parents are coming to the school graduation."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Ein",
-      "Einen"
-    ],
-    "explanation_en": "'Eltern' is a plural-only noun. All plural nouns in German use 'die' as their definite article."
   },
   {
     "exercise_id": "ex_noun_eltern_003",
@@ -2178,24 +1638,6 @@
     "explanation_en": "'Lehrer' means 'teacher' (male). It is a masculine noun taking the article 'der'."
   },
   {
-    "exercise_id": "ex_noun_lehrer_002",
-    "word_id": "noun_lehrer",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Lehrer erklärt die Aufgabe.",
-      "en": "The teacher explains the task."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Lehrer' is masculine. As the subject (nominative), it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_lehrer_003",
     "word_id": "noun_lehrer",
     "type": "fill_blank",
@@ -2248,24 +1690,6 @@
       "the teacher"
     ],
     "explanation_en": "'Arzt' means 'doctor'. It is a masculine noun taking the article 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_arzt_002",
-    "word_id": "noun_arzt",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Arzt kommt gleich.",
-      "en": "The doctor is coming shortly."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Arzt' is masculine. As the subject (nominative), it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_arzt_003",
@@ -2322,24 +1746,6 @@
     "explanation_en": "'Kollege' means 'colleague'. It is a masculine noun taking the article 'der'."
   },
   {
-    "exercise_id": "ex_noun_kollege_002",
-    "word_id": "noun_kollege",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Kollege hilft mir mit dem Bericht.",
-      "en": "The colleague helps me with the report."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Kollege' is a masculine noun. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_kollege_003",
     "word_id": "noun_kollege",
     "type": "fill_blank",
@@ -2392,24 +1798,6 @@
       "the guest"
     ],
     "explanation_en": "'Nachbar' means 'neighbour'. It is a masculine noun taking the article 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_nachbar_002",
-    "word_id": "noun_nachbar",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Nachbar hat einen großen Garten.",
-      "en": "The neighbour has a large garden."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Nachbar' is masculine. As the nominative subject, it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_nachbar_003",
@@ -2466,24 +1854,6 @@
     "explanation_en": "'Chef' means 'boss' or 'head'. It is a masculine noun taking the article 'der'."
   },
   {
-    "exercise_id": "ex_noun_chef_002",
-    "word_id": "noun_chef",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Chef ist heute im Urlaub.",
-      "en": "The boss is on holiday today."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Chef' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_chef_003",
     "word_id": "noun_chef",
     "type": "fill_blank",
@@ -2536,24 +1906,6 @@
       "the flat"
     ],
     "explanation_en": "'Zimmer' means 'room'. It is a neuter noun taking the article 'das'."
-  },
-  {
-    "exercise_id": "ex_noun_zimmer_002",
-    "word_id": "noun_zimmer",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Zimmer ist sehr groß.",
-      "en": "The room is very large."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Zimmer' is neuter. As the nominative subject, it takes 'das'."
   },
   {
     "exercise_id": "ex_noun_zimmer_003",
@@ -2610,24 +1962,6 @@
     "explanation_en": "'Küche' means 'kitchen'. It is a feminine noun taking the article 'die'."
   },
   {
-    "exercise_id": "ex_noun_kueche_002",
-    "word_id": "noun_kueche",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Küche ist sehr modern.",
-      "en": "The kitchen is very modern."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Küche' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_kueche_003",
     "word_id": "noun_kueche",
     "type": "fill_blank",
@@ -2680,24 +2014,6 @@
       "the yard"
     ],
     "explanation_en": "'Garten' means 'garden'. It is a masculine noun taking the article 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_garten_002",
-    "word_id": "noun_garten",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Garten ist im Frühling sehr schön.",
-      "en": "The garden is very beautiful in spring."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Garten' is masculine. As the nominative subject, it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_garten_003",
@@ -2754,24 +2070,6 @@
     "explanation_en": "'Bahnhof' means 'train station'. It is a masculine noun taking the article 'der'."
   },
   {
-    "exercise_id": "ex_noun_bahnhof_002",
-    "word_id": "noun_bahnhof",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Bahnhof ist in der Stadtmitte.",
-      "en": "The train station is in the city centre."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Bahnhof' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_bahnhof_003",
     "word_id": "noun_bahnhof",
     "type": "fill_blank",
@@ -2824,24 +2122,6 @@
       "the studio"
     ],
     "explanation_en": "'Büro' means 'office'. It is a neuter noun taking the article 'das'."
-  },
-  {
-    "exercise_id": "ex_noun_buero_002",
-    "word_id": "noun_buero",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Büro ist im dritten Stock.",
-      "en": "The office is on the third floor."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Büro' is neuter. As the nominative subject, it takes 'das'."
   },
   {
     "exercise_id": "ex_noun_buero_003",
@@ -2898,24 +2178,6 @@
     "explanation_en": "'Fenster' means 'window'. It is a neuter noun taking the article 'das'."
   },
   {
-    "exercise_id": "ex_noun_fenster_002",
-    "word_id": "noun_fenster",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Fenster ist offen.",
-      "en": "The window is open."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Fenster' is neuter. As the nominative subject, it takes 'das'."
-  },
-  {
     "exercise_id": "ex_noun_fenster_003",
     "word_id": "noun_fenster",
     "type": "fill_blank",
@@ -2968,24 +2230,6 @@
       "the wardrobe"
     ],
     "explanation_en": "'Bett' means 'bed'. It is a neuter noun taking the article 'das'."
-  },
-  {
-    "exercise_id": "ex_noun_bett_002",
-    "word_id": "noun_bett",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Bett ist sehr bequem.",
-      "en": "The bed is very comfortable."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Bett' is neuter. As the nominative subject, it takes 'das'."
   },
   {
     "exercise_id": "ex_noun_bett_003",
@@ -3042,24 +2286,6 @@
     "explanation_en": "'Handy' means 'mobile phone' in German. It is a neuter noun taking the article 'das'."
   },
   {
-    "exercise_id": "ex_noun_handy_002",
-    "word_id": "noun_handy",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Handy klingelt gerade.",
-      "en": "The mobile phone is ringing right now."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Handy' is neuter. As the nominative subject, it takes 'das'."
-  },
-  {
     "exercise_id": "ex_noun_handy_003",
     "word_id": "noun_handy",
     "type": "fill_blank",
@@ -3112,24 +2338,6 @@
       "the backpack"
     ],
     "explanation_en": "'Tasche' means 'bag' or 'pocket'. It is a feminine noun taking the article 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_tasche_002",
-    "word_id": "noun_tasche",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Tasche ist sehr schwer.",
-      "en": "The bag is very heavy."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Tasche' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_tasche_003",
@@ -3186,24 +2394,6 @@
     "explanation_en": "'Schlüssel' means 'key'. It is a masculine noun taking the article 'der'."
   },
   {
-    "exercise_id": "ex_noun_schluessel_002",
-    "word_id": "noun_schluessel",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Schlüssel ist nicht da.",
-      "en": "The key is not here."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Schlüssel' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_schluessel_003",
     "word_id": "noun_schluessel",
     "type": "fill_blank",
@@ -3256,24 +2446,6 @@
       "the message"
     ],
     "explanation_en": "'Brief' means 'letter' (written correspondence). It is a masculine noun taking the article 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_brief_002",
-    "word_id": "noun_brief",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Brief kommt aus dem Ausland.",
-      "en": "The letter comes from abroad."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Brief' is masculine. As the nominative subject, it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_brief_003",
@@ -3330,24 +2502,6 @@
     "explanation_en": "'Stunde' means 'hour' (and also 'lesson' in school context). It is a feminine noun taking the article 'die'."
   },
   {
-    "exercise_id": "ex_noun_stunde_002",
-    "word_id": "noun_stunde",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Stunde vergeht sehr schnell.",
-      "en": "The hour passes very quickly."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Stunde' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_stunde_003",
     "word_id": "noun_stunde",
     "type": "fill_blank",
@@ -3400,24 +2554,6 @@
       "the year"
     ],
     "explanation_en": "'Woche' means 'week'. It is a feminine noun taking the article 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_woche_002",
-    "word_id": "noun_woche",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Woche war sehr stressig.",
-      "en": "The week was very stressful."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Woche' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_woche_003",
@@ -3474,24 +2610,6 @@
     "explanation_en": "'Monat' means 'month'. It is a masculine noun taking the article 'der'."
   },
   {
-    "exercise_id": "ex_noun_monat_002",
-    "word_id": "noun_monat",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Monat Januar ist oft kalt.",
-      "en": "The month of January is often cold."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Monat' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_monat_003",
     "word_id": "noun_monat",
     "type": "fill_blank",
@@ -3544,24 +2662,6 @@
       "the dawn"
     ],
     "explanation_en": "'Morgen' (with capital M) means 'morning'. It is a masculine noun. Note: 'morgen' (lowercase) means 'tomorrow'."
-  },
-  {
-    "exercise_id": "ex_noun_morgen_002",
-    "word_id": "noun_morgen",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Morgen beginnt sehr früh für uns.",
-      "en": "The morning starts very early for us."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Morgen' (morning) is masculine. As the nominative subject, it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_morgen_003",
@@ -3618,24 +2718,6 @@
     "explanation_en": "'Abend' means 'evening'. It is a masculine noun taking the article 'der'."
   },
   {
-    "exercise_id": "ex_noun_abend_002",
-    "word_id": "noun_abend",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Abend war wirklich schön.",
-      "en": "The evening was really lovely."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Abend' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_abend_003",
     "word_id": "noun_abend",
     "type": "fill_blank",
@@ -3688,24 +2770,6 @@
       "the dream"
     ],
     "explanation_en": "'Nacht' means 'night'. It is a feminine noun taking the article 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_nacht_002",
-    "word_id": "noun_nacht",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Nacht war sehr laut.",
-      "en": "The night was very loud."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Nacht' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_nacht_003",
@@ -3762,24 +2826,6 @@
     "explanation_en": "'Brot' means 'bread'. It is a neuter noun taking the article 'das'."
   },
   {
-    "exercise_id": "ex_noun_brot_002",
-    "word_id": "noun_brot",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Brot ist noch frisch.",
-      "en": "The bread is still fresh."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Brot' is neuter. As the nominative subject, it takes 'das'."
-  },
-  {
     "exercise_id": "ex_noun_brot_003",
     "word_id": "noun_brot",
     "type": "fill_blank",
@@ -3832,24 +2878,6 @@
       "the cream"
     ],
     "explanation_en": "'Milch' means 'milk'. It is a feminine noun taking the article 'die'. It has no common plural form."
-  },
-  {
-    "exercise_id": "ex_noun_milch_002",
-    "word_id": "noun_milch",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Milch ist heute abgelaufen.",
-      "en": "The milk expired today."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Milch' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_milch_003",
@@ -3906,24 +2934,6 @@
     "explanation_en": "'Kaffee' means 'coffee'. It is a masculine noun taking the article 'der'."
   },
   {
-    "exercise_id": "ex_noun_kaffee_002",
-    "word_id": "noun_kaffee",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Kaffee ist zu heiß.",
-      "en": "The coffee is too hot."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Kaffee' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_kaffee_003",
     "word_id": "noun_kaffee",
     "type": "fill_blank",
@@ -3976,24 +2986,6 @@
       "the sky"
     ],
     "explanation_en": "'Sonne' means 'sun'. It is a feminine noun taking the article 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_sonne_002",
-    "word_id": "noun_sonne",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Sonne scheint heute.",
-      "en": "The sun is shining today."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Sonne' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_sonne_003",
@@ -4050,24 +3042,6 @@
     "explanation_en": "'Regen' means 'rain'. It is a masculine noun taking the article 'der'."
   },
   {
-    "exercise_id": "ex_noun_regen_002",
-    "word_id": "noun_regen",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Regen hört nicht auf.",
-      "en": "The rain doesn't stop."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Regen' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_regen_003",
     "word_id": "noun_regen",
     "type": "fill_blank",
@@ -4120,24 +3094,6 @@
       "the cliff"
     ],
     "explanation_en": "'Berg' means 'mountain'. It is a masculine noun taking the article 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_berg_002",
-    "word_id": "noun_berg",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Berg ist über 3000 Meter hoch.",
-      "en": "The mountain is over 3000 metres high."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Berg' is masculine. As the nominative subject, it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_berg_003",
@@ -4194,24 +3150,6 @@
     "explanation_en": "'Fluss' means 'river'. It is a masculine noun taking the article 'der'."
   },
   {
-    "exercise_id": "ex_noun_fluss_002",
-    "word_id": "noun_fluss",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Fluss ist sehr breit.",
-      "en": "The river is very wide."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Fluss' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_fluss_003",
     "word_id": "noun_fluss",
     "type": "fill_blank",
@@ -4264,24 +3202,6 @@
       "the mistake"
     ],
     "explanation_en": "'Problem' means 'problem'. It is a neuter noun taking the article 'das'."
-  },
-  {
-    "exercise_id": "ex_noun_problem_002",
-    "word_id": "noun_problem",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Problem ist gelöst.",
-      "en": "The problem is solved."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Problem' is neuter. As the nominative subject, it takes 'das'."
   },
   {
     "exercise_id": "ex_noun_problem_003",
@@ -4338,24 +3258,6 @@
     "explanation_en": "'Idee' means 'idea'. It is a feminine noun taking the article 'die'."
   },
   {
-    "exercise_id": "ex_noun_idee_002",
-    "word_id": "noun_idee",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Idee ist sehr kreativ.",
-      "en": "The idea is very creative."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Idee' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_idee_003",
     "word_id": "noun_idee",
     "type": "fill_blank",
@@ -4408,24 +3310,6 @@
       "the feeling"
     ],
     "explanation_en": "'Meinung' means 'opinion'. It is a feminine noun taking the article 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_meinung_002",
-    "word_id": "noun_meinung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Meinung des Lehrers ist wichtig.",
-      "en": "The teacher's opinion is important."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Meinung' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_meinung_003",
@@ -4482,24 +3366,6 @@
     "explanation_en": "'Grund' means 'reason' or 'ground'. It is a masculine noun taking the article 'der'."
   },
   {
-    "exercise_id": "ex_noun_grund_002",
-    "word_id": "noun_grund",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Grund für seinen Fehler ist unklar.",
-      "en": "The reason for his mistake is unclear."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Grund' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_grund_003",
     "word_id": "noun_grund",
     "type": "fill_blank",
@@ -4552,24 +3418,6 @@
       "the route"
     ],
     "explanation_en": "'Weg' means 'way', 'path', or 'route'. It is a masculine noun taking the article 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_weg_002",
-    "word_id": "noun_weg",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Weg durch den Wald ist schön.",
-      "en": "The path through the forest is beautiful."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Weg' is masculine. As the nominative subject, it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_weg_003",
@@ -4626,24 +3474,6 @@
     "explanation_en": "'Platz' means 'place', 'seat', or 'square'. It is a masculine noun taking the article 'der'."
   },
   {
-    "exercise_id": "ex_noun_platz_002",
-    "word_id": "noun_platz",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Platz vor dem Rathaus ist sehr groß.",
-      "en": "The square in front of the town hall is very large."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Platz' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_platz_003",
     "word_id": "noun_platz",
     "type": "fill_blank",
@@ -4696,24 +3526,6 @@
       "the line"
     ],
     "explanation_en": "'Seite' means 'side' or 'page'. It is a feminine noun taking the article 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_seite_002",
-    "word_id": "noun_seite",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Seite des Buches ist beschädigt.",
-      "en": "The page of the book is damaged."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Seite' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_seite_003",
@@ -4770,24 +3582,6 @@
     "explanation_en": "'Art' means 'type', 'kind', or 'way of doing something'. It is a feminine noun taking the article 'die'."
   },
   {
-    "exercise_id": "ex_noun_art_002",
-    "word_id": "noun_art",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Art, wie er spricht, gefällt mir.",
-      "en": "The way he speaks appeals to me."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Art' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_art_003",
     "word_id": "noun_art",
     "type": "fill_blank",
@@ -4840,24 +3634,6 @@
       "the number"
     ],
     "explanation_en": "'Name' means 'name'. It is a masculine noun — and a weak noun (N-Deklination), taking the article 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_name_002",
-    "word_id": "noun_name",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Name des Restaurants ist unbekannt.",
-      "en": "The name of the restaurant is unknown."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Name' is masculine. As the nominative subject, it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_name_003",
@@ -4914,24 +3690,6 @@
     "explanation_en": "'Kopf' means 'head'. It is a masculine noun taking the article 'der'."
   },
   {
-    "exercise_id": "ex_noun_kopf_002",
-    "word_id": "noun_kopf",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Kopf tut mir weh.",
-      "en": "My head hurts."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Kopf' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_kopf_003",
     "word_id": "noun_kopf",
     "type": "fill_blank",
@@ -4984,24 +3742,6 @@
       "the fist"
     ],
     "explanation_en": "'Hand' means 'hand'. It is a feminine noun taking the article 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_hand_002",
-    "word_id": "noun_hand",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Hand ist sehr kalt.",
-      "en": "The hand is very cold."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Hand' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_hand_003",
@@ -5058,24 +3798,6 @@
     "explanation_en": "'Herz' means 'heart'. It is a neuter noun taking the article 'das'."
   },
   {
-    "exercise_id": "ex_noun_herz_002",
-    "word_id": "noun_herz",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Herz schlägt sehr schnell.",
-      "en": "The heart is beating very fast."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Herz' is neuter. As the nominative subject, it takes 'das'."
-  },
-  {
     "exercise_id": "ex_noun_herz_003",
     "word_id": "noun_herz",
     "type": "fill_blank",
@@ -5128,24 +3850,6 @@
       "the tone"
     ],
     "explanation_en": "'Stimme' means 'voice'. It is a feminine noun taking the article 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_stimme_002",
-    "word_id": "noun_stimme",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Stimme ist sehr laut.",
-      "en": "The voice is very loud."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Stimme' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_stimme_003",
@@ -5202,24 +3906,6 @@
     "explanation_en": "'Gesicht' means 'face'. It is a neuter noun taking the article 'das'."
   },
   {
-    "exercise_id": "ex_noun_gesicht_002",
-    "word_id": "noun_gesicht",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Gesicht des Kindes ist sehr süß.",
-      "en": "The child's face is very sweet."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Gesicht' is neuter. As the nominative subject, it takes 'das'."
-  },
-  {
     "exercise_id": "ex_noun_gesicht_003",
     "word_id": "noun_gesicht",
     "type": "fill_blank",
@@ -5272,24 +3958,6 @@
       "the plane"
     ],
     "explanation_en": "'Zug' means 'train'. It is a masculine noun taking the article 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_zug_002",
-    "word_id": "noun_zug",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Zug fährt um 9 Uhr ab.",
-      "en": "The train departs at 9 o'clock."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Zug' is masculine. As the nominative subject, it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_zug_003",
@@ -5346,24 +4014,6 @@
     "explanation_en": "'Preis' means both 'price' and 'prize'. It is a masculine noun taking the article 'der'."
   },
   {
-    "exercise_id": "ex_noun_preis_002",
-    "word_id": "noun_preis",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Preis ist sehr hoch.",
-      "en": "The price is very high."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Preis' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_preis_003",
     "word_id": "noun_preis",
     "type": "fill_blank",
@@ -5416,24 +4066,6 @@
       "the ability"
     ],
     "explanation_en": "'Erfahrung' means 'experience'. It is a feminine noun taking 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_erfahrung_002",
-    "word_id": "noun_erfahrung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Erfahrung ist der beste Lehrer.",
-      "en": "Experience is the best teacher."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Erfahrung' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_erfahrung_003",
@@ -5490,24 +4122,6 @@
     "explanation_en": "'Entwicklung' means 'development'. It is a feminine noun taking 'die'."
   },
   {
-    "exercise_id": "ex_noun_entwicklung_002",
-    "word_id": "noun_entwicklung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Entwicklung der Technologie ist beeindruckend.",
-      "en": "The development of technology is impressive."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Entwicklung' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_entwicklung_003",
     "word_id": "noun_entwicklung",
     "type": "fill_blank",
@@ -5560,24 +4174,6 @@
       "the function"
     ],
     "explanation_en": "'Bedeutung' means both 'meaning' (of a word) and 'importance'. It is a feminine noun taking 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_bedeutung_002",
-    "word_id": "noun_bedeutung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Bedeutung dieses Wortes ist mir unklar.",
-      "en": "The meaning of this word is unclear to me."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Bedeutung' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_bedeutung_003",
@@ -5634,24 +4230,6 @@
     "explanation_en": "'Möglichkeit' means 'possibility'. It is a feminine noun taking 'die'."
   },
   {
-    "exercise_id": "ex_noun_moeglichkeit_002",
-    "word_id": "noun_moeglichkeit",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Möglichkeit besteht noch.",
-      "en": "The possibility still exists."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Möglichkeit' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_moeglichkeit_003",
     "word_id": "noun_moeglichkeit",
     "type": "fill_blank",
@@ -5704,24 +4282,6 @@
       "the transition"
     ],
     "explanation_en": "'Veränderung' means 'change'. It is a feminine noun taking 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_veraenderung_002",
-    "word_id": "noun_veraenderung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Veränderung war unerwartet.",
-      "en": "The change was unexpected."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Veränderung' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_veraenderung_003",
@@ -5778,24 +4338,6 @@
     "explanation_en": "'Entscheidung' means 'decision'. It is a feminine noun taking 'die'."
   },
   {
-    "exercise_id": "ex_noun_entscheidung_002",
-    "word_id": "noun_entscheidung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Entscheidung war richtig.",
-      "en": "The decision was correct."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Entscheidung' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_entscheidung_003",
     "word_id": "noun_entscheidung",
     "type": "fill_blank",
@@ -5848,24 +4390,6 @@
       "the state"
     ],
     "explanation_en": "'Gesellschaft' means 'society'. It is a feminine noun taking 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_gesellschaft_002",
-    "word_id": "noun_gesellschaft",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Gesellschaft verändert sich.",
-      "en": "Society is changing."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Gesellschaft' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_gesellschaft_003",
@@ -5922,24 +4446,6 @@
     "explanation_en": "'Wirtschaft' means 'economy'. It is a feminine noun taking 'die'."
   },
   {
-    "exercise_id": "ex_noun_wirtschaft_002",
-    "word_id": "noun_wirtschaft",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Wirtschaft wächst langsam.",
-      "en": "The economy is growing slowly."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Wirtschaft' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_wirtschaft_003",
     "word_id": "noun_wirtschaft",
     "type": "fill_blank",
@@ -5992,24 +4498,6 @@
       "the technology"
     ],
     "explanation_en": "'Wissenschaft' means 'science'. It is a feminine noun taking 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_wissenschaft_002",
-    "word_id": "noun_wissenschaft",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Wissenschaft hilft uns, die Welt zu verstehen.",
-      "en": "Science helps us to understand the world."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Wissenschaft' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_wissenschaft_003",
@@ -6066,24 +4554,6 @@
     "explanation_en": "'Sprache' means 'language'. It is a feminine noun taking 'die'."
   },
   {
-    "exercise_id": "ex_noun_sprache_002",
-    "word_id": "noun_sprache",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Sprache ist ein wichtiges Kommunikationsmittel.",
-      "en": "Language is an important means of communication."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Sprache' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_sprache_003",
     "word_id": "noun_sprache",
     "type": "fill_blank",
@@ -6136,24 +4606,6 @@
       "the heritage"
     ],
     "explanation_en": "'Kultur' means 'culture'. It is a feminine noun taking 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_kultur_002",
-    "word_id": "noun_kultur",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Kultur eines Landes ist einzigartig.",
-      "en": "The culture of a country is unique."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Kultur' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_kultur_003",
@@ -6210,24 +4662,6 @@
     "explanation_en": "'Umgebung' means 'surroundings' or 'environment' (immediate area around something). Feminine, takes 'die'."
   },
   {
-    "exercise_id": "ex_noun_umgebung_002",
-    "word_id": "noun_umgebung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Umgebung der Stadt ist sehr grün.",
-      "en": "The surroundings of the city are very green."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Umgebung' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_umgebung_003",
     "word_id": "noun_umgebung",
     "type": "fill_blank",
@@ -6280,24 +4714,6 @@
       "the conclusion"
     ],
     "explanation_en": "'Lösung' means 'solution'. It is a feminine noun taking 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_loesung_002",
-    "word_id": "noun_loesung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Lösung ist endlich gefunden.",
-      "en": "The solution has finally been found."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Lösung' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_loesung_003",
@@ -6354,24 +4770,6 @@
     "explanation_en": "'Aufgabe' means 'task' or 'exercise'. It is a feminine noun taking 'die'."
   },
   {
-    "exercise_id": "ex_noun_aufgabe_002",
-    "word_id": "noun_aufgabe",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Aufgabe ist nicht leicht.",
-      "en": "The task is not easy."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Aufgabe' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_aufgabe_003",
     "word_id": "noun_aufgabe",
     "type": "fill_blank",
@@ -6424,24 +4822,6 @@
       "the influence"
     ],
     "explanation_en": "'Wirkung' means 'effect'. It is a feminine noun taking 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_wirkung_002",
-    "word_id": "noun_wirkung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Wirkung des Medikaments ist stark.",
-      "en": "The effect of the medicine is strong."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Wirkung' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_wirkung_003",
@@ -6498,24 +4878,6 @@
     "explanation_en": "'Verhältnis' means 'relationship' or 'ratio'. It is a neuter noun taking 'das'."
   },
   {
-    "exercise_id": "ex_noun_verhaeltnis_002",
-    "word_id": "noun_verhaeltnis",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Verhältnis zwischen den beiden ist gut.",
-      "en": "The relationship between the two is good."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Verhältnis' is neuter. As the nominative subject, it takes 'das'."
-  },
-  {
     "exercise_id": "ex_noun_verhaeltnis_003",
     "word_id": "noun_verhaeltnis",
     "type": "fill_blank",
@@ -6568,24 +4930,6 @@
       "the performance"
     ],
     "explanation_en": "'Ergebnis' means 'result'. It is a neuter noun taking 'das'."
-  },
-  {
-    "exercise_id": "ex_noun_ergebnis_002",
-    "word_id": "noun_ergebnis",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Ergebnis war besser als erwartet.",
-      "en": "The result was better than expected."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Ergebnis' is neuter. As the nominative subject, it takes 'das'."
   },
   {
     "exercise_id": "ex_noun_ergebnis_003",
@@ -6642,24 +4986,6 @@
     "explanation_en": "'Beispiel' means 'example'. It is a neuter noun taking 'das'."
   },
   {
-    "exercise_id": "ex_noun_beispiel_002",
-    "word_id": "noun_beispiel",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Beispiel erklärt die Regel gut.",
-      "en": "The example explains the rule well."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Beispiel' is neuter. As the nominative subject, it takes 'das'."
-  },
-  {
     "exercise_id": "ex_noun_beispiel_003",
     "word_id": "noun_beispiel",
     "type": "fill_blank",
@@ -6712,24 +5038,6 @@
       "the supply"
     ],
     "explanation_en": "'Angebot' means 'offer' or 'special offer'. It is a neuter noun taking 'das'."
-  },
-  {
-    "exercise_id": "ex_noun_angebot_002",
-    "word_id": "noun_angebot",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Angebot ist sehr verlockend.",
-      "en": "The offer is very tempting."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Angebot' is neuter. As the nominative subject, it takes 'das'."
   },
   {
     "exercise_id": "ex_noun_angebot_003",
@@ -6786,24 +5094,6 @@
     "explanation_en": "'Interesse' means 'interest'. It is a neuter noun taking 'das'."
   },
   {
-    "exercise_id": "ex_noun_interesse_002",
-    "word_id": "noun_interesse",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Interesse an Kunst wächst.",
-      "en": "The interest in art is growing."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Interesse' is neuter. As the nominative subject, it takes 'das'."
-  },
-  {
     "exercise_id": "ex_noun_interesse_003",
     "word_id": "noun_interesse",
     "type": "fill_blank",
@@ -6856,24 +5146,6 @@
       "the reaction"
     ],
     "explanation_en": "'Verhalten' means 'behaviour'. It is a neuter noun taking 'das'."
-  },
-  {
-    "exercise_id": "ex_noun_verhalten_002",
-    "word_id": "noun_verhalten",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Verhalten des Schülers ist seltsam.",
-      "en": "The pupil's behaviour is strange."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Verhalten' is neuter. As the nominative subject, it takes 'das'."
   },
   {
     "exercise_id": "ex_noun_verhalten_003",
@@ -6930,24 +5202,6 @@
     "explanation_en": "'Ziel' means 'goal', 'aim', or 'destination'. It is a neuter noun taking 'das'."
   },
   {
-    "exercise_id": "ex_noun_ziel_002",
-    "word_id": "noun_ziel",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Ziel ist klar definiert.",
-      "en": "The goal is clearly defined."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Ziel' is neuter. As the nominative subject, it takes 'das'."
-  },
-  {
     "exercise_id": "ex_noun_ziel_003",
     "word_id": "noun_ziel",
     "type": "fill_blank",
@@ -7000,24 +5254,6 @@
       "the discussion"
     ],
     "explanation_en": "'Thema' means 'topic' or 'theme'. It is a neuter noun taking 'das'."
-  },
-  {
-    "exercise_id": "ex_noun_thema_002",
-    "word_id": "noun_thema",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Thema ist sehr aktuell.",
-      "en": "The topic is very current."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Thema' is neuter. As the nominative subject, it takes 'das'."
   },
   {
     "exercise_id": "ex_noun_thema_003",
@@ -7074,24 +5310,6 @@
     "explanation_en": "'Recht' means 'right' (entitlement) or 'law'. It is a neuter noun taking 'das'."
   },
   {
-    "exercise_id": "ex_noun_recht_002",
-    "word_id": "noun_recht",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Recht auf Bildung gilt für alle.",
-      "en": "The right to education applies to everyone."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Recht' is neuter. As the nominative subject, it takes 'das'."
-  },
-  {
     "exercise_id": "ex_noun_recht_003",
     "word_id": "noun_recht",
     "type": "fill_blank",
@@ -7144,24 +5362,6 @@
       "the zone"
     ],
     "explanation_en": "'Gebiet' means 'area', 'field', or 'territory'. It is a neuter noun taking 'das'."
-  },
-  {
-    "exercise_id": "ex_noun_gebiet_002",
-    "word_id": "noun_gebiet",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Gebiet ist sehr groß.",
-      "en": "The area is very large."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Gebiet' is neuter. As the nominative subject, it takes 'das'."
   },
   {
     "exercise_id": "ex_noun_gebiet_003",
@@ -7218,24 +5418,6 @@
     "explanation_en": "'Einfluss' means 'influence'. It is a masculine noun taking 'der'."
   },
   {
-    "exercise_id": "ex_noun_einfluss_002",
-    "word_id": "noun_einfluss",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Einfluss der Medien ist enorm.",
-      "en": "The influence of the media is enormous."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Einfluss' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_einfluss_003",
     "word_id": "noun_einfluss",
     "type": "fill_blank",
@@ -7288,24 +5470,6 @@
       "the gap"
     ],
     "explanation_en": "'Unterschied' means 'difference'. It is a masculine noun taking 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_unterschied_002",
-    "word_id": "noun_unterschied",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Unterschied ist klein, aber wichtig.",
-      "en": "The difference is small but important."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Unterschied' is masculine. As the nominative subject, it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_unterschied_003",
@@ -7362,24 +5526,6 @@
     "explanation_en": "'Zusammenhang' means 'connection' or 'context'. It is a masculine noun taking 'der'."
   },
   {
-    "exercise_id": "ex_noun_zusammenhang_002",
-    "word_id": "noun_zusammenhang",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Zusammenhang ist wichtig für das Verständnis.",
-      "en": "The context is important for understanding."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Zusammenhang' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_zusammenhang_003",
     "word_id": "noun_zusammenhang",
     "type": "fill_blank",
@@ -7432,24 +5578,6 @@
       "the zone"
     ],
     "explanation_en": "'Bereich' means 'area', 'field', or 'sector'. It is a masculine noun taking 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_bereich_002",
-    "word_id": "noun_bereich",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Bereich der Bildung braucht mehr Geld.",
-      "en": "The field of education needs more money."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Bereich' is masculine. As the nominative subject, it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_bereich_003",
@@ -7506,24 +5634,6 @@
     "explanation_en": "'Inhalt' means 'content'. It is a masculine noun taking 'der'."
   },
   {
-    "exercise_id": "ex_noun_inhalt_002",
-    "word_id": "noun_inhalt",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Inhalt des Films ist sehr spannend.",
-      "en": "The content of the film is very exciting."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Inhalt' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_inhalt_003",
     "word_id": "noun_inhalt",
     "type": "fill_blank",
@@ -7576,24 +5686,6 @@
       "the saying"
     ],
     "explanation_en": "'Ausdruck' means 'expression'. It is a masculine noun taking 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_ausdruck_002",
-    "word_id": "noun_ausdruck",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Ausdruck ist sehr typisch für die Umgangssprache.",
-      "en": "The expression is very typical of colloquial speech."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Ausdruck' is masculine. As the nominative subject, it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_ausdruck_003",
@@ -7650,24 +5742,6 @@
     "explanation_en": "'Fehler' means 'mistake' or 'error'. It is a masculine noun taking 'der'."
   },
   {
-    "exercise_id": "ex_noun_fehler_002",
-    "word_id": "noun_fehler",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Fehler ist leicht zu beheben.",
-      "en": "The mistake is easy to fix."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Fehler' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_fehler_003",
     "word_id": "noun_fehler",
     "type": "fill_blank",
@@ -7720,24 +5794,6 @@
       "the profit"
     ],
     "explanation_en": "'Vorteil' means 'advantage'. It is a masculine noun taking 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_vorteil_002",
-    "word_id": "noun_vorteil",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Vorteil dieser Methode ist die Schnelligkeit.",
-      "en": "The advantage of this method is its speed."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Vorteil' is masculine. As the nominative subject, it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_vorteil_003",
@@ -7794,24 +5850,6 @@
     "explanation_en": "'Nachteil' means 'disadvantage'. It is a masculine noun taking 'der'."
   },
   {
-    "exercise_id": "ex_noun_nachteil_002",
-    "word_id": "noun_nachteil",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Nachteil ist der hohe Preis.",
-      "en": "The disadvantage is the high price."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Nachteil' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_nachteil_003",
     "word_id": "noun_nachteil",
     "type": "fill_blank",
@@ -7864,24 +5902,6 @@
       "the foreigner"
     ],
     "explanation_en": "'Einwohner' means 'inhabitant'. It is a masculine noun taking 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_einwohner_002",
-    "word_id": "noun_einwohner",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Einwohner der Stadt kennt diese Straße.",
-      "en": "The inhabitant of the city knows this street."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Einwohner' is masculine. As the nominative subject, it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_einwohner_003",
@@ -7938,24 +5958,6 @@
     "explanation_en": "'Zustand' means 'condition' or 'state'. It is a masculine noun taking 'der'."
   },
   {
-    "exercise_id": "ex_noun_zustand_002",
-    "word_id": "noun_zustand",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Zustand des Gebäudes ist schlecht.",
-      "en": "The condition of the building is poor."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Zustand' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_zustand_003",
     "word_id": "noun_zustand",
     "type": "fill_blank",
@@ -8008,24 +6010,6 @@
       "the defeat"
     ],
     "explanation_en": "'Verlust' means 'loss'. It is a masculine noun taking 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_verlust_002",
-    "word_id": "noun_verlust",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Verlust war sehr schmerzhaft.",
-      "en": "The loss was very painful."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Verlust' is masculine. As the nominative subject, it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_verlust_003",
@@ -8082,24 +6066,6 @@
     "explanation_en": "'Fortschritt' means 'progress'. It is a masculine noun taking 'der'."
   },
   {
-    "exercise_id": "ex_noun_fortschritt_002",
-    "word_id": "noun_fortschritt",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Fortschritt in der Wissenschaft ist beeindruckend.",
-      "en": "The progress in science is impressive."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Fortschritt' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_fortschritt_003",
     "word_id": "noun_fortschritt",
     "type": "fill_blank",
@@ -8152,24 +6118,6 @@
       "the fee"
     ],
     "explanation_en": "'Beitrag' means 'contribution'. It is a masculine noun taking 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_beitrag_002",
-    "word_id": "noun_beitrag",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Beitrag zur Lösung ist wichtig.",
-      "en": "The contribution to the solution is important."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Beitrag' is masculine. As the nominative subject, it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_beitrag_003",
@@ -8226,24 +6174,6 @@
     "explanation_en": "'Zweck' means 'purpose'. It is a masculine noun taking 'der'."
   },
   {
-    "exercise_id": "ex_noun_zweck_002",
-    "word_id": "noun_zweck",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Zweck dieser Übung ist unklar.",
-      "en": "The purpose of this exercise is unclear."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Zweck' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_zweck_003",
     "word_id": "noun_zweck",
     "type": "fill_blank",
@@ -8296,24 +6226,6 @@
       "the nursing home"
     ],
     "explanation_en": "'Krankenhaus' means 'hospital'. It is a neuter noun taking 'das'."
-  },
-  {
-    "exercise_id": "ex_noun_krankenhaus_002",
-    "word_id": "noun_krankenhaus",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Krankenhaus ist gut ausgestattet.",
-      "en": "The hospital is well equipped."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Krankenhaus' is neuter. As the nominative subject, it takes 'das'."
   },
   {
     "exercise_id": "ex_noun_krankenhaus_003",
@@ -8370,24 +6282,6 @@
     "explanation_en": "'Rathaus' means 'town hall'. It is a neuter noun taking 'das'."
   },
   {
-    "exercise_id": "ex_noun_rathaus_002",
-    "word_id": "noun_rathaus",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Rathaus steht auf dem Marktplatz.",
-      "en": "The town hall stands on the market square."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Rathaus' is neuter. As the nominative subject, it takes 'das'."
-  },
-  {
     "exercise_id": "ex_noun_rathaus_003",
     "word_id": "noun_rathaus",
     "type": "fill_blank",
@@ -8440,24 +6334,6 @@
       "the helipad"
     ],
     "explanation_en": "'Flughafen' means 'airport'. It is a masculine noun taking 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_flughafen_002",
-    "word_id": "noun_flughafen",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Flughafen ist sehr modern.",
-      "en": "The airport is very modern."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Flughafen' is masculine. As the nominative subject, it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_flughafen_003",
@@ -8514,24 +6390,6 @@
     "explanation_en": "'Umwelt' means 'environment' (the natural world around us). It is a feminine noun taking 'die'."
   },
   {
-    "exercise_id": "ex_noun_umwelt_002",
-    "word_id": "noun_umwelt",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Umwelt leidet unter der Verschmutzung.",
-      "en": "The environment suffers from pollution."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Umwelt' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_umwelt_003",
     "word_id": "noun_umwelt",
     "type": "fill_blank",
@@ -8584,24 +6442,6 @@
       "the strength"
     ],
     "explanation_en": "'Energie' means 'energy'. It is a feminine noun taking 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_energie_002",
-    "word_id": "noun_energie",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Energie der Sonne ist erneuerbar.",
-      "en": "The energy of the sun is renewable."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Energie' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_energie_003",
@@ -8658,24 +6498,6 @@
     "explanation_en": "'Technik' means 'technology' or 'technique'. It is a feminine noun taking 'die'."
   },
   {
-    "exercise_id": "ex_noun_technik_002",
-    "word_id": "noun_technik",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Technik entwickelt sich sehr schnell.",
-      "en": "Technology is developing very quickly."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Technik' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_technik_003",
     "word_id": "noun_technik",
     "type": "fill_blank",
@@ -8728,24 +6550,6 @@
       "the recovery"
     ],
     "explanation_en": "'Gesundheit' means 'health'. It is a feminine noun taking 'die'. Also used as 'Bless you!' when someone sneezes."
-  },
-  {
-    "exercise_id": "ex_noun_gesundheit_002",
-    "word_id": "noun_gesundheit",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Gesundheit ist das Wichtigste.",
-      "en": "Health is the most important thing."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Gesundheit' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_gesundheit_003",
@@ -8802,24 +6606,6 @@
     "explanation_en": "'Gewalt' means 'violence' or 'force'. It is a feminine noun taking 'die'."
   },
   {
-    "exercise_id": "ex_noun_gewalt_002",
-    "word_id": "noun_gewalt",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Gewalt ist in einer Demokratie verboten.",
-      "en": "Violence is forbidden in a democracy."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Gewalt' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_gewalt_003",
     "word_id": "noun_gewalt",
     "type": "fill_blank",
@@ -8872,24 +6658,6 @@
       "the justice"
     ],
     "explanation_en": "'Freiheit' means 'freedom'. It is a feminine noun taking 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_freiheit_002",
-    "word_id": "noun_freiheit",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Freiheit ist ein Grundrecht.",
-      "en": "Freedom is a fundamental right."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Freiheit' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_freiheit_003",
@@ -8946,24 +6714,6 @@
     "explanation_en": "'Verantwortung' means 'responsibility'. It is a feminine noun taking 'die'."
   },
   {
-    "exercise_id": "ex_noun_verantwortung_002",
-    "word_id": "noun_verantwortung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Verantwortung liegt bei jedem Einzelnen.",
-      "en": "The responsibility lies with every individual."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Verantwortung' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_verantwortung_003",
     "word_id": "noun_verantwortung",
     "type": "fill_blank",
@@ -9016,24 +6766,6 @@
       "the argument"
     ],
     "explanation_en": "'Auseinandersetzung' means 'dispute' or 'confrontation'. Feminine, takes 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_auseinandersetzung_002",
-    "word_id": "noun_auseinandersetzung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Auseinandersetzung war sehr heftig.",
-      "en": "The dispute was very fierce."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Auseinandersetzung' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_auseinandersetzung_003",
@@ -9090,24 +6822,6 @@
     "explanation_en": "'Anerkennung' means 'recognition' or 'acknowledgement'. Feminine, takes 'die'."
   },
   {
-    "exercise_id": "ex_noun_anerkennung_002",
-    "word_id": "noun_anerkennung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Anerkennung seiner Arbeit fehlt.",
-      "en": "The recognition of his work is missing."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Anerkennung' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_anerkennung_003",
     "word_id": "noun_anerkennung",
     "type": "fill_blank",
@@ -9160,24 +6874,6 @@
       "the difficulty"
     ],
     "explanation_en": "'Herausforderung' means 'challenge'. Feminine, takes 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_herausforderung_002",
-    "word_id": "noun_herausforderung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Herausforderung ist enorm.",
-      "en": "The challenge is enormous."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Herausforderung' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_herausforderung_003",
@@ -9234,24 +6930,6 @@
     "explanation_en": "'Umsetzung' means 'implementation' (putting a plan into practice). Feminine, takes 'die'."
   },
   {
-    "exercise_id": "ex_noun_umsetzung_002",
-    "word_id": "noun_umsetzung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Umsetzung der Strategie dauert Monate.",
-      "en": "The implementation of the strategy takes months."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Umsetzung' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_umsetzung_003",
     "word_id": "noun_umsetzung",
     "type": "fill_blank",
@@ -9304,24 +6982,6 @@
       "the confidence"
     ],
     "explanation_en": "'Überzeugung' means 'conviction' or 'firmly held belief'. Feminine, takes 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_ueberzeugung_002",
-    "word_id": "noun_ueberzeugung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Überzeugung, die er vertritt, ist klar.",
-      "en": "The conviction he holds is clear."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Überzeugung' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_ueberzeugung_003",
@@ -9378,24 +7038,6 @@
     "explanation_en": "'Voraussetzung' means 'prerequisite' — a condition that must be met beforehand. Feminine, takes 'die'."
   },
   {
-    "exercise_id": "ex_noun_voraussetzung_002",
-    "word_id": "noun_voraussetzung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Voraussetzung für den Job ist ein Studium.",
-      "en": "The prerequisite for the job is a university degree."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Voraussetzung' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_voraussetzung_003",
     "word_id": "noun_voraussetzung",
     "type": "fill_blank",
@@ -9448,24 +7090,6 @@
       "the awareness"
     ],
     "explanation_en": "'Wahrnehmung' means 'perception'. Feminine, takes 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_wahrnehmung_002",
-    "word_id": "noun_wahrnehmung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Wahrnehmung kann täuschen.",
-      "en": "Perception can be deceiving."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Wahrnehmung' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_wahrnehmung_003",
@@ -9522,24 +7146,6 @@
     "explanation_en": "'Berücksichtigung' means 'taking into consideration'. Feminine, takes 'die'."
   },
   {
-    "exercise_id": "ex_noun_beruecksichtigung_002",
-    "word_id": "noun_beruecksichtigung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Berücksichtigung aller Faktoren ist nötig.",
-      "en": "Consideration of all factors is necessary."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Berücksichtigung' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_beruecksichtigung_003",
     "word_id": "noun_beruecksichtigung",
     "type": "fill_blank",
@@ -9592,24 +7198,6 @@
       "the analysis"
     ],
     "explanation_en": "'Durchführung' means 'implementation' or 'execution' of a plan or event. Feminine, takes 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_durchfuehrung_002",
-    "word_id": "noun_durchfuehrung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Durchführung liegt in unseren Händen.",
-      "en": "The execution is in our hands."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Durchführung' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_durchfuehrung_003",
@@ -9666,24 +7254,6 @@
     "explanation_en": "'Einschränkung' means 'restriction' or 'limitation'. Feminine, takes 'die'."
   },
   {
-    "exercise_id": "ex_noun_einschraenkung_002",
-    "word_id": "noun_einschraenkung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Einschränkung ist vorübergehend.",
-      "en": "The restriction is temporary."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Einschränkung' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_einschraenkung_003",
     "word_id": "noun_einschraenkung",
     "type": "fill_blank",
@@ -9736,24 +7306,6 @@
       "the encouragement"
     ],
     "explanation_en": "'Förderung' means 'promotion' or 'funding'. Feminine, takes 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_foerderung_002",
-    "word_id": "noun_foerderung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Förderung talentierter Jugendlicher ist wichtig.",
-      "en": "The promotion of talented young people is important."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Förderung' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_foerderung_003",
@@ -9810,24 +7362,6 @@
     "explanation_en": "'Grundlage' means 'basis' or 'foundation'. Feminine, takes 'die'."
   },
   {
-    "exercise_id": "ex_noun_grundlage_002",
-    "word_id": "noun_grundlage",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Grundlage des Vertrags ist solide.",
-      "en": "The basis of the contract is solid."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Grundlage' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_grundlage_003",
     "word_id": "noun_grundlage",
     "type": "fill_blank",
@@ -9880,24 +7414,6 @@
       "the gesture"
     ],
     "explanation_en": "'Haltung' means 'attitude' or 'posture'. Feminine, takes 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_haltung_002",
-    "word_id": "noun_haltung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Haltung der Regierung ist unklar.",
-      "en": "The government's attitude is unclear."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Haltung' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_haltung_003",
@@ -9954,24 +7470,6 @@
     "explanation_en": "'Leistung' means 'performance' or 'achievement'. Feminine, takes 'die'."
   },
   {
-    "exercise_id": "ex_noun_leistung_002",
-    "word_id": "noun_leistung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Leistung des Teams war außergewöhnlich.",
-      "en": "The performance of the team was exceptional."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Leistung' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_leistung_003",
     "word_id": "noun_leistung",
     "type": "fill_blank",
@@ -10024,24 +7522,6 @@
       "the decision"
     ],
     "explanation_en": "'Maßnahme' means 'measure' or 'step' taken to address a situation. Feminine, takes 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_massnahme_002",
-    "word_id": "noun_massnahme",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Maßnahme ist dringend notwendig.",
-      "en": "The measure is urgently necessary."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Maßnahme' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_massnahme_003",
@@ -10098,24 +7578,6 @@
     "explanation_en": "'Mehrheit' means 'majority'. Feminine, takes 'die'."
   },
   {
-    "exercise_id": "ex_noun_mehrheit_002",
-    "word_id": "noun_mehrheit",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Mehrheit stimmte für den Vorschlag.",
-      "en": "The majority voted for the proposal."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Mehrheit' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_mehrheit_003",
     "word_id": "noun_mehrheit",
     "type": "fill_blank",
@@ -10168,24 +7630,6 @@
       "the category"
     ],
     "explanation_en": "'Schicht' has three meanings: a layer (of something), a social class, or a work shift. Feminine, takes 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_schicht_002",
-    "word_id": "noun_schicht",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Schicht beginnt um sechs Uhr morgens.",
-      "en": "The shift begins at six in the morning."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Schicht' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_schicht_003",
@@ -10242,24 +7686,6 @@
     "explanation_en": "'Tendenz' means 'tendency' or 'trend'. Feminine, takes 'die'."
   },
   {
-    "exercise_id": "ex_noun_tendenz_002",
-    "word_id": "noun_tendenz",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Tendenz ist deutlich erkennbar.",
-      "en": "The trend is clearly recognisable."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Tendenz' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_tendenz_003",
     "word_id": "noun_tendenz",
     "type": "fill_blank",
@@ -10312,24 +7738,6 @@
       "the charter"
     ],
     "explanation_en": "'Verfassung' means 'constitution' (legal document) or 'condition' (physical/mental state). Feminine, takes 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_verfassung_002",
-    "word_id": "noun_verfassung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Verfassung schützt die Grundrechte.",
-      "en": "The constitution protects fundamental rights."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Verfassung' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_verfassung_003",
@@ -10386,24 +7794,6 @@
     "explanation_en": "'Wirklichkeit' means 'reality'. Feminine, takes 'die'."
   },
   {
-    "exercise_id": "ex_noun_wirklichkeit_002",
-    "word_id": "noun_wirklichkeit",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Wirklichkeit ist oft komplizierter als die Theorie.",
-      "en": "Reality is often more complicated than theory."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Wirklichkeit' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_wirklichkeit_003",
     "word_id": "noun_wirklichkeit",
     "type": "fill_blank",
@@ -10456,24 +7846,6 @@
       "the dimension"
     ],
     "explanation_en": "'Ausmaß' means 'extent' or 'scale'. Neuter, takes 'das'."
-  },
-  {
-    "exercise_id": "ex_noun_ausmass_002",
-    "word_id": "noun_ausmass",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Ausmaß des Problems ist noch nicht klar.",
-      "en": "The extent of the problem is not yet clear."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Ausmaß' is neuter. As the nominative subject, it takes 'das'."
   },
   {
     "exercise_id": "ex_noun_ausmass_003",
@@ -10530,24 +7902,6 @@
     "explanation_en": "'Bewusstsein' means 'consciousness' (being awake) or 'awareness' (knowing something). Neuter, takes 'das'."
   },
   {
-    "exercise_id": "ex_noun_bewusstsein_002",
-    "word_id": "noun_bewusstsein",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Bewusstsein für das Problem wächst.",
-      "en": "Awareness of the problem is growing."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Bewusstsein' is neuter. As the nominative subject, it takes 'das'."
-  },
-  {
     "exercise_id": "ex_noun_bewusstsein_003",
     "word_id": "noun_bewusstsein",
     "type": "fill_blank",
@@ -10600,24 +7954,6 @@
       "the stability"
     ],
     "explanation_en": "'Gleichgewicht' means 'balance' or 'equilibrium'. Neuter, takes 'das'."
-  },
-  {
-    "exercise_id": "ex_noun_gleichgewicht_002",
-    "word_id": "noun_gleichgewicht",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Gleichgewicht zwischen Angebot und Nachfrage ist wichtig.",
-      "en": "The balance between supply and demand is important."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Gleichgewicht' is neuter. As the nominative subject, it takes 'das'."
   },
   {
     "exercise_id": "ex_noun_gleichgewicht_003",
@@ -10674,24 +8010,6 @@
     "explanation_en": "'Konzept' means 'concept' or 'plan'. Neuter, takes 'das'."
   },
   {
-    "exercise_id": "ex_noun_konzept_002",
-    "word_id": "noun_konzept",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Konzept ist sehr durchdacht.",
-      "en": "The concept is very well thought out."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Konzept' is neuter. As the nominative subject, it takes 'das'."
-  },
-  {
     "exercise_id": "ex_noun_konzept_003",
     "word_id": "noun_konzept",
     "type": "fill_blank",
@@ -10744,24 +8062,6 @@
       "the rule"
     ],
     "explanation_en": "'Kriterium' means 'criterion' (a standard for judging). Neuter, takes 'das'. Plural: 'Kriterien'."
-  },
-  {
-    "exercise_id": "ex_noun_kriterium_002",
-    "word_id": "noun_kriterium",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Kriterium ist entscheidend für die Auswahl.",
-      "en": "The criterion is decisive for the selection."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Kriterium' is neuter. As the nominative subject, it takes 'das'."
   },
   {
     "exercise_id": "ex_noun_kriterium_003",
@@ -10818,24 +8118,6 @@
     "explanation_en": "'Merkmal' means 'characteristic' or 'feature'. Neuter, takes 'das'."
   },
   {
-    "exercise_id": "ex_noun_merkmal_002",
-    "word_id": "noun_merkmal",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Merkmal dieser Tierart ist der rote Schwanz.",
-      "en": "The characteristic of this animal species is the red tail."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Merkmal' is neuter. As the nominative subject, it takes 'das'."
-  },
-  {
     "exercise_id": "ex_noun_merkmal_003",
     "word_id": "noun_merkmal",
     "type": "fill_blank",
@@ -10888,24 +8170,6 @@
       "the spectacle"
     ],
     "explanation_en": "'Phänomen' means 'phenomenon'. Neuter, takes 'das'."
-  },
-  {
-    "exercise_id": "ex_noun_phaenomen_002",
-    "word_id": "noun_phaenomen",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Phänomen ist noch nicht vollständig erklärt.",
-      "en": "The phenomenon has not yet been fully explained."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Phänomen' is neuter. As the nominative subject, it takes 'das'."
   },
   {
     "exercise_id": "ex_noun_phaenomen_003",
@@ -10962,24 +8226,6 @@
     "explanation_en": "'Prinzip' means 'principle'. Neuter, takes 'das'. Plural: 'Prinzipien'."
   },
   {
-    "exercise_id": "ex_noun_prinzip_002",
-    "word_id": "noun_prinzip",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Prinzip der Gleichheit gilt universell.",
-      "en": "The principle of equality applies universally."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Prinzip' is neuter. As the nominative subject, it takes 'das'."
-  },
-  {
     "exercise_id": "ex_noun_prinzip_003",
     "word_id": "noun_prinzip",
     "type": "fill_blank",
@@ -11032,24 +8278,6 @@
       "the probability"
     ],
     "explanation_en": "'Risiko' means 'risk'. Neuter, takes 'das'. Plural: 'Risiken'."
-  },
-  {
-    "exercise_id": "ex_noun_risiko_002",
-    "word_id": "noun_risiko",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Risiko ist kalkulierbar.",
-      "en": "The risk is calculable."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Risiko' is neuter. As the nominative subject, it takes 'das'."
   },
   {
     "exercise_id": "ex_noun_risiko_003",
@@ -11106,24 +8334,6 @@
     "explanation_en": "'Scheitern' is a nominalised infinitive meaning 'failure' or 'failing'. Neuter, takes 'das'."
   },
   {
-    "exercise_id": "ex_noun_scheitern_002",
-    "word_id": "noun_scheitern",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Scheitern ist nicht das Ende.",
-      "en": "Failure is not the end."
-    },
-    "correct_answer": "Das",
-    "wrong_answers": [
-      "Der",
-      "Die",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Scheitern' is a nominalised infinitive — neuter. As the nominative subject, it takes 'das'."
-  },
-  {
     "exercise_id": "ex_noun_scheitern_003",
     "word_id": "noun_scheitern",
     "type": "fill_blank",
@@ -11176,24 +8386,6 @@
       "the beginning"
     ],
     "explanation_en": "'Ansatz' means 'approach' or 'starting point'. Masculine, takes 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_ansatz_002",
-    "word_id": "noun_ansatz",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Ansatz ist sehr innovativ.",
-      "en": "The approach is very innovative."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Ansatz' is masculine. As the nominative subject, it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_ansatz_003",
@@ -11250,24 +8442,6 @@
     "explanation_en": "'Aspekt' means 'aspect'. Masculine, takes 'der'."
   },
   {
-    "exercise_id": "ex_noun_aspekt_002",
-    "word_id": "noun_aspekt",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Aspekt wurde nicht berücksichtigt.",
-      "en": "The aspect was not taken into consideration."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Aspekt' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_aspekt_003",
     "word_id": "noun_aspekt",
     "type": "fill_blank",
@@ -11320,24 +8494,6 @@
       "the time"
     ],
     "explanation_en": "'Aufwand' means 'effort' or 'expenditure'. Masculine, takes 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_aufwand_002",
-    "word_id": "noun_aufwand",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Aufwand ist sehr hoch.",
-      "en": "The effort is very high."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Aufwand' is masculine. As the nominative subject, it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_aufwand_003",
@@ -11394,24 +8550,6 @@
     "explanation_en": "'Begriff' means 'term' or 'concept'. Masculine, takes 'der'."
   },
   {
-    "exercise_id": "ex_noun_begriff_002",
-    "word_id": "noun_begriff",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Begriff ist schwer zu definieren.",
-      "en": "The term is hard to define."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Begriff' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_begriff_003",
     "word_id": "noun_begriff",
     "type": "fill_blank",
@@ -11464,24 +8602,6 @@
       "the criticism"
     ],
     "explanation_en": "'Einwand' means 'objection'. Masculine, takes 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_einwand_002",
-    "word_id": "noun_einwand",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Einwand wurde nicht beachtet.",
-      "en": "The objection was not heeded."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Einwand' is masculine. As the nominative subject, it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_einwand_003",
@@ -11538,24 +8658,6 @@
     "explanation_en": "'Kontext' means 'context'. Masculine, takes 'der'."
   },
   {
-    "exercise_id": "ex_noun_kontext_002",
-    "word_id": "noun_kontext",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Kontext ist wichtig für das Verstehen.",
-      "en": "The context is important for understanding."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Kontext' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_kontext_003",
     "word_id": "noun_kontext",
     "type": "fill_blank",
@@ -11608,24 +8710,6 @@
       "the fall"
     ],
     "explanation_en": "'Rückgang' means 'decline' or 'decrease'. Masculine, takes 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_rueckgang_002",
-    "word_id": "noun_rueckgang",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Rückgang der Verkaufszahlen beunruhigt uns.",
-      "en": "The decline in sales figures worries us."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Rückgang' is masculine. As the nominative subject, it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_rueckgang_003",
@@ -11682,24 +8766,6 @@
     "explanation_en": "'Schwerpunkt' means 'focus' or 'main priority'. Masculine, takes 'der'."
   },
   {
-    "exercise_id": "ex_noun_schwerpunkt_002",
-    "word_id": "noun_schwerpunkt",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Schwerpunkt der Diskussion ist die Digitalisierung.",
-      "en": "The focus of the discussion is digitalisation."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Schwerpunkt' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_schwerpunkt_003",
     "word_id": "noun_schwerpunkt",
     "type": "fill_blank",
@@ -11752,24 +8818,6 @@
       "the attitude"
     ],
     "explanation_en": "'Standpunkt' means 'standpoint' or 'point of view'. Masculine, takes 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_standpunkt_002",
-    "word_id": "noun_standpunkt",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Standpunkt ist nachvollziehbar.",
-      "en": "The standpoint is understandable."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Standpunkt' is masculine. As the nominative subject, it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_standpunkt_003",
@@ -11826,24 +8874,6 @@
     "explanation_en": "'Umfang' means 'scope', 'extent', or 'circumference'. Masculine, takes 'der'."
   },
   {
-    "exercise_id": "ex_noun_umfang_002",
-    "word_id": "noun_umfang",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Umfang des Projekts ist unterschätzt worden.",
-      "en": "The scope of the project has been underestimated."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Umfang' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_umfang_003",
     "word_id": "noun_umfang",
     "type": "fill_blank",
@@ -11896,24 +8926,6 @@
       "the criticism"
     ],
     "explanation_en": "'Vorwurf' means 'accusation' or 'reproach'. Masculine, takes 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_vorwurf_002",
-    "word_id": "noun_vorwurf",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Vorwurf ist haltlos.",
-      "en": "The accusation is groundless."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Vorwurf' is masculine. As the nominative subject, it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_vorwurf_003",
@@ -11970,24 +8982,6 @@
     "explanation_en": "'Widerspruch' means 'contradiction'. Masculine, takes 'der'."
   },
   {
-    "exercise_id": "ex_noun_widerspruch_002",
-    "word_id": "noun_widerspruch",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Widerspruch ist offensichtlich.",
-      "en": "The contradiction is obvious."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Widerspruch' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_widerspruch_003",
     "word_id": "noun_widerspruch",
     "type": "fill_blank",
@@ -12040,24 +9034,6 @@
       "the survey"
     ],
     "explanation_en": "'Überblick' means 'overview'. Masculine, takes 'der'."
-  },
-  {
-    "exercise_id": "ex_noun_ueberblick_002",
-    "word_id": "noun_ueberblick",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Überblick fehlt ihr noch.",
-      "en": "She still lacks the overview."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Überblick' is masculine. As the nominative subject, it takes 'der'."
   },
   {
     "exercise_id": "ex_noun_ueberblick_003",
@@ -12114,24 +9090,6 @@
     "explanation_en": "'Kompromiss' means 'compromise'. Masculine, takes 'der'."
   },
   {
-    "exercise_id": "ex_noun_kompromiss_002",
-    "word_id": "noun_kompromiss",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Kompromiss wurde von allen akzeptiert.",
-      "en": "The compromise was accepted by everyone."
-    },
-    "correct_answer": "Der",
-    "wrong_answers": [
-      "Die",
-      "Das",
-      "Ein",
-      "Den"
-    ],
-    "explanation_en": "'Kompromiss' is masculine. As the nominative subject, it takes 'der'."
-  },
-  {
     "exercise_id": "ex_noun_kompromiss_003",
     "word_id": "noun_kompromiss",
     "type": "fill_blank",
@@ -12184,24 +9142,6 @@
       "the patience"
     ],
     "explanation_en": "'Rücksicht' means 'consideration for others'. Feminine, takes 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_ruecksicht_002",
-    "word_id": "noun_ruecksicht",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Rücksicht auf andere ist wichtig.",
-      "en": "Consideration for others is important."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Rücksicht' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_ruecksicht_003",
@@ -12258,24 +9198,6 @@
     "explanation_en": "'Sorgfalt' means 'care' or 'diligence'. Feminine, takes 'die'. No common plural form."
   },
   {
-    "exercise_id": "ex_noun_sorgfalt_002",
-    "word_id": "noun_sorgfalt",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Sorgfalt ist bei dieser Arbeit nötig.",
-      "en": "Care is needed for this work."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Sorgfalt' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_sorgfalt_003",
     "word_id": "noun_sorgfalt",
     "type": "fill_blank",
@@ -12328,24 +9250,6 @@
       "the link"
     ],
     "explanation_en": "'Beziehung' means 'relationship'. Feminine, takes 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_beziehung_002",
-    "word_id": "noun_beziehung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Beziehung der beiden ist kompliziert.",
-      "en": "The relationship between the two is complicated."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Beziehung' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_beziehung_003",
@@ -12402,24 +9306,6 @@
     "explanation_en": "'Erwartung' means 'expectation'. Feminine, takes 'die'."
   },
   {
-    "exercise_id": "ex_noun_erwartung_002",
-    "word_id": "noun_erwartung",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Erwartung war sehr hoch.",
-      "en": "The expectation was very high."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Erwartung' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_erwartung_003",
     "word_id": "noun_erwartung",
     "type": "fill_blank",
@@ -12474,24 +9360,6 @@
     "explanation_en": "'Stärke' means 'strength'. Feminine, takes 'die'."
   },
   {
-    "exercise_id": "ex_noun_staerke_002",
-    "word_id": "noun_staerke",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Stärke seiner Argumente überzeugte alle.",
-      "en": "The strength of his arguments convinced everyone."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Stärke' is feminine. As the nominative subject, it takes 'die'."
-  },
-  {
     "exercise_id": "ex_noun_staerke_003",
     "word_id": "noun_staerke",
     "type": "fill_blank",
@@ -12544,24 +9412,6 @@
       "the fragility"
     ],
     "explanation_en": "'Schwäche' means 'weakness'. Feminine, takes 'die'."
-  },
-  {
-    "exercise_id": "ex_noun_schwasche_002",
-    "word_id": "noun_schwasche",
-    "type": "article_choice",
-    "difficulty": 1,
-    "question": {
-      "de": "_____ Schwäche des Plans ist die Finanzierung.",
-      "en": "The weakness of the plan is the financing."
-    },
-    "correct_answer": "Die",
-    "wrong_answers": [
-      "Der",
-      "Das",
-      "Eine",
-      "Den"
-    ],
-    "explanation_en": "'Schwäche' is feminine. As the nominative subject, it takes 'die'."
   },
   {
     "exercise_id": "ex_noun_schwasche_003",

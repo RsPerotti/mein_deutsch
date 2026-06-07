@@ -282,31 +282,57 @@ function _renderVerbModuleCategories() {
 // ─────────────────────────────────────────
 
 function _renderNounModuleCategories() {
-  const total    = appData.nouns.length;
-  const unlocked = Progress.getUnlockedNouns().length;
-  const pct      = total > 0 ? Math.round(unlocked / total * 100) : 0;
+  const rootTotal    = appData.nouns.filter(n => n.section === 'roots').length;
+  const varTotal     = appData.nouns.filter(n => n.section === 'variations').length;
+  const rootUnlocked = Progress.getUnlockedRootNouns().length;
+  const varUnlocked  = Progress.getUnlockedVariantNouns().length;
 
-  document.getElementById('module-progress-count').textContent = `${unlocked} / ${total}`;
+  const totalUnlocked = rootUnlocked + varUnlocked;
+  const totalAll      = rootTotal + varTotal;
+  const pct = totalAll > 0 ? Math.round(totalUnlocked / totalAll * 100) : 0;
+
+  document.getElementById('module-progress-count').textContent = `${totalUnlocked} / ${totalAll}`;
   document.getElementById('module-progress-fill').style.width  = pct + '%';
+
+  const varLocked = rootUnlocked === 0;
+  const rootPct   = rootTotal > 0 ? Math.round(rootUnlocked / rootTotal * 100) : 0;
+  const varPct    = varTotal  > 0 ? Math.round(varUnlocked  / varTotal  * 100) : 0;
 
   document.getElementById('module-categories').innerHTML = `
     <div class="label mt-4" style="color:var(--color-text-primary);margin-bottom:var(--sp-3)">
       Übungen
     </div>
 
+    <!-- Category pair: Stammnomen + Variationen -->
     <div class="category-pair">
-      <div class="category-card" style="grid-column:1/-1"
-           onclick="openExercise('module_nouns','all')">
-        <div class="category-card-title">Nomen üben</div>
-        <div class="category-card-subtitle">Articles, plurals &amp; vocabulary</div>
-        <div class="category-card-count mt-3">${unlocked} / ${total} gelernt</div>
+      <div class="category-card" onclick="openExercise('module_nouns','roots')">
+        <div class="category-card-title">Stammnomen</div>
+        <div class="category-card-subtitle">Root nouns</div>
+        <div class="category-card-count mt-3">${rootUnlocked} / ${rootTotal} gelernt</div>
         <div class="progress-bar mt-2">
-          <div class="progress-fill" style="width:${pct}%"></div>
+          <div class="progress-fill" style="width:${rootPct}%"></div>
         </div>
         <div class="category-card-cta">Üben →</div>
       </div>
+
+      <div class="category-card ${varLocked ? 'locked' : ''}"
+           onclick="${varLocked ? '' : "openExercise('module_nouns','variants')"}">
+        <div class="category-card-title"
+             style="${varLocked ? 'color:var(--color-text-muted)' : ''}">Variationen</div>
+        <div class="category-card-subtitle">Compound &amp; derived nouns</div>
+        ${varLocked
+          ? `<div style="margin-top:var(--sp-3);font-size:20px">🔒</div>
+             <div style="font-size:var(--font-size-xs);color:var(--color-text-muted);margin-top:var(--sp-2);line-height:1.4">
+               Unlock by practising Stammnomen first</div>`
+          : `<div class="category-card-count mt-3">${varUnlocked} / ${varTotal} gelernt</div>
+             <div class="progress-bar mt-2">
+               <div class="progress-fill" style="width:${varPct}%"></div>
+             </div>
+             <div class="category-card-cta">Üben →</div>`}
+      </div>
     </div>
 
+    <!-- Nomenliste link -->
     <div class="card mt-3" style="cursor:pointer" onclick="navigateTo('screen-nomenliste')">
       <div style="display:flex;align-items:center;justify-content:space-between">
         <div>
@@ -360,6 +386,11 @@ function renderNomenliste() {
       </div>
 
       <div class="verb-detail" id="nl-det-${noun.id}">
+        ${noun.section === 'variations' && noun.formation ? `
+          <div style="margin-top:var(--sp-3);font-size:var(--font-size-sm);color:var(--color-text-secondary)">
+            <span style="font-weight:var(--fw-medium)">Bildung:</span>
+            <span style="font-family:monospace;background:var(--color-bg-secondary);padding:2px 6px;border-radius:4px;margin-left:4px">${noun.formation}</span>
+          </div>` : ''}
         <div class="conj-grid mt-3" style="grid-template-columns:1fr 1fr">
           <div><span class="pronoun">Singular</span> <strong>${noun.article} ${noun.word}</strong></div>
           <div><span class="pronoun">Plural</span> <strong>${noun.plural_article || 'die'} ${noun.plural}</strong></div>
@@ -418,6 +449,11 @@ function filterNounList(query) {
         </svg>
       </div>
       <div class="verb-detail" id="nl-det-${noun.id}">
+        ${noun.section === 'variations' && noun.formation ? `
+          <div style="margin-top:var(--sp-3);font-size:var(--font-size-sm);color:var(--color-text-secondary)">
+            <span style="font-weight:var(--fw-medium)">Bildung:</span>
+            <span style="font-family:monospace;background:var(--color-bg-secondary);padding:2px 6px;border-radius:4px;margin-left:4px">${noun.formation}</span>
+          </div>` : ''}
         <div class="conj-grid mt-3" style="grid-template-columns:1fr 1fr">
           <div><span class="pronoun">Singular</span> <strong>${noun.article} ${noun.word}</strong></div>
           <div><span class="pronoun">Plural</span> <strong>${noun.plural_article || 'die'} ${noun.plural}</strong></div>

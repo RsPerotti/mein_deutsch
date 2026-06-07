@@ -62,7 +62,8 @@ function startExercise(state) {
   // Context pill
   let contextLabel;
   if (moduleId === 'module_nouns') {
-    contextLabel = 'NOMEN · ÜBUNGEN';
+    const label = category === 'roots' ? 'STAMMNOMEN' : 'VARIATIONEN';
+    contextLabel = 'NOMEN · ' + label;
   } else if (moduleId === 'module_adverbs') {
     contextLabel = 'ADVERBIEN · ÜBUNGEN';
   } else if (moduleId === 'module_adjectives') {
@@ -80,8 +81,18 @@ function startExercise(state) {
 function _buildQueue(moduleId, category) {
   const all = appData.exercises[moduleId] || [];
 
-  // Nouns — single category, serve all exercises
-  if (moduleId === 'module_nouns') return _shuffle([...all]);
+  // Nouns — roots vs variations
+  if (moduleId === 'module_nouns') {
+    if (category === 'roots') {
+      const rootIds = new Set(appData.nouns.filter(n => n.section === 'roots').map(n => n.id));
+      return _shuffle(all.filter(ex => rootIds.has(ex.word_id)));
+    }
+    // Variations: only exercises for variations of already-unlocked root nouns
+    const unlockedRootNouns = new Set(Progress.getUnlockedRootNouns());
+    if (unlockedRootNouns.size === 0) return [];
+    const variationIds = new Set(appData.nouns.filter(n => n.section === 'variations').map(n => n.id));
+    return _shuffle(all.filter(ex => variationIds.has(ex.word_id)));
+  }
 
   // Adverbs — single category, serve all exercises
   if (moduleId === 'module_adverbs') return _shuffle([...all]);
@@ -342,9 +353,13 @@ function exitExerciseEarly() {
 function _unlockWord(wordId) {
   if (Progress.isUnlocked(wordId)) return;
 
-  const isNoun = appData.nouns && appData.nouns.some(n => n.id === wordId);
-  if (isNoun) {
-    Progress.unlockNoun(wordId);
+  const nounEntry = appData.nouns && appData.nouns.find(n => n.id === wordId);
+  if (nounEntry) {
+    if (nounEntry.section === 'variations') {
+      Progress.unlockVariantNoun(wordId);
+    } else {
+      Progress.unlockRootNoun(wordId);
+    }
   } else if (appData.adverbs && appData.adverbs.some(a => a.id === wordId)) {
     Progress.unlockAdverb(wordId);
   } else if (appData.adjectives && appData.adjectives.some(a => a.id === wordId)) {
