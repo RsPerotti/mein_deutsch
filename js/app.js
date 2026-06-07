@@ -848,49 +848,49 @@ function _renderPrapositionslisteFiltered(preps, container, query) {
 }
 
 function _renderPrepCard(p) {
-  const caseLabels  = p.cases.join(' / ');
+  const caseDots    = _renderCaseDots(p.cases || []);
   const categoryMap = { 'two-way': 'Wechselpräp.', 'akkusativ': 'Akkusativ', 'dativ': 'Dativ', 'genitiv': 'Genitiv' };
   const catLabel    = categoryMap[p.category] || p.category;
 
   return `
     <div class="card verb-card">
       <div class="verb-card-header" onclick="togglePrepCard('${p.id}')">
-        <div>
-          <span class="tag" style="margin-right:6px;background:var(--color-green-dark);color:#fff;
+        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+          <span class="tag" style="margin-right:2px;background:var(--color-green-dark);color:#fff;
                 font-size:var(--font-size-xs);padding:2px 7px;border-radius:4px">${p.cefr}</span>
           <span class="verb-card-title">${p.preposition}</span>
           <span class="verb-card-en"> — ${p.english}</span>
+          ${caseDots}
         </div>
         <svg id="pl-arr-${p.id}" width="16" height="16" viewBox="0 0 24 24" fill="none"
              stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
-             stroke-linejoin="round" style="color:var(--color-text-muted);transition:transform 0.2s">
+             stroke-linejoin="round" style="color:var(--color-text-muted);transition:transform 0.2s;flex-shrink:0">
           <polyline points="6 9 12 15 18 9"/>
         </svg>
       </div>
 
       <div class="verb-detail" id="pl-det-${p.id}">
-        <div style="margin-top:var(--sp-3);display:flex;gap:8px;flex-wrap:wrap">
+        <div style="margin-top:var(--sp-3);display:flex;gap:8px;flex-wrap:wrap;align-items:center">
           <span class="tag" style="background:var(--color-surface);border:1.5px solid var(--color-border);
                 color:var(--color-text-secondary);font-size:var(--font-size-xs);padding:3px 8px;border-radius:4px">
             ${catLabel}</span>
-          <span class="tag" style="background:var(--color-surface);border:1.5px solid var(--color-border);
-                color:var(--color-text-secondary);font-size:var(--font-size-xs);padding:3px 8px;border-radius:4px">
-            ${caseLabels}</span>
         </div>
         ${p.case_notes ? `
           <div style="margin-top:var(--sp-3);font-size:var(--font-size-sm);
                 color:var(--color-text-secondary);line-height:1.5">${p.case_notes}</div>` : ''}
         ${p.example_sentences && p.example_sentences.length > 0 ? `
           <div class="label mt-3" style="margin-bottom:var(--sp-2)">Beispiele</div>
-          ${p.example_sentences.map(ex => `
+          ${p.example_sentences.map(ex => {
+            const exDots = ex.case ? _renderCaseDots([ex.case]) : '';
+            return `
             <div class="example-card">
-              <div class="example-de">
-                ${ex.de}
-                ${ex.case ? `<span style="margin-left:8px;font-size:var(--font-size-xs);
-                  color:var(--color-text-muted);font-weight:var(--fw-medium)">[${ex.case}]</span>` : ''}
+              <div class="example-de" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+                <span>${ex.de}</span>
+                ${exDots}
               </div>
               <div class="example-en">${ex.en}</div>
-            </div>`).join('')}` : ''}
+            </div>`;
+          }).join('')}` : ''}
       </div>
     </div>`;
 }

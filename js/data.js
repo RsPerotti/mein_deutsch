@@ -530,6 +530,19 @@ window.APP_DATA = {
           "english": "to pass (time)",
           "separable": false,
           "notes": "Inseparable prefix. The prefix never separates: Die Zeit vergeht schnell."
+        },
+        {
+          "id": "verb_umgehen",
+          "prefix": "um",
+          "word": "umgehen",
+          "english": "to deal with / to avoid",
+          "separable": false,
+          "notes": "Inseparable use: to bypass/circumvent. Takes accusative.",
+          "grammar": {
+            "case_requirements": [
+              "accusative"
+            ]
+          }
         }
       ],
       "example_sentences": [
@@ -1783,6 +1796,33 @@ window.APP_DATA = {
           "english": "to pronounce / to express",
           "separable": true,
           "notes": "Prefix separates: Wie spricht man das aus?"
+        },
+        {
+          "id": "verb_versprechen",
+          "prefix": "ver",
+          "word": "versprechen",
+          "english": "to promise",
+          "separable": false,
+          "notes": "Inseparable. Takes accusative + dative.",
+          "grammar": {
+            "case_requirements": [
+              "accusative",
+              "dative"
+            ]
+          }
+        },
+        {
+          "id": "verb_widersprechen",
+          "prefix": "wider",
+          "word": "widersprechen",
+          "english": "to contradict / to object",
+          "separable": false,
+          "notes": "Inseparable. Takes dative.",
+          "grammar": {
+            "case_requirements": [
+              "dative"
+            ]
+          }
         }
       ],
       "example_sentences": [
@@ -4451,111 +4491,6 @@ window.APP_DATA = {
       ]
     },
     {
-      "id": "verb_gehören",
-      "root": "gehören",
-      "english": "to belong to",
-      "type": "weak",
-      "frequency_rank": 63,
-      "module": "verbs",
-      "unlock_level": 3,
-      "conjugation": {
-        "present": {
-          "ich": "gehöre",
-          "du": "gehörst",
-          "er_sie_es": "gehört",
-          "wir": "gehören",
-          "ihr": "gehört",
-          "sie_Sie": "gehören"
-        },
-        "past_participle": "gehört",
-        "auxiliary": "haben"
-      },
-      "prefix_variants": [],
-      "example_sentences": [
-        {
-          "de": "Dieses Buch gehört mir.",
-          "en": "This book belongs to me.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        },
-        {
-          "de": "Sie gehört zur Mannschaft.",
-          "en": "She belongs to the team.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        }
-      ],
-      "grammar": {
-        "transitivity": "intransitive",
-        "case_requirements": [
-          "dative"
-        ],
-        "notes_en": "'gehören' governs dative: 'Das gehört mir' (not mich). 'gehören zu' = to belong to (a group).",
-        "dual_case": false
-      },
-      "tags": [
-        "possession",
-        "b1"
-      ]
-    },
-    {
-      "id": "verb_bedeuten",
-      "root": "bedeuten",
-      "english": "to mean / to signify",
-      "type": "weak",
-      "frequency_rank": 64,
-      "module": "verbs",
-      "unlock_level": 3,
-      "conjugation": {
-        "present": {
-          "ich": "bedeute",
-          "du": "bedeutest",
-          "er_sie_es": "bedeutet",
-          "wir": "bedeuten",
-          "ihr": "bedeutet",
-          "sie_Sie": "bedeuten"
-        },
-        "past_participle": "bedeutet",
-        "auxiliary": "haben"
-      },
-      "prefix_variants": [],
-      "example_sentences": [
-        {
-          "de": "Was bedeutet dieses Wort?",
-          "en": "What does this word mean?",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        },
-        {
-          "de": "Das bedeutet mir viel.",
-          "en": "That means a lot to me.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        }
-      ],
-      "grammar": {
-        "transitivity": "transitive",
-        "case_requirements": [
-          "accusative"
-        ],
-        "notes_en": "'bedeuten' takes accusative. 'Das bedeutet mir viel' = that means a lot to me (dative of interest).",
-        "dual_case": false
-      },
-      "tags": [
-        "language",
-        "cognition",
-        "b1"
-      ]
-    },
-    {
       "id": "verb_passieren",
       "root": "passieren",
       "english": "to happen / to pass",
@@ -4749,112 +4684,6 @@ window.APP_DATA = {
       ]
     },
     {
-      "id": "verb_erscheinen",
-      "root": "erscheinen",
-      "english": "to appear / to seem",
-      "type": "strong",
-      "frequency_rank": 68,
-      "module": "verbs",
-      "unlock_level": 3,
-      "conjugation": {
-        "present": {
-          "ich": "erscheine",
-          "du": "erscheinst",
-          "er_sie_es": "erscheint",
-          "wir": "erscheinen",
-          "ihr": "erscheint",
-          "sie_Sie": "erscheinen"
-        },
-        "past_participle": "erschienen",
-        "auxiliary": "sein"
-      },
-      "prefix_variants": [],
-      "example_sentences": [
-        {
-          "de": "Das Buch erscheint im März.",
-          "en": "The book is published in March.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        },
-        {
-          "de": "Er erscheint mir sehr ruhig.",
-          "en": "He seems very calm to me.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        }
-      ],
-      "grammar": {
-        "transitivity": "intransitive",
-        "case_requirements": [
-          "none"
-        ],
-        "notes_en": "'erscheinen' uses 'sein'. Can mean to appear (physically), to be published, or to seem.",
-        "dual_case": false
-      },
-      "tags": [
-        "perception",
-        "publication",
-        "b1"
-      ]
-    },
-    {
-      "id": "verb_versuchen",
-      "root": "versuchen",
-      "english": "to try / to attempt",
-      "type": "weak",
-      "frequency_rank": 69,
-      "module": "verbs",
-      "unlock_level": 3,
-      "conjugation": {
-        "present": {
-          "ich": "versuche",
-          "du": "versuchst",
-          "er_sie_es": "versucht",
-          "wir": "versuchen",
-          "ihr": "versucht",
-          "sie_Sie": "versuchen"
-        },
-        "past_participle": "versucht",
-        "auxiliary": "haben"
-      },
-      "prefix_variants": [],
-      "example_sentences": [
-        {
-          "de": "Ich versuche, pünktlich zu sein.",
-          "en": "I am trying to be punctual.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        },
-        {
-          "de": "Versuch es doch mal!",
-          "en": "Just give it a try!",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        }
-      ],
-      "grammar": {
-        "transitivity": "transitive",
-        "case_requirements": [
-          "accusative"
-        ],
-        "notes_en": "'versuchen + zu-infinitive' = to try to do something. Inseparable prefix 'ver'.",
-        "dual_case": false
-      },
-      "tags": [
-        "effort",
-        "action",
-        "b1"
-      ]
-    },
-    {
       "id": "verb_ändern",
       "root": "ändern",
       "english": "to change / to alter",
@@ -4903,113 +4732,6 @@ window.APP_DATA = {
       },
       "tags": [
         "change",
-        "b1"
-      ]
-    },
-    {
-      "id": "verb_anbieten",
-      "root": "anbieten",
-      "english": "to offer",
-      "type": "strong",
-      "frequency_rank": 71,
-      "module": "verbs",
-      "unlock_level": 3,
-      "conjugation": {
-        "present": {
-          "ich": "biete an",
-          "du": "bietest an",
-          "er_sie_es": "bietet an",
-          "wir": "bieten an",
-          "ihr": "bietet an",
-          "sie_Sie": "bieten an"
-        },
-        "past_participle": "angeboten",
-        "auxiliary": "haben"
-      },
-      "prefix_variants": [],
-      "example_sentences": [
-        {
-          "de": "Er bietet mir seine Hilfe an.",
-          "en": "He offers me his help.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        },
-        {
-          "de": "Das Restaurant bietet vegetarische Gerichte an.",
-          "en": "The restaurant offers vegetarian dishes.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        }
-      ],
-      "grammar": {
-        "transitivity": "transitive",
-        "case_requirements": [
-          "accusative",
-          "dative"
-        ],
-        "notes_en": "'anbieten' takes two objects: dative (person) + accusative (thing offered). Separable prefix 'an'.",
-        "dual_case": true
-      },
-      "tags": [
-        "commerce",
-        "social",
-        "b1"
-      ]
-    },
-    {
-      "id": "verb_benutzen",
-      "root": "benutzen",
-      "english": "to use",
-      "type": "weak",
-      "frequency_rank": 72,
-      "module": "verbs",
-      "unlock_level": 3,
-      "conjugation": {
-        "present": {
-          "ich": "benutze",
-          "du": "benutzt",
-          "er_sie_es": "benutzt",
-          "wir": "benutzen",
-          "ihr": "benutzt",
-          "sie_Sie": "benutzen"
-        },
-        "past_participle": "benutzt",
-        "auxiliary": "haben"
-      },
-      "prefix_variants": [],
-      "example_sentences": [
-        {
-          "de": "Darf ich dein Telefon benutzen?",
-          "en": "May I use your phone?",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        },
-        {
-          "de": "Er benutzt öffentliche Verkehrsmittel.",
-          "en": "He uses public transport.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        }
-      ],
-      "grammar": {
-        "transitivity": "transitive",
-        "case_requirements": [
-          "accusative"
-        ],
-        "notes_en": "'benutzen' takes accusative. Synonym: 'verwenden' (more formal), 'benutzen' (everyday).",
-        "dual_case": false
-      },
-      "tags": [
-        "action",
-        "tools",
         "b1"
       ]
     },
@@ -5189,59 +4911,6 @@ window.APP_DATA = {
       ]
     },
     {
-      "id": "verb_vorschlagen",
-      "root": "vorschlagen",
-      "english": "to suggest / to propose",
-      "type": "strong",
-      "frequency_rank": 76,
-      "module": "verbs",
-      "unlock_level": 4,
-      "conjugation": {
-        "present": {
-          "ich": "schlage vor",
-          "du": "schlägst vor",
-          "er_sie_es": "schlägt vor",
-          "wir": "schlagen vor",
-          "ihr": "schlagt vor",
-          "sie_Sie": "schlagen vor"
-        },
-        "past_participle": "vorgeschlagen",
-        "auxiliary": "haben"
-      },
-      "prefix_variants": [],
-      "example_sentences": [
-        {
-          "de": "Ich schlage vor, dass wir eine Pause machen.",
-          "en": "I suggest that we take a break.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        },
-        {
-          "de": "Er schlägt eine neue Lösung vor.",
-          "en": "He proposes a new solution.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        }
-      ],
-      "grammar": {
-        "transitivity": "transitive",
-        "case_requirements": [
-          "accusative"
-        ],
-        "notes_en": "'vorschlagen' takes accusative. Separable: 'schlägt vor'.",
-        "dual_case": false
-      },
-      "tags": [
-        "communication",
-        "planning",
-        "b2"
-      ]
-    },
-    {
       "id": "verb_behaupten",
       "root": "behaupten",
       "english": "to claim / to assert",
@@ -5291,59 +4960,6 @@ window.APP_DATA = {
       "tags": [
         "communication",
         "argumentation",
-        "b2"
-      ]
-    },
-    {
-      "id": "verb_anerkennen",
-      "root": "anerkennen",
-      "english": "to acknowledge / to recognise",
-      "type": "mixed",
-      "frequency_rank": 78,
-      "module": "verbs",
-      "unlock_level": 4,
-      "conjugation": {
-        "present": {
-          "ich": "erkenne an",
-          "du": "erkennst an",
-          "er_sie_es": "erkennt an",
-          "wir": "erkennen an",
-          "ihr": "erkennt an",
-          "sie_Sie": "erkennen an"
-        },
-        "past_participle": "anerkannt",
-        "auxiliary": "haben"
-      },
-      "prefix_variants": [],
-      "example_sentences": [
-        {
-          "de": "Er erkennt ihre Leistung an.",
-          "en": "He acknowledges her achievement.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        },
-        {
-          "de": "Der Staat erkennt das Recht an.",
-          "en": "The state recognises the right.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        }
-      ],
-      "grammar": {
-        "transitivity": "transitive",
-        "case_requirements": [
-          "accusative"
-        ],
-        "notes_en": "'anerkennen' is separable: 'erkennt ... an'. Takes accusative.",
-        "dual_case": false
-      },
-      "tags": [
-        "acknowledgement",
-        "official",
         "b2"
       ]
     },
@@ -5401,642 +5017,6 @@ window.APP_DATA = {
       ]
     },
     {
-      "id": "verb_ablehnen",
-      "root": "ablehnen",
-      "english": "to reject / to decline",
-      "type": "weak",
-      "frequency_rank": 80,
-      "module": "verbs",
-      "unlock_level": 4,
-      "conjugation": {
-        "present": {
-          "ich": "lehne ab",
-          "du": "lehnst ab",
-          "er_sie_es": "lehnt ab",
-          "wir": "lehnen ab",
-          "ihr": "lehnt ab",
-          "sie_Sie": "lehnen ab"
-        },
-        "past_participle": "abgelehnt",
-        "auxiliary": "haben"
-      },
-      "prefix_variants": [],
-      "example_sentences": [
-        {
-          "de": "Er lehnt das Angebot ab.",
-          "en": "He declines the offer.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        },
-        {
-          "de": "Das Komitee lehnte den Antrag ab.",
-          "en": "The committee rejected the application.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        }
-      ],
-      "grammar": {
-        "transitivity": "transitive",
-        "case_requirements": [
-          "accusative"
-        ],
-        "notes_en": "'ablehnen' takes accusative. Separable: 'lehnt ... ab'.",
-        "dual_case": false
-      },
-      "tags": [
-        "decision",
-        "refusal",
-        "b2"
-      ]
-    },
-    {
-      "id": "verb_versprechen",
-      "root": "versprechen",
-      "english": "to promise",
-      "type": "strong",
-      "frequency_rank": 81,
-      "module": "verbs",
-      "unlock_level": 4,
-      "conjugation": {
-        "present": {
-          "ich": "verspreche",
-          "du": "versprichst",
-          "er_sie_es": "verspricht",
-          "wir": "versprechen",
-          "ihr": "versprecht",
-          "sie_Sie": "versprechen"
-        },
-        "past_participle": "versprochen",
-        "auxiliary": "haben"
-      },
-      "prefix_variants": [],
-      "example_sentences": [
-        {
-          "de": "Er verspricht, pünktlich zu sein.",
-          "en": "He promises to be on time.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        },
-        {
-          "de": "Sie verspricht ihm eine Überraschung.",
-          "en": "She promises him a surprise.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        }
-      ],
-      "grammar": {
-        "transitivity": "transitive",
-        "case_requirements": [
-          "accusative",
-          "dative"
-        ],
-        "notes_en": "'versprechen' takes two objects: dative (person) + accusative (thing). Inseparable 'ver'.",
-        "dual_case": true
-      },
-      "tags": [
-        "communication",
-        "commitment",
-        "b2"
-      ]
-    },
-    {
-      "id": "verb_beweisen",
-      "root": "beweisen",
-      "english": "to prove",
-      "type": "strong",
-      "frequency_rank": 82,
-      "module": "verbs",
-      "unlock_level": 4,
-      "conjugation": {
-        "present": {
-          "ich": "beweise",
-          "du": "beweist",
-          "er_sie_es": "beweist",
-          "wir": "beweisen",
-          "ihr": "beweist",
-          "sie_Sie": "beweisen"
-        },
-        "past_participle": "bewiesen",
-        "auxiliary": "haben"
-      },
-      "prefix_variants": [],
-      "example_sentences": [
-        {
-          "de": "Er beweist seine Unschuld.",
-          "en": "He proves his innocence.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        },
-        {
-          "de": "Das lässt sich schwer beweisen.",
-          "en": "That is hard to prove.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        }
-      ],
-      "grammar": {
-        "transitivity": "transitive",
-        "case_requirements": [
-          "accusative"
-        ],
-        "notes_en": "'beweisen' takes accusative. Inseparable 'be'.",
-        "dual_case": false
-      },
-      "tags": [
-        "logic",
-        "argumentation",
-        "b2"
-      ]
-    },
-    {
-      "id": "verb_vermeiden",
-      "root": "vermeiden",
-      "english": "to avoid",
-      "type": "strong",
-      "frequency_rank": 83,
-      "module": "verbs",
-      "unlock_level": 4,
-      "conjugation": {
-        "present": {
-          "ich": "vermeide",
-          "du": "vermeidest",
-          "er_sie_es": "vermeidet",
-          "wir": "vermeiden",
-          "ihr": "vermeidet",
-          "sie_Sie": "vermeiden"
-        },
-        "past_participle": "vermieden",
-        "auxiliary": "haben"
-      },
-      "prefix_variants": [],
-      "example_sentences": [
-        {
-          "de": "Er versucht Konflikte zu vermeiden.",
-          "en": "He tries to avoid conflicts.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        },
-        {
-          "de": "Das lässt sich nicht vermeiden.",
-          "en": "That cannot be avoided.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        }
-      ],
-      "grammar": {
-        "transitivity": "transitive",
-        "case_requirements": [
-          "accusative"
-        ],
-        "notes_en": "'vermeiden' takes accusative. Inseparable 'ver'.",
-        "dual_case": false
-      },
-      "tags": [
-        "action",
-        "strategy",
-        "b2"
-      ]
-    },
-    {
-      "id": "verb_vergleichen",
-      "root": "vergleichen",
-      "english": "to compare",
-      "type": "strong",
-      "frequency_rank": 84,
-      "module": "verbs",
-      "unlock_level": 4,
-      "conjugation": {
-        "present": {
-          "ich": "vergleiche",
-          "du": "vergleichst",
-          "er_sie_es": "vergleicht",
-          "wir": "vergleichen",
-          "ihr": "vergleicht",
-          "sie_Sie": "vergleichen"
-        },
-        "past_participle": "verglichen",
-        "auxiliary": "haben"
-      },
-      "prefix_variants": [],
-      "example_sentences": [
-        {
-          "de": "Sie vergleicht die beiden Angebote.",
-          "en": "She compares the two offers.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        },
-        {
-          "de": "Man kann das nicht vergleichen.",
-          "en": "You can't compare the two.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        }
-      ],
-      "grammar": {
-        "transitivity": "transitive",
-        "case_requirements": [
-          "accusative"
-        ],
-        "notes_en": "'vergleichen mit' = to compare with. Takes accusative (thing compared).",
-        "dual_case": false
-      },
-      "tags": [
-        "analysis",
-        "b2"
-      ]
-    },
-    {
-      "id": "verb_beschreiben",
-      "root": "beschreiben",
-      "english": "to describe",
-      "type": "strong",
-      "frequency_rank": 85,
-      "module": "verbs",
-      "unlock_level": 4,
-      "conjugation": {
-        "present": {
-          "ich": "beschreibe",
-          "du": "beschreibst",
-          "er_sie_es": "beschreibt",
-          "wir": "beschreiben",
-          "ihr": "beschreibt",
-          "sie_Sie": "beschreiben"
-        },
-        "past_participle": "beschrieben",
-        "auxiliary": "haben"
-      },
-      "prefix_variants": [],
-      "example_sentences": [
-        {
-          "de": "Beschreib mir die Situation.",
-          "en": "Describe the situation to me.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        },
-        {
-          "de": "Er beschreibt das Bild genau.",
-          "en": "He describes the picture precisely.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        }
-      ],
-      "grammar": {
-        "transitivity": "transitive",
-        "case_requirements": [
-          "accusative"
-        ],
-        "notes_en": "'beschreiben' takes accusative. Inseparable 'be'.",
-        "dual_case": false
-      },
-      "tags": [
-        "communication",
-        "language",
-        "b2"
-      ]
-    },
-    {
-      "id": "verb_umgehen",
-      "root": "umgehen",
-      "english": "to deal with / to avoid",
-      "type": "strong",
-      "frequency_rank": 86,
-      "module": "verbs",
-      "unlock_level": 4,
-      "conjugation": {
-        "present": {
-          "ich": "gehe um",
-          "du": "gehst um",
-          "er_sie_es": "geht um",
-          "wir": "gehen um",
-          "ihr": "geht um",
-          "sie_Sie": "gehen um"
-        },
-        "past_participle": "umgegangen",
-        "auxiliary": "sein"
-      },
-      "prefix_variants": [],
-      "example_sentences": [
-        {
-          "de": "Ich nehme an, dass du recht hast.",
-          "en": "I assume that you are right.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        },
-        {
-          "de": "Er nimmt die Herausforderung an.",
-          "en": "He accepts the challenge.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        }
-      ],
-      "grammar": {
-        "transitivity": "transitive",
-        "case_requirements": [
-          "accusative"
-        ],
-        "notes_en": "'annehmen' — already covered in level 1 variants. At B2 level used in complex sentence structures.",
-        "dual_case": false
-      },
-      "tags": [
-        "action",
-        "strategy",
-        "b2"
-      ]
-    },
-    {
-      "id": "verb_auswählen",
-      "root": "auswählen",
-      "english": "to select / to choose",
-      "type": "weak",
-      "frequency_rank": 87,
-      "module": "verbs",
-      "unlock_level": 4,
-      "conjugation": {
-        "present": {
-          "ich": "wähle aus",
-          "du": "wählst aus",
-          "er_sie_es": "wählt aus",
-          "wir": "wählen aus",
-          "ihr": "wählt aus",
-          "sie_Sie": "wählen aus"
-        },
-        "past_participle": "ausgewählt",
-        "auxiliary": "haben"
-      },
-      "prefix_variants": [],
-      "example_sentences": [
-        {
-          "de": "Sie wählt das beste Angebot aus.",
-          "en": "She selects the best offer.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        },
-        {
-          "de": "Wir müssen sorgfältig auswählen.",
-          "en": "We need to select carefully.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        }
-      ],
-      "grammar": {
-        "transitivity": "transitive",
-        "case_requirements": [
-          "accusative"
-        ],
-        "notes_en": "'auswählen' takes accusative. Separable: 'wählt ... aus'.",
-        "dual_case": false
-      },
-      "tags": [
-        "decision",
-        "choice",
-        "b2"
-      ]
-    },
-    {
-      "id": "verb_bewirken",
-      "root": "bewirken",
-      "english": "to bring about / to cause",
-      "type": "weak",
-      "frequency_rank": 88,
-      "module": "verbs",
-      "unlock_level": 4,
-      "conjugation": {
-        "present": {
-          "ich": "bewirke",
-          "du": "bewirkst",
-          "er_sie_es": "bewirkt",
-          "wir": "bewirken",
-          "ihr": "bewirkt",
-          "sie_Sie": "bewirken"
-        },
-        "past_participle": "bewirkt",
-        "auxiliary": "haben"
-      },
-      "prefix_variants": [],
-      "example_sentences": [
-        {
-          "de": "Die Maßnahme bewirkt viel Gutes.",
-          "en": "The measure brings about a lot of good.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        },
-        {
-          "de": "Was bewirkt das?",
-          "en": "What does that achieve?",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        }
-      ],
-      "grammar": {
-        "transitivity": "transitive",
-        "case_requirements": [
-          "accusative"
-        ],
-        "notes_en": "'bewirken' takes accusative. Inseparable 'be'.",
-        "dual_case": false
-      },
-      "tags": [
-        "causality",
-        "effect",
-        "b2"
-      ]
-    },
-    {
-      "id": "verb_zusammenfassen",
-      "root": "zusammenfassen",
-      "english": "to summarise",
-      "type": "weak",
-      "frequency_rank": 89,
-      "module": "verbs",
-      "unlock_level": 4,
-      "conjugation": {
-        "present": {
-          "ich": "fasse zusammen",
-          "du": "fasst zusammen",
-          "er_sie_es": "fasst zusammen",
-          "wir": "fassen zusammen",
-          "ihr": "fasst zusammen",
-          "sie_Sie": "fassen zusammen"
-        },
-        "past_participle": "zusammengefasst",
-        "auxiliary": "haben"
-      },
-      "prefix_variants": [],
-      "example_sentences": [
-        {
-          "de": "Kannst du das kurz zusammenfassen?",
-          "en": "Can you briefly summarise that?",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        },
-        {
-          "de": "Er fasst die wichtigsten Punkte zusammen.",
-          "en": "He summarises the most important points.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        }
-      ],
-      "grammar": {
-        "transitivity": "transitive",
-        "case_requirements": [
-          "accusative"
-        ],
-        "notes_en": "'zusammenfassen' takes accusative. Separable: 'fasst ... zusammen'.",
-        "dual_case": false
-      },
-      "tags": [
-        "communication",
-        "analysis",
-        "b2"
-      ]
-    },
-    {
-      "id": "verb_hinweisen",
-      "root": "hinweisen",
-      "english": "to point out / to refer to",
-      "type": "strong",
-      "frequency_rank": 90,
-      "module": "verbs",
-      "unlock_level": 4,
-      "conjugation": {
-        "present": {
-          "ich": "weise hin",
-          "du": "weist hin",
-          "er_sie_es": "weist hin",
-          "wir": "weisen hin",
-          "ihr": "weist hin",
-          "sie_Sie": "weisen hin"
-        },
-        "past_participle": "hingewiesen",
-        "auxiliary": "haben"
-      },
-      "prefix_variants": [],
-      "example_sentences": [
-        {
-          "de": "Er weist auf den Fehler hin.",
-          "en": "He points out the mistake.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        },
-        {
-          "de": "Der Arzt weist auf die Risiken hin.",
-          "en": "The doctor refers to the risks.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        }
-      ],
-      "grammar": {
-        "transitivity": "intransitive",
-        "case_requirements": [
-          "none"
-        ],
-        "notes_en": "'hinweisen auf' = to point to (accusative after 'auf'). Separable: 'weist ... hin'.",
-        "dual_case": false
-      },
-      "tags": [
-        "communication",
-        "reference",
-        "b2"
-      ]
-    },
-    {
-      "id": "verb_auffordern",
-      "root": "auffordern",
-      "english": "to ask / to demand / to invite",
-      "type": "weak",
-      "frequency_rank": 91,
-      "module": "verbs",
-      "unlock_level": 4,
-      "conjugation": {
-        "present": {
-          "ich": "fordere auf",
-          "du": "forderst auf",
-          "er_sie_es": "fordert auf",
-          "wir": "fordern auf",
-          "ihr": "fordert auf",
-          "sie_Sie": "fordern auf"
-        },
-        "past_participle": "aufgefordert",
-        "auxiliary": "haben"
-      },
-      "prefix_variants": [],
-      "example_sentences": [
-        {
-          "de": "Er fordert sie zum Tanzen auf.",
-          "en": "He invites her to dance.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        },
-        {
-          "de": "Die Polizei forderte ihn auf, das Fahrzeug zu verlassen.",
-          "en": "The police asked him to leave the vehicle.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        }
-      ],
-      "grammar": {
-        "transitivity": "transitive",
-        "case_requirements": [
-          "accusative"
-        ],
-        "notes_en": "'auffordern' takes accusative (person). 'jemanden zu etwas auffordern' = to ask someone to do something.",
-        "dual_case": false
-      },
-      "tags": [
-        "communication",
-        "request",
-        "b2"
-      ]
-    },
-    {
       "id": "verb_schlußfolgern",
       "root": "schlussfolgern",
       "english": "to conclude / to infer",
@@ -6086,59 +5066,6 @@ window.APP_DATA = {
       "tags": [
         "logic",
         "analysis",
-        "b2"
-      ]
-    },
-    {
-      "id": "verb_auswirken",
-      "root": "auswirken",
-      "english": "to affect / to have an effect",
-      "type": "weak",
-      "frequency_rank": 93,
-      "module": "verbs",
-      "unlock_level": 4,
-      "conjugation": {
-        "present": {
-          "ich": "wirke aus",
-          "du": "wirkst aus",
-          "er_sie_es": "wirkt aus",
-          "wir": "wirken aus",
-          "ihr": "wirkt aus",
-          "sie_Sie": "wirken aus"
-        },
-        "past_participle": "ausgewirkt",
-        "auxiliary": "haben"
-      },
-      "prefix_variants": [],
-      "example_sentences": [
-        {
-          "de": "Die Entscheidung wirkt sich negativ aus.",
-          "en": "The decision has a negative effect.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        },
-        {
-          "de": "Wie wirkt sich das auf unsere Pläne aus?",
-          "en": "How does that affect our plans?",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        }
-      ],
-      "grammar": {
-        "transitivity": "intransitive",
-        "case_requirements": [
-          "none"
-        ],
-        "notes_en": "'sich auswirken auf' = to affect, to have an effect on (accusative after 'auf'). Always reflexive.",
-        "dual_case": false
-      },
-      "tags": [
-        "effect",
-        "causality",
         "b2"
       ]
     },
@@ -6245,59 +5172,6 @@ window.APP_DATA = {
       "tags": [
         "communication",
         "language",
-        "b2"
-      ]
-    },
-    {
-      "id": "verb_widersprechen",
-      "root": "widersprechen",
-      "english": "to contradict / to object",
-      "type": "strong",
-      "frequency_rank": 96,
-      "module": "verbs",
-      "unlock_level": 4,
-      "conjugation": {
-        "present": {
-          "ich": "widerspreche",
-          "du": "widersprichst",
-          "er_sie_es": "widerspricht",
-          "wir": "widersprechen",
-          "ihr": "widersprecht",
-          "sie_Sie": "widersprechen"
-        },
-        "past_participle": "widersprochen",
-        "auxiliary": "haben"
-      },
-      "prefix_variants": [],
-      "example_sentences": [
-        {
-          "de": "Er widerspricht ihr ständig.",
-          "en": "He constantly contradicts her.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        },
-        {
-          "de": "Das widerspricht meinen Werten.",
-          "en": "That contradicts my values.",
-          "exercise_type": [
-            "fill_blank",
-            "translate"
-          ]
-        }
-      ],
-      "grammar": {
-        "transitivity": "intransitive",
-        "case_requirements": [
-          "dative"
-        ],
-        "notes_en": "'widersprechen' governs dative: 'Er widerspricht ihr' (not sie). Inseparable.",
-        "dual_case": false
-      },
-      "tags": [
-        "argumentation",
-        "debate",
         "b2"
       ]
     },
@@ -6461,41 +5335,54 @@ window.APP_DATA = {
       ]
     },
     {
-      "id": "verb_hervorheben",
-      "root": "hervorheben",
-      "english": "to highlight / to emphasise",
-      "type": "strong",
-      "frequency_rank": 100,
+      "id": "verb_fassen",
+      "root": "fassen",
+      "english": "to grasp / seize",
+      "type": "weak",
+      "frequency_rank": 101,
       "module": "verbs",
-      "unlock_level": 4,
+      "unlock_level": 1,
       "conjugation": {
         "present": {
-          "ich": "hebe hervor",
-          "du": "hebst hervor",
-          "er_sie_es": "hebt hervor",
-          "wir": "heben hervor",
-          "ihr": "hebt hervor",
-          "sie_Sie": "heben hervor"
+          "ich": "fasse",
+          "du": "fasst",
+          "er_sie_es": "fasst",
+          "wir": "fassen",
+          "ihr": "fasst",
+          "sie_Sie": "fassen"
         },
-        "past_participle": "hervorgehoben",
+        "past_participle": "gefasst",
         "auxiliary": "haben"
       },
-      "prefix_variants": [],
+      "prefix_variants": [
+        {
+          "id": "verb_zusammenfassen",
+          "prefix": "zusammen",
+          "word": "zusammenfassen",
+          "english": "to summarise",
+          "separable": true,
+          "notes": "Separable. Takes accusative.",
+          "grammar": {
+            "case_requirements": [
+              "accusative"
+            ]
+          }
+        }
+      ],
       "example_sentences": [
         {
-          "de": "Er hebt die wichtigsten Punkte hervor.",
-          "en": "He highlights the most important points.",
+          "de": "Er konnte es kaum fassen.",
+          "en": "He could barely grasp it.",
           "exercise_type": [
             "fill_blank",
             "translate"
           ]
         },
         {
-          "de": "Ich möchte besonders hervorheben, dass ...",
-          "en": "I would particularly like to emphasise that ...",
+          "de": "Sie fasst sich ein Herz und fragt ihn.",
+          "en": "She plucks up courage and asks him.",
           "exercise_type": [
-            "fill_blank",
-            "translate"
+            "fill_blank"
           ]
         }
       ],
@@ -6504,13 +5391,872 @@ window.APP_DATA = {
         "case_requirements": [
           "accusative"
         ],
-        "notes_en": "'hervorheben' takes accusative. Separable: 'hebt ... hervor'.",
+        "notes_en": "'fassen' takes a direct object in the accusative. Reflexive 'sich fassen' = to compose oneself.",
         "dual_case": false
       },
       "tags": [
-        "communication",
-        "emphasis",
+        "a2"
+      ]
+    },
+    {
+      "id": "verb_heben",
+      "root": "heben",
+      "english": "to lift / raise",
+      "type": "strong",
+      "frequency_rank": 102,
+      "module": "verbs",
+      "unlock_level": 1,
+      "conjugation": {
+        "present": {
+          "ich": "hebe",
+          "du": "hebst",
+          "er_sie_es": "hebt",
+          "wir": "heben",
+          "ihr": "hebt",
+          "sie_Sie": "heben"
+        },
+        "past_participle": "gehoben",
+        "auxiliary": "haben"
+      },
+      "prefix_variants": [
+        {
+          "id": "verb_hervorheben",
+          "prefix": "hervor",
+          "word": "hervorheben",
+          "english": "to highlight / to emphasise",
+          "separable": true,
+          "notes": "Separable. Takes accusative.",
+          "grammar": {
+            "case_requirements": [
+              "accusative"
+            ]
+          }
+        }
+      ],
+      "example_sentences": [
+        {
+          "de": "Er hebt die Hand.",
+          "en": "He raises his hand.",
+          "exercise_type": [
+            "fill_blank",
+            "translate"
+          ]
+        },
+        {
+          "de": "Kannst du das heben, bitte?",
+          "en": "Can you lift that, please?",
+          "exercise_type": [
+            "fill_blank"
+          ]
+        }
+      ],
+      "grammar": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "'heben' takes a direct object in the accusative.",
+        "dual_case": false
+      },
+      "tags": [
+        "b1"
+      ]
+    },
+    {
+      "id": "verb_bieten",
+      "root": "bieten",
+      "english": "to offer",
+      "type": "strong",
+      "frequency_rank": 103,
+      "module": "verbs",
+      "unlock_level": 1,
+      "conjugation": {
+        "present": {
+          "ich": "biete",
+          "du": "bietest",
+          "er_sie_es": "bietet",
+          "wir": "bieten",
+          "ihr": "bietet",
+          "sie_Sie": "bieten"
+        },
+        "past_participle": "geboten",
+        "auxiliary": "haben"
+      },
+      "prefix_variants": [
+        {
+          "id": "verb_anbieten",
+          "prefix": "an",
+          "word": "anbieten",
+          "english": "to offer",
+          "separable": true,
+          "notes": "Separable. Takes accusative + dative.",
+          "grammar": {
+            "case_requirements": [
+              "accusative",
+              "dative"
+            ]
+          }
+        }
+      ],
+      "example_sentences": [
+        {
+          "de": "Das Hotel bietet viele Möglichkeiten.",
+          "en": "The hotel offers many options.",
+          "exercise_type": [
+            "fill_blank",
+            "translate"
+          ]
+        },
+        {
+          "de": "Er bietet ihr seine Hilfe an.",
+          "en": "He offers her his help.",
+          "exercise_type": [
+            "fill_blank"
+          ]
+        }
+      ],
+      "grammar": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative",
+          "dative"
+        ],
+        "notes_en": "'bieten' takes accusative (thing offered) and optionally dative (person). 'bieten + jdm. etw.' = to offer someone something.",
+        "dual_case": true
+      },
+      "tags": [
+        "b1"
+      ]
+    },
+    {
+      "id": "verb_schlagen",
+      "root": "schlagen",
+      "english": "to hit / beat",
+      "type": "strong",
+      "frequency_rank": 104,
+      "module": "verbs",
+      "unlock_level": 1,
+      "conjugation": {
+        "present": {
+          "ich": "schlage",
+          "du": "schlägst",
+          "er_sie_es": "schlägt",
+          "wir": "schlagen",
+          "ihr": "schlagt",
+          "sie_Sie": "schlagen"
+        },
+        "past_participle": "geschlagen",
+        "auxiliary": "haben"
+      },
+      "prefix_variants": [
+        {
+          "id": "verb_vorschlagen",
+          "prefix": "vor",
+          "word": "vorschlagen",
+          "english": "to suggest / to propose",
+          "separable": true,
+          "notes": "Separable. Takes accusative + dative.",
+          "grammar": {
+            "case_requirements": [
+              "accusative"
+            ]
+          }
+        }
+      ],
+      "example_sentences": [
+        {
+          "de": "Das Herz schlägt schnell.",
+          "en": "The heart beats fast.",
+          "exercise_type": [
+            "fill_blank",
+            "translate"
+          ]
+        },
+        {
+          "de": "Er schlägt den Nagel in die Wand.",
+          "en": "He hammers the nail into the wall.",
+          "exercise_type": [
+            "fill_blank"
+          ]
+        }
+      ],
+      "grammar": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "'schlagen' takes a direct object in the accusative. Note umlaut: du schlägst, er schlägt.",
+        "dual_case": false
+      },
+      "tags": [
+        "a2"
+      ]
+    },
+    {
+      "id": "verb_wählen",
+      "root": "wählen",
+      "english": "to choose / elect",
+      "type": "weak",
+      "frequency_rank": 105,
+      "module": "verbs",
+      "unlock_level": 1,
+      "conjugation": {
+        "present": {
+          "ich": "wähle",
+          "du": "wählst",
+          "er_sie_es": "wählt",
+          "wir": "wählen",
+          "ihr": "wählt",
+          "sie_Sie": "wählen"
+        },
+        "past_participle": "gewählt",
+        "auxiliary": "haben"
+      },
+      "prefix_variants": [
+        {
+          "id": "verb_auswählen",
+          "prefix": "aus",
+          "word": "auswählen",
+          "english": "to select / to choose",
+          "separable": true,
+          "notes": "Separable. Takes accusative.",
+          "grammar": {
+            "case_requirements": [
+              "accusative"
+            ]
+          }
+        }
+      ],
+      "example_sentences": [
+        {
+          "de": "Wir wählen nächste Woche den neuen Präsidenten.",
+          "en": "We elect the new president next week.",
+          "exercise_type": [
+            "fill_blank",
+            "translate"
+          ]
+        },
+        {
+          "de": "Bitte wählen Sie eine Option.",
+          "en": "Please choose an option.",
+          "exercise_type": [
+            "fill_blank"
+          ]
+        }
+      ],
+      "grammar": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "'wählen' takes a direct object in the accusative. Used for elections, choosing options.",
+        "dual_case": false
+      },
+      "tags": [
+        "a2"
+      ]
+    },
+    {
+      "id": "verb_nutzen",
+      "root": "nutzen",
+      "english": "to use / benefit",
+      "type": "weak",
+      "frequency_rank": 106,
+      "module": "verbs",
+      "unlock_level": 1,
+      "conjugation": {
+        "present": {
+          "ich": "nutze",
+          "du": "nutzt",
+          "er_sie_es": "nutzt",
+          "wir": "nutzen",
+          "ihr": "nutzt",
+          "sie_Sie": "nutzen"
+        },
+        "past_participle": "genutzt",
+        "auxiliary": "haben"
+      },
+      "prefix_variants": [
+        {
+          "id": "verb_benutzen",
+          "prefix": "be",
+          "word": "benutzen",
+          "english": "to use",
+          "separable": false,
+          "notes": "Inseparable. Takes accusative.",
+          "grammar": {
+            "case_requirements": [
+              "accusative"
+            ]
+          }
+        }
+      ],
+      "example_sentences": [
+        {
+          "de": "Er nutzt jede Gelegenheit.",
+          "en": "He uses every opportunity.",
+          "exercise_type": [
+            "fill_blank",
+            "translate"
+          ]
+        },
+        {
+          "de": "Ich möchte die Zeit besser nutzen.",
+          "en": "I want to make better use of my time.",
+          "exercise_type": [
+            "fill_blank"
+          ]
+        }
+      ],
+      "grammar": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "'nutzen' takes a direct object in the accusative. Also used reflexively or intransitively.",
+        "dual_case": false
+      },
+      "tags": [
+        "b1"
+      ]
+    },
+    {
+      "id": "verb_fordern",
+      "root": "fordern",
+      "english": "to demand",
+      "type": "weak",
+      "frequency_rank": 107,
+      "module": "verbs",
+      "unlock_level": 1,
+      "conjugation": {
+        "present": {
+          "ich": "fordere",
+          "du": "forderst",
+          "er_sie_es": "fordert",
+          "wir": "fordern",
+          "ihr": "fordert",
+          "sie_Sie": "fordern"
+        },
+        "past_participle": "gefordert",
+        "auxiliary": "haben"
+      },
+      "prefix_variants": [
+        {
+          "id": "verb_auffordern",
+          "prefix": "auf",
+          "word": "auffordern",
+          "english": "to ask / to demand / to invite",
+          "separable": true,
+          "notes": "Separable. Takes accusative + zu + infinitive.",
+          "grammar": {
+            "case_requirements": [
+              "accusative"
+            ]
+          }
+        }
+      ],
+      "example_sentences": [
+        {
+          "de": "Sie fordert eine sofortige Antwort.",
+          "en": "She demands an immediate answer.",
+          "exercise_type": [
+            "fill_blank",
+            "translate"
+          ]
+        },
+        {
+          "de": "Die Aufgabe fordert viel Konzentration.",
+          "en": "The task demands a lot of concentration.",
+          "exercise_type": [
+            "fill_blank"
+          ]
+        }
+      ],
+      "grammar": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "'fordern' takes accusative. 'fordern von jdm.' = to demand from someone.",
+        "dual_case": false
+      },
+      "tags": [
+        "b1"
+      ]
+    },
+    {
+      "id": "verb_scheinen",
+      "root": "scheinen",
+      "english": "to seem / to shine",
+      "type": "strong",
+      "frequency_rank": 108,
+      "module": "verbs",
+      "unlock_level": 1,
+      "conjugation": {
+        "present": {
+          "ich": "scheine",
+          "du": "scheinst",
+          "er_sie_es": "scheint",
+          "wir": "scheinen",
+          "ihr": "scheint",
+          "sie_Sie": "scheinen"
+        },
+        "past_participle": "geschienen",
+        "auxiliary": "haben"
+      },
+      "prefix_variants": [
+        {
+          "id": "verb_erscheinen",
+          "prefix": "er",
+          "word": "erscheinen",
+          "english": "to appear / to seem",
+          "separable": false,
+          "notes": "Inseparable. Intransitive. Auxiliary: sein.",
+          "grammar": {
+            "case_requirements": [
+              "none"
+            ]
+          }
+        }
+      ],
+      "example_sentences": [
+        {
+          "de": "Die Sonne scheint heute sehr hell.",
+          "en": "The sun is shining very brightly today.",
+          "exercise_type": [
+            "fill_blank",
+            "translate"
+          ]
+        },
+        {
+          "de": "Er scheint müde zu sein.",
+          "en": "He seems to be tired.",
+          "exercise_type": [
+            "fill_blank"
+          ]
+        }
+      ],
+      "grammar": {
+        "transitivity": "intransitive",
+        "case_requirements": [
+          "nominative"
+        ],
+        "notes_en": "'scheinen' is intransitive. With 'zu + infinitive' = to seem. As 'shine': subject in nominative only.",
+        "dual_case": false
+      },
+      "tags": [
+        "a2"
+      ]
+    },
+    {
+      "id": "verb_deuten",
+      "root": "deuten",
+      "english": "to interpret / point",
+      "type": "weak",
+      "frequency_rank": 109,
+      "module": "verbs",
+      "unlock_level": 1,
+      "conjugation": {
+        "present": {
+          "ich": "deute",
+          "du": "deutest",
+          "er_sie_es": "deutet",
+          "wir": "deuten",
+          "ihr": "deutet",
+          "sie_Sie": "deuten"
+        },
+        "past_participle": "gedeutet",
+        "auxiliary": "haben"
+      },
+      "prefix_variants": [
+        {
+          "id": "verb_bedeuten",
+          "prefix": "be",
+          "word": "bedeuten",
+          "english": "to mean / to signify",
+          "separable": false,
+          "notes": "Inseparable. Takes accusative.",
+          "grammar": {
+            "case_requirements": [
+              "accusative"
+            ]
+          }
+        }
+      ],
+      "example_sentences": [
+        {
+          "de": "Er deutet auf das Bild.",
+          "en": "He points to the picture.",
+          "exercise_type": [
+            "fill_blank",
+            "translate"
+          ]
+        },
+        {
+          "de": "Wie deutest du dieses Zeichen?",
+          "en": "How do you interpret this sign?",
+          "exercise_type": [
+            "fill_blank"
+          ]
+        }
+      ],
+      "grammar": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "'deuten auf' = to point at (accusative). 'deuten' = to interpret (accusative).",
+        "dual_case": false
+      },
+      "tags": [
+        "b1"
+      ]
+    },
+    {
+      "id": "verb_wirken",
+      "root": "wirken",
+      "english": "to have an effect / to work",
+      "type": "weak",
+      "frequency_rank": 110,
+      "module": "verbs",
+      "unlock_level": 1,
+      "conjugation": {
+        "present": {
+          "ich": "wirke",
+          "du": "wirkst",
+          "er_sie_es": "wirkt",
+          "wir": "wirken",
+          "ihr": "wirkt",
+          "sie_Sie": "wirken"
+        },
+        "past_participle": "gewirkt",
+        "auxiliary": "haben"
+      },
+      "prefix_variants": [
+        {
+          "id": "verb_bewirken",
+          "prefix": "be",
+          "word": "bewirken",
+          "english": "to bring about / to cause",
+          "separable": false,
+          "notes": "Inseparable. Takes accusative.",
+          "grammar": {
+            "case_requirements": [
+              "accusative"
+            ]
+          }
+        },
+        {
+          "id": "verb_auswirken",
+          "prefix": "aus",
+          "word": "auswirken",
+          "english": "to affect / to have an effect",
+          "separable": true,
+          "notes": "Separable reflexive. \"sich auswirken auf\" = to affect.",
+          "grammar": {
+            "case_requirements": [
+              "none"
+            ]
+          }
+        }
+      ],
+      "example_sentences": [
+        {
+          "de": "Das Medikament wirkt schnell.",
+          "en": "The medication works quickly.",
+          "exercise_type": [
+            "fill_blank",
+            "translate"
+          ]
+        },
+        {
+          "de": "Er wirkt sehr entspannt.",
+          "en": "He appears very relaxed.",
+          "exercise_type": [
+            "fill_blank"
+          ]
+        }
+      ],
+      "grammar": {
+        "transitivity": "intransitive",
+        "case_requirements": [
+          "nominative"
+        ],
+        "notes_en": "'wirken' is intransitive — the subject causes an effect or creates an impression.",
+        "dual_case": false
+      },
+      "tags": [
+        "b1"
+      ]
+    },
+    {
+      "id": "verb_lehnen",
+      "root": "lehnen",
+      "english": "to lean",
+      "type": "weak",
+      "frequency_rank": 111,
+      "module": "verbs",
+      "unlock_level": 1,
+      "conjugation": {
+        "present": {
+          "ich": "lehne",
+          "du": "lehnst",
+          "er_sie_es": "lehnt",
+          "wir": "lehnen",
+          "ihr": "lehnt",
+          "sie_Sie": "lehnen"
+        },
+        "past_participle": "gelehnt",
+        "auxiliary": "haben"
+      },
+      "prefix_variants": [
+        {
+          "id": "verb_ablehnen",
+          "prefix": "ab",
+          "word": "ablehnen",
+          "english": "to reject / to decline",
+          "separable": true,
+          "notes": "Separable. Takes accusative.",
+          "grammar": {
+            "case_requirements": [
+              "accusative"
+            ]
+          }
+        }
+      ],
+      "example_sentences": [
+        {
+          "de": "Er lehnt sich gegen die Wand.",
+          "en": "He leans against the wall.",
+          "exercise_type": [
+            "fill_blank",
+            "translate"
+          ]
+        },
+        {
+          "de": "Sie lehnt das Fahrrad an den Baum.",
+          "en": "She leans the bike against the tree.",
+          "exercise_type": [
+            "fill_blank"
+          ]
+        }
+      ],
+      "grammar": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "'lehnen' takes accusative (thing leaned) with 'an + accusative' (against). Reflexive 'sich lehnen' = to lean oneself.",
+        "dual_case": false
+      },
+      "tags": [
+        "b1"
+      ]
+    },
+    {
+      "id": "verb_weisen",
+      "root": "weisen",
+      "english": "to point / direct",
+      "type": "strong",
+      "frequency_rank": 112,
+      "module": "verbs",
+      "unlock_level": 1,
+      "conjugation": {
+        "present": {
+          "ich": "weise",
+          "du": "weist",
+          "er_sie_es": "weist",
+          "wir": "weisen",
+          "ihr": "weist",
+          "sie_Sie": "weisen"
+        },
+        "past_participle": "gewiesen",
+        "auxiliary": "haben"
+      },
+      "prefix_variants": [
+        {
+          "id": "verb_beweisen",
+          "prefix": "be",
+          "word": "beweisen",
+          "english": "to prove",
+          "separable": false,
+          "notes": "Inseparable. Takes accusative.",
+          "grammar": {
+            "case_requirements": [
+              "accusative"
+            ]
+          }
+        },
+        {
+          "id": "verb_hinweisen",
+          "prefix": "hin",
+          "word": "hinweisen",
+          "english": "to point out / to refer to",
+          "separable": true,
+          "notes": "Separable. Takes \"auf + accusative\".",
+          "grammar": {
+            "case_requirements": [
+              "none"
+            ]
+          }
+        }
+      ],
+      "example_sentences": [
+        {
+          "de": "Er weist mir den Weg.",
+          "en": "He shows me the way.",
+          "exercise_type": [
+            "fill_blank",
+            "translate"
+          ]
+        },
+        {
+          "de": "Sie weist den Besucher zum Ausgang.",
+          "en": "She directs the visitor to the exit.",
+          "exercise_type": [
+            "fill_blank"
+          ]
+        }
+      ],
+      "grammar": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative",
+          "dative"
+        ],
+        "notes_en": "'weisen' takes dative (person) + accusative (direction). 'auf etw. weisen' = to point at something.",
+        "dual_case": true
+      },
+      "tags": [
         "b2"
+      ]
+    },
+    {
+      "id": "verb_gleichen",
+      "root": "gleichen",
+      "english": "to resemble / equal",
+      "type": "strong",
+      "frequency_rank": 113,
+      "module": "verbs",
+      "unlock_level": 1,
+      "conjugation": {
+        "present": {
+          "ich": "gleiche",
+          "du": "gleichst",
+          "er_sie_es": "gleicht",
+          "wir": "gleichen",
+          "ihr": "gleicht",
+          "sie_Sie": "gleichen"
+        },
+        "past_participle": "geglichen",
+        "auxiliary": "haben"
+      },
+      "prefix_variants": [
+        {
+          "id": "verb_vergleichen",
+          "prefix": "ver",
+          "word": "vergleichen",
+          "english": "to compare",
+          "separable": false,
+          "notes": "Inseparable. Takes accusative + \"mit + dative\".",
+          "grammar": {
+            "case_requirements": [
+              "accusative"
+            ]
+          }
+        }
+      ],
+      "example_sentences": [
+        {
+          "de": "Er gleicht seinem Vater sehr.",
+          "en": "He greatly resembles his father.",
+          "exercise_type": [
+            "fill_blank",
+            "translate"
+          ]
+        },
+        {
+          "de": "Die beiden Häuser gleichen sich kaum.",
+          "en": "The two houses barely resemble each other.",
+          "exercise_type": [
+            "fill_blank"
+          ]
+        }
+      ],
+      "grammar": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "dative"
+        ],
+        "notes_en": "'gleichen' takes the dative. 'Er gleicht ihm' = He resembles him (dative, not accusative).",
+        "dual_case": false
+      },
+      "tags": [
+        "b2"
+      ]
+    },
+    {
+      "id": "verb_meiden",
+      "root": "meiden",
+      "english": "to avoid",
+      "type": "strong",
+      "frequency_rank": 114,
+      "module": "verbs",
+      "unlock_level": 1,
+      "conjugation": {
+        "present": {
+          "ich": "meide",
+          "du": "meidest",
+          "er_sie_es": "meidet",
+          "wir": "meiden",
+          "ihr": "meidet",
+          "sie_Sie": "meiden"
+        },
+        "past_participle": "gemieden",
+        "auxiliary": "haben"
+      },
+      "prefix_variants": [
+        {
+          "id": "verb_vermeiden",
+          "prefix": "ver",
+          "word": "vermeiden",
+          "english": "to avoid",
+          "separable": false,
+          "notes": "Inseparable. Takes accusative.",
+          "grammar": {
+            "case_requirements": [
+              "accusative"
+            ]
+          }
+        }
+      ],
+      "example_sentences": [
+        {
+          "de": "Er meidet Menschenmengen.",
+          "en": "He avoids crowds.",
+          "exercise_type": [
+            "fill_blank",
+            "translate"
+          ]
+        },
+        {
+          "de": "Sie versucht, ihn zu meiden.",
+          "en": "She tries to avoid him.",
+          "exercise_type": [
+            "fill_blank"
+          ]
+        }
+      ],
+      "grammar": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "'meiden' takes a direct object in the accusative.",
+        "dual_case": false
+      },
+      "tags": [
+        "b1"
       ]
     }
   ],

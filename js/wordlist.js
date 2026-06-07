@@ -282,14 +282,18 @@ function _renderVerblisteContent(verbs) {
     const variants = (verb.prefix_variants || []).filter(pv => unlockedVariants.includes(pv.id));
     const c = verb.conjugation;
 
+    const caseReqs   = verb.grammar?.case_requirements || [];
+    const caseDots   = _renderCaseDots(caseReqs);
+
     return `
       <div class="card verb-card">
         <div class="verb-card-header" onclick="toggleVerbCard('${verb.id}')">
-          <div>
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
             <span class="verb-card-title">${verb.root}</span>
             <span class="verb-card-en"> — ${verb.english}</span>
+            ${caseDots}
           </div>
-          <div style="display:flex;align-items:center;gap:6px">
+          <div style="display:flex;align-items:center;gap:6px;flex-shrink:0">
             <span style="font-size:var(--font-size-xs);color:var(--color-text-muted);
                          text-transform:uppercase;letter-spacing:0.04em">${verb.type || ''}</span>
             <svg id="vl-arr-${verb.id}" width="16" height="16" viewBox="0 0 24 24" fill="none"
@@ -318,20 +322,26 @@ function _renderVerblisteContent(verbs) {
               <span style="color:var(--color-text-muted);margin-left:8px">(${c.auxiliary || '?'})</span>
             </div>` : ''}
 
-          ${verb.grammar ? `
-            <div class="grammar-box mt-3">
-              <div class="label" style="margin-bottom:4px">Kasus</div>
-              ${verb.grammar.notes_en || ''}
+          ${verb.grammar?.notes_en ? `
+            <div style="margin-top:var(--sp-3);font-size:var(--font-size-sm);
+                        color:var(--color-text-secondary);line-height:1.5">
+              ${verb.grammar.notes_en}
             </div>` : ''}
 
           ${variants.length > 0 ? `
             <div class="label mt-4" style="margin-bottom:var(--sp-2)">Freigeschaltete Variationen</div>
-            ${variants.map(pv => `
+            ${variants.map(pv => {
+              const pvCaseDots = pv.grammar ? _renderCaseDots(pv.grammar.case_requirements || []) : '';
+              return `
               <div class="variant-row">
                 <span>• <span class="variant-word">${pv.word}</span></span>
                 <span style="color:var(--color-text-secondary)">${pv.english}</span>
-                <span class="tag">${pv.separable ? 'TRENNBAR' : 'UNTRENNBAR'}</span>
-              </div>`).join('')}` : ''}
+                <div style="display:flex;align-items:center;gap:6px">
+                  ${pvCaseDots}
+                  <span class="tag">${pv.separable ? 'TRENNBAR' : 'UNTRENNBAR'}</span>
+                </div>
+              </div>`;
+            }).join('')}` : ''}
         </div>
       </div>`;
   }).join('');
@@ -343,6 +353,42 @@ function toggleVerbCard(verbId) {
   const isOpen = det.classList.contains('open');
   det.classList.toggle('open', !isOpen);
   arr.style.transform = isOpen ? '' : 'rotate(180deg)';
+}
+
+// ═══════════════════════════════════════════════════════
+// CASE COLOR DOTS — shared by Verbliste and Präpositionsliste
+// ═══════════════════════════════════════════════════════
+
+// Normalize any case string to one of: akkusativ | dativ | nominativ | genitiv | null
+function _normalizeCase(c) {
+  if (!c) return null;
+  const lc = c.toLowerCase();
+  if (lc.includes('accus') || lc.includes('akkus')) return 'akkusativ';
+  if (lc.includes('dativ') || lc.includes('dative'))  return 'dativ';
+  if (lc.includes('nomin'))                            return 'nominativ';
+  if (lc.includes('genit'))                            return 'genitiv';
+  return null;
+}
+
+// Build HTML for one or more colored dots from an array of case strings
+function _renderCaseDots(casesArray) {
+  if (!casesArray || casesArray.length === 0) return '';
+  const normalized = [...new Set(casesArray.map(_normalizeCase).filter(Boolean))];
+  if (normalized.length === 0) return '';
+  const dots = normalized.map(c =>
+    `<span class="case-dot ${c}" onclick="showCaseLegend()" title="${c.charAt(0).toUpperCase() + c.slice(1)}"></span>`
+  ).join('');
+  return `<span class="case-dot-group">${dots}</span>`;
+}
+
+function showCaseLegend() {
+  const el = document.getElementById('case-legend-overlay');
+  if (el) el.classList.add('visible');
+}
+
+function hideCaseLegend() {
+  const el = document.getElementById('case-legend-overlay');
+  if (el) el.classList.remove('visible');
 }
 
 // --- Shared pronunciation helper ---

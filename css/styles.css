@@ -1221,3 +1221,61 @@ button {
   border-color: var(--color-green-dark);
   color: #FFFFFF;
 }
+
+/* ═══════════════════════════════
+   CASE COLOR DOTS
+═══════════════════════════════ */
+
+.case-dot {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(0,0,0,0.15);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: transform 0.12s, box-shadow 0.12s;
+}
+.case-dot:hover {
+  transform: scale(1.25);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+}
+.case-dot.akkusativ  { background: #FFBFBF; }
+.case-dot.dativ      { background: #B8D8FF; }
+.case-dot.nominativ  { background: #D8D8D8; }
+.case-dot.genitiv    { background: #FFE87A; }
+
+.case-dot-group {
+  display: inline-flex;
+  gap: 5px;
+  align-items: center;
+}
+
+/* Case legend popup */
+.case-legend-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  background: rgba(0,0,0,0.35);
+  align-items: center;
+  justify-content: center;
+}
+.case-legend-overlay.visible {
+  display: flex;
+}
+.case-legend-card {
+  background: var(--color-surface);
+  border-radius: var(--r-lg);
+  padding: var(--sp-5);
+  width: min(300px, 90vw);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.22);
+}
+.case-legend-row {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp-3);
+  padding: var(--sp-3) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+.case-legend-row:last-child { border-bottom: none; }

@@ -1917,7 +1917,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ die Party ab. (absagen — er/sie/es, present)",
+      "de": "Er _____ die Party ab.",
       "en": "He cancels the party.",
       "show_english": true
     },
@@ -1992,7 +1992,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Ich _____ meinen Besuch _____. (ansagen — ich, present)",
+      "de": "Ich _____ meinen Besuch _____.",
       "en": "I announce my visit.",
       "show_english": true
     },
@@ -2067,7 +2067,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Was _____ das über seinen Charakter _____? (aussagen — es, present)",
+      "de": "Was _____ das über seinen Charakter _____?",
       "en": "What does that say about his character?",
       "show_english": true
     },
@@ -2142,7 +2142,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das Geschäft _____ um neun Uhr _____. (aufmachen — es, present)",
+      "de": "Das Geschäft _____ um neun Uhr _____.",
       "en": "The shop opens at nine o'clock.",
       "show_english": true
     },
@@ -2217,7 +2217,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ seinen Koffer _____. (zumachen — er, present)",
+      "de": "Er _____ seinen Koffer _____.",
       "en": "He closes his suitcase.",
       "show_english": true
     },
@@ -2292,7 +2292,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das _____ mir nichts _____. (ausmachen — es, present)",
+      "de": "Das _____ mir nichts _____.",
       "en": "That doesn't bother me.",
       "show_english": true
     },
@@ -2367,7 +2367,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das Licht _____ plötzlich _____. (ausgehen — es, present)",
+      "de": "Das Licht _____ plötzlich _____.",
       "en": "The light suddenly goes out.",
       "show_english": true
     },
@@ -2442,7 +2442,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Die Party _____ um acht _____. (losgehen — sie, present)",
+      "de": "Die Party _____ um acht _____.",
       "en": "The party starts at eight.",
       "show_english": true
     },
@@ -2517,7 +2517,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wir _____ nicht auf seine Forderungen _____. (eingehen — wir, present)",
+      "de": "Wir _____ nicht auf seine Forderungen _____.",
       "en": "We do not agree to his demands.",
       "show_english": true
     },
@@ -2592,7 +2592,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Mir _____ der Appetit. (vergehen — er/sie/es, present)",
+      "de": "Mir _____ der Appetit.",
       "en": "I'm losing my appetite.",
       "show_english": true
     },
@@ -2667,7 +2667,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Es _____ auf die Situation _____. (ankommen — es, present)",
+      "de": "Es _____ auf die Situation _____.",
       "en": "It depends on the situation.",
       "show_english": true
     },
@@ -2742,7 +2742,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das _____ dir gut! (bekommen — es, present)",
+      "de": "Das _____ dir gut!",
       "en": "That agrees with you!",
       "show_english": true
     },
@@ -2817,7 +2817,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Solche Fehler _____ häufig _____. (vorkommen — sie, present)",
+      "de": "Solche Fehler _____ häufig _____.",
       "en": "Such errors occur frequently.",
       "show_english": true
     },
@@ -2892,7 +2892,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wie _____ das Wetter morgen _____? (aussehen — es, present)",
+      "de": "Wie _____ das Wetter morgen _____?",
       "en": "What will the weather look like tomorrow?",
       "show_english": true
     },
@@ -2967,7 +2967,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Man _____ ihr die Müdigkeit _____. (ansehen — man, present)",
+      "de": "Man _____ ihr die Müdigkeit _____.",
       "en": "You can see the tiredness in her face.",
       "show_english": true
     },
@@ -3042,7 +3042,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Der Plan _____ drei Phasen _____. (vorsehen — er, present)",
+      "de": "Der Plan _____ drei Phasen _____.",
       "en": "The plan provides for three phases.",
       "show_english": true
     },
@@ -3117,7 +3117,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Ich _____ mich auf dich. (verlassen — reflexive, ich, present)",
+      "de": "Ich _____ mich auf dich.",
       "en": "I rely on you.",
       "show_english": true
     },
@@ -3192,7 +3192,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ seinen Ärger an mir _____. (auslassen — er, present)",
+      "de": "Er _____ seinen Ärger an mir _____.",
       "en": "He vents his anger on me.",
       "show_english": true
     },
@@ -3267,7 +3267,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Ich _____ mich nicht auf diesen Deal _____. (einlassen — reflexive, ich, present)",
+      "de": "Ich _____ mich nicht auf diesen Deal _____.",
       "en": "I am not getting involved in this deal.",
       "show_english": true
     },
@@ -3342,7 +3342,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ sich gut mit ihr. (verstehen — reflexive, er, present)",
+      "de": "Er _____ sich gut mit ihr.",
       "en": "He gets along well with her.",
       "show_english": true
     },
@@ -3417,7 +3417,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wann _____ du morgens _____? (aufstehen — du, present)",
+      "de": "Wann _____ du morgens _____?",
       "en": "When do you get up in the morning?",
       "show_english": true
     },
@@ -3492,7 +3492,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das Team _____ aus fünf Mitgliedern. (bestehen — es, present)",
+      "de": "Das Team _____ aus fünf Mitgliedern.",
       "en": "The team consists of five members.",
       "show_english": true
     },
@@ -3567,7 +3567,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Kinder _____ oft Geschichten. (erfinden — sie [plural], present)",
+      "de": "Kinder _____ oft Geschichten.",
       "en": "Children often make up stories.",
       "show_english": true
     },
@@ -3642,7 +3642,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wo _____ die Konferenz _____? (stattfinden — sie, present)",
+      "de": "Wo _____ die Konferenz _____?",
       "en": "Where does the conference take place?",
       "show_english": true
     },
@@ -3717,7 +3717,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ große Freude dabei. (empfinden — er, present)",
+      "de": "Er _____ große Freude dabei.",
       "en": "He feels great joy in it.",
       "show_english": true
     },
@@ -3792,7 +3792,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Die Konsequenzen _____ nicht _____. (ausbleiben — sie, present)",
+      "de": "Die Konsequenzen _____ nicht _____.",
       "en": "The consequences won't fail to materialise.",
       "show_english": true
     },
@@ -3867,7 +3867,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wie _____ wir in dieser Angelegenheit? (verbleiben — wir, present)",
+      "de": "Wie _____ wir in dieser Angelegenheit?",
       "en": "How do we leave things in this matter?",
       "show_english": true
     },
@@ -3942,7 +3942,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Es _____ keine andere Wahl _____. (überbleiben — es, present)",
+      "de": "Es _____ keine andere Wahl _____.",
       "en": "There is no other choice left.",
       "show_english": true
     },
@@ -4017,7 +4017,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Ein Irrtum _____ _____. (vorliegen — er, present)",
+      "de": "Ein Irrtum _____ _____.",
       "en": "There is a mistake.",
       "show_english": true
     },
@@ -4092,7 +4092,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Es _____ _____, dass er gelogen hat. (naheliegen — es, present)",
+      "de": "Es _____ _____, dass er gelogen hat.",
       "en": "It stands to reason that he lied.",
       "show_english": true
     },
@@ -4167,7 +4167,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Sie _____ lange über das Problem _____. (nachdenken — sie [singular], present)",
+      "de": "Sie _____ lange über das Problem _____.",
       "en": "She thinks for a long time about the problem.",
       "show_english": true
     },
@@ -4242,7 +4242,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Man muss _____, dass er krank war. (bedenken — modal context)",
+      "de": "Man muss _____, dass er krank war.",
       "en": "One must bear in mind that he was ill.",
       "show_english": true
     },
@@ -4317,7 +4317,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Die Industrie _____ völlig _____. (umdenken — sie, present)",
+      "de": "Die Industrie _____ völlig _____.",
       "en": "Industry is completely rethinking.",
       "show_english": true
     },
@@ -4392,7 +4392,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ das Angebot _____. (annehmen — er, present)",
+      "de": "Er _____ das Angebot _____.",
       "en": "He accepts the offer.",
       "show_english": true
     },
@@ -4467,7 +4467,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Die Temperatur _____ in der Nacht _____. (abnehmen — sie, present)",
+      "de": "Die Temperatur _____ in der Nacht _____.",
       "en": "The temperature decreases at night.",
       "show_english": true
     },
@@ -4542,7 +4542,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Sie _____ in letzter Zeit _____. (zunehmen — sie [singular], present)",
+      "de": "Sie _____ in letzter Zeit _____.",
       "en": "She has been gaining weight lately.",
       "show_english": true
     },
@@ -4617,7 +4617,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Die Regierung _____ nichts dagegen. (unternehmen — sie, present)",
+      "de": "Die Regierung _____ nichts dagegen.",
       "en": "The government does nothing about it.",
       "show_english": true
     },
@@ -4692,7 +4692,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wir _____ ihn zur Pünktlichkeit _____. (anhalten — wir, present)",
+      "de": "Wir _____ ihn zur Pünktlichkeit _____.",
       "en": "We urge him to be punctual.",
       "show_english": true
     },
@@ -4767,7 +4767,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wo _____ du dich zurzeit _____? (aufhalten — reflexive, du, present)",
+      "de": "Wo _____ du dich zurzeit _____?",
       "en": "Where are you staying at the moment?",
       "show_english": true
     },
@@ -4842,7 +4842,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ die Ruhe. (behalten — er, present)",
+      "de": "Er _____ die Ruhe.",
       "en": "He keeps calm.",
       "show_english": true
     },
@@ -4917,7 +4917,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das Denkmal muss gut _____ werden. (erhalten — infinitive passive)",
+      "de": "Das Denkmal muss gut _____ werden.",
       "en": "The monument must be well maintained.",
       "show_english": true
     },
@@ -4992,7 +4992,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Die Lehrerin _____ die Hefte _____. (ausgeben — sie, present)",
+      "de": "Die Lehrerin _____ die Hefte _____.",
       "en": "The teacher hands out the notebooks.",
       "show_english": true
     },
@@ -5067,7 +5067,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Die Lehrerin _____ viele Hausaufgaben _____. (aufgeben — sie, present)",
+      "de": "Die Lehrerin _____ viele Hausaufgaben _____.",
       "en": "The teacher assigns a lot of homework.",
       "show_english": true
     },
@@ -5142,7 +5142,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ immer mit seinem neuen Auto _____. (angeben — er, present)",
+      "de": "Er _____ immer mit seinem neuen Auto _____.",
       "en": "He always shows off his new car.",
       "show_english": true
     },
@@ -5217,7 +5217,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ immer Blumen _____. (mitbringen — er, present)",
+      "de": "Er _____ immer Blumen _____.",
       "en": "He always brings flowers along.",
       "show_english": true
     },
@@ -5292,7 +5292,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das _____ nichts _____. (einbringen — es, present)",
+      "de": "Das _____ nichts _____.",
       "en": "That brings in nothing.",
       "show_english": true
     },
@@ -5367,7 +5367,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ viel Zeit mit Lesen. (verbringen — er, present)",
+      "de": "Er _____ viel Zeit mit Lesen.",
       "en": "He spends a lot of time reading.",
       "show_english": true
     },
@@ -5442,7 +5442,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Nur wenige Tiere _____ den Winter. (überleben — sie, present)",
+      "de": "Nur wenige Tiere _____ den Winter.",
       "en": "Only few animals survive the winter.",
       "show_english": true
     },
@@ -5517,7 +5517,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wie _____ verschiedene Kulturen _____? (zusammenleben — sie, present)",
+      "de": "Wie _____ verschiedene Kulturen _____?",
       "en": "How do different cultures live together?",
       "show_english": true
     },
@@ -5592,7 +5592,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das Design _____ mich sehr _____. (ansprechen — es, present)",
+      "de": "Das Design _____ mich sehr _____.",
       "en": "The design appeals to me a lot.",
       "show_english": true
     },
@@ -5667,7 +5667,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Der Chef _____ die Ergebnisse mit dem Team. (besprechen — er, present)",
+      "de": "Der Chef _____ die Ergebnisse mit dem Team.",
       "en": "The boss discusses the results with the team.",
       "show_english": true
     },
@@ -5742,7 +5742,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er hat sich deutlich für den Plan _____. (aussprechen — reflexive Perfekt)",
+      "de": "Er hat sich deutlich für den Plan _____.",
       "en": "He has clearly expressed himself in favour of the plan.",
       "show_english": true
     },
@@ -5817,7 +5817,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ acht Stunden am Tag. (arbeiten — er, present)",
+      "de": "Er _____ acht Stunden am Tag.",
       "en": "He works eight hours a day.",
       "show_english": true
     },
@@ -5892,7 +5892,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "_____ du ihn? (kennen — du, present)",
+      "de": "_____ du ihn?",
       "en": "Do you know him?",
       "show_english": true
     },
@@ -5967,7 +5967,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ jeden Tag neue Vokabeln. (lernen — er, present)",
+      "de": "Er _____ jeden Tag neue Vokabeln.",
       "en": "He learns new vocabulary every day.",
       "show_english": true
     },
@@ -6042,7 +6042,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ sehr gut Klavier. (spielen — er, present)",
+      "de": "Er _____ sehr gut Klavier.",
       "en": "He plays piano very well.",
       "show_english": true
     },
@@ -6117,7 +6117,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Sie _____ jeden Morgen frisches Brot. (kaufen — sie [singular], present)",
+      "de": "Sie _____ jeden Morgen frisches Brot.",
       "en": "She buys fresh bread every morning.",
       "show_english": true
     },
@@ -6192,7 +6192,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ die Antwort. (wissen — er, present)",
+      "de": "Er _____ die Antwort.",
       "en": "He knows the answer.",
       "show_english": true
     },
@@ -6267,7 +6267,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Ich _____ dir das neue Büro. (zeigen — ich, present)",
+      "de": "Ich _____ dir das neue Büro.",
       "en": "I'll show you the new office.",
       "show_english": true
     },
@@ -6342,7 +6342,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Sie _____ das Unternehmen seit zehn Jahren. (führen — sie [singular], present)",
+      "de": "Sie _____ das Unternehmen seit zehn Jahren.",
       "en": "She has been leading the company for ten years.",
       "show_english": true
     },
@@ -6417,7 +6417,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Du _____ sehr schnell! (laufen — du, present)",
+      "de": "Du _____ sehr schnell!",
       "en": "You run very fast!",
       "show_english": true
     },
@@ -6492,7 +6492,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Sie _____ gerade eine E-Mail. (schreiben — sie [singular], present)",
+      "de": "Sie _____ gerade eine E-Mail.",
       "en": "She is writing an email right now.",
       "show_english": true
     },
@@ -6567,7 +6567,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ gerade die Zeitung. (lesen — er, present)",
+      "de": "Er _____ gerade die Zeitung.",
       "en": "He is reading the newspaper right now.",
       "show_english": true
     },
@@ -6642,7 +6642,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wie schnell _____ du? (fahren — du, present)",
+      "de": "Wie schnell _____ du?",
       "en": "How fast are you driving?",
       "show_english": true
     },
@@ -6717,7 +6717,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ zu viel Zucker. (essen — er, present)",
+      "de": "Er _____ zu viel Zucker.",
       "en": "He eats too much sugar.",
       "show_english": true
     },
@@ -6792,7 +6792,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Sie _____ lieber Tee als Kaffee. (trinken — sie [singular], present)",
+      "de": "Sie _____ lieber Tee als Kaffee.",
       "en": "She prefers to drink tea rather than coffee.",
       "show_english": true
     },
@@ -6867,7 +6867,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wie viele Stunden _____ du? (schlafen — du, present)",
+      "de": "Wie viele Stunden _____ du?",
       "en": "How many hours do you sleep?",
       "show_english": true
     },
@@ -6942,7 +6942,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ eine wichtige Entscheidung. (treffen — er, present)",
+      "de": "Er _____ eine wichtige Entscheidung.",
       "en": "He makes an important decision.",
       "show_english": true
     },
@@ -7017,7 +7017,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das Museum _____ um zehn Uhr. (öffnen — es, present)",
+      "de": "Das Museum _____ um zehn Uhr.",
       "en": "The museum opens at ten o'clock.",
       "show_english": true
     },
@@ -7092,7 +7092,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Ich _____ das Fenster. (schließen — ich, present)",
+      "de": "Ich _____ das Fenster.",
       "en": "I close the window.",
       "show_english": true
     },
@@ -7167,7 +7167,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ eine neue Wohnung. (suchen — er, present)",
+      "de": "Er _____ eine neue Wohnung.",
       "en": "He is looking for a new flat.",
       "show_english": true
     },
@@ -7242,7 +7242,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ seiner Mutter beim Kochen. (helfen — er, present)",
+      "de": "Er _____ seiner Mutter beim Kochen.",
       "en": "He helps his mother with cooking.",
       "show_english": true
     },
@@ -7317,7 +7317,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wo _____ du? (wohnen — du, present)",
+      "de": "Wo _____ du?",
       "en": "Where do you live?",
       "show_english": true
     },
@@ -7392,7 +7392,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wir _____ nächste Woche nach Spanien. (reisen — wir, present)",
+      "de": "Wir _____ nächste Woche nach Spanien.",
       "en": "We are travelling to Spain next week.",
       "show_english": true
     },
@@ -7467,7 +7467,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ den Passanten nach dem Weg. (fragen — er, present)",
+      "de": "Er _____ den Passanten nach dem Weg.",
       "en": "He asks the passer-by for directions.",
       "show_english": true
     },
@@ -7542,7 +7542,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Sie _____ schnell auf die E-Mail. (antworten — sie [singular], present)",
+      "de": "Sie _____ schnell auf die E-Mail.",
       "en": "She replies to the email quickly.",
       "show_english": true
     },
@@ -7617,7 +7617,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "_____ du mich? (hören — du, present)",
+      "de": "_____ du mich?",
       "en": "Can you hear me?",
       "show_english": true
     },
@@ -7692,7 +7692,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Du _____ das nicht zu tun. (brauchen — du, present)",
+      "de": "Du _____ das nicht zu tun.",
       "en": "You don't need to do that.",
       "show_english": true
     },
@@ -7767,7 +7767,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wir _____ mit dem ersten Kapitel. (beginnen — wir, present)",
+      "de": "Wir _____ mit dem ersten Kapitel.",
       "en": "We begin with the first chapter.",
       "show_english": true
     },
@@ -7842,7 +7842,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Der Lehrer _____ die Grammatikregel. (erklären — er, present)",
+      "de": "Der Lehrer _____ die Grammatikregel.",
       "en": "The teacher explains the grammar rule.",
       "show_english": true
     },
@@ -7917,7 +7917,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wer _____ hier? (entscheiden — er, present)",
+      "de": "Wer _____ hier?",
       "en": "Who decides here?",
       "show_english": true
     },
@@ -7992,7 +7992,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ das Kind auf den Stuhl. (setzen — er, present)",
+      "de": "Er _____ das Kind auf den Stuhl.",
       "en": "He puts the child on the chair.",
       "show_english": true
     },
@@ -8067,7 +8067,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ eine Frage. (stellen — er, present)",
+      "de": "Er _____ eine Frage.",
       "en": "He asks a question.",
       "show_english": true
     },
@@ -8142,7 +8142,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Ich _____ mich für eine Stunde hin. (legen — ich, present)",
+      "de": "Ich _____ mich für eine Stunde hin.",
       "en": "I lie down for an hour.",
       "show_english": true
     },
@@ -8217,7 +8217,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Die Familie _____ nach Berlin. (ziehen — sie [plural], present)",
+      "de": "Die Familie _____ nach Berlin.",
       "en": "The family is moving to Berlin.",
       "show_english": true
     },
@@ -8292,7 +8292,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wie lange _____ du schon? (warten — du, present)",
+      "de": "Wie lange _____ du schon?",
       "en": "How long have you been waiting?",
       "show_english": true
     },
@@ -8367,7 +8367,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wer _____ die Rechnung? (zahlen — er, present)",
+      "de": "Wer _____ die Rechnung?",
       "en": "Who pays the bill?",
       "show_english": true
     },
@@ -8442,7 +8442,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Die Mannschaft _____ das Spiel. (verlieren — sie, present)",
+      "de": "Die Mannschaft _____ das Spiel.",
       "en": "The team loses the game.",
       "show_english": true
     },
@@ -8517,7 +8517,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wir _____ Zeit damit. (gewinnen — wir, present)",
+      "de": "Wir _____ Zeit damit.",
       "en": "We gain time with this.",
       "show_english": true
     },
@@ -8592,7 +8592,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Diese Idee _____ nicht hierher. (gehören — sie, present)",
+      "de": "Diese Idee _____ nicht hierher.",
       "en": "This idea doesn't belong here.",
       "show_english": true
     },
@@ -8667,7 +8667,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das _____ mir sehr viel. (bedeuten — es, present)",
+      "de": "Das _____ mir sehr viel.",
       "en": "That means a lot to me.",
       "show_english": true
     },
@@ -8742,7 +8742,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das _____ mir nie wieder! (passieren — es, present)",
+      "de": "Das _____ mir nie wieder!",
       "en": "That will never happen to me again!",
       "show_english": true
     },
@@ -8817,7 +8817,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Kannst du mir einen Zwanziger _____? (wechseln — infinitive)",
+      "de": "Kannst du mir einen Zwanziger _____?",
       "en": "Can you change a twenty for me?",
       "show_english": true
     },
@@ -8892,7 +8892,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das Kind _____ sehr gut. (rechnen — es, present)",
+      "de": "Das Kind _____ sehr gut.",
       "en": "The child is very good at maths.",
       "show_english": true
     },
@@ -8967,7 +8967,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ mir müde. (erscheinen — er, present)",
+      "de": "Er _____ mir müde.",
       "en": "He seems tired to me.",
       "show_english": true
     },
@@ -9042,7 +9042,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ es noch einmal. (versuchen — er, present)",
+      "de": "Er _____ es noch einmal.",
       "en": "He tries it one more time.",
       "show_english": true
     },
@@ -9117,7 +9117,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Daran lässt sich nichts _____. (ändern — infinitive)",
+      "de": "Daran lässt sich nichts _____.",
       "en": "Nothing can be changed about that.",
       "show_english": true
     },
@@ -9192,7 +9192,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das Restaurant _____ vegetarische Gerichte _____. (anbieten — es, present)",
+      "de": "Das Restaurant _____ vegetarische Gerichte _____.",
       "en": "The restaurant offers vegetarian dishes.",
       "show_english": true
     },
@@ -9267,7 +9267,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ öffentliche Verkehrsmittel. (benutzen — er, present)",
+      "de": "Er _____ öffentliche Verkehrsmittel.",
       "en": "He uses public transport.",
       "show_english": true
     },
@@ -9342,7 +9342,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Ich _____ mich für Geschichte. (interessieren — ich, reflexive, present)",
+      "de": "Ich _____ mich für Geschichte.",
       "en": "I am interested in history.",
       "show_english": true
     },
@@ -9417,7 +9417,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das _____ mich! (freuen — es, present)",
+      "de": "Das _____ mich!",
       "en": "That pleases me! I'm glad!",
       "show_english": true
     },
@@ -9492,7 +9492,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ keinen Schmerz. (fühlen — er, present)",
+      "de": "Er _____ keinen Schmerz.",
       "en": "He feels no pain.",
       "show_english": true
     },
@@ -9567,7 +9567,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ eine neue Lösung _____. (vorschlagen — er, present)",
+      "de": "Er _____ eine neue Lösung _____.",
       "en": "He proposes a new solution.",
       "show_english": true
     },
@@ -9642,7 +9642,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Sie _____ sich in der Diskussion. (behaupten — reflexive, sie, present)",
+      "de": "Sie _____ sich in der Diskussion.",
       "en": "She holds her own in the discussion.",
       "show_english": true
     },
@@ -9717,7 +9717,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Der Staat _____ das Recht _____. (anerkennen — er, present)",
+      "de": "Der Staat _____ das Recht _____.",
       "en": "The state recognises the right.",
       "show_english": true
     },
@@ -9792,7 +9792,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ sie von seiner Idee. (überzeugen — er, present)",
+      "de": "Er _____ sie von seiner Idee.",
       "en": "He convinces her of his idea.",
       "show_english": true
     },
@@ -9867,7 +9867,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das Komitee _____ den Antrag _____. (ablehnen — es, present)",
+      "de": "Das Komitee _____ den Antrag _____.",
       "en": "The committee rejects the application.",
       "show_english": true
     },
@@ -9942,7 +9942,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Sie _____ ihm eine Überraschung. (versprechen — sie [singular], present)",
+      "de": "Sie _____ ihm eine Überraschung.",
       "en": "She promises him a surprise.",
       "show_english": true
     },
@@ -10017,7 +10017,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das lässt sich schwer _____. (beweisen — infinitive)",
+      "de": "Das lässt sich schwer _____.",
       "en": "That is hard to prove.",
       "show_english": true
     },
@@ -10092,7 +10092,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Sie _____ jede Konfrontation. (vermeiden — sie, present)",
+      "de": "Sie _____ jede Konfrontation.",
       "en": "She avoids every confrontation.",
       "show_english": true
     },
@@ -10167,7 +10167,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Man kann das nicht _____. (vergleichen — infinitive)",
+      "de": "Man kann das nicht _____.",
       "en": "You can't compare the two.",
       "show_english": true
     },
@@ -10242,7 +10242,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ das Bild sehr genau. (beschreiben — er, present)",
+      "de": "Er _____ das Bild sehr genau.",
       "en": "He describes the picture very precisely.",
       "show_english": true
     },
@@ -10317,7 +10317,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wie _____ du mit Kritik _____? (umgehen — du, present)",
+      "de": "Wie _____ du mit Kritik _____?",
       "en": "How do you deal with criticism?",
       "show_english": true
     },
@@ -10392,7 +10392,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Ich _____ sorgfältig _____. (auswählen — ich, present)",
+      "de": "Ich _____ sorgfältig _____.",
       "en": "I select carefully.",
       "show_english": true
     },
@@ -10467,7 +10467,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Die Maßnahme _____ viel Gutes. (bewirken — sie, present)",
+      "de": "Die Maßnahme _____ viel Gutes.",
       "en": "The measure brings about a lot of good.",
       "show_english": true
     },
@@ -10542,7 +10542,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ die wichtigsten Punkte _____. (zusammenfassen — er, present)",
+      "de": "Er _____ die wichtigsten Punkte _____.",
       "en": "He summarises the most important points.",
       "show_english": true
     },
@@ -10617,7 +10617,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Der Arzt _____ auf die Risiken _____. (hinweisen — er, present)",
+      "de": "Der Arzt _____ auf die Risiken _____.",
       "en": "The doctor refers to the risks.",
       "show_english": true
     },
@@ -10692,7 +10692,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Die Polizei _____ ihn auf, das Fahrzeug zu verlassen. (auffordern — sie, present)",
+      "de": "Die Polizei _____ ihn auf, das Fahrzeug zu verlassen.",
       "en": "The police ask him to leave the vehicle.",
       "show_english": true
     },
@@ -10767,7 +10767,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Was kann man daraus _____? (schlussfolgern — infinitive)",
+      "de": "Was kann man daraus _____?",
       "en": "What can be concluded from this?",
       "show_english": true
     },
@@ -10842,7 +10842,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wie _____ sich das auf unsere Pläne _____? (auswirken — es, present)",
+      "de": "Wie _____ sich das auf unsere Pläne _____?",
       "en": "How does that affect our plans?",
       "show_english": true
     },
@@ -10917,7 +10917,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das Gesetz _____ alle Bürger. (verpflichten — es, present)",
+      "de": "Das Gesetz _____ alle Bürger.",
       "en": "The law obliges all citizens.",
       "show_english": true
     },
@@ -10992,7 +10992,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Ich möchte _____, dass ... (betonen — infinitive)",
+      "de": "Ich möchte _____, dass ...",
       "en": "I would like to emphasise that ...",
       "show_english": true
     },
@@ -11067,7 +11067,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das _____ meinen Werten. (widersprechen — es, present)",
+      "de": "Das _____ meinen Werten.",
       "en": "That contradicts my values.",
       "show_english": true
     },
@@ -11142,7 +11142,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ sich und entschuldigt sich. (überwinden — er, present)",
+      "de": "Er _____ sich und entschuldigt sich.",
       "en": "He overcomes his reluctance and apologises.",
       "show_english": true
     },
@@ -11217,7 +11217,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Es ist schwer, das Gleichgewicht aufrecht_____. (aufrechterhalten — infinitive)",
+      "de": "Es ist schwer, das Gleichgewicht aufrecht_____.",
       "en": "It is difficult to maintain the balance.",
       "show_english": true
     },
@@ -11292,7 +11292,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das muss man _____. (berücksichtigen — infinitive)",
+      "de": "Das muss man _____.",
       "en": "One must consider that.",
       "show_english": true
     },
@@ -11367,7 +11367,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Ich möchte besonders _____, dass ... (hervorheben — infinitive)",
+      "de": "Ich möchte besonders _____, dass ...",
       "en": "I would particularly like to emphasise that ...",
       "show_english": true
     },
@@ -11442,7 +11442,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Die beiden Firmen _____ seit Jahren _____. (zusammenarbeiten — sie, present)",
+      "de": "Die beiden Firmen _____ seit Jahren _____.",
       "en": "The two companies have been collaborating for years.",
       "show_english": true
     },
@@ -11517,7 +11517,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Alle _____ an dem Projekt _____. (mitarbeiten — sie, present)",
+      "de": "Alle _____ an dem Projekt _____.",
       "en": "Everyone contributes to the project.",
       "show_english": true
     },
@@ -11592,7 +11592,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das Team _____ einen neuen Plan. (erarbeiten — es, present)",
+      "de": "Das Team _____ einen neuen Plan.",
       "en": "The team works out a new plan.",
       "show_english": true
     },
@@ -11667,7 +11667,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ den Fehler sofort. (erkennen — er, present)",
+      "de": "Er _____ den Fehler sofort.",
       "en": "He immediately recognises the mistake.",
       "show_english": true
     },
@@ -11742,7 +11742,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ sie auf einer Party _____. (kennenlernen — er, present)",
+      "de": "Er _____ sie auf einer Party _____.",
       "en": "He gets to know her at a party.",
       "show_english": true
     },
@@ -11817,7 +11817,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Diese Fähigkeit lässt sich _____.  (erlernen — infinitive)",
+      "de": "Diese Fähigkeit lässt sich _____.",
       "en": "This skill can be learned.",
       "show_english": true
     },
@@ -11892,7 +11892,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ nächsten Monat _____. (auslernen — er, present)",
+      "de": "Er _____ nächsten Monat _____.",
       "en": "He finishes his apprenticeship next month.",
       "show_english": true
     },
@@ -11967,7 +11967,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das _____ sich in Berlin _____. (abspielen — es, present)",
+      "de": "Das _____ sich in Berlin _____.",
       "en": "That takes place in Berlin.",
       "show_english": true
     },
@@ -12042,7 +12042,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ nicht _____. (mitspielen — er, present)",
+      "de": "Er _____ nicht _____.",
       "en": "He is not joining in.",
       "show_english": true
     },
@@ -12117,7 +12117,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ ihr etwas _____. (vorspielen — er, present)",
+      "de": "Er _____ ihr etwas _____.",
       "en": "He pretends something to her.",
       "show_english": true
     },
@@ -12192,7 +12192,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Sie _____ im Supermarkt _____. (einkaufen — sie [singular], present)",
+      "de": "Sie _____ im Supermarkt _____.",
       "en": "She shops at the supermarket.",
       "show_english": true
     },
@@ -12267,7 +12267,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das Geschäft _____ frische Brötchen. (verkaufen — es, present)",
+      "de": "Das Geschäft _____ frische Brötchen.",
       "en": "The shop sells fresh rolls.",
       "show_english": true
     },
@@ -12342,7 +12342,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das _____ dir keiner _____! (abkaufen — er, present)",
+      "de": "Das _____ dir keiner _____!",
       "en": "Nobody will believe that from you!",
       "show_english": true
     },
@@ -12417,7 +12417,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ ihn bei der Polizei _____. (anzeigen — er, present)",
+      "de": "Er _____ ihn bei der Polizei _____.",
       "en": "He reports him to the police.",
       "show_english": true
     },
@@ -12492,7 +12492,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Die Studie _____ Mängel _____. (aufzeigen — sie, present)",
+      "de": "Die Studie _____ Mängel _____.",
       "en": "The study reveals deficiencies.",
       "show_english": true
     },
@@ -12567,7 +12567,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das Land _____ Waren aus China _____. (einführen — es, present)",
+      "de": "Das Land _____ Waren aus China _____.",
       "en": "The country imports goods from China.",
       "show_english": true
     },
@@ -12642,7 +12642,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Die Behörde _____ eine Kontrolle _____. (durchführen — sie, present)",
+      "de": "Die Behörde _____ eine Kontrolle _____.",
       "en": "The authority conducts an inspection.",
       "show_english": true
     },
@@ -12717,7 +12717,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Bitte _____ alle Gründe _____. (aufführen — formal imperative)",
+      "de": "Bitte _____ alle Gründe _____.",
       "en": "Please list all reasons.",
       "show_english": true
     },
@@ -12792,7 +12792,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wie _____ das genau _____? (ablaufen — es, present)",
+      "de": "Wie _____ das genau _____?",
       "en": "How does that work exactly?",
       "show_english": true
     },
@@ -12867,7 +12867,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wie _____ die Verhandlung? (verlaufen — sie, past)",
+      "de": "Wie _____ die Verhandlung?",
       "en": "How did the negotiation go?",
       "show_english": true
     },
@@ -12942,7 +12942,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Die Produktion _____ nächste Woche _____. (anlaufen — sie, present)",
+      "de": "Die Produktion _____ nächste Woche _____.",
       "en": "Production starts up next week.",
       "show_english": true
     },
@@ -13017,7 +13017,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ die Hausaufgaben _____. (aufschreiben — er, present)",
+      "de": "Er _____ die Hausaufgaben _____.",
       "en": "He writes down the homework.",
       "show_english": true
     },
@@ -13092,7 +13092,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Ich habe mich _____. (verschreiben — reflexive perfect)",
+      "de": "Ich habe mich _____.",
       "en": "I made a spelling mistake.",
       "show_english": true
     },
@@ -13167,7 +13167,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Die Lehrerin _____ den Text _____. (vorlesen — sie, present)",
+      "de": "Die Lehrerin _____ den Text _____.",
       "en": "The teacher reads the text aloud.",
       "show_english": true
     },
@@ -13242,7 +13242,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Man kann es ihm vom Gesicht _____. (ablesen — infinitive)",
+      "de": "Man kann es ihm vom Gesicht _____.",
       "en": "You can read it from his face.",
       "show_english": true
     },
@@ -13317,7 +13317,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wann _____ der Bus _____? (abfahren — er, present)",
+      "de": "Wann _____ der Bus _____?",
       "en": "When does the bus depart?",
       "show_english": true
     },
@@ -13392,7 +13392,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ davon erst morgen. (erfahren — er, present)",
+      "de": "Er _____ davon erst morgen.",
       "en": "He won't find out about it until tomorrow.",
       "show_english": true
     },
@@ -13467,7 +13467,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ alles _____. (aufessen — er, present)",
+      "de": "Er _____ alles _____.",
       "en": "He eats everything up.",
       "show_english": true
     },
@@ -13542,7 +13542,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ sein Bier schnell _____. (austrinken — er, present)",
+      "de": "Er _____ sein Bier schnell _____.",
       "en": "He drinks his beer quickly.",
       "show_english": true
     },
@@ -13617,7 +13617,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Ich _____ dir _____. (zutrinken — ich, present)",
+      "de": "Ich _____ dir _____.",
       "en": "I drink to you.",
       "show_english": true
     },
@@ -13692,7 +13692,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Ich _____ sofort _____. (einschlafen — ich, present)",
+      "de": "Ich _____ sofort _____.",
       "en": "I fall asleep immediately.",
       "show_english": true
     },
@@ -13767,7 +13767,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ jeden Morgen. (verschlafen — er, present)",
+      "de": "Er _____ jeden Morgen.",
       "en": "He oversleeps every morning.",
       "show_english": true
     },
@@ -13842,7 +13842,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ sie selten zu Hause _____. (antreffen — er, present)",
+      "de": "Er _____ sie selten zu Hause _____.",
       "en": "He rarely finds her at home.",
       "show_english": true
     },
@@ -13917,7 +13917,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Was mich _____... (betreffen — ich, present)",
+      "de": "Was mich _____...",
       "en": "As far as I am concerned...",
       "show_english": true
     },
@@ -13992,7 +13992,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Die Vorhersage _____ _____. (eintreffen — sie, present)",
+      "de": "Die Vorhersage _____ _____.",
       "en": "The prediction comes true.",
       "show_english": true
     },
@@ -14067,7 +14067,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Der Bürgermeister _____ die Ausstellung. (eröffnen — er, present)",
+      "de": "Der Bürgermeister _____ die Ausstellung.",
       "en": "The mayor opens the exhibition.",
       "show_english": true
     },
@@ -14142,7 +14142,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Sie _____ das Studium _____. (abschließen — sie, present)",
+      "de": "Sie _____ das Studium _____.",
       "en": "She completes her studies.",
       "show_english": true
     },
@@ -14217,7 +14217,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Der Preis _____ die Steuer _____. (einschließen — er, present)",
+      "de": "Der Preis _____ die Steuer _____.",
       "en": "The price includes the tax.",
       "show_english": true
     },
@@ -14292,7 +14292,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Die Polizei _____ nichts _____. (ausschließen — sie, present)",
+      "de": "Die Polizei _____ nichts _____.",
       "en": "The police rule nothing out.",
       "show_english": true
     },
@@ -14367,7 +14367,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ regelmäßig die Bibliothek. (besuchen — er, present)",
+      "de": "Er _____ regelmäßig die Bibliothek.",
       "en": "He visits the library regularly.",
       "show_english": true
     },
@@ -14442,7 +14442,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Die Polizei _____ den Fall. (untersuchen — sie, present)",
+      "de": "Die Polizei _____ den Fall.",
       "en": "The police investigate the case.",
       "show_english": true
     },
@@ -14517,7 +14517,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ ihr aufmerksam _____. (anhören — er, present)",
+      "de": "Er _____ ihr aufmerksam _____.",
       "en": "He listens to her attentively.",
       "show_english": true
     },
@@ -14592,7 +14592,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ mit dem Rauchen _____. (aufhören — er, present)",
+      "de": "Er _____ mit dem Rauchen _____.",
       "en": "He stops smoking.",
       "show_english": true
     },
@@ -14667,7 +14667,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das Schiff _____ langsam _____. (anfahren — es, present)",
+      "de": "Das Schiff _____ langsam _____.",
       "en": "The ship approaches slowly.",
       "show_english": true
     },
@@ -14742,7 +14742,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Kannst du mir _____? (aushelfen — infinitive)",
+      "de": "Kannst du mir _____?",
       "en": "Can you help me out?",
       "show_english": true
     },
@@ -14817,7 +14817,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Alle _____ beim Aufbau _____. (mithelfen — sie, present)",
+      "de": "Alle _____ beim Aufbau _____.",
       "en": "Everyone helps with the setup.",
       "show_english": true
     },
@@ -14892,7 +14892,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ die obere Etage. (bewohnen — er, present)",
+      "de": "Er _____ die obere Etage.",
       "en": "He occupies the upper floor.",
       "show_english": true
     },
@@ -14967,7 +14967,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wie viele Menschen _____ in dieser Stadt? (einwohnen — sie, present)",
+      "de": "Wie viele Menschen _____ in dieser Stadt?",
       "en": "How many people live in this city?",
       "show_english": true
     },
@@ -15042,7 +15042,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wann _____ ihr _____? (abreisen — ihr, present)",
+      "de": "Wann _____ ihr _____?",
       "en": "When do you all depart?",
       "show_english": true
     },
@@ -15117,7 +15117,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wir _____ am Donnerstag _____. (anreisen — wir, present)",
+      "de": "Wir _____ am Donnerstag _____.",
       "en": "We arrive on Thursday.",
       "show_english": true
     },
@@ -15192,7 +15192,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Sie _____ jedes Jahr ein neues Land. (bereisen — sie, present)",
+      "de": "Sie _____ jedes Jahr ein neues Land.",
       "en": "She tours a new country every year.",
       "show_english": true
     },
@@ -15267,7 +15267,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Ich _____ wegen eines Termins _____. (anfragen — ich, present)",
+      "de": "Ich _____ wegen eines Termins _____.",
       "en": "I enquire about an appointment.",
       "show_english": true
     },
@@ -15342,7 +15342,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wir _____ 500 Personen. (befragen — wir, present)",
+      "de": "Wir _____ 500 Personen.",
       "en": "We survey 500 people.",
       "show_english": true
     },
@@ -15417,7 +15417,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Ich _____ beim Arzt _____. (nachfragen — ich, present)",
+      "de": "Ich _____ beim Arzt _____.",
       "en": "I follow up with the doctor.",
       "show_english": true
     },
@@ -15492,7 +15492,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Können Sie meine Frage _____? (beantworten — infinitive)",
+      "de": "Können Sie meine Frage _____?",
       "en": "Can you answer my question?",
       "show_english": true
     },
@@ -15567,7 +15567,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wer _____ das? (verantworten — er, present)",
+      "de": "Wer _____ das?",
       "en": "Who takes responsibility for that?",
       "show_english": true
     },
@@ -15642,7 +15642,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Bitte _____ Sie Ihre Fahrkarte _____. (vorzeigen — formal imperative)",
+      "de": "Bitte _____ Sie Ihre Fahrkarte _____.",
       "en": "Please show your ticket.",
       "show_english": true
     },
@@ -15717,7 +15717,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das lässt sich gut _____. (gebrauchen — infinitive)",
+      "de": "Das lässt sich gut _____.",
       "en": "That can be put to good use.",
       "show_english": true
     },
@@ -15792,7 +15792,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ zu viel Energie. (verbrauchen — er, present)",
+      "de": "Er _____ zu viel Energie.",
       "en": "He consumes too much energy.",
       "show_english": true
     },
@@ -15867,7 +15867,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Die Firma _____ moderne Technologie _____. (einsetzen — sie, present)",
+      "de": "Die Firma _____ moderne Technologie _____.",
       "en": "The company deploys modern technology.",
       "show_english": true
     },
@@ -15942,7 +15942,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Sie _____ sich gegen die Konkurrenz _____. (durchsetzen — sie, present)",
+      "de": "Sie _____ sich gegen die Konkurrenz _____.",
       "en": "She asserts herself against the competition.",
       "show_english": true
     },
@@ -16017,7 +16017,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ uns ein köstliches Mahl _____. (vorsetzen — er, present)",
+      "de": "Er _____ uns ein köstliches Mahl _____.",
       "en": "He serves us a delicious meal.",
       "show_english": true
     },
@@ -16092,7 +16092,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Ich kann mir das nicht _____. (vorstellen — infinitive)",
+      "de": "Ich kann mir das nicht _____.",
       "en": "I can't imagine that.",
       "show_english": true
     },
@@ -16167,7 +16167,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ das Problem klar _____. (darstellen — er, present)",
+      "de": "Er _____ das Problem klar _____.",
       "en": "He portrays the problem clearly.",
       "show_english": true
     },
@@ -16242,7 +16242,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ den Kontakt _____. (herstellen — er, present)",
+      "de": "Er _____ den Kontakt _____.",
       "en": "He establishes contact.",
       "show_english": true
     },
@@ -16317,7 +16317,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Sie _____ einen neuen Plan _____. (vorlegen — sie, present)",
+      "de": "Sie _____ einen neuen Plan _____.",
       "en": "She presents a new plan.",
       "show_english": true
     },
@@ -16392,7 +16392,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ die Regeln _____. (festlegen — er, present)",
+      "de": "Er _____ die Regeln _____.",
       "en": "He determines the rules.",
       "show_english": true
     },
@@ -16467,7 +16467,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das Boot _____ im Hafen _____. (anlegen — es, present)",
+      "de": "Das Boot _____ im Hafen _____.",
       "en": "The boat docks in the harbour.",
       "show_english": true
     },
@@ -16542,7 +16542,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Ich _____ mich schnell _____. (umziehen — ich, present)",
+      "de": "Ich _____ mich schnell _____.",
       "en": "I change clothes quickly.",
       "show_english": true
     },
@@ -16617,7 +16617,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wann _____ ihr _____? (einziehen — ihr, present)",
+      "de": "Wann _____ ihr _____?",
       "en": "When are you all moving in?",
       "show_english": true
     },
@@ -16692,7 +16692,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ es, allein zu arbeiten. (vorziehen — er, present)",
+      "de": "Er _____ es, allein zu arbeiten.",
       "en": "He prefers to work alone.",
       "show_english": true
     },
@@ -16767,7 +16767,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ die Entwicklung _____. (abwarten — er, present)",
+      "de": "Er _____ die Entwicklung _____.",
       "en": "He waits to see how things develop.",
       "show_english": true
     },
@@ -16842,7 +16842,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ viel von ihr. (erwarten — er, present)",
+      "de": "Er _____ viel von ihr.",
       "en": "He expects a lot from her.",
       "show_english": true
     },
@@ -16917,7 +16917,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Ich _____ das. (bezahlen — ich, present)",
+      "de": "Ich _____ das.",
       "en": "I'll pay for that.",
       "show_english": true
     },
@@ -16992,7 +16992,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Ich _____ jeden Monat auf mein Konto _____. (einzahlen — ich, present)",
+      "de": "Ich _____ jeden Monat auf mein Konto _____.",
       "en": "I deposit money into my account every month.",
       "show_english": true
     },
@@ -17067,7 +17067,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Das _____ sich _____. (auszahlen — es, present)",
+      "de": "Das _____ sich _____.",
       "en": "That pays off.",
       "show_english": true
     },
@@ -17142,7 +17142,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wir _____ uns bei der Arbeit _____. (abwechseln — wir, present)",
+      "de": "Wir _____ uns bei der Arbeit _____.",
       "en": "We take turns with the work.",
       "show_english": true
     },
@@ -17217,7 +17217,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Ich _____ die Batterien _____. (auswechseln — ich, present)",
+      "de": "Ich _____ die Batterien _____.",
       "en": "I replace the batteries.",
       "show_english": true
     },
@@ -17292,7 +17292,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wie viel _____ Sie dafür? (berechnen — Sie, present)",
+      "de": "Wie viel _____ Sie dafür?",
       "en": "How much do you charge for that?",
       "show_english": true
     },
@@ -17367,7 +17367,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Ich _____ mit ihm _____. (abrechnen — ich, present)",
+      "de": "Ich _____ mit ihm _____.",
       "en": "I settle the score with him.",
       "show_english": true
     },
@@ -17442,7 +17442,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Wie _____ sich das _____? (anfühlen — es, present)",
+      "de": "Wie _____ sich das _____?",
       "en": "How does that feel?",
       "show_english": true
     },
@@ -17517,7 +17517,7 @@
     "type": "conjugation_choice",
     "difficulty": 2,
     "question": {
-      "de": "Er _____ mit den Opfern _____. (mitfühlen — er, present)",
+      "de": "Er _____ mit den Opfern _____.",
       "en": "He empathises with the victims.",
       "show_english": true
     },
@@ -17548,5 +17548,1055 @@
       "mitgelitten"
     ],
     "explanation_en": "Perfekt of 'mitfühlen': 'mit-ge-fühlt'. Auxiliary: 'haben'."
+  },
+  {
+    "exercise_id": "ex_verb_fassen_001",
+    "word_id": "verb_fassen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "fassen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to grasp / seize",
+    "wrong_answers": [
+      "to hold",
+      "to carry",
+      "to push",
+      "to throw"
+    ],
+    "explanation_en": "'fassen' means to grasp or seize. Also: 'sich fassen' = to compose oneself."
+  },
+  {
+    "exercise_id": "ex_verb_fassen_002",
+    "word_id": "verb_fassen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er konnte es kaum _____.",
+      "en": "He could barely grasp it.",
+      "show_english": true
+    },
+    "correct_answer": "fassen",
+    "wrong_answers": [
+      "fassen",
+      "nehmen",
+      "greifen",
+      "verstehen"
+    ],
+    "explanation_en": "'fassen' in the infinitive after a modal verb. 'Er konnte kaum fassen' = he could barely grasp/believe it."
+  },
+  {
+    "exercise_id": "ex_verb_fassen_003",
+    "word_id": "verb_fassen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie _____ sich ein Herz und fragt ihn.",
+      "en": "She plucks up courage and asks him.",
+      "show_english": true
+    },
+    "correct_answer": "fasst",
+    "wrong_answers": [
+      "fasste",
+      "fassen",
+      "fasse",
+      "fasst sich"
+    ],
+    "explanation_en": "'sich ein Herz fassen' = to pluck up courage. Er-form reflexive: 'sie fasst sich'."
+  },
+  {
+    "exercise_id": "ex_verb_fassen_004",
+    "word_id": "verb_fassen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "wir _____",
+      "en": "we grasp",
+      "show_english": true
+    },
+    "correct_answer": "fassen",
+    "wrong_answers": [
+      "fasse",
+      "fasst",
+      "fasste",
+      "gefasst"
+    ],
+    "explanation_en": "wir-form of 'fassen' is identical to the infinitive: 'wir fassen'."
+  },
+  {
+    "exercise_id": "ex_verb_heben_001",
+    "word_id": "verb_heben",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "heben",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to lift / raise",
+    "wrong_answers": [
+      "to push",
+      "to pull",
+      "to carry",
+      "to throw"
+    ],
+    "explanation_en": "'heben' means to lift or raise. Strong verb with past participle 'gehoben'."
+  },
+  {
+    "exercise_id": "ex_verb_heben_002",
+    "word_id": "verb_heben",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er _____ die Hand.",
+      "en": "He raises his hand.",
+      "show_english": true
+    },
+    "correct_answer": "hebt",
+    "wrong_answers": [
+      "hebe",
+      "heben",
+      "hob",
+      "hebt auf"
+    ],
+    "explanation_en": "er-form of 'heben' is 'hebt'. Regular present conjugation despite being a strong verb."
+  },
+  {
+    "exercise_id": "ex_verb_heben_003",
+    "word_id": "verb_heben",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Kannst du das _____, bitte?",
+      "en": "Can you lift that, please?",
+      "show_english": true
+    },
+    "correct_answer": "heben",
+    "wrong_answers": [
+      "hebst",
+      "hebt",
+      "tragen",
+      "nehmen"
+    ],
+    "explanation_en": "After 'kannst du ...?' the infinitive goes to the end. 'heben' = to lift."
+  },
+  {
+    "exercise_id": "ex_verb_heben_004",
+    "word_id": "verb_heben",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "ich _____",
+      "en": "I lift",
+      "show_english": true
+    },
+    "correct_answer": "hebe",
+    "wrong_answers": [
+      "hebst",
+      "hebt",
+      "heben",
+      "hob"
+    ],
+    "explanation_en": "ich-form of 'heben' is 'hebe'. Add -e to the stem 'heb-'."
+  },
+  {
+    "exercise_id": "ex_verb_bieten_001",
+    "word_id": "verb_bieten",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "bieten",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to offer",
+    "wrong_answers": [
+      "to ask",
+      "to give",
+      "to receive",
+      "to request"
+    ],
+    "explanation_en": "'bieten' means to offer. Strong verb: PP 'geboten'. Often used with dative (person) + accusative (thing)."
+  },
+  {
+    "exercise_id": "ex_verb_bieten_002",
+    "word_id": "verb_bieten",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Hotel _____ viele Möglichkeiten.",
+      "en": "The hotel offers many options.",
+      "show_english": true
+    },
+    "correct_answer": "bietet",
+    "wrong_answers": [
+      "biete",
+      "bieten",
+      "bot",
+      "bietest"
+    ],
+    "explanation_en": "er/es-form of 'bieten' is 'bietet'."
+  },
+  {
+    "exercise_id": "ex_verb_bieten_003",
+    "word_id": "verb_bieten",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich kann dir nur das _____, was ich habe.",
+      "en": "I can only offer you what I have.",
+      "show_english": true
+    },
+    "correct_answer": "bieten",
+    "wrong_answers": [
+      "bietest",
+      "biete",
+      "geboten",
+      "bot"
+    ],
+    "explanation_en": "After a modal verb the infinitive goes to the end. 'bieten' stays as infinitive after 'kann'."
+  },
+  {
+    "exercise_id": "ex_verb_bieten_004",
+    "word_id": "verb_bieten",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "er _____",
+      "en": "he offers",
+      "show_english": true
+    },
+    "correct_answer": "bietet",
+    "wrong_answers": [
+      "biete",
+      "bietest",
+      "bieten",
+      "bot"
+    ],
+    "explanation_en": "er-form of 'bieten' is 'bietet'. Add -et to stem 'biet-' (e-insertion before t)."
+  },
+  {
+    "exercise_id": "ex_verb_schlagen_001",
+    "word_id": "verb_schlagen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "schlagen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to hit / beat",
+    "wrong_answers": [
+      "to kick",
+      "to push",
+      "to throw",
+      "to press"
+    ],
+    "explanation_en": "'schlagen' means to hit or beat. Strong verb with umlaut in 2nd/3rd person singular."
+  },
+  {
+    "exercise_id": "ex_verb_schlagen_002",
+    "word_id": "verb_schlagen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Herz _____ schnell.",
+      "en": "The heart beats fast.",
+      "show_english": true
+    },
+    "correct_answer": "schlägt",
+    "wrong_answers": [
+      "schläge",
+      "schlagen",
+      "schlug",
+      "schlagst"
+    ],
+    "explanation_en": "er-form of 'schlagen' is 'schlägt' — note the umlaut (a → ä)."
+  },
+  {
+    "exercise_id": "ex_verb_schlagen_003",
+    "word_id": "verb_schlagen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er _____ den Nagel in die Wand.",
+      "en": "He hammers the nail into the wall.",
+      "show_english": true
+    },
+    "correct_answer": "schlägt",
+    "wrong_answers": [
+      "schlagen",
+      "schlug",
+      "schläge",
+      "schlagst"
+    ],
+    "explanation_en": "er-form with umlaut: 'schlägt'. Takes accusative direct object."
+  },
+  {
+    "exercise_id": "ex_verb_schlagen_004",
+    "word_id": "verb_schlagen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "du _____",
+      "en": "you hit",
+      "show_english": true
+    },
+    "correct_answer": "schlägst",
+    "wrong_answers": [
+      "schlage",
+      "schlagen",
+      "schlägt",
+      "schlugst"
+    ],
+    "explanation_en": "du-form of 'schlagen' is 'schlägst' — umlaut applies to both du and er/sie/es forms."
+  },
+  {
+    "exercise_id": "ex_verb_wählen_001",
+    "word_id": "verb_wählen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "wählen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to choose / elect",
+    "wrong_answers": [
+      "to find",
+      "to decide",
+      "to select randomly",
+      "to prefer"
+    ],
+    "explanation_en": "'wählen' means to choose or elect. Used for democratic elections and everyday choices."
+  },
+  {
+    "exercise_id": "ex_verb_wählen_002",
+    "word_id": "verb_wählen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wir _____ nächste Woche.",
+      "en": "We vote next week.",
+      "show_english": true
+    },
+    "correct_answer": "wählen",
+    "wrong_answers": [
+      "wählt",
+      "wähle",
+      "gewählt",
+      "wählten"
+    ],
+    "explanation_en": "wir-form of 'wählen' is 'wählen' — identical to the infinitive."
+  },
+  {
+    "exercise_id": "ex_verb_wählen_003",
+    "word_id": "verb_wählen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie _____ immer die falsche Option.",
+      "en": "She always chooses the wrong option.",
+      "show_english": true
+    },
+    "correct_answer": "wählt",
+    "wrong_answers": [
+      "wähle",
+      "wählen",
+      "gewählt",
+      "wählst"
+    ],
+    "explanation_en": "sie (sg.)/er-form of 'wählen' is 'wählt'. Regular weak verb."
+  },
+  {
+    "exercise_id": "ex_verb_wählen_004",
+    "word_id": "verb_wählen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "ich _____",
+      "en": "I choose",
+      "show_english": true
+    },
+    "correct_answer": "wähle",
+    "wrong_answers": [
+      "wählt",
+      "wählen",
+      "wählst",
+      "gewählt"
+    ],
+    "explanation_en": "ich-form of 'wählen' is 'wähle'. Add -e to stem 'wähl-'."
+  },
+  {
+    "exercise_id": "ex_verb_nutzen_001",
+    "word_id": "verb_nutzen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "nutzen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to use / benefit",
+    "wrong_answers": [
+      "to take",
+      "to apply",
+      "to enjoy",
+      "to need"
+    ],
+    "explanation_en": "'nutzen' means to use or make use of. Synonym of 'benutzen'. Also: 'Es nutzt nichts' = it's no use."
+  },
+  {
+    "exercise_id": "ex_verb_nutzen_002",
+    "word_id": "verb_nutzen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er _____ jede Gelegenheit.",
+      "en": "He uses every opportunity.",
+      "show_english": true
+    },
+    "correct_answer": "nutzt",
+    "wrong_answers": [
+      "nutze",
+      "nutzen",
+      "benutzt",
+      "nützt"
+    ],
+    "explanation_en": "er-form of 'nutzen' is 'nutzt'. Regular weak verb."
+  },
+  {
+    "exercise_id": "ex_verb_nutzen_003",
+    "word_id": "verb_nutzen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich möchte die Zeit besser _____.",
+      "en": "I want to make better use of my time.",
+      "show_english": true
+    },
+    "correct_answer": "nutzen",
+    "wrong_answers": [
+      "nutze",
+      "nutzt",
+      "nützen",
+      "benutzen"
+    ],
+    "explanation_en": "After 'möchte + infinitive' goes to the end. 'nutzen' = to use."
+  },
+  {
+    "exercise_id": "ex_verb_nutzen_004",
+    "word_id": "verb_nutzen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "sie (pl.) _____",
+      "en": "they use",
+      "show_english": true
+    },
+    "correct_answer": "nutzen",
+    "wrong_answers": [
+      "nutzt",
+      "nutze",
+      "nützen",
+      "benutzen"
+    ],
+    "explanation_en": "sie (plural) form of 'nutzen' is 'nutzen' — identical to the infinitive."
+  },
+  {
+    "exercise_id": "ex_verb_fordern_001",
+    "word_id": "verb_fordern",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "fordern",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to demand",
+    "wrong_answers": [
+      "to ask",
+      "to request",
+      "to wish",
+      "to recommend"
+    ],
+    "explanation_en": "'fordern' means to demand. Stronger than 'bitten' (to ask politely). 'fordern von' = to demand from someone."
+  },
+  {
+    "exercise_id": "ex_verb_fordern_002",
+    "word_id": "verb_fordern",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Sie _____ eine sofortige Antwort.",
+      "en": "She demands an immediate answer.",
+      "show_english": true
+    },
+    "correct_answer": "fordert",
+    "wrong_answers": [
+      "fordere",
+      "fordern",
+      "forderte",
+      "beansprucht"
+    ],
+    "explanation_en": "sie-form of 'fordern' is 'fordert'. Regular weak verb."
+  },
+  {
+    "exercise_id": "ex_verb_fordern_003",
+    "word_id": "verb_fordern",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Aufgabe _____ viel Konzentration.",
+      "en": "The task demands a lot of concentration.",
+      "show_english": true
+    },
+    "correct_answer": "fordert",
+    "wrong_answers": [
+      "fordern",
+      "fordere",
+      "braucht",
+      "erfordert"
+    ],
+    "explanation_en": "'fordern' can mean 'to require' when used with tasks or challenges. er-form: 'fordert'."
+  },
+  {
+    "exercise_id": "ex_verb_fordern_004",
+    "word_id": "verb_fordern",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "er _____",
+      "en": "he demands",
+      "show_english": true
+    },
+    "correct_answer": "fordert",
+    "wrong_answers": [
+      "fordere",
+      "fordern",
+      "fordert",
+      "verlangt"
+    ],
+    "explanation_en": "er-form of 'fordern' is 'fordert'. Note: stem is 'forder-', add -t for er/sie/es."
+  },
+  {
+    "exercise_id": "ex_verb_scheinen_001",
+    "word_id": "verb_scheinen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "scheinen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to seem / to shine",
+    "wrong_answers": [
+      "to appear suddenly",
+      "to see",
+      "to look for",
+      "to glow brightly"
+    ],
+    "explanation_en": "'scheinen' has two main meanings: 'to shine' (sun) and 'to seem/appear' (with zu + infinitive)."
+  },
+  {
+    "exercise_id": "ex_verb_scheinen_002",
+    "word_id": "verb_scheinen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Sonne _____ heute sehr hell.",
+      "en": "The sun is shining very brightly today.",
+      "show_english": true
+    },
+    "correct_answer": "scheint",
+    "wrong_answers": [
+      "scheine",
+      "scheinen",
+      "schien",
+      "leuchtet"
+    ],
+    "explanation_en": "es/sie-form of 'scheinen' is 'scheint'. Used for both 'to shine' and 'to seem'."
+  },
+  {
+    "exercise_id": "ex_verb_scheinen_003",
+    "word_id": "verb_scheinen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er _____ müde zu sein.",
+      "en": "He seems to be tired.",
+      "show_english": true
+    },
+    "correct_answer": "scheint",
+    "wrong_answers": [
+      "scheine",
+      "scheinen",
+      "schien",
+      "wirkt"
+    ],
+    "explanation_en": "'scheinen + zu + infinitive' = to seem to be. er-form: 'scheint'."
+  },
+  {
+    "exercise_id": "ex_verb_scheinen_004",
+    "word_id": "verb_scheinen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "es _____",
+      "en": "it shines",
+      "show_english": true
+    },
+    "correct_answer": "scheint",
+    "wrong_answers": [
+      "scheine",
+      "scheinen",
+      "schien",
+      "scheinst"
+    ],
+    "explanation_en": "es-form of 'scheinen' is 'scheint'. Same as er/sie forms."
+  },
+  {
+    "exercise_id": "ex_verb_deuten_001",
+    "word_id": "verb_deuten",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "deuten",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to interpret / point",
+    "wrong_answers": [
+      "to explain",
+      "to show",
+      "to indicate vaguely",
+      "to translate"
+    ],
+    "explanation_en": "'deuten' means to interpret or to point. 'deuten auf etw.' = to point at something; 'etw. deuten' = to interpret something."
+  },
+  {
+    "exercise_id": "ex_verb_deuten_002",
+    "word_id": "verb_deuten",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er _____ auf das Bild.",
+      "en": "He points to the picture.",
+      "show_english": true
+    },
+    "correct_answer": "deutet",
+    "wrong_answers": [
+      "deute",
+      "deuten",
+      "zeigte",
+      "weist"
+    ],
+    "explanation_en": "'deuten auf' = to point at. er-form: 'deutet'. Takes accusative after 'auf'."
+  },
+  {
+    "exercise_id": "ex_verb_deuten_003",
+    "word_id": "verb_deuten",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wie _____ du dieses Zeichen?",
+      "en": "How do you interpret this sign?",
+      "show_english": true
+    },
+    "correct_answer": "deutest",
+    "wrong_answers": [
+      "deute",
+      "deutet",
+      "deuten",
+      "verstehst"
+    ],
+    "explanation_en": "du-form of 'deuten' is 'deutest'. Note the -e- inserted before -st: 'deut-e-st'."
+  },
+  {
+    "exercise_id": "ex_verb_deuten_004",
+    "word_id": "verb_deuten",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "wir _____",
+      "en": "we interpret",
+      "show_english": true
+    },
+    "correct_answer": "deuten",
+    "wrong_answers": [
+      "deutet",
+      "deute",
+      "gedeutet",
+      "deutest"
+    ],
+    "explanation_en": "wir-form of 'deuten' is 'deuten' — same as the infinitive."
+  },
+  {
+    "exercise_id": "ex_verb_wirken_001",
+    "word_id": "verb_wirken",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "wirken",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to have an effect / to work",
+    "wrong_answers": [
+      "to function mechanically",
+      "to produce",
+      "to be effective loudly",
+      "to force results"
+    ],
+    "explanation_en": "'wirken' means to have an effect, to work (as in medicine or a plan), or to appear/seem."
+  },
+  {
+    "exercise_id": "ex_verb_wirken_002",
+    "word_id": "verb_wirken",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Medikament _____ schnell.",
+      "en": "The medication works quickly.",
+      "show_english": true
+    },
+    "correct_answer": "wirkt",
+    "wrong_answers": [
+      "wirke",
+      "wirken",
+      "hilft",
+      "funktioniert"
+    ],
+    "explanation_en": "es-form of 'wirken' is 'wirkt'. 'Das Medikament wirkt' = the medication has its effect."
+  },
+  {
+    "exercise_id": "ex_verb_wirken_003",
+    "word_id": "verb_wirken",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er _____ sehr entspannt.",
+      "en": "He appears very relaxed.",
+      "show_english": true
+    },
+    "correct_answer": "wirkt",
+    "wrong_answers": [
+      "wirke",
+      "wirken",
+      "scheint",
+      "sieht aus"
+    ],
+    "explanation_en": "'wirken' used as 'to appear/seem'. er-form: 'wirkt'. 'Er wirkt entspannt' = he comes across as relaxed."
+  },
+  {
+    "exercise_id": "ex_verb_wirken_004",
+    "word_id": "verb_wirken",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "es _____",
+      "en": "it has an effect",
+      "show_english": true
+    },
+    "correct_answer": "wirkt",
+    "wrong_answers": [
+      "wirke",
+      "wirken",
+      "wirkst",
+      "gewirkt"
+    ],
+    "explanation_en": "es-form of 'wirken' is 'wirkt'. Regular weak verb."
+  },
+  {
+    "exercise_id": "ex_verb_lehnen_001",
+    "word_id": "verb_lehnen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "lehnen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to lean",
+    "wrong_answers": [
+      "to bend",
+      "to tilt",
+      "to press",
+      "to rest"
+    ],
+    "explanation_en": "'lehnen' means to lean. Used with 'an + accusative' = to lean against. Reflexive 'sich lehnen' = to lean oneself."
+  },
+  {
+    "exercise_id": "ex_verb_lehnen_002",
+    "word_id": "verb_lehnen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er _____ sich gegen die Wand.",
+      "en": "He leans against the wall.",
+      "show_english": true
+    },
+    "correct_answer": "lehnt",
+    "wrong_answers": [
+      "lehne",
+      "lehnen",
+      "lehnte",
+      "neigt"
+    ],
+    "explanation_en": "er-form of 'lehnen' is 'lehnt'. Reflexive use: 'sich lehnen gegen'."
+  },
+  {
+    "exercise_id": "ex_verb_lehnen_003",
+    "word_id": "verb_lehnen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie _____ das Fahrrad an den Baum.",
+      "en": "She leans the bike against the tree.",
+      "show_english": true
+    },
+    "correct_answer": "lehnt",
+    "wrong_answers": [
+      "lehne",
+      "lehnen",
+      "stellt",
+      "legt"
+    ],
+    "explanation_en": "Transitive use: 'etw. an etw. lehnen' (accusative). sie-form: 'lehnt'."
+  },
+  {
+    "exercise_id": "ex_verb_lehnen_004",
+    "word_id": "verb_lehnen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "du _____",
+      "en": "you lean",
+      "show_english": true
+    },
+    "correct_answer": "lehnst",
+    "wrong_answers": [
+      "lehne",
+      "lehnt",
+      "lehnen",
+      "gelehnt"
+    ],
+    "explanation_en": "du-form of 'lehnen' is 'lehnst'. Regular weak verb."
+  },
+  {
+    "exercise_id": "ex_verb_weisen_001",
+    "word_id": "verb_weisen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "weisen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to point / direct",
+    "wrong_answers": [
+      "to show clearly",
+      "to guide physically",
+      "to indicate by speaking",
+      "to demonstrate"
+    ],
+    "explanation_en": "'weisen' means to point or direct someone. Strong verb. 'jdm. den Weg weisen' = to show someone the way."
+  },
+  {
+    "exercise_id": "ex_verb_weisen_002",
+    "word_id": "verb_weisen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er _____ mir den Weg.",
+      "en": "He shows me the way.",
+      "show_english": true
+    },
+    "correct_answer": "weist",
+    "wrong_answers": [
+      "weise",
+      "weisen",
+      "wies",
+      "zeigt"
+    ],
+    "explanation_en": "er-form of 'weisen' is 'weist'. 'jdm. den Weg weisen' = to direct someone (dative + accusative)."
+  },
+  {
+    "exercise_id": "ex_verb_weisen_003",
+    "word_id": "verb_weisen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie _____ den Besucher zum Ausgang.",
+      "en": "She directs the visitor to the exit.",
+      "show_english": true
+    },
+    "correct_answer": "weist",
+    "wrong_answers": [
+      "weise",
+      "weisen",
+      "schickt",
+      "führt"
+    ],
+    "explanation_en": "sie-form of 'weisen' is 'weist'. Used for directing people to a place."
+  },
+  {
+    "exercise_id": "ex_verb_weisen_004",
+    "word_id": "verb_weisen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "er _____",
+      "en": "he points",
+      "show_english": true
+    },
+    "correct_answer": "weist",
+    "wrong_answers": [
+      "weise",
+      "weisen",
+      "wies",
+      "gewiesen"
+    ],
+    "explanation_en": "er-form of 'weisen' is 'weist'. Strong verb, but present tense is regular."
+  },
+  {
+    "exercise_id": "ex_verb_gleichen_001",
+    "word_id": "verb_gleichen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "gleichen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to resemble / equal",
+    "wrong_answers": [
+      "to match by colour",
+      "to compare two things",
+      "to be approximately the same",
+      "to copy exactly"
+    ],
+    "explanation_en": "'gleichen' means to resemble or be equal to. Takes the dative case: 'Er gleicht ihm' (not 'ihn')."
+  },
+  {
+    "exercise_id": "ex_verb_gleichen_002",
+    "word_id": "verb_gleichen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er _____ seinem Vater sehr.",
+      "en": "He greatly resembles his father.",
+      "show_english": true
+    },
+    "correct_answer": "gleicht",
+    "wrong_answers": [
+      "gleiche",
+      "gleichen",
+      "glich",
+      "ähnelt"
+    ],
+    "explanation_en": "er-form of 'gleichen' is 'gleicht'. Requires dative: 'seinem Vater' (dative)."
+  },
+  {
+    "exercise_id": "ex_verb_gleichen_003",
+    "word_id": "verb_gleichen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die beiden Häuser _____ sich kaum.",
+      "en": "The two houses barely resemble each other.",
+      "show_english": true
+    },
+    "correct_answer": "gleichen",
+    "wrong_answers": [
+      "gleicht",
+      "gleiche",
+      "glichen",
+      "ähneln"
+    ],
+    "explanation_en": "sie (plural)-form of 'gleichen' is 'gleichen'. Reflexive use: 'sich gleichen'."
+  },
+  {
+    "exercise_id": "ex_verb_gleichen_004",
+    "word_id": "verb_gleichen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "sie (pl.) _____",
+      "en": "they resemble",
+      "show_english": true
+    },
+    "correct_answer": "gleichen",
+    "wrong_answers": [
+      "gleicht",
+      "gleiche",
+      "glich",
+      "geglichen"
+    ],
+    "explanation_en": "sie (plural)-form of 'gleichen' = 'gleichen'. Same as the infinitive."
+  },
+  {
+    "exercise_id": "ex_verb_meiden_001",
+    "word_id": "verb_meiden",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "meiden",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to avoid",
+    "wrong_answers": [
+      "to ignore",
+      "to escape",
+      "to dislike",
+      "to run away from"
+    ],
+    "explanation_en": "'meiden' means to deliberately avoid something or someone. Strong verb, PP: 'gemieden'."
+  },
+  {
+    "exercise_id": "ex_verb_meiden_002",
+    "word_id": "verb_meiden",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er _____ Menschenmengen.",
+      "en": "He avoids crowds.",
+      "show_english": true
+    },
+    "correct_answer": "meidet",
+    "wrong_answers": [
+      "meide",
+      "meiden",
+      "mied",
+      "vermeidet"
+    ],
+    "explanation_en": "er-form of 'meiden' is 'meidet'. Strong verb with regular present tense conjugation."
+  },
+  {
+    "exercise_id": "ex_verb_meiden_003",
+    "word_id": "verb_meiden",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie versucht, ihn zu _____.",
+      "en": "She tries to avoid him.",
+      "show_english": true
+    },
+    "correct_answer": "meiden",
+    "wrong_answers": [
+      "meidet",
+      "meide",
+      "gemieden",
+      "vermeiden"
+    ],
+    "explanation_en": "After 'zu' the infinitive is used. 'meiden' stays unchanged. Takes accusative direct object."
+  },
+  {
+    "exercise_id": "ex_verb_meiden_004",
+    "word_id": "verb_meiden",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "du _____",
+      "en": "you avoid",
+      "show_english": true
+    },
+    "correct_answer": "meidest",
+    "wrong_answers": [
+      "meide",
+      "meidet",
+      "meiden",
+      "mied"
+    ],
+    "explanation_en": "du-form of 'meiden' is 'meidest'. The -e- is inserted: 'meid-e-st'."
   }
 ]

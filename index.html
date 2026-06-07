@@ -17,6 +17,41 @@
   <!-- Flash overlay for correct/wrong feedback -->
   <div class="flash-overlay" id="flash-overlay"></div>
 
+  <!-- Case legend popup -->
+  <div class="case-legend-overlay" id="case-legend-overlay" onclick="hideCaseLegend()">
+    <div class="case-legend-card" onclick="event.stopPropagation()">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:var(--sp-4)">
+        <span style="font-weight:var(--fw-semibold);font-size:var(--font-size-base)">Kasus — Farbkodierung</span>
+        <button onclick="hideCaseLegend()" style="background:none;border:none;cursor:pointer;
+                font-size:1.3rem;color:var(--color-text-muted);padding:0 4px;line-height:1">×</button>
+      </div>
+      <div class="case-legend-row">
+        <span class="case-dot akkusativ" style="cursor:default;flex-shrink:0"></span>
+        <div><strong>Akkusativ</strong>
+          <div style="color:var(--color-text-secondary);font-size:var(--font-size-xs);margin-top:2px">Direct object — "Wen? / Was?"</div>
+        </div>
+      </div>
+      <div class="case-legend-row">
+        <span class="case-dot dativ" style="cursor:default;flex-shrink:0"></span>
+        <div><strong>Dativ</strong>
+          <div style="color:var(--color-text-secondary);font-size:var(--font-size-xs);margin-top:2px">Indirect object — "Wem?"</div>
+        </div>
+      </div>
+      <div class="case-legend-row">
+        <span class="case-dot nominativ" style="cursor:default;flex-shrink:0"></span>
+        <div><strong>Nominativ</strong>
+          <div style="color:var(--color-text-secondary);font-size:var(--font-size-xs);margin-top:2px">Subject — "Wer? / Was?"</div>
+        </div>
+      </div>
+      <div class="case-legend-row">
+        <span class="case-dot genitiv" style="cursor:default;flex-shrink:0"></span>
+        <div><strong>Genitiv</strong>
+          <div style="color:var(--color-text-secondary);font-size:var(--font-size-xs);margin-top:2px">Possession — "Wessen?"</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- ═══════════════════════════════════════════
        SCREEN: Home
   ═══════════════════════════════════════════ -->

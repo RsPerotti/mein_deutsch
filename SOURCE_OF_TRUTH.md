@@ -1,41 +1,38 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-06-07 — Session 11*
+*Last updated: 2026-06-07 — Session 13*
 
 ---
 
 ## Current State
 
-**Nouns module restructured.** App at https://rsperotti.github.io/mein_deutsch. All four modules active. Nouns module now has Stammnomen + Variationen structure (mirroring verbs). Article exercises removed from Nouns (will move to future Articles module). Next: push to GitHub Pages.
+**Präpositionen module live.** App at https://rsperotti.github.io/mein_deutsch. Five modules active. Prepositions has 53 entries (A1–B2), 158 exercises across two new types (select_preposition + select_case), and an inline difficulty picker. Pushed to GitHub.
 
 ## What Exists
 
 | File / Folder | Status | Notes |
 |---|---|---|
-| `index.html` | ✅ Updated | All screens: Home, Word List, Module Home, Exercise, Verbliste, Nomenliste, Adverbliste, Adjektivliste, Results |
-| `css/styles.css` | ✅ Built | Full design system — CSS variables, all components |
-| `js/app.js` | ✅ Updated | Router, data loading, all module home renderers + Adjektivliste |
-| `js/progress.js` | ✅ Updated | Root/variant split for nouns (`app_nouns_root_unlocked` + `app_nouns_variant_unlocked`). Adjectives unlocked key. |
-| `js/exercises.js` | ✅ Updated | Nouns queue filters roots vs variations. Adjectives in queue builder. |
-| `js/wordpractice.js` | ✅ Updated | Adjektive class added to WLP_CLASSES picker |
-| `js/wordlist.js` | ✅ Updated | Adjectives in buildWordObjects() and _countTotalWords() |
-| `data/modules.json` | ✅ Updated | 4 modules: Verbs + Nouns + Adjectives + Adverbs (all active) |
-| `js/data.js` | ✅ **Bundled** | All content embedded. Total exercises: 2,369. Regenerate after each batch. |
-| `data/verbs.json` | ✅ **100 verbs** | All 4 levels (A1–B2), 25 per level — complete |
-| `data/exercises/exercises-verbs.json` | ✅ **936 exercises** | 234 word IDs × 4 exercises each |
+| `index.html` | ✅ Updated | Screens: Home, Word List, Module Home, Exercise, Verbliste, Nomenliste, Adverbliste, Adjektivliste, **Präpositionsliste**, Results |
+| `css/styles.css` | ✅ Updated | Full design system. Added `.diff-btn`, `.prep-highlight`. |
+| `js/app.js` | ✅ Updated | Router, data loading, all module home renderers + Adjektivliste + Präpositionsliste. **Case dots on prep cards.** |
+| `js/progress.js` | ✅ Updated | Root/variant split for nouns. Adjectives key. **Prepositions difficulty key** (`app_prepositions_difficulty`). |
+| `js/exercises.js` | ✅ Updated | Nouns, adjectives, **prepositions** in queue builder. Two new renderers: `select_preposition`, `select_case`. Inline difficulty switcher. **`_ensureFirstExposure()`** guarantees translate_word is first for new words. **Parenthetical hints removed from all conjugation exercises.** |
+| `js/wordpractice.js` | ✅ Built | Adjektive class in WLP_CLASSES picker |
+| `js/wordlist.js` | ✅ Updated | Adjectives in buildWordObjects(). **Case dot helpers** (`_normalizeCase`, `_renderCaseDots`, `showCaseLegend`, `hideCaseLegend`). Verb cards show case dots. |
+| `data/modules.json` | ✅ Updated | **5 modules**: Verbs + Nouns + Adjectives + Adverbs + **Prepositions** (all active) |
+| `js/data.js` | ✅ **Bundled** | Format: `window.APP_DATA = {…}`. All content embedded. **Total exercises: 2,583 (post-audit)**. |
+| `data/verbs.json` | ✅ **91 root verbs** | Audit complete. 23 moves/removes, 14 new bases added. |
+| `data/exercises/exercises-verbs.json` | ✅ **992 exercises** | Post-audit. 14 new roots × 4 exercises added. |
 | `manifest.json` | ✅ Built | PWA config |
 | `service-worker.js` | ✅ Built | Cache-first offline strategy |
-| `icons/icon-192.png` | ✅ Done | Speech bubble "de" icon, #85B7EB blue background |
-| `icons/icon-512.png` | ✅ Done | Speech bubble "de" icon, #85B7EB blue background |
-| `_factory/seeds/verbs-level1–4.json` | ✅ Done | All 100 verbs status: done |
-| `data/nouns.json` | ✅ **175 nouns** | A1–B2 complete. 97 roots + 78 variations. `section` + `formation` fields added. No article_choice exercises. |
-| `data/exercises/exercises-nouns.json` | ✅ **525 exercises** | 175 × 3 (fill_blank ×2 + translate_word ×1). article_choice removed (future Articles module). |
-| `_factory/seeds/nouns-level1–4.json` | ✅ Done | All 175 nouns status: done |
-| `data/adverbs.json` | ✅ **127 adverbs** | A1–B2 complete (29+25+51+22) |
-| `data/exercises/exercises-adverbs.json` | ✅ **508 exercises** | 127 adverbs × 4 each |
-| `_factory/seeds/adverbs-level1–4.json` | ✅ Done | All 127 adverbs status: done |
-| `data/adjectives.json` | ✅ **100 adjectives** | A1–B2 complete (25+25+25+25) |
-| `data/exercises/exercises-adjectives.json` | ✅ **400 exercises** | 100 adjectives × 4 each (translate DE→EN, fill_blank, translate EN→DE, fill_blank harder) |
-| `_factory/seeds/adjectives-level1–4.json` | ✅ Done | All 100 adjectives status: done |
+| `icons/` | ✅ Done | icon-192 + icon-512, speech bubble "de", #85B7EB |
+| `data/nouns.json` | ✅ **175 nouns** | A1–B2. 97 roots + 78 variations. `section` + `formation` fields. |
+| `data/exercises/exercises-nouns.json` | ✅ **525 exercises** | 175 × 3 (fill_blank ×2 + translate_word ×1) |
+| `data/adverbs.json` | ✅ **127 adverbs** | A1–B2 complete |
+| `data/exercises/exercises-adverbs.json` | ✅ **508 exercises** | 127 × 4 each |
+| `data/adjectives.json` | ✅ **100 adjectives** | A1–B2 complete (25 per level) |
+| `data/exercises/exercises-adjectives.json` | ✅ **400 exercises** | 100 × 4 each |
+| `data/prepositions.json` | ✅ **53 prepositions** | A1–B2. Categories: two-way, akkusativ, dativ, genitiv. case_notes + example_sentences per entry. |
+| `data/exercises/exercises-prepositions.json` | ✅ **158 exercises** | 79 select_preposition + 79 select_case. Difficulty: A1×42, A2×10, B1×74, B2×32. |
 
 ## Design System
 
@@ -58,12 +55,15 @@
 | Default sort | Alphabetical |
 | Session size | **No cap** — full queue served until complete. Applies to all modules. |
 | Adjectives scope | 100 adjectives (25 per level A1–B2); more to be added when Deklinationen area is built |
+| Prepositions difficulty | Exact match (selecting B1 shows only B1 exercises). Default: A1. Changeable mid-session. |
+| Prepositions unlock | None — all 53 always accessible in Präpositionsliste. No word unlock mechanic. |
+| Prepositions CEFR cap | B2 (C1/C2 reserved in architecture for future expansion) |
 
 ## Content Progress
 
 | Batch | Category | Level | Words | Exercises | Status |
 |---|---|---|---|---|---|
-| verbs-level1–4 | Verbs | A1–B2 | 100 root + 138 variants | 936 | ✅ Done |
+| verbs-level1–4 | Verbs | A1–B2 | **91 root + 157 variants** | **992** | ✅ Audited |
 | nouns-level1 | Nouns | A1 | 25 | 100 | ✅ Done |
 | nouns-level2 | Nouns | A2 | 50 | 200 | ✅ Done |
 | nouns-level3 | Nouns | B1 | 50 | 200 | ✅ Done |
@@ -74,8 +74,9 @@
 | adjectives-level3 | Adjectives | B1 | 25 | 100 | ✅ Done |
 | adjectives-level4 | Adjectives | B2 | 25 | 100 | ✅ Done |
 | **Adjectives total** | | A1–B2 | **100** | **400** | ✅ Done |
+| prepositions | Prepositions | A1–B2 | 53 | 158 | ✅ Done |
 
-## Total app content: 2,369 exercises across 4 modules
+## Total app content: 2,583 exercises across 5 modules
 
 ## Hosting
 
@@ -85,13 +86,17 @@
 
 ## Next Steps
 
-1. **Push Session 11 to GitHub** — Nouns restructure live locally, needs deploy
-2. **Deklinationen area** — second card in Adjectives module (gender/case matching exercises)
-3. **Enrich adjective content** — add more words once Deklinationen is built
-4. **Articles module** — future module; article_choice exercises from Nouns are now removed and ready to be rebuilt there
+1. **Deklinationen area** — second card in Adjectives module (gender/case declension exercises)
+2. **Enrich adjective content** — add more words once Deklinationen is built
+3. **Push Session 13 changes** to GitHub
+4. **Articles module** — future module; article_choice exercises stripped from Nouns are ready to be rebuilt here
+5. **Prepositions C1/C2 expansion** — architecture ready; just add entries with `"cefr": "C1"` and `"difficulty": "C1"`
 
 ## Open Questions / Known Gaps
 
 - Adjectives Deklinationen card is a placeholder — exercises and UI not yet built
-- Articles module not yet started — article_choice exercises have been stripped from Nouns in preparation
+- Articles module not yet started
 - Pronunciation uses device TTS (no audio files) — acceptable for v1
+- Prepositions not in Word List Practice mode (no unlock mechanic — by design)
+- `verpflichten` remains a standalone root (base `pflichten` is archaic — left as-is by design)
+- Session 13 changes not yet pushed to GitHub

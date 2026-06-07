@@ -2,6 +2,69 @@
 
 ---
 
+## 2026-06-07 — Session 13: Verb Module Debugging (4 Fixes)
+
+**What was changed:**
+
+### Fix #2 — Parenthetical hints removed from conjugation exercises
+- `data/exercises/exercises-verbs.json` — Cleaned all 209 `conjugation_choice` exercises that had inline hints like `(zusammenfassen — er, present)` in their `question.de` field. Removed using Python regex `r'\s*\([^)]*[—–][^)]*\)\s*'`. Only the English equivalent sentence now provides context.
+
+### Fix #3 — First-exposure ordering guaranteed
+- `js/exercises.js` — Added `_ensureFirstExposure(queue)` function. After final shuffle in `startExercise()`, the queue is post-processed: any word a user has never seen gets its `translate_word` exercise moved to the front of that word's appearances. Applies across all sessions using `Progress.getUnlockedWords()` as the "already seen" check.
+
+### Fix #4 — Color-coded case dots on verb and preposition cards
+- `css/styles.css` — Added `.case-dot` (16px colored circle), `.case-dot-group`, `.case-legend-overlay`, `.case-legend-card`, `.case-legend-row`. Colors: Akkusativ=#FFBFBF, Dativ=#B8D8FF, Nominativ=#D8D8D8, Genitiv=#FFE87A.
+- `index.html` — Added `#case-legend-overlay` popup with 4 case rows explaining color coding.
+- `js/wordlist.js` — Added `_normalizeCase()`, `_renderCaseDots()`, `showCaseLegend()`, `hideCaseLegend()` (global helpers). Updated `_renderVerblisteContent()`: verb card headers now show colored dots; variant rows also show per-variant dots. Removed old text-based `.grammar-box`.
+- `js/app.js` — Updated `_renderPrepCard()`: case text labels replaced with colored dots + per-example case dots.
+
+### Fix #1 — Full verb audit (Stammverben cleanup)
+- **Removed 4 duplicate roots** that were already correctly present as prefix_variants: `gehören` (→hören), `versuchen` (→suchen), `beschreiben` (→schreiben), `anerkennen` (→kennen).
+- **Moved 3 roots to variants of existing bases**: `versprechen` + `widersprechen` → `sprechen`; `umgehen` → `gehen`.
+- **Added 14 new base root verbs** (frequency_rank 101–114): `fassen, heben, bieten, schlagen, wählen, nutzen, fordern, scheinen, deuten, wirken, lehnen, weisen, gleichen, meiden`. Each with full conjugation, grammar, example sentences.
+- **Moved 16 prefixed roots to variants of the new bases**: zusammenfassen→fassen, hervorheben→heben, anbieten→bieten, vorschlagen→schlagen, auswählen→wählen, benutzen→nutzen, auffordern→fordern, erscheinen→scheinen, bedeuten→deuten, bewirken+auswirken→wirken, ablehnen→lehnen, beweisen+hinweisen→weisen, vergleichen→gleichen, vermeiden→meiden.
+- **Added 56 new exercises** (4 per new root, each starting with `translate_word`).
+- `js/data.js` — Rebundled with all changes.
+
+**Final verb counts after audit:**
+- Roots: 100 → 91
+- Variants: 138 → 157
+- Verb exercises: 936 → 992
+
+**Decisions made:**
+- `verpflichten` kept as a standalone root — `pflichten` is archaic and not a productive base in modern German.
+- `umgehen` moved to `gehen` variants as inseparable (bypass/circumvent meaning). The separable "umgehen mit" is a different usage, noted in the variant's notes field.
+- All new root exercises start with `translate_word` to comply with the first-exposure ordering rule.
+
+**Pushed:** No — push pending.
+
+---
+
+## 2026-06-07 — Session 12: Präpositionen Module
+
+**What was built:**
+
+- `data/prepositions.json` — 53 prepositions across A1–B2 (A1: 21, A2: 5, B1: 11, B2: 16). Fields: id, preposition, english, cases, case_notes, category (two-way / akkusativ / dativ / genitiv), cefr, frequency_rank, example_sentences (with per-sentence case label).
+- `data/exercises/exercises-prepositions.json` — 158 exercises. Two types: `select_preposition` (gap-fill, pick the right preposition) + `select_case` (full sentence shown with highlighted phrase, identify the governed case). 79 of each. Distribution: A1×42, A2×10, B1×74, B2×32.
+- `data/modules.json` — Added `module_prepositions` entry (unlock_order 5, status active).
+- `js/progress.js` — Added `PREPOSITIONS_DIFFICULTY: 'app_prepositions_difficulty'` key + `getPrepositionsDifficulty()` (default 'A1') + `setPrepositionsDifficulty(level)`.
+- `index.html` — Added `screen-prapositionsliste` screen (search bar, all 53 preps). Added inline `prep-difficulty-picker` (A1/A2/B1/B2 buttons, hidden by default) inside `screen-exercise`.
+- `css/styles.css` — Added `.diff-btn` / `.diff-btn.active` styles. Added `.prep-highlight` for the bolded preposition phrase in select_case exercises.
+- `js/app.js` — `_renderPrepositionModuleCategories()` (progress shows exercises done vs total); `renderPrapositionsliste()`, `filterPrapositionsliste()`, `_renderPrepCard()`, `togglePrepCard()` — **all 53 preps visible always, no unlock gate**. Updated `onScreenEnter()`, `loadData()`, `appData` state object.
+- `js/exercises.js` — `_renderSelectPreposition()` (gap-fill layout); `_renderSelectCase()` (highlights prep phrase in green, asks for case); `_buildQueue()` for prepositions filters by exact difficulty match; `setPrepositionDifficulty()` + `_updateDifficultyPicker()` allow mid-session difficulty switch; `_unlockWord()` skipped for prepositions; cooldown retry key uses `exercise_id` for prepositions (no `word_id`).
+- `js/data.js` — **Format fixed**: changed `const appData = {` → `window.APP_DATA = {` (resolves scope conflict with app.js's own `const appData`). Embedded `prepositions` and `exercises_prepositions` arrays.
+
+**Decisions made:**
+
+- No word unlock mechanic for prepositions — all 53 always accessible in Präpositionsliste. Progress tracked as exercises answered correctly.
+- Difficulty picker: exact match (selecting B1 shows only B1-difficulty exercises, not cumulative). User can switch any time without exiting the exercise screen.
+- Capped at B2 for now; architecture ready for C1/C2 expansion (just add entries with `"cefr": "C1"` and `"difficulty": "C1"`).
+- `data.js` format fix: the file was incorrectly using `const appData` which conflicted with app.js's own declaration. Now uses `window.APP_DATA` as originally intended.
+
+**Pushed:** Yes — committed and pushed to GitHub.
+
+---
+
 ## 2026-06-07 — Session 11: Nouns Module Restructure
 
 **What was changed:**

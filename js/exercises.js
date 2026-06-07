@@ -57,7 +57,7 @@ function startExercise(state) {
     return;
   }
 
-  session.queue = _shuffle([...exercises]);
+  session.queue = _ensureFirstExposure(_shuffle([...exercises]));
 
   // Context pill
   let contextLabel;
@@ -284,10 +284,62 @@ function _renderArticleChoice(ex) {
 }
 
 // --- Render: conjugation_choice ---
+// Short format (e.g. "wir _____"): show as big word display, no translation.
+// Sentence format (e.g. "Er _____ die Party ab."): show as sentence with English below.
 function _renderConjugation(ex) {
-  // Treat the same as translate_word but label it differently
-  const html = _renderTranslateWord(ex);
-  return html.replace('Übersetzen', 'Konjugation');
+  const sentDE  = ex.question?.de || '';
+  const sentEN  = ex.question?.en || '';
+  const options = _shuffle([ex.correct_answer, ...ex.wrong_answers.slice(0, 3)]);
+
+  // Sentence exercise: de has more than 2 words (beyond "pronoun _____")
+  const wordCount = sentDE.trim().split(/\s+/).length;
+  const isSentence = wordCount > 2;
+
+  if (isSentence) {
+    const sentHtml = _esc(sentDE).replace('_____',
+      '<span class="exercise-blank" id="blank-span"></span>');
+
+    return `
+      <div class="exercise-meta">
+        <div class="exercise-counter">FRAGE ${session.correctCount + 1}</div>
+        <div class="exercise-type-label">Konjugation</div>
+      </div>
+      <div class="exercise-sentence">${sentHtml}</div>
+      ${sentEN ? `<div class="exercise-translation" id="ex-translation">${_esc(sentEN)}</div>` : ''}
+      <div class="options-grid" id="opts">
+        ${options.map(opt => `
+          <button class="option-btn grid-opt"
+                  data-answer="${_esc(opt)}"
+                  onclick="selectAnswer(this)">
+            <span class="opt-word">${_esc(opt)}</span>
+          </button>`).join('')}
+      </div>
+      <div class="feedback-text" id="feedback"></div>`;
+  }
+
+  // Short format: "wir _____" — big word display, no English hint needed
+  const displayHtml = _esc(sentDE).replace('_____',
+    '<span id="blank-span" class="exercise-blank" style="display:inline-block;min-width:80px;border-bottom:3px solid var(--color-primary);vertical-align:middle;margin:0 8px;font-size:inherit"></span>');
+
+  return `
+    <div class="exercise-meta">
+      <div class="exercise-counter">FRAGE ${session.correctCount + 1}</div>
+      <div class="exercise-type-label">Konjugation</div>
+    </div>
+    <div class="exercise-word-display">
+      <div class="exercise-word" style="font-size:clamp(2rem,8vw,3rem)">${displayHtml}</div>
+      <div class="exercise-word-prompt">WELCHE FORM IST RICHTIG?</div>
+    </div>
+    <div class="options-stack" id="opts">
+      ${options.map((opt, i) => `
+        <button class="option-btn stack-opt"
+                data-answer="${_esc(opt)}"
+                onclick="selectAnswer(this)">
+          <span class="opt-letter">${['A','B','C','D'][i]}</span>
+          <span class="opt-text">${_esc(opt)}</span>
+        </button>`).join('')}
+    </div>
+    <div class="feedback-text" id="feedback"></div>`;
 }
 
 // --- Render: select_preposition ---
@@ -772,6 +824,38 @@ function _updateWLChips() {
   document.getElementById('chip-correct').textContent  = wlSession.correctCount;
   document.getElementById('chip-queue').textContent    = wlSession.queue.length;
   document.getElementById('chip-cooldown').textContent = wlSession.incorrectCount;
+}
+
+// ═══════════════════════════════════════════════════════
+// FIRST EXPOSURE GUARANTEE
+// For any word the user hasn't unlocked yet, ensure its translate_word
+// exercise appears before other exercise types in the queue.
+// ═══════════════════════════════════════════════════════
+
+function _ensureFirstExposure(queue) {
+  const unlocked = new Set(Progress.getUnlockedWords());
+  const firstSeen = new Set();   // word_ids already "first-exposed" in scan
+  const result    = [...queue];
+
+  for (let i = 0; i < result.length; i++) {
+    const ex     = result[i];
+    const wordId = ex.word_id;
+    if (!wordId || unlocked.has(wordId) || firstSeen.has(wordId)) continue;
+
+    firstSeen.add(wordId);
+
+    // First occurrence of this NEW word — must be translate_word
+    if (ex.type !== 'translate_word') {
+      // Find a translate_word for this word later in the queue
+      const twIdx = result.findIndex((e, j) => j > i && e.word_id === wordId && e.type === 'translate_word');
+      if (twIdx > 0) {
+        const [tw] = result.splice(twIdx, 1);
+        result.splice(i, 0, tw);  // insert at current position
+      }
+      // If no translate_word found, leave as-is (shouldn't happen with current data)
+    }
+  }
+  return result;
 }
 
 // ═══════════════════════════════════════════════════════
