@@ -30,6 +30,23 @@ function buildWordObjects() {
     }
   }
 
+  // Adverbs
+  for (const adv of (appData.adverbs || [])) {
+    if (unlocked.includes(adv.id)) {
+      words.push({
+        id:          adv.id,
+        german:      adv.word,
+        prefix:      null,
+        type:        'ADVERB',
+        article:     null,
+        translation: adv.english,
+        level:       adv.cefr || null,
+        examples:    adv.example_sentences || [],
+        grammar:     null
+      });
+    }
+  }
+
   // Verbs
   for (const verb of appData.verbs) {
     if (unlocked.includes(verb.id)) {
@@ -85,7 +102,7 @@ function renderWordList() {
 }
 
 function _countTotalWords() {
-  let n = appData.verbs.length + (appData.nouns || []).length;
+  let n = appData.verbs.length + (appData.nouns || []).length + (appData.adverbs || []).length;
   for (const v of appData.verbs) n += (v.prefix_variants || []).length;
   return n;
 }
