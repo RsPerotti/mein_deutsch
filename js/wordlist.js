@@ -283,19 +283,19 @@ function _renderVerblisteContent(verbs) {
     const c = verb.conjugation;
 
     const caseReqs   = verb.grammar?.case_requirements || [];
-    const caseDots   = _renderCaseDots(caseReqs);
+    const caseDots   = caseReqs.length > 0
+      ? _renderCaseDots(caseReqs)
+      : `<span class="case-dot-group"><span class="case-dot case-dot-unknown" title="Kein spezifischer Kasus"></span></span>`;
 
     return `
       <div class="card verb-card">
         <div class="verb-card-header" onclick="toggleVerbCard('${verb.id}')">
           <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+            ${caseDots}
             <span class="verb-card-title">${verb.root}</span>
             <span class="verb-card-en"> — ${verb.english}</span>
-            ${caseDots}
           </div>
           <div style="display:flex;align-items:center;gap:6px;flex-shrink:0">
-            <span style="font-size:var(--font-size-xs);color:var(--color-text-muted);
-                         text-transform:uppercase;letter-spacing:0.04em">${verb.type || ''}</span>
             <svg id="vl-arr-${verb.id}" width="16" height="16" viewBox="0 0 24 24" fill="none"
                  stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
                  stroke-linejoin="round" style="color:var(--color-text-muted);transition:transform 0.2s">

@@ -1,5 +1,5 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-06-07 — Session 13*
+*Last updated: 2026-06-07 — Session 14*
 
 ---
 
@@ -12,12 +12,12 @@
 | File / Folder | Status | Notes |
 |---|---|---|
 | `index.html` | ✅ Updated | Screens: Home, Word List, Module Home, Exercise, Verbliste, Nomenliste, Adverbliste, Adjektivliste, **Präpositionsliste**, Results |
-| `css/styles.css` | ✅ Updated | Full design system. Added `.diff-btn`, `.prep-highlight`. |
-| `js/app.js` | ✅ Updated | Router, data loading, all module home renderers + Adjektivliste + Präpositionsliste. **Case dots on prep cards.** |
+| `css/styles.css` | ✅ Updated | Full design system. Added `.diff-btn`, `.prep-highlight`, `.case-dot-unknown` (dashed gray, no-case verbs). |
+| `js/app.js` | ✅ Updated | Router, data loading, all module home renderers + Adjektivliste + Präpositionsliste. **Case dots on prep cards (left, no CEFR badge). Progress card shows exercise count only.** |
 | `js/progress.js` | ✅ Updated | Root/variant split for nouns. Adjectives key. **Prepositions difficulty key** (`app_prepositions_difficulty`). |
-| `js/exercises.js` | ✅ Updated | Nouns, adjectives, **prepositions** in queue builder. Two new renderers: `select_preposition`, `select_case`. Inline difficulty switcher. **`_ensureFirstExposure()`** guarantees translate_word is first for new words. **Parenthetical hints removed from all conjugation exercises.** |
+| `js/exercises.js` | ✅ Updated | Nouns, adjectives, **prepositions** in queue builder. Two new renderers: `select_preposition`, `select_case`. Inline difficulty switcher. **`_ensureFirstExposure()`** guarantees translate_word is first for new words. **Parenthetical hints removed from all conjugation exercises.** **`returnFromResults` + `returnHome` fix nav stack bug (results screen no longer appears on back press).** |
 | `js/wordpractice.js` | ✅ Built | Adjektive class in WLP_CLASSES picker |
-| `js/wordlist.js` | ✅ Updated | Adjectives in buildWordObjects(). **Case dot helpers** (`_normalizeCase`, `_renderCaseDots`, `showCaseLegend`, `hideCaseLegend`). Verb cards show case dots. |
+| `js/wordlist.js` | ✅ Updated | Adjectives in buildWordObjects(). **Case dot helpers** (`_normalizeCase`, `_renderCaseDots`, `showCaseLegend`, `hideCaseLegend`). Verb cards show case dots on left; MIXED/STRONG/WEAK labels removed; dotted gray circle for verbs with no case. |
 | `data/modules.json` | ✅ Updated | **5 modules**: Verbs + Nouns + Adjectives + Adverbs + **Prepositions** (all active) |
 | `js/data.js` | ✅ **Bundled** | Format: `window.APP_DATA = {…}`. All content embedded. **Total exercises: 2,583 (post-audit)**. |
 | `data/verbs.json` | ✅ **91 root verbs** | Audit complete. 23 moves/removes, 14 new bases added. |

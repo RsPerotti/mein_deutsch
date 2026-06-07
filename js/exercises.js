@@ -564,11 +564,30 @@ function _showResults() {
 }
 
 function returnHome() {
-  navigateTo('screen-home');
+  // Clear the full nav stack so home is a clean slate.
+  navStack.length = 0;
+  const from = document.getElementById(currentScreen);
+  const to   = document.getElementById('screen-home');
+  from.classList.remove('active');
+  to.classList.add('active');
+  currentScreen = 'screen-home';
+  window.scrollTo(0, 0);
+  onScreenEnter('screen-home');
 }
 
 function returnFromResults() {
-  navigateTo('screen-module-home');
+  // Clean exercise and results screens from the stack so pressing back from
+  // module-home doesn't loop back to the results screen.
+  while (navStack.length && ['screen-exercise', 'screen-results'].includes(navStack[navStack.length - 1])) {
+    navStack.pop();
+  }
+  const from = document.getElementById(currentScreen);
+  const to   = document.getElementById('screen-module-home');
+  from.classList.remove('active');
+  to.classList.add('active');
+  currentScreen = 'screen-module-home';
+  window.scrollTo(0, 0);
+  onScreenEnter('screen-module-home');
 }
 
 // --- Chips ---

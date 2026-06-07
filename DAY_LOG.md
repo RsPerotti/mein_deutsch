@@ -2,6 +2,26 @@
 
 ---
 
+## 2026-06-07 — Session 14: UI Debug Pass (4 Fixes)
+
+**Files changed:** `js/app.js`, `js/wordlist.js`, `js/exercises.js`, `css/styles.css`
+
+### Fix 1 — Prepositions module progress card
+- `js/app.js` — Removed "53 Präpositionen · Wörter freigeschaltet" from the module-progress-count label. Now shows only `X / 158 Übungen`.
+
+### Fix 2 — Case dots moved to left badge position (prepositions list)
+- `js/app.js` (`_renderPrepCard`) — Removed CEFR badge (A1/A2/B1/B2). Case dots relocated from right side (after translation) to left side where badge was.
+
+### Fix 3 — Verb list cleanup + unknown-case dot
+- `js/wordlist.js` (`_renderVerblisteContent`) — Removed MIXED/STRONG/WEAK type labels from verb card headers. Case dots moved to left side (matching prepositions layout).
+- `css/styles.css` — Added `.case-dot.case-dot-unknown`: transparent circle with dashed gray border. Shown for verbs with no `case_requirements` in their grammar data, with tooltip "Kein spezifischer Kasus".
+
+### Fix 4 — Back navigation no longer shows results screen
+- `js/exercises.js` (`returnFromResults`) — Root cause: `navigateTo()` was pushing `screen-results` onto navStack, so pressing back from module-home looped back to the results screen. Fixed by stripping `screen-exercise` and `screen-results` from the top of navStack before switching screens directly (bypassing `navigateTo`).
+- `js/exercises.js` (`returnHome`) — Same pattern: now clears navStack entirely before switching to home, ensuring clean state.
+
+---
+
 ## 2026-06-07 — Session 13: Verb Module Debugging (4 Fixes)
 
 **What was changed:**

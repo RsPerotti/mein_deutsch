@@ -1240,10 +1240,11 @@ button {
   transform: scale(1.25);
   box-shadow: 0 2px 6px rgba(0,0,0,0.18);
 }
-.case-dot.akkusativ  { background: #FFBFBF; }
-.case-dot.dativ      { background: #B8D8FF; }
-.case-dot.nominativ  { background: #D8D8D8; }
-.case-dot.genitiv    { background: #FFE87A; }
+.case-dot.akkusativ        { background: #FFBFBF; }
+.case-dot.dativ            { background: #B8D8FF; }
+.case-dot.nominativ        { background: #D8D8D8; }
+.case-dot.genitiv          { background: #FFE87A; }
+.case-dot.case-dot-unknown { background: transparent; border: 2px dashed #BBBBBB; }
 
 .case-dot-group {
   display: inline-flex;

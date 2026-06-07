@@ -772,7 +772,7 @@ function _renderPrepositionModuleCategories() {
   const pct        = allEx.length > 0 ? Math.round(seen / allEx.length * 100) : 0;
 
   document.getElementById('module-progress-count').textContent =
-    `${total} Präpositionen · ${seen} / ${allEx.length} Übungen`;
+    `${seen} / ${allEx.length} Übungen`;
   document.getElementById('module-progress-fill').style.width = pct + '%';
 
   document.getElementById('module-categories').innerHTML = `
@@ -856,11 +856,9 @@ function _renderPrepCard(p) {
     <div class="card verb-card">
       <div class="verb-card-header" onclick="togglePrepCard('${p.id}')">
         <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
-          <span class="tag" style="margin-right:2px;background:var(--color-green-dark);color:#fff;
-                font-size:var(--font-size-xs);padding:2px 7px;border-radius:4px">${p.cefr}</span>
+          ${caseDots}
           <span class="verb-card-title">${p.preposition}</span>
           <span class="verb-card-en"> — ${p.english}</span>
-          ${caseDots}
         </div>
         <svg id="pl-arr-${p.id}" width="16" height="16" viewBox="0 0 24 24" fill="none"
              stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
