@@ -15,22 +15,29 @@ let _currentArticleId = null;        // article open in reader
 // ARTICLE LIST SCREEN
 // ─────────────────────────────────────────
 
+// SVG icons for the show/hide toggle
+const _EYE_ICON = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+     stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+  <circle cx="12" cy="12" r="3"/>
+</svg>`;
+
+const _EYE_SLASH_ICON = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+     stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M17.94 17.94A10.07 10.07 0 0112 20c-7 0-11-8-11-8a18.45 18.45 0 015.06-5.94"/>
+  <path d="M9.9 4.24A9.12 9.12 0 0112 4c7 0 11 8 11 8a18.5 18.5 0 01-2.16 3.19"/>
+  <line x1="1" y1="1" x2="23" y2="23"/>
+</svg>`;
+
 function renderListeningList() {
   const articles = (window.LISTENING_DATA || {}).articles || [];
   const container = document.getElementById('listening-list-content');
   const toggleBtn = document.getElementById('listening-toggle-read');
 
-  // Update toggle button label
+  // Update toggle icon: eye = "read visible" (click to hide), slash = "read hidden" (click to show)
   if (toggleBtn) {
-    toggleBtn.textContent = _showReadArticles ? 'Gelesen ausblenden' : 'Gelesen anzeigen';
-  }
-
-  // Update summary count
-  const readCount  = Progress.getReadArticles().length;
-  const totalCount = articles.length;
-  const summaryEl  = document.getElementById('listening-list-summary');
-  if (summaryEl) {
-    summaryEl.textContent = `${readCount} / ${totalCount} gelesen`;
+    toggleBtn.innerHTML = _showReadArticles ? _EYE_ICON : _EYE_SLASH_ICON;
+    toggleBtn.title = _showReadArticles ? 'Gelesen ausblenden' : 'Gelesen anzeigen';
   }
 
   // Filter if needed
@@ -215,12 +222,12 @@ function showVocabSheet(idx, matchedWord) {
   document.getElementById('vocab-sheet-word').textContent        = matchedWord || entry.word;
   document.getElementById('vocab-sheet-explanation').textContent = entry.explanation_en || '';
 
-  document.getElementById('listening-vocab-overlay').classList.add('active');
+  document.getElementById('listening-vocab-overlay').classList.add('visible');
   document.getElementById('listening-vocab-sheet').classList.add('open');
 }
 
 function closeVocabSheet() {
-  document.getElementById('listening-vocab-overlay').classList.remove('active');
+  document.getElementById('listening-vocab-overlay').classList.remove('visible');
   document.getElementById('listening-vocab-sheet').classList.remove('open');
 }
 
@@ -232,11 +239,12 @@ function toggleArticleRead() {
   if (!_currentArticleId) return;
   const isRead = Progress.isArticleRead(_currentArticleId);
   if (isRead) {
-    // No "unread" function — once read stays read (can be added later)
-    return;
+    Progress.unmarkArticleRead(_currentArticleId);
+    _updateReadButton(false);
+  } else {
+    Progress.markArticleRead(_currentArticleId);
+    _updateReadButton(true);
   }
-  Progress.markArticleRead(_currentArticleId);
-  _updateReadButton(true);
 }
 
 function _updateReadButton(isRead) {

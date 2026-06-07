@@ -2,6 +2,37 @@
 
 ---
 
+## 2026-06-07 — Session 18b: Lesen & Hören — Bug Fixes
+
+**Files modified:** `index.html`, `js/listening.js`, `js/progress.js`, `css/styles.css`
+
+### 4 bugs fixed
+
+**Bug 1 — Toggle button styling (heading row restructure)**
+- Removed unnecessary read-count counter from heading
+- Replaced text toggle with eye / eye-slash SVG icon (banking-style show/hide)
+- Restructured `screen-listening-list` to use `.listening-list-heading-row` flex container: heading left, icon button right
+- Heading now reads "Reading & Listening"; font/spacing tuned so it fits alongside the icon
+- `renderListeningList()` updates `toggleBtn.innerHTML` directly with `_EYE_ICON` or `_EYE_SLASH_ICON`
+
+**Bug 2 — Nav title centering**
+- All nav titles (`nav-context`) now absolutely centred on screen regardless of left/right element count
+- `.nav-header` gets `position: relative`; `.nav-context` gets `position: absolute; left: 50%; transform: translateX(-50%)` with `white-space: nowrap; pointer-events: none`
+- Back button stays left-aligned in normal flex flow; read button right-aligned
+
+**Bug 3 — Read state reversible**
+- Added `unmarkArticleRead(id)` to `progress.js`
+- `toggleArticleRead()` is now bidirectional: reads current state, marks or unmarks accordingly, updates button appearance
+
+**Bug 4 — Vocab bottom sheet closes on outside tap**
+- Root cause: `showVocabSheet()` was using `classList.add('active')` but CSS targets `.sheet-overlay.visible`
+- Fixed: all references changed from `'active'` to `'visible'`
+- Overlay's `onclick = closeVocabSheet` wired in `_renderArticle()` for outside-tap dismissal
+
+**Not yet pushed to GitHub.**
+
+---
+
 ## 2026-06-07 — Session 18: Lesen & Hören Module
 
 **Files created:** `js/listening-data.js` (new), `js/listening.js` (new)

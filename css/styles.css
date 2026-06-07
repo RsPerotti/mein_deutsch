@@ -172,6 +172,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
   padding: 52px var(--page-x) var(--sp-3);
 }
 
@@ -190,12 +191,18 @@ button {
 
 .back-btn svg { width: 18px; height: 18px; color: var(--color-text-primary); }
 
+/* Centred via absolute — back btn stays left, right-side elements stay right */
 .nav-context {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   font-size: var(--font-size-xs);
   font-weight: var(--fw-semibold);
   letter-spacing: var(--ls-label);
   text-transform: uppercase;
   color: var(--color-text-secondary);
+  white-space: nowrap;
+  pointer-events: none;
 }
 
 .nav-pill {
@@ -1285,6 +1292,38 @@ button {
    LESEN & HÖREN MODULE
    ───────────────────────────────────────── */
 
+/* Article list — heading row with eye toggle */
+.listening-list-heading-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--sp-5);
+}
+.listening-list-heading {
+  font-size: var(--font-size-xl);
+  font-weight: var(--fw-bold);
+  line-height: 1.15;
+  color: var(--color-text-primary);
+}
+.listening-toggle-btn {
+  flex-shrink: 0;
+  background: none;
+  border: none;
+  padding: 6px;
+  cursor: pointer;
+  color: var(--color-text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--r-full);
+  transition: color 0.15s, background 0.15s;
+}
+.listening-toggle-btn:active,
+.listening-toggle-btn:hover {
+  color: var(--color-text-primary);
+  background: var(--color-bg-secondary);
+}
+
 /* Module card subtitle (read count) */
 .module-card-sub {
   font-size: var(--font-size-xs);
@@ -1347,10 +1386,7 @@ button {
   color: var(--color-green-dark);
 }
 
-/* Reader nav: read button */
-.nav-header {
-  position: relative;
-}
+/* Reader nav: read button — absolutely positioned right, same pattern as nav-context left */
 .listening-read-btn {
   position: absolute;
   right: var(--sp-4);

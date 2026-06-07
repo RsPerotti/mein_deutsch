@@ -449,17 +449,19 @@
     </div>
 
     <div class="screen-content" style="padding-top:0">
-      <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px">
-        <div class="heading-lg">Artikel</div>
-        <div id="listening-list-summary"
-             style="font-size:var(--font-size-sm);color:var(--color-text-muted)"></div>
-      </div>
-
-      <div style="margin-bottom:var(--sp-4)">
+      <div class="listening-list-heading-row">
+        <div class="listening-list-heading">Reading &amp; Listening</div>
         <button id="listening-toggle-read"
-                class="secondary-btn"
-                style="font-size:var(--font-size-sm);padding:6px 14px;min-width:0"
-                onclick="toggleReadArticles()">Gelesen ausblenden</button>
+                class="listening-toggle-btn"
+                onclick="toggleReadArticles()"
+                title="Gelesen ausblenden">
+          <!-- icon injected by JS -->
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+            <circle cx="12" cy="12" r="3"/>
+          </svg>
+        </button>
       </div>
 
       <div id="listening-list-content"></div>

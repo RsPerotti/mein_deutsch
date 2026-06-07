@@ -1,5 +1,5 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-06-07 — Session 18*
+*Last updated: 2026-06-07 — Session 18b (bug fixes)*
 
 ---
 

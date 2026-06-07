@@ -193,6 +193,10 @@ const Progress = {
     if (!list.includes(id)) { list.push(id); this._set(this.KEYS.ARTICLES_READ, list); }
   },
 
+  unmarkArticleRead(id) {
+    this._set(this.KEYS.ARTICLES_READ, this.getReadArticles().filter(x => x !== id));
+  },
+
   // --- Session ---
   recordSession() { this._set(this.KEYS.LAST_SESSION, new Date().toISOString()); }
 };
