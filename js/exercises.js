@@ -35,11 +35,16 @@ let session = {
 
 // --- Entry point (called from app.js onScreenEnter) ---
 function startExercise(state) {
-  const { moduleId, category } = state || {};
+  const { moduleId, category, tenseContext } = state || {};
   if (!moduleId || !category) return;
+
+  // Default Vergangenheit sub-tense to 'perfekt' when starting fresh
+  const initVergangenheitTense = tenseContext === 'vergangenheit' ? 'perfekt' : null;
 
   session = {
     moduleId, category,
+    tenseContext: tenseContext || null,           // 'prasens' | 'vergangenheit' | null
+    vergangenheitTense: initVergangenheitTense,   // 'perfekt' | 'prateritum'
     queue: [], cooldown: [], retries: {},
     correctCount: 0, newlyUnlocked: [],
     current: null, answered: false
@@ -71,18 +76,27 @@ function startExercise(state) {
   } else if (moduleId === 'module_prepositions') {
     contextLabel = 'PRÄPOSITIONEN · ÜBUNGEN';
   } else {
-    const label = category === 'roots' ? 'STAMMVERBEN' : 'VARIATIONEN';
-    contextLabel = 'VERBEN · ' + label;
+    const tcLabel = tenseContext === 'vergangenheit' ? 'VERGANGENHEIT' : 'PRÄSENS';
+    const catLabel = category === 'roots' ? 'STAMMVERBEN' : 'VARIATIONEN';
+    contextLabel = 'VERBEN · ' + catLabel + ' · ' + tcLabel;
   }
   document.getElementById('exercise-context-label').textContent = contextLabel;
 
   // Show/hide difficulty picker for prepositions
-  const picker = document.getElementById('prep-difficulty-picker');
-  if (picker) {
-    picker.style.display = moduleId === 'module_prepositions' ? 'block' : 'none';
+  const prepPicker = document.getElementById('prep-difficulty-picker');
+  if (prepPicker) {
+    prepPicker.style.display = moduleId === 'module_prepositions' ? 'block' : 'none';
     if (moduleId === 'module_prepositions') {
       _updateDifficultyPicker(Progress.getPrepositionsDifficulty());
     }
+  }
+
+  // Show/hide Verb Vergangenheit sub-picker (Perfekt / Präteritum)
+  const verbPicker = document.getElementById('verb-tense-picker');
+  if (verbPicker) {
+    const showVerbPicker = moduleId === 'module_verbs' && tenseContext === 'vergangenheit';
+    verbPicker.style.display = showVerbPicker ? 'block' : 'none';
+    if (showVerbPicker) _updateVerbTensePicker(session.vergangenheitTense);
   }
 
   _updateChips();
@@ -121,9 +135,27 @@ function _buildQueue(moduleId, category) {
   // Full queue — no session cap. User works through all exercises until complete.
   if (moduleId !== 'module_verbs') return _shuffle([...all]);
 
+  // Verb tense filter — applied before roots/variants split
+  // tenseContext: 'prasens' | 'vergangenheit' | null (null = no filter, legacy)
+  // vergangenheitTense: 'perfekt' | 'prateritum' (used when tenseContext === 'vergangenheit')
+  const tc  = session.tenseContext;
+  const vgt = session.vergangenheitTense; // 'perfekt' | 'prateritum'
+
+  let tenseFiltered;
+  if (tc === 'prasens') {
+    tenseFiltered = all.filter(ex => !ex.tense || ex.tense === 'prasens');
+  } else if (tc === 'vergangenheit') {
+    // Sub-tense from the picker; default to perfekt
+    const sub = vgt || 'perfekt';
+    tenseFiltered = all.filter(ex => ex.tense === sub);
+  } else {
+    // No tense context (legacy / other modules) — serve everything
+    tenseFiltered = all;
+  }
+
   if (category === 'roots') {
     const rootIds = new Set(appData.verbs.map(v => v.id));
-    return _shuffle(all.filter(ex => rootIds.has(ex.word_id)));
+    return _shuffle(tenseFiltered.filter(ex => rootIds.has(ex.word_id)));
   }
 
   // Variants: only exercises for variants of already-unlocked root verbs
@@ -134,7 +166,7 @@ function _buildQueue(moduleId, category) {
       (verb.prefix_variants || []).forEach(pv => allowedVariantIds.add(pv.id));
     }
   }
-  return _shuffle(all.filter(ex => allowedVariantIds.has(ex.word_id)));
+  return _shuffle(tenseFiltered.filter(ex => allowedVariantIds.has(ex.word_id)));
 }
 
 // --- Show next exercise ---
@@ -175,8 +207,25 @@ function _showNext() {
     card.innerHTML = _renderSelectPreposition(ex);
   } else if (ex.type === 'select_case') {
     card.innerHTML = _renderSelectCase(ex);
+  } else if (ex.type === 'partizip_ii') {
+    card.innerHTML = _renderPartizipII(ex);
+    setTimeout(() => document.getElementById('partizip-input')?.focus(), 80);
+  } else if (ex.type === 'auxiliary_choice') {
+    card.innerHTML = _renderAuxiliaryChoice(ex);
+  } else if (ex.type === 'conjugation_table') {
+    card.innerHTML = _renderConjugationTable(ex);
+    setTimeout(() => document.getElementById('input-ich')?.focus(), 80);
   } else {
     card.innerHTML = _renderTranslateWord(ex); // fallback
+  }
+
+  // Inject Regular/Irregular + case badge for verb exercises
+  if (session.moduleId === 'module_verbs' && ex.word_id) {
+    const badge = _verbMetaBadge(ex.word_id);
+    if (badge) {
+      const metaEl = card.querySelector('.exercise-meta');
+      if (metaEl) metaEl.insertAdjacentHTML('afterend', badge);
+    }
   }
 
   document.getElementById('next-btn').style.display = 'none';
@@ -408,6 +457,249 @@ function _renderSelectCase(ex) {
     <div class="feedback-text" id="feedback"></div>`;
 }
 
+// --- Render: partizip_ii ---
+// Learner types the Partizip II form of the given verb.
+function _renderPartizipII(ex) {
+  const word = ex.question?.de || ex.word_id.replace(/^verb_/, '');
+
+  let wordHtml = _esc(word);
+  const prefixVerb = _findPrefixVerb(word);
+  if (prefixVerb) {
+    wordHtml = `<span class="prefix">${_esc(prefixVerb.prefix)}</span>${_esc(word.slice(prefixVerb.prefix.length))}`;
+  }
+
+  return `
+    <div class="exercise-meta">
+      <div class="exercise-counter">FRAGE ${session.correctCount + 1}</div>
+      <div class="exercise-type-label">Partizip II</div>
+    </div>
+    <div class="exercise-word-display">
+      <div class="exercise-word">${wordHtml}</div>
+      <div>
+        <button class="pronounce-btn" onclick="_speak('${_esc(word)}')">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+            <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+          </svg>
+          Aussprechen
+        </button>
+      </div>
+      <div class="exercise-word-prompt">WIE LAUTET DAS PARTIZIP II?</div>
+    </div>
+    <div style="padding: 0 var(--sp-2) var(--sp-4)">
+      <input type="text" id="partizip-input" class="partizip-input"
+             placeholder="Partizip II eingeben…"
+             onkeydown="if(event.key==='Enter') checkPartizipII()"
+             autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+      <button class="check-btn" onclick="checkPartizipII()">Prüfen →</button>
+    </div>
+    <div class="feedback-text" id="feedback"></div>`;
+}
+
+// --- Render: auxiliary_choice ---
+// Two-button choice: hat (haben) vs ist (sein).
+function _renderAuxiliaryChoice(ex) {
+  const word    = ex.question?.de || ex.word_id.replace(/^verb_/, '');
+  const options = _shuffle([ex.correct_answer, ...(ex.wrong_answers || []).slice(0, 1)]);
+
+  let wordHtml = _esc(word);
+  const prefixVerb = _findPrefixVerb(word);
+  if (prefixVerb) {
+    wordHtml = `<span class="prefix">${_esc(prefixVerb.prefix)}</span>${_esc(word.slice(prefixVerb.prefix.length))}`;
+  }
+
+  return `
+    <div class="exercise-meta">
+      <div class="exercise-counter">FRAGE ${session.correctCount + 1}</div>
+      <div class="exercise-type-label">Hilfsverb</div>
+    </div>
+    <div class="exercise-word-display">
+      <div class="exercise-word">${wordHtml}</div>
+      <div>
+        <button class="pronounce-btn" onclick="_speak('${_esc(word)}')">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+            <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+          </svg>
+          Aussprechen
+        </button>
+      </div>
+      <div class="exercise-word-prompt">WELCHES HILFSVERB IM PERFEKT?</div>
+    </div>
+    <div class="options-aux" id="opts">
+      ${options.map(opt => `
+        <button class="option-btn aux-opt"
+                data-answer="${_esc(opt)}"
+                onclick="selectAnswer(this)">
+          <span class="opt-word">${_esc(opt)}</span>
+        </button>`).join('')}
+    </div>
+    <div class="feedback-text" id="feedback"></div>`;
+}
+
+// --- Render: conjugation_table ---
+// 6-row table with text inputs; learner fills in all forms at once.
+// ex.tense: 'prasens' | 'prateritum' | 'perfekt'
+// ex.forms: { ich, du, er_sie_es, wir, ihr, sie_Sie }
+function _renderConjugationTable(ex) {
+  const word       = ex.question?.de || ex.word_id.replace(/^verb_/, '');
+  const tenseLabel = ex.question?.tense_label || '';
+  const persons    = ['ich', 'du', 'er_sie_es', 'wir', 'ihr', 'sie_Sie'];
+  const display    = ['ich', 'du', 'er/sie/es', 'wir', 'ihr', 'sie/Sie'];
+
+  let wordHtml = _esc(word);
+  const prefixVerb = _findPrefixVerb(word);
+  if (prefixVerb) {
+    wordHtml = `<span class="prefix">${_esc(prefixVerb.prefix)}</span>${_esc(word.slice(prefixVerb.prefix.length))}`;
+  }
+
+  const perfektHint = ex.tense === 'perfekt'
+    ? `<div class="exercise-word-prompt" style="margin-top:var(--sp-1);font-size:10px">HILFSVERB + PARTIZIP II</div>` : '';
+
+  return `
+    <div class="exercise-meta">
+      <div class="exercise-counter">FRAGE ${session.correctCount + 1}</div>
+      <div class="exercise-type-label">Tabelle</div>
+    </div>
+    <div class="exercise-word-display" style="margin-bottom:var(--sp-3)">
+      <div class="exercise-word" style="font-size:clamp(1.6rem,6vw,2.4rem)">${wordHtml}</div>
+      <div class="exercise-word-prompt">${_esc(tenseLabel.toUpperCase())}</div>
+      ${perfektHint}
+    </div>
+    <div class="conj-table" id="conj-table">
+      ${persons.map((p, i) => `
+        <div class="conj-row" id="row-${p}">
+          <span class="conj-pronoun">${_esc(display[i])}</span>
+          <input type="text" class="conj-input" id="input-${p}"
+                 autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+                 onkeydown="if(event.key==='Enter'){${
+                   i < 5
+                     ? `document.getElementById('input-${persons[i + 1]}')?.focus()`
+                     : 'submitConjugationTable()'
+                 };}">
+        </div>`).join('')}
+    </div>
+    <div style="padding: var(--sp-2) var(--sp-2) var(--sp-4)">
+      <button class="check-btn" onclick="submitConjugationTable()">Alle prüfen →</button>
+    </div>
+    <div class="feedback-text" id="feedback"></div>`;
+}
+
+// --- Submit: partizip_ii ---
+function checkPartizipII() {
+  if (session.answered) return;
+
+  const input = document.getElementById('partizip-input');
+  if (!input || !input.value.trim()) return;
+
+  const given   = input.value.trim().toLowerCase();
+  const correct = (session.current.correct_answer || '').trim().toLowerCase();
+
+  session.answered = true;
+  input.disabled   = true;
+
+  const isRight = given === correct;
+
+  if (isRight) {
+    input.classList.add('partizip-correct');
+    session.correctCount++;
+    Progress.recordResult(session.current.exercise_id, true);
+    _unlockWord(session.current.word_id);
+    _flash('green');
+    setTimeout(() => _showNext(), 1500);
+  } else {
+    input.classList.add('partizip-wrong');
+
+    const fb = document.getElementById('feedback');
+    if (fb) {
+      fb.innerHTML = `Richtig: <strong>${_esc(session.current.correct_answer)}</strong>`;
+      if (session.current.explanation_en) {
+        fb.innerHTML += `<br><span style="font-size:0.85em;opacity:0.8">${_esc(session.current.explanation_en)}</span>`;
+      }
+      fb.style.display = 'block';
+    }
+
+    Progress.recordResult(session.current.exercise_id, false);
+
+    const retryKey = session.current.word_id || session.current.exercise_id;
+    session.retries[retryKey] = (session.retries[retryKey] || 0) + 1;
+    if (session.retries[retryKey] <= 2) session.cooldown.push(session.current);
+
+    _flash('red');
+    document.getElementById('next-btn').style.display = 'block';
+  }
+
+  _updateChips();
+}
+
+// --- Submit: conjugation_table ---
+function submitConjugationTable() {
+  if (session.answered) return;
+
+  const ex      = session.current;
+  const persons = ['ich', 'du', 'er_sie_es', 'wir', 'ihr', 'sie_Sie'];
+
+  // Require all fields filled
+  const allFilled = persons.every(p => {
+    const v = document.getElementById('input-' + p)?.value.trim();
+    return v && v.length > 0;
+  });
+  if (!allFilled) {
+    const fb = document.getElementById('feedback');
+    if (fb) { fb.textContent = 'Bitte alle Felder ausfüllen.'; fb.style.display = 'block'; }
+    return;
+  }
+
+  session.answered = true;
+
+  let allCorrect = true;
+
+  for (const p of persons) {
+    const input    = document.getElementById('input-' + p);
+    const row      = document.getElementById('row-' + p);
+    const expected = (ex.forms[p] || '').toLowerCase();
+    const given    = (input?.value.trim() || '').toLowerCase();
+
+    if (input) input.disabled = true;
+
+    if (given === expected) {
+      row?.classList.add('row-correct');
+      if (input) input.classList.add('partizip-correct');
+    } else {
+      allCorrect = false;
+      row?.classList.add('row-wrong');
+      if (input) {
+        input.classList.add('partizip-wrong');
+        const hint = document.createElement('span');
+        hint.className   = 'conj-correct-hint';
+        hint.textContent = ex.forms[p];
+        input.parentNode.appendChild(hint);
+      }
+    }
+  }
+
+  if (allCorrect) {
+    session.correctCount++;
+    Progress.recordResult(ex.exercise_id, true);
+    _unlockWord(ex.word_id);
+    _flash('green');
+    setTimeout(() => _showNext(), 1800);
+  } else {
+    Progress.recordResult(ex.exercise_id, false);
+
+    const retryKey = ex.word_id || ex.exercise_id;
+    session.retries[retryKey] = (session.retries[retryKey] || 0) + 1;
+    if (session.retries[retryKey] <= 2) session.cooldown.push(ex);
+
+    _flash('red');
+    document.getElementById('next-btn').style.display = 'block';
+  }
+
+  _updateChips();
+}
+
 // --- Answer selection (routes to module or WL handler) ---
 function selectAnswer(btn) {
   if (exerciseMode === 'wordlist') { _selectWLAnswer(btn); return; }
@@ -633,6 +925,75 @@ function _esc(str) {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#39;');
+}
+
+// ═══════════════════════════════════════════════════════
+// VERB VERGANGENHEIT SUB-PICKER  (Perfekt / Präteritum)
+// ═══════════════════════════════════════════════════════
+
+// Called by verb-tense-picker buttons in index.html
+function setVerbTense(tense) {
+  session.vergangenheitTense = tense;  // 'perfekt' | 'prateritum'
+  _updateVerbTensePicker(tense);
+
+  // Rebuild queue with new sub-tense, preserving session stats
+  const exercises = _buildQueue(session.moduleId, session.category);
+  session.queue    = _shuffle([...exercises]);
+  session.cooldown = [];
+  session.current  = null;
+  session.answered = false;
+  _updateChips();
+  _showNext();
+}
+
+function _updateVerbTensePicker(tense) {
+  const perfektBtn    = document.getElementById('verb-tense-perfekt');
+  const prateritumBtn = document.getElementById('verb-tense-prateritum');
+  if (perfektBtn)    perfektBtn.classList.toggle('active',    tense === 'perfekt');
+  if (prateritumBtn) prateritumBtn.classList.toggle('active', tense === 'prateritum');
+}
+
+// ═══════════════════════════════════════════════════════
+// VERB META BADGE  (Regular/Irregular + case requirement)
+// Injected into the exercise card by _showNext() for all verb exercises.
+// ═══════════════════════════════════════════════════════
+
+const _CASE_LABELS = {
+  nominative: 'Nominativ',
+  accusative: 'Akkusativ',
+  dative:     'Dativ',
+  genitive:   'Genitiv',
+};
+
+function _verbMetaBadge(wordId) {
+  let typeStr = null;
+  let cases   = [];
+
+  const root = appData.verbs.find(v => v.id === wordId);
+  if (root) {
+    typeStr = root.type === 'weak' ? 'Regular' : 'Irregular';
+    cases   = root.grammar?.case_requirements || [];
+  } else {
+    // Prefix variant — inherit type and case from parent root
+    for (const v of appData.verbs) {
+      if ((v.prefix_variants || []).some(pv => pv.id === wordId)) {
+        typeStr = v.type === 'weak' ? 'Regular' : 'Irregular';
+        cases   = v.grammar?.case_requirements || [];
+        break;
+      }
+    }
+  }
+
+  if (!typeStr) return '';
+
+  const caseText  = cases.filter(c => c !== 'none').map(c => _CASE_LABELS[c] || c).join(' + ');
+  const caseBadge = caseText
+    ? `<span class="verb-case-badge">${_esc(caseText)}</span>` : '';
+
+  return `<div class="verb-meta-badge">
+    <span class="verb-type-pill ${typeStr === 'Regular' ? 'regular' : 'irregular'}">${typeStr}</span>
+    ${caseBadge}
+  </div>`;
 }
 
 // ═══════════════════════════════════════════════════════

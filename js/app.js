@@ -77,9 +77,22 @@ function openModule(moduleId) {
 }
 
 // Convenience: start an exercise session
-function openExercise(moduleId, category) {
-  currentExerciseState = { moduleId, category };
+// tenseContext: 'prasens' | 'vergangenheit' (verbs only; omit for all other modules)
+function openExercise(moduleId, category, tenseContext) {
+  currentExerciseState = { moduleId, category, tenseContext: tenseContext || null };
   navigateTo('screen-exercise');
+}
+
+// ─────────────────────────────────────────
+// VERB TENSE TAB STATE
+// Persists across module-home re-renders within a session.
+// Extensible: add 'futur', 'konjunktiv' etc. without rearchitecting.
+// ─────────────────────────────────────────
+let _verbTenseTab = 'prasens'; // 'prasens' | 'vergangenheit'
+
+function setVerbTenseTab(tab) {
+  _verbTenseTab = tab;
+  _renderVerbModuleCategories();
 }
 
 // ─────────────────────────────────────────
@@ -253,30 +266,35 @@ function _renderVerbModuleCategories() {
   const varUnlocked  = Progress.getUnlockedVariants().length;
   const rootTotal    = appData.verbs.length;
   const varTotal     = appData.verbs.reduce((n, v) => n + (v.prefix_variants || []).length, 0);
-
   const totalUnlocked = rootUnlocked + varUnlocked;
   const totalAll      = rootTotal + varTotal;
   const pct = totalAll > 0 ? Math.round(totalUnlocked / totalAll * 100) : 0;
-
   const varLocked = rootUnlocked === 0;
 
-  // Exercise completion counts
-  const allVerbEx     = appData.exercises['module_verbs'] || [];
-  const rootIds       = new Set(appData.verbs.map(v => v.id));
-  const rootExs       = allVerbEx.filter(ex => rootIds.has(ex.word_id));
-  const rootExDone    = rootExs.filter(ex => Progress.getExerciseHistory(ex.exercise_id).correct > 0).length;
-  const rootExTotal   = rootExs.length;
-  const rootExPct     = rootExTotal > 0 ? Math.round(rootExDone / rootExTotal * 100) : 0;
-
-  const variantIds    = new Set();
+  const allVerbEx  = appData.exercises['module_verbs'] || [];
+  const rootIds    = new Set(appData.verbs.map(v => v.id));
+  const variantIds = new Set();
   for (const v of appData.verbs) (v.prefix_variants || []).forEach(pv => variantIds.add(pv.id));
-  const varExs        = allVerbEx.filter(ex => variantIds.has(ex.word_id));
-  const varExDone     = varExs.filter(ex => Progress.getExerciseHistory(ex.exercise_id).correct > 0).length;
-  const varExTotal    = varExs.length;
-  const varExPct      = varExTotal > 0 ? Math.round(varExDone / varExTotal * 100) : 0;
+
+  // Tense filter — Präsens: no tense field or 'prasens'; Vergangenheit: 'perfekt' or 'prateritum'
+  const isTenseMatch = (ex) => _verbTenseTab === 'prasens'
+    ? (!ex.tense || ex.tense === 'prasens')
+    : (ex.tense === 'perfekt' || ex.tense === 'prateritum');
+
+  const rootExs     = allVerbEx.filter(ex => rootIds.has(ex.word_id) && isTenseMatch(ex));
+  const rootExDone  = rootExs.filter(ex => Progress.getExerciseHistory(ex.exercise_id).correct > 0).length;
+  const rootExTotal = rootExs.length;
+  const rootExPct   = rootExTotal > 0 ? Math.round(rootExDone / rootExTotal * 100) : 0;
+
+  const varExs     = allVerbEx.filter(ex => variantIds.has(ex.word_id) && isTenseMatch(ex));
+  const varExDone  = varExs.filter(ex => Progress.getExerciseHistory(ex.exercise_id).correct > 0).length;
+  const varExTotal = varExs.length;
+  const varExPct   = varExTotal > 0 ? Math.round(varExDone / varExTotal * 100) : 0;
+
+  const tc = _verbTenseTab; // tenseContext passed to openExercise
 
   document.getElementById('module-categories').innerHTML = `
-    <!-- Merged: Unlocked Verbs + list link -->
+    <!-- Unlocked Verbs summary card -->
     <div class="card" style="cursor:pointer" onclick="navigateTo('screen-verbliste')">
       <div style="display:flex;align-items:center;justify-content:space-between">
         <div style="flex:1;min-width:0">
@@ -300,9 +318,17 @@ function _renderVerbModuleCategories() {
       Übungen
     </div>
 
-    <!-- Category pair: Stammverben + Variationen -->
+    <!-- Tense tab toggle: Präsens | Vergangenheit (extensible for Futur, Konjunktiv etc.) -->
+    <div class="tense-tab-row">
+      <button class="tense-tab ${_verbTenseTab === 'prasens'       ? 'active' : ''}"
+              onclick="setVerbTenseTab('prasens')">Präsens</button>
+      <button class="tense-tab ${_verbTenseTab === 'vergangenheit' ? 'active' : ''}"
+              onclick="setVerbTenseTab('vergangenheit')">Vergangenheit</button>
+    </div>
+
+    <!-- Category cards — Stammverben + Variationen -->
     <div class="category-pair">
-      <div class="category-card" onclick="openExercise('module_verbs','roots')">
+      <div class="category-card" onclick="openExercise('module_verbs','roots','${tc}')">
         <div class="category-card-title">Stammverben</div>
         <div class="category-card-subtitle">Root verbs</div>
         <div class="category-card-count mt-3">${rootExDone} / ${rootExTotal} Übungen</div>
@@ -313,7 +339,7 @@ function _renderVerbModuleCategories() {
       </div>
 
       <div class="category-card ${varLocked ? 'locked' : ''}"
-           onclick="${varLocked ? '' : "openExercise('module_verbs','variants')"}">
+           onclick="${varLocked ? '' : `openExercise('module_verbs','variants','${tc}')`}">
         <div class="category-card-title"
              style="${varLocked ? 'color:var(--color-text-muted)' : ''}">Variationen</div>
         <div class="category-card-subtitle">Prefix verbs</div>

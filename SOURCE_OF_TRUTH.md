@@ -1,5 +1,5 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-06-12 — Session 21 (Phase 1: Vergangenheit data complete)*
+*Last updated: 2026-06-12 — Session 23 (Phase 3: Vergangenheit UI toggle + verb meta badge complete)*
 
 ---
 
@@ -7,7 +7,9 @@
 
 **6 modules live. UI cleaned up.** App at https://rsperotti.github.io/mein_deutsch. Home screen uses 2-column grid cards. Module homes show title in nav-context, merged progress+list card. Lesen & Hören has pill buttons (toggle + read). **Pushed to GitHub — Session 18c complete.**
 
-**Vergangenheit Phase 1 COMPLETE.** All 91 root verbs and 157 prefix variants now have full Präteritum conjugations (6 forms each) + Perfekt data (past_participle + auxiliary) in `js/data.js`. Verified clean. **Next: Phase 2 — exercise engine (`js/exercises.js`): partizip_ii, auxiliary_choice, conjugation_table handlers.** See `PRD_Vergangenheit.md`.
+**Vergangenheit Phase 2 COMPLETE.** Three new exercise type handlers added to `js/exercises.js`: `partizip_ii` (text input), `auxiliary_choice` (2-button MC), `conjugation_table` (6-row table, tense-parameterised for Präsens/Präteritum/Perfekt). 1,083 new exercises generated (248 partizip_ii + 248 auxiliary_choice + 587 conjugation_table). All exercises have a `tense` field for Phase 3 tab filtering.
+
+**Vergangenheit Phase 3 COMPLETE.** Präsens/Vergangenheit tab toggle live on Verbs module home. Perfekt/Präteritum sub-picker shown in exercise session when tenseContext = 'vergangenheit'. Regular/Irregular pill + case badge rendered on every verb exercise card. Tense filtering verified clean (0 bleed in both directions). Known limitation: prefix variants inherit parent root's `grammar.case_requirements` — `verstehen` shows Irregular with no case badge (should be Akkusativ). Phase 4 enhancement item. **Next: Phase 4 — spaced repetition / scoring system.** See `PRD_Vergangenheit.md`.
 
 ## What Exists
 
@@ -17,15 +19,15 @@
 | `css/styles.css` | ✅ Updated | Full design system. Added `.home-modules-grid`, `.module-card-grid`, `.pill-toggle-btn`, `.pill-read-btn`. Old `.listening-toggle-btn`, `.listening-read-btn` (circle) replaced. |
 | `js/app.js` | ✅ Updated | Module cards: 2-column grid, no icons, no eyebrow. Nav-context shows module title in caps. All 5 word module renderers: merged unlocked-count+list card. Prepositions: Niveau text removed from exercise card. |
 | `js/progress.js` | ✅ Updated | Root/variant split for nouns. Adjectives key. **Prepositions difficulty key** (`app_prepositions_difficulty`). **`app_articles_read` key** + `markArticleRead` / `isArticleRead` / `getReadArticles`. |
-| `js/exercises.js` | ✅ Updated | Nouns, adjectives, **prepositions** in queue builder. Two new renderers: `select_preposition`, `select_case`. Inline difficulty switcher. **`_ensureFirstExposure()`** guarantees translate_word is first for new words. **Parenthetical hints removed from all conjugation exercises.** **`returnFromResults` + `returnHome` fix nav stack bug (results screen no longer appears on back press).** |
+| `js/exercises.js` | ✅ Updated | Nouns, adjectives, **prepositions** in queue builder. Two new renderers: `select_preposition`, `select_case`. Inline difficulty switcher. **`_ensureFirstExposure()`** guarantees translate_word is first for new words. **Parenthetical hints removed from all conjugation exercises.** **`returnFromResults` + `returnHome` fix nav stack bug.** **Phase 2: `partizip_ii`, `auxiliary_choice`, `conjugation_table` handlers + `checkPartizipII()` + `submitConjugationTable()`.** **Phase 3: `startExercise()` reads tenseContext; `_buildQueue()` filters by tense; `setVerbTense()` + `_updateVerbTensePicker()`; `_verbMetaBadge()` injects Regular/Irregular + case badge.** |
 | `js/wordpractice.js` | ✅ Built | Adjektive class in WLP_CLASSES picker |
 | `js/wordlist.js` | ✅ Updated | Adjectives in buildWordObjects(). **Case dot helpers** (`_normalizeCase`, `_renderCaseDots`, `showCaseLegend`, `hideCaseLegend`). Verb cards show case dots on left; MIXED/STRONG/WEAK labels removed; dotted gray circle for verbs with no case. |
 | `data/modules.json` | ✅ Updated | **5 modules**: Verbs + Nouns + Adjectives + Adverbs + **Prepositions** (all active) |
-| `js/data.js` | ✅ **Bundled** | Format: `window.APP_DATA = {…}`. All content embedded. **Total exercises: 2,583 (post-audit)**. **Phase 1 Vergangenheit data added: `prateritum` (6 forms) on all 91 root verbs; `past_participle`, `auxiliary`, `prateritum` (6 forms) on all 157 prefix variants.** |
+| `js/data.js` | ✅ **Bundled** | Format: `window.APP_DATA = {…}`. All content embedded. **Total verb exercises: 2,075 (992 existing Präsens + 1,083 new Vergangenheit). Phase 1 data: `prateritum` + Perfekt on all 248 verbs. Phase 2: all new exercises bundled with `tense` field for tab routing.** |
 | `js/listening-data.js` | ✅ **New** | Format: `window.LISTENING_DATA = {module, articles[]}`. 45 articles with transcripts + vocabulary. 212 KB. |
 | `js/listening.js` | ✅ **New** | Article list renderer, reader, vocab highlighting, audio caching, read-state. |
 | `data/verbs.json` | ✅ **91 root verbs** | Audit complete. 23 moves/removes, 14 new bases added. |
-| `data/exercises/exercises-verbs.json` | ✅ **992 exercises** | Post-audit. 14 new roots × 4 exercises added. |
+| `data/exercises/exercises-verbs.json` | ✅ **2,075 exercises** | 992 Präsens exercises + 1,083 new Vergangenheit (248 partizip_ii + 248 auxiliary_choice + 587 conjugation_table). All new exercises have `tense` field. |
 | `manifest.json` | ✅ Built | PWA config |
 | `service-worker.js` | ✅ Updated | **v2.** Cache-first. PRECACHE includes listening-data.js + listening.js. Caches `/content/listening/` on first access. Range request handler for audio (synthesises 206 responses from cached blobs). |
 | `icons/` | ✅ Done | icon-192 + icon-512, speech bubble "de", #85B7EB |
@@ -102,7 +104,7 @@
 **Vergangenheit build order (in progress):**
 1. ~~Phase 1: Präteritum data — root verbs~~ ✅ Done — Session 21
 2. ~~Phase 1: Perfekt + Präteritum data — prefix variants~~ ✅ Done — Session 21
-3. **Phase 2: Exercise engine** — add `partizip_ii`, `auxiliary_choice`, `conjugation_table` handlers to `js/exercises.js`
+3. ~~Phase 2: Exercise engine~~ ✅ Done — Session 22 — `partizip_ii`, `auxiliary_choice`, `conjugation_table` handlers live; 1,083 exercises generated.
 4. **Phase 3: UI toggle** — Präsens / Vergangenheit tab in Verbs module; Perfekt / Präteritum sub-picker; Regular/Irregular label + case badge on exercise cards
 5. **Phase 4: Verification** — smoke-test all new types; confirm no Präsens regressions
 

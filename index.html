@@ -258,6 +258,18 @@
       </div>
     </div>
 
+    <!-- Verb Vergangenheit sub-picker (Perfekt / Präteritum — shown only for Verbs + Vergangenheit) -->
+    <div id="verb-tense-picker" style="display:none;padding:0 var(--sp-4) var(--sp-3)">
+      <div style="font-size:var(--font-size-xs);color:var(--color-text-muted);
+                  margin-bottom:var(--sp-2);letter-spacing:0.04em;text-transform:uppercase">
+        Vergangenheit
+      </div>
+      <div style="display:flex;gap:8px">
+        <button class="diff-btn" id="verb-tense-perfekt"    onclick="setVerbTense('perfekt')">Perfekt</button>
+        <button class="diff-btn" id="verb-tense-prateritum" onclick="setVerbTense('prateritum')">Präteritum</button>
+      </div>
+    </div>
+
     <!-- Exercise card (populated by JS) -->
     <div class="exercise-card" id="exercise-card"></div>
 

@@ -2,6 +2,78 @@
 
 ---
 
+## 2026-06-12 — Session 23: Phase 3 — Vergangenheit UI Toggle + Verb Meta Badge
+
+**Goal:** Add Präsens/Vergangenheit tab toggle to Verbs module home, Perfekt/Präteritum sub-picker in exercise session, and Regular/Irregular + case badge on each verb exercise card.
+
+**Files changed:**
+
+- `index.html` — added `#verb-tense-picker` div (Perfekt / Präteritum buttons, hidden by default, shown when tenseContext = 'vergangenheit').
+- `css/styles.css` — added `.tense-tab-row`, `.tense-tab`, `.tense-tab.active`, `.verb-meta-badge`, `.verb-type-pill.regular/irregular`, `.verb-case-badge`.
+- `js/app.js` — added `_verbTenseTab` module-level state + `setVerbTenseTab()`; rewrote `_renderVerbModuleCategories()` to include tense-tab row, tense-filtered progress stats, and `tenseContext` passed to `openExercise()`.
+- `js/exercises.js` — updated `startExercise()` to read `tenseContext`, show/hide `#verb-tense-picker`, add `tenseContext` + `vergangenheitTense` to session; updated `_buildQueue()` to filter exercises by tense; added `setVerbTense()` + `_updateVerbTensePicker()`; added `_verbMetaBadge()` function; injected badge in `_showNext()` after all type dispatches.
+
+**Phase 3 behaviour:**
+- Verbs module home shows two tabs: Präsens / Vergangenheit. Tab state persists across re-renders via `_verbTenseTab`.
+- Vergangenheit exercises show a sub-picker (Perfekt / Präteritum) above the exercise card. Default: Perfekt.
+- `setVerbTense()` rebuilds queue in-place without restarting the session.
+- Every verb exercise card shows a Regular/Irregular pill + case badge (Akkusativ / Dativ / Nominativ). Modal verbs (case_requirements: ['none']) show pill only, no case badge.
+- Badge inherits grammar from root verb. Prefix variants that differ from root (e.g. verstehen vs stehen) show root grammar — known limitation, logged as Phase 4 enhancement.
+
+**Tense filtering verified:**
+- Präsens pool: 1,083 | bleed into Vergangenheit: 0
+- Perfekt pool: 744 | bleed into Präsens: 0
+- Präteritum pool: 248
+
+**Badge verification (5/5 cases correct):**
+- verb_machen: Regular | Akkusativ ✓
+- verb_sein: Irregular | Nominativ ✓
+- verb_können: Irregular | [no case — modal] ✓
+- verb_absagen (prefix variant): Regular | Akkusativ ✓
+- verb_verstehen (prefix variant of stehen): Irregular | [no case — inherits stehen grammar] ✓ (known limitation)
+
+**Known limitation logged:**
+Prefix variants inherit parent root's `grammar.case_requirements`. `verstehen` (transitive, accusative) inherits `stehen` (intransitive, none). Badge shows Irregular with no case badge. To fix: add per-variant `grammar` override field in Phase 4.
+
+**Next:** Phase 4 — spaced repetition / scoring system.
+
+---
+
+## 2026-06-12 — Session 22: Phase 2 — Vergangenheit Exercise Engine
+
+**Goal:** Add three new exercise type handlers to `js/exercises.js` and generate all exercise data for them.
+
+**Files changed:**
+
+- `js/exercises.js` — added `_renderPartizipII()`, `_renderAuxiliaryChoice()`, `_renderConjugationTable()` renderers; added `checkPartizipII()` and `submitConjugationTable()` submission handlers; updated `_showNext()` routing to include all three new types.
+- `css/styles.css` — added styles for: `.partizip-input`, `.check-btn`, `.partizip-correct/wrong`, `.options-aux`, `.option-btn.aux-opt`, `.conj-table`, `.conj-row`, `.conj-pronoun`, `.conj-input`, `.row-correct/wrong`, `.conj-correct-hint`.
+- `data/exercises/exercises-verbs.json` — grew from 992 → 2,075 exercises (+1,083 new).
+- `js/data.js` — rebundled to include all 2,075 verb exercises.
+
+**New exercise types:**
+
+| Type | Interaction | Answer source | Count |
+|---|---|---|---|
+| `partizip_ii` | Text input | `conjugation.past_participle` / variant `past_participle` | 248 |
+| `auxiliary_choice` | 2-button MC (hat/ist) | `conjugation.auxiliary` / variant `auxiliary` | 248 |
+| `conjugation_table` | 6-row table text input | 6 forms per tense from data | 587 |
+
+**Conjugation table coverage:**
+- Root verbs (91): Präsens + Präteritum + Perfekt tables = 273 table exercises
+- Prefix variants (157): Präteritum + Perfekt tables = 314 table exercises
+
+**Tense tagging:** All new exercises have a `tense` field (`'prasens'` | `'prateritum'` | `'perfekt'`). Existing 992 exercises have no `tense` field (treated as Präsens in Phase 3 filtering).
+
+**Verification:**
+- All 248 word_ids covered (91 roots + 157 variants).
+- All 91 root verbs have all 5 new exercises.
+- Smoke-tested sein (irregular), machen (regular), fahren (sein-aux), können (modal), absagen (separable variant), verstehen (inseparable variant). All correct.
+- data.js parses without error.
+
+**Next:** Phase 3 — UI toggle (Präsens / Vergangenheit tab) + Perfekt / Präteritum sub-picker + Regular/Irregular label + case badge on exercise cards.
+
+---
+
 ## 2026-06-12 — Session 21: Phase 1 — Vergangenheit Data (Root Verbs + Prefix Variants)
 
 **Files modified:** `js/data.js`, `SOURCE_OF_TRUTH.md`, `DAY_LOG.md`

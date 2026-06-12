@@ -1542,3 +1542,215 @@ button {
   font-size: 2.5rem;
   margin-bottom: var(--sp-3);
 }
+
+/* ═══════════════════════════════════════════════════════
+   TEXT-INPUT EXERCISES (partizip_ii)
+   ═══════════════════════════════════════════════════════ */
+
+.partizip-input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: var(--sp-4);
+  background: var(--color-surface-2);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--r-md);
+  font-family: var(--font);
+  font-size: var(--font-size-xl);
+  font-weight: var(--fw-bold);
+  color: var(--color-text-primary);
+  text-align: center;
+  outline: none;
+  margin-bottom: var(--sp-3);
+  transition: border-color 0.15s, background 0.15s;
+}
+.partizip-input:focus {
+  border-color: var(--color-green-accent);
+  background: var(--color-surface);
+}
+.partizip-input.partizip-correct {
+  border-color: var(--color-green-dark);
+  background: #F0F8E8;
+  color: var(--color-green-dark);
+}
+.partizip-input.partizip-wrong {
+  border-color: var(--color-wrong);
+  background: var(--color-wrong-bg);
+  color: var(--color-wrong);
+}
+
+/* Shared submit button (partizip_ii + conjugation_table) */
+.check-btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background: var(--color-green-dark);
+  border: none;
+  border-radius: var(--r-full);
+  font-family: var(--font);
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-semibold);
+  letter-spacing: var(--ls-label);
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+.check-btn:active { transform: scale(0.97); }
+
+/* ═══════════════════════════════════════════════════════
+   AUXILIARY CHOICE (hat vs. ist — 2 large side-by-side buttons)
+   ═══════════════════════════════════════════════════════ */
+
+.options-aux {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--sp-3);
+}
+.option-btn.aux-opt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 88px;
+  padding: var(--sp-4);
+}
+.option-btn.aux-opt .opt-word {
+  font-size: 28px;
+  font-weight: var(--fw-bold);
+  color: var(--color-text-primary);
+  font-style: italic;
+}
+.option-btn.aux-opt.state-correct .opt-word { color: var(--color-green-dark); }
+.option-btn.aux-opt.state-wrong   .opt-word { color: var(--color-wrong); }
+
+/* ═══════════════════════════════════════════════════════
+   CONJUGATION TABLE (6-row fill-in)
+   ═══════════════════════════════════════════════════════ */
+
+.conj-table {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  padding: 0 var(--sp-1) var(--sp-1);
+}
+.conj-row {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: 9px var(--sp-3);
+  background: var(--color-surface-2);
+  border-radius: var(--r-md);
+  border: 1.5px solid var(--color-border);
+  transition: border-color 0.15s, background 0.15s;
+}
+.conj-row.row-correct {
+  border-color: var(--color-green-dark);
+  background: #F0F8E8;
+}
+.conj-row.row-wrong {
+  border-color: var(--color-wrong);
+  background: var(--color-wrong-bg);
+}
+.conj-pronoun {
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-semibold);
+  color: var(--color-text-secondary);
+  min-width: 62px;
+  flex-shrink: 0;
+}
+.conj-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-family: var(--font);
+  font-size: var(--font-size-base);
+  font-weight: var(--fw-bold);
+  color: var(--color-text-primary);
+  outline: none;
+  padding: 2px 0;
+  min-width: 0;
+}
+.conj-input:disabled { opacity: 1; }
+.conj-input.partizip-correct { color: var(--color-green-dark); }
+.conj-input.partizip-wrong   { color: var(--color-wrong); }
+
+/* Correct-answer hint shown after a wrong conj-input */
+.conj-correct-hint {
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-bold);
+  color: var(--color-green-dark);
+  margin-left: var(--sp-2);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* ═══════════════════════════════════════════════════════
+   TENSE TAB TOGGLE (Verb module home — Präsens / Vergangenheit)
+   ═══════════════════════════════════════════════════════ */
+
+.tense-tab-row {
+  display: flex;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-4);
+  background: var(--color-surface-2);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--r-lg);
+  padding: 3px;
+}
+.tense-tab {
+  flex: 1;
+  padding: 9px var(--sp-3);
+  border-radius: calc(var(--r-lg) - 3px);
+  border: none;
+  background: transparent;
+  font-family: var(--font);
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-semibold);
+  letter-spacing: 0.03em;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.tense-tab.active {
+  background: var(--color-green-dark);
+  color: #fff;
+}
+
+/* ═══════════════════════════════════════════════════════
+   VERB META BADGE (Regular/Irregular + case — exercise card)
+   ═══════════════════════════════════════════════════════ */
+
+.verb-meta-badge {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  justify-content: center;
+  margin: calc(-1 * var(--sp-3)) 0 var(--sp-4);
+}
+.verb-type-pill {
+  font-size: 10px;
+  font-weight: var(--fw-bold);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: var(--r-full);
+}
+.verb-type-pill.regular {
+  background: var(--color-tag-bg);
+  color: var(--color-tag-text);
+}
+.verb-type-pill.irregular {
+  background: #FEF3C7;
+  color: #92400E;
+}
+.verb-case-badge {
+  font-size: 10px;
+  font-weight: var(--fw-semibold);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  padding: 3px 8px;
+  border-radius: var(--r-full);
+  border: 1.5px solid var(--color-border);
+  background: var(--color-surface-2);
+}
