@@ -75,7 +75,15 @@ window.APP_DATA = {
           "sie_Sie": "sind"
         },
         "past_participle": "gewesen",
-        "auxiliary": "sein"
+        "auxiliary": "sein",
+        "prateritum": {
+          "ich": "war",
+          "du": "warst",
+          "er_sie_es": "war",
+          "wir": "waren",
+          "ihr": "wart",
+          "sie_Sie": "waren"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -128,7 +136,15 @@ window.APP_DATA = {
           "sie_Sie": "haben"
         },
         "past_participle": "gehabt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "hatte",
+          "du": "hattest",
+          "er_sie_es": "hatte",
+          "wir": "hatten",
+          "ihr": "hattet",
+          "sie_Sie": "hatten"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -181,7 +197,15 @@ window.APP_DATA = {
           "sie_Sie": "werden"
         },
         "past_participle": "geworden",
-        "auxiliary": "sein"
+        "auxiliary": "sein",
+        "prateritum": {
+          "ich": "wurde",
+          "du": "wurdest",
+          "er_sie_es": "wurde",
+          "wir": "wurden",
+          "ihr": "wurdet",
+          "sie_Sie": "wurden"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -234,7 +258,15 @@ window.APP_DATA = {
           "sie_Sie": "können"
         },
         "past_participle": "gekonnt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "konnte",
+          "du": "konntest",
+          "er_sie_es": "konnte",
+          "wir": "konnten",
+          "ihr": "konntet",
+          "sie_Sie": "konnten"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -287,7 +319,15 @@ window.APP_DATA = {
           "sie_Sie": "müssen"
         },
         "past_participle": "gemusst",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "musste",
+          "du": "musstest",
+          "er_sie_es": "musste",
+          "wir": "mussten",
+          "ihr": "musstet",
+          "sie_Sie": "mussten"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -340,7 +380,15 @@ window.APP_DATA = {
           "sie_Sie": "sagen"
         },
         "past_participle": "gesagt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "sagte",
+          "du": "sagtest",
+          "er_sie_es": "sagte",
+          "wir": "sagten",
+          "ihr": "sagtet",
+          "sie_Sie": "sagten"
+        }
       },
       "prefix_variants": [
         {
@@ -349,7 +397,17 @@ window.APP_DATA = {
           "word": "absagen",
           "english": "to cancel",
           "separable": true,
-          "notes": "Prefix separates in main clause: Ich sage das Treffen ab."
+          "notes": "Prefix separates in main clause: Ich sage das Treffen ab.",
+          "past_participle": "abgesagt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "sagte ab",
+            "du": "sagtest ab",
+            "er_sie_es": "sagte ab",
+            "wir": "sagten ab",
+            "ihr": "sagtet ab",
+            "sie_Sie": "sagten ab"
+          }
         },
         {
           "id": "verb_ansagen",
@@ -357,7 +415,17 @@ window.APP_DATA = {
           "word": "ansagen",
           "english": "to announce",
           "separable": true,
-          "notes": "Prefix separates in main clause: Der Moderator sagt das Konzert an."
+          "notes": "Prefix separates in main clause: Der Moderator sagt das Konzert an.",
+          "past_participle": "angesagt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "sagte an",
+            "du": "sagtest an",
+            "er_sie_es": "sagte an",
+            "wir": "sagten an",
+            "ihr": "sagtet an",
+            "sie_Sie": "sagten an"
+          }
         },
         {
           "id": "verb_aussagen",
@@ -365,7 +433,17 @@ window.APP_DATA = {
           "word": "aussagen",
           "english": "to testify / to state",
           "separable": true,
-          "notes": "Prefix separates: Der Zeuge sagt aus."
+          "notes": "Prefix separates: Der Zeuge sagt aus.",
+          "past_participle": "ausgesagt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "sagte aus",
+            "du": "sagtest aus",
+            "er_sie_es": "sagte aus",
+            "wir": "sagten aus",
+            "ihr": "sagtet aus",
+            "sie_Sie": "sagten aus"
+          }
         }
       ],
       "example_sentences": [
@@ -418,7 +496,15 @@ window.APP_DATA = {
           "sie_Sie": "machen"
         },
         "past_participle": "gemacht",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "machte",
+          "du": "machtest",
+          "er_sie_es": "machte",
+          "wir": "machten",
+          "ihr": "machtet",
+          "sie_Sie": "machten"
+        }
       },
       "prefix_variants": [
         {
@@ -427,7 +513,17 @@ window.APP_DATA = {
           "word": "aufmachen",
           "english": "to open",
           "separable": true,
-          "notes": "Prefix separates: Ich mache die Tür auf."
+          "notes": "Prefix separates: Ich mache die Tür auf.",
+          "past_participle": "aufgemacht",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "machte auf",
+            "du": "machtest auf",
+            "er_sie_es": "machte auf",
+            "wir": "machten auf",
+            "ihr": "machtet auf",
+            "sie_Sie": "machten auf"
+          }
         },
         {
           "id": "verb_zumachen",
@@ -435,7 +531,17 @@ window.APP_DATA = {
           "word": "zumachen",
           "english": "to close",
           "separable": true,
-          "notes": "Prefix separates: Sie macht das Fenster zu."
+          "notes": "Prefix separates: Sie macht das Fenster zu.",
+          "past_participle": "zugemacht",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "machte zu",
+            "du": "machtest zu",
+            "er_sie_es": "machte zu",
+            "wir": "machten zu",
+            "ihr": "machtet zu",
+            "sie_Sie": "machten zu"
+          }
         },
         {
           "id": "verb_ausmachen",
@@ -443,7 +549,17 @@ window.APP_DATA = {
           "word": "ausmachen",
           "english": "to turn off / to matter",
           "separable": true,
-          "notes": "Prefix separates: Mach das Licht aus! / Das macht nichts aus."
+          "notes": "Prefix separates: Mach das Licht aus! / Das macht nichts aus.",
+          "past_participle": "ausgemacht",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "machte aus",
+            "du": "machtest aus",
+            "er_sie_es": "machte aus",
+            "wir": "machten aus",
+            "ihr": "machtet aus",
+            "sie_Sie": "machten aus"
+          }
         }
       ],
       "example_sentences": [
@@ -496,7 +612,15 @@ window.APP_DATA = {
           "sie_Sie": "gehen"
         },
         "past_participle": "gegangen",
-        "auxiliary": "sein"
+        "auxiliary": "sein",
+        "prateritum": {
+          "ich": "ging",
+          "du": "gingst",
+          "er_sie_es": "ging",
+          "wir": "gingen",
+          "ihr": "gingt",
+          "sie_Sie": "gingen"
+        }
       },
       "prefix_variants": [
         {
@@ -505,7 +629,17 @@ window.APP_DATA = {
           "word": "ausgehen",
           "english": "to go out",
           "separable": true,
-          "notes": "Prefix separates: Ich gehe heute Abend aus."
+          "notes": "Prefix separates: Ich gehe heute Abend aus.",
+          "past_participle": "ausgegangen",
+          "auxiliary": "sein",
+          "prateritum": {
+            "ich": "ging aus",
+            "du": "gingst aus",
+            "er_sie_es": "ging aus",
+            "wir": "gingen aus",
+            "ihr": "gingt aus",
+            "sie_Sie": "gingen aus"
+          }
         },
         {
           "id": "verb_losgehen",
@@ -513,7 +647,17 @@ window.APP_DATA = {
           "word": "losgehen",
           "english": "to set off / to start",
           "separable": true,
-          "notes": "Prefix separates: Wir gehen um 8 Uhr los."
+          "notes": "Prefix separates: Wir gehen um 8 Uhr los.",
+          "past_participle": "losgegangen",
+          "auxiliary": "sein",
+          "prateritum": {
+            "ich": "ging los",
+            "du": "gingst los",
+            "er_sie_es": "ging los",
+            "wir": "gingen los",
+            "ihr": "gingt los",
+            "sie_Sie": "gingen los"
+          }
         },
         {
           "id": "verb_eingehen",
@@ -521,7 +665,17 @@ window.APP_DATA = {
           "word": "eingehen",
           "english": "to enter / to shrink",
           "separable": true,
-          "notes": "Prefix separates. Context-dependent meaning: die Wäsche geht ein (the laundry shrinks)."
+          "notes": "Prefix separates. Context-dependent meaning: die Wäsche geht ein (the laundry shrinks).",
+          "past_participle": "eingegangen",
+          "auxiliary": "sein",
+          "prateritum": {
+            "ich": "ging ein",
+            "du": "gingst ein",
+            "er_sie_es": "ging ein",
+            "wir": "gingen ein",
+            "ihr": "gingt ein",
+            "sie_Sie": "gingen ein"
+          }
         },
         {
           "id": "verb_vergehen",
@@ -529,7 +683,17 @@ window.APP_DATA = {
           "word": "vergehen",
           "english": "to pass (time)",
           "separable": false,
-          "notes": "Inseparable prefix. The prefix never separates: Die Zeit vergeht schnell."
+          "notes": "Inseparable prefix. The prefix never separates: Die Zeit vergeht schnell.",
+          "past_participle": "vergangen",
+          "auxiliary": "sein",
+          "prateritum": {
+            "ich": "verging",
+            "du": "vergingst",
+            "er_sie_es": "verging",
+            "wir": "vergingen",
+            "ihr": "vergingt",
+            "sie_Sie": "vergingen"
+          }
         },
         {
           "id": "verb_umgehen",
@@ -542,6 +706,16 @@ window.APP_DATA = {
             "case_requirements": [
               "accusative"
             ]
+          },
+          "past_participle": "umgangen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "umging",
+            "du": "umgingst",
+            "er_sie_es": "umging",
+            "wir": "umgingen",
+            "ihr": "umgingt",
+            "sie_Sie": "umgingen"
           }
         }
       ],
@@ -595,7 +769,15 @@ window.APP_DATA = {
           "sie_Sie": "kommen"
         },
         "past_participle": "gekommen",
-        "auxiliary": "sein"
+        "auxiliary": "sein",
+        "prateritum": {
+          "ich": "kam",
+          "du": "kamst",
+          "er_sie_es": "kam",
+          "wir": "kamen",
+          "ihr": "kamt",
+          "sie_Sie": "kamen"
+        }
       },
       "prefix_variants": [
         {
@@ -604,7 +786,17 @@ window.APP_DATA = {
           "word": "ankommen",
           "english": "to arrive",
           "separable": true,
-          "notes": "Prefix separates: Der Zug kommt um 10 Uhr an."
+          "notes": "Prefix separates: Der Zug kommt um 10 Uhr an.",
+          "past_participle": "angekommen",
+          "auxiliary": "sein",
+          "prateritum": {
+            "ich": "kam an",
+            "du": "kamst an",
+            "er_sie_es": "kam an",
+            "wir": "kamen an",
+            "ihr": "kamt an",
+            "sie_Sie": "kamen an"
+          }
         },
         {
           "id": "verb_bekommen",
@@ -612,7 +804,17 @@ window.APP_DATA = {
           "word": "bekommen",
           "english": "to receive / to get",
           "separable": false,
-          "notes": "Inseparable prefix: Ich bekomme ein Paket."
+          "notes": "Inseparable prefix: Ich bekomme ein Paket.",
+          "past_participle": "bekommen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "bekam",
+            "du": "bekamst",
+            "er_sie_es": "bekam",
+            "wir": "bekamen",
+            "ihr": "bekamt",
+            "sie_Sie": "bekamen"
+          }
         },
         {
           "id": "verb_vorkommen",
@@ -620,7 +822,17 @@ window.APP_DATA = {
           "word": "vorkommen",
           "english": "to occur / to seem",
           "separable": true,
-          "notes": "Prefix separates: Das kommt selten vor."
+          "notes": "Prefix separates: Das kommt selten vor.",
+          "past_participle": "vorgekommen",
+          "auxiliary": "sein",
+          "prateritum": {
+            "ich": "kam vor",
+            "du": "kamst vor",
+            "er_sie_es": "kam vor",
+            "wir": "kamen vor",
+            "ihr": "kamt vor",
+            "sie_Sie": "kamen vor"
+          }
         }
       ],
       "example_sentences": [
@@ -673,7 +885,15 @@ window.APP_DATA = {
           "sie_Sie": "wollen"
         },
         "past_participle": "gewollt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "wollte",
+          "du": "wolltest",
+          "er_sie_es": "wollte",
+          "wir": "wollten",
+          "ihr": "wolltet",
+          "sie_Sie": "wollten"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -726,7 +946,15 @@ window.APP_DATA = {
           "sie_Sie": "sehen"
         },
         "past_participle": "gesehen",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "sah",
+          "du": "sahst",
+          "er_sie_es": "sah",
+          "wir": "sahen",
+          "ihr": "saht",
+          "sie_Sie": "sahen"
+        }
       },
       "prefix_variants": [
         {
@@ -735,7 +963,17 @@ window.APP_DATA = {
           "word": "aussehen",
           "english": "to look / to appear",
           "separable": true,
-          "notes": "Prefix separates: Du siehst müde aus."
+          "notes": "Prefix separates: Du siehst müde aus.",
+          "past_participle": "ausgesehen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "sah aus",
+            "du": "sahst aus",
+            "er_sie_es": "sah aus",
+            "wir": "sahen aus",
+            "ihr": "saht aus",
+            "sie_Sie": "sahen aus"
+          }
         },
         {
           "id": "verb_ansehen",
@@ -743,7 +981,17 @@ window.APP_DATA = {
           "word": "ansehen",
           "english": "to look at / to watch",
           "separable": true,
-          "notes": "Prefix separates: Ich sehe mir den Film an."
+          "notes": "Prefix separates: Ich sehe mir den Film an.",
+          "past_participle": "angesehen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "sah an",
+            "du": "sahst an",
+            "er_sie_es": "sah an",
+            "wir": "sahen an",
+            "ihr": "saht an",
+            "sie_Sie": "sahen an"
+          }
         },
         {
           "id": "verb_vorsehen",
@@ -751,7 +999,17 @@ window.APP_DATA = {
           "word": "vorsehen",
           "english": "to plan / to provide for",
           "separable": true,
-          "notes": "Prefix separates: Das Gesetz sieht eine Strafe vor."
+          "notes": "Prefix separates: Das Gesetz sieht eine Strafe vor.",
+          "past_participle": "vorgesehen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "sah vor",
+            "du": "sahst vor",
+            "er_sie_es": "sah vor",
+            "wir": "sahen vor",
+            "ihr": "saht vor",
+            "sie_Sie": "sahen vor"
+          }
         }
       ],
       "example_sentences": [
@@ -804,7 +1062,15 @@ window.APP_DATA = {
           "sie_Sie": "lassen"
         },
         "past_participle": "gelassen",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "ließ",
+          "du": "ließest",
+          "er_sie_es": "ließ",
+          "wir": "ließen",
+          "ihr": "ließt",
+          "sie_Sie": "ließen"
+        }
       },
       "prefix_variants": [
         {
@@ -813,7 +1079,17 @@ window.APP_DATA = {
           "word": "verlassen",
           "english": "to leave / to abandon",
           "separable": false,
-          "notes": "Inseparable prefix: Er verlässt die Stadt."
+          "notes": "Inseparable prefix: Er verlässt die Stadt.",
+          "past_participle": "verlassen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "verließ",
+            "du": "verließest",
+            "er_sie_es": "verließ",
+            "wir": "verließen",
+            "ihr": "verließt",
+            "sie_Sie": "verließen"
+          }
         },
         {
           "id": "verb_auslassen",
@@ -821,7 +1097,17 @@ window.APP_DATA = {
           "word": "auslassen",
           "english": "to omit / to skip",
           "separable": true,
-          "notes": "Prefix separates: Sie lässt eine Frage aus."
+          "notes": "Prefix separates: Sie lässt eine Frage aus.",
+          "past_participle": "ausgelassen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "ließ aus",
+            "du": "ließest aus",
+            "er_sie_es": "ließ aus",
+            "wir": "ließen aus",
+            "ihr": "ließt aus",
+            "sie_Sie": "ließen aus"
+          }
         },
         {
           "id": "verb_einlassen",
@@ -829,7 +1115,17 @@ window.APP_DATA = {
           "word": "einlassen",
           "english": "to let in",
           "separable": true,
-          "notes": "Prefix separates: Er lässt mich nicht ein."
+          "notes": "Prefix separates: Er lässt mich nicht ein.",
+          "past_participle": "eingelassen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "ließ ein",
+            "du": "ließest ein",
+            "er_sie_es": "ließ ein",
+            "wir": "ließen ein",
+            "ihr": "ließt ein",
+            "sie_Sie": "ließen ein"
+          }
         }
       ],
       "example_sentences": [
@@ -882,7 +1178,15 @@ window.APP_DATA = {
           "sie_Sie": "stehen"
         },
         "past_participle": "gestanden",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "stand",
+          "du": "standst",
+          "er_sie_es": "stand",
+          "wir": "standen",
+          "ihr": "standet",
+          "sie_Sie": "standen"
+        }
       },
       "prefix_variants": [
         {
@@ -891,7 +1195,17 @@ window.APP_DATA = {
           "word": "verstehen",
           "english": "to understand",
           "separable": false,
-          "notes": "Inseparable prefix: Ich verstehe dich nicht."
+          "notes": "Inseparable prefix: Ich verstehe dich nicht.",
+          "past_participle": "verstanden",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "verstand",
+            "du": "verstandst",
+            "er_sie_es": "verstand",
+            "wir": "verstanden",
+            "ihr": "verstandet",
+            "sie_Sie": "verstanden"
+          }
         },
         {
           "id": "verb_aufstehen",
@@ -899,7 +1213,17 @@ window.APP_DATA = {
           "word": "aufstehen",
           "english": "to get up / to stand up",
           "separable": true,
-          "notes": "Prefix separates: Ich stehe um 7 Uhr auf."
+          "notes": "Prefix separates: Ich stehe um 7 Uhr auf.",
+          "past_participle": "aufgestanden",
+          "auxiliary": "sein",
+          "prateritum": {
+            "ich": "stand auf",
+            "du": "standst auf",
+            "er_sie_es": "stand auf",
+            "wir": "standen auf",
+            "ihr": "standet auf",
+            "sie_Sie": "standen auf"
+          }
         },
         {
           "id": "verb_bestehen",
@@ -907,7 +1231,17 @@ window.APP_DATA = {
           "word": "bestehen",
           "english": "to pass (an exam) / to consist of",
           "separable": false,
-          "notes": "Inseparable prefix: Er besteht die Prüfung. / Das Team besteht aus fünf Personen."
+          "notes": "Inseparable prefix: Er besteht die Prüfung. / Das Team besteht aus fünf Personen.",
+          "past_participle": "bestanden",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "bestand",
+            "du": "bestandst",
+            "er_sie_es": "bestand",
+            "wir": "bestanden",
+            "ihr": "bestandet",
+            "sie_Sie": "bestanden"
+          }
         }
       ],
       "example_sentences": [
@@ -960,7 +1294,15 @@ window.APP_DATA = {
           "sie_Sie": "finden"
         },
         "past_participle": "gefunden",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "fand",
+          "du": "fandst",
+          "er_sie_es": "fand",
+          "wir": "fanden",
+          "ihr": "fandet",
+          "sie_Sie": "fanden"
+        }
       },
       "prefix_variants": [
         {
@@ -969,7 +1311,17 @@ window.APP_DATA = {
           "word": "erfinden",
           "english": "to invent",
           "separable": false,
-          "notes": "Inseparable prefix: Edison erfindet die Glühbirne."
+          "notes": "Inseparable prefix: Edison erfindet die Glühbirne.",
+          "past_participle": "erfunden",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "erfand",
+            "du": "erfandst",
+            "er_sie_es": "erfand",
+            "wir": "erfanden",
+            "ihr": "erfandet",
+            "sie_Sie": "erfanden"
+          }
         },
         {
           "id": "verb_stattfinden",
@@ -977,7 +1329,17 @@ window.APP_DATA = {
           "word": "stattfinden",
           "english": "to take place",
           "separable": true,
-          "notes": "Prefix separates: Das Konzert findet morgen statt."
+          "notes": "Prefix separates: Das Konzert findet morgen statt.",
+          "past_participle": "stattgefunden",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "fand statt",
+            "du": "fandst statt",
+            "er_sie_es": "fand statt",
+            "wir": "fanden statt",
+            "ihr": "fandet statt",
+            "sie_Sie": "fanden statt"
+          }
         },
         {
           "id": "verb_empfinden",
@@ -985,7 +1347,17 @@ window.APP_DATA = {
           "word": "empfinden",
           "english": "to feel / to perceive",
           "separable": false,
-          "notes": "Inseparable prefix: Ich empfinde große Freude."
+          "notes": "Inseparable prefix: Ich empfinde große Freude.",
+          "past_participle": "empfunden",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "empfand",
+            "du": "empfandst",
+            "er_sie_es": "empfand",
+            "wir": "empfanden",
+            "ihr": "empfandet",
+            "sie_Sie": "empfanden"
+          }
         }
       ],
       "example_sentences": [
@@ -1038,7 +1410,15 @@ window.APP_DATA = {
           "sie_Sie": "bleiben"
         },
         "past_participle": "geblieben",
-        "auxiliary": "sein"
+        "auxiliary": "sein",
+        "prateritum": {
+          "ich": "blieb",
+          "du": "bliebst",
+          "er_sie_es": "blieb",
+          "wir": "blieben",
+          "ihr": "bliebt",
+          "sie_Sie": "blieben"
+        }
       },
       "prefix_variants": [
         {
@@ -1047,7 +1427,17 @@ window.APP_DATA = {
           "word": "ausbleiben",
           "english": "to fail to appear / to not happen",
           "separable": true,
-          "notes": "Prefix separates: Die Hilfe bleibt aus."
+          "notes": "Prefix separates: Die Hilfe bleibt aus.",
+          "past_participle": "ausgeblieben",
+          "auxiliary": "sein",
+          "prateritum": {
+            "ich": "blieb aus",
+            "du": "bliebst aus",
+            "er_sie_es": "blieb aus",
+            "wir": "blieben aus",
+            "ihr": "bliebt aus",
+            "sie_Sie": "blieben aus"
+          }
         },
         {
           "id": "verb_verbleiben",
@@ -1055,7 +1445,17 @@ window.APP_DATA = {
           "word": "verbleiben",
           "english": "to remain (formal)",
           "separable": false,
-          "notes": "Inseparable prefix: Ich verbleibe mit freundlichen Grüßen."
+          "notes": "Inseparable prefix: Ich verbleibe mit freundlichen Grüßen.",
+          "past_participle": "verblieben",
+          "auxiliary": "sein",
+          "prateritum": {
+            "ich": "verblieb",
+            "du": "verbliebst",
+            "er_sie_es": "verblieb",
+            "wir": "verblieben",
+            "ihr": "verbliebt",
+            "sie_Sie": "verblieben"
+          }
         },
         {
           "id": "verb_überbleiben",
@@ -1063,7 +1463,17 @@ window.APP_DATA = {
           "word": "überbleiben",
           "english": "to be left over",
           "separable": true,
-          "notes": "Prefix separates: Was bleibt übrig?"
+          "notes": "Prefix separates: Was bleibt übrig?",
+          "past_participle": "übergeblieben",
+          "auxiliary": "sein",
+          "prateritum": {
+            "ich": "blieb über",
+            "du": "bliebst über",
+            "er_sie_es": "blieb über",
+            "wir": "blieben über",
+            "ihr": "bliebt über",
+            "sie_Sie": "blieben über"
+          }
         }
       ],
       "example_sentences": [
@@ -1116,7 +1526,15 @@ window.APP_DATA = {
           "sie_Sie": "liegen"
         },
         "past_participle": "gelegen",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "lag",
+          "du": "lagst",
+          "er_sie_es": "lag",
+          "wir": "lagen",
+          "ihr": "lagt",
+          "sie_Sie": "lagen"
+        }
       },
       "prefix_variants": [
         {
@@ -1125,7 +1543,17 @@ window.APP_DATA = {
           "word": "vorliegen",
           "english": "to be available / to be present",
           "separable": true,
-          "notes": "Prefix separates: Die Ergebnisse liegen noch nicht vor."
+          "notes": "Prefix separates: Die Ergebnisse liegen noch nicht vor.",
+          "past_participle": "vorgelegen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "lag vor",
+            "du": "lagst vor",
+            "er_sie_es": "lag vor",
+            "wir": "lagen vor",
+            "ihr": "lagt vor",
+            "sie_Sie": "lagen vor"
+          }
         },
         {
           "id": "verb_naheliegen",
@@ -1133,7 +1561,17 @@ window.APP_DATA = {
           "word": "naheliegen",
           "english": "to suggest itself / to be obvious",
           "separable": true,
-          "notes": "Prefix separates: Das liegt nahe."
+          "notes": "Prefix separates: Das liegt nahe.",
+          "past_participle": "nahegelegen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "lag nahe",
+            "du": "lagst nahe",
+            "er_sie_es": "lag nahe",
+            "wir": "lagen nahe",
+            "ihr": "lagt nahe",
+            "sie_Sie": "lagen nahe"
+          }
         }
       ],
       "example_sentences": [
@@ -1186,7 +1624,15 @@ window.APP_DATA = {
           "sie_Sie": "heißen"
         },
         "past_participle": "geheißen",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "hieß",
+          "du": "hießt",
+          "er_sie_es": "hieß",
+          "wir": "hießen",
+          "ihr": "hießt",
+          "sie_Sie": "hießen"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -1239,7 +1685,15 @@ window.APP_DATA = {
           "sie_Sie": "denken"
         },
         "past_participle": "gedacht",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "dachte",
+          "du": "dachtest",
+          "er_sie_es": "dachte",
+          "wir": "dachten",
+          "ihr": "dachtet",
+          "sie_Sie": "dachten"
+        }
       },
       "prefix_variants": [
         {
@@ -1248,7 +1702,17 @@ window.APP_DATA = {
           "word": "nachdenken",
           "english": "to think about / to reflect",
           "separable": true,
-          "notes": "Prefix separates: Ich denke darüber nach."
+          "notes": "Prefix separates: Ich denke darüber nach.",
+          "past_participle": "nachgedacht",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "dachte nach",
+            "du": "dachtest nach",
+            "er_sie_es": "dachte nach",
+            "wir": "dachten nach",
+            "ihr": "dachtet nach",
+            "sie_Sie": "dachten nach"
+          }
         },
         {
           "id": "verb_bedenken",
@@ -1256,7 +1720,17 @@ window.APP_DATA = {
           "word": "bedenken",
           "english": "to consider / to bear in mind",
           "separable": false,
-          "notes": "Inseparable prefix: Bedenke die Konsequenzen!"
+          "notes": "Inseparable prefix: Bedenke die Konsequenzen!",
+          "past_participle": "bedacht",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "bedachte",
+            "du": "bedachtest",
+            "er_sie_es": "bedachte",
+            "wir": "bedachten",
+            "ihr": "bedachtet",
+            "sie_Sie": "bedachten"
+          }
         },
         {
           "id": "verb_umdenken",
@@ -1264,7 +1738,17 @@ window.APP_DATA = {
           "word": "umdenken",
           "english": "to rethink / to change one's thinking",
           "separable": true,
-          "notes": "Prefix separates: Wir müssen umdenken."
+          "notes": "Prefix separates: Wir müssen umdenken.",
+          "past_participle": "umgedacht",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "dachte um",
+            "du": "dachtest um",
+            "er_sie_es": "dachte um",
+            "wir": "dachten um",
+            "ihr": "dachtet um",
+            "sie_Sie": "dachten um"
+          }
         }
       ],
       "example_sentences": [
@@ -1317,7 +1801,15 @@ window.APP_DATA = {
           "sie_Sie": "nehmen"
         },
         "past_participle": "genommen",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "nahm",
+          "du": "nahmst",
+          "er_sie_es": "nahm",
+          "wir": "nahmen",
+          "ihr": "nahmt",
+          "sie_Sie": "nahmen"
+        }
       },
       "prefix_variants": [
         {
@@ -1326,7 +1818,17 @@ window.APP_DATA = {
           "word": "annehmen",
           "english": "to accept / to assume",
           "separable": true,
-          "notes": "Prefix separates: Ich nehme das Angebot an."
+          "notes": "Prefix separates: Ich nehme das Angebot an.",
+          "past_participle": "angenommen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "nahm an",
+            "du": "nahmst an",
+            "er_sie_es": "nahm an",
+            "wir": "nahmen an",
+            "ihr": "nahmt an",
+            "sie_Sie": "nahmen an"
+          }
         },
         {
           "id": "verb_abnehmen",
@@ -1334,7 +1836,17 @@ window.APP_DATA = {
           "word": "abnehmen",
           "english": "to lose weight / to take off",
           "separable": true,
-          "notes": "Prefix separates: Er nimmt langsam ab."
+          "notes": "Prefix separates: Er nimmt langsam ab.",
+          "past_participle": "abgenommen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "nahm ab",
+            "du": "nahmst ab",
+            "er_sie_es": "nahm ab",
+            "wir": "nahmen ab",
+            "ihr": "nahmt ab",
+            "sie_Sie": "nahmen ab"
+          }
         },
         {
           "id": "verb_zunehmen",
@@ -1342,7 +1854,17 @@ window.APP_DATA = {
           "word": "zunehmen",
           "english": "to increase / to gain weight",
           "separable": true,
-          "notes": "Prefix separates: Das Problem nimmt zu."
+          "notes": "Prefix separates: Das Problem nimmt zu.",
+          "past_participle": "zugenommen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "nahm zu",
+            "du": "nahmst zu",
+            "er_sie_es": "nahm zu",
+            "wir": "nahmen zu",
+            "ihr": "nahmt zu",
+            "sie_Sie": "nahmen zu"
+          }
         },
         {
           "id": "verb_unternehmen",
@@ -1350,7 +1872,17 @@ window.APP_DATA = {
           "word": "unternehmen",
           "english": "to undertake / to do (something fun)",
           "separable": false,
-          "notes": "Inseparable prefix: Wir unternehmen etwas zusammen."
+          "notes": "Inseparable prefix: Wir unternehmen etwas zusammen.",
+          "past_participle": "unternommen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "unternahm",
+            "du": "unternahmst",
+            "er_sie_es": "unternahm",
+            "wir": "unternahmen",
+            "ihr": "unternahmt",
+            "sie_Sie": "unternahmen"
+          }
         }
       ],
       "example_sentences": [
@@ -1403,7 +1935,15 @@ window.APP_DATA = {
           "sie_Sie": "glauben"
         },
         "past_participle": "geglaubt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "glaubte",
+          "du": "glaubtest",
+          "er_sie_es": "glaubte",
+          "wir": "glaubten",
+          "ihr": "glaubtet",
+          "sie_Sie": "glaubten"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -1456,7 +1996,15 @@ window.APP_DATA = {
           "sie_Sie": "halten"
         },
         "past_participle": "gehalten",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "hielt",
+          "du": "hieltest",
+          "er_sie_es": "hielt",
+          "wir": "hielten",
+          "ihr": "hieltet",
+          "sie_Sie": "hielten"
+        }
       },
       "prefix_variants": [
         {
@@ -1465,7 +2013,17 @@ window.APP_DATA = {
           "word": "anhalten",
           "english": "to stop (a vehicle) / to urge",
           "separable": true,
-          "notes": "Prefix separates: Der Bus hält an."
+          "notes": "Prefix separates: Der Bus hält an.",
+          "past_participle": "angehalten",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "hielt an",
+            "du": "hieltest an",
+            "er_sie_es": "hielt an",
+            "wir": "hielten an",
+            "ihr": "hieltet an",
+            "sie_Sie": "hielten an"
+          }
         },
         {
           "id": "verb_aufhalten",
@@ -1473,7 +2031,17 @@ window.APP_DATA = {
           "word": "aufhalten",
           "english": "to stop / to delay / to stay",
           "separable": true,
-          "notes": "Prefix separates: Halte mich nicht auf!"
+          "notes": "Prefix separates: Halte mich nicht auf!",
+          "past_participle": "aufgehalten",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "hielt auf",
+            "du": "hieltest auf",
+            "er_sie_es": "hielt auf",
+            "wir": "hielten auf",
+            "ihr": "hieltet auf",
+            "sie_Sie": "hielten auf"
+          }
         },
         {
           "id": "verb_behalten",
@@ -1481,7 +2049,17 @@ window.APP_DATA = {
           "word": "behalten",
           "english": "to keep / to retain",
           "separable": false,
-          "notes": "Inseparable prefix: Ich behalte das Buch."
+          "notes": "Inseparable prefix: Ich behalte das Buch.",
+          "past_participle": "behalten",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "behielt",
+            "du": "behieltest",
+            "er_sie_es": "behielt",
+            "wir": "behielten",
+            "ihr": "behieltet",
+            "sie_Sie": "behielten"
+          }
         },
         {
           "id": "verb_erhalten",
@@ -1489,7 +2067,17 @@ window.APP_DATA = {
           "word": "erhalten",
           "english": "to receive / to maintain",
           "separable": false,
-          "notes": "Inseparable prefix: Ich erhalte eine E-Mail."
+          "notes": "Inseparable prefix: Ich erhalte eine E-Mail.",
+          "past_participle": "erhalten",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "erhielt",
+            "du": "erhieltest",
+            "er_sie_es": "erhielt",
+            "wir": "erhielten",
+            "ihr": "erhieltet",
+            "sie_Sie": "erhielten"
+          }
         }
       ],
       "example_sentences": [
@@ -1542,7 +2130,15 @@ window.APP_DATA = {
           "sie_Sie": "geben"
         },
         "past_participle": "gegeben",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "gab",
+          "du": "gabst",
+          "er_sie_es": "gab",
+          "wir": "gaben",
+          "ihr": "gabt",
+          "sie_Sie": "gaben"
+        }
       },
       "prefix_variants": [
         {
@@ -1551,7 +2147,17 @@ window.APP_DATA = {
           "word": "ausgeben",
           "english": "to spend (money) / to give out",
           "separable": true,
-          "notes": "Prefix separates: Ich gebe viel Geld aus."
+          "notes": "Prefix separates: Ich gebe viel Geld aus.",
+          "past_participle": "ausgegeben",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "gab aus",
+            "du": "gabst aus",
+            "er_sie_es": "gab aus",
+            "wir": "gaben aus",
+            "ihr": "gabt aus",
+            "sie_Sie": "gaben aus"
+          }
         },
         {
           "id": "verb_aufgeben",
@@ -1559,7 +2165,17 @@ window.APP_DATA = {
           "word": "aufgeben",
           "english": "to give up / to submit / to check in",
           "separable": true,
-          "notes": "Prefix separates: Gib nie auf!"
+          "notes": "Prefix separates: Gib nie auf!",
+          "past_participle": "aufgegeben",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "gab auf",
+            "du": "gabst auf",
+            "er_sie_es": "gab auf",
+            "wir": "gaben auf",
+            "ihr": "gabt auf",
+            "sie_Sie": "gaben auf"
+          }
         },
         {
           "id": "verb_angeben",
@@ -1567,7 +2183,17 @@ window.APP_DATA = {
           "word": "angeben",
           "english": "to state / to show off",
           "separable": true,
-          "notes": "Prefix separates: Er gibt immer an."
+          "notes": "Prefix separates: Er gibt immer an.",
+          "past_participle": "angegeben",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "gab an",
+            "du": "gabst an",
+            "er_sie_es": "gab an",
+            "wir": "gaben an",
+            "ihr": "gabt an",
+            "sie_Sie": "gaben an"
+          }
         }
       ],
       "example_sentences": [
@@ -1621,7 +2247,15 @@ window.APP_DATA = {
           "sie_Sie": "bringen"
         },
         "past_participle": "gebracht",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "brachte",
+          "du": "brachtest",
+          "er_sie_es": "brachte",
+          "wir": "brachten",
+          "ihr": "brachtet",
+          "sie_Sie": "brachten"
+        }
       },
       "prefix_variants": [
         {
@@ -1630,7 +2264,17 @@ window.APP_DATA = {
           "word": "mitbringen",
           "english": "to bring along",
           "separable": true,
-          "notes": "Prefix separates: Ich bringe etwas mit."
+          "notes": "Prefix separates: Ich bringe etwas mit.",
+          "past_participle": "mitgebracht",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "brachte mit",
+            "du": "brachtest mit",
+            "er_sie_es": "brachte mit",
+            "wir": "brachten mit",
+            "ihr": "brachtet mit",
+            "sie_Sie": "brachten mit"
+          }
         },
         {
           "id": "verb_einbringen",
@@ -1638,7 +2282,17 @@ window.APP_DATA = {
           "word": "einbringen",
           "english": "to bring in / to contribute",
           "separable": true,
-          "notes": "Prefix separates: Er bringt neue Ideen ein."
+          "notes": "Prefix separates: Er bringt neue Ideen ein.",
+          "past_participle": "eingebracht",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "brachte ein",
+            "du": "brachtest ein",
+            "er_sie_es": "brachte ein",
+            "wir": "brachten ein",
+            "ihr": "brachtet ein",
+            "sie_Sie": "brachten ein"
+          }
         },
         {
           "id": "verb_verbringen",
@@ -1646,7 +2300,17 @@ window.APP_DATA = {
           "word": "verbringen",
           "english": "to spend (time)",
           "separable": false,
-          "notes": "Inseparable prefix: Wir verbringen den Urlaub in Italien."
+          "notes": "Inseparable prefix: Wir verbringen den Urlaub in Italien.",
+          "past_participle": "verbracht",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "verbrachte",
+            "du": "verbrachtest",
+            "er_sie_es": "verbrachte",
+            "wir": "verbrachten",
+            "ihr": "verbrachtet",
+            "sie_Sie": "verbrachten"
+          }
         }
       ],
       "example_sentences": [
@@ -1700,7 +2364,15 @@ window.APP_DATA = {
           "sie_Sie": "leben"
         },
         "past_participle": "gelebt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "lebte",
+          "du": "lebtest",
+          "er_sie_es": "lebte",
+          "wir": "lebten",
+          "ihr": "lebtet",
+          "sie_Sie": "lebten"
+        }
       },
       "prefix_variants": [
         {
@@ -1709,7 +2381,17 @@ window.APP_DATA = {
           "word": "überleben",
           "english": "to survive",
           "separable": false,
-          "notes": "Inseparable prefix: Er überlebt den Unfall."
+          "notes": "Inseparable prefix: Er überlebt den Unfall.",
+          "past_participle": "überlebt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "überlebte",
+            "du": "überlebtest",
+            "er_sie_es": "überlebte",
+            "wir": "überlebten",
+            "ihr": "überlebtet",
+            "sie_Sie": "überlebten"
+          }
         },
         {
           "id": "verb_zusammenleben",
@@ -1717,7 +2399,17 @@ window.APP_DATA = {
           "word": "zusammenleben",
           "english": "to live together",
           "separable": true,
-          "notes": "Prefix separates: Sie leben zusammen."
+          "notes": "Prefix separates: Sie leben zusammen.",
+          "past_participle": "zusammengelebt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "lebte zusammen",
+            "du": "lebtest zusammen",
+            "er_sie_es": "lebte zusammen",
+            "wir": "lebten zusammen",
+            "ihr": "lebtet zusammen",
+            "sie_Sie": "lebten zusammen"
+          }
         }
       ],
       "example_sentences": [
@@ -1770,7 +2462,15 @@ window.APP_DATA = {
           "sie_Sie": "sprechen"
         },
         "past_participle": "gesprochen",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "sprach",
+          "du": "sprachst",
+          "er_sie_es": "sprach",
+          "wir": "sprachen",
+          "ihr": "spracht",
+          "sie_Sie": "sprachen"
+        }
       },
       "prefix_variants": [
         {
@@ -1779,7 +2479,17 @@ window.APP_DATA = {
           "word": "ansprechen",
           "english": "to address / to approach (someone)",
           "separable": true,
-          "notes": "Prefix separates: Er spricht mich an."
+          "notes": "Prefix separates: Er spricht mich an.",
+          "past_participle": "angesprochen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "sprach an",
+            "du": "sprachst an",
+            "er_sie_es": "sprach an",
+            "wir": "sprachen an",
+            "ihr": "spracht an",
+            "sie_Sie": "sprachen an"
+          }
         },
         {
           "id": "verb_besprechen",
@@ -1787,7 +2497,17 @@ window.APP_DATA = {
           "word": "besprechen",
           "english": "to discuss",
           "separable": false,
-          "notes": "Inseparable prefix: Wir besprechen das Problem."
+          "notes": "Inseparable prefix: Wir besprechen das Problem.",
+          "past_participle": "besprochen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "besprach",
+            "du": "besprachst",
+            "er_sie_es": "besprach",
+            "wir": "besprachen",
+            "ihr": "bespracht",
+            "sie_Sie": "besprachen"
+          }
         },
         {
           "id": "verb_aussprechen",
@@ -1795,7 +2515,17 @@ window.APP_DATA = {
           "word": "aussprechen",
           "english": "to pronounce / to express",
           "separable": true,
-          "notes": "Prefix separates: Wie spricht man das aus?"
+          "notes": "Prefix separates: Wie spricht man das aus?",
+          "past_participle": "ausgesprochen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "sprach aus",
+            "du": "sprachst aus",
+            "er_sie_es": "sprach aus",
+            "wir": "sprachen aus",
+            "ihr": "spracht aus",
+            "sie_Sie": "sprachen aus"
+          }
         },
         {
           "id": "verb_versprechen",
@@ -1809,6 +2539,16 @@ window.APP_DATA = {
               "accusative",
               "dative"
             ]
+          },
+          "past_participle": "versprochen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "versprach",
+            "du": "versprachst",
+            "er_sie_es": "versprach",
+            "wir": "versprachen",
+            "ihr": "verspracht",
+            "sie_Sie": "versprachen"
           }
         },
         {
@@ -1822,6 +2562,16 @@ window.APP_DATA = {
             "case_requirements": [
               "dative"
             ]
+          },
+          "past_participle": "widersprochen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "widersprach",
+            "du": "widersprachst",
+            "er_sie_es": "widersprach",
+            "wir": "widersprachen",
+            "ihr": "widerspracht",
+            "sie_Sie": "widersprachen"
           }
         }
       ],
@@ -1875,7 +2625,15 @@ window.APP_DATA = {
           "sie_Sie": "arbeiten"
         },
         "past_participle": "gearbeitet",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "arbeitete",
+          "du": "arbeitetest",
+          "er_sie_es": "arbeitete",
+          "wir": "arbeiteten",
+          "ihr": "arbeitetet",
+          "sie_Sie": "arbeiteten"
+        }
       },
       "prefix_variants": [
         {
@@ -1884,7 +2642,17 @@ window.APP_DATA = {
           "word": "zusammenarbeiten",
           "english": "to work together / to collaborate",
           "separable": true,
-          "notes": "Ich arbeite mit ihm zusammen."
+          "notes": "Ich arbeite mit ihm zusammen.",
+          "past_participle": "zusammengearbeitet",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "arbeitete zusammen",
+            "du": "arbeitetest zusammen",
+            "er_sie_es": "arbeitete zusammen",
+            "wir": "arbeiteten zusammen",
+            "ihr": "arbeitetet zusammen",
+            "sie_Sie": "arbeiteten zusammen"
+          }
         },
         {
           "id": "verb_mitarbeiten",
@@ -1892,7 +2660,17 @@ window.APP_DATA = {
           "word": "mitarbeiten",
           "english": "to participate / to contribute",
           "separable": true,
-          "notes": "Er arbeitet aktiv mit."
+          "notes": "Er arbeitet aktiv mit.",
+          "past_participle": "mitgearbeitet",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "arbeitete mit",
+            "du": "arbeitetest mit",
+            "er_sie_es": "arbeitete mit",
+            "wir": "arbeiteten mit",
+            "ihr": "arbeitetet mit",
+            "sie_Sie": "arbeiteten mit"
+          }
         },
         {
           "id": "verb_erarbeiten",
@@ -1900,7 +2678,17 @@ window.APP_DATA = {
           "word": "erarbeiten",
           "english": "to work out / to develop",
           "separable": false,
-          "notes": "Inseparable. Er erarbeitet einen Plan."
+          "notes": "Inseparable. Er erarbeitet einen Plan.",
+          "past_participle": "erarbeitet",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "erarbeitete",
+            "du": "erarbeitetest",
+            "er_sie_es": "erarbeitete",
+            "wir": "erarbeiteten",
+            "ihr": "erarbeitetet",
+            "sie_Sie": "erarbeiteten"
+          }
         }
       ],
       "example_sentences": [
@@ -1953,7 +2741,15 @@ window.APP_DATA = {
           "sie_Sie": "kennen"
         },
         "past_participle": "gekannt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "kannte",
+          "du": "kanntest",
+          "er_sie_es": "kannte",
+          "wir": "kannten",
+          "ihr": "kanntet",
+          "sie_Sie": "kannten"
+        }
       },
       "prefix_variants": [
         {
@@ -1962,7 +2758,17 @@ window.APP_DATA = {
           "word": "erkennen",
           "english": "to recognise / to realise",
           "separable": false,
-          "notes": "Inseparable. Ich erkenne ihn sofort."
+          "notes": "Inseparable. Ich erkenne ihn sofort.",
+          "past_participle": "erkannt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "erkannte",
+            "du": "erkanntest",
+            "er_sie_es": "erkannte",
+            "wir": "erkannten",
+            "ihr": "erkanntet",
+            "sie_Sie": "erkannten"
+          }
         },
         {
           "id": "verb_anerkennen",
@@ -1970,7 +2776,17 @@ window.APP_DATA = {
           "word": "anerkennen",
           "english": "to acknowledge / to recognise (officially)",
           "separable": true,
-          "notes": "Separable in some uses. Er erkennt die Leistung an."
+          "notes": "Separable in some uses. Er erkennt die Leistung an.",
+          "past_participle": "anerkannt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "erkannte an",
+            "du": "erkanntest an",
+            "er_sie_es": "erkannte an",
+            "wir": "erkannten an",
+            "ihr": "erkanntet an",
+            "sie_Sie": "erkannten an"
+          }
         },
         {
           "id": "verb_kennenlernen",
@@ -1978,7 +2794,17 @@ window.APP_DATA = {
           "word": "kennenlernen",
           "english": "to get to know / to meet",
           "separable": true,
-          "notes": "Ich lerne sie kennen."
+          "notes": "Ich lerne sie kennen.",
+          "past_participle": "kennengelernt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "lernte kennen",
+            "du": "lerntest kennen",
+            "er_sie_es": "lernte kennen",
+            "wir": "lernten kennen",
+            "ihr": "lerntet kennen",
+            "sie_Sie": "lernten kennen"
+          }
         }
       ],
       "example_sentences": [
@@ -2031,7 +2857,15 @@ window.APP_DATA = {
           "sie_Sie": "lernen"
         },
         "past_participle": "gelernt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "lernte",
+          "du": "lerntest",
+          "er_sie_es": "lernte",
+          "wir": "lernten",
+          "ihr": "lerntet",
+          "sie_Sie": "lernten"
+        }
       },
       "prefix_variants": [
         {
@@ -2040,7 +2874,17 @@ window.APP_DATA = {
           "word": "erlernen",
           "english": "to learn / to acquire (a skill)",
           "separable": false,
-          "notes": "Inseparable. More formal than lernen. Er erlernt einen Beruf."
+          "notes": "Inseparable. More formal than lernen. Er erlernt einen Beruf.",
+          "past_participle": "erlernt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "erlernte",
+            "du": "erlerntest",
+            "er_sie_es": "erlernte",
+            "wir": "erlernten",
+            "ihr": "erlerntet",
+            "sie_Sie": "erlernten"
+          }
         },
         {
           "id": "verb_auslernen",
@@ -2048,7 +2892,17 @@ window.APP_DATA = {
           "word": "auslernen",
           "english": "to finish one's apprenticeship / to stop learning",
           "separable": true,
-          "notes": "Man lernt nie aus. (One never stops learning.)"
+          "notes": "Man lernt nie aus. (One never stops learning.)",
+          "past_participle": "ausgelernt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "lernte aus",
+            "du": "lerntest aus",
+            "er_sie_es": "lernte aus",
+            "wir": "lernten aus",
+            "ihr": "lerntet aus",
+            "sie_Sie": "lernten aus"
+          }
         }
       ],
       "example_sentences": [
@@ -2101,7 +2955,15 @@ window.APP_DATA = {
           "sie_Sie": "spielen"
         },
         "past_participle": "gespielt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "spielte",
+          "du": "spieltest",
+          "er_sie_es": "spielte",
+          "wir": "spielten",
+          "ihr": "spieltet",
+          "sie_Sie": "spielten"
+        }
       },
       "prefix_variants": [
         {
@@ -2110,7 +2972,17 @@ window.APP_DATA = {
           "word": "abspielen",
           "english": "to play (a recording) / to unfold",
           "separable": true,
-          "notes": "Separable. Er spielt die Musik ab. / Es spielt sich ab = it unfolds."
+          "notes": "Separable. Er spielt die Musik ab. / Es spielt sich ab = it unfolds.",
+          "past_participle": "abgespielt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "spielte ab",
+            "du": "spieltest ab",
+            "er_sie_es": "spielte ab",
+            "wir": "spielten ab",
+            "ihr": "spieltet ab",
+            "sie_Sie": "spielten ab"
+          }
         },
         {
           "id": "verb_mitspielen",
@@ -2118,7 +2990,17 @@ window.APP_DATA = {
           "word": "mitspielen",
           "english": "to join in / to play along",
           "separable": true,
-          "notes": "Ich spiele mit."
+          "notes": "Ich spiele mit.",
+          "past_participle": "mitgespielt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "spielte mit",
+            "du": "spieltest mit",
+            "er_sie_es": "spielte mit",
+            "wir": "spielten mit",
+            "ihr": "spieltet mit",
+            "sie_Sie": "spielten mit"
+          }
         },
         {
           "id": "verb_vorspielen",
@@ -2126,7 +3008,17 @@ window.APP_DATA = {
           "word": "vorspielen",
           "english": "to perform / to play for someone",
           "separable": true,
-          "notes": "Er spielt ihr ein Lied vor."
+          "notes": "Er spielt ihr ein Lied vor.",
+          "past_participle": "vorgespielt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "spielte vor",
+            "du": "spieltest vor",
+            "er_sie_es": "spielte vor",
+            "wir": "spielten vor",
+            "ihr": "spieltet vor",
+            "sie_Sie": "spielten vor"
+          }
         }
       ],
       "example_sentences": [
@@ -2179,7 +3071,15 @@ window.APP_DATA = {
           "sie_Sie": "kaufen"
         },
         "past_participle": "gekauft",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "kaufte",
+          "du": "kauftest",
+          "er_sie_es": "kaufte",
+          "wir": "kauften",
+          "ihr": "kauftet",
+          "sie_Sie": "kauften"
+        }
       },
       "prefix_variants": [
         {
@@ -2188,7 +3088,17 @@ window.APP_DATA = {
           "word": "einkaufen",
           "english": "to shop / to go shopping",
           "separable": true,
-          "notes": "Ich kaufe ein."
+          "notes": "Ich kaufe ein.",
+          "past_participle": "eingekauft",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "kaufte ein",
+            "du": "kauftest ein",
+            "er_sie_es": "kaufte ein",
+            "wir": "kauften ein",
+            "ihr": "kauftet ein",
+            "sie_Sie": "kauften ein"
+          }
         },
         {
           "id": "verb_abkaufen",
@@ -2196,7 +3106,17 @@ window.APP_DATA = {
           "word": "abkaufen",
           "english": "to buy from someone",
           "separable": true,
-          "notes": "Er kauft ihm das Auto ab."
+          "notes": "Er kauft ihm das Auto ab.",
+          "past_participle": "abgekauft",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "kaufte ab",
+            "du": "kauftest ab",
+            "er_sie_es": "kaufte ab",
+            "wir": "kauften ab",
+            "ihr": "kauftet ab",
+            "sie_Sie": "kauften ab"
+          }
         },
         {
           "id": "verb_verkaufen",
@@ -2204,7 +3124,17 @@ window.APP_DATA = {
           "word": "verkaufen",
           "english": "to sell",
           "separable": false,
-          "notes": "Inseparable. Ich verkaufe mein Fahrrad."
+          "notes": "Inseparable. Ich verkaufe mein Fahrrad.",
+          "past_participle": "verkauft",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "verkaufte",
+            "du": "verkauftest",
+            "er_sie_es": "verkaufte",
+            "wir": "verkauften",
+            "ihr": "verkauftet",
+            "sie_Sie": "verkauften"
+          }
         }
       ],
       "example_sentences": [
@@ -2257,7 +3187,15 @@ window.APP_DATA = {
           "sie_Sie": "wissen"
         },
         "past_participle": "gewusst",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "wusste",
+          "du": "wusstest",
+          "er_sie_es": "wusste",
+          "wir": "wussten",
+          "ihr": "wusstet",
+          "sie_Sie": "wussten"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -2310,7 +3248,15 @@ window.APP_DATA = {
           "sie_Sie": "zeigen"
         },
         "past_participle": "gezeigt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "zeigte",
+          "du": "zeigtest",
+          "er_sie_es": "zeigte",
+          "wir": "zeigten",
+          "ihr": "zeigtet",
+          "sie_Sie": "zeigten"
+        }
       },
       "prefix_variants": [
         {
@@ -2319,7 +3265,17 @@ window.APP_DATA = {
           "word": "anzeigen",
           "english": "to display / to report (to police)",
           "separable": true,
-          "notes": "Er zeigt ihn an (reports him). Das Display zeigt an."
+          "notes": "Er zeigt ihn an (reports him). Das Display zeigt an.",
+          "past_participle": "angezeigt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "zeigte an",
+            "du": "zeigtest an",
+            "er_sie_es": "zeigte an",
+            "wir": "zeigten an",
+            "ihr": "zeigtet an",
+            "sie_Sie": "zeigten an"
+          }
         },
         {
           "id": "verb_aufzeigen",
@@ -2327,7 +3283,17 @@ window.APP_DATA = {
           "word": "aufzeigen",
           "english": "to demonstrate / to point out",
           "separable": true,
-          "notes": "Er zeigt das Problem auf."
+          "notes": "Er zeigt das Problem auf.",
+          "past_participle": "aufgezeigt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "zeigte auf",
+            "du": "zeigtest auf",
+            "er_sie_es": "zeigte auf",
+            "wir": "zeigten auf",
+            "ihr": "zeigtet auf",
+            "sie_Sie": "zeigten auf"
+          }
         },
         {
           "id": "verb_vorführen",
@@ -2335,7 +3301,17 @@ window.APP_DATA = {
           "word": "vorzeigen",
           "english": "to show (documents/ID)",
           "separable": true,
-          "notes": "Er zeigt seinen Pass vor."
+          "notes": "Er zeigt seinen Pass vor.",
+          "past_participle": "vorgezeigt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "zeigte vor",
+            "du": "zeigtest vor",
+            "er_sie_es": "zeigte vor",
+            "wir": "zeigten vor",
+            "ihr": "zeigtet vor",
+            "sie_Sie": "zeigten vor"
+          }
         }
       ],
       "example_sentences": [
@@ -2389,7 +3365,15 @@ window.APP_DATA = {
           "sie_Sie": "führen"
         },
         "past_participle": "geführt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "führte",
+          "du": "führtest",
+          "er_sie_es": "führte",
+          "wir": "führten",
+          "ihr": "führtet",
+          "sie_Sie": "führten"
+        }
       },
       "prefix_variants": [
         {
@@ -2398,7 +3382,17 @@ window.APP_DATA = {
           "word": "einführen",
           "english": "to introduce / to import",
           "separable": true,
-          "notes": "Er führt eine neue Regel ein. / Waren einführen."
+          "notes": "Er führt eine neue Regel ein. / Waren einführen.",
+          "past_participle": "eingeführt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "führte ein",
+            "du": "führtest ein",
+            "er_sie_es": "führte ein",
+            "wir": "führten ein",
+            "ihr": "führtet ein",
+            "sie_Sie": "führten ein"
+          }
         },
         {
           "id": "verb_durchführen",
@@ -2406,7 +3400,17 @@ window.APP_DATA = {
           "word": "durchführen",
           "english": "to carry out / to conduct",
           "separable": true,
-          "notes": "Sie führen das Experiment durch."
+          "notes": "Sie führen das Experiment durch.",
+          "past_participle": "durchgeführt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "führte durch",
+            "du": "führtest durch",
+            "er_sie_es": "führte durch",
+            "wir": "führten durch",
+            "ihr": "führtet durch",
+            "sie_Sie": "führten durch"
+          }
         },
         {
           "id": "verb_aufführen",
@@ -2414,7 +3418,17 @@ window.APP_DATA = {
           "word": "aufführen",
           "english": "to perform / to list",
           "separable": true,
-          "notes": "Das Theater führt ein Stück auf."
+          "notes": "Das Theater führt ein Stück auf.",
+          "past_participle": "aufgeführt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "führte auf",
+            "du": "führtest auf",
+            "er_sie_es": "führte auf",
+            "wir": "führten auf",
+            "ihr": "führtet auf",
+            "sie_Sie": "führten auf"
+          }
         }
       ],
       "example_sentences": [
@@ -2467,7 +3481,15 @@ window.APP_DATA = {
           "sie_Sie": "laufen"
         },
         "past_participle": "gelaufen",
-        "auxiliary": "sein"
+        "auxiliary": "sein",
+        "prateritum": {
+          "ich": "lief",
+          "du": "liefst",
+          "er_sie_es": "lief",
+          "wir": "liefen",
+          "ihr": "lieft",
+          "sie_Sie": "liefen"
+        }
       },
       "prefix_variants": [
         {
@@ -2476,7 +3498,17 @@ window.APP_DATA = {
           "word": "ablaufen",
           "english": "to expire / to run off",
           "separable": true,
-          "notes": "Der Pass läuft ab. (expires)"
+          "notes": "Der Pass läuft ab. (expires)",
+          "past_participle": "abgelaufen",
+          "auxiliary": "sein",
+          "prateritum": {
+            "ich": "lief ab",
+            "du": "liefst ab",
+            "er_sie_es": "lief ab",
+            "wir": "liefen ab",
+            "ihr": "lieft ab",
+            "sie_Sie": "liefen ab"
+          }
         },
         {
           "id": "verb_verlaufen",
@@ -2484,7 +3516,17 @@ window.APP_DATA = {
           "word": "verlaufen",
           "english": "to get lost / to proceed",
           "separable": false,
-          "notes": "Sich verlaufen = to get lost. Wie läuft es? = How is it going?"
+          "notes": "Sich verlaufen = to get lost. Wie läuft es? = How is it going?",
+          "past_participle": "verlaufen",
+          "auxiliary": "sein",
+          "prateritum": {
+            "ich": "verlief",
+            "du": "verliefst",
+            "er_sie_es": "verlief",
+            "wir": "verliefen",
+            "ihr": "verlieft",
+            "sie_Sie": "verliefen"
+          }
         },
         {
           "id": "verb_anlaufen",
@@ -2492,7 +3534,17 @@ window.APP_DATA = {
           "word": "anlaufen",
           "english": "to start up / to approach",
           "separable": true,
-          "notes": "Der Motor läuft an."
+          "notes": "Der Motor läuft an.",
+          "past_participle": "angelaufen",
+          "auxiliary": "sein",
+          "prateritum": {
+            "ich": "lief an",
+            "du": "liefst an",
+            "er_sie_es": "lief an",
+            "wir": "liefen an",
+            "ihr": "lieft an",
+            "sie_Sie": "liefen an"
+          }
         }
       ],
       "example_sentences": [
@@ -2545,7 +3597,15 @@ window.APP_DATA = {
           "sie_Sie": "schreiben"
         },
         "past_participle": "geschrieben",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "schrieb",
+          "du": "schriebst",
+          "er_sie_es": "schrieb",
+          "wir": "schrieben",
+          "ihr": "schriebt",
+          "sie_Sie": "schrieben"
+        }
       },
       "prefix_variants": [
         {
@@ -2554,7 +3614,17 @@ window.APP_DATA = {
           "word": "aufschreiben",
           "english": "to write down / to note down",
           "separable": true,
-          "notes": "Ich schreibe die Adresse auf."
+          "notes": "Ich schreibe die Adresse auf.",
+          "past_participle": "aufgeschrieben",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "schrieb auf",
+            "du": "schriebst auf",
+            "er_sie_es": "schrieb auf",
+            "wir": "schrieben auf",
+            "ihr": "schriebt auf",
+            "sie_Sie": "schrieben auf"
+          }
         },
         {
           "id": "verb_beschreiben",
@@ -2562,7 +3632,17 @@ window.APP_DATA = {
           "word": "beschreiben",
           "english": "to describe",
           "separable": false,
-          "notes": "Inseparable. Er beschreibt die Situation."
+          "notes": "Inseparable. Er beschreibt die Situation.",
+          "past_participle": "beschrieben",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "beschrieb",
+            "du": "beschriebst",
+            "er_sie_es": "beschrieb",
+            "wir": "beschrieben",
+            "ihr": "beschriebt",
+            "sie_Sie": "beschrieben"
+          }
         },
         {
           "id": "verb_verschreiben",
@@ -2570,7 +3650,17 @@ window.APP_DATA = {
           "word": "verschreiben",
           "english": "to prescribe / to misspell",
           "separable": false,
-          "notes": "Inseparable. Der Arzt verschreibt ein Medikament."
+          "notes": "Inseparable. Der Arzt verschreibt ein Medikament.",
+          "past_participle": "verschrieben",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "verschrieb",
+            "du": "verschriebst",
+            "er_sie_es": "verschrieb",
+            "wir": "verschrieben",
+            "ihr": "verschriebt",
+            "sie_Sie": "verschrieben"
+          }
         }
       ],
       "example_sentences": [
@@ -2623,7 +3713,15 @@ window.APP_DATA = {
           "sie_Sie": "lesen"
         },
         "past_participle": "gelesen",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "las",
+          "du": "lasest",
+          "er_sie_es": "las",
+          "wir": "lasen",
+          "ihr": "last",
+          "sie_Sie": "lasen"
+        }
       },
       "prefix_variants": [
         {
@@ -2632,7 +3730,17 @@ window.APP_DATA = {
           "word": "vorlesen",
           "english": "to read aloud / to read to someone",
           "separable": true,
-          "notes": "Ich lese ihr eine Geschichte vor."
+          "notes": "Ich lese ihr eine Geschichte vor.",
+          "past_participle": "vorgelesen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "las vor",
+            "du": "lasest vor",
+            "er_sie_es": "las vor",
+            "wir": "lasen vor",
+            "ihr": "last vor",
+            "sie_Sie": "lasen vor"
+          }
         },
         {
           "id": "verb_ablesen",
@@ -2640,7 +3748,17 @@ window.APP_DATA = {
           "word": "ablesen",
           "english": "to read off / to deduce from",
           "separable": true,
-          "notes": "Er liest den Zählerstand ab."
+          "notes": "Er liest den Zählerstand ab.",
+          "past_participle": "abgelesen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "las ab",
+            "du": "lasest ab",
+            "er_sie_es": "las ab",
+            "wir": "lasen ab",
+            "ihr": "last ab",
+            "sie_Sie": "lasen ab"
+          }
         }
       ],
       "example_sentences": [
@@ -2693,7 +3811,15 @@ window.APP_DATA = {
           "sie_Sie": "fahren"
         },
         "past_participle": "gefahren",
-        "auxiliary": "sein"
+        "auxiliary": "sein",
+        "prateritum": {
+          "ich": "fuhr",
+          "du": "fuhrst",
+          "er_sie_es": "fuhr",
+          "wir": "fuhren",
+          "ihr": "fuhrt",
+          "sie_Sie": "fuhren"
+        }
       },
       "prefix_variants": [
         {
@@ -2702,7 +3828,17 @@ window.APP_DATA = {
           "word": "abfahren",
           "english": "to depart / to leave (by vehicle)",
           "separable": true,
-          "notes": "Der Zug fährt ab."
+          "notes": "Der Zug fährt ab.",
+          "past_participle": "abgefahren",
+          "auxiliary": "sein",
+          "prateritum": {
+            "ich": "fuhr ab",
+            "du": "fuhrst ab",
+            "er_sie_es": "fuhr ab",
+            "wir": "fuhren ab",
+            "ihr": "fuhrt ab",
+            "sie_Sie": "fuhren ab"
+          }
         },
         {
           "id": "verb_anfahren",
@@ -2710,7 +3846,17 @@ window.APP_DATA = {
           "word": "anfahren",
           "english": "to approach / to start (engine)",
           "separable": true,
-          "notes": "Er fährt den Motor an."
+          "notes": "Er fährt den Motor an.",
+          "past_participle": "angefahren",
+          "auxiliary": "sein",
+          "prateritum": {
+            "ich": "fuhr an",
+            "du": "fuhrst an",
+            "er_sie_es": "fuhr an",
+            "wir": "fuhren an",
+            "ihr": "fuhrt an",
+            "sie_Sie": "fuhren an"
+          }
         },
         {
           "id": "verb_erfahren",
@@ -2718,7 +3864,17 @@ window.APP_DATA = {
           "word": "erfahren",
           "english": "to find out / to learn (news)",
           "separable": false,
-          "notes": "Inseparable. Ich erfahre die Neuigkeit."
+          "notes": "Inseparable. Ich erfahre die Neuigkeit.",
+          "past_participle": "erfahren",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "erfuhr",
+            "du": "erfuhrst",
+            "er_sie_es": "erfuhr",
+            "wir": "erfuhren",
+            "ihr": "erfuhrt",
+            "sie_Sie": "erfuhren"
+          }
         }
       ],
       "example_sentences": [
@@ -2771,7 +3927,15 @@ window.APP_DATA = {
           "sie_Sie": "essen"
         },
         "past_participle": "gegessen",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "aß",
+          "du": "aßt",
+          "er_sie_es": "aß",
+          "wir": "aßen",
+          "ihr": "aßt",
+          "sie_Sie": "aßen"
+        }
       },
       "prefix_variants": [
         {
@@ -2780,7 +3944,17 @@ window.APP_DATA = {
           "word": "aufessen",
           "english": "to eat up / to finish eating",
           "separable": true,
-          "notes": "Iss deinen Teller auf!"
+          "notes": "Iss deinen Teller auf!",
+          "past_participle": "aufgegessen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "aß auf",
+            "du": "aßt auf",
+            "er_sie_es": "aß auf",
+            "wir": "aßen auf",
+            "ihr": "aßt auf",
+            "sie_Sie": "aßen auf"
+          }
         }
       ],
       "example_sentences": [
@@ -2833,7 +4007,15 @@ window.APP_DATA = {
           "sie_Sie": "trinken"
         },
         "past_participle": "getrunken",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "trank",
+          "du": "trankst",
+          "er_sie_es": "trank",
+          "wir": "tranken",
+          "ihr": "trankt",
+          "sie_Sie": "tranken"
+        }
       },
       "prefix_variants": [
         {
@@ -2842,7 +4024,17 @@ window.APP_DATA = {
           "word": "austrinken",
           "english": "to drink up / to finish one's drink",
           "separable": true,
-          "notes": "Trink dein Glas aus!"
+          "notes": "Trink dein Glas aus!",
+          "past_participle": "ausgetrunken",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "trank aus",
+            "du": "trankst aus",
+            "er_sie_es": "trank aus",
+            "wir": "tranken aus",
+            "ihr": "trankt aus",
+            "sie_Sie": "tranken aus"
+          }
         },
         {
           "id": "verb_zutrinken",
@@ -2850,7 +4042,17 @@ window.APP_DATA = {
           "word": "zutrinken",
           "english": "to drink to someone / to toast",
           "separable": true,
-          "notes": "Er trinkt ihr zu."
+          "notes": "Er trinkt ihr zu.",
+          "past_participle": "zugetrunken",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "trank zu",
+            "du": "trankst zu",
+            "er_sie_es": "trank zu",
+            "wir": "tranken zu",
+            "ihr": "trankt zu",
+            "sie_Sie": "tranken zu"
+          }
         }
       ],
       "example_sentences": [
@@ -2903,7 +4105,15 @@ window.APP_DATA = {
           "sie_Sie": "schlafen"
         },
         "past_participle": "geschlafen",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "schlief",
+          "du": "schliefst",
+          "er_sie_es": "schlief",
+          "wir": "schliefen",
+          "ihr": "schlieft",
+          "sie_Sie": "schliefen"
+        }
       },
       "prefix_variants": [
         {
@@ -2912,7 +4122,17 @@ window.APP_DATA = {
           "word": "einschlafen",
           "english": "to fall asleep",
           "separable": true,
-          "notes": "Ich schlafe ein. Uses 'sein'."
+          "notes": "Ich schlafe ein. Uses 'sein'.",
+          "past_participle": "eingeschlafen",
+          "auxiliary": "sein",
+          "prateritum": {
+            "ich": "schlief ein",
+            "du": "schliefst ein",
+            "er_sie_es": "schlief ein",
+            "wir": "schliefen ein",
+            "ihr": "schlieft ein",
+            "sie_Sie": "schliefen ein"
+          }
         },
         {
           "id": "verb_verschlafen",
@@ -2920,7 +4140,17 @@ window.APP_DATA = {
           "word": "verschlafen",
           "english": "to oversleep / to sleep through",
           "separable": false,
-          "notes": "Inseparable. Ich verschlafe — I oversleep."
+          "notes": "Inseparable. Ich verschlafe — I oversleep.",
+          "past_participle": "verschlafen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "verschlief",
+            "du": "verschliefst",
+            "er_sie_es": "verschlief",
+            "wir": "verschliefen",
+            "ihr": "verschlieft",
+            "sie_Sie": "verschliefen"
+          }
         }
       ],
       "example_sentences": [
@@ -2973,7 +4203,15 @@ window.APP_DATA = {
           "sie_Sie": "treffen"
         },
         "past_participle": "getroffen",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "traf",
+          "du": "trafst",
+          "er_sie_es": "traf",
+          "wir": "trafen",
+          "ihr": "traft",
+          "sie_Sie": "trafen"
+        }
       },
       "prefix_variants": [
         {
@@ -2982,7 +4220,17 @@ window.APP_DATA = {
           "word": "antreffen",
           "english": "to find / to come across (someone)",
           "separable": true,
-          "notes": "Ich treffe ihn dort an."
+          "notes": "Ich treffe ihn dort an.",
+          "past_participle": "angetroffen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "traf an",
+            "du": "trafst an",
+            "er_sie_es": "traf an",
+            "wir": "trafen an",
+            "ihr": "traft an",
+            "sie_Sie": "trafen an"
+          }
         },
         {
           "id": "verb_betreffen",
@@ -2990,7 +4238,17 @@ window.APP_DATA = {
           "word": "betreffen",
           "english": "to concern / to affect",
           "separable": false,
-          "notes": "Inseparable. Das betrifft uns alle."
+          "notes": "Inseparable. Das betrifft uns alle.",
+          "past_participle": "betroffen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "betraf",
+            "du": "betrafst",
+            "er_sie_es": "betraf",
+            "wir": "betrafen",
+            "ihr": "betraft",
+            "sie_Sie": "betrafen"
+          }
         },
         {
           "id": "verb_eintreffen",
@@ -2998,7 +4256,17 @@ window.APP_DATA = {
           "word": "eintreffen",
           "english": "to arrive / to come true",
           "separable": true,
-          "notes": "Er trifft pünktlich ein. / Seine Vorhersage trifft ein."
+          "notes": "Er trifft pünktlich ein. / Seine Vorhersage trifft ein.",
+          "past_participle": "eingetroffen",
+          "auxiliary": "sein",
+          "prateritum": {
+            "ich": "traf ein",
+            "du": "trafst ein",
+            "er_sie_es": "traf ein",
+            "wir": "trafen ein",
+            "ihr": "traft ein",
+            "sie_Sie": "trafen ein"
+          }
         }
       ],
       "example_sentences": [
@@ -3051,7 +4319,15 @@ window.APP_DATA = {
           "sie_Sie": "öffnen"
         },
         "past_participle": "geöffnet",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "öffnete",
+          "du": "öffnetest",
+          "er_sie_es": "öffnete",
+          "wir": "öffneten",
+          "ihr": "öffnetet",
+          "sie_Sie": "öffneten"
+        }
       },
       "prefix_variants": [
         {
@@ -3060,7 +4336,17 @@ window.APP_DATA = {
           "word": "eröffnen",
           "english": "to open (officially) / to inaugurate",
           "separable": false,
-          "notes": "Inseparable. Sie eröffnet ein Geschäft."
+          "notes": "Inseparable. Sie eröffnet ein Geschäft.",
+          "past_participle": "eröffnet",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "eröffnete",
+            "du": "eröffnetest",
+            "er_sie_es": "eröffnete",
+            "wir": "eröffneten",
+            "ihr": "eröffnetet",
+            "sie_Sie": "eröffneten"
+          }
         }
       ],
       "example_sentences": [
@@ -3113,7 +4399,15 @@ window.APP_DATA = {
           "sie_Sie": "schließen"
         },
         "past_participle": "geschlossen",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "schloss",
+          "du": "schlossest",
+          "er_sie_es": "schloss",
+          "wir": "schlossen",
+          "ihr": "schlosst",
+          "sie_Sie": "schlossen"
+        }
       },
       "prefix_variants": [
         {
@@ -3122,7 +4416,17 @@ window.APP_DATA = {
           "word": "abschließen",
           "english": "to lock / to conclude / to finish",
           "separable": true,
-          "notes": "Er schließt die Tür ab. / Den Vertrag abschließen."
+          "notes": "Er schließt die Tür ab. / Den Vertrag abschließen.",
+          "past_participle": "abgeschlossen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "schloss ab",
+            "du": "schlossest ab",
+            "er_sie_es": "schloss ab",
+            "wir": "schlossen ab",
+            "ihr": "schlosst ab",
+            "sie_Sie": "schlossen ab"
+          }
         },
         {
           "id": "verb_einschließen",
@@ -3130,7 +4434,17 @@ window.APP_DATA = {
           "word": "einschließen",
           "english": "to include / to lock in",
           "separable": true,
-          "notes": "Das schließt alle ein. / Er schließt ihn ein (locks him in)."
+          "notes": "Das schließt alle ein. / Er schließt ihn ein (locks him in).",
+          "past_participle": "eingeschlossen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "schloss ein",
+            "du": "schlossest ein",
+            "er_sie_es": "schloss ein",
+            "wir": "schlossen ein",
+            "ihr": "schlosst ein",
+            "sie_Sie": "schlossen ein"
+          }
         },
         {
           "id": "verb_ausschließen",
@@ -3138,7 +4452,17 @@ window.APP_DATA = {
           "word": "ausschließen",
           "english": "to exclude / to rule out",
           "separable": true,
-          "notes": "Das schließe ich aus."
+          "notes": "Das schließe ich aus.",
+          "past_participle": "ausgeschlossen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "schloss aus",
+            "du": "schlossest aus",
+            "er_sie_es": "schloss aus",
+            "wir": "schlossen aus",
+            "ihr": "schlosst aus",
+            "sie_Sie": "schlossen aus"
+          }
         }
       ],
       "example_sentences": [
@@ -3191,7 +4515,15 @@ window.APP_DATA = {
           "sie_Sie": "suchen"
         },
         "past_participle": "gesucht",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "suchte",
+          "du": "suchtest",
+          "er_sie_es": "suchte",
+          "wir": "suchten",
+          "ihr": "suchtet",
+          "sie_Sie": "suchten"
+        }
       },
       "prefix_variants": [
         {
@@ -3200,7 +4532,17 @@ window.APP_DATA = {
           "word": "besuchen",
           "english": "to visit",
           "separable": false,
-          "notes": "Inseparable. Ich besuche meine Eltern."
+          "notes": "Inseparable. Ich besuche meine Eltern.",
+          "past_participle": "besucht",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "besuchte",
+            "du": "besuchtest",
+            "er_sie_es": "besuchte",
+            "wir": "besuchten",
+            "ihr": "besuchtet",
+            "sie_Sie": "besuchten"
+          }
         },
         {
           "id": "verb_untersuchen",
@@ -3208,7 +4550,17 @@ window.APP_DATA = {
           "word": "untersuchen",
           "english": "to investigate / to examine",
           "separable": false,
-          "notes": "Inseparable. Der Arzt untersucht den Patienten."
+          "notes": "Inseparable. Der Arzt untersucht den Patienten.",
+          "past_participle": "untersucht",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "untersuchte",
+            "du": "untersuchtest",
+            "er_sie_es": "untersuchte",
+            "wir": "untersuchten",
+            "ihr": "untersuchtet",
+            "sie_Sie": "untersuchten"
+          }
         },
         {
           "id": "verb_versuchen",
@@ -3216,7 +4568,17 @@ window.APP_DATA = {
           "word": "versuchen",
           "english": "to try / to attempt",
           "separable": false,
-          "notes": "Inseparable. Ich versuche es."
+          "notes": "Inseparable. Ich versuche es.",
+          "past_participle": "versucht",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "versuchte",
+            "du": "versuchtest",
+            "er_sie_es": "versuchte",
+            "wir": "versuchten",
+            "ihr": "versuchtet",
+            "sie_Sie": "versuchten"
+          }
         }
       ],
       "example_sentences": [
@@ -3269,7 +4631,15 @@ window.APP_DATA = {
           "sie_Sie": "helfen"
         },
         "past_participle": "geholfen",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "half",
+          "du": "halfst",
+          "er_sie_es": "half",
+          "wir": "halfen",
+          "ihr": "halft",
+          "sie_Sie": "halfen"
+        }
       },
       "prefix_variants": [
         {
@@ -3278,7 +4648,17 @@ window.APP_DATA = {
           "word": "aushelfen",
           "english": "to help out / to stand in",
           "separable": true,
-          "notes": "Sie hilft im Laden aus."
+          "notes": "Sie hilft im Laden aus.",
+          "past_participle": "ausgeholfen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "half aus",
+            "du": "halfst aus",
+            "er_sie_es": "half aus",
+            "wir": "halfen aus",
+            "ihr": "halft aus",
+            "sie_Sie": "halfen aus"
+          }
         },
         {
           "id": "verb_mithelfen",
@@ -3286,7 +4666,17 @@ window.APP_DATA = {
           "word": "mithelfen",
           "english": "to help along / to lend a hand",
           "separable": true,
-          "notes": "Kannst du mithelfen?"
+          "notes": "Kannst du mithelfen?",
+          "past_participle": "mitgeholfen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "half mit",
+            "du": "halfst mit",
+            "er_sie_es": "half mit",
+            "wir": "halfen mit",
+            "ihr": "halft mit",
+            "sie_Sie": "halfen mit"
+          }
         }
       ],
       "example_sentences": [
@@ -3339,7 +4729,15 @@ window.APP_DATA = {
           "sie_Sie": "wohnen"
         },
         "past_participle": "gewohnt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "wohnte",
+          "du": "wohntest",
+          "er_sie_es": "wohnte",
+          "wir": "wohnten",
+          "ihr": "wohntet",
+          "sie_Sie": "wohnten"
+        }
       },
       "prefix_variants": [
         {
@@ -3348,7 +4746,17 @@ window.APP_DATA = {
           "word": "bewohnen",
           "english": "to inhabit / to occupy (a dwelling)",
           "separable": false,
-          "notes": "Inseparable. Sie bewohnen ein großes Haus."
+          "notes": "Inseparable. Sie bewohnen ein großes Haus.",
+          "past_participle": "bewohnt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "bewohnte",
+            "du": "bewohntest",
+            "er_sie_es": "bewohnte",
+            "wir": "bewohnten",
+            "ihr": "bewohntet",
+            "sie_Sie": "bewohnten"
+          }
         },
         {
           "id": "verb_einwohnen",
@@ -3356,7 +4764,17 @@ window.APP_DATA = {
           "word": "einwohnen",
           "english": "to be inherent in (formal/rare)",
           "separable": true,
-          "notes": "Rare. More common as 'Einwohner' (inhabitant)."
+          "notes": "Rare. More common as 'Einwohner' (inhabitant).",
+          "past_participle": "eingewohnt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "wohnte ein",
+            "du": "wohntest ein",
+            "er_sie_es": "wohnte ein",
+            "wir": "wohnten ein",
+            "ihr": "wohntet ein",
+            "sie_Sie": "wohnten ein"
+          }
         }
       ],
       "example_sentences": [
@@ -3409,7 +4827,15 @@ window.APP_DATA = {
           "sie_Sie": "reisen"
         },
         "past_participle": "gereist",
-        "auxiliary": "sein"
+        "auxiliary": "sein",
+        "prateritum": {
+          "ich": "reiste",
+          "du": "reistest",
+          "er_sie_es": "reiste",
+          "wir": "reisten",
+          "ihr": "reistet",
+          "sie_Sie": "reisten"
+        }
       },
       "prefix_variants": [
         {
@@ -3418,7 +4844,17 @@ window.APP_DATA = {
           "word": "abreisen",
           "english": "to depart / to leave (on a trip)",
           "separable": true,
-          "notes": "Sie reist morgen ab."
+          "notes": "Sie reist morgen ab.",
+          "past_participle": "abgereist",
+          "auxiliary": "sein",
+          "prateritum": {
+            "ich": "reiste ab",
+            "du": "reistest ab",
+            "er_sie_es": "reiste ab",
+            "wir": "reisten ab",
+            "ihr": "reistet ab",
+            "sie_Sie": "reisten ab"
+          }
         },
         {
           "id": "verb_anreisen",
@@ -3426,7 +4862,17 @@ window.APP_DATA = {
           "word": "anreisen",
           "english": "to arrive / to travel to",
           "separable": true,
-          "notes": "Wir reisen am Freitag an."
+          "notes": "Wir reisen am Freitag an.",
+          "past_participle": "angereist",
+          "auxiliary": "sein",
+          "prateritum": {
+            "ich": "reiste an",
+            "du": "reistest an",
+            "er_sie_es": "reiste an",
+            "wir": "reisten an",
+            "ihr": "reistet an",
+            "sie_Sie": "reisten an"
+          }
         },
         {
           "id": "verb_bereisen",
@@ -3434,7 +4880,17 @@ window.APP_DATA = {
           "word": "bereisen",
           "english": "to travel through / to tour",
           "separable": false,
-          "notes": "Inseparable. Er bereist die Welt."
+          "notes": "Inseparable. Er bereist die Welt.",
+          "past_participle": "bereist",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "bereiste",
+            "du": "bereistest",
+            "er_sie_es": "bereiste",
+            "wir": "bereisten",
+            "ihr": "bereistet",
+            "sie_Sie": "bereisten"
+          }
         }
       ],
       "example_sentences": [
@@ -3487,7 +4943,15 @@ window.APP_DATA = {
           "sie_Sie": "fragen"
         },
         "past_participle": "gefragt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "fragte",
+          "du": "fragtest",
+          "er_sie_es": "fragte",
+          "wir": "fragten",
+          "ihr": "fragtet",
+          "sie_Sie": "fragten"
+        }
       },
       "prefix_variants": [
         {
@@ -3496,7 +4960,17 @@ window.APP_DATA = {
           "word": "anfragen",
           "english": "to enquire / to make a request",
           "separable": true,
-          "notes": "Ich frage dort an."
+          "notes": "Ich frage dort an.",
+          "past_participle": "angefragt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "fragte an",
+            "du": "fragtest an",
+            "er_sie_es": "fragte an",
+            "wir": "fragten an",
+            "ihr": "fragtet an",
+            "sie_Sie": "fragten an"
+          }
         },
         {
           "id": "verb_befragen",
@@ -3504,7 +4978,17 @@ window.APP_DATA = {
           "word": "befragen",
           "english": "to question / to survey",
           "separable": false,
-          "notes": "Inseparable. Die Polizei befragt ihn."
+          "notes": "Inseparable. Die Polizei befragt ihn.",
+          "past_participle": "befragt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "befragte",
+            "du": "befragtest",
+            "er_sie_es": "befragte",
+            "wir": "befragten",
+            "ihr": "befragtet",
+            "sie_Sie": "befragten"
+          }
         },
         {
           "id": "verb_nachfragen",
@@ -3512,7 +4996,17 @@ window.APP_DATA = {
           "word": "nachfragen",
           "english": "to ask again / to follow up",
           "separable": true,
-          "notes": "Er fragt nochmal nach."
+          "notes": "Er fragt nochmal nach.",
+          "past_participle": "nachgefragt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "fragte nach",
+            "du": "fragtest nach",
+            "er_sie_es": "fragte nach",
+            "wir": "fragten nach",
+            "ihr": "fragtet nach",
+            "sie_Sie": "fragten nach"
+          }
         }
       ],
       "example_sentences": [
@@ -3565,7 +5059,15 @@ window.APP_DATA = {
           "sie_Sie": "antworten"
         },
         "past_participle": "geantwortet",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "antwortete",
+          "du": "antwortetest",
+          "er_sie_es": "antwortete",
+          "wir": "antworteten",
+          "ihr": "antwortetet",
+          "sie_Sie": "antworteten"
+        }
       },
       "prefix_variants": [
         {
@@ -3574,7 +5076,17 @@ window.APP_DATA = {
           "word": "beantworten",
           "english": "to answer (a question)",
           "separable": false,
-          "notes": "Inseparable. Er beantwortet die Frage. (Takes accusative, unlike 'antworten'.)"
+          "notes": "Inseparable. Er beantwortet die Frage. (Takes accusative, unlike 'antworten'.)",
+          "past_participle": "beantwortet",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "beantwortete",
+            "du": "beantwortetest",
+            "er_sie_es": "beantwortete",
+            "wir": "beantworteten",
+            "ihr": "beantwortetet",
+            "sie_Sie": "beantworteten"
+          }
         },
         {
           "id": "verb_verantworten",
@@ -3582,7 +5094,17 @@ window.APP_DATA = {
           "word": "verantworten",
           "english": "to take responsibility for",
           "separable": false,
-          "notes": "Inseparable. Er verantwortet seine Handlungen."
+          "notes": "Inseparable. Er verantwortet seine Handlungen.",
+          "past_participle": "verantwortet",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "verantwortete",
+            "du": "verantwortetest",
+            "er_sie_es": "verantwortete",
+            "wir": "verantworteten",
+            "ihr": "verantwortetet",
+            "sie_Sie": "verantworteten"
+          }
         }
       ],
       "example_sentences": [
@@ -3635,7 +5157,15 @@ window.APP_DATA = {
           "sie_Sie": "hören"
         },
         "past_participle": "gehört",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "hörte",
+          "du": "hörtest",
+          "er_sie_es": "hörte",
+          "wir": "hörten",
+          "ihr": "hörtet",
+          "sie_Sie": "hörten"
+        }
       },
       "prefix_variants": [
         {
@@ -3644,7 +5174,17 @@ window.APP_DATA = {
           "word": "anhören",
           "english": "to listen to / to hear out",
           "separable": true,
-          "notes": "Ich höre mir das Lied an. / Hör mich an! (Hear me out!)"
+          "notes": "Ich höre mir das Lied an. / Hör mich an! (Hear me out!)",
+          "past_participle": "angehört",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "hörte an",
+            "du": "hörtest an",
+            "er_sie_es": "hörte an",
+            "wir": "hörten an",
+            "ihr": "hörtet an",
+            "sie_Sie": "hörten an"
+          }
         },
         {
           "id": "verb_aufhören",
@@ -3652,7 +5192,17 @@ window.APP_DATA = {
           "word": "aufhören",
           "english": "to stop / to cease",
           "separable": true,
-          "notes": "Hör auf! = Stop it! Er hört mit dem Rauchen auf."
+          "notes": "Hör auf! = Stop it! Er hört mit dem Rauchen auf.",
+          "past_participle": "aufgehört",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "hörte auf",
+            "du": "hörtest auf",
+            "er_sie_es": "hörte auf",
+            "wir": "hörten auf",
+            "ihr": "hörtet auf",
+            "sie_Sie": "hörten auf"
+          }
         },
         {
           "id": "verb_gehören",
@@ -3660,7 +5210,17 @@ window.APP_DATA = {
           "word": "gehören",
           "english": "to belong to",
           "separable": false,
-          "notes": "Inseparable. Das gehört mir. (Dative: governs dative)"
+          "notes": "Inseparable. Das gehört mir. (Dative: governs dative)",
+          "past_participle": "gehört",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "gehörte",
+            "du": "gehörtest",
+            "er_sie_es": "gehörte",
+            "wir": "gehörten",
+            "ihr": "gehörtet",
+            "sie_Sie": "gehörten"
+          }
         }
       ],
       "example_sentences": [
@@ -3713,7 +5273,15 @@ window.APP_DATA = {
           "sie_Sie": "brauchen"
         },
         "past_participle": "gebraucht",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "brauchte",
+          "du": "brauchtest",
+          "er_sie_es": "brauchte",
+          "wir": "brauchten",
+          "ihr": "brauchtet",
+          "sie_Sie": "brauchten"
+        }
       },
       "prefix_variants": [
         {
@@ -3722,7 +5290,17 @@ window.APP_DATA = {
           "word": "gebrauchen",
           "english": "to use / to make use of",
           "separable": false,
-          "notes": "Inseparable. Er gebraucht das Wort falsch."
+          "notes": "Inseparable. Er gebraucht das Wort falsch.",
+          "past_participle": "gebraucht",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "gebrauchte",
+            "du": "gebrauchtest",
+            "er_sie_es": "gebrauchte",
+            "wir": "gebrauchten",
+            "ihr": "gebrauchtet",
+            "sie_Sie": "gebrauchten"
+          }
         },
         {
           "id": "verb_verbrauchen",
@@ -3730,7 +5308,17 @@ window.APP_DATA = {
           "word": "verbrauchen",
           "english": "to consume / to use up",
           "separable": false,
-          "notes": "Inseparable. Das Auto verbraucht viel Benzin."
+          "notes": "Inseparable. Das Auto verbraucht viel Benzin.",
+          "past_participle": "verbraucht",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "verbrauchte",
+            "du": "verbrauchtest",
+            "er_sie_es": "verbrauchte",
+            "wir": "verbrauchten",
+            "ihr": "verbrauchtet",
+            "sie_Sie": "verbrauchten"
+          }
         }
       ],
       "example_sentences": [
@@ -3782,7 +5370,15 @@ window.APP_DATA = {
           "sie_Sie": "beginnen"
         },
         "past_participle": "begonnen",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "begann",
+          "du": "begannst",
+          "er_sie_es": "begann",
+          "wir": "begannen",
+          "ihr": "begannt",
+          "sie_Sie": "begannen"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -3835,7 +5431,15 @@ window.APP_DATA = {
           "sie_Sie": "erklären"
         },
         "past_participle": "erklärt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "erklärte",
+          "du": "erklärtest",
+          "er_sie_es": "erklärte",
+          "wir": "erklärten",
+          "ihr": "erklärtet",
+          "sie_Sie": "erklärten"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -3889,7 +5493,15 @@ window.APP_DATA = {
           "sie_Sie": "entscheiden"
         },
         "past_participle": "entschieden",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "entschied",
+          "du": "entschiedest",
+          "er_sie_es": "entschied",
+          "wir": "entschieden",
+          "ihr": "entschiedet",
+          "sie_Sie": "entschieden"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -3942,7 +5554,15 @@ window.APP_DATA = {
           "sie_Sie": "setzen"
         },
         "past_participle": "gesetzt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "setzte",
+          "du": "setztest",
+          "er_sie_es": "setzte",
+          "wir": "setzten",
+          "ihr": "setztet",
+          "sie_Sie": "setzten"
+        }
       },
       "prefix_variants": [
         {
@@ -3951,7 +5571,17 @@ window.APP_DATA = {
           "word": "einsetzen",
           "english": "to deploy / to use / to set in",
           "separable": true,
-          "notes": "Er setzt das Messer ein. / Sich einsetzen für = to campaign for."
+          "notes": "Er setzt das Messer ein. / Sich einsetzen für = to campaign for.",
+          "past_participle": "eingesetzt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "setzte ein",
+            "du": "setztest ein",
+            "er_sie_es": "setzte ein",
+            "wir": "setzten ein",
+            "ihr": "setztet ein",
+            "sie_Sie": "setzten ein"
+          }
         },
         {
           "id": "verb_durchsetzen",
@@ -3959,7 +5589,17 @@ window.APP_DATA = {
           "word": "durchsetzen",
           "english": "to enforce / to assert oneself",
           "separable": true,
-          "notes": "Er setzt seinen Willen durch."
+          "notes": "Er setzt seinen Willen durch.",
+          "past_participle": "durchgesetzt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "setzte durch",
+            "du": "setztest durch",
+            "er_sie_es": "setzte durch",
+            "wir": "setzten durch",
+            "ihr": "setztet durch",
+            "sie_Sie": "setzten durch"
+          }
         },
         {
           "id": "verb_vorsetzen",
@@ -3967,7 +5607,17 @@ window.APP_DATA = {
           "word": "vorsetzen",
           "english": "to place before / to serve (food)",
           "separable": true,
-          "notes": "Sie setzt ihm Essen vor."
+          "notes": "Sie setzt ihm Essen vor.",
+          "past_participle": "vorgesetzt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "setzte vor",
+            "du": "setztest vor",
+            "er_sie_es": "setzte vor",
+            "wir": "setzten vor",
+            "ihr": "setztet vor",
+            "sie_Sie": "setzten vor"
+          }
         }
       ],
       "example_sentences": [
@@ -4020,7 +5670,15 @@ window.APP_DATA = {
           "sie_Sie": "stellen"
         },
         "past_participle": "gestellt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "stellte",
+          "du": "stelltest",
+          "er_sie_es": "stellte",
+          "wir": "stellten",
+          "ihr": "stelltet",
+          "sie_Sie": "stellten"
+        }
       },
       "prefix_variants": [
         {
@@ -4029,7 +5687,17 @@ window.APP_DATA = {
           "word": "vorstellen",
           "english": "to introduce / to imagine",
           "separable": true,
-          "notes": "Ich stelle mich vor (I introduce myself). Ich kann mir das vorstellen (I can imagine that)."
+          "notes": "Ich stelle mich vor (I introduce myself). Ich kann mir das vorstellen (I can imagine that).",
+          "past_participle": "vorgestellt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "stellte vor",
+            "du": "stelltest vor",
+            "er_sie_es": "stellte vor",
+            "wir": "stellten vor",
+            "ihr": "stelltet vor",
+            "sie_Sie": "stellten vor"
+          }
         },
         {
           "id": "verb_darstellen",
@@ -4037,7 +5705,17 @@ window.APP_DATA = {
           "word": "darstellen",
           "english": "to represent / to portray",
           "separable": true,
-          "notes": "Das Bild stellt einen Berg dar."
+          "notes": "Das Bild stellt einen Berg dar.",
+          "past_participle": "dargestellt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "stellte dar",
+            "du": "stelltest dar",
+            "er_sie_es": "stellte dar",
+            "wir": "stellten dar",
+            "ihr": "stelltet dar",
+            "sie_Sie": "stellten dar"
+          }
         },
         {
           "id": "verb_herstellen",
@@ -4045,7 +5723,17 @@ window.APP_DATA = {
           "word": "herstellen",
           "english": "to produce / to manufacture",
           "separable": true,
-          "notes": "Die Fabrik stellt Autos her."
+          "notes": "Die Fabrik stellt Autos her.",
+          "past_participle": "hergestellt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "stellte her",
+            "du": "stelltest her",
+            "er_sie_es": "stellte her",
+            "wir": "stellten her",
+            "ihr": "stelltet her",
+            "sie_Sie": "stellten her"
+          }
         }
       ],
       "example_sentences": [
@@ -4098,7 +5786,15 @@ window.APP_DATA = {
           "sie_Sie": "legen"
         },
         "past_participle": "gelegt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "legte",
+          "du": "legtest",
+          "er_sie_es": "legte",
+          "wir": "legten",
+          "ihr": "legtet",
+          "sie_Sie": "legten"
+        }
       },
       "prefix_variants": [
         {
@@ -4107,7 +5803,17 @@ window.APP_DATA = {
           "word": "vorlegen",
           "english": "to submit / to present (documents)",
           "separable": true,
-          "notes": "Er legt die Dokumente vor."
+          "notes": "Er legt die Dokumente vor.",
+          "past_participle": "vorgelegt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "legte vor",
+            "du": "legtest vor",
+            "er_sie_es": "legte vor",
+            "wir": "legten vor",
+            "ihr": "legtet vor",
+            "sie_Sie": "legten vor"
+          }
         },
         {
           "id": "verb_festlegen",
@@ -4115,7 +5821,17 @@ window.APP_DATA = {
           "word": "festlegen",
           "english": "to fix / to determine",
           "separable": true,
-          "notes": "Wir legen den Termin fest."
+          "notes": "Wir legen den Termin fest.",
+          "past_participle": "festgelegt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "legte fest",
+            "du": "legtest fest",
+            "er_sie_es": "legte fest",
+            "wir": "legten fest",
+            "ihr": "legtet fest",
+            "sie_Sie": "legten fest"
+          }
         },
         {
           "id": "verb_anlegen",
@@ -4123,7 +5839,17 @@ window.APP_DATA = {
           "word": "anlegen",
           "english": "to invest / to create / to dock",
           "separable": true,
-          "notes": "Er legt Geld an. / Das Schiff legt an."
+          "notes": "Er legt Geld an. / Das Schiff legt an.",
+          "past_participle": "angelegt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "legte an",
+            "du": "legtest an",
+            "er_sie_es": "legte an",
+            "wir": "legten an",
+            "ihr": "legtet an",
+            "sie_Sie": "legten an"
+          }
         }
       ],
       "example_sentences": [
@@ -4176,7 +5902,15 @@ window.APP_DATA = {
           "sie_Sie": "ziehen"
         },
         "past_participle": "gezogen",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "zog",
+          "du": "zogst",
+          "er_sie_es": "zog",
+          "wir": "zogen",
+          "ihr": "zogt",
+          "sie_Sie": "zogen"
+        }
       },
       "prefix_variants": [
         {
@@ -4185,7 +5919,17 @@ window.APP_DATA = {
           "word": "umziehen",
           "english": "to move house / to change clothes",
           "separable": true,
-          "notes": "Wir ziehen um. / Ich ziehe mich um."
+          "notes": "Wir ziehen um. / Ich ziehe mich um.",
+          "past_participle": "umgezogen",
+          "auxiliary": "sein",
+          "prateritum": {
+            "ich": "zog um",
+            "du": "zogst um",
+            "er_sie_es": "zog um",
+            "wir": "zogen um",
+            "ihr": "zogt um",
+            "sie_Sie": "zogen um"
+          }
         },
         {
           "id": "verb_einziehen",
@@ -4193,7 +5937,17 @@ window.APP_DATA = {
           "word": "einziehen",
           "english": "to move in / to draft (into army)",
           "separable": true,
-          "notes": "Sie ziehen in die neue Wohnung ein."
+          "notes": "Sie ziehen in die neue Wohnung ein.",
+          "past_participle": "eingezogen",
+          "auxiliary": "sein",
+          "prateritum": {
+            "ich": "zog ein",
+            "du": "zogst ein",
+            "er_sie_es": "zog ein",
+            "wir": "zogen ein",
+            "ihr": "zogt ein",
+            "sie_Sie": "zogen ein"
+          }
         },
         {
           "id": "verb_vorziehen",
@@ -4201,7 +5955,17 @@ window.APP_DATA = {
           "word": "vorziehen",
           "english": "to prefer",
           "separable": true,
-          "notes": "Ich ziehe Tee dem Kaffee vor."
+          "notes": "Ich ziehe Tee dem Kaffee vor.",
+          "past_participle": "vorgezogen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "zog vor",
+            "du": "zogst vor",
+            "er_sie_es": "zog vor",
+            "wir": "zogen vor",
+            "ihr": "zogt vor",
+            "sie_Sie": "zogen vor"
+          }
         }
       ],
       "example_sentences": [
@@ -4254,7 +6018,15 @@ window.APP_DATA = {
           "sie_Sie": "warten"
         },
         "past_participle": "gewartet",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "wartete",
+          "du": "wartetest",
+          "er_sie_es": "wartete",
+          "wir": "warteten",
+          "ihr": "wartetet",
+          "sie_Sie": "warteten"
+        }
       },
       "prefix_variants": [
         {
@@ -4263,7 +6035,17 @@ window.APP_DATA = {
           "word": "abwarten",
           "english": "to wait and see / to await",
           "separable": true,
-          "notes": "Warten wir ab! Let's wait and see."
+          "notes": "Warten wir ab! Let's wait and see.",
+          "past_participle": "abgewartet",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "wartete ab",
+            "du": "wartetest ab",
+            "er_sie_es": "wartete ab",
+            "wir": "warteten ab",
+            "ihr": "wartetet ab",
+            "sie_Sie": "warteten ab"
+          }
         },
         {
           "id": "verb_erwarten",
@@ -4271,7 +6053,17 @@ window.APP_DATA = {
           "word": "erwarten",
           "english": "to expect / to await",
           "separable": false,
-          "notes": "Inseparable. Ich erwarte ihn um drei Uhr."
+          "notes": "Inseparable. Ich erwarte ihn um drei Uhr.",
+          "past_participle": "erwartet",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "erwartete",
+            "du": "erwartetest",
+            "er_sie_es": "erwartete",
+            "wir": "erwarteten",
+            "ihr": "erwartetet",
+            "sie_Sie": "erwarteten"
+          }
         }
       ],
       "example_sentences": [
@@ -4324,7 +6116,15 @@ window.APP_DATA = {
           "sie_Sie": "zahlen"
         },
         "past_participle": "gezahlt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "zahlte",
+          "du": "zahltest",
+          "er_sie_es": "zahlte",
+          "wir": "zahlten",
+          "ihr": "zahltet",
+          "sie_Sie": "zahlten"
+        }
       },
       "prefix_variants": [
         {
@@ -4333,7 +6133,17 @@ window.APP_DATA = {
           "word": "bezahlen",
           "english": "to pay (for something)",
           "separable": false,
-          "notes": "Inseparable. Er bezahlt die Rechnung. 'bezahlen' + accusative directly."
+          "notes": "Inseparable. Er bezahlt die Rechnung. 'bezahlen' + accusative directly.",
+          "past_participle": "bezahlt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "bezahlte",
+            "du": "bezahltest",
+            "er_sie_es": "bezahlte",
+            "wir": "bezahlten",
+            "ihr": "bezahltet",
+            "sie_Sie": "bezahlten"
+          }
         },
         {
           "id": "verb_einzahlen",
@@ -4341,7 +6151,17 @@ window.APP_DATA = {
           "word": "einzahlen",
           "english": "to deposit (money)",
           "separable": true,
-          "notes": "Er zahlt Geld ein."
+          "notes": "Er zahlt Geld ein.",
+          "past_participle": "eingezahlt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "zahlte ein",
+            "du": "zahltest ein",
+            "er_sie_es": "zahlte ein",
+            "wir": "zahlten ein",
+            "ihr": "zahltet ein",
+            "sie_Sie": "zahlten ein"
+          }
         },
         {
           "id": "verb_auszahlen",
@@ -4349,7 +6169,17 @@ window.APP_DATA = {
           "word": "auszahlen",
           "english": "to pay out / to be worth it",
           "separable": true,
-          "notes": "Er zahlt den Lohn aus. / Das zahlt sich aus (it pays off)."
+          "notes": "Er zahlt den Lohn aus. / Das zahlt sich aus (it pays off).",
+          "past_participle": "ausgezahlt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "zahlte aus",
+            "du": "zahltest aus",
+            "er_sie_es": "zahlte aus",
+            "wir": "zahlten aus",
+            "ihr": "zahltet aus",
+            "sie_Sie": "zahlten aus"
+          }
         }
       ],
       "example_sentences": [
@@ -4402,7 +6232,15 @@ window.APP_DATA = {
           "sie_Sie": "verlieren"
         },
         "past_participle": "verloren",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "verlor",
+          "du": "verlorst",
+          "er_sie_es": "verlor",
+          "wir": "verloren",
+          "ihr": "verlort",
+          "sie_Sie": "verloren"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -4455,7 +6293,15 @@ window.APP_DATA = {
           "sie_Sie": "gewinnen"
         },
         "past_participle": "gewonnen",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "gewann",
+          "du": "gewannst",
+          "er_sie_es": "gewann",
+          "wir": "gewannen",
+          "ihr": "gewannt",
+          "sie_Sie": "gewannen"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -4508,7 +6354,15 @@ window.APP_DATA = {
           "sie_Sie": "passieren"
         },
         "past_participle": "passiert",
-        "auxiliary": "sein"
+        "auxiliary": "sein",
+        "prateritum": {
+          "ich": "passierte",
+          "du": "passiertest",
+          "er_sie_es": "passierte",
+          "wir": "passierten",
+          "ihr": "passiertet",
+          "sie_Sie": "passierten"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -4561,7 +6415,15 @@ window.APP_DATA = {
           "sie_Sie": "wechseln"
         },
         "past_participle": "gewechselt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "wechselte",
+          "du": "wechseltest",
+          "er_sie_es": "wechselte",
+          "wir": "wechselten",
+          "ihr": "wechseltet",
+          "sie_Sie": "wechselten"
+        }
       },
       "prefix_variants": [
         {
@@ -4570,7 +6432,17 @@ window.APP_DATA = {
           "word": "abwechseln",
           "english": "to alternate / to take turns",
           "separable": true,
-          "notes": "Sie wechseln sich ab. (They take turns.)"
+          "notes": "Sie wechseln sich ab. (They take turns.)",
+          "past_participle": "abgewechselt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "wechselte ab",
+            "du": "wechseltest ab",
+            "er_sie_es": "wechselte ab",
+            "wir": "wechselten ab",
+            "ihr": "wechseltet ab",
+            "sie_Sie": "wechselten ab"
+          }
         },
         {
           "id": "verb_auswechseln",
@@ -4578,7 +6450,17 @@ window.APP_DATA = {
           "word": "auswechseln",
           "english": "to replace / to substitute",
           "separable": true,
-          "notes": "Der Trainer wechselt den Spieler aus."
+          "notes": "Der Trainer wechselt den Spieler aus.",
+          "past_participle": "ausgewechselt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "wechselte aus",
+            "du": "wechseltest aus",
+            "er_sie_es": "wechselte aus",
+            "wir": "wechselten aus",
+            "ihr": "wechseltet aus",
+            "sie_Sie": "wechselten aus"
+          }
         }
       ],
       "example_sentences": [
@@ -4631,7 +6513,15 @@ window.APP_DATA = {
           "sie_Sie": "rechnen"
         },
         "past_participle": "gerechnet",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "rechnete",
+          "du": "rechnetest",
+          "er_sie_es": "rechnete",
+          "wir": "rechneten",
+          "ihr": "rechnetet",
+          "sie_Sie": "rechneten"
+        }
       },
       "prefix_variants": [
         {
@@ -4640,7 +6530,17 @@ window.APP_DATA = {
           "word": "berechnen",
           "english": "to calculate / to charge",
           "separable": false,
-          "notes": "Inseparable. Er berechnet die Kosten. / Sie berechnet ihm zu viel."
+          "notes": "Inseparable. Er berechnet die Kosten. / Sie berechnet ihm zu viel.",
+          "past_participle": "berechnet",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "berechnete",
+            "du": "berechnetest",
+            "er_sie_es": "berechnete",
+            "wir": "berechneten",
+            "ihr": "berechnetet",
+            "sie_Sie": "berechneten"
+          }
         },
         {
           "id": "verb_abrechnen",
@@ -4648,7 +6548,17 @@ window.APP_DATA = {
           "word": "abrechnen",
           "english": "to settle accounts / to settle a score",
           "separable": true,
-          "notes": "Sie rechnen am Ende des Tages ab."
+          "notes": "Sie rechnen am Ende des Tages ab.",
+          "past_participle": "abgerechnet",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "rechnete ab",
+            "du": "rechnetest ab",
+            "er_sie_es": "rechnete ab",
+            "wir": "rechneten ab",
+            "ihr": "rechnetet ab",
+            "sie_Sie": "rechneten ab"
+          }
         }
       ],
       "example_sentences": [
@@ -4701,7 +6611,15 @@ window.APP_DATA = {
           "sie_Sie": "ändern"
         },
         "past_participle": "geändert",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "änderte",
+          "du": "ändertest",
+          "er_sie_es": "änderte",
+          "wir": "änderten",
+          "ihr": "ändertet",
+          "sie_Sie": "änderten"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -4753,7 +6671,15 @@ window.APP_DATA = {
           "sie_Sie": "interessieren"
         },
         "past_participle": "interessiert",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "interessierte",
+          "du": "interessiertest",
+          "er_sie_es": "interessierte",
+          "wir": "interessierten",
+          "ihr": "interessiertet",
+          "sie_Sie": "interessierten"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -4806,7 +6732,15 @@ window.APP_DATA = {
           "sie_Sie": "freuen"
         },
         "past_participle": "gefreut",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "freute",
+          "du": "freutest",
+          "er_sie_es": "freute",
+          "wir": "freuten",
+          "ihr": "freutet",
+          "sie_Sie": "freuten"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -4858,7 +6792,15 @@ window.APP_DATA = {
           "sie_Sie": "fühlen"
         },
         "past_participle": "gefühlt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "fühlte",
+          "du": "fühltest",
+          "er_sie_es": "fühlte",
+          "wir": "fühlten",
+          "ihr": "fühltet",
+          "sie_Sie": "fühlten"
+        }
       },
       "prefix_variants": [
         {
@@ -4867,7 +6809,17 @@ window.APP_DATA = {
           "word": "anfühlen",
           "english": "to feel like (texture) / to feel to the touch",
           "separable": true,
-          "notes": "Das fühlt sich weich an. (reflexive with 'sich')"
+          "notes": "Das fühlt sich weich an. (reflexive with 'sich')",
+          "past_participle": "angefühlt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "fühlte an",
+            "du": "fühltest an",
+            "er_sie_es": "fühlte an",
+            "wir": "fühlten an",
+            "ihr": "fühltet an",
+            "sie_Sie": "fühlten an"
+          }
         },
         {
           "id": "verb_mitfühlen",
@@ -4875,7 +6827,17 @@ window.APP_DATA = {
           "word": "mitfühlen",
           "english": "to empathise / to feel for someone",
           "separable": true,
-          "notes": "Ich fühle mit dir mit."
+          "notes": "Ich fühle mit dir mit.",
+          "past_participle": "mitgefühlt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "fühlte mit",
+            "du": "fühltest mit",
+            "er_sie_es": "fühlte mit",
+            "wir": "fühlten mit",
+            "ihr": "fühltet mit",
+            "sie_Sie": "fühlten mit"
+          }
         }
       ],
       "example_sentences": [
@@ -4928,7 +6890,15 @@ window.APP_DATA = {
           "sie_Sie": "behaupten"
         },
         "past_participle": "behauptet",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "behauptete",
+          "du": "behauptetest",
+          "er_sie_es": "behauptete",
+          "wir": "behaupteten",
+          "ihr": "behauptetet",
+          "sie_Sie": "behaupteten"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -4981,7 +6951,15 @@ window.APP_DATA = {
           "sie_Sie": "überzeugen"
         },
         "past_participle": "überzeugt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "überzeugte",
+          "du": "überzeugtest",
+          "er_sie_es": "überzeugte",
+          "wir": "überzeugten",
+          "ihr": "überzeugtet",
+          "sie_Sie": "überzeugten"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -5034,7 +7012,15 @@ window.APP_DATA = {
           "sie_Sie": "schlussfolgern"
         },
         "past_participle": "geschlussfolgert",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "schlussfolgerte",
+          "du": "schlussfolgertest",
+          "er_sie_es": "schlussfolgerte",
+          "wir": "schlussfolgerten",
+          "ihr": "schlussfolgertet",
+          "sie_Sie": "schlussfolgerten"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -5087,7 +7073,15 @@ window.APP_DATA = {
           "sie_Sie": "verpflichten"
         },
         "past_participle": "verpflichtet",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "verpflichtete",
+          "du": "verpflichtetest",
+          "er_sie_es": "verpflichtete",
+          "wir": "verpflichteten",
+          "ihr": "verpflichtetet",
+          "sie_Sie": "verpflichteten"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -5140,7 +7134,15 @@ window.APP_DATA = {
           "sie_Sie": "betonen"
         },
         "past_participle": "betont",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "betonte",
+          "du": "betontest",
+          "er_sie_es": "betonte",
+          "wir": "betonten",
+          "ihr": "betontet",
+          "sie_Sie": "betonten"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -5193,7 +7195,15 @@ window.APP_DATA = {
           "sie_Sie": "überwinden"
         },
         "past_participle": "überwunden",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "überwand",
+          "du": "überwandst",
+          "er_sie_es": "überwand",
+          "wir": "überwanden",
+          "ihr": "überwandt",
+          "sie_Sie": "überwanden"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -5246,7 +7256,15 @@ window.APP_DATA = {
           "sie_Sie": "erhalten aufrecht"
         },
         "past_participle": "aufrechterhalten",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "erhielt aufrecht",
+          "du": "erhieltest aufrecht",
+          "er_sie_es": "erhielt aufrecht",
+          "wir": "erhielten aufrecht",
+          "ihr": "erhieltet aufrecht",
+          "sie_Sie": "erhielten aufrecht"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -5299,7 +7317,15 @@ window.APP_DATA = {
           "sie_Sie": "berücksichtigen"
         },
         "past_participle": "berücksichtigt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "berücksichtigte",
+          "du": "berücksichtigtest",
+          "er_sie_es": "berücksichtigte",
+          "wir": "berücksichtigten",
+          "ihr": "berücksichtigtet",
+          "sie_Sie": "berücksichtigten"
+        }
       },
       "prefix_variants": [],
       "example_sentences": [
@@ -5352,7 +7378,15 @@ window.APP_DATA = {
           "sie_Sie": "fassen"
         },
         "past_participle": "gefasst",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "fasste",
+          "du": "fasstest",
+          "er_sie_es": "fasste",
+          "wir": "fassten",
+          "ihr": "fasstet",
+          "sie_Sie": "fassten"
+        }
       },
       "prefix_variants": [
         {
@@ -5366,6 +7400,16 @@ window.APP_DATA = {
             "case_requirements": [
               "accusative"
             ]
+          },
+          "past_participle": "zusammengefasst",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "fasste zusammen",
+            "du": "fasstest zusammen",
+            "er_sie_es": "fasste zusammen",
+            "wir": "fassten zusammen",
+            "ihr": "fasstet zusammen",
+            "sie_Sie": "fassten zusammen"
           }
         }
       ],
@@ -5416,7 +7460,15 @@ window.APP_DATA = {
           "sie_Sie": "heben"
         },
         "past_participle": "gehoben",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "hob",
+          "du": "hobst",
+          "er_sie_es": "hob",
+          "wir": "hoben",
+          "ihr": "hobt",
+          "sie_Sie": "hoben"
+        }
       },
       "prefix_variants": [
         {
@@ -5430,6 +7482,16 @@ window.APP_DATA = {
             "case_requirements": [
               "accusative"
             ]
+          },
+          "past_participle": "hervorgehoben",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "hob hervor",
+            "du": "hobst hervor",
+            "er_sie_es": "hob hervor",
+            "wir": "hoben hervor",
+            "ihr": "hobt hervor",
+            "sie_Sie": "hoben hervor"
           }
         }
       ],
@@ -5480,7 +7542,15 @@ window.APP_DATA = {
           "sie_Sie": "bieten"
         },
         "past_participle": "geboten",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "bot",
+          "du": "botest",
+          "er_sie_es": "bot",
+          "wir": "boten",
+          "ihr": "botet",
+          "sie_Sie": "boten"
+        }
       },
       "prefix_variants": [
         {
@@ -5495,6 +7565,16 @@ window.APP_DATA = {
               "accusative",
               "dative"
             ]
+          },
+          "past_participle": "angeboten",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "bot an",
+            "du": "botest an",
+            "er_sie_es": "bot an",
+            "wir": "boten an",
+            "ihr": "botet an",
+            "sie_Sie": "boten an"
           }
         }
       ],
@@ -5546,7 +7626,15 @@ window.APP_DATA = {
           "sie_Sie": "schlagen"
         },
         "past_participle": "geschlagen",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "schlug",
+          "du": "schlugst",
+          "er_sie_es": "schlug",
+          "wir": "schlugen",
+          "ihr": "schlugt",
+          "sie_Sie": "schlugen"
+        }
       },
       "prefix_variants": [
         {
@@ -5560,6 +7648,16 @@ window.APP_DATA = {
             "case_requirements": [
               "accusative"
             ]
+          },
+          "past_participle": "vorgeschlagen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "schlug vor",
+            "du": "schlugst vor",
+            "er_sie_es": "schlug vor",
+            "wir": "schlugen vor",
+            "ihr": "schlugt vor",
+            "sie_Sie": "schlugen vor"
           }
         }
       ],
@@ -5610,7 +7708,15 @@ window.APP_DATA = {
           "sie_Sie": "wählen"
         },
         "past_participle": "gewählt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "wählte",
+          "du": "wähltest",
+          "er_sie_es": "wählte",
+          "wir": "wählten",
+          "ihr": "wähltet",
+          "sie_Sie": "wählten"
+        }
       },
       "prefix_variants": [
         {
@@ -5624,6 +7730,16 @@ window.APP_DATA = {
             "case_requirements": [
               "accusative"
             ]
+          },
+          "past_participle": "ausgewählt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "wählte aus",
+            "du": "wähltest aus",
+            "er_sie_es": "wählte aus",
+            "wir": "wählten aus",
+            "ihr": "wähltet aus",
+            "sie_Sie": "wählten aus"
           }
         }
       ],
@@ -5674,7 +7790,15 @@ window.APP_DATA = {
           "sie_Sie": "nutzen"
         },
         "past_participle": "genutzt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "nutzte",
+          "du": "nutztest",
+          "er_sie_es": "nutzte",
+          "wir": "nutzten",
+          "ihr": "nutztet",
+          "sie_Sie": "nutzten"
+        }
       },
       "prefix_variants": [
         {
@@ -5688,6 +7812,16 @@ window.APP_DATA = {
             "case_requirements": [
               "accusative"
             ]
+          },
+          "past_participle": "benutzt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "benutzte",
+            "du": "benutztest",
+            "er_sie_es": "benutzte",
+            "wir": "benutzten",
+            "ihr": "benutztet",
+            "sie_Sie": "benutzten"
           }
         }
       ],
@@ -5738,7 +7872,15 @@ window.APP_DATA = {
           "sie_Sie": "fordern"
         },
         "past_participle": "gefordert",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "forderte",
+          "du": "fordertest",
+          "er_sie_es": "forderte",
+          "wir": "forderten",
+          "ihr": "fordertet",
+          "sie_Sie": "forderten"
+        }
       },
       "prefix_variants": [
         {
@@ -5752,6 +7894,16 @@ window.APP_DATA = {
             "case_requirements": [
               "accusative"
             ]
+          },
+          "past_participle": "aufgefordert",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "forderte auf",
+            "du": "fordertest auf",
+            "er_sie_es": "forderte auf",
+            "wir": "forderten auf",
+            "ihr": "fordertet auf",
+            "sie_Sie": "forderten auf"
           }
         }
       ],
@@ -5802,7 +7954,15 @@ window.APP_DATA = {
           "sie_Sie": "scheinen"
         },
         "past_participle": "geschienen",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "schien",
+          "du": "schienst",
+          "er_sie_es": "schien",
+          "wir": "schienen",
+          "ihr": "schient",
+          "sie_Sie": "schienen"
+        }
       },
       "prefix_variants": [
         {
@@ -5816,6 +7976,16 @@ window.APP_DATA = {
             "case_requirements": [
               "none"
             ]
+          },
+          "past_participle": "erschienen",
+          "auxiliary": "sein",
+          "prateritum": {
+            "ich": "erschien",
+            "du": "erschienst",
+            "er_sie_es": "erschien",
+            "wir": "erschienen",
+            "ihr": "erschient",
+            "sie_Sie": "erschienen"
           }
         }
       ],
@@ -5866,7 +8036,15 @@ window.APP_DATA = {
           "sie_Sie": "deuten"
         },
         "past_participle": "gedeutet",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "deutete",
+          "du": "deutetest",
+          "er_sie_es": "deutete",
+          "wir": "deuteten",
+          "ihr": "deutetet",
+          "sie_Sie": "deuteten"
+        }
       },
       "prefix_variants": [
         {
@@ -5880,6 +8058,16 @@ window.APP_DATA = {
             "case_requirements": [
               "accusative"
             ]
+          },
+          "past_participle": "bedeutet",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "bedeutete",
+            "du": "bedeutetest",
+            "er_sie_es": "bedeutete",
+            "wir": "bedeuteten",
+            "ihr": "bedeutetet",
+            "sie_Sie": "bedeuteten"
           }
         }
       ],
@@ -5930,7 +8118,15 @@ window.APP_DATA = {
           "sie_Sie": "wirken"
         },
         "past_participle": "gewirkt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "wirkte",
+          "du": "wirktest",
+          "er_sie_es": "wirkte",
+          "wir": "wirkten",
+          "ihr": "wirktet",
+          "sie_Sie": "wirkten"
+        }
       },
       "prefix_variants": [
         {
@@ -5944,6 +8140,16 @@ window.APP_DATA = {
             "case_requirements": [
               "accusative"
             ]
+          },
+          "past_participle": "bewirkt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "bewirkte",
+            "du": "bewirktest",
+            "er_sie_es": "bewirkte",
+            "wir": "bewirkten",
+            "ihr": "bewirktet",
+            "sie_Sie": "bewirkten"
           }
         },
         {
@@ -5957,6 +8163,16 @@ window.APP_DATA = {
             "case_requirements": [
               "none"
             ]
+          },
+          "past_participle": "ausgewirkt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "wirkte aus",
+            "du": "wirktest aus",
+            "er_sie_es": "wirkte aus",
+            "wir": "wirkten aus",
+            "ihr": "wirktet aus",
+            "sie_Sie": "wirkten aus"
           }
         }
       ],
@@ -6007,7 +8223,15 @@ window.APP_DATA = {
           "sie_Sie": "lehnen"
         },
         "past_participle": "gelehnt",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "lehnte",
+          "du": "lehntest",
+          "er_sie_es": "lehnte",
+          "wir": "lehnten",
+          "ihr": "lehntet",
+          "sie_Sie": "lehnten"
+        }
       },
       "prefix_variants": [
         {
@@ -6021,6 +8245,16 @@ window.APP_DATA = {
             "case_requirements": [
               "accusative"
             ]
+          },
+          "past_participle": "abgelehnt",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "lehnte ab",
+            "du": "lehntest ab",
+            "er_sie_es": "lehnte ab",
+            "wir": "lehnten ab",
+            "ihr": "lehntet ab",
+            "sie_Sie": "lehnten ab"
           }
         }
       ],
@@ -6071,7 +8305,15 @@ window.APP_DATA = {
           "sie_Sie": "weisen"
         },
         "past_participle": "gewiesen",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "wies",
+          "du": "wiesest",
+          "er_sie_es": "wies",
+          "wir": "wiesen",
+          "ihr": "wiest",
+          "sie_Sie": "wiesen"
+        }
       },
       "prefix_variants": [
         {
@@ -6085,6 +8327,16 @@ window.APP_DATA = {
             "case_requirements": [
               "accusative"
             ]
+          },
+          "past_participle": "bewiesen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "bewies",
+            "du": "bewiesest",
+            "er_sie_es": "bewies",
+            "wir": "bewiesen",
+            "ihr": "bewiest",
+            "sie_Sie": "bewiesen"
           }
         },
         {
@@ -6098,6 +8350,16 @@ window.APP_DATA = {
             "case_requirements": [
               "none"
             ]
+          },
+          "past_participle": "hingewiesen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "wies hin",
+            "du": "wiesest hin",
+            "er_sie_es": "wies hin",
+            "wir": "wiesen hin",
+            "ihr": "wiest hin",
+            "sie_Sie": "wiesen hin"
           }
         }
       ],
@@ -6149,7 +8411,15 @@ window.APP_DATA = {
           "sie_Sie": "gleichen"
         },
         "past_participle": "geglichen",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "glich",
+          "du": "glichst",
+          "er_sie_es": "glich",
+          "wir": "glichen",
+          "ihr": "glicht",
+          "sie_Sie": "glichen"
+        }
       },
       "prefix_variants": [
         {
@@ -6163,6 +8433,16 @@ window.APP_DATA = {
             "case_requirements": [
               "accusative"
             ]
+          },
+          "past_participle": "verglichen",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "verglich",
+            "du": "verglichst",
+            "er_sie_es": "verglich",
+            "wir": "verglichen",
+            "ihr": "verglicht",
+            "sie_Sie": "verglichen"
           }
         }
       ],
@@ -6213,7 +8493,15 @@ window.APP_DATA = {
           "sie_Sie": "meiden"
         },
         "past_participle": "gemieden",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "prateritum": {
+          "ich": "mied",
+          "du": "miedest",
+          "er_sie_es": "mied",
+          "wir": "mieden",
+          "ihr": "miedet",
+          "sie_Sie": "mieden"
+        }
       },
       "prefix_variants": [
         {
@@ -6227,6 +8515,16 @@ window.APP_DATA = {
             "case_requirements": [
               "accusative"
             ]
+          },
+          "past_participle": "vermieden",
+          "auxiliary": "haben",
+          "prateritum": {
+            "ich": "vermied",
+            "du": "vermiedest",
+            "er_sie_es": "vermied",
+            "wir": "vermieden",
+            "ihr": "vermiedet",
+            "sie_Sie": "vermieden"
           }
         }
       ],

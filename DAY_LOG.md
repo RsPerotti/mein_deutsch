@@ -2,6 +2,116 @@
 
 ---
 
+## 2026-06-12 — Session 21: Phase 1 — Vergangenheit Data (Root Verbs + Prefix Variants)
+
+**Files modified:** `js/data.js`, `SOURCE_OF_TRUTH.md`, `DAY_LOG.md`
+
+### What happened
+
+Completed Phase 1 of the Vergangenheit feature: all past-tense data added to `js/data.js`.
+
+**Root verbs (91):** Added `prateritum` object (6 forms: ich/du/er_sie_es/wir/ihr/sie_Sie) to every root verb's `conjugation` block. All 91/91 verified clean. Zero missing.
+
+**Prefix variants (157):** Added `past_participle`, `auxiliary`, and `prateritum` (6 forms) to every prefix variant entry. All 157/157 verified clean.
+
+### Key data decisions
+
+- **Separable verb Präteritum format:** stored as `"stem_form prefix"` with a space (e.g. `"ging aus"`, `"machte auf"`), consistent with how present tense is stored for `aufrechterhalten`. Exercises will render as fill-in-the-blank for the full separable form.
+- **Inseparable verb Präteritum format:** stored as a single word (e.g. `"verstand"`, `"bekam"`).
+- **Complex separable+inseparable (anerkennen):** `an-` separable, `er-` inseparable base → participle `anerkannt` (no ge-, correct). Stored as `"erkannte an"` in Präteritum.
+- **ge- prefix verbs as inseparable (gehören, gebrauchen):** participle correctly starts with `ge-` because `ge-` is the inseparable prefix, not the participial marker.
+- **Auxiliary overrides for prefix variants:** motion/state-change verbs switched to `sein` regardless of root: aufstehen, ausgehen, losgehen, eingehen, vergehen, ankommen, vorkommen, ausbleiben, verbleiben, überbleiben, ablaufen, verlaufen, anlaufen, abfahren, anfahren, einschlafen, eintreffen, erscheinen, abreisen, anreisen, einziehen, umziehen. All others: `haben`.
+- **Sibilant du-forms (heißen, lassen, lesen, essen, schließen, weisen):** du takes `-t` or `-est` instead of `-st` to avoid double sibilant. Formal Duden forms used throughout.
+
+### Verification
+
+Automated checks: 91 root verbs (6-form completeness, ich=er, wir=sie, ich-form exact match, wir-form exact match, weak -te marker, strong du-form). 157 prefix variants (6-form completeness, ich=er, wir=sie, auxiliary validity, separable/inseparable participle and Präteritum format). 3 false positives in verification script; all correctly explained as edge cases. No actual errors.
+
+### Next session
+
+Phase 2: exercise engine. Add `partizip_ii`, `auxiliary_choice`, and `conjugation_table` (tense-parameterised) handlers to `js/exercises.js`.
+
+---
+
+## 2026-06-12 — Session 20: PRD — Vergangenheit (Perfekt + Präteritum)
+
+**Files created:** `PRD_Vergangenheit.md`
+
+### What happened
+
+Full PRD interview session for the Vergangenheit feature. Scoped and signed off.
+
+### Key decisions
+
+- Past tense feature (Perfekt + Präteritum) lives **within the Verbs module** — not a new module
+- UI: **Präsens / Vergangenheit tab** within Verbs. Vergangenheit tab has a **Perfekt / Präteritum sub-picker** styled like the level picker in Prepositions (A1/A2/B1/B2)
+- New exercise types: `partizip_ii` (type the past participle), `auxiliary_choice` (hat vs. ist), `conjugation_table` (6-person fill-in, all at once — 3 separate exercises per tense)
+- No translation exercises — all exercises must be objectively checkable
+- `type` field maps to **Regular / Irregular** display label only (weak → Regular; all others → Irregular)
+- Case requirements + Regular/Irregular label displayed together on verb exercise cards
+- Data confirmed: `past_participle` + `auxiliary` already exist for all 91 verbs. **`prateritum` does not exist yet** — this is Phase 1
+- Build order: root verb Präteritum data → prefix variants → exercise engine → UI toggle
+- Modal verbs get all exercise types including conjugation tables
+- Prefix variants get Perfekt + Präteritum data (root verbs first, then variants)
+
+### Open questions resolved
+
+All three open questions closed. PRD signed off. Ready to build.
+
+---
+
+## 2026-06-12 — Session 19: Pedagogical Audit + Roadmap Reprioritization
+
+**Files modified:** `SOURCE_OF_TRUTH.md`
+
+### What happened
+
+Conducted a pedagogical audit of the app's content structure with a focus on what a German teacher would identify as gaps — particularly for learners coming from a Latin language background (Spanish, Italian, French, Portuguese), while keeping improvements universal.
+
+### Audit findings
+
+Three highest-priority gaps identified:
+
+1. **No past tense (Perfekt)** — The app only teaches present tense. Perfekt is the conversational past tense used in everyday German speech. Without it, a student cannot discuss anything that happened in the past. Every verb in the app needs Perfekt forms (auxiliary + past participle) and new exercise types.
+
+2. **Article/gender learning removed** — `article_choice` exercises were stripped from Nouns in Session 11. This was flagged as the wrong call. Articles and grammatical gender should be reintroduced, but taught with gender pattern rules (e.g., all *-ung* nouns are feminine; all *-chen/-lein* diminutives are neuter) rather than pure memorization.
+
+3. **No grammar reference layer** — The app is entirely exercise-driven with no explicit explanation of the case system, declension tables, or grammar concepts. A reference section would give learners the framework to understand *why* the exercises work the way they do.
+
+Additional audit notes (not yet actioned — lower priority):
+- Cognates not leveraged as accelerators
+- False friends not flagged in exercise explanations
+- Word order (V2, subordinate clauses, separable verbs) not addressed
+- Spaced repetition model (cooldown vs true SRS) not validated
+
+### Decisions made
+
+- All three highest-priority items added to roadmap
+- Improvements framed as universal (not Latin-speaker specific)
+- Roadmap reprioritized: Grammar reference → Perfekt tense → Articles module → (existing items shifted down)
+- **Perfekt tense scoped as next PRD session**
+
+---
+
+## 2026-06-07 — Session 18c: UI Cleanup — 10 fixes
+
+**Files modified:** `index.html`, `js/app.js`, `js/listening.js`, `css/styles.css`
+
+### What changed
+
+1. **Home screen — "X von Y verfügbar" removed.** The module count label (e.g. "6 von 6 verfügbar") and "Module" section header removed. No information value.
+2. **Module cards — grid layout.** Home screen modules now render in a 2-column grid (`.home-modules-grid`). Cards are compact with no icon badge and no "Modul N" eyebrow. Just the module title + arrow/lock indicator.
+3. **Streak badge — flat icon.** Replaced 🔥 emoji with a stroke-based SVG flame. Format: `[flame icon] Streak N days`.
+4. **Module home nav title.** Each module's top nav-context now shows the module name in caps (e.g. "VERBS") instead of "Modul 01". The large `heading-xl` title and description paragraph below it are removed entirely.
+5. **Merged Modul-Fortschritt + Liste cards.** For all 5 word modules (Verbs, Nouns, Adjectives, Adverbs, Prepositions): the separate progress card and list-link card are merged into a single clickable card. Shows "Unlocked Verbs 10/248" with a progress bar. Tapping navigates to the word list. Static progress card removed from HTML.
+6. **Prepositions — Niveau removed.** The "· Niveau A1" text removed from the Präpositionen üben exercise card subtitle. Difficulty is selected inside the exercise, not displayed on the card.
+7. **Lesen & Hören list — pill toggle.** Eye icon toggle replaced with a pill button reading "Hide read" / "Show read". Class: `.pill-toggle-btn`.
+8. **Article reader — "Read" pill button.** Eye icon circle button replaced with a pill button labelled "Read". When clicked: turns green with a checkmark icon. Properly aligned in the nav-header flex row (no longer absolutely positioned).
+
+**Pushed to GitHub. Live at https://rsperotti.github.io/mein_deutsch**
+
+---
+
 ## 2026-06-07 — Session 18b: Lesen & Hören — Bug Fixes
 
 **Files modified:** `index.html`, `js/listening.js`, `js/progress.js`, `css/styles.css`

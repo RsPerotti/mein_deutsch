@@ -1,25 +1,27 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-06-07 — Session 18b (bug fixes)*
+*Last updated: 2026-06-12 — Session 21 (Phase 1: Vergangenheit data complete)*
 
 ---
 
 ## Current State
 
-**Lesen & Hören module live.** App at https://rsperotti.github.io/mein_deutsch. Six modules active. New Reading & Listening module: 45 DW articles, highlighted vocabulary, audio playback, manual read-state tracking, show/hide read toggle. **Pushed to GitHub — Session 18 complete.**
+**6 modules live. UI cleaned up.** App at https://rsperotti.github.io/mein_deutsch. Home screen uses 2-column grid cards. Module homes show title in nav-context, merged progress+list card. Lesen & Hören has pill buttons (toggle + read). **Pushed to GitHub — Session 18c complete.**
+
+**Vergangenheit Phase 1 COMPLETE.** All 91 root verbs and 157 prefix variants now have full Präteritum conjugations (6 forms each) + Perfekt data (past_participle + auxiliary) in `js/data.js`. Verified clean. **Next: Phase 2 — exercise engine (`js/exercises.js`): partizip_ii, auxiliary_choice, conjugation_table handlers.** See `PRD_Vergangenheit.md`.
 
 ## What Exists
 
 | File / Folder | Status | Notes |
 |---|---|---|
-| `index.html` | ✅ Updated | Screens: Home, Word List, Module Home, Exercise, Verbliste, Nomenliste, Adverbliste, Adjektivliste, **Präpositionsliste**, **Listening List**, **Listening Reader**, Results |
-| `css/styles.css` | ✅ Updated | Full design system. Added `.diff-btn`, `.prep-highlight`, `.case-dot-unknown` (dashed gray, no-case verbs). |
-| `js/app.js` | ✅ Updated | Router, data loading, all module home renderers + Adjektivliste + Präpositionsliste. **Case dots on prep cards (left, no CEFR badge). Progress card shows exercise count only. Module home cards: flat SVG icons, no descriptions. Word list cards first. Exercise counts on category cards. Präpositionsliste first in prepositions module. Listening module card routes to article list. Read count sub-label on listening card.** |
+| `index.html` | ✅ Updated | Screens: Home, Word List, Module Home, Exercise, Verbliste, Nomenliste, Adverbliste, Adjektivliste, **Präpositionsliste**, **Listening List**, **Listening Reader**, Results. Static module progress card removed from Module Home. |
+| `css/styles.css` | ✅ Updated | Full design system. Added `.home-modules-grid`, `.module-card-grid`, `.pill-toggle-btn`, `.pill-read-btn`. Old `.listening-toggle-btn`, `.listening-read-btn` (circle) replaced. |
+| `js/app.js` | ✅ Updated | Module cards: 2-column grid, no icons, no eyebrow. Nav-context shows module title in caps. All 5 word module renderers: merged unlocked-count+list card. Prepositions: Niveau text removed from exercise card. |
 | `js/progress.js` | ✅ Updated | Root/variant split for nouns. Adjectives key. **Prepositions difficulty key** (`app_prepositions_difficulty`). **`app_articles_read` key** + `markArticleRead` / `isArticleRead` / `getReadArticles`. |
 | `js/exercises.js` | ✅ Updated | Nouns, adjectives, **prepositions** in queue builder. Two new renderers: `select_preposition`, `select_case`. Inline difficulty switcher. **`_ensureFirstExposure()`** guarantees translate_word is first for new words. **Parenthetical hints removed from all conjugation exercises.** **`returnFromResults` + `returnHome` fix nav stack bug (results screen no longer appears on back press).** |
 | `js/wordpractice.js` | ✅ Built | Adjektive class in WLP_CLASSES picker |
 | `js/wordlist.js` | ✅ Updated | Adjectives in buildWordObjects(). **Case dot helpers** (`_normalizeCase`, `_renderCaseDots`, `showCaseLegend`, `hideCaseLegend`). Verb cards show case dots on left; MIXED/STRONG/WEAK labels removed; dotted gray circle for verbs with no case. |
 | `data/modules.json` | ✅ Updated | **5 modules**: Verbs + Nouns + Adjectives + Adverbs + **Prepositions** (all active) |
-| `js/data.js` | ✅ **Bundled** | Format: `window.APP_DATA = {…}`. All content embedded. **Total exercises: 2,583 (post-audit)**. |
+| `js/data.js` | ✅ **Bundled** | Format: `window.APP_DATA = {…}`. All content embedded. **Total exercises: 2,583 (post-audit)**. **Phase 1 Vergangenheit data added: `prateritum` (6 forms) on all 91 root verbs; `past_participle`, `auxiliary`, `prateritum` (6 forms) on all 157 prefix variants.** |
 | `js/listening-data.js` | ✅ **New** | Format: `window.LISTENING_DATA = {module, articles[]}`. 45 articles with transcripts + vocabulary. 212 KB. |
 | `js/listening.js` | ✅ **New** | Article list renderer, reader, vocab highlighting, audio caching, read-state. |
 | `data/verbs.json` | ✅ **91 root verbs** | Audit complete. 23 moves/removes, 14 new bases added. |
@@ -88,11 +90,21 @@
 
 ## Next Steps
 
-1. **Deklinationen area** — second card in Adjectives module (gender/case declension exercises)
-2. **Enrich adjective content** — add more words once Deklinationen is built
-3. **Lesen & Hören — more years** — run crawler on 2025, 2024 archives; re-bundle listening-data.js
-4. **Articles module** — future module; article_choice exercises stripped from Nouns are ready to be rebuilt here
-5. **Prepositions C1/C2 expansion** — architecture ready; just add entries with `"cefr": "C1"` and `"difficulty": "C1"`
+*Updated: 2026-06-12 — Session 21 (Phase 1 complete)*
+
+**Vergangenheit build order (in progress):**
+1. ~~Phase 1: Präteritum data — root verbs~~ ✅ Done — Session 21
+2. ~~Phase 1: Perfekt + Präteritum data — prefix variants~~ ✅ Done — Session 21
+3. **Phase 2: Exercise engine** — add `partizip_ii`, `auxiliary_choice`, `conjugation_table` handlers to `js/exercises.js`
+4. **Phase 3: UI toggle** — Präsens / Vergangenheit tab in Verbs module; Perfekt / Präteritum sub-picker; Regular/Irregular label + case badge on exercise cards
+5. **Phase 4: Verification** — smoke-test all new types; confirm no Präsens regressions
+
+**After Vergangenheit:**
+- Grammatik reference layer (PRD required)
+- Articles module reimagined with gender-pattern rules
+- Deklinationen area for Adjectives
+6. **Lesen & Hören — more years** — run crawler on 2025, 2024 archives; re-bundle listening-data.js
+7. **Prepositions C1/C2 expansion** — architecture ready; just add entries with `"cefr": "C1"` and `"difficulty": "C1"`
 
 ---
 
@@ -269,4 +281,4 @@ Once the crawler is verified to produce correct output, a new module will be add
 - Pronunciation uses device TTS (no audio files) — acceptable for v1
 - Prepositions not in Word List Practice mode (no unlock mechanic — by design)
 - `verpflichten` remains a standalone root (base `pflichten` is archaic — left as-is by design)
-- All sessions through 18 pushed to GitHub
+- All sessions through 18c pushed to GitHub
