@@ -2,6 +2,45 @@
 
 ---
 
+## 2026-06-13 — Session 24: QoL fixes + Phase 4 (Vergangenheit verification)
+
+**Goal:** Phase 4 verification deferred — user confirmed app is working and shifted to quality-of-life fixes instead.
+
+**Fixes shipped (5):**
+
+**1. Service worker versioning (SW v3)**
+Bumped `CACHE` from `'mein-deutsch-v2'` to `'mein-deutsch-v3'` in `service-worker.js`. Root cause of "progress loss": cache name was never bumped, so the browser never installed a new SW, meaning users kept running old cached JS after every push. Added a deploy note comment. Clarified: localStorage is never cleared by SW updates — progress survives. The issue was stale code, not lost data.
+
+**2. Removed Gut gemacht results screen**
+Replaced both `_showResults()` calls in `js/exercises.js` with `returnFromResults()`. Session end (queue empty) and early exit both now go straight to module home. Results screen still exists in HTML but is no longer reachable.
+
+**3. Stripped parenthetical hints from exercise data**
+188 exercises in `js/data.js` had `(verb — subject, tense)` appended to `question.de` (e.g. `"Er _____ die Party ab. (absagen — er/sie/es, present)"`). Removed via Python regex. Kept all other parentheticals (context hints like `(infinitive)`, `(reflexive Perfekt)`, row labels like `sie (plural)`) — those don't have commas inside the parens.
+
+**4. Pixel 8 Pro layout**
+`css/styles.css`: `--max-w` 390px → 430px, `--page-x` 20px → 16px. Content fills more of the screen on larger Android devices.
+
+**5. Android gesture back navigation**
+`js/app.js`: Wired `history.pushState()` into `navigateTo()`. Added `popstate` listener that calls `navigateBack()`. Init seeds the stack with `history.replaceState()`. Swiping back on Android now navigates within the app instead of closing it.
+
+**Files changed:** `service-worker.js`, `js/exercises.js`, `js/data.js`, `css/styles.css`, `js/app.js`
+
+---
+
+## 2026-06-12 — Session 23b: Hotfix — Vergangenheit exercises showing 0/0
+
+**Bug:** Vergangenheit tab showed 0 / 0 exercises for both Stammverben and Variationen after Phase 3 push.
+
+**Root cause:** `data.js` has two exercise arrays — `exercises_verbs` (936 items, original stale data, no tense fields) and `exercises.module_verbs` (2,075 items, full set with tense fields). The Phase 2 generation script wrote the full set into `exercises.module_verbs` but left the old `exercises_verbs` key intact. `app.js` was loading `exercises_verbs` first (truthy, so it never fell through to the correct key).
+
+**Fix:** One-line change in `js/app.js` — swapped preference order to read `exercises.module_verbs` before `exercises_verbs`.
+
+**Files changed:** `js/app.js` (line 111)
+
+**Verified:** Vergangenheit tab now shows 364 Stammverben exercises, 628 Variationen exercises. Tense picker (Perfekt / Präteritum) and meta badge working in-app.
+
+---
+
 ## 2026-06-12 — Session 23: Phase 3 — Vergangenheit UI Toggle + Verb Meta Badge
 
 **Goal:** Add Präsens/Vergangenheit tab toggle to Verbs module home, Perfekt/Präteritum sub-picker in exercise session, and Regular/Irregular + case badge on each verb exercise card.

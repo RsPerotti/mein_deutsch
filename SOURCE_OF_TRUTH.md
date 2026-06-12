@@ -1,5 +1,5 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-06-12 — Session 23 (Phase 3: Vergangenheit UI toggle + verb meta badge complete)*
+*Last updated: 2026-06-13 — Session 24 (QoL fixes: gesture back, no results screen, exercise hint cleanup, Pixel 8 layout, SW v3)*
 
 ---
 
@@ -17,19 +17,19 @@
 |---|---|---|
 | `index.html` | ✅ Updated | Screens: Home, Word List, Module Home, Exercise, Verbliste, Nomenliste, Adverbliste, Adjektivliste, **Präpositionsliste**, **Listening List**, **Listening Reader**, Results. Static module progress card removed from Module Home. |
 | `css/styles.css` | ✅ Updated | Full design system. Added `.home-modules-grid`, `.module-card-grid`, `.pill-toggle-btn`, `.pill-read-btn`. Old `.listening-toggle-btn`, `.listening-read-btn` (circle) replaced. |
-| `js/app.js` | ✅ Updated | Module cards: 2-column grid, no icons, no eyebrow. Nav-context shows module title in caps. All 5 word module renderers: merged unlocked-count+list card. Prepositions: Niveau text removed from exercise card. |
+| `js/app.js` | ✅ Updated | Module cards: 2-column grid, no icons, no eyebrow. Nav-context shows module title in caps. All 5 word module renderers: merged unlocked-count+list card. Prepositions: Niveau text removed from exercise card. **Phase 3: `_verbTenseTab` state + `setVerbTenseTab()`; tense-tab toggle in `_renderVerbModuleCategories()`; tenseContext passed to `openExercise()`.** **Hotfix: load order changed to prefer `exercises.module_verbs` (2,075) over stale `exercises_verbs` (936).** **Session 24: History API wired into `navigateTo()` + `popstate` listener for Android gesture back.** |
 | `js/progress.js` | ✅ Updated | Root/variant split for nouns. Adjectives key. **Prepositions difficulty key** (`app_prepositions_difficulty`). **`app_articles_read` key** + `markArticleRead` / `isArticleRead` / `getReadArticles`. |
-| `js/exercises.js` | ✅ Updated | Nouns, adjectives, **prepositions** in queue builder. Two new renderers: `select_preposition`, `select_case`. Inline difficulty switcher. **`_ensureFirstExposure()`** guarantees translate_word is first for new words. **Parenthetical hints removed from all conjugation exercises.** **`returnFromResults` + `returnHome` fix nav stack bug.** **Phase 2: `partizip_ii`, `auxiliary_choice`, `conjugation_table` handlers + `checkPartizipII()` + `submitConjugationTable()`.** **Phase 3: `startExercise()` reads tenseContext; `_buildQueue()` filters by tense; `setVerbTense()` + `_updateVerbTensePicker()`; `_verbMetaBadge()` injects Regular/Irregular + case badge.** |
+| `js/exercises.js` | ✅ Updated | Nouns, adjectives, **prepositions** in queue builder. Two new renderers: `select_preposition`, `select_case`. Inline difficulty switcher. **`_ensureFirstExposure()`** guarantees translate_word is first for new words. **Parenthetical hints removed from all conjugation exercises.** **`returnFromResults` + `returnHome` fix nav stack bug.** **Phase 2: `partizip_ii`, `auxiliary_choice`, `conjugation_table` handlers + `checkPartizipII()` + `submitConjugationTable()`.** **Phase 3: `startExercise()` reads tenseContext; `_buildQueue()` filters by tense; `setVerbTense()` + `_updateVerbTensePicker()`; `_verbMetaBadge()` injects Regular/Irregular + case badge.** **Session 24: `_showResults()` replaced with `returnFromResults()` in both call sites — results screen no longer shown.** |
 | `js/wordpractice.js` | ✅ Built | Adjektive class in WLP_CLASSES picker |
 | `js/wordlist.js` | ✅ Updated | Adjectives in buildWordObjects(). **Case dot helpers** (`_normalizeCase`, `_renderCaseDots`, `showCaseLegend`, `hideCaseLegend`). Verb cards show case dots on left; MIXED/STRONG/WEAK labels removed; dotted gray circle for verbs with no case. |
 | `data/modules.json` | ✅ Updated | **5 modules**: Verbs + Nouns + Adjectives + Adverbs + **Prepositions** (all active) |
-| `js/data.js` | ✅ **Bundled** | Format: `window.APP_DATA = {…}`. All content embedded. **Total verb exercises: 2,075 (992 existing Präsens + 1,083 new Vergangenheit). Phase 1 data: `prateritum` + Perfekt on all 248 verbs. Phase 2: all new exercises bundled with `tense` field for tab routing.** |
+| `js/data.js` | ✅ **Bundled** | Format: `window.APP_DATA = {…}`. All content embedded. **Total verb exercises: 2,075 (992 existing Präsens + 1,083 new Vergangenheit). Phase 1 data: `prateritum` + Perfekt on all 248 verbs. Phase 2: all new exercises bundled with `tense` field for tab routing. Session 24: 188 parenthetical hints stripped from `question.de` fields.** |
 | `js/listening-data.js` | ✅ **New** | Format: `window.LISTENING_DATA = {module, articles[]}`. 45 articles with transcripts + vocabulary. 212 KB. |
 | `js/listening.js` | ✅ **New** | Article list renderer, reader, vocab highlighting, audio caching, read-state. |
 | `data/verbs.json` | ✅ **91 root verbs** | Audit complete. 23 moves/removes, 14 new bases added. |
 | `data/exercises/exercises-verbs.json` | ✅ **2,075 exercises** | 992 Präsens exercises + 1,083 new Vergangenheit (248 partizip_ii + 248 auxiliary_choice + 587 conjugation_table). All new exercises have `tense` field. |
 | `manifest.json` | ✅ Built | PWA config |
-| `service-worker.js` | ✅ Updated | **v2.** Cache-first. PRECACHE includes listening-data.js + listening.js. Caches `/content/listening/` on first access. Range request handler for audio (synthesises 206 responses from cached blobs). |
+| `service-worker.js` | ✅ Updated | **v3.** Cache-first. PRECACHE includes listening-data.js + listening.js. Caches `/content/listening/` on first access. Range request handler for audio. **Deploy rule: bump CACHE version on every push that changes JS/CSS.** |
 | `icons/` | ✅ Done | icon-192 + icon-512, speech bubble "de", #85B7EB |
 | `data/nouns.json` | ✅ **175 nouns** | A1–B2. 97 roots + 78 variations. `section` + `formation` fields. |
 | `data/exercises/exercises-nouns.json` | ✅ **525 exercises** | 175 × 3 (fill_blank ×2 + translate_word ×1) |
@@ -47,6 +47,7 @@
 - **Green dark:** `#2D4A1A` (accent, text, progress bars)
 - **Green accent:** `#3D6020` (labels, links)
 - **Green lime:** `#8DC44A` (hero card, success button)
+- **Layout:** `--max-w: 430px` / `--page-x: 16px` (updated Session 24 for Pixel 8 Pro)
 - **Typography:** Roboto (system font on Android, fallback to system sans)
 
 ## Active Decisions
@@ -99,14 +100,17 @@
 
 ## Next Steps
 
-*Updated: 2026-06-12 — Session 21 (Phase 1 complete)*
+*Updated: 2026-06-13 — Session 24*
 
-**Vergangenheit build order (in progress):**
-1. ~~Phase 1: Präteritum data — root verbs~~ ✅ Done — Session 21
-2. ~~Phase 1: Perfekt + Präteritum data — prefix variants~~ ✅ Done — Session 21
-3. ~~Phase 2: Exercise engine~~ ✅ Done — Session 22 — `partizip_ii`, `auxiliary_choice`, `conjugation_table` handlers live; 1,083 exercises generated.
-4. **Phase 3: UI toggle** — Präsens / Vergangenheit tab in Verbs module; Perfekt / Präteritum sub-picker; Regular/Irregular label + case badge on exercise cards
-5. **Phase 4: Verification** — smoke-test all new types; confirm no Präsens regressions
+**Vergangenheit — all phases complete:**
+1. ~~Phase 1: Präteritum data — root verbs~~ ✅ Session 21
+2. ~~Phase 1: Perfekt + Präteritum data — prefix variants~~ ✅ Session 21
+3. ~~Phase 2: Exercise engine~~ ✅ Session 22
+4. ~~Phase 3: UI toggle~~ ✅ Session 23
+5. ~~Phase 4: Verification + QoL~~ ✅ Session 24
+
+**Known open item (Vergangenheit):**
+- Prefix variants inherit parent root's `grammar.case_requirements` — `verstehen` shows Irregular with no case badge (should be Akkusativ). Fix: add per-variant `grammar` override field. Deferred.
 
 **After Vergangenheit:**
 - Grammatik reference layer (PRD required)
