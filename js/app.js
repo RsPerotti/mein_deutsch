@@ -36,6 +36,9 @@ function navigateTo(screenId) {
   navStack.push(currentScreen);
   currentScreen = screenId;
 
+  // Push a history entry so Android gesture-back fires popstate instead of closing the app
+  history.pushState({ screen: screenId }, '', location.href);
+
   window.scrollTo(0, 0);
   onScreenEnter(screenId);
 }
@@ -52,6 +55,19 @@ function navigateBack() {
   window.scrollTo(0, 0);
   onScreenEnter(prev);
 }
+
+// Handle Android gesture back / browser back button via History API
+window.addEventListener('popstate', () => {
+  if (navStack.length > 0) {
+    navigateBack();
+    // Re-push so the history stack stays in sync with navStack depth
+    history.pushState({ screen: currentScreen }, '', location.href);
+  } else {
+    // At root — re-push a state so the next back gesture is catchable
+    // (lets the OS know there's nothing further to pop without closing the app)
+    history.pushState({ screen: currentScreen }, '', location.href);
+  }
+});
 
 function onScreenEnter(screenId) {
   switch (screenId) {
@@ -1005,6 +1021,9 @@ async function init() {
   Progress.updateStreak();
   Progress.recordSession();
   renderHome();
+  // Seed the history stack so the first gesture-back is caught by popstate
+  // rather than closing the PWA.
+  history.replaceState({ screen: 'screen-home' }, '', location.href);
 }
 
 document.addEventListener('DOMContentLoaded', init);

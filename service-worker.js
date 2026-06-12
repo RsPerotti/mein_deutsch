@@ -2,9 +2,14 @@
  * SERVICE WORKER — Mein Deutsch
  * Strategy: cache-first for all app assets.
  * v2: adds listening module files + audio Range request handling.
+ * v3: QoL fixes (gesture nav, layout, exercise data cleanup).
+ *
+ * DEPLOY NOTE: bump the CACHE version string on every push that changes
+ * JS/CSS files. The browser only installs a new SW when this file changes.
+ * If the version is not bumped, users keep running the old cached code.
  */
 
-const CACHE = 'mein-deutsch-v2';
+const CACHE = 'mein-deutsch-v3';
 
 const PRECACHE = [
   './',

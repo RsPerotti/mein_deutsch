@@ -85,8 +85,8 @@
   --shadow-btn: 0 2px 8px rgba(0,0,0,0.12);
 
   /* Layout */
-  --page-x: 20px;
-  --max-w: 390px;
+  --page-x: 16px;
+  --max-w: 430px;
 }
 
 /* --- RESET & BASE --- */

@@ -178,7 +178,7 @@ function _showNext() {
   }
 
   if (session.queue.length === 0) {
-    _showResults();
+    returnFromResults();
     return;
   }
 
@@ -782,7 +782,7 @@ function exitExerciseEarly() {
     navigateTo('screen-wordlist');
     return;
   }
-  _showResults();
+  returnFromResults();
 }
 
 // --- Unlock word on correct answer ---
