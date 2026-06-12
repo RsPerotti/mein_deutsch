@@ -108,7 +108,7 @@ async function loadData() {
   appData.nouns                             = d.nouns                 || [];
   appData.adverbs                           = d.adverbs               || [];
   appData.adjectives                        = d.adjectives            || [];
-  appData.exercises['module_verbs']         = d.exercises_verbs       || (d.exercises || {}).module_verbs || [];
+  appData.exercises['module_verbs']         = (d.exercises || {}).module_verbs || d.exercises_verbs       || [];
   appData.exercises['module_nouns']         = d.exercises_nouns       || [];
   appData.exercises['module_adverbs']       = d.exercises_adverbs     || [];
   appData.exercises['module_adjectives']    = d.exercises_adjectives   || [];
