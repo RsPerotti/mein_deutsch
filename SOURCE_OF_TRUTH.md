@@ -88,6 +88,13 @@
 - **Repo:** https://github.com/RsPerotti/mein_deutsch (public)
 - **Deploy:** push to `main` branch → GitHub Pages auto-deploys
 
+## Git / GitHub Setup
+
+- **Auth method:** SSH (set up 2026-06-12). Password authentication no longer works on GitHub.
+- **SSH key:** `~/.ssh/id_ed25519` (ed25519, linked to rsperotti@gmail.com)
+- **Remote URL:** `git@github.com:RsPerotti/mein_deutsch.git` (SSH, not HTTPS)
+- **To push:** `git push origin main` — no password prompt, works automatically
+
 ## Next Steps
 
 *Updated: 2026-06-12 — Session 21 (Phase 1 complete)*
