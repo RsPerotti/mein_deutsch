@@ -1,0 +1,670 @@
+[
+  {
+    "id": "particles-intro",
+    "title": "What Are Particles?",
+    "order": 1,
+    "module": "particles",
+    "unlocks": [],
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "The words that make German sound German",
+        "body": "German particles are small, unstressed words that carry no dictionary meaning on their own — but change everything about how a sentence sounds. Words like 'doch', 'mal', 'ja', and 'wohl' signal the speaker's attitude, tone, and assumptions. A sentence without them is grammatically correct but sounds flat, robotic, or oddly formal.",
+        "example_de": "Komm! vs. Komm mal!",
+        "example_en": "Come! vs. Come on, come along!"
+      },
+      {
+        "type": "explanation",
+        "heading": "You cannot translate them literally",
+        "body": "Particles resist direct translation. 'Doch' can mean 'yes', 'but', 'surely', 'after all', or nothing at all in English — yet native speakers reach for it constantly because it does real work. Trying to assign a fixed English equivalent will mislead you. Instead, focus on what each particle signals: a tone, an assumption, a relationship between speaker and listener.",
+        "example_de": "Das weißt du ja. / Das stimmt doch. / Er kommt wohl bald.",
+        "example_en": "You already know that. / That's surely right. / He'll probably be here soon."
+      },
+      {
+        "type": "explanation",
+        "heading": "Particles live in the middle of the sentence",
+        "body": "Modal particles (the largest group) almost always appear in the mid-field — after the finite verb, never in first position. They are unstressed: you would not put heavy emphasis on them when speaking. If a word like 'ja' or 'doch' is stressed, it is functioning as something else (an answer word, an adverb), not as a particle.",
+        "example_de": "Er IST ja müde. (particle, unstressed) vs. JA! (answer, stressed)",
+        "example_en": "He IS tired, after all. vs. YES!"
+      },
+      {
+        "type": "explanation",
+        "heading": "Two tiers: Core and Advanced",
+        "body": "This module covers 34 particles across two tiers. The Core tier (A1–B2) covers the 20 most common modal and focus particles — the ones you need to sound natural in everyday German. The Advanced tier (C1–C2) covers nuanced connectors and emphasis particles used in formal speech and complex written German.",
+        "example_de": "Core: mal, doch, ja, wohl, gar, schon…",
+        "example_en": "Advanced: nämlich, allerdings, zwar, ausgerechnet, freilich…"
+      }
+    ],
+    "key_rules": [
+      "Particles carry tone and attitude — not translatable content.",
+      "Modal particles appear in the mid-field and are unstressed.",
+      "The same word can be a particle in one sentence and a different part of speech in another (e.g. 'ja' as particle vs. 'Ja!' as answer).",
+      "Focus and gradation particles (gar, sogar, erst, noch) sit directly before the element they highlight.",
+      "Do not try to learn particles by their English translation — learn what each one signals."
+    ],
+    "quiz": [
+      {
+        "type": "rule_check",
+        "question": "Where in a German sentence do modal particles typically appear?",
+        "options": ["In first position, before the subject", "At the very end of the sentence", "In the mid-field, after the finite verb", "Always directly before the noun"],
+        "correct": 2
+      },
+      {
+        "type": "rule_check",
+        "question": "Why can German particles not be translated literally?",
+        "options": [
+          "They are dialect words with no standard form",
+          "They signal attitude and tone, not fixed lexical meaning",
+          "They are abbreviations of longer words",
+          "They only exist in spoken German, not writing"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "Which sentence uses 'ja' as a modal particle (not as an answer word)?",
+        "options": [
+          "Ja, ich komme.",
+          "Das ist ja interessant.",
+          "Ja? Wirklich?",
+          "Ja, natürlich!"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "A modal particle in speech is typically:",
+        "options": ["Heavily stressed to make the sentence clearer", "Unstressed — it adds tone without emphasis", "Always the last word before the verb", "Only used in questions"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "Which of the following is a focus/gradation particle (not a modal particle)?",
+        "options": ["ja", "doch", "sogar", "wohl"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "particles-softening",
+    "title": "Softening & Requesting",
+    "order": 2,
+    "module": "particles",
+    "unlocks": ["modal-softening"],
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Making requests sound human",
+        "body": "Without softening particles, German commands and requests can sound curt or rude — even when that is not the intention. Particles like 'mal', 'ruhig', and 'einfach' take the edge off. They signal: 'I'm not demanding, I'm asking casually' or 'you really are free to do this'.",
+        "example_de": "Kannst du helfen? vs. Kannst du mal helfen?",
+        "example_en": "Can you help? vs. Can you just help for a second?"
+      },
+      {
+        "type": "explanation",
+        "heading": "Mal — the go-to softener",
+        "body": "'Mal' is the most common softening particle. It attaches to imperatives and requests to make them feel lighter and less demanding. It is roughly equivalent to 'just' in English requests, or the casual 'for a moment'. It does not change the meaning — only the feel.",
+        "example_de": "Schau mal! / Komm mal her. / Kannst du mal kurz warten?",
+        "example_en": "Just look! / Come over here a second. / Can you just wait a moment?"
+      },
+      {
+        "type": "explanation",
+        "heading": "Ruhig — permission and encouragement",
+        "body": "'Ruhig' signals that the listener is genuinely free to do something — no hesitation needed. It often follows 'du kannst' or 'du darfst'. The literal meaning of 'ruhig' is 'calm/quiet', but as a particle it means 'go ahead, feel free'.",
+        "example_de": "Du kannst ruhig gehen. / Sag das ruhig.",
+        "example_en": "Feel free to go. / Go ahead and say it."
+      },
+      {
+        "type": "explanation",
+        "heading": "Einfach, bloß, nur — three different flavours",
+        "body": "'Einfach' expresses resignation or simplification ('just', 'simply'). 'Bloß' adds urgency or warning to a prohibition ('whatever you do, don't…'). 'Nur' softens a question or request with gentle curiosity or a hint of mild reproach.",
+        "example_de": "Das ist einfach zu schwer. / Mach das bloß nicht! / Ich wollte nur fragen.",
+        "example_en": "It's simply too hard. / Whatever you do, don't do that! / I just wanted to ask."
+      }
+    ],
+    "key_rules": [
+      "'Mal' softens imperatives and requests — it makes them sound casual and non-demanding.",
+      "'Ruhig' grants permission — use after 'können' or 'dürfen'.",
+      "'Einfach' expresses resignation or simplification — the speaker is cutting through complexity.",
+      "'Bloß' adds urgency or warning, especially in prohibitions ('Mach das bloß nicht!').",
+      "'Nur' adds gentle curiosity or mild reproach to questions and statements."
+    ],
+    "quiz": [
+      {
+        "type": "rule_check",
+        "question": "Which particle softens a request by making it sound casual and light?",
+        "options": ["bloß", "ruhig", "mal", "nur"],
+        "correct": 2
+      },
+      {
+        "type": "rule_check",
+        "question": "Which particle signals permission — 'go ahead, feel free'?",
+        "options": ["mal", "einfach", "bloß", "ruhig"],
+        "correct": 3
+      },
+      {
+        "type": "rule_check",
+        "question": "Which particle adds urgency or warning to a prohibition?",
+        "options": ["nur", "bloß", "mal", "ruhig"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "What does 'einfach' signal as a particle (not as an adjective)?",
+        "options": ["Permission", "Curiosity", "Resignation or simplification", "Urgency"],
+        "correct": 2
+      },
+      {
+        "type": "rule_check",
+        "question": "Which sentence uses 'mal' correctly as a softening particle?",
+        "options": [
+          "Mal du kannst das machen.",
+          "Kannst du mal kurz helfen?",
+          "Das ist mal zu schwer.",
+          "Er ist mal sehr nett."
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "particles-attitude",
+    "title": "Shared Knowledge & Attitude",
+    "order": 3,
+    "module": "particles",
+    "unlocks": ["modal-attitude"],
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Signalling what you both already know",
+        "body": "This group of particles — ja, doch, auch, denn, etwa — signals the relationship between what the speaker knows and what they assume the listener knows. They are fundamentally social: they position the speaker's statement relative to shared or expected knowledge.",
+        "example_de": "Das weißt du ja. / Was machst du denn hier? / Bist du etwa krank?",
+        "example_en": "You already know that. / What are you doing here, then? / You're not sick, are you?"
+      },
+      {
+        "type": "explanation",
+        "heading": "Ja — appealing to shared knowledge",
+        "body": "'Ja' as a modal particle (unstressed, mid-sentence) signals 'you already know this' or 'as we both know'. It can also express mild surprise or emphasise something obvious. Stressed, it is just the word 'yes'. The particle version is softer.",
+        "example_de": "Das ist ja nicht so einfach. / Er ist ja so nett.",
+        "example_en": "That's not so simple, as you know. / He really is so nice."
+      },
+      {
+        "type": "explanation",
+        "heading": "Doch — contradiction and invitation",
+        "body": "'Doch' challenges a negative assumption, invites action, or reassures. It is one of the most versatile particles in German. As an answer particle it means 'yes' in response to a negative statement — a unique function that English handles clumsily ('Oh yes I did!').",
+        "example_de": "Komm doch mit! / Das stimmt doch nicht. / — Du hast das nicht gemacht. — Doch, habe ich!",
+        "example_en": "Come along, go on! / That's not right, surely. / — You didn't do that. — Oh yes I did!"
+      },
+      {
+        "type": "explanation",
+        "heading": "Denn and etwa in questions",
+        "body": "'Denn' makes a question sound curious and conversational — it softens direct interrogation. 'Etwa' in yes/no questions signals concern or disbelief — the speaker hopes the answer is no. Neither can appear in statements.",
+        "example_de": "Was ist denn passiert? / Bist du etwa verletzt?",
+        "example_en": "So what happened? / You're not hurt, are you?"
+      }
+    ],
+    "key_rules": [
+      "'Ja' (particle) signals shared knowledge or mild emphasis — it is unstressed and mid-sentence.",
+      "'Doch' contradicts, invites, or reassures — and as an answer particle corrects a false negative.",
+      "'Auch' (particle) signals confirmation or reproach — 'as was to be expected'.",
+      "'Denn' appears only in questions and adds curious, conversational tone.",
+      "'Etwa' appears in yes/no questions and signals the speaker fears the answer is yes."
+    ],
+    "quiz": [
+      {
+        "type": "rule_check",
+        "question": "Which particle can only appear in questions?",
+        "options": ["ja", "doch", "denn", "auch"],
+        "correct": 2
+      },
+      {
+        "type": "rule_check",
+        "question": "Someone says 'Du hast das nicht gemacht.' — which particle do you use to contradict them?",
+        "options": ["ja", "doch", "wohl", "mal"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "Which particle signals that the speaker fears the answer to a yes/no question is 'yes'?",
+        "options": ["denn", "etwa", "ja", "auch"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "In the sentence 'Das weißt du ___', which particle signals shared knowledge?",
+        "options": ["denn", "etwa", "ja", "doch"],
+        "correct": 2
+      },
+      {
+        "type": "rule_check",
+        "question": "Which sentence uses 'denn' correctly?",
+        "options": [
+          "Er ist denn sehr müde.",
+          "Was willst du denn?",
+          "Denn komm mal her.",
+          "Ich weiß das denn nicht."
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "particles-probability",
+    "title": "Probability & Concession",
+    "order": 4,
+    "module": "particles",
+    "unlocks": ["modal-probability"],
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Hedging, conceding, and resigning",
+        "body": "This group — wohl, schon, eigentlich, eben, halt — covers the particles you need when you're not quite certain, when you're accepting something reluctantly, or when you want to redirect a conversation. They are the particles of nuance and realism.",
+        "example_de": "Er ist wohl krank. / Das wird schon klappen. / Das ist eben so.",
+        "example_en": "He's probably sick. / It'll work out, don't worry. / That's just the way it is."
+      },
+      {
+        "type": "explanation",
+        "heading": "Wohl — probability and supposition",
+        "body": "'Wohl' is the hedging particle. It signals that the speaker is guessing or estimating, not stating a fact. It is the equivalent of 'probably' or 'I would imagine'. It does not express doubt — it just marks the statement as an inference rather than a certainty.",
+        "example_de": "Das wird wohl stimmen. / Sie hat wohl keine Zeit.",
+        "example_en": "That's probably right. / She probably doesn't have time."
+      },
+      {
+        "type": "explanation",
+        "heading": "Schon — reassurance and concession",
+        "body": "'Schon' is the particle of reassurance. It signals 'it'll be fine' or 'yes, fair point, but…'. It often appears with future constructions ('Das wird schon…') or at the start of a concessive response ('Schon, aber…'). Note: as an adverb it means 'already' — the particle is unstressed.",
+        "example_de": "Das klappt schon. / Schon, aber das ist nicht der Punkt.",
+        "example_en": "It'll work out. / Fair enough, but that's not the point."
+      },
+      {
+        "type": "explanation",
+        "heading": "Eben and halt — the twins of resignation",
+        "body": "'Eben' and 'halt' are near-synonyms that both signal inevitability and resignation — 'that's just how it is, nothing to be done about it'. The key difference is register: 'eben' is standard German, slightly more formal. 'Halt' is colloquial and typical of southern Germany and Austria.",
+        "example_de": "Das ist eben so. (standard) / Es geht halt nicht. (colloquial)",
+        "example_en": "That's just the way it is. / It just won't work — what can you do."
+      }
+    ],
+    "key_rules": [
+      "'Wohl' hedges — it marks a statement as a supposition, not a certainty.",
+      "'Schon' reassures ('it'll be fine') or concedes ('fair point, but…').",
+      "'Eigentlich' redirects or introduces a reservation — 'actually', 'when you think about it'.",
+      "'Eben' expresses resignation in standard German; 'halt' does the same in colloquial speech.",
+      "Eben and halt are interchangeable in meaning but differ in register — do not mix up their style contexts."
+    ],
+    "quiz": [
+      {
+        "type": "rule_check",
+        "question": "Which particle marks a statement as a probability, not a certainty?",
+        "options": ["schon", "wohl", "eben", "eigentlich"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "What is the key difference between 'eben' and 'halt'?",
+        "options": [
+          "Eben is for questions; halt is for statements",
+          "Eben means certainty; halt means doubt",
+          "Eben is standard German; halt is colloquial",
+          "They have completely different meanings"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "rule_check",
+        "question": "Which particle is used for reassurance, as in 'It'll work out'?",
+        "options": ["wohl", "eigentlich", "schon", "eben"],
+        "correct": 2
+      },
+      {
+        "type": "rule_check",
+        "question": "In the sentence 'Was willst du ___?' — which particle signals redirection or mild challenge?",
+        "options": ["wohl", "schon", "halt", "eigentlich"],
+        "correct": 3
+      },
+      {
+        "type": "rule_check",
+        "question": "Which particle signals 'that's just the way it is — nothing to do about it'?",
+        "options": ["wohl", "schon", "eben", "eigentlich"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "particles-gradation",
+    "title": "Gradation & Focus",
+    "order": 5,
+    "module": "particles",
+    "unlocks": ["gradation-focus"],
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Particles that highlight and restrict",
+        "body": "Focus and gradation particles — gar, wirklich, sogar, erst, noch — don't signal attitude or tone like modal particles. Instead, they target a specific element in the sentence: intensifying it, restricting it, or marking it as surprising. They sit directly before the element they modify.",
+        "example_de": "Das stimmt gar nicht. / Sogar er hat es geschafft. / Ich bin erst 20.",
+        "example_en": "That's not right at all. / Even he managed it. / I'm only 20."
+      },
+      {
+        "type": "explanation",
+        "heading": "Gar — intensifies negation",
+        "body": "'Gar' only appears before 'nicht' or 'kein' and intensifies the negation to 'not at all' / 'absolutely not'. It cannot appear in a positive sentence. 'Gar nicht' and 'gar kein' are fixed patterns.",
+        "example_de": "Ich habe gar keine Zeit. / Das gefällt mir gar nicht.",
+        "example_en": "I have absolutely no time. / I don't like that at all."
+      },
+      {
+        "type": "explanation",
+        "heading": "Sogar — surprising inclusion",
+        "body": "'Sogar' means 'even' — it marks something as more than expected, as a surprising addition to a group or outcome. It sits directly before the element it highlights, which can be a noun, pronoun, verb, or entire clause.",
+        "example_de": "Sogar er hat geholfen. / Sie spricht sogar Japanisch.",
+        "example_en": "Even he helped. / She even speaks Japanese."
+      },
+      {
+        "type": "explanation",
+        "heading": "Erst and noch — restriction and continuation",
+        "body": "'Erst' marks something as less than expected ('only', 'not until'). 'Noch' signals continuation ('still') or an additional amount ('another', 'more'). Together, 'erst' and 'noch nicht' form a common pair: 'noch nicht' = not yet; 'erst' = only just.",
+        "example_de": "Sie ist erst 18. / Er schläft noch. / Noch einen Kaffee?",
+        "example_en": "She's only 18. / He's still asleep. / Another coffee?"
+      }
+    ],
+    "key_rules": [
+      "'Gar' only intensifies negation — 'gar nicht' / 'gar kein' — never used with positive statements.",
+      "'Wirklich' provides genuine emphasis — 'really', 'truly'.",
+      "'Sogar' marks surprising inclusion — 'even'. Sits directly before the highlighted element.",
+      "'Erst' restricts downward ('only') or defers ('not until'). Signals less than expected.",
+      "'Noch' signals continuation ('still') or addition ('another'). 'Noch nicht' = not yet."
+    ],
+    "quiz": [
+      {
+        "type": "rule_check",
+        "question": "Which particle can only appear before 'nicht' or 'kein'?",
+        "options": ["sogar", "wirklich", "gar", "noch"],
+        "correct": 2
+      },
+      {
+        "type": "rule_check",
+        "question": "Which particle marks a surprising inclusion — 'even'?",
+        "options": ["erst", "gar", "noch", "sogar"],
+        "correct": 3
+      },
+      {
+        "type": "rule_check",
+        "question": "In 'Ich bin ___ 20', which particle means 'only' (less than expected)?",
+        "options": ["noch", "wirklich", "erst", "gar"],
+        "correct": 2
+      },
+      {
+        "type": "rule_check",
+        "question": "'Noch nicht' means:",
+        "options": ["already done", "not at all", "not yet", "never"],
+        "correct": 2
+      },
+      {
+        "type": "rule_check",
+        "question": "Which sentence uses 'gar' correctly?",
+        "options": [
+          "Das ist gar schön.",
+          "Er hat gar nichts gesagt.",
+          "Sogar gar er hat es versucht.",
+          "Das gefällt mir gar gut."
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "particles-doch-answer",
+    "title": "Doch — The Yes-to-No",
+    "order": 6,
+    "module": "particles",
+    "unlocks": [],
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "A particle unlike any other",
+        "body": "German has a word for a gap English cannot fill: 'doch' as an answer to a negative statement. English cannot contradict 'You didn't do that' with a single word — you need 'Oh yes I did' or 'Actually I did'. German does this with 'Doch!'.",
+        "example_de": "— Du kommst nicht. — Doch, ich komme!",
+        "example_en": "— You're not coming. — Yes I am!"
+      },
+      {
+        "type": "explanation",
+        "heading": "When to use doch as an answer particle",
+        "body": "'Doch' corrects a negative assumption or statement. It says: 'your negative premise is wrong'. It only works in response to a negative — responding to a positive statement with 'doch' makes no sense. This is the 'yes-to-no': confirming the opposite of a negation.",
+        "example_de": "— Du hast das nicht gemacht. — Doch! / — Er ist nicht da. — Doch, er ist oben.",
+        "example_en": "— You didn't do that. — I did! / — He's not there. — Yes he is, he's upstairs."
+      },
+      {
+        "type": "explanation",
+        "heading": "Doch vs. Ja — when both seem possible",
+        "body": "In response to a positive question ('Kommst du?'), answer with 'Ja'. In response to a negative statement or question ('Du kommst nicht, oder?'), answer with 'Doch' to contradict it. This is a hard rule: 'Ja' cannot correct a negation; 'Doch' cannot answer a positive.",
+        "example_de": "— Kommst du? — Ja! (not Doch) / — Du kommst nicht? — Doch! (not Ja)",
+        "example_en": "— Are you coming? — Yes! / — You're not coming? — Yes I am!"
+      },
+      {
+        "type": "explanation",
+        "heading": "Doch as a mid-sentence particle",
+        "body": "Outside of answers, 'doch' as a modal particle mid-sentence works differently: it invites action ('Komm doch mit!'), contradicts a claim ('Das stimmt doch nicht'), or signals shared understanding ('Du weißt das doch'). These uses all appear in the mid-field.",
+        "example_de": "Komm doch einfach mit! / Das weißt du doch.",
+        "example_en": "Just come along, why don't you! / You know that, don't you."
+      }
+    ],
+    "key_rules": [
+      "'Doch' as an answer particle corrects a negative statement or assumption — the 'yes-to-no'.",
+      "'Doch' cannot answer a positive question — that requires 'Ja'.",
+      "As a mid-sentence particle, 'doch' invites, contradicts, or signals shared knowledge.",
+      "The answer particle 'Doch!' is stressed and sentence-initial.",
+      "The modal particle 'doch' is unstressed and mid-sentence."
+    ],
+    "quiz": [
+      {
+        "type": "rule_check",
+        "question": "Someone says 'Du hast das nicht gemacht.' How do you contradict them with one word?",
+        "options": ["Ja!", "Nein!", "Doch!", "Schon!"],
+        "correct": 2
+      },
+      {
+        "type": "rule_check",
+        "question": "Someone asks 'Kommst du?' How do you say yes?",
+        "options": ["Doch!", "Ja!", "Schon!", "Wohl!"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "Which sentence uses 'doch' as a mid-sentence particle (not as an answer)?",
+        "options": [
+          "— Du kommst nicht. — Doch!",
+          "Komm doch mit!",
+          "Doch, das stimmt.",
+          "— Hast du nichts? — Doch!"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "What is unique about 'doch' as an answer particle?",
+        "options": [
+          "It replaces both 'ja' and 'nein'",
+          "It answers any type of question",
+          "It corrects a negative statement, affirming the opposite",
+          "It is only used in formal German"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "rule_check",
+        "question": "Someone says: 'Sie ist nicht krank, oder?' — She IS sick. What do you say?",
+        "options": ["Ja!", "Nein!", "Doch!", "Schon!"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "particles-connectors",
+    "title": "Nuanced Connectors (C1)",
+    "order": 7,
+    "module": "particles",
+    "unlocks": ["nuanced-connectors"],
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Connecting and conceding in complex speech",
+        "body": "Advanced connectors — nämlich, allerdings, zwar, immerhin, jedenfalls, ohnehin, sowieso — link ideas with precision. They allow you to explain, concede, qualify, and conclude with the nuance native speakers use in formal conversation and writing. They are the particles of logical structure.",
+        "example_de": "Ich komme nicht, ich bin nämlich krank. / Das ist allerdings schwierig.",
+        "example_en": "I can't come — I'm sick, you see. / That is, however, difficult."
+      },
+      {
+        "type": "explanation",
+        "heading": "Nämlich — explanation mid-clause",
+        "body": "'Nämlich' introduces a reason or explanation, but unlike 'weil', it sits inside the clause in the mid-field. It cannot start a clause. Think of it as 'you see' or 'the thing is'. It is very common in spoken and written German for softened explanation.",
+        "example_de": "Ich kann nicht, ich bin nämlich müde. / Er hat nämlich keine Zeit.",
+        "example_en": "I can't — I'm tired, you see. / The thing is, he doesn't have time."
+      },
+      {
+        "type": "explanation",
+        "heading": "Zwar … aber — the two-part concession",
+        "body": "'Zwar' sets up a concession and always needs a counter — typically 'aber'. It means 'admittedly' or 'true, but…'. Using 'zwar' without a follow-up 'aber' or 'doch' leaves the sentence incomplete. It is one of the most distinctive concession structures in German.",
+        "example_de": "Ich habe zwar Hunger, aber kein Geld.",
+        "example_en": "I'm admittedly hungry, but I have no money."
+      },
+      {
+        "type": "explanation",
+        "heading": "Immerhin, wenigstens, zumindest — three ways to say 'at least'",
+        "body": "All three mean 'at least', but with different tones. 'Immerhin' finds consolation — 'at least / after all, give credit'. 'Wenigstens' is slightly more resigned — 'well, at least that'. 'Zumindest' is neutral and formal — stating a minimum condition. See also Lesson 8 for 'wenigstens' and 'zumindest'.",
+        "example_de": "Immerhin hat er es versucht. / Wenigstens hat er sich gemeldet.",
+        "example_en": "At least he tried (give him credit). / At least he got in touch."
+      }
+    ],
+    "key_rules": [
+      "'Nämlich' gives a reason mid-clause — it cannot begin a sentence (unlike 'weil').",
+      "'Allerdings' concedes a drawback or qualification — 'however', 'admittedly'.",
+      "'Zwar' always pairs with 'aber' or 'doch' — never use it without a counter.",
+      "'Immerhin' and 'wenigstens' both mean 'at least' but differ in tone: immerhin is consoling, wenigstens is resigned.",
+      "'Ohnehin' and 'sowieso' are synonyms ('anyway/regardless') — ohnehin is formal, sowieso is colloquial."
+    ],
+    "quiz": [
+      {
+        "type": "rule_check",
+        "question": "Which particle gives an explanation mid-clause and cannot begin a sentence?",
+        "options": ["allerdings", "nämlich", "immerhin", "jedenfalls"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "'Zwar' in a sentence always requires which follow-up word?",
+        "options": ["nämlich", "immerhin", "aber", "jedenfalls"],
+        "correct": 2
+      },
+      {
+        "type": "rule_check",
+        "question": "Which particle concedes a drawback — 'however', 'admittedly'?",
+        "options": ["immerhin", "zwar", "allerdings", "nämlich"],
+        "correct": 2
+      },
+      {
+        "type": "rule_check",
+        "question": "What is the difference between 'ohnehin' and 'sowieso'?",
+        "options": [
+          "They have different meanings",
+          "Ohnehin is formal; sowieso is colloquial — both mean 'anyway'",
+          "Ohnehin is for future events; sowieso for past",
+          "Sowieso is stronger than ohnehin"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "Which sentence uses 'nämlich' correctly?",
+        "options": [
+          "Nämlich ich kann nicht kommen.",
+          "Ich kann nicht, ich bin nämlich krank.",
+          "Das ist nämlich, weil er müde ist.",
+          "Er kommt nicht nämlich."
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "particles-emphasis",
+    "title": "Emphasis & Register (C2)",
+    "order": 8,
+    "module": "particles",
+    "unlocks": ["emphasis-register"],
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Precision at the advanced level",
+        "body": "The C2 particles — ausgerechnet, überhaupt, wiederum, wenigstens, zumindest, bereits, freilich — mark you as a highly proficient speaker. They appear in formal speech, written German, and complex discourse. Mastering them means you can express irony, scope-challenge, logical consequence, and register distinctions with precision.",
+        "example_de": "Ausgerechnet er muss das sagen. / Das wiederum überrascht mich nicht.",
+        "example_en": "Of all people, he has to say that. / That, in turn, doesn't surprise me."
+      },
+      {
+        "type": "explanation",
+        "heading": "Ausgerechnet — ironic emphasis",
+        "body": "'Ausgerechnet' marks an element as the most surprising, unfortunate, or ironic choice. It sits directly before the highlighted element. Unlike 'sogar' (which marks positive surprise), 'ausgerechnet' expresses frustration or irony — 'of all people/things, it had to be this one'.",
+        "example_de": "Ausgerechnet heute regnet es. / Ausgerechnet er hat gewonnen.",
+        "example_en": "Of all days, it's raining today. / Of all people, he won."
+      },
+      {
+        "type": "explanation",
+        "heading": "Überhaupt — scope and challenge",
+        "body": "'Überhaupt' broadens or challenges the scope of a statement. In questions, it asks whether the premise holds at all ('Do you even want that?'). With negation it intensifies to 'absolutely not' ('Das ist überhaupt kein Problem' = absolutely no problem). It can also mean 'in general'.",
+        "example_de": "Willst du das überhaupt? / Das ist überhaupt kein Problem.",
+        "example_en": "Do you actually want that at all? / That's absolutely no problem whatsoever."
+      },
+      {
+        "type": "explanation",
+        "heading": "Bereits vs. schon — register distinction",
+        "body": "'Bereits' and 'schon' both mean 'already', but they differ in register. 'Schon' is universal in speech and informal writing. 'Bereits' is formal and preferred in official, written, or journalistic German. In a cover letter, use 'bereits'. In conversation, use 'schon'.",
+        "example_de": "Er hat bereits alles erledigt. (formal) / Er hat schon alles erledigt. (everyday)",
+        "example_en": "He has already taken care of everything."
+      }
+    ],
+    "key_rules": [
+      "'Ausgerechnet' marks ironic or unwelcome coincidence — 'of all people/things'. Opposite emotional register from 'sogar'.",
+      "'Überhaupt' challenges whether something applies at all, or intensifies a negation to 'absolutely not'.",
+      "'Wiederum' signals a logical turn or counterpoint — 'in turn', 'on the other hand'.",
+      "'Bereits' = formal 'already'; 'schon' = everyday 'already'. Same meaning, very different register.",
+      "'Freilich' is formal and regional (Austrian/Bavarian) — equivalent to 'natürlich' (affirmation) or 'allerdings' (concession) in standard German."
+    ],
+    "quiz": [
+      {
+        "type": "rule_check",
+        "question": "Which particle marks ironic or unwelcome coincidence — 'of all things'?",
+        "options": ["sogar", "überhaupt", "ausgerechnet", "wiederum"],
+        "correct": 2
+      },
+      {
+        "type": "rule_check",
+        "question": "What does 'überhaupt' do in the question 'Willst du das überhaupt?'",
+        "options": [
+          "It emphasises that the speaker wants it very much",
+          "It challenges whether the listener wants it at all",
+          "It means the speaker is sure the listener wants it",
+          "It restricts the sentence to formal register"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "In formal or written German, which word is preferred for 'already'?",
+        "options": ["schon", "erst", "bereits", "wirklich"],
+        "correct": 2
+      },
+      {
+        "type": "rule_check",
+        "question": "'Freilich' is primarily used in which context?",
+        "options": [
+          "Northern German street slang",
+          "Formal or regional (Austrian/Bavarian) German",
+          "Youth language",
+          "Negations only"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "Which particle signals 'in turn' or 'on the other hand' in a logical sequence?",
+        "options": ["bereits", "wiederum", "ausgerechnet", "freilich"],
+        "correct": 1
+      }
+    ]
+  }
+]

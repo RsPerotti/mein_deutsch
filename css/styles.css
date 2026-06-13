@@ -1986,3 +1986,79 @@ button {
   transform: scale(0.98);
   background: var(--color-green-accent);
 }
+
+/* ─────────────────────────────────────────
+   PARTIKELN MODULE — Session 29
+   ───────────────────────────────────────── */
+
+/* "Alle Partikeln →" button in nav-header (always visible) */
+.particles-alle-nav-btn {
+  font-size: var(--font-size-xs);
+  font-weight: var(--fw-bold);
+  letter-spacing: 0.03em;
+  color: #2D4A1A;
+  background: transparent;
+  border: 1.5px solid #2D4A1A;
+  border-radius: var(--r-lg);
+  padding: 6px 10px;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+  transition: background 0.15s;
+  flex-shrink: 0;
+}
+
+.particles-alle-nav-btn:active {
+  background: rgba(45, 74, 26, 0.1);
+}
+
+/* CEFR filter pills (reuses diff-btn; these override sizing only) */
+.particles-cefr-picker {
+  display: flex;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+  margin: var(--sp-4) 0 var(--sp-2);
+}
+
+.particles-cefr-picker .diff-btn {
+  flex: none;
+  padding: 6px 14px;
+  min-width: 0;
+}
+
+/* Tier section headers (Core / Advanced) */
+.particles-tier-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: var(--sp-2);
+  border-bottom: 1.5px solid var(--color-border);
+  margin-top: var(--sp-5);
+  margin-bottom: var(--sp-3);
+}
+
+.particles-tier-label {
+  font-size: var(--font-size-xs);
+  font-weight: var(--fw-bold);
+  letter-spacing: var(--ls-label);
+  text-transform: uppercase;
+  color: var(--color-text-primary);
+}
+
+.particles-tier-badge {
+  font-size: var(--font-size-xs);
+  font-weight: var(--fw-semibold);
+  color: var(--color-text-muted);
+  letter-spacing: 0.03em;
+}
+
+/* Particle feedback card — shown after every answer in fill_blank_particle */
+.particle-feedback-card {
+  margin: var(--sp-4) var(--sp-2) 0;
+  padding: var(--sp-4);
+  border-left: 3px solid #8DC44A;
+  background: rgba(141, 196, 74, 0.08);
+  border-radius: 0 var(--r-lg) var(--r-lg) 0;
+  color: #2D4A1A;
+  line-height: 1.5;
+}

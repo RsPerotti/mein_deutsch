@@ -18,6 +18,7 @@ const appData = {
   adverbs:      [],
   adjectives:   [],
   prepositions: [],
+  particles:    [],
   exercises:    {}   // keyed by moduleId e.g. 'module_verbs'
 };
 
@@ -107,6 +108,13 @@ function openExercise(moduleId, category, tenseContext) {
 // ─────────────────────────────────────────
 let _verbTenseTab = 'prasens'; // 'prasens' | 'vergangenheit'
 
+// ─────────────────────────────────────────
+// PARTICLES CEFR FILTER STATE
+// Persists across module-home re-renders.
+// ─────────────────────────────────────────
+let _particlesCefr     = localStorage.getItem('app_particles_cefr') || 'A1';
+let _particlesGramOpen = false;  // grammatik accordion open state
+
 function setVerbTenseTab(tab) {
   _verbTenseTab = tab;
   _renderVerbModuleCategories();
@@ -139,6 +147,11 @@ async function loadData() {
     const already = appData.modules.find(m => m.id === 'module_listening');
     if (!already) appData.modules.push(ld.module);
   }
+
+  // Particles module — definitions + exercises bundled in js/particles-data.js
+  const pd = window.PARTICLES_DATA || {};
+  appData.particles                        = pd.particles || [];
+  appData.exercises['module_particles']    = pd.exercises || [];
 }
 
 // ─────────────────────────────────────────
@@ -208,6 +221,8 @@ function _moduleIcon(moduleId) {
       `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" ${sw}><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>`,
     module_listening:
       `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" ${sw}><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>`,
+    module_particles:
+      `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" ${sw}><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/><line x1="9" y1="10" x2="15" y2="10"/><line x1="9" y1="14" x2="13" y2="14"/></svg>`,
   };
   return icons[moduleId] ||
     `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" ${sw}><circle cx="12" cy="12" r="10"/></svg>`;
@@ -265,6 +280,10 @@ function renderModuleHome(moduleId) {
 
   document.getElementById('module-nav-context').textContent = mod.title_en.toUpperCase();
 
+  // Show "Alle Partikeln →" nav button only for particles module
+  const alleBtn = document.getElementById('particles-alle-nav-btn');
+  if (alleBtn) alleBtn.style.display = moduleId === 'module_particles' ? '' : 'none';
+
   if (moduleId === 'module_verbs') {
     _renderVerbModuleCategories();
   } else if (moduleId === 'module_nouns') {
@@ -275,6 +294,8 @@ function renderModuleHome(moduleId) {
     _renderAdjectiveModuleCategories();
   } else if (moduleId === 'module_prepositions') {
     _renderPrepositionModuleCategories();
+  } else if (moduleId === 'module_particles') {
+    _renderParticleModuleCategories();
   }
 }
 
@@ -925,6 +946,175 @@ function _renderPrepositionModuleCategories() {
         <div class="category-card-cta">Üben →</div>
       </div>
     </div>`;
+}
+
+// ─────────────────────────────────────────
+// PARTIKELN MODULE HOME
+// Core (A1–B2) + Advanced (B2–C2) sections
+// CEFR filter: UI only — exercise wiring in Phase 3
+// ─────────────────────────────────────────
+
+function setParticlesCefr(level) {
+  _particlesCefr = level;
+  localStorage.setItem('app_particles_cefr', level);
+  _renderParticleModuleCategories();
+}
+
+function toggleParticlesGrammatikAccordion() {
+  _particlesGramOpen = !_particlesGramOpen;
+  const body    = document.getElementById('particles-gram-body');
+  const chevron = document.getElementById('particles-gram-chevron');
+  if (body)    body.classList.toggle('open', _particlesGramOpen);
+  if (chevron) chevron.style.transform = _particlesGramOpen ? 'rotate(180deg)' : '';
+}
+
+function _renderParticlesGrammatikStrip(lessons) {
+  const total        = lessons.length;
+  const done         = 0;  // Phase 4: wire up Grammar progress for particles
+  const chevronStyle = _particlesGramOpen
+    ? 'style="color:var(--color-text-muted);transition:transform 0.2s;flex-shrink:0;transform:rotate(180deg)"'
+    : 'style="color:var(--color-text-muted);transition:transform 0.2s;flex-shrink:0"';
+  const bodyClass    = _particlesGramOpen ? 'grammatik-accordion-body open' : 'grammatik-accordion-body';
+
+  const rows = lessons.map(l => `
+    <div class="grammatik-row" onclick="alert('Grammatik-Lektionen kommen in Kürze — Phase 4.')">
+      <span class="grammatik-row-dot" style="background:var(--color-text-muted)"></span>
+      <span class="grammatik-row-title">${l.title}</span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+           stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+           style="color:var(--color-text-muted);flex-shrink:0">
+        <polyline points="9 18 15 12 9 6"/>
+      </svg>
+    </div>`).join('');
+
+  return `
+    <div class="grammatik-accordion mt-4">
+      <div class="grammatik-accordion-header" onclick="toggleParticlesGrammatikAccordion()">
+        <div class="grammatik-accordion-left">
+          <span class="grammatik-accordion-label">Grammatik</span>
+          <span class="grammatik-accordion-count">${done} / ${total}</span>
+        </div>
+        <svg id="particles-gram-chevron" width="16" height="16" viewBox="0 0 24 24"
+             fill="none" stroke="currentColor" stroke-width="2.5"
+             stroke-linecap="round" stroke-linejoin="round"
+             ${chevronStyle}>
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </div>
+      <div class="${bodyClass}" id="particles-gram-body">
+        ${rows}
+      </div>
+    </div>`;
+}
+
+function _renderParticleModuleCategories() {
+  const allEx = appData.exercises['module_particles'] || [];
+  const total = appData.particles.length;
+
+  // Per-category exercise counts + done (Phase 3 will filter by CEFR)
+  const catCount = (cat) => allEx.filter(ex => ex.category === cat).length;
+  const catDone  = (cat) => allEx.filter(ex =>
+    ex.category === cat && Progress.getExerciseHistory(ex.id).correct > 0
+  ).length;
+
+  // CEFR filter pills
+  const cefrLevels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+  const cefrPills  = `
+    <div class="particles-cefr-picker">
+      ${cefrLevels.map(l => `
+        <button class="diff-btn${l === _particlesCefr ? ' active' : ''}"
+                onclick="setParticlesCefr('${l}')">${l}</button>
+      `).join('')}
+    </div>`;
+
+  // Grammatik strip — all 8 lessons
+  const allLessons = (window.PARTICLES_DATA || {}).lessons || [];
+  const gramStrip  = _renderParticlesGrammatikStrip(allLessons);
+
+  // CEFR ranges per category (from actual exercise data)
+  const catCefrRange = {
+    'modal-softening':    'A1 – B1',
+    'modal-attitude':     'A1 – B1',
+    'modal-probability':  'A2 – B1',
+    'gradation-focus':    'A1 – B1',
+    'nuanced-connectors': 'B2 – C1',
+    'emphasis-register':  'B2 – C2'
+  };
+
+  // Category card builder
+  // Shows CEFR range so user knows which filter levels apply before tapping
+  const mkCard = (cat, title, subtitle) => {
+    const n    = catCount(cat);
+    const done = catDone(cat);
+    const pct  = n > 0 ? Math.round(done / n * 100) : 0;
+    const range = catCefrRange[cat] || '';
+    return `
+      <div class="category-card" onclick="openExercise('module_particles', '${cat}')">
+        <div class="category-card-title">${title}</div>
+        <div class="category-card-subtitle">${subtitle}</div>
+        <div style="font-size:10px;font-weight:700;letter-spacing:0.05em;color:var(--color-green-accent);
+                    text-transform:uppercase;margin-top:4px">${range}</div>
+        <div class="category-card-count mt-3">${done} / ${n}</div>
+        <div class="progress-bar mt-2">
+          <div class="progress-fill" style="width:${pct}%"></div>
+        </div>
+        <div class="category-card-cta">Üben →</div>
+      </div>`;
+  };
+
+  // Particle count summary card
+  const seenTotal = allEx.filter(ex => Progress.getExerciseHistory(ex.id).correct > 0).length;
+  const pctTotal  = allEx.length > 0 ? Math.round(seenTotal / allEx.length * 100) : 0;
+
+  document.getElementById('module-categories').innerHTML = `
+    <!-- Summary card -->
+    <div class="card" style="cursor:default">
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <div style="flex:1;min-width:0">
+          <div style="font-size:var(--font-size-xs);font-weight:var(--fw-semibold);letter-spacing:var(--ls-label);text-transform:uppercase;color:var(--color-text-secondary);margin-bottom:4px">Particles</div>
+          <div style="display:flex;align-items:baseline;gap:4px">
+            <span style="font-size:var(--font-size-2xl);font-weight:var(--fw-bold)">${total}</span>
+            <span style="font-size:var(--font-size-sm);color:var(--color-text-muted)">total · ${allEx.length} exercises</span>
+          </div>
+          <div class="progress-bar mt-2"><div class="progress-fill" style="width:${pctTotal}%"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CEFR filter (UI only — Phase 3 wires to exercises) -->
+    ${cefrPills}
+
+    <!-- Grammatik accordion (all 8 lessons — Phase 4 wires progress) -->
+    ${gramStrip}
+
+    <!-- ── CORE ── -->
+    <div class="particles-tier-header">
+      <span class="particles-tier-label">Core</span>
+      <span class="particles-tier-badge">A1 – B2</span>
+    </div>
+
+    <div class="category-pair">
+      ${mkCard('modal-softening',   'Softening & Requests', 'mal · ruhig · einfach · bloß · nur')}
+      ${mkCard('modal-attitude',    'Attitude & Knowledge', 'ja · doch · auch · denn · etwa')}
+      ${mkCard('modal-probability', 'Probability',          'wohl · schon · eigentlich · eben · halt')}
+      ${mkCard('gradation-focus',   'Gradation & Focus',    'gar · wirklich · sogar · erst · noch')}
+    </div>
+
+    <!-- ── ADVANCED ── -->
+    <div class="particles-tier-header">
+      <span class="particles-tier-label">Advanced</span>
+      <span class="particles-tier-badge">B2 – C2</span>
+    </div>
+
+    <div class="category-pair">
+      ${mkCard('nuanced-connectors', 'Nuanced Connectors', 'nämlich · allerdings · zwar · immerhin')}
+      ${mkCard('emphasis-register',  'Emphasis & Register', 'ausgerechnet · überhaupt · bereits')}
+    </div>`;
+}
+
+// Placeholder — Phase 5 will build the full reference screen
+function openPartikelliste() {
+  alert('Partikeln-Referenz kommt in Phase 5.');
 }
 
 // ─────────────────────────────────────────

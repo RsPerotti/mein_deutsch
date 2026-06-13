@@ -63,5 +63,16 @@
     "unlock_order": 6,
     "status": "active",
     "type": "reading"
+  },
+  {
+    "id": "module_particles",
+    "title_de": "Partikeln",
+    "title_en": "Particles",
+    "description_en": "34 essential German modal particles — the subtle words that carry attitude, nuance, and register in everyday speech.",
+    "icon": "💬",
+    "data_file": "particles.json",
+    "exercises_file": "exercises-particles.json",
+    "unlock_order": 7,
+    "status": "active"
   }
 ]

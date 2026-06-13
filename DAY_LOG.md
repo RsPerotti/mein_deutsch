@@ -2,6 +2,139 @@
 
 ---
 
+## 2026-06-13 — Session 29-C: Partikeln Phase 3 — Exercise Engine
+
+**Deliverables:**
+- `index.html` — `#particles-cefr-picker-ex` div added to exercise screen (after prep-difficulty-picker). 6 pill buttons: A1–C2. Calls `setParticlesCefrInSession()`.
+- `css/styles.css` — `.particle-feedback-card` (lime left border `#8DC44A`, `rgba(141,196,74,0.08)` tint, `#2D4A1A` text, shown after every answer)
+- `js/exercises.js` — 7 additions:
+  - `_buildQueue()`: particles case — filters by `category` + `cefr` (reads from localStorage)
+  - `startExercise()`: particles context pill ("PARTIKELN · ERWEICHEN" etc.) + show/hide CEFR picker in exercise screen
+  - `_showNext()`: `fill_blank_particle` type routed to new renderer
+  - `_renderFillBlankParticle(ex)`: sentence + `___` blank + 4-option grid + `#particle-feedback-card` container
+  - `selectAnswer()`: normalized to use `correct_answer ?? correct` and `exercise_id ?? id` (backward-compatible). Particles path: no auto-advance on correct, always shows feedback card, no `_unlockWord()`, no `addNeedsReview()`
+  - `_showParticleFeedbackCard(ex, isCorrect)`: fills `#particle-feedback-card` with particle word, category label, full feedback explanation
+  - `setParticlesCefrInSession(level)`: rebuilds queue with new CEFR, updates picker buttons, syncs localStorage
+  - `_updateParticlesCefrPicker(level)`: toggles active class on exercise-screen picker buttons
+  - CEFR-aware empty state: if category has no exercises at selected CEFR, shows which levels are available instead of generic message
+- `js/app.js` — category cards now show CEFR range badge (A1–B1, B2–C1, etc.) so users know the right filter before tapping
+- `service-worker.js` — bumped to v5
+
+**Data verified:**
+- Core categories (modal-softening, modal-attitude, gradation-focus): A1, A2, B1
+- modal-probability: A2, B1
+- nuanced-connectors: B2, C1
+- emphasis-register: B2, C1, C2
+
+**Exercise flow (fill_blank_particle):**
+1. User taps category card on module home
+2. CEFR filter already selected (default A1 or last saved)
+3. `_buildQueue()` filters exercises by category + CEFR
+4. If queue empty → CEFR-aware empty state with available levels
+5. Sentence rendered with `___` blank, 4 options in grid layout
+6. On any answer → particle feedback card shown immediately (no auto-advance)
+7. User taps "Weiter →" to advance
+8. Wrong answers → cooldown queue (max 2 retries)
+
+**Pushed to live:** github.com/RsPerotti/mein_deutsch (v5)
+
+---
+
+## 2026-06-13 — Session 29-B: Partikeln Phase 2 — Module Home UI
+
+**Deliverables:**
+- `data/modules.json` — Partikeln added as 7th module (id: `module_particles`, unlock_order: 7)
+- `index.html` — `particles-data.js` added to script load order; hidden `#particles-alle-nav-btn` added to `screen-module-home` nav-header (shown only when particles module is active)
+- `css/styles.css` — New rules: `.particles-alle-nav-btn` (outline ghost, `#2D4A1A`, always-visible in nav-header), `.particles-cefr-picker` (pill filter row), `.particles-tier-header` / `.particles-tier-label` / `.particles-tier-badge` (Core/Advanced section dividers)
+- `js/app.js` — 7 changes:
+  - `appData.particles` array added
+  - `_particlesCefr` + `_particlesGramOpen` state variables (localStorage-backed)
+  - `loadData()` — loads particles + exercises from `window.PARTICLES_DATA`
+  - `_moduleIcon()` — `module_particles` speech-bubble icon added
+  - `renderModuleHome()` — `module_particles` case + show/hide of `#particles-alle-nav-btn`
+  - `setParticlesCefr(level)` — saves to `app_particles_cefr` localStorage, re-renders
+  - `toggleParticlesGrammatikAccordion()` — grammatik strip accordion handler
+  - `_renderParticlesGrammatikStrip(lessons)` — renders all 8 lesson stubs (all locked; Phase 4 wires progress)
+  - `_renderParticleModuleCategories()` — full module home: summary card, CEFR pills, grammatik strip, Core/Advanced tier sections, 4+2 exercise category cards
+  - `openPartikelliste()` — placeholder (Phase 5)
+
+**Layout:**
+```
+nav-header: [← back] [PARTICLES] [Alle Partikeln →]  ← always visible
+scroll area:
+  Summary card (34 particles, 510 exercises, progress bar)
+  CEFR pills: A1 A2 B1 B2 C1 C2  (saves to localStorage; UI only until Phase 3)
+  Grammatik accordion: 8 lesson stubs (all locked until Phase 4)
+  ── Core · A1–B2 ──
+  [Softening & Requests] [Attitude & Knowledge]
+  [Probability]          [Gradation & Focus]
+  ── Advanced · B2–C2 ──
+  [Nuanced Connectors]   [Emphasis & Register]
+```
+
+**Phase 3 next:** `fill_blank_particle` exercise renderer, particle feedback card (lime left border + dark green text), no auto-advance on correct, CEFR filter wiring.
+
+---
+
+## 2026-06-13 — Session 29: Partikeln Phase 1 — Data Architecture
+
+**Deliverables:**
+- `data/particles.json` — 34 particle definitions (PRD listed ~35; ohnehin + sowieso are separate entries). Full schema per PRD: id, particle, category, cefr, tier, signals, position, examples ×3, contrast_note, related.
+- `data/exercises/exercises-particles.json` — 510 exercises (15 per particle × 34 particles). Type: `fill_blank_particle`. Every exercise has exactly one unambiguous correct answer; distractors are plausible but clearly wrong in sentence context.
+- `data/grammar/particle-lessons.json` — 8 lesson stubs matching `lessons.json` schema: id, title, order, module, unlocks, sections, key_rules, quiz (5 questions each).
+- `js/particles-data.js` — `window.PARTICLES_DATA = { particles, exercises, lessons }`. 326 KB bundled.
+- `service-worker.js` — bumped to v4, `particles-data.js` added to PRECACHE.
+
+**Particle inventory:**
+- Core (A1–B2, 20 particles): mal, ruhig, einfach, bloß, nur / ja, doch, auch, denn, etwa / wohl, schon, eigentlich, eben, halt / gar, wirklich, sogar, erst, noch
+- Advanced (B2–C2, 14 particles): nämlich, allerdings, zwar, immerhin, jedenfalls, ohnehin, sowieso / ausgerechnet, überhaupt, wiederum, wenigstens, zumindest, bereits, freilich
+
+**Exercise categories:** modal-softening, modal-attitude, modal-probability, gradation-focus, nuanced-connectors, emphasis-register
+
+**Lesson structure:** 8 lessons — What Are Particles? / Softening & Requesting / Shared Knowledge & Attitude / Probability & Concession / Gradation & Focus / Doch—The Yes-to-No / Nuanced Connectors (C1) / Emphasis & Register (C2)
+
+**Phase 2 next:** Module home — new module card, Core/Advanced sections, "Alle Partikeln" button, CEFR filter.
+
+---
+
+## 2026-06-13 — Session 28: Partikeln PRD
+
+**Goal:** Start the Particles module. Interview Ricco, research particle taxonomy, write PRD.
+
+**Decisions made:**
+- Particles = standalone 7th module on home screen
+- Two tiers: Core (A1–B2, ~22 particles) + Advanced (C1–C2, ~13 particles) — first module in the app to include C1/C2
+- Exercise type: fill-in-the-blank (pick correct particle to complete a sentence), same CEFR level filter as Prepositions
+- Grammar area: both category-based lessons (8 total) + per-particle reference lookup ("Alle Partikeln")
+- Soft gate: recommend lesson before exercises, do not force it
+- Exercise count: 4 per particle (blueprint rule), 1–2 bonus for high-frequency particles
+
+**Particle taxonomy agreed:**
+- Core: 5 categories (Softening & Requesting / Shared Knowledge & Attitude / Probability & Concession / Gradation & Focus / doch answer particle)
+- Advanced: 2 categories (Nuanced Connectors / Emphasis & Register)
+
+**Output:** `PRD_Partikeln.md` written and signed off.
+
+**Decisions locked:**
+1. 15 exercises per particle (~525 total) — single-answer integrity is the top constraint
+2. "Alle Partikeln" = fixed button at top of module home
+3. eben vs halt = two separate entries with contrast note cross-referencing each other
+4. Particle feedback card: lime left border (`#8DC44A`) + subtle green tint (`rgba(141,196,74,0.08)`), particle name + category + context-specific explanation. Shown after every answer. No auto-advance on correct.
+5. TTS pronunciation: skipped (flat TTS misleads on particles)
+
+**Next session starter:**
+> We're starting the Particles module build (Session 29). PRD signed off — read `PRD_Partikeln.md` and `SOURCE_OF_TRUTH.md` before starting. Begin Phase 1: data architecture.
+>
+> Phase 1 deliverables:
+> 1. `data/particles.json` — all 35 particle definitions using the schema in the PRD. eben and halt are separate entries, each with a `contrast_note` pointing to the other.
+> 2. `data/exercises/exercises-particles.json` — 15 fill_blank_particle exercises per particle (~525 total). Critical constraint: every exercise must have exactly one unambiguous correct answer — if two particles could fit a sentence, rewrite the sentence.
+> 3. `data/grammar/particle-lessons.json` — 8 lesson stubs (same schema as `data/grammar/lessons.json`). Full lesson content can be placeholder for now; flesh out in Phase 6.
+> 4. `js/particles-data.js` — bundle all three as `window.PARTICLES_DATA = { particles: [...], exercises: [...], lessons: [...] }`.
+>
+> Add `particles-data.js` to the SW precache list in `service-worker.js`. Bump the SW cache version.
+
+---
+
 ## 2026-06-13 — Session 27: Grammatik Phase 2 — Lesson Screen + Grammatik Strip
 
 **Goal:** Build the lesson screen renderer and surface the Grammatik section on the Verbs module home.
@@ -26,6 +159,11 @@
 - `_renderVerbModuleCategories()`: injects `${renderGrammatikStrip()}` between the Verbliste summary card and the Übungen label
 
 **Visible result:** Verbs module home now shows a "Grammatik" section with 6 lesson cards above the exercise categories. Tapping a card opens the lesson screen with full explanation, key rules, and a "Quiz starten" CTA. Existing users see all 6 cards as ✅ (auto-granted in Phase 1 migration). New users see 🔒.
+
+**Accordion refactor (same session):**
+Replaced the 6-card vertical strip with a single collapsible accordion card. Collapsed by default. Header shows "GRAMMATIK" label + "X / 6" completion badge + rotating chevron. Expanded body shows compact rows: coloured status dot (grey/amber/green) + lesson title + chevron. Open/closed state held in `_grammatikOpen` (resets on reload). Re-render on tense tab switch correctly restores open state.
+
+Files changed: `css/styles.css` (replaced strip styles with `.grammatik-accordion`, `.grammatik-accordion-body`, `.grammatik-row`), `js/grammar.js` (rewrote `renderGrammatikStrip()`, added `toggleGrammatikAccordion()` + `_grammatikOpen`).
 
 **Next session starter prompt:**
 > We're on Phase 3 of the Grammatik layer (Session 28). Phases 1 and 2 are complete. Phase 3 is the quiz engine: tap "Quiz starten" on any lesson screen → launches a quiz using that lesson's `quiz[]` array. Two question types: `rule_check` (multiple choice, 4 options) and `exercise_ref` (renders an existing exercise from the exercise pool by ID). Scoring: track correct/total. On completion: show score, mark lesson complete if ≥ 80%, call `Grammar.recordQuizResult()`. On fail: option to retry or re-read. Read `SOURCE_OF_TRUTH.md` and `PRD_Grammatik.md` before starting.

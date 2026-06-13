@@ -53,11 +53,27 @@ function startExercise(state) {
   const exercises = _buildQueue(moduleId, category);
 
   if (exercises.length === 0) {
-    // No content yet — show empty state
+    // For particles, give a CEFR-aware message (wrong filter selected for this category)
+    let emptyMsg = 'Noch keine Aufgaben verfügbar.<br>Inhalt wird bald hinzugefügt.';
+    if (moduleId === 'module_particles') {
+      const cefr = localStorage.getItem('app_particles_cefr') || 'A1';
+      const catRanges = {
+        'modal-softening':    'A1, A2, B1',
+        'modal-attitude':     'A1, A2, B1',
+        'modal-probability':  'A2, B1',
+        'gradation-focus':    'A1, A2, B1',
+        'nuanced-connectors': 'B2, C1',
+        'emphasis-register':  'B2, C1, C2'
+      };
+      const available = catRanges[category] || '?';
+      emptyMsg = `Keine Übungen für <strong>${cefr}</strong> in dieser Kategorie.<br>
+        Verfügbare Niveaus: <strong>${available}</strong>.<br>
+        Wähle ein passendes Niveau im Picker oben.`;
+    }
     document.getElementById('exercise-card').innerHTML = `
       <div class="empty-state" style="padding:40px 0">
         <div class="empty-icon">🔧</div>
-        <p>Noch keine Aufgaben verfügbar.<br>Inhalt wird bald hinzugefügt.</p>
+        <p>${emptyMsg}</p>
       </div>`;
     return;
   }
@@ -75,6 +91,16 @@ function startExercise(state) {
     contextLabel = 'ADJEKTIVE · GRUNDFORMEN';
   } else if (moduleId === 'module_prepositions') {
     contextLabel = 'PRÄPOSITIONEN · ÜBUNGEN';
+  } else if (moduleId === 'module_particles') {
+    const catLabels = {
+      'modal-softening':    'ERWEICHEN',
+      'modal-attitude':     'EINSTELLUNG',
+      'modal-probability':  'WAHRSCHEINLICHKEIT',
+      'gradation-focus':    'GRADUIERUNG',
+      'nuanced-connectors': 'KONNEKTOREN',
+      'emphasis-register':  'AUSDRUCK'
+    };
+    contextLabel = 'PARTIKELN · ' + (catLabels[category] || category.toUpperCase());
   } else {
     const tcLabel = tenseContext === 'vergangenheit' ? 'VERGANGENHEIT' : 'PRÄSENS';
     const catLabel = category === 'roots' ? 'STAMMVERBEN' : 'VARIATIONEN';
@@ -88,6 +114,15 @@ function startExercise(state) {
     prepPicker.style.display = moduleId === 'module_prepositions' ? 'block' : 'none';
     if (moduleId === 'module_prepositions') {
       _updateDifficultyPicker(Progress.getPrepositionsDifficulty());
+    }
+  }
+
+  // Show/hide CEFR picker for particles
+  const particlesPicker = document.getElementById('particles-cefr-picker-ex');
+  if (particlesPicker) {
+    particlesPicker.style.display = moduleId === 'module_particles' ? 'block' : 'none';
+    if (moduleId === 'module_particles') {
+      _updateParticlesCefrPicker(localStorage.getItem('app_particles_cefr') || 'A1');
     }
   }
 
@@ -130,6 +165,12 @@ function _buildQueue(moduleId, category) {
   if (moduleId === 'module_prepositions') {
     const difficulty = Progress.getPrepositionsDifficulty();
     return _shuffle(all.filter(ex => ex.difficulty === difficulty));
+  }
+
+  // Particles — filter by category (from openExercise) + CEFR level (from localStorage)
+  if (moduleId === 'module_particles') {
+    const cefr = localStorage.getItem('app_particles_cefr') || 'A1';
+    return _shuffle(all.filter(ex => ex.category === category && ex.cefr === cefr));
   }
 
   // Full queue — no session cap. User works through all exercises until complete.
@@ -215,6 +256,8 @@ function _showNext() {
   } else if (ex.type === 'conjugation_table') {
     card.innerHTML = _renderConjugationTable(ex);
     setTimeout(() => document.getElementById('input-ich')?.focus(), 80);
+  } else if (ex.type === 'fill_blank_particle') {
+    card.innerHTML = _renderFillBlankParticle(ex);
   } else {
     card.innerHTML = _renderTranslateWord(ex); // fallback
   }
@@ -455,6 +498,37 @@ function _renderSelectCase(ex) {
         </button>`).join('')}
     </div>
     <div class="feedback-text" id="feedback"></div>`;
+}
+
+// --- Render: fill_blank_particle ---
+// Sentence with a ___ gap; learner picks the correct particle from 4 options.
+// Schema: { id, sentence_de, sentence_en, options[4], correct, cefr, category, feedback }
+// Unique: no auto-advance on correct — particle feedback card shown after every answer.
+function _renderFillBlankParticle(ex) {
+  const sentDE  = ex.sentence_de || '';
+  const sentEN  = ex.sentence_en || '';
+  const options = _shuffle([...ex.options]);
+
+  // Replace ___ (3 underscores as used in particles exercises)
+  const sentHtml = _esc(sentDE).replace('___',
+    '<span class="exercise-blank" id="blank-span"></span>');
+
+  return `
+    <div class="exercise-meta">
+      <div class="exercise-counter">FRAGE ${session.correctCount + 1}</div>
+      <div class="exercise-type-label">Partikel · ${_esc(ex.cefr || '')}</div>
+    </div>
+    <div class="exercise-sentence">${sentHtml}</div>
+    <div class="exercise-translation" id="ex-translation">${_esc(sentEN)}</div>
+    <div class="options-grid" id="opts">
+      ${options.map(opt => `
+        <button class="option-btn grid-opt"
+                data-answer="${_esc(opt)}"
+                onclick="selectAnswer(this)">
+          <span class="opt-word">${_esc(opt)}</span>
+        </button>`).join('')}
+    </div>
+    <div id="particle-feedback-card" class="particle-feedback-card" style="display:none"></div>`;
 }
 
 // --- Render: partizip_ii ---
@@ -706,9 +780,12 @@ function selectAnswer(btn) {
   if (session.answered) return;
   session.answered = true;
 
-  const chosen  = btn.dataset.answer;
-  const correct = session.current.correct_answer;
-  const isRight = chosen === correct;
+  const chosen     = btn.dataset.answer;
+  // Particles use { correct, id }; other modules use { correct_answer, exercise_id }
+  const correct    = session.current.correct_answer ?? session.current.correct;
+  const exKey      = session.current.exercise_id    ?? session.current.id;
+  const isRight    = chosen === correct;
+  const isParticle = session.moduleId === 'module_particles';
 
   // Disable all buttons
   document.querySelectorAll('#opts .option-btn').forEach(b => {
@@ -718,18 +795,23 @@ function selectAnswer(btn) {
   if (isRight) {
     btn.classList.add('state-correct');
     session.correctCount++;
-    Progress.recordResult(session.current.exercise_id, true);
-    // Prepositions have no word unlock mechanic — skip for that module
-    if (session.moduleId !== 'module_prepositions') {
+    Progress.recordResult(exKey, true);
+    // Particles have no word-unlock mechanic; prepositions likewise skip it
+    if (!isParticle && session.moduleId !== 'module_prepositions') {
       _unlockWord(session.current.word_id);
     }
 
-    // Fill blank (if fill_blank / select_preposition type)
     _fillBlank(chosen, true);
 
-    // Green flash → auto-advance after 1.5s
-    _flash('green');
-    setTimeout(() => _showNext(), 1500);
+    if (isParticle) {
+      // No auto-advance — show feedback card, require manual Weiter →
+      _showParticleFeedbackCard(session.current, true);
+      document.getElementById('next-btn').style.display = 'block';
+    } else {
+      // All other modules: green flash → auto-advance after 1.5s
+      _flash('green');
+      setTimeout(() => _showNext(), 1500);
+    }
 
   } else {
     btn.classList.add('state-wrong');
@@ -739,26 +821,29 @@ function selectAnswer(btn) {
       if (b.dataset.answer === correct) b.classList.add('state-correct');
     });
 
-    // Fill blank with wrong answer highlighted
     _fillBlank(chosen, false);
 
-    // Show explanation
-    const fb = document.getElementById('feedback');
-    if (fb && session.current.explanation_en) {
-      fb.textContent = session.current.explanation_en;
-      fb.style.display = 'block';
+    if (isParticle) {
+      // Particle: show feedback card (includes correct answer + explanation)
+      _showParticleFeedbackCard(session.current, false);
+    } else {
+      // Other modules: plain text explanation
+      const fb = document.getElementById('feedback');
+      if (fb && session.current.explanation_en) {
+        fb.textContent = session.current.explanation_en;
+        fb.style.display = 'block';
+      }
     }
 
-    Progress.recordResult(session.current.exercise_id, false);
+    Progress.recordResult(exKey, false);
 
     // Cooldown logic (Section 11.3)
-    // Use exercise_id as key for prepositions (no word_id); word_id for other modules
-    const retryKey = session.current.word_id || session.current.exercise_id;
+    const retryKey = session.current.word_id || exKey;
     session.retries[retryKey] = (session.retries[retryKey] || 0) + 1;
     if (session.retries[retryKey] <= 2) {
-      session.cooldown.push(session.current); // back to queue
-    } else if (session.moduleId !== 'module_prepositions') {
-      Progress.addNeedsReview(retryKey);      // persistent review flag (not for prepositions)
+      session.cooldown.push(session.current);
+    } else if (!isParticle && session.moduleId !== 'module_prepositions') {
+      Progress.addNeedsReview(retryKey);
     }
 
     _flash('red');
@@ -1020,6 +1105,74 @@ function _updateDifficultyPicker(level) {
     const btn = document.getElementById('diff-' + l);
     if (btn) btn.classList.toggle('active', l === level);
   });
+}
+
+// ═══════════════════════════════════════════════════════
+// PARTICLES CEFR PICKER  (in-session CEFR level switcher)
+// ═══════════════════════════════════════════════════════
+
+// Called by #particles-cefr-picker-ex buttons in index.html
+function setParticlesCefrInSession(level) {
+  // Keep app.js state + localStorage in sync
+  if (typeof _particlesCefr !== 'undefined') {
+    // _particlesCefr is a let in app.js — update it via the app.js setter which also re-renders home
+    // but we're mid-session so just update localStorage + module-home state directly
+  }
+  localStorage.setItem('app_particles_cefr', level);
+  _updateParticlesCefrPicker(level);
+
+  // Rebuild queue with new CEFR level, preserving session stats
+  const exercises  = _buildQueue('module_particles', session.category);
+  session.queue    = _shuffle([...exercises]);
+  session.cooldown = [];
+  session.current  = null;
+  session.answered = false;
+  _updateChips();
+  _showNext();
+}
+
+function _updateParticlesCefrPicker(level) {
+  ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].forEach(l => {
+    const btn = document.getElementById('ex-cefr-' + l);
+    if (btn) btn.classList.toggle('active', l === level);
+  });
+}
+
+// --- Particle feedback card ---
+// Shown after EVERY answer (correct AND wrong) for fill_blank_particle exercises.
+// Lime left border + green tint background + dark green text.
+// Includes: correct particle (bold), category label, full feedback explanation.
+function _showParticleFeedbackCard(ex, isCorrect) {
+  const card = document.getElementById('particle-feedback-card');
+  if (!card) return;
+
+  const categoryLabels = {
+    'modal-softening':    'Modal Particle — Softening',
+    'modal-attitude':     'Modal Particle — Attitude',
+    'modal-probability':  'Modal Particle — Probability',
+    'gradation-focus':    'Focus Particle — Gradation',
+    'nuanced-connectors': 'Connector Particle',
+    'emphasis-register':  'Emphasis Particle'
+  };
+  const catLabel   = categoryLabels[ex.category] || ex.category;
+  const correct    = ex.correct || ex.correct_answer || '';
+  const resultLine = isCorrect ? '' :
+    `<div style="font-size:var(--font-size-xs);font-weight:var(--fw-semibold);
+                 color:#3D6020;margin-bottom:6px;letter-spacing:0.03em">
+       Richtig: <strong>${_esc(correct)}</strong>
+     </div>`;
+
+  card.innerHTML = `
+    ${resultLine}
+    <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:4px">
+      <span style="font-size:var(--font-size-xl);font-weight:var(--fw-bold)">${_esc(correct)}</span>
+      <span style="font-size:var(--font-size-xs);color:#2D4A1A;opacity:0.7;
+                   letter-spacing:0.04em;text-transform:uppercase">${_esc(catLabel)}</span>
+    </div>
+    <div style="font-size:var(--font-size-sm)">${_esc(ex.feedback || '')}</div>`;
+
+  card.style.display = 'block';
+  _flash(isCorrect ? 'green' : 'red');
 }
 
 // ═══════════════════════════════════════════════════════

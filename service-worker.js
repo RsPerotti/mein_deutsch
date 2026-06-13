@@ -3,13 +3,15 @@
  * Strategy: cache-first for all app assets.
  * v2: adds listening module files + audio Range request handling.
  * v3: QoL fixes (gesture nav, layout, exercise data cleanup).
+ * v4: adds particles-data.js (Partikeln module — Session 29).
+ * v5: Partikeln Phase 2+3 — module home UI + fill_blank_particle exercise engine.
  *
  * DEPLOY NOTE: bump the CACHE version string on every push that changes
  * JS/CSS files. The browser only installs a new SW when this file changes.
  * If the version is not bumped, users keep running the old cached code.
  */
 
-const CACHE = 'mein-deutsch-v3';
+const CACHE = 'mein-deutsch-v5';
 
 const PRECACHE = [
   './',
@@ -17,6 +19,7 @@ const PRECACHE = [
   './css/styles.css',
   './js/data.js',
   './js/listening-data.js',
+  './js/particles-data.js',
   './js/app.js',
   './js/progress.js',
   './js/exercises.js',

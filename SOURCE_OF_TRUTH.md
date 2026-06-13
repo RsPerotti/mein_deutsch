@@ -1,5 +1,5 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-06-13 — Session 27 (Grammatik Phase 2: lesson screen + Grammatik strip)*
+*Last updated: 2026-06-13 — Session 29-C (Partikeln Phase 3 complete, pushed to live)*
 
 ---
 
@@ -17,19 +17,19 @@
 |---|---|---|
 | `index.html` | ✅ Updated | Screens: Home, Word List, Module Home, Exercise, Verbliste, Nomenliste, Adverbliste, Adjektivliste, **Präpositionsliste**, **Listening List**, **Listening Reader**, Results. Static module progress card removed from Module Home. |
 | `css/styles.css` | ✅ Updated | Full design system. Added `.home-modules-grid`, `.module-card-grid`, `.pill-toggle-btn`, `.pill-read-btn`. Old `.listening-toggle-btn`, `.listening-read-btn` (circle) replaced. |
-| `js/app.js` | ✅ Updated | Module cards: 2-column grid, no icons, no eyebrow. Nav-context shows module title in caps. All 5 word module renderers: merged unlocked-count+list card. Prepositions: Niveau text removed from exercise card. **Phase 3: `_verbTenseTab` state + `setVerbTenseTab()`; tense-tab toggle in `_renderVerbModuleCategories()`; tenseContext passed to `openExercise()`.** **Hotfix: load order changed to prefer `exercises.module_verbs` (2,075) over stale `exercises_verbs` (936).** **Session 24: History API wired into `navigateTo()` + `popstate` listener for Android gesture back.** |
+| `js/app.js` | ✅ Updated | Module cards: 2-column grid, no icons, no eyebrow. Nav-context shows module title in caps. All 5 word module renderers: merged unlocked-count+list card. Prepositions: Niveau text removed from exercise card. **Phase 3: `_verbTenseTab` state + `setVerbTenseTab()`; tense-tab toggle in `_renderVerbModuleCategories()`; tenseContext passed to `openExercise()`.** **Hotfix: load order changed to prefer `exercises.module_verbs` (2,075) over stale `exercises_verbs` (936).** **Session 24: History API wired into `navigateTo()` + `popstate` listener for Android gesture back.** **Session 29-B: `appData.particles`, `_particlesCefr`, `_particlesGramOpen` state, particles loading in `loadData()`, `module_particles` icon, `renderModuleHome()` updated, `_renderParticleModuleCategories()`, `setParticlesCefr()`, `_renderParticlesGrammatikStrip()`, `toggleParticlesGrammatikAccordion()`, `openPartikelliste()` stub.** |
 | `js/progress.js` | ✅ Updated | Root/variant split for nouns. Adjectives key. **Prepositions difficulty key** (`app_prepositions_difficulty`). **`app_articles_read` key** + `markArticleRead` / `isArticleRead` / `getReadArticles`. |
 | `js/exercises.js` | ✅ Updated | Nouns, adjectives, **prepositions** in queue builder. Two new renderers: `select_preposition`, `select_case`. Inline difficulty switcher. **`_ensureFirstExposure()`** guarantees translate_word is first for new words. **Parenthetical hints removed from all conjugation exercises.** **`returnFromResults` + `returnHome` fix nav stack bug.** **Phase 2: `partizip_ii`, `auxiliary_choice`, `conjugation_table` handlers + `checkPartizipII()` + `submitConjugationTable()`.** **Phase 3: `startExercise()` reads tenseContext; `_buildQueue()` filters by tense; `setVerbTense()` + `_updateVerbTensePicker()`; `_verbMetaBadge()` injects Regular/Irregular + case badge.** **Session 24: `_showResults()` replaced with `returnFromResults()` in both call sites — results screen no longer shown.** |
 | `js/wordpractice.js` | ✅ Built | Adjektive class in WLP_CLASSES picker |
 | `js/wordlist.js` | ✅ Updated | Adjectives in buildWordObjects(). **Case dot helpers** (`_normalizeCase`, `_renderCaseDots`, `showCaseLegend`, `hideCaseLegend`). Verb cards show case dots on left; MIXED/STRONG/WEAK labels removed; dotted gray circle for verbs with no case. |
-| `data/modules.json` | ✅ Updated | **5 modules**: Verbs + Nouns + Adjectives + Adverbs + **Prepositions** (all active) |
+| `data/modules.json` | ✅ Updated | **7 modules**: Verbs + Nouns + Adjectives + Adverbs + Prepositions + Listening + **Particles** (all active) |
 | `js/data.js` | ✅ **Bundled** | Format: `window.APP_DATA = {…}`. All content embedded. **Total verb exercises: 2,075 (992 existing Präsens + 1,083 new Vergangenheit). Phase 1 data: `prateritum` + Perfekt on all 248 verbs. Phase 2: all new exercises bundled with `tense` field for tab routing. Session 24: 188 parenthetical hints stripped from `question.de` fields.** |
 | `js/listening-data.js` | ✅ **New** | Format: `window.LISTENING_DATA = {module, articles[]}`. 45 articles with transcripts + vocabulary. 212 KB. |
 | `js/listening.js` | ✅ **New** | Article list renderer, reader, vocab highlighting, audio caching, read-state. |
 | `data/verbs.json` | ✅ **91 root verbs** | Audit complete. 23 moves/removes, 14 new bases added. |
 | `data/exercises/exercises-verbs.json` | ✅ **2,075 exercises** | 992 Präsens exercises + 1,083 new Vergangenheit (248 partizip_ii + 248 auxiliary_choice + 587 conjugation_table). All new exercises have `tense` field. |
 | `manifest.json` | ✅ Built | PWA config |
-| `service-worker.js` | ✅ Updated | **v3.** Cache-first. PRECACHE includes listening-data.js + listening.js. Caches `/content/listening/` on first access. Range request handler for audio. **Deploy rule: bump CACHE version on every push that changes JS/CSS.** |
+| `service-worker.js` | ✅ Updated | **v4.** Cache-first. PRECACHE includes listening-data.js + particles-data.js + listening.js. Caches `/content/listening/` on first access. Range request handler for audio. **Deploy rule: bump CACHE version on every push that changes JS/CSS.** |
 | `icons/` | ✅ Done | icon-192 + icon-512, speech bubble "de", #85B7EB |
 | `data/nouns.json` | ✅ **175 nouns** | A1–B2. 97 roots + 78 variations. `section` + `formation` fields. |
 | `data/exercises/exercises-nouns.json` | ✅ **525 exercises** | 175 × 3 (fill_blank ×2 + translate_word ×1) |
@@ -41,7 +41,7 @@
 | `data/exercises/exercises-prepositions.json` | ✅ **158 exercises** | 79 select_preposition + 79 select_case. Difficulty: A1×42, A2×10, B1×74, B2×32. |
 | `data/grammar/lessons.json` | ✅ **New** | 6 lessons with sections, key_rules, and quiz questions (rule_check + exercise_ref). Lesson 1 has no unlock target; lessons 2–6 each gate a category. |
 | `js/grammar-data.js` | ✅ **New** | `window.GRAMMAR_DATA` — lessons array bundled for offline use. Generated from lessons.json. |
-| `js/grammar.js` | ✅ **Updated** | `Grammar` object: `getLessonState()`, `setLessonState()`, `isComplete()`, `markStarted()`, `recordQuizResult()`, `isCategoryUnlocked()`, `init()` migration. `PASS_THRESHOLD = 0.8`. **Session 27: added `renderGrammarLesson()`, `openLesson()`, `startGrammarQuiz()` stub, `renderGrammatikStrip()`.** |
+| `js/grammar.js` | ✅ **Updated** | `Grammar` object: `getLessonState()`, `setLessonState()`, `isComplete()`, `markStarted()`, `recordQuizResult()`, `isCategoryUnlocked()`, `init()` migration. `PASS_THRESHOLD = 0.8`. **Session 27: added `renderGrammarLesson()`, `openLesson()`, `startGrammarQuiz()` stub, `renderGrammatikStrip()`, `toggleGrammatikAccordion()`, `_grammatikOpen`.** |
 
 ## Design System
 
@@ -101,6 +101,70 @@
 - **Remote URL:** `git@github.com:RsPerotti/mein_deutsch.git` (SSH, not HTTPS)
 - **To push:** `git push origin main` — no password prompt, works automatically
 
+## Partikeln Module
+
+*PRD signed off: 2026-06-13 — Session 28. Phase 1 complete: Session 29. Phase 2 complete: Session 29-B.*
+
+**Concept:** Standalone 7th module. Teaches German particles — the words (doch, mal, ja, wohl, eigentlich, gar, etc.) that make speech sound natural. Two tiers: Core (A1–B2) and Advanced (C1–C2). First module in the app to include C1/C2 content.
+
+**Two areas:**
+1. **Category exercises** — fill-in-the-blank sentences, CEFR level filter (default A1), same UX as Prepositions
+2. **Grammar curriculum** — 8 category lessons (soft-gated) + "Alle Partikeln" reference lookup per particle
+
+**Content:**
+
+| Tier | Categories | Particles |
+|---|---|---|
+| Core (A1–B2) | Softening & Requesting / Shared Knowledge & Attitude / Probability & Concession / Gradation & Focus / doch answer particle | ~22 |
+| Advanced (C1–C2) | Nuanced Connectors / Emphasis & Register | ~13 |
+
+**Key decisions:**
+- Soft gate (recommend lesson, don't force)
+- **15 exercises per particle** (~525 total) — single-answer integrity is the top constraint
+- No auto-advance on correct answer — particle feedback card shown after every answer
+- Particle feedback card: lime left border + subtle green tint, particle name + category + context explanation
+- Per-particle reference card: signals, position, 3 examples, contrast note, related particles
+- eben and halt = two separate entries with contrast note cross-referencing each other
+- "Alle Partikeln" = fixed button at top of module home
+- TTS pronunciation: skipped (flat TTS misleads on particles where intonation carries meaning)
+
+**Files built (Phase 1):** `data/particles.json` ✅, `data/exercises/exercises-particles.json` ✅, `data/grammar/particle-lessons.json` ✅, `js/particles-data.js` ✅ (326 KB, `window.PARTICLES_DATA`). SW bumped to v4.
+**Files updated (Phase 2):** `data/modules.json` ✅, `index.html` ✅, `css/styles.css` ✅ (`.particles-alle-nav-btn`, `.particles-cefr-picker`, `.particles-tier-header`), `js/app.js` ✅ (particles loading, icon, module home renderer, CEFR filter state, grammatik strip, openPartikelliste stub)
+**Files updated (Phase 3):** `index.html` ✅ (CEFR picker in exercise screen), `css/styles.css` ✅ (`.particle-feedback-card`), `js/exercises.js` ✅ (fill_blank_particle renderer + feedback card + CEFR-aware queue + particles selectAnswer path), `js/app.js` ✅ (CEFR range badges on category cards), `service-worker.js` ✅ (v5)
+**New localStorage keys:** `app_particles_lesson`, `app_particles_cefr` (default `A1`)
+**Full PRD:** `PRD_Partikeln.md`
+
+**Module home layout:**
+- `#particles-alle-nav-btn` lives in nav-header (always visible, outside scroll area)
+- Summary card + CEFR pills + Grammatik accordion in scroll area
+- Core section: 4 cards (modal-softening / modal-attitude / modal-probability / gradation-focus), each showing CEFR range badge
+- Advanced section: 2 cards (nuanced-connectors / emphasis-register)
+- CEFR filter: stores to localStorage, wired to exercise queue (Phase 3 ✅)
+- Grammatik lessons: all locked (progress wired in Phase 4)
+
+**Exercise flow (fill_blank_particle):**
+- Sentence rendered with `___` blank, 4 grid options (shuffled)
+- On any answer → `.particle-feedback-card` shown immediately (particle + category label + full feedback)
+- No auto-advance on correct — always requires manual "Weiter →"
+- CEFR-aware empty state if filter/category mismatch (shows available levels)
+
+**CEFR coverage per category:**
+- modal-softening, modal-attitude, gradation-focus: A1, A2, B1
+- modal-probability: A2, B1
+- nuanced-connectors: B2, C1
+- emphasis-register: B2, C1, C2
+
+**Build phases (8–10 sessions est.):**
+1. ~~Data architecture~~ ✅ Session 29
+2. ~~Module home + CEFR filter~~ ✅ Session 29-B
+3. ~~Exercise engine (fill_blank_particle renderer + particle feedback card)~~ ✅ Session 29-C
+4. Grammar lessons (reuse Verbs renderer, soft gate prompt)
+5. Per-particle reference screen
+6. Content review pass
+7. QA + deploy
+
+---
+
 ## Grammatik Curriculum Layer
 
 *PRD written: 2026-06-13 — Session 25. Status: signed off. Build not yet started.*
@@ -155,6 +219,7 @@
 
 **After Vergangenheit:**
 - **Grammatik curriculum layer — PRD signed off ✅. Ready to build. See "Grammatik Curriculum Layer" section above.**
+- **Partikeln module — PRD signed off ✅. Ready to build. See "Partikeln Module" section above.**
 - Articles module reimagined with gender-pattern rules
 - Deklinationen area for Adjectives
 6. **Lesen & Hören — more years** — run crawler on 2025, 2024 archives; re-bundle listening-data.js
