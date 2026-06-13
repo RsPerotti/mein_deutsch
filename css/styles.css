@@ -1756,85 +1756,99 @@ button {
 }
 
 /* ═══════════════════════════════════════════════════════
-   GRAMMATIK — Lesson strip on Verbs module home
+   GRAMMATIK — Accordion on Verbs module home
    ═══════════════════════════════════════════════════════ */
 
-.grammatik-strip {
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-2);
-  margin-bottom: var(--sp-2);
-}
-
-.grammatik-lesson-card {
+.grammatik-accordion {
   background: var(--color-surface);
   border: 1.5px solid var(--color-border);
   border-radius: var(--r-md);
-  padding: var(--sp-3) var(--sp-4);
+  overflow: hidden;
+  margin-bottom: var(--sp-2);
+}
+
+.grammatik-accordion-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: var(--sp-3);
+  padding: var(--sp-3) var(--sp-4);
   cursor: pointer;
-  transition: background 0.15s;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+.grammatik-accordion-header:active { background: var(--color-surface-2); }
+
+.grammatik-accordion-left {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+}
+
+.grammatik-accordion-label {
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-bold);
+  color: var(--color-text-primary);
+  letter-spacing: var(--ls-label);
+  text-transform: uppercase;
+}
+
+.grammatik-accordion-count {
+  font-size: var(--font-size-xs);
+  font-weight: var(--fw-semibold);
+  color: var(--color-green-accent);
+  background: var(--color-tag-bg);
+  padding: 2px 8px;
+  border-radius: var(--r-full);
+}
+
+/* Collapsible body */
+.grammatik-accordion-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.25s ease;
+}
+.grammatik-accordion-body.open {
+  max-height: 500px; /* enough for 6 rows */
+}
+
+/* Divider between header and rows */
+.grammatik-accordion-body.open::before {
+  content: '';
+  display: block;
+  height: 1px;
+  background: var(--color-border);
+  margin: 0 var(--sp-4);
+}
+
+/* Individual lesson row */
+.grammatik-row {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: var(--sp-3) var(--sp-4);
+  cursor: pointer;
   -webkit-tap-highlight-color: transparent;
 }
-.grammatik-lesson-card:active { background: var(--color-surface-2); }
-
-.grammatik-lesson-card.status-complete {
-  border-color: var(--color-green-accent);
-  background: #F2F8EC;
+.grammatik-row:active { background: var(--color-surface-2); }
+.grammatik-row + .grammatik-row {
+  border-top: 1px solid var(--color-border);
 }
 
-.grammatik-lesson-card-left {
-  display: flex;
-  align-items: center;
-  gap: var(--sp-3);
-  flex: 1;
-  min-width: 0;
-}
-
-.grammatik-lesson-status-icon {
-  width: 28px;
-  height: 28px;
+.grammatik-row-dot {
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 13px;
-}
-.grammatik-lesson-status-icon.locked {
-  background: var(--color-surface-2);
-  border: 1.5px solid var(--color-border);
-}
-.grammatik-lesson-status-icon.in_progress {
-  background: #FEF3C7;
-  border: 1.5px solid #FDE68A;
-}
-.grammatik-lesson-status-icon.complete {
-  background: var(--color-tag-bg);
-  border: 1.5px solid var(--color-green-accent);
 }
 
-.grammatik-lesson-title {
+.grammatik-row-title {
   font-size: var(--font-size-sm);
-  font-weight: var(--fw-semibold);
   color: var(--color-text-primary);
+  flex: 1;
+  min-width: 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-.grammatik-lesson-subtitle {
-  font-size: var(--font-size-xs);
-  color: var(--color-text-secondary);
-  margin-top: 2px;
-}
-
-.grammatik-lesson-chevron {
-  color: var(--color-text-muted);
-  flex-shrink: 0;
 }
 
 /* ═══════════════════════════════════════════════════════

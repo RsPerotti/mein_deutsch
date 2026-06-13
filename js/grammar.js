@@ -262,68 +262,79 @@ function startGrammarQuiz(lessonId) {
 }
 
 // ─────────────────────────────────────────
-// GRAMMATIK STRIP — used by app.js
+// GRAMMATIK ACCORDION — used by app.js
 // ─────────────────────────────────────────
 
+// Accordion open/closed state — persists within the session, resets on reload.
+// Default: closed (saves space on module home).
+let _grammatikOpen = false;
+
 /**
- * Returns HTML for the Grammatik lesson strip shown on the Verbs module home.
- * Each card shows lesson title, status icon, and opens the lesson screen on tap.
+ * Toggle the accordion open/closed.
+ * Called from the accordion header's onclick.
+ */
+function toggleGrammatikAccordion() {
+  _grammatikOpen = !_grammatikOpen;
+  const body    = document.getElementById('grammatik-accordion-body');
+  const chevron = document.getElementById('grammatik-accordion-chevron');
+  if (!body || !chevron) return;
+  body.classList.toggle('open', _grammatikOpen);
+  chevron.style.transform = _grammatikOpen ? 'rotate(180deg)' : '';
+}
+
+/**
+ * Returns HTML for the Grammatik accordion shown on the Verbs module home.
+ * Collapsed by default; tap the header to expand.
  */
 function renderGrammatikStrip() {
   const lessons = (typeof GRAMMAR_DATA !== 'undefined') ? GRAMMAR_DATA : [];
+  const total   = lessons.length;
+  const done    = lessons.filter(l => Grammar.isComplete(l.id)).length;
 
-  // Status icon content per status
-  const icons = {
-    locked:      `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                    stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
-                    style="color:var(--color-text-muted)">
-                    <rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/>
-                  </svg>`,
-    in_progress: `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                    stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
-                    style="color:#92400E">
-                    <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
-                  </svg>`,
-    complete:    `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
-                    style="color:var(--color-green-accent)">
-                    <polyline points="20 6 9 17 4 12"/>
-                  </svg>`
+  // Dot colour per status
+  const dotColor = {
+    locked:      'var(--color-text-muted)',
+    in_progress: '#D97706',
+    complete:    'var(--color-green-accent)'
   };
 
-  // Subtitle per status
-  const subtitles = {
-    locked:      'Noch nicht gestartet',
-    in_progress: 'In Bearbeitung',
-    complete:    'Abgeschlossen'
-  };
-
-  const cards = lessons.map(lesson => {
+  const rows = lessons.map(lesson => {
     const state  = Grammar.getLessonState(lesson.id);
     const status = state.status || 'locked';
-    const icon   = icons[status] || icons.locked;
-
+    const color  = dotColor[status] || dotColor.locked;
     return `
-      <div class="grammatik-lesson-card status-${status}"
-           onclick="openLesson('${lesson.id}')">
-        <div class="grammatik-lesson-card-left">
-          <div class="grammatik-lesson-status-icon ${status}">${icon}</div>
-          <div style="min-width:0">
-            <div class="grammatik-lesson-title">${lesson.title}</div>
-            <div class="grammatik-lesson-subtitle">${subtitles[status]}</div>
-          </div>
-        </div>
-        <svg class="grammatik-lesson-chevron" width="16" height="16" viewBox="0 0 24 24"
-             fill="none" stroke="currentColor" stroke-width="2.5"
-             stroke-linecap="round" stroke-linejoin="round">
+      <div class="grammatik-row" onclick="openLesson('${lesson.id}')">
+        <span class="grammatik-row-dot" style="background:${color}"></span>
+        <span class="grammatik-row-title">${lesson.title}</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+             style="color:var(--color-text-muted);flex-shrink:0">
           <polyline points="9 18 15 12 9 6"/>
         </svg>
       </div>`;
   }).join('');
 
+  // Reflect in-session open state on re-render (e.g. tense tab switch)
+  const bodyClass     = _grammatikOpen ? 'grammatik-accordion-body open' : 'grammatik-accordion-body';
+  const chevronStyle  = _grammatikOpen ? 'style="color:var(--color-text-muted);transition:transform 0.2s;flex-shrink:0;transform:rotate(180deg)"'
+                                       : 'style="color:var(--color-text-muted);transition:transform 0.2s;flex-shrink:0"';
+
   return `
-    <div class="label mt-4" style="color:var(--color-text-primary);margin-bottom:var(--sp-3)">
-      Grammatik
-    </div>
-    <div class="grammatik-strip">${cards}</div>`;
+    <div class="grammatik-accordion mt-4">
+      <div class="grammatik-accordion-header" onclick="toggleGrammatikAccordion()">
+        <div class="grammatik-accordion-left">
+          <span class="grammatik-accordion-label">Grammatik</span>
+          <span class="grammatik-accordion-count">${done} / ${total}</span>
+        </div>
+        <svg id="grammatik-accordion-chevron" width="16" height="16" viewBox="0 0 24 24"
+             fill="none" stroke="currentColor" stroke-width="2.5"
+             stroke-linecap="round" stroke-linejoin="round"
+             ${chevronStyle}>
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </div>
+      <div class="${bodyClass}" id="grammatik-accordion-body">
+        ${rows}
+      </div>
+    </div>`;
 }

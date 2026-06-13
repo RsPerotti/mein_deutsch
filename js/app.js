@@ -330,7 +330,7 @@ function _renderVerbModuleCategories() {
       </div>
     </div>
 
-    <!-- Grammatik strip (lesson cards) -->
+    <!-- Grammatik accordion -->
     ${renderGrammatikStrip()}
 
     <!-- Section label -->
