@@ -2,6 +2,89 @@
 
 ---
 
+## 2026-06-13 — Session 27: Grammatik Phase 2 — Lesson Screen + Grammatik Strip
+
+**Goal:** Build the lesson screen renderer and surface the Grammatik section on the Verbs module home.
+
+**What was built:**
+
+**`index.html`** — New `screen-grammar-lesson` div. Standard nav-header with back button + `grammar-lesson-nav-context` span. Content area `grammar-lesson-content` populated by JS.
+
+**`css/styles.css`** — New grammar styles appended:
+- `.grammatik-strip` + `.grammatik-lesson-card` — strip on Verbs module home (clickable cards, `status-complete` variant has green border/tint)
+- `.grammatik-lesson-status-icon` — 28px circle with lock/clock/checkmark, coloured per status
+- Grammar lesson screen: `.grammar-lesson-body`, `.grammar-lesson-title`, `.grammar-section`, `.grammar-section-heading`, `.grammar-section-body`, `.grammar-example` (left border accent + italic DE + muted EN), `.grammar-key-rules` (card with `→` bullets), `.grammar-cta-area` (sticky bottom, gradient fade)
+
+**`js/grammar.js`** — Three new functions appended:
+- `openLesson(lessonId)` — sets `window._currentGrammarLessonId`, calls `navigateTo('screen-grammar-lesson')`
+- `renderGrammarLesson(lessonId)` — full renderer: calls `Grammar.markStarted()`, builds sections + key_rules + CTA; CTA label differs for complete vs. not-yet-passed lessons
+- `startGrammarQuiz(lessonId)` — Phase 3 stub (disables button, shows placeholder message)
+- `renderGrammatikStrip()` — returns HTML for the 6-lesson strip; status icons (lock/clock/check SVG), status subtitles in German
+
+**`js/app.js`** — Two changes:
+- `onScreenEnter`: added `case 'screen-grammar-lesson'`
+- `_renderVerbModuleCategories()`: injects `${renderGrammatikStrip()}` between the Verbliste summary card and the Übungen label
+
+**Visible result:** Verbs module home now shows a "Grammatik" section with 6 lesson cards above the exercise categories. Tapping a card opens the lesson screen with full explanation, key rules, and a "Quiz starten" CTA. Existing users see all 6 cards as ✅ (auto-granted in Phase 1 migration). New users see 🔒.
+
+**Next session starter prompt:**
+> We're on Phase 3 of the Grammatik layer (Session 28). Phases 1 and 2 are complete. Phase 3 is the quiz engine: tap "Quiz starten" on any lesson screen → launches a quiz using that lesson's `quiz[]` array. Two question types: `rule_check` (multiple choice, 4 options) and `exercise_ref` (renders an existing exercise from the exercise pool by ID). Scoring: track correct/total. On completion: show score, mark lesson complete if ≥ 80%, call `Grammar.recordQuizResult()`. On fail: option to retry or re-read. Read `SOURCE_OF_TRUTH.md` and `PRD_Grammatik.md` before starting.
+
+---
+
+## 2026-06-13 — Session 26: Grammatik Phase 1 — Data Layer + Architecture
+
+**Goal:** Build the data and JS foundation for the Grammatik curriculum layer. No UI yet.
+
+**Clarification resolved:**
+- Lesson 1 (Verb Basics) is a pure intro — it has `"unlocks": []` (no exercise gate).
+- Lesson 2 (Regular Conjugation) is the actual gate for Stammverben Präsens exercises.
+
+**Files created:**
+
+- `data/grammar/lessons.json` — 6 lessons with `sections[]`, `key_rules[]`, and `quiz[]` arrays. Quiz questions are a mix of `rule_check` (MC) and `exercise_ref` (references into the existing exercise pool). Content is substantive (not placeholders) — Phase 5 is now mostly review/polish rather than writing from scratch.
+- `js/grammar-data.js` — `window.GRAMMAR_DATA` (bundled offline copy of lessons.json). Same pattern as `data.js` and `listening-data.js`.
+- `js/grammar.js` — `Grammar` object with full localStorage abstraction:
+  - Key: `app_grammar_lessons`
+  - State schema: `{ status, score, attempts, auto_granted }` per lesson ID
+  - `init()` migration: first run checks `app_verbs_root_unlocked`; if non-empty, marks all 6 lessons "complete" (existing user auto-grant); if empty, initialises all as "locked" (new user flow). Subsequent calls are no-ops.
+  - `isCategoryUnlocked(categoryId)` — looks up gating lesson in GRAMMAR_DATA; returns true if complete (or if no lesson gates it).
+
+**Files modified:**
+
+- `index.html` — added `<script src="js/grammar-data.js">` and `<script src="js/grammar.js">` before `app.js`.
+- `js/app.js` — added `Grammar.init()` call at top of `init()`, before rendering (idempotent).
+
+**Unlock category IDs established (for Phase 4 gating):**
+- `stammverben-prasens` → gated by `regular-conjugation`
+- `variationen` → gated by `trennbare-verben`
+- `modal-prasens` → gated by `modal-verben`
+- `perfekt` → gated by `vergangenheit-perfekt`
+- `prateritum` → gated by `vergangenheit-prateritum`
+
+**Next session starter prompt:**
+> We're on Phase 2 of the Grammatik layer (Session 27). Phase 1 is complete — data + architecture are live. Phase 2 is the lesson screen: a new `grammar-lesson` screen type in `index.html`, a renderer in `grammar.js` (or `app.js`) that displays the lesson sections + key_rules, and a "Start Quiz" CTA. Nav: tapping a lesson card (from the future Grammatik strip) navigates to this screen. Back arrow exits without gating. Reading a lesson calls `Grammar.markStarted()`. No quiz engine yet — the Start Quiz button can be a placeholder. Read `SOURCE_OF_TRUTH.md` and `PRD_Grammatik.md` before starting.
+
+---
+
+## 2026-06-13 — Session 25: Grammatik PRD
+
+**Goal:** Design and sign off on the Grammatik curriculum layer.
+
+**Decisions made:**
+- Feature concept confirmed: structured grammar curriculum woven into Verbs module. Lessons gate exercise categories (completion required to unlock). Lessons themselves are always visible and freely accessible — no locks between lessons.
+- 6 lessons defined (Verb Basics → Regular Conjugation → Trennbare Verben → Modal Verben → Perfekt → Präteritum), each unlocking a specific exercise category.
+- Pass threshold: 80%. Retry: unlimited. Quiz length: variable, capped at 20.
+- Existing users: auto-granted "complete" for lessons whose content they already have progress in.
+- Quiz format: mix of rule-check MC and real exercises from existing pool.
+
+**Files created:** `PRD_Grammatik.md`
+
+**Next session starter prompt:**
+> We're building the Grammatik curriculum layer for the Mein Deutsch app (Session 26). The PRD is signed off — read `PRD_Grammatik.md` and `SOURCE_OF_TRUTH.md` before starting. We're on Phase 1: data + architecture. That means: define `data/grammar/lessons.json` schema and stub the first lesson's data, create `js/grammar.js` with the localStorage key (`app_grammar_lessons`), and add the migration logic that auto-grants "complete" to existing users on first load. No UI yet — just the data layer and the unlock plumbing.
+
+---
+
 ## 2026-06-13 — Session 24: QoL fixes + Phase 4 (Vergangenheit verification)
 
 **Goal:** Phase 4 verification deferred — user confirmed app is working and shifted to quality-of-life fixes instead.

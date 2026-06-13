@@ -80,9 +80,10 @@ function onScreenEnter(screenId) {
     case 'screen-adverbliste':       renderAdverbliste();                     break;
     case 'screen-adjektivliste':     renderAdjektivliste();                   break;
     case 'screen-prapositionsliste': renderPrapositionsliste();               break;
-    case 'screen-listening-list':    renderListeningList();                   break;
-    case 'screen-listening-reader':  /* rendered by listening.js on demand */ break;
-    case 'screen-results':           /* rendered by exercises.js */           break;
+    case 'screen-listening-list':    renderListeningList();                                       break;
+    case 'screen-listening-reader':  /* rendered by listening.js on demand */                     break;
+    case 'screen-results':           /* rendered by exercises.js */                               break;
+    case 'screen-grammar-lesson':    renderGrammarLesson(window._currentGrammarLessonId || '');  break;
   }
 }
 
@@ -328,6 +329,9 @@ function _renderVerbModuleCategories() {
         </svg>
       </div>
     </div>
+
+    <!-- Grammatik strip (lesson cards) -->
+    ${renderGrammatikStrip()}
 
     <!-- Section label -->
     <div class="label mt-4" style="color:var(--color-text-primary);margin-bottom:var(--sp-3)">
@@ -1018,6 +1022,7 @@ function togglePrepCard(prepId) {
 
 async function init() {
   await loadData();
+  Grammar.init();       // run migration before any rendering (idempotent after first run)
   Progress.updateStreak();
   Progress.recordSession();
   renderHome();

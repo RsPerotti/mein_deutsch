@@ -1754,3 +1754,221 @@ button {
   border: 1.5px solid var(--color-border);
   background: var(--color-surface-2);
 }
+
+/* ═══════════════════════════════════════════════════════
+   GRAMMATIK — Lesson strip on Verbs module home
+   ═══════════════════════════════════════════════════════ */
+
+.grammatik-strip {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-2);
+}
+
+.grammatik-lesson-card {
+  background: var(--color-surface);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--r-md);
+  padding: var(--sp-3) var(--sp-4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  cursor: pointer;
+  transition: background 0.15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.grammatik-lesson-card:active { background: var(--color-surface-2); }
+
+.grammatik-lesson-card.status-complete {
+  border-color: var(--color-green-accent);
+  background: #F2F8EC;
+}
+
+.grammatik-lesson-card-left {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  flex: 1;
+  min-width: 0;
+}
+
+.grammatik-lesson-status-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+.grammatik-lesson-status-icon.locked {
+  background: var(--color-surface-2);
+  border: 1.5px solid var(--color-border);
+}
+.grammatik-lesson-status-icon.in_progress {
+  background: #FEF3C7;
+  border: 1.5px solid #FDE68A;
+}
+.grammatik-lesson-status-icon.complete {
+  background: var(--color-tag-bg);
+  border: 1.5px solid var(--color-green-accent);
+}
+
+.grammatik-lesson-title {
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-semibold);
+  color: var(--color-text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.grammatik-lesson-subtitle {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  margin-top: 2px;
+}
+
+.grammatik-lesson-chevron {
+  color: var(--color-text-muted);
+  flex-shrink: 0;
+}
+
+/* ═══════════════════════════════════════════════════════
+   GRAMMATIK — Lesson screen content
+   ═══════════════════════════════════════════════════════ */
+
+.grammar-lesson-body {
+  padding-bottom: 120px; /* space for sticky CTA */
+}
+
+.grammar-lesson-title {
+  font-size: var(--font-size-xl);
+  font-weight: var(--fw-black);
+  color: var(--color-text-primary);
+  line-height: 1.25;
+  margin: var(--sp-4) 0 var(--sp-6);
+  letter-spacing: -0.02em;
+}
+
+/* Explanation section */
+.grammar-section {
+  margin-bottom: var(--sp-6);
+}
+
+.grammar-section-heading {
+  font-size: var(--font-size-base);
+  font-weight: var(--fw-bold);
+  color: var(--color-green-dark);
+  margin-bottom: var(--sp-2);
+  letter-spacing: -0.01em;
+}
+
+.grammar-section-body {
+  font-size: var(--font-size-base);
+  color: var(--color-text-primary);
+  line-height: 1.65;
+}
+
+/* Example block (German + English) */
+.grammar-example {
+  background: var(--color-surface-2);
+  border-left: 3px solid var(--color-green-lime);
+  border-radius: 0 var(--r-sm) var(--r-sm) 0;
+  padding: var(--sp-3) var(--sp-4);
+  margin-top: var(--sp-3);
+}
+
+.grammar-example-de {
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-semibold);
+  color: var(--color-text-primary);
+  line-height: 1.5;
+  font-style: italic;
+}
+
+.grammar-example-en {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  margin-top: var(--sp-1);
+  line-height: 1.5;
+}
+
+/* Key rules block */
+.grammar-key-rules {
+  background: var(--color-surface);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--r-md);
+  padding: var(--sp-4);
+  margin: var(--sp-6) 0 var(--sp-4);
+}
+
+.grammar-key-rules-heading {
+  font-size: var(--font-size-xs);
+  font-weight: var(--fw-bold);
+  letter-spacing: var(--ls-label);
+  text-transform: uppercase;
+  color: var(--color-green-accent);
+  margin-bottom: var(--sp-3);
+}
+
+.grammar-key-rules ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+
+.grammar-key-rules ul li {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-primary);
+  line-height: 1.5;
+  padding-left: var(--sp-4);
+  position: relative;
+}
+
+.grammar-key-rules ul li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--color-green-accent);
+  font-weight: var(--fw-bold);
+  font-size: 11px;
+  top: 2px;
+}
+
+/* Sticky CTA area at bottom of lesson screen */
+.grammar-cta-area {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: var(--max-w);
+  padding: var(--sp-4) var(--page-x) calc(var(--sp-4) + env(safe-area-inset-bottom));
+  background: linear-gradient(to bottom, transparent, var(--color-bg) 40%);
+  pointer-events: none;
+}
+
+.grammar-cta-area button {
+  pointer-events: auto;
+  width: 100%;
+  padding: var(--sp-4);
+  background: var(--color-green-dark);
+  color: #fff;
+  border: none;
+  border-radius: var(--r-lg);
+  font-size: var(--font-size-base);
+  font-weight: var(--fw-bold);
+  cursor: pointer;
+  box-shadow: var(--shadow-btn);
+  letter-spacing: -0.01em;
+  -webkit-tap-highlight-color: transparent;
+}
+.grammar-cta-area button:active {
+  transform: scale(0.98);
+  background: var(--color-green-accent);
+}

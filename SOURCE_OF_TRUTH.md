@@ -1,5 +1,5 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-06-13 — Session 24 (QoL fixes: gesture back, no results screen, exercise hint cleanup, Pixel 8 layout, SW v3)*
+*Last updated: 2026-06-13 — Session 27 (Grammatik Phase 2: lesson screen + Grammatik strip)*
 
 ---
 
@@ -39,6 +39,9 @@
 | `data/exercises/exercises-adjectives.json` | ✅ **400 exercises** | 100 × 4 each |
 | `data/prepositions.json` | ✅ **53 prepositions** | A1–B2. Categories: two-way, akkusativ, dativ, genitiv. case_notes + example_sentences per entry. |
 | `data/exercises/exercises-prepositions.json` | ✅ **158 exercises** | 79 select_preposition + 79 select_case. Difficulty: A1×42, A2×10, B1×74, B2×32. |
+| `data/grammar/lessons.json` | ✅ **New** | 6 lessons with sections, key_rules, and quiz questions (rule_check + exercise_ref). Lesson 1 has no unlock target; lessons 2–6 each gate a category. |
+| `js/grammar-data.js` | ✅ **New** | `window.GRAMMAR_DATA` — lessons array bundled for offline use. Generated from lessons.json. |
+| `js/grammar.js` | ✅ **Updated** | `Grammar` object: `getLessonState()`, `setLessonState()`, `isComplete()`, `markStarted()`, `recordQuizResult()`, `isCategoryUnlocked()`, `init()` migration. `PASS_THRESHOLD = 0.8`. **Session 27: added `renderGrammarLesson()`, `openLesson()`, `startGrammarQuiz()` stub, `renderGrammatikStrip()`.** |
 
 ## Design System
 
@@ -98,9 +101,47 @@
 - **Remote URL:** `git@github.com:RsPerotti/mein_deutsch.git` (SSH, not HTTPS)
 - **To push:** `git push origin main` — no password prompt, works automatically
 
+## Grammatik Curriculum Layer
+
+*PRD written: 2026-06-13 — Session 25. Status: signed off. Build not yet started.*
+
+**Concept:** Structured grammar curriculum woven into the Verbs module. Users complete a lesson (explanation + quiz) to unlock the corresponding exercise category. Lessons are always visible and freely accessible — no locks between lessons, only between lesson completion and the exercise content it gates.
+
+**6 lessons (Verbs v1):**
+
+| # | Lesson | Unlocks |
+|---|---|---|
+| 1 | Verb Basics | Stammverben → Präsens exercises |
+| 2 | Regular Conjugation (Präsens) | Stammverben Präsens exercises |
+| 3 | Trennbare Verben | Variationen (separable prefix variants) |
+| 4 | Modal Verben | Modal verb exercises |
+| 5 | Vergangenheit — Perfekt | Vergangenheit → Perfekt exercises |
+| 6 | Vergangenheit — Präteritum | Vergangenheit → Präteritum exercises |
+
+**Decided:**
+- Pass threshold: 80% (16/20)
+- Quiz length: variable per lesson, capped at 20
+- Retry policy: unlimited
+- Lesson visibility: all visible and freely accessible (no prereq gating between lessons)
+- Existing users: auto-granted "complete" on first load for lessons whose content they already have progress in
+
+**New files when built:** `data/grammar/lessons.json`, `js/grammar.js`
+**New localStorage key:** `app_grammar_lessons`
+**Full PRD:** `PRD_Grammatik.md`
+
+**Build phases:**
+1. ~~Data + architecture (lessons.json schema, grammar.js, localStorage keys, migration)~~ ✅ Session 26
+2. ~~Lesson screen (explanation renderer, key rules, Start Quiz CTA, Grammatik strip on Verbs home)~~ ✅ Session 27
+3. Quiz engine (rule_check + exercise_ref types, scoring, pass/fail)
+4. Unlock gating (exercise category lock state on Verbs module home, unlock on pass)
+5. Content (write all 6 lessons — MOSTLY DONE in Session 26 stub; Session 27 review pass)
+6. QA + deploy
+
+---
+
 ## Next Steps
 
-*Updated: 2026-06-13 — Session 24*
+*Updated: 2026-06-13 — Session 25*
 
 **Vergangenheit — all phases complete:**
 1. ~~Phase 1: Präteritum data — root verbs~~ ✅ Session 21
@@ -113,7 +154,7 @@
 - Prefix variants inherit parent root's `grammar.case_requirements` — `verstehen` shows Irregular with no case badge (should be Akkusativ). Fix: add per-variant `grammar` override field. Deferred.
 
 **After Vergangenheit:**
-- Grammatik reference layer (PRD required)
+- **Grammatik curriculum layer — PRD signed off ✅. Ready to build. See "Grammatik Curriculum Layer" section above.**
 - Articles module reimagined with gender-pattern rules
 - Deklinationen area for Adjectives
 6. **Lesen & Hören — more years** — run crawler on 2025, 2024 archives; re-bundle listening-data.js

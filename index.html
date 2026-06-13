@@ -542,6 +542,25 @@
   </div>
 
   <!-- ═══════════════════════════════════════════
+       SCREEN: Grammar Lesson
+  ═══════════════════════════════════════════ -->
+  <div id="screen-grammar-lesson" class="screen">
+    <div class="nav-header">
+      <button class="back-btn" onclick="navigateBack()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+             stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"/>
+        </svg>
+      </button>
+      <span class="nav-context" id="grammar-lesson-nav-context">Verben · Grammatik</span>
+    </div>
+
+    <div class="screen-content" style="padding-top:0" id="grammar-lesson-content">
+      <!-- populated by grammar.js renderGrammarLesson() -->
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
        SCREEN: Word List Practice — Class Picker
   ═══════════════════════════════════════════ -->
   <div id="screen-wl-picker" class="screen">
@@ -580,11 +599,13 @@
   <!-- JS — load order matters -->
   <script src="js/data.js"></script>
   <script src="js/listening-data.js"></script>
+  <script src="js/grammar-data.js"></script>
   <script src="js/progress.js"></script>
   <script src="js/wordlist.js"></script>
   <script src="js/exercises.js"></script>
   <script src="js/wordpractice.js"></script>
   <script src="js/listening.js"></script>
+  <script src="js/grammar.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
