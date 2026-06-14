@@ -2129,7 +2129,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 13px 0;
+  padding: 13px var(--sp-4);
   border-bottom: 1px solid var(--color-border);
   cursor: pointer;
   gap: var(--sp-3);
@@ -2259,19 +2259,13 @@ button {
 }
 .particle-ref-chip:active { background: rgba(45, 74, 26, 0.16); }
 
-/* secondary-btn — reused for soft gate */
-.secondary-btn {
+/* quiz results card — buttons fill the card width, no extra side margins */
+.quiz-results-card .primary-btn,
+.quiz-results-card .secondary-btn {
   width: 100%;
-  padding: var(--sp-3) var(--sp-4);
-  border: 1.5px solid var(--color-border);
-  border-radius: var(--r-xl);
-  background: transparent;
-  font-size: var(--font-size-base);
-  font-weight: var(--fw-semibold);
-  color: var(--color-text-secondary);
-  cursor: pointer;
+  margin-left: 0;
+  margin-right: 0;
 }
-.secondary-btn:active { opacity: 0.7; }
 
 /* ─── Grammar Quiz ──────────────────────────────────────────────────────── */
 

@@ -117,15 +117,6 @@ function startExercise(state) {
     }
   }
 
-  // Show/hide CEFR picker for particles
-  const particlesPicker = document.getElementById('particles-cefr-picker-ex');
-  if (particlesPicker) {
-    particlesPicker.style.display = moduleId === 'module_particles' ? 'block' : 'none';
-    if (moduleId === 'module_particles') {
-      _updateParticlesCefrPicker(localStorage.getItem('app_particles_cefr') || 'A1');
-    }
-  }
-
   // Show/hide Verb Vergangenheit sub-picker (Perfekt / Präteritum)
   const verbPicker = document.getElementById('verb-tense-picker');
   if (verbPicker) {
@@ -1119,33 +1110,6 @@ function _updateDifficultyPicker(level) {
 // PARTICLES CEFR PICKER  (in-session CEFR level switcher)
 // ═══════════════════════════════════════════════════════
 
-// Called by #particles-cefr-picker-ex buttons in index.html
-function setParticlesCefrInSession(level) {
-  // Keep app.js state + localStorage in sync
-  if (typeof _particlesCefr !== 'undefined') {
-    // _particlesCefr is a let in app.js — update it via the app.js setter which also re-renders home
-    // but we're mid-session so just update localStorage + module-home state directly
-  }
-  localStorage.setItem('app_particles_cefr', level);
-  _updateParticlesCefrPicker(level);
-
-  // Rebuild queue with new CEFR level, preserving session stats
-  const exercises  = _buildQueue('module_particles', session.category);
-  session.queue    = _shuffle([...exercises]);
-  session.cooldown = [];
-  session.current  = null;
-  session.answered = false;
-  _updateChips();
-  _showNext();
-}
-
-function _updateParticlesCefrPicker(level) {
-  ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].forEach(l => {
-    const btn = document.getElementById('ex-cefr-' + l);
-    if (btn) btn.classList.toggle('active', l === level);
-  });
-}
-
 // --- Particle feedback card ---
 // Shown after EVERY answer (correct AND wrong) for fill_blank_particle exercises.
 // Lime left border + green tint background + dark green text.
@@ -1455,12 +1419,10 @@ function startArtikelExercise() {
   document.getElementById('exercise-context-label').textContent = 'ARTIKEL · DER / DIE / DAS';
 
   // Hide module-specific pickers
-  const prepPicker     = document.getElementById('prep-difficulty-picker');
-  const particlePicker = document.getElementById('particles-cefr-picker-ex');
-  const verbPicker     = document.getElementById('verb-tense-picker');
-  if (prepPicker)     prepPicker.style.display     = 'none';
-  if (particlePicker) particlePicker.style.display = 'none';
-  if (verbPicker)     verbPicker.style.display     = 'none';
+  const prepPicker = document.getElementById('prep-difficulty-picker');
+  const verbPicker = document.getElementById('verb-tense-picker');
+  if (prepPicker) prepPicker.style.display = 'none';
+  if (verbPicker) verbPicker.style.display = 'none';
 
   // Chips
   document.getElementById('chip-correct').textContent   = '0';

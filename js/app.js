@@ -1323,11 +1323,11 @@ function _renderParticleList() {
 
 function _particleRowHtml(p) {
   return `
-    <div class="word-item" onclick="showParticleDetail('${p.id}')">
-      <div class="word-item-main">
-        <span class="word-german">${p.particle}</span>
+    <div class="particle-ref-row" onclick="showParticleDetail('${p.id}')">
+      <div class="particle-ref-row-left">
+        <span class="particle-ref-word">${p.particle}</span>
+        <span class="particle-ref-signal">${p.signals || ''}</span>
       </div>
-      <span class="word-translation">${p.signals || ''}</span>
       <span class="word-item-arrow">›</span>
     </div>`;
 }
