@@ -2572,11 +2572,11 @@
     "cefr": "B1",
     "particle_id": "wohl",
     "category": "modal-probability",
-    "sentence_de": "Das wird ___ stimmen.",
-    "sentence_en": "That's probably right.",
+    "sentence_de": "Ich bin nicht sicher, aber das wird ___ stimmen.",
+    "sentence_en": "I'm not sure, but that's probably right.",
     "options": [
       "wohl",
-      "schon",
+      "eigentlich",
       "eben",
       "doch"
     ],
@@ -2589,11 +2589,11 @@
     "cefr": "B1",
     "particle_id": "wohl",
     "category": "modal-probability",
-    "sentence_de": "Sie hat ___ keine Zeit.",
-    "sentence_en": "She probably doesn't have time.",
+    "sentence_de": "Sie antwortet nicht — sie hat ___ keine Zeit.",
+    "sentence_en": "She's not replying — she probably has no time.",
     "options": [
       "wohl",
-      "schon",
+      "eigentlich",
       "etwa",
       "ja"
     ],
@@ -2606,11 +2606,11 @@
     "cefr": "B1",
     "particle_id": "wohl",
     "category": "modal-probability",
-    "sentence_de": "Das ist ___ das Beste, was wir tun können.",
-    "sentence_en": "That's probably the best we can do.",
+    "sentence_de": "Mehr können wir nicht tun — das ist ___ das Beste.",
+    "sentence_en": "We can't do more — that's probably the best we can do.",
     "options": [
       "wohl",
-      "schon",
+      "nämlich",
       "eben",
       "eigentlich"
     ],
@@ -2623,12 +2623,12 @@
     "cefr": "B1",
     "particle_id": "wohl",
     "category": "modal-probability",
-    "sentence_de": "Er hat ___ nicht aufgepasst.",
-    "sentence_en": "He probably wasn't paying attention.",
+    "sentence_de": "Bei so einem Fehler hat er ___ nicht aufgepasst.",
+    "sentence_en": "With a mistake like that, he probably wasn't paying attention.",
     "options": [
       "wohl",
       "ja",
-      "schon",
+      "nämlich",
       "eben"
     ],
     "correct": "wohl",
@@ -2644,7 +2644,7 @@
     "sentence_en": "That will probably be difficult.",
     "options": [
       "wohl",
-      "schon",
+      "eigentlich",
       "doch",
       "mal"
     ],
@@ -2674,11 +2674,11 @@
     "cefr": "B1",
     "particle_id": "wohl",
     "category": "modal-probability",
-    "sentence_de": "Das war ___ ein Missverständnis.",
-    "sentence_en": "That was probably a misunderstanding.",
+    "sentence_de": "Keine Absicht — das war ___ ein Missverständnis.",
+    "sentence_en": "No bad intent — that was probably a misunderstanding.",
     "options": [
       "wohl",
-      "schon",
+      "nämlich",
       "doch",
       "eigentlich"
     ],
@@ -2691,11 +2691,11 @@
     "cefr": "B1",
     "particle_id": "wohl",
     "category": "modal-probability",
-    "sentence_de": "Er meint das ___ nicht so.",
-    "sentence_en": "He probably doesn't mean it like that.",
+    "sentence_de": "Er ist gerade aufgeregt — er meint das ___ nicht so.",
+    "sentence_en": "He's worked up right now — he probably doesn't mean it like that.",
     "options": [
       "wohl",
-      "schon",
+      "nämlich",
       "ja",
       "eben"
     ],
@@ -2708,11 +2708,11 @@
     "cefr": "B1",
     "particle_id": "wohl",
     "category": "modal-probability",
-    "sentence_de": "Das ist ___ der Grund dafür.",
-    "sentence_en": "That's probably the reason for it.",
+    "sentence_de": "Ich vermute, das ist ___ der Grund dafür.",
+    "sentence_en": "I suspect that's probably the reason for it.",
     "options": [
       "wohl",
-      "schon",
+      "eigentlich",
       "eben",
       "mal"
     ],
@@ -2725,11 +2725,11 @@
     "cefr": "B1",
     "particle_id": "wohl",
     "category": "modal-probability",
-    "sentence_de": "Sie hat ___ alles vergessen.",
-    "sentence_en": "She's probably forgotten everything.",
+    "sentence_de": "Sie fragt immer wieder nach — sie hat ___ alles vergessen.",
+    "sentence_en": "She keeps asking — she's probably forgotten everything.",
     "options": [
       "wohl",
-      "schon",
+      "doch",
       "ja",
       "etwa"
     ],
@@ -2746,7 +2746,7 @@
     "sentence_en": "That probably won't work out today.",
     "options": [
       "wohl",
-      "schon",
+      "eben",
       "doch",
       "halt"
     ],
@@ -2759,11 +2759,11 @@
     "cefr": "B1",
     "particle_id": "wohl",
     "category": "modal-probability",
-    "sentence_de": "Er ist ___ so um die 40.",
-    "sentence_en": "He's probably around 40.",
+    "sentence_de": "Ich schätze, er ist ___ so um die 40.",
+    "sentence_en": "I'd guess he's probably around 40.",
     "options": [
       "wohl",
-      "schon",
+      "nämlich",
       "etwa",
       "eigentlich"
     ],
@@ -2776,12 +2776,12 @@
     "cefr": "B1",
     "particle_id": "wohl",
     "category": "modal-probability",
-    "sentence_de": "Das hat ___ niemand erwartet.",
-    "sentence_en": "Nobody probably expected that.",
+    "sentence_de": "So eine Überraschung — das hat ___ niemand erwartet.",
+    "sentence_en": "What a surprise — nobody probably expected that.",
     "options": [
       "wohl",
       "ja",
-      "schon",
+      "nämlich",
       "doch"
     ],
     "correct": "wohl",
@@ -2793,11 +2793,11 @@
     "cefr": "B1",
     "particle_id": "wohl",
     "category": "modal-probability",
-    "sentence_de": "Das wird ___ noch eine Weile dauern.",
-    "sentence_en": "That will probably take a while yet.",
+    "sentence_de": "Ich weiß es nicht genau, aber das wird ___ noch eine Weile dauern.",
+    "sentence_en": "I don't know exactly, but that'll probably take a while longer.",
     "options": [
       "wohl",
-      "schon",
+      "ja",
       "mal",
       "eben"
     ],
@@ -2810,11 +2810,11 @@
     "cefr": "A2",
     "particle_id": "schon",
     "category": "modal-probability",
-    "sentence_de": "Das wird ___ klappen.",
-    "sentence_en": "It'll work out, don't worry.",
+    "sentence_de": "Mach dir keine Sorgen, das wird ___ klappen.",
+    "sentence_en": "Don't worry, it'll work out.",
     "options": [
       "schon",
-      "wohl",
+      "doch",
       "ja",
       "eben"
     ],
@@ -2827,11 +2827,11 @@
     "cefr": "A2",
     "particle_id": "schon",
     "category": "modal-probability",
-    "sentence_de": "Er kommt ___ noch.",
-    "sentence_en": "He'll come eventually — give him time.",
+    "sentence_de": "Keine Sorge, er kommt ___ noch.",
+    "sentence_en": "Don't worry, he'll still come.",
     "options": [
       "schon",
-      "wohl",
+      "doch",
       "ja",
       "mal"
     ],
@@ -2844,13 +2844,13 @@
     "cefr": "A2",
     "particle_id": "schon",
     "category": "modal-probability",
-    "sentence_de": "Das macht sich ___ noch.",
-    "sentence_en": "That'll sort itself out.",
+    "sentence_de": "Geduld! Das macht sich ___ noch.",
+    "sentence_en": "Patience! That'll still turn out fine.",
     "options": [
       "schon",
-      "wohl",
+      "doch",
       "eben",
-      "halt"
+      "ja"
     ],
     "correct": "schon",
     "feedback": "Schon signals that things will turn out fine — a reassuring particle."
@@ -2883,7 +2883,7 @@
     "options": [
       "schon",
       "ja",
-      "wohl",
+      "eigentlich",
       "eben"
     ],
     "correct": "schon",
@@ -2900,7 +2900,7 @@
     "options": [
       "schon",
       "ja",
-      "wohl",
+      "eigentlich",
       "doch"
     ],
     "correct": "schon",
@@ -2912,11 +2912,11 @@
     "cefr": "A2",
     "particle_id": "schon",
     "category": "modal-probability",
-    "sentence_de": "Das wird ___ besser.",
-    "sentence_en": "It'll get better, you'll see.",
+    "sentence_de": "Gib nicht auf, das wird ___ besser.",
+    "sentence_en": "Don't give up, it'll get better.",
     "options": [
       "schon",
-      "wohl",
+      "doch",
       "ja",
       "mal"
     ],
@@ -2929,11 +2929,11 @@
     "cefr": "A2",
     "particle_id": "schon",
     "category": "modal-probability",
-    "sentence_de": "Er weiß ___, was er tut.",
-    "sentence_en": "He knows what he's doing, trust me.",
+    "sentence_de": "Vertrau ihm, er weiß ___, was er tut.",
+    "sentence_en": "Trust him, he does know what he's doing.",
     "options": [
       "schon",
-      "wohl",
+      "doch",
       "ja",
       "eben"
     ],
@@ -2980,11 +2980,11 @@
     "cefr": "A2",
     "particle_id": "schon",
     "category": "modal-probability",
-    "sentence_de": "Er wird sich ___ noch entschuldigen.",
-    "sentence_en": "He'll apologise eventually.",
+    "sentence_de": "Keine Panik, er wird sich ___ noch entschuldigen.",
+    "sentence_en": "Don't panic, he'll apologise eventually.",
     "options": [
       "schon",
-      "wohl",
+      "doch",
       "mal",
       "erst"
     ],
@@ -3001,7 +3001,7 @@
     "sentence_en": "I know that well enough — the problem is something else.",
     "options": [
       "schon",
-      "wohl",
+      "eigentlich",
       "ja",
       "eben"
     ],
@@ -3014,11 +3014,11 @@
     "cefr": "A2",
     "particle_id": "schon",
     "category": "modal-probability",
-    "sentence_de": "Das wird ___ irgendwie klappen.",
-    "sentence_en": "It'll work out somehow.",
+    "sentence_de": "Mach dir keine Gedanken, das wird ___ irgendwie klappen.",
+    "sentence_en": "Don't worry, it'll work out somehow.",
     "options": [
       "schon",
-      "wohl",
+      "eigentlich",
       "mal",
       "doch"
     ],
@@ -3052,8 +3052,8 @@
     "sentence_en": "That's possible, I'll grant, but unlikely.",
     "options": [
       "schon",
-      "wohl",
       "ja",
+      "eigentlich",
       "eben"
     ],
     "correct": "schon",
@@ -3324,7 +3324,7 @@
     "sentence_en": "That's just the way it is.",
     "options": [
       "eben",
-      "halt",
+      "eigentlich",
       "einfach",
       "schon"
     ],
@@ -3341,7 +3341,7 @@
     "sentence_en": "He's just incapable of being on time.",
     "options": [
       "eben",
-      "halt",
+      "eigentlich",
       "einfach",
       "wohl"
     ],
@@ -3358,7 +3358,7 @@
     "sentence_en": "Life is simply not a wish-concert.",
     "options": [
       "eben",
-      "halt",
+      "eigentlich",
       "einfach",
       "schon"
     ],
@@ -3375,7 +3375,7 @@
     "sentence_en": "That's precisely the difference.",
     "options": [
       "eben",
-      "halt",
+      "eigentlich",
       "genau",
       "schon"
     ],
@@ -3392,7 +3392,7 @@
     "sentence_en": "If it doesn't work, it simply doesn't work.",
     "options": [
       "eben",
-      "halt",
+      "eigentlich",
       "einfach",
       "schon"
     ],
@@ -3409,7 +3409,7 @@
     "sentence_en": "That is precisely the problem.",
     "options": [
       "eben",
-      "halt",
+      "eigentlich",
       "genau",
       "schon"
     ],
@@ -3426,7 +3426,7 @@
     "sentence_en": "You're simply not the youngest anymore.",
     "options": [
       "eben",
-      "halt",
+      "eigentlich",
       "einfach",
       "wohl"
     ],
@@ -3443,7 +3443,7 @@
     "sentence_en": "That was simply bound to happen.",
     "options": [
       "eben",
-      "halt",
+      "eigentlich",
       "einfach",
       "schon"
     ],
@@ -3460,7 +3460,7 @@
     "sentence_en": "There simply are no easy answers.",
     "options": [
       "eben",
-      "halt",
+      "eigentlich",
       "einfach",
       "wohl"
     ],
@@ -3477,7 +3477,7 @@
     "sentence_en": "That's just how life is.",
     "options": [
       "eben",
-      "halt",
+      "eigentlich",
       "einfach",
       "schon"
     ],
@@ -3494,7 +3494,7 @@
     "sentence_en": "Some things are simply hard.",
     "options": [
       "eben",
-      "halt",
+      "eigentlich",
       "einfach",
       "wohl"
     ],
@@ -3511,7 +3511,7 @@
     "sentence_en": "That was simply a mistake — what can you do.",
     "options": [
       "eben",
-      "halt",
+      "eigentlich",
       "schon",
       "wirklich"
     ],
@@ -3528,7 +3528,7 @@
     "sentence_en": "He simply does things his own way.",
     "options": [
       "eben",
-      "halt",
+      "eigentlich",
       "einfach",
       "wohl"
     ],
@@ -3545,7 +3545,7 @@
     "sentence_en": "That's precisely why he's so popular.",
     "options": [
       "eben",
-      "halt",
+      "eigentlich",
       "genau",
       "schon"
     ],
@@ -3562,7 +3562,7 @@
     "sentence_en": "Some people are simply like that.",
     "options": [
       "eben",
-      "halt",
+      "eigentlich",
       "einfach",
       "wohl"
     ],
@@ -3579,9 +3579,9 @@
     "sentence_en": "It just won't work — what can you do.",
     "options": [
       "halt",
-      "eben",
+      "schon",
       "einfach",
-      "schon"
+      "wohl"
     ],
     "correct": "halt",
     "feedback": "Halt expresses resignation in colloquial register. Eben would be more formal — 'halt' fits casual, everyday speech."
@@ -3596,7 +3596,7 @@
     "sentence_en": "Life is just hard sometimes.",
     "options": [
       "halt",
-      "eben",
+      "schon",
       "einfach",
       "wohl"
     ],
@@ -3613,9 +3613,9 @@
     "sentence_en": "I'm just like that — can't help it.",
     "options": [
       "halt",
-      "eben",
+      "schon",
       "einfach",
-      "schon"
+      "wohl"
     ],
     "correct": "halt",
     "feedback": "Halt in casual self-description signals resigned self-acceptance."
@@ -3630,7 +3630,7 @@
     "sentence_en": "You just can't have everything.",
     "options": [
       "halt",
-      "eben",
+      "schon",
       "einfach",
       "wohl"
     ],
@@ -3647,8 +3647,8 @@
     "sentence_en": "It just takes time — nothing to do about it.",
     "options": [
       "halt",
-      "eben",
       "schon",
+      "wohl",
       "wirklich"
     ],
     "correct": "halt",
@@ -3664,7 +3664,7 @@
     "sentence_en": "He's just that kind of guy.",
     "options": [
       "halt",
-      "eben",
+      "schon",
       "einfach",
       "wohl"
     ],
@@ -3681,9 +3681,9 @@
     "sentence_en": "It just didn't work out.",
     "options": [
       "halt",
-      "eben",
+      "schon",
       "einfach",
-      "schon"
+      "wohl"
     ],
     "correct": "halt",
     "feedback": "Halt signals resigned acceptance of failure in everyday speech."
@@ -3698,7 +3698,7 @@
     "sentence_en": "Then I'll just go alone — so be it.",
     "options": [
       "halt",
-      "eben",
+      "schon",
       "einfach",
       "doch"
     ],
@@ -3715,7 +3715,7 @@
     "sentence_en": "It just went badly — what can you do.",
     "options": [
       "halt",
-      "eben",
+      "schon",
       "einfach",
       "wohl"
     ],
@@ -3732,9 +3732,9 @@
     "sentence_en": "Some people are just like that.",
     "options": [
       "halt",
-      "eben",
+      "schon",
       "einfach",
-      "schon"
+      "wohl"
     ],
     "correct": "halt",
     "feedback": "Halt signals resigned acceptance of difficult people — casual register."
@@ -3749,7 +3749,7 @@
     "sentence_en": "That's just not my strong suit.",
     "options": [
       "halt",
-      "eben",
+      "schon",
       "einfach",
       "wirklich"
     ],
@@ -3766,8 +3766,8 @@
     "sentence_en": "Then we'll just do it differently.",
     "options": [
       "halt",
-      "eben",
       "schon",
+      "wohl",
       "mal"
     ],
     "correct": "halt",
@@ -3783,9 +3783,9 @@
     "sentence_en": "If he doesn't want to, then he just doesn't want to.",
     "options": [
       "halt",
-      "eben",
+      "schon",
       "einfach",
-      "schon"
+      "wohl"
     ],
     "correct": "halt",
     "feedback": "Halt here signals resigned acceptance of someone's refusal — very colloquial."
@@ -3800,7 +3800,7 @@
     "sentence_en": "That's just bad luck.",
     "options": [
       "halt",
-      "eben",
+      "schon",
       "einfach",
       "wohl"
     ],
@@ -3817,9 +3817,9 @@
     "sentence_en": "That's just how it goes sometimes.",
     "options": [
       "halt",
-      "eben",
+      "schon",
       "einfach",
-      "schon"
+      "wohl"
     ],
     "correct": "halt",
     "feedback": "Halt in this colloquial phrase signals resigned acceptance of life's ups and downs."
@@ -6384,7 +6384,7 @@
     "sentence_en": "That would have been too late anyway.",
     "options": [
       "ohnehin",
-      "sowieso",
+      "allerdings",
       "jedenfalls",
       "immerhin"
     ],
@@ -6401,9 +6401,9 @@
     "sentence_en": "He didn't want to come anyway.",
     "options": [
       "ohnehin",
-      "sowieso",
+      "allerdings",
       "jedenfalls",
-      "allerdings"
+      "wohl"
     ],
     "correct": "ohnehin",
     "feedback": "Ohnehin signals that the outcome was independent of any intervention — formal register."
@@ -6418,7 +6418,7 @@
     "sentence_en": "That's obvious regardless.",
     "options": [
       "ohnehin",
-      "sowieso",
+      "allerdings",
       "jedenfalls",
       "nämlich"
     ],
@@ -6435,7 +6435,7 @@
     "sentence_en": "That wouldn't have changed anything anyway.",
     "options": [
       "ohnehin",
-      "sowieso",
+      "allerdings",
       "jedenfalls",
       "immerhin"
     ],
@@ -6452,9 +6452,9 @@
     "sentence_en": "The solution was not viable anyway.",
     "options": [
       "ohnehin",
-      "sowieso",
+      "allerdings",
       "jedenfalls",
-      "allerdings"
+      "wohl"
     ],
     "correct": "ohnehin",
     "feedback": "Ohnehin in formal/written context marks an independent conclusion."
@@ -6469,7 +6469,7 @@
     "sentence_en": "He wouldn't have had any other choice anyway.",
     "options": [
       "ohnehin",
-      "sowieso",
+      "allerdings",
       "jedenfalls",
       "nämlich"
     ],
@@ -6486,7 +6486,7 @@
     "sentence_en": "The result was predictable anyway.",
     "options": [
       "ohnehin",
-      "sowieso",
+      "allerdings",
       "jedenfalls",
       "immerhin"
     ],
@@ -6503,9 +6503,9 @@
     "sentence_en": "We wouldn't have filled all the seats anyway.",
     "options": [
       "ohnehin",
-      "sowieso",
+      "allerdings",
       "jedenfalls",
-      "allerdings"
+      "wohl"
     ],
     "correct": "ohnehin",
     "feedback": "Ohnehin signals independent impossibility — formal written context."
@@ -6520,7 +6520,7 @@
     "sentence_en": "The project was doomed to fail anyway.",
     "options": [
       "ohnehin",
-      "sowieso",
+      "allerdings",
       "jedenfalls",
       "nämlich"
     ],
@@ -6537,7 +6537,7 @@
     "sentence_en": "He wouldn't have contributed anything anyway.",
     "options": [
       "ohnehin",
-      "sowieso",
+      "allerdings",
       "jedenfalls",
       "immerhin"
     ],
@@ -6554,9 +6554,9 @@
     "sentence_en": "That's not our responsibility anyway.",
     "options": [
       "ohnehin",
-      "sowieso",
+      "allerdings",
       "jedenfalls",
-      "allerdings"
+      "wohl"
     ],
     "correct": "ohnehin",
     "feedback": "Ohnehin marks something as outside their scope regardless — formal register."
@@ -6571,7 +6571,7 @@
     "sentence_en": "The measures would have been inadequate anyway.",
     "options": [
       "ohnehin",
-      "sowieso",
+      "allerdings",
       "jedenfalls",
       "nämlich"
     ],
@@ -6588,7 +6588,7 @@
     "sentence_en": "That wouldn't have made any difference anyway.",
     "options": [
       "ohnehin",
-      "sowieso",
+      "allerdings",
       "jedenfalls",
       "immerhin"
     ],
@@ -6605,9 +6605,9 @@
     "sentence_en": "He wasn't the right person for this task anyway.",
     "options": [
       "ohnehin",
-      "sowieso",
+      "allerdings",
       "jedenfalls",
-      "allerdings"
+      "wohl"
     ],
     "correct": "ohnehin",
     "feedback": "Ohnehin marks the mismatch as independent of other factors — formal register."
@@ -6622,7 +6622,7 @@
     "sentence_en": "That was predictable anyway.",
     "options": [
       "ohnehin",
-      "sowieso",
+      "allerdings",
       "jedenfalls",
       "nämlich"
     ],
@@ -6639,8 +6639,8 @@
     "sentence_en": "I was going there anyway.",
     "options": [
       "sowieso",
-      "ohnehin",
       "jedenfalls",
+      "wohl",
       "immerhin"
     ],
     "correct": "sowieso",
@@ -6656,8 +6656,8 @@
     "sentence_en": "It won't work out anyway.",
     "options": [
       "sowieso",
-      "ohnehin",
       "jedenfalls",
+      "wohl",
       "allerdings"
     ],
     "correct": "sowieso",
@@ -6673,8 +6673,8 @@
     "sentence_en": "He would have said no regardless.",
     "options": [
       "sowieso",
-      "ohnehin",
       "jedenfalls",
+      "wohl",
       "nämlich"
     ],
     "correct": "sowieso",
@@ -6690,8 +6690,8 @@
     "sentence_en": "She already knows that anyway.",
     "options": [
       "sowieso",
-      "ohnehin",
       "jedenfalls",
+      "wohl",
       "immerhin"
     ],
     "correct": "sowieso",
@@ -6707,8 +6707,8 @@
     "sentence_en": "I'm coming later anyway.",
     "options": [
       "sowieso",
-      "ohnehin",
       "jedenfalls",
+      "wohl",
       "allerdings"
     ],
     "correct": "sowieso",
@@ -6724,8 +6724,8 @@
     "sentence_en": "That's obvious anyway.",
     "options": [
       "sowieso",
-      "ohnehin",
       "jedenfalls",
+      "wohl",
       "nämlich"
     ],
     "correct": "sowieso",
@@ -6741,8 +6741,8 @@
     "sentence_en": "He does it his own way regardless.",
     "options": [
       "sowieso",
-      "ohnehin",
       "jedenfalls",
+      "wohl",
       "immerhin"
     ],
     "correct": "sowieso",
@@ -6758,8 +6758,8 @@
     "sentence_en": "I wanted to ask if you're going into town anyway.",
     "options": [
       "sowieso",
-      "ohnehin",
       "jedenfalls",
+      "wohl",
       "allerdings"
     ],
     "correct": "sowieso",
@@ -6775,8 +6775,8 @@
     "sentence_en": "That wouldn't have helped anyway.",
     "options": [
       "sowieso",
-      "ohnehin",
       "jedenfalls",
+      "wohl",
       "nämlich"
     ],
     "correct": "sowieso",
@@ -6792,8 +6792,8 @@
     "sentence_en": "She came too late anyway.",
     "options": [
       "sowieso",
-      "ohnehin",
       "jedenfalls",
+      "wohl",
       "immerhin"
     ],
     "correct": "sowieso",
@@ -6809,8 +6809,8 @@
     "sentence_en": "I'll skip that anyway.",
     "options": [
       "sowieso",
-      "ohnehin",
       "jedenfalls",
+      "wohl",
       "allerdings"
     ],
     "correct": "sowieso",
@@ -6826,8 +6826,8 @@
     "sentence_en": "I don't need that anyway.",
     "options": [
       "sowieso",
-      "ohnehin",
       "jedenfalls",
+      "wohl",
       "nämlich"
     ],
     "correct": "sowieso",
@@ -6843,8 +6843,8 @@
     "sentence_en": "He's not coming anyway.",
     "options": [
       "sowieso",
-      "ohnehin",
       "jedenfalls",
+      "wohl",
       "immerhin"
     ],
     "correct": "sowieso",
@@ -6860,8 +6860,8 @@
     "sentence_en": "That was no good idea anyway.",
     "options": [
       "sowieso",
-      "ohnehin",
       "jedenfalls",
+      "wohl",
       "allerdings"
     ],
     "correct": "sowieso",
@@ -6877,8 +6877,8 @@
     "sentence_en": "I'm going to the gym today anyway.",
     "options": [
       "sowieso",
-      "ohnehin",
       "jedenfalls",
+      "wohl",
       "nämlich"
     ],
     "correct": "sowieso",

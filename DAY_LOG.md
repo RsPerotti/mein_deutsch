@@ -2,6 +2,46 @@
 
 ---
 
+## 2026-06-14 — Session 30: Partikeln Phase 4 + Phase 5
+
+**Deliverables:**
+
+`js/grammar.js` — 3 additions:
+- `ParticleGrammar` singleton (`KEY: 'app_particles_lesson'`). Same methods as `Grammar`: `getLessonState`, `setLessonState`, `isComplete`, `markStarted`, `recordQuizResult`, `init()`. No migration — new module, all 8 lessons start locked.
+- `openParticleLesson(lessonId)` — sets `window._currentGrammarModule = 'particles'` + `window._currentGrammarLessonId`, navigates to `screen-grammar-lesson`.
+- `renderParticleLesson(lessonId)` — reads from `PARTICLES_DATA.lessons`, shows "Partikeln · [title]" in nav context, marks lesson started, renders sections + key rules + quiz CTA (stub calling `startParticleQuiz()`).
+- `startParticleQuiz()` — stub; replaces button text with "Quiz kommt bald →".
+- `openLesson()` (Verbs) — now explicitly sets `window._currentGrammarModule = 'verbs'` to prevent bleed from particle lesson path.
+
+`js/app.js` — 6 additions/changes:
+- `onScreenEnter` — `screen-grammar-lesson` case now module-aware: routes to `renderParticleLesson()` or `renderGrammarLesson()` based on `_currentGrammarModule`. New case `screen-particle-reference` → `renderPartikelliste()`.
+- `_renderParticlesGrammatikStrip()` — real `done` count from `ParticleGrammar`; dot colours (grey/amber/green) per lesson status; rows call `openParticleLesson('${l.id}')`.
+- `_PARTICLE_GATE_MAP` — category → `{ lessonId, title }` for all 6 exercise categories.
+- `openParticleExercise(cat)` — soft gate wrapper. If lesson locked → shows `#particle-gate-sheet`. Otherwise calls `openExercise()` directly.
+- `closeParticleGate()`, `particleGateGoToLesson()`, `particleGateGoAnyway()` — gate sheet controls.
+- `openPartikelliste()` — replaced stub with `navigateTo('screen-particle-reference')`.
+- `renderPartikelliste()` — sets search to empty, reflects sort state on buttons, calls `_renderParticleList()`.
+- `setParticleSort(mode)` — toggles `.active` on sort buttons, re-renders list.
+- `filterParticlesSearch(val)` — filters list by particle name or signals text.
+- `_renderParticleList()` — renders alphabetical or category-grouped list using particle data; CEFR chip per row.
+- `_particleRowHtml(p)` — row HTML; taps call `showParticleDetail(particleId)`.
+- `showParticleDetail(particleId)` — populates and opens `#particle-detail-sheet`. Renders: particle + CEFR header, category label, Bedeutung, Position im Satz, 3 example sentences (lime left border), contrast note, related-particle chips (each chip calls `showParticleDetail()` for that particle).
+- `closeParticleDetail()` — dismisses detail sheet.
+- `ParticleGrammar.init()` added to app bootstrap (after `Grammar.init()`).
+
+`index.html` — 3 new blocks:
+- `screen-particle-reference` — sticky controls (search input + Kategorie/A–Z sort toggle) + `#particle-ref-list` container.
+- `#particle-gate-overlay` + `#particle-gate-sheet` — soft gate bottom sheet. Shows lesson name, "Lektion lesen →" (primary) and "Trotzdem üben" (secondary) buttons.
+- `#particle-detail-overlay` + `#particle-detail-sheet` — reference card bottom sheet (80vh max-height, scrollable content area).
+
+`css/styles.css` — new rules: `.particle-ref-controls`, `.particle-ref-search`, `.particle-sort-toggle`, `.particle-sort-btn` (+ `.active`), `.particle-ref-category-header`, `.particle-ref-row`, `.particle-ref-row-left`, `.particle-ref-word`, `.particle-ref-signal`, `.particle-ref-cefr`, `.particle-ref-empty`, `.particle-detail-sheet`, `.particle-detail-header`, `.particle-detail-word`, `.particle-detail-cefr`, `.particle-detail-category`, `.particle-detail-section`, `.particle-detail-label`, `.particle-detail-body`, `.particle-detail-example` (lime left border), `.particle-detail-example-de/en`, `.particle-ref-chips`, `.particle-ref-chip`, `.secondary-btn`.
+
+`service-worker.js` — bumped to v6.
+
+**Pushed to live:** github.com/RsPerotti/mein_deutsch (v6)
+
+---
+
 ## 2026-06-13 — Session 29-C: Partikeln Phase 3 — Exercise Engine
 
 **Deliverables:**
