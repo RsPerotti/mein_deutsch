@@ -5,13 +5,14 @@
  * v3: QoL fixes (gesture nav, layout, exercise data cleanup).
  * v4: adds particles-data.js (Partikeln module — Session 29).
  * v5: Partikeln Phase 2+3 — module home UI + fill_blank_particle exercise engine.
+ * v6: Partikeln Phase 4+5 — grammar lessons, soft gate, Alle Partikeln reference screen.
  *
  * DEPLOY NOTE: bump the CACHE version string on every push that changes
  * JS/CSS files. The browser only installs a new SW when this file changes.
  * If the version is not bumped, users keep running the old cached code.
  */
 
-const CACHE = 'mein-deutsch-v5';
+const CACHE = 'mein-deutsch-v6';
 
 const PRECACHE = [
   './',

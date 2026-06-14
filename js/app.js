@@ -84,7 +84,14 @@ function onScreenEnter(screenId) {
     case 'screen-listening-list':    renderListeningList();                                       break;
     case 'screen-listening-reader':  /* rendered by listening.js on demand */                     break;
     case 'screen-results':           /* rendered by exercises.js */                               break;
-    case 'screen-grammar-lesson':    renderGrammarLesson(window._currentGrammarLessonId || '');  break;
+    case 'screen-grammar-lesson':
+      if (window._currentGrammarModule === 'particles') {
+        renderParticleLesson(window._currentGrammarLessonId || '');
+      } else {
+        renderGrammarLesson(window._currentGrammarLessonId || '');
+      }
+      break;
+    case 'screen-particle-reference': renderPartikelliste(); break;
   }
 }
 
@@ -970,22 +977,33 @@ function toggleParticlesGrammatikAccordion() {
 
 function _renderParticlesGrammatikStrip(lessons) {
   const total        = lessons.length;
-  const done         = 0;  // Phase 4: wire up Grammar progress for particles
+  const done         = lessons.filter(l => ParticleGrammar.isComplete(l.id)).length;
   const chevronStyle = _particlesGramOpen
     ? 'style="color:var(--color-text-muted);transition:transform 0.2s;flex-shrink:0;transform:rotate(180deg)"'
     : 'style="color:var(--color-text-muted);transition:transform 0.2s;flex-shrink:0"';
   const bodyClass    = _particlesGramOpen ? 'grammatik-accordion-body open' : 'grammatik-accordion-body';
 
-  const rows = lessons.map(l => `
-    <div class="grammatik-row" onclick="alert('Grammatik-Lektionen kommen in Kürze — Phase 4.')">
-      <span class="grammatik-row-dot" style="background:var(--color-text-muted)"></span>
+  const dotColor = {
+    locked:      'var(--color-text-muted)',
+    in_progress: '#D97706',
+    complete:    'var(--color-green-accent)'
+  };
+
+  const rows = lessons.map(l => {
+    const state  = ParticleGrammar.getLessonState(l.id);
+    const status = state.status || 'locked';
+    const color  = dotColor[status] || dotColor.locked;
+    return `
+    <div class="grammatik-row" onclick="openParticleLesson('${l.id}')">
+      <span class="grammatik-row-dot" style="background:${color}"></span>
       <span class="grammatik-row-title">${l.title}</span>
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
            style="color:var(--color-text-muted);flex-shrink:0">
         <polyline points="9 18 15 12 9 6"/>
       </svg>
-    </div>`).join('');
+    </div>`;
+  }).join('');
 
   return `
     <div class="grammatik-accordion mt-4">
@@ -1049,7 +1067,7 @@ function _renderParticleModuleCategories() {
     const pct  = n > 0 ? Math.round(done / n * 100) : 0;
     const range = catCefrRange[cat] || '';
     return `
-      <div class="category-card" onclick="openExercise('module_particles', '${cat}')">
+      <div class="category-card" onclick="openParticleExercise('${cat}')">
         <div class="category-card-title">${title}</div>
         <div class="category-card-subtitle">${subtitle}</div>
         <div style="font-size:10px;font-weight:700;letter-spacing:0.05em;color:var(--color-green-accent);
@@ -1112,9 +1130,220 @@ function _renderParticleModuleCategories() {
     </div>`;
 }
 
-// Placeholder — Phase 5 will build the full reference screen
+// ─── Soft gate ───────────────────────────────────────────────────────────────
+
+// Category → lesson that soft-gates it
+const _PARTICLE_GATE_MAP = {
+  'modal-softening':    { lessonId: 'particles-softening',    title: 'Softening & Requesting' },
+  'modal-attitude':     { lessonId: 'particles-attitude',     title: 'Shared Knowledge & Attitude' },
+  'modal-probability':  { lessonId: 'particles-probability',  title: 'Probability & Concession' },
+  'gradation-focus':    { lessonId: 'particles-gradation',    title: 'Gradation & Focus' },
+  'nuanced-connectors': { lessonId: 'particles-connectors',   title: 'Nuanced Connectors (C1)' },
+  'emphasis-register':  { lessonId: 'particles-emphasis',     title: 'Emphasis & Register (C2)' }
+};
+
+// Pending category while gate is shown
+let _pendingParticleCat = null;
+
+/**
+ * Called from category card tap. Shows soft gate if lesson not yet started,
+ * otherwise goes straight to exercises.
+ */
+function openParticleExercise(cat) {
+  const gate = _PARTICLE_GATE_MAP[cat];
+  if (gate && ParticleGrammar.getLessonState(gate.lessonId).status === 'locked') {
+    _pendingParticleCat = cat;
+    document.getElementById('particle-gate-lesson-name').textContent = gate.title;
+    document.getElementById('particle-gate-overlay').classList.add('visible');
+    document.getElementById('particle-gate-sheet').classList.add('visible');
+  } else {
+    openExercise('module_particles', cat);
+  }
+}
+
+function closeParticleGate() {
+  document.getElementById('particle-gate-overlay').classList.remove('visible');
+  document.getElementById('particle-gate-sheet').classList.remove('visible');
+  _pendingParticleCat = null;
+}
+
+function particleGateGoToLesson() {
+  const gate = _pendingParticleCat ? _PARTICLE_GATE_MAP[_pendingParticleCat] : null;
+  closeParticleGate();
+  if (gate) openParticleLesson(gate.lessonId);
+}
+
+function particleGateGoAnyway() {
+  const cat = _pendingParticleCat;
+  closeParticleGate();
+  if (cat) openExercise('module_particles', cat);
+}
+
+// ─── Alle Partikeln — reference screen ───────────────────────────────────────
+
+let _particleSort   = 'category'; // 'alpha' | 'category'
+let _particleSearch = '';
+let _particleDetailId = null;
+
 function openPartikelliste() {
-  alert('Partikeln-Referenz kommt in Phase 5.');
+  navigateTo('screen-particle-reference');
+}
+
+function renderPartikelliste() {
+  _particleSearch = '';
+  const searchEl = document.getElementById('particle-ref-search');
+  if (searchEl) searchEl.value = '';
+  // Reflect current sort on buttons
+  document.querySelectorAll('.particle-sort-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.sort === _particleSort);
+  });
+  _renderParticleList();
+}
+
+function setParticleSort(mode) {
+  _particleSort = mode;
+  document.querySelectorAll('.particle-sort-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.sort === mode);
+  });
+  _renderParticleList();
+}
+
+function filterParticlesSearch(val) {
+  _particleSearch = val.trim().toLowerCase();
+  _renderParticleList();
+}
+
+function _renderParticleList() {
+  const pd        = (typeof PARTICLES_DATA !== 'undefined') ? PARTICLES_DATA : {};
+  let particles   = pd.particles || [];
+  const container = document.getElementById('particle-ref-list');
+  if (!container) return;
+
+  // Search filter
+  if (_particleSearch) {
+    particles = particles.filter(p =>
+      p.particle.toLowerCase().includes(_particleSearch) ||
+      (p.signals || '').toLowerCase().includes(_particleSearch)
+    );
+  }
+
+  if (particles.length === 0) {
+    container.innerHTML = `<div class="particle-ref-empty">Keine Partikeln gefunden.</div>`;
+    return;
+  }
+
+  if (_particleSort === 'alpha') {
+    const sorted = [...particles].sort((a, b) => a.particle.localeCompare(b.particle));
+    container.innerHTML = sorted.map(_particleRowHtml).join('');
+  } else {
+    // Group by category in defined order
+    const catOrder = [
+      'modal-softening', 'modal-attitude', 'modal-probability',
+      'gradation-focus', 'nuanced-connectors', 'emphasis-register'
+    ];
+    const catLabel = {
+      'modal-softening':    'Softening & Requesting',
+      'modal-attitude':     'Attitude & Knowledge',
+      'modal-probability':  'Probability & Concession',
+      'gradation-focus':    'Gradation & Focus',
+      'nuanced-connectors': 'Nuanced Connectors',
+      'emphasis-register':  'Emphasis & Register'
+    };
+    let html = '';
+    for (const cat of catOrder) {
+      const group = particles.filter(p => p.category === cat);
+      if (!group.length) continue;
+      html += `<div class="particle-ref-category-header">${catLabel[cat]}</div>`;
+      html += group.map(_particleRowHtml).join('');
+    }
+    container.innerHTML = html;
+  }
+}
+
+function _particleRowHtml(p) {
+  const cefrBadge = `<span class="particle-ref-cefr">${p.cefr}</span>`;
+  return `
+    <div class="particle-ref-row" onclick="showParticleDetail('${p.id}')">
+      <div class="particle-ref-row-left">
+        <span class="particle-ref-word">${p.particle}</span>
+        <span class="particle-ref-signal">${p.signals || ''}</span>
+      </div>
+      ${cefrBadge}
+    </div>`;
+}
+
+// ─── Particle detail bottom sheet ────────────────────────────────────────────
+
+function showParticleDetail(particleId) {
+  const pd       = (typeof PARTICLES_DATA !== 'undefined') ? PARTICLES_DATA : {};
+  const particle = (pd.particles || []).find(p => p.id === particleId);
+  if (!particle) return;
+
+  _particleDetailId = particleId;
+
+  const catLabel = {
+    'modal-softening':    'Modal · Softening & Requesting',
+    'modal-attitude':     'Modal · Attitude & Knowledge',
+    'modal-probability':  'Modal · Probability & Concession',
+    'gradation-focus':    'Gradation & Focus',
+    'nuanced-connectors': 'Nuanced Connectors',
+    'emphasis-register':  'Emphasis & Register'
+  };
+
+  const examplesHtml = (particle.examples || []).map(ex => `
+    <div class="particle-detail-example">
+      <div class="particle-detail-example-de">${ex.de}</div>
+      <div class="particle-detail-example-en">${ex.en}</div>
+    </div>`).join('');
+
+  const relatedHtml = (particle.related || []).length > 0 ? `
+    <div class="particle-detail-section">
+      <div class="particle-detail-label">Verwandte Partikeln</div>
+      <div class="particle-ref-chips">
+        ${particle.related.map(r => `<span class="particle-ref-chip" onclick="showParticleDetail('${r}')">${r}</span>`).join('')}
+      </div>
+    </div>` : '';
+
+  const contrastHtml = particle.contrast_note ? `
+    <div class="particle-detail-section">
+      <div class="particle-detail-label">Hinweis</div>
+      <div class="particle-detail-body">${particle.contrast_note}</div>
+    </div>` : '';
+
+  document.getElementById('particle-detail-content').innerHTML = `
+    <div class="particle-detail-header">
+      <span class="particle-detail-word">${particle.particle}</span>
+      <span class="particle-detail-cefr">${particle.cefr}</span>
+    </div>
+    <div class="particle-detail-category">${catLabel[particle.category] || particle.category}</div>
+
+    <div class="particle-detail-section">
+      <div class="particle-detail-label">Bedeutung</div>
+      <div class="particle-detail-body">${particle.signals}</div>
+    </div>
+
+    <div class="particle-detail-section">
+      <div class="particle-detail-label">Position im Satz</div>
+      <div class="particle-detail-body">${particle.position || '—'}</div>
+    </div>
+
+    <div class="particle-detail-section">
+      <div class="particle-detail-label">Beispiele</div>
+      ${examplesHtml}
+    </div>
+
+    ${contrastHtml}
+    ${relatedHtml}`;
+
+  document.getElementById('particle-detail-overlay').classList.add('visible');
+  document.getElementById('particle-detail-sheet').classList.add('visible');
+  document.getElementById('particle-detail-content').scrollTop = 0;
+}
+
+function closeParticleDetail() {
+  document.getElementById('particle-detail-overlay').classList.remove('visible');
+  document.getElementById('particle-detail-sheet').classList.remove('visible');
+  _particleDetailId = null;
 }
 
 // ─────────────────────────────────────────
@@ -1212,7 +1441,8 @@ function togglePrepCard(prepId) {
 
 async function init() {
   await loadData();
-  Grammar.init();       // run migration before any rendering (idempotent after first run)
+  Grammar.init();         // run migration before any rendering (idempotent after first run)
+  ParticleGrammar.init(); // initialise particle lesson state (no migration — new module)
   Progress.updateStreak();
   Progress.recordSession();
   renderHome();

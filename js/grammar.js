@@ -176,6 +176,7 @@ const Grammar = {
  */
 function openLesson(lessonId) {
   window._currentGrammarLessonId = lessonId;
+  window._currentGrammarModule   = 'verbs';
   navigateTo('screen-grammar-lesson');
 }
 
@@ -256,6 +257,184 @@ function startGrammarQuiz(lessonId) {
   const btn = document.querySelector('.grammar-cta-area button');
   if (btn) {
     btn.textContent = 'Quiz kommt in Phase 3 →';
+    btn.style.background = 'var(--color-green-accent)';
+    btn.disabled = true;
+  }
+}
+
+// ─────────────────────────────────────────
+// PARTICLE GRAMMAR — mirrors Grammar for the Particles module
+// localStorage key: app_particles_lesson
+// ─────────────────────────────────────────
+
+const ParticleGrammar = {
+
+  KEY: 'app_particles_lesson',
+
+  PASS_THRESHOLD: 0.8,
+
+  LESSON_IDS: [
+    'particles-intro',
+    'particles-softening',
+    'particles-attitude',
+    'particles-probability',
+    'particles-gradation',
+    'particles-doch-answer',
+    'particles-connectors',
+    'particles-emphasis'
+  ],
+
+  _get() {
+    try {
+      const raw = localStorage.getItem(this.KEY);
+      return raw !== null ? JSON.parse(raw) : null;
+    } catch { return null; }
+  },
+
+  _set(value) {
+    try { localStorage.setItem(this.KEY, JSON.stringify(value)); }
+    catch (e) { console.warn('ParticleGrammar: localStorage write failed', e); }
+  },
+
+  getLessonState(lessonId) {
+    const all = this._get() || {};
+    return all[lessonId] || { status: 'locked', score: null, attempts: 0 };
+  },
+
+  setLessonState(lessonId, partial) {
+    const all = this._get() || {};
+    all[lessonId] = { ...this.getLessonState(lessonId), ...partial };
+    this._set(all);
+  },
+
+  isComplete(lessonId) {
+    return this.getLessonState(lessonId).status === 'complete';
+  },
+
+  markStarted(lessonId) {
+    const current = this.getLessonState(lessonId);
+    if (current.status === 'locked') {
+      this.setLessonState(lessonId, { status: 'in_progress' });
+    }
+  },
+
+  recordQuizResult(lessonId, correctCount, totalCount) {
+    const score  = totalCount > 0 ? correctCount / totalCount : 0;
+    const passed = score >= this.PASS_THRESHOLD;
+    const current = this.getLessonState(lessonId);
+    this.setLessonState(lessonId, {
+      status:   passed ? 'complete' : 'in_progress',
+      score:    score,
+      attempts: (current.attempts || 0) + 1
+    });
+    return passed;
+  },
+
+  /**
+   * init() — called on app start. Particles is a new module so there is no
+   * existing-user migration needed. If the key is absent, initialise all
+   * lessons as locked. Subsequent calls are no-ops.
+   */
+  init() {
+    if (this._get() !== null) return;
+    const state = {};
+    for (const id of this.LESSON_IDS) {
+      state[id] = { status: 'locked', score: null, attempts: 0 };
+    }
+    this._set(state);
+    console.log('[ParticleGrammar] Initialised — all lessons locked for new user.');
+  }
+
+};
+
+// ─────────────────────────────────────────
+// PARTICLE LESSON RENDERER
+// ─────────────────────────────────────────
+
+/**
+ * Navigate to the grammar lesson screen for a Particles lesson.
+ * Sets a module flag so onScreenEnter routes to the right renderer.
+ */
+function openParticleLesson(lessonId) {
+  window._currentGrammarLessonId = lessonId;
+  window._currentGrammarModule   = 'particles';
+  navigateTo('screen-grammar-lesson');
+}
+
+/**
+ * Render the grammar lesson screen for a Particles lesson.
+ * Called from onScreenEnter when _currentGrammarModule === 'particles'.
+ */
+function renderParticleLesson(lessonId) {
+  const pd      = (typeof PARTICLES_DATA !== 'undefined') ? PARTICLES_DATA : {};
+  const lessons = pd.lessons || [];
+  const lesson  = lessons.find(l => l.id === lessonId);
+
+  if (!lesson) {
+    document.getElementById('grammar-lesson-content').innerHTML =
+      '<div style="padding:var(--sp-6);color:var(--color-text-muted)">Lektion nicht gefunden.</div>';
+    return;
+  }
+
+  // Mark started
+  ParticleGrammar.markStarted(lessonId);
+
+  // Nav context
+  document.getElementById('grammar-lesson-nav-context').textContent =
+    'Partikeln · ' + lesson.title;
+
+  // Sections
+  const sectionsHtml = (lesson.sections || []).map(sec => `
+    <div class="grammar-section">
+      <h2 class="grammar-section-heading">${sec.heading}</h2>
+      <p class="grammar-section-body">${sec.body}</p>
+      ${sec.example_de ? `
+        <div class="grammar-example">
+          <div class="grammar-example-de">${sec.example_de}</div>
+          <div class="grammar-example-en">${sec.example_en || ''}</div>
+        </div>` : ''}
+    </div>`).join('');
+
+  // Key rules
+  const rulesHtml = (lesson.key_rules || []).length > 0 ? `
+    <div class="grammar-key-rules">
+      <div class="grammar-key-rules-heading">Schlüsselregeln</div>
+      <ul>
+        ${lesson.key_rules.map(r => `<li>${r}</li>`).join('')}
+      </ul>
+    </div>` : '';
+
+  // Quiz CTA
+  const quizCount  = (lesson.quiz || []).length;
+  const state      = ParticleGrammar.getLessonState(lessonId);
+  const isComplete = state.status === 'complete';
+  const ctaLabel   = isComplete
+    ? `Quiz wiederholen · ${quizCount} Fragen`
+    : `Quiz starten · ${quizCount} Fragen`;
+
+  const ctaHtml = quizCount > 0 ? `
+    <div class="grammar-cta-area">
+      <button onclick="startParticleQuiz('${lessonId}')">${ctaLabel}</button>
+    </div>` : '';
+
+  document.getElementById('grammar-lesson-content').innerHTML = `
+    <div class="grammar-lesson-body">
+      <h1 class="grammar-lesson-title">${lesson.title}</h1>
+      ${sectionsHtml}
+      ${rulesHtml}
+    </div>
+    ${ctaHtml}`;
+
+  document.getElementById('grammar-lesson-content').scrollTop = 0;
+}
+
+/**
+ * Stub for particle quiz — Phase 6 (Grammatik build) will wire this up.
+ */
+function startParticleQuiz(lessonId) {
+  const btn = document.querySelector('.grammar-cta-area button');
+  if (btn) {
+    btn.textContent = 'Quiz kommt bald →';
     btn.style.background = 'var(--color-green-accent)';
     btn.disabled = true;
   }
