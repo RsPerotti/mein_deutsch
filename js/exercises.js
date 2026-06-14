@@ -856,6 +856,7 @@ function selectAnswer(btn) {
 // Called by the "Weiter →" button
 function advanceExercise() {
   if (exerciseMode === 'wordlist') { _showNextWL(); return; }
+  if (exerciseMode === 'artikel')  { _artikelShowNext(); return; }
   _showNext();
 }
 
@@ -865,6 +866,11 @@ function exitExerciseEarly() {
     exerciseMode = 'module';
     _restoreModuleChips();
     navigateTo('screen-wordlist');
+    return;
+  }
+  if (exerciseMode === 'artikel') {
+    exerciseMode = 'module';
+    returnFromResults();
     return;
   }
   returnFromResults();
@@ -1389,6 +1395,202 @@ function _ensureFirstExposure(queue) {
     }
   }
   return result;
+}
+
+// ═══════════════════════════════════════════════════════
+
+// ═══════════════════════════════════════════════════════
+// ARTIKEL EXERCISE ENGINE — Der, Die, oder Das?
+// Queue is built dynamically from nouns.json (no static exercises file).
+// exerciseMode === 'artikel' while this engine is active.
+// ═══════════════════════════════════════════════════════
+
+let _artikelSession = {
+  queue:        [],
+  correctCount: 0,
+  totalCount:   0,
+  current:      null,
+  answered:     false
+};
+
+/**
+ * Entry point — called from onScreenEnter when exerciseMode === 'artikel'.
+ * Builds a shuffled queue of all unlocked root nouns.
+ */
+function startArtikelExercise() {
+  const unlockedIds = new Set(Progress.getUnlockedRootNouns());
+  const nouns       = (appData.nouns || []).filter(n => unlockedIds.has(n.id));
+
+  if (nouns.length === 0) {
+    document.getElementById('exercise-card').innerHTML = `
+      <div class="empty-state" style="padding:40px 0">
+        <div class="empty-icon">📦</div>
+        <p>Noch keine Nomen freigeschaltet.<br>Übe zuerst im <strong>Nomen</strong>-Modul.</p>
+      </div>`;
+    return;
+  }
+
+  // Build synthetic exercise objects from noun data
+  const queue = _shuffle(nouns.map(n => ({
+    type:            'select_article',
+    word_id:         n.id,
+    word:            n.word,
+    english:         n.english,
+    correct_article: n.article   // 'der' | 'die' | 'das'
+  })));
+
+  _artikelSession = {
+    queue,
+    correctCount: 0,
+    totalCount:   nouns.length,
+    current:      null,
+    answered:     false
+  };
+
+  // Context pill
+  document.getElementById('exercise-context-label').textContent = 'ARTIKEL · DER / DIE / DAS';
+
+  // Hide module-specific pickers
+  const prepPicker     = document.getElementById('prep-difficulty-picker');
+  const particlePicker = document.getElementById('particles-cefr-picker-ex');
+  const verbPicker     = document.getElementById('verb-tense-picker');
+  if (prepPicker)     prepPicker.style.display     = 'none';
+  if (particlePicker) particlePicker.style.display = 'none';
+  if (verbPicker)     verbPicker.style.display     = 'none';
+
+  // Chips
+  document.getElementById('chip-correct').textContent = '0';
+  document.getElementById('chip-queue').textContent   = queue.length;
+  document.getElementById('chip-cooldown-wrap').style.display = 'none';
+
+  _artikelShowNext();
+}
+
+function _artikelShowNext() {
+  const s = _artikelSession;
+
+  if (s.queue.length === 0) {
+    _artikelShowResults();
+    return;
+  }
+
+  s.current  = s.queue.shift();
+  s.answered = false;
+
+  // Progress bar
+  const done  = s.correctCount;
+  const total = done + s.queue.length + 1;
+  document.getElementById('exercise-progress-fill').style.width =
+    total > 0 ? Math.round(done / total * 100) + '%' : '0%';
+
+  document.getElementById('exercise-card').innerHTML = _renderSelectArticle(s.current);
+  document.getElementById('next-btn').style.display = 'none';
+
+  document.getElementById('chip-correct').textContent = s.correctCount;
+  document.getElementById('chip-queue').textContent   = s.queue.length;
+}
+
+function _renderSelectArticle(ex) {
+  return `
+    <div class="exercise-card-inner" style="text-align:center">
+      <div class="exercise-meta" style="text-transform:uppercase;letter-spacing:var(--ls-label);
+           font-size:var(--font-size-xs);color:var(--color-text-muted);margin-bottom:var(--sp-4)">
+        Welcher Artikel?
+      </div>
+
+      <div style="font-size:2.4rem;font-weight:var(--fw-bold);color:var(--color-text-primary);
+                  line-height:1.1;margin-bottom:var(--sp-2)">
+        ${ex.word}
+      </div>
+      <div style="font-size:var(--font-size-base);color:var(--color-text-secondary);
+                  margin-bottom:var(--sp-6)">
+        ${ex.english}
+      </div>
+
+      <div id="artikel-feedback" style="min-height:24px;margin-bottom:var(--sp-4);
+           font-size:var(--font-size-sm);font-weight:var(--fw-semibold)"></div>
+
+      <div style="display:flex;gap:var(--sp-3);justify-content:center">
+        ${['der','die','das'].map(art => `
+          <button id="art-btn-${art}"
+                  class="artikel-btn"
+                  onclick="selectArticleAnswer('${art}')">
+            ${art.charAt(0).toUpperCase() + art.slice(1)}
+          </button>`).join('')}
+      </div>
+    </div>`;
+}
+
+/**
+ * Called when the user taps Der / Die / Das.
+ */
+function selectArticleAnswer(chosen) {
+  const s = _artikelSession;
+  if (!s || s.answered) return;
+  s.answered = true;
+
+  const correct  = s.current.correct_article;
+  const isRight  = chosen === correct;
+  const feedback = document.getElementById('artikel-feedback');
+
+  // Disable all three buttons
+  ['der','die','das'].forEach(art => {
+    const btn = document.getElementById('art-btn-' + art);
+    if (!btn) return;
+    btn.disabled = true;
+    if (art === correct)            btn.classList.add('art-correct');
+    else if (art === chosen && !isRight) btn.classList.add('art-wrong');
+    else                             btn.classList.add('art-dim');
+  });
+
+  if (isRight) {
+    s.correctCount++;
+    if (feedback) {
+      feedback.style.color = 'var(--color-green-accent)';
+      feedback.textContent = '✓ Richtig!';
+    }
+    _flash('green');
+    // Auto-advance after 800ms
+    setTimeout(() => _artikelShowNext(), 800);
+  } else {
+    if (feedback) {
+      feedback.style.color = '#D97706';
+      feedback.textContent = `Richtig: ${correct} ${s.current.word}`;
+    }
+    _flash('red');
+    // Manual advance — show next button
+    document.getElementById('next-btn').style.display = 'block';
+  }
+
+  document.getElementById('chip-correct').textContent = s.correctCount;
+}
+
+function _artikelShowResults() {
+  exerciseMode = 'module';
+  navigateTo('screen-results');
+
+  const s     = _artikelSession;
+  const total = s.totalCount;
+  const right = s.correctCount;
+
+  document.getElementById('results-summary').textContent =
+    `${right} von ${total} Nomen richtig.`;
+
+  const pct = total > 0 ? Math.round(right / total * 100) : 0;
+
+  document.getElementById('results-stats').innerHTML = `
+    <div class="results-stat-row">
+      <span>Richtige Antworten</span><strong>${right} / ${total}</strong>
+    </div>
+    <div class="results-stat-row">
+      <span>Ergebnis</span><strong>${pct}%</strong>
+    </div>`;
+
+  document.getElementById('results-unlocked').innerHTML = '';
+
+  // Restore cooldown chip visibility for next regular exercise session
+  const cdWrap = document.getElementById('chip-cooldown-wrap');
+  if (cdWrap) cdWrap.style.display = '';
 }
 
 // ═══════════════════════════════════════════════════════

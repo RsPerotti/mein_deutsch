@@ -717,6 +717,293 @@ function _renderParticleQuizResults() {
 }
 
 // ─────────────────────────────────────────
+// ARTIKEL GRAMMAR — mirrors ParticleGrammar for the Artikel module
+// localStorage key: app_grammar_artikel_lessons
+// ─────────────────────────────────────────
+
+const ArticleGrammar = {
+
+  KEY: 'app_grammar_artikel_lessons',
+
+  PASS_THRESHOLD: 0.8,
+
+  LESSON_IDS: [
+    'artikel-gender-intro',
+    'artikel-masculine-endings',
+    'artikel-feminine-endings',
+    'artikel-neuter-endings',
+    'artikel-meaning-categories',
+    'artikel-compound-tips'
+  ],
+
+  _get() {
+    try {
+      const raw = localStorage.getItem(this.KEY);
+      return raw !== null ? JSON.parse(raw) : null;
+    } catch { return null; }
+  },
+
+  _set(value) {
+    try { localStorage.setItem(this.KEY, JSON.stringify(value)); }
+    catch (e) { console.warn('ArticleGrammar: localStorage write failed', e); }
+  },
+
+  getLessonState(lessonId) {
+    const all = this._get() || {};
+    return all[lessonId] || { status: 'locked', score: null, attempts: 0 };
+  },
+
+  setLessonState(lessonId, partial) {
+    const all = this._get() || {};
+    all[lessonId] = { ...this.getLessonState(lessonId), ...partial };
+    this._set(all);
+  },
+
+  isComplete(lessonId) {
+    return this.getLessonState(lessonId).status === 'complete';
+  },
+
+  markStarted(lessonId) {
+    const current = this.getLessonState(lessonId);
+    if (current.status === 'locked') {
+      this.setLessonState(lessonId, { status: 'in_progress' });
+    }
+  },
+
+  recordQuizResult(lessonId, correctCount, totalCount) {
+    const score  = totalCount > 0 ? correctCount / totalCount : 0;
+    const passed = score >= this.PASS_THRESHOLD;
+    const current = this.getLessonState(lessonId);
+    this.setLessonState(lessonId, {
+      status:   passed ? 'complete' : 'in_progress',
+      score:    score,
+      attempts: (current.attempts || 0) + 1
+    });
+    return passed;
+  },
+
+  init() {
+    if (this._get() !== null) return;
+    const state = {};
+    for (const id of this.LESSON_IDS) {
+      state[id] = { status: 'locked', score: null, attempts: 0 };
+    }
+    this._set(state);
+    console.log('[ArticleGrammar] Initialised — all lessons locked for new user.');
+  }
+
+};
+
+// ─────────────────────────────────────────
+// ARTIKEL LESSON RENDERER
+// ─────────────────────────────────────────
+
+function openArticleLesson(lessonId) {
+  window._currentGrammarLessonId = lessonId;
+  window._currentGrammarModule   = 'artikel';
+  navigateTo('screen-grammar-lesson');
+}
+
+function renderArticleLesson(lessonId) {
+  const lessons = (typeof ARTICLE_GRAMMAR_DATA !== 'undefined') ? ARTICLE_GRAMMAR_DATA : [];
+  const lesson  = lessons.find(l => l.id === lessonId);
+
+  if (!lesson) {
+    document.getElementById('grammar-lesson-content').innerHTML =
+      '<div style="padding:var(--sp-6);color:var(--color-text-muted)">Lektion nicht gefunden.</div>';
+    return;
+  }
+
+  ArticleGrammar.markStarted(lessonId);
+
+  document.getElementById('grammar-lesson-nav-context').textContent =
+    'Artikel · ' + lesson.title;
+
+  const sectionsHtml = (lesson.sections || []).map(sec => `
+    <div class="grammar-section">
+      <h2 class="grammar-section-heading">${sec.heading}</h2>
+      <p class="grammar-section-body">${sec.body}</p>
+      ${sec.example_de ? `
+        <div class="grammar-example">
+          <div class="grammar-example-de">${sec.example_de}</div>
+          <div class="grammar-example-en">${sec.example_en || ''}</div>
+        </div>` : ''}
+    </div>`).join('');
+
+  const rulesHtml = (lesson.key_rules || []).length > 0 ? `
+    <div class="grammar-key-rules">
+      <div class="grammar-key-rules-heading">Schlüsselregeln</div>
+      <ul>
+        ${lesson.key_rules.map(r => `<li>${r}</li>`).join('')}
+      </ul>
+    </div>` : '';
+
+  const quizCount  = (lesson.quiz || []).length;
+  const state      = ArticleGrammar.getLessonState(lessonId);
+  const isComplete = state.status === 'complete';
+  const ctaLabel   = isComplete
+    ? `Quiz wiederholen · ${quizCount} Fragen`
+    : `Quiz starten · ${quizCount} Fragen`;
+
+  const ctaHtml = quizCount > 0 ? `
+    <div class="grammar-cta-area">
+      <button onclick="startArticleQuiz('${lessonId}')">${ctaLabel}</button>
+    </div>` : '';
+
+  document.getElementById('grammar-lesson-content').innerHTML = `
+    <div class="grammar-lesson-body">
+      <h1 class="grammar-lesson-title">${lesson.title}</h1>
+      ${sectionsHtml}
+      ${rulesHtml}
+    </div>
+    ${ctaHtml}`;
+
+  document.getElementById('grammar-lesson-content').scrollTop = 0;
+}
+
+function startArticleQuiz(lessonId) {
+  const lessons  = (typeof ARTICLE_GRAMMAR_DATA !== 'undefined') ? ARTICLE_GRAMMAR_DATA : [];
+  const lesson   = lessons.find(l => l.id === lessonId);
+  if (!lesson) return;
+
+  const questions = (lesson.quiz || []).filter(q => q.type === 'rule_check');
+
+  window._grammarQuizState = {
+    lessonId,
+    questions,
+    currentIndex: 0,
+    correctCount: 0,
+    answered:     false,
+    module:       'artikel'
+  };
+
+  if (typeof currentScreen !== 'undefined' && currentScreen === 'screen-grammar-quiz') {
+    renderArticleQuiz();
+  } else {
+    navigateTo('screen-grammar-quiz');
+  }
+}
+
+function renderArticleQuiz() {
+  const state = window._grammarQuizState;
+  if (!state) return;
+
+  const lessons = (typeof ARTICLE_GRAMMAR_DATA !== 'undefined') ? ARTICLE_GRAMMAR_DATA : [];
+  const lesson  = lessons.find(l => l.id === state.lessonId);
+
+  document.getElementById('grammar-quiz-nav-context').textContent =
+    (lesson ? lesson.title : 'Quiz') + ' · Quiz';
+
+  if (state.currentIndex >= state.questions.length) {
+    _renderArticleQuizResults();
+    return;
+  }
+
+  _renderGrammarQuizQuestion(); // shared question renderer
+}
+
+function _renderArticleQuizResults() {
+  const state   = window._grammarQuizState;
+  const total   = state.questions.length;
+  const correct = state.correctCount;
+  const pct     = total > 0 ? Math.round(correct / total * 100) : 0;
+
+  const passed  = ArticleGrammar.recordQuizResult(state.lessonId, correct, total);
+
+  const progEl = document.getElementById('grammar-quiz-progress');
+  if (progEl) progEl.textContent = '';
+
+  const passHtml = `
+    <div class="quiz-results-status passed">✓ Bestanden</div>
+    <button class="primary-btn" style="margin-bottom:var(--sp-3)"
+            onclick="navigateBack();navigateBack()">Zurück zu Artikel</button>
+    <button class="secondary-btn"
+            onclick="startArticleQuiz('${state.lessonId}')">Quiz wiederholen</button>`;
+
+  const failHtml = `
+    <div class="quiz-results-status failed">
+      Noch nicht bestanden. Du brauchst ${Math.ceil(ArticleGrammar.PASS_THRESHOLD * total)} / ${total} richtig.
+    </div>
+    <button class="primary-btn" style="margin-bottom:var(--sp-3)"
+            onclick="startArticleQuiz('${state.lessonId}')">Noch einmal versuchen</button>
+    <button class="secondary-btn"
+            onclick="navigateBack()">Lektion nochmal lesen</button>`;
+
+  document.getElementById('grammar-quiz-content').innerHTML = `
+    <div style="padding:var(--sp-4)">
+      <div class="quiz-results-card">
+        <div class="quiz-results-score">${pct}%</div>
+        <div class="quiz-results-label">${correct} / ${total} richtig</div>
+        ${passed ? passHtml : failHtml}
+      </div>
+    </div>`;
+}
+
+// ─────────────────────────────────────────
+// ARTIKEL GRAMMATIK ACCORDION
+// ─────────────────────────────────────────
+
+let _artikelGramOpen = false;
+
+function toggleArtikelGrammatikAccordion() {
+  _artikelGramOpen = !_artikelGramOpen;
+  const body    = document.getElementById('artikel-gram-body');
+  const chevron = document.getElementById('artikel-gram-chevron');
+  if (body)    body.classList.toggle('open', _artikelGramOpen);
+  if (chevron) chevron.style.transform = _artikelGramOpen ? 'rotate(180deg)' : '';
+}
+
+function _renderArtikelGrammatikStrip(lessons) {
+  const total    = lessons.length;
+  const done     = lessons.filter(l => ArticleGrammar.isComplete(l.id)).length;
+  const bodyClass    = _artikelGramOpen ? 'grammatik-accordion-body open' : 'grammatik-accordion-body';
+  const chevronStyle = _artikelGramOpen
+    ? 'style="color:var(--color-text-muted);transition:transform 0.2s;flex-shrink:0;transform:rotate(180deg)"'
+    : 'style="color:var(--color-text-muted);transition:transform 0.2s;flex-shrink:0"';
+
+  const dotColor = {
+    locked:      'var(--color-text-muted)',
+    in_progress: '#D97706',
+    complete:    'var(--color-green-accent)'
+  };
+
+  const rows = lessons.map(l => {
+    const state  = ArticleGrammar.getLessonState(l.id);
+    const status = state.status || 'locked';
+    const color  = dotColor[status] || dotColor.locked;
+    return `
+    <div class="grammatik-row" onclick="openArticleLesson('${l.id}')">
+      <span class="grammatik-row-dot" style="background:${color}"></span>
+      <span class="grammatik-row-title">${l.title}</span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+           stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+           style="color:var(--color-text-muted);flex-shrink:0">
+        <polyline points="9 18 15 12 9 6"/>
+      </svg>
+    </div>`;
+  }).join('');
+
+  return `
+    <div class="grammatik-accordion mt-4">
+      <div class="grammatik-accordion-header" onclick="toggleArtikelGrammatikAccordion()">
+        <div class="grammatik-accordion-left">
+          <span class="grammatik-accordion-label">Grammatik</span>
+          <span class="grammatik-accordion-count">${done} / ${total}</span>
+        </div>
+        <svg id="artikel-gram-chevron" width="16" height="16" viewBox="0 0 24 24"
+             fill="none" stroke="currentColor" stroke-width="2.5"
+             stroke-linecap="round" stroke-linejoin="round"
+             ${chevronStyle}>
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </div>
+      <div class="${bodyClass}" id="artikel-gram-body">
+        ${rows}
+      </div>
+    </div>`;
+}
+
+// ─────────────────────────────────────────
 // GRAMMATIK ACCORDION — used by app.js
 // ─────────────────────────────────────────
 

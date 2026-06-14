@@ -75,7 +75,10 @@ function onScreenEnter(screenId) {
     case 'screen-home':              renderHome();                            break;
     case 'screen-wordlist':          renderWordList();                        break;
     case 'screen-module-home':       renderModuleHome(currentModuleId);       break;
-    case 'screen-exercise':          startExercise(currentExerciseState);     break;
+    case 'screen-exercise':
+      if (exerciseMode === 'artikel') startArtikelExercise();
+      else startExercise(currentExerciseState);
+      break;
     case 'screen-verbliste':         renderVerbliste();                       break;
     case 'screen-nomenliste':        renderNomenliste();                      break;
     case 'screen-adverbliste':       renderAdverbliste();                     break;
@@ -87,6 +90,8 @@ function onScreenEnter(screenId) {
     case 'screen-grammar-lesson':
       if (window._currentGrammarModule === 'particles') {
         renderParticleLesson(window._currentGrammarLessonId || '');
+      } else if (window._currentGrammarModule === 'artikel') {
+        renderArticleLesson(window._currentGrammarLessonId || '');
       } else {
         renderGrammarLesson(window._currentGrammarLessonId || '');
       }
@@ -94,6 +99,8 @@ function onScreenEnter(screenId) {
     case 'screen-grammar-quiz':
       if (window._grammarQuizState && window._grammarQuizState.module === 'particles') {
         renderParticleQuiz();
+      } else if (window._grammarQuizState && window._grammarQuizState.module === 'artikel') {
+        renderArticleQuiz();
       } else {
         renderGrammarQuiz();
       }
@@ -310,6 +317,8 @@ function renderModuleHome(moduleId) {
     _renderPrepositionModuleCategories();
   } else if (moduleId === 'module_particles') {
     _renderParticleModuleCategories();
+  } else if (moduleId === 'module_artikel') {
+    _renderArtikelModuleCategories();
   }
 }
 
@@ -1228,6 +1237,56 @@ function particleGateGoAnyway() {
   if (cat) openExercise('module_particles', cat);
 }
 
+// ─────────────────────────────────────────
+// ARTIKEL MODULE
+// ─────────────────────────────────────────
+
+function openArtikelExercise() {
+  // exerciseMode and queue-building are handled inside startArtikelExercise() in exercises.js.
+  // We navigate to the exercise screen and let onScreenEnter dispatch to startArtikelExercise.
+  exerciseMode = 'artikel';
+  navigateTo('screen-exercise');
+}
+
+function _renderArtikelModuleCategories() {
+  const allLessons    = (typeof ARTICLE_GRAMMAR_DATA !== 'undefined') ? ARTICLE_GRAMMAR_DATA : [];
+  const gramStrip     = _renderArtikelGrammatikStrip(allLessons);
+
+  // Pool = all root nouns (variants not included — they don't have standalone articles)
+  const unlockedIds   = new Set(Progress.getUnlockedRootNouns());
+  const poolNouns     = appData.nouns.filter(n => unlockedIds.has(n.id));
+  const poolCount     = poolNouns.length;
+  const totalNouns    = appData.nouns.length;
+
+  const emptyMsg = poolCount === 0
+    ? `<div style="font-size:var(--font-size-sm);color:var(--color-text-muted);margin-top:var(--sp-2);line-height:1.5">
+        Noch keine Nomen freigeschaltet.<br>Übe zuerst im <strong>Nomen</strong>-Modul.
+       </div>`
+    : '';
+
+  document.getElementById('module-categories').innerHTML = `
+    ${gramStrip}
+
+    <!-- Der, Die, oder Das? exercise card -->
+    <div class="card mt-4" style="cursor:${poolCount > 0 ? 'pointer' : 'default'}"
+         onclick="${poolCount > 0 ? 'openArtikelExercise()' : ''}">
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <div style="flex:1;min-width:0">
+          <div style="font-size:var(--font-size-xs);font-weight:var(--fw-semibold);letter-spacing:var(--ls-label);text-transform:uppercase;color:var(--color-text-secondary);margin-bottom:4px">Üben</div>
+          <div style="font-size:var(--font-size-xl);font-weight:var(--fw-bold);line-height:1.2">Der, Die, oder Das?</div>
+          <div style="font-size:var(--font-size-sm);color:var(--color-text-muted);margin-top:4px">${poolCount} / ${totalNouns} Nomen verfügbar</div>
+          ${emptyMsg}
+        </div>
+        ${poolCount > 0 ? `
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+             style="color:var(--color-text-muted);flex-shrink:0;margin-left:var(--sp-3)">
+          <polyline points="9 18 15 12 9 6"/>
+        </svg>` : ''}
+      </div>
+    </div>`;
+}
+
 // ─── Alle Partikeln — reference screen ───────────────────────────────────────
 
 let _particleSort   = 'category'; // 'alpha' | 'category'
@@ -1492,6 +1551,7 @@ async function init() {
   await loadData();
   Grammar.init();         // run migration before any rendering (idempotent after first run)
   ParticleGrammar.init(); // initialise particle lesson state (no migration — new module)
+  ArticleGrammar.init();  // initialise article lesson state (no migration — new module)
   Progress.updateStreak();
   Progress.recordSession();
   renderHome();

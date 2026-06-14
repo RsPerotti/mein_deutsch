@@ -1,5 +1,5 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-06-14 — Session 32 (Grammatik quiz engine + unlock gating — not yet pushed)*
+*Last updated: 2026-06-14 — Session 32 (Grammatik curriculum complete — live)*
 
 ---
 
@@ -9,7 +9,7 @@
 
 **Partikeln module COMPLETE.** All 7 phases done. 34 particles, 510 exercises (15 per particle), 8 grammar lessons. Commit 8726903 pushed and live.
 
-**Grammatik curriculum (Verbs) Phases 3–4 complete.** Quiz engine built (rule_check MC, 5 questions per lesson, 80% pass threshold). Unlock gating wired to Verbs module home. **Push pending — run `git add -A && git commit -m "Grammatik quiz engine + unlock gating (v8)" && git push origin main`**
+**Grammatik curriculum (Verbs) COMPLETE.** All 6 phases done. Quiz engine (rule_check MC, 5 questions per lesson, 80% pass threshold). Unlock gating wired to Verbs module home. Pushed and live (v8).
 
 **Vergangenheit Phase 3 COMPLETE.** Präsens/Vergangenheit tab toggle live on Verbs module home. Perfekt/Präteritum sub-picker shown in exercise session. Regular/Irregular pill + case badge rendered on every verb exercise card. Known limitation: prefix variants inherit parent root's `grammar.case_requirements` — `verstehen` shows Irregular with no case badge (should be Akkusativ). Deferred.
 
@@ -166,7 +166,7 @@
 
 ## Grammatik Curriculum Layer (Verbs)
 
-*PRD signed off: Session 25. Phases 1–4 complete.*
+*PRD signed off: Session 25. All phases complete. Live.*
 
 **Concept:** Grammar lessons woven into Verbs module. Lesson completion soft-gates the corresponding exercise category.
 
@@ -187,7 +187,7 @@
 3. ~~Quiz engine (rule_check MC, scoring, pass/fail)~~ ✅ Session 32
 4. ~~Unlock gating~~ ✅ Session 32
 5. ~~Content (6 lessons × 5 rule_check questions)~~ ✅ already in lessons.json
-6. QA + deploy — **push pending**
+6. ~~QA + deploy~~ ✅ Session 32
 
 **Full PRD:** `PRD_Grammatik.md`
 
@@ -196,7 +196,7 @@
 ## Next Steps
 
 **Up next (in rough priority):**
-- Grammatik curriculum (Verbs) — Phase 6: deploy (push pending + smoke test)
+- Articles module — gender-pattern rules approach (reimagined)
 - Articles module — gender-pattern rules approach (reimagined)
 - Deklinationen area for Adjectives
 - Lesen & Hören — more years: run crawler on 2025, 2024 archives; re-bundle listening-data.js

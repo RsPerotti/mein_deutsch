@@ -47,7 +47,7 @@ Grammatik curriculum (Verbs) — quiz engine + unlock gating.
 - `modal-prasens` and `prateritum` unlock IDs are dormant in the UI — no separate category cards for Modal or Präteritum yet. `isCategoryUnlocked()` is wired; cards can be added later.
 - Navigating back from pass results uses `navigateBack();navigateBack()` (quiz → lesson → module home).
 
-**Git:** not yet pushed — run `git add -A && git commit -m "Grammatik quiz engine + unlock gating (v8)"` then `git push origin main`.
+**Git:** pushed to main. Live at https://rsperotti.github.io/mein_deutsch.
 
 ---
 

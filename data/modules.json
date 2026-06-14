@@ -74,5 +74,14 @@
     "exercises_file": "exercises-particles.json",
     "unlock_order": 7,
     "status": "active"
+  },
+  {
+    "id": "module_artikel",
+    "title_de": "Artikel",
+    "title_en": "Articles",
+    "description_en": "Master German grammatical gender — der, die, das. Learn the rules behind noun endings and categories, then drill every noun you've unlocked.",
+    "icon": "🔡",
+    "unlock_order": 8,
+    "status": "active"
   }
 ]

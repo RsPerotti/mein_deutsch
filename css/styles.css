@@ -2387,3 +2387,34 @@ button {
 }
 .quiz-results-status.passed { color: var(--color-green-accent); }
 .quiz-results-status.failed { color: var(--color-text-secondary); }
+
+/* ─── Artikel exercise — Der/Die/Das buttons ───────────────────────────── */
+.artikel-btn {
+  flex: 1;
+  min-width: 80px;
+  padding: 14px 8px;
+  font-family: var(--font);
+  font-size: var(--font-size-lg);
+  font-weight: var(--fw-bold);
+  color: var(--color-text-primary);
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: var(--r-md);
+  cursor: pointer;
+  transition: background 0.1s, border-color 0.1s, transform 0.1s, color 0.1s;
+}
+.artikel-btn:active:not(:disabled) { transform: scale(0.96); }
+.artikel-btn.art-correct {
+  background: #F0F7E8;
+  border-color: var(--color-green-accent);
+  color: var(--color-green-accent);
+}
+.artikel-btn.art-wrong {
+  background: var(--color-wrong-bg);
+  border-color: var(--color-wrong);
+  color: var(--color-wrong);
+}
+.artikel-btn.art-dim {
+  opacity: 0.35;
+}
+
