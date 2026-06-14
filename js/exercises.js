@@ -167,10 +167,12 @@ function _buildQueue(moduleId, category) {
     return _shuffle(all.filter(ex => ex.difficulty === difficulty));
   }
 
-  // Particles — filter by category (from openExercise) + CEFR level (from localStorage)
+  // Particles — filter by category, sorted A1 → C2 (easier first)
   if (moduleId === 'module_particles') {
-    const cefr = localStorage.getItem('app_particles_cefr') || 'A1';
-    return _shuffle(all.filter(ex => ex.category === category && ex.cefr === cefr));
+    const cefrOrder = { 'A1': 0, 'A2': 1, 'B1': 2, 'B2': 3, 'C1': 4, 'C2': 5 };
+    return all
+      .filter(ex => ex.category === category)
+      .sort((a, b) => (cefrOrder[a.cefr] || 0) - (cefrOrder[b.cefr] || 0));
   }
 
   // Full queue — no session cap. User works through all exercises until complete.
@@ -1407,6 +1409,7 @@ function _ensureFirstExposure(queue) {
 
 let _artikelSession = {
   queue:        [],
+  cooldown:     [],
   correctCount: 0,
   totalCount:   0,
   current:      null,
@@ -1441,6 +1444,7 @@ function startArtikelExercise() {
 
   _artikelSession = {
     queue,
+    cooldown:     [],
     correctCount: 0,
     totalCount:   nouns.length,
     current:      null,
@@ -1459,15 +1463,22 @@ function startArtikelExercise() {
   if (verbPicker)     verbPicker.style.display     = 'none';
 
   // Chips
-  document.getElementById('chip-correct').textContent = '0';
-  document.getElementById('chip-queue').textContent   = queue.length;
-  document.getElementById('chip-cooldown-wrap').style.display = 'none';
+  document.getElementById('chip-correct').textContent   = '0';
+  document.getElementById('chip-queue').textContent     = queue.length;
+  document.getElementById('chip-cooldown').textContent  = '0';
+  document.getElementById('chip-cooldown-wrap').style.display = '';
 
   _artikelShowNext();
 }
 
 function _artikelShowNext() {
   const s = _artikelSession;
+
+  // Flush cooldown back into queue when main queue is empty
+  if (s.queue.length === 0 && s.cooldown.length > 0) {
+    s.queue    = _shuffle([...s.cooldown]);
+    s.cooldown = [];
+  }
 
   if (s.queue.length === 0) {
     _artikelShowResults();
@@ -1477,17 +1488,16 @@ function _artikelShowNext() {
   s.current  = s.queue.shift();
   s.answered = false;
 
-  // Progress bar
-  const done  = s.correctCount;
-  const total = done + s.queue.length + 1;
-  document.getElementById('exercise-progress-fill').style.width =
-    total > 0 ? Math.round(done / total * 100) + '%' : '0%';
+  // Progress bar — based on totalCount so it doesn't shrink during cooldown rounds
+  const pct = s.totalCount > 0 ? Math.round(s.correctCount / s.totalCount * 100) : 0;
+  document.getElementById('exercise-progress-fill').style.width = pct + '%';
 
   document.getElementById('exercise-card').innerHTML = _renderSelectArticle(s.current);
   document.getElementById('next-btn').style.display = 'none';
 
-  document.getElementById('chip-correct').textContent = s.correctCount;
-  document.getElementById('chip-queue').textContent   = s.queue.length;
+  document.getElementById('chip-correct').textContent  = s.correctCount;
+  document.getElementById('chip-queue').textContent    = s.queue.length + s.cooldown.length;
+  document.getElementById('chip-cooldown').textContent = s.cooldown.length;
 }
 
 function _renderSelectArticle(ex) {
@@ -1553,6 +1563,7 @@ function selectArticleAnswer(chosen) {
     // Auto-advance after 800ms
     setTimeout(() => _artikelShowNext(), 800);
   } else {
+    s.cooldown.push(s.current);
     if (feedback) {
       feedback.style.color = '#D97706';
       feedback.textContent = `Richtig: ${correct} ${s.current.word}`;
@@ -1560,6 +1571,8 @@ function selectArticleAnswer(chosen) {
     _flash('red');
     // Manual advance — show next button
     document.getElementById('next-btn').style.display = 'block';
+    document.getElementById('chip-cooldown').textContent = s.cooldown.length;
+    document.getElementById('chip-queue').textContent    = s.queue.length + s.cooldown.length;
   }
 
   document.getElementById('chip-correct').textContent = s.correctCount;

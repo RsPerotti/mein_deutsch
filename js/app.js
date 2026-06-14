@@ -266,26 +266,12 @@ function _renderModuleCards() {
       ? `<div class="module-grid-sub">${readCount} / ${totalArts} gelesen</div>`
       : '';
 
-    const lockIcon = `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-           stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
-           style="color:var(--color-text-muted)">
-        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
-        <path d="M7 11V7a5 5 0 0110 0v4"/>
-      </svg>`;
-
-    const arrowIcon = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-           stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
-           style="color:var(--color-text-muted)">
-        <polyline points="9 18 15 12 9 6"/>
-      </svg>`;
-
     return `
       <button class="module-card-grid ${locked ? 'locked' : ''}"
               onclick="${clickFn}"
               ${locked ? 'disabled' : ''}>
         <div class="module-grid-title">${mod.title_en}</div>
         ${readSub}
-        <div class="module-grid-bottom">${locked ? lockIcon : arrowIcon}</div>
       </button>`;
   }).join('');
 }
@@ -301,9 +287,9 @@ function renderModuleHome(moduleId) {
 
   document.getElementById('module-nav-context').textContent = mod.title_en.toUpperCase();
 
-  // Show "Alle Partikeln →" nav button only for particles module
+  // Hide "Alle Partikeln" nav button (access via Particles summary card instead)
   const alleBtn = document.getElementById('particles-alle-nav-btn');
-  if (alleBtn) alleBtn.style.display = moduleId === 'module_particles' ? '' : 'none';
+  if (alleBtn) alleBtn.style.display = 'none';
 
   if (moduleId === 'module_verbs') {
     _renderVerbModuleCategories();
@@ -1087,64 +1073,38 @@ function _renderParticleModuleCategories() {
   const allEx = appData.exercises['module_particles'] || [];
   const total = appData.particles.length;
 
-  // Per-category exercise counts + done (Phase 3 will filter by CEFR)
-  const catCount = (cat) => allEx.filter(ex => ex.category === cat).length;
-  const catDone  = (cat) => allEx.filter(ex =>
+  // Per-category done count
+  const catDone = (cat) => allEx.filter(ex =>
     ex.category === cat && Progress.getExerciseHistory(ex.id).correct > 0
   ).length;
+  const catCount = (cat) => allEx.filter(ex => ex.category === cat).length;
 
-  // CEFR filter pills
-  const cefrLevels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
-  const cefrPills  = `
-    <div class="particles-cefr-picker">
-      ${cefrLevels.map(l => `
-        <button class="diff-btn${l === _particlesCefr ? ' active' : ''}"
-                onclick="setParticlesCefr('${l}')">${l}</button>
-      `).join('')}
-    </div>`;
-
-  // Grammatik strip — all 8 lessons
+  // Grammatik strip
   const allLessons = (window.PARTICLES_DATA || {}).lessons || [];
   const gramStrip  = _renderParticlesGrammatikStrip(allLessons);
 
-  // CEFR ranges per category (from actual exercise data)
-  const catCefrRange = {
-    'modal-softening':    'A1 – B1',
-    'modal-attitude':     'A1 – B1',
-    'modal-probability':  'A2 – B1',
-    'gradation-focus':    'A1 – B1',
-    'nuanced-connectors': 'B2 – C1',
-    'emphasis-register':  'B2 – C2'
-  };
-
-  // Category card builder
-  // Shows CEFR range so user knows which filter levels apply before tapping
-  const mkCard = (cat, title, subtitle) => {
+  // Compact category card — title only
+  const mkCard = (cat, title) => {
     const n    = catCount(cat);
     const done = catDone(cat);
     const pct  = n > 0 ? Math.round(done / n * 100) : 0;
-    const range = catCefrRange[cat] || '';
     return `
       <div class="category-card" onclick="openParticleExercise('${cat}')">
         <div class="category-card-title">${title}</div>
-        <div class="category-card-subtitle">${subtitle}</div>
-        <div style="font-size:10px;font-weight:700;letter-spacing:0.05em;color:var(--color-green-accent);
-                    text-transform:uppercase;margin-top:4px">${range}</div>
         <div class="category-card-count mt-3">${done} / ${n}</div>
         <div class="progress-bar mt-2">
           <div class="progress-fill" style="width:${pct}%"></div>
         </div>
-        <div class="category-card-cta">Üben →</div>
       </div>`;
   };
 
-  // Particle count summary card
+  // Summary card — clicking opens the full particles reference list
   const seenTotal = allEx.filter(ex => Progress.getExerciseHistory(ex.id).correct > 0).length;
   const pctTotal  = allEx.length > 0 ? Math.round(seenTotal / allEx.length * 100) : 0;
 
   document.getElementById('module-categories').innerHTML = `
-    <!-- Summary card -->
-    <div class="card" style="cursor:default">
+    <!-- Summary card — tap to browse all particles -->
+    <div class="card" style="cursor:pointer" onclick="openPartikelliste()">
       <div style="display:flex;align-items:center;justify-content:space-between">
         <div style="flex:1;min-width:0">
           <div style="font-size:var(--font-size-xs);font-weight:var(--fw-semibold);letter-spacing:var(--ls-label);text-transform:uppercase;color:var(--color-text-secondary);margin-bottom:4px">Particles</div>
@@ -1154,13 +1114,11 @@ function _renderParticleModuleCategories() {
           </div>
           <div class="progress-bar mt-2"><div class="progress-fill" style="width:${pctTotal}%"></div></div>
         </div>
+        <span style="font-size:var(--font-size-lg);color:var(--color-text-muted);margin-left:12px">›</span>
       </div>
     </div>
 
-    <!-- CEFR filter (UI only — Phase 3 wires to exercises) -->
-    ${cefrPills}
-
-    <!-- Grammatik accordion (all 8 lessons — Phase 4 wires progress) -->
+    <!-- Grammatik accordion -->
     ${gramStrip}
 
     <!-- ── CORE ── -->
@@ -1170,10 +1128,10 @@ function _renderParticleModuleCategories() {
     </div>
 
     <div class="category-pair">
-      ${mkCard('modal-softening',   'Softening & Requests', 'mal · ruhig · einfach · bloß · nur')}
-      ${mkCard('modal-attitude',    'Attitude & Knowledge', 'ja · doch · auch · denn · etwa')}
-      ${mkCard('modal-probability', 'Probability',          'wohl · schon · eigentlich · eben · halt')}
-      ${mkCard('gradation-focus',   'Gradation & Focus',    'gar · wirklich · sogar · erst · noch')}
+      ${mkCard('modal-softening',   'Softening & Requests')}
+      ${mkCard('modal-attitude',    'Attitude & Knowledge')}
+      ${mkCard('modal-probability', 'Probability')}
+      ${mkCard('gradation-focus',   'Gradation & Focus')}
     </div>
 
     <!-- ── ADVANCED ── -->
@@ -1183,8 +1141,8 @@ function _renderParticleModuleCategories() {
     </div>
 
     <div class="category-pair">
-      ${mkCard('nuanced-connectors', 'Nuanced Connectors', 'nämlich · allerdings · zwar · immerhin')}
-      ${mkCard('emphasis-register',  'Emphasis & Register', 'ausgerechnet · überhaupt · bereits')}
+      ${mkCard('nuanced-connectors', 'Nuanced Connectors')}
+      ${mkCard('emphasis-register',  'Emphasis & Register')}
     </div>`;
 }
 
@@ -1208,20 +1166,12 @@ let _pendingParticleCat = null;
  * otherwise goes straight to exercises.
  */
 function openParticleExercise(cat) {
-  const gate = _PARTICLE_GATE_MAP[cat];
-  if (gate && ParticleGrammar.getLessonState(gate.lessonId).status === 'locked') {
-    _pendingParticleCat = cat;
-    document.getElementById('particle-gate-lesson-name').textContent = gate.title;
-    document.getElementById('particle-gate-overlay').classList.add('visible');
-    document.getElementById('particle-gate-sheet').classList.add('visible');
-  } else {
-    openExercise('module_particles', cat);
-  }
+  openExercise('module_particles', cat);
 }
 
 function closeParticleGate() {
   document.getElementById('particle-gate-overlay').classList.remove('visible');
-  document.getElementById('particle-gate-sheet').classList.remove('visible');
+  document.getElementById('particle-gate-sheet').classList.remove('open');
   _pendingParticleCat = null;
 }
 
@@ -1342,7 +1292,7 @@ function _renderParticleList() {
 
   if (_particleSort === 'alpha') {
     const sorted = [...particles].sort((a, b) => a.particle.localeCompare(b.particle));
-    container.innerHTML = sorted.map(_particleRowHtml).join('');
+    container.innerHTML = `<div class="word-list-group">${sorted.map(_particleRowHtml).join('')}</div>`;
   } else {
     // Group by category in defined order
     const catOrder = [
@@ -1361,22 +1311,24 @@ function _renderParticleList() {
     for (const cat of catOrder) {
       const group = particles.filter(p => p.category === cat);
       if (!group.length) continue;
-      html += `<div class="particle-ref-category-header">${catLabel[cat]}</div>`;
-      html += group.map(_particleRowHtml).join('');
+      html += `
+        <div class="alpha-section">
+          <div class="alpha-header">${catLabel[cat]}</div>
+          <div class="word-list-group">${group.map(_particleRowHtml).join('')}</div>
+        </div>`;
     }
     container.innerHTML = html;
   }
 }
 
 function _particleRowHtml(p) {
-  const cefrBadge = `<span class="particle-ref-cefr">${p.cefr}</span>`;
   return `
-    <div class="particle-ref-row" onclick="showParticleDetail('${p.id}')">
-      <div class="particle-ref-row-left">
-        <span class="particle-ref-word">${p.particle}</span>
-        <span class="particle-ref-signal">${p.signals || ''}</span>
+    <div class="word-item" onclick="showParticleDetail('${p.id}')">
+      <div class="word-item-main">
+        <span class="word-german">${p.particle}</span>
       </div>
-      ${cefrBadge}
+      <span class="word-translation">${p.signals || ''}</span>
+      <span class="word-item-arrow">›</span>
     </div>`;
 }
 
@@ -1444,13 +1396,13 @@ function showParticleDetail(particleId) {
     ${relatedHtml}`;
 
   document.getElementById('particle-detail-overlay').classList.add('visible');
-  document.getElementById('particle-detail-sheet').classList.add('visible');
+  document.getElementById('particle-detail-sheet').classList.add('open');
   document.getElementById('particle-detail-content').scrollTop = 0;
 }
 
 function closeParticleDetail() {
   document.getElementById('particle-detail-overlay').classList.remove('visible');
-  document.getElementById('particle-detail-sheet').classList.remove('visible');
+  document.getElementById('particle-detail-sheet').classList.remove('open');
   _particleDetailId = null;
 }
 
