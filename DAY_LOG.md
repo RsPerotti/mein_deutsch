@@ -2,6 +2,92 @@
 
 ---
 
+## 2026-06-14 — Session 32: Grammatik Curriculum Phases 3–4
+
+**Deliverables:**
+
+Grammatik curriculum (Verbs) — quiz engine + unlock gating.
+
+**`js/grammar.js` — quiz engine (replaced stubs):**
+- `window._grammarQuizState` — runtime state object `{ lessonId, questions, currentIndex, correctCount, answered, module }`
+- `_GRAMMAR_UNLOCK_LABELS` — display names for unlock category IDs
+- `startGrammarQuiz(lessonId)` — filters lesson.quiz to `rule_check` only (skips `exercise_ref`), sets quiz state, navigates to `screen-grammar-quiz`. If already on quiz screen (retry), calls `renderGrammarQuiz()` directly to avoid no-op.
+- `renderGrammarQuiz()` — updates nav context, delegates to `_renderGrammarQuizQuestion()` or `_renderGrammarQuizResults()`
+- `_renderGrammarQuizQuestion()` — renders MC question card + 4 option buttons + feedback row + hidden "Weiter" button; updates progress label in nav header
+- `submitGrammarAnswer(i)` — marks correct/wrong on all buttons, shows feedback text, reveals "Weiter" button. Guards against double-submission.
+- `advanceGrammarQuiz()` — increments index, re-renders question or triggers results
+- `_renderGrammarQuizResults()` — calls `Grammar.recordQuizResult()`, shows score (%), pass → unlock message + "Zurück zu Verben" + retry; fail → score + try-again + re-read-lesson
+- Same pattern for `startParticleQuiz()` / `renderParticleQuiz()` / `_renderParticleQuizResults()` (Particles module)
+
+**Pass threshold:** 80% (4/5 per lesson). Unlimited retries.
+
+**`index.html` — new screen:**
+- `screen-grammar-quiz` with nav-header (back button + nav-context + progress label), `grammar-quiz-content` div
+
+**`js/app.js` changes:**
+- `onScreenEnter` — added `screen-grammar-quiz` case: routes to `renderParticleQuiz()` or `renderGrammarQuiz()` based on `_grammarQuizState.module`
+- `_renderVerbModuleCategories()` — removed old `varLocked = rootUnlocked === 0` line; added grammar unlock gate checks:
+  - `grammarStammPrasens = Grammar.isCategoryUnlocked('stammverben-prasens')` (gates Stammverben Präsens via `regular-conjugation` lesson)
+  - `grammarVergangenheit = Grammar.isCategoryUnlocked('perfekt')` (gates Stammverben Vergangenheit via `vergangenheit-perfekt` lesson)
+  - `grammarVariationen = Grammar.isCategoryUnlocked('variationen')` (gates Variationen via `trennbare-verben` lesson; combines with existing word-lock)
+  - Locked cards navigate to the relevant lesson on tap (`_lockedCard()` helper)
+  - Existing users unaffected: `Grammar.init()` auto-grants all lessons `complete` on first load if verb progress detected
+
+**`css/styles.css` — new classes:**
+- `.quiz-progress-label`, `.quiz-question-card`, `.quiz-question-text`
+- `.quiz-options`, `.quiz-option` (+ `.correct`, `.wrong` modifiers)
+- `.quiz-feedback-row` (+ `.correct`, `.wrong`)
+- `.quiz-next-btn` (hidden by default; `.visible` shows it)
+- `.quiz-results-card`, `.quiz-results-score`, `.quiz-results-label`, `.quiz-results-status` (+ `.passed`, `.failed`)
+
+**`service-worker.js`** — bumped to v8.
+
+**Known design choices:**
+- `exercise_ref` quiz questions are skipped (quiz engine is rule_check MC only). The `exercise_ref` entries remain in lessons.json for future use; their exercise IDs don't match current data (e.g., `verb_lernen_partizip_ii` vs actual `verb_lernen_partizip`) — deferred.
+- `modal-prasens` and `prateritum` unlock IDs are dormant in the UI — no separate category cards for Modal or Präteritum yet. `isCategoryUnlocked()` is wired; cards can be added later.
+- Navigating back from pass results uses `navigateBack();navigateBack()` (quiz → lesson → module home).
+
+**Git:** not yet pushed — run `git add -A && git commit -m "Grammatik quiz engine + unlock gating (v8)"` then `git push origin main`.
+
+---
+
+## 2026-06-14 — Session 31: Partikeln Phase 6 + Phase 7
+
+**Deliverables:**
+
+Content review pass on all 510 particle exercises. Three integrity issues found and fixed:
+
+**1. eben/halt cross-contamination (30 exercises fixed)**
+- eben exercises: `halt` replaced with `eigentlich` in options
+- halt exercises: `eben` replaced with `schon` (→ `wohl` where schon was already present)
+- Rationale: eben (standard/formal resignation) and halt (colloquial southern resignation) are interchangeable in most sentences — having both as options violates single-answer integrity
+
+**2. ohnehin/sowieso cross-contamination (30 exercises fixed)**
+- ohnehin exercises: `sowieso` replaced with `allerdings` (where not already present, else `wohl`)
+- sowieso exercises: `ohnehin` replaced with `jedenfalls` (where not already present, else `wohl`)
+- Rationale: near-synonyms; no contextual sentence can reliably distinguish them as MC options
+
+**3. schon/wohl ambiguity (24 exercises fixed)**
+- 7 schon exercises: sentence rewrites to add reassurance context ("Mach dir keine Sorgen,…" / "Keine Sorge,…" / "Gib nicht auf,…" / "Vertrau ihm,…") + wohl replaced with `doch` or `eigentlich`
+- 11 wohl exercises: sentence rewrites to add inference/hedging context ("Ich bin nicht sicher, aber…" / "Sie antwortet nicht —…" / "Ich schätze,…" etc.) + schon replaced with `eigentlich`, `nämlich`, `ja`, or `doch`
+- 6 distractor-only swaps (sentence clear enough, just swap the distractor)
+- Rationale: schon (reassurance/concession) vs wohl (probability) can both work in bare sentences; context clarifies the intended reading
+
+**31 duplicate option cascade fixes:**
+- Replacement distractors sometimes collided with existing options (e.g., swapping wohl→ja when ja already present)
+- Fixed by `fix_duplicates()` pass drawing from pool: wohl, eigentlich, doch, nämlich, zwar, immerhin, allerdings, mal, ruhig
+
+**Final validation:** 0 errors — no duplicate options, correct particle always in options, across all 510 exercises.
+
+**Files changed:**
+- `data/exercises/exercises-particles.json` — 510 exercises, content-reviewed
+- `js/particles-data.js` — rebuilt bundle (244 KB)
+- `service-worker.js` — bumped to v7
+
+**Git:** Commit 8726903 pushed to main. Live at https://rsperotti.github.io/mein_deutsch.
+
+---
+
 ## 2026-06-14 — Session 30: Partikeln Phase 4 + Phase 5
 
 **Deliverables:**

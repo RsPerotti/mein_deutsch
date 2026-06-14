@@ -247,19 +247,221 @@ function renderGrammarLesson(lessonId) {
   document.getElementById('grammar-lesson-content').scrollTop = 0;
 }
 
+// ─────────────────────────────────────────
+// GRAMMAR QUIZ ENGINE
+// ─────────────────────────────────────────
+
 /**
- * Stub for Phase 3 — quiz engine not yet built.
- * Navigating here will be wired up in Phase 3.
+ * Quiz runtime state — lives in window so grammar.js functions can share it.
+ * Reset on each quiz start.
+ *
+ * {
+ *   lessonId:     string,
+ *   questions:    rule_check question objects (exercise_ref filtered out),
+ *   currentIndex: number,
+ *   correctCount: number,
+ *   answered:     boolean,   // has the user answered the current question?
+ *   module:       'verbs' | 'particles'
+ * }
+ */
+window._grammarQuizState = null;
+
+/**
+ * Unlock category display names — shown in the results pass message.
+ */
+const _GRAMMAR_UNLOCK_LABELS = {
+  'stammverben-prasens': 'Stammverben (Präsens)',
+  'variationen':         'Variationen',
+  'modal-prasens':       'Modal Verben',
+  'perfekt':             'Vergangenheit · Perfekt',
+  'prateritum':          'Vergangenheit · Präteritum'
+};
+
+/**
+ * Start the Verbs grammar quiz for a given lesson.
+ * Filters questions to rule_check only.
+ * Navigates to screen-grammar-quiz.
  */
 function startGrammarQuiz(lessonId) {
-  // Phase 3 will replace this stub with the quiz engine.
-  // For now, just show a brief in-screen notice.
-  const btn = document.querySelector('.grammar-cta-area button');
-  if (btn) {
-    btn.textContent = 'Quiz kommt in Phase 3 →';
-    btn.style.background = 'var(--color-green-accent)';
-    btn.disabled = true;
+  const lessons  = (typeof GRAMMAR_DATA !== 'undefined') ? GRAMMAR_DATA : [];
+  const lesson   = lessons.find(l => l.id === lessonId);
+  if (!lesson) return;
+
+  const questions = (lesson.quiz || []).filter(q => q.type === 'rule_check');
+
+  window._grammarQuizState = {
+    lessonId,
+    questions,
+    currentIndex: 0,
+    correctCount: 0,
+    answered:     false,
+    module:       'verbs'
+  };
+
+  // If already on the quiz screen (e.g. retry), re-render directly.
+  if (typeof currentScreen !== 'undefined' && currentScreen === 'screen-grammar-quiz') {
+    renderGrammarQuiz();
+  } else {
+    navigateTo('screen-grammar-quiz');
   }
+}
+
+/**
+ * Render the current quiz question (or results if finished).
+ * Called from onScreenEnter when module === 'verbs'.
+ */
+function renderGrammarQuiz() {
+  const state = window._grammarQuizState;
+  if (!state) {
+    document.getElementById('grammar-quiz-content').innerHTML =
+      '<div style="padding:var(--sp-6);color:var(--color-text-muted)">Kein Quiz aktiv.</div>';
+    return;
+  }
+
+  const lessons = (typeof GRAMMAR_DATA !== 'undefined') ? GRAMMAR_DATA : [];
+  const lesson  = lessons.find(l => l.id === state.lessonId);
+
+  document.getElementById('grammar-quiz-nav-context').textContent =
+    (lesson ? lesson.title : 'Quiz') + ' · Quiz';
+
+  if (state.currentIndex >= state.questions.length) {
+    _renderGrammarQuizResults();
+    return;
+  }
+
+  _renderGrammarQuizQuestion();
+}
+
+function _renderGrammarQuizQuestion() {
+  const state = window._grammarQuizState;
+  const q     = state.questions[state.currentIndex];
+  const total = state.questions.length;
+  const num   = state.currentIndex + 1;
+
+  // Progress label in nav header
+  const progEl = document.getElementById('grammar-quiz-progress');
+  if (progEl) progEl.textContent = `${num} / ${total}`;
+
+  const optionsHtml = (q.options || []).map((opt, i) => `
+    <button class="quiz-option" onclick="submitGrammarAnswer(${i})">${opt}</button>
+  `).join('');
+
+  document.getElementById('grammar-quiz-content').innerHTML = `
+    <div style="padding:var(--sp-4)">
+      <div class="quiz-question-card">
+        <div class="quiz-question-text">${q.question}</div>
+      </div>
+
+      <div class="quiz-options" id="quiz-options">
+        ${optionsHtml}
+      </div>
+
+      <div class="quiz-feedback-row" id="quiz-feedback"></div>
+
+      <button class="quiz-next-btn" id="quiz-next-btn"
+              onclick="advanceGrammarQuiz()">
+        ${num < total ? 'Weiter →' : 'Ergebnis anzeigen →'}
+      </button>
+    </div>`;
+
+  state.answered = false;
+}
+
+/**
+ * Called when the user taps a MC option.
+ */
+function submitGrammarAnswer(selectedIndex) {
+  const state = window._grammarQuizState;
+  if (!state || state.answered) return;
+  state.answered = true;
+
+  const q       = state.questions[state.currentIndex];
+  const correct = selectedIndex === q.correct;
+  if (correct) state.correctCount++;
+
+  // Style all option buttons
+  const buttons = document.querySelectorAll('.quiz-option');
+  buttons.forEach((btn, i) => {
+    btn.disabled = true;
+    if (i === q.correct) btn.classList.add('correct');
+    else if (i === selectedIndex && !correct) btn.classList.add('wrong');
+  });
+
+  // Feedback row
+  const fbEl = document.getElementById('quiz-feedback');
+  if (fbEl) {
+    fbEl.className = 'quiz-feedback-row ' + (correct ? 'correct' : 'wrong');
+    fbEl.textContent = correct ? '✓ Richtig!' : `✗ Richtig wäre: ${q.options[q.correct]}`;
+  }
+
+  // Show next button
+  const nextBtn = document.getElementById('quiz-next-btn');
+  if (nextBtn) nextBtn.classList.add('visible');
+}
+
+/**
+ * Advance to next question, or show results if all done.
+ */
+function advanceGrammarQuiz() {
+  const state = window._grammarQuizState;
+  if (!state) return;
+  state.currentIndex++;
+  state.answered = false;
+
+  if (state.currentIndex >= state.questions.length) {
+    _renderGrammarQuizResults();
+  } else {
+    _renderGrammarQuizQuestion();
+    // Clear progress label briefly then re-set (already correct — just re-render)
+  }
+}
+
+function _renderGrammarQuizResults() {
+  const state   = window._grammarQuizState;
+  const total   = state.questions.length;
+  const correct = state.correctCount;
+  const pct     = total > 0 ? Math.round(correct / total * 100) : 0;
+
+  const passed  = Grammar.recordQuizResult(state.lessonId, correct, total);
+
+  // Progress label: hide
+  const progEl = document.getElementById('grammar-quiz-progress');
+  if (progEl) progEl.textContent = '';
+
+  // Unlock label
+  const lessons      = (typeof GRAMMAR_DATA !== 'undefined') ? GRAMMAR_DATA : [];
+  const lesson       = lessons.find(l => l.id === state.lessonId);
+  const unlockIds    = lesson ? (lesson.unlocks || []) : [];
+  const unlockLabels = unlockIds.map(id => _GRAMMAR_UNLOCK_LABELS[id] || id);
+
+  const passHtml = `
+    <div class="quiz-results-status passed">
+      ✓ Bestanden — ${unlockLabels.length > 0
+        ? 'Freigeschaltet: ' + unlockLabels.join(', ')
+        : 'Lektion abgeschlossen.'}
+    </div>
+    <button class="primary-btn" style="margin-bottom:var(--sp-3)"
+            onclick="navigateBack();navigateBack()">Zurück zu Verben</button>
+    <button class="secondary-btn"
+            onclick="startGrammarQuiz('${state.lessonId}')">Quiz wiederholen</button>`;
+
+  const failHtml = `
+    <div class="quiz-results-status failed">
+      Noch nicht bestanden. Du brauchst ${Math.ceil(Grammar.PASS_THRESHOLD * total)} / ${total} richtig.
+    </div>
+    <button class="primary-btn" style="margin-bottom:var(--sp-3)"
+            onclick="startGrammarQuiz('${state.lessonId}')">Noch einmal versuchen</button>
+    <button class="secondary-btn"
+            onclick="navigateBack()">Lektion nochmal lesen</button>`;
+
+  document.getElementById('grammar-quiz-content').innerHTML = `
+    <div style="padding:var(--sp-4)">
+      <div class="quiz-results-card">
+        <div class="quiz-results-score">${pct}%</div>
+        <div class="quiz-results-label">${correct} / ${total} richtig</div>
+        ${passed ? passHtml : failHtml}
+      </div>
+    </div>`;
 }
 
 // ─────────────────────────────────────────
@@ -429,15 +631,89 @@ function renderParticleLesson(lessonId) {
 }
 
 /**
- * Stub for particle quiz — Phase 6 (Grammatik build) will wire this up.
+ * Start the Particles grammar quiz for a given lesson.
  */
 function startParticleQuiz(lessonId) {
-  const btn = document.querySelector('.grammar-cta-area button');
-  if (btn) {
-    btn.textContent = 'Quiz kommt bald →';
-    btn.style.background = 'var(--color-green-accent)';
-    btn.disabled = true;
+  const pd       = (typeof PARTICLES_DATA !== 'undefined') ? PARTICLES_DATA : {};
+  const lessons  = pd.lessons || [];
+  const lesson   = lessons.find(l => l.id === lessonId);
+  if (!lesson) return;
+
+  const questions = (lesson.quiz || []).filter(q => q.type === 'rule_check');
+
+  window._grammarQuizState = {
+    lessonId,
+    questions,
+    currentIndex: 0,
+    correctCount: 0,
+    answered:     false,
+    module:       'particles'
+  };
+
+  if (typeof currentScreen !== 'undefined' && currentScreen === 'screen-grammar-quiz') {
+    renderParticleQuiz();
+  } else {
+    navigateTo('screen-grammar-quiz');
   }
+}
+
+/**
+ * Render quiz for particles module. Called from onScreenEnter.
+ */
+function renderParticleQuiz() {
+  const state = window._grammarQuizState;
+  if (!state) return;
+
+  const pd      = (typeof PARTICLES_DATA !== 'undefined') ? PARTICLES_DATA : {};
+  const lessons = pd.lessons || [];
+  const lesson  = lessons.find(l => l.id === state.lessonId);
+
+  document.getElementById('grammar-quiz-nav-context').textContent =
+    (lesson ? lesson.title : 'Quiz') + ' · Quiz';
+
+  if (state.currentIndex >= state.questions.length) {
+    _renderParticleQuizResults();
+    return;
+  }
+
+  _renderGrammarQuizQuestion(); // question renderer is shared
+}
+
+function _renderParticleQuizResults() {
+  const state   = window._grammarQuizState;
+  const total   = state.questions.length;
+  const correct = state.correctCount;
+  const pct     = total > 0 ? Math.round(correct / total * 100) : 0;
+
+  const passed  = ParticleGrammar.recordQuizResult(state.lessonId, correct, total);
+
+  const progEl = document.getElementById('grammar-quiz-progress');
+  if (progEl) progEl.textContent = '';
+
+  const passHtml = `
+    <div class="quiz-results-status passed">✓ Bestanden</div>
+    <button class="primary-btn" style="margin-bottom:var(--sp-3)"
+            onclick="navigateBack();navigateBack()">Zurück zu Partikeln</button>
+    <button class="secondary-btn"
+            onclick="startParticleQuiz('${state.lessonId}')">Quiz wiederholen</button>`;
+
+  const failHtml = `
+    <div class="quiz-results-status failed">
+      Noch nicht bestanden. Du brauchst ${Math.ceil(ParticleGrammar.PASS_THRESHOLD * total)} / ${total} richtig.
+    </div>
+    <button class="primary-btn" style="margin-bottom:var(--sp-3)"
+            onclick="startParticleQuiz('${state.lessonId}')">Noch einmal versuchen</button>
+    <button class="secondary-btn"
+            onclick="navigateBack()">Lektion nochmal lesen</button>`;
+
+  document.getElementById('grammar-quiz-content').innerHTML = `
+    <div style="padding:var(--sp-4)">
+      <div class="quiz-results-card">
+        <div class="quiz-results-score">${pct}%</div>
+        <div class="quiz-results-label">${correct} / ${total} richtig</div>
+        ${passed ? passHtml : failHtml}
+      </div>
+    </div>`;
 }
 
 // ─────────────────────────────────────────

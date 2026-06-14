@@ -7,13 +7,14 @@
  * v5: Partikeln Phase 2+3 — module home UI + fill_blank_particle exercise engine.
  * v6: Partikeln Phase 4+5 — grammar lessons, soft gate, Alle Partikeln reference screen.
  * v7: Partikeln Phase 6 — content review pass (eben/halt, ohnehin/sowieso, schon/wohl integrity fixes).
+ * v8: Grammatik curriculum Phases 3–4 — quiz engine, MC question renderer, pass/fail results, unlock gating on Verbs module home.
  *
  * DEPLOY NOTE: bump the CACHE version string on every push that changes
  * JS/CSS files. The browser only installs a new SW when this file changes.
  * If the version is not bumped, users keep running the old cached code.
  */
 
-const CACHE = 'mein-deutsch-v7';
+const CACHE = 'mein-deutsch-v8';
 
 const PRECACHE = [
   './',

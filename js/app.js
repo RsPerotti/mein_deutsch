@@ -91,6 +91,13 @@ function onScreenEnter(screenId) {
         renderGrammarLesson(window._currentGrammarLessonId || '');
       }
       break;
+    case 'screen-grammar-quiz':
+      if (window._grammarQuizState && window._grammarQuizState.module === 'particles') {
+        renderParticleQuiz();
+      } else {
+        renderGrammarQuiz();
+      }
+      break;
     case 'screen-particle-reference': renderPartikelliste(); break;
   }
 }
@@ -314,7 +321,6 @@ function _renderVerbModuleCategories() {
   const totalUnlocked = rootUnlocked + varUnlocked;
   const totalAll      = rootTotal + varTotal;
   const pct = totalAll > 0 ? Math.round(totalUnlocked / totalAll * 100) : 0;
-  const varLocked = rootUnlocked === 0;
 
   const allVerbEx  = appData.exercises['module_verbs'] || [];
   const rootIds    = new Set(appData.verbs.map(v => v.id));
@@ -337,6 +343,44 @@ function _renderVerbModuleCategories() {
   const varExPct   = varExTotal > 0 ? Math.round(varExDone / varExTotal * 100) : 0;
 
   const tc = _verbTenseTab; // tenseContext passed to openExercise
+
+  // ── Grammar-based unlock gates ──────────────────────────────────────────
+  // Existing users are auto-granted complete on first load (Grammar.init migration),
+  // so these gates only affect new users who haven't yet passed the relevant quiz.
+  const grammarStammPrasens    = Grammar.isCategoryUnlocked('stammverben-prasens');
+  const grammarVariationen     = Grammar.isCategoryUnlocked('variationen');
+  const grammarVergangenheit   = Grammar.isCategoryUnlocked('perfekt');
+
+  // Stammverben card — gate depends on current tense tab
+  const stammLocked   = tc === 'prasens'
+    ? !grammarStammPrasens
+    : !grammarVergangenheit;
+  const stammLessonId = tc === 'prasens'
+    ? 'regular-conjugation'
+    : 'vergangenheit-perfekt';
+  const stammLockMsg  = tc === 'prasens'
+    ? 'Complete "Regular Conjugation" to unlock'
+    : 'Complete "Vergangenheit — Perfekt" to unlock';
+
+  // Variationen card — grammar gate + existing word-lock
+  const varGrammarLocked = !grammarVariationen;
+  const varWordLocked    = rootUnlocked === 0;
+  const varLocked        = varGrammarLocked || varWordLocked;
+  const varLockMsg       = varGrammarLocked
+    ? 'Complete "Trennbare Verben" to unlock'
+    : 'Unlock by practising Stammverben first';
+  const varLessonId      = 'trennbare-verben';
+
+  // ── Lock card helpers ───────────────────────────────────────────────────
+  function _lockedCard(title, subtitle, msg, lessonId) {
+    return `
+      <div class="category-card locked" onclick="openLesson('${lessonId}')">
+        <div class="category-card-title" style="color:var(--color-text-muted)">${title}</div>
+        <div class="category-card-subtitle">${subtitle}</div>
+        <div style="margin-top:var(--sp-3);font-size:20px">🔒</div>
+        <div style="font-size:var(--font-size-xs);color:var(--color-text-muted);margin-top:var(--sp-2);line-height:1.4">${msg}</div>
+      </div>`;
+  }
 
   document.getElementById('module-categories').innerHTML = `
     <!-- Unlocked Verbs summary card -->
@@ -376,31 +420,36 @@ function _renderVerbModuleCategories() {
 
     <!-- Category cards — Stammverben + Variationen -->
     <div class="category-pair">
-      <div class="category-card" onclick="openExercise('module_verbs','roots','${tc}')">
-        <div class="category-card-title">Stammverben</div>
-        <div class="category-card-subtitle">Root verbs</div>
-        <div class="category-card-count mt-3">${rootExDone} / ${rootExTotal} Übungen</div>
-        <div class="progress-bar mt-2">
-          <div class="progress-fill" style="width:${rootExPct}%"></div>
-        </div>
-        <div class="category-card-cta">Üben →</div>
-      </div>
+      ${stammLocked
+        ? _lockedCard('Stammverben', 'Root verbs', stammLockMsg, stammLessonId)
+        : `<div class="category-card" onclick="openExercise('module_verbs','roots','${tc}')">
+             <div class="category-card-title">Stammverben</div>
+             <div class="category-card-subtitle">Root verbs</div>
+             <div class="category-card-count mt-3">${rootExDone} / ${rootExTotal} Übungen</div>
+             <div class="progress-bar mt-2">
+               <div class="progress-fill" style="width:${rootExPct}%"></div>
+             </div>
+             <div class="category-card-cta">Üben →</div>
+           </div>`}
 
-      <div class="category-card ${varLocked ? 'locked' : ''}"
-           onclick="${varLocked ? '' : `openExercise('module_verbs','variants','${tc}')`}">
-        <div class="category-card-title"
-             style="${varLocked ? 'color:var(--color-text-muted)' : ''}">Variationen</div>
-        <div class="category-card-subtitle">Prefix verbs</div>
-        ${varLocked
-          ? `<div style="margin-top:var(--sp-3);font-size:20px">🔒</div>
-             <div style="font-size:var(--font-size-xs);color:var(--color-text-muted);margin-top:var(--sp-2);line-height:1.4">
-               Unlock by practising Stammverben first</div>`
-          : `<div class="category-card-count mt-3">${varExDone} / ${varExTotal} Übungen</div>
+      ${varLocked
+        ? (varGrammarLocked
+            ? _lockedCard('Variationen', 'Prefix verbs', varLockMsg, varLessonId)
+            : `<div class="category-card locked">
+                 <div class="category-card-title" style="color:var(--color-text-muted)">Variationen</div>
+                 <div class="category-card-subtitle">Prefix verbs</div>
+                 <div style="margin-top:var(--sp-3);font-size:20px">🔒</div>
+                 <div style="font-size:var(--font-size-xs);color:var(--color-text-muted);margin-top:var(--sp-2);line-height:1.4">${varLockMsg}</div>
+               </div>`)
+        : `<div class="category-card" onclick="openExercise('module_verbs','variants','${tc}')">
+             <div class="category-card-title">Variationen</div>
+             <div class="category-card-subtitle">Prefix verbs</div>
+             <div class="category-card-count mt-3">${varExDone} / ${varExTotal} Übungen</div>
              <div class="progress-bar mt-2">
                <div class="progress-fill" style="width:${varExPct}%"></div>
              </div>
-             <div class="category-card-cta">Üben →</div>`}
-      </div>
+             <div class="category-card-cta">Üben →</div>
+           </div>`}
     </div>`;
 }
 
