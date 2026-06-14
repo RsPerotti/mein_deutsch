@@ -9,13 +9,14 @@
  * v7: Partikeln Phase 6 — content review pass (eben/halt, ohnehin/sowieso, schon/wohl integrity fixes).
  * v8: Grammatik curriculum Phases 3–4 — quiz engine, MC question renderer, pass/fail results, unlock gating on Verbs module home.
  * v9: Artikel module — 6 grammar lessons, Der/Die/Das exercise engine, article-grammar-data.js.
+ * v10: Fix — data.js modules array updated to include Partikeln + Artikel (was missing from bundle).
  *
  * DEPLOY NOTE: bump the CACHE version string on every push that changes
  * JS/CSS files. The browser only installs a new SW when this file changes.
  * If the version is not bumped, users keep running the old cached code.
  */
 
-const CACHE = 'mein-deutsch-v9';
+const CACHE = 'mein-deutsch-v10';
 
 const PRECACHE = [
   './',
