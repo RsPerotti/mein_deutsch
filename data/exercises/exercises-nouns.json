@@ -9448,5 +9448,2975 @@
       "Defizite"
     ],
     "explanation_en": "'kennen' takes accusative. Plural: 'seine Schwächen' (adds -n to the singular form)."
+  },
+  {
+    "exercise_id": "ex_noun_schürze_001",
+    "word_id": "noun_schürze",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Schürze",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the apron",
+    "wrong_answers": [
+      "the smock / lab coat",
+      "the tablecloth",
+      "the towel",
+      "the curtain"
+    ],
+    "explanation_en": "'Schürze' means 'apron'. It takes the article 'die' (feminine). Worn to protect clothes while cooking. Compare: der Kittel (smock/lab coat)."
+  },
+  {
+    "exercise_id": "ex_noun_schürze_002",
+    "word_id": "noun_schürze",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Beim Kochen trage ich immer eine _____.",
+      "en": "I always wear an apron when cooking."
+    },
+    "correct_answer": "Schürze",
+    "wrong_answers": [
+      "Jacke",
+      "Decke",
+      "Mütze",
+      "Tasche"
+    ],
+    "explanation_en": "'Schürze' (die Schürze, plural: die Schürzen) means 'apron'."
+  },
+  {
+    "exercise_id": "ex_noun_schürze_003",
+    "word_id": "noun_schürze",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die _____ hängt an einem Haken in der Küche.",
+      "en": "The apron hangs on a hook in the kitchen."
+    },
+    "correct_answer": "Schürze",
+    "wrong_answers": [
+      "Jacke",
+      "Decke",
+      "Mütze",
+      "Tasche"
+    ],
+    "explanation_en": "'Schürze' (die Schürze, plural: die Schürzen) means 'apron'."
+  },
+  {
+    "exercise_id": "ex_noun_kittel_001",
+    "word_id": "noun_kittel",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Kittel",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the smock / (lab) coat",
+    "wrong_answers": [
+      "the apron",
+      "the suit",
+      "the uniform hat",
+      "the glove"
+    ],
+    "explanation_en": "'Kittel' means 'smock / (lab) coat'. It takes the article 'der' (masculine). Work garment for doctors, lab staff, painters. Compare: die Schürze (apron, for cooking)."
+  },
+  {
+    "exercise_id": "ex_noun_kittel_002",
+    "word_id": "noun_kittel",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Arzt trägt einen weißen _____.",
+      "en": "The doctor wears a white coat."
+    },
+    "correct_answer": "Kittel",
+    "wrong_answers": [
+      "Anzug",
+      "Mantel",
+      "Handschuh",
+      "Helm"
+    ],
+    "explanation_en": "'Kittel' (der Kittel, plural: die Kittel) means 'smock / (lab) coat'."
+  },
+  {
+    "exercise_id": "ex_noun_kittel_003",
+    "word_id": "noun_kittel",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Im Labor muss jeder einen _____ anziehen.",
+      "en": "In the lab everyone has to put on a lab coat."
+    },
+    "correct_answer": "Kittel",
+    "wrong_answers": [
+      "Anzug",
+      "Mantel",
+      "Handschuh",
+      "Helm"
+    ],
+    "explanation_en": "'Kittel' (der Kittel, plural: die Kittel) means 'smock / (lab) coat'."
+  },
+  {
+    "exercise_id": "ex_noun_sackgasse_001",
+    "word_id": "noun_sackgasse",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Sackgasse",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the dead end / cul-de-sac",
+    "wrong_answers": [
+      "the shortcut",
+      "the one-way street",
+      "the crossroads",
+      "the detour"
+    ],
+    "explanation_en": "'Sackgasse' means 'dead end / cul-de-sac'. It takes the article 'die' (feminine). Literal (street with no exit) and figurative (situation with no way forward)."
+  },
+  {
+    "exercise_id": "ex_noun_sackgasse_002",
+    "word_id": "noun_sackgasse",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wir können hier nicht weiterfahren — das ist eine _____.",
+      "en": "We can't drive on here — it's a dead end."
+    },
+    "correct_answer": "Sackgasse",
+    "wrong_answers": [
+      "Einbahnstraße",
+      "Kreuzung",
+      "Umleitung",
+      "Autobahn"
+    ],
+    "explanation_en": "'Sackgasse' (die Sackgasse, plural: die Sackgassen) means 'dead end / cul-de-sac'."
+  },
+  {
+    "exercise_id": "ex_noun_sackgasse_003",
+    "word_id": "noun_sackgasse",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Verhandlungen sind in einer _____ gelandet.",
+      "en": "The negotiations have ended up in a dead end."
+    },
+    "correct_answer": "Sackgasse",
+    "wrong_answers": [
+      "Einbahnstraße",
+      "Kreuzung",
+      "Umleitung",
+      "Autobahn"
+    ],
+    "explanation_en": "'Sackgasse' (die Sackgasse, plural: die Sackgassen) means 'dead end / cul-de-sac'."
+  },
+  {
+    "exercise_id": "ex_noun_empfehlung_001",
+    "word_id": "noun_empfehlung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Empfehlung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the recommendation",
+    "wrong_answers": [
+      "the complaint",
+      "the order",
+      "the invitation",
+      "the warning"
+    ],
+    "explanation_en": "'Empfehlung' means 'recommendation'. It takes the article 'die' (feminine). From empfehlen (to recommend). Common pattern: auf Empfehlung von = on the recommendation of."
+  },
+  {
+    "exercise_id": "ex_noun_empfehlung_002",
+    "word_id": "noun_empfehlung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Auf _____ meines Arztes mache ich jetzt mehr Sport.",
+      "en": "On my doctor's recommendation I now do more sport."
+    },
+    "correct_answer": "Empfehlung",
+    "wrong_answers": [
+      "Beschwerde",
+      "Einladung",
+      "Warnung",
+      "Bestellung"
+    ],
+    "explanation_en": "'Empfehlung' (die Empfehlung, plural: die Empfehlungen) means 'recommendation'."
+  },
+  {
+    "exercise_id": "ex_noun_empfehlung_003",
+    "word_id": "noun_empfehlung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Hast du eine _____ für ein gutes Restaurant?",
+      "en": "Do you have a recommendation for a good restaurant?"
+    },
+    "correct_answer": "Empfehlung",
+    "wrong_answers": [
+      "Beschwerde",
+      "Einladung",
+      "Warnung",
+      "Bestellung"
+    ],
+    "explanation_en": "'Empfehlung' (die Empfehlung, plural: die Empfehlungen) means 'recommendation'."
+  },
+  {
+    "exercise_id": "ex_noun_verständnis_001",
+    "word_id": "noun_verständnis",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Verständnis",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the understanding / sympathy",
+    "wrong_answers": [
+      "the misunderstanding",
+      "the agreement",
+      "the knowledge",
+      "the conversation"
+    ],
+    "explanation_en": "'Verständnis' means 'understanding / sympathy'. It takes the article 'das' (neuter). Key phrase: Verständnis haben für + Akk = to have sympathy/understanding for."
+  },
+  {
+    "exercise_id": "ex_noun_verständnis_002",
+    "word_id": "noun_verständnis",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich habe volles _____ für deine Entscheidung.",
+      "en": "I have full understanding for your decision."
+    },
+    "correct_answer": "Verständnis",
+    "wrong_answers": [
+      "Missverständnis",
+      "Wissen",
+      "Gespräch",
+      "Vertrauen"
+    ],
+    "explanation_en": "'Verständnis' (das Verständnis, plural: die Verständnisse) means 'understanding / sympathy'."
+  },
+  {
+    "exercise_id": "ex_noun_verständnis_003",
+    "word_id": "noun_verständnis",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Vielen Dank für Ihr _____.",
+      "en": "Thank you very much for your understanding."
+    },
+    "correct_answer": "Verständnis",
+    "wrong_answers": [
+      "Missverständnis",
+      "Wissen",
+      "Gespräch",
+      "Vertrauen"
+    ],
+    "explanation_en": "'Verständnis' (das Verständnis, plural: die Verständnisse) means 'understanding / sympathy'."
+  },
+  {
+    "exercise_id": "ex_noun_belästigung_001",
+    "word_id": "noun_belästigung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Belästigung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the harassment / nuisance",
+    "wrong_answers": [
+      "the insult",
+      "the robbery",
+      "the accusation",
+      "the argument"
+    ],
+    "explanation_en": "'Belästigung' means 'harassment / nuisance'. It takes the article 'die' (feminine). From belästigen (to harass/bother). Legal term: sexuelle Belästigung."
+  },
+  {
+    "exercise_id": "ex_noun_belästigung_002",
+    "word_id": "noun_belästigung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Sie meldete die _____ sofort der Polizei.",
+      "en": "She reported the harassment to the police immediately."
+    },
+    "correct_answer": "Belästigung",
+    "wrong_answers": [
+      "Beleidigung",
+      "Bedrohung",
+      "Anzeige",
+      "Störung"
+    ],
+    "explanation_en": "'Belästigung' (die Belästigung, plural: die Belästigungen) means 'harassment / nuisance'."
+  },
+  {
+    "exercise_id": "ex_noun_belästigung_003",
+    "word_id": "noun_belästigung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ständige Werbeanrufe sind eine _____.",
+      "en": "Constant advertising calls are a nuisance."
+    },
+    "correct_answer": "Belästigung",
+    "wrong_answers": [
+      "Beleidigung",
+      "Bedrohung",
+      "Anzeige",
+      "Störung"
+    ],
+    "explanation_en": "'Belästigung' (die Belästigung, plural: die Belästigungen) means 'harassment / nuisance'."
+  },
+  {
+    "exercise_id": "ex_noun_auflage_001",
+    "word_id": "noun_auflage",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Auflage",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the edition / print run; condition (imposed)",
+    "wrong_answers": [
+      "the cover",
+      "the chapter",
+      "the publisher",
+      "the review"
+    ],
+    "explanation_en": "'Auflage' means 'edition / print run; condition (imposed)'. It takes the article 'die' (feminine). Two senses: print run/edition of a publication, and an official condition attached to a permit."
+  },
+  {
+    "exercise_id": "ex_noun_auflage_002",
+    "word_id": "noun_auflage",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die erste _____ des Buches war schnell ausverkauft.",
+      "en": "The first print run of the book sold out quickly."
+    },
+    "correct_answer": "Auflage",
+    "wrong_answers": [
+      "Ausgabe",
+      "Auflösung",
+      "Anlage",
+      "Ablage"
+    ],
+    "explanation_en": "'Auflage' (die Auflage, plural: die Auflagen) means 'edition / print run; condition (imposed)'."
+  },
+  {
+    "exercise_id": "ex_noun_auflage_003",
+    "word_id": "noun_auflage",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Behörde erteilte die Genehmigung nur unter strengen _____.",
+      "en": "The authority granted the permit only under strict conditions."
+    },
+    "correct_answer": "Auflage",
+    "wrong_answers": [
+      "Ausgabe",
+      "Auflösung",
+      "Anlage",
+      "Ablage"
+    ],
+    "explanation_en": "'Auflage' (die Auflage, plural: die Auflagen) means 'edition / print run; condition (imposed)'."
+  },
+  {
+    "exercise_id": "ex_noun_fachgebiet_001",
+    "word_id": "noun_fachgebiet",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Fachgebiet",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the specialist field / area of expertise",
+    "wrong_answers": [
+      "the faculty",
+      "the profession",
+      "the laboratory",
+      "the department"
+    ],
+    "explanation_en": "'Fachgebiet' means 'specialist field / area of expertise'. It takes the article 'das' (neuter). das Fach (subject) + das Gebiet (area). Related: der Fachmann, die Fachsprache."
+  },
+  {
+    "exercise_id": "ex_noun_fachgebiet_002",
+    "word_id": "noun_fachgebiet",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ihr _____ ist die Kindermedizin.",
+      "en": "Her specialist field is paediatrics."
+    },
+    "correct_answer": "Fachgebiet",
+    "wrong_answers": [
+      "Fachwerk",
+      "Fakultät",
+      "Beruf",
+      "Abteilung"
+    ],
+    "explanation_en": "'Fachgebiet' (das Fachgebiet, plural: die Fachgebiete) means 'specialist field / area of expertise'."
+  },
+  {
+    "exercise_id": "ex_noun_fachgebiet_003",
+    "word_id": "noun_fachgebiet",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Auf diesem _____ kennt er sich sehr gut aus.",
+      "en": "He knows this field very well."
+    },
+    "correct_answer": "Fachgebiet",
+    "wrong_answers": [
+      "Fachwerk",
+      "Fakultät",
+      "Beruf",
+      "Abteilung"
+    ],
+    "explanation_en": "'Fachgebiet' (das Fachgebiet, plural: die Fachgebiete) means 'specialist field / area of expertise'."
+  },
+  {
+    "exercise_id": "ex_noun_verwaltung_001",
+    "word_id": "noun_verwaltung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Verwaltung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the administration",
+    "wrong_answers": [
+      "the government",
+      "the management board",
+      "the construction",
+      "the department store"
+    ],
+    "explanation_en": "'Verwaltung' means 'administration'. It takes the article 'die' (feminine). From verwalten (to administer). Die öffentliche Verwaltung = public administration."
+  },
+  {
+    "exercise_id": "ex_noun_verwaltung_002",
+    "word_id": "noun_verwaltung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ der Stadt sucht neue Mitarbeiter.",
+      "en": "The city administration is looking for new employees."
+    },
+    "correct_answer": "Verwaltung",
+    "wrong_answers": [
+      "Regierung",
+      "Abteilung",
+      "Versammlung",
+      "Vertretung"
+    ],
+    "explanation_en": "'Verwaltung' (die Verwaltung, plural: die Verwaltungen) means 'administration'."
+  },
+  {
+    "exercise_id": "ex_noun_verwaltung_003",
+    "word_id": "noun_verwaltung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er arbeitet seit Jahren in der _____.",
+      "en": "He has worked in administration for years."
+    },
+    "correct_answer": "Verwaltung",
+    "wrong_answers": [
+      "Regierung",
+      "Abteilung",
+      "Versammlung",
+      "Vertretung"
+    ],
+    "explanation_en": "'Verwaltung' (die Verwaltung, plural: die Verwaltungen) means 'administration'."
+  },
+  {
+    "exercise_id": "ex_noun_bruchteil_001",
+    "word_id": "noun_bruchteil",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Bruchteil",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the fraction (of something)",
+    "wrong_answers": [
+      "the majority",
+      "the percentage",
+      "the half",
+      "the surplus"
+    ],
+    "explanation_en": "'Bruchteil' means 'fraction (of something)'. It takes the article 'der' (masculine). der Bruch (break/fraction) + der Teil (part). Fixed phrase: im Bruchteil einer Sekunde."
+  },
+  {
+    "exercise_id": "ex_noun_bruchteil_002",
+    "word_id": "noun_bruchteil",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das kostet nur einen _____ des ursprünglichen Preises.",
+      "en": "That costs only a fraction of the original price."
+    },
+    "correct_answer": "Bruchteil",
+    "wrong_answers": [
+      "Anteil",
+      "Betrag",
+      "Bruch",
+      "Teiler"
+    ],
+    "explanation_en": "'Bruchteil' (der Bruchteil, plural: die Bruchteile) means 'fraction (of something)'."
+  },
+  {
+    "exercise_id": "ex_noun_bruchteil_003",
+    "word_id": "noun_bruchteil",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "In einem _____ einer Sekunde war alles vorbei.",
+      "en": "In a split second it was all over."
+    },
+    "correct_answer": "Bruchteil",
+    "wrong_answers": [
+      "Anteil",
+      "Betrag",
+      "Bruch",
+      "Teiler"
+    ],
+    "explanation_en": "'Bruchteil' (der Bruchteil, plural: die Bruchteile) means 'fraction (of something)'."
+  },
+  {
+    "exercise_id": "ex_noun_zwang_001",
+    "word_id": "noun_zwang",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Zwang",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the compulsion / constraint / pressure",
+    "wrong_answers": [
+      "the freedom",
+      "the doubt",
+      "the fear",
+      "the habit"
+    ],
+    "explanation_en": "'Zwang' means 'compulsion / constraint / pressure'. It takes the article 'der' (masculine). From zwingen (to force). Plural Zwänge = constraints. ohne Zwang = without pressure."
+  },
+  {
+    "exercise_id": "ex_noun_zwang_002",
+    "word_id": "noun_zwang",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Niemand übt _____ auf dich aus — du entscheidest frei.",
+      "en": "Nobody is putting pressure on you — you decide freely."
+    },
+    "correct_answer": "Zwang",
+    "wrong_answers": [
+      "Druck",
+      "Zweifel",
+      "Zorn",
+      "Zweck"
+    ],
+    "explanation_en": "'Zwang' (der Zwang, plural: die Zwänge) means 'compulsion / constraint / pressure'."
+  },
+  {
+    "exercise_id": "ex_noun_zwang_003",
+    "word_id": "noun_zwang",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er leidet unter gesellschaftlichen _____.",
+      "en": "He suffers under social constraints."
+    },
+    "correct_answer": "Zwang",
+    "wrong_answers": [
+      "Druck",
+      "Zweifel",
+      "Zorn",
+      "Zweck"
+    ],
+    "explanation_en": "'Zwang' (der Zwang, plural: die Zwänge) means 'compulsion / constraint / pressure'."
+  },
+  {
+    "exercise_id": "ex_noun_ader_001",
+    "word_id": "noun_ader",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Ader",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the vein / blood vessel",
+    "wrong_answers": [
+      "the artery wall",
+      "the muscle",
+      "the bone",
+      "the nerve"
+    ],
+    "explanation_en": "'Ader' means 'vein / blood vessel'. It takes the article 'die' (feminine). Also figurative: eine musikalische Ader = a musical streak/talent."
+  },
+  {
+    "exercise_id": "ex_noun_ader_002",
+    "word_id": "noun_ader",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Krankenschwester findet die _____ sofort.",
+      "en": "The nurse finds the vein immediately."
+    },
+    "correct_answer": "Ader",
+    "wrong_answers": [
+      "Achsel",
+      "Rippe",
+      "Sehne",
+      "Narbe"
+    ],
+    "explanation_en": "'Ader' (die Ader, plural: die Adern) means 'vein / blood vessel'."
+  },
+  {
+    "exercise_id": "ex_noun_ader_003",
+    "word_id": "noun_ader",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Man sieht die blauen _____ an seinen Händen.",
+      "en": "You can see the blue veins on his hands."
+    },
+    "correct_answer": "Ader",
+    "wrong_answers": [
+      "Achsel",
+      "Rippe",
+      "Sehne",
+      "Narbe"
+    ],
+    "explanation_en": "'Ader' (die Ader, plural: die Adern) means 'vein / blood vessel'."
+  },
+  {
+    "exercise_id": "ex_noun_wohlbefinden_001",
+    "word_id": "noun_wohlbefinden",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Wohlbefinden",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the well-being",
+    "wrong_answers": [
+      "the illness",
+      "the fitness",
+      "the happiness (luck)",
+      "the behaviour"
+    ],
+    "explanation_en": "'Wohlbefinden' means 'well-being'. It takes the article 'das' (neuter). wohl (well) + das Befinden (state of health). No plural. Compare: der Wohlstand (prosperity)."
+  },
+  {
+    "exercise_id": "ex_noun_wohlbefinden_002",
+    "word_id": "noun_wohlbefinden",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Regelmäßiger Schlaf ist wichtig für das _____.",
+      "en": "Regular sleep is important for well-being."
+    },
+    "correct_answer": "Wohlbefinden",
+    "wrong_answers": [
+      "Wohlstand",
+      "Verhalten",
+      "Bewusstsein",
+      "Vergnügen"
+    ],
+    "explanation_en": "'Wohlbefinden' (das Wohlbefinden, no plural) means 'well-being'."
+  },
+  {
+    "exercise_id": "ex_noun_wohlbefinden_003",
+    "word_id": "noun_wohlbefinden",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Yoga steigert mein körperliches _____.",
+      "en": "Yoga increases my physical well-being."
+    },
+    "correct_answer": "Wohlbefinden",
+    "wrong_answers": [
+      "Wohlstand",
+      "Verhalten",
+      "Bewusstsein",
+      "Vergnügen"
+    ],
+    "explanation_en": "'Wohlbefinden' (das Wohlbefinden, no plural) means 'well-being'."
+  },
+  {
+    "exercise_id": "ex_noun_suchtmittel_001",
+    "word_id": "noun_suchtmittel",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Suchtmittel",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the addictive substance",
+    "wrong_answers": [
+      "the medicine",
+      "the food supplement",
+      "the detergent",
+      "the fuel"
+    ],
+    "explanation_en": "'Suchtmittel' means 'addictive substance'. It takes the article 'das' (neuter). die Sucht (addiction) + das Mittel (substance/means). Note the -mittel compound family."
+  },
+  {
+    "exercise_id": "ex_noun_suchtmittel_002",
+    "word_id": "noun_suchtmittel",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Alkohol ist das am weitesten verbreitete _____.",
+      "en": "Alcohol is the most widespread addictive substance."
+    },
+    "correct_answer": "Suchtmittel",
+    "wrong_answers": [
+      "Nahrungsmittel",
+      "Arzneimittel",
+      "Waschmittel",
+      "Verkehrsmittel"
+    ],
+    "explanation_en": "'Suchtmittel' (das Suchtmittel, plural: die Suchtmittel) means 'addictive substance'."
+  },
+  {
+    "exercise_id": "ex_noun_suchtmittel_003",
+    "word_id": "noun_suchtmittel",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Verkauf von _____ an Jugendliche ist verboten.",
+      "en": "Selling addictive substances to minors is prohibited."
+    },
+    "correct_answer": "Suchtmittel",
+    "wrong_answers": [
+      "Nahrungsmittel",
+      "Arzneimittel",
+      "Waschmittel",
+      "Verkehrsmittel"
+    ],
+    "explanation_en": "'Suchtmittel' (das Suchtmittel, plural: die Suchtmittel) means 'addictive substance'."
+  },
+  {
+    "exercise_id": "ex_noun_tatsache_001",
+    "word_id": "noun_tatsache",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Tatsache",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the fact",
+    "wrong_answers": [
+      "the opinion",
+      "the rumour",
+      "the theory",
+      "the impression"
+    ],
+    "explanation_en": "'Tatsache' means 'fact'. It takes the article 'die' (feminine). Key phrase: die Tatsache, dass … = the fact that … Related adverb: tatsächlich (actually)."
+  },
+  {
+    "exercise_id": "ex_noun_tatsache_002",
+    "word_id": "noun_tatsache",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Es ist eine _____, dass die Erde sich um die Sonne dreht.",
+      "en": "It is a fact that the Earth revolves around the sun."
+    },
+    "correct_answer": "Tatsache",
+    "wrong_answers": [
+      "Meinung",
+      "Vermutung",
+      "Aussage",
+      "Ansicht"
+    ],
+    "explanation_en": "'Tatsache' (die Tatsache, plural: die Tatsachen) means 'fact'."
+  },
+  {
+    "exercise_id": "ex_noun_tatsache_003",
+    "word_id": "noun_tatsache",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir müssen die _____ akzeptieren.",
+      "en": "We have to accept the facts."
+    },
+    "correct_answer": "Tatsache",
+    "wrong_answers": [
+      "Meinung",
+      "Vermutung",
+      "Aussage",
+      "Ansicht"
+    ],
+    "explanation_en": "'Tatsache' (die Tatsache, plural: die Tatsachen) means 'fact'."
+  },
+  {
+    "exercise_id": "ex_noun_bedürfnis_001",
+    "word_id": "noun_bedürfnis",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Bedürfnis",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the need",
+    "wrong_answers": [
+      "the wish (for luxury)",
+      "the duty",
+      "the habit",
+      "the condition"
+    ],
+    "explanation_en": "'Bedürfnis' means 'need'. It takes the article 'das' (neuter). Pattern: ein Bedürfnis nach + Dativ = a need for. Related: bedürfen (to require)."
+  },
+  {
+    "exercise_id": "ex_noun_bedürfnis_002",
+    "word_id": "noun_bedürfnis",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Jeder Mensch hat das _____ nach Sicherheit.",
+      "en": "Every person has the need for security."
+    },
+    "correct_answer": "Bedürfnis",
+    "wrong_answers": [
+      "Bedingung",
+      "Bedeutung",
+      "Bemühung",
+      "Bedienung"
+    ],
+    "explanation_en": "'Bedürfnis' (das Bedürfnis, plural: die Bedürfnisse) means 'need'."
+  },
+  {
+    "exercise_id": "ex_noun_bedürfnis_003",
+    "word_id": "noun_bedürfnis",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Kinder haben andere _____ als Erwachsene.",
+      "en": "Children have different needs than adults."
+    },
+    "correct_answer": "Bedürfnis",
+    "wrong_answers": [
+      "Bedingung",
+      "Bedeutung",
+      "Bemühung",
+      "Bedienung"
+    ],
+    "explanation_en": "'Bedürfnis' (das Bedürfnis, plural: die Bedürfnisse) means 'need'."
+  },
+  {
+    "exercise_id": "ex_noun_gräuel_001",
+    "word_id": "noun_gräuel",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Gräuel",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the horror / atrocity",
+    "wrong_answers": [
+      "the grief",
+      "the glory",
+      "the damage",
+      "the threat"
+    ],
+    "explanation_en": "'Gräuel' means 'horror / atrocity'. It takes the article 'der' (masculine). Related: grauenhaft (horrific), das Grauen (horror/dread). Mostly used in the plural for atrocities."
+  },
+  {
+    "exercise_id": "ex_noun_gräuel_002",
+    "word_id": "noun_gräuel",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Bericht beschreibt die _____ des Krieges.",
+      "en": "The report describes the atrocities of the war."
+    },
+    "correct_answer": "Gräuel",
+    "wrong_answers": [
+      "Grauen",
+      "Kummer",
+      "Schaden",
+      "Jammer"
+    ],
+    "explanation_en": "'Gräuel' (der Gräuel, plural: die Gräuel) means 'horror / atrocity'."
+  },
+  {
+    "exercise_id": "ex_noun_gräuel_003",
+    "word_id": "noun_gräuel",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Solche Taten sind ein _____ für jeden zivilisierten Menschen.",
+      "en": "Such deeds are an abomination to every civilised person."
+    },
+    "correct_answer": "Gräuel",
+    "wrong_answers": [
+      "Grauen",
+      "Kummer",
+      "Schaden",
+      "Jammer"
+    ],
+    "explanation_en": "'Gräuel' (der Gräuel, plural: die Gräuel) means 'horror / atrocity'."
+  },
+  {
+    "exercise_id": "ex_noun_empörung_001",
+    "word_id": "noun_empörung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Empörung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the outrage / indignation",
+    "wrong_answers": [
+      "the enthusiasm",
+      "the disappointment",
+      "the surprise",
+      "the embarrassment"
+    ],
+    "explanation_en": "'Empörung' means 'outrage / indignation'. It takes the article 'die' (feminine). From sich empören (to be outraged). Typical news collocation: Empörung auslösen."
+  },
+  {
+    "exercise_id": "ex_noun_empörung_002",
+    "word_id": "noun_empörung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Entscheidung löste große _____ aus.",
+      "en": "The decision triggered great outrage."
+    },
+    "correct_answer": "Empörung",
+    "wrong_answers": [
+      "Begeisterung",
+      "Enttäuschung",
+      "Überraschung",
+      "Verzweiflung"
+    ],
+    "explanation_en": "'Empörung' (die Empörung, no plural) means 'outrage / indignation'."
+  },
+  {
+    "exercise_id": "ex_noun_empörung_003",
+    "word_id": "noun_empörung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Voller _____ verließ sie den Saal.",
+      "en": "Full of indignation, she left the hall."
+    },
+    "correct_answer": "Empörung",
+    "wrong_answers": [
+      "Begeisterung",
+      "Enttäuschung",
+      "Überraschung",
+      "Verzweiflung"
+    ],
+    "explanation_en": "'Empörung' (die Empörung, no plural) means 'outrage / indignation'."
+  },
+  {
+    "exercise_id": "ex_noun_entsetzen_001",
+    "word_id": "noun_entsetzen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Entsetzen",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the horror / dismay",
+    "wrong_answers": [
+      "the relief",
+      "the anger",
+      "the confusion",
+      "the sadness"
+    ],
+    "explanation_en": "'Entsetzen' means 'horror / dismay'. It takes the article 'das' (neuter). Stronger than Schock in written German. Pattern: zu meinem Entsetzen = to my horror. Related adjective: entsetzlich."
+  },
+  {
+    "exercise_id": "ex_noun_entsetzen_002",
+    "word_id": "noun_entsetzen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Mit _____ sahen die Nachbarn das brennende Haus.",
+      "en": "The neighbours watched the burning house with horror."
+    },
+    "correct_answer": "Entsetzen",
+    "wrong_answers": [
+      "Erstaunen",
+      "Erleichterung",
+      "Verwirrung",
+      "Trauer"
+    ],
+    "explanation_en": "'Entsetzen' (das Entsetzen, no plural) means 'horror / dismay'."
+  },
+  {
+    "exercise_id": "ex_noun_entsetzen_003",
+    "word_id": "noun_entsetzen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Zu meinem _____ war der Zug schon weg.",
+      "en": "To my dismay, the train had already left."
+    },
+    "correct_answer": "Entsetzen",
+    "wrong_answers": [
+      "Erstaunen",
+      "Erleichterung",
+      "Verwirrung",
+      "Trauer"
+    ],
+    "explanation_en": "'Entsetzen' (das Entsetzen, no plural) means 'horror / dismay'."
+  },
+  {
+    "exercise_id": "ex_noun_geschwister_001",
+    "word_id": "noun_geschwister",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Geschwister",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the siblings",
+    "wrong_answers": [
+      "the cousins",
+      "the parents",
+      "the grandparents",
+      "the relatives"
+    ],
+    "explanation_en": "'Geschwister' means 'siblings'. It takes the article 'die' (feminine). Plural-only noun: die Geschwister covers brothers and sisters together."
+  },
+  {
+    "exercise_id": "ex_noun_geschwister_002",
+    "word_id": "noun_geschwister",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Hast du _____?",
+      "en": "Do you have siblings?"
+    },
+    "correct_answer": "Geschwister",
+    "wrong_answers": [
+      "Eltern",
+      "Verwandte",
+      "Großeltern",
+      "Nachbarn"
+    ],
+    "explanation_en": "'Geschwister' (die Geschwister, plural: die Geschwister) means 'siblings'."
+  },
+  {
+    "exercise_id": "ex_noun_geschwister_003",
+    "word_id": "noun_geschwister",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Meine _____ wohnen alle in Berlin.",
+      "en": "My siblings all live in Berlin."
+    },
+    "correct_answer": "Geschwister",
+    "wrong_answers": [
+      "Eltern",
+      "Verwandte",
+      "Großeltern",
+      "Nachbarn"
+    ],
+    "explanation_en": "'Geschwister' (die Geschwister, plural: die Geschwister) means 'siblings'."
+  },
+  {
+    "exercise_id": "ex_noun_vorurteil_001",
+    "word_id": "noun_vorurteil",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Vorurteil",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the prejudice",
+    "wrong_answers": [
+      "the judgment (in court)",
+      "the advantage",
+      "the opinion",
+      "the insult"
+    ],
+    "explanation_en": "'Vorurteil' means 'prejudice'. It takes the article 'das' (neuter). vor (before) + das Urteil (judgment) — literally judging before knowing. Pattern: Vorurteile gegenüber + Dativ."
+  },
+  {
+    "exercise_id": "ex_noun_vorurteil_002",
+    "word_id": "noun_vorurteil",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er hat viele _____ gegenüber anderen Kulturen.",
+      "en": "He has many prejudices towards other cultures."
+    },
+    "correct_answer": "Vorurteil",
+    "wrong_answers": [
+      "Urteil",
+      "Vorteil",
+      "Nachteil",
+      "Verdacht"
+    ],
+    "explanation_en": "'Vorurteil' (das Vorurteil, plural: die Vorurteile) means 'prejudice'."
+  },
+  {
+    "exercise_id": "ex_noun_vorurteil_003",
+    "word_id": "noun_vorurteil",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Dieses _____ ist weit verbreitet, aber falsch.",
+      "en": "This prejudice is widespread but wrong."
+    },
+    "correct_answer": "Vorurteil",
+    "wrong_answers": [
+      "Urteil",
+      "Vorteil",
+      "Nachteil",
+      "Verdacht"
+    ],
+    "explanation_en": "'Vorurteil' (das Vorurteil, plural: die Vorurteile) means 'prejudice'."
+  },
+  {
+    "exercise_id": "ex_noun_nachfrage_001",
+    "word_id": "noun_nachfrage",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Nachfrage",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the demand; inquiry",
+    "wrong_answers": [
+      "the supply",
+      "the offer",
+      "the discount",
+      "the production"
+    ],
+    "explanation_en": "'Nachfrage' means 'demand; inquiry'. It takes the article 'die' (feminine). Economics: Angebot und Nachfrage = supply and demand. Idiom: Danke der Nachfrage = thanks for asking."
+  },
+  {
+    "exercise_id": "ex_noun_nachfrage_002",
+    "word_id": "noun_nachfrage",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ nach E-Bikes steigt jedes Jahr.",
+      "en": "The demand for e-bikes rises every year."
+    },
+    "correct_answer": "Nachfrage",
+    "wrong_answers": [
+      "Angebot",
+      "Anfrage",
+      "Absage",
+      "Ausgabe"
+    ],
+    "explanation_en": "'Nachfrage' (die Nachfrage, plural: die Nachfragen) means 'demand; inquiry'."
+  },
+  {
+    "exercise_id": "ex_noun_nachfrage_003",
+    "word_id": "noun_nachfrage",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Danke der _____ — mir geht es gut!",
+      "en": "Thanks for asking — I'm fine!"
+    },
+    "correct_answer": "Nachfrage",
+    "wrong_answers": [
+      "Angebot",
+      "Anfrage",
+      "Absage",
+      "Ausgabe"
+    ],
+    "explanation_en": "'Nachfrage' (die Nachfrage, plural: die Nachfragen) means 'demand; inquiry'."
+  },
+  {
+    "exercise_id": "ex_noun_benutzbarkeit_001",
+    "word_id": "noun_benutzbarkeit",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Benutzbarkeit",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the usability",
+    "wrong_answers": [
+      "the utility bill",
+      "the user account",
+      "the maintenance",
+      "the functionality"
+    ],
+    "explanation_en": "'Benutzbarkeit' means 'usability'. It takes the article 'die' (feminine). benutzbar (usable) + -keit. The -barkeit suffix turns 'can be X-ed' into a noun: Vorhersehbarkeit, Haltbarkeit."
+  },
+  {
+    "exercise_id": "ex_noun_benutzbarkeit_002",
+    "word_id": "noun_benutzbarkeit",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ der App wurde stark verbessert.",
+      "en": "The usability of the app has been greatly improved."
+    },
+    "correct_answer": "Benutzbarkeit",
+    "wrong_answers": [
+      "Bedienung",
+      "Verfügbarkeit",
+      "Haltbarkeit",
+      "Sichtbarkeit"
+    ],
+    "explanation_en": "'Benutzbarkeit' (die Benutzbarkeit, no plural) means 'usability'."
+  },
+  {
+    "exercise_id": "ex_noun_benutzbarkeit_003",
+    "word_id": "noun_benutzbarkeit",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Bei Software zählt vor allem die _____.",
+      "en": "With software, usability matters most."
+    },
+    "correct_answer": "Benutzbarkeit",
+    "wrong_answers": [
+      "Bedienung",
+      "Verfügbarkeit",
+      "Haltbarkeit",
+      "Sichtbarkeit"
+    ],
+    "explanation_en": "'Benutzbarkeit' (die Benutzbarkeit, no plural) means 'usability'."
+  },
+  {
+    "exercise_id": "ex_noun_vorhersehbarkeit_001",
+    "word_id": "noun_vorhersehbarkeit",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Vorhersehbarkeit",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the predictability",
+    "wrong_answers": [
+      "the foresight",
+      "the probability",
+      "the reliability",
+      "the curiosity"
+    ],
+    "explanation_en": "'Vorhersehbarkeit' means 'predictability'. It takes the article 'die' (feminine). From vorhersehbar (foreseeable) ← vorhersehen (to foresee). Same family as die Vorhersage (forecast)."
+  },
+  {
+    "exercise_id": "ex_noun_vorhersehbarkeit_002",
+    "word_id": "noun_vorhersehbarkeit",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ seiner Reaktionen macht ihn leicht zu durchschauen.",
+      "en": "The predictability of his reactions makes him easy to read."
+    },
+    "correct_answer": "Vorhersehbarkeit",
+    "wrong_answers": [
+      "Wahrscheinlichkeit",
+      "Zuverlässigkeit",
+      "Verfügbarkeit",
+      "Möglichkeit"
+    ],
+    "explanation_en": "'Vorhersehbarkeit' (die Vorhersehbarkeit, no plural) means 'predictability'."
+  },
+  {
+    "exercise_id": "ex_noun_vorhersehbarkeit_003",
+    "word_id": "noun_vorhersehbarkeit",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Kinder brauchen Routine und _____.",
+      "en": "Children need routine and predictability."
+    },
+    "correct_answer": "Vorhersehbarkeit",
+    "wrong_answers": [
+      "Wahrscheinlichkeit",
+      "Zuverlässigkeit",
+      "Verfügbarkeit",
+      "Möglichkeit"
+    ],
+    "explanation_en": "'Vorhersehbarkeit' (die Vorhersehbarkeit, no plural) means 'predictability'."
+  },
+  {
+    "exercise_id": "ex_noun_auswirkung_001",
+    "word_id": "noun_auswirkung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Auswirkung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the effect / impact",
+    "wrong_answers": [
+      "the cause",
+      "the exception",
+      "the measurement",
+      "the development"
+    ],
+    "explanation_en": "'Auswirkung' means 'effect / impact'. It takes the article 'die' (feminine). Pattern: Auswirkungen auf + Akk = effects on. Usually plural. Compare: die Wirkung (effect), die Ursache (cause)."
+  },
+  {
+    "exercise_id": "ex_noun_auswirkung_002",
+    "word_id": "noun_auswirkung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ des Klimawandels sind schon heute spürbar.",
+      "en": "The effects of climate change can already be felt today."
+    },
+    "correct_answer": "Auswirkung",
+    "wrong_answers": [
+      "Ursache",
+      "Ausnahme",
+      "Ausrede",
+      "Absicht"
+    ],
+    "explanation_en": "'Auswirkung' (die Auswirkung, plural: die Auswirkungen) means 'effect / impact'."
+  },
+  {
+    "exercise_id": "ex_noun_auswirkung_003",
+    "word_id": "noun_auswirkung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Diese Entscheidung hat _____ auf uns alle.",
+      "en": "This decision has an impact on all of us."
+    },
+    "correct_answer": "Auswirkung",
+    "wrong_answers": [
+      "Ursache",
+      "Ausnahme",
+      "Ausrede",
+      "Absicht"
+    ],
+    "explanation_en": "'Auswirkung' (die Auswirkung, plural: die Auswirkungen) means 'effect / impact'."
+  },
+  {
+    "exercise_id": "ex_noun_vielfalt_001",
+    "word_id": "noun_vielfalt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Vielfalt",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the diversity / variety",
+    "wrong_answers": [
+      "the multitude (of people)",
+      "the equality",
+      "the simplicity",
+      "the majority"
+    ],
+    "explanation_en": "'Vielfalt' means 'diversity / variety'. It takes the article 'die' (feminine). viel (much) + -falt (fold). Pattern: eine Vielfalt an + Dativ = a variety of."
+  },
+  {
+    "exercise_id": "ex_noun_vielfalt_002",
+    "word_id": "noun_vielfalt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die kulturelle _____ macht diese Stadt besonders.",
+      "en": "Cultural diversity makes this city special."
+    },
+    "correct_answer": "Vielfalt",
+    "wrong_answers": [
+      "Einfalt",
+      "Mehrheit",
+      "Einheit",
+      "Menge"
+    ],
+    "explanation_en": "'Vielfalt' (die Vielfalt, no plural) means 'diversity / variety'."
+  },
+  {
+    "exercise_id": "ex_noun_vielfalt_003",
+    "word_id": "noun_vielfalt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Markt bietet eine große _____ an frischem Gemüse.",
+      "en": "The market offers a great variety of fresh vegetables."
+    },
+    "correct_answer": "Vielfalt",
+    "wrong_answers": [
+      "Einfalt",
+      "Mehrheit",
+      "Einheit",
+      "Menge"
+    ],
+    "explanation_en": "'Vielfalt' (die Vielfalt, no plural) means 'diversity / variety'."
+  },
+  {
+    "exercise_id": "ex_noun_sehnsucht_001",
+    "word_id": "noun_sehnsucht",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Sehnsucht",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the longing / yearning",
+    "wrong_answers": [
+      "the addiction",
+      "the memory",
+      "the homesickness only",
+      "the curiosity"
+    ],
+    "explanation_en": "'Sehnsucht' means 'longing / yearning'. It takes the article 'die' (feminine). Pattern: Sehnsucht nach + Dativ = longing for. One of the classic 'untranslatable' German words. Note the -sucht family: Eifersucht, Suchtmittel."
+  },
+  {
+    "exercise_id": "ex_noun_sehnsucht_002",
+    "word_id": "noun_sehnsucht",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Sie hat große _____ nach ihrer Heimat.",
+      "en": "She has a great longing for her home country."
+    },
+    "correct_answer": "Sehnsucht",
+    "wrong_answers": [
+      "Eifersucht",
+      "Erinnerung",
+      "Hoffnung",
+      "Leidenschaft"
+    ],
+    "explanation_en": "'Sehnsucht' (die Sehnsucht, plural: die Sehnsüchte) means 'longing / yearning'."
+  },
+  {
+    "exercise_id": "ex_noun_sehnsucht_003",
+    "word_id": "noun_sehnsucht",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Voller _____ wartete er auf ihren Brief.",
+      "en": "Full of longing, he waited for her letter."
+    },
+    "correct_answer": "Sehnsucht",
+    "wrong_answers": [
+      "Eifersucht",
+      "Erinnerung",
+      "Hoffnung",
+      "Leidenschaft"
+    ],
+    "explanation_en": "'Sehnsucht' (die Sehnsucht, plural: die Sehnsüchte) means 'longing / yearning'."
+  },
+  {
+    "exercise_id": "ex_noun_gemeinde_001",
+    "word_id": "noun_gemeinde",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Gemeinde",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the municipality / community / congregation",
+    "wrong_answers": [
+      "the government",
+      "the neighbourhood watch",
+      "the company",
+      "the district court"
+    ],
+    "explanation_en": "'Gemeinde' means 'municipality / community / congregation'. It takes the article 'die' (feminine). Three senses: smallest administrative unit, local community, or religious congregation. Compare: die Gemeinschaft (community feeling)."
+  },
+  {
+    "exercise_id": "ex_noun_gemeinde_002",
+    "word_id": "noun_gemeinde",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Unsere _____ hat nur dreitausend Einwohner.",
+      "en": "Our municipality has only three thousand inhabitants."
+    },
+    "correct_answer": "Gemeinde",
+    "wrong_answers": [
+      "Gemeinschaft",
+      "Gesellschaft",
+      "Genossenschaft",
+      "Gewerkschaft"
+    ],
+    "explanation_en": "'Gemeinde' (die Gemeinde, plural: die Gemeinden) means 'municipality / community / congregation'."
+  },
+  {
+    "exercise_id": "ex_noun_gemeinde_003",
+    "word_id": "noun_gemeinde",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die _____ trifft sich sonntags in der Kirche.",
+      "en": "The congregation meets in the church on Sundays."
+    },
+    "correct_answer": "Gemeinde",
+    "wrong_answers": [
+      "Gemeinschaft",
+      "Gesellschaft",
+      "Genossenschaft",
+      "Gewerkschaft"
+    ],
+    "explanation_en": "'Gemeinde' (die Gemeinde, plural: die Gemeinden) means 'municipality / community / congregation'."
+  },
+  {
+    "exercise_id": "ex_noun_bilanz_001",
+    "word_id": "noun_bilanz",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Bilanz",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the balance (sheet) / outcome / tally",
+    "wrong_answers": [
+      "the budget plan",
+      "the invoice",
+      "the profit",
+      "the bank account"
+    ],
+    "explanation_en": "'Bilanz' means 'balance (sheet) / outcome / tally'. It takes the article 'die' (feminine). Business term and figurative: Bilanz ziehen = to take stock / sum up. News: die traurige Bilanz des Unfalls."
+  },
+  {
+    "exercise_id": "ex_noun_bilanz_002",
+    "word_id": "noun_bilanz",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Firma legt heute ihre _____ für das letzte Jahr vor.",
+      "en": "The company presents its balance sheet for last year today."
+    },
+    "correct_answer": "Bilanz",
+    "wrong_answers": [
+      "Rechnung",
+      "Gewinn",
+      "Umsatz",
+      "Haushalt"
+    ],
+    "explanation_en": "'Bilanz' (die Bilanz, plural: die Bilanzen) means 'balance (sheet) / outcome / tally'."
+  },
+  {
+    "exercise_id": "ex_noun_bilanz_003",
+    "word_id": "noun_bilanz",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Nach zehn Jahren zieht sie eine positive _____.",
+      "en": "After ten years she draws a positive conclusion."
+    },
+    "correct_answer": "Bilanz",
+    "wrong_answers": [
+      "Rechnung",
+      "Gewinn",
+      "Umsatz",
+      "Haushalt"
+    ],
+    "explanation_en": "'Bilanz' (die Bilanz, plural: die Bilanzen) means 'balance (sheet) / outcome / tally'."
+  },
+  {
+    "exercise_id": "ex_noun_stiftung_001",
+    "word_id": "noun_stiftung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Stiftung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the foundation (charitable)",
+    "wrong_answers": [
+      "the donation",
+      "the pen",
+      "the corporation",
+      "the charity event"
+    ],
+    "explanation_en": "'Stiftung' means 'foundation (charitable)'. It takes the article 'die' (feminine). From stiften (to donate/endow). Famous example: Stiftung Warentest. Don't confuse with der Stift (pen)."
+  },
+  {
+    "exercise_id": "ex_noun_stiftung_002",
+    "word_id": "noun_stiftung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ unterstützt junge Künstler mit Stipendien.",
+      "en": "The foundation supports young artists with scholarships."
+    },
+    "correct_answer": "Stiftung",
+    "wrong_answers": [
+      "Spende",
+      "Siedlung",
+      "Sitzung",
+      "Sammlung"
+    ],
+    "explanation_en": "'Stiftung' (die Stiftung, plural: die Stiftungen) means 'foundation (charitable)'."
+  },
+  {
+    "exercise_id": "ex_noun_stiftung_003",
+    "word_id": "noun_stiftung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er gründete eine _____ für den Umweltschutz.",
+      "en": "He founded a foundation for environmental protection."
+    },
+    "correct_answer": "Stiftung",
+    "wrong_answers": [
+      "Spende",
+      "Siedlung",
+      "Sitzung",
+      "Sammlung"
+    ],
+    "explanation_en": "'Stiftung' (die Stiftung, plural: die Stiftungen) means 'foundation (charitable)'."
+  },
+  {
+    "exercise_id": "ex_noun_stift_001",
+    "word_id": "noun_stift",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Stift",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the pen / pencil",
+    "wrong_answers": [
+      "the foundation",
+      "the notebook",
+      "the sheet of paper",
+      "the ruler"
+    ],
+    "explanation_en": "'Stift' means 'pen / pencil'. It takes the article 'der' (masculine). Umbrella word for pens and pencils: Bleistift, Kugelschreiber, Filzstift. Don't confuse with die Stiftung (foundation)."
+  },
+  {
+    "exercise_id": "ex_noun_stift_002",
+    "word_id": "noun_stift",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Kannst du mir einen _____ leihen?",
+      "en": "Can you lend me a pen?"
+    },
+    "correct_answer": "Stift",
+    "wrong_answers": [
+      "Heft",
+      "Blatt",
+      "Lineal",
+      "Radiergummi"
+    ],
+    "explanation_en": "'Stift' (der Stift, plural: die Stifte) means 'pen / pencil'."
+  },
+  {
+    "exercise_id": "ex_noun_stift_003",
+    "word_id": "noun_stift",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der _____ schreibt nicht mehr.",
+      "en": "The pen doesn't write anymore."
+    },
+    "correct_answer": "Stift",
+    "wrong_answers": [
+      "Heft",
+      "Blatt",
+      "Lineal",
+      "Radiergummi"
+    ],
+    "explanation_en": "'Stift' (der Stift, plural: die Stifte) means 'pen / pencil'."
+  },
+  {
+    "exercise_id": "ex_noun_teilhabe_001",
+    "word_id": "noun_teilhabe",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Teilhabe",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the participation / inclusion (in society)",
+    "wrong_answers": [
+      "the partition",
+      "the sympathy",
+      "the membership fee",
+      "the contribution"
+    ],
+    "explanation_en": "'Teilhabe' means 'participation / inclusion (in society)'. It takes the article 'die' (feminine). Political/social term: gesellschaftliche Teilhabe. Compare: die Teilnahme (taking part in an event), die Anteilnahme (sympathy)."
+  },
+  {
+    "exercise_id": "ex_noun_teilhabe_002",
+    "word_id": "noun_teilhabe",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Gesetz soll die _____ von Menschen mit Behinderung verbessern.",
+      "en": "The law is meant to improve the participation of people with disabilities."
+    },
+    "correct_answer": "Teilhabe",
+    "wrong_answers": [
+      "Teilnahme",
+      "Anteilnahme",
+      "Mitgliedschaft",
+      "Zugehörigkeit"
+    ],
+    "explanation_en": "'Teilhabe' (die Teilhabe, no plural) means 'participation / inclusion (in society)'."
+  },
+  {
+    "exercise_id": "ex_noun_teilhabe_003",
+    "word_id": "noun_teilhabe",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Bildung ist der Schlüssel zur gesellschaftlichen _____.",
+      "en": "Education is the key to participation in society."
+    },
+    "correct_answer": "Teilhabe",
+    "wrong_answers": [
+      "Teilnahme",
+      "Anteilnahme",
+      "Mitgliedschaft",
+      "Zugehörigkeit"
+    ],
+    "explanation_en": "'Teilhabe' (die Teilhabe, no plural) means 'participation / inclusion (in society)'."
+  },
+  {
+    "exercise_id": "ex_noun_pflicht_001",
+    "word_id": "noun_pflicht",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Pflicht",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the duty / obligation",
+    "wrong_answers": [
+      "the right",
+      "the permission",
+      "the wish",
+      "the rule"
+    ],
+    "explanation_en": "'Pflicht' means 'duty / obligation'. It takes the article 'die' (feminine). Opposite pair: Rechte und Pflichten. Compounds: Schulpflicht, Versicherungspflicht, Pflichtfach."
+  },
+  {
+    "exercise_id": "ex_noun_pflicht_002",
+    "word_id": "noun_pflicht",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Es ist meine _____, dir die Wahrheit zu sagen.",
+      "en": "It is my duty to tell you the truth."
+    },
+    "correct_answer": "Pflicht",
+    "wrong_answers": [
+      "Recht",
+      "Regel",
+      "Erlaubnis",
+      "Aufgabe"
+    ],
+    "explanation_en": "'Pflicht' (die Pflicht, plural: die Pflichten) means 'duty / obligation'."
+  },
+  {
+    "exercise_id": "ex_noun_pflicht_003",
+    "word_id": "noun_pflicht",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Eltern haben Rechte und _____.",
+      "en": "Parents have rights and duties."
+    },
+    "correct_answer": "Pflicht",
+    "wrong_answers": [
+      "Recht",
+      "Regel",
+      "Erlaubnis",
+      "Aufgabe"
+    ],
+    "explanation_en": "'Pflicht' (die Pflicht, plural: die Pflichten) means 'duty / obligation'."
+  },
+  {
+    "exercise_id": "ex_noun_geflüchtete_001",
+    "word_id": "noun_geflüchtete",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Geflüchtete",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the refugee (adjectival noun)",
+    "wrong_answers": [
+      "the emigrant",
+      "the foreigner",
+      "the traveller",
+      "the immigrant officer"
+    ],
+    "explanation_en": "'Geflüchtete' means 'refugee (adjectival noun)'. It takes the article 'der' (masculine). Adjectival noun from geflüchtet: der/die Geflüchtete, plural die Geflüchteten, ein Geflüchteter. Increasingly preferred over der Flüchtling in current usage."
+  },
+  {
+    "exercise_id": "ex_noun_geflüchtete_002",
+    "word_id": "noun_geflüchtete",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Viele _____ lernen sehr schnell Deutsch.",
+      "en": "Many refugees learn German very quickly."
+    },
+    "correct_answer": "Geflüchtete",
+    "wrong_answers": [
+      "Auswanderer",
+      "Ausländer",
+      "Einheimische",
+      "Reisende"
+    ],
+    "explanation_en": "'Geflüchtete' (der Geflüchtete, plural: die Geflüchteten) means 'refugee (adjectival noun)'."
+  },
+  {
+    "exercise_id": "ex_noun_geflüchtete_003",
+    "word_id": "noun_geflüchtete",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Stadt stellt Wohnungen für _____ bereit.",
+      "en": "The city provides apartments for refugees."
+    },
+    "correct_answer": "Geflüchtete",
+    "wrong_answers": [
+      "Auswanderer",
+      "Ausländer",
+      "Einheimische",
+      "Reisende"
+    ],
+    "explanation_en": "'Geflüchtete' (der Geflüchtete, plural: die Geflüchteten) means 'refugee (adjectival noun)'."
+  },
+  {
+    "exercise_id": "ex_noun_bezug_001",
+    "word_id": "noun_bezug",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Bezug",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the reference / relation; cover; purchase",
+    "wrong_answers": [
+      "the district",
+      "the payment",
+      "the contract",
+      "the content"
+    ],
+    "explanation_en": "'Bezug' means 'reference / relation; cover; purchase'. It takes the article 'der' (masculine). Key formal pattern: in Bezug auf + Akk = with regard to. Related verb: sich beziehen auf. Also: der Kissenbezug (pillowcase)!"
+  },
+  {
+    "exercise_id": "ex_noun_bezug_002",
+    "word_id": "noun_bezug",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "In _____ auf Ihre Frage kann ich Folgendes sagen.",
+      "en": "With regard to your question, I can say the following."
+    },
+    "correct_answer": "Bezug",
+    "wrong_answers": [
+      "Bericht",
+      "Begriff",
+      "Beweis",
+      "Bereich"
+    ],
+    "explanation_en": "'Bezug' (der Bezug, plural: die Bezüge) means 'reference / relation; cover; purchase'."
+  },
+  {
+    "exercise_id": "ex_noun_bezug_003",
+    "word_id": "noun_bezug",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Artikel hat keinen _____ zur Realität.",
+      "en": "The article has no connection to reality."
+    },
+    "correct_answer": "Bezug",
+    "wrong_answers": [
+      "Bericht",
+      "Begriff",
+      "Beweis",
+      "Bereich"
+    ],
+    "explanation_en": "'Bezug' (der Bezug, plural: die Bezüge) means 'reference / relation; cover; purchase'."
+  },
+  {
+    "exercise_id": "ex_noun_berechnung_001",
+    "word_id": "noun_berechnung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Berechnung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the calculation",
+    "wrong_answers": [
+      "the estimate (rough)",
+      "the measurement",
+      "the payment",
+      "the counting rhyme"
+    ],
+    "explanation_en": "'Berechnung' means 'calculation'. It takes the article 'die' (feminine). From berechnen. Also figurative: aus Berechnung handeln = to act out of calculation/self-interest."
+  },
+  {
+    "exercise_id": "ex_noun_berechnung_002",
+    "word_id": "noun_berechnung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Nach meiner _____ brauchen wir noch zwei Stunden.",
+      "en": "According to my calculation we need two more hours."
+    },
+    "correct_answer": "Berechnung",
+    "wrong_answers": [
+      "Rechnung",
+      "Schätzung",
+      "Messung",
+      "Zählung"
+    ],
+    "explanation_en": "'Berechnung' (die Berechnung, plural: die Berechnungen) means 'calculation'."
+  },
+  {
+    "exercise_id": "ex_noun_berechnung_003",
+    "word_id": "noun_berechnung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die _____ der Kosten dauert einen Moment.",
+      "en": "Calculating the costs takes a moment."
+    },
+    "correct_answer": "Berechnung",
+    "wrong_answers": [
+      "Rechnung",
+      "Schätzung",
+      "Messung",
+      "Zählung"
+    ],
+    "explanation_en": "'Berechnung' (die Berechnung, plural: die Berechnungen) means 'calculation'."
+  },
+  {
+    "exercise_id": "ex_noun_umweltschützer_001",
+    "word_id": "noun_umweltschützer",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Umweltschützer",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the environmentalist",
+    "wrong_answers": [
+      "the environment ministry",
+      "the polluter",
+      "the forest ranger",
+      "the weather researcher"
+    ],
+    "explanation_en": "'Umweltschützer' means 'environmentalist'. It takes the article 'der' (masculine). die Umwelt + der Schützer (protector, from schützen). Female form: die Umweltschützerin."
+  },
+  {
+    "exercise_id": "ex_noun_umweltschützer_002",
+    "word_id": "noun_umweltschützer",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ protestieren gegen das neue Kraftwerk.",
+      "en": "The environmentalists protest against the new power plant."
+    },
+    "correct_answer": "Umweltschützer",
+    "wrong_answers": [
+      "Umweltverschmutzer",
+      "Naturforscher",
+      "Förster",
+      "Klimaforscher"
+    ],
+    "explanation_en": "'Umweltschützer' (der Umweltschützer, plural: die Umweltschützer) means 'environmentalist'."
+  },
+  {
+    "exercise_id": "ex_noun_umweltschützer_003",
+    "word_id": "noun_umweltschützer",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Als _____ fährt er nur mit dem Fahrrad.",
+      "en": "As an environmentalist he only travels by bike."
+    },
+    "correct_answer": "Umweltschützer",
+    "wrong_answers": [
+      "Umweltverschmutzer",
+      "Naturforscher",
+      "Förster",
+      "Klimaforscher"
+    ],
+    "explanation_en": "'Umweltschützer' (der Umweltschützer, plural: die Umweltschützer) means 'environmentalist'."
+  },
+  {
+    "exercise_id": "ex_noun_erfassung_001",
+    "word_id": "noun_erfassung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Erfassung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the recording / registration (of data)",
+    "wrong_answers": [
+      "the deletion",
+      "the evaluation",
+      "the transmission",
+      "the printing"
+    ],
+    "explanation_en": "'Erfassung' means 'recording / registration (of data)'. It takes the article 'die' (feminine). From erfassen (to capture/record). Bureaucratic staple: Datenerfassung, Zeiterfassung."
+  },
+  {
+    "exercise_id": "ex_noun_erfassung_002",
+    "word_id": "noun_erfassung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ der Daten erfolgt automatisch.",
+      "en": "The data is recorded automatically."
+    },
+    "correct_answer": "Erfassung",
+    "wrong_answers": [
+      "Erhebung",
+      "Auswertung",
+      "Übertragung",
+      "Löschung"
+    ],
+    "explanation_en": "'Erfassung' (die Erfassung, plural: die Erfassungen) means 'recording / registration (of data)'."
+  },
+  {
+    "exercise_id": "ex_noun_erfassung_003",
+    "word_id": "noun_erfassung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Für die _____ neuer Mitglieder nutzen wir ein Formular.",
+      "en": "We use a form for registering new members."
+    },
+    "correct_answer": "Erfassung",
+    "wrong_answers": [
+      "Erhebung",
+      "Auswertung",
+      "Übertragung",
+      "Löschung"
+    ],
+    "explanation_en": "'Erfassung' (die Erfassung, plural: die Erfassungen) means 'recording / registration (of data)'."
+  },
+  {
+    "exercise_id": "ex_noun_erhebung_001",
+    "word_id": "noun_erhebung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Erhebung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the survey / collection (of data); elevation",
+    "wrong_answers": [
+      "the reduction",
+      "the distribution",
+      "the estimate",
+      "the excavation"
+    ],
+    "explanation_en": "'Erhebung' means 'survey / collection (of data); elevation'. It takes the article 'die' (feminine). From erheben (to raise/levy). Statistics: eine Erhebung durchführen = to conduct a survey. Compare: die Umfrage (poll)."
+  },
+  {
+    "exercise_id": "ex_noun_erhebung_002",
+    "word_id": "noun_erhebung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Laut einer aktuellen _____ lesen Jugendliche weniger Bücher.",
+      "en": "According to a recent survey, young people read fewer books."
+    },
+    "correct_answer": "Erhebung",
+    "wrong_answers": [
+      "Umfrage",
+      "Erfassung",
+      "Senkung",
+      "Ausgrabung"
+    ],
+    "explanation_en": "'Erhebung' (die Erhebung, plural: die Erhebungen) means 'survey / collection (of data); elevation'."
+  },
+  {
+    "exercise_id": "ex_noun_erhebung_003",
+    "word_id": "noun_erhebung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die _____ der Steuern ist Aufgabe des Finanzamts.",
+      "en": "Collecting taxes is the tax office's job."
+    },
+    "correct_answer": "Erhebung",
+    "wrong_answers": [
+      "Umfrage",
+      "Erfassung",
+      "Senkung",
+      "Ausgrabung"
+    ],
+    "explanation_en": "'Erhebung' (die Erhebung, plural: die Erhebungen) means 'survey / collection (of data); elevation'."
+  },
+  {
+    "exercise_id": "ex_noun_regal_001",
+    "word_id": "noun_regal",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Regal",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the shelf / shelving unit",
+    "wrong_answers": [
+      "the drawer",
+      "the cupboard",
+      "the table",
+      "the rule"
+    ],
+    "explanation_en": "'Regal' means 'shelf / shelving unit'. It takes the article 'das' (neuter). Everyday furniture word: das Bücherregal, das Supermarktregal."
+  },
+  {
+    "exercise_id": "ex_noun_regal_002",
+    "word_id": "noun_regal",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Buch steht im _____ ganz oben.",
+      "en": "The book is on the top shelf."
+    },
+    "correct_answer": "Regal",
+    "wrong_answers": [
+      "Schrank",
+      "Schublade",
+      "Tisch",
+      "Spiegel"
+    ],
+    "explanation_en": "'Regal' (das Regal, plural: die Regale) means 'shelf / shelving unit'."
+  },
+  {
+    "exercise_id": "ex_noun_regal_003",
+    "word_id": "noun_regal",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir brauchen ein neues _____ für die Küche.",
+      "en": "We need a new shelf for the kitchen."
+    },
+    "correct_answer": "Regal",
+    "wrong_answers": [
+      "Schrank",
+      "Schublade",
+      "Tisch",
+      "Spiegel"
+    ],
+    "explanation_en": "'Regal' (das Regal, plural: die Regale) means 'shelf / shelving unit'."
+  },
+  {
+    "exercise_id": "ex_noun_säure_001",
+    "word_id": "noun_säure",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Säure",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the acid",
+    "wrong_answers": [
+      "the alkali",
+      "the salt",
+      "the juice",
+      "the sugar"
+    ],
+    "explanation_en": "'Säure' means 'acid'. It takes the article 'die' (feminine). From sauer (sour/acidic). Chemistry and cooking: Magensäure, Zitronensäure."
+  },
+  {
+    "exercise_id": "ex_noun_säure_002",
+    "word_id": "noun_säure",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ greift das Metall an.",
+      "en": "The acid attacks the metal."
+    },
+    "correct_answer": "Säure",
+    "wrong_answers": [
+      "Lauge",
+      "Salz",
+      "Seife",
+      "Zucker"
+    ],
+    "explanation_en": "'Säure' (die Säure, plural: die Säuren) means 'acid'."
+  },
+  {
+    "exercise_id": "ex_noun_säure_003",
+    "word_id": "noun_säure",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Zitronen enthalten viel _____.",
+      "en": "Lemons contain a lot of acid."
+    },
+    "correct_answer": "Säure",
+    "wrong_answers": [
+      "Lauge",
+      "Salz",
+      "Seife",
+      "Zucker"
+    ],
+    "explanation_en": "'Säure' (die Säure, plural: die Säuren) means 'acid'."
+  },
+  {
+    "exercise_id": "ex_noun_farbdruck_001",
+    "word_id": "noun_farbdruck",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Farbdruck",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the colour print / colour printing",
+    "wrong_answers": [
+      "the colour palette",
+      "the paint pressure",
+      "the photograph",
+      "the poster"
+    ],
+    "explanation_en": "'Farbdruck' means 'colour print / colour printing'. It takes the article 'der' (masculine). die Farbe + der Druck. Note the -druck family: Ausdruck (expression), Eindruck (impression), Abdruck (imprint)."
+  },
+  {
+    "exercise_id": "ex_noun_farbdruck_002",
+    "word_id": "noun_farbdruck",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ ist deutlich teurer als Schwarz-Weiß.",
+      "en": "Colour printing is significantly more expensive than black and white."
+    },
+    "correct_answer": "Farbdruck",
+    "wrong_answers": [
+      "Ausdruck",
+      "Abdruck",
+      "Eindruck",
+      "Aufdruck"
+    ],
+    "explanation_en": "'Farbdruck' (der Farbdruck, plural: die Farbdrucke) means 'colour print / colour printing'."
+  },
+  {
+    "exercise_id": "ex_noun_farbdruck_003",
+    "word_id": "noun_farbdruck",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "An der Wand hängt ein alter _____ von Monet.",
+      "en": "An old colour print by Monet hangs on the wall."
+    },
+    "correct_answer": "Farbdruck",
+    "wrong_answers": [
+      "Ausdruck",
+      "Abdruck",
+      "Eindruck",
+      "Aufdruck"
+    ],
+    "explanation_en": "'Farbdruck' (der Farbdruck, plural: die Farbdrucke) means 'colour print / colour printing'."
+  },
+  {
+    "exercise_id": "ex_noun_besitzer_001",
+    "word_id": "noun_besitzer",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Besitzer",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the owner",
+    "wrong_answers": [
+      "the tenant",
+      "the visitor",
+      "the employee",
+      "the customer"
+    ],
+    "explanation_en": "'Besitzer' means 'owner'. It takes the article 'der' (masculine). From besitzen (to own). Female form: die Besitzerin. Legal nuance: Besitzer (possessor) vs Eigentümer (legal owner)."
+  },
+  {
+    "exercise_id": "ex_noun_besitzer_002",
+    "word_id": "noun_besitzer",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ des Autos hat falsch geparkt.",
+      "en": "The owner of the car parked illegally."
+    },
+    "correct_answer": "Besitzer",
+    "wrong_answers": [
+      "Mieter",
+      "Vermieter",
+      "Kunde",
+      "Verkäufer"
+    ],
+    "explanation_en": "'Besitzer' (der Besitzer, plural: die Besitzer) means 'owner'."
+  },
+  {
+    "exercise_id": "ex_noun_besitzer_003",
+    "word_id": "noun_besitzer",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Café hat einen neuen _____.",
+      "en": "The café has a new owner."
+    },
+    "correct_answer": "Besitzer",
+    "wrong_answers": [
+      "Mieter",
+      "Vermieter",
+      "Kunde",
+      "Verkäufer"
+    ],
+    "explanation_en": "'Besitzer' (der Besitzer, plural: die Besitzer) means 'owner'."
+  },
+  {
+    "exercise_id": "ex_noun_rechtsstreit_001",
+    "word_id": "noun_rechtsstreit",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Rechtsstreit",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the legal dispute / lawsuit",
+    "wrong_answers": [
+      "the law firm",
+      "the verdict",
+      "the crime",
+      "the contract"
+    ],
+    "explanation_en": "'Rechtsstreit' means 'legal dispute / lawsuit'. It takes the article 'der' (masculine). das Recht + der Streit. Related: der Rechtsanwalt (lawyer), das Gericht (court), klagen (to sue)."
+  },
+  {
+    "exercise_id": "ex_noun_rechtsstreit_002",
+    "word_id": "noun_rechtsstreit",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ zwischen den Firmen dauert schon drei Jahre.",
+      "en": "The legal dispute between the companies has been going on for three years."
+    },
+    "correct_answer": "Rechtsstreit",
+    "wrong_answers": [
+      "Rechtsanwalt",
+      "Urteil",
+      "Vertrag",
+      "Verbrechen"
+    ],
+    "explanation_en": "'Rechtsstreit' (der Rechtsstreit, plural: die Rechtsstreite) means 'legal dispute / lawsuit'."
+  },
+  {
+    "exercise_id": "ex_noun_rechtsstreit_003",
+    "word_id": "noun_rechtsstreit",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie gewann den _____ um das Grundstück.",
+      "en": "She won the lawsuit over the property."
+    },
+    "correct_answer": "Rechtsstreit",
+    "wrong_answers": [
+      "Rechtsanwalt",
+      "Urteil",
+      "Vertrag",
+      "Verbrechen"
+    ],
+    "explanation_en": "'Rechtsstreit' (der Rechtsstreit, plural: die Rechtsstreite) means 'legal dispute / lawsuit'."
+  },
+  {
+    "exercise_id": "ex_noun_absicht_001",
+    "word_id": "noun_absicht",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Absicht",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the intention",
+    "wrong_answers": [
+      "the accident",
+      "the opinion",
+      "the view",
+      "the excuse"
+    ],
+    "explanation_en": "'Absicht' means 'intention'. It takes the article 'die' (feminine). Key phrases: mit Absicht = on purpose; ohne Absicht = unintentionally. Watch the -sicht family: Ansicht, Aussicht, Einsicht."
+  },
+  {
+    "exercise_id": "ex_noun_absicht_002",
+    "word_id": "noun_absicht",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das war keine _____ — es tut mir leid!",
+      "en": "That wasn't intentional — I'm sorry!"
+    },
+    "correct_answer": "Absicht",
+    "wrong_answers": [
+      "Ansicht",
+      "Aussicht",
+      "Ausrede",
+      "Ahnung"
+    ],
+    "explanation_en": "'Absicht' (die Absicht, plural: die Absichten) means 'intention'."
+  },
+  {
+    "exercise_id": "ex_noun_absicht_003",
+    "word_id": "noun_absicht",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er hat die _____, im Ausland zu studieren.",
+      "en": "He intends to study abroad."
+    },
+    "correct_answer": "Absicht",
+    "wrong_answers": [
+      "Ansicht",
+      "Aussicht",
+      "Ausrede",
+      "Ahnung"
+    ],
+    "explanation_en": "'Absicht' (die Absicht, plural: die Absichten) means 'intention'."
+  },
+  {
+    "exercise_id": "ex_noun_hürde_001",
+    "word_id": "noun_hürde",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Hürde",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the hurdle / obstacle",
+    "wrong_answers": [
+      "the ladder",
+      "the barrier tape",
+      "the step",
+      "the finish line"
+    ],
+    "explanation_en": "'Hürde' means 'hurdle / obstacle'. It takes the article 'die' (feminine). Sports and figurative: bürokratische Hürden. Near-synonym of das Hindernis, but Hürde implies something you can clear."
+  },
+  {
+    "exercise_id": "ex_noun_hürde_002",
+    "word_id": "noun_hürde",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Sprache ist die größte _____ für viele Einwanderer.",
+      "en": "The language is the biggest hurdle for many immigrants."
+    },
+    "correct_answer": "Hürde",
+    "wrong_answers": [
+      "Hindernis",
+      "Grenze",
+      "Mauer",
+      "Stufe"
+    ],
+    "explanation_en": "'Hürde' (die Hürde, plural: die Hürden) means 'hurdle / obstacle'."
+  },
+  {
+    "exercise_id": "ex_noun_hürde_003",
+    "word_id": "noun_hürde",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Läufer sprang elegant über jede _____.",
+      "en": "The runner jumped elegantly over every hurdle."
+    },
+    "correct_answer": "Hürde",
+    "wrong_answers": [
+      "Hindernis",
+      "Grenze",
+      "Mauer",
+      "Stufe"
+    ],
+    "explanation_en": "'Hürde' (die Hürde, plural: die Hürden) means 'hurdle / obstacle'."
+  },
+  {
+    "exercise_id": "ex_noun_hindernis_001",
+    "word_id": "noun_hindernis",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Hindernis",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the obstacle",
+    "wrong_answers": [
+      "the shortcut",
+      "the detour",
+      "the destination",
+      "the warning sign"
+    ],
+    "explanation_en": "'Hindernis' means 'obstacle'. It takes the article 'das' (neuter). From hindern (to hinder). Compare die Hürde: a Hürde can be cleared, a Hindernis blocks the way."
+  },
+  {
+    "exercise_id": "ex_noun_hindernis_002",
+    "word_id": "noun_hindernis",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ein umgestürzter Baum war das erste _____ auf dem Weg.",
+      "en": "A fallen tree was the first obstacle on the path."
+    },
+    "correct_answer": "Hindernis",
+    "wrong_answers": [
+      "Hürde",
+      "Umweg",
+      "Ziel",
+      "Zeichen"
+    ],
+    "explanation_en": "'Hindernis' (das Hindernis, plural: die Hindernisse) means 'obstacle'."
+  },
+  {
+    "exercise_id": "ex_noun_hindernis_003",
+    "word_id": "noun_hindernis",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Fehlendes Geld ist kein _____ für gute Ideen.",
+      "en": "A lack of money is no obstacle to good ideas."
+    },
+    "correct_answer": "Hindernis",
+    "wrong_answers": [
+      "Hürde",
+      "Umweg",
+      "Ziel",
+      "Zeichen"
+    ],
+    "explanation_en": "'Hindernis' (das Hindernis, plural: die Hindernisse) means 'obstacle'."
+  },
+  {
+    "exercise_id": "ex_noun_schrittgeschwindigkeit_001",
+    "word_id": "noun_schrittgeschwindigkeit",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Schrittgeschwindigkeit",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the walking pace / walking speed",
+    "wrong_answers": [
+      "the speed limit",
+      "the top speed",
+      "the average speed",
+      "the acceleration"
+    ],
+    "explanation_en": "'Schrittgeschwindigkeit' means 'walking pace / walking speed'. It takes the article 'die' (feminine). der Schritt (step) + die Geschwindigkeit (speed). Traffic sign vocabulary: ca. 4–7 km/h."
+  },
+  {
+    "exercise_id": "ex_noun_schrittgeschwindigkeit_002",
+    "word_id": "noun_schrittgeschwindigkeit",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "In der Spielstraße gilt _____.",
+      "en": "In the play street, walking pace applies."
+    },
+    "correct_answer": "Schrittgeschwindigkeit",
+    "wrong_answers": [
+      "Höchstgeschwindigkeit",
+      "Beschleunigung",
+      "Entfernung",
+      "Verspätung"
+    ],
+    "explanation_en": "'Schrittgeschwindigkeit' (die Schrittgeschwindigkeit, no plural) means 'walking pace / walking speed'."
+  },
+  {
+    "exercise_id": "ex_noun_schrittgeschwindigkeit_003",
+    "word_id": "noun_schrittgeschwindigkeit",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Autos kriechen im Stau mit _____ voran.",
+      "en": "The cars creep forward at walking pace in the traffic jam."
+    },
+    "correct_answer": "Schrittgeschwindigkeit",
+    "wrong_answers": [
+      "Höchstgeschwindigkeit",
+      "Beschleunigung",
+      "Entfernung",
+      "Verspätung"
+    ],
+    "explanation_en": "'Schrittgeschwindigkeit' (die Schrittgeschwindigkeit, no plural) means 'walking pace / walking speed'."
+  },
+  {
+    "exercise_id": "ex_noun_wahnsinn_001",
+    "word_id": "noun_wahnsinn",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Wahnsinn",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the madness / insanity; (colloquial) awesome",
+    "wrong_answers": [
+      "the wisdom",
+      "the anger",
+      "the nonsense",
+      "the fun"
+    ],
+    "explanation_en": "'Wahnsinn' means 'madness / insanity; (colloquial) awesome'. It takes the article 'der' (masculine). Literal madness, but extremely common as an exclamation: Wahnsinn! = Wow! Adjective: wahnsinnig (insanely — wahnsinnig gut)."
+  },
+  {
+    "exercise_id": "ex_noun_wahnsinn_002",
+    "word_id": "noun_wahnsinn",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Es wäre _____, bei diesem Sturm zu segeln.",
+      "en": "It would be madness to sail in this storm."
+    },
+    "correct_answer": "Wahnsinn",
+    "wrong_answers": [
+      "Unsinn",
+      "Blödsinn",
+      "Zorn",
+      "Quatsch"
+    ],
+    "explanation_en": "'Wahnsinn' (der Wahnsinn, no plural) means 'madness / insanity; (colloquial) awesome'."
+  },
+  {
+    "exercise_id": "ex_noun_wahnsinn_003",
+    "word_id": "noun_wahnsinn",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Du hast den Marathon geschafft? _____!",
+      "en": "You finished the marathon? Awesome!"
+    },
+    "correct_answer": "Wahnsinn",
+    "wrong_answers": [
+      "Unsinn",
+      "Blödsinn",
+      "Zorn",
+      "Quatsch"
+    ],
+    "explanation_en": "'Wahnsinn' (der Wahnsinn, no plural) means 'madness / insanity; (colloquial) awesome'."
+  },
+  {
+    "exercise_id": "ex_noun_unzufriedenheit_001",
+    "word_id": "noun_unzufriedenheit",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Unzufriedenheit",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the dissatisfaction",
+    "wrong_answers": [
+      "the satisfaction",
+      "the tiredness",
+      "the impatience",
+      "the boredom"
+    ],
+    "explanation_en": "'Unzufriedenheit' means 'dissatisfaction'. It takes the article 'die' (feminine). un- + zufrieden + -heit. Pattern: Unzufriedenheit mit + Dativ = dissatisfaction with."
+  },
+  {
+    "exercise_id": "ex_noun_unzufriedenheit_002",
+    "word_id": "noun_unzufriedenheit",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ der Mitarbeiter wächst seit Monaten.",
+      "en": "The employees' dissatisfaction has been growing for months."
+    },
+    "correct_answer": "Unzufriedenheit",
+    "wrong_answers": [
+      "Zufriedenheit",
+      "Müdigkeit",
+      "Ungeduld",
+      "Langeweile"
+    ],
+    "explanation_en": "'Unzufriedenheit' (die Unzufriedenheit, no plural) means 'dissatisfaction'."
+  },
+  {
+    "exercise_id": "ex_noun_unzufriedenheit_003",
+    "word_id": "noun_unzufriedenheit",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Aus _____ mit dem Service wechselte sie die Bank.",
+      "en": "Out of dissatisfaction with the service, she changed banks."
+    },
+    "correct_answer": "Unzufriedenheit",
+    "wrong_answers": [
+      "Zufriedenheit",
+      "Müdigkeit",
+      "Ungeduld",
+      "Langeweile"
+    ],
+    "explanation_en": "'Unzufriedenheit' (die Unzufriedenheit, no plural) means 'dissatisfaction'."
+  },
+  {
+    "exercise_id": "ex_noun_mittelstreifen_001",
+    "word_id": "noun_mittelstreifen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Mittelstreifen",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the median strip / central reservation",
+    "wrong_answers": [
+      "the hard shoulder",
+      "the crosswalk",
+      "the bike lane",
+      "the roundabout"
+    ],
+    "explanation_en": "'Mittelstreifen' means 'median strip / central reservation'. It takes the article 'der' (masculine). die Mitte + der Streifen (strip). Traffic family: der Seitenstreifen (hard shoulder), der Zebrastreifen (crosswalk)."
+  },
+  {
+    "exercise_id": "ex_noun_mittelstreifen_002",
+    "word_id": "noun_mittelstreifen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Auto blieb auf dem _____ der Autobahn stehen.",
+      "en": "The car came to a stop on the median strip of the motorway."
+    },
+    "correct_answer": "Mittelstreifen",
+    "wrong_answers": [
+      "Seitenstreifen",
+      "Zebrastreifen",
+      "Radweg",
+      "Gehweg"
+    ],
+    "explanation_en": "'Mittelstreifen' (der Mittelstreifen, plural: die Mittelstreifen) means 'median strip / central reservation'."
+  },
+  {
+    "exercise_id": "ex_noun_mittelstreifen_003",
+    "word_id": "noun_mittelstreifen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Auf dem _____ wachsen Büsche und Gras.",
+      "en": "Bushes and grass grow on the central reservation."
+    },
+    "correct_answer": "Mittelstreifen",
+    "wrong_answers": [
+      "Seitenstreifen",
+      "Zebrastreifen",
+      "Radweg",
+      "Gehweg"
+    ],
+    "explanation_en": "'Mittelstreifen' (der Mittelstreifen, plural: die Mittelstreifen) means 'median strip / central reservation'."
+  },
+  {
+    "exercise_id": "ex_noun_betreuer_001",
+    "word_id": "noun_betreuer",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Betreuer",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the carer / supervisor / counsellor",
+    "wrong_answers": [
+      "the operator",
+      "the owner",
+      "the observer",
+      "the translator"
+    ],
+    "explanation_en": "'Betreuer' means 'carer / supervisor / counsellor'. It takes the article 'der' (masculine). From betreuen (to look after). Contexts: Kinderbetreuer, Doktorvater/Betreuer (thesis supervisor), rechtlicher Betreuer (legal guardian)."
+  },
+  {
+    "exercise_id": "ex_noun_betreuer_002",
+    "word_id": "noun_betreuer",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ hilft den Kindern bei den Hausaufgaben.",
+      "en": "The supervisor helps the children with their homework."
+    },
+    "correct_answer": "Betreuer",
+    "wrong_answers": [
+      "Berater",
+      "Begleiter",
+      "Vertreter",
+      "Vermieter"
+    ],
+    "explanation_en": "'Betreuer' (der Betreuer, plural: die Betreuer) means 'carer / supervisor / counsellor'."
+  },
+  {
+    "exercise_id": "ex_noun_betreuer_003",
+    "word_id": "noun_betreuer",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Jeder Student bekommt einen persönlichen _____.",
+      "en": "Every student gets a personal advisor."
+    },
+    "correct_answer": "Betreuer",
+    "wrong_answers": [
+      "Berater",
+      "Begleiter",
+      "Vertreter",
+      "Vermieter"
+    ],
+    "explanation_en": "'Betreuer' (der Betreuer, plural: die Betreuer) means 'carer / supervisor / counsellor'."
+  },
+  {
+    "exercise_id": "ex_noun_stimmung_001",
+    "word_id": "noun_stimmung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Stimmung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the mood / atmosphere",
+    "wrong_answers": [
+      "the voice",
+      "the opinion poll",
+      "the noise",
+      "the feeling of guilt"
+    ],
+    "explanation_en": "'Stimmung' means 'mood / atmosphere'. It takes the article 'die' (feminine). From die Stimme (voice). gute/schlechte Stimmung; Stimmung machen = to get the crowd going. Compare: die Laune (personal mood)."
+  },
+  {
+    "exercise_id": "ex_noun_stimmung_002",
+    "word_id": "noun_stimmung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Heute bin ich nicht in _____ zum Feiern.",
+      "en": "Today I'm not in the mood for celebrating."
+    },
+    "correct_answer": "Stimmung",
+    "wrong_answers": [
+      "Stimme",
+      "Meinung",
+      "Laune",
+      "Atmosphäre"
+    ],
+    "explanation_en": "'Stimmung' (die Stimmung, plural: die Stimmungen) means 'mood / atmosphere'."
+  },
+  {
+    "exercise_id": "ex_noun_stimmung_003",
+    "word_id": "noun_stimmung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Auf der Party herrschte eine tolle _____.",
+      "en": "There was a great atmosphere at the party."
+    },
+    "correct_answer": "Stimmung",
+    "wrong_answers": [
+      "Stimme",
+      "Meinung",
+      "Laune",
+      "Atmosphäre"
+    ],
+    "explanation_en": "'Stimmung' (die Stimmung, plural: die Stimmungen) means 'mood / atmosphere'."
+  },
+  {
+    "exercise_id": "ex_noun_erlebnis_001",
+    "word_id": "noun_erlebnis",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "das Erlebnis",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the experience (single event)",
+    "wrong_answers": [
+      "the experience (accumulated knowledge)",
+      "the memory",
+      "the adventure park",
+      "the dream"
+    ],
+    "explanation_en": "'Erlebnis' means 'experience (single event)'. It takes the article 'das' (neuter). KEY CONTRAST: das Erlebnis = one memorable event you lived through; die Erfahrung = knowledge accumulated over time. Ein Bungee-Sprung ist ein Erlebnis; zehn Jahre Berufserfahrung ist Erfahrung."
+  },
+  {
+    "exercise_id": "ex_noun_erlebnis_002",
+    "word_id": "noun_erlebnis",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Ballonfahrt war ein unvergessliches _____.",
+      "en": "The balloon ride was an unforgettable experience."
+    },
+    "correct_answer": "Erlebnis",
+    "wrong_answers": [
+      "Ereignis",
+      "Ergebnis",
+      "Erlaubnis",
+      "Gedächtnis"
+    ],
+    "explanation_en": "'Erlebnis' (das Erlebnis, plural: die Erlebnisse) means 'experience (single event)'."
+  },
+  {
+    "exercise_id": "ex_noun_erlebnis_003",
+    "word_id": "noun_erlebnis",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Erzähl mir von deinen _____ in Japan!",
+      "en": "Tell me about your experiences in Japan!"
+    },
+    "correct_answer": "Erlebnis",
+    "wrong_answers": [
+      "Ereignis",
+      "Ergebnis",
+      "Erlaubnis",
+      "Gedächtnis"
+    ],
+    "explanation_en": "'Erlebnis' (das Erlebnis, plural: die Erlebnisse) means 'experience (single event)'."
+  },
+  {
+    "exercise_id": "ex_noun_ratschlag_001",
+    "word_id": "noun_ratschlag",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Ratschlag",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the piece of advice",
+    "wrong_answers": [
+      "the order",
+      "the question",
+      "the opinion",
+      "the criticism"
+    ],
+    "explanation_en": "'Ratschlag' means 'piece of advice'. It takes the article 'der' (masculine). der Rat + der Schlag. Ratschläge geben/befolgen. Compare: der Vorschlag (suggestion), der Hinweis (hint)."
+  },
+  {
+    "exercise_id": "ex_noun_ratschlag_002",
+    "word_id": "noun_ratschlag",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Darf ich dir einen _____ geben?",
+      "en": "May I give you a piece of advice?"
+    },
+    "correct_answer": "Ratschlag",
+    "wrong_answers": [
+      "Vorschlag",
+      "Auftrag",
+      "Befehl",
+      "Hinweis"
+    ],
+    "explanation_en": "'Ratschlag' (der Ratschlag, plural: die Ratschläge) means 'piece of advice'."
+  },
+  {
+    "exercise_id": "ex_noun_ratschlag_003",
+    "word_id": "noun_ratschlag",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich habe seine _____ leider nicht befolgt.",
+      "en": "Unfortunately, I didn't follow his advice."
+    },
+    "correct_answer": "Ratschlag",
+    "wrong_answers": [
+      "Vorschlag",
+      "Auftrag",
+      "Befehl",
+      "Hinweis"
+    ],
+    "explanation_en": "'Ratschlag' (der Ratschlag, plural: die Ratschläge) means 'piece of advice'."
   }
 ]

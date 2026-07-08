@@ -1,0 +1,3050 @@
+[
+  {
+    "id": "adv_immer",
+    "word": "immer",
+    "english": "always",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich komme immer zu spät.",
+        "en": "I'm always late.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_oft",
+    "word": "oft",
+    "english": "often",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Wir gehen oft spazieren.",
+        "en": "We often go for walks.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_haeufig",
+    "word": "häufig",
+    "english": "frequently",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Er reist häufig beruflich.",
+        "en": "He travels frequently for work.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_manchmal",
+    "word": "manchmal",
+    "english": "sometimes",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Manchmal brauche ich Ruhe.",
+        "en": "Sometimes I need quiet.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_gelegentlich",
+    "word": "gelegentlich",
+    "english": "occasionally",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Wir treffen uns gelegentlich.",
+        "en": "We meet occasionally.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_selten",
+    "word": "selten",
+    "english": "rarely",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich esse selten Fleisch.",
+        "en": "I rarely eat meat.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_nie",
+    "word": "nie",
+    "english": "never",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich trinke nie Kaffee.",
+        "en": "I never drink coffee.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_niemals",
+    "word": "niemals",
+    "english": "never (emphatic)",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das werde ich niemals tun.",
+        "en": "I will never do that.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_staendig",
+    "word": "ständig",
+    "english": "constantly",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Mein Handy klingelt ständig.",
+        "en": "My phone keeps ringing constantly.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_dauernd",
+    "word": "dauernd",
+    "english": "all the time",
+    "category": "Frequency & Time",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Er beschwert sich dauernd.",
+        "en": "He complains all the time.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_meistens",
+    "word": "meistens",
+    "english": "usually / mostly",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ich arbeite meistens von zu Hause.",
+        "en": "I usually work from home.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_normalerweise",
+    "word": "normalerweise",
+    "english": "normally",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Normalerweise bin ich pünktlich.",
+        "en": "Normally I'm punctual.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_inzwischen",
+    "word": "inzwischen",
+    "english": "by now / meanwhile",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Inzwischen wohnt sie in Berlin.",
+        "en": "By now she lives in Berlin.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_schon",
+    "word": "schon",
+    "english": "already",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich habe schon gegessen.",
+        "en": "I already ate.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_noch",
+    "word": "noch",
+    "english": "still",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Bist du noch hier?",
+        "en": "Are you still here?",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_nicht_mehr",
+    "word": "nicht mehr",
+    "english": "not anymore",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ich rauche nicht mehr.",
+        "en": "I don't smoke anymore.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_gerade",
+    "word": "gerade",
+    "english": "right now / just",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich arbeite gerade.",
+        "en": "I'm working right now.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_vorhin",
+    "word": "vorhin",
+    "english": "earlier / a moment ago",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ich habe ihn vorhin gesehen.",
+        "en": "I saw him earlier.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_neulich",
+    "word": "neulich",
+    "english": "recently",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Wir haben uns neulich getroffen.",
+        "en": "We met recently.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_bald",
+    "word": "bald",
+    "english": "soon",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich komme bald zurück.",
+        "en": "I'll be back soon.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_spaeter",
+    "word": "später",
+    "english": "later",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Wir reden später.",
+        "en": "We'll talk later.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_frueher",
+    "word": "früher",
+    "english": "earlier / in the past",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Früher war alles billiger.",
+        "en": "Things used to be cheaper.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_sofort",
+    "word": "sofort",
+    "english": "immediately",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Mach das sofort.",
+        "en": "Do that immediately.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_gleich",
+    "word": "gleich",
+    "english": "in a moment / right away",
+    "category": "Frequency & Time",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich komme gleich.",
+        "en": "I'll be there in a moment.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_ab_und_zu",
+    "word": "ab und zu",
+    "english": "now and then",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ab und zu gehe ich ins Kino.",
+        "en": "Now and then I go to the cinema.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_von_zeit_zu_zeit",
+    "word": "von Zeit zu Zeit",
+    "english": "from time to time",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Von Zeit zu Zeit besuche ich meine Eltern.",
+        "en": "From time to time I visit my parents.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_regelmaessig",
+    "word": "regelmäßig",
+    "english": "regularly",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ich laufe regelmäßig.",
+        "en": "I run regularly.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_taeglich",
+    "word": "täglich",
+    "english": "daily / every day",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich lerne täglich Deutsch.",
+        "en": "I study German every day.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_woechentlich",
+    "word": "wöchentlich",
+    "english": "weekly",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Wir haben wöchentlich ein Meeting.",
+        "en": "We have a meeting weekly.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_kaum",
+    "word": "kaum",
+    "english": "hardly / barely",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ich kenne ihn kaum.",
+        "en": "I barely know him.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_ausserdem",
+    "word": "außerdem",
+    "english": "besides / additionally",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Außerdem ist es günstiger.",
+        "en": "Besides, it's cheaper.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_zusaetzlich",
+    "word": "zusätzlich",
+    "english": "in addition",
+    "category": "Connectors",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Zusätzlich brauchen wir Wasser.",
+        "en": "In addition, we need water.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_darueber_hinaus",
+    "word": "darüber hinaus",
+    "english": "beyond that / furthermore",
+    "category": "Connectors",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Darüber hinaus gibt es Risiken.",
+        "en": "Beyond that, there are risks.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_zudem",
+    "word": "zudem",
+    "english": "moreover",
+    "category": "Connectors",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Zudem war er krank.",
+        "en": "Moreover, he was sick.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_danach",
+    "word": "danach",
+    "english": "afterwards / after that",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Danach gehen wir essen.",
+        "en": "Afterwards we'll eat.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_dann",
+    "word": "dann",
+    "english": "then",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Dann machen wir weiter.",
+        "en": "Then we continue.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_zuerst",
+    "word": "zuerst",
+    "english": "first",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Zuerst musst du bezahlen.",
+        "en": "First you must pay.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_erstens",
+    "word": "erstens",
+    "english": "firstly / first of all",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Erstens haben wir keine Zeit.",
+        "en": "First of all, we have no time.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_zweitens",
+    "word": "zweitens",
+    "english": "secondly",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Zweitens ist es zu teuer.",
+        "en": "Secondly, it's too expensive.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_drittens",
+    "word": "drittens",
+    "english": "thirdly",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Drittens fehlt uns Personal.",
+        "en": "Thirdly, we lack staff.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_schliesslich",
+    "word": "schließlich",
+    "english": "eventually / after all",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Schließlich haben wir zugestimmt.",
+        "en": "Eventually we agreed.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_deshalb",
+    "word": "deshalb",
+    "english": "therefore / that's why",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Es regnet, deshalb bleiben wir hier.",
+        "en": "It's raining, so we're staying.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_deswegen",
+    "word": "deswegen",
+    "english": "that's why / because of that",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ich bin müde, deswegen gehe ich heim.",
+        "en": "I'm tired, that's why I'm going home.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_daher",
+    "word": "daher",
+    "english": "for that reason / hence",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Daher kommt das Problem.",
+        "en": "That's where the problem comes from.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_darum",
+    "word": "darum",
+    "english": "for that reason / that's why",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Darum geht es nicht.",
+        "en": "That's not the point.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_dadurch",
+    "word": "dadurch",
+    "english": "through that / because of that",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Dadurch wurde alles einfacher.",
+        "en": "That made everything easier.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_trotzdem",
+    "word": "trotzdem",
+    "english": "nevertheless / still",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Es war kalt, trotzdem sind wir gegangen.",
+        "en": "It was cold, but we went anyway.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_allerdings",
+    "word": "allerdings",
+    "english": "however / though",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das ist allerdings schwierig.",
+        "en": "That is however difficult.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_andererseits",
+    "word": "andererseits",
+    "english": "on the other hand",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Andererseits verstehe ich ihn.",
+        "en": "On the other hand, I understand him.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_dennoch",
+    "word": "dennoch",
+    "english": "nonetheless / yet",
+    "category": "Connectors",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Dennoch hat es funktioniert.",
+        "en": "Nonetheless it worked.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_tatsaechlich",
+    "word": "tatsächlich",
+    "english": "actually / in fact",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Tatsächlich hatte sie recht.",
+        "en": "In fact she was right.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_jedenfalls",
+    "word": "jedenfalls",
+    "english": "anyway / at any rate",
+    "category": "Connectors",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Jedenfalls müssen wir los.",
+        "en": "Anyway, we need to go.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_uebrigens",
+    "word": "übrigens",
+    "english": "by the way",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Übrigens habe ich Anna gesehen.",
+        "en": "By the way, I saw Anna.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_naemlich",
+    "word": "nämlich",
+    "english": "namely / because (explanatory)",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ich bleibe zu Hause, ich bin nämlich krank.",
+        "en": "I'm staying home — I'm sick, you see.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_einerseits",
+    "word": "einerseits",
+    "english": "on one hand",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Einerseits ist es praktisch.",
+        "en": "On one hand, it's practical.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_vielleicht",
+    "word": "vielleicht",
+    "english": "maybe / perhaps",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Vielleicht kommt er später.",
+        "en": "Maybe he'll come later.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_wahrscheinlich",
+    "word": "wahrscheinlich",
+    "english": "probably",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Sie kommt wahrscheinlich morgen.",
+        "en": "She'll probably come tomorrow.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_sicherlich",
+    "word": "sicherlich",
+    "english": "certainly / surely",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das ist sicherlich möglich.",
+        "en": "That's certainly possible.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_bestimmt",
+    "word": "bestimmt",
+    "english": "definitely / for sure",
+    "category": "Certainty & Probability",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das klappt bestimmt.",
+        "en": "That'll definitely work.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_definitiv",
+    "word": "definitiv",
+    "english": "definitely",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das ist definitiv besser.",
+        "en": "That is definitely better.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_eventuell",
+    "word": "eventuell",
+    "english": "possibly / perhaps",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Eventuell bleiben wir länger.",
+        "en": "We might stay longer.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_voraussichtlich",
+    "word": "voraussichtlich",
+    "english": "as expected / likely",
+    "category": "Certainty & Probability",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Der Zug kommt voraussichtlich pünktlich.",
+        "en": "The train is expected to arrive on time.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_anscheinend",
+    "word": "anscheinend",
+    "english": "apparently / it seems",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Anscheinend wusste er Bescheid.",
+        "en": "Apparently he knew about it.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_offenbar",
+    "word": "offenbar",
+    "english": "apparently / obviously",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Offenbar gab es ein Problem.",
+        "en": "Apparently there was a problem.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_angeblich",
+    "word": "angeblich",
+    "english": "supposedly / allegedly",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Angeblich war er krank.",
+        "en": "Supposedly he was sick.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_unwahrscheinlich",
+    "word": "unwahrscheinlich",
+    "english": "unlikely",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das ist eher unwahrscheinlich.",
+        "en": "That's rather unlikely.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_natuerlich",
+    "word": "natürlich",
+    "english": "of course / naturally",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Natürlich helfe ich dir.",
+        "en": "Of course I'll help you.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_ehrlich_gesagt",
+    "word": "ehrlich gesagt",
+    "english": "honestly / to be honest",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ehrlich gesagt verstehe ich das nicht.",
+        "en": "Honestly, I don't understand that.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_auf_jeden_fall",
+    "word": "auf jeden Fall",
+    "english": "definitely / in any case",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das mache ich auf jeden Fall.",
+        "en": "I will definitely do that.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_eigentlich",
+    "word": "eigentlich",
+    "english": "actually / in theory",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Eigentlich sollte er hier sein.",
+        "en": "He should actually be here.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_moeglicherweise",
+    "word": "möglicherweise",
+    "english": "possibly",
+    "category": "Certainty & Probability",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Möglicherweise hat er die E-Mail nicht gesehen.",
+        "en": "He possibly didn't see the email.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "certainty_probability",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_gar",
+    "word": "gar",
+    "english": "at all / not at all (with negation)",
+    "category": "Modal Particles",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das geht gar nicht.",
+        "en": "That's completely unacceptable.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "modal_particles",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_also",
+    "word": "also",
+    "english": "so / well then",
+    "category": "Fillers & Conversation Flow",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Also, was machen wir jetzt?",
+        "en": "So, what are we doing now?",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "fillers_conversation_flow",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_sozusagen",
+    "word": "sozusagen",
+    "english": "so to speak / as it were",
+    "category": "Fillers & Conversation Flow",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Er ist sozusagen der Chef.",
+        "en": "He's basically the boss.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "fillers_conversation_flow",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_im_grunde",
+    "word": "im Grunde",
+    "english": "basically / at the core",
+    "category": "Fillers & Conversation Flow",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Im Grunde hat sie recht.",
+        "en": "Basically she's right.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "fillers_conversation_flow",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_im_grunde_genommen",
+    "word": "im Grunde genommen",
+    "english": "basically / all things considered",
+    "category": "Fillers & Conversation Flow",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Im Grunde genommen war es eine gute Idee.",
+        "en": "All things considered, it was a good idea.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "fillers_conversation_flow",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_jedenfalls_2",
+    "word": "jedenfalls",
+    "english": "anyway / regardless",
+    "category": "Fillers & Conversation Flow",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Jedenfalls war es interessant.",
+        "en": "Anyway, it was interesting.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "fillers_conversation_flow",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_sehr",
+    "word": "sehr",
+    "english": "very",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Das ist sehr wichtig.",
+        "en": "That is very important.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_wirklich",
+    "word": "wirklich",
+    "english": "really / truly",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Das ist wirklich gut.",
+        "en": "That is really good.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_total",
+    "word": "total",
+    "english": "totally / completely",
+    "category": "Intensifiers",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ich bin total müde.",
+        "en": "I'm totally tired.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_extrem",
+    "word": "extrem",
+    "english": "extremely",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das war extrem teuer.",
+        "en": "That was extremely expensive.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_ziemlich",
+    "word": "ziemlich",
+    "english": "quite / fairly / pretty",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das ist ziemlich schwer.",
+        "en": "That is quite difficult.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_absolut",
+    "word": "absolut",
+    "english": "absolutely",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das ist absolut richtig.",
+        "en": "That is absolutely correct.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_unglaublich",
+    "word": "unglaublich",
+    "english": "incredibly / unbelievably",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das war unglaublich schnell.",
+        "en": "That was incredibly fast.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_echt",
+    "word": "echt",
+    "english": "really / genuinely",
+    "category": "Intensifiers",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das ist echt interessant.",
+        "en": "That's really interesting.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_voll",
+    "word": "voll",
+    "english": "totally / completely (slang)",
+    "category": "Intensifiers",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das ist voll cool.",
+        "en": "That's totally cool.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_besonders",
+    "word": "besonders",
+    "english": "especially / particularly",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das gefällt mir besonders.",
+        "en": "I especially like that.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_so",
+    "word": "so",
+    "english": "so (intensifier)",
+    "category": "Intensifiers",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Das war so schön!",
+        "en": "That was so beautiful!",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_mega",
+    "word": "mega",
+    "english": "mega / super (slang)",
+    "category": "Intensifiers",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das ist mega lecker.",
+        "en": "That is super delicious.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_wahnsinnig",
+    "word": "wahnsinnig",
+    "english": "incredibly / insanely",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das hat wahnsinnig viel Spaß gemacht.",
+        "en": "That was incredibly fun.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_kaum_2",
+    "word": "kaum",
+    "english": "barely / hardly (downscaler)",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das ist kaum zu glauben.",
+        "en": "That is barely believable.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "intensifiers",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_deswegen_2",
+    "word": "deswegen",
+    "english": "that's why / because of that",
+    "category": "Cause & Effect",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ich hatte keine Zeit, deswegen war ich spät.",
+        "en": "I had no time, that's why I was late.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "cause_effect",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_dadurch_2",
+    "word": "dadurch",
+    "english": "through that / as a result",
+    "category": "Cause & Effect",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Dadurch wurde alles einfacher.",
+        "en": "That made everything easier.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "cause_effect",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_somit",
+    "word": "somit",
+    "english": "thus / therefore",
+    "category": "Cause & Effect",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Somit ist das Problem gelöst.",
+        "en": "Thus the problem is solved.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "cause_effect",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_infolgedessen",
+    "word": "infolgedessen",
+    "english": "as a result / consequently",
+    "category": "Cause & Effect",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Infolgedessen wurde das Projekt gestoppt.",
+        "en": "As a result the project was stopped.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "cause_effect",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_deshalb_2",
+    "word": "deshalb",
+    "english": "therefore / that's why",
+    "category": "Cause & Effect",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Es war spät, deshalb gingen wir.",
+        "en": "It was late, therefore we left.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "cause_effect",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_daher_2",
+    "word": "daher",
+    "english": "hence / for that reason",
+    "category": "Cause & Effect",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Er hat nicht gelernt, daher hat er die Prüfung nicht bestanden.",
+        "en": "He didn't study, hence he failed the exam.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "cause_effect",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_folglich",
+    "word": "folglich",
+    "english": "consequently / as a result",
+    "category": "Cause & Effect",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Er hat gelogen, folglich vertraue ich ihm nicht mehr.",
+        "en": "He lied, consequently I no longer trust him.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "cause_effect",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_genau",
+    "word": "genau",
+    "english": "exactly / precisely",
+    "category": "Agreement & Reaction",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Genau das meine ich.",
+        "en": "That's exactly what I mean.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "agreement_reaction",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_stimmt",
+    "word": "stimmt",
+    "english": "true / right / correct",
+    "category": "Agreement & Reaction",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Stimmt, du hast recht.",
+        "en": "True, you're right.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "agreement_reaction",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_klar",
+    "word": "klar",
+    "english": "sure / obviously / of course",
+    "category": "Agreement & Reaction",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Klar komme ich mit.",
+        "en": "Sure I'll come along.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "agreement_reaction",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_natuerlich_2",
+    "word": "natürlich",
+    "english": "of course / naturally",
+    "category": "Agreement & Reaction",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Natürlich verstehe ich das.",
+        "en": "Of course I understand that.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "agreement_reaction",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_auf_keinen_fall",
+    "word": "auf keinen Fall",
+    "english": "absolutely not / no way",
+    "category": "Agreement & Reaction",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Auf keinen Fall mache ich das.",
+        "en": "There's no way I'm doing that.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "agreement_reaction",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_leider",
+    "word": "leider",
+    "english": "unfortunately",
+    "category": "Agreement & Reaction",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Leider kann ich nicht kommen.",
+        "en": "Unfortunately I can't come.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "agreement_reaction",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_jedoch",
+    "word": "jedoch",
+    "english": "however / yet",
+    "category": "Contrast",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das ist jedoch kompliziert.",
+        "en": "However, that is complicated.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "contrast",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_allerdings_2",
+    "word": "allerdings",
+    "english": "however / though / admittedly",
+    "category": "Contrast",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Allerdings fehlt uns Zeit.",
+        "en": "However, we lack time.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "contrast",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_trotzdem_2",
+    "word": "trotzdem",
+    "english": "nevertheless / even so",
+    "category": "Contrast",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Trotzdem hat er gewonnen.",
+        "en": "Nevertheless he won.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "contrast",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_dennoch_2",
+    "word": "dennoch",
+    "english": "nonetheless / yet",
+    "category": "Contrast",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Dennoch machen wir weiter.",
+        "en": "Nonetheless we continue.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "contrast",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_hingegen",
+    "word": "hingegen",
+    "english": "whereas / on the other hand",
+    "category": "Contrast",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Sie liebt Berge, ich hingegen das Meer.",
+        "en": "She loves mountains, whereas I love the sea.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "contrast",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_stattdessen",
+    "word": "stattdessen",
+    "english": "instead",
+    "category": "Contrast",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Stattdessen blieben wir zu Hause.",
+        "en": "Instead we stayed home.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "contrast",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_im_gegenteil",
+    "word": "im Gegenteil",
+    "english": "on the contrary",
+    "category": "Contrast",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Im Gegenteil, es war wunderbar.",
+        "en": "On the contrary, it was wonderful.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "contrast",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_vielleicht_2",
+    "word": "vielleicht",
+    "english": "maybe / perhaps (softener)",
+    "category": "Politeness & Softeners",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Vielleicht können wir später reden.",
+        "en": "Maybe we can talk later.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "politeness_softeners",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_ein_bisschen",
+    "word": "ein bisschen",
+    "english": "a little / a bit",
+    "category": "Politeness & Softeners",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich bin ein bisschen müde.",
+        "en": "I'm a little tired.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "politeness_softeners",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_irgendwie",
+    "word": "irgendwie",
+    "english": "kind of / somehow",
+    "category": "Politeness & Softeners",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das fühlt sich irgendwie komisch an.",
+        "en": "That feels kind of strange.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "politeness_softeners",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_eventuell_2",
+    "word": "eventuell",
+    "english": "possibly / perhaps (polite hedge)",
+    "category": "Politeness & Softeners",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Eventuell könnten wir verschieben.",
+        "en": "We could possibly postpone.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "politeness_softeners",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_bitte",
+    "word": "bitte",
+    "english": "please",
+    "category": "Politeness & Softeners",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Kannst du das bitte wiederholen?",
+        "en": "Can you please repeat that?",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "politeness_softeners",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_ehrlich_gesagt_2",
+    "word": "ehrlich gesagt",
+    "english": "to be honest",
+    "category": "Sentence Openers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ehrlich gesagt bin ich müde.",
+        "en": "To be honest I'm tired.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "sentence_openers",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_im_allgemeinen",
+    "word": "im Allgemeinen",
+    "english": "generally speaking / in general",
+    "category": "Sentence Openers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Im Allgemeinen mag ich den Winter.",
+        "en": "Generally speaking I like winter.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "sentence_openers",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_grundsaetzlich",
+    "word": "grundsätzlich",
+    "english": "in principle / fundamentally",
+    "category": "Sentence Openers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Grundsätzlich stimme ich zu.",
+        "en": "In principle I agree.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "sentence_openers",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_um_ehrlich_zu_sein",
+    "word": "um ehrlich zu sein",
+    "english": "to be honest",
+    "category": "Sentence Openers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Um ehrlich zu sein, war ich nervös.",
+        "en": "To be honest, I was nervous.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "sentence_openers",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_ehrlicherweise",
+    "word": "ehrlicherweise",
+    "english": "honestly speaking",
+    "category": "Sentence Openers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Ehrlicherweise war das meine Schuld.",
+        "en": "Honestly speaking, that was my fault.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "sentence_openers",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_meiner_meinung_nach",
+    "word": "meiner Meinung nach",
+    "english": "in my opinion",
+    "category": "Sentence Openers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Meiner Meinung nach ist das falsch.",
+        "en": "In my opinion that is wrong.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "sentence_openers",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_kurz_gesagt",
+    "word": "kurz gesagt",
+    "english": "in short / to put it briefly",
+    "category": "Sentence Openers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Kurz gesagt: Es hat nicht funktioniert.",
+        "en": "In short: it didn't work.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "sentence_openers",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_genauer_gesagt",
+    "word": "genauer gesagt",
+    "english": "more precisely / to be exact",
+    "category": "Sentence Openers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Genauer gesagt war es gestern.",
+        "en": "More precisely, it was yesterday.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "sentence_openers",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_soweit_ich_weiss",
+    "word": "soweit ich weiß",
+    "english": "as far as I know",
+    "category": "Sentence Openers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Soweit ich weiß, kommt er morgen.",
+        "en": "As far as I know, he's coming tomorrow.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "sentence_openers",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_was_mich_betrifft",
+    "word": "was mich betrifft",
+    "english": "as far as I'm concerned",
+    "category": "Sentence Openers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Was mich betrifft, bin ich einverstanden.",
+        "en": "As far as I'm concerned, I agree.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "sentence_openers",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_um_das_zu_sagen",
+    "word": "um das zu sagen",
+    "english": "to put it that way",
+    "category": "Sentence Openers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Um das zu sagen: Es war ein Fehler.",
+        "en": "To put it plainly: it was a mistake.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "sentence_openers",
+      "b2"
+    ]
+  }
+]

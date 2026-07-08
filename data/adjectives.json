@@ -11,10 +11,20 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Das Haus ist sehr groß.", "en": "The house is very big." },
-      { "de": "Er ist groß und stark.", "en": "He is tall and strong." }
+      {
+        "de": "Das Haus ist sehr groß.",
+        "en": "The house is very big."
+      },
+      {
+        "de": "Er ist groß und stark.",
+        "en": "He is tall and strong."
+      }
     ],
-    "tags": ["size", "description", "a1"]
+    "tags": [
+      "size",
+      "description",
+      "a1"
+    ]
   },
   {
     "id": "adj_klein",
@@ -28,10 +38,20 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Die Katze ist klein und süß.", "en": "The cat is small and cute." },
-      { "de": "Mein Auto ist kleiner als deins.", "en": "My car is smaller than yours." }
+      {
+        "de": "Die Katze ist klein und süß.",
+        "en": "The cat is small and cute."
+      },
+      {
+        "de": "Mein Auto ist kleiner als deins.",
+        "en": "My car is smaller than yours."
+      }
     ],
-    "tags": ["size", "description", "a1"]
+    "tags": [
+      "size",
+      "description",
+      "a1"
+    ]
   },
   {
     "id": "adj_gut",
@@ -45,10 +65,19 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Das Essen schmeckt gut.", "en": "The food tastes good." },
-      { "de": "Sie ist eine gute Lehrerin.", "en": "She is a good teacher." }
+      {
+        "de": "Das Essen schmeckt gut.",
+        "en": "The food tastes good."
+      },
+      {
+        "de": "Sie ist eine gute Lehrerin.",
+        "en": "She is a good teacher."
+      }
     ],
-    "tags": ["quality", "a1"]
+    "tags": [
+      "quality",
+      "a1"
+    ]
   },
   {
     "id": "adj_schlecht",
@@ -62,10 +91,19 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Das Wetter ist heute schlecht.", "en": "The weather is bad today." },
-      { "de": "Ich fühle mich schlecht.", "en": "I feel bad." }
+      {
+        "de": "Das Wetter ist heute schlecht.",
+        "en": "The weather is bad today."
+      },
+      {
+        "de": "Ich fühle mich schlecht.",
+        "en": "I feel bad."
+      }
     ],
-    "tags": ["quality", "a1"]
+    "tags": [
+      "quality",
+      "a1"
+    ]
   },
   {
     "id": "adj_alt",
@@ -79,10 +117,19 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Das ist ein altes Buch.", "en": "That is an old book." },
-      { "de": "Mein Großvater ist sehr alt.", "en": "My grandfather is very old." }
+      {
+        "de": "Das ist ein altes Buch.",
+        "en": "That is an old book."
+      },
+      {
+        "de": "Mein Großvater ist sehr alt.",
+        "en": "My grandfather is very old."
+      }
     ],
-    "tags": ["age", "a1"]
+    "tags": [
+      "age",
+      "a1"
+    ]
   },
   {
     "id": "adj_neu",
@@ -96,10 +143,19 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Ich habe ein neues Handy.", "en": "I have a new phone." },
-      { "de": "Das Restaurant ist neu.", "en": "The restaurant is new." }
+      {
+        "de": "Ich habe ein neues Handy.",
+        "en": "I have a new phone."
+      },
+      {
+        "de": "Das Restaurant ist neu.",
+        "en": "The restaurant is new."
+      }
     ],
-    "tags": ["age", "a1"]
+    "tags": [
+      "age",
+      "a1"
+    ]
   },
   {
     "id": "adj_jung",
@@ -113,10 +169,19 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Sie ist noch sehr jung.", "en": "She is still very young." },
-      { "de": "Der Hund ist jung und energisch.", "en": "The dog is young and energetic." }
+      {
+        "de": "Sie ist noch sehr jung.",
+        "en": "She is still very young."
+      },
+      {
+        "de": "Der Hund ist jung und energisch.",
+        "en": "The dog is young and energetic."
+      }
     ],
-    "tags": ["age", "a1"]
+    "tags": [
+      "age",
+      "a1"
+    ]
   },
   {
     "id": "adj_lang",
@@ -130,10 +195,19 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Der Weg ist lang.", "en": "The way is long." },
-      { "de": "Sie hat lange Haare.", "en": "She has long hair." }
+      {
+        "de": "Der Weg ist lang.",
+        "en": "The way is long."
+      },
+      {
+        "de": "Sie hat lange Haare.",
+        "en": "She has long hair."
+      }
     ],
-    "tags": ["size", "a1"]
+    "tags": [
+      "size",
+      "a1"
+    ]
   },
   {
     "id": "adj_kurz",
@@ -147,10 +221,19 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Das Gespräch war kurz.", "en": "The conversation was short." },
-      { "de": "Er trägt kurze Haare.", "en": "He wears short hair." }
+      {
+        "de": "Das Gespräch war kurz.",
+        "en": "The conversation was short."
+      },
+      {
+        "de": "Er trägt kurze Haare.",
+        "en": "He wears short hair."
+      }
     ],
-    "tags": ["size", "a1"]
+    "tags": [
+      "size",
+      "a1"
+    ]
   },
   {
     "id": "adj_schon",
@@ -164,10 +247,19 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Das Wetter ist schön heute.", "en": "The weather is nice today." },
-      { "de": "Sie hat ein schönes Lächeln.", "en": "She has a beautiful smile." }
+      {
+        "de": "Das Wetter ist schön heute.",
+        "en": "The weather is nice today."
+      },
+      {
+        "de": "Sie hat ein schönes Lächeln.",
+        "en": "She has a beautiful smile."
+      }
     ],
-    "tags": ["appearance", "a1"]
+    "tags": [
+      "appearance",
+      "a1"
+    ]
   },
   {
     "id": "adj_warm",
@@ -181,10 +273,19 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Das Wasser ist warm.", "en": "The water is warm." },
-      { "de": "Im Sommer ist es warm.", "en": "In summer it is warm." }
+      {
+        "de": "Das Wasser ist warm.",
+        "en": "The water is warm."
+      },
+      {
+        "de": "Im Sommer ist es warm.",
+        "en": "In summer it is warm."
+      }
     ],
-    "tags": ["temperature", "a1"]
+    "tags": [
+      "temperature",
+      "a1"
+    ]
   },
   {
     "id": "adj_kalt",
@@ -198,10 +299,19 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Es ist kalt draußen.", "en": "It is cold outside." },
-      { "de": "Ich trinke gerne kalten Kaffee.", "en": "I like to drink cold coffee." }
+      {
+        "de": "Es ist kalt draußen.",
+        "en": "It is cold outside."
+      },
+      {
+        "de": "Ich trinke gerne kalten Kaffee.",
+        "en": "I like to drink cold coffee."
+      }
     ],
-    "tags": ["temperature", "a1"]
+    "tags": [
+      "temperature",
+      "a1"
+    ]
   },
   {
     "id": "adj_schnell",
@@ -215,10 +325,19 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Das Auto fährt sehr schnell.", "en": "The car goes very fast." },
-      { "de": "Er ist ein schneller Läufer.", "en": "He is a fast runner." }
+      {
+        "de": "Das Auto fährt sehr schnell.",
+        "en": "The car goes very fast."
+      },
+      {
+        "de": "Er ist ein schneller Läufer.",
+        "en": "He is a fast runner."
+      }
     ],
-    "tags": ["speed", "a1"]
+    "tags": [
+      "speed",
+      "a1"
+    ]
   },
   {
     "id": "adj_langsam",
@@ -232,10 +351,19 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Die Schildkröte ist langsam.", "en": "The turtle is slow." },
-      { "de": "Bitte sprich langsamer!", "en": "Please speak more slowly!" }
+      {
+        "de": "Die Schildkröte ist langsam.",
+        "en": "The turtle is slow."
+      },
+      {
+        "de": "Bitte sprich langsamer!",
+        "en": "Please speak more slowly!"
+      }
     ],
-    "tags": ["speed", "a1"]
+    "tags": [
+      "speed",
+      "a1"
+    ]
   },
   {
     "id": "adj_laut",
@@ -249,10 +377,19 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Die Musik ist zu laut.", "en": "The music is too loud." },
-      { "de": "Das Baby schreit laut.", "en": "The baby is crying loudly." }
+      {
+        "de": "Die Musik ist zu laut.",
+        "en": "The music is too loud."
+      },
+      {
+        "de": "Das Baby schreit laut.",
+        "en": "The baby is crying loudly."
+      }
     ],
-    "tags": ["sound", "a1"]
+    "tags": [
+      "sound",
+      "a1"
+    ]
   },
   {
     "id": "adj_leise",
@@ -266,10 +403,19 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Bitte sei leise!", "en": "Please be quiet!" },
-      { "de": "Sie spricht mit leiser Stimme.", "en": "She speaks in a soft voice." }
+      {
+        "de": "Bitte sei leise!",
+        "en": "Please be quiet!"
+      },
+      {
+        "de": "Sie spricht mit leiser Stimme.",
+        "en": "She speaks in a soft voice."
+      }
     ],
-    "tags": ["sound", "a1"]
+    "tags": [
+      "sound",
+      "a1"
+    ]
   },
   {
     "id": "adj_leicht",
@@ -283,10 +429,20 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Die Aufgabe ist leicht.", "en": "The task is easy." },
-      { "de": "Der Koffer ist leicht.", "en": "The suitcase is light." }
+      {
+        "de": "Die Aufgabe ist leicht.",
+        "en": "The task is easy."
+      },
+      {
+        "de": "Der Koffer ist leicht.",
+        "en": "The suitcase is light."
+      }
     ],
-    "tags": ["difficulty", "weight", "a1"]
+    "tags": [
+      "difficulty",
+      "weight",
+      "a1"
+    ]
   },
   {
     "id": "adj_schwer",
@@ -300,10 +456,20 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Das Paket ist sehr schwer.", "en": "The package is very heavy." },
-      { "de": "Das Examen war schwer.", "en": "The exam was difficult." }
+      {
+        "de": "Das Paket ist sehr schwer.",
+        "en": "The package is very heavy."
+      },
+      {
+        "de": "Das Examen war schwer.",
+        "en": "The exam was difficult."
+      }
     ],
-    "tags": ["difficulty", "weight", "a1"]
+    "tags": [
+      "difficulty",
+      "weight",
+      "a1"
+    ]
   },
   {
     "id": "adj_billig",
@@ -317,10 +483,19 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Das ist ein billiges Hotel.", "en": "That is a cheap hotel." },
-      { "de": "Die Schuhe sind billig.", "en": "The shoes are cheap." }
+      {
+        "de": "Das ist ein billiges Hotel.",
+        "en": "That is a cheap hotel."
+      },
+      {
+        "de": "Die Schuhe sind billig.",
+        "en": "The shoes are cheap."
+      }
     ],
-    "tags": ["price", "a1"]
+    "tags": [
+      "price",
+      "a1"
+    ]
   },
   {
     "id": "adj_teuer",
@@ -334,10 +509,19 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Das Restaurant ist sehr teuer.", "en": "The restaurant is very expensive." },
-      { "de": "Das Auto ist zu teuer für mich.", "en": "The car is too expensive for me." }
+      {
+        "de": "Das Restaurant ist sehr teuer.",
+        "en": "The restaurant is very expensive."
+      },
+      {
+        "de": "Das Auto ist zu teuer für mich.",
+        "en": "The car is too expensive for me."
+      }
     ],
-    "tags": ["price", "a1"]
+    "tags": [
+      "price",
+      "a1"
+    ]
   },
   {
     "id": "adj_voll",
@@ -351,10 +535,19 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Das Glas ist voll.", "en": "The glass is full." },
-      { "de": "Der Zug ist voll besetzt.", "en": "The train is completely full." }
+      {
+        "de": "Das Glas ist voll.",
+        "en": "The glass is full."
+      },
+      {
+        "de": "Der Zug ist voll besetzt.",
+        "en": "The train is completely full."
+      }
     ],
-    "tags": ["quantity", "a1"]
+    "tags": [
+      "quantity",
+      "a1"
+    ]
   },
   {
     "id": "adj_leer",
@@ -368,10 +561,19 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Die Flasche ist leer.", "en": "The bottle is empty." },
-      { "de": "Der Raum war leer.", "en": "The room was empty." }
+      {
+        "de": "Die Flasche ist leer.",
+        "en": "The bottle is empty."
+      },
+      {
+        "de": "Der Raum war leer.",
+        "en": "The room was empty."
+      }
     ],
-    "tags": ["quantity", "a1"]
+    "tags": [
+      "quantity",
+      "a1"
+    ]
   },
   {
     "id": "adj_richtig",
@@ -385,10 +587,19 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Das ist die richtige Antwort.", "en": "That is the correct answer." },
-      { "de": "Bist du sicher, dass das richtig ist?", "en": "Are you sure that is right?" }
+      {
+        "de": "Das ist die richtige Antwort.",
+        "en": "That is the correct answer."
+      },
+      {
+        "de": "Bist du sicher, dass das richtig ist?",
+        "en": "Are you sure that is right?"
+      }
     ],
-    "tags": ["evaluation", "a1"]
+    "tags": [
+      "evaluation",
+      "a1"
+    ]
   },
   {
     "id": "adj_falsch",
@@ -402,10 +613,19 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Das ist falsch.", "en": "That is wrong." },
-      { "de": "Ich habe die falsche Antwort gegeben.", "en": "I gave the wrong answer." }
+      {
+        "de": "Das ist falsch.",
+        "en": "That is wrong."
+      },
+      {
+        "de": "Ich habe die falsche Antwort gegeben.",
+        "en": "I gave the wrong answer."
+      }
     ],
-    "tags": ["evaluation", "a1"]
+    "tags": [
+      "evaluation",
+      "a1"
+    ]
   },
   {
     "id": "adj_heis",
@@ -419,10 +639,19 @@
     "unlock_level": 1,
     "cefr": "A1",
     "example_sentences": [
-      { "de": "Der Kaffee ist zu heiß.", "en": "The coffee is too hot." },
-      { "de": "Es ist heiß im Sommer.", "en": "It is hot in summer." }
+      {
+        "de": "Der Kaffee ist zu heiß.",
+        "en": "The coffee is too hot."
+      },
+      {
+        "de": "Es ist heiß im Sommer.",
+        "en": "It is hot in summer."
+      }
     ],
-    "tags": ["temperature", "a1"]
+    "tags": [
+      "temperature",
+      "a1"
+    ]
   },
   {
     "id": "adj_interessant",
@@ -436,10 +665,19 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Das Buch ist sehr interessant.", "en": "The book is very interesting." },
-      { "de": "Sie findet Geschichte interessant.", "en": "She finds history interesting." }
+      {
+        "de": "Das Buch ist sehr interessant.",
+        "en": "The book is very interesting."
+      },
+      {
+        "de": "Sie findet Geschichte interessant.",
+        "en": "She finds history interesting."
+      }
     ],
-    "tags": ["evaluation", "a2"]
+    "tags": [
+      "evaluation",
+      "a2"
+    ]
   },
   {
     "id": "adj_langweilig",
@@ -453,10 +691,19 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Der Film war langweilig.", "en": "The movie was boring." },
-      { "de": "Ich finde die Arbeit langweilig.", "en": "I find the work boring." }
+      {
+        "de": "Der Film war langweilig.",
+        "en": "The movie was boring."
+      },
+      {
+        "de": "Ich finde die Arbeit langweilig.",
+        "en": "I find the work boring."
+      }
     ],
-    "tags": ["evaluation", "a2"]
+    "tags": [
+      "evaluation",
+      "a2"
+    ]
   },
   {
     "id": "adj_wichtig",
@@ -470,10 +717,19 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Das ist eine wichtige Frage.", "en": "That is an important question." },
-      { "de": "Gesundheit ist sehr wichtig.", "en": "Health is very important." }
+      {
+        "de": "Das ist eine wichtige Frage.",
+        "en": "That is an important question."
+      },
+      {
+        "de": "Gesundheit ist sehr wichtig.",
+        "en": "Health is very important."
+      }
     ],
-    "tags": ["evaluation", "a2"]
+    "tags": [
+      "evaluation",
+      "a2"
+    ]
   },
   {
     "id": "adj_einfach",
@@ -487,10 +743,19 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Das ist ganz einfach.", "en": "That is quite simple." },
-      { "de": "Die Lösung war einfach.", "en": "The solution was simple." }
+      {
+        "de": "Das ist ganz einfach.",
+        "en": "That is quite simple."
+      },
+      {
+        "de": "Die Lösung war einfach.",
+        "en": "The solution was simple."
+      }
     ],
-    "tags": ["difficulty", "a2"]
+    "tags": [
+      "difficulty",
+      "a2"
+    ]
   },
   {
     "id": "adj_schwierig",
@@ -504,10 +769,19 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Deutsch ist manchmal schwierig.", "en": "German is sometimes difficult." },
-      { "de": "Das Problem ist schwierig zu lösen.", "en": "The problem is difficult to solve." }
+      {
+        "de": "Deutsch ist manchmal schwierig.",
+        "en": "German is sometimes difficult."
+      },
+      {
+        "de": "Das Problem ist schwierig zu lösen.",
+        "en": "The problem is difficult to solve."
+      }
     ],
-    "tags": ["difficulty", "a2"]
+    "tags": [
+      "difficulty",
+      "a2"
+    ]
   },
   {
     "id": "adj_mude",
@@ -521,10 +795,19 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Ich bin sehr müde.", "en": "I am very tired." },
-      { "de": "Nach der Arbeit bin ich immer müde.", "en": "After work I am always tired." }
+      {
+        "de": "Ich bin sehr müde.",
+        "en": "I am very tired."
+      },
+      {
+        "de": "Nach der Arbeit bin ich immer müde.",
+        "en": "After work I am always tired."
+      }
     ],
-    "tags": ["feeling", "a2"]
+    "tags": [
+      "feeling",
+      "a2"
+    ]
   },
   {
     "id": "adj_glucklich",
@@ -538,10 +821,20 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Ich bin sehr glücklich.", "en": "I am very happy." },
-      { "de": "Sie macht mich glücklich.", "en": "She makes me happy." }
+      {
+        "de": "Ich bin sehr glücklich.",
+        "en": "I am very happy."
+      },
+      {
+        "de": "Sie macht mich glücklich.",
+        "en": "She makes me happy."
+      }
     ],
-    "tags": ["feeling", "emotion", "a2"]
+    "tags": [
+      "feeling",
+      "emotion",
+      "a2"
+    ]
   },
   {
     "id": "adj_traurig",
@@ -555,10 +848,20 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Er ist sehr traurig.", "en": "He is very sad." },
-      { "de": "Der Film hat mich traurig gemacht.", "en": "The movie made me sad." }
+      {
+        "de": "Er ist sehr traurig.",
+        "en": "He is very sad."
+      },
+      {
+        "de": "Der Film hat mich traurig gemacht.",
+        "en": "The movie made me sad."
+      }
     ],
-    "tags": ["feeling", "emotion", "a2"]
+    "tags": [
+      "feeling",
+      "emotion",
+      "a2"
+    ]
   },
   {
     "id": "adj_krank",
@@ -572,10 +875,19 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Ich bin krank und bleibe zu Hause.", "en": "I am sick and staying home." },
-      { "de": "Das Kind ist krank.", "en": "The child is sick." }
+      {
+        "de": "Ich bin krank und bleibe zu Hause.",
+        "en": "I am sick and staying home."
+      },
+      {
+        "de": "Das Kind ist krank.",
+        "en": "The child is sick."
+      }
     ],
-    "tags": ["health", "a2"]
+    "tags": [
+      "health",
+      "a2"
+    ]
   },
   {
     "id": "adj_gesund",
@@ -589,10 +901,19 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Obst und Gemüse sind gesund.", "en": "Fruit and vegetables are healthy." },
-      { "de": "Er ist wieder gesund.", "en": "He is healthy again." }
+      {
+        "de": "Obst und Gemüse sind gesund.",
+        "en": "Fruit and vegetables are healthy."
+      },
+      {
+        "de": "Er ist wieder gesund.",
+        "en": "He is healthy again."
+      }
     ],
-    "tags": ["health", "a2"]
+    "tags": [
+      "health",
+      "a2"
+    ]
   },
   {
     "id": "adj_sauber",
@@ -606,10 +927,19 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Das Zimmer ist sauber.", "en": "The room is clean." },
-      { "de": "Ich wasche meine Hände, damit sie sauber sind.", "en": "I wash my hands so that they are clean." }
+      {
+        "de": "Das Zimmer ist sauber.",
+        "en": "The room is clean."
+      },
+      {
+        "de": "Ich wasche meine Hände, damit sie sauber sind.",
+        "en": "I wash my hands so that they are clean."
+      }
     ],
-    "tags": ["cleanliness", "a2"]
+    "tags": [
+      "cleanliness",
+      "a2"
+    ]
   },
   {
     "id": "adj_schmutzig",
@@ -623,10 +953,19 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Die Schuhe sind schmutzig.", "en": "The shoes are dirty." },
-      { "de": "Das Fenster ist schmutzig.", "en": "The window is dirty." }
+      {
+        "de": "Die Schuhe sind schmutzig.",
+        "en": "The shoes are dirty."
+      },
+      {
+        "de": "Das Fenster ist schmutzig.",
+        "en": "The window is dirty."
+      }
     ],
-    "tags": ["cleanliness", "a2"]
+    "tags": [
+      "cleanliness",
+      "a2"
+    ]
   },
   {
     "id": "adj_offen",
@@ -640,10 +979,19 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Das Fenster ist offen.", "en": "The window is open." },
-      { "de": "Das Geschäft ist offen.", "en": "The shop is open." }
+      {
+        "de": "Das Fenster ist offen.",
+        "en": "The window is open."
+      },
+      {
+        "de": "Das Geschäft ist offen.",
+        "en": "The shop is open."
+      }
     ],
-    "tags": ["state", "a2"]
+    "tags": [
+      "state",
+      "a2"
+    ]
   },
   {
     "id": "adj_geschlossen",
@@ -657,10 +1005,19 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Das Café ist geschlossen.", "en": "The café is closed." },
-      { "de": "Die Tür ist geschlossen.", "en": "The door is closed." }
+      {
+        "de": "Das Café ist geschlossen.",
+        "en": "The café is closed."
+      },
+      {
+        "de": "Die Tür ist geschlossen.",
+        "en": "The door is closed."
+      }
     ],
-    "tags": ["state", "a2"]
+    "tags": [
+      "state",
+      "a2"
+    ]
   },
   {
     "id": "adj_hell",
@@ -674,10 +1031,19 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Das Zimmer ist hell.", "en": "The room is bright." },
-      { "de": "Draußen ist es noch hell.", "en": "It is still light outside." }
+      {
+        "de": "Das Zimmer ist hell.",
+        "en": "The room is bright."
+      },
+      {
+        "de": "Draußen ist es noch hell.",
+        "en": "It is still light outside."
+      }
     ],
-    "tags": ["light", "a2"]
+    "tags": [
+      "light",
+      "a2"
+    ]
   },
   {
     "id": "adj_dunkel",
@@ -691,10 +1057,19 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Es ist dunkel draußen.", "en": "It is dark outside." },
-      { "de": "Der Keller ist dunkel.", "en": "The cellar is dark." }
+      {
+        "de": "Es ist dunkel draußen.",
+        "en": "It is dark outside."
+      },
+      {
+        "de": "Der Keller ist dunkel.",
+        "en": "The cellar is dark."
+      }
     ],
-    "tags": ["light", "a2"]
+    "tags": [
+      "light",
+      "a2"
+    ]
   },
   {
     "id": "adj_breit",
@@ -708,10 +1083,19 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Die Straße ist sehr breit.", "en": "The street is very wide." },
-      { "de": "Er hat breite Schultern.", "en": "He has broad shoulders." }
+      {
+        "de": "Die Straße ist sehr breit.",
+        "en": "The street is very wide."
+      },
+      {
+        "de": "Er hat breite Schultern.",
+        "en": "He has broad shoulders."
+      }
     ],
-    "tags": ["size", "a2"]
+    "tags": [
+      "size",
+      "a2"
+    ]
   },
   {
     "id": "adj_eng",
@@ -725,10 +1109,19 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Die Hose ist eng.", "en": "The trousers are tight." },
-      { "de": "Die Gasse ist sehr eng.", "en": "The alley is very narrow." }
+      {
+        "de": "Die Hose ist eng.",
+        "en": "The trousers are tight."
+      },
+      {
+        "de": "Die Gasse ist sehr eng.",
+        "en": "The alley is very narrow."
+      }
     ],
-    "tags": ["size", "a2"]
+    "tags": [
+      "size",
+      "a2"
+    ]
   },
   {
     "id": "adj_hoch",
@@ -742,10 +1135,19 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Der Berg ist sehr hoch.", "en": "The mountain is very high." },
-      { "de": "Die Miete ist hoch.", "en": "The rent is high." }
+      {
+        "de": "Der Berg ist sehr hoch.",
+        "en": "The mountain is very high."
+      },
+      {
+        "de": "Die Miete ist hoch.",
+        "en": "The rent is high."
+      }
     ],
-    "tags": ["size", "a2"]
+    "tags": [
+      "size",
+      "a2"
+    ]
   },
   {
     "id": "adj_nass",
@@ -759,10 +1161,19 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Meine Kleidung ist nass.", "en": "My clothes are wet." },
-      { "de": "Der Boden ist nass nach dem Regen.", "en": "The floor is wet after the rain." }
+      {
+        "de": "Meine Kleidung ist nass.",
+        "en": "My clothes are wet."
+      },
+      {
+        "de": "Der Boden ist nass nach dem Regen.",
+        "en": "The floor is wet after the rain."
+      }
     ],
-    "tags": ["state", "a2"]
+    "tags": [
+      "state",
+      "a2"
+    ]
   },
   {
     "id": "adj_trocken",
@@ -776,10 +1187,19 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Die Luft ist heute sehr trocken.", "en": "The air is very dry today." },
-      { "de": "Das Handtuch ist trocken.", "en": "The towel is dry." }
+      {
+        "de": "Die Luft ist heute sehr trocken.",
+        "en": "The air is very dry today."
+      },
+      {
+        "de": "Das Handtuch ist trocken.",
+        "en": "The towel is dry."
+      }
     ],
-    "tags": ["state", "a2"]
+    "tags": [
+      "state",
+      "a2"
+    ]
   },
   {
     "id": "adj_sicher",
@@ -793,10 +1213,19 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Diese Stadt ist sehr sicher.", "en": "This city is very safe." },
-      { "de": "Ich bin mir sicher.", "en": "I am certain." }
+      {
+        "de": "Diese Stadt ist sehr sicher.",
+        "en": "This city is very safe."
+      },
+      {
+        "de": "Ich bin mir sicher.",
+        "en": "I am certain."
+      }
     ],
-    "tags": ["safety", "a2"]
+    "tags": [
+      "safety",
+      "a2"
+    ]
   },
   {
     "id": "adj_gefahrlich",
@@ -810,10 +1239,19 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Das ist sehr gefährlich!", "en": "That is very dangerous!" },
-      { "de": "Fahren bei Eis ist gefährlich.", "en": "Driving on ice is dangerous." }
+      {
+        "de": "Das ist sehr gefährlich!",
+        "en": "That is very dangerous!"
+      },
+      {
+        "de": "Fahren bei Eis ist gefährlich.",
+        "en": "Driving on ice is dangerous."
+      }
     ],
-    "tags": ["safety", "a2"]
+    "tags": [
+      "safety",
+      "a2"
+    ]
   },
   {
     "id": "adj_stark",
@@ -827,10 +1265,19 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Er ist sehr stark.", "en": "He is very strong." },
-      { "de": "Der Wind ist stark.", "en": "The wind is strong." }
+      {
+        "de": "Er ist sehr stark.",
+        "en": "He is very strong."
+      },
+      {
+        "de": "Der Wind ist stark.",
+        "en": "The wind is strong."
+      }
     ],
-    "tags": ["strength", "a2"]
+    "tags": [
+      "strength",
+      "a2"
+    ]
   },
   {
     "id": "adj_schwach",
@@ -844,10 +1291,19 @@
     "unlock_level": 2,
     "cefr": "A2",
     "example_sentences": [
-      { "de": "Nach der Krankheit war er schwach.", "en": "After the illness he was weak." },
-      { "de": "Das Signal ist schwach.", "en": "The signal is weak." }
+      {
+        "de": "Nach der Krankheit war er schwach.",
+        "en": "After the illness he was weak."
+      },
+      {
+        "de": "Das Signal ist schwach.",
+        "en": "The signal is weak."
+      }
     ],
-    "tags": ["strength", "a2"]
+    "tags": [
+      "strength",
+      "a2"
+    ]
   },
   {
     "id": "adj_freundlich",
@@ -861,10 +1317,19 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Die Mitarbeiter sind sehr freundlich.", "en": "The staff are very friendly." },
-      { "de": "Er ist immer freundlich zu mir.", "en": "He is always friendly to me." }
+      {
+        "de": "Die Mitarbeiter sind sehr freundlich.",
+        "en": "The staff are very friendly."
+      },
+      {
+        "de": "Er ist immer freundlich zu mir.",
+        "en": "He is always friendly to me."
+      }
     ],
-    "tags": ["personality", "b1"]
+    "tags": [
+      "personality",
+      "b1"
+    ]
   },
   {
     "id": "adj_hoflich",
@@ -878,10 +1343,19 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Es ist wichtig, höflich zu sein.", "en": "It is important to be polite." },
-      { "de": "Die Kinder sind sehr höflich.", "en": "The children are very polite." }
+      {
+        "de": "Es ist wichtig, höflich zu sein.",
+        "en": "It is important to be polite."
+      },
+      {
+        "de": "Die Kinder sind sehr höflich.",
+        "en": "The children are very polite."
+      }
     ],
-    "tags": ["personality", "b1"]
+    "tags": [
+      "personality",
+      "b1"
+    ]
   },
   {
     "id": "adj_geduldig",
@@ -895,10 +1369,19 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Man muss geduldig sein.", "en": "One must be patient." },
-      { "de": "Sie ist sehr geduldig mit den Kindern.", "en": "She is very patient with the children." }
+      {
+        "de": "Man muss geduldig sein.",
+        "en": "One must be patient."
+      },
+      {
+        "de": "Sie ist sehr geduldig mit den Kindern.",
+        "en": "She is very patient with the children."
+      }
     ],
-    "tags": ["personality", "b1"]
+    "tags": [
+      "personality",
+      "b1"
+    ]
   },
   {
     "id": "adj_nervos",
@@ -912,10 +1395,20 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Ich bin vor dem Examen nervös.", "en": "I am nervous before the exam." },
-      { "de": "Sie wirkt nervös.", "en": "She seems nervous." }
+      {
+        "de": "Ich bin vor dem Examen nervös.",
+        "en": "I am nervous before the exam."
+      },
+      {
+        "de": "Sie wirkt nervös.",
+        "en": "She seems nervous."
+      }
     ],
-    "tags": ["feeling", "emotion", "b1"]
+    "tags": [
+      "feeling",
+      "emotion",
+      "b1"
+    ]
   },
   {
     "id": "adj_ruhig",
@@ -929,10 +1422,20 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Bleib ruhig!", "en": "Stay calm!" },
-      { "de": "Das ist ein ruhiges Dorf.", "en": "That is a quiet village." }
+      {
+        "de": "Bleib ruhig!",
+        "en": "Stay calm!"
+      },
+      {
+        "de": "Das ist ein ruhiges Dorf.",
+        "en": "That is a quiet village."
+      }
     ],
-    "tags": ["feeling", "personality", "b1"]
+    "tags": [
+      "feeling",
+      "personality",
+      "b1"
+    ]
   },
   {
     "id": "adj_nutzlich",
@@ -946,10 +1449,19 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Das ist ein nützliches Werkzeug.", "en": "That is a useful tool." },
-      { "de": "Deutsch zu lernen ist sehr nützlich.", "en": "Learning German is very useful." }
+      {
+        "de": "Das ist ein nützliches Werkzeug.",
+        "en": "That is a useful tool."
+      },
+      {
+        "de": "Deutsch zu lernen ist sehr nützlich.",
+        "en": "Learning German is very useful."
+      }
     ],
-    "tags": ["evaluation", "b1"]
+    "tags": [
+      "evaluation",
+      "b1"
+    ]
   },
   {
     "id": "adj_neugierig",
@@ -963,10 +1475,19 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Kinder sind von Natur aus neugierig.", "en": "Children are naturally curious." },
-      { "de": "Ich bin neugierig auf das Ergebnis.", "en": "I am curious about the result." }
+      {
+        "de": "Kinder sind von Natur aus neugierig.",
+        "en": "Children are naturally curious."
+      },
+      {
+        "de": "Ich bin neugierig auf das Ergebnis.",
+        "en": "I am curious about the result."
+      }
     ],
-    "tags": ["personality", "b1"]
+    "tags": [
+      "personality",
+      "b1"
+    ]
   },
   {
     "id": "adj_vorsichtig",
@@ -980,10 +1501,19 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Sei vorsichtig auf der Straße!", "en": "Be careful on the road!" },
-      { "de": "Er ist ein vorsichtiger Fahrer.", "en": "He is a careful driver." }
+      {
+        "de": "Sei vorsichtig auf der Straße!",
+        "en": "Be careful on the road!"
+      },
+      {
+        "de": "Er ist ein vorsichtiger Fahrer.",
+        "en": "He is a careful driver."
+      }
     ],
-    "tags": ["personality", "b1"]
+    "tags": [
+      "personality",
+      "b1"
+    ]
   },
   {
     "id": "adj_ehrlich",
@@ -997,10 +1527,19 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Er ist immer ehrlich.", "en": "He is always honest." },
-      { "de": "Sei ehrlich zu mir.", "en": "Be honest with me." }
+      {
+        "de": "Er ist immer ehrlich.",
+        "en": "He is always honest."
+      },
+      {
+        "de": "Sei ehrlich zu mir.",
+        "en": "Be honest with me."
+      }
     ],
-    "tags": ["personality", "b1"]
+    "tags": [
+      "personality",
+      "b1"
+    ]
   },
   {
     "id": "adj_faul",
@@ -1014,10 +1553,19 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Er ist heute sehr faul.", "en": "He is very lazy today." },
-      { "de": "Sei nicht so faul!", "en": "Don't be so lazy!" }
+      {
+        "de": "Er ist heute sehr faul.",
+        "en": "He is very lazy today."
+      },
+      {
+        "de": "Sei nicht so faul!",
+        "en": "Don't be so lazy!"
+      }
     ],
-    "tags": ["personality", "b1"]
+    "tags": [
+      "personality",
+      "b1"
+    ]
   },
   {
     "id": "adj_fleissig",
@@ -1031,10 +1579,19 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Sie ist eine fleißige Studentin.", "en": "She is a hardworking student." },
-      { "de": "Fleißige Arbeit zahlt sich aus.", "en": "Diligent work pays off." }
+      {
+        "de": "Sie ist eine fleißige Studentin.",
+        "en": "She is a hardworking student."
+      },
+      {
+        "de": "Fleißige Arbeit zahlt sich aus.",
+        "en": "Diligent work pays off."
+      }
     ],
-    "tags": ["personality", "b1"]
+    "tags": [
+      "personality",
+      "b1"
+    ]
   },
   {
     "id": "adj_punktlich",
@@ -1048,10 +1605,20 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Der Zug ist pünktlich.", "en": "The train is on time." },
-      { "de": "Er ist immer pünktlich.", "en": "He is always punctual." }
+      {
+        "de": "Der Zug ist pünktlich.",
+        "en": "The train is on time."
+      },
+      {
+        "de": "Er ist immer pünktlich.",
+        "en": "He is always punctual."
+      }
     ],
-    "tags": ["personality", "time", "b1"]
+    "tags": [
+      "personality",
+      "time",
+      "b1"
+    ]
   },
   {
     "id": "adj_zuverlassig",
@@ -1065,10 +1632,19 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Er ist ein zuverlässiger Freund.", "en": "He is a reliable friend." },
-      { "de": "Das Auto ist sehr zuverlässig.", "en": "The car is very reliable." }
+      {
+        "de": "Er ist ein zuverlässiger Freund.",
+        "en": "He is a reliable friend."
+      },
+      {
+        "de": "Das Auto ist sehr zuverlässig.",
+        "en": "The car is very reliable."
+      }
     ],
-    "tags": ["personality", "b1"]
+    "tags": [
+      "personality",
+      "b1"
+    ]
   },
   {
     "id": "adj_zufrieden",
@@ -1082,10 +1658,20 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Ich bin mit meiner Arbeit zufrieden.", "en": "I am satisfied with my work." },
-      { "de": "Bist du zufrieden?", "en": "Are you content?" }
+      {
+        "de": "Ich bin mit meiner Arbeit zufrieden.",
+        "en": "I am satisfied with my work."
+      },
+      {
+        "de": "Bist du zufrieden?",
+        "en": "Are you content?"
+      }
     ],
-    "tags": ["feeling", "emotion", "b1"]
+    "tags": [
+      "feeling",
+      "emotion",
+      "b1"
+    ]
   },
   {
     "id": "adj_enttauscht",
@@ -1099,10 +1685,20 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Ich bin sehr enttäuscht.", "en": "I am very disappointed." },
-      { "de": "Sie war enttäuscht vom Ergebnis.", "en": "She was disappointed by the result." }
+      {
+        "de": "Ich bin sehr enttäuscht.",
+        "en": "I am very disappointed."
+      },
+      {
+        "de": "Sie war enttäuscht vom Ergebnis.",
+        "en": "She was disappointed by the result."
+      }
     ],
-    "tags": ["feeling", "emotion", "b1"]
+    "tags": [
+      "feeling",
+      "emotion",
+      "b1"
+    ]
   },
   {
     "id": "adj_stolz",
@@ -1116,10 +1712,20 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Ich bin stolz auf dich.", "en": "I am proud of you." },
-      { "de": "Sie ist eine stolze Mutter.", "en": "She is a proud mother." }
+      {
+        "de": "Ich bin stolz auf dich.",
+        "en": "I am proud of you."
+      },
+      {
+        "de": "Sie ist eine stolze Mutter.",
+        "en": "She is a proud mother."
+      }
     ],
-    "tags": ["feeling", "emotion", "b1"]
+    "tags": [
+      "feeling",
+      "emotion",
+      "b1"
+    ]
   },
   {
     "id": "adj_angstlich",
@@ -1133,10 +1739,20 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Das Kind ist ängstlich vor dem Hund.", "en": "The child is fearful of the dog." },
-      { "de": "Er ist von Natur aus ängstlich.", "en": "He is naturally anxious." }
+      {
+        "de": "Das Kind ist ängstlich vor dem Hund.",
+        "en": "The child is fearful of the dog."
+      },
+      {
+        "de": "Er ist von Natur aus ängstlich.",
+        "en": "He is naturally anxious."
+      }
     ],
-    "tags": ["feeling", "emotion", "b1"]
+    "tags": [
+      "feeling",
+      "emotion",
+      "b1"
+    ]
   },
   {
     "id": "adj_mutig",
@@ -1150,10 +1766,19 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Der mutige Soldat half den Verletzten.", "en": "The brave soldier helped the injured." },
-      { "de": "Es war mutig von dir.", "en": "That was brave of you." }
+      {
+        "de": "Der mutige Soldat half den Verletzten.",
+        "en": "The brave soldier helped the injured."
+      },
+      {
+        "de": "Es war mutig von dir.",
+        "en": "That was brave of you."
+      }
     ],
-    "tags": ["personality", "b1"]
+    "tags": [
+      "personality",
+      "b1"
+    ]
   },
   {
     "id": "adj_uberrascht",
@@ -1167,10 +1792,20 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Ich war sehr überrascht.", "en": "I was very surprised." },
-      { "de": "Sie sah überrascht aus.", "en": "She looked surprised." }
+      {
+        "de": "Ich war sehr überrascht.",
+        "en": "I was very surprised."
+      },
+      {
+        "de": "Sie sah überrascht aus.",
+        "en": "She looked surprised."
+      }
     ],
-    "tags": ["feeling", "emotion", "b1"]
+    "tags": [
+      "feeling",
+      "emotion",
+      "b1"
+    ]
   },
   {
     "id": "adj_aufgeregt",
@@ -1184,10 +1819,20 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Die Kinder sind aufgeregt.", "en": "The children are excited." },
-      { "de": "Ich bin aufgeregt wegen der Reise.", "en": "I am excited about the trip." }
+      {
+        "de": "Die Kinder sind aufgeregt.",
+        "en": "The children are excited."
+      },
+      {
+        "de": "Ich bin aufgeregt wegen der Reise.",
+        "en": "I am excited about the trip."
+      }
     ],
-    "tags": ["feeling", "emotion", "b1"]
+    "tags": [
+      "feeling",
+      "emotion",
+      "b1"
+    ]
   },
   {
     "id": "adj_beschaftigt",
@@ -1201,10 +1846,20 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Ich bin heute sehr beschäftigt.", "en": "I am very busy today." },
-      { "de": "Er ist immer beschäftigt.", "en": "He is always busy." }
+      {
+        "de": "Ich bin heute sehr beschäftigt.",
+        "en": "I am very busy today."
+      },
+      {
+        "de": "Er ist immer beschäftigt.",
+        "en": "He is always busy."
+      }
     ],
-    "tags": ["state", "work", "b1"]
+    "tags": [
+      "state",
+      "work",
+      "b1"
+    ]
   },
   {
     "id": "adj_lustig",
@@ -1218,10 +1873,19 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Der Film ist sehr lustig.", "en": "The movie is very funny." },
-      { "de": "Er macht immer lustige Witze.", "en": "He always makes funny jokes." }
+      {
+        "de": "Der Film ist sehr lustig.",
+        "en": "The movie is very funny."
+      },
+      {
+        "de": "Er macht immer lustige Witze.",
+        "en": "He always makes funny jokes."
+      }
     ],
-    "tags": ["personality", "b1"]
+    "tags": [
+      "personality",
+      "b1"
+    ]
   },
   {
     "id": "adj_klug",
@@ -1235,10 +1899,20 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Das ist eine kluge Entscheidung.", "en": "That is a smart decision." },
-      { "de": "Sie ist sehr klug.", "en": "She is very clever." }
+      {
+        "de": "Das ist eine kluge Entscheidung.",
+        "en": "That is a smart decision."
+      },
+      {
+        "de": "Sie ist sehr klug.",
+        "en": "She is very clever."
+      }
     ],
-    "tags": ["personality", "intelligence", "b1"]
+    "tags": [
+      "personality",
+      "intelligence",
+      "b1"
+    ]
   },
   {
     "id": "adj_lecker",
@@ -1252,10 +1926,20 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Das Essen ist sehr lecker.", "en": "The food is very delicious." },
-      { "de": "Die Torte sieht lecker aus.", "en": "The cake looks tasty." }
+      {
+        "de": "Das Essen ist sehr lecker.",
+        "en": "The food is very delicious."
+      },
+      {
+        "de": "Die Torte sieht lecker aus.",
+        "en": "The cake looks tasty."
+      }
     ],
-    "tags": ["food", "taste", "b1"]
+    "tags": [
+      "food",
+      "taste",
+      "b1"
+    ]
   },
   {
     "id": "adj_hasslich",
@@ -1269,10 +1953,19 @@
     "unlock_level": 3,
     "cefr": "B1",
     "example_sentences": [
-      { "de": "Das Wetter ist hässlich heute.", "en": "The weather is ugly today." },
-      { "de": "Das Gebäude ist wirklich hässlich.", "en": "The building is really ugly." }
+      {
+        "de": "Das Wetter ist hässlich heute.",
+        "en": "The weather is ugly today."
+      },
+      {
+        "de": "Das Gebäude ist wirklich hässlich.",
+        "en": "The building is really ugly."
+      }
     ],
-    "tags": ["appearance", "b1"]
+    "tags": [
+      "appearance",
+      "b1"
+    ]
   },
   {
     "id": "adj_begeistert",
@@ -1286,10 +1979,20 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Er ist von dem Projekt begeistert.", "en": "He is enthusiastic about the project." },
-      { "de": "Die Zuschauer waren begeistert.", "en": "The audience was thrilled." }
+      {
+        "de": "Er ist von dem Projekt begeistert.",
+        "en": "He is enthusiastic about the project."
+      },
+      {
+        "de": "Die Zuschauer waren begeistert.",
+        "en": "The audience was thrilled."
+      }
     ],
-    "tags": ["feeling", "emotion", "b2"]
+    "tags": [
+      "feeling",
+      "emotion",
+      "b2"
+    ]
   },
   {
     "id": "adj_erschopft",
@@ -1303,10 +2006,20 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Nach dem Marathon war er erschöpft.", "en": "After the marathon he was exhausted." },
-      { "de": "Ich bin völlig erschöpft.", "en": "I am completely exhausted." }
+      {
+        "de": "Nach dem Marathon war er erschöpft.",
+        "en": "After the marathon he was exhausted."
+      },
+      {
+        "de": "Ich bin völlig erschöpft.",
+        "en": "I am completely exhausted."
+      }
     ],
-    "tags": ["feeling", "state", "b2"]
+    "tags": [
+      "feeling",
+      "state",
+      "b2"
+    ]
   },
   {
     "id": "adj_entschlossen",
@@ -1320,10 +2033,19 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Sie ist entschlossen, ihr Ziel zu erreichen.", "en": "She is determined to reach her goal." },
-      { "de": "Er trat entschlossen auf.", "en": "He acted resolutely." }
+      {
+        "de": "Sie ist entschlossen, ihr Ziel zu erreichen.",
+        "en": "She is determined to reach her goal."
+      },
+      {
+        "de": "Er trat entschlossen auf.",
+        "en": "He acted resolutely."
+      }
     ],
-    "tags": ["personality", "b2"]
+    "tags": [
+      "personality",
+      "b2"
+    ]
   },
   {
     "id": "adj_verantwortlich",
@@ -1337,10 +2059,19 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Wer ist dafür verantwortlich?", "en": "Who is responsible for that?" },
-      { "de": "Sie übernimmt verantwortliche Aufgaben.", "en": "She takes on responsible tasks." }
+      {
+        "de": "Wer ist dafür verantwortlich?",
+        "en": "Who is responsible for that?"
+      },
+      {
+        "de": "Sie übernimmt verantwortliche Aufgaben.",
+        "en": "She takes on responsible tasks."
+      }
     ],
-    "tags": ["personality", "b2"]
+    "tags": [
+      "personality",
+      "b2"
+    ]
   },
   {
     "id": "adj_selbststandig",
@@ -1354,10 +2085,20 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Er arbeitet selbstständig.", "en": "He works independently." },
-      { "de": "Das Kind ist sehr selbstständig.", "en": "The child is very self-reliant." }
+      {
+        "de": "Er arbeitet selbstständig.",
+        "en": "He works independently."
+      },
+      {
+        "de": "Das Kind ist sehr selbstständig.",
+        "en": "The child is very self-reliant."
+      }
     ],
-    "tags": ["personality", "work", "b2"]
+    "tags": [
+      "personality",
+      "work",
+      "b2"
+    ]
   },
   {
     "id": "adj_kreativ",
@@ -1371,10 +2112,19 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Sie ist sehr kreativ.", "en": "She is very creative." },
-      { "de": "Wir brauchen eine kreative Lösung.", "en": "We need a creative solution." }
+      {
+        "de": "Sie ist sehr kreativ.",
+        "en": "She is very creative."
+      },
+      {
+        "de": "Wir brauchen eine kreative Lösung.",
+        "en": "We need a creative solution."
+      }
     ],
-    "tags": ["personality", "b2"]
+    "tags": [
+      "personality",
+      "b2"
+    ]
   },
   {
     "id": "adj_vernunftig",
@@ -1388,10 +2138,20 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Das ist ein vernünftiger Vorschlag.", "en": "That is a reasonable proposal." },
-      { "de": "Sei vernünftig!", "en": "Be sensible!" }
+      {
+        "de": "Das ist ein vernünftiger Vorschlag.",
+        "en": "That is a reasonable proposal."
+      },
+      {
+        "de": "Sei vernünftig!",
+        "en": "Be sensible!"
+      }
     ],
-    "tags": ["personality", "evaluation", "b2"]
+    "tags": [
+      "personality",
+      "evaluation",
+      "b2"
+    ]
   },
   {
     "id": "adj_grundlich",
@@ -1405,10 +2165,20 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Sie arbeitet gründlich und sorgfältig.", "en": "She works thoroughly and carefully." },
-      { "de": "Eine gründliche Analyse ist nötig.", "en": "A thorough analysis is necessary." }
+      {
+        "de": "Sie arbeitet gründlich und sorgfältig.",
+        "en": "She works thoroughly and carefully."
+      },
+      {
+        "de": "Eine gründliche Analyse ist nötig.",
+        "en": "A thorough analysis is necessary."
+      }
     ],
-    "tags": ["personality", "work", "b2"]
+    "tags": [
+      "personality",
+      "work",
+      "b2"
+    ]
   },
   {
     "id": "adj_bedeutsam",
@@ -1422,10 +2192,19 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Das ist ein bedeutsames Ereignis.", "en": "That is a significant event." },
-      { "de": "Ihre Worte waren sehr bedeutsam.", "en": "Her words were very meaningful." }
+      {
+        "de": "Das ist ein bedeutsames Ereignis.",
+        "en": "That is a significant event."
+      },
+      {
+        "de": "Ihre Worte waren sehr bedeutsam.",
+        "en": "Her words were very meaningful."
+      }
     ],
-    "tags": ["evaluation", "b2"]
+    "tags": [
+      "evaluation",
+      "b2"
+    ]
   },
   {
     "id": "adj_dringend",
@@ -1439,10 +2218,19 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Das ist eine dringende Angelegenheit.", "en": "This is an urgent matter." },
-      { "de": "Ich muss dringend mit dir sprechen.", "en": "I urgently need to speak with you." }
+      {
+        "de": "Das ist eine dringende Angelegenheit.",
+        "en": "This is an urgent matter."
+      },
+      {
+        "de": "Ich muss dringend mit dir sprechen.",
+        "en": "I urgently need to speak with you."
+      }
     ],
-    "tags": ["evaluation", "b2"]
+    "tags": [
+      "evaluation",
+      "b2"
+    ]
   },
   {
     "id": "adj_nachhaltig",
@@ -1456,10 +2244,19 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Wir brauchen nachhaltige Lösungen.", "en": "We need sustainable solutions." },
-      { "de": "Nachhaltiges Handeln ist wichtig.", "en": "Sustainable action is important." }
+      {
+        "de": "Wir brauchen nachhaltige Lösungen.",
+        "en": "We need sustainable solutions."
+      },
+      {
+        "de": "Nachhaltiges Handeln ist wichtig.",
+        "en": "Sustainable action is important."
+      }
     ],
-    "tags": ["evaluation", "b2"]
+    "tags": [
+      "evaluation",
+      "b2"
+    ]
   },
   {
     "id": "adj_uberzeugend",
@@ -1473,10 +2270,20 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Das Argument ist sehr überzeugend.", "en": "The argument is very convincing." },
-      { "de": "Er hat überzeugend gesprochen.", "en": "He spoke persuasively." }
+      {
+        "de": "Das Argument ist sehr überzeugend.",
+        "en": "The argument is very convincing."
+      },
+      {
+        "de": "Er hat überzeugend gesprochen.",
+        "en": "He spoke persuasively."
+      }
     ],
-    "tags": ["evaluation", "communication", "b2"]
+    "tags": [
+      "evaluation",
+      "communication",
+      "b2"
+    ]
   },
   {
     "id": "adj_aufmerksam",
@@ -1490,10 +2297,19 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Die Schüler waren sehr aufmerksam.", "en": "The students were very attentive." },
-      { "de": "Sei aufmerksam im Straßenverkehr.", "en": "Be attentive in traffic." }
+      {
+        "de": "Die Schüler waren sehr aufmerksam.",
+        "en": "The students were very attentive."
+      },
+      {
+        "de": "Sei aufmerksam im Straßenverkehr.",
+        "en": "Be attentive in traffic."
+      }
     ],
-    "tags": ["personality", "b2"]
+    "tags": [
+      "personality",
+      "b2"
+    ]
   },
   {
     "id": "adj_kritisch",
@@ -1507,10 +2323,20 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Er ist sehr kritisch gegenüber der Politik.", "en": "He is very critical of politics." },
-      { "de": "Das ist eine kritische Situation.", "en": "This is a critical situation." }
+      {
+        "de": "Er ist sehr kritisch gegenüber der Politik.",
+        "en": "He is very critical of politics."
+      },
+      {
+        "de": "Das ist eine kritische Situation.",
+        "en": "This is a critical situation."
+      }
     ],
-    "tags": ["evaluation", "personality", "b2"]
+    "tags": [
+      "evaluation",
+      "personality",
+      "b2"
+    ]
   },
   {
     "id": "adj_kompetent",
@@ -1524,10 +2350,20 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Sie ist eine kompetente Ärztin.", "en": "She is a competent doctor." },
-      { "de": "Das Team ist sehr kompetent.", "en": "The team is very competent." }
+      {
+        "de": "Sie ist eine kompetente Ärztin.",
+        "en": "She is a competent doctor."
+      },
+      {
+        "de": "Das Team ist sehr kompetent.",
+        "en": "The team is very competent."
+      }
     ],
-    "tags": ["personality", "work", "b2"]
+    "tags": [
+      "personality",
+      "work",
+      "b2"
+    ]
   },
   {
     "id": "adj_vielfaltig",
@@ -1541,10 +2377,19 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Das Angebot ist sehr vielfältig.", "en": "The selection is very diverse." },
-      { "de": "Die Stadt hat eine vielfältige Kultur.", "en": "The city has a varied culture." }
+      {
+        "de": "Das Angebot ist sehr vielfältig.",
+        "en": "The selection is very diverse."
+      },
+      {
+        "de": "Die Stadt hat eine vielfältige Kultur.",
+        "en": "The city has a varied culture."
+      }
     ],
-    "tags": ["evaluation", "b2"]
+    "tags": [
+      "evaluation",
+      "b2"
+    ]
   },
   {
     "id": "adj_ausgepragt",
@@ -1558,10 +2403,19 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Er hat eine ausgeprägte Persönlichkeit.", "en": "He has a pronounced personality." },
-      { "de": "Das Interesse ist stark ausgeprägt.", "en": "The interest is strongly marked." }
+      {
+        "de": "Er hat eine ausgeprägte Persönlichkeit.",
+        "en": "He has a pronounced personality."
+      },
+      {
+        "de": "Das Interesse ist stark ausgeprägt.",
+        "en": "The interest is strongly marked."
+      }
     ],
-    "tags": ["evaluation", "b2"]
+    "tags": [
+      "evaluation",
+      "b2"
+    ]
   },
   {
     "id": "adj_wesentlich",
@@ -1575,10 +2429,19 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Das ist ein wesentlicher Punkt.", "en": "That is an essential point." },
-      { "de": "Vertrauen ist wesentlich für eine gute Beziehung.", "en": "Trust is fundamental to a good relationship." }
+      {
+        "de": "Das ist ein wesentlicher Punkt.",
+        "en": "That is an essential point."
+      },
+      {
+        "de": "Vertrauen ist wesentlich für eine gute Beziehung.",
+        "en": "Trust is fundamental to a good relationship."
+      }
     ],
-    "tags": ["evaluation", "b2"]
+    "tags": [
+      "evaluation",
+      "b2"
+    ]
   },
   {
     "id": "adj_erheblich",
@@ -1592,10 +2455,19 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Die Kosten sind erheblich gestiegen.", "en": "The costs have risen considerably." },
-      { "de": "Es gibt erhebliche Unterschiede.", "en": "There are significant differences." }
+      {
+        "de": "Die Kosten sind erheblich gestiegen.",
+        "en": "The costs have risen considerably."
+      },
+      {
+        "de": "Es gibt erhebliche Unterschiede.",
+        "en": "There are significant differences."
+      }
     ],
-    "tags": ["evaluation", "b2"]
+    "tags": [
+      "evaluation",
+      "b2"
+    ]
   },
   {
     "id": "adj_vorlaufig",
@@ -1609,10 +2481,20 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Das ist nur eine vorläufige Lösung.", "en": "That is only a provisional solution." },
-      { "de": "Die Ergebnisse sind vorläufig.", "en": "The results are temporary." }
+      {
+        "de": "Das ist nur eine vorläufige Lösung.",
+        "en": "That is only a provisional solution."
+      },
+      {
+        "de": "Die Ergebnisse sind vorläufig.",
+        "en": "The results are temporary."
+      }
     ],
-    "tags": ["evaluation", "time", "b2"]
+    "tags": [
+      "evaluation",
+      "time",
+      "b2"
+    ]
   },
   {
     "id": "adj_umfangreich",
@@ -1626,10 +2508,19 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Das ist ein umfangreiches Projekt.", "en": "That is an extensive project." },
-      { "de": "Sie hat umfangreiche Kenntnisse.", "en": "She has comprehensive knowledge." }
+      {
+        "de": "Das ist ein umfangreiches Projekt.",
+        "en": "That is an extensive project."
+      },
+      {
+        "de": "Sie hat umfangreiche Kenntnisse.",
+        "en": "She has comprehensive knowledge."
+      }
     ],
-    "tags": ["evaluation", "b2"]
+    "tags": [
+      "evaluation",
+      "b2"
+    ]
   },
   {
     "id": "adj_gleichgultig",
@@ -1643,10 +2534,20 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Er ist gleichgültig gegenüber der Kritik.", "en": "He is indifferent to the criticism." },
-      { "de": "Das ist mir gleichgültig.", "en": "I am indifferent about that." }
+      {
+        "de": "Er ist gleichgültig gegenüber der Kritik.",
+        "en": "He is indifferent to the criticism."
+      },
+      {
+        "de": "Das ist mir gleichgültig.",
+        "en": "I am indifferent about that."
+      }
     ],
-    "tags": ["feeling", "personality", "b2"]
+    "tags": [
+      "feeling",
+      "personality",
+      "b2"
+    ]
   },
   {
     "id": "adj_angemessen",
@@ -1660,10 +2561,19 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Der Preis ist angemessen.", "en": "The price is appropriate." },
-      { "de": "Das ist eine angemessene Reaktion.", "en": "That is an adequate response." }
+      {
+        "de": "Der Preis ist angemessen.",
+        "en": "The price is appropriate."
+      },
+      {
+        "de": "Das ist eine angemessene Reaktion.",
+        "en": "That is an adequate response."
+      }
     ],
-    "tags": ["evaluation", "b2"]
+    "tags": [
+      "evaluation",
+      "b2"
+    ]
   },
   {
     "id": "adj_ausfuhrlich",
@@ -1677,10 +2587,20 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Er hat ausführlich erklärt.", "en": "He explained in detail." },
-      { "de": "Bitte gib mir eine ausführliche Antwort.", "en": "Please give me a detailed answer." }
+      {
+        "de": "Er hat ausführlich erklärt.",
+        "en": "He explained in detail."
+      },
+      {
+        "de": "Bitte gib mir eine ausführliche Antwort.",
+        "en": "Please give me a detailed answer."
+      }
     ],
-    "tags": ["evaluation", "communication", "b2"]
+    "tags": [
+      "evaluation",
+      "communication",
+      "b2"
+    ]
   },
   {
     "id": "adj_widersprechlich",
@@ -1694,9 +2614,968 @@
     "unlock_level": 4,
     "cefr": "B2",
     "example_sentences": [
-      { "de": "Die Informationen sind widersprüchlich.", "en": "The information is contradictory." },
-      { "de": "Sein Verhalten ist widersprüchlich.", "en": "His behaviour is contradictory." }
+      {
+        "de": "Die Informationen sind widersprüchlich.",
+        "en": "The information is contradictory."
+      },
+      {
+        "de": "Sein Verhalten ist widersprüchlich.",
+        "en": "His behaviour is contradictory."
+      }
     ],
-    "tags": ["evaluation", "b2"]
+    "tags": [
+      "evaluation",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_ausschlaggebend",
+    "word": "ausschlaggebend",
+    "english": "decisive (the deciding factor)",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 101,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Der Preis war ausschlaggebend für meine Entscheidung.",
+        "en": "The price was the deciding factor for my decision."
+      },
+      {
+        "de": "Sein Tor war ausschlaggebend für den Sieg.",
+        "en": "His goal was decisive for the victory."
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ],
+    "antonym": "unwichtig"
+  },
+  {
+    "id": "adj_ordentlich",
+    "word": "ordentlich",
+    "english": "tidy / neat / proper",
+    "comparative": "ordentlicher",
+    "superlative": "am ordentlichsten",
+    "frequency_rank": 102,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Sein Schreibtisch ist immer ordentlich.",
+        "en": "His desk is always tidy."
+      },
+      {
+        "de": "Sein Zimmer sieht endlich wieder ordentlich aus.",
+        "en": "His room finally looks tidy again."
+      }
+    ],
+    "tags": [
+      "everyday",
+      "b1"
+    ],
+    "antonym": "unordentlich"
+  },
+  {
+    "id": "adj_boese",
+    "word": "böse",
+    "english": "angry / evil / bad",
+    "comparative": "böser",
+    "superlative": "am bösesten",
+    "frequency_rank": 103,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Bist du mir noch böse?",
+        "en": "Are you still angry with me?"
+      },
+      {
+        "de": "In dem Märchen gibt es eine böse Hexe.",
+        "en": "In the fairy tale there is an evil witch."
+      }
+    ],
+    "tags": [
+      "emotions",
+      "essential",
+      "a2"
+    ],
+    "antonym": "lieb"
+  },
+  {
+    "id": "adj_ernsthaft",
+    "word": "ernsthaft",
+    "english": "serious / earnest",
+    "comparative": "ernsthafter",
+    "superlative": "am ernsthaftesten",
+    "frequency_rank": 104,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Wir müssen ernsthaft über die Zukunft reden.",
+        "en": "We have to talk seriously about the future."
+      },
+      {
+        "de": "Die Zweifel an seiner Geschichte waren ernsthaft.",
+        "en": "The doubts about his story were serious."
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ],
+    "antonym": "scherzhaft"
+  },
+  {
+    "id": "adj_einzig",
+    "word": "einzig",
+    "english": "only / sole",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 105,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das ist die einzige Lösung, die funktioniert.",
+        "en": "That is the only solution that works."
+      },
+      {
+        "de": "Er war der einzige Gast im Restaurant.",
+        "en": "He was the only guest in the restaurant."
+      }
+    ],
+    "tags": [
+      "abstract",
+      "essential",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_zielstrebig",
+    "word": "zielstrebig",
+    "english": "determined / goal-oriented",
+    "comparative": "zielstrebiger",
+    "superlative": "am zielstrebigsten",
+    "frequency_rank": 106,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Sie arbeitet zielstrebig an ihrer Karriere.",
+        "en": "She works purposefully on her career."
+      },
+      {
+        "de": "Er ist sehr zielstrebig und erreicht seine Ziele.",
+        "en": "He is very determined and achieves his goals."
+      }
+    ],
+    "tags": [
+      "character",
+      "b2"
+    ],
+    "antonym": "ziellos"
+  },
+  {
+    "id": "adj_bedauerlich",
+    "word": "bedauerlich",
+    "english": "regrettable / unfortunate",
+    "comparative": "bedauerlicher",
+    "superlative": "am bedauerlichsten",
+    "frequency_rank": 107,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Es ist sehr bedauerlich, dass du nicht kommen kannst.",
+        "en": "It is very unfortunate that you can't come."
+      },
+      {
+        "de": "Der Fehler war bedauerlich und hat das Projekt verzögert.",
+        "en": "The mistake was regrettable and delayed the project."
+      }
+    ],
+    "tags": [
+      "formal",
+      "b2"
+    ],
+    "antonym": "erfreulich"
+  },
+  {
+    "id": "adj_beschaemend",
+    "word": "beschämend",
+    "english": "shameful / embarrassing",
+    "comparative": "beschämender",
+    "superlative": "am beschämendsten",
+    "frequency_rank": 108,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Das Ergebnis war beschämend für die ganze Mannschaft.",
+        "en": "The result was embarrassing for the whole team."
+      },
+      {
+        "de": "Es ist beschämend, wie wenig hier getan wurde.",
+        "en": "It is shameful how little was done here."
+      }
+    ],
+    "tags": [
+      "emotions",
+      "formal",
+      "b2"
+    ],
+    "antonym": "lobenswert"
+  },
+  {
+    "id": "adj_damalig",
+    "word": "damalig",
+    "english": "of that time / then (attributive)",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 109,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Der damalige Bürgermeister eröffnete die Brücke.",
+        "en": "The then mayor opened the bridge."
+      },
+      {
+        "de": "Die damalige Situation war völlig anders als heute.",
+        "en": "The situation at that time was completely different from today."
+      }
+    ],
+    "tags": [
+      "time",
+      "reading",
+      "b2"
+    ],
+    "antonym": "heutig"
+  },
+  {
+    "id": "adj_eifersuechtig",
+    "word": "eifersüchtig",
+    "english": "jealous",
+    "comparative": "eifersüchtiger",
+    "superlative": "am eifersüchtigsten",
+    "frequency_rank": 110,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Er ist eifersüchtig auf den neuen Kollegen.",
+        "en": "He is jealous of the new colleague."
+      },
+      {
+        "de": "Sei doch nicht so eifersüchtig!",
+        "en": "Don't be so jealous!"
+      }
+    ],
+    "tags": [
+      "emotions",
+      "b1"
+    ],
+    "antonym": "gelassen"
+  },
+  {
+    "id": "adj_vermeintlich",
+    "word": "vermeintlich",
+    "english": "supposed / alleged",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 111,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Der vermeintliche Experte hatte nie studiert.",
+        "en": "The supposed expert had never studied."
+      },
+      {
+        "de": "Die vermeintliche Abkürzung kostete uns eine Stunde.",
+        "en": "The supposed shortcut cost us an hour."
+      }
+    ],
+    "tags": [
+      "reading",
+      "formal",
+      "b2"
+    ],
+    "antonym": "tatsächlich"
+  },
+  {
+    "id": "adj_sogenannt",
+    "word": "sogenannt",
+    "english": "so-called",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 112,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Die sogenannten Experten widersprechen sich ständig.",
+        "en": "The so-called experts constantly contradict each other."
+      },
+      {
+        "de": "Das ist der sogenannte Muskelkater.",
+        "en": "That is what is known as sore muscles."
+      }
+    ],
+    "tags": [
+      "reading",
+      "formal",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_vorhersehbar",
+    "word": "vorhersehbar",
+    "english": "predictable / foreseeable",
+    "comparative": "vorhersehbarer",
+    "superlative": "am vorhersehbarsten",
+    "frequency_rank": 113,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Das Ende des Films war leider vorhersehbar.",
+        "en": "The ending of the film was unfortunately predictable."
+      },
+      {
+        "de": "Die Folgen waren für alle vorhersehbar.",
+        "en": "The consequences were foreseeable for everyone."
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ],
+    "antonym": "unvorhersehbar"
+  },
+  {
+    "id": "adj_herausfordernd",
+    "word": "herausfordernd",
+    "english": "challenging",
+    "comparative": "herausfordernder",
+    "superlative": "am herausforderndsten",
+    "frequency_rank": 114,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Das erste Jahr im neuen Job war sehr herausfordernd.",
+        "en": "The first year in the new job was very challenging."
+      },
+      {
+        "de": "Die neue Aufgabe ist anspruchsvoll und herausfordernd.",
+        "en": "The new task is demanding and challenging."
+      }
+    ],
+    "tags": [
+      "work",
+      "abstract",
+      "b2"
+    ],
+    "antonym": "einfach"
+  },
+  {
+    "id": "adj_entscheidend",
+    "word": "entscheidend",
+    "english": "crucial / decisive",
+    "comparative": "entscheidender",
+    "superlative": "am entscheidendsten",
+    "frequency_rank": 115,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Dieses Spiel ist entscheidend für die Meisterschaft.",
+        "en": "This game is decisive for the championship."
+      },
+      {
+        "de": "Geduld ist entscheidend beim Sprachenlernen.",
+        "en": "Patience is crucial when learning languages."
+      }
+    ],
+    "tags": [
+      "abstract",
+      "essential",
+      "b1"
+    ],
+    "antonym": "nebensächlich"
+  },
+  {
+    "id": "adj_duftend",
+    "word": "duftend",
+    "english": "fragrant / sweet-smelling",
+    "comparative": "duftender",
+    "superlative": "am duftendsten",
+    "frequency_rank": 116,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Auf dem Tisch stand duftender Kaffee.",
+        "en": "Fragrant coffee stood on the table."
+      },
+      {
+        "de": "Sie pflückte einen Strauß duftender Rosen.",
+        "en": "She picked a bouquet of fragrant roses."
+      }
+    ],
+    "tags": [
+      "senses",
+      "b2"
+    ],
+    "antonym": "stinkend"
+  },
+  {
+    "id": "adj_ueberwaeltigend",
+    "word": "überwältigend",
+    "english": "overwhelming",
+    "comparative": "überwältigender",
+    "superlative": "am überwältigendsten",
+    "frequency_rank": 117,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Die überwältigende Mehrheit stimmte für den Plan.",
+        "en": "The overwhelming majority voted for the plan."
+      },
+      {
+        "de": "Der Ausblick vom Gipfel war überwältigend.",
+        "en": "The view from the summit was overwhelming."
+      }
+    ],
+    "tags": [
+      "abstract",
+      "news",
+      "b2"
+    ],
+    "antonym": "gering"
+  },
+  {
+    "id": "adj_haltlos",
+    "word": "haltlos",
+    "english": "baseless / unfounded",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 118,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Diese Vorwürfe sind völlig haltlos.",
+        "en": "These accusations are completely baseless."
+      },
+      {
+        "de": "Die Behauptung erwies sich als haltlos.",
+        "en": "The claim turned out to be unfounded."
+      }
+    ],
+    "tags": [
+      "formal",
+      "news",
+      "b2"
+    ],
+    "antonym": "begründet"
+  },
+  {
+    "id": "adj_betroffen",
+    "word": "betroffen",
+    "english": "affected; shaken / dismayed",
+    "comparative": "betroffener",
+    "superlative": "am betroffensten",
+    "frequency_rank": 119,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Viele Familien sind von den Preiserhöhungen betroffen.",
+        "en": "Many families are affected by the price increases."
+      },
+      {
+        "de": "Er schwieg betroffen, als er die Nachricht hörte.",
+        "en": "He fell silent, shaken, when he heard the news."
+      }
+    ],
+    "tags": [
+      "news",
+      "emotions",
+      "b1"
+    ],
+    "antonym": "unberührt"
+  },
+  {
+    "id": "adj_spuerbar",
+    "word": "spürbar",
+    "english": "noticeable / palpable",
+    "comparative": "spürbarer",
+    "superlative": "am spürbarsten",
+    "frequency_rank": 120,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Die Preise sind spürbar gestiegen.",
+        "en": "Prices have risen noticeably."
+      },
+      {
+        "de": "Im Raum herrschte eine spürbare Spannung.",
+        "en": "There was a palpable tension in the room."
+      }
+    ],
+    "tags": [
+      "abstract",
+      "news",
+      "b2"
+    ],
+    "antonym": "unmerklich"
+  },
+  {
+    "id": "adj_wertvoll",
+    "word": "wertvoll",
+    "english": "valuable / precious",
+    "comparative": "wertvoller",
+    "superlative": "am wertvollsten",
+    "frequency_rank": 121,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Dieser Ring ist sehr wertvoll.",
+        "en": "This ring is very valuable."
+      },
+      {
+        "de": "Du hast mir einen wertvollen Tipp gegeben.",
+        "en": "You gave me a valuable tip."
+      }
+    ],
+    "tags": [
+      "abstract",
+      "essential",
+      "b1"
+    ],
+    "antonym": "wertlos"
+  },
+  {
+    "id": "adj_zahlreich",
+    "word": "zahlreich",
+    "english": "numerous",
+    "comparative": "zahlreicher",
+    "superlative": "am zahlreichsten",
+    "frequency_rank": 122,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Zahlreiche Besucher kamen zur Ausstellung.",
+        "en": "Numerous visitors came to the exhibition."
+      },
+      {
+        "de": "Es gab zahlreiche Beschwerden über den Lärm.",
+        "en": "There were numerous complaints about the noise."
+      }
+    ],
+    "tags": [
+      "quantity",
+      "reading",
+      "b1"
+    ],
+    "antonym": "wenig"
+  },
+  {
+    "id": "adj_verwirrt",
+    "word": "verwirrt",
+    "english": "confused",
+    "comparative": "verwirrter",
+    "superlative": "am verwirrtesten",
+    "frequency_rank": 123,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Nach der Erklärung war ich noch mehr verwirrt.",
+        "en": "After the explanation I was even more confused."
+      },
+      {
+        "de": "Er sah mich verwirrt an.",
+        "en": "He looked at me, confused."
+      }
+    ],
+    "tags": [
+      "emotions",
+      "b1"
+    ],
+    "antonym": "klar"
+  },
+  {
+    "id": "adj_gespannt",
+    "word": "gespannt",
+    "english": "curious / eager (to see) / tense",
+    "comparative": "gespannter",
+    "superlative": "am gespanntesten",
+    "frequency_rank": 124,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ich bin gespannt, wie der Film endet.",
+        "en": "I'm curious to see how the film ends."
+      },
+      {
+        "de": "Die Zuschauer warteten gespannt auf das Ergebnis.",
+        "en": "The spectators waited eagerly for the result."
+      }
+    ],
+    "tags": [
+      "emotions",
+      "b1"
+    ],
+    "antonym": "gleichgültig"
+  },
+  {
+    "id": "adj_unabhaengig",
+    "word": "unabhängig",
+    "english": "independent",
+    "comparative": "unabhängiger",
+    "superlative": "am unabhängigsten",
+    "frequency_rank": 125,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Sie ist finanziell unabhängig von ihren Eltern.",
+        "en": "She is financially independent of her parents."
+      },
+      {
+        "de": "Eine unabhängige Untersuchung soll den Fall klären.",
+        "en": "An independent investigation is to clarify the case."
+      }
+    ],
+    "tags": [
+      "society",
+      "abstract",
+      "b1"
+    ],
+    "antonym": "abhängig"
+  },
+  {
+    "id": "adj_untroestlich",
+    "word": "untröstlich",
+    "english": "inconsolable",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 126,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Das Kind war untröstlich, als der Luftballon platzte.",
+        "en": "The child was inconsolable when the balloon burst."
+      },
+      {
+        "de": "Nach dem Verlust ihres Hundes war sie untröstlich.",
+        "en": "After losing her dog she was inconsolable."
+      }
+    ],
+    "tags": [
+      "emotions",
+      "reading",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_schlau",
+    "word": "schlau",
+    "english": "clever / smart / cunning",
+    "comparative": "schlauer",
+    "superlative": "am schlausten",
+    "frequency_rank": 127,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Der Fuchs gilt als besonders schlau.",
+        "en": "The fox is considered particularly cunning."
+      },
+      {
+        "de": "Das war eine schlaue Idee!",
+        "en": "That was a clever idea!"
+      }
+    ],
+    "tags": [
+      "character",
+      "a2"
+    ],
+    "antonym": "dumm"
+  },
+  {
+    "id": "adj_wahr",
+    "word": "wahr",
+    "english": "true",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 128,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Die Geschichte ist wirklich wahr.",
+        "en": "The story is really true."
+      },
+      {
+        "de": "Es ist wahr, dass er umzieht.",
+        "en": "It is true that he is moving."
+      }
+    ],
+    "tags": [
+      "abstract",
+      "essential",
+      "a2"
+    ],
+    "antonym": "falsch"
+  },
+  {
+    "id": "adj_heillos",
+    "word": "heillos",
+    "english": "utter / hopeless (chaos, confusion)",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 129,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Nach dem Umzug herrschte ein heilloses Durcheinander.",
+        "en": "After the move there was utter chaos."
+      },
+      {
+        "de": "Er war heillos überfordert mit der Situation.",
+        "en": "He was hopelessly overwhelmed by the situation."
+      }
+    ],
+    "tags": [
+      "reading",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_schillernd",
+    "word": "schillernd",
+    "english": "iridescent / dazzling / colourful (figurative)",
+    "comparative": "schillernder",
+    "superlative": "am schillerndsten",
+    "frequency_rank": 130,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Die Seifenblasen sind wunderschön schillernd.",
+        "en": "The soap bubbles are beautifully iridescent."
+      },
+      {
+        "de": "Er ist eine schillernde Figur der Stadtgeschichte.",
+        "en": "He is a colourful figure in the city's history."
+      }
+    ],
+    "tags": [
+      "reading",
+      "b2"
+    ],
+    "antonym": "farblos"
+  },
+  {
+    "id": "adj_moeglich",
+    "word": "möglich",
+    "english": "possible",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 131,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ist es möglich, den Termin zu verschieben?",
+        "en": "Is it possible to postpone the appointment?"
+      },
+      {
+        "de": "Wir kommen so schnell wie möglich.",
+        "en": "We'll come as quickly as possible."
+      }
+    ],
+    "tags": [
+      "essential",
+      "a2"
+    ],
+    "antonym": "unmöglich"
+  },
+  {
+    "id": "adj_notwendig",
+    "word": "notwendig",
+    "english": "necessary",
+    "comparative": "notwendiger",
+    "superlative": "am notwendigsten",
+    "frequency_rank": 132,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ein Visum ist für diese Reise notwendig.",
+        "en": "A visa is necessary for this trip."
+      },
+      {
+        "de": "Es ist notwendig, dass alle pünktlich kommen.",
+        "en": "It is necessary that everyone arrives on time."
+      }
+    ],
+    "tags": [
+      "abstract",
+      "essential",
+      "b1"
+    ],
+    "antonym": "überflüssig"
+  },
+  {
+    "id": "adj_durchschnittlich",
+    "word": "durchschnittlich",
+    "english": "average",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 133,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ein Deutscher trinkt durchschnittlich 160 Liter Kaffee pro Jahr.",
+        "en": "A German drinks on average 160 litres of coffee per year."
+      },
+      {
+        "de": "Seine Noten sind nur durchschnittlich.",
+        "en": "His grades are only average."
+      }
+    ],
+    "tags": [
+      "numbers",
+      "b1"
+    ],
+    "antonym": "außergewöhnlich"
+  },
+  {
+    "id": "adj_freiwillig",
+    "word": "freiwillig",
+    "english": "voluntary / of one's own free will",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 134,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Sie arbeitet freiwillig im Tierheim.",
+        "en": "She works voluntarily at the animal shelter."
+      },
+      {
+        "de": "Die Teilnahme am Kurs ist freiwillig.",
+        "en": "Participation in the course is voluntary."
+      }
+    ],
+    "tags": [
+      "society",
+      "b1"
+    ],
+    "antonym": "gezwungen"
+  },
+  {
+    "id": "adj_zufaellig",
+    "word": "zufällig",
+    "english": "random / accidental / by chance",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 135,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Wir haben uns zufällig im Supermarkt getroffen.",
+        "en": "We met by chance at the supermarket."
+      },
+      {
+        "de": "Weißt du zufällig, wie spät es ist?",
+        "en": "Do you happen to know what time it is?"
+      }
+    ],
+    "tags": [
+      "everyday",
+      "b1"
+    ],
+    "antonym": "absichtlich"
+  },
+  {
+    "id": "adj_zugrundeliegend",
+    "word": "zugrundeliegend",
+    "english": "underlying",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 136,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Die zugrundeliegende Ursache des Problems ist unklar.",
+        "en": "The underlying cause of the problem is unclear."
+      },
+      {
+        "de": "Der Studie liegen aktuelle Daten zugrunde — die zugrundeliegende Methode ist solide.",
+        "en": "The study is based on current data — the underlying method is solid."
+      }
+    ],
+    "tags": [
+      "formal",
+      "reading",
+      "b2"
+    ]
   }
 ]

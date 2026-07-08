@@ -1,0 +1,1486 @@
+{
+  "_schema": "Verb seeds part 2 (roots 26-49). Same format as part 1.",
+  "roots": [
+    {
+      "root": "beherrschen",
+      "english": "to master / to have command of / to control",
+      "type": "weak",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 126,
+      "sep": null,
+      "pres": [
+        "beherrsche",
+        "beherrschst",
+        "beherrscht",
+        "beherrschen",
+        "beherrscht",
+        "beherrschen"
+      ],
+      "praet": "beherrschte",
+      "pp": "beherrscht",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Ich _____ drei Fremdsprachen.",
+          "en": "I have command of three foreign languages.",
+          "ans": "beherrsche",
+          "p": "ich"
+        },
+        {
+          "de": "Sie _____ ihr Handwerk perfekt.",
+          "en": "She masters her craft perfectly.",
+          "ans": "beherrscht",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "Du _____ die Grammatik schon sehr gut.",
+          "en": "You already have a very good command of the grammar.",
+          "ans": "beherrschst",
+          "p": "du"
+        }
+      ],
+      "tdist": [
+        "to belong to",
+        "to protect",
+        "to obey",
+        "to observe"
+      ],
+      "trans_note": "Inseparable — no ge- in the Partizip II: beherrscht.",
+      "gram": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "beherrschen takes an accusative object: 'eine Sprache beherrschen.' Reflexive 'sich beherrschen' = to control oneself.",
+        "dual_case": false
+      },
+      "tags": [
+        "learning",
+        "abstract",
+        "b2"
+      ]
+    },
+    {
+      "root": "verdrängen",
+      "english": "to repress / to displace / to push out",
+      "type": "weak",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 127,
+      "sep": null,
+      "pres": [
+        "verdränge",
+        "verdrängst",
+        "verdrängt",
+        "verdrängen",
+        "verdrängt",
+        "verdrängen"
+      ],
+      "praet": "verdrängte",
+      "pp": "verdrängt",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Ich _____ das Problem schon seit Monaten.",
+          "en": "I have been repressing the problem for months.",
+          "ans": "verdränge",
+          "p": "ich"
+        },
+        {
+          "de": "Große Ketten _____ die kleinen Läden.",
+          "en": "Big chains are displacing the small shops.",
+          "ans": "verdrängen",
+          "p": "sie_Sie"
+        },
+        {
+          "de": "Er _____ die Erinnerung an den Unfall.",
+          "en": "He represses the memory of the accident.",
+          "ans": "verdrängt",
+          "p": "er_sie_es"
+        }
+      ],
+      "tdist": [
+        "to turn away",
+        "to demand",
+        "to deny",
+        "to destroy"
+      ],
+      "trans_note": "Inseparable. Psychological sense (repress) and economic sense (displace).",
+      "gram": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "verdrängen takes an accusative object: 'ein Problem verdrängen' (psychology), 'Konkurrenten verdrängen' (economics).",
+        "dual_case": false
+      },
+      "tags": [
+        "abstract",
+        "psychology",
+        "b2"
+      ]
+    },
+    {
+      "root": "abbrechen",
+      "english": "to break off / to cancel / to drop out",
+      "type": "strong",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 128,
+      "sep": "ab",
+      "pres": [
+        "breche",
+        "brichst",
+        "bricht",
+        "brechen",
+        "brecht",
+        "brechen"
+      ],
+      "praet": [
+        "brach",
+        "brachst",
+        "brach",
+        "brachen",
+        "bracht",
+        "brachen"
+      ],
+      "pp": "abgebrochen",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Ich _____ das Studium nicht _____.",
+          "en": "I am not dropping out of my studies.",
+          "ans": "breche ... ab",
+          "p": "ich"
+        },
+        {
+          "de": "Sie _____ das Gespräch plötzlich _____.",
+          "en": "She breaks off the conversation suddenly.",
+          "ans": "bricht ... ab",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "Warum _____ ihr das Training _____?",
+          "en": "Why are you (pl.) breaking off the training?",
+          "ans": "brecht ... ab",
+          "p": "ihr"
+        }
+      ],
+      "tdist": [
+        "to interrupt briefly",
+        "to break in",
+        "to finish successfully",
+        "to postpone"
+      ],
+      "trans_note": "Separable, vowel change: du brichst ab, er bricht ab.",
+      "gram": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "abbrechen takes an accusative object: 'das Studium abbrechen.' Intransitive use ('Die Verbindung ist abgebrochen') takes sein in the Perfekt.",
+        "dual_case": false
+      },
+      "tags": [
+        "everyday",
+        "b1"
+      ]
+    },
+    {
+      "root": "auswiegen",
+      "english": "to weigh out",
+      "type": "strong",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 129,
+      "sep": "aus",
+      "pres": [
+        "wiege",
+        "wiegst",
+        "wiegt",
+        "wiegen",
+        "wiegt",
+        "wiegen"
+      ],
+      "praet": [
+        "wog",
+        "wogst",
+        "wog",
+        "wogen",
+        "wogt",
+        "wogen"
+      ],
+      "pp": "ausgewogen",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Der Händler _____ die Ware genau _____.",
+          "en": "The merchant weighs out the goods precisely.",
+          "ans": "wiegt ... aus",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "Ich _____ das Mehl für den Teig _____.",
+          "en": "I weigh out the flour for the dough.",
+          "ans": "wiege ... aus",
+          "p": "ich"
+        },
+        {
+          "de": "Auf dem Markt _____ sie die Gewürze einzeln _____.",
+          "en": "At the market they weigh out the spices individually.",
+          "ans": "wiegen ... aus",
+          "p": "sie_Sie"
+        }
+      ],
+      "tdist": [
+        "to choose",
+        "to balance",
+        "to measure length",
+        "to pour out"
+      ],
+      "trans_note": "Separable. The Partizip II 'ausgewogen' is also an adjective: balanced.",
+      "gram": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "auswiegen takes an accusative object: 'die Ware auswiegen.' Note the adjective ausgewogen = balanced (eine ausgewogene Ernährung).",
+        "dual_case": false
+      },
+      "tags": [
+        "everyday",
+        "b2"
+      ]
+    },
+    {
+      "root": "röntgen",
+      "english": "to X-ray",
+      "type": "weak",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 130,
+      "sep": null,
+      "pres": [
+        "röntge",
+        "röntgst",
+        "röntgt",
+        "röntgen",
+        "röntgt",
+        "röntgen"
+      ],
+      "praet": "röntgte",
+      "pp": "geröntgt",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Der Arzt _____ meine Hand.",
+          "en": "The doctor X-rays my hand.",
+          "ans": "röntgt",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "Wir _____ zuerst den Fuß.",
+          "en": "We X-ray the foot first.",
+          "ans": "röntgen",
+          "p": "wir"
+        },
+        {
+          "de": "Man _____ den Patienten vor der Operation.",
+          "en": "The patient is X-rayed before the operation.",
+          "ans": "röntgt",
+          "p": "er_sie_es"
+        }
+      ],
+      "tdist": [
+        "to examine with ultrasound",
+        "to bandage",
+        "to vaccinate",
+        "to operate"
+      ],
+      "trans_note": "Named after Wilhelm Röntgen, who discovered X-rays. One of the few German verbs from a surname.",
+      "gram": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "röntgen takes an accusative object: 'den Arm röntgen.' Partizip II: geröntgt.",
+        "dual_case": false
+      },
+      "tags": [
+        "health",
+        "b2"
+      ]
+    },
+    {
+      "root": "kriechen",
+      "english": "to crawl / to creep",
+      "type": "strong",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 131,
+      "sep": null,
+      "pres": [
+        "krieche",
+        "kriechst",
+        "kriecht",
+        "kriechen",
+        "kriecht",
+        "kriechen"
+      ],
+      "praet": [
+        "kroch",
+        "krochst",
+        "kroch",
+        "krochen",
+        "krocht",
+        "krochen"
+      ],
+      "pp": "gekrochen",
+      "aux": "sein",
+      "sent": [
+        {
+          "de": "Das Baby _____ durch das Wohnzimmer.",
+          "en": "The baby crawls through the living room.",
+          "ans": "kriecht",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "Die Autos _____ im Stau nur langsam vorwärts.",
+          "en": "The cars only creep forward slowly in the traffic jam.",
+          "ans": "kriechen",
+          "p": "sie_Sie"
+        },
+        {
+          "de": "Ich _____ müde ins Bett.",
+          "en": "I crawl into bed, tired.",
+          "ans": "krieche",
+          "p": "ich"
+        }
+      ],
+      "tdist": [
+        "to crouch",
+        "to climb",
+        "to slide",
+        "to receive"
+      ],
+      "trans_note": "Motion verb — uses 'sein' in the Perfekt: ist gekrochen.",
+      "gram": {
+        "transitivity": "intransitive",
+        "case_requirements": [],
+        "notes_en": "kriechen is intransitive and uses 'sein' in the Perfekt (motion): 'Das Kind ist unter den Tisch gekrochen.'",
+        "dual_case": false
+      },
+      "tags": [
+        "movement",
+        "b1"
+      ]
+    },
+    {
+      "root": "stoßen",
+      "english": "to push / to bump / (auf etwas) to come across",
+      "type": "strong",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 132,
+      "sep": null,
+      "pres": [
+        "stoße",
+        "stößt",
+        "stößt",
+        "stoßen",
+        "stoßt",
+        "stoßen"
+      ],
+      "praet": [
+        "stieß",
+        "stießest",
+        "stieß",
+        "stießen",
+        "stießt",
+        "stießen"
+      ],
+      "pp": "gestoßen",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Ich _____ mich immer an dieser Ecke.",
+          "en": "I always bump myself on this corner.",
+          "ans": "stoße",
+          "p": "ich"
+        },
+        {
+          "de": "Sie _____ beim Aufräumen auf alte Fotos.",
+          "en": "While tidying up, she comes across old photos.",
+          "ans": "stößt",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "Du _____ mich ja um!",
+          "en": "You're knocking me over!",
+          "ans": "stößt",
+          "p": "du"
+        }
+      ],
+      "tdist": [
+        "to stop",
+        "to stack",
+        "to sting",
+        "to stumble"
+      ],
+      "trans_note": "du/er forms are identical: stößt. 'auf etwas stoßen' (to come across) takes sein in the Perfekt.",
+      "gram": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "stoßen (to push/bump) takes accusative and 'haben'. The very common idiom 'auf etwas (Akk) stoßen' = to come across something takes 'sein': 'Ich bin auf einen Artikel gestoßen.'",
+        "dual_case": false
+      },
+      "tags": [
+        "movement",
+        "reading",
+        "b1"
+      ]
+    },
+    {
+      "root": "aussteigen",
+      "english": "to get off / to get out / to opt out",
+      "type": "strong",
+      "cefr": "A2",
+      "unlock": 2,
+      "freq": 133,
+      "sep": "aus",
+      "pres": [
+        "steige",
+        "steigst",
+        "steigt",
+        "steigen",
+        "steigt",
+        "steigen"
+      ],
+      "praet": [
+        "stieg",
+        "stiegst",
+        "stieg",
+        "stiegen",
+        "stiegt",
+        "stiegen"
+      ],
+      "pp": "ausgestiegen",
+      "aux": "sein",
+      "sent": [
+        {
+          "de": "Ich _____ an der nächsten Haltestelle _____.",
+          "en": "I get off at the next stop.",
+          "ans": "steige ... aus",
+          "p": "ich"
+        },
+        {
+          "de": "Wir _____ am Hauptbahnhof _____.",
+          "en": "We get off at the main station.",
+          "ans": "steigen ... aus",
+          "p": "wir"
+        },
+        {
+          "de": "_____ du hier _____?",
+          "en": "Are you getting off here?",
+          "ans": "Steigst ... aus",
+          "p": "du"
+        }
+      ],
+      "tdist": [
+        "to get on",
+        "to climb up",
+        "to move out",
+        "to give up"
+      ],
+      "trans_note": "Separable. Opposite: einsteigen (to get on/in).",
+      "gram": {
+        "transitivity": "intransitive",
+        "case_requirements": [],
+        "notes_en": "aussteigen is intransitive, uses 'sein' in the Perfekt: 'Er ist am Bahnhof ausgestiegen.' From: aus + Dativ ('aus dem Bus aussteigen').",
+        "dual_case": false
+      },
+      "tags": [
+        "travel",
+        "essential",
+        "a2"
+      ]
+    },
+    {
+      "root": "beklagen",
+      "english": "to lament / (sich) to complain about",
+      "type": "weak",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 134,
+      "sep": null,
+      "pres": [
+        "beklage",
+        "beklagst",
+        "beklagt",
+        "beklagen",
+        "beklagt",
+        "beklagen"
+      ],
+      "praet": "beklagte",
+      "pp": "beklagt",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Ich kann mich über die Arbeit nicht _____.",
+          "en": "I can't complain about the work.",
+          "ans": "beklagen",
+          "p": "inf"
+        },
+        {
+          "de": "Die Anwohner _____ sich über den Lärm.",
+          "en": "The residents complain about the noise.",
+          "ans": "beklagen",
+          "p": "sie_Sie"
+        },
+        {
+          "de": "Er _____ den Verlust seines Freundes.",
+          "en": "He laments the loss of his friend.",
+          "ans": "beklagt",
+          "p": "er_sie_es"
+        }
+      ],
+      "tdist": [
+        "to accuse",
+        "to applaud",
+        "to answer",
+        "to explain"
+      ],
+      "trans_note": "Inseparable. Reflexive 'sich beklagen über' = to complain about.",
+      "gram": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "beklagen takes an accusative object in the 'lament' sense. Reflexive: 'sich beklagen über' + Akkusativ = to complain about. More formal than 'sich beschweren'.",
+        "dual_case": false
+      },
+      "tags": [
+        "formal",
+        "b2"
+      ]
+    },
+    {
+      "root": "mitteilen",
+      "english": "to inform / to notify",
+      "type": "weak",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 135,
+      "sep": "mit",
+      "pres": [
+        "teile",
+        "teilst",
+        "teilt",
+        "teilen",
+        "teilt",
+        "teilen"
+      ],
+      "praet": "teilte",
+      "pp": "mitgeteilt",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Ich _____ dir das Ergebnis morgen _____.",
+          "en": "I will inform you of the result tomorrow.",
+          "ans": "teile ... mit",
+          "p": "ich"
+        },
+        {
+          "de": "Die Schule _____ den Eltern den Termin _____.",
+          "en": "The school notifies the parents of the date.",
+          "ans": "teilt ... mit",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "Können Sie mir Ihre Entscheidung schriftlich _____?",
+          "en": "Can you inform me of your decision in writing?",
+          "ans": "mitteilen",
+          "p": "inf"
+        }
+      ],
+      "tdist": [
+        "to share",
+        "to divide",
+        "to take part",
+        "to distribute"
+      ],
+      "trans_note": "Separable. Don't confuse with teilen (to share/divide).",
+      "gram": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative",
+          "dative"
+        ],
+        "notes_en": "mitteilen takes dative (person) + accusative (information): 'Ich teile dir (Dat) die Neuigkeit (Akk) mit.' Related noun: die Mitteilung (notification).",
+        "dual_case": false
+      },
+      "tags": [
+        "communication",
+        "formal",
+        "b1"
+      ]
+    },
+    {
+      "root": "umdrehen",
+      "english": "to turn around / to turn over",
+      "type": "weak",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 136,
+      "sep": "um",
+      "pres": [
+        "drehe",
+        "drehst",
+        "dreht",
+        "drehen",
+        "dreht",
+        "drehen"
+      ],
+      "praet": "drehte",
+      "pp": "umgedreht",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Ich _____ mich noch einmal _____.",
+          "en": "I turn around one more time.",
+          "ans": "drehe ... um",
+          "p": "ich"
+        },
+        {
+          "de": "Er _____ den Schlüssel im Schloss _____.",
+          "en": "He turns the key in the lock.",
+          "ans": "dreht ... um",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "_____ du bitte das Fleisch in der Pfanne _____?",
+          "en": "Will you please turn over the meat in the pan?",
+          "ans": "Drehst ... um",
+          "p": "du"
+        }
+      ],
+      "tdist": [
+        "to move around",
+        "to fall over",
+        "to turn on",
+        "to surround"
+      ],
+      "trans_note": "Separable. Reflexive 'sich umdrehen' = to turn around (oneself).",
+      "gram": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "umdrehen takes an accusative object: 'das Blatt umdrehen.' Reflexive: 'Ich drehe mich um' = I turn around.",
+        "dual_case": false
+      },
+      "tags": [
+        "movement",
+        "everyday",
+        "b1"
+      ]
+    },
+    {
+      "root": "überqueren",
+      "english": "to cross (a street, a river)",
+      "type": "weak",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 137,
+      "sep": null,
+      "pres": [
+        "überquere",
+        "überquerst",
+        "überquert",
+        "überqueren",
+        "überquert",
+        "überqueren"
+      ],
+      "praet": "überquerte",
+      "pp": "überquert",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Ich _____ die Straße nur bei Grün.",
+          "en": "I only cross the street when the light is green.",
+          "ans": "überquere",
+          "p": "ich"
+        },
+        {
+          "de": "Das Schiff _____ den Atlantik in sieben Tagen.",
+          "en": "The ship crosses the Atlantic in seven days.",
+          "ans": "überquert",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "Hier _____ viele Kinder die Straße.",
+          "en": "Many children cross the street here.",
+          "ans": "überqueren",
+          "p": "sie_Sie"
+        }
+      ],
+      "tdist": [
+        "to overtake",
+        "to convince",
+        "to transfer",
+        "to skip"
+      ],
+      "trans_note": "Inseparable — 'über' never detaches here: Ich überquere die Straße.",
+      "gram": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "überqueren takes an accusative object: 'die Straße überqueren.' Inseparable — Partizip II without ge-: überquert.",
+        "dual_case": false
+      },
+      "tags": [
+        "movement",
+        "everyday",
+        "b1"
+      ]
+    },
+    {
+      "root": "sperren",
+      "english": "to block / to close off / to lock",
+      "type": "weak",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 138,
+      "sep": null,
+      "pres": [
+        "sperre",
+        "sperrst",
+        "sperrt",
+        "sperren",
+        "sperrt",
+        "sperren"
+      ],
+      "praet": "sperrte",
+      "pp": "gesperrt",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Die Polizei _____ die Straße.",
+          "en": "The police close off the street.",
+          "ans": "sperrt",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "Ich _____ die Kreditkarte sofort.",
+          "en": "I block the credit card immediately.",
+          "ans": "sperre",
+          "p": "ich"
+        },
+        {
+          "de": "Sie _____ den Zugang zur Baustelle.",
+          "en": "They block access to the construction site.",
+          "ans": "sperren",
+          "p": "sie_Sie"
+        }
+      ],
+      "tdist": [
+        "to save",
+        "to spread",
+        "to feel",
+        "to jump"
+      ],
+      "trans_note": "Very common in the news and traffic reports: gesperrt = closed.",
+      "gram": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "sperren takes an accusative object: 'eine Straße sperren', 'ein Konto sperren.' The Partizip 'gesperrt' is everywhere on signs and in traffic news.",
+        "dual_case": false
+      },
+      "tags": [
+        "news",
+        "everyday",
+        "b1"
+      ]
+    },
+    {
+      "root": "spüren",
+      "english": "to feel / to sense",
+      "type": "weak",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 139,
+      "sep": null,
+      "pres": [
+        "spüre",
+        "spürst",
+        "spürt",
+        "spüren",
+        "spürt",
+        "spüren"
+      ],
+      "praet": "spürte",
+      "pp": "gespürt",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Ich _____ die Kälte an den Händen.",
+          "en": "I feel the cold on my hands.",
+          "ans": "spüre",
+          "p": "ich"
+        },
+        {
+          "de": "_____ du den Wind?",
+          "en": "Do you feel the wind?",
+          "ans": "Spürst",
+          "p": "du"
+        },
+        {
+          "de": "Man _____ sofort, dass er nervös ist.",
+          "en": "One senses immediately that he is nervous.",
+          "ans": "spürt",
+          "p": "er_sie_es"
+        }
+      ],
+      "tdist": [
+        "to track",
+        "to hear",
+        "to save",
+        "to taste"
+      ],
+      "trans_note": "Physical or intuitive feeling. fühlen = emotional feeling.",
+      "gram": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "spüren takes an accusative object: 'Schmerz spüren.' Compared to fühlen it leans towards physical sensation and intuition: 'Ich spüre, dass etwas nicht stimmt.'",
+        "dual_case": false
+      },
+      "tags": [
+        "senses",
+        "b1"
+      ]
+    },
+    {
+      "root": "abbiegen",
+      "english": "to turn (off) — driving / walking",
+      "type": "strong",
+      "cefr": "A2",
+      "unlock": 2,
+      "freq": 140,
+      "sep": "ab",
+      "pres": [
+        "biege",
+        "biegst",
+        "biegt",
+        "biegen",
+        "biegt",
+        "biegen"
+      ],
+      "praet": [
+        "bog",
+        "bogst",
+        "bog",
+        "bogen",
+        "bogt",
+        "bogen"
+      ],
+      "pp": "abgebogen",
+      "aux": "sein",
+      "sent": [
+        {
+          "de": "Ich _____ an der Ampel links _____.",
+          "en": "I turn left at the traffic light.",
+          "ans": "biege ... ab",
+          "p": "ich"
+        },
+        {
+          "de": "Der Bus _____ hier rechts _____.",
+          "en": "The bus turns right here.",
+          "ans": "biegt ... ab",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "_____ wir an der nächsten Kreuzung _____?",
+          "en": "Do we turn at the next intersection?",
+          "ans": "Biegen ... ab",
+          "p": "wir"
+        }
+      ],
+      "tdist": [
+        "to bend down",
+        "to stop",
+        "to reverse",
+        "to overtake"
+      ],
+      "trans_note": "Separable. Uses 'sein' in the Perfekt: Er ist links abgebogen.",
+      "gram": {
+        "transitivity": "intransitive",
+        "case_requirements": [],
+        "notes_en": "abbiegen is intransitive and uses 'sein' in the Perfekt (change of direction): 'Sie ist rechts abgebogen.' Essential for directions.",
+        "dual_case": false
+      },
+      "tags": [
+        "travel",
+        "essential",
+        "a2"
+      ]
+    },
+    {
+      "root": "entwaffnen",
+      "english": "to disarm",
+      "type": "weak",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 141,
+      "sep": null,
+      "pres": [
+        "entwaffne",
+        "entwaffnest",
+        "entwaffnet",
+        "entwaffnen",
+        "entwaffnet",
+        "entwaffnen"
+      ],
+      "praet": "entwaffnete",
+      "pp": "entwaffnet",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Die Polizei _____ den Täter.",
+          "en": "The police disarm the perpetrator.",
+          "ans": "entwaffnet",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "Die Soldaten _____ die Rebellen.",
+          "en": "The soldiers disarm the rebels.",
+          "ans": "entwaffnen",
+          "p": "sie_Sie"
+        },
+        {
+          "de": "Er _____ seine Kritiker mit Humor.",
+          "en": "He disarms his critics with humour.",
+          "ans": "entwaffnet",
+          "p": "er_sie_es"
+        }
+      ],
+      "tdist": [
+        "to develop",
+        "to escape",
+        "to threaten",
+        "to arrest"
+      ],
+      "trans_note": "Inseparable. Often figurative: ein entwaffnendes Lächeln = a disarming smile.",
+      "gram": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "entwaffnen takes an accusative object. From die Waffe (weapon). Figurative use is common: 'Ihre Ehrlichkeit entwaffnet mich.'",
+        "dual_case": false
+      },
+      "tags": [
+        "news",
+        "b2"
+      ]
+    },
+    {
+      "root": "abhaken",
+      "english": "to tick off / to check off / to put behind oneself",
+      "type": "weak",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 142,
+      "sep": "ab",
+      "pres": [
+        "hake",
+        "hakst",
+        "hakt",
+        "haken",
+        "hakt",
+        "haken"
+      ],
+      "praet": "hakte",
+      "pp": "abgehakt",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Ich _____ die erledigten Aufgaben _____.",
+          "en": "I tick off the completed tasks.",
+          "ans": "hake ... ab",
+          "p": "ich"
+        },
+        {
+          "de": "Das Thema können wir jetzt _____.",
+          "en": "We can check that topic off now.",
+          "ans": "abhaken",
+          "p": "inf"
+        },
+        {
+          "de": "Sie _____ jeden Punkt auf der Liste _____.",
+          "en": "She ticks off every item on the list.",
+          "ans": "hakt ... ab",
+          "p": "er_sie_es"
+        }
+      ],
+      "tdist": [
+        "to hang up",
+        "to hold on",
+        "to write down",
+        "to unpack"
+      ],
+      "trans_note": "Separable. Figurative: etwas abhaken = to be done with something emotionally.",
+      "gram": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "abhaken takes an accusative object: 'eine Liste abhaken.' Figuratively: 'Das Thema ist für mich abgehakt' = I'm done with it.",
+        "dual_case": false
+      },
+      "tags": [
+        "everyday",
+        "colloquial",
+        "b2"
+      ]
+    },
+    {
+      "root": "ablenken",
+      "english": "to distract",
+      "type": "weak",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 143,
+      "sep": "ab",
+      "pres": [
+        "lenke",
+        "lenkst",
+        "lenkt",
+        "lenken",
+        "lenkt",
+        "lenken"
+      ],
+      "praet": "lenkte",
+      "pp": "abgelenkt",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Das Handy _____ mich beim Lernen _____.",
+          "en": "My phone distracts me while studying.",
+          "ans": "lenkt ... ab",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "Ich lasse mich leicht _____.",
+          "en": "I get distracted easily.",
+          "ans": "ablenken",
+          "p": "inf"
+        },
+        {
+          "de": "Du _____ mich ständig von der Arbeit _____.",
+          "en": "You constantly distract me from my work.",
+          "ans": "lenkst ... ab",
+          "p": "du"
+        }
+      ],
+      "tdist": [
+        "to steer",
+        "to slow down",
+        "to encourage",
+        "to interrupt"
+      ],
+      "trans_note": "Separable. Partizip as adjective: abgelenkt = distracted.",
+      "gram": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "ablenken takes an accusative object, source with 'von' + Dativ: 'Das lenkt mich von der Arbeit ab.' Also: sich ablenken = to take one's mind off things.",
+        "dual_case": false
+      },
+      "tags": [
+        "everyday",
+        "psychology",
+        "b1"
+      ]
+    },
+    {
+      "root": "anwerben",
+      "english": "to recruit",
+      "type": "strong",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 144,
+      "sep": "an",
+      "pres": [
+        "werbe",
+        "wirbst",
+        "wirbt",
+        "werben",
+        "werbt",
+        "werben"
+      ],
+      "praet": [
+        "warb",
+        "warbst",
+        "warb",
+        "warben",
+        "warbt",
+        "warben"
+      ],
+      "pp": "angeworben",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Die Firma _____ neue Mitarbeiter im Ausland _____.",
+          "en": "The company recruits new employees abroad.",
+          "ans": "wirbt ... an",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "Wir _____ jedes Jahr Freiwillige _____.",
+          "en": "We recruit volunteers every year.",
+          "ans": "werben ... an",
+          "p": "wir"
+        },
+        {
+          "de": "Der Verein will junge Talente _____.",
+          "en": "The club wants to recruit young talents.",
+          "ans": "anwerben",
+          "p": "inf"
+        }
+      ],
+      "tdist": [
+        "to apply for",
+        "to advertise a product",
+        "to reject",
+        "to train"
+      ],
+      "trans_note": "Separable, vowel change: du wirbst an, er wirbt an.",
+      "gram": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "anwerben takes an accusative object: 'Arbeitskräfte anwerben.' Historically important word: Gastarbeiter wurden angeworben.",
+        "dual_case": false
+      },
+      "tags": [
+        "work",
+        "society",
+        "b2"
+      ]
+    },
+    {
+      "root": "folgen",
+      "english": "to follow",
+      "type": "weak",
+      "cefr": "A2",
+      "unlock": 2,
+      "freq": 145,
+      "sep": null,
+      "pres": [
+        "folge",
+        "folgst",
+        "folgt",
+        "folgen",
+        "folgt",
+        "folgen"
+      ],
+      "praet": "folgte",
+      "pp": "gefolgt",
+      "aux": "sein",
+      "sent": [
+        {
+          "de": "Ich _____ dir auf Instagram.",
+          "en": "I follow you on Instagram.",
+          "ans": "folge",
+          "p": "ich"
+        },
+        {
+          "de": "Der Hund _____ seinem Besitzer überallhin.",
+          "en": "The dog follows its owner everywhere.",
+          "ans": "folgt",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "_____ ihr noch dem Unterricht?",
+          "en": "Are you (pl.) still following the lesson?",
+          "ans": "Folgt",
+          "p": "ihr"
+        }
+      ],
+      "tdist": [
+        "to fill",
+        "to demand",
+        "to lead",
+        "to catch up"
+      ],
+      "trans_note": "Takes the dative! Ich folge DIR. Uses 'sein' in the Perfekt.",
+      "gram": {
+        "transitivity": "intransitive",
+        "case_requirements": [
+          "dative"
+        ],
+        "notes_en": "folgen takes the dative: 'Ich folge dem Weg.' Uses 'sein' in the Perfekt: 'Er ist mir gefolgt.' Also figurative: einer Regel folgen.",
+        "dual_case": false
+      },
+      "tags": [
+        "essential",
+        "a2"
+      ]
+    },
+    {
+      "root": "kennzeichnen",
+      "english": "to mark / to label / to characterize",
+      "type": "weak",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 146,
+      "sep": null,
+      "pres": [
+        "kennzeichne",
+        "kennzeichnest",
+        "kennzeichnet",
+        "kennzeichnen",
+        "kennzeichnet",
+        "kennzeichnen"
+      ],
+      "praet": "kennzeichnete",
+      "pp": "gekennzeichnet",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Wir _____ alle Pakete mit einem Aufkleber.",
+          "en": "We mark all parcels with a sticker.",
+          "ans": "kennzeichnen",
+          "p": "wir"
+        },
+        {
+          "de": "Der Hersteller _____ die Allergene auf der Verpackung.",
+          "en": "The manufacturer labels the allergens on the packaging.",
+          "ans": "kennzeichnet",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "Ironie _____ seinen Schreibstil.",
+          "en": "Irony characterizes his writing style.",
+          "ans": "kennzeichnet",
+          "p": "er_sie_es"
+        }
+      ],
+      "tdist": [
+        "to know someone",
+        "to teach",
+        "to draw",
+        "to name"
+      ],
+      "trans_note": "Partizip II with ge-: gekennzeichnet (kennzeichnen is a compound of Kennzeichen, not a prefix verb).",
+      "gram": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "kennzeichnen takes an accusative object. Passive very common in formal texts: 'Die Produkte sind deutlich gekennzeichnet.'",
+        "dual_case": false
+      },
+      "tags": [
+        "formal",
+        "b2"
+      ]
+    },
+    {
+      "root": "nennen",
+      "english": "to name / to call (someone something)",
+      "type": "mixed",
+      "cefr": "A2",
+      "unlock": 2,
+      "freq": 148,
+      "sep": null,
+      "pres": [
+        "nenne",
+        "nennst",
+        "nennt",
+        "nennen",
+        "nennt",
+        "nennen"
+      ],
+      "praet": [
+        "nannte",
+        "nanntest",
+        "nannte",
+        "nannten",
+        "nanntet",
+        "nannten"
+      ],
+      "pp": "genannt",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Er _____ mich immer „Chef“.",
+          "en": "He always calls me \"boss\".",
+          "ans": "nennt",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "Wir _____ unsere Tochter Emma.",
+          "en": "We are naming our daughter Emma.",
+          "ans": "nennen",
+          "p": "wir"
+        },
+        {
+          "de": "_____ du mir drei Beispiele?",
+          "en": "Can you name three examples for me?",
+          "ans": "Nennst",
+          "p": "du"
+        }
+      ],
+      "tdist": [
+        "to take",
+        "to know",
+        "to mention casually",
+        "to shout"
+      ],
+      "trans_note": "Mixed verb: regular endings but stem change in the past — nannte, genannt.",
+      "gram": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "nennen takes a double accusative: 'Er nennt mich (Akk) einen Freund (Akk).' Mixed conjugation: nennen — nannte — genannt.",
+        "dual_case": false
+      },
+      "tags": [
+        "essential",
+        "communication",
+        "a2"
+      ]
+    },
+    {
+      "root": "abzielen",
+      "english": "to aim at / to be aimed at (auf + Akk)",
+      "type": "weak",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 149,
+      "sep": "ab",
+      "pres": [
+        "ziele",
+        "zielst",
+        "zielt",
+        "zielen",
+        "zielt",
+        "zielen"
+      ],
+      "praet": "zielte",
+      "pp": "abgezielt",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Die Kampagne _____ auf junge Leute _____.",
+          "en": "The campaign is aimed at young people.",
+          "ans": "zielt ... ab",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "Diese Maßnahmen _____ auf mehr Sicherheit _____.",
+          "en": "These measures aim at more security.",
+          "ans": "zielen ... ab",
+          "p": "sie_Sie"
+        },
+        {
+          "de": "Worauf _____ deine Frage _____?",
+          "en": "What is your question aiming at?",
+          "ans": "zielt ... ab",
+          "p": "er_sie_es"
+        }
+      ],
+      "tdist": [
+        "to give up",
+        "to point out",
+        "to accuse",
+        "to strive"
+      ],
+      "trans_note": "Separable. Almost always with 'auf' + Akkusativ.",
+      "gram": {
+        "transitivity": "intransitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "abzielen is used with 'auf' + Akkusativ: 'Die Werbung zielt auf Kinder ab.' The accusative comes from the preposition auf.",
+        "dual_case": false
+      },
+      "tags": [
+        "abstract",
+        "b2"
+      ]
+    },
+    {
+      "root": "begleiten",
+      "english": "to accompany",
+      "type": "weak",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 150,
+      "sep": null,
+      "pres": [
+        "begleite",
+        "begleitest",
+        "begleitet",
+        "begleiten",
+        "begleitet",
+        "begleiten"
+      ],
+      "praet": "begleitete",
+      "pp": "begleitet",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Ich _____ dich zum Bahnhof.",
+          "en": "I accompany you to the station.",
+          "ans": "begleite",
+          "p": "ich"
+        },
+        {
+          "de": "Musik _____ uns durch den ganzen Tag.",
+          "en": "Music accompanies us through the whole day.",
+          "ans": "begleitet",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "_____ du mich zur Party?",
+          "en": "Will you accompany me to the party?",
+          "ans": "Begleitest",
+          "p": "du"
+        }
+      ],
+      "tdist": [
+        "to believe",
+        "to belong",
+        "to complain",
+        "to congratulate"
+      ],
+      "trans_note": "Inseparable — no ge- in the Partizip II: begleitet.",
+      "gram": {
+        "transitivity": "transitive",
+        "case_requirements": [
+          "accusative"
+        ],
+        "notes_en": "begleiten takes an accusative object: 'Ich begleite dich.' Related noun: der Begleiter / die Begleitung.",
+        "dual_case": false
+      },
+      "tags": [
+        "social",
+        "everyday",
+        "b1"
+      ]
+    }
+  ]
+}

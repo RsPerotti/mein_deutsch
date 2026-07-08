@@ -1,0 +1,985 @@
+{
+  "_schema": "Noun seeds part 2.",
+  "nouns": [
+    {
+      "word": "Stiftung",
+      "article": "die",
+      "english": "foundation (charitable)",
+      "plural": "Stiftungen",
+      "genitive": "der Stiftung",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 205,
+      "tags": [
+        "society",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Die _____ unterstützt junge Künstler mit Stipendien.",
+          "en": "The foundation supports young artists with scholarships."
+        },
+        {
+          "de": "Er gründete eine _____ für den Umweltschutz.",
+          "en": "He founded a foundation for environmental protection."
+        }
+      ],
+      "tdist": [
+        "donation",
+        "pen",
+        "corporation",
+        "charity event"
+      ],
+      "ddist": [
+        "Spende",
+        "Siedlung",
+        "Sitzung",
+        "Sammlung"
+      ],
+      "note": "From stiften (to donate/endow). Famous example: Stiftung Warentest. Don't confuse with der Stift (pen)."
+    },
+    {
+      "word": "Stift",
+      "article": "der",
+      "english": "pen / pencil",
+      "plural": "Stifte",
+      "genitive": "des Stifts",
+      "cefr": "A2",
+      "unlock": 2,
+      "freq": 206,
+      "tags": [
+        "everyday",
+        "school",
+        "a2"
+      ],
+      "sent": [
+        {
+          "de": "Kannst du mir einen _____ leihen?",
+          "en": "Can you lend me a pen?"
+        },
+        {
+          "de": "Der _____ schreibt nicht mehr.",
+          "en": "The pen doesn't write anymore."
+        }
+      ],
+      "tdist": [
+        "foundation",
+        "notebook",
+        "sheet of paper",
+        "ruler"
+      ],
+      "ddist": [
+        "Heft",
+        "Blatt",
+        "Lineal",
+        "Radiergummi"
+      ],
+      "note": "Umbrella word for pens and pencils: Bleistift, Kugelschreiber, Filzstift. Don't confuse with die Stiftung (foundation)."
+    },
+    {
+      "word": "Teilhabe",
+      "article": "die",
+      "english": "participation / inclusion (in society)",
+      "plural": "",
+      "genitive": "der Teilhabe",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 207,
+      "tags": [
+        "society",
+        "formal",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Das Gesetz soll die _____ von Menschen mit Behinderung verbessern.",
+          "en": "The law is meant to improve the participation of people with disabilities."
+        },
+        {
+          "de": "Bildung ist der Schlüssel zur gesellschaftlichen _____.",
+          "en": "Education is the key to participation in society."
+        }
+      ],
+      "tdist": [
+        "partition",
+        "sympathy",
+        "membership fee",
+        "contribution"
+      ],
+      "ddist": [
+        "Teilnahme",
+        "Anteilnahme",
+        "Mitgliedschaft",
+        "Zugehörigkeit"
+      ],
+      "note": "Political/social term: gesellschaftliche Teilhabe. Compare: die Teilnahme (taking part in an event), die Anteilnahme (sympathy)."
+    },
+    {
+      "word": "Pflicht",
+      "article": "die",
+      "english": "duty / obligation",
+      "plural": "Pflichten",
+      "genitive": "der Pflicht",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 208,
+      "tags": [
+        "society",
+        "essential",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Es ist meine _____, dir die Wahrheit zu sagen.",
+          "en": "It is my duty to tell you the truth."
+        },
+        {
+          "de": "Eltern haben Rechte und _____.",
+          "en": "Parents have rights and duties."
+        }
+      ],
+      "tdist": [
+        "right",
+        "permission",
+        "wish",
+        "rule"
+      ],
+      "ddist": [
+        "Recht",
+        "Regel",
+        "Erlaubnis",
+        "Aufgabe"
+      ],
+      "note": "Opposite pair: Rechte und Pflichten. Compounds: Schulpflicht, Versicherungspflicht, Pflichtfach."
+    },
+    {
+      "word": "Geflüchtete",
+      "article": "der",
+      "english": "refugee (adjectival noun)",
+      "plural": "Geflüchteten",
+      "genitive": "des Geflüchteten",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 209,
+      "tags": [
+        "society",
+        "news",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Viele _____ lernen sehr schnell Deutsch.",
+          "en": "Many refugees learn German very quickly."
+        },
+        {
+          "de": "Die Stadt stellt Wohnungen für _____ bereit.",
+          "en": "The city provides apartments for refugees."
+        }
+      ],
+      "tdist": [
+        "emigrant",
+        "foreigner",
+        "traveller",
+        "immigrant officer"
+      ],
+      "ddist": [
+        "Auswanderer",
+        "Ausländer",
+        "Einheimische",
+        "Reisende"
+      ],
+      "note": "Adjectival noun from geflüchtet: der/die Geflüchtete, plural die Geflüchteten, ein Geflüchteter. Increasingly preferred over der Flüchtling in current usage."
+    },
+    {
+      "word": "Bezug",
+      "article": "der",
+      "english": "reference / relation; cover; purchase",
+      "plural": "Bezüge",
+      "genitive": "des Bezugs",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 210,
+      "tags": [
+        "formal",
+        "abstract",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "In _____ auf Ihre Frage kann ich Folgendes sagen.",
+          "en": "With regard to your question, I can say the following."
+        },
+        {
+          "de": "Der Artikel hat keinen _____ zur Realität.",
+          "en": "The article has no connection to reality."
+        }
+      ],
+      "tdist": [
+        "district",
+        "payment",
+        "contract",
+        "content"
+      ],
+      "ddist": [
+        "Bericht",
+        "Begriff",
+        "Beweis",
+        "Bereich"
+      ],
+      "note": "Key formal pattern: in Bezug auf + Akk = with regard to. Related verb: sich beziehen auf. Also: der Kissenbezug (pillowcase)!"
+    },
+    {
+      "word": "Berechnung",
+      "article": "die",
+      "english": "calculation",
+      "plural": "Berechnungen",
+      "genitive": "der Berechnung",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 211,
+      "tags": [
+        "numbers",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Nach meiner _____ brauchen wir noch zwei Stunden.",
+          "en": "According to my calculation we need two more hours."
+        },
+        {
+          "de": "Die _____ der Kosten dauert einen Moment.",
+          "en": "Calculating the costs takes a moment."
+        }
+      ],
+      "tdist": [
+        "estimate (rough)",
+        "measurement",
+        "payment",
+        "counting rhyme"
+      ],
+      "ddist": [
+        "Rechnung",
+        "Schätzung",
+        "Messung",
+        "Zählung"
+      ],
+      "note": "From berechnen. Also figurative: aus Berechnung handeln = to act out of calculation/self-interest."
+    },
+    {
+      "word": "Umweltschützer",
+      "article": "der",
+      "english": "environmentalist",
+      "plural": "Umweltschützer",
+      "genitive": "des Umweltschützers",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 212,
+      "tags": [
+        "environment",
+        "society",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Die _____ protestieren gegen das neue Kraftwerk.",
+          "en": "The environmentalists protest against the new power plant."
+        },
+        {
+          "de": "Als _____ fährt er nur mit dem Fahrrad.",
+          "en": "As an environmentalist he only travels by bike."
+        }
+      ],
+      "tdist": [
+        "environment ministry",
+        "polluter",
+        "forest ranger",
+        "weather researcher"
+      ],
+      "ddist": [
+        "Umweltverschmutzer",
+        "Naturforscher",
+        "Förster",
+        "Klimaforscher"
+      ],
+      "note": "die Umwelt + der Schützer (protector, from schützen). Female form: die Umweltschützerin."
+    },
+    {
+      "word": "Erfassung",
+      "article": "die",
+      "english": "recording / registration (of data)",
+      "plural": "Erfassungen",
+      "genitive": "der Erfassung",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 213,
+      "tags": [
+        "formal",
+        "technology",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Die _____ der Daten erfolgt automatisch.",
+          "en": "The data is recorded automatically."
+        },
+        {
+          "de": "Für die _____ neuer Mitglieder nutzen wir ein Formular.",
+          "en": "We use a form for registering new members."
+        }
+      ],
+      "tdist": [
+        "deletion",
+        "evaluation",
+        "transmission",
+        "printing"
+      ],
+      "ddist": [
+        "Erhebung",
+        "Auswertung",
+        "Übertragung",
+        "Löschung"
+      ],
+      "note": "From erfassen (to capture/record). Bureaucratic staple: Datenerfassung, Zeiterfassung."
+    },
+    {
+      "word": "Erhebung",
+      "article": "die",
+      "english": "survey / collection (of data); elevation",
+      "plural": "Erhebungen",
+      "genitive": "der Erhebung",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 214,
+      "tags": [
+        "formal",
+        "numbers",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Laut einer aktuellen _____ lesen Jugendliche weniger Bücher.",
+          "en": "According to a recent survey, young people read fewer books."
+        },
+        {
+          "de": "Die _____ der Steuern ist Aufgabe des Finanzamts.",
+          "en": "Collecting taxes is the tax office's job."
+        }
+      ],
+      "tdist": [
+        "reduction",
+        "distribution",
+        "estimate",
+        "excavation"
+      ],
+      "ddist": [
+        "Umfrage",
+        "Erfassung",
+        "Senkung",
+        "Ausgrabung"
+      ],
+      "note": "From erheben (to raise/levy). Statistics: eine Erhebung durchführen = to conduct a survey. Compare: die Umfrage (poll)."
+    },
+    {
+      "word": "Regal",
+      "article": "das",
+      "english": "shelf / shelving unit",
+      "plural": "Regale",
+      "genitive": "des Regals",
+      "cefr": "A2",
+      "unlock": 2,
+      "freq": 215,
+      "tags": [
+        "home",
+        "everyday",
+        "a2"
+      ],
+      "sent": [
+        {
+          "de": "Das Buch steht im _____ ganz oben.",
+          "en": "The book is on the top shelf."
+        },
+        {
+          "de": "Wir brauchen ein neues _____ für die Küche.",
+          "en": "We need a new shelf for the kitchen."
+        }
+      ],
+      "tdist": [
+        "drawer",
+        "cupboard",
+        "table",
+        "rule"
+      ],
+      "ddist": [
+        "Schrank",
+        "Schublade",
+        "Tisch",
+        "Spiegel"
+      ],
+      "note": "Everyday furniture word: das Bücherregal, das Supermarktregal."
+    },
+    {
+      "word": "Säure",
+      "article": "die",
+      "english": "acid",
+      "plural": "Säuren",
+      "genitive": "der Säure",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 216,
+      "tags": [
+        "science",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Die _____ greift das Metall an.",
+          "en": "The acid attacks the metal."
+        },
+        {
+          "de": "Zitronen enthalten viel _____.",
+          "en": "Lemons contain a lot of acid."
+        }
+      ],
+      "tdist": [
+        "alkali",
+        "salt",
+        "juice",
+        "sugar"
+      ],
+      "ddist": [
+        "Lauge",
+        "Salz",
+        "Seife",
+        "Zucker"
+      ],
+      "note": "From sauer (sour/acidic). Chemistry and cooking: Magensäure, Zitronensäure."
+    },
+    {
+      "word": "Farbdruck",
+      "article": "der",
+      "english": "colour print / colour printing",
+      "plural": "Farbdrucke",
+      "genitive": "des Farbdrucks",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 217,
+      "tags": [
+        "media",
+        "technology",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Der _____ ist deutlich teurer als Schwarz-Weiß.",
+          "en": "Colour printing is significantly more expensive than black and white."
+        },
+        {
+          "de": "An der Wand hängt ein alter _____ von Monet.",
+          "en": "An old colour print by Monet hangs on the wall."
+        }
+      ],
+      "tdist": [
+        "colour palette",
+        "paint pressure",
+        "photograph",
+        "poster"
+      ],
+      "ddist": [
+        "Ausdruck",
+        "Abdruck",
+        "Eindruck",
+        "Aufdruck"
+      ],
+      "note": "die Farbe + der Druck. Note the -druck family: Ausdruck (expression), Eindruck (impression), Abdruck (imprint)."
+    },
+    {
+      "word": "Besitzer",
+      "article": "der",
+      "english": "owner",
+      "plural": "Besitzer",
+      "genitive": "des Besitzers",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 218,
+      "tags": [
+        "everyday",
+        "legal",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Der _____ des Autos hat falsch geparkt.",
+          "en": "The owner of the car parked illegally."
+        },
+        {
+          "de": "Das Café hat einen neuen _____.",
+          "en": "The café has a new owner."
+        }
+      ],
+      "tdist": [
+        "tenant",
+        "visitor",
+        "employee",
+        "customer"
+      ],
+      "ddist": [
+        "Mieter",
+        "Vermieter",
+        "Kunde",
+        "Verkäufer"
+      ],
+      "note": "From besitzen (to own). Female form: die Besitzerin. Legal nuance: Besitzer (possessor) vs Eigentümer (legal owner)."
+    },
+    {
+      "word": "Rechtsstreit",
+      "article": "der",
+      "english": "legal dispute / lawsuit",
+      "plural": "Rechtsstreite",
+      "genitive": "des Rechtsstreits",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 219,
+      "tags": [
+        "legal",
+        "news",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Der _____ zwischen den Firmen dauert schon drei Jahre.",
+          "en": "The legal dispute between the companies has been going on for three years."
+        },
+        {
+          "de": "Sie gewann den _____ um das Grundstück.",
+          "en": "She won the lawsuit over the property."
+        }
+      ],
+      "tdist": [
+        "law firm",
+        "verdict",
+        "crime",
+        "contract"
+      ],
+      "ddist": [
+        "Rechtsanwalt",
+        "Urteil",
+        "Vertrag",
+        "Verbrechen"
+      ],
+      "note": "das Recht + der Streit. Related: der Rechtsanwalt (lawyer), das Gericht (court), klagen (to sue)."
+    },
+    {
+      "word": "Absicht",
+      "article": "die",
+      "english": "intention",
+      "plural": "Absichten",
+      "genitive": "der Absicht",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 220,
+      "tags": [
+        "abstract",
+        "essential",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Das war keine _____ — es tut mir leid!",
+          "en": "That wasn't intentional — I'm sorry!"
+        },
+        {
+          "de": "Er hat die _____, im Ausland zu studieren.",
+          "en": "He intends to study abroad."
+        }
+      ],
+      "tdist": [
+        "accident",
+        "opinion",
+        "view",
+        "excuse"
+      ],
+      "ddist": [
+        "Ansicht",
+        "Aussicht",
+        "Ausrede",
+        "Ahnung"
+      ],
+      "note": "Key phrases: mit Absicht = on purpose; ohne Absicht = unintentionally. Watch the -sicht family: Ansicht, Aussicht, Einsicht."
+    },
+    {
+      "word": "Hürde",
+      "article": "die",
+      "english": "hurdle / obstacle",
+      "plural": "Hürden",
+      "genitive": "der Hürde",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 221,
+      "tags": [
+        "abstract",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Die Sprache ist die größte _____ für viele Einwanderer.",
+          "en": "The language is the biggest hurdle for many immigrants."
+        },
+        {
+          "de": "Der Läufer sprang elegant über jede _____.",
+          "en": "The runner jumped elegantly over every hurdle."
+        }
+      ],
+      "tdist": [
+        "ladder",
+        "barrier tape",
+        "step",
+        "finish line"
+      ],
+      "ddist": [
+        "Hindernis",
+        "Grenze",
+        "Mauer",
+        "Stufe"
+      ],
+      "note": "Sports and figurative: bürokratische Hürden. Near-synonym of das Hindernis, but Hürde implies something you can clear."
+    },
+    {
+      "word": "Hindernis",
+      "article": "das",
+      "english": "obstacle",
+      "plural": "Hindernisse",
+      "genitive": "des Hindernisses",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 222,
+      "tags": [
+        "abstract",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Ein umgestürzter Baum war das erste _____ auf dem Weg.",
+          "en": "A fallen tree was the first obstacle on the path."
+        },
+        {
+          "de": "Fehlendes Geld ist kein _____ für gute Ideen.",
+          "en": "A lack of money is no obstacle to good ideas."
+        }
+      ],
+      "tdist": [
+        "shortcut",
+        "detour",
+        "destination",
+        "warning sign"
+      ],
+      "ddist": [
+        "Hürde",
+        "Umweg",
+        "Ziel",
+        "Zeichen"
+      ],
+      "note": "From hindern (to hinder). Compare die Hürde: a Hürde can be cleared, a Hindernis blocks the way."
+    },
+    {
+      "word": "Schrittgeschwindigkeit",
+      "article": "die",
+      "english": "walking pace / walking speed",
+      "plural": "",
+      "genitive": "der Schrittgeschwindigkeit",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 223,
+      "tags": [
+        "traffic",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "In der Spielstraße gilt _____.",
+          "en": "In the play street, walking pace applies."
+        },
+        {
+          "de": "Die Autos kriechen im Stau mit _____ voran.",
+          "en": "The cars creep forward at walking pace in the traffic jam."
+        }
+      ],
+      "tdist": [
+        "speed limit",
+        "top speed",
+        "average speed",
+        "acceleration"
+      ],
+      "ddist": [
+        "Höchstgeschwindigkeit",
+        "Beschleunigung",
+        "Entfernung",
+        "Verspätung"
+      ],
+      "note": "der Schritt (step) + die Geschwindigkeit (speed). Traffic sign vocabulary: ca. 4–7 km/h."
+    },
+    {
+      "word": "Wahnsinn",
+      "article": "der",
+      "english": "madness / insanity; (colloquial) awesome",
+      "plural": "",
+      "genitive": "des Wahnsinns",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 224,
+      "tags": [
+        "colloquial",
+        "emotions",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Es wäre _____, bei diesem Sturm zu segeln.",
+          "en": "It would be madness to sail in this storm."
+        },
+        {
+          "de": "Du hast den Marathon geschafft? _____!",
+          "en": "You finished the marathon? Awesome!"
+        }
+      ],
+      "tdist": [
+        "wisdom",
+        "anger",
+        "nonsense",
+        "fun"
+      ],
+      "ddist": [
+        "Unsinn",
+        "Blödsinn",
+        "Zorn",
+        "Quatsch"
+      ],
+      "note": "Literal madness, but extremely common as an exclamation: Wahnsinn! = Wow! Adjective: wahnsinnig (insanely — wahnsinnig gut)."
+    },
+    {
+      "word": "Unzufriedenheit",
+      "article": "die",
+      "english": "dissatisfaction",
+      "plural": "",
+      "genitive": "der Unzufriedenheit",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 225,
+      "tags": [
+        "emotions",
+        "abstract",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Die _____ der Mitarbeiter wächst seit Monaten.",
+          "en": "The employees' dissatisfaction has been growing for months."
+        },
+        {
+          "de": "Aus _____ mit dem Service wechselte sie die Bank.",
+          "en": "Out of dissatisfaction with the service, she changed banks."
+        }
+      ],
+      "tdist": [
+        "satisfaction",
+        "tiredness",
+        "impatience",
+        "boredom"
+      ],
+      "ddist": [
+        "Zufriedenheit",
+        "Müdigkeit",
+        "Ungeduld",
+        "Langeweile"
+      ],
+      "note": "un- + zufrieden + -heit. Pattern: Unzufriedenheit mit + Dativ = dissatisfaction with."
+    },
+    {
+      "word": "Mittelstreifen",
+      "article": "der",
+      "english": "median strip / central reservation",
+      "plural": "Mittelstreifen",
+      "genitive": "des Mittelstreifens",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 226,
+      "tags": [
+        "traffic",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Das Auto blieb auf dem _____ der Autobahn stehen.",
+          "en": "The car came to a stop on the median strip of the motorway."
+        },
+        {
+          "de": "Auf dem _____ wachsen Büsche und Gras.",
+          "en": "Bushes and grass grow on the central reservation."
+        }
+      ],
+      "tdist": [
+        "hard shoulder",
+        "crosswalk",
+        "bike lane",
+        "roundabout"
+      ],
+      "ddist": [
+        "Seitenstreifen",
+        "Zebrastreifen",
+        "Radweg",
+        "Gehweg"
+      ],
+      "note": "die Mitte + der Streifen (strip). Traffic family: der Seitenstreifen (hard shoulder), der Zebrastreifen (crosswalk)."
+    },
+    {
+      "word": "Betreuer",
+      "article": "der",
+      "english": "carer / supervisor / counsellor",
+      "plural": "Betreuer",
+      "genitive": "des Betreuers",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 227,
+      "tags": [
+        "work",
+        "social",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Der _____ hilft den Kindern bei den Hausaufgaben.",
+          "en": "The supervisor helps the children with their homework."
+        },
+        {
+          "de": "Jeder Student bekommt einen persönlichen _____.",
+          "en": "Every student gets a personal advisor."
+        }
+      ],
+      "tdist": [
+        "operator",
+        "owner",
+        "observer",
+        "translator"
+      ],
+      "ddist": [
+        "Berater",
+        "Begleiter",
+        "Vertreter",
+        "Vermieter"
+      ],
+      "note": "From betreuen (to look after). Contexts: Kinderbetreuer, Doktorvater/Betreuer (thesis supervisor), rechtlicher Betreuer (legal guardian)."
+    },
+    {
+      "word": "Stimmung",
+      "article": "die",
+      "english": "mood / atmosphere",
+      "plural": "Stimmungen",
+      "genitive": "der Stimmung",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 228,
+      "tags": [
+        "emotions",
+        "essential",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Heute bin ich nicht in _____ zum Feiern.",
+          "en": "Today I'm not in the mood for celebrating."
+        },
+        {
+          "de": "Auf der Party herrschte eine tolle _____.",
+          "en": "There was a great atmosphere at the party."
+        }
+      ],
+      "tdist": [
+        "voice",
+        "opinion poll",
+        "noise",
+        "feeling of guilt"
+      ],
+      "ddist": [
+        "Stimme",
+        "Meinung",
+        "Laune",
+        "Atmosphäre"
+      ],
+      "note": "From die Stimme (voice). gute/schlechte Stimmung; Stimmung machen = to get the crowd going. Compare: die Laune (personal mood)."
+    },
+    {
+      "word": "Erlebnis",
+      "article": "das",
+      "english": "experience (single event)",
+      "plural": "Erlebnisse",
+      "genitive": "des Erlebnisses",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 229,
+      "tags": [
+        "abstract",
+        "essential",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Die Ballonfahrt war ein unvergessliches _____.",
+          "en": "The balloon ride was an unforgettable experience."
+        },
+        {
+          "de": "Erzähl mir von deinen _____ in Japan!",
+          "en": "Tell me about your experiences in Japan!"
+        }
+      ],
+      "tdist": [
+        "experience (accumulated knowledge)",
+        "memory",
+        "adventure park",
+        "dream"
+      ],
+      "ddist": [
+        "Ereignis",
+        "Ergebnis",
+        "Erlaubnis",
+        "Gedächtnis"
+      ],
+      "note": "KEY CONTRAST: das Erlebnis = one memorable event you lived through; die Erfahrung = knowledge accumulated over time. Ein Bungee-Sprung ist ein Erlebnis; zehn Jahre Berufserfahrung ist Erfahrung."
+    },
+    {
+      "word": "Ratschlag",
+      "article": "der",
+      "english": "piece of advice",
+      "plural": "Ratschläge",
+      "genitive": "des Ratschlags",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 231,
+      "tags": [
+        "communication",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Darf ich dir einen _____ geben?",
+          "en": "May I give you a piece of advice?"
+        },
+        {
+          "de": "Ich habe seine _____ leider nicht befolgt.",
+          "en": "Unfortunately, I didn't follow his advice."
+        }
+      ],
+      "tdist": [
+        "order",
+        "question",
+        "opinion",
+        "criticism"
+      ],
+      "ddist": [
+        "Vorschlag",
+        "Auftrag",
+        "Befehl",
+        "Hinweis"
+      ],
+      "note": "der Rat + der Schlag. Ratschläge geben/befolgen. Compare: der Vorschlag (suggestion), der Hinweis (hint)."
+    }
+  ]
+}

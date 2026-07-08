@@ -18,7 +18,7 @@
  * If the version is not bumped, users keep running the old cached code.
  */
 
-const CACHE = 'mein-deutsch-v11';
+const CACHE = 'mein-deutsch-v12';
 
 const PRECACHE = [
   './',

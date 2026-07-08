@@ -2,6 +2,118 @@
 
 ---
 
+## 2026-07-07 — Session 35: Wörter Intake #1 + Ausdrücke Module (v12)
+
+**PRD:** `PRD_Woerter_Intake.md` — signed off same session.
+
+**Source:** Ricco's reading-vocabulary Google Sheet (213 entries). Classified, deduped, typo-corrected. Full row-by-row resolution in `_factory/intake-log.json`.
+
+**Content added:**
+
+| Category | Added | Exercises | Files |
+|---|---|---|---|
+| Verbs | 49 new roots + 16 variants (11 attached to existing roots) | +569 (now 2,644) | verbs.json, exercises-verbs.json |
+| Nouns | 55 | +165 (now 690) | nouns.json, exercises-nouns.json |
+| Adjectives | 36 | +144 (now 544) | adjectives.json, exercises-adjectives.json |
+| Adverbs | 12 (new categories: Indefinites, Place & Direction) | +48 (now 556) | adverbs.json, exercises-adverbs.json |
+| Ausdrücke (NEW module) | 8 expressions | 32 | expressions.json, exercises-expressions.json |
+
+**Ausdrücke module (9th):** modeled on Prepositions (no unlock gate). Module card + module home + searchable Ausdrückeliste (expandable cards: register, literal meaning, when-to-use, examples, notes, related). Exercises reuse existing `translate_word` + `fill_blank` renderers — includes situation-match questions via translate_word. New screen `screen-ausdrueckeliste` in index.html; renderers appended to app.js; context label in exercises.js.
+
+**Build approach:** hand-authored seed files (conjugations, sentences, distractors) in `_factory/intake-2026-07-07/`, then `generate_verbs.py` expanded them mechanically into entries + exercises — tables/partizip/aux exercises derive from entry data so they can't contradict it. Validation pass per category before merge (blank counts, distractor counts, no correct-answer-in-wrongs, ID collisions).
+
+**Decisions (from PRD sign-off):**
+- Batching by category, validation between phases
+- CEFR capped at B2 (no C1/C2 labels)
+- New verbs get the standard 8-exercise package (9 for roots incl. Präsens table), not the full ~22 of the original seed verbs
+- Ausdrücke stays minimal — only sheet expressions, grows with future readings
+
+**Fixes along the way:**
+- Nomenliste plural render: no-plural nouns (Wohlbefinden, Vielfalt …) now show "—" instead of "die undefined" (2 spots in app.js)
+- Caught mid-build: fühlen + Erfahrung already existed (seeds adjusted); begleiten was initially missed, added at the end
+
+**Flagged for Ricco:**
+- Sheet entry "Aufziele" interpreted as *abzielen (auf)* — confirm
+- Sheet entry "kindersinne" skipped — could not identify the intended word
+
+**QA:** jsdom headless smoke test — boot, home cards, Ausdrücke module home/list/exercise session, verb queues (Präsens 717 roots / Perfekt 444), noun/adverb/adjective lists. All green. `node --check` on all touched JS.
+
+**Deploy:** data.js rebundled (2.2 MB), service-worker cache bumped v11 → v12, committed + pushed.
+
+**New intake workflow (repeatable):** sheet stays the inbox → next session say "process my new words" → Claude diffs sheet against `_factory/intake-log.json` → only new rows get processed through the same pipeline.
+
+---
+
+## 2026-06-14 — Session 34: Bug fixes (v10, v11)
+
+**v10 — data.js module bundle fix**
+- `data.js` modules array only had 5 entries (Verbs → Prepositions). Partikeln and Artikel were not appearing on the home screen.
+- Fixed by replacing the 5-module array with all 8 from `data/modules.json`.
+
+**v11 — 7 bug fixes**
+
+1. **Artikel cooldown** — `_artikelSession` now has a `cooldown[]`. Wrong answers recirculate; queue flushes cooldown when empty. Cooldown chip now visible during Artikel sessions.
+2. **Home chevrons removed** — lock/arrow icons and `.module-grid-bottom` div removed from `_renderModuleCards`.
+3. **Partikel cards simplified** — `mkCard` now shows title + done count + progress bar only (no subtitle, CEFR range, or CTA text).
+4. **Partikel exercise click fixed** — `openParticleExercise` was hitting the soft gate (always locked) which used `.visible` class on a `.bottom-sheet` element that only responds to `.open`. Soft gate removed entirely; clicks go straight to `openExercise`.
+5. **CEFR selector removed** — particle queue no longer filters by CEFR. Serves all exercises for the category sorted A1→C2. Pills removed from module home HTML.
+6. **"Alle Partikeln" button removed** — button removed from `index.html` and hidden in `renderModuleHome`. Summary card in particle module home now opens the particle list (`onclick="openPartikelliste()"`).
+7. **Particle list design + click bug** — `_particleRowHtml` rewritten to use `word-item` / `word-german` / `word-translation` classes (matches nouns/verbs). List grouped with `alpha-section` / `alpha-header` / `word-list-group`. Detail sheet click bug fixed: was adding `.visible` to a `.bottom-sheet` that only shows on `.open`; corrected in both `showParticleDetail` and `closeParticleDetail`.
+
+**git fix** — `.git/HEAD.lock` stale file (created by sandbox) blocked commits. Removed manually from Terminal.
+
+---
+
+## 2026-06-14 — Session 33: Artikel Module — All Phases
+
+**Deliverables:**
+
+Full Artikel module built and deployed (v9).
+
+**New files:**
+- `PRD_Artikel.md` — signed-off PRD
+- `data/grammar/article-lessons.json` — 6 lessons × 4 sections + 5 quiz questions each
+- `js/article-grammar-data.js` — bundled as `window.ARTICLE_GRAMMAR_DATA`
+
+**`data/modules.json`** — added `module_artikel` as 8th module (unlock_order: 8).
+
+**`js/grammar.js`** — added:
+- `ArticleGrammar` singleton (mirrors ParticleGrammar). KEY: `app_grammar_artikel_lessons`.
+- `openArticleLesson()`, `renderArticleLesson()` — lesson screen wired to ARTICLE_GRAMMAR_DATA.
+- `startArticleQuiz()`, `renderArticleQuiz()`, `_renderArticleQuizResults()` — quiz engine for Artikel.
+- `_renderArtikelGrammatikStrip()`, `toggleArtikelGrammatikAccordion()` — accordion component.
+- `ArticleGrammar.init()` called in bootstrap (no migration — new module, all lessons start locked).
+
+**`js/app.js`** — added:
+- `_renderArtikelModuleCategories()` — module home: grammar accordion + exercise card ("Der, Die, oder Das?" with pool count).
+- `openArtikelExercise()` — sets `exerciseMode = 'artikel'`, navigates to `screen-exercise`.
+- `onScreenEnter` wired: grammar lesson dispatches to `renderArticleLesson` when `_currentGrammarModule === 'artikel'`; grammar quiz dispatches to `renderArticleQuiz` when `module === 'artikel'`.
+- `ArticleGrammar.init()` added to bootstrap.
+
+**`js/exercises.js`** — added:
+- `_artikelSession` state object (queue, correctCount, totalCount, current, answered).
+- `startArtikelExercise()` — builds runtime queue from all unlocked root nouns, shuffles, sets context pill.
+- `_renderSelectArticle(ex)` — card: noun (large) + English (subtext) + [Der][Die][Das] buttons.
+- `selectArticleAnswer(chosen)` — correct → green flash + auto-advance 800ms; wrong → highlight correct + manual advance.
+- `_artikelShowResults()` — navigates to screen-results, shows score + percentage.
+- `advanceExercise()` and `exitExerciseEarly()` — guard clauses for `exerciseMode === 'artikel'`.
+
+**`css/styles.css`** — added `.artikel-btn` with `.art-correct` (green), `.art-wrong` (red), `.art-dim` states.
+
+**`service-worker.js`** — bumped to v9. Added `grammar-data.js`, `grammar.js`, `article-grammar-data.js` to PRECACHE.
+
+**Grammar lessons (6):**
+1. What is Grammatical Gender? — 3 genders, grammatical vs natural, why it matters, -chen/-lein always neuter
+2. Masculine Endings — -er (agent), -ling/-ig/-ismus/-ist, -or/-ant/-ent, days/months/seasons/weather
+3. Feminine Endings — -ung, -heit/-keit, -schaft, -ion/-ität, -ie/-ei, trees/flowers, -in professions
+4. Neuter Endings — -chen/-lein (absolute), -ment/-um/-ium, verbal infinitives, languages/colours/metals
+5. Gender by Category — compass points, alcohol exceptions, fruits, young animals, hotels
+6. Compound Nouns + Tips — Komposita rule (last noun wins), traps, learn-with-article habit, colour-coding
+
+**Git:** pushed to main from Mac Terminal. Live at https://rsperotti.github.io/mein_deutsch (v9).
+
+---
+
 ## 2026-06-14 — Session 32: Grammatik Curriculum Phases 3–4
 
 **Deliverables:**

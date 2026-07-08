@@ -1,0 +1,1159 @@
+{
+  "sheet": "https://docs.google.com/spreadsheets/d/1--W4h39JCh3p0heMWJN1ykHUPXRyfRfHWnAHBYrXHug/",
+  "processed_through_row": 213,
+  "run_date": "2026-07-07",
+  "session": "35",
+  "summary": {
+    "in-app-already": 35,
+    "added-noun": 54,
+    "added-verb": 47,
+    "added-verb-variant": 14,
+    "added-adjective": 35,
+    "added-expression": 9,
+    "added-adverb": 12,
+    "duplicate-in-sheet": 6,
+    "skipped-unclear": 1
+  },
+  "entries": [
+    {
+      "raw": "Ziel",
+      "lemma": "Ziel",
+      "resolution": "in-app-already",
+      "note": "noun"
+    },
+    {
+      "raw": "Schürze",
+      "lemma": "Schürze",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Kittel",
+      "lemma": "Kittel",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Verbinden",
+      "lemma": "verbinden",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Anschlißen",
+      "lemma": "anschließen",
+      "resolution": "added-verb-variant",
+      "note": "typo fixed; variant of schließen"
+    },
+    {
+      "raw": "Vorhersagen",
+      "lemma": "vorhersagen",
+      "resolution": "added-verb-variant",
+      "note": "variant of sagen"
+    },
+    {
+      "raw": "Gefallen",
+      "lemma": "gefallen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Sackgasse",
+      "lemma": "Sackgasse",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Wärend",
+      "lemma": "während",
+      "resolution": "in-app-already",
+      "note": "preposition; typo"
+    },
+    {
+      "raw": "Ausschlaggebend",
+      "lemma": "ausschlaggebend",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Sogar",
+      "lemma": "sogar",
+      "resolution": "in-app-already",
+      "note": "particle"
+    },
+    {
+      "raw": "Durcheinander (kommen)",
+      "lemma": "durcheinander kommen",
+      "resolution": "added-expression"
+    },
+    {
+      "raw": "Ordentlich (kommen)",
+      "lemma": "ordentlich",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Vermischen",
+      "lemma": "vermischen",
+      "resolution": "added-verb-variant",
+      "note": "variant of new root mischen (also added)"
+    },
+    {
+      "raw": "Geworden",
+      "lemma": "werden",
+      "resolution": "in-app-already",
+      "note": "verb"
+    },
+    {
+      "raw": "Fortschritt",
+      "lemma": "Fortschritt",
+      "resolution": "in-app-already",
+      "note": "noun"
+    },
+    {
+      "raw": "Vorhersehen",
+      "lemma": "vorhersehen",
+      "resolution": "added-verb-variant",
+      "note": "variant of sehen"
+    },
+    {
+      "raw": "Bitte sachlich bleiben",
+      "lemma": "Bitte sachlich bleiben",
+      "resolution": "added-expression"
+    },
+    {
+      "raw": "Möglich + (wenig, viel, oft)",
+      "lemma": "möglichst viel/wenig/oft",
+      "resolution": "added-expression",
+      "note": "also added adjective möglich"
+    },
+    {
+      "raw": "Er nennt mich",
+      "lemma": "nennen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Ratschläge geben",
+      "lemma": "Ratschläge geben",
+      "resolution": "added-expression",
+      "note": "also added noun Ratschlag"
+    },
+    {
+      "raw": "Empfehlung",
+      "lemma": "Empfehlung",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Verantwortlich sein fur",
+      "lemma": "verantwortlich",
+      "resolution": "in-app-already",
+      "note": "adjective"
+    },
+    {
+      "raw": "Begeistert",
+      "lemma": "begeistert",
+      "resolution": "in-app-already",
+      "note": "adjective"
+    },
+    {
+      "raw": "Erlebnis vs Erfahrung",
+      "lemma": "Erlebnis",
+      "resolution": "added-noun",
+      "note": "Erlebnis added with contrast note; Erfahrung already in app"
+    },
+    {
+      "raw": "Verständnis",
+      "lemma": "Verständnis",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Ablehnen",
+      "lemma": "ablehnen",
+      "resolution": "in-app-already",
+      "note": "verb"
+    },
+    {
+      "raw": "Sich nicht wholfüllen",
+      "lemma": "sich wohlfühlen",
+      "resolution": "added-verb-variant",
+      "note": "typo fixed; variant of fühlen"
+    },
+    {
+      "raw": "Abgelenkt",
+      "lemma": "ablenken",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Böse",
+      "lemma": "böse",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Belästigung",
+      "lemma": "Belästigung",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Erscheinen",
+      "lemma": "erscheinen",
+      "resolution": "in-app-already",
+      "note": "verb"
+    },
+    {
+      "raw": "Beziehen",
+      "lemma": "beziehen",
+      "resolution": "added-verb-variant",
+      "note": "variant of ziehen"
+    },
+    {
+      "raw": "Auflage",
+      "lemma": "Auflage",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Folgen",
+      "lemma": "folgen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Zahlreiche",
+      "lemma": "zahlreich",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Fachgebieten",
+      "lemma": "Fachgebiet",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Beschäftigt",
+      "lemma": "beschäftigt",
+      "resolution": "in-app-already",
+      "note": "adjective"
+    },
+    {
+      "raw": "Gesellschaft",
+      "lemma": "Gesellschaft",
+      "resolution": "in-app-already",
+      "note": "noun"
+    },
+    {
+      "raw": "Ernsthaft",
+      "lemma": "ernsthaft",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Verändern",
+      "lemma": "verändern",
+      "resolution": "added-verb-variant",
+      "note": "variant of ändern"
+    },
+    {
+      "raw": "Verhandeln",
+      "lemma": "verhandeln",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Einzige",
+      "lemma": "einzig",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Zusamenstellen",
+      "lemma": "zusammenstellen",
+      "resolution": "added-verb-variant",
+      "note": "typo fixed; variant of stellen"
+    },
+    {
+      "raw": "Entscheidung",
+      "lemma": "Entscheidung",
+      "resolution": "in-app-already",
+      "note": "noun"
+    },
+    {
+      "raw": "Verwaltung",
+      "lemma": "Verwaltung",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Umsetzug",
+      "lemma": "Umsetzung",
+      "resolution": "in-app-already",
+      "note": "noun; typo"
+    },
+    {
+      "raw": "Bruchteil",
+      "lemma": "Bruchteil",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Entwickeln",
+      "lemma": "entwickeln",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Irgendwann",
+      "lemma": "irgendwann",
+      "resolution": "added-adverb"
+    },
+    {
+      "raw": "Erledigen",
+      "lemma": "erledigen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Beweisen",
+      "lemma": "beweisen",
+      "resolution": "in-app-already",
+      "note": "verb"
+    },
+    {
+      "raw": "Zielstrebig",
+      "lemma": "zielstrebig",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Streben (nach)",
+      "lemma": "streben",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Widmet (sich)",
+      "lemma": "widmen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Prägen",
+      "lemma": "prägen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Erscheinen [2]",
+      "lemma": "erscheinen",
+      "resolution": "duplicate-in-sheet"
+    },
+    {
+      "raw": "Veroffentlicht (werden)",
+      "lemma": "veröffentlichen",
+      "resolution": "added-verb",
+      "note": "typo fixed"
+    },
+    {
+      "raw": "Kehrte",
+      "lemma": "kehren",
+      "resolution": "added-verb",
+      "note": "added kehren + variant zurückkehren (likely book context)"
+    },
+    {
+      "raw": "Bedauerliches",
+      "lemma": "bedauerlich",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Beschämendes",
+      "lemma": "beschämend",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Auseinander setzungen",
+      "lemma": "Auseinandersetzung",
+      "resolution": "in-app-already",
+      "note": "noun"
+    },
+    {
+      "raw": "Damaligen",
+      "lemma": "damalig",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Adern",
+      "lemma": "Ader",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Einverstanden",
+      "lemma": "Einverstanden",
+      "resolution": "added-expression"
+    },
+    {
+      "raw": "Abgemacht",
+      "lemma": "Abgemacht!",
+      "resolution": "added-expression",
+      "note": "also added verb variant abmachen (machen)"
+    },
+    {
+      "raw": "Wholbefinden",
+      "lemma": "Wohlbefinden",
+      "resolution": "added-noun",
+      "note": "typo fixed"
+    },
+    {
+      "raw": "Beitragen",
+      "lemma": "beitragen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Suchtmittel",
+      "lemma": "Suchtmittel",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Tatsache",
+      "lemma": "Tatsache",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Bedurfnisse (haben)",
+      "lemma": "Bedürfnis",
+      "resolution": "added-noun",
+      "note": "typo fixed"
+    },
+    {
+      "raw": "Gräuel",
+      "lemma": "Gräuel",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Empörung",
+      "lemma": "Empörung",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Entsetzen",
+      "lemma": "Entsetzen",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Wie auch immer …",
+      "lemma": "Wie auch immer …",
+      "resolution": "added-expression"
+    },
+    {
+      "raw": "Eben",
+      "lemma": "eben",
+      "resolution": "in-app-already",
+      "note": "particle"
+    },
+    {
+      "raw": "Zwänge",
+      "lemma": "Zwang",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Einfluß auf",
+      "lemma": "Einfluss",
+      "resolution": "in-app-already",
+      "note": "noun; old spelling"
+    },
+    {
+      "raw": "Geschwister",
+      "lemma": "Geschwister",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Berücksichtigt",
+      "lemma": "berücksichtigen",
+      "resolution": "in-app-already",
+      "note": "verb"
+    },
+    {
+      "raw": "Zwar…",
+      "lemma": "zwar",
+      "resolution": "in-app-already",
+      "note": "particle"
+    },
+    {
+      "raw": "Herausrechneten",
+      "lemma": "herausrechnen",
+      "resolution": "added-verb-variant",
+      "note": "variant of rechnen"
+    },
+    {
+      "raw": "Gleichzeitig",
+      "lemma": "gleichzeitig",
+      "resolution": "added-adverb"
+    },
+    {
+      "raw": "Eifersüchtig",
+      "lemma": "eifersüchtig",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Vorurteil",
+      "lemma": "Vorurteil",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Begriff",
+      "lemma": "Begriff",
+      "resolution": "in-app-already",
+      "note": "noun"
+    },
+    {
+      "raw": "Nachfrage",
+      "lemma": "Nachfrage",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Anwerben",
+      "lemma": "anwerben",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Schwein haben",
+      "lemma": "Schwein haben",
+      "resolution": "added-expression"
+    },
+    {
+      "raw": "Das glücksschwein",
+      "lemma": "Glücksschwein",
+      "resolution": "added-expression",
+      "note": "folded into Schwein haben notes"
+    },
+    {
+      "raw": "Vermeintlich",
+      "lemma": "vermeintlich",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Sogennante",
+      "lemma": "sogenannt",
+      "resolution": "added-adjective",
+      "note": "typo fixed"
+    },
+    {
+      "raw": "Benutzbarkeit",
+      "lemma": "Benutzbarkeit",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Vorhersehbar",
+      "lemma": "vorhersehbar",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Vorhersehbarkeit",
+      "lemma": "Vorhersehbarkeit",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Auswirkungen",
+      "lemma": "Auswirkung",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Nämlich",
+      "lemma": "nämlich",
+      "resolution": "in-app-already",
+      "note": "particle"
+    },
+    {
+      "raw": "Häufige",
+      "lemma": "häufig",
+      "resolution": "in-app-already",
+      "note": "adverb"
+    },
+    {
+      "raw": "Vielfalt",
+      "lemma": "Vielfalt",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Sehnsucht",
+      "lemma": "Sehnsucht",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Gemeinde",
+      "lemma": "Gemeinde",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Angehören",
+      "lemma": "angehören",
+      "resolution": "added-verb-variant",
+      "note": "variant of gehören"
+    },
+    {
+      "raw": "Streiten",
+      "lemma": "streiten",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Notwendig",
+      "lemma": "notwendig",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Bilanz",
+      "lemma": "Bilanz",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Herausfordernde",
+      "lemma": "herausfordernd",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Ausgewählte",
+      "lemma": "auswählen",
+      "resolution": "in-app-already",
+      "note": "verb"
+    },
+    {
+      "raw": "Entscheidende",
+      "lemma": "entscheidend",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Duftende",
+      "lemma": "duftend",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Reichen",
+      "lemma": "reichen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Riechen",
+      "lemma": "riechen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Stiftung",
+      "lemma": "Stiftung",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Stift",
+      "lemma": "Stift",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Teilhabe",
+      "lemma": "Teilhabe",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Pflicht",
+      "lemma": "Pflicht",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Beziehen [2]",
+      "lemma": "beziehen",
+      "resolution": "duplicate-in-sheet"
+    },
+    {
+      "raw": "Zudem",
+      "lemma": "zudem",
+      "resolution": "in-app-already",
+      "note": "adverb"
+    },
+    {
+      "raw": "Über wältigende",
+      "lemma": "überwältigend",
+      "resolution": "added-adjective",
+      "note": "typo fixed"
+    },
+    {
+      "raw": "Mehrheit",
+      "lemma": "Mehrheit",
+      "resolution": "in-app-already",
+      "note": "noun"
+    },
+    {
+      "raw": "Behaupten",
+      "lemma": "behaupten",
+      "resolution": "in-app-already",
+      "note": "verb"
+    },
+    {
+      "raw": "Haltlos",
+      "lemma": "haltlos",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Entweder",
+      "lemma": "entweder",
+      "resolution": "added-adverb",
+      "note": "Connectors"
+    },
+    {
+      "raw": "Einwandern",
+      "lemma": "einwandern",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Mindestens",
+      "lemma": "mindestens",
+      "resolution": "added-adverb"
+    },
+    {
+      "raw": "Gekenzeichnet",
+      "lemma": "kennzeichnen",
+      "resolution": "added-verb",
+      "note": "typo fixed"
+    },
+    {
+      "raw": "Begriff [2]",
+      "lemma": "Begriff",
+      "resolution": "duplicate-in-sheet"
+    },
+    {
+      "raw": "Geflüchteten",
+      "lemma": "Geflüchtete",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Gleichsetzen",
+      "lemma": "gleichsetzen",
+      "resolution": "added-verb-variant",
+      "note": "variant of setzen"
+    },
+    {
+      "raw": "Gleichstellen",
+      "lemma": "gleichstellen",
+      "resolution": "added-verb-variant",
+      "note": "variant of stellen"
+    },
+    {
+      "raw": "Aufziele",
+      "lemma": "abzielen",
+      "resolution": "added-verb",
+      "note": "FLAGGED: unclear entry — interpreted as abzielen (auf); please confirm"
+    },
+    {
+      "raw": "Ausdrüken",
+      "lemma": "ausdrücken",
+      "resolution": "added-verb",
+      "note": "typo fixed"
+    },
+    {
+      "raw": "Bezug",
+      "lemma": "Bezug",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Leistung",
+      "lemma": "Leistung",
+      "resolution": "in-app-already",
+      "note": "noun"
+    },
+    {
+      "raw": "Tätsachlich",
+      "lemma": "tatsächlich",
+      "resolution": "in-app-already",
+      "note": "adverb; typo"
+    },
+    {
+      "raw": "Laut",
+      "lemma": "laut",
+      "resolution": "in-app-already",
+      "note": "preposition"
+    },
+    {
+      "raw": "Durchschnittlich",
+      "lemma": "durchschnittlich",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Berechnung",
+      "lemma": "Berechnung",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Verschwendet",
+      "lemma": "verschwenden",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Entsorgen",
+      "lemma": "entsorgen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Schmeißen",
+      "lemma": "schmeißen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Abwerfen",
+      "lemma": "abwerfen",
+      "resolution": "added-verb-variant",
+      "note": "variant of new root werfen (also added)"
+    },
+    {
+      "raw": "Betroffen",
+      "lemma": "betroffen",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Spürbare",
+      "lemma": "spürbar",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Wegwerfen",
+      "lemma": "wegwerfen",
+      "resolution": "added-verb-variant",
+      "note": "variant of werfen"
+    },
+    {
+      "raw": "Wertvolle",
+      "lemma": "wertvoll",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Insgesamt",
+      "lemma": "insgesamt",
+      "resolution": "added-adverb"
+    },
+    {
+      "raw": "Verursachen",
+      "lemma": "verursachen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Umwelt",
+      "lemma": "Umwelt",
+      "resolution": "in-app-already",
+      "note": "noun"
+    },
+    {
+      "raw": "Entfallen",
+      "lemma": "entfallen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Erläutern",
+      "lemma": "erläutern",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Ausrufen",
+      "lemma": "ausrufen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Umweltschützer",
+      "lemma": "Umweltschützer",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Anlässlich",
+      "lemma": "anlässlich",
+      "resolution": "in-app-already",
+      "note": "preposition"
+    },
+    {
+      "raw": "Erfassung",
+      "lemma": "Erfassung",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Zugrunde liegenden",
+      "lemma": "zugrundeliegend",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Erhebung",
+      "lemma": "Erhebung",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Weggeworfener",
+      "lemma": "wegwerfen",
+      "resolution": "duplicate-in-sheet",
+      "note": "covered by Wegwerfen"
+    },
+    {
+      "raw": "Hervorheben",
+      "lemma": "hervorheben",
+      "resolution": "in-app-already",
+      "note": "verb"
+    },
+    {
+      "raw": "Beherrsche",
+      "lemma": "beherrschen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Sondern",
+      "lemma": "sondern",
+      "resolution": "added-adverb",
+      "note": "Contrast"
+    },
+    {
+      "raw": "Schillend",
+      "lemma": "schillernd",
+      "resolution": "added-adjective",
+      "note": "typo fixed"
+    },
+    {
+      "raw": "Verwirrt",
+      "lemma": "verwirrt",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Bedürfnisse [2]",
+      "lemma": "Bedürfnis",
+      "resolution": "duplicate-in-sheet"
+    },
+    {
+      "raw": "(Etwas) verdrängen",
+      "lemma": "verdrängen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Aufhören (zu)",
+      "lemma": "aufhören",
+      "resolution": "in-app-already",
+      "note": "verb variant"
+    },
+    {
+      "raw": "Regal",
+      "lemma": "Regal",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Säure",
+      "lemma": "Säure",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Farbdruck",
+      "lemma": "Farbdruck",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Besitzer",
+      "lemma": "Besitzer",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Abgebrochen",
+      "lemma": "abbrechen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Rechtsstreit",
+      "lemma": "Rechtsstreit",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Absicht",
+      "lemma": "Absicht",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Auswiegen",
+      "lemma": "auswiegen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Hürde",
+      "lemma": "Hürde",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Hindernis",
+      "lemma": "Hindernis",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Röntgen",
+      "lemma": "röntgen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Unabhängiger",
+      "lemma": "unabhängig",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "Krochen",
+      "lemma": "kriechen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Schrittgeschwindigkeit",
+      "lemma": "Schrittgeschwindigkeit",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "vergleichweise",
+      "lemma": "vergleichsweise",
+      "resolution": "added-adverb",
+      "note": "typo fixed"
+    },
+    {
+      "raw": "vorwärts",
+      "lemma": "vorwärts",
+      "resolution": "added-adverb"
+    },
+    {
+      "raw": "Stoßen",
+      "lemma": "stoßen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "auszusteigen",
+      "lemma": "aussteigen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "beklagen",
+      "lemma": "beklagen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "betreuer",
+      "lemma": "Betreuer",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Wahnsinns",
+      "lemma": "Wahnsinn",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "beinahe",
+      "lemma": "beinahe",
+      "resolution": "added-adverb"
+    },
+    {
+      "raw": "freiwillig",
+      "lemma": "freiwillig",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "irgendetwas",
+      "lemma": "irgendetwas",
+      "resolution": "added-adverb",
+      "note": "Indefinites"
+    },
+    {
+      "raw": "unzufriedenheit",
+      "lemma": "Unzufriedenheit",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "Mittelstreifen",
+      "lemma": "Mittelstreifen",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "mitzuteilien",
+      "lemma": "mitteilen",
+      "resolution": "added-verb",
+      "note": "typo fixed"
+    },
+    {
+      "raw": "gespannt",
+      "lemma": "gespannt",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "gesperrt",
+      "lemma": "sperren",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "umzudrehen",
+      "lemma": "umdrehen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "untrötslicher",
+      "lemma": "untröstlich",
+      "resolution": "added-adjective",
+      "note": "typo fixed"
+    },
+    {
+      "raw": "erneut",
+      "lemma": "erneut",
+      "resolution": "added-adverb"
+    },
+    {
+      "raw": "kindersinne",
+      "lemma": "?",
+      "resolution": "skipped-unclear",
+      "note": "FLAGGED: could not identify — Kindersitze? Kinder-Sinne? please clarify"
+    },
+    {
+      "raw": "zufällig",
+      "lemma": "zufällig",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "schlau",
+      "lemma": "schlau",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "lediglich",
+      "lemma": "lediglich",
+      "resolution": "added-adverb"
+    },
+    {
+      "raw": "begleiten",
+      "lemma": "begleiten",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "Stimmung",
+      "lemma": "Stimmung",
+      "resolution": "added-noun"
+    },
+    {
+      "raw": "wahr",
+      "lemma": "wahr",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "abbiegen",
+      "lemma": "abbiegen",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "heillos",
+      "lemma": "heillos",
+      "resolution": "added-adjective"
+    },
+    {
+      "raw": "überquert",
+      "lemma": "überqueren",
+      "resolution": "added-verb"
+    },
+    {
+      "raw": "spuren",
+      "lemma": "spüren",
+      "resolution": "added-verb",
+      "note": "typo: assumed spüren (to sense)"
+    },
+    {
+      "raw": "entwaffen",
+      "lemma": "entwaffnen",
+      "resolution": "added-verb",
+      "note": "typo fixed"
+    },
+    {
+      "raw": "kaum",
+      "lemma": "kaum",
+      "resolution": "in-app-already",
+      "note": "adverb"
+    },
+    {
+      "raw": "tatsachlich",
+      "lemma": "tatsächlich",
+      "resolution": "duplicate-in-sheet",
+      "note": "also appeared as Tätsachlich"
+    },
+    {
+      "raw": "schwach",
+      "lemma": "schwach",
+      "resolution": "in-app-already",
+      "note": "adjective"
+    },
+    {
+      "raw": "abgehakt",
+      "lemma": "abhaken",
+      "resolution": "added-verb"
+    }
+  ]
+}

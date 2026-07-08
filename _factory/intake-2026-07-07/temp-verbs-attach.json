@@ -1,0 +1,120 @@
+{
+  "schließen": [
+    {
+      "id": "verb_anschließen",
+      "prefix": "an",
+      "word": "anschließen",
+      "english": "to connect (a device) / (sich) to join",
+      "separable": true,
+      "notes": "Separable: Ich schließe das Gerät an. Reflexive 'sich anschließen' + Dativ = to join: 'Ich schließe mich euch an.'"
+    }
+  ],
+  "sagen": [
+    {
+      "id": "verb_vorhersagen",
+      "prefix": "vorher",
+      "word": "vorhersagen",
+      "english": "to predict / to forecast",
+      "separable": true,
+      "notes": "Separable with the double prefix 'vorher': Er sagt das Wetter vorher. Related noun: die Vorhersage (forecast)."
+    }
+  ],
+  "sehen": [
+    {
+      "id": "verb_vorhersehen",
+      "prefix": "vorher",
+      "word": "vorhersehen",
+      "english": "to foresee / to anticipate",
+      "separable": true,
+      "notes": "Separable: Er sieht Probleme vorher. Related adjective: vorhersehbar (foreseeable, predictable)."
+    }
+  ],
+  "stellen": [
+    {
+      "id": "verb_zusammenstellen",
+      "prefix": "zusammen",
+      "word": "zusammenstellen",
+      "english": "to put together / to compile",
+      "separable": true,
+      "notes": "Separable: Ich stelle die Liste zusammen. Related noun: die Zusammenstellung (compilation)."
+    },
+    {
+      "id": "verb_gleichstellen",
+      "prefix": "gleich",
+      "word": "gleichstellen",
+      "english": "to give equal status / to treat as equal",
+      "separable": true,
+      "notes": "Separable. gleichstellen = equal STATUS (rights, law). Contrast gleichsetzen = to claim two things are the SAME. Related noun: die Gleichstellung."
+    }
+  ],
+  "setzen": [
+    {
+      "id": "verb_gleichsetzen",
+      "prefix": "gleich",
+      "word": "gleichsetzen",
+      "english": "to equate (mit = with)",
+      "separable": true,
+      "notes": "Separable. gleichsetzen = to treat as identical (mit + Dativ). Contrast gleichstellen = to give equal legal/social status."
+    }
+  ],
+  "rechnen": [
+    {
+      "id": "verb_herausrechnen",
+      "prefix": "heraus",
+      "word": "herausrechnen",
+      "english": "to factor out / to exclude from a calculation",
+      "separable": true,
+      "notes": "Separable: Wir rechnen den Effekt heraus. Common in statistics and data journalism."
+    }
+  ],
+  "machen": [
+    {
+      "id": "verb_abmachen",
+      "prefix": "ab",
+      "word": "abmachen",
+      "english": "to agree on / to arrange; to take off",
+      "separable": true,
+      "notes": "Separable. Two meanings: arrange/agree ('einen Termin abmachen') and remove ('das Etikett abmachen'). 'Abgemacht!' = Deal! (see Ausdrücke)."
+    }
+  ],
+  "gehören": [
+    {
+      "id": "verb_angehören",
+      "prefix": "an",
+      "word": "angehören",
+      "english": "to belong to / to be a member of (+ Dativ)",
+      "separable": true,
+      "notes": "Separable, takes the Dativ: Ich gehöre dem Verein an. Contrast gehören + Dativ = possession ('Das Buch gehört mir'), angehören = membership."
+    }
+  ],
+  "ändern": [
+    {
+      "id": "verb_verändern",
+      "prefix": "ver",
+      "word": "verändern",
+      "english": "to change / to alter",
+      "separable": false,
+      "notes": "Inseparable: Ich verändere mich. ändern = change something concrete (plans, rules); verändern = transform, often reflexive ('sich verändern')."
+    }
+  ],
+  "ziehen": [
+    {
+      "id": "verb_beziehen",
+      "prefix": "be",
+      "word": "beziehen",
+      "english": "to refer to (sich beziehen auf) / to obtain / to move into",
+      "separable": false,
+      "notes": "Inseparable. Key pattern: 'sich beziehen auf' + Akkusativ = to refer to. Also: eine Rente beziehen (to draw a pension), eine Wohnung beziehen (to move in)."
+    }
+  ],
+  "fühlen": [
+    {
+      "id": "verb_wohlfühlen",
+      "prefix": "wohl",
+      "word": "wohlfühlen",
+      "english": "to feel comfortable / to feel at ease (sich wohlfühlen)",
+      "separable": true,
+      "notes": "Always reflexive: sich wohlfühlen. Separable: Ich fühle mich hier wohl. Related noun: das Wohlbefinden."
+    }
+  ]
+}

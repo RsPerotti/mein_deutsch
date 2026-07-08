@@ -5994,5 +5994,1861 @@
     ],
     "section": "variations",
     "formation": "schwach + -e"
+  },
+  {
+    "id": "noun_schürze",
+    "word": "Schürze",
+    "article": "die",
+    "english": "apron",
+    "plural": "Schürzen",
+    "plural_article": "die",
+    "genitive": "der Schürze",
+    "frequency_rank": 176,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Beim Kochen trage ich immer eine Schürze.",
+        "en": "I always wear an apron when cooking.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Die Schürze hängt an einem Haken in der Küche.",
+        "en": "The apron hangs on a hook in the kitchen.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "clothing",
+      "kitchen",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_kittel",
+    "word": "Kittel",
+    "article": "der",
+    "english": "smock / (lab) coat",
+    "plural": "Kittel",
+    "plural_article": "die",
+    "genitive": "des Kittels",
+    "frequency_rank": 177,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Der Arzt trägt einen weißen Kittel.",
+        "en": "The doctor wears a white coat.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Im Labor muss jeder einen Kittel anziehen.",
+        "en": "In the lab everyone has to put on a lab coat.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "clothing",
+      "work",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_sackgasse",
+    "word": "Sackgasse",
+    "article": "die",
+    "english": "dead end / cul-de-sac",
+    "plural": "Sackgassen",
+    "plural_article": "die",
+    "genitive": "der Sackgasse",
+    "frequency_rank": 178,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Wir können hier nicht weiterfahren — das ist eine Sackgasse.",
+        "en": "We can't drive on here — it's a dead end.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Die Verhandlungen sind in einer Sackgasse gelandet.",
+        "en": "The negotiations have ended up in a dead end.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "city",
+      "abstract",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_empfehlung",
+    "word": "Empfehlung",
+    "article": "die",
+    "english": "recommendation",
+    "plural": "Empfehlungen",
+    "plural_article": "die",
+    "genitive": "der Empfehlung",
+    "frequency_rank": 179,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Auf Empfehlung meines Arztes mache ich jetzt mehr Sport.",
+        "en": "On my doctor's recommendation I now do more sport.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Hast du eine Empfehlung für ein gutes Restaurant?",
+        "en": "Do you have a recommendation for a good restaurant?",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "communication",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_verständnis",
+    "word": "Verständnis",
+    "article": "das",
+    "english": "understanding / sympathy",
+    "plural": "Verständnisse",
+    "plural_article": "die",
+    "genitive": "des Verständnisses",
+    "frequency_rank": 180,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Ich habe volles Verständnis für deine Entscheidung.",
+        "en": "I have full understanding for your decision.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Vielen Dank für Ihr Verständnis.",
+        "en": "Thank you very much for your understanding.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "social",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_belästigung",
+    "word": "Belästigung",
+    "article": "die",
+    "english": "harassment / nuisance",
+    "plural": "Belästigungen",
+    "plural_article": "die",
+    "genitive": "der Belästigung",
+    "frequency_rank": 181,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Sie meldete die Belästigung sofort der Polizei.",
+        "en": "She reported the harassment to the police immediately.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Ständige Werbeanrufe sind eine Belästigung.",
+        "en": "Constant advertising calls are a nuisance.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "society",
+      "legal",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_auflage",
+    "word": "Auflage",
+    "article": "die",
+    "english": "edition / print run; condition (imposed)",
+    "plural": "Auflagen",
+    "plural_article": "die",
+    "genitive": "der Auflage",
+    "frequency_rank": 182,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die erste Auflage des Buches war schnell ausverkauft.",
+        "en": "The first print run of the book sold out quickly.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Die Behörde erteilte die Genehmigung nur unter strengen Auflage.",
+        "en": "The authority granted the permit only under strict conditions.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "media",
+      "legal",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_fachgebiet",
+    "word": "Fachgebiet",
+    "article": "das",
+    "english": "specialist field / area of expertise",
+    "plural": "Fachgebiete",
+    "plural_article": "die",
+    "genitive": "des Fachgebiets",
+    "frequency_rank": 183,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Ihr Fachgebiet ist die Kindermedizin.",
+        "en": "Her specialist field is paediatrics.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Auf diesem Fachgebiet kennt er sich sehr gut aus.",
+        "en": "He knows this field very well.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "work",
+      "education",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_verwaltung",
+    "word": "Verwaltung",
+    "article": "die",
+    "english": "administration",
+    "plural": "Verwaltungen",
+    "plural_article": "die",
+    "genitive": "der Verwaltung",
+    "frequency_rank": 184,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Verwaltung der Stadt sucht neue Mitarbeiter.",
+        "en": "The city administration is looking for new employees.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Er arbeitet seit Jahren in der Verwaltung.",
+        "en": "He has worked in administration for years.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "work",
+      "society",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_bruchteil",
+    "word": "Bruchteil",
+    "article": "der",
+    "english": "fraction (of something)",
+    "plural": "Bruchteile",
+    "plural_article": "die",
+    "genitive": "des Bruchteils",
+    "frequency_rank": 185,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das kostet nur einen Bruchteil des ursprünglichen Preises.",
+        "en": "That costs only a fraction of the original price.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "In einem Bruchteil einer Sekunde war alles vorbei.",
+        "en": "In a split second it was all over.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "quantity",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_zwang",
+    "word": "Zwang",
+    "article": "der",
+    "english": "compulsion / constraint / pressure",
+    "plural": "Zwänge",
+    "plural_article": "die",
+    "genitive": "des Zwangs",
+    "frequency_rank": 186,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Niemand übt Zwang auf dich aus — du entscheidest frei.",
+        "en": "Nobody is putting pressure on you — you decide freely.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Er leidet unter gesellschaftlichen Zwang.",
+        "en": "He suffers under social constraints.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "psychology",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_ader",
+    "word": "Ader",
+    "article": "die",
+    "english": "vein / blood vessel",
+    "plural": "Adern",
+    "plural_article": "die",
+    "genitive": "der Ader",
+    "frequency_rank": 187,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Krankenschwester findet die Ader sofort.",
+        "en": "The nurse finds the vein immediately.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Man sieht die blauen Ader an seinen Händen.",
+        "en": "You can see the blue veins on his hands.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "body",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_wohlbefinden",
+    "word": "Wohlbefinden",
+    "article": "das",
+    "english": "well-being",
+    "plural": "",
+    "plural_article": "",
+    "genitive": "des Wohlbefindens",
+    "frequency_rank": 188,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Regelmäßiger Schlaf ist wichtig für das Wohlbefinden.",
+        "en": "Regular sleep is important for well-being.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Yoga steigert mein körperliches Wohlbefinden.",
+        "en": "Yoga increases my physical well-being.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "health",
+      "abstract",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_suchtmittel",
+    "word": "Suchtmittel",
+    "article": "das",
+    "english": "addictive substance",
+    "plural": "Suchtmittel",
+    "plural_article": "die",
+    "genitive": "des Suchtmittels",
+    "frequency_rank": 189,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Alkohol ist das am weitesten verbreitete Suchtmittel.",
+        "en": "Alcohol is the most widespread addictive substance.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Der Verkauf von Suchtmittel an Jugendliche ist verboten.",
+        "en": "Selling addictive substances to minors is prohibited.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "health",
+      "society",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_tatsache",
+    "word": "Tatsache",
+    "article": "die",
+    "english": "fact",
+    "plural": "Tatsachen",
+    "plural_article": "die",
+    "genitive": "der Tatsache",
+    "frequency_rank": 190,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Es ist eine Tatsache, dass die Erde sich um die Sonne dreht.",
+        "en": "It is a fact that the Earth revolves around the sun.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Wir müssen die Tatsache akzeptieren.",
+        "en": "We have to accept the facts.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "essential",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_bedürfnis",
+    "word": "Bedürfnis",
+    "article": "das",
+    "english": "need",
+    "plural": "Bedürfnisse",
+    "plural_article": "die",
+    "genitive": "des Bedürfnisses",
+    "frequency_rank": 191,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Jeder Mensch hat das Bedürfnis nach Sicherheit.",
+        "en": "Every person has the need for security.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Kinder haben andere Bedürfnis als Erwachsene.",
+        "en": "Children have different needs than adults.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "psychology",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_gräuel",
+    "word": "Gräuel",
+    "article": "der",
+    "english": "horror / atrocity",
+    "plural": "Gräuel",
+    "plural_article": "die",
+    "genitive": "des Gräuels",
+    "frequency_rank": 192,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Der Bericht beschreibt die Gräuel des Krieges.",
+        "en": "The report describes the atrocities of the war.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Solche Taten sind ein Gräuel für jeden zivilisierten Menschen.",
+        "en": "Such deeds are an abomination to every civilised person.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "reading",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_empörung",
+    "word": "Empörung",
+    "article": "die",
+    "english": "outrage / indignation",
+    "plural": "",
+    "plural_article": "",
+    "genitive": "der Empörung",
+    "frequency_rank": 193,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Entscheidung löste große Empörung aus.",
+        "en": "The decision triggered great outrage.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Voller Empörung verließ sie den Saal.",
+        "en": "Full of indignation, she left the hall.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "emotions",
+      "news",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_entsetzen",
+    "word": "Entsetzen",
+    "article": "das",
+    "english": "horror / dismay",
+    "plural": "",
+    "plural_article": "",
+    "genitive": "des Entsetzens",
+    "frequency_rank": 194,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Mit Entsetzen sahen die Nachbarn das brennende Haus.",
+        "en": "The neighbours watched the burning house with horror.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Zu meinem Entsetzen war der Zug schon weg.",
+        "en": "To my dismay, the train had already left.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "emotions",
+      "reading",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_geschwister",
+    "word": "Geschwister",
+    "article": "die",
+    "english": "siblings",
+    "plural": "Geschwister",
+    "plural_article": "die",
+    "genitive": "der Geschwister",
+    "frequency_rank": 195,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Hast du Geschwister?",
+        "en": "Do you have siblings?",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Meine Geschwister wohnen alle in Berlin.",
+        "en": "My siblings all live in Berlin.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "family",
+      "essential",
+      "a2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_vorurteil",
+    "word": "Vorurteil",
+    "article": "das",
+    "english": "prejudice",
+    "plural": "Vorurteile",
+    "plural_article": "die",
+    "genitive": "des Vorurteils",
+    "frequency_rank": 196,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Er hat viele Vorurteil gegenüber anderen Kulturen.",
+        "en": "He has many prejudices towards other cultures.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Dieses Vorurteil ist weit verbreitet, aber falsch.",
+        "en": "This prejudice is widespread but wrong.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "society",
+      "abstract",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_nachfrage",
+    "word": "Nachfrage",
+    "article": "die",
+    "english": "demand; inquiry",
+    "plural": "Nachfragen",
+    "plural_article": "die",
+    "genitive": "der Nachfrage",
+    "frequency_rank": 197,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Nachfrage nach E-Bikes steigt jedes Jahr.",
+        "en": "The demand for e-bikes rises every year.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Danke der Nachfrage — mir geht es gut!",
+        "en": "Thanks for asking — I'm fine!",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "business",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_benutzbarkeit",
+    "word": "Benutzbarkeit",
+    "article": "die",
+    "english": "usability",
+    "plural": "",
+    "plural_article": "",
+    "genitive": "der Benutzbarkeit",
+    "frequency_rank": 198,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Benutzbarkeit der App wurde stark verbessert.",
+        "en": "The usability of the app has been greatly improved.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Bei Software zählt vor allem die Benutzbarkeit.",
+        "en": "With software, usability matters most.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "technology",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_vorhersehbarkeit",
+    "word": "Vorhersehbarkeit",
+    "article": "die",
+    "english": "predictability",
+    "plural": "",
+    "plural_article": "",
+    "genitive": "der Vorhersehbarkeit",
+    "frequency_rank": 199,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Vorhersehbarkeit seiner Reaktionen macht ihn leicht zu durchschauen.",
+        "en": "The predictability of his reactions makes him easy to read.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Kinder brauchen Routine und Vorhersehbarkeit.",
+        "en": "Children need routine and predictability.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_auswirkung",
+    "word": "Auswirkung",
+    "article": "die",
+    "english": "effect / impact",
+    "plural": "Auswirkungen",
+    "plural_article": "die",
+    "genitive": "der Auswirkung",
+    "frequency_rank": 200,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Auswirkung des Klimawandels sind schon heute spürbar.",
+        "en": "The effects of climate change can already be felt today.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Diese Entscheidung hat Auswirkung auf uns alle.",
+        "en": "This decision has an impact on all of us.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "news",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_vielfalt",
+    "word": "Vielfalt",
+    "article": "die",
+    "english": "diversity / variety",
+    "plural": "",
+    "plural_article": "",
+    "genitive": "der Vielfalt",
+    "frequency_rank": 201,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die kulturelle Vielfalt macht diese Stadt besonders.",
+        "en": "Cultural diversity makes this city special.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Der Markt bietet eine große Vielfalt an frischem Gemüse.",
+        "en": "The market offers a great variety of fresh vegetables.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "society",
+      "abstract",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_sehnsucht",
+    "word": "Sehnsucht",
+    "article": "die",
+    "english": "longing / yearning",
+    "plural": "Sehnsüchte",
+    "plural_article": "die",
+    "genitive": "der Sehnsucht",
+    "frequency_rank": 202,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Sie hat große Sehnsucht nach ihrer Heimat.",
+        "en": "She has a great longing for her home country.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Voller Sehnsucht wartete er auf ihren Brief.",
+        "en": "Full of longing, he waited for her letter.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "emotions",
+      "reading",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_gemeinde",
+    "word": "Gemeinde",
+    "article": "die",
+    "english": "municipality / community / congregation",
+    "plural": "Gemeinden",
+    "plural_article": "die",
+    "genitive": "der Gemeinde",
+    "frequency_rank": 203,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Unsere Gemeinde hat nur dreitausend Einwohner.",
+        "en": "Our municipality has only three thousand inhabitants.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Die Gemeinde trifft sich sonntags in der Kirche.",
+        "en": "The congregation meets in the church on Sundays.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "society",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_bilanz",
+    "word": "Bilanz",
+    "article": "die",
+    "english": "balance (sheet) / outcome / tally",
+    "plural": "Bilanzen",
+    "plural_article": "die",
+    "genitive": "der Bilanz",
+    "frequency_rank": 204,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Firma legt heute ihre Bilanz für das letzte Jahr vor.",
+        "en": "The company presents its balance sheet for last year today.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Nach zehn Jahren zieht sie eine positive Bilanz.",
+        "en": "After ten years she draws a positive conclusion.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "business",
+      "news",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_stiftung",
+    "word": "Stiftung",
+    "article": "die",
+    "english": "foundation (charitable)",
+    "plural": "Stiftungen",
+    "plural_article": "die",
+    "genitive": "der Stiftung",
+    "frequency_rank": 205,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Stiftung unterstützt junge Künstler mit Stipendien.",
+        "en": "The foundation supports young artists with scholarships.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Er gründete eine Stiftung für den Umweltschutz.",
+        "en": "He founded a foundation for environmental protection.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "society",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_stift",
+    "word": "Stift",
+    "article": "der",
+    "english": "pen / pencil",
+    "plural": "Stifte",
+    "plural_article": "die",
+    "genitive": "des Stifts",
+    "frequency_rank": 206,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Kannst du mir einen Stift leihen?",
+        "en": "Can you lend me a pen?",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Der Stift schreibt nicht mehr.",
+        "en": "The pen doesn't write anymore.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "everyday",
+      "school",
+      "a2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_teilhabe",
+    "word": "Teilhabe",
+    "article": "die",
+    "english": "participation / inclusion (in society)",
+    "plural": "",
+    "plural_article": "",
+    "genitive": "der Teilhabe",
+    "frequency_rank": 207,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das Gesetz soll die Teilhabe von Menschen mit Behinderung verbessern.",
+        "en": "The law is meant to improve the participation of people with disabilities.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Bildung ist der Schlüssel zur gesellschaftlichen Teilhabe.",
+        "en": "Education is the key to participation in society.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "society",
+      "formal",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_pflicht",
+    "word": "Pflicht",
+    "article": "die",
+    "english": "duty / obligation",
+    "plural": "Pflichten",
+    "plural_article": "die",
+    "genitive": "der Pflicht",
+    "frequency_rank": 208,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Es ist meine Pflicht, dir die Wahrheit zu sagen.",
+        "en": "It is my duty to tell you the truth.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Eltern haben Rechte und Pflicht.",
+        "en": "Parents have rights and duties.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "society",
+      "essential",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_geflüchtete",
+    "word": "Geflüchtete",
+    "article": "der",
+    "english": "refugee (adjectival noun)",
+    "plural": "Geflüchteten",
+    "plural_article": "die",
+    "genitive": "des Geflüchteten",
+    "frequency_rank": 209,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Viele Geflüchtete lernen sehr schnell Deutsch.",
+        "en": "Many refugees learn German very quickly.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Die Stadt stellt Wohnungen für Geflüchtete bereit.",
+        "en": "The city provides apartments for refugees.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "society",
+      "news",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_bezug",
+    "word": "Bezug",
+    "article": "der",
+    "english": "reference / relation; cover; purchase",
+    "plural": "Bezüge",
+    "plural_article": "die",
+    "genitive": "des Bezugs",
+    "frequency_rank": 210,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "In Bezug auf Ihre Frage kann ich Folgendes sagen.",
+        "en": "With regard to your question, I can say the following.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Der Artikel hat keinen Bezug zur Realität.",
+        "en": "The article has no connection to reality.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "formal",
+      "abstract",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_berechnung",
+    "word": "Berechnung",
+    "article": "die",
+    "english": "calculation",
+    "plural": "Berechnungen",
+    "plural_article": "die",
+    "genitive": "der Berechnung",
+    "frequency_rank": 211,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Nach meiner Berechnung brauchen wir noch zwei Stunden.",
+        "en": "According to my calculation we need two more hours.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Die Berechnung der Kosten dauert einen Moment.",
+        "en": "Calculating the costs takes a moment.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "numbers",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_umweltschützer",
+    "word": "Umweltschützer",
+    "article": "der",
+    "english": "environmentalist",
+    "plural": "Umweltschützer",
+    "plural_article": "die",
+    "genitive": "des Umweltschützers",
+    "frequency_rank": 212,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Umweltschützer protestieren gegen das neue Kraftwerk.",
+        "en": "The environmentalists protest against the new power plant.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Als Umweltschützer fährt er nur mit dem Fahrrad.",
+        "en": "As an environmentalist he only travels by bike.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "environment",
+      "society",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_erfassung",
+    "word": "Erfassung",
+    "article": "die",
+    "english": "recording / registration (of data)",
+    "plural": "Erfassungen",
+    "plural_article": "die",
+    "genitive": "der Erfassung",
+    "frequency_rank": 213,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Erfassung der Daten erfolgt automatisch.",
+        "en": "The data is recorded automatically.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Für die Erfassung neuer Mitglieder nutzen wir ein Formular.",
+        "en": "We use a form for registering new members.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "formal",
+      "technology",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_erhebung",
+    "word": "Erhebung",
+    "article": "die",
+    "english": "survey / collection (of data); elevation",
+    "plural": "Erhebungen",
+    "plural_article": "die",
+    "genitive": "der Erhebung",
+    "frequency_rank": 214,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Laut einer aktuellen Erhebung lesen Jugendliche weniger Bücher.",
+        "en": "According to a recent survey, young people read fewer books.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Die Erhebung der Steuern ist Aufgabe des Finanzamts.",
+        "en": "Collecting taxes is the tax office's job.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "formal",
+      "numbers",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_regal",
+    "word": "Regal",
+    "article": "das",
+    "english": "shelf / shelving unit",
+    "plural": "Regale",
+    "plural_article": "die",
+    "genitive": "des Regals",
+    "frequency_rank": 215,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Das Buch steht im Regal ganz oben.",
+        "en": "The book is on the top shelf.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Wir brauchen ein neues Regal für die Küche.",
+        "en": "We need a new shelf for the kitchen.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "home",
+      "everyday",
+      "a2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_säure",
+    "word": "Säure",
+    "article": "die",
+    "english": "acid",
+    "plural": "Säuren",
+    "plural_article": "die",
+    "genitive": "der Säure",
+    "frequency_rank": 216,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Säure greift das Metall an.",
+        "en": "The acid attacks the metal.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Zitronen enthalten viel Säure.",
+        "en": "Lemons contain a lot of acid.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "science",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_farbdruck",
+    "word": "Farbdruck",
+    "article": "der",
+    "english": "colour print / colour printing",
+    "plural": "Farbdrucke",
+    "plural_article": "die",
+    "genitive": "des Farbdrucks",
+    "frequency_rank": 217,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Der Farbdruck ist deutlich teurer als Schwarz-Weiß.",
+        "en": "Colour printing is significantly more expensive than black and white.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "An der Wand hängt ein alter Farbdruck von Monet.",
+        "en": "An old colour print by Monet hangs on the wall.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "media",
+      "technology",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_besitzer",
+    "word": "Besitzer",
+    "article": "der",
+    "english": "owner",
+    "plural": "Besitzer",
+    "plural_article": "die",
+    "genitive": "des Besitzers",
+    "frequency_rank": 218,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Der Besitzer des Autos hat falsch geparkt.",
+        "en": "The owner of the car parked illegally.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Das Café hat einen neuen Besitzer.",
+        "en": "The café has a new owner.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "everyday",
+      "legal",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_rechtsstreit",
+    "word": "Rechtsstreit",
+    "article": "der",
+    "english": "legal dispute / lawsuit",
+    "plural": "Rechtsstreite",
+    "plural_article": "die",
+    "genitive": "des Rechtsstreits",
+    "frequency_rank": 219,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Der Rechtsstreit zwischen den Firmen dauert schon drei Jahre.",
+        "en": "The legal dispute between the companies has been going on for three years.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Sie gewann den Rechtsstreit um das Grundstück.",
+        "en": "She won the lawsuit over the property.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "legal",
+      "news",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_absicht",
+    "word": "Absicht",
+    "article": "die",
+    "english": "intention",
+    "plural": "Absichten",
+    "plural_article": "die",
+    "genitive": "der Absicht",
+    "frequency_rank": 220,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Das war keine Absicht — es tut mir leid!",
+        "en": "That wasn't intentional — I'm sorry!",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Er hat die Absicht, im Ausland zu studieren.",
+        "en": "He intends to study abroad.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "essential",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_hürde",
+    "word": "Hürde",
+    "article": "die",
+    "english": "hurdle / obstacle",
+    "plural": "Hürden",
+    "plural_article": "die",
+    "genitive": "der Hürde",
+    "frequency_rank": 221,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Die Sprache ist die größte Hürde für viele Einwanderer.",
+        "en": "The language is the biggest hurdle for many immigrants.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Der Läufer sprang elegant über jede Hürde.",
+        "en": "The runner jumped elegantly over every hurdle.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_hindernis",
+    "word": "Hindernis",
+    "article": "das",
+    "english": "obstacle",
+    "plural": "Hindernisse",
+    "plural_article": "die",
+    "genitive": "des Hindernisses",
+    "frequency_rank": 222,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Ein umgestürzter Baum war das erste Hindernis auf dem Weg.",
+        "en": "A fallen tree was the first obstacle on the path.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Fehlendes Geld ist kein Hindernis für gute Ideen.",
+        "en": "A lack of money is no obstacle to good ideas.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_schrittgeschwindigkeit",
+    "word": "Schrittgeschwindigkeit",
+    "article": "die",
+    "english": "walking pace / walking speed",
+    "plural": "",
+    "plural_article": "",
+    "genitive": "der Schrittgeschwindigkeit",
+    "frequency_rank": 223,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "In der Spielstraße gilt Schrittgeschwindigkeit.",
+        "en": "In the play street, walking pace applies.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Die Autos kriechen im Stau mit Schrittgeschwindigkeit voran.",
+        "en": "The cars creep forward at walking pace in the traffic jam.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "traffic",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_wahnsinn",
+    "word": "Wahnsinn",
+    "article": "der",
+    "english": "madness / insanity; (colloquial) awesome",
+    "plural": "",
+    "plural_article": "",
+    "genitive": "des Wahnsinns",
+    "frequency_rank": 224,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Es wäre Wahnsinn, bei diesem Sturm zu segeln.",
+        "en": "It would be madness to sail in this storm.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Du hast den Marathon geschafft? Wahnsinn!",
+        "en": "You finished the marathon? Awesome!",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "colloquial",
+      "emotions",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_unzufriedenheit",
+    "word": "Unzufriedenheit",
+    "article": "die",
+    "english": "dissatisfaction",
+    "plural": "",
+    "plural_article": "",
+    "genitive": "der Unzufriedenheit",
+    "frequency_rank": 225,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Unzufriedenheit der Mitarbeiter wächst seit Monaten.",
+        "en": "The employees' dissatisfaction has been growing for months.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Aus Unzufriedenheit mit dem Service wechselte sie die Bank.",
+        "en": "Out of dissatisfaction with the service, she changed banks.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "emotions",
+      "abstract",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_mittelstreifen",
+    "word": "Mittelstreifen",
+    "article": "der",
+    "english": "median strip / central reservation",
+    "plural": "Mittelstreifen",
+    "plural_article": "die",
+    "genitive": "des Mittelstreifens",
+    "frequency_rank": 226,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Das Auto blieb auf dem Mittelstreifen der Autobahn stehen.",
+        "en": "The car came to a stop on the median strip of the motorway.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Auf dem Mittelstreifen wachsen Büsche und Gras.",
+        "en": "Bushes and grass grow on the central reservation.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "traffic",
+      "b2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_betreuer",
+    "word": "Betreuer",
+    "article": "der",
+    "english": "carer / supervisor / counsellor",
+    "plural": "Betreuer",
+    "plural_article": "die",
+    "genitive": "des Betreuers",
+    "frequency_rank": 227,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Der Betreuer hilft den Kindern bei den Hausaufgaben.",
+        "en": "The supervisor helps the children with their homework.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Jeder Student bekommt einen persönlichen Betreuer.",
+        "en": "Every student gets a personal advisor.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "work",
+      "social",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_stimmung",
+    "word": "Stimmung",
+    "article": "die",
+    "english": "mood / atmosphere",
+    "plural": "Stimmungen",
+    "plural_article": "die",
+    "genitive": "der Stimmung",
+    "frequency_rank": 228,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Heute bin ich nicht in Stimmung zum Feiern.",
+        "en": "Today I'm not in the mood for celebrating.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Auf der Party herrschte eine tolle Stimmung.",
+        "en": "There was a great atmosphere at the party.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "emotions",
+      "essential",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_erlebnis",
+    "word": "Erlebnis",
+    "article": "das",
+    "english": "experience (single event)",
+    "plural": "Erlebnisse",
+    "plural_article": "die",
+    "genitive": "des Erlebnisses",
+    "frequency_rank": 229,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Ballonfahrt war ein unvergessliches Erlebnis.",
+        "en": "The balloon ride was an unforgettable experience.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Erzähl mir von deinen Erlebnis in Japan!",
+        "en": "Tell me about your experiences in Japan!",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "essential",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_ratschlag",
+    "word": "Ratschlag",
+    "article": "der",
+    "english": "piece of advice",
+    "plural": "Ratschläge",
+    "plural_article": "die",
+    "genitive": "des Ratschlags",
+    "frequency_rank": 231,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Darf ich dir einen Ratschlag geben?",
+        "en": "May I give you a piece of advice?",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Ich habe seine Ratschlag leider nicht befolgt.",
+        "en": "Unfortunately, I didn't follow his advice.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "communication",
+      "b1"
+    ],
+    "section": "roots"
   }
 ]

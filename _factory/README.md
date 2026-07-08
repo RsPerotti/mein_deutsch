@@ -28,3 +28,19 @@ This folder is never served to the app. It contains tools for generating content
 | Verbs | 100 | 1,600 | ~1,700 |
 | Nouns | 200 | 800 | ~1,000 |
 | Adjectives | 150 | 1,200 | ~1,350 |
+
+## Wörter Intake (reading vocabulary) — Session 35+
+
+Ricco collects unknown words in a Google Sheet while reading:
+https://docs.google.com/spreadsheets/d/1--W4h39JCh3p0heMWJN1ykHUPXRyfRfHWnAHBYrXHug/
+
+**To process new words:** tell Claude "process my new words". The pipeline:
+
+1. Read the sheet, diff against `intake-log.json` (every processed row is recorded there with its resolution)
+2. Classify new rows: verb / noun / adjective / adverb / particle / expression; correct typos to standard lemmas; skip words already in the app
+3. Author seed files (like `intake-2026-07-07/*-seeds*.json`) — conjugations, sentences, distractors
+4. Generate entries + exercises mechanically (`intake-2026-07-07/generate_verbs.py` pattern), validate (blank counts, distractor counts, no correct-answer-in-wrongs, ID collisions), merge into `/data`
+5. Rebundle `js/data.js`, bump service-worker CACHE version, QA, commit + push
+6. Append new rows to `intake-log.json`
+
+Expressions that fit no word category go to the **Ausdrücke** module (`data/expressions.json`).

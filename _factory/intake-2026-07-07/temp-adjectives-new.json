@@ -1,0 +1,952 @@
+[
+  {
+    "id": "adj_ausschlaggebend",
+    "word": "ausschlaggebend",
+    "english": "decisive (the deciding factor)",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 101,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Der Preis war ausschlaggebend für meine Entscheidung.",
+        "en": "The price was the deciding factor for my decision."
+      },
+      {
+        "de": "Sein Tor war ausschlaggebend für den Sieg.",
+        "en": "His goal was decisive for the victory."
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ],
+    "antonym": "unwichtig"
+  },
+  {
+    "id": "adj_ordentlich",
+    "word": "ordentlich",
+    "english": "tidy / neat / proper",
+    "comparative": "ordentlicher",
+    "superlative": "am ordentlichsten",
+    "frequency_rank": 102,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Sein Schreibtisch ist immer ordentlich.",
+        "en": "His desk is always tidy."
+      },
+      {
+        "de": "Sein Zimmer sieht endlich wieder ordentlich aus.",
+        "en": "His room finally looks tidy again."
+      }
+    ],
+    "tags": [
+      "everyday",
+      "b1"
+    ],
+    "antonym": "unordentlich"
+  },
+  {
+    "id": "adj_boese",
+    "word": "böse",
+    "english": "angry / evil / bad",
+    "comparative": "böser",
+    "superlative": "am bösesten",
+    "frequency_rank": 103,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Bist du mir noch böse?",
+        "en": "Are you still angry with me?"
+      },
+      {
+        "de": "In dem Märchen gibt es eine böse Hexe.",
+        "en": "In the fairy tale there is an evil witch."
+      }
+    ],
+    "tags": [
+      "emotions",
+      "essential",
+      "a2"
+    ],
+    "antonym": "lieb"
+  },
+  {
+    "id": "adj_ernsthaft",
+    "word": "ernsthaft",
+    "english": "serious / earnest",
+    "comparative": "ernsthafter",
+    "superlative": "am ernsthaftesten",
+    "frequency_rank": 104,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Wir müssen ernsthaft über die Zukunft reden.",
+        "en": "We have to talk seriously about the future."
+      },
+      {
+        "de": "Die Zweifel an seiner Geschichte waren ernsthaft.",
+        "en": "The doubts about his story were serious."
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ],
+    "antonym": "scherzhaft"
+  },
+  {
+    "id": "adj_einzig",
+    "word": "einzig",
+    "english": "only / sole",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 105,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das ist die einzige Lösung, die funktioniert.",
+        "en": "That is the only solution that works."
+      },
+      {
+        "de": "Er war der einzige Gast im Restaurant.",
+        "en": "He was the only guest in the restaurant."
+      }
+    ],
+    "tags": [
+      "abstract",
+      "essential",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_zielstrebig",
+    "word": "zielstrebig",
+    "english": "determined / goal-oriented",
+    "comparative": "zielstrebiger",
+    "superlative": "am zielstrebigsten",
+    "frequency_rank": 106,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Sie arbeitet zielstrebig an ihrer Karriere.",
+        "en": "She works purposefully on her career."
+      },
+      {
+        "de": "Er ist sehr zielstrebig und erreicht seine Ziele.",
+        "en": "He is very determined and achieves his goals."
+      }
+    ],
+    "tags": [
+      "character",
+      "b2"
+    ],
+    "antonym": "ziellos"
+  },
+  {
+    "id": "adj_bedauerlich",
+    "word": "bedauerlich",
+    "english": "regrettable / unfortunate",
+    "comparative": "bedauerlicher",
+    "superlative": "am bedauerlichsten",
+    "frequency_rank": 107,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Es ist sehr bedauerlich, dass du nicht kommen kannst.",
+        "en": "It is very unfortunate that you can't come."
+      },
+      {
+        "de": "Der Fehler war bedauerlich und hat das Projekt verzögert.",
+        "en": "The mistake was regrettable and delayed the project."
+      }
+    ],
+    "tags": [
+      "formal",
+      "b2"
+    ],
+    "antonym": "erfreulich"
+  },
+  {
+    "id": "adj_beschaemend",
+    "word": "beschämend",
+    "english": "shameful / embarrassing",
+    "comparative": "beschämender",
+    "superlative": "am beschämendsten",
+    "frequency_rank": 108,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Das Ergebnis war beschämend für die ganze Mannschaft.",
+        "en": "The result was embarrassing for the whole team."
+      },
+      {
+        "de": "Es ist beschämend, wie wenig hier getan wurde.",
+        "en": "It is shameful how little was done here."
+      }
+    ],
+    "tags": [
+      "emotions",
+      "formal",
+      "b2"
+    ],
+    "antonym": "lobenswert"
+  },
+  {
+    "id": "adj_damalig",
+    "word": "damalig",
+    "english": "of that time / then (attributive)",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 109,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Der damalige Bürgermeister eröffnete die Brücke.",
+        "en": "The then mayor opened the bridge."
+      },
+      {
+        "de": "Die damalige Situation war völlig anders als heute.",
+        "en": "The situation at that time was completely different from today."
+      }
+    ],
+    "tags": [
+      "time",
+      "reading",
+      "b2"
+    ],
+    "antonym": "heutig"
+  },
+  {
+    "id": "adj_eifersuechtig",
+    "word": "eifersüchtig",
+    "english": "jealous",
+    "comparative": "eifersüchtiger",
+    "superlative": "am eifersüchtigsten",
+    "frequency_rank": 110,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Er ist eifersüchtig auf den neuen Kollegen.",
+        "en": "He is jealous of the new colleague."
+      },
+      {
+        "de": "Sei doch nicht so eifersüchtig!",
+        "en": "Don't be so jealous!"
+      }
+    ],
+    "tags": [
+      "emotions",
+      "b1"
+    ],
+    "antonym": "gelassen"
+  },
+  {
+    "id": "adj_vermeintlich",
+    "word": "vermeintlich",
+    "english": "supposed / alleged",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 111,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Der vermeintliche Experte hatte nie studiert.",
+        "en": "The supposed expert had never studied."
+      },
+      {
+        "de": "Die vermeintliche Abkürzung kostete uns eine Stunde.",
+        "en": "The supposed shortcut cost us an hour."
+      }
+    ],
+    "tags": [
+      "reading",
+      "formal",
+      "b2"
+    ],
+    "antonym": "tatsächlich"
+  },
+  {
+    "id": "adj_sogenannt",
+    "word": "sogenannt",
+    "english": "so-called",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 112,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Die sogenannten Experten widersprechen sich ständig.",
+        "en": "The so-called experts constantly contradict each other."
+      },
+      {
+        "de": "Das ist der sogenannte Muskelkater.",
+        "en": "That is what is known as sore muscles."
+      }
+    ],
+    "tags": [
+      "reading",
+      "formal",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_vorhersehbar",
+    "word": "vorhersehbar",
+    "english": "predictable / foreseeable",
+    "comparative": "vorhersehbarer",
+    "superlative": "am vorhersehbarsten",
+    "frequency_rank": 113,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Das Ende des Films war leider vorhersehbar.",
+        "en": "The ending of the film was unfortunately predictable."
+      },
+      {
+        "de": "Die Folgen waren für alle vorhersehbar.",
+        "en": "The consequences were foreseeable for everyone."
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ],
+    "antonym": "unvorhersehbar"
+  },
+  {
+    "id": "adj_herausfordernd",
+    "word": "herausfordernd",
+    "english": "challenging",
+    "comparative": "herausfordernder",
+    "superlative": "am herausforderndsten",
+    "frequency_rank": 114,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Das erste Jahr im neuen Job war sehr herausfordernd.",
+        "en": "The first year in the new job was very challenging."
+      },
+      {
+        "de": "Die neue Aufgabe ist anspruchsvoll und herausfordernd.",
+        "en": "The new task is demanding and challenging."
+      }
+    ],
+    "tags": [
+      "work",
+      "abstract",
+      "b2"
+    ],
+    "antonym": "einfach"
+  },
+  {
+    "id": "adj_entscheidend",
+    "word": "entscheidend",
+    "english": "crucial / decisive",
+    "comparative": "entscheidender",
+    "superlative": "am entscheidendsten",
+    "frequency_rank": 115,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Dieses Spiel ist entscheidend für die Meisterschaft.",
+        "en": "This game is decisive for the championship."
+      },
+      {
+        "de": "Geduld ist entscheidend beim Sprachenlernen.",
+        "en": "Patience is crucial when learning languages."
+      }
+    ],
+    "tags": [
+      "abstract",
+      "essential",
+      "b1"
+    ],
+    "antonym": "nebensächlich"
+  },
+  {
+    "id": "adj_duftend",
+    "word": "duftend",
+    "english": "fragrant / sweet-smelling",
+    "comparative": "duftender",
+    "superlative": "am duftendsten",
+    "frequency_rank": 116,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Auf dem Tisch stand duftender Kaffee.",
+        "en": "Fragrant coffee stood on the table."
+      },
+      {
+        "de": "Sie pflückte einen Strauß duftender Rosen.",
+        "en": "She picked a bouquet of fragrant roses."
+      }
+    ],
+    "tags": [
+      "senses",
+      "b2"
+    ],
+    "antonym": "stinkend"
+  },
+  {
+    "id": "adj_ueberwaeltigend",
+    "word": "überwältigend",
+    "english": "overwhelming",
+    "comparative": "überwältigender",
+    "superlative": "am überwältigendsten",
+    "frequency_rank": 117,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Die überwältigende Mehrheit stimmte für den Plan.",
+        "en": "The overwhelming majority voted for the plan."
+      },
+      {
+        "de": "Der Ausblick vom Gipfel war überwältigend.",
+        "en": "The view from the summit was overwhelming."
+      }
+    ],
+    "tags": [
+      "abstract",
+      "news",
+      "b2"
+    ],
+    "antonym": "gering"
+  },
+  {
+    "id": "adj_haltlos",
+    "word": "haltlos",
+    "english": "baseless / unfounded",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 118,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Diese Vorwürfe sind völlig haltlos.",
+        "en": "These accusations are completely baseless."
+      },
+      {
+        "de": "Die Behauptung erwies sich als haltlos.",
+        "en": "The claim turned out to be unfounded."
+      }
+    ],
+    "tags": [
+      "formal",
+      "news",
+      "b2"
+    ],
+    "antonym": "begründet"
+  },
+  {
+    "id": "adj_betroffen",
+    "word": "betroffen",
+    "english": "affected; shaken / dismayed",
+    "comparative": "betroffener",
+    "superlative": "am betroffensten",
+    "frequency_rank": 119,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Viele Familien sind von den Preiserhöhungen betroffen.",
+        "en": "Many families are affected by the price increases."
+      },
+      {
+        "de": "Er schwieg betroffen, als er die Nachricht hörte.",
+        "en": "He fell silent, shaken, when he heard the news."
+      }
+    ],
+    "tags": [
+      "news",
+      "emotions",
+      "b1"
+    ],
+    "antonym": "unberührt"
+  },
+  {
+    "id": "adj_spuerbar",
+    "word": "spürbar",
+    "english": "noticeable / palpable",
+    "comparative": "spürbarer",
+    "superlative": "am spürbarsten",
+    "frequency_rank": 120,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Die Preise sind spürbar gestiegen.",
+        "en": "Prices have risen noticeably."
+      },
+      {
+        "de": "Im Raum herrschte eine spürbare Spannung.",
+        "en": "There was a palpable tension in the room."
+      }
+    ],
+    "tags": [
+      "abstract",
+      "news",
+      "b2"
+    ],
+    "antonym": "unmerklich"
+  },
+  {
+    "id": "adj_wertvoll",
+    "word": "wertvoll",
+    "english": "valuable / precious",
+    "comparative": "wertvoller",
+    "superlative": "am wertvollsten",
+    "frequency_rank": 121,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Dieser Ring ist sehr wertvoll.",
+        "en": "This ring is very valuable."
+      },
+      {
+        "de": "Du hast mir einen wertvollen Tipp gegeben.",
+        "en": "You gave me a valuable tip."
+      }
+    ],
+    "tags": [
+      "abstract",
+      "essential",
+      "b1"
+    ],
+    "antonym": "wertlos"
+  },
+  {
+    "id": "adj_zahlreich",
+    "word": "zahlreich",
+    "english": "numerous",
+    "comparative": "zahlreicher",
+    "superlative": "am zahlreichsten",
+    "frequency_rank": 122,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Zahlreiche Besucher kamen zur Ausstellung.",
+        "en": "Numerous visitors came to the exhibition."
+      },
+      {
+        "de": "Es gab zahlreiche Beschwerden über den Lärm.",
+        "en": "There were numerous complaints about the noise."
+      }
+    ],
+    "tags": [
+      "quantity",
+      "reading",
+      "b1"
+    ],
+    "antonym": "wenig"
+  },
+  {
+    "id": "adj_verwirrt",
+    "word": "verwirrt",
+    "english": "confused",
+    "comparative": "verwirrter",
+    "superlative": "am verwirrtesten",
+    "frequency_rank": 123,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Nach der Erklärung war ich noch mehr verwirrt.",
+        "en": "After the explanation I was even more confused."
+      },
+      {
+        "de": "Er sah mich verwirrt an.",
+        "en": "He looked at me, confused."
+      }
+    ],
+    "tags": [
+      "emotions",
+      "b1"
+    ],
+    "antonym": "klar"
+  },
+  {
+    "id": "adj_gespannt",
+    "word": "gespannt",
+    "english": "curious / eager (to see) / tense",
+    "comparative": "gespannter",
+    "superlative": "am gespanntesten",
+    "frequency_rank": 124,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ich bin gespannt, wie der Film endet.",
+        "en": "I'm curious to see how the film ends."
+      },
+      {
+        "de": "Die Zuschauer warteten gespannt auf das Ergebnis.",
+        "en": "The spectators waited eagerly for the result."
+      }
+    ],
+    "tags": [
+      "emotions",
+      "b1"
+    ],
+    "antonym": "gleichgültig"
+  },
+  {
+    "id": "adj_unabhaengig",
+    "word": "unabhängig",
+    "english": "independent",
+    "comparative": "unabhängiger",
+    "superlative": "am unabhängigsten",
+    "frequency_rank": 125,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Sie ist finanziell unabhängig von ihren Eltern.",
+        "en": "She is financially independent of her parents."
+      },
+      {
+        "de": "Eine unabhängige Untersuchung soll den Fall klären.",
+        "en": "An independent investigation is to clarify the case."
+      }
+    ],
+    "tags": [
+      "society",
+      "abstract",
+      "b1"
+    ],
+    "antonym": "abhängig"
+  },
+  {
+    "id": "adj_untroestlich",
+    "word": "untröstlich",
+    "english": "inconsolable",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 126,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Das Kind war untröstlich, als der Luftballon platzte.",
+        "en": "The child was inconsolable when the balloon burst."
+      },
+      {
+        "de": "Nach dem Verlust ihres Hundes war sie untröstlich.",
+        "en": "After losing her dog she was inconsolable."
+      }
+    ],
+    "tags": [
+      "emotions",
+      "reading",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_schlau",
+    "word": "schlau",
+    "english": "clever / smart / cunning",
+    "comparative": "schlauer",
+    "superlative": "am schlausten",
+    "frequency_rank": 127,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Der Fuchs gilt als besonders schlau.",
+        "en": "The fox is considered particularly cunning."
+      },
+      {
+        "de": "Das war eine schlaue Idee!",
+        "en": "That was a clever idea!"
+      }
+    ],
+    "tags": [
+      "character",
+      "a2"
+    ],
+    "antonym": "dumm"
+  },
+  {
+    "id": "adj_wahr",
+    "word": "wahr",
+    "english": "true",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 128,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Die Geschichte ist wirklich wahr.",
+        "en": "The story is really true."
+      },
+      {
+        "de": "Es ist wahr, dass er umzieht.",
+        "en": "It is true that he is moving."
+      }
+    ],
+    "tags": [
+      "abstract",
+      "essential",
+      "a2"
+    ],
+    "antonym": "falsch"
+  },
+  {
+    "id": "adj_heillos",
+    "word": "heillos",
+    "english": "utter / hopeless (chaos, confusion)",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 129,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Nach dem Umzug herrschte ein heilloses Durcheinander.",
+        "en": "After the move there was utter chaos."
+      },
+      {
+        "de": "Er war heillos überfordert mit der Situation.",
+        "en": "He was hopelessly overwhelmed by the situation."
+      }
+    ],
+    "tags": [
+      "reading",
+      "b2"
+    ]
+  },
+  {
+    "id": "adj_schillernd",
+    "word": "schillernd",
+    "english": "iridescent / dazzling / colourful (figurative)",
+    "comparative": "schillernder",
+    "superlative": "am schillerndsten",
+    "frequency_rank": 130,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Die Seifenblasen sind wunderschön schillernd.",
+        "en": "The soap bubbles are beautifully iridescent."
+      },
+      {
+        "de": "Er ist eine schillernde Figur der Stadtgeschichte.",
+        "en": "He is a colourful figure in the city's history."
+      }
+    ],
+    "tags": [
+      "reading",
+      "b2"
+    ],
+    "antonym": "farblos"
+  },
+  {
+    "id": "adj_moeglich",
+    "word": "möglich",
+    "english": "possible",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 131,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ist es möglich, den Termin zu verschieben?",
+        "en": "Is it possible to postpone the appointment?"
+      },
+      {
+        "de": "Wir kommen so schnell wie möglich.",
+        "en": "We'll come as quickly as possible."
+      }
+    ],
+    "tags": [
+      "essential",
+      "a2"
+    ],
+    "antonym": "unmöglich"
+  },
+  {
+    "id": "adj_notwendig",
+    "word": "notwendig",
+    "english": "necessary",
+    "comparative": "notwendiger",
+    "superlative": "am notwendigsten",
+    "frequency_rank": 132,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ein Visum ist für diese Reise notwendig.",
+        "en": "A visa is necessary for this trip."
+      },
+      {
+        "de": "Es ist notwendig, dass alle pünktlich kommen.",
+        "en": "It is necessary that everyone arrives on time."
+      }
+    ],
+    "tags": [
+      "abstract",
+      "essential",
+      "b1"
+    ],
+    "antonym": "überflüssig"
+  },
+  {
+    "id": "adj_durchschnittlich",
+    "word": "durchschnittlich",
+    "english": "average",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 133,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ein Deutscher trinkt durchschnittlich 160 Liter Kaffee pro Jahr.",
+        "en": "A German drinks on average 160 litres of coffee per year."
+      },
+      {
+        "de": "Seine Noten sind nur durchschnittlich.",
+        "en": "His grades are only average."
+      }
+    ],
+    "tags": [
+      "numbers",
+      "b1"
+    ],
+    "antonym": "außergewöhnlich"
+  },
+  {
+    "id": "adj_freiwillig",
+    "word": "freiwillig",
+    "english": "voluntary / of one's own free will",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 134,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Sie arbeitet freiwillig im Tierheim.",
+        "en": "She works voluntarily at the animal shelter."
+      },
+      {
+        "de": "Die Teilnahme am Kurs ist freiwillig.",
+        "en": "Participation in the course is voluntary."
+      }
+    ],
+    "tags": [
+      "society",
+      "b1"
+    ],
+    "antonym": "gezwungen"
+  },
+  {
+    "id": "adj_zufaellig",
+    "word": "zufällig",
+    "english": "random / accidental / by chance",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 135,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Wir haben uns zufällig im Supermarkt getroffen.",
+        "en": "We met by chance at the supermarket."
+      },
+      {
+        "de": "Weißt du zufällig, wie spät es ist?",
+        "en": "Do you happen to know what time it is?"
+      }
+    ],
+    "tags": [
+      "everyday",
+      "b1"
+    ],
+    "antonym": "absichtlich"
+  },
+  {
+    "id": "adj_zugrundeliegend",
+    "word": "zugrundeliegend",
+    "english": "underlying",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 136,
+    "module": "adjectives",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Die zugrundeliegende Ursache des Problems ist unklar.",
+        "en": "The underlying cause of the problem is unclear."
+      },
+      {
+        "de": "Der Studie liegen aktuelle Daten zugrunde — die zugrundeliegende Methode ist solide.",
+        "en": "The study is based on current data — the underlying method is solid."
+      }
+    ],
+    "tags": [
+      "formal",
+      "reading",
+      "b2"
+    ]
+  }
+]

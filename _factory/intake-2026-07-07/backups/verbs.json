@@ -1,0 +1,6458 @@
+[
+  {
+    "id": "verb_sein",
+    "root": "sein",
+    "english": "to be",
+    "type": "irregular",
+    "frequency_rank": 1,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "bin",
+        "du": "bist",
+        "er_sie_es": "ist",
+        "wir": "sind",
+        "ihr": "seid",
+        "sie_Sie": "sind"
+      },
+      "past_participle": "gewesen",
+      "auxiliary": "sein"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich bin Student.",
+        "en": "I am a student.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Sie ist sehr freundlich.",
+        "en": "She is very friendly.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "copula",
+      "case_requirements": [
+        "nominative"
+      ],
+      "notes_en": "sein links the subject to a predicate nominative or adjective. The complement is always in the nominative case: 'Er ist ein Lehrer' (not 'einen Lehrer').",
+      "dual_case": false
+    },
+    "tags": [
+      "essential",
+      "auxiliary",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_haben",
+    "root": "haben",
+    "english": "to have",
+    "type": "irregular",
+    "frequency_rank": 2,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "habe",
+        "du": "hast",
+        "er_sie_es": "hat",
+        "wir": "haben",
+        "ihr": "habt",
+        "sie_Sie": "haben"
+      },
+      "past_participle": "gehabt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich habe einen Hund.",
+        "en": "I have a dog.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Wir haben keine Zeit.",
+        "en": "We have no time.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "haben takes a direct object in the accusative case. It is also the most common auxiliary verb used to form the Perfekt (past) tense for most verbs.",
+      "dual_case": false
+    },
+    "tags": [
+      "essential",
+      "auxiliary",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_werden",
+    "root": "werden",
+    "english": "to become",
+    "type": "strong",
+    "frequency_rank": 3,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "werde",
+        "du": "wirst",
+        "er_sie_es": "wird",
+        "wir": "werden",
+        "ihr": "werdet",
+        "sie_Sie": "werden"
+      },
+      "past_participle": "geworden",
+      "auxiliary": "sein"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Er wird Arzt.",
+        "en": "He is becoming a doctor.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Es wird kalt.",
+        "en": "It is getting cold.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "copula",
+      "case_requirements": [
+        "nominative"
+      ],
+      "notes_en": "As a main verb, werden links the subject to a nominative complement. It is also used as an auxiliary to form the future tense (werden + infinitive) and passive voice.",
+      "dual_case": false
+    },
+    "tags": [
+      "essential",
+      "auxiliary",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_können",
+    "root": "können",
+    "english": "to be able to",
+    "type": "modal",
+    "frequency_rank": 4,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "kann",
+        "du": "kannst",
+        "er_sie_es": "kann",
+        "wir": "können",
+        "ihr": "könnt",
+        "sie_Sie": "können"
+      },
+      "past_participle": "gekonnt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich kann Deutsch sprechen.",
+        "en": "I can speak German.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Kannst du mir helfen?",
+        "en": "Can you help me?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "modal",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "können is a modal verb. It is followed by an infinitive at the end of the clause (no 'zu'). Note: ich kann and er/sie/es kann are identical — modal verbs have no ending in 1st and 3rd person singular.",
+      "dual_case": false
+    },
+    "tags": [
+      "modal",
+      "essential",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_müssen",
+    "root": "müssen",
+    "english": "to have to",
+    "type": "modal",
+    "frequency_rank": 5,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "muss",
+        "du": "musst",
+        "er_sie_es": "muss",
+        "wir": "müssen",
+        "ihr": "müsst",
+        "sie_Sie": "müssen"
+      },
+      "past_participle": "gemusst",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich muss jetzt gehen.",
+        "en": "I have to go now.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Du musst mehr lernen.",
+        "en": "You have to study more.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "modal",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "müssen is a modal verb expressing necessity or obligation. Followed by an infinitive at the end of the clause. Important: 'nicht müssen' means 'don't have to' (not 'must not' — that is 'nicht dürfen').",
+      "dual_case": false
+    },
+    "tags": [
+      "modal",
+      "essential",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_sagen",
+    "root": "sagen",
+    "english": "to say",
+    "type": "weak",
+    "frequency_rank": 6,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "sage",
+        "du": "sagst",
+        "er_sie_es": "sagt",
+        "wir": "sagen",
+        "ihr": "sagt",
+        "sie_Sie": "sagen"
+      },
+      "past_participle": "gesagt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_absagen",
+        "prefix": "ab",
+        "word": "absagen",
+        "english": "to cancel",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich sage das Treffen ab."
+      },
+      {
+        "id": "verb_ansagen",
+        "prefix": "an",
+        "word": "ansagen",
+        "english": "to announce",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Der Moderator sagt das Konzert an."
+      },
+      {
+        "id": "verb_aussagen",
+        "prefix": "aus",
+        "word": "aussagen",
+        "english": "to testify / to state",
+        "separable": true,
+        "notes": "Prefix separates: Der Zeuge sagt aus."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Was sagst du?",
+        "en": "What are you saying?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Er sagt immer die Wahrheit.",
+        "en": "He always tells the truth.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "sagen takes a direct object (what is said) in the accusative case. Can also introduce a subordinate clause: 'Er sagt, dass...'",
+      "dual_case": false
+    },
+    "tags": [
+      "communication",
+      "daily_life",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_machen",
+    "root": "machen",
+    "english": "to make / do",
+    "type": "weak",
+    "frequency_rank": 7,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "mache",
+        "du": "machst",
+        "er_sie_es": "macht",
+        "wir": "machen",
+        "ihr": "macht",
+        "sie_Sie": "machen"
+      },
+      "past_participle": "gemacht",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_aufmachen",
+        "prefix": "auf",
+        "word": "aufmachen",
+        "english": "to open",
+        "separable": true,
+        "notes": "Prefix separates: Ich mache die Tür auf."
+      },
+      {
+        "id": "verb_zumachen",
+        "prefix": "zu",
+        "word": "zumachen",
+        "english": "to close",
+        "separable": true,
+        "notes": "Prefix separates: Sie macht das Fenster zu."
+      },
+      {
+        "id": "verb_ausmachen",
+        "prefix": "aus",
+        "word": "ausmachen",
+        "english": "to turn off / to matter",
+        "separable": true,
+        "notes": "Prefix separates: Mach das Licht aus! / Das macht nichts aus."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich mache meine Hausaufgaben.",
+        "en": "I am doing my homework.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Was machst du am Wochenende?",
+        "en": "What are you doing at the weekend?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "machen takes a direct object in the accusative case. It is one of the most versatile German verbs and appears in many fixed expressions.",
+      "dual_case": false
+    },
+    "tags": [
+      "daily_life",
+      "general",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_gehen",
+    "root": "gehen",
+    "english": "to go",
+    "type": "strong",
+    "frequency_rank": 8,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "gehe",
+        "du": "gehst",
+        "er_sie_es": "geht",
+        "wir": "gehen",
+        "ihr": "geht",
+        "sie_Sie": "gehen"
+      },
+      "past_participle": "gegangen",
+      "auxiliary": "sein"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_ausgehen",
+        "prefix": "aus",
+        "word": "ausgehen",
+        "english": "to go out",
+        "separable": true,
+        "notes": "Prefix separates: Ich gehe heute Abend aus."
+      },
+      {
+        "id": "verb_losgehen",
+        "prefix": "los",
+        "word": "losgehen",
+        "english": "to set off / to start",
+        "separable": true,
+        "notes": "Prefix separates: Wir gehen um 8 Uhr los."
+      },
+      {
+        "id": "verb_eingehen",
+        "prefix": "ein",
+        "word": "eingehen",
+        "english": "to enter / to shrink",
+        "separable": true,
+        "notes": "Prefix separates. Context-dependent meaning: die Wäsche geht ein (the laundry shrinks)."
+      },
+      {
+        "id": "verb_vergehen",
+        "prefix": "ver",
+        "word": "vergehen",
+        "english": "to pass (time)",
+        "separable": false,
+        "notes": "Inseparable prefix. The prefix never separates: Die Zeit vergeht schnell."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich gehe heute in die Stadt.",
+        "en": "I am going to the city today.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Gehst du mit?",
+        "en": "Are you coming along?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "gehen takes no direct object — it is intransitive. When used with a destination, use accusative prepositions (in die Stadt, auf den Berg). Uses 'sein' as auxiliary in the Perfekt.",
+      "dual_case": false
+    },
+    "tags": [
+      "movement",
+      "daily_life",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_kommen",
+    "root": "kommen",
+    "english": "to come",
+    "type": "strong",
+    "frequency_rank": 9,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "komme",
+        "du": "kommst",
+        "er_sie_es": "kommt",
+        "wir": "kommen",
+        "ihr": "kommt",
+        "sie_Sie": "kommen"
+      },
+      "past_participle": "gekommen",
+      "auxiliary": "sein"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_ankommen",
+        "prefix": "an",
+        "word": "ankommen",
+        "english": "to arrive",
+        "separable": true,
+        "notes": "Prefix separates: Der Zug kommt um 10 Uhr an."
+      },
+      {
+        "id": "verb_bekommen",
+        "prefix": "be",
+        "word": "bekommen",
+        "english": "to receive / to get",
+        "separable": false,
+        "notes": "Inseparable prefix: Ich bekomme ein Paket."
+      },
+      {
+        "id": "verb_vorkommen",
+        "prefix": "vor",
+        "word": "vorkommen",
+        "english": "to occur / to seem",
+        "separable": true,
+        "notes": "Prefix separates: Das kommt selten vor."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Wann kommst du nach Hause?",
+        "en": "When are you coming home?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Sie kommt aus Berlin.",
+        "en": "She comes from Berlin.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "kommen is intransitive and takes no direct object. Uses 'sein' as auxiliary in the Perfekt. Origin is expressed with 'aus + dative': 'aus Berlin', 'aus Deutschland'.",
+      "dual_case": false
+    },
+    "tags": [
+      "movement",
+      "daily_life",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_wollen",
+    "root": "wollen",
+    "english": "to want",
+    "type": "modal",
+    "frequency_rank": 10,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "will",
+        "du": "willst",
+        "er_sie_es": "will",
+        "wir": "wollen",
+        "ihr": "wollt",
+        "sie_Sie": "wollen"
+      },
+      "past_participle": "gewollt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich will ein Eis essen.",
+        "en": "I want to eat an ice cream.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Was willst du werden?",
+        "en": "What do you want to become?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "modal",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "wollen is a modal verb expressing desire or intention. Followed by an infinitive at the end of the clause. Note: 'ich will' and 'er/sie/es will' are identical — no ending in 1st and 3rd person singular.",
+      "dual_case": false
+    },
+    "tags": [
+      "modal",
+      "essential",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_sehen",
+    "root": "sehen",
+    "english": "to see",
+    "type": "strong",
+    "frequency_rank": 11,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "sehe",
+        "du": "siehst",
+        "er_sie_es": "sieht",
+        "wir": "sehen",
+        "ihr": "seht",
+        "sie_Sie": "sehen"
+      },
+      "past_participle": "gesehen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_aussehen",
+        "prefix": "aus",
+        "word": "aussehen",
+        "english": "to look / to appear",
+        "separable": true,
+        "notes": "Prefix separates: Du siehst müde aus."
+      },
+      {
+        "id": "verb_ansehen",
+        "prefix": "an",
+        "word": "ansehen",
+        "english": "to look at / to watch",
+        "separable": true,
+        "notes": "Prefix separates: Ich sehe mir den Film an."
+      },
+      {
+        "id": "verb_vorsehen",
+        "prefix": "vor",
+        "word": "vorsehen",
+        "english": "to plan / to provide for",
+        "separable": true,
+        "notes": "Prefix separates: Das Gesetz sieht eine Strafe vor."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich sehe einen Vogel.",
+        "en": "I see a bird.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Siehst du das auch?",
+        "en": "Do you see that too?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "sehen takes a direct object in the accusative case. Note the stem vowel change: du siehst, er sieht (e → ie in 2nd and 3rd person singular present).",
+      "dual_case": false
+    },
+    "tags": [
+      "perception",
+      "daily_life",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_lassen",
+    "root": "lassen",
+    "english": "to let / to leave",
+    "type": "strong",
+    "frequency_rank": 12,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "lasse",
+        "du": "lässt",
+        "er_sie_es": "lässt",
+        "wir": "lassen",
+        "ihr": "lasst",
+        "sie_Sie": "lassen"
+      },
+      "past_participle": "gelassen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_verlassen",
+        "prefix": "ver",
+        "word": "verlassen",
+        "english": "to leave / to abandon",
+        "separable": false,
+        "notes": "Inseparable prefix: Er verlässt die Stadt."
+      },
+      {
+        "id": "verb_auslassen",
+        "prefix": "aus",
+        "word": "auslassen",
+        "english": "to omit / to skip",
+        "separable": true,
+        "notes": "Prefix separates: Sie lässt eine Frage aus."
+      },
+      {
+        "id": "verb_einlassen",
+        "prefix": "ein",
+        "word": "einlassen",
+        "english": "to let in",
+        "separable": true,
+        "notes": "Prefix separates: Er lässt mich nicht ein."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Lass mich das machen.",
+        "en": "Let me do that.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Sie lässt das Buch auf dem Tisch.",
+        "en": "She leaves the book on the table.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "lassen takes a direct object in the accusative case. It is often used with a second infinitive: 'Er lässt den Arzt kommen' (He has the doctor come). Stem vowel change: du lässt, er lässt.",
+      "dual_case": false
+    },
+    "tags": [
+      "causative",
+      "daily_life",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_stehen",
+    "root": "stehen",
+    "english": "to stand",
+    "type": "strong",
+    "frequency_rank": 13,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "stehe",
+        "du": "stehst",
+        "er_sie_es": "steht",
+        "wir": "stehen",
+        "ihr": "steht",
+        "sie_Sie": "stehen"
+      },
+      "past_participle": "gestanden",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_verstehen",
+        "prefix": "ver",
+        "word": "verstehen",
+        "english": "to understand",
+        "separable": false,
+        "notes": "Inseparable prefix: Ich verstehe dich nicht."
+      },
+      {
+        "id": "verb_aufstehen",
+        "prefix": "auf",
+        "word": "aufstehen",
+        "english": "to get up / to stand up",
+        "separable": true,
+        "notes": "Prefix separates: Ich stehe um 7 Uhr auf."
+      },
+      {
+        "id": "verb_bestehen",
+        "prefix": "be",
+        "word": "bestehen",
+        "english": "to pass (an exam) / to consist of",
+        "separable": false,
+        "notes": "Inseparable prefix: Er besteht die Prüfung. / Das Team besteht aus fünf Personen."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Er steht vor dem Haus.",
+        "en": "He is standing in front of the house.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Wir stehen in der Schlange.",
+        "en": "We are standing in the queue.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "stehen is intransitive and describes a static upright position. Location is often expressed with dative prepositions (vor dem Haus, an der Ecke).",
+      "dual_case": false
+    },
+    "tags": [
+      "position",
+      "daily_life",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_finden",
+    "root": "finden",
+    "english": "to find",
+    "type": "strong",
+    "frequency_rank": 14,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "finde",
+        "du": "findest",
+        "er_sie_es": "findet",
+        "wir": "finden",
+        "ihr": "findet",
+        "sie_Sie": "finden"
+      },
+      "past_participle": "gefunden",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_erfinden",
+        "prefix": "er",
+        "word": "erfinden",
+        "english": "to invent",
+        "separable": false,
+        "notes": "Inseparable prefix: Edison erfindet die Glühbirne."
+      },
+      {
+        "id": "verb_stattfinden",
+        "prefix": "statt",
+        "word": "stattfinden",
+        "english": "to take place",
+        "separable": true,
+        "notes": "Prefix separates: Das Konzert findet morgen statt."
+      },
+      {
+        "id": "verb_empfinden",
+        "prefix": "emp",
+        "word": "empfinden",
+        "english": "to feel / to perceive",
+        "separable": false,
+        "notes": "Inseparable prefix: Ich empfinde große Freude."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich finde meinen Schlüssel nicht.",
+        "en": "I can't find my key.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Findest du das auch interessant?",
+        "en": "Do you also find that interesting?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "finden takes a direct object in the accusative case. It is also commonly used to express opinions: 'Ich finde das gut/schlecht' (I think that is good/bad).",
+      "dual_case": false
+    },
+    "tags": [
+      "general",
+      "daily_life",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_bleiben",
+    "root": "bleiben",
+    "english": "to stay / to remain",
+    "type": "strong",
+    "frequency_rank": 15,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "bleibe",
+        "du": "bleibst",
+        "er_sie_es": "bleibt",
+        "wir": "bleiben",
+        "ihr": "bleibt",
+        "sie_Sie": "bleiben"
+      },
+      "past_participle": "geblieben",
+      "auxiliary": "sein"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_ausbleiben",
+        "prefix": "aus",
+        "word": "ausbleiben",
+        "english": "to fail to appear / to not happen",
+        "separable": true,
+        "notes": "Prefix separates: Die Hilfe bleibt aus."
+      },
+      {
+        "id": "verb_verbleiben",
+        "prefix": "ver",
+        "word": "verbleiben",
+        "english": "to remain (formal)",
+        "separable": false,
+        "notes": "Inseparable prefix: Ich verbleibe mit freundlichen Grüßen."
+      },
+      {
+        "id": "verb_überbleiben",
+        "prefix": "über",
+        "word": "überbleiben",
+        "english": "to be left over",
+        "separable": true,
+        "notes": "Prefix separates: Was bleibt übrig?"
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich bleibe heute zu Hause.",
+        "en": "I am staying home today.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Bleib ruhig!",
+        "en": "Stay calm!",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "bleiben is intransitive and expresses staying in a place or state. Uses 'sein' as auxiliary in the Perfekt: 'Er ist zu Hause geblieben.'",
+      "dual_case": false
+    },
+    "tags": [
+      "position",
+      "daily_life",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_liegen",
+    "root": "liegen",
+    "english": "to lie / to be located",
+    "type": "strong",
+    "frequency_rank": 16,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "liege",
+        "du": "liegst",
+        "er_sie_es": "liegt",
+        "wir": "liegen",
+        "ihr": "liegt",
+        "sie_Sie": "liegen"
+      },
+      "past_participle": "gelegen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_vorliegen",
+        "prefix": "vor",
+        "word": "vorliegen",
+        "english": "to be available / to be present",
+        "separable": true,
+        "notes": "Prefix separates: Die Ergebnisse liegen noch nicht vor."
+      },
+      {
+        "id": "verb_naheliegen",
+        "prefix": "nahe",
+        "word": "naheliegen",
+        "english": "to suggest itself / to be obvious",
+        "separable": true,
+        "notes": "Prefix separates: Das liegt nahe."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Das Buch liegt auf dem Tisch.",
+        "en": "The book is lying on the table.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "München liegt in Bayern.",
+        "en": "Munich is located in Bavaria.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "liegen describes a flat/horizontal resting position or geographic location. Location is expressed with dative prepositions (auf dem Tisch, in Bayern). Contrast with 'legen' (to lay — the action of placing something down).",
+      "dual_case": false
+    },
+    "tags": [
+      "position",
+      "location",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_heißen",
+    "root": "heißen",
+    "english": "to be called / to mean",
+    "type": "strong",
+    "frequency_rank": 17,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "heiße",
+        "du": "heißt",
+        "er_sie_es": "heißt",
+        "wir": "heißen",
+        "ihr": "heißt",
+        "sie_Sie": "heißen"
+      },
+      "past_participle": "geheißen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich heiße Maria.",
+        "en": "My name is Maria.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Was heißt das auf Englisch?",
+        "en": "What does that mean in English?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "copula",
+      "case_requirements": [
+        "nominative"
+      ],
+      "notes_en": "heißen links the subject to a nominative complement — the name or meaning. 'Ich heiße Maria' = 'My name is Maria'. Also used to ask/state the meaning of words: 'Was heißt X?'",
+      "dual_case": false
+    },
+    "tags": [
+      "introduction",
+      "identity",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_denken",
+    "root": "denken",
+    "english": "to think",
+    "type": "mixed",
+    "frequency_rank": 18,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "denke",
+        "du": "denkst",
+        "er_sie_es": "denkt",
+        "wir": "denken",
+        "ihr": "denkt",
+        "sie_Sie": "denken"
+      },
+      "past_participle": "gedacht",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_nachdenken",
+        "prefix": "nach",
+        "word": "nachdenken",
+        "english": "to think about / to reflect",
+        "separable": true,
+        "notes": "Prefix separates: Ich denke darüber nach."
+      },
+      {
+        "id": "verb_bedenken",
+        "prefix": "be",
+        "word": "bedenken",
+        "english": "to consider / to bear in mind",
+        "separable": false,
+        "notes": "Inseparable prefix: Bedenke die Konsequenzen!"
+      },
+      {
+        "id": "verb_umdenken",
+        "prefix": "um",
+        "word": "umdenken",
+        "english": "to rethink / to change one's thinking",
+        "separable": true,
+        "notes": "Prefix separates: Wir müssen umdenken."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich denke, du hast recht.",
+        "en": "I think you are right.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Denkst du an mich?",
+        "en": "Are you thinking of me?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "denken is a mixed verb — present tense is regular but past participle is 'gedacht' (not 'gedenkt'). 'Denken an + accusative' = to think of/about someone or something.",
+      "dual_case": false
+    },
+    "tags": [
+      "cognition",
+      "daily_life",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_nehmen",
+    "root": "nehmen",
+    "english": "to take",
+    "type": "strong",
+    "frequency_rank": 19,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "nehme",
+        "du": "nimmst",
+        "er_sie_es": "nimmt",
+        "wir": "nehmen",
+        "ihr": "nehmt",
+        "sie_Sie": "nehmen"
+      },
+      "past_participle": "genommen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_annehmen",
+        "prefix": "an",
+        "word": "annehmen",
+        "english": "to accept / to assume",
+        "separable": true,
+        "notes": "Prefix separates: Ich nehme das Angebot an."
+      },
+      {
+        "id": "verb_abnehmen",
+        "prefix": "ab",
+        "word": "abnehmen",
+        "english": "to lose weight / to take off",
+        "separable": true,
+        "notes": "Prefix separates: Er nimmt langsam ab."
+      },
+      {
+        "id": "verb_zunehmen",
+        "prefix": "zu",
+        "word": "zunehmen",
+        "english": "to increase / to gain weight",
+        "separable": true,
+        "notes": "Prefix separates: Das Problem nimmt zu."
+      },
+      {
+        "id": "verb_unternehmen",
+        "prefix": "unter",
+        "word": "unternehmen",
+        "english": "to undertake / to do (something fun)",
+        "separable": false,
+        "notes": "Inseparable prefix: Wir unternehmen etwas zusammen."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich nehme den Bus.",
+        "en": "I am taking the bus.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Nimmst du Zucker im Kaffee?",
+        "en": "Do you take sugar in your coffee?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "nehmen takes a direct object in the accusative case. Note the stem vowel change: du nimmst, er nimmt (e → i in 2nd and 3rd person singular present).",
+      "dual_case": false
+    },
+    "tags": [
+      "action",
+      "daily_life",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_glauben",
+    "root": "glauben",
+    "english": "to believe / to think",
+    "type": "weak",
+    "frequency_rank": 20,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "glaube",
+        "du": "glaubst",
+        "er_sie_es": "glaubt",
+        "wir": "glauben",
+        "ihr": "glaubt",
+        "sie_Sie": "glauben"
+      },
+      "past_participle": "geglaubt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich glaube, es regnet heute.",
+        "en": "I think it will rain today.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Glaubst du mir?",
+        "en": "Do you believe me?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "dative"
+      ],
+      "notes_en": "glauben can take 'jemanden' (a person) in the dative case: 'Ich glaube dir' (I believe you). When expressing a belief about something, it introduces a subordinate clause with 'dass'.",
+      "dual_case": false
+    },
+    "tags": [
+      "cognition",
+      "communication",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_halten",
+    "root": "halten",
+    "english": "to hold / to stop",
+    "type": "strong",
+    "frequency_rank": 21,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "halte",
+        "du": "hältst",
+        "er_sie_es": "hält",
+        "wir": "halten",
+        "ihr": "haltet",
+        "sie_Sie": "halten"
+      },
+      "past_participle": "gehalten",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_anhalten",
+        "prefix": "an",
+        "word": "anhalten",
+        "english": "to stop (a vehicle) / to urge",
+        "separable": true,
+        "notes": "Prefix separates: Der Bus hält an."
+      },
+      {
+        "id": "verb_aufhalten",
+        "prefix": "auf",
+        "word": "aufhalten",
+        "english": "to stop / to delay / to stay",
+        "separable": true,
+        "notes": "Prefix separates: Halte mich nicht auf!"
+      },
+      {
+        "id": "verb_behalten",
+        "prefix": "be",
+        "word": "behalten",
+        "english": "to keep / to retain",
+        "separable": false,
+        "notes": "Inseparable prefix: Ich behalte das Buch."
+      },
+      {
+        "id": "verb_erhalten",
+        "prefix": "er",
+        "word": "erhalten",
+        "english": "to receive / to maintain",
+        "separable": false,
+        "notes": "Inseparable prefix: Ich erhalte eine E-Mail."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Halt die Tür auf!",
+        "en": "Hold the door open!",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Der Zug hält in Frankfurt.",
+        "en": "The train stops in Frankfurt.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "halten takes a direct object in the accusative case. Also used intransitively to mean 'to stop' (of vehicles). Stem vowel change: du hältst, er hält (a → ä in 2nd and 3rd person singular).",
+      "dual_case": false
+    },
+    "tags": [
+      "action",
+      "daily_life",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_geben",
+    "root": "geben",
+    "english": "to give",
+    "type": "strong",
+    "frequency_rank": 22,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "gebe",
+        "du": "gibst",
+        "er_sie_es": "gibt",
+        "wir": "geben",
+        "ihr": "gebt",
+        "sie_Sie": "geben"
+      },
+      "past_participle": "gegeben",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_ausgeben",
+        "prefix": "aus",
+        "word": "ausgeben",
+        "english": "to spend (money) / to give out",
+        "separable": true,
+        "notes": "Prefix separates: Ich gebe viel Geld aus."
+      },
+      {
+        "id": "verb_aufgeben",
+        "prefix": "auf",
+        "word": "aufgeben",
+        "english": "to give up / to submit / to check in",
+        "separable": true,
+        "notes": "Prefix separates: Gib nie auf!"
+      },
+      {
+        "id": "verb_angeben",
+        "prefix": "an",
+        "word": "angeben",
+        "english": "to state / to show off",
+        "separable": true,
+        "notes": "Prefix separates: Er gibt immer an."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich gebe dir das Buch.",
+        "en": "I am giving you the book.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Er gibt ihr einen Kuss.",
+        "en": "He gives her a kiss.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative",
+        "dative"
+      ],
+      "notes_en": "geben takes two objects: the receiver in the dative case and the thing given in the accusative case. 'Ich gebe dir [Dat.] das Buch [Akk.]'. Note the stem vowel change: du gibst, er gibt (e → i in 2nd and 3rd person singular).",
+      "dual_case": true
+    },
+    "tags": [
+      "action",
+      "daily_life",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_bringen",
+    "root": "bringen",
+    "english": "to bring",
+    "type": "mixed",
+    "frequency_rank": 23,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "bringe",
+        "du": "bringst",
+        "er_sie_es": "bringt",
+        "wir": "bringen",
+        "ihr": "bringt",
+        "sie_Sie": "bringen"
+      },
+      "past_participle": "gebracht",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_mitbringen",
+        "prefix": "mit",
+        "word": "mitbringen",
+        "english": "to bring along",
+        "separable": true,
+        "notes": "Prefix separates: Ich bringe etwas mit."
+      },
+      {
+        "id": "verb_einbringen",
+        "prefix": "ein",
+        "word": "einbringen",
+        "english": "to bring in / to contribute",
+        "separable": true,
+        "notes": "Prefix separates: Er bringt neue Ideen ein."
+      },
+      {
+        "id": "verb_verbringen",
+        "prefix": "ver",
+        "word": "verbringen",
+        "english": "to spend (time)",
+        "separable": false,
+        "notes": "Inseparable prefix: Wir verbringen den Urlaub in Italien."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich bringe dir einen Kaffee.",
+        "en": "I am bringing you a coffee.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Kannst du das Buch bringen?",
+        "en": "Can you bring the book?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative",
+        "dative"
+      ],
+      "notes_en": "bringen is a mixed verb — present tense is regular but past participle is 'gebracht'. Takes two objects: the recipient in the dative and the thing brought in the accusative: 'Ich bringe dir [Dat.] den Kaffee [Akk.]'.",
+      "dual_case": true
+    },
+    "tags": [
+      "movement",
+      "daily_life",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_leben",
+    "root": "leben",
+    "english": "to live",
+    "type": "weak",
+    "frequency_rank": 24,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "lebe",
+        "du": "lebst",
+        "er_sie_es": "lebt",
+        "wir": "leben",
+        "ihr": "lebt",
+        "sie_Sie": "leben"
+      },
+      "past_participle": "gelebt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_überleben",
+        "prefix": "über",
+        "word": "überleben",
+        "english": "to survive",
+        "separable": false,
+        "notes": "Inseparable prefix: Er überlebt den Unfall."
+      },
+      {
+        "id": "verb_zusammenleben",
+        "prefix": "zusammen",
+        "word": "zusammenleben",
+        "english": "to live together",
+        "separable": true,
+        "notes": "Prefix separates: Sie leben zusammen."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich lebe in Berlin.",
+        "en": "I live in Berlin.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Er lebt allein.",
+        "en": "He lives alone.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "leben is intransitive. Location is expressed with 'in + dative': 'Ich lebe in Berlin'. Note the difference: 'leben' (to be alive, to reside) vs 'wohnen' (to live at a specific address).",
+      "dual_case": false
+    },
+    "tags": [
+      "daily_life",
+      "general",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_sprechen",
+    "root": "sprechen",
+    "english": "to speak",
+    "type": "strong",
+    "frequency_rank": 25,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "spreche",
+        "du": "sprichst",
+        "er_sie_es": "spricht",
+        "wir": "sprechen",
+        "ihr": "sprecht",
+        "sie_Sie": "sprechen"
+      },
+      "past_participle": "gesprochen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_ansprechen",
+        "prefix": "an",
+        "word": "ansprechen",
+        "english": "to address / to approach (someone)",
+        "separable": true,
+        "notes": "Prefix separates: Er spricht mich an."
+      },
+      {
+        "id": "verb_besprechen",
+        "prefix": "be",
+        "word": "besprechen",
+        "english": "to discuss",
+        "separable": false,
+        "notes": "Inseparable prefix: Wir besprechen das Problem."
+      },
+      {
+        "id": "verb_aussprechen",
+        "prefix": "aus",
+        "word": "aussprechen",
+        "english": "to pronounce / to express",
+        "separable": true,
+        "notes": "Prefix separates: Wie spricht man das aus?"
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich spreche ein bisschen Deutsch.",
+        "en": "I speak a little German.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Sprichst du auch Spanisch?",
+        "en": "Do you also speak Spanish?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "sprechen takes a direct object (language spoken) in the accusative case. Note the stem vowel change: du sprichst, er spricht (e → i in 2nd and 3rd person singular). Can also be used intransitively: 'Wir sprechen über das Wetter' (with über + accusative).",
+      "dual_case": false
+    },
+    "tags": [
+      "communication",
+      "daily_life",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_arbeiten",
+    "root": "arbeiten",
+    "english": "to work",
+    "type": "weak",
+    "frequency_rank": 26,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "arbeite",
+        "du": "arbeitest",
+        "er_sie_es": "arbeitet",
+        "wir": "arbeiten",
+        "ihr": "arbeitet",
+        "sie_Sie": "arbeiten"
+      },
+      "past_participle": "gearbeitet",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_zusammenarbeiten",
+        "prefix": "zusammen",
+        "word": "zusammenarbeiten",
+        "english": "to work together / to collaborate",
+        "separable": true,
+        "notes": "Ich arbeite mit ihm zusammen."
+      },
+      {
+        "id": "verb_mitarbeiten",
+        "prefix": "mit",
+        "word": "mitarbeiten",
+        "english": "to participate / to contribute",
+        "separable": true,
+        "notes": "Er arbeitet aktiv mit."
+      },
+      {
+        "id": "verb_erarbeiten",
+        "prefix": "er",
+        "word": "erarbeiten",
+        "english": "to work out / to develop",
+        "separable": false,
+        "notes": "Inseparable. Er erarbeitet einen Plan."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich arbeite täglich acht Stunden.",
+        "en": "I work eight hours every day.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Sie arbeitet als Ärztin.",
+        "en": "She works as a doctor.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "'arbeiten' is intransitive. With 'an': 'Ich arbeite an einem Projekt' (dative with 'an').",
+      "dual_case": false
+    },
+    "tags": [
+      "work",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_kennen",
+    "root": "kennen",
+    "english": "to know (a person/place)",
+    "type": "mixed",
+    "frequency_rank": 27,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "kenne",
+        "du": "kennst",
+        "er_sie_es": "kennt",
+        "wir": "kennen",
+        "ihr": "kennt",
+        "sie_Sie": "kennen"
+      },
+      "past_participle": "gekannt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_erkennen",
+        "prefix": "er",
+        "word": "erkennen",
+        "english": "to recognise / to realise",
+        "separable": false,
+        "notes": "Inseparable. Ich erkenne ihn sofort."
+      },
+      {
+        "id": "verb_anerkennen",
+        "prefix": "an",
+        "word": "anerkennen",
+        "english": "to acknowledge / to recognise (officially)",
+        "separable": true,
+        "notes": "Separable in some uses. Er erkennt die Leistung an."
+      },
+      {
+        "id": "verb_kennenlernen",
+        "prefix": "kennen",
+        "word": "kennenlernen",
+        "english": "to get to know / to meet",
+        "separable": true,
+        "notes": "Ich lerne sie kennen."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich kenne diesen Mann nicht.",
+        "en": "I don't know this man.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Kennst du Berlin?",
+        "en": "Do you know Berlin?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'kennen' takes a direct accusative object. Means to be acquainted with — not 'to know a fact' (that is 'wissen').",
+      "dual_case": false
+    },
+    "tags": [
+      "knowledge",
+      "people",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_lernen",
+    "root": "lernen",
+    "english": "to learn",
+    "type": "weak",
+    "frequency_rank": 28,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "lerne",
+        "du": "lernst",
+        "er_sie_es": "lernt",
+        "wir": "lernen",
+        "ihr": "lernt",
+        "sie_Sie": "lernen"
+      },
+      "past_participle": "gelernt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_erlernen",
+        "prefix": "er",
+        "word": "erlernen",
+        "english": "to learn / to acquire (a skill)",
+        "separable": false,
+        "notes": "Inseparable. More formal than lernen. Er erlernt einen Beruf."
+      },
+      {
+        "id": "verb_auslernen",
+        "prefix": "aus",
+        "word": "auslernen",
+        "english": "to finish one's apprenticeship / to stop learning",
+        "separable": true,
+        "notes": "Man lernt nie aus. (One never stops learning.)"
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich lerne Deutsch.",
+        "en": "I am learning German.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Sie lernt jeden Tag neue Wörter.",
+        "en": "She learns new words every day.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'lernen' takes an accusative object (Deutsch, ein Gedicht) or an infinitive clause.",
+      "dual_case": false
+    },
+    "tags": [
+      "education",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_spielen",
+    "root": "spielen",
+    "english": "to play",
+    "type": "weak",
+    "frequency_rank": 29,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "spiele",
+        "du": "spielst",
+        "er_sie_es": "spielt",
+        "wir": "spielen",
+        "ihr": "spielt",
+        "sie_Sie": "spielen"
+      },
+      "past_participle": "gespielt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_abspielen",
+        "prefix": "ab",
+        "word": "abspielen",
+        "english": "to play (a recording) / to unfold",
+        "separable": true,
+        "notes": "Separable. Er spielt die Musik ab. / Es spielt sich ab = it unfolds."
+      },
+      {
+        "id": "verb_mitspielen",
+        "prefix": "mit",
+        "word": "mitspielen",
+        "english": "to join in / to play along",
+        "separable": true,
+        "notes": "Ich spiele mit."
+      },
+      {
+        "id": "verb_vorspielen",
+        "prefix": "vor",
+        "word": "vorspielen",
+        "english": "to perform / to play for someone",
+        "separable": true,
+        "notes": "Er spielt ihr ein Lied vor."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Die Kinder spielen im Garten.",
+        "en": "The children are playing in the garden.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Er spielt Gitarre.",
+        "en": "He plays guitar.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'spielen' takes an accusative object for instruments/games, or is used intransitively.",
+      "dual_case": false
+    },
+    "tags": [
+      "leisure",
+      "children",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_kaufen",
+    "root": "kaufen",
+    "english": "to buy",
+    "type": "weak",
+    "frequency_rank": 30,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "kaufe",
+        "du": "kaufst",
+        "er_sie_es": "kauft",
+        "wir": "kaufen",
+        "ihr": "kauft",
+        "sie_Sie": "kaufen"
+      },
+      "past_participle": "gekauft",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_einkaufen",
+        "prefix": "ein",
+        "word": "einkaufen",
+        "english": "to shop / to go shopping",
+        "separable": true,
+        "notes": "Ich kaufe ein."
+      },
+      {
+        "id": "verb_abkaufen",
+        "prefix": "ab",
+        "word": "abkaufen",
+        "english": "to buy from someone",
+        "separable": true,
+        "notes": "Er kauft ihm das Auto ab."
+      },
+      {
+        "id": "verb_verkaufen",
+        "prefix": "ver",
+        "word": "verkaufen",
+        "english": "to sell",
+        "separable": false,
+        "notes": "Inseparable. Ich verkaufe mein Fahrrad."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich kaufe heute ein neues Buch.",
+        "en": "I am buying a new book today.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Wo kann ich Briefmarken kaufen?",
+        "en": "Where can I buy stamps?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'kaufen' takes an accusative object. In dative-accusative structure: 'Ich kaufe dir ein Buch' (dative: dir, accusative: ein Buch).",
+      "dual_case": true
+    },
+    "tags": [
+      "shopping",
+      "commerce",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_wissen",
+    "root": "wissen",
+    "english": "to know (a fact)",
+    "type": "irregular",
+    "frequency_rank": 31,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "weiß",
+        "du": "weißt",
+        "er_sie_es": "weiß",
+        "wir": "wissen",
+        "ihr": "wisst",
+        "sie_Sie": "wissen"
+      },
+      "past_participle": "gewusst",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich weiß nicht, wo er wohnt.",
+        "en": "I don't know where he lives.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Weißt du die Antwort?",
+        "en": "Do you know the answer?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'wissen' means to know a fact. Use 'kennen' for knowing people/places. Unique conjugation: ich/er/sie/es weiß.",
+      "dual_case": false
+    },
+    "tags": [
+      "knowledge",
+      "cognition",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_zeigen",
+    "root": "zeigen",
+    "english": "to show",
+    "type": "weak",
+    "frequency_rank": 32,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "zeige",
+        "du": "zeigst",
+        "er_sie_es": "zeigt",
+        "wir": "zeigen",
+        "ihr": "zeigt",
+        "sie_Sie": "zeigen"
+      },
+      "past_participle": "gezeigt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_anzeigen",
+        "prefix": "an",
+        "word": "anzeigen",
+        "english": "to display / to report (to police)",
+        "separable": true,
+        "notes": "Er zeigt ihn an (reports him). Das Display zeigt an."
+      },
+      {
+        "id": "verb_aufzeigen",
+        "prefix": "auf",
+        "word": "aufzeigen",
+        "english": "to demonstrate / to point out",
+        "separable": true,
+        "notes": "Er zeigt das Problem auf."
+      },
+      {
+        "id": "verb_vorführen",
+        "prefix": "vor",
+        "word": "vorzeigen",
+        "english": "to show (documents/ID)",
+        "separable": true,
+        "notes": "Er zeigt seinen Pass vor."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Er zeigt mir den Weg.",
+        "en": "He shows me the way.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Sie zeigt ihm das neue Buch.",
+        "en": "She shows him the new book.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative",
+        "dative"
+      ],
+      "notes_en": "'zeigen' takes two objects: dative (person shown to) + accusative (thing shown). 'Er zeigt mir [Dat.] den Weg [Akk.]'.",
+      "dual_case": true
+    },
+    "tags": [
+      "communication",
+      "gesture",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_führen",
+    "root": "führen",
+    "english": "to lead / to guide",
+    "type": "weak",
+    "frequency_rank": 33,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "führe",
+        "du": "führst",
+        "er_sie_es": "führt",
+        "wir": "führen",
+        "ihr": "führt",
+        "sie_Sie": "führen"
+      },
+      "past_participle": "geführt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_einführen",
+        "prefix": "ein",
+        "word": "einführen",
+        "english": "to introduce / to import",
+        "separable": true,
+        "notes": "Er führt eine neue Regel ein. / Waren einführen."
+      },
+      {
+        "id": "verb_durchführen",
+        "prefix": "durch",
+        "word": "durchführen",
+        "english": "to carry out / to conduct",
+        "separable": true,
+        "notes": "Sie führen das Experiment durch."
+      },
+      {
+        "id": "verb_aufführen",
+        "prefix": "auf",
+        "word": "aufführen",
+        "english": "to perform / to list",
+        "separable": true,
+        "notes": "Das Theater führt ein Stück auf."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Der Guide führt die Touristen durch die Stadt.",
+        "en": "The guide leads the tourists through the city.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Er führt ein Tagebuch.",
+        "en": "He keeps a diary.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'führen' takes an accusative object. With 'zu': 'Das führt zu Problemen' (leads to problems).",
+      "dual_case": false
+    },
+    "tags": [
+      "leadership",
+      "movement",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_laufen",
+    "root": "laufen",
+    "english": "to run / to walk",
+    "type": "strong",
+    "frequency_rank": 34,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "laufe",
+        "du": "läufst",
+        "er_sie_es": "läuft",
+        "wir": "laufen",
+        "ihr": "lauft",
+        "sie_Sie": "laufen"
+      },
+      "past_participle": "gelaufen",
+      "auxiliary": "sein"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_ablaufen",
+        "prefix": "ab",
+        "word": "ablaufen",
+        "english": "to expire / to run off",
+        "separable": true,
+        "notes": "Der Pass läuft ab. (expires)"
+      },
+      {
+        "id": "verb_verlaufen",
+        "prefix": "ver",
+        "word": "verlaufen",
+        "english": "to get lost / to proceed",
+        "separable": false,
+        "notes": "Sich verlaufen = to get lost. Wie läuft es? = How is it going?"
+      },
+      {
+        "id": "verb_anlaufen",
+        "prefix": "an",
+        "word": "anlaufen",
+        "english": "to start up / to approach",
+        "separable": true,
+        "notes": "Der Motor läuft an."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Er läuft jeden Morgen fünf Kilometer.",
+        "en": "He runs five kilometres every morning.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Das Kind läuft zur Schule.",
+        "en": "The child walks to school.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "'laufen' is intransitive and uses 'sein' as auxiliary. In southern Germany/Austria also means 'to walk'.",
+      "dual_case": false
+    },
+    "tags": [
+      "movement",
+      "sport",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_schreiben",
+    "root": "schreiben",
+    "english": "to write",
+    "type": "strong",
+    "frequency_rank": 35,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "schreibe",
+        "du": "schreibst",
+        "er_sie_es": "schreibt",
+        "wir": "schreiben",
+        "ihr": "schreibt",
+        "sie_Sie": "schreiben"
+      },
+      "past_participle": "geschrieben",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_aufschreiben",
+        "prefix": "auf",
+        "word": "aufschreiben",
+        "english": "to write down / to note down",
+        "separable": true,
+        "notes": "Ich schreibe die Adresse auf."
+      },
+      {
+        "id": "verb_beschreiben",
+        "prefix": "be",
+        "word": "beschreiben",
+        "english": "to describe",
+        "separable": false,
+        "notes": "Inseparable. Er beschreibt die Situation."
+      },
+      {
+        "id": "verb_verschreiben",
+        "prefix": "ver",
+        "word": "verschreiben",
+        "english": "to prescribe / to misspell",
+        "separable": false,
+        "notes": "Inseparable. Der Arzt verschreibt ein Medikament."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Sie schreibt einen Brief an ihre Freundin.",
+        "en": "She is writing a letter to her friend.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Schreib deinen Namen auf das Formular.",
+        "en": "Write your name on the form.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'schreiben' takes an accusative object. With dative: 'Ich schreibe ihr einen Brief' (dative: ihr, accusative: Brief).",
+      "dual_case": true
+    },
+    "tags": [
+      "communication",
+      "education",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_lesen",
+    "root": "lesen",
+    "english": "to read",
+    "type": "strong",
+    "frequency_rank": 36,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "lese",
+        "du": "liest",
+        "er_sie_es": "liest",
+        "wir": "lesen",
+        "ihr": "lest",
+        "sie_Sie": "lesen"
+      },
+      "past_participle": "gelesen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_vorlesen",
+        "prefix": "vor",
+        "word": "vorlesen",
+        "english": "to read aloud / to read to someone",
+        "separable": true,
+        "notes": "Ich lese ihr eine Geschichte vor."
+      },
+      {
+        "id": "verb_ablesen",
+        "prefix": "ab",
+        "word": "ablesen",
+        "english": "to read off / to deduce from",
+        "separable": true,
+        "notes": "Er liest den Zählerstand ab."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich lese jeden Abend ein Buch.",
+        "en": "I read a book every evening.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Sie liest gern Krimis.",
+        "en": "She likes reading crime novels.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'lesen' takes accusative. Note the vowel change: du liest, er liest.",
+      "dual_case": false
+    },
+    "tags": [
+      "education",
+      "leisure",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_fahren",
+    "root": "fahren",
+    "english": "to drive / to travel",
+    "type": "strong",
+    "frequency_rank": 37,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "fahre",
+        "du": "fährst",
+        "er_sie_es": "fährt",
+        "wir": "fahren",
+        "ihr": "fahrt",
+        "sie_Sie": "fahren"
+      },
+      "past_participle": "gefahren",
+      "auxiliary": "sein"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_abfahren",
+        "prefix": "ab",
+        "word": "abfahren",
+        "english": "to depart / to leave (by vehicle)",
+        "separable": true,
+        "notes": "Der Zug fährt ab."
+      },
+      {
+        "id": "verb_anfahren",
+        "prefix": "an",
+        "word": "anfahren",
+        "english": "to approach / to start (engine)",
+        "separable": true,
+        "notes": "Er fährt den Motor an."
+      },
+      {
+        "id": "verb_erfahren",
+        "prefix": "er",
+        "word": "erfahren",
+        "english": "to find out / to learn (news)",
+        "separable": false,
+        "notes": "Inseparable. Ich erfahre die Neuigkeit."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Er fährt jeden Tag mit dem Auto zur Arbeit.",
+        "en": "He drives to work by car every day.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Wir fahren im Sommer nach Italien.",
+        "en": "We are travelling to Italy in summer.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "'fahren' uses 'sein' as auxiliary. Can be transitive when meaning to drive a vehicle: 'Er fährt das Auto'.",
+      "dual_case": false
+    },
+    "tags": [
+      "transport",
+      "movement",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_essen",
+    "root": "essen",
+    "english": "to eat",
+    "type": "strong",
+    "frequency_rank": 38,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "esse",
+        "du": "isst",
+        "er_sie_es": "isst",
+        "wir": "essen",
+        "ihr": "esst",
+        "sie_Sie": "essen"
+      },
+      "past_participle": "gegessen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_aufessen",
+        "prefix": "auf",
+        "word": "aufessen",
+        "english": "to eat up / to finish eating",
+        "separable": true,
+        "notes": "Iss deinen Teller auf!"
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Wir essen um sieben Uhr zu Abend.",
+        "en": "We eat dinner at seven o'clock.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Isst du gern Pizza?",
+        "en": "Do you like eating pizza?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'essen' takes an accusative object. Note du isst (not du esst).",
+      "dual_case": false
+    },
+    "tags": [
+      "food",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_trinken",
+    "root": "trinken",
+    "english": "to drink",
+    "type": "strong",
+    "frequency_rank": 39,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "trinke",
+        "du": "trinkst",
+        "er_sie_es": "trinkt",
+        "wir": "trinken",
+        "ihr": "trinkt",
+        "sie_Sie": "trinken"
+      },
+      "past_participle": "getrunken",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_austrinken",
+        "prefix": "aus",
+        "word": "austrinken",
+        "english": "to drink up / to finish one's drink",
+        "separable": true,
+        "notes": "Trink dein Glas aus!"
+      },
+      {
+        "id": "verb_zutrinken",
+        "prefix": "zu",
+        "word": "zutrinken",
+        "english": "to drink to someone / to toast",
+        "separable": true,
+        "notes": "Er trinkt ihr zu."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich trinke jeden Morgen einen Kaffee.",
+        "en": "I drink a coffee every morning.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Trinkst du Tee oder Kaffee?",
+        "en": "Do you drink tea or coffee?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'trinken' takes an accusative object.",
+      "dual_case": false
+    },
+    "tags": [
+      "food",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_schlafen",
+    "root": "schlafen",
+    "english": "to sleep",
+    "type": "strong",
+    "frequency_rank": 40,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "schlafe",
+        "du": "schläfst",
+        "er_sie_es": "schläft",
+        "wir": "schlafen",
+        "ihr": "schlaft",
+        "sie_Sie": "schlafen"
+      },
+      "past_participle": "geschlafen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_einschlafen",
+        "prefix": "ein",
+        "word": "einschlafen",
+        "english": "to fall asleep",
+        "separable": true,
+        "notes": "Ich schlafe ein. Uses 'sein'."
+      },
+      {
+        "id": "verb_verschlafen",
+        "prefix": "ver",
+        "word": "verschlafen",
+        "english": "to oversleep / to sleep through",
+        "separable": false,
+        "notes": "Inseparable. Ich verschlafe — I oversleep."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich schlafe acht Stunden pro Nacht.",
+        "en": "I sleep eight hours per night.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Das Baby schläft gerade.",
+        "en": "The baby is sleeping right now.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "'schlafen' is intransitive. Auxiliary: 'haben'. Note vowel change: schläfst, schläft.",
+      "dual_case": false
+    },
+    "tags": [
+      "daily_life",
+      "health",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_treffen",
+    "root": "treffen",
+    "english": "to meet / to hit",
+    "type": "strong",
+    "frequency_rank": 41,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "treffe",
+        "du": "triffst",
+        "er_sie_es": "trifft",
+        "wir": "treffen",
+        "ihr": "trefft",
+        "sie_Sie": "treffen"
+      },
+      "past_participle": "getroffen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_antreffen",
+        "prefix": "an",
+        "word": "antreffen",
+        "english": "to find / to come across (someone)",
+        "separable": true,
+        "notes": "Ich treffe ihn dort an."
+      },
+      {
+        "id": "verb_betreffen",
+        "prefix": "be",
+        "word": "betreffen",
+        "english": "to concern / to affect",
+        "separable": false,
+        "notes": "Inseparable. Das betrifft uns alle."
+      },
+      {
+        "id": "verb_eintreffen",
+        "prefix": "ein",
+        "word": "eintreffen",
+        "english": "to arrive / to come true",
+        "separable": true,
+        "notes": "Er trifft pünktlich ein. / Seine Vorhersage trifft ein."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Wir treffen uns um drei Uhr.",
+        "en": "We meet at three o'clock.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Er trifft eine wichtige Entscheidung.",
+        "en": "He makes an important decision.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'treffen' takes accusative. Reflexive 'sich treffen' = to meet each other.",
+      "dual_case": false
+    },
+    "tags": [
+      "social",
+      "action",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_öffnen",
+    "root": "öffnen",
+    "english": "to open",
+    "type": "weak",
+    "frequency_rank": 42,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "öffne",
+        "du": "öffnest",
+        "er_sie_es": "öffnet",
+        "wir": "öffnen",
+        "ihr": "öffnet",
+        "sie_Sie": "öffnen"
+      },
+      "past_participle": "geöffnet",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_eröffnen",
+        "prefix": "er",
+        "word": "eröffnen",
+        "english": "to open (officially) / to inaugurate",
+        "separable": false,
+        "notes": "Inseparable. Sie eröffnet ein Geschäft."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Das Geschäft öffnet um neun Uhr.",
+        "en": "The shop opens at nine o'clock.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Öffne bitte das Fenster.",
+        "en": "Please open the window.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'öffnen' takes accusative. More formal than 'aufmachen'.",
+      "dual_case": false
+    },
+    "tags": [
+      "action",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_schließen",
+    "root": "schließen",
+    "english": "to close / to lock",
+    "type": "strong",
+    "frequency_rank": 43,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "schließe",
+        "du": "schließt",
+        "er_sie_es": "schließt",
+        "wir": "schließen",
+        "ihr": "schließt",
+        "sie_Sie": "schließen"
+      },
+      "past_participle": "geschlossen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_abschließen",
+        "prefix": "ab",
+        "word": "abschließen",
+        "english": "to lock / to conclude / to finish",
+        "separable": true,
+        "notes": "Er schließt die Tür ab. / Den Vertrag abschließen."
+      },
+      {
+        "id": "verb_einschließen",
+        "prefix": "ein",
+        "word": "einschließen",
+        "english": "to include / to lock in",
+        "separable": true,
+        "notes": "Das schließt alle ein. / Er schließt ihn ein (locks him in)."
+      },
+      {
+        "id": "verb_ausschließen",
+        "prefix": "aus",
+        "word": "ausschließen",
+        "english": "to exclude / to rule out",
+        "separable": true,
+        "notes": "Das schließe ich aus."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Schließ bitte die Tür.",
+        "en": "Please close the door.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Das Geschäft schließt um achtzehn Uhr.",
+        "en": "The shop closes at six o'clock.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'schließen' takes accusative. More formal than 'zumachen'.",
+      "dual_case": false
+    },
+    "tags": [
+      "action",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_suchen",
+    "root": "suchen",
+    "english": "to look for / to search",
+    "type": "weak",
+    "frequency_rank": 44,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "suche",
+        "du": "suchst",
+        "er_sie_es": "sucht",
+        "wir": "suchen",
+        "ihr": "sucht",
+        "sie_Sie": "suchen"
+      },
+      "past_participle": "gesucht",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_besuchen",
+        "prefix": "be",
+        "word": "besuchen",
+        "english": "to visit",
+        "separable": false,
+        "notes": "Inseparable. Ich besuche meine Eltern."
+      },
+      {
+        "id": "verb_untersuchen",
+        "prefix": "unter",
+        "word": "untersuchen",
+        "english": "to investigate / to examine",
+        "separable": false,
+        "notes": "Inseparable. Der Arzt untersucht den Patienten."
+      },
+      {
+        "id": "verb_versuchen",
+        "prefix": "ver",
+        "word": "versuchen",
+        "english": "to try / to attempt",
+        "separable": false,
+        "notes": "Inseparable. Ich versuche es."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich suche meinen Schlüssel.",
+        "en": "I am looking for my key.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Sie sucht eine neue Wohnung.",
+        "en": "She is looking for a new flat.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'suchen' takes accusative. 'suchen nach' = to search for.",
+      "dual_case": false
+    },
+    "tags": [
+      "action",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_helfen",
+    "root": "helfen",
+    "english": "to help",
+    "type": "strong",
+    "frequency_rank": 45,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "helfe",
+        "du": "hilfst",
+        "er_sie_es": "hilft",
+        "wir": "helfen",
+        "ihr": "helft",
+        "sie_Sie": "helfen"
+      },
+      "past_participle": "geholfen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_aushelfen",
+        "prefix": "aus",
+        "word": "aushelfen",
+        "english": "to help out / to stand in",
+        "separable": true,
+        "notes": "Sie hilft im Laden aus."
+      },
+      {
+        "id": "verb_mithelfen",
+        "prefix": "mit",
+        "word": "mithelfen",
+        "english": "to help along / to lend a hand",
+        "separable": true,
+        "notes": "Kannst du mithelfen?"
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Kannst du mir helfen?",
+        "en": "Can you help me?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Er hilft seiner Mutter beim Kochen.",
+        "en": "He helps his mother with cooking.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "dative"
+      ],
+      "notes_en": "'helfen' always governs dative: 'Ich helfe dir' (not 'dich'). This is a common error for learners.",
+      "dual_case": false
+    },
+    "tags": [
+      "social",
+      "action",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_wohnen",
+    "root": "wohnen",
+    "english": "to live / to reside",
+    "type": "weak",
+    "frequency_rank": 46,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "wohne",
+        "du": "wohnst",
+        "er_sie_es": "wohnt",
+        "wir": "wohnen",
+        "ihr": "wohnt",
+        "sie_Sie": "wohnen"
+      },
+      "past_participle": "gewohnt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_bewohnen",
+        "prefix": "be",
+        "word": "bewohnen",
+        "english": "to inhabit / to occupy (a dwelling)",
+        "separable": false,
+        "notes": "Inseparable. Sie bewohnen ein großes Haus."
+      },
+      {
+        "id": "verb_einwohnen",
+        "prefix": "ein",
+        "word": "einwohnen",
+        "english": "to be inherent in (formal/rare)",
+        "separable": true,
+        "notes": "Rare. More common as 'Einwohner' (inhabitant)."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich wohne in München.",
+        "en": "I live in Munich.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Wo wohnst du?",
+        "en": "Where do you live?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "'wohnen' is intransitive. With 'in' + dative for cities/countries: 'Ich wohne in Berlin (Dat.)'.",
+      "dual_case": false
+    },
+    "tags": [
+      "home",
+      "daily_life",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_reisen",
+    "root": "reisen",
+    "english": "to travel",
+    "type": "weak",
+    "frequency_rank": 47,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "reise",
+        "du": "reist",
+        "er_sie_es": "reist",
+        "wir": "reisen",
+        "ihr": "reist",
+        "sie_Sie": "reisen"
+      },
+      "past_participle": "gereist",
+      "auxiliary": "sein"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_abreisen",
+        "prefix": "ab",
+        "word": "abreisen",
+        "english": "to depart / to leave (on a trip)",
+        "separable": true,
+        "notes": "Sie reist morgen ab."
+      },
+      {
+        "id": "verb_anreisen",
+        "prefix": "an",
+        "word": "anreisen",
+        "english": "to arrive / to travel to",
+        "separable": true,
+        "notes": "Wir reisen am Freitag an."
+      },
+      {
+        "id": "verb_bereisen",
+        "prefix": "be",
+        "word": "bereisen",
+        "english": "to travel through / to tour",
+        "separable": false,
+        "notes": "Inseparable. Er bereist die Welt."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Sie reist gern in fremde Länder.",
+        "en": "She likes travelling to foreign countries.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Wir reisen nächste Woche nach Spanien.",
+        "en": "We are travelling to Spain next week.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "'reisen' uses 'sein' as auxiliary. With 'nach' + city/country for destination.",
+      "dual_case": false
+    },
+    "tags": [
+      "travel",
+      "leisure",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_fragen",
+    "root": "fragen",
+    "english": "to ask",
+    "type": "weak",
+    "frequency_rank": 48,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "frage",
+        "du": "fragst",
+        "er_sie_es": "fragt",
+        "wir": "fragen",
+        "ihr": "fragt",
+        "sie_Sie": "fragen"
+      },
+      "past_participle": "gefragt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_anfragen",
+        "prefix": "an",
+        "word": "anfragen",
+        "english": "to enquire / to make a request",
+        "separable": true,
+        "notes": "Ich frage dort an."
+      },
+      {
+        "id": "verb_befragen",
+        "prefix": "be",
+        "word": "befragen",
+        "english": "to question / to survey",
+        "separable": false,
+        "notes": "Inseparable. Die Polizei befragt ihn."
+      },
+      {
+        "id": "verb_nachfragen",
+        "prefix": "nach",
+        "word": "nachfragen",
+        "english": "to ask again / to follow up",
+        "separable": true,
+        "notes": "Er fragt nochmal nach."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich frage ihn nach dem Weg.",
+        "en": "I ask him the way.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Darf ich eine Frage stellen?",
+        "en": "May I ask a question?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'jemanden fragen' = to ask someone (accusative). 'nach etwas fragen' = to ask about something.",
+      "dual_case": false
+    },
+    "tags": [
+      "communication",
+      "social",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_antworten",
+    "root": "antworten",
+    "english": "to answer / to reply",
+    "type": "weak",
+    "frequency_rank": 49,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "antworte",
+        "du": "antwortest",
+        "er_sie_es": "antwortet",
+        "wir": "antworten",
+        "ihr": "antwortet",
+        "sie_Sie": "antworten"
+      },
+      "past_participle": "geantwortet",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_beantworten",
+        "prefix": "be",
+        "word": "beantworten",
+        "english": "to answer (a question)",
+        "separable": false,
+        "notes": "Inseparable. Er beantwortet die Frage. (Takes accusative, unlike 'antworten'.)"
+      },
+      {
+        "id": "verb_verantworten",
+        "prefix": "ver",
+        "word": "verantworten",
+        "english": "to take responsibility for",
+        "separable": false,
+        "notes": "Inseparable. Er verantwortet seine Handlungen."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Er antwortet mir nicht.",
+        "en": "He doesn't answer me.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Sie antwortet auf die E-Mail sofort.",
+        "en": "She replies to the email immediately.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "dative"
+      ],
+      "notes_en": "'antworten' governs dative: 'Er antwortet mir/dir/ihm'. Do NOT use accusative. 'auf etwas antworten' = to reply to something.",
+      "dual_case": false
+    },
+    "tags": [
+      "communication",
+      "social",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_hören",
+    "root": "hören",
+    "english": "to hear / to listen",
+    "type": "weak",
+    "frequency_rank": 50,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "höre",
+        "du": "hörst",
+        "er_sie_es": "hört",
+        "wir": "hören",
+        "ihr": "hört",
+        "sie_Sie": "hören"
+      },
+      "past_participle": "gehört",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_anhören",
+        "prefix": "an",
+        "word": "anhören",
+        "english": "to listen to / to hear out",
+        "separable": true,
+        "notes": "Ich höre mir das Lied an. / Hör mich an! (Hear me out!)"
+      },
+      {
+        "id": "verb_aufhören",
+        "prefix": "auf",
+        "word": "aufhören",
+        "english": "to stop / to cease",
+        "separable": true,
+        "notes": "Hör auf! = Stop it! Er hört mit dem Rauchen auf."
+      },
+      {
+        "id": "verb_gehören",
+        "prefix": "ge",
+        "word": "gehören",
+        "english": "to belong to",
+        "separable": false,
+        "notes": "Inseparable. Das gehört mir. (Dative: governs dative)"
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich höre gern klassische Musik.",
+        "en": "I like listening to classical music.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Hörst du mich?",
+        "en": "Can you hear me?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'hören' takes accusative. 'hören auf' = to listen to / to obey.",
+      "dual_case": false
+    },
+    "tags": [
+      "senses",
+      "communication",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_brauchen",
+    "root": "brauchen",
+    "english": "to need",
+    "type": "weak",
+    "frequency_rank": 51,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "brauche",
+        "du": "brauchst",
+        "er_sie_es": "braucht",
+        "wir": "brauchen",
+        "ihr": "braucht",
+        "sie_Sie": "brauchen"
+      },
+      "past_participle": "gebraucht",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_gebrauchen",
+        "prefix": "ge",
+        "word": "gebrauchen",
+        "english": "to use / to make use of",
+        "separable": false,
+        "notes": "Inseparable. Er gebraucht das Wort falsch."
+      },
+      {
+        "id": "verb_verbrauchen",
+        "prefix": "ver",
+        "word": "verbrauchen",
+        "english": "to consume / to use up",
+        "separable": false,
+        "notes": "Inseparable. Das Auto verbraucht viel Benzin."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich brauche deine Hilfe.",
+        "en": "I need your help.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Du brauchst das nicht zu tun.",
+        "en": "You don't need to do that.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'brauchen' takes accusative. 'nicht brauchen + zu-infinitive' = don't need to (negative modal).",
+      "dual_case": false
+    },
+    "tags": [
+      "needs",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_beginnen",
+    "root": "beginnen",
+    "english": "to begin / to start",
+    "type": "strong",
+    "frequency_rank": 52,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "beginne",
+        "du": "beginnst",
+        "er_sie_es": "beginnt",
+        "wir": "beginnen",
+        "ihr": "beginnt",
+        "sie_Sie": "beginnen"
+      },
+      "past_participle": "begonnen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Der Unterricht beginnt um acht Uhr.",
+        "en": "The lesson begins at eight o'clock.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Ich beginne mit dem ersten Kapitel.",
+        "en": "I begin with the first chapter.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'beginnen' can be transitive or intransitive. 'mit etwas beginnen' = to begin with something.",
+      "dual_case": false
+    },
+    "tags": [
+      "action",
+      "time",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_erklären",
+    "root": "erklären",
+    "english": "to explain",
+    "type": "weak",
+    "frequency_rank": 53,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "erkläre",
+        "du": "erklärst",
+        "er_sie_es": "erklärt",
+        "wir": "erklären",
+        "ihr": "erklärt",
+        "sie_Sie": "erklären"
+      },
+      "past_participle": "erklärt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Kannst du mir das erklären?",
+        "en": "Can you explain that to me?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Der Lehrer erklärt die Grammatikregel.",
+        "en": "The teacher explains the grammar rule.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative",
+        "dative"
+      ],
+      "notes_en": "'erklären' takes two objects: dative (person) + accusative (thing explained). 'Ich erkläre dir [Dat.] die Regel [Akk.]'.",
+      "dual_case": true
+    },
+    "tags": [
+      "communication",
+      "education",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_entscheiden",
+    "root": "entscheiden",
+    "english": "to decide",
+    "type": "strong",
+    "frequency_rank": 54,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "entscheide",
+        "du": "entscheidest",
+        "er_sie_es": "entscheidet",
+        "wir": "entscheiden",
+        "ihr": "entscheidet",
+        "sie_Sie": "entscheiden"
+      },
+      "past_participle": "entschieden",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Er entscheidet sich für das rote Hemd.",
+        "en": "He decides on the red shirt.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Wer entscheidet hier?",
+        "en": "Who decides here?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'sich entscheiden für' = to decide in favour of (dative after 'für'). 'Entscheidung treffen' = to make a decision.",
+      "dual_case": false
+    },
+    "tags": [
+      "cognition",
+      "decision",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_setzen",
+    "root": "setzen",
+    "english": "to put / to set",
+    "type": "weak",
+    "frequency_rank": 55,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "setze",
+        "du": "setzt",
+        "er_sie_es": "setzt",
+        "wir": "setzen",
+        "ihr": "setzt",
+        "sie_Sie": "setzen"
+      },
+      "past_participle": "gesetzt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_einsetzen",
+        "prefix": "ein",
+        "word": "einsetzen",
+        "english": "to deploy / to use / to set in",
+        "separable": true,
+        "notes": "Er setzt das Messer ein. / Sich einsetzen für = to campaign for."
+      },
+      {
+        "id": "verb_durchsetzen",
+        "prefix": "durch",
+        "word": "durchsetzen",
+        "english": "to enforce / to assert oneself",
+        "separable": true,
+        "notes": "Er setzt seinen Willen durch."
+      },
+      {
+        "id": "verb_vorsetzen",
+        "prefix": "vor",
+        "word": "vorsetzen",
+        "english": "to place before / to serve (food)",
+        "separable": true,
+        "notes": "Sie setzt ihm Essen vor."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Er setzt das Kind auf den Stuhl.",
+        "en": "He puts the child on the chair.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Ich setze mich ans Fenster.",
+        "en": "I sit down by the window.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'setzen' (to put, place) takes accusative. Reflexive 'sich setzen' = to sit down (not 'sitzen' which is a state).",
+      "dual_case": false
+    },
+    "tags": [
+      "movement",
+      "action",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_stellen",
+    "root": "stellen",
+    "english": "to place (upright) / to put",
+    "type": "weak",
+    "frequency_rank": 56,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "stelle",
+        "du": "stellst",
+        "er_sie_es": "stellt",
+        "wir": "stellen",
+        "ihr": "stellt",
+        "sie_Sie": "stellen"
+      },
+      "past_participle": "gestellt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_vorstellen",
+        "prefix": "vor",
+        "word": "vorstellen",
+        "english": "to introduce / to imagine",
+        "separable": true,
+        "notes": "Ich stelle mich vor (I introduce myself). Ich kann mir das vorstellen (I can imagine that)."
+      },
+      {
+        "id": "verb_darstellen",
+        "prefix": "dar",
+        "word": "darstellen",
+        "english": "to represent / to portray",
+        "separable": true,
+        "notes": "Das Bild stellt einen Berg dar."
+      },
+      {
+        "id": "verb_herstellen",
+        "prefix": "her",
+        "word": "herstellen",
+        "english": "to produce / to manufacture",
+        "separable": true,
+        "notes": "Die Fabrik stellt Autos her."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Stell die Flasche auf den Tisch.",
+        "en": "Put the bottle on the table.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Er stellt eine Frage.",
+        "en": "He asks a question.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'stellen' = to place something upright. Not interchangeable with 'legen' (flat) or 'setzen' (seated).",
+      "dual_case": false
+    },
+    "tags": [
+      "movement",
+      "action",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_legen",
+    "root": "legen",
+    "english": "to lay / to put (flat)",
+    "type": "weak",
+    "frequency_rank": 57,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "lege",
+        "du": "legst",
+        "er_sie_es": "legt",
+        "wir": "legen",
+        "ihr": "legt",
+        "sie_Sie": "legen"
+      },
+      "past_participle": "gelegt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_vorlegen",
+        "prefix": "vor",
+        "word": "vorlegen",
+        "english": "to submit / to present (documents)",
+        "separable": true,
+        "notes": "Er legt die Dokumente vor."
+      },
+      {
+        "id": "verb_festlegen",
+        "prefix": "fest",
+        "word": "festlegen",
+        "english": "to fix / to determine",
+        "separable": true,
+        "notes": "Wir legen den Termin fest."
+      },
+      {
+        "id": "verb_anlegen",
+        "prefix": "an",
+        "word": "anlegen",
+        "english": "to invest / to create / to dock",
+        "separable": true,
+        "notes": "Er legt Geld an. / Das Schiff legt an."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Er legt das Buch auf den Tisch.",
+        "en": "He lays the book on the table.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Das Baby legt sich hin.",
+        "en": "The baby lies down.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'legen' = to place something flat/horizontal. Pair with 'liegen' (state) vs. 'legen' (action).",
+      "dual_case": false
+    },
+    "tags": [
+      "movement",
+      "action",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_ziehen",
+    "root": "ziehen",
+    "english": "to pull / to move",
+    "type": "strong",
+    "frequency_rank": 58,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "ziehe",
+        "du": "ziehst",
+        "er_sie_es": "zieht",
+        "wir": "ziehen",
+        "ihr": "zieht",
+        "sie_Sie": "ziehen"
+      },
+      "past_participle": "gezogen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_umziehen",
+        "prefix": "um",
+        "word": "umziehen",
+        "english": "to move house / to change clothes",
+        "separable": true,
+        "notes": "Wir ziehen um. / Ich ziehe mich um."
+      },
+      {
+        "id": "verb_einziehen",
+        "prefix": "ein",
+        "word": "einziehen",
+        "english": "to move in / to draft (into army)",
+        "separable": true,
+        "notes": "Sie ziehen in die neue Wohnung ein."
+      },
+      {
+        "id": "verb_vorziehen",
+        "prefix": "vor",
+        "word": "vorziehen",
+        "english": "to prefer",
+        "separable": true,
+        "notes": "Ich ziehe Tee dem Kaffee vor."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Er zieht den Stuhl zum Tisch.",
+        "en": "He pulls the chair to the table.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Die Familie zieht nach München.",
+        "en": "The family is moving to Munich.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'ziehen' = to pull (haben). Movement sense uses 'sein'. Context determines auxiliary.",
+      "dual_case": false
+    },
+    "tags": [
+      "movement",
+      "action",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_warten",
+    "root": "warten",
+    "english": "to wait",
+    "type": "weak",
+    "frequency_rank": 59,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "warte",
+        "du": "wartest",
+        "er_sie_es": "wartet",
+        "wir": "warten",
+        "ihr": "wartet",
+        "sie_Sie": "warten"
+      },
+      "past_participle": "gewartet",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_abwarten",
+        "prefix": "ab",
+        "word": "abwarten",
+        "english": "to wait and see / to await",
+        "separable": true,
+        "notes": "Warten wir ab! Let's wait and see."
+      },
+      {
+        "id": "verb_erwarten",
+        "prefix": "er",
+        "word": "erwarten",
+        "english": "to expect / to await",
+        "separable": false,
+        "notes": "Inseparable. Ich erwarte ihn um drei Uhr."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich warte auf den Bus.",
+        "en": "I am waiting for the bus.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Warte bitte einen Moment!",
+        "en": "Please wait a moment!",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "'warten auf' = to wait for (accusative after 'auf' in this usage).",
+      "dual_case": false
+    },
+    "tags": [
+      "time",
+      "action",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_zahlen",
+    "root": "zahlen",
+    "english": "to pay",
+    "type": "weak",
+    "frequency_rank": 60,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "zahle",
+        "du": "zahlst",
+        "er_sie_es": "zahlt",
+        "wir": "zahlen",
+        "ihr": "zahlt",
+        "sie_Sie": "zahlen"
+      },
+      "past_participle": "gezahlt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_bezahlen",
+        "prefix": "be",
+        "word": "bezahlen",
+        "english": "to pay (for something)",
+        "separable": false,
+        "notes": "Inseparable. Er bezahlt die Rechnung. 'bezahlen' + accusative directly."
+      },
+      {
+        "id": "verb_einzahlen",
+        "prefix": "ein",
+        "word": "einzahlen",
+        "english": "to deposit (money)",
+        "separable": true,
+        "notes": "Er zahlt Geld ein."
+      },
+      {
+        "id": "verb_auszahlen",
+        "prefix": "aus",
+        "word": "auszahlen",
+        "english": "to pay out / to be worth it",
+        "separable": true,
+        "notes": "Er zahlt den Lohn aus. / Das zahlt sich aus (it pays off)."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich zahle mit Karte.",
+        "en": "I pay by card.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Zahlen, bitte!",
+        "en": "The bill, please!",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'zahlen' takes accusative. 'zahlen für' = to pay for. 'bezahlen' is more common in everyday speech.",
+      "dual_case": false
+    },
+    "tags": [
+      "commerce",
+      "money",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_verlieren",
+    "root": "verlieren",
+    "english": "to lose",
+    "type": "strong",
+    "frequency_rank": 61,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "verliere",
+        "du": "verlierst",
+        "er_sie_es": "verliert",
+        "wir": "verlieren",
+        "ihr": "verliert",
+        "sie_Sie": "verlieren"
+      },
+      "past_participle": "verloren",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Er verliert immer seinen Schlüssel.",
+        "en": "He always loses his key.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Die Mannschaft hat das Spiel verloren.",
+        "en": "The team lost the game.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'verlieren' takes accusative. 'sich verlieren' = to get lost / to become absorbed in.",
+      "dual_case": false
+    },
+    "tags": [
+      "action",
+      "sport",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_gewinnen",
+    "root": "gewinnen",
+    "english": "to win / to gain",
+    "type": "strong",
+    "frequency_rank": 62,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "gewinne",
+        "du": "gewinnst",
+        "er_sie_es": "gewinnt",
+        "wir": "gewinnen",
+        "ihr": "gewinnt",
+        "sie_Sie": "gewinnen"
+      },
+      "past_participle": "gewonnen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Sie gewinnt das Tennisturnier.",
+        "en": "She wins the tennis tournament.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Wir gewinnen Zeit.",
+        "en": "We gain time.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'gewinnen' takes accusative. Also used for gaining something abstract (time, trust).",
+      "dual_case": false
+    },
+    "tags": [
+      "sport",
+      "competition",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_gehören",
+    "root": "gehören",
+    "english": "to belong to",
+    "type": "weak",
+    "frequency_rank": 63,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "gehöre",
+        "du": "gehörst",
+        "er_sie_es": "gehört",
+        "wir": "gehören",
+        "ihr": "gehört",
+        "sie_Sie": "gehören"
+      },
+      "past_participle": "gehört",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Dieses Buch gehört mir.",
+        "en": "This book belongs to me.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Sie gehört zur Mannschaft.",
+        "en": "She belongs to the team.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "dative"
+      ],
+      "notes_en": "'gehören' governs dative: 'Das gehört mir' (not mich). 'gehören zu' = to belong to (a group).",
+      "dual_case": false
+    },
+    "tags": [
+      "possession",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_bedeuten",
+    "root": "bedeuten",
+    "english": "to mean / to signify",
+    "type": "weak",
+    "frequency_rank": 64,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "bedeute",
+        "du": "bedeutest",
+        "er_sie_es": "bedeutet",
+        "wir": "bedeuten",
+        "ihr": "bedeutet",
+        "sie_Sie": "bedeuten"
+      },
+      "past_participle": "bedeutet",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Was bedeutet dieses Wort?",
+        "en": "What does this word mean?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Das bedeutet mir viel.",
+        "en": "That means a lot to me.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'bedeuten' takes accusative. 'Das bedeutet mir viel' = that means a lot to me (dative of interest).",
+      "dual_case": false
+    },
+    "tags": [
+      "language",
+      "cognition",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_passieren",
+    "root": "passieren",
+    "english": "to happen / to pass",
+    "type": "weak",
+    "frequency_rank": 65,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "passiere",
+        "du": "passierst",
+        "er_sie_es": "passiert",
+        "wir": "passieren",
+        "ihr": "passiert",
+        "sie_Sie": "passieren"
+      },
+      "past_participle": "passiert",
+      "auxiliary": "sein"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Was ist passiert?",
+        "en": "What happened?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Ihm passierte ein Unfall.",
+        "en": "An accident happened to him.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "dative"
+      ],
+      "notes_en": "'passieren' = to happen (uses 'sein'). 'jemandem passiert etwas' = something happens to someone (dative person).",
+      "dual_case": false
+    },
+    "tags": [
+      "events",
+      "time",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_wechseln",
+    "root": "wechseln",
+    "english": "to change / to switch",
+    "type": "weak",
+    "frequency_rank": 66,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "wechsle",
+        "du": "wechselst",
+        "er_sie_es": "wechselt",
+        "wir": "wechseln",
+        "ihr": "wechselt",
+        "sie_Sie": "wechseln"
+      },
+      "past_participle": "gewechselt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_abwechseln",
+        "prefix": "ab",
+        "word": "abwechseln",
+        "english": "to alternate / to take turns",
+        "separable": true,
+        "notes": "Sie wechseln sich ab. (They take turns.)"
+      },
+      {
+        "id": "verb_auswechseln",
+        "prefix": "aus",
+        "word": "auswechseln",
+        "english": "to replace / to substitute",
+        "separable": true,
+        "notes": "Der Trainer wechselt den Spieler aus."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Er wechselt den Job.",
+        "en": "He is changing his job.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Kannst du mir einen Zwanziger wechseln?",
+        "en": "Can you change a twenty for me?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'wechseln' takes accusative. 'Geld wechseln' = to change money.",
+      "dual_case": false
+    },
+    "tags": [
+      "change",
+      "action",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_rechnen",
+    "root": "rechnen",
+    "english": "to calculate / to count on",
+    "type": "weak",
+    "frequency_rank": 67,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "rechne",
+        "du": "rechnest",
+        "er_sie_es": "rechnet",
+        "wir": "rechnen",
+        "ihr": "rechnet",
+        "sie_Sie": "rechnen"
+      },
+      "past_participle": "gerechnet",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_berechnen",
+        "prefix": "be",
+        "word": "berechnen",
+        "english": "to calculate / to charge",
+        "separable": false,
+        "notes": "Inseparable. Er berechnet die Kosten. / Sie berechnet ihm zu viel."
+      },
+      {
+        "id": "verb_abrechnen",
+        "prefix": "ab",
+        "word": "abrechnen",
+        "english": "to settle accounts / to settle a score",
+        "separable": true,
+        "notes": "Sie rechnen am Ende des Tages ab."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich rechne mit Schwierigkeiten.",
+        "en": "I'm counting on difficulties.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Das Kind rechnet gut.",
+        "en": "The child is good at maths.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'rechnen mit' = to count on/reckon with. 'rechnen' = to calculate.",
+      "dual_case": false
+    },
+    "tags": [
+      "maths",
+      "planning",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_erscheinen",
+    "root": "erscheinen",
+    "english": "to appear / to seem",
+    "type": "strong",
+    "frequency_rank": 68,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "erscheine",
+        "du": "erscheinst",
+        "er_sie_es": "erscheint",
+        "wir": "erscheinen",
+        "ihr": "erscheint",
+        "sie_Sie": "erscheinen"
+      },
+      "past_participle": "erschienen",
+      "auxiliary": "sein"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Das Buch erscheint im März.",
+        "en": "The book is published in March.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Er erscheint mir sehr ruhig.",
+        "en": "He seems very calm to me.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "'erscheinen' uses 'sein'. Can mean to appear (physically), to be published, or to seem.",
+      "dual_case": false
+    },
+    "tags": [
+      "perception",
+      "publication",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_versuchen",
+    "root": "versuchen",
+    "english": "to try / to attempt",
+    "type": "weak",
+    "frequency_rank": 69,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "versuche",
+        "du": "versuchst",
+        "er_sie_es": "versucht",
+        "wir": "versuchen",
+        "ihr": "versucht",
+        "sie_Sie": "versuchen"
+      },
+      "past_participle": "versucht",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich versuche, pünktlich zu sein.",
+        "en": "I am trying to be punctual.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Versuch es doch mal!",
+        "en": "Just give it a try!",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'versuchen + zu-infinitive' = to try to do something. Inseparable prefix 'ver'.",
+      "dual_case": false
+    },
+    "tags": [
+      "effort",
+      "action",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_ändern",
+    "root": "ändern",
+    "english": "to change / to alter",
+    "type": "weak",
+    "frequency_rank": 70,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "ändere",
+        "du": "änderst",
+        "er_sie_es": "ändert",
+        "wir": "ändern",
+        "ihr": "ändert",
+        "sie_Sie": "ändern"
+      },
+      "past_participle": "geändert",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Er ändert seine Meinung häufig.",
+        "en": "He changes his opinion frequently.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Daran lässt sich nichts ändern.",
+        "en": "Nothing can be changed about that.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'ändern' takes accusative. 'sich ändern' = to change (oneself, reflexive).",
+      "dual_case": false
+    },
+    "tags": [
+      "change",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_anbieten",
+    "root": "anbieten",
+    "english": "to offer",
+    "type": "strong",
+    "frequency_rank": 71,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "biete an",
+        "du": "bietest an",
+        "er_sie_es": "bietet an",
+        "wir": "bieten an",
+        "ihr": "bietet an",
+        "sie_Sie": "bieten an"
+      },
+      "past_participle": "angeboten",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Er bietet mir seine Hilfe an.",
+        "en": "He offers me his help.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Das Restaurant bietet vegetarische Gerichte an.",
+        "en": "The restaurant offers vegetarian dishes.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative",
+        "dative"
+      ],
+      "notes_en": "'anbieten' takes two objects: dative (person) + accusative (thing offered). Separable prefix 'an'.",
+      "dual_case": true
+    },
+    "tags": [
+      "commerce",
+      "social",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_benutzen",
+    "root": "benutzen",
+    "english": "to use",
+    "type": "weak",
+    "frequency_rank": 72,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "benutze",
+        "du": "benutzt",
+        "er_sie_es": "benutzt",
+        "wir": "benutzen",
+        "ihr": "benutzt",
+        "sie_Sie": "benutzen"
+      },
+      "past_participle": "benutzt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Darf ich dein Telefon benutzen?",
+        "en": "May I use your phone?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Er benutzt öffentliche Verkehrsmittel.",
+        "en": "He uses public transport.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'benutzen' takes accusative. Synonym: 'verwenden' (more formal), 'benutzen' (everyday).",
+      "dual_case": false
+    },
+    "tags": [
+      "action",
+      "tools",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_interessieren",
+    "root": "interessieren",
+    "english": "to interest",
+    "type": "weak",
+    "frequency_rank": 73,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "interessiere",
+        "du": "interessierst",
+        "er_sie_es": "interessiert",
+        "wir": "interessieren",
+        "ihr": "interessiert",
+        "sie_Sie": "interessieren"
+      },
+      "past_participle": "interessiert",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Das interessiert mich sehr.",
+        "en": "That interests me a lot.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Ich interessiere mich für Geschichte.",
+        "en": "I am interested in history.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'interessieren' takes accusative. Reflexive: 'sich interessieren für' = to be interested in.",
+      "dual_case": false
+    },
+    "tags": [
+      "feelings",
+      "cognition",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_freuen",
+    "root": "freuen",
+    "english": "to please / to be happy",
+    "type": "weak",
+    "frequency_rank": 74,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "freue",
+        "du": "freust",
+        "er_sie_es": "freut",
+        "wir": "freuen",
+        "ihr": "freut",
+        "sie_Sie": "freuen"
+      },
+      "past_participle": "gefreut",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich freue mich auf das Wochenende.",
+        "en": "I'm looking forward to the weekend.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Das freut mich!",
+        "en": "That pleases me! / I'm glad!",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'sich freuen auf' = to look forward to (accusative). 'sich freuen über' = to be happy about.",
+      "dual_case": false
+    },
+    "tags": [
+      "emotions",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_fühlen",
+    "root": "fühlen",
+    "english": "to feel",
+    "type": "weak",
+    "frequency_rank": 75,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "fühle",
+        "du": "fühlst",
+        "er_sie_es": "fühlt",
+        "wir": "fühlen",
+        "ihr": "fühlt",
+        "sie_Sie": "fühlen"
+      },
+      "past_participle": "gefühlt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_anfühlen",
+        "prefix": "an",
+        "word": "anfühlen",
+        "english": "to feel like (texture) / to feel to the touch",
+        "separable": true,
+        "notes": "Das fühlt sich weich an. (reflexive with 'sich')"
+      },
+      {
+        "id": "verb_mitfühlen",
+        "prefix": "mit",
+        "word": "mitfühlen",
+        "english": "to empathise / to feel for someone",
+        "separable": true,
+        "notes": "Ich fühle mit dir mit."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich fühle mich heute sehr gut.",
+        "en": "I feel very well today.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Er fühlt keinen Schmerz.",
+        "en": "He feels no pain.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'sich fühlen' = to feel (subjectively). 'fühlen' + accusative = to feel something (tactile/emotional).",
+      "dual_case": false
+    },
+    "tags": [
+      "emotions",
+      "senses",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_vorschlagen",
+    "root": "vorschlagen",
+    "english": "to suggest / to propose",
+    "type": "strong",
+    "frequency_rank": 76,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "schlage vor",
+        "du": "schlägst vor",
+        "er_sie_es": "schlägt vor",
+        "wir": "schlagen vor",
+        "ihr": "schlagt vor",
+        "sie_Sie": "schlagen vor"
+      },
+      "past_participle": "vorgeschlagen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich schlage vor, dass wir eine Pause machen.",
+        "en": "I suggest that we take a break.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Er schlägt eine neue Lösung vor.",
+        "en": "He proposes a new solution.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'vorschlagen' takes accusative. Separable: 'schlägt vor'.",
+      "dual_case": false
+    },
+    "tags": [
+      "communication",
+      "planning",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_behaupten",
+    "root": "behaupten",
+    "english": "to claim / to assert",
+    "type": "weak",
+    "frequency_rank": 77,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "behaupte",
+        "du": "behauptest",
+        "er_sie_es": "behauptet",
+        "wir": "behaupten",
+        "ihr": "behauptet",
+        "sie_Sie": "behaupten"
+      },
+      "past_participle": "behauptet",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Er behauptet, die Wahrheit zu kennen.",
+        "en": "He claims to know the truth.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Sie behauptet sich in der Diskussion.",
+        "en": "She holds her own in the discussion.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'behaupten' takes accusative or a subordinate clause. 'sich behaupten' = to hold one's own.",
+      "dual_case": false
+    },
+    "tags": [
+      "communication",
+      "argumentation",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_anerkennen",
+    "root": "anerkennen",
+    "english": "to acknowledge / to recognise",
+    "type": "mixed",
+    "frequency_rank": 78,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "erkenne an",
+        "du": "erkennst an",
+        "er_sie_es": "erkennt an",
+        "wir": "erkennen an",
+        "ihr": "erkennt an",
+        "sie_Sie": "erkennen an"
+      },
+      "past_participle": "anerkannt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Er erkennt ihre Leistung an.",
+        "en": "He acknowledges her achievement.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Der Staat erkennt das Recht an.",
+        "en": "The state recognises the right.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'anerkennen' is separable: 'erkennt ... an'. Takes accusative.",
+      "dual_case": false
+    },
+    "tags": [
+      "acknowledgement",
+      "official",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_überzeugen",
+    "root": "überzeugen",
+    "english": "to convince / to persuade",
+    "type": "weak",
+    "frequency_rank": 79,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "überzeuge",
+        "du": "überzeugst",
+        "er_sie_es": "überzeugt",
+        "wir": "überzeugen",
+        "ihr": "überzeugt",
+        "sie_Sie": "überzeugen"
+      },
+      "past_participle": "überzeugt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Er überzeugt sie von seiner Idee.",
+        "en": "He convinces her of his idea.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Die Argumentation überzeugt mich nicht.",
+        "en": "The argument does not convince me.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'überzeugen' + accusative (person). 'von' + dative for the thing one convinces about.",
+      "dual_case": false
+    },
+    "tags": [
+      "communication",
+      "argumentation",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_ablehnen",
+    "root": "ablehnen",
+    "english": "to reject / to decline",
+    "type": "weak",
+    "frequency_rank": 80,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "lehne ab",
+        "du": "lehnst ab",
+        "er_sie_es": "lehnt ab",
+        "wir": "lehnen ab",
+        "ihr": "lehnt ab",
+        "sie_Sie": "lehnen ab"
+      },
+      "past_participle": "abgelehnt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Er lehnt das Angebot ab.",
+        "en": "He declines the offer.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Das Komitee lehnte den Antrag ab.",
+        "en": "The committee rejected the application.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'ablehnen' takes accusative. Separable: 'lehnt ... ab'.",
+      "dual_case": false
+    },
+    "tags": [
+      "decision",
+      "refusal",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_versprechen",
+    "root": "versprechen",
+    "english": "to promise",
+    "type": "strong",
+    "frequency_rank": 81,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "verspreche",
+        "du": "versprichst",
+        "er_sie_es": "verspricht",
+        "wir": "versprechen",
+        "ihr": "versprecht",
+        "sie_Sie": "versprechen"
+      },
+      "past_participle": "versprochen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Er verspricht, pünktlich zu sein.",
+        "en": "He promises to be on time.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Sie verspricht ihm eine Überraschung.",
+        "en": "She promises him a surprise.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative",
+        "dative"
+      ],
+      "notes_en": "'versprechen' takes two objects: dative (person) + accusative (thing). Inseparable 'ver'.",
+      "dual_case": true
+    },
+    "tags": [
+      "communication",
+      "commitment",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_beweisen",
+    "root": "beweisen",
+    "english": "to prove",
+    "type": "strong",
+    "frequency_rank": 82,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "beweise",
+        "du": "beweist",
+        "er_sie_es": "beweist",
+        "wir": "beweisen",
+        "ihr": "beweist",
+        "sie_Sie": "beweisen"
+      },
+      "past_participle": "bewiesen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Er beweist seine Unschuld.",
+        "en": "He proves his innocence.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Das lässt sich schwer beweisen.",
+        "en": "That is hard to prove.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'beweisen' takes accusative. Inseparable 'be'.",
+      "dual_case": false
+    },
+    "tags": [
+      "logic",
+      "argumentation",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_vermeiden",
+    "root": "vermeiden",
+    "english": "to avoid",
+    "type": "strong",
+    "frequency_rank": 83,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "vermeide",
+        "du": "vermeidest",
+        "er_sie_es": "vermeidet",
+        "wir": "vermeiden",
+        "ihr": "vermeidet",
+        "sie_Sie": "vermeiden"
+      },
+      "past_participle": "vermieden",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Er versucht Konflikte zu vermeiden.",
+        "en": "He tries to avoid conflicts.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Das lässt sich nicht vermeiden.",
+        "en": "That cannot be avoided.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'vermeiden' takes accusative. Inseparable 'ver'.",
+      "dual_case": false
+    },
+    "tags": [
+      "action",
+      "strategy",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_vergleichen",
+    "root": "vergleichen",
+    "english": "to compare",
+    "type": "strong",
+    "frequency_rank": 84,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "vergleiche",
+        "du": "vergleichst",
+        "er_sie_es": "vergleicht",
+        "wir": "vergleichen",
+        "ihr": "vergleicht",
+        "sie_Sie": "vergleichen"
+      },
+      "past_participle": "verglichen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Sie vergleicht die beiden Angebote.",
+        "en": "She compares the two offers.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Man kann das nicht vergleichen.",
+        "en": "You can't compare the two.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'vergleichen mit' = to compare with. Takes accusative (thing compared).",
+      "dual_case": false
+    },
+    "tags": [
+      "analysis",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_beschreiben",
+    "root": "beschreiben",
+    "english": "to describe",
+    "type": "strong",
+    "frequency_rank": 85,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "beschreibe",
+        "du": "beschreibst",
+        "er_sie_es": "beschreibt",
+        "wir": "beschreiben",
+        "ihr": "beschreibt",
+        "sie_Sie": "beschreiben"
+      },
+      "past_participle": "beschrieben",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Beschreib mir die Situation.",
+        "en": "Describe the situation to me.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Er beschreibt das Bild genau.",
+        "en": "He describes the picture precisely.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'beschreiben' takes accusative. Inseparable 'be'.",
+      "dual_case": false
+    },
+    "tags": [
+      "communication",
+      "language",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_umgehen",
+    "root": "umgehen",
+    "english": "to deal with / to avoid",
+    "type": "strong",
+    "frequency_rank": 86,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "gehe um",
+        "du": "gehst um",
+        "er_sie_es": "geht um",
+        "wir": "gehen um",
+        "ihr": "geht um",
+        "sie_Sie": "gehen um"
+      },
+      "past_participle": "umgegangen",
+      "auxiliary": "sein"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich nehme an, dass du recht hast.",
+        "en": "I assume that you are right.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Er nimmt die Herausforderung an.",
+        "en": "He accepts the challenge.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'annehmen' — already covered in level 1 variants. At B2 level used in complex sentence structures.",
+      "dual_case": false
+    },
+    "tags": [
+      "action",
+      "strategy",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_auswählen",
+    "root": "auswählen",
+    "english": "to select / to choose",
+    "type": "weak",
+    "frequency_rank": 87,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "wähle aus",
+        "du": "wählst aus",
+        "er_sie_es": "wählt aus",
+        "wir": "wählen aus",
+        "ihr": "wählt aus",
+        "sie_Sie": "wählen aus"
+      },
+      "past_participle": "ausgewählt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Sie wählt das beste Angebot aus.",
+        "en": "She selects the best offer.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Wir müssen sorgfältig auswählen.",
+        "en": "We need to select carefully.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'auswählen' takes accusative. Separable: 'wählt ... aus'.",
+      "dual_case": false
+    },
+    "tags": [
+      "decision",
+      "choice",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_bewirken",
+    "root": "bewirken",
+    "english": "to bring about / to cause",
+    "type": "weak",
+    "frequency_rank": 88,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "bewirke",
+        "du": "bewirkst",
+        "er_sie_es": "bewirkt",
+        "wir": "bewirken",
+        "ihr": "bewirkt",
+        "sie_Sie": "bewirken"
+      },
+      "past_participle": "bewirkt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Die Maßnahme bewirkt viel Gutes.",
+        "en": "The measure brings about a lot of good.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Was bewirkt das?",
+        "en": "What does that achieve?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'bewirken' takes accusative. Inseparable 'be'.",
+      "dual_case": false
+    },
+    "tags": [
+      "causality",
+      "effect",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_zusammenfassen",
+    "root": "zusammenfassen",
+    "english": "to summarise",
+    "type": "weak",
+    "frequency_rank": 89,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "fasse zusammen",
+        "du": "fasst zusammen",
+        "er_sie_es": "fasst zusammen",
+        "wir": "fassen zusammen",
+        "ihr": "fasst zusammen",
+        "sie_Sie": "fassen zusammen"
+      },
+      "past_participle": "zusammengefasst",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Kannst du das kurz zusammenfassen?",
+        "en": "Can you briefly summarise that?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Er fasst die wichtigsten Punkte zusammen.",
+        "en": "He summarises the most important points.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'zusammenfassen' takes accusative. Separable: 'fasst ... zusammen'.",
+      "dual_case": false
+    },
+    "tags": [
+      "communication",
+      "analysis",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_hinweisen",
+    "root": "hinweisen",
+    "english": "to point out / to refer to",
+    "type": "strong",
+    "frequency_rank": 90,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "weise hin",
+        "du": "weist hin",
+        "er_sie_es": "weist hin",
+        "wir": "weisen hin",
+        "ihr": "weist hin",
+        "sie_Sie": "weisen hin"
+      },
+      "past_participle": "hingewiesen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Er weist auf den Fehler hin.",
+        "en": "He points out the mistake.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Der Arzt weist auf die Risiken hin.",
+        "en": "The doctor refers to the risks.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "'hinweisen auf' = to point to (accusative after 'auf'). Separable: 'weist ... hin'.",
+      "dual_case": false
+    },
+    "tags": [
+      "communication",
+      "reference",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_auffordern",
+    "root": "auffordern",
+    "english": "to ask / to demand / to invite",
+    "type": "weak",
+    "frequency_rank": 91,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "fordere auf",
+        "du": "forderst auf",
+        "er_sie_es": "fordert auf",
+        "wir": "fordern auf",
+        "ihr": "fordert auf",
+        "sie_Sie": "fordern auf"
+      },
+      "past_participle": "aufgefordert",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Er fordert sie zum Tanzen auf.",
+        "en": "He invites her to dance.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Die Polizei forderte ihn auf, das Fahrzeug zu verlassen.",
+        "en": "The police asked him to leave the vehicle.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'auffordern' takes accusative (person). 'jemanden zu etwas auffordern' = to ask someone to do something.",
+      "dual_case": false
+    },
+    "tags": [
+      "communication",
+      "request",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_schlußfolgern",
+    "root": "schlussfolgern",
+    "english": "to conclude / to infer",
+    "type": "weak",
+    "frequency_rank": 92,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "schlussfolgere",
+        "du": "schlussfolgerst",
+        "er_sie_es": "schlussfolgert",
+        "wir": "schlussfolgern",
+        "ihr": "schlussfolgert",
+        "sie_Sie": "schlussfolgern"
+      },
+      "past_participle": "geschlussfolgert",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Sie schließt einen Vertrag ab.",
+        "en": "She concludes a contract.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Er schließt das Studium ab.",
+        "en": "He completes his studies.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'abschließen' takes accusative. Separable: 'schließt ... ab'.",
+      "dual_case": false
+    },
+    "tags": [
+      "logic",
+      "analysis",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_auswirken",
+    "root": "auswirken",
+    "english": "to affect / to have an effect",
+    "type": "weak",
+    "frequency_rank": 93,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "wirke aus",
+        "du": "wirkst aus",
+        "er_sie_es": "wirkt aus",
+        "wir": "wirken aus",
+        "ihr": "wirkt aus",
+        "sie_Sie": "wirken aus"
+      },
+      "past_participle": "ausgewirkt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Die Entscheidung wirkt sich negativ aus.",
+        "en": "The decision has a negative effect.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Wie wirkt sich das auf unsere Pläne aus?",
+        "en": "How does that affect our plans?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "'sich auswirken auf' = to affect, to have an effect on (accusative after 'auf'). Always reflexive.",
+      "dual_case": false
+    },
+    "tags": [
+      "effect",
+      "causality",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_verpflichten",
+    "root": "verpflichten",
+    "english": "to oblige / to commit",
+    "type": "weak",
+    "frequency_rank": 94,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "verpflichte",
+        "du": "verpflichtest",
+        "er_sie_es": "verpflichtet",
+        "wir": "verpflichten",
+        "ihr": "verpflichtet",
+        "sie_Sie": "verpflichten"
+      },
+      "past_participle": "verpflichtet",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Er verpflichtet sich zur Geheimhaltung.",
+        "en": "He commits to confidentiality.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Das Gesetz verpflichtet alle Bürger.",
+        "en": "The law obliges all citizens.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'verpflichten' takes accusative. 'sich verpflichten zu' = to commit to.",
+      "dual_case": false
+    },
+    "tags": [
+      "law",
+      "obligation",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_betonen",
+    "root": "betonen",
+    "english": "to emphasise / to stress",
+    "type": "weak",
+    "frequency_rank": 95,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "betone",
+        "du": "betonst",
+        "er_sie_es": "betont",
+        "wir": "betonen",
+        "ihr": "betont",
+        "sie_Sie": "betonen"
+      },
+      "past_participle": "betont",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Er betont die Wichtigkeit der Sicherheit.",
+        "en": "He emphasises the importance of safety.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Das Wort wird auf der ersten Silbe betont.",
+        "en": "The word is stressed on the first syllable.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'betonen' takes accusative. Inseparable 'be'.",
+      "dual_case": false
+    },
+    "tags": [
+      "communication",
+      "language",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_widersprechen",
+    "root": "widersprechen",
+    "english": "to contradict / to object",
+    "type": "strong",
+    "frequency_rank": 96,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "widerspreche",
+        "du": "widersprichst",
+        "er_sie_es": "widerspricht",
+        "wir": "widersprechen",
+        "ihr": "widersprecht",
+        "sie_Sie": "widersprechen"
+      },
+      "past_participle": "widersprochen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Er widerspricht ihr ständig.",
+        "en": "He constantly contradicts her.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Das widerspricht meinen Werten.",
+        "en": "That contradicts my values.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "dative"
+      ],
+      "notes_en": "'widersprechen' governs dative: 'Er widerspricht ihr' (not sie). Inseparable.",
+      "dual_case": false
+    },
+    "tags": [
+      "argumentation",
+      "debate",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_überwinden",
+    "root": "überwinden",
+    "english": "to overcome",
+    "type": "strong",
+    "frequency_rank": 97,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "überwinde",
+        "du": "überwindest",
+        "er_sie_es": "überwindet",
+        "wir": "überwinden",
+        "ihr": "überwindet",
+        "sie_Sie": "überwinden"
+      },
+      "past_participle": "überwunden",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Sie überwindet ihre Angst.",
+        "en": "She overcomes her fear.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Er überwindet sich und entschuldigt sich.",
+        "en": "He overcomes his reluctance and apologises.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'überwinden' takes accusative. 'sich überwinden' = to overcome one's reluctance.",
+      "dual_case": false
+    },
+    "tags": [
+      "emotions",
+      "challenge",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_aufrechterhalten",
+    "root": "aufrechterhalten",
+    "english": "to maintain / to uphold",
+    "type": "strong",
+    "frequency_rank": 98,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "erhalte aufrecht",
+        "du": "erhältst aufrecht",
+        "er_sie_es": "erhält aufrecht",
+        "wir": "erhalten aufrecht",
+        "ihr": "erhaltet aufrecht",
+        "sie_Sie": "erhalten aufrecht"
+      },
+      "past_participle": "aufrechterhalten",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Sie erhalten den Frieden aufrecht.",
+        "en": "They uphold the peace.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Es ist schwer, das Gleichgewicht aufrechtzuerhalten.",
+        "en": "It is difficult to maintain the balance.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'aufrechterhalten' — complex separable compound. Takes accusative.",
+      "dual_case": false
+    },
+    "tags": [
+      "maintenance",
+      "formal",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_berücksichtigen",
+    "root": "berücksichtigen",
+    "english": "to take into account / to consider",
+    "type": "weak",
+    "frequency_rank": 99,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "berücksichtige",
+        "du": "berücksichtigst",
+        "er_sie_es": "berücksichtigt",
+        "wir": "berücksichtigen",
+        "ihr": "berücksichtigt",
+        "sie_Sie": "berücksichtigen"
+      },
+      "past_participle": "berücksichtigt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Bitte berücksichtigen Sie alle Faktoren.",
+        "en": "Please take all factors into account.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Das muss man berücksichtigen.",
+        "en": "One must consider that.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'berücksichtigen' takes accusative. Inseparable, formal register.",
+      "dual_case": false
+    },
+    "tags": [
+      "analysis",
+      "planning",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_hervorheben",
+    "root": "hervorheben",
+    "english": "to highlight / to emphasise",
+    "type": "strong",
+    "frequency_rank": 100,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "hebe hervor",
+        "du": "hebst hervor",
+        "er_sie_es": "hebt hervor",
+        "wir": "heben hervor",
+        "ihr": "hebt hervor",
+        "sie_Sie": "heben hervor"
+      },
+      "past_participle": "hervorgehoben",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Er hebt die wichtigsten Punkte hervor.",
+        "en": "He highlights the most important points.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Ich möchte besonders hervorheben, dass ...",
+        "en": "I would particularly like to emphasise that ...",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "'hervorheben' takes accusative. Separable: 'hebt ... hervor'.",
+      "dual_case": false
+    },
+    "tags": [
+      "communication",
+      "emphasis",
+      "b2"
+    ]
+  }
+]

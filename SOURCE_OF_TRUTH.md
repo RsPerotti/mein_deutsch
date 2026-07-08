@@ -1,11 +1,15 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-06-14 — Session 32 (Grammatik curriculum complete — live)*
+*Last updated: 2026-07-07 — Session 35 (Wörter Intake #1 + Ausdrücke module — v12 live)*
 
 ---
 
 ## Current State
 
-**7 modules built. Partikeln module complete (all phases).** App at https://rsperotti.github.io/mein_deutsch.
+**9 modules built and live.** App at https://rsperotti.github.io/mein_deutsch (v12).
+
+**Wörter Intake #1 COMPLETE (Session 35).** 213 reading-vocabulary words from Ricco's Google Sheet processed: 152 new words added across Verbs (+65 word forms), Nouns (+55), Adjectives (+36), Adverbs (+12), plus the new **Ausdrücke module** (9th module, 8 expressions, 32 exercises, no gating). ~958 new exercises. Full row-by-row resolution: `_factory/intake-log.json`. Repeatable workflow: sheet stays the inbox; future runs diff against the intake log and process only new rows. PRD: `PRD_Woerter_Intake.md`. Two flagged sheet entries need Ricco's confirmation: "Aufziele" (interpreted as abzielen) and "kindersinne" (skipped, unidentifiable).
+
+**Artikel module COMPLETE.** Standalone 8th module. 6 grammar lessons (grammatical gender → masculine/feminine/neuter endings → meaning categories → compound nouns). Der/Die/Das exercise engine (select_article type, runtime queue from unlocked root nouns). No gating. Pushed and live (v9).
 
 **Partikeln module COMPLETE.** All 7 phases done. 34 particles, 510 exercises (15 per particle), 8 grammar lessons. Commit 8726903 pushed and live.
 
@@ -23,31 +27,36 @@
 | `css/styles.css` | ✅ Updated | Full design system. `.home-modules-grid`, `.module-card-grid`, `.pill-toggle-btn`, `.pill-read-btn`, `.particles-alle-nav-btn`, `.particles-cefr-picker`, `.particles-tier-header`, `.particle-feedback-card`, reference screen, detail sheet, sort toggle, chips, secondary-btn. |
 | `js/app.js` | ✅ Updated | All 7 module renderers. History API for Android gesture back. **Particles (Sessions 29-B, 30):** `appData.particles`, `_particlesCefr`, `_particlesGramOpen`, particles loading, icon, module home renderer, CEFR filter state, grammatik strip, `openPartikelliste()`, `renderPartikelliste()`, `_renderParticleList()`, `showParticleDetail()`, `openParticleExercise()` + soft gate, `_PARTICLE_GATE_MAP`, `ParticleGrammar.init()` in bootstrap. |
 | `js/exercises.js` | ✅ Updated | All exercise types including `fill_blank_particle` renderer, `_showParticleFeedbackCard()`, CEFR-aware particle queue, `setParticlesCefrInSession()`. Also: `partizip_ii`, `auxiliary_choice`, `conjugation_table` for Verbs. |
-| `js/grammar.js` | ✅ Updated | `Grammar` + `ParticleGrammar` singletons. `openParticleLesson()`, `renderParticleLesson()`, `startParticleQuiz()` stub. `openLesson()` sets module flag to prevent bleed. |
+| `js/grammar.js` | ✅ Updated | `Grammar` + `ParticleGrammar` + `ArticleGrammar` singletons. Full lesson + quiz renderers for all three modules. |
 | `js/progress.js` | ✅ Updated | All localStorage keys: root/variant split for nouns, adjectives, prepositions difficulty, articles read. |
 | `js/wordlist.js` | ✅ Updated | Adjectives. Case dot helpers. Verb cards show case dots. |
 | `js/wordpractice.js` | ✅ Built | Adjektive class in WLP_CLASSES picker. |
-| `js/data.js` | ✅ Bundled | `window.APP_DATA`. 2,075 verb exercises (992 Präsens + 1,083 Vergangenheit). 188 parenthetical hints stripped. |
+| `js/data.js` | ✅ Bundled | `window.APP_DATA` (2.2 MB). All word data + exercises incl. expressions. Rebundled Session 35. |
 | `js/listening-data.js` | ✅ Built | `window.LISTENING_DATA`. 45 articles, transcripts + vocabulary. 212 KB. |
 | `js/listening.js` | ✅ Built | Article list, reader, vocab highlighting, audio caching, read-state. |
 | `js/particles-data.js` | ✅ Updated | `window.PARTICLES_DATA`. 34 particles + 510 exercises + 8 lessons. **244 KB. Content-reviewed (Phase 6).** |
 | `js/grammar-data.js` | ✅ Built | `window.GRAMMAR_DATA` — Verbs grammar lessons bundled. |
-| `data/modules.json` | ✅ Updated | 7 modules active: Verbs, Nouns, Adjectives, Adverbs, Prepositions, Listening, Particles. |
-| `data/verbs.json` | ✅ 91 root verbs | Audited. 23 moves/removes, 14 new bases added. |
-| `data/nouns.json` | ✅ 175 nouns | A1–B2. 97 roots + 78 variations. |
-| `data/adverbs.json` | ✅ 127 adverbs | A1–B2 complete. |
-| `data/adjectives.json` | ✅ 100 adjectives | A1–B2 (25 per level). |
+| `data/modules.json` | ✅ Updated | 9 modules active: + Ausdrücke (Expressions). |
+| `data/expressions.json` | ✅ 8 expressions | NEW (Session 35). Schwein haben, Abgemacht!, Einverstanden, Wie auch immer, Bitte sachlich bleiben, Ratschläge geben, möglichst+, durcheinander kommen. |
+| `data/exercises/exercises-expressions.json` | ✅ 32 exercises | 8 × 4: meaning, 2× gap-fill, situation-match. Reuses translate_word + fill_blank renderers. |
+| `_factory/intake-log.json` | ✅ NEW | Row-by-row resolution of all 213 sheet entries. Future intake runs diff against this. |
+| `data/verbs.json` | ✅ 149 root verbs + 154 variants | Session 35: +49 roots, +16 variants (intake #1). |
+| `data/nouns.json` | ✅ 230 nouns | 152 roots + 78 variations. Session 35: +55 roots (intake #1). |
+| `data/adverbs.json` | ✅ 139 adverbs | Session 35: +12 (new categories: Indefinites, Place & Direction, Connectors additions). |
+| `data/adjectives.json` | ✅ 136 adjectives | Session 35: +36 (intake #1). |
 | `data/prepositions.json` | ✅ 53 prepositions | A1–B2. Categories: two-way, akkusativ, dativ, genitiv. |
 | `data/particles.json` | ✅ 34 particles | Core (A1–B2) + Advanced (C1–C2). Per-particle: signals, position, 3 examples, contrast note, related. |
-| `data/exercises/exercises-verbs.json` | ✅ 2,075 exercises | 992 Präsens + 1,083 Vergangenheit. All have `tense` field. |
-| `data/exercises/exercises-nouns.json` | ✅ 525 exercises | 175 × 3. |
-| `data/exercises/exercises-adverbs.json` | ✅ 508 exercises | 127 × 4. |
-| `data/exercises/exercises-adjectives.json` | ✅ 400 exercises | 100 × 4. |
+| `data/exercises/exercises-verbs.json` | ✅ 2,644 exercises | Session 35: +569. New words: 8-exercise package (9 for roots). |
+| `data/exercises/exercises-nouns.json` | ✅ 690 exercises | 230 × 3. |
+| `data/exercises/exercises-adverbs.json` | ✅ 556 exercises | 139 × 4. |
+| `data/exercises/exercises-adjectives.json` | ✅ 544 exercises | 136 × 4. |
 | `data/exercises/exercises-prepositions.json` | ✅ 158 exercises | 79 select_preposition + 79 select_case. |
 | `data/exercises/exercises-particles.json` | ✅ 510 exercises | 34 × 15. **Content-reviewed (Phase 6) — 0 integrity errors.** |
 | `data/grammar/lessons.json` | ✅ Built | 6 Verbs grammar lessons. |
 | `data/grammar/particle-lessons.json` | ✅ Built | 8 Particles grammar lessons (4 sections + 5 quiz questions each). |
-| `service-worker.js` | ✅ v7 | Cache-first. Precaches all JS/CSS including particles-data.js. Range request handler for audio. |
+| `data/grammar/article-lessons.json` | ✅ Built | 6 Artikel grammar lessons (4 sections + 5 quiz questions each). |
+| `js/article-grammar-data.js` | ✅ Built | `window.ARTICLE_GRAMMAR_DATA` — Artikel grammar lessons bundled. |
+| `service-worker.js` | ✅ v12 | Cache-first. Precaches all JS/CSS including particles-data.js, grammar-data.js, article-grammar-data.js. Range request handler for audio. |
 | `manifest.json` | ✅ Built | PWA config. |
 | `icons/` | ✅ Done | icon-192 + icon-512, speech bubble "de", #85B7EB. |
 
@@ -82,6 +91,10 @@
 | Prepositions CEFR cap | B2 (C1/C2 reserved in architecture) |
 | Particles exercises | 15 per particle. Single-answer integrity is the top constraint. |
 | Particles TTS | Skipped — flat TTS misleads on particles where intonation carries meaning. |
+| Wörter intake CEFR | Capped at B2 — no C1/C2 labels (decision 2026-07-07). |
+| Wörter intake pipeline | Sheet = inbox. Diff against `_factory/intake-log.json`, seed files + generator, validation pass per category before merge. |
+| New verb exercise depth | 8 per word (9 for roots) — not the full ~22 of original seeds. Expandable later. |
+| Ausdrücke scope | Minimal by design — only expressions from Ricco's readings. No gating. |
 
 ---
 
@@ -89,15 +102,16 @@
 
 | Module | Scope | Items | Exercises | Status |
 |---|---|---|---|---|
-| Verbs | A1–B2 | 91 root + 157 variants | 2,075 | ✅ Complete |
-| Nouns | A1–B2 | 175 (97 roots + 78 variants) | 525 | ✅ Complete |
-| Adverbs | A1–B2 | 127 | 508 | ✅ Complete |
-| Adjectives | A1–B2 | 100 | 400 | ✅ Complete |
+| Verbs | A1–B2 | 149 roots + 154 variants | 2,644 | ✅ Complete |
+| Nouns | A1–B2 | 230 (152 roots + 78 variants) | 690 | ✅ Complete |
+| Adverbs | A1–B2 | 139 | 556 | ✅ Complete |
+| Adjectives | A1–B2 | 136 | 544 | ✅ Complete |
 | Prepositions | A1–B2 | 53 | 158 | ✅ Complete |
 | Listening | 2026 | 45 articles | — | ✅ Complete |
 | Particles | A1–C2 | 34 | 510 | ✅ Complete |
+| Ausdrücke | B1–B2 | 8 expressions | 32 | ✅ Live — grows with readings |
 
-**Total exercises: ~4,176 across 7 modules.**
+**Total exercises: ~5,134 across 8 modules + Artikel (dynamic queue from unlocked nouns).**
 
 ---
 
@@ -196,8 +210,8 @@
 ## Next Steps
 
 **Up next (in rough priority):**
-- Articles module — gender-pattern rules approach (reimagined)
-- Articles module — gender-pattern rules approach (reimagined)
+- Ricco to confirm two flagged sheet entries: "Aufziele" (→ abzielen?) and "kindersinne" (skipped)
+- Next Wörter intake when the sheet grows (diff against `_factory/intake-log.json`)
 - Deklinationen area for Adjectives
 - Lesen & Hören — more years: run crawler on 2025, 2024 archives; re-bundle listening-data.js
 - Prepositions C1/C2 expansion — architecture ready; add entries with `"cefr": "C1"`
@@ -206,6 +220,7 @@
 - Prefix verb variants inherit parent root's `grammar.case_requirements` — `verstehen` shows Irregular with no case badge (should be Akkusativ). Fix: add per-variant `grammar` override field. Deferred.
 - Adjectives Deklinationen card is a placeholder — exercises and UI not yet built.
 - Prepositions not in Word List Practice mode (no unlock mechanic — by design).
+- `.git` repo lives inside Google Drive folder — causes stale lock files (HEAD.lock, index.lock) that block commits. Must `rm .git/*.lock` from Terminal before committing. Long-term: move repo outside Drive.
 
 ---
 

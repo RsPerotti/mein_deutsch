@@ -1,0 +1,1410 @@
+{
+  "_schema": "Adjective seeds. comp/sup '' = not gradable. tdist = 3 English distractors, gdist = 3 German distractors. sent: _____ = the adjective.",
+  "adjectives": [
+    {
+      "word": "ausschlaggebend",
+      "english": "decisive (the deciding factor)",
+      "comp": "",
+      "sup": "",
+      "antonym": "unwichtig",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 101,
+      "tags": [
+        "abstract",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Der Preis war _____ für meine Entscheidung.",
+          "en": "The price was the deciding factor for my decision."
+        },
+        {
+          "de": "Sein Tor war _____ für den Sieg.",
+          "en": "His goal was decisive for the victory."
+        }
+      ],
+      "tdist": [
+        "insignificant",
+        "surprising",
+        "questionable"
+      ],
+      "gdist": [
+        "nebensächlich",
+        "überraschend",
+        "fraglich"
+      ],
+      "note": "From den Ausschlag geben (to tip the scales). Pattern: ausschlaggebend für + Akk."
+    },
+    {
+      "word": "ordentlich",
+      "english": "tidy / neat / proper",
+      "comp": "ordentlicher",
+      "sup": "am ordentlichsten",
+      "antonym": "unordentlich",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 102,
+      "tags": [
+        "everyday",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Sein Schreibtisch ist immer _____.",
+          "en": "His desk is always tidy."
+        },
+        {
+          "de": "Sein Zimmer sieht endlich wieder _____ aus.",
+          "en": "His room finally looks tidy again."
+        }
+      ],
+      "tdist": [
+        "messy",
+        "ordinary",
+        "official"
+      ],
+      "gdist": [
+        "unordentlich",
+        "gewöhnlich",
+        "öffentlich"
+      ],
+      "note": "Also colloquial for 'substantial': eine ordentliche Portion. Related: die Ordnung."
+    },
+    {
+      "word": "böse",
+      "english": "angry / evil / bad",
+      "comp": "böser",
+      "sup": "am bösesten",
+      "antonym": "lieb",
+      "cefr": "A2",
+      "unlock": 2,
+      "freq": 103,
+      "tags": [
+        "emotions",
+        "essential",
+        "a2"
+      ],
+      "sent": [
+        {
+          "de": "Bist du mir noch _____?",
+          "en": "Are you still angry with me?"
+        },
+        {
+          "de": "In dem Märchen gibt es eine _____ Hexe.",
+          "en": "In the fairy tale there is an evil witch."
+        }
+      ],
+      "tdist": [
+        "kind",
+        "sad",
+        "scared"
+      ],
+      "gdist": [
+        "lieb",
+        "traurig",
+        "ängstlich"
+      ],
+      "note": "Two senses: angry (böse auf jemanden sein) and evil/wicked (der böse Wolf)."
+    },
+    {
+      "word": "ernsthaft",
+      "english": "serious / earnest",
+      "comp": "ernsthafter",
+      "sup": "am ernsthaftesten",
+      "antonym": "scherzhaft",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 104,
+      "tags": [
+        "abstract",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Wir müssen _____ über die Zukunft reden.",
+          "en": "We have to talk seriously about the future."
+        },
+        {
+          "de": "Die Zweifel an seiner Geschichte waren _____.",
+          "en": "The doubts about his story were serious."
+        }
+      ],
+      "tdist": [
+        "joking",
+        "careless",
+        "temporary"
+      ],
+      "gdist": [
+        "scherzhaft",
+        "nachlässig",
+        "vorläufig"
+      ],
+      "note": "From der Ernst (seriousness). Compare ernst (grave) vs ernsthaft (in earnest, genuine)."
+    },
+    {
+      "word": "einzig",
+      "english": "only / sole",
+      "comp": "",
+      "sup": "",
+      "antonym": "",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 105,
+      "tags": [
+        "abstract",
+        "essential",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Das ist die _____ Lösung, die funktioniert.",
+          "en": "That is the only solution that works.",
+          "ans": "einzige",
+          "dist": [
+            "einzelne",
+            "einsame",
+            "einfache"
+          ]
+        },
+        {
+          "de": "Er war der _____ Gast im Restaurant.",
+          "en": "He was the only guest in the restaurant.",
+          "ans": "einzige",
+          "dist": [
+            "einzelne",
+            "einsame",
+            "einfache"
+          ]
+        }
+      ],
+      "tdist": [
+        "unique (one of a kind)",
+        "first",
+        "single (unmarried)"
+      ],
+      "gdist": [
+        "einzeln",
+        "einsam",
+        "einfach"
+      ],
+      "note": "einzig = only/sole; einzigartig = unique. Watch the family: einzeln (individual), einsam (lonely)."
+    },
+    {
+      "word": "zielstrebig",
+      "english": "determined / goal-oriented",
+      "comp": "zielstrebiger",
+      "sup": "am zielstrebigsten",
+      "antonym": "ziellos",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 106,
+      "tags": [
+        "character",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Sie arbeitet _____ an ihrer Karriere.",
+          "en": "She works purposefully on her career."
+        },
+        {
+          "de": "Er ist sehr _____ und erreicht seine Ziele.",
+          "en": "He is very determined and achieves his goals."
+        }
+      ],
+      "tdist": [
+        "aimless",
+        "hesitant",
+        "stubborn"
+      ],
+      "gdist": [
+        "ziellos",
+        "zögerlich",
+        "stur"
+      ],
+      "note": "das Ziel (goal) + streben (to strive). Positive character trait in job applications."
+    },
+    {
+      "word": "bedauerlich",
+      "english": "regrettable / unfortunate",
+      "comp": "bedauerlicher",
+      "sup": "am bedauerlichsten",
+      "antonym": "erfreulich",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 107,
+      "tags": [
+        "formal",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Es ist sehr _____, dass du nicht kommen kannst.",
+          "en": "It is very unfortunate that you can't come."
+        },
+        {
+          "de": "Der Fehler war _____ und hat das Projekt verzögert.",
+          "en": "The mistake was regrettable and delayed the project."
+        }
+      ],
+      "tdist": [
+        "pleasing",
+        "forgivable",
+        "avoidable"
+      ],
+      "gdist": [
+        "erfreulich",
+        "verzeihlich",
+        "vermeidbar"
+      ],
+      "note": "From bedauern (to regret). Formal register: Bedauerlicherweise … = Regrettably …"
+    },
+    {
+      "word": "beschämend",
+      "english": "shameful / embarrassing",
+      "comp": "beschämender",
+      "sup": "am beschämendsten",
+      "antonym": "lobenswert",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 108,
+      "tags": [
+        "emotions",
+        "formal",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Das Ergebnis war _____ für die ganze Mannschaft.",
+          "en": "The result was embarrassing for the whole team."
+        },
+        {
+          "de": "Es ist _____, wie wenig hier getan wurde.",
+          "en": "It is shameful how little was done here."
+        }
+      ],
+      "tdist": [
+        "praiseworthy",
+        "amusing",
+        "astonishing"
+      ],
+      "gdist": [
+        "lobenswert",
+        "amüsant",
+        "erstaunlich"
+      ],
+      "note": "From beschämen (to shame) ← die Scham. Stronger and more formal than peinlich."
+    },
+    {
+      "word": "damalig",
+      "english": "of that time / then (attributive)",
+      "comp": "",
+      "sup": "",
+      "antonym": "heutig",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 109,
+      "tags": [
+        "time",
+        "reading",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Der _____ Bürgermeister eröffnete die Brücke.",
+          "en": "The then mayor opened the bridge.",
+          "ans": "damalige",
+          "dist": [
+            "heutige",
+            "ehemalige",
+            "vorläufige"
+          ]
+        },
+        {
+          "de": "Die _____ Situation war völlig anders als heute.",
+          "en": "The situation at that time was completely different from today.",
+          "ans": "damalige",
+          "dist": [
+            "heutige",
+            "ehemalige",
+            "vorläufige"
+          ]
+        }
+      ],
+      "tdist": [
+        "current",
+        "former (ex-)",
+        "temporary"
+      ],
+      "gdist": [
+        "heutig",
+        "ehemalig",
+        "vorläufig"
+      ],
+      "note": "Only attributive (before a noun). From damals (back then). Compare: ehemalig (former/ex-)."
+    },
+    {
+      "word": "eifersüchtig",
+      "english": "jealous",
+      "comp": "eifersüchtiger",
+      "sup": "am eifersüchtigsten",
+      "antonym": "gelassen",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 110,
+      "tags": [
+        "emotions",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Er ist _____ auf den neuen Kollegen.",
+          "en": "He is jealous of the new colleague."
+        },
+        {
+          "de": "Sei doch nicht so _____!",
+          "en": "Don't be so jealous!"
+        }
+      ],
+      "tdist": [
+        "envious (of possessions)",
+        "suspicious",
+        "insecure"
+      ],
+      "gdist": [
+        "neidisch",
+        "misstrauisch",
+        "unsicher"
+      ],
+      "note": "Pattern: eifersüchtig auf + Akk. Distinguish: eifersüchtig (jealous in relationships) vs neidisch (envious of things)."
+    },
+    {
+      "word": "vermeintlich",
+      "english": "supposed / alleged",
+      "comp": "",
+      "sup": "",
+      "antonym": "tatsächlich",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 111,
+      "tags": [
+        "reading",
+        "formal",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Der _____ Experte hatte nie studiert.",
+          "en": "The supposed expert had never studied.",
+          "ans": "vermeintliche",
+          "dist": [
+            "tatsächliche",
+            "bewiesene",
+            "bekannte"
+          ]
+        },
+        {
+          "de": "Die _____ Abkürzung kostete uns eine Stunde.",
+          "en": "The supposed shortcut cost us an hour.",
+          "ans": "vermeintliche",
+          "dist": [
+            "tatsächliche",
+            "bewiesene",
+            "bekannte"
+          ]
+        }
+      ],
+      "tdist": [
+        "actual",
+        "proven",
+        "well-known"
+      ],
+      "gdist": [
+        "tatsächlich",
+        "bewiesen",
+        "bekannt"
+      ],
+      "note": "Signals that an assumption turned out false. From vermeinen (to wrongly believe). Common in news prose."
+    },
+    {
+      "word": "sogenannt",
+      "english": "so-called",
+      "comp": "",
+      "sup": "",
+      "antonym": "",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 112,
+      "tags": [
+        "reading",
+        "formal",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Die _____ Experten widersprechen sich ständig.",
+          "en": "The so-called experts constantly contradict each other.",
+          "ans": "sogenannten",
+          "dist": [
+            "bekannten",
+            "selbsternannten",
+            "offiziellen"
+          ]
+        },
+        {
+          "de": "Das ist der _____ Muskelkater.",
+          "en": "That is what is known as sore muscles.",
+          "ans": "sogenannte",
+          "dist": [
+            "bekannte",
+            "selbsternannte",
+            "offizielle"
+          ]
+        }
+      ],
+      "tdist": [
+        "well-known",
+        "self-proclaimed",
+        "officially named"
+      ],
+      "gdist": [
+        "bekannt",
+        "selbsternannt",
+        "offiziell"
+      ],
+      "note": "Two uses: neutral (introducing a technical term) or ironic/distancing (die sogenannten Freunde). Abbreviated 'sog.' in writing."
+    },
+    {
+      "word": "vorhersehbar",
+      "english": "predictable / foreseeable",
+      "comp": "vorhersehbarer",
+      "sup": "am vorhersehbarsten",
+      "antonym": "unvorhersehbar",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 113,
+      "tags": [
+        "abstract",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Das Ende des Films war leider _____.",
+          "en": "The ending of the film was unfortunately predictable."
+        },
+        {
+          "de": "Die Folgen waren für alle _____.",
+          "en": "The consequences were foreseeable for everyone."
+        }
+      ],
+      "tdist": [
+        "unpredictable",
+        "inevitable",
+        "surprising"
+      ],
+      "gdist": [
+        "unvorhersehbar",
+        "unvermeidlich",
+        "überraschend"
+      ],
+      "note": "From vorhersehen (to foresee) + -bar. Same family: die Vorhersehbarkeit, die Vorhersage."
+    },
+    {
+      "word": "herausfordernd",
+      "english": "challenging",
+      "comp": "herausfordernder",
+      "sup": "am herausforderndsten",
+      "antonym": "einfach",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 114,
+      "tags": [
+        "work",
+        "abstract",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Das erste Jahr im neuen Job war sehr _____.",
+          "en": "The first year in the new job was very challenging."
+        },
+        {
+          "de": "Die neue Aufgabe ist anspruchsvoll und _____.",
+          "en": "The new task is demanding and challenging."
+        }
+      ],
+      "tdist": [
+        "easy",
+        "boring",
+        "exhausting only"
+      ],
+      "gdist": [
+        "einfach",
+        "langweilig",
+        "entspannt"
+      ],
+      "note": "From herausfordern (to challenge). Related noun: die Herausforderung (challenge) — a B1/B2 essential."
+    },
+    {
+      "word": "entscheidend",
+      "english": "crucial / decisive",
+      "comp": "entscheidender",
+      "sup": "am entscheidendsten",
+      "antonym": "nebensächlich",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 115,
+      "tags": [
+        "abstract",
+        "essential",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Dieses Spiel ist _____ für die Meisterschaft.",
+          "en": "This game is decisive for the championship."
+        },
+        {
+          "de": "Geduld ist _____ beim Sprachenlernen.",
+          "en": "Patience is crucial when learning languages."
+        }
+      ],
+      "tdist": [
+        "secondary",
+        "optional",
+        "evident"
+      ],
+      "gdist": [
+        "nebensächlich",
+        "freiwillig",
+        "offensichtlich"
+      ],
+      "note": "From entscheiden (to decide). Near-synonym of ausschlaggebend, but entscheidend is far more common in everyday speech."
+    },
+    {
+      "word": "duftend",
+      "english": "fragrant / sweet-smelling",
+      "comp": "duftender",
+      "sup": "am duftendsten",
+      "antonym": "stinkend",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 116,
+      "tags": [
+        "senses",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Auf dem Tisch stand _____ Kaffee.",
+          "en": "Fragrant coffee stood on the table.",
+          "ans": "duftender",
+          "dist": [
+            "stinkender",
+            "geschmackloser",
+            "kalter"
+          ]
+        },
+        {
+          "de": "Sie pflückte einen Strauß _____ Rosen.",
+          "en": "She picked a bouquet of fragrant roses.",
+          "ans": "duftender",
+          "dist": [
+            "stinkender",
+            "geschmackloser",
+            "verwelkter"
+          ]
+        }
+      ],
+      "tdist": [
+        "stinking",
+        "tasteless",
+        "colourful"
+      ],
+      "gdist": [
+        "stinkend",
+        "geschmacklos",
+        "farbenfroh"
+      ],
+      "note": "From duften (to smell nice) ← der Duft (scent). Only for pleasant smells — bad smells use stinkend or riechend nach."
+    },
+    {
+      "word": "überwältigend",
+      "english": "overwhelming",
+      "comp": "überwältigender",
+      "sup": "am überwältigendsten",
+      "antonym": "gering",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 117,
+      "tags": [
+        "abstract",
+        "news",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Die _____ Mehrheit stimmte für den Plan.",
+          "en": "The overwhelming majority voted for the plan.",
+          "ans": "überwältigende",
+          "dist": [
+            "geringe",
+            "enttäuschende",
+            "durchschnittliche"
+          ]
+        },
+        {
+          "de": "Der Ausblick vom Gipfel war _____.",
+          "en": "The view from the summit was overwhelming."
+        }
+      ],
+      "tdist": [
+        "tiny",
+        "disappointing",
+        "average"
+      ],
+      "gdist": [
+        "gering",
+        "enttäuschend",
+        "durchschnittlich"
+      ],
+      "note": "From überwältigen (to overwhelm). News staple: die überwältigende Mehrheit (the overwhelming majority)."
+    },
+    {
+      "word": "haltlos",
+      "english": "baseless / unfounded",
+      "comp": "",
+      "sup": "",
+      "antonym": "begründet",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 118,
+      "tags": [
+        "formal",
+        "news",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Diese Vorwürfe sind völlig _____.",
+          "en": "These accusations are completely baseless."
+        },
+        {
+          "de": "Die Behauptung erwies sich als _____.",
+          "en": "The claim turned out to be unfounded."
+        }
+      ],
+      "tdist": [
+        "well-founded",
+        "harsh",
+        "believable"
+      ],
+      "gdist": [
+        "begründet",
+        "berechtigt",
+        "glaubwürdig"
+      ],
+      "note": "der Halt (hold/support) + -los. Typical collocations: haltlose Vorwürfe/Behauptungen (baseless accusations/claims)."
+    },
+    {
+      "word": "betroffen",
+      "english": "affected; shaken / dismayed",
+      "comp": "betroffener",
+      "sup": "am betroffensten",
+      "antonym": "unberührt",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 119,
+      "tags": [
+        "news",
+        "emotions",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Viele Familien sind von den Preiserhöhungen _____.",
+          "en": "Many families are affected by the price increases."
+        },
+        {
+          "de": "Er schwieg _____, als er die Nachricht hörte.",
+          "en": "He fell silent, shaken, when he heard the news."
+        }
+      ],
+      "tdist": [
+        "untouched",
+        "responsible",
+        "informed"
+      ],
+      "gdist": [
+        "unberührt",
+        "verantwortlich",
+        "informiert"
+      ],
+      "note": "Two senses: affected by something (betroffen von + Dat) and emotionally shaken. Noun: die Betroffenen (those affected)."
+    },
+    {
+      "word": "spürbar",
+      "english": "noticeable / palpable",
+      "comp": "spürbarer",
+      "sup": "am spürbarsten",
+      "antonym": "unmerklich",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 120,
+      "tags": [
+        "abstract",
+        "news",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Die Preise sind _____ gestiegen.",
+          "en": "Prices have risen noticeably."
+        },
+        {
+          "de": "Im Raum herrschte eine _____ Spannung.",
+          "en": "There was a palpable tension in the room.",
+          "ans": "spürbare",
+          "dist": [
+            "unmerkliche",
+            "messbare",
+            "zweifelhafte"
+          ]
+        }
+      ],
+      "tdist": [
+        "imperceptible",
+        "measurable only",
+        "doubtful"
+      ],
+      "gdist": [
+        "unmerklich",
+        "messbar",
+        "zweifelhaft"
+      ],
+      "note": "From spüren (to feel/sense) + -bar. Often adverbial: spürbar kälter = noticeably colder."
+    },
+    {
+      "word": "wertvoll",
+      "english": "valuable / precious",
+      "comp": "wertvoller",
+      "sup": "am wertvollsten",
+      "antonym": "wertlos",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 121,
+      "tags": [
+        "abstract",
+        "essential",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Dieser Ring ist sehr _____.",
+          "en": "This ring is very valuable."
+        },
+        {
+          "de": "Du hast mir einen _____ Tipp gegeben.",
+          "en": "You gave me a valuable tip.",
+          "ans": "wertvollen",
+          "dist": [
+            "wertlosen",
+            "teuren",
+            "seltenen"
+          ]
+        }
+      ],
+      "tdist": [
+        "worthless",
+        "expensive only",
+        "rare"
+      ],
+      "gdist": [
+        "wertlos",
+        "teuer",
+        "selten"
+      ],
+      "note": "der Wert (value) + voll. Material and figurative: wertvolle Zeit, wertvolle Erfahrungen."
+    },
+    {
+      "word": "zahlreich",
+      "english": "numerous",
+      "comp": "zahlreicher",
+      "sup": "am zahlreichsten",
+      "antonym": "wenig",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 122,
+      "tags": [
+        "quantity",
+        "reading",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "_____ Besucher kamen zur Ausstellung.",
+          "en": "Numerous visitors came to the exhibition.",
+          "ans": "Zahlreiche",
+          "dist": [
+            "Wenige",
+            "Vereinzelte",
+            "Gelegentliche"
+          ]
+        },
+        {
+          "de": "Es gab _____ Beschwerden über den Lärm.",
+          "en": "There were numerous complaints about the noise.",
+          "ans": "zahlreiche",
+          "dist": [
+            "wenige",
+            "vereinzelte",
+            "gelegentliche"
+          ]
+        }
+      ],
+      "tdist": [
+        "few",
+        "countable",
+        "occasional"
+      ],
+      "gdist": [
+        "wenige",
+        "vereinzelte",
+        "gelegentliche"
+      ],
+      "note": "die Zahl (number) + -reich (rich in). Written register — in speech: viele. News staple: zahlreiche Menschen."
+    },
+    {
+      "word": "verwirrt",
+      "english": "confused",
+      "comp": "verwirrter",
+      "sup": "am verwirrtesten",
+      "antonym": "klar",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 123,
+      "tags": [
+        "emotions",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Nach der Erklärung war ich noch mehr _____.",
+          "en": "After the explanation I was even more confused."
+        },
+        {
+          "de": "Er sah mich _____ an.",
+          "en": "He looked at me, confused."
+        }
+      ],
+      "tdist": [
+        "clear-headed",
+        "annoyed",
+        "distracted"
+      ],
+      "gdist": [
+        "gelassen",
+        "verärgert",
+        "abgelenkt"
+      ],
+      "note": "From verwirren (to confuse). Related: die Verwirrung (confusion), verwirrend (confusing — for the thing that confuses)."
+    },
+    {
+      "word": "gespannt",
+      "english": "curious / eager (to see) / tense",
+      "comp": "gespannter",
+      "sup": "am gespanntesten",
+      "antonym": "gleichgültig",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 124,
+      "tags": [
+        "emotions",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Ich bin _____, wie der Film endet.",
+          "en": "I'm curious to see how the film ends."
+        },
+        {
+          "de": "Die Zuschauer warteten _____ auf das Ergebnis.",
+          "en": "The spectators waited eagerly for the result."
+        }
+      ],
+      "tdist": [
+        "indifferent",
+        "disappointed",
+        "relaxed"
+      ],
+      "gdist": [
+        "gleichgültig",
+        "enttäuscht",
+        "entspannt"
+      ],
+      "note": "Key pattern: gespannt sein auf + Akk = to be eager/curious about. Also literal: tense (eine gespannte Atmosphäre)."
+    },
+    {
+      "word": "unabhängig",
+      "english": "independent",
+      "comp": "unabhängiger",
+      "sup": "am unabhängigsten",
+      "antonym": "abhängig",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 125,
+      "tags": [
+        "society",
+        "abstract",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Sie ist finanziell _____ von ihren Eltern.",
+          "en": "She is financially independent of her parents."
+        },
+        {
+          "de": "Eine _____ Untersuchung soll den Fall klären.",
+          "en": "An independent investigation is to clarify the case.",
+          "ans": "unabhängige",
+          "dist": [
+            "abhängige",
+            "neutrale",
+            "getrennte"
+          ]
+        }
+      ],
+      "tdist": [
+        "dependent",
+        "neutral",
+        "separate"
+      ],
+      "gdist": [
+        "abhängig",
+        "neutral",
+        "getrennt"
+      ],
+      "note": "un- + abhängig (dependent). Pattern: unabhängig von + Dat. Also as connector: unabhängig davon, ob … = regardless of whether."
+    },
+    {
+      "word": "untröstlich",
+      "english": "inconsolable",
+      "comp": "",
+      "sup": "",
+      "antonym": "",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 126,
+      "tags": [
+        "emotions",
+        "reading",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Das Kind war _____, als der Luftballon platzte.",
+          "en": "The child was inconsolable when the balloon burst."
+        },
+        {
+          "de": "Nach dem Verlust ihres Hundes war sie _____.",
+          "en": "After losing her dog she was inconsolable."
+        }
+      ],
+      "tdist": [
+        "cheerful",
+        "hopeless",
+        "indifferent"
+      ],
+      "gdist": [
+        "fröhlich",
+        "hoffnungslos",
+        "gleichgültig"
+      ],
+      "note": "un- + trösten (to comfort) + -lich: 'not able to be comforted'. Polite apology register: Wir sind untröstlich! = We are terribly sorry!"
+    },
+    {
+      "word": "schlau",
+      "english": "clever / smart / cunning",
+      "comp": "schlauer",
+      "sup": "am schlausten",
+      "antonym": "dumm",
+      "cefr": "A2",
+      "unlock": 2,
+      "freq": 127,
+      "tags": [
+        "character",
+        "a2"
+      ],
+      "sent": [
+        {
+          "de": "Der Fuchs gilt als besonders _____.",
+          "en": "The fox is considered particularly cunning."
+        },
+        {
+          "de": "Das war eine _____ Idee!",
+          "en": "That was a clever idea!",
+          "ans": "schlaue",
+          "dist": [
+            "dumme",
+            "weise",
+            "fleißige"
+          ]
+        }
+      ],
+      "tdist": [
+        "stupid",
+        "wise (from experience)",
+        "hard-working"
+      ],
+      "gdist": [
+        "dumm",
+        "weise",
+        "fleißig"
+      ],
+      "note": "Colloquial partner of klug/intelligent, with a hint of cunning. Idiom: Ich werde daraus nicht schlau = I can't make sense of it."
+    },
+    {
+      "word": "wahr",
+      "english": "true",
+      "comp": "",
+      "sup": "",
+      "antonym": "falsch",
+      "cefr": "A2",
+      "unlock": 2,
+      "freq": 128,
+      "tags": [
+        "abstract",
+        "essential",
+        "a2"
+      ],
+      "sent": [
+        {
+          "de": "Die Geschichte ist wirklich _____.",
+          "en": "The story is really true."
+        },
+        {
+          "de": "Es ist _____, dass er umzieht.",
+          "en": "It is true that he is moving."
+        }
+      ],
+      "tdist": [
+        "false",
+        "real (existing)",
+        "honest"
+      ],
+      "gdist": [
+        "falsch",
+        "echt",
+        "ehrlich"
+      ],
+      "note": "Family: die Wahrheit (truth), wahrscheinlich (probable), wirklich (real). Tag question: …, nicht wahr? = …, right?"
+    },
+    {
+      "word": "heillos",
+      "english": "utter / hopeless (chaos, confusion)",
+      "comp": "",
+      "sup": "",
+      "antonym": "",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 129,
+      "tags": [
+        "reading",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Nach dem Umzug herrschte ein _____ Durcheinander.",
+          "en": "After the move there was utter chaos.",
+          "ans": "heilloses",
+          "dist": [
+            "leichtes",
+            "geordnetes",
+            "teilweises"
+          ]
+        },
+        {
+          "de": "Er war _____ überfordert mit der Situation.",
+          "en": "He was hopelessly overwhelmed by the situation."
+        }
+      ],
+      "tdist": [
+        "mild",
+        "organised",
+        "partial"
+      ],
+      "gdist": [
+        "leicht",
+        "geordnet",
+        "teilweise"
+      ],
+      "note": "das Heil (salvation) + -los. Intensifier for negative states: heilloses Chaos, heillos zerstritten (hopelessly divided)."
+    },
+    {
+      "word": "schillernd",
+      "english": "iridescent / dazzling / colourful (figurative)",
+      "comp": "schillernder",
+      "sup": "am schillerndsten",
+      "antonym": "farblos",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 130,
+      "tags": [
+        "reading",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Die Seifenblasen sind wunderschön _____.",
+          "en": "The soap bubbles are beautifully iridescent."
+        },
+        {
+          "de": "Er ist eine _____ Figur der Stadtgeschichte.",
+          "en": "He is a colourful figure in the city's history.",
+          "ans": "schillernde",
+          "dist": [
+            "farblose",
+            "durchsichtige",
+            "schüchterne"
+          ]
+        }
+      ],
+      "tdist": [
+        "colourless",
+        "transparent",
+        "shy"
+      ],
+      "gdist": [
+        "farblos",
+        "durchsichtig",
+        "schüchtern"
+      ],
+      "note": "From schillern (to shimmer in changing colours). Figurative: eine schillernde Persönlichkeit = a dazzling, ambiguous personality."
+    },
+    {
+      "word": "möglich",
+      "english": "possible",
+      "comp": "",
+      "sup": "",
+      "antonym": "unmöglich",
+      "cefr": "A2",
+      "unlock": 2,
+      "freq": 131,
+      "tags": [
+        "essential",
+        "a2"
+      ],
+      "sent": [
+        {
+          "de": "Ist es _____, den Termin zu verschieben?",
+          "en": "Is it possible to postpone the appointment?"
+        },
+        {
+          "de": "Wir kommen so schnell wie _____.",
+          "en": "We'll come as quickly as possible."
+        }
+      ],
+      "tdist": [
+        "impossible",
+        "necessary",
+        "likely"
+      ],
+      "gdist": [
+        "unmöglich",
+        "nötig",
+        "wahrscheinlich"
+      ],
+      "note": "Key patterns: so … wie möglich = as … as possible; möglichst viel/wenig/oft = as much/little/often as possible (see Ausdrücke)."
+    },
+    {
+      "word": "notwendig",
+      "english": "necessary",
+      "comp": "notwendiger",
+      "sup": "am notwendigsten",
+      "antonym": "überflüssig",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 132,
+      "tags": [
+        "abstract",
+        "essential",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Ein Visum ist für diese Reise _____.",
+          "en": "A visa is necessary for this trip."
+        },
+        {
+          "de": "Es ist _____, dass alle pünktlich kommen.",
+          "en": "It is necessary that everyone arrives on time."
+        }
+      ],
+      "tdist": [
+        "superfluous",
+        "useful",
+        "urgent"
+      ],
+      "gdist": [
+        "überflüssig",
+        "nützlich",
+        "dringend"
+      ],
+      "note": "die Not (need) + wendig. Synonym: nötig (more colloquial). Noun: die Notwendigkeit."
+    },
+    {
+      "word": "durchschnittlich",
+      "english": "average",
+      "comp": "",
+      "sup": "",
+      "antonym": "außergewöhnlich",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 133,
+      "tags": [
+        "numbers",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Ein Deutscher trinkt _____ 160 Liter Kaffee pro Jahr.",
+          "en": "A German drinks on average 160 litres of coffee per year."
+        },
+        {
+          "de": "Seine Noten sind nur _____.",
+          "en": "His grades are only average."
+        }
+      ],
+      "tdist": [
+        "exceptional",
+        "approximate",
+        "total"
+      ],
+      "gdist": [
+        "außergewöhnlich",
+        "ungefähr",
+        "gesamt"
+      ],
+      "note": "From der Durchschnitt (average). Adverbial use is extremely common in statistics: durchschnittlich X pro Jahr."
+    },
+    {
+      "word": "freiwillig",
+      "english": "voluntary / of one's own free will",
+      "comp": "",
+      "sup": "",
+      "antonym": "gezwungen",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 134,
+      "tags": [
+        "society",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Sie arbeitet _____ im Tierheim.",
+          "en": "She works voluntarily at the animal shelter."
+        },
+        {
+          "de": "Die Teilnahme am Kurs ist _____.",
+          "en": "Participation in the course is voluntary."
+        }
+      ],
+      "tdist": [
+        "forced",
+        "paid",
+        "spontaneous"
+      ],
+      "gdist": [
+        "gezwungen",
+        "bezahlt",
+        "spontan"
+      ],
+      "note": "frei + der Wille (will). Noun: die Freiwilligen (volunteers), das freiwillige soziale Jahr (FSJ)."
+    },
+    {
+      "word": "zufällig",
+      "english": "random / accidental / by chance",
+      "comp": "",
+      "sup": "",
+      "antonym": "absichtlich",
+      "cefr": "B1",
+      "unlock": 3,
+      "freq": 135,
+      "tags": [
+        "everyday",
+        "b1"
+      ],
+      "sent": [
+        {
+          "de": "Wir haben uns _____ im Supermarkt getroffen.",
+          "en": "We met by chance at the supermarket."
+        },
+        {
+          "de": "Weißt du _____, wie spät es ist?",
+          "en": "Do you happen to know what time it is?"
+        }
+      ],
+      "tdist": [
+        "intentional",
+        "frequent",
+        "fortunate"
+      ],
+      "gdist": [
+        "absichtlich",
+        "häufig",
+        "glücklich"
+      ],
+      "note": "From der Zufall (coincidence). Polite question softener: Weißt du zufällig …? = Do you happen to know …?"
+    },
+    {
+      "word": "zugrundeliegend",
+      "english": "underlying",
+      "comp": "",
+      "sup": "",
+      "antonym": "",
+      "cefr": "B2",
+      "unlock": 4,
+      "freq": 136,
+      "tags": [
+        "formal",
+        "reading",
+        "b2"
+      ],
+      "sent": [
+        {
+          "de": "Die _____ Ursache des Problems ist unklar.",
+          "en": "The underlying cause of the problem is unclear.",
+          "ans": "zugrundeliegende",
+          "dist": [
+            "oberflächliche",
+            "resultierende",
+            "offensichtliche"
+          ]
+        },
+        {
+          "de": "Der Studie liegen aktuelle Daten zugrunde — die _____ Methode ist solide.",
+          "en": "The study is based on current data — the underlying method is solid.",
+          "ans": "zugrundeliegende",
+          "dist": [
+            "oberflächliche",
+            "resultierende",
+            "offensichtliche"
+          ]
+        }
+      ],
+      "tdist": [
+        "superficial",
+        "resulting",
+        "obvious"
+      ],
+      "gdist": [
+        "oberflächlich",
+        "resultierend",
+        "offensichtlich"
+      ],
+      "note": "From zugrunde liegen + Dat (to underlie): 'Der Theorie liegt eine Annahme zugrunde.' Academic/report register. Also spelled 'zugrunde liegend'."
+    }
+  ]
+}

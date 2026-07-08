@@ -1,0 +1,293 @@
+[
+  {
+    "id": "adv_irgendwann",
+    "word": "irgendwann",
+    "english": "at some point / someday",
+    "category": "Indefinites",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Irgendwann möchte ich nach Japan reisen.",
+        "en": "Someday I want to travel to Japan.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "indefinite",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_mindestens",
+    "word": "mindestens",
+    "english": "at least",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Der Flug dauert mindestens acht Stunden.",
+        "en": "The flight takes at least eight hours.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "quantity",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_insgesamt",
+    "word": "insgesamt",
+    "english": "in total / altogether / overall",
+    "category": "Sentence Openers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Insgesamt haben sich 200 Personen angemeldet.",
+        "en": "In total, 200 people registered.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "quantity",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_gleichzeitig",
+    "word": "gleichzeitig",
+    "english": "at the same time / simultaneously",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ich kann nicht zwei Dinge gleichzeitig tun.",
+        "en": "I can't do two things at the same time.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_beinahe",
+    "word": "beinahe",
+    "english": "almost / nearly",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ich hätte beinahe meinen Schlüssel vergessen.",
+        "en": "I almost forgot my key.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "degree",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_lediglich",
+    "word": "lediglich",
+    "english": "merely / only",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Es war lediglich ein Missverständnis.",
+        "en": "It was merely a misunderstanding.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "focus",
+      "formal",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_erneut",
+    "word": "erneut",
+    "english": "again / once more (formal)",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Der Versuch ist erneut gescheitert.",
+        "en": "The attempt failed once again.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "frequency_time",
+      "formal",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_vorwärts",
+    "word": "vorwärts",
+    "english": "forward / ahead",
+    "category": "Place & Direction",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Im Stau kommen wir nur langsam vorwärts.",
+        "en": "In the traffic jam we only move forward slowly.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "direction",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_vergleichsweise",
+    "word": "vergleichsweise",
+    "english": "comparatively / relatively",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Der Winter war vergleichsweise mild.",
+        "en": "The winter was comparatively mild.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "degree",
+      "formal",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_irgendetwas",
+    "word": "irgendetwas",
+    "english": "something / anything (indefinite)",
+    "category": "Indefinites",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Irgendetwas stimmt hier nicht.",
+        "en": "Something is not right here.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "indefinite",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_entweder",
+    "word": "entweder",
+    "english": "either (… or)",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Entweder kommst du jetzt mit, oder du bleibst hier.",
+        "en": "Either you come along now, or you stay here.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connector",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_sondern",
+    "word": "sondern",
+    "english": "but (rather) — after a negation",
+    "category": "Contrast",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Er ist nicht nur klug, sondern auch fleißig.",
+        "en": "He is not only clever but also hard-working.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connector",
+      "a2"
+    ]
+  }
+]

@@ -1,0 +1,2578 @@
+[
+  {
+    "id": "verb_verbinden",
+    "root": "verbinden",
+    "english": "to connect / to combine",
+    "type": "strong",
+    "frequency_rank": 101,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "verbinde",
+        "du": "verbindest",
+        "er_sie_es": "verbindet",
+        "wir": "verbinden",
+        "ihr": "verbindet",
+        "sie_Sie": "verbinden"
+      },
+      "past_participle": "verbunden",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich verbinde die beiden Kabel.",
+        "en": "I connect the two cables.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Die Brücke verbindet die zwei Stadtteile.",
+        "en": "The bridge connects the two districts.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "verbinden takes a direct object in the accusative: 'Ich verbinde die Kabel.' Use 'mit' + Dativ for 'connect with': 'Ich verbinde den Drucker mit dem Computer.'",
+      "dual_case": false
+    },
+    "tags": [
+      "technology",
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_gefallen",
+    "root": "gefallen",
+    "english": "to please / to be pleasing to",
+    "type": "strong",
+    "frequency_rank": 102,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "gefalle",
+        "du": "gefällst",
+        "er_sie_es": "gefällt",
+        "wir": "gefallen",
+        "ihr": "gefallt",
+        "sie_Sie": "gefallen"
+      },
+      "past_participle": "gefallen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Das Buch gefällt mir sehr gut.",
+        "en": "I like the book a lot (the book pleases me).",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Die neuen Möbel gefallen meiner Mutter.",
+        "en": "My mother likes the new furniture.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "dative"
+      ],
+      "notes_en": "gefallen takes the dative for the person: 'Das Buch gefällt MIR.' The thing that pleases is the grammatical subject — the opposite of English 'I like the book'.",
+      "dual_case": false
+    },
+    "tags": [
+      "opinion",
+      "essential",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_mischen",
+    "root": "mischen",
+    "english": "to mix",
+    "type": "weak",
+    "frequency_rank": 103,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "mische",
+        "du": "mischst",
+        "er_sie_es": "mischt",
+        "wir": "mischen",
+        "ihr": "mischt",
+        "sie_Sie": "mischen"
+      },
+      "past_participle": "gemischt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_vermischen",
+        "prefix": "ver",
+        "word": "vermischen",
+        "english": "to blend / to mix together",
+        "separable": false,
+        "notes": "Inseparable prefix: Ich vermische die Farben. Often figurative: Begriffe/Themen vermischen."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich mische Mehl und Zucker in einer Schüssel.",
+        "en": "I mix flour and sugar in a bowl.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Der Barkeeper mischt die Cocktails.",
+        "en": "The bartender mixes the cocktails.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "mischen takes an accusative object: 'Ich mische die Zutaten.'",
+      "dual_case": false
+    },
+    "tags": [
+      "everyday",
+      "cooking",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_verhandeln",
+    "root": "verhandeln",
+    "english": "to negotiate",
+    "type": "weak",
+    "frequency_rank": 104,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "verhandle",
+        "du": "verhandelst",
+        "er_sie_es": "verhandelt",
+        "wir": "verhandeln",
+        "ihr": "verhandelt",
+        "sie_Sie": "verhandeln"
+      },
+      "past_participle": "verhandelt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich verhandle mit dem Verkäufer über den Preis.",
+        "en": "I negotiate the price with the seller.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Die Gewerkschaft verhandelt über höhere Löhne.",
+        "en": "The union is negotiating higher wages.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [],
+      "notes_en": "verhandeln is used with 'mit' + Dativ (partner) and 'über' + Akkusativ (topic): 'Wir verhandeln mit der Firma über den Vertrag.'",
+      "dual_case": false
+    },
+    "tags": [
+      "business",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_entwickeln",
+    "root": "entwickeln",
+    "english": "to develop",
+    "type": "weak",
+    "frequency_rank": 105,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "entwickle",
+        "du": "entwickelst",
+        "er_sie_es": "entwickelt",
+        "wir": "entwickeln",
+        "ihr": "entwickelt",
+        "sie_Sie": "entwickeln"
+      },
+      "past_participle": "entwickelt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich entwickle eine neue App.",
+        "en": "I am developing a new app.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Die Firma entwickelt umweltfreundliche Produkte.",
+        "en": "The company develops eco-friendly products.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "entwickeln takes an accusative object. Reflexive 'sich entwickeln' = to develop/evolve (by itself): 'Die Stadt entwickelt sich schnell.'",
+      "dual_case": false
+    },
+    "tags": [
+      "technology",
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_erledigen",
+    "root": "erledigen",
+    "english": "to take care of / to get done",
+    "type": "weak",
+    "frequency_rank": 106,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "erledige",
+        "du": "erledigst",
+        "er_sie_es": "erledigt",
+        "wir": "erledigen",
+        "ihr": "erledigt",
+        "sie_Sie": "erledigen"
+      },
+      "past_participle": "erledigt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich erledige heute noch die Einkäufe.",
+        "en": "I'll take care of the shopping today.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Meine Kollegin erledigt das sofort.",
+        "en": "My colleague takes care of that immediately.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "erledigen takes an accusative object: 'Ich erledige die Aufgabe.' Very common for chores, errands and tasks.",
+      "dual_case": false
+    },
+    "tags": [
+      "everyday",
+      "work",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_streben",
+    "root": "streben",
+    "english": "to strive (nach = for)",
+    "type": "weak",
+    "frequency_rank": 107,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "strebe",
+        "du": "strebst",
+        "er_sie_es": "strebt",
+        "wir": "streben",
+        "ihr": "strebt",
+        "sie_Sie": "streben"
+      },
+      "past_participle": "gestrebt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich strebe nach einem besseren Leben.",
+        "en": "I strive for a better life.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Er strebt nach Perfektion.",
+        "en": "He strives for perfection.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "dative"
+      ],
+      "notes_en": "streben is used with 'nach' + Dativ: 'Er strebt nach Erfolg.' The dative comes from the preposition nach.",
+      "dual_case": false
+    },
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_widmen",
+    "root": "widmen",
+    "english": "to dedicate / to devote",
+    "type": "weak",
+    "frequency_rank": 108,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "widme",
+        "du": "widmest",
+        "er_sie_es": "widmet",
+        "wir": "widmen",
+        "ihr": "widmet",
+        "sie_Sie": "widmen"
+      },
+      "past_participle": "gewidmet",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich widme mich am Wochenende meiner Familie.",
+        "en": "On weekends I devote myself to my family.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Der Autor widmet das Buch seiner Frau.",
+        "en": "The author dedicates the book to his wife.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative",
+        "dative"
+      ],
+      "notes_en": "widmen takes accusative (the thing) + dative (the receiver): 'Er widmet ihr (Dat) das Buch (Akk).' Reflexive 'sich widmen' + Dativ = to devote oneself to something.",
+      "dual_case": false
+    },
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_prägen",
+    "root": "prägen",
+    "english": "to shape / to characterize / to coin (a term)",
+    "type": "weak",
+    "frequency_rank": 109,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "präge",
+        "du": "prägst",
+        "er_sie_es": "prägt",
+        "wir": "prägen",
+        "ihr": "prägt",
+        "sie_Sie": "prägen"
+      },
+      "past_participle": "geprägt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Die Kindheit prägt unseren Charakter.",
+        "en": "Childhood shapes our character.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Diese Erfahrungen prägen mich bis heute.",
+        "en": "These experiences shape me to this day.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "prägen takes an accusative object: 'Der Krieg prägte eine ganze Generation.' Also: einen Begriff prägen = to coin a term.",
+      "dual_case": false
+    },
+    "tags": [
+      "abstract",
+      "reading",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_veröffentlichen",
+    "root": "veröffentlichen",
+    "english": "to publish",
+    "type": "weak",
+    "frequency_rank": 110,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "veröffentliche",
+        "du": "veröffentlichst",
+        "er_sie_es": "veröffentlicht",
+        "wir": "veröffentlichen",
+        "ihr": "veröffentlicht",
+        "sie_Sie": "veröffentlichen"
+      },
+      "past_participle": "veröffentlicht",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich veröffentliche meine Fotos im Internet.",
+        "en": "I publish my photos on the internet.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Der Verlag veröffentlicht zehn neue Bücher pro Jahr.",
+        "en": "The publisher publishes ten new books per year.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "veröffentlichen takes an accusative object: 'Sie veröffentlicht einen Roman.' Passive is very common: 'Das Buch wird veröffentlicht.'",
+      "dual_case": false
+    },
+    "tags": [
+      "media",
+      "reading",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_kehren",
+    "root": "kehren",
+    "english": "to sweep / to turn",
+    "type": "weak",
+    "frequency_rank": 111,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "kehre",
+        "du": "kehrst",
+        "er_sie_es": "kehrt",
+        "wir": "kehren",
+        "ihr": "kehrt",
+        "sie_Sie": "kehren"
+      },
+      "past_participle": "gekehrt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_zurückkehren",
+        "prefix": "zurück",
+        "word": "zurückkehren",
+        "english": "to return / to come back",
+        "separable": true,
+        "notes": "Separable: Ich kehre morgen zurück. Uses 'sein' in the Perfekt: Ich bin zurückgekehrt."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich kehre jeden Samstag den Hof.",
+        "en": "I sweep the yard every Saturday.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Er kehrt die Blätter von der Terrasse.",
+        "en": "He sweeps the leaves off the terrace.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "kehren (to sweep) takes an accusative object. In its 'turn' sense it appears mostly in fixed phrases and in the separable verb zurückkehren (to return).",
+      "dual_case": false
+    },
+    "tags": [
+      "everyday",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_beitragen",
+    "root": "beitragen",
+    "english": "to contribute (zu = to)",
+    "type": "strong",
+    "frequency_rank": 112,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "trage",
+        "du": "trägst",
+        "er_sie_es": "trägt",
+        "wir": "tragen",
+        "ihr": "tragt",
+        "sie_Sie": "tragen"
+      },
+      "past_participle": "beigetragen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich trage gern zum Erfolg des Projekts bei.",
+        "en": "I gladly contribute to the project's success.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Jeder kann etwas zum Umweltschutz beitragen.",
+        "en": "Everyone can contribute something to environmental protection.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "dative"
+      ],
+      "notes_en": "beitragen is used with 'zu' + Dativ: 'Das trägt zur Lösung bei.' The dative comes from the preposition zu.",
+      "dual_case": false
+    },
+    "tags": [
+      "abstract",
+      "b2"
+    ],
+    "separable_root": true,
+    "prefix": "bei"
+  },
+  {
+    "id": "verb_streiten",
+    "root": "streiten",
+    "english": "to argue / to quarrel",
+    "type": "strong",
+    "frequency_rank": 113,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "streite",
+        "du": "streitest",
+        "er_sie_es": "streitet",
+        "wir": "streiten",
+        "ihr": "streitet",
+        "sie_Sie": "streiten"
+      },
+      "past_participle": "gestritten",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich streite oft mit meinem Bruder.",
+        "en": "I often argue with my brother.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Die Nachbarn streiten über den Zaun.",
+        "en": "The neighbours argue about the fence.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [],
+      "notes_en": "streiten is usually reflexive: 'Wir streiten uns.' Partner with 'mit' + Dativ, topic with 'über' + Akkusativ.",
+      "dual_case": false
+    },
+    "tags": [
+      "social",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_reichen",
+    "root": "reichen",
+    "english": "to be enough / to hand (something to someone)",
+    "type": "weak",
+    "frequency_rank": 114,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "reiche",
+        "du": "reichst",
+        "er_sie_es": "reicht",
+        "wir": "reichen",
+        "ihr": "reicht",
+        "sie_Sie": "reichen"
+      },
+      "past_participle": "gereicht",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Das Geld reicht nicht für den Urlaub.",
+        "en": "The money is not enough for the holiday.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Ich reiche dir das Salz.",
+        "en": "I hand you the salt.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "dative"
+      ],
+      "notes_en": "In the sense 'to be enough', the person is in the dative: 'Das reicht mir.' In the sense 'to hand', it takes dative + accusative: 'Ich reiche dir (Dat) das Buch (Akk).'",
+      "dual_case": false
+    },
+    "tags": [
+      "everyday",
+      "essential",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_riechen",
+    "root": "riechen",
+    "english": "to smell",
+    "type": "strong",
+    "frequency_rank": 115,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "rieche",
+        "du": "riechst",
+        "er_sie_es": "riecht",
+        "wir": "riechen",
+        "ihr": "riecht",
+        "sie_Sie": "riechen"
+      },
+      "past_participle": "gerochen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich rieche frischen Kaffee.",
+        "en": "I smell fresh coffee.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Das Essen riecht sehr gut.",
+        "en": "The food smells very good.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "riechen can take an accusative object ('Ich rieche Rauch') or stand alone with 'nach' + Dativ: 'Es riecht nach Kaffee.'",
+      "dual_case": false
+    },
+    "tags": [
+      "senses",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_einwandern",
+    "root": "einwandern",
+    "english": "to immigrate",
+    "type": "weak",
+    "frequency_rank": 116,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "wandere",
+        "du": "wanderst",
+        "er_sie_es": "wandert",
+        "wir": "wandern",
+        "ihr": "wandert",
+        "sie_Sie": "wandern"
+      },
+      "past_participle": "eingewandert",
+      "auxiliary": "sein"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Viele Familien wandern jedes Jahr nach Kanada ein.",
+        "en": "Many families immigrate to Canada every year.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Er wandert nächstes Jahr nach Australien ein.",
+        "en": "He is immigrating to Australia next year.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [],
+      "notes_en": "einwandern is intransitive and uses 'sein' in the Perfekt: 'Sie ist nach Deutschland eingewandert.' Related noun: die Einwanderung.",
+      "dual_case": false
+    },
+    "tags": [
+      "society",
+      "b1"
+    ],
+    "separable_root": true,
+    "prefix": "ein"
+  },
+  {
+    "id": "verb_ausdrücken",
+    "root": "ausdrücken",
+    "english": "to express",
+    "type": "weak",
+    "frequency_rank": 117,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "drücke",
+        "du": "drückst",
+        "er_sie_es": "drückt",
+        "wir": "drücken",
+        "ihr": "drückt",
+        "sie_Sie": "drücken"
+      },
+      "past_participle": "ausgedrückt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich drücke meine Meinung immer klar aus.",
+        "en": "I always express my opinion clearly.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Man kann Dankbarkeit auch ohne Worte ausdrücken.",
+        "en": "One can express gratitude without words too.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "ausdrücken takes an accusative object: 'Gefühle ausdrücken.' Reflexive 'sich ausdrücken' = to express oneself: 'Er drückt sich gut aus.'",
+      "dual_case": false
+    },
+    "tags": [
+      "communication",
+      "b1"
+    ],
+    "separable_root": true,
+    "prefix": "aus"
+  },
+  {
+    "id": "verb_verursachen",
+    "root": "verursachen",
+    "english": "to cause",
+    "type": "weak",
+    "frequency_rank": 118,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "verursache",
+        "du": "verursachst",
+        "er_sie_es": "verursacht",
+        "wir": "verursachen",
+        "ihr": "verursacht",
+        "sie_Sie": "verursachen"
+      },
+      "past_participle": "verursacht",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Der Sturm verursacht große Schäden.",
+        "en": "The storm causes great damage.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Ich möchte keine Probleme verursachen.",
+        "en": "I don't want to cause any problems.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "verursachen takes an accusative object: 'Der Unfall verursachte einen Stau.' Related noun: die Ursache (cause).",
+      "dual_case": false
+    },
+    "tags": [
+      "abstract",
+      "news",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_entfallen",
+    "root": "entfallen",
+    "english": "to be cancelled / to slip one's mind / to be allotted to (auf)",
+    "type": "strong",
+    "frequency_rank": 119,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "entfalle",
+        "du": "entfällst",
+        "er_sie_es": "entfällt",
+        "wir": "entfallen",
+        "ihr": "entfallt",
+        "sie_Sie": "entfallen"
+      },
+      "past_participle": "entfallen",
+      "auxiliary": "sein"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Der Kurs entfällt heute wegen Krankheit.",
+        "en": "The course is cancelled today due to illness.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Leider entfallen die letzten zwei Vorlesungen.",
+        "en": "Unfortunately, the last two lectures are cancelled.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "dative"
+      ],
+      "notes_en": "In the sense 'to slip one's mind', the person is dative: 'Der Name ist MIR entfallen.' Uses 'sein' in the Perfekt.",
+      "dual_case": false
+    },
+    "tags": [
+      "formal",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_erläutern",
+    "root": "erläutern",
+    "english": "to explain in detail / to elaborate on",
+    "type": "weak",
+    "frequency_rank": 120,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "erläutere",
+        "du": "erläuterst",
+        "er_sie_es": "erläutert",
+        "wir": "erläutern",
+        "ihr": "erläutert",
+        "sie_Sie": "erläutern"
+      },
+      "past_participle": "erläutert",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich erläutere Ihnen gern die Einzelheiten.",
+        "en": "I'll gladly explain the details to you.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Der Professor erläutert die Theorie an einem Beispiel.",
+        "en": "The professor explains the theory using an example.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative",
+        "dative"
+      ],
+      "notes_en": "erläutern takes accusative (the thing) and optionally dative (the person): 'Er erläutert uns (Dat) den Plan (Akk).' Stronger than erklären: implies detail and examples.",
+      "dual_case": false
+    },
+    "tags": [
+      "formal",
+      "reading",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_ausrufen",
+    "root": "ausrufen",
+    "english": "to exclaim / to proclaim",
+    "type": "strong",
+    "frequency_rank": 121,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "rufe",
+        "du": "rufst",
+        "er_sie_es": "ruft",
+        "wir": "rufen",
+        "ihr": "ruft",
+        "sie_Sie": "rufen"
+      },
+      "past_participle": "ausgerufen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "„Endlich!“, ruft sie begeistert aus.",
+        "en": "\"Finally!\", she exclaims excitedly.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Die Regierung will den Notstand ausrufen.",
+        "en": "The government wants to declare a state of emergency.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "ausrufen takes an accusative object: 'den Notstand ausrufen', 'einen Namen ausrufen'. Very common in written narration for exclamations.",
+      "dual_case": false
+    },
+    "tags": [
+      "reading",
+      "formal",
+      "b2"
+    ],
+    "separable_root": true,
+    "prefix": "aus"
+  },
+  {
+    "id": "verb_entsorgen",
+    "root": "entsorgen",
+    "english": "to dispose of",
+    "type": "weak",
+    "frequency_rank": 122,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "entsorge",
+        "du": "entsorgst",
+        "er_sie_es": "entsorgt",
+        "wir": "entsorgen",
+        "ihr": "entsorgt",
+        "sie_Sie": "entsorgen"
+      },
+      "past_participle": "entsorgt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich entsorge den alten Kühlschrank fachgerecht.",
+        "en": "I dispose of the old fridge properly.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Wie entsorgt man Batterien richtig?",
+        "en": "How does one dispose of batteries correctly?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "entsorgen takes an accusative object: 'Müll entsorgen.' Related noun: die Entsorgung (waste disposal).",
+      "dual_case": false
+    },
+    "tags": [
+      "environment",
+      "everyday",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_schmeißen",
+    "root": "schmeißen",
+    "english": "to chuck / to throw (colloquial)",
+    "type": "strong",
+    "frequency_rank": 123,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "schmeiße",
+        "du": "schmeißt",
+        "er_sie_es": "schmeißt",
+        "wir": "schmeißen",
+        "ihr": "schmeißt",
+        "sie_Sie": "schmeißen"
+      },
+      "past_participle": "geschmissen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich schmeiße die alten Zeitungen in den Container.",
+        "en": "I chuck the old newspapers into the container.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Er schmeißt seine Jacke aufs Sofa.",
+        "en": "He chucks his jacket onto the sofa.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "schmeißen takes an accusative object. Colloquial register — in formal writing use werfen. Also: eine Party schmeißen (to throw a party).",
+      "dual_case": false
+    },
+    "tags": [
+      "colloquial",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_werfen",
+    "root": "werfen",
+    "english": "to throw",
+    "type": "strong",
+    "frequency_rank": 124,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "werfe",
+        "du": "wirfst",
+        "er_sie_es": "wirft",
+        "wir": "werfen",
+        "ihr": "werft",
+        "sie_Sie": "werfen"
+      },
+      "past_participle": "geworfen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [
+      {
+        "id": "verb_abwerfen",
+        "prefix": "ab",
+        "word": "abwerfen",
+        "english": "to drop / to throw off / to yield (profit)",
+        "separable": true,
+        "notes": "Separable: Das Flugzeug wirft die Ladung ab. Figurative: Gewinn abwerfen = to yield a profit."
+      },
+      {
+        "id": "verb_wegwerfen",
+        "prefix": "weg",
+        "word": "wegwerfen",
+        "english": "to throw away",
+        "separable": true,
+        "notes": "Separable: Ich werfe es weg. Key vocabulary in texts about waste (Lebensmittelverschwendung)."
+      }
+    ],
+    "example_sentences": [
+      {
+        "de": "Ich werfe den Ball zu dir.",
+        "en": "I throw the ball to you.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Der Junge wirft Steine ins Wasser.",
+        "en": "The boy throws stones into the water.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "werfen takes an accusative object: 'Ich werfe den Ball.' Vowel change e→i in du/er forms.",
+      "dual_case": false
+    },
+    "tags": [
+      "everyday",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_verschwenden",
+    "root": "verschwenden",
+    "english": "to waste",
+    "type": "weak",
+    "frequency_rank": 125,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "verschwende",
+        "du": "verschwendest",
+        "er_sie_es": "verschwendet",
+        "wir": "verschwenden",
+        "ihr": "verschwendet",
+        "sie_Sie": "verschwenden"
+      },
+      "past_participle": "verschwendet",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich verschwende zu viel Zeit mit dem Handy.",
+        "en": "I waste too much time on my phone.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Wir verschwenden jeden Tag Wasser und Energie.",
+        "en": "We waste water and energy every day.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "verschwenden takes an accusative object: 'Zeit/Geld/Energie verschwenden.' Related noun: die Verschwendung (waste).",
+      "dual_case": false
+    },
+    "tags": [
+      "environment",
+      "abstract",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_beherrschen",
+    "root": "beherrschen",
+    "english": "to master / to have command of / to control",
+    "type": "weak",
+    "frequency_rank": 126,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "beherrsche",
+        "du": "beherrschst",
+        "er_sie_es": "beherrscht",
+        "wir": "beherrschen",
+        "ihr": "beherrscht",
+        "sie_Sie": "beherrschen"
+      },
+      "past_participle": "beherrscht",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich beherrsche drei Fremdsprachen.",
+        "en": "I have command of three foreign languages.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Sie beherrscht ihr Handwerk perfekt.",
+        "en": "She masters her craft perfectly.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "beherrschen takes an accusative object: 'eine Sprache beherrschen.' Reflexive 'sich beherrschen' = to control oneself.",
+      "dual_case": false
+    },
+    "tags": [
+      "learning",
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_verdrängen",
+    "root": "verdrängen",
+    "english": "to repress / to displace / to push out",
+    "type": "weak",
+    "frequency_rank": 127,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "verdränge",
+        "du": "verdrängst",
+        "er_sie_es": "verdrängt",
+        "wir": "verdrängen",
+        "ihr": "verdrängt",
+        "sie_Sie": "verdrängen"
+      },
+      "past_participle": "verdrängt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich verdränge das Problem schon seit Monaten.",
+        "en": "I have been repressing the problem for months.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Große Ketten verdrängen die kleinen Läden.",
+        "en": "Big chains are displacing the small shops.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "verdrängen takes an accusative object: 'ein Problem verdrängen' (psychology), 'Konkurrenten verdrängen' (economics).",
+      "dual_case": false
+    },
+    "tags": [
+      "abstract",
+      "psychology",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_abbrechen",
+    "root": "abbrechen",
+    "english": "to break off / to cancel / to drop out",
+    "type": "strong",
+    "frequency_rank": 128,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "breche",
+        "du": "brichst",
+        "er_sie_es": "bricht",
+        "wir": "brechen",
+        "ihr": "brecht",
+        "sie_Sie": "brechen"
+      },
+      "past_participle": "abgebrochen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich breche das Studium nicht ab.",
+        "en": "I am not dropping out of my studies.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Sie bricht das Gespräch plötzlich ab.",
+        "en": "She breaks off the conversation suddenly.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "abbrechen takes an accusative object: 'das Studium abbrechen.' Intransitive use ('Die Verbindung ist abgebrochen') takes sein in the Perfekt.",
+      "dual_case": false
+    },
+    "tags": [
+      "everyday",
+      "b1"
+    ],
+    "separable_root": true,
+    "prefix": "ab"
+  },
+  {
+    "id": "verb_auswiegen",
+    "root": "auswiegen",
+    "english": "to weigh out",
+    "type": "strong",
+    "frequency_rank": 129,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "wiege",
+        "du": "wiegst",
+        "er_sie_es": "wiegt",
+        "wir": "wiegen",
+        "ihr": "wiegt",
+        "sie_Sie": "wiegen"
+      },
+      "past_participle": "ausgewogen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Der Händler wiegt die Ware genau aus.",
+        "en": "The merchant weighs out the goods precisely.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Ich wiege das Mehl für den Teig aus.",
+        "en": "I weigh out the flour for the dough.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "auswiegen takes an accusative object: 'die Ware auswiegen.' Note the adjective ausgewogen = balanced (eine ausgewogene Ernährung).",
+      "dual_case": false
+    },
+    "tags": [
+      "everyday",
+      "b2"
+    ],
+    "separable_root": true,
+    "prefix": "aus"
+  },
+  {
+    "id": "verb_röntgen",
+    "root": "röntgen",
+    "english": "to X-ray",
+    "type": "weak",
+    "frequency_rank": 130,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "röntge",
+        "du": "röntgst",
+        "er_sie_es": "röntgt",
+        "wir": "röntgen",
+        "ihr": "röntgt",
+        "sie_Sie": "röntgen"
+      },
+      "past_participle": "geröntgt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Der Arzt röntgt meine Hand.",
+        "en": "The doctor X-rays my hand.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Wir röntgen zuerst den Fuß.",
+        "en": "We X-ray the foot first.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "röntgen takes an accusative object: 'den Arm röntgen.' Partizip II: geröntgt.",
+      "dual_case": false
+    },
+    "tags": [
+      "health",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_kriechen",
+    "root": "kriechen",
+    "english": "to crawl / to creep",
+    "type": "strong",
+    "frequency_rank": 131,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "krieche",
+        "du": "kriechst",
+        "er_sie_es": "kriecht",
+        "wir": "kriechen",
+        "ihr": "kriecht",
+        "sie_Sie": "kriechen"
+      },
+      "past_participle": "gekrochen",
+      "auxiliary": "sein"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Das Baby kriecht durch das Wohnzimmer.",
+        "en": "The baby crawls through the living room.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Die Autos kriechen im Stau nur langsam vorwärts.",
+        "en": "The cars only creep forward slowly in the traffic jam.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [],
+      "notes_en": "kriechen is intransitive and uses 'sein' in the Perfekt (motion): 'Das Kind ist unter den Tisch gekrochen.'",
+      "dual_case": false
+    },
+    "tags": [
+      "movement",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_stoßen",
+    "root": "stoßen",
+    "english": "to push / to bump / (auf etwas) to come across",
+    "type": "strong",
+    "frequency_rank": 132,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "stoße",
+        "du": "stößt",
+        "er_sie_es": "stößt",
+        "wir": "stoßen",
+        "ihr": "stoßt",
+        "sie_Sie": "stoßen"
+      },
+      "past_participle": "gestoßen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich stoße mich immer an dieser Ecke.",
+        "en": "I always bump myself on this corner.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Sie stößt beim Aufräumen auf alte Fotos.",
+        "en": "While tidying up, she comes across old photos.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "stoßen (to push/bump) takes accusative and 'haben'. The very common idiom 'auf etwas (Akk) stoßen' = to come across something takes 'sein': 'Ich bin auf einen Artikel gestoßen.'",
+      "dual_case": false
+    },
+    "tags": [
+      "movement",
+      "reading",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_aussteigen",
+    "root": "aussteigen",
+    "english": "to get off / to get out / to opt out",
+    "type": "strong",
+    "frequency_rank": 133,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "steige",
+        "du": "steigst",
+        "er_sie_es": "steigt",
+        "wir": "steigen",
+        "ihr": "steigt",
+        "sie_Sie": "steigen"
+      },
+      "past_participle": "ausgestiegen",
+      "auxiliary": "sein"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich steige an der nächsten Haltestelle aus.",
+        "en": "I get off at the next stop.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Wir steigen am Hauptbahnhof aus.",
+        "en": "We get off at the main station.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [],
+      "notes_en": "aussteigen is intransitive, uses 'sein' in the Perfekt: 'Er ist am Bahnhof ausgestiegen.' From: aus + Dativ ('aus dem Bus aussteigen').",
+      "dual_case": false
+    },
+    "tags": [
+      "travel",
+      "essential",
+      "a2"
+    ],
+    "separable_root": true,
+    "prefix": "aus"
+  },
+  {
+    "id": "verb_beklagen",
+    "root": "beklagen",
+    "english": "to lament / (sich) to complain about",
+    "type": "weak",
+    "frequency_rank": 134,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "beklage",
+        "du": "beklagst",
+        "er_sie_es": "beklagt",
+        "wir": "beklagen",
+        "ihr": "beklagt",
+        "sie_Sie": "beklagen"
+      },
+      "past_participle": "beklagt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich kann mich über die Arbeit nicht beklagen.",
+        "en": "I can't complain about the work.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Die Anwohner beklagen sich über den Lärm.",
+        "en": "The residents complain about the noise.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "beklagen takes an accusative object in the 'lament' sense. Reflexive: 'sich beklagen über' + Akkusativ = to complain about. More formal than 'sich beschweren'.",
+      "dual_case": false
+    },
+    "tags": [
+      "formal",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_mitteilen",
+    "root": "mitteilen",
+    "english": "to inform / to notify",
+    "type": "weak",
+    "frequency_rank": 135,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "teile",
+        "du": "teilst",
+        "er_sie_es": "teilt",
+        "wir": "teilen",
+        "ihr": "teilt",
+        "sie_Sie": "teilen"
+      },
+      "past_participle": "mitgeteilt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich teile dir das Ergebnis morgen mit.",
+        "en": "I will inform you of the result tomorrow.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Die Schule teilt den Eltern den Termin mit.",
+        "en": "The school notifies the parents of the date.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative",
+        "dative"
+      ],
+      "notes_en": "mitteilen takes dative (person) + accusative (information): 'Ich teile dir (Dat) die Neuigkeit (Akk) mit.' Related noun: die Mitteilung (notification).",
+      "dual_case": false
+    },
+    "tags": [
+      "communication",
+      "formal",
+      "b1"
+    ],
+    "separable_root": true,
+    "prefix": "mit"
+  },
+  {
+    "id": "verb_umdrehen",
+    "root": "umdrehen",
+    "english": "to turn around / to turn over",
+    "type": "weak",
+    "frequency_rank": 136,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "drehe",
+        "du": "drehst",
+        "er_sie_es": "dreht",
+        "wir": "drehen",
+        "ihr": "dreht",
+        "sie_Sie": "drehen"
+      },
+      "past_participle": "umgedreht",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich drehe mich noch einmal um.",
+        "en": "I turn around one more time.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Er dreht den Schlüssel im Schloss um.",
+        "en": "He turns the key in the lock.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "umdrehen takes an accusative object: 'das Blatt umdrehen.' Reflexive: 'Ich drehe mich um' = I turn around.",
+      "dual_case": false
+    },
+    "tags": [
+      "movement",
+      "everyday",
+      "b1"
+    ],
+    "separable_root": true,
+    "prefix": "um"
+  },
+  {
+    "id": "verb_überqueren",
+    "root": "überqueren",
+    "english": "to cross (a street, a river)",
+    "type": "weak",
+    "frequency_rank": 137,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "überquere",
+        "du": "überquerst",
+        "er_sie_es": "überquert",
+        "wir": "überqueren",
+        "ihr": "überquert",
+        "sie_Sie": "überqueren"
+      },
+      "past_participle": "überquert",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich überquere die Straße nur bei Grün.",
+        "en": "I only cross the street when the light is green.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Das Schiff überquert den Atlantik in sieben Tagen.",
+        "en": "The ship crosses the Atlantic in seven days.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "überqueren takes an accusative object: 'die Straße überqueren.' Inseparable — Partizip II without ge-: überquert.",
+      "dual_case": false
+    },
+    "tags": [
+      "movement",
+      "everyday",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_sperren",
+    "root": "sperren",
+    "english": "to block / to close off / to lock",
+    "type": "weak",
+    "frequency_rank": 138,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "sperre",
+        "du": "sperrst",
+        "er_sie_es": "sperrt",
+        "wir": "sperren",
+        "ihr": "sperrt",
+        "sie_Sie": "sperren"
+      },
+      "past_participle": "gesperrt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Die Polizei sperrt die Straße.",
+        "en": "The police close off the street.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Ich sperre die Kreditkarte sofort.",
+        "en": "I block the credit card immediately.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "sperren takes an accusative object: 'eine Straße sperren', 'ein Konto sperren.' The Partizip 'gesperrt' is everywhere on signs and in traffic news.",
+      "dual_case": false
+    },
+    "tags": [
+      "news",
+      "everyday",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_spüren",
+    "root": "spüren",
+    "english": "to feel / to sense",
+    "type": "weak",
+    "frequency_rank": 139,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "spüre",
+        "du": "spürst",
+        "er_sie_es": "spürt",
+        "wir": "spüren",
+        "ihr": "spürt",
+        "sie_Sie": "spüren"
+      },
+      "past_participle": "gespürt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich spüre die Kälte an den Händen.",
+        "en": "I feel the cold on my hands.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Spürst du den Wind?",
+        "en": "Do you feel the wind?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "spüren takes an accusative object: 'Schmerz spüren.' Compared to fühlen it leans towards physical sensation and intuition: 'Ich spüre, dass etwas nicht stimmt.'",
+      "dual_case": false
+    },
+    "tags": [
+      "senses",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_abbiegen",
+    "root": "abbiegen",
+    "english": "to turn (off) — driving / walking",
+    "type": "strong",
+    "frequency_rank": 140,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "biege",
+        "du": "biegst",
+        "er_sie_es": "biegt",
+        "wir": "biegen",
+        "ihr": "biegt",
+        "sie_Sie": "biegen"
+      },
+      "past_participle": "abgebogen",
+      "auxiliary": "sein"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich biege an der Ampel links ab.",
+        "en": "I turn left at the traffic light.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Der Bus biegt hier rechts ab.",
+        "en": "The bus turns right here.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [],
+      "notes_en": "abbiegen is intransitive and uses 'sein' in the Perfekt (change of direction): 'Sie ist rechts abgebogen.' Essential for directions.",
+      "dual_case": false
+    },
+    "tags": [
+      "travel",
+      "essential",
+      "a2"
+    ],
+    "separable_root": true,
+    "prefix": "ab"
+  },
+  {
+    "id": "verb_entwaffnen",
+    "root": "entwaffnen",
+    "english": "to disarm",
+    "type": "weak",
+    "frequency_rank": 141,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "entwaffne",
+        "du": "entwaffnest",
+        "er_sie_es": "entwaffnet",
+        "wir": "entwaffnen",
+        "ihr": "entwaffnet",
+        "sie_Sie": "entwaffnen"
+      },
+      "past_participle": "entwaffnet",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Die Polizei entwaffnet den Täter.",
+        "en": "The police disarm the perpetrator.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Die Soldaten entwaffnen die Rebellen.",
+        "en": "The soldiers disarm the rebels.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "entwaffnen takes an accusative object. From die Waffe (weapon). Figurative use is common: 'Ihre Ehrlichkeit entwaffnet mich.'",
+      "dual_case": false
+    },
+    "tags": [
+      "news",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_abhaken",
+    "root": "abhaken",
+    "english": "to tick off / to check off / to put behind oneself",
+    "type": "weak",
+    "frequency_rank": 142,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "hake",
+        "du": "hakst",
+        "er_sie_es": "hakt",
+        "wir": "haken",
+        "ihr": "hakt",
+        "sie_Sie": "haken"
+      },
+      "past_participle": "abgehakt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich hake die erledigten Aufgaben ab.",
+        "en": "I tick off the completed tasks.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Das Thema können wir jetzt abhaken.",
+        "en": "We can check that topic off now.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "abhaken takes an accusative object: 'eine Liste abhaken.' Figuratively: 'Das Thema ist für mich abgehakt' = I'm done with it.",
+      "dual_case": false
+    },
+    "tags": [
+      "everyday",
+      "colloquial",
+      "b2"
+    ],
+    "separable_root": true,
+    "prefix": "ab"
+  },
+  {
+    "id": "verb_ablenken",
+    "root": "ablenken",
+    "english": "to distract",
+    "type": "weak",
+    "frequency_rank": 143,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "lenke",
+        "du": "lenkst",
+        "er_sie_es": "lenkt",
+        "wir": "lenken",
+        "ihr": "lenkt",
+        "sie_Sie": "lenken"
+      },
+      "past_participle": "abgelenkt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Das Handy lenkt mich beim Lernen ab.",
+        "en": "My phone distracts me while studying.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Ich lasse mich leicht ablenken.",
+        "en": "I get distracted easily.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "ablenken takes an accusative object, source with 'von' + Dativ: 'Das lenkt mich von der Arbeit ab.' Also: sich ablenken = to take one's mind off things.",
+      "dual_case": false
+    },
+    "tags": [
+      "everyday",
+      "psychology",
+      "b1"
+    ],
+    "separable_root": true,
+    "prefix": "ab"
+  },
+  {
+    "id": "verb_anwerben",
+    "root": "anwerben",
+    "english": "to recruit",
+    "type": "strong",
+    "frequency_rank": 144,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "werbe",
+        "du": "wirbst",
+        "er_sie_es": "wirbt",
+        "wir": "werben",
+        "ihr": "werbt",
+        "sie_Sie": "werben"
+      },
+      "past_participle": "angeworben",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Die Firma wirbt neue Mitarbeiter im Ausland an.",
+        "en": "The company recruits new employees abroad.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Wir werben jedes Jahr Freiwillige an.",
+        "en": "We recruit volunteers every year.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "anwerben takes an accusative object: 'Arbeitskräfte anwerben.' Historically important word: Gastarbeiter wurden angeworben.",
+      "dual_case": false
+    },
+    "tags": [
+      "work",
+      "society",
+      "b2"
+    ],
+    "separable_root": true,
+    "prefix": "an"
+  },
+  {
+    "id": "verb_folgen",
+    "root": "folgen",
+    "english": "to follow",
+    "type": "weak",
+    "frequency_rank": 145,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "folge",
+        "du": "folgst",
+        "er_sie_es": "folgt",
+        "wir": "folgen",
+        "ihr": "folgt",
+        "sie_Sie": "folgen"
+      },
+      "past_participle": "gefolgt",
+      "auxiliary": "sein"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich folge dir auf Instagram.",
+        "en": "I follow you on Instagram.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Der Hund folgt seinem Besitzer überallhin.",
+        "en": "The dog follows its owner everywhere.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "dative"
+      ],
+      "notes_en": "folgen takes the dative: 'Ich folge dem Weg.' Uses 'sein' in the Perfekt: 'Er ist mir gefolgt.' Also figurative: einer Regel folgen.",
+      "dual_case": false
+    },
+    "tags": [
+      "essential",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_kennzeichnen",
+    "root": "kennzeichnen",
+    "english": "to mark / to label / to characterize",
+    "type": "weak",
+    "frequency_rank": 146,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "kennzeichne",
+        "du": "kennzeichnest",
+        "er_sie_es": "kennzeichnet",
+        "wir": "kennzeichnen",
+        "ihr": "kennzeichnet",
+        "sie_Sie": "kennzeichnen"
+      },
+      "past_participle": "gekennzeichnet",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Wir kennzeichnen alle Pakete mit einem Aufkleber.",
+        "en": "We mark all parcels with a sticker.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Der Hersteller kennzeichnet die Allergene auf der Verpackung.",
+        "en": "The manufacturer labels the allergens on the packaging.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "kennzeichnen takes an accusative object. Passive very common in formal texts: 'Die Produkte sind deutlich gekennzeichnet.'",
+      "dual_case": false
+    },
+    "tags": [
+      "formal",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_nennen",
+    "root": "nennen",
+    "english": "to name / to call (someone something)",
+    "type": "mixed",
+    "frequency_rank": 148,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "nenne",
+        "du": "nennst",
+        "er_sie_es": "nennt",
+        "wir": "nennen",
+        "ihr": "nennt",
+        "sie_Sie": "nennen"
+      },
+      "past_participle": "genannt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Er nennt mich immer „Chef“.",
+        "en": "He always calls me \"boss\".",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Wir nennen unsere Tochter Emma.",
+        "en": "We are naming our daughter Emma.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "nennen takes a double accusative: 'Er nennt mich (Akk) einen Freund (Akk).' Mixed conjugation: nennen — nannte — genannt.",
+      "dual_case": false
+    },
+    "tags": [
+      "essential",
+      "communication",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_abzielen",
+    "root": "abzielen",
+    "english": "to aim at / to be aimed at (auf + Akk)",
+    "type": "weak",
+    "frequency_rank": 149,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "ziele",
+        "du": "zielst",
+        "er_sie_es": "zielt",
+        "wir": "zielen",
+        "ihr": "zielt",
+        "sie_Sie": "zielen"
+      },
+      "past_participle": "abgezielt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Die Kampagne zielt auf junge Leute ab.",
+        "en": "The campaign is aimed at young people.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Diese Maßnahmen zielen auf mehr Sicherheit ab.",
+        "en": "These measures aim at more security.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "abzielen is used with 'auf' + Akkusativ: 'Die Werbung zielt auf Kinder ab.' The accusative comes from the preposition auf.",
+      "dual_case": false
+    },
+    "tags": [
+      "abstract",
+      "b2"
+    ],
+    "separable_root": true,
+    "prefix": "ab"
+  }
+]

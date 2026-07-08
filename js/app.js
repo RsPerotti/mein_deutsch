@@ -19,6 +19,7 @@ const appData = {
   adjectives:   [],
   prepositions: [],
   particles:    [],
+  expressions:  [],
   exercises:    {}   // keyed by moduleId e.g. 'module_verbs'
 };
 
@@ -84,6 +85,7 @@ function onScreenEnter(screenId) {
     case 'screen-adverbliste':       renderAdverbliste();                     break;
     case 'screen-adjektivliste':     renderAdjektivliste();                   break;
     case 'screen-prapositionsliste': renderPrapositionsliste();               break;
+    case 'screen-ausdrueckeliste':   renderAusdrueckeliste();                 break;
     case 'screen-listening-list':    renderListeningList();                                       break;
     case 'screen-listening-reader':  /* rendered by listening.js on demand */                     break;
     case 'screen-results':           /* rendered by exercises.js */                               break;
@@ -160,6 +162,8 @@ async function loadData() {
   appData.exercises['module_adjectives']    = d.exercises_adjectives   || [];
   appData.prepositions                      = d.prepositions            || [];
   appData.exercises['module_prepositions']  = d.exercises_prepositions  || [];
+  appData.expressions                       = d.expressions             || [];
+  appData.exercises['module_expressions']   = d.exercises_expressions   || [];
 
   // Listening module — metadata + articles bundled in js/listening-data.js
   const ld = window.LISTENING_DATA || {};
@@ -244,6 +248,8 @@ function _moduleIcon(moduleId) {
       `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" ${sw}><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>`,
     module_particles:
       `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" ${sw}><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/><line x1="9" y1="10" x2="15" y2="10"/><line x1="9" y1="14" x2="13" y2="14"/></svg>`,
+    module_expressions:
+      `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" ${sw}><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>`,
   };
   return icons[moduleId] ||
     `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" ${sw}><circle cx="12" cy="12" r="10"/></svg>`;
@@ -305,6 +311,8 @@ function renderModuleHome(moduleId) {
     _renderParticleModuleCategories();
   } else if (moduleId === 'module_artikel') {
     _renderArtikelModuleCategories();
+  } else if (moduleId === 'module_expressions') {
+    _renderExpressionsModuleCategories();
   }
 }
 
@@ -578,7 +586,7 @@ function renderNomenliste() {
           </div>` : ''}
         <div class="conj-grid mt-3" style="grid-template-columns:1fr 1fr">
           <div><span class="pronoun">Singular</span> <strong>${noun.article} ${noun.word}</strong></div>
-          <div><span class="pronoun">Plural</span> <strong>${noun.plural_article || 'die'} ${noun.plural}</strong></div>
+          <div><span class="pronoun">Plural</span> <strong>${noun.plural ? (noun.plural_article || 'die') + ' ' + noun.plural : '—'}</strong></div>
           <div><span class="pronoun">Genitiv</span> <strong>${noun.genitive || '—'}</strong></div>
         </div>
         ${noun.example_sentences && noun.example_sentences.length > 0 ? `
@@ -641,7 +649,7 @@ function filterNounList(query) {
           </div>` : ''}
         <div class="conj-grid mt-3" style="grid-template-columns:1fr 1fr">
           <div><span class="pronoun">Singular</span> <strong>${noun.article} ${noun.word}</strong></div>
-          <div><span class="pronoun">Plural</span> <strong>${noun.plural_article || 'die'} ${noun.plural}</strong></div>
+          <div><span class="pronoun">Plural</span> <strong>${noun.plural ? (noun.plural_article || 'die') + ' ' + noun.plural : '—'}</strong></div>
           <div><span class="pronoun">Genitiv</span> <strong>${noun.genitive || '—'}</strong></div>
         </div>
         ${noun.example_sentences && noun.example_sentences.length > 0 ? `
@@ -1520,4 +1528,142 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('service-worker.js')
       .catch(err => console.log('SW registration failed:', err));
   });
+}
+
+// ─────────────────────────────────────────
+// AUSDRÜCKE MODULE (Session 35)
+// Common expressions — no unlock gate, list + exercises
+// ─────────────────────────────────────────
+
+function _renderExpressionsModuleCategories() {
+  const total = appData.expressions.length;
+  const allEx = appData.exercises['module_expressions'] || [];
+  const history = allEx.filter(ex => {
+    const h = Progress.getExerciseHistory(ex.exercise_id);
+    return h.correct > 0;
+  });
+  const seen = history.length;
+  const pct  = allEx.length > 0 ? Math.round(seen / allEx.length * 100) : 0;
+
+  document.getElementById('module-categories').innerHTML = `
+    <div class="card" style="cursor:pointer" onclick="navigateTo('screen-ausdrueckeliste')">
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <div style="flex:1;min-width:0">
+          <div style="font-size:var(--font-size-xs);font-weight:var(--fw-semibold);letter-spacing:var(--ls-label);text-transform:uppercase;color:var(--color-text-secondary);margin-bottom:4px">Ausdrücke</div>
+          <div style="display:flex;align-items:baseline;gap:4px">
+            <span style="font-size:var(--font-size-2xl);font-weight:var(--fw-bold)">${total}</span>
+            <span style="font-size:var(--font-size-sm);color:var(--color-text-muted)">total</span>
+          </div>
+        </div>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+             style="color:var(--color-text-muted);flex-shrink:0;margin-left:var(--sp-3)">
+          <polyline points="9 18 15 12 9 6"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="label mt-4" style="color:var(--color-text-primary);margin-bottom:var(--sp-3)">
+      Übungen
+    </div>
+
+    <div class="category-pair">
+      <div class="category-card" style="grid-column:1/-1"
+           onclick="openExercise('module_expressions','all')">
+        <div class="category-card-title">Ausdrücke üben</div>
+        <div class="category-card-subtitle">Bedeutung, Lücken &amp; Situationen</div>
+        <div class="category-card-count mt-3">${seen} / ${allEx.length} Übungen gemacht</div>
+        <div class="progress-bar mt-2">
+          <div class="progress-fill" style="width:${pct}%"></div>
+        </div>
+        <div class="category-card-cta">Üben →</div>
+      </div>
+    </div>`;
+}
+
+// ─────────────────────────────────────────
+// AUSDRÜCKELISTE — all expressions, searchable
+// ─────────────────────────────────────────
+
+function renderAusdrueckeliste() {
+  const container = document.getElementById('ausdrueckeliste-content');
+  const query     = document.getElementById('al-search').value || '';
+  _renderAusdrueckelisteFiltered(appData.expressions, container, query);
+}
+
+function filterAusdrueckeliste(query) {
+  const q         = query.toLowerCase().trim();
+  const container = document.getElementById('ausdrueckeliste-content');
+  const filtered  = q
+    ? appData.expressions.filter(x =>
+        x.expression.toLowerCase().includes(q) ||
+        x.english.toLowerCase().includes(q))
+    : appData.expressions;
+
+  const count = document.getElementById('al-search-count');
+  if (count) count.textContent = q ? `${filtered.length} / ${appData.expressions.length}` : '';
+
+  _renderAusdrueckelisteFiltered(filtered, container, q);
+}
+
+function _renderAusdrueckelisteFiltered(exprs, container, query) {
+  if (exprs.length === 0) {
+    container.innerHTML = `<div style="color:var(--color-text-muted);padding:var(--sp-4)">Keine Ergebnisse.</div>`;
+    return;
+  }
+  container.innerHTML = exprs.map(x => _renderExpressionCard(x)).join('');
+}
+
+function _renderExpressionCard(x) {
+  return `
+    <div class="card verb-card">
+      <div class="verb-card-header" onclick="toggleExpressionCard('${x.id}')">
+        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+          <span class="verb-card-title">${x.expression}</span>
+          <span class="verb-card-en"> — ${x.english}</span>
+        </div>
+        <svg id="al-arr-${x.id}" width="16" height="16" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+             stroke-linejoin="round" style="color:var(--color-text-muted);transition:transform 0.2s;flex-shrink:0">
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </div>
+
+      <div class="verb-detail" id="al-det-${x.id}">
+        <div style="margin-top:var(--sp-3);display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+          <span class="tag" style="background:var(--color-surface);border:1.5px solid var(--color-border);
+                color:var(--color-text-secondary);font-size:var(--font-size-xs);padding:3px 8px;border-radius:4px">
+            ${x.register}</span>
+          ${x.literal ? `<span style="font-size:var(--font-size-xs);color:var(--color-text-muted)">wörtlich: „${x.literal}"</span>` : ''}
+        </div>
+
+        <div style="margin-top:var(--sp-3);font-size:var(--font-size-sm);color:var(--color-text-secondary)">
+          <strong style="color:var(--color-text-primary)">Wann?</strong> ${x.situation_en}
+        </div>
+
+        <div style="margin-top:var(--sp-3)">
+          ${(x.example_sentences || []).map(s => `
+            <div style="margin-bottom:var(--sp-2)">
+              <div style="font-size:var(--font-size-sm);font-weight:var(--fw-medium)">${s.de}</div>
+              <div style="font-size:var(--font-size-xs);color:var(--color-text-muted)">${s.en}</div>
+            </div>`).join('')}
+        </div>
+
+        ${x.notes ? `
+          <div style="margin-top:var(--sp-2);padding:var(--sp-3);background:var(--color-bg);border-radius:8px;
+               font-size:var(--font-size-xs);color:var(--color-text-secondary)">${x.notes}</div>` : ''}
+
+        ${x.related ? `
+          <div style="margin-top:var(--sp-2);font-size:var(--font-size-xs);color:var(--color-text-muted)">
+            <strong>Verwandt:</strong> ${x.related}</div>` : ''}
+      </div>
+    </div>`;
+}
+
+function toggleExpressionCard(id) {
+  const det = document.getElementById('al-det-' + id);
+  const arr = document.getElementById('al-arr-' + id);
+  if (!det) return;
+  const open = det.classList.toggle('open');
+  if (arr) arr.style.transform = open ? 'rotate(180deg)' : '';
 }

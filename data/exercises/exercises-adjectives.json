@@ -6798,5 +6798,2453 @@
       "entschlossen"
     ],
     "explanation_en": "'widersprüchlich' (contradictory) is the correct adjective for this context."
+  },
+  {
+    "exercise_id": "ex_adj_ausschlaggebend_001",
+    "word_id": "adj_ausschlaggebend",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "ausschlaggebend",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "decisive (the deciding factor)",
+    "wrong_answers": [
+      "insignificant",
+      "surprising",
+      "questionable"
+    ],
+    "explanation_en": "'ausschlaggebend' means 'decisive (the deciding factor)' in German. Opposite: 'unwichtig'. From den Ausschlag geben (to tip the scales). Pattern: ausschlaggebend für + Akk."
+  },
+  {
+    "exercise_id": "ex_adj_ausschlaggebend_002",
+    "word_id": "adj_ausschlaggebend",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Preis war _____ für meine Entscheidung.",
+      "en": "The price was the deciding factor for my decision."
+    },
+    "correct_answer": "ausschlaggebend",
+    "wrong_answers": [
+      "nebensächlich",
+      "überraschend",
+      "fraglich"
+    ],
+    "explanation_en": "'ausschlaggebend' (decisive (the deciding factor)) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_ausschlaggebend_004",
+    "word_id": "adj_ausschlaggebend",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sein Tor war _____ für den Sieg.",
+      "en": "His goal was decisive for the victory."
+    },
+    "correct_answer": "ausschlaggebend",
+    "wrong_answers": [
+      "nebensächlich",
+      "überraschend",
+      "fraglich"
+    ],
+    "explanation_en": "'ausschlaggebend' (decisive (the deciding factor)) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_ausschlaggebend_003",
+    "word_id": "adj_ausschlaggebend",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "decisive (the deciding factor)",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "ausschlaggebend",
+    "wrong_answers": [
+      "nebensächlich",
+      "überraschend",
+      "fraglich"
+    ],
+    "explanation_en": "'decisive (the deciding factor)' translates to 'ausschlaggebend' in German."
+  },
+  {
+    "exercise_id": "ex_adj_ordentlich_001",
+    "word_id": "adj_ordentlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "ordentlich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "tidy / neat / proper",
+    "wrong_answers": [
+      "messy",
+      "ordinary",
+      "official"
+    ],
+    "explanation_en": "'ordentlich' means 'tidy / neat / proper' in German. Opposite: 'unordentlich'. Also colloquial for 'substantial': eine ordentliche Portion. Related: die Ordnung."
+  },
+  {
+    "exercise_id": "ex_adj_ordentlich_002",
+    "word_id": "adj_ordentlich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Sein Schreibtisch ist immer _____.",
+      "en": "His desk is always tidy."
+    },
+    "correct_answer": "ordentlich",
+    "wrong_answers": [
+      "unordentlich",
+      "gewöhnlich",
+      "öffentlich"
+    ],
+    "explanation_en": "'ordentlich' (tidy / neat / proper) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_ordentlich_004",
+    "word_id": "adj_ordentlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sein Zimmer sieht endlich wieder _____ aus.",
+      "en": "His room finally looks tidy again."
+    },
+    "correct_answer": "ordentlich",
+    "wrong_answers": [
+      "unordentlich",
+      "gewöhnlich",
+      "öffentlich"
+    ],
+    "explanation_en": "'ordentlich' (tidy / neat / proper) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_ordentlich_003",
+    "word_id": "adj_ordentlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "tidy / neat / proper",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "ordentlich",
+    "wrong_answers": [
+      "unordentlich",
+      "gewöhnlich",
+      "öffentlich"
+    ],
+    "explanation_en": "'tidy / neat / proper' translates to 'ordentlich' in German."
+  },
+  {
+    "exercise_id": "ex_adj_boese_001",
+    "word_id": "adj_boese",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "böse",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "angry / evil / bad",
+    "wrong_answers": [
+      "kind",
+      "sad",
+      "scared"
+    ],
+    "explanation_en": "'böse' means 'angry / evil / bad' in German. Opposite: 'lieb'. Two senses: angry (böse auf jemanden sein) and evil/wicked (der böse Wolf)."
+  },
+  {
+    "exercise_id": "ex_adj_boese_002",
+    "word_id": "adj_boese",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Bist du mir noch _____?",
+      "en": "Are you still angry with me?"
+    },
+    "correct_answer": "böse",
+    "wrong_answers": [
+      "lieb",
+      "traurig",
+      "ängstlich"
+    ],
+    "explanation_en": "'böse' (angry / evil / bad) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_boese_004",
+    "word_id": "adj_boese",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "In dem Märchen gibt es eine _____ Hexe.",
+      "en": "In the fairy tale there is an evil witch."
+    },
+    "correct_answer": "böse",
+    "wrong_answers": [
+      "lieb",
+      "traurig",
+      "ängstlich"
+    ],
+    "explanation_en": "'böse' (angry / evil / bad) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_boese_003",
+    "word_id": "adj_boese",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "angry / evil / bad",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "böse",
+    "wrong_answers": [
+      "lieb",
+      "traurig",
+      "ängstlich"
+    ],
+    "explanation_en": "'angry / evil / bad' translates to 'böse' in German."
+  },
+  {
+    "exercise_id": "ex_adj_ernsthaft_001",
+    "word_id": "adj_ernsthaft",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "ernsthaft",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "serious / earnest",
+    "wrong_answers": [
+      "joking",
+      "careless",
+      "temporary"
+    ],
+    "explanation_en": "'ernsthaft' means 'serious / earnest' in German. Opposite: 'scherzhaft'. From der Ernst (seriousness). Compare ernst (grave) vs ernsthaft (in earnest, genuine)."
+  },
+  {
+    "exercise_id": "ex_adj_ernsthaft_002",
+    "word_id": "adj_ernsthaft",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wir müssen _____ über die Zukunft reden.",
+      "en": "We have to talk seriously about the future."
+    },
+    "correct_answer": "ernsthaft",
+    "wrong_answers": [
+      "scherzhaft",
+      "nachlässig",
+      "vorläufig"
+    ],
+    "explanation_en": "'ernsthaft' (serious / earnest) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_ernsthaft_004",
+    "word_id": "adj_ernsthaft",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Zweifel an seiner Geschichte waren _____.",
+      "en": "The doubts about his story were serious."
+    },
+    "correct_answer": "ernsthaft",
+    "wrong_answers": [
+      "scherzhaft",
+      "nachlässig",
+      "vorläufig"
+    ],
+    "explanation_en": "'ernsthaft' (serious / earnest) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_ernsthaft_003",
+    "word_id": "adj_ernsthaft",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "serious / earnest",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "ernsthaft",
+    "wrong_answers": [
+      "scherzhaft",
+      "nachlässig",
+      "vorläufig"
+    ],
+    "explanation_en": "'serious / earnest' translates to 'ernsthaft' in German."
+  },
+  {
+    "exercise_id": "ex_adj_einzig_001",
+    "word_id": "adj_einzig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "einzig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "only / sole",
+    "wrong_answers": [
+      "unique (one of a kind)",
+      "first",
+      "single (unmarried)"
+    ],
+    "explanation_en": "'einzig' means 'only / sole' in German. einzig = only/sole; einzigartig = unique. Watch the family: einzeln (individual), einsam (lonely)."
+  },
+  {
+    "exercise_id": "ex_adj_einzig_002",
+    "word_id": "adj_einzig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das ist die _____ Lösung, die funktioniert.",
+      "en": "That is the only solution that works."
+    },
+    "correct_answer": "einzige",
+    "wrong_answers": [
+      "einzelne",
+      "einsame",
+      "einfache"
+    ],
+    "explanation_en": "'einzig' (only / sole) fits this sentence. Attributive position — the adjective takes the ending: 'einzige'."
+  },
+  {
+    "exercise_id": "ex_adj_einzig_004",
+    "word_id": "adj_einzig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er war der _____ Gast im Restaurant.",
+      "en": "He was the only guest in the restaurant."
+    },
+    "correct_answer": "einzige",
+    "wrong_answers": [
+      "einzelne",
+      "einsame",
+      "einfache"
+    ],
+    "explanation_en": "'einzig' (only / sole) fits this sentence. Attributive position — the adjective takes the ending: 'einzige'."
+  },
+  {
+    "exercise_id": "ex_adj_einzig_003",
+    "word_id": "adj_einzig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "only / sole",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "einzig",
+    "wrong_answers": [
+      "einzeln",
+      "einsam",
+      "einfach"
+    ],
+    "explanation_en": "'only / sole' translates to 'einzig' in German."
+  },
+  {
+    "exercise_id": "ex_adj_zielstrebig_001",
+    "word_id": "adj_zielstrebig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "zielstrebig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "determined / goal-oriented",
+    "wrong_answers": [
+      "aimless",
+      "hesitant",
+      "stubborn"
+    ],
+    "explanation_en": "'zielstrebig' means 'determined / goal-oriented' in German. Opposite: 'ziellos'. das Ziel (goal) + streben (to strive). Positive character trait in job applications."
+  },
+  {
+    "exercise_id": "ex_adj_zielstrebig_002",
+    "word_id": "adj_zielstrebig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Sie arbeitet _____ an ihrer Karriere.",
+      "en": "She works purposefully on her career."
+    },
+    "correct_answer": "zielstrebig",
+    "wrong_answers": [
+      "ziellos",
+      "zögerlich",
+      "stur"
+    ],
+    "explanation_en": "'zielstrebig' (determined / goal-oriented) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_zielstrebig_004",
+    "word_id": "adj_zielstrebig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er ist sehr _____ und erreicht seine Ziele.",
+      "en": "He is very determined and achieves his goals."
+    },
+    "correct_answer": "zielstrebig",
+    "wrong_answers": [
+      "ziellos",
+      "zögerlich",
+      "stur"
+    ],
+    "explanation_en": "'zielstrebig' (determined / goal-oriented) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_zielstrebig_003",
+    "word_id": "adj_zielstrebig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "determined / goal-oriented",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "zielstrebig",
+    "wrong_answers": [
+      "ziellos",
+      "zögerlich",
+      "stur"
+    ],
+    "explanation_en": "'determined / goal-oriented' translates to 'zielstrebig' in German."
+  },
+  {
+    "exercise_id": "ex_adj_bedauerlich_001",
+    "word_id": "adj_bedauerlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "bedauerlich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "regrettable / unfortunate",
+    "wrong_answers": [
+      "pleasing",
+      "forgivable",
+      "avoidable"
+    ],
+    "explanation_en": "'bedauerlich' means 'regrettable / unfortunate' in German. Opposite: 'erfreulich'. From bedauern (to regret). Formal register: Bedauerlicherweise … = Regrettably …"
+  },
+  {
+    "exercise_id": "ex_adj_bedauerlich_002",
+    "word_id": "adj_bedauerlich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Es ist sehr _____, dass du nicht kommen kannst.",
+      "en": "It is very unfortunate that you can't come."
+    },
+    "correct_answer": "bedauerlich",
+    "wrong_answers": [
+      "erfreulich",
+      "verzeihlich",
+      "vermeidbar"
+    ],
+    "explanation_en": "'bedauerlich' (regrettable / unfortunate) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_bedauerlich_004",
+    "word_id": "adj_bedauerlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Fehler war _____ und hat das Projekt verzögert.",
+      "en": "The mistake was regrettable and delayed the project."
+    },
+    "correct_answer": "bedauerlich",
+    "wrong_answers": [
+      "erfreulich",
+      "verzeihlich",
+      "vermeidbar"
+    ],
+    "explanation_en": "'bedauerlich' (regrettable / unfortunate) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_bedauerlich_003",
+    "word_id": "adj_bedauerlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "regrettable / unfortunate",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "bedauerlich",
+    "wrong_answers": [
+      "erfreulich",
+      "verzeihlich",
+      "vermeidbar"
+    ],
+    "explanation_en": "'regrettable / unfortunate' translates to 'bedauerlich' in German."
+  },
+  {
+    "exercise_id": "ex_adj_beschaemend_001",
+    "word_id": "adj_beschaemend",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "beschämend",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "shameful / embarrassing",
+    "wrong_answers": [
+      "praiseworthy",
+      "amusing",
+      "astonishing"
+    ],
+    "explanation_en": "'beschämend' means 'shameful / embarrassing' in German. Opposite: 'lobenswert'. From beschämen (to shame) ← die Scham. Stronger and more formal than peinlich."
+  },
+  {
+    "exercise_id": "ex_adj_beschaemend_002",
+    "word_id": "adj_beschaemend",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Ergebnis war _____ für die ganze Mannschaft.",
+      "en": "The result was embarrassing for the whole team."
+    },
+    "correct_answer": "beschämend",
+    "wrong_answers": [
+      "lobenswert",
+      "amüsant",
+      "erstaunlich"
+    ],
+    "explanation_en": "'beschämend' (shameful / embarrassing) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_beschaemend_004",
+    "word_id": "adj_beschaemend",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Es ist _____, wie wenig hier getan wurde.",
+      "en": "It is shameful how little was done here."
+    },
+    "correct_answer": "beschämend",
+    "wrong_answers": [
+      "lobenswert",
+      "amüsant",
+      "erstaunlich"
+    ],
+    "explanation_en": "'beschämend' (shameful / embarrassing) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_beschaemend_003",
+    "word_id": "adj_beschaemend",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "shameful / embarrassing",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "beschämend",
+    "wrong_answers": [
+      "lobenswert",
+      "amüsant",
+      "erstaunlich"
+    ],
+    "explanation_en": "'shameful / embarrassing' translates to 'beschämend' in German."
+  },
+  {
+    "exercise_id": "ex_adj_damalig_001",
+    "word_id": "adj_damalig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "damalig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "of that time / then (attributive)",
+    "wrong_answers": [
+      "current",
+      "former (ex-)",
+      "temporary"
+    ],
+    "explanation_en": "'damalig' means 'of that time / then (attributive)' in German. Opposite: 'heutig'. Only attributive (before a noun). From damals (back then). Compare: ehemalig (former/ex-)."
+  },
+  {
+    "exercise_id": "ex_adj_damalig_002",
+    "word_id": "adj_damalig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ Bürgermeister eröffnete die Brücke.",
+      "en": "The then mayor opened the bridge."
+    },
+    "correct_answer": "damalige",
+    "wrong_answers": [
+      "heutige",
+      "ehemalige",
+      "vorläufige"
+    ],
+    "explanation_en": "'damalig' (of that time / then (attributive)) fits this sentence. Attributive position — the adjective takes the ending: 'damalige'."
+  },
+  {
+    "exercise_id": "ex_adj_damalig_004",
+    "word_id": "adj_damalig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die _____ Situation war völlig anders als heute.",
+      "en": "The situation at that time was completely different from today."
+    },
+    "correct_answer": "damalige",
+    "wrong_answers": [
+      "heutige",
+      "ehemalige",
+      "vorläufige"
+    ],
+    "explanation_en": "'damalig' (of that time / then (attributive)) fits this sentence. Attributive position — the adjective takes the ending: 'damalige'."
+  },
+  {
+    "exercise_id": "ex_adj_damalig_003",
+    "word_id": "adj_damalig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "of that time / then (attributive)",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "damalig",
+    "wrong_answers": [
+      "heutig",
+      "ehemalig",
+      "vorläufig"
+    ],
+    "explanation_en": "'of that time / then (attributive)' translates to 'damalig' in German."
+  },
+  {
+    "exercise_id": "ex_adj_eifersuechtig_001",
+    "word_id": "adj_eifersuechtig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "eifersüchtig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "jealous",
+    "wrong_answers": [
+      "envious (of possessions)",
+      "suspicious",
+      "insecure"
+    ],
+    "explanation_en": "'eifersüchtig' means 'jealous' in German. Opposite: 'gelassen'. Pattern: eifersüchtig auf + Akk. Distinguish: eifersüchtig (jealous in relationships) vs neidisch (envious of things)."
+  },
+  {
+    "exercise_id": "ex_adj_eifersuechtig_002",
+    "word_id": "adj_eifersuechtig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er ist _____ auf den neuen Kollegen.",
+      "en": "He is jealous of the new colleague."
+    },
+    "correct_answer": "eifersüchtig",
+    "wrong_answers": [
+      "neidisch",
+      "misstrauisch",
+      "unsicher"
+    ],
+    "explanation_en": "'eifersüchtig' (jealous) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_eifersuechtig_004",
+    "word_id": "adj_eifersuechtig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sei doch nicht so _____!",
+      "en": "Don't be so jealous!"
+    },
+    "correct_answer": "eifersüchtig",
+    "wrong_answers": [
+      "neidisch",
+      "misstrauisch",
+      "unsicher"
+    ],
+    "explanation_en": "'eifersüchtig' (jealous) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_eifersuechtig_003",
+    "word_id": "adj_eifersuechtig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "jealous",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "eifersüchtig",
+    "wrong_answers": [
+      "neidisch",
+      "misstrauisch",
+      "unsicher"
+    ],
+    "explanation_en": "'jealous' translates to 'eifersüchtig' in German."
+  },
+  {
+    "exercise_id": "ex_adj_vermeintlich_001",
+    "word_id": "adj_vermeintlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "vermeintlich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "supposed / alleged",
+    "wrong_answers": [
+      "actual",
+      "proven",
+      "well-known"
+    ],
+    "explanation_en": "'vermeintlich' means 'supposed / alleged' in German. Opposite: 'tatsächlich'. Signals that an assumption turned out false. From vermeinen (to wrongly believe). Common in news prose."
+  },
+  {
+    "exercise_id": "ex_adj_vermeintlich_002",
+    "word_id": "adj_vermeintlich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ Experte hatte nie studiert.",
+      "en": "The supposed expert had never studied."
+    },
+    "correct_answer": "vermeintliche",
+    "wrong_answers": [
+      "tatsächliche",
+      "bewiesene",
+      "bekannte"
+    ],
+    "explanation_en": "'vermeintlich' (supposed / alleged) fits this sentence. Attributive position — the adjective takes the ending: 'vermeintliche'."
+  },
+  {
+    "exercise_id": "ex_adj_vermeintlich_004",
+    "word_id": "adj_vermeintlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die _____ Abkürzung kostete uns eine Stunde.",
+      "en": "The supposed shortcut cost us an hour."
+    },
+    "correct_answer": "vermeintliche",
+    "wrong_answers": [
+      "tatsächliche",
+      "bewiesene",
+      "bekannte"
+    ],
+    "explanation_en": "'vermeintlich' (supposed / alleged) fits this sentence. Attributive position — the adjective takes the ending: 'vermeintliche'."
+  },
+  {
+    "exercise_id": "ex_adj_vermeintlich_003",
+    "word_id": "adj_vermeintlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "supposed / alleged",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "vermeintlich",
+    "wrong_answers": [
+      "tatsächlich",
+      "bewiesen",
+      "bekannt"
+    ],
+    "explanation_en": "'supposed / alleged' translates to 'vermeintlich' in German."
+  },
+  {
+    "exercise_id": "ex_adj_sogenannt_001",
+    "word_id": "adj_sogenannt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "sogenannt",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "so-called",
+    "wrong_answers": [
+      "well-known",
+      "self-proclaimed",
+      "officially named"
+    ],
+    "explanation_en": "'sogenannt' means 'so-called' in German. Two uses: neutral (introducing a technical term) or ironic/distancing (die sogenannten Freunde). Abbreviated 'sog.' in writing."
+  },
+  {
+    "exercise_id": "ex_adj_sogenannt_002",
+    "word_id": "adj_sogenannt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ Experten widersprechen sich ständig.",
+      "en": "The so-called experts constantly contradict each other."
+    },
+    "correct_answer": "sogenannten",
+    "wrong_answers": [
+      "bekannten",
+      "selbsternannten",
+      "offiziellen"
+    ],
+    "explanation_en": "'sogenannt' (so-called) fits this sentence. Attributive position — the adjective takes the ending: 'sogenannten'."
+  },
+  {
+    "exercise_id": "ex_adj_sogenannt_004",
+    "word_id": "adj_sogenannt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das ist der _____ Muskelkater.",
+      "en": "That is what is known as sore muscles."
+    },
+    "correct_answer": "sogenannte",
+    "wrong_answers": [
+      "bekannte",
+      "selbsternannte",
+      "offizielle"
+    ],
+    "explanation_en": "'sogenannt' (so-called) fits this sentence. Attributive position — the adjective takes the ending: 'sogenannte'."
+  },
+  {
+    "exercise_id": "ex_adj_sogenannt_003",
+    "word_id": "adj_sogenannt",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "so-called",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "sogenannt",
+    "wrong_answers": [
+      "bekannt",
+      "selbsternannt",
+      "offiziell"
+    ],
+    "explanation_en": "'so-called' translates to 'sogenannt' in German."
+  },
+  {
+    "exercise_id": "ex_adj_vorhersehbar_001",
+    "word_id": "adj_vorhersehbar",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "vorhersehbar",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "predictable / foreseeable",
+    "wrong_answers": [
+      "unpredictable",
+      "inevitable",
+      "surprising"
+    ],
+    "explanation_en": "'vorhersehbar' means 'predictable / foreseeable' in German. Opposite: 'unvorhersehbar'. From vorhersehen (to foresee) + -bar. Same family: die Vorhersehbarkeit, die Vorhersage."
+  },
+  {
+    "exercise_id": "ex_adj_vorhersehbar_002",
+    "word_id": "adj_vorhersehbar",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Ende des Films war leider _____.",
+      "en": "The ending of the film was unfortunately predictable."
+    },
+    "correct_answer": "vorhersehbar",
+    "wrong_answers": [
+      "unvorhersehbar",
+      "unvermeidlich",
+      "überraschend"
+    ],
+    "explanation_en": "'vorhersehbar' (predictable / foreseeable) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_vorhersehbar_004",
+    "word_id": "adj_vorhersehbar",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Folgen waren für alle _____.",
+      "en": "The consequences were foreseeable for everyone."
+    },
+    "correct_answer": "vorhersehbar",
+    "wrong_answers": [
+      "unvorhersehbar",
+      "unvermeidlich",
+      "überraschend"
+    ],
+    "explanation_en": "'vorhersehbar' (predictable / foreseeable) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_vorhersehbar_003",
+    "word_id": "adj_vorhersehbar",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "predictable / foreseeable",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "vorhersehbar",
+    "wrong_answers": [
+      "unvorhersehbar",
+      "unvermeidlich",
+      "überraschend"
+    ],
+    "explanation_en": "'predictable / foreseeable' translates to 'vorhersehbar' in German."
+  },
+  {
+    "exercise_id": "ex_adj_herausfordernd_001",
+    "word_id": "adj_herausfordernd",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "herausfordernd",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "challenging",
+    "wrong_answers": [
+      "easy",
+      "boring",
+      "exhausting only"
+    ],
+    "explanation_en": "'herausfordernd' means 'challenging' in German. Opposite: 'einfach'. From herausfordern (to challenge). Related noun: die Herausforderung (challenge) — a B1/B2 essential."
+  },
+  {
+    "exercise_id": "ex_adj_herausfordernd_002",
+    "word_id": "adj_herausfordernd",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das erste Jahr im neuen Job war sehr _____.",
+      "en": "The first year in the new job was very challenging."
+    },
+    "correct_answer": "herausfordernd",
+    "wrong_answers": [
+      "einfach",
+      "langweilig",
+      "entspannt"
+    ],
+    "explanation_en": "'herausfordernd' (challenging) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_herausfordernd_004",
+    "word_id": "adj_herausfordernd",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die neue Aufgabe ist anspruchsvoll und _____.",
+      "en": "The new task is demanding and challenging."
+    },
+    "correct_answer": "herausfordernd",
+    "wrong_answers": [
+      "einfach",
+      "langweilig",
+      "entspannt"
+    ],
+    "explanation_en": "'herausfordernd' (challenging) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_herausfordernd_003",
+    "word_id": "adj_herausfordernd",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "challenging",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "herausfordernd",
+    "wrong_answers": [
+      "einfach",
+      "langweilig",
+      "entspannt"
+    ],
+    "explanation_en": "'challenging' translates to 'herausfordernd' in German."
+  },
+  {
+    "exercise_id": "ex_adj_entscheidend_001",
+    "word_id": "adj_entscheidend",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "entscheidend",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "crucial / decisive",
+    "wrong_answers": [
+      "secondary",
+      "optional",
+      "evident"
+    ],
+    "explanation_en": "'entscheidend' means 'crucial / decisive' in German. Opposite: 'nebensächlich'. From entscheiden (to decide). Near-synonym of ausschlaggebend, but entscheidend is far more common in everyday speech."
+  },
+  {
+    "exercise_id": "ex_adj_entscheidend_002",
+    "word_id": "adj_entscheidend",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Dieses Spiel ist _____ für die Meisterschaft.",
+      "en": "This game is decisive for the championship."
+    },
+    "correct_answer": "entscheidend",
+    "wrong_answers": [
+      "nebensächlich",
+      "freiwillig",
+      "offensichtlich"
+    ],
+    "explanation_en": "'entscheidend' (crucial / decisive) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_entscheidend_004",
+    "word_id": "adj_entscheidend",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Geduld ist _____ beim Sprachenlernen.",
+      "en": "Patience is crucial when learning languages."
+    },
+    "correct_answer": "entscheidend",
+    "wrong_answers": [
+      "nebensächlich",
+      "freiwillig",
+      "offensichtlich"
+    ],
+    "explanation_en": "'entscheidend' (crucial / decisive) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_entscheidend_003",
+    "word_id": "adj_entscheidend",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "crucial / decisive",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "entscheidend",
+    "wrong_answers": [
+      "nebensächlich",
+      "freiwillig",
+      "offensichtlich"
+    ],
+    "explanation_en": "'crucial / decisive' translates to 'entscheidend' in German."
+  },
+  {
+    "exercise_id": "ex_adj_duftend_001",
+    "word_id": "adj_duftend",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "duftend",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "fragrant / sweet-smelling",
+    "wrong_answers": [
+      "stinking",
+      "tasteless",
+      "colourful"
+    ],
+    "explanation_en": "'duftend' means 'fragrant / sweet-smelling' in German. Opposite: 'stinkend'. From duften (to smell nice) ← der Duft (scent). Only for pleasant smells — bad smells use stinkend or riechend nach."
+  },
+  {
+    "exercise_id": "ex_adj_duftend_002",
+    "word_id": "adj_duftend",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Auf dem Tisch stand _____ Kaffee.",
+      "en": "Fragrant coffee stood on the table."
+    },
+    "correct_answer": "duftender",
+    "wrong_answers": [
+      "stinkender",
+      "geschmackloser",
+      "kalter"
+    ],
+    "explanation_en": "'duftend' (fragrant / sweet-smelling) fits this sentence. Attributive position — the adjective takes the ending: 'duftender'."
+  },
+  {
+    "exercise_id": "ex_adj_duftend_004",
+    "word_id": "adj_duftend",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie pflückte einen Strauß _____ Rosen.",
+      "en": "She picked a bouquet of fragrant roses."
+    },
+    "correct_answer": "duftender",
+    "wrong_answers": [
+      "stinkender",
+      "geschmackloser",
+      "verwelkter"
+    ],
+    "explanation_en": "'duftend' (fragrant / sweet-smelling) fits this sentence. Attributive position — the adjective takes the ending: 'duftender'."
+  },
+  {
+    "exercise_id": "ex_adj_duftend_003",
+    "word_id": "adj_duftend",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "fragrant / sweet-smelling",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "duftend",
+    "wrong_answers": [
+      "stinkend",
+      "geschmacklos",
+      "farbenfroh"
+    ],
+    "explanation_en": "'fragrant / sweet-smelling' translates to 'duftend' in German."
+  },
+  {
+    "exercise_id": "ex_adj_ueberwaeltigend_001",
+    "word_id": "adj_ueberwaeltigend",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "überwältigend",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "overwhelming",
+    "wrong_answers": [
+      "tiny",
+      "disappointing",
+      "average"
+    ],
+    "explanation_en": "'überwältigend' means 'overwhelming' in German. Opposite: 'gering'. From überwältigen (to overwhelm). News staple: die überwältigende Mehrheit (the overwhelming majority)."
+  },
+  {
+    "exercise_id": "ex_adj_ueberwaeltigend_002",
+    "word_id": "adj_ueberwaeltigend",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ Mehrheit stimmte für den Plan.",
+      "en": "The overwhelming majority voted for the plan."
+    },
+    "correct_answer": "überwältigende",
+    "wrong_answers": [
+      "geringe",
+      "enttäuschende",
+      "durchschnittliche"
+    ],
+    "explanation_en": "'überwältigend' (overwhelming) fits this sentence. Attributive position — the adjective takes the ending: 'überwältigende'."
+  },
+  {
+    "exercise_id": "ex_adj_ueberwaeltigend_004",
+    "word_id": "adj_ueberwaeltigend",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Ausblick vom Gipfel war _____.",
+      "en": "The view from the summit was overwhelming."
+    },
+    "correct_answer": "überwältigend",
+    "wrong_answers": [
+      "gering",
+      "enttäuschend",
+      "durchschnittlich"
+    ],
+    "explanation_en": "'überwältigend' (overwhelming) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_ueberwaeltigend_003",
+    "word_id": "adj_ueberwaeltigend",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "overwhelming",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "überwältigend",
+    "wrong_answers": [
+      "gering",
+      "enttäuschend",
+      "durchschnittlich"
+    ],
+    "explanation_en": "'overwhelming' translates to 'überwältigend' in German."
+  },
+  {
+    "exercise_id": "ex_adj_haltlos_001",
+    "word_id": "adj_haltlos",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "haltlos",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "baseless / unfounded",
+    "wrong_answers": [
+      "well-founded",
+      "harsh",
+      "believable"
+    ],
+    "explanation_en": "'haltlos' means 'baseless / unfounded' in German. Opposite: 'begründet'. der Halt (hold/support) + -los. Typical collocations: haltlose Vorwürfe/Behauptungen (baseless accusations/claims)."
+  },
+  {
+    "exercise_id": "ex_adj_haltlos_002",
+    "word_id": "adj_haltlos",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Diese Vorwürfe sind völlig _____.",
+      "en": "These accusations are completely baseless."
+    },
+    "correct_answer": "haltlos",
+    "wrong_answers": [
+      "begründet",
+      "berechtigt",
+      "glaubwürdig"
+    ],
+    "explanation_en": "'haltlos' (baseless / unfounded) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_haltlos_004",
+    "word_id": "adj_haltlos",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Behauptung erwies sich als _____.",
+      "en": "The claim turned out to be unfounded."
+    },
+    "correct_answer": "haltlos",
+    "wrong_answers": [
+      "begründet",
+      "berechtigt",
+      "glaubwürdig"
+    ],
+    "explanation_en": "'haltlos' (baseless / unfounded) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_haltlos_003",
+    "word_id": "adj_haltlos",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "baseless / unfounded",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "haltlos",
+    "wrong_answers": [
+      "begründet",
+      "berechtigt",
+      "glaubwürdig"
+    ],
+    "explanation_en": "'baseless / unfounded' translates to 'haltlos' in German."
+  },
+  {
+    "exercise_id": "ex_adj_betroffen_001",
+    "word_id": "adj_betroffen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "betroffen",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "affected; shaken / dismayed",
+    "wrong_answers": [
+      "untouched",
+      "responsible",
+      "informed"
+    ],
+    "explanation_en": "'betroffen' means 'affected; shaken / dismayed' in German. Opposite: 'unberührt'. Two senses: affected by something (betroffen von + Dat) and emotionally shaken. Noun: die Betroffenen (those affected)."
+  },
+  {
+    "exercise_id": "ex_adj_betroffen_002",
+    "word_id": "adj_betroffen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Viele Familien sind von den Preiserhöhungen _____.",
+      "en": "Many families are affected by the price increases."
+    },
+    "correct_answer": "betroffen",
+    "wrong_answers": [
+      "unberührt",
+      "verantwortlich",
+      "informiert"
+    ],
+    "explanation_en": "'betroffen' (affected; shaken / dismayed) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_betroffen_004",
+    "word_id": "adj_betroffen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er schwieg _____, als er die Nachricht hörte.",
+      "en": "He fell silent, shaken, when he heard the news."
+    },
+    "correct_answer": "betroffen",
+    "wrong_answers": [
+      "unberührt",
+      "verantwortlich",
+      "informiert"
+    ],
+    "explanation_en": "'betroffen' (affected; shaken / dismayed) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_betroffen_003",
+    "word_id": "adj_betroffen",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "affected; shaken / dismayed",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "betroffen",
+    "wrong_answers": [
+      "unberührt",
+      "verantwortlich",
+      "informiert"
+    ],
+    "explanation_en": "'affected; shaken / dismayed' translates to 'betroffen' in German."
+  },
+  {
+    "exercise_id": "ex_adj_spuerbar_001",
+    "word_id": "adj_spuerbar",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "spürbar",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "noticeable / palpable",
+    "wrong_answers": [
+      "imperceptible",
+      "measurable only",
+      "doubtful"
+    ],
+    "explanation_en": "'spürbar' means 'noticeable / palpable' in German. Opposite: 'unmerklich'. From spüren (to feel/sense) + -bar. Often adverbial: spürbar kälter = noticeably colder."
+  },
+  {
+    "exercise_id": "ex_adj_spuerbar_002",
+    "word_id": "adj_spuerbar",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Preise sind _____ gestiegen.",
+      "en": "Prices have risen noticeably."
+    },
+    "correct_answer": "spürbar",
+    "wrong_answers": [
+      "unmerklich",
+      "messbar",
+      "zweifelhaft"
+    ],
+    "explanation_en": "'spürbar' (noticeable / palpable) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_spuerbar_004",
+    "word_id": "adj_spuerbar",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Im Raum herrschte eine _____ Spannung.",
+      "en": "There was a palpable tension in the room."
+    },
+    "correct_answer": "spürbare",
+    "wrong_answers": [
+      "unmerkliche",
+      "messbare",
+      "zweifelhafte"
+    ],
+    "explanation_en": "'spürbar' (noticeable / palpable) fits this sentence. Attributive position — the adjective takes the ending: 'spürbare'."
+  },
+  {
+    "exercise_id": "ex_adj_spuerbar_003",
+    "word_id": "adj_spuerbar",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "noticeable / palpable",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "spürbar",
+    "wrong_answers": [
+      "unmerklich",
+      "messbar",
+      "zweifelhaft"
+    ],
+    "explanation_en": "'noticeable / palpable' translates to 'spürbar' in German."
+  },
+  {
+    "exercise_id": "ex_adj_wertvoll_001",
+    "word_id": "adj_wertvoll",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "wertvoll",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "valuable / precious",
+    "wrong_answers": [
+      "worthless",
+      "expensive only",
+      "rare"
+    ],
+    "explanation_en": "'wertvoll' means 'valuable / precious' in German. Opposite: 'wertlos'. der Wert (value) + voll. Material and figurative: wertvolle Zeit, wertvolle Erfahrungen."
+  },
+  {
+    "exercise_id": "ex_adj_wertvoll_002",
+    "word_id": "adj_wertvoll",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Dieser Ring ist sehr _____.",
+      "en": "This ring is very valuable."
+    },
+    "correct_answer": "wertvoll",
+    "wrong_answers": [
+      "wertlos",
+      "teuer",
+      "selten"
+    ],
+    "explanation_en": "'wertvoll' (valuable / precious) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_wertvoll_004",
+    "word_id": "adj_wertvoll",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Du hast mir einen _____ Tipp gegeben.",
+      "en": "You gave me a valuable tip."
+    },
+    "correct_answer": "wertvollen",
+    "wrong_answers": [
+      "wertlosen",
+      "teuren",
+      "seltenen"
+    ],
+    "explanation_en": "'wertvoll' (valuable / precious) fits this sentence. Attributive position — the adjective takes the ending: 'wertvollen'."
+  },
+  {
+    "exercise_id": "ex_adj_wertvoll_003",
+    "word_id": "adj_wertvoll",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "valuable / precious",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "wertvoll",
+    "wrong_answers": [
+      "wertlos",
+      "teuer",
+      "selten"
+    ],
+    "explanation_en": "'valuable / precious' translates to 'wertvoll' in German."
+  },
+  {
+    "exercise_id": "ex_adj_zahlreich_001",
+    "word_id": "adj_zahlreich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "zahlreich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "numerous",
+    "wrong_answers": [
+      "few",
+      "countable",
+      "occasional"
+    ],
+    "explanation_en": "'zahlreich' means 'numerous' in German. Opposite: 'wenig'. die Zahl (number) + -reich (rich in). Written register — in speech: viele. News staple: zahlreiche Menschen."
+  },
+  {
+    "exercise_id": "ex_adj_zahlreich_002",
+    "word_id": "adj_zahlreich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "_____ Besucher kamen zur Ausstellung.",
+      "en": "Numerous visitors came to the exhibition."
+    },
+    "correct_answer": "Zahlreiche",
+    "wrong_answers": [
+      "Wenige",
+      "Vereinzelte",
+      "Gelegentliche"
+    ],
+    "explanation_en": "'zahlreich' (numerous) fits this sentence. Attributive position — the adjective takes the ending: 'Zahlreiche'."
+  },
+  {
+    "exercise_id": "ex_adj_zahlreich_004",
+    "word_id": "adj_zahlreich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Es gab _____ Beschwerden über den Lärm.",
+      "en": "There were numerous complaints about the noise."
+    },
+    "correct_answer": "zahlreiche",
+    "wrong_answers": [
+      "wenige",
+      "vereinzelte",
+      "gelegentliche"
+    ],
+    "explanation_en": "'zahlreich' (numerous) fits this sentence. Attributive position — the adjective takes the ending: 'zahlreiche'."
+  },
+  {
+    "exercise_id": "ex_adj_zahlreich_003",
+    "word_id": "adj_zahlreich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "numerous",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "zahlreich",
+    "wrong_answers": [
+      "wenige",
+      "vereinzelte",
+      "gelegentliche"
+    ],
+    "explanation_en": "'numerous' translates to 'zahlreich' in German."
+  },
+  {
+    "exercise_id": "ex_adj_verwirrt_001",
+    "word_id": "adj_verwirrt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "verwirrt",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "confused",
+    "wrong_answers": [
+      "clear-headed",
+      "annoyed",
+      "distracted"
+    ],
+    "explanation_en": "'verwirrt' means 'confused' in German. Opposite: 'klar'. From verwirren (to confuse). Related: die Verwirrung (confusion), verwirrend (confusing — for the thing that confuses)."
+  },
+  {
+    "exercise_id": "ex_adj_verwirrt_002",
+    "word_id": "adj_verwirrt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Nach der Erklärung war ich noch mehr _____.",
+      "en": "After the explanation I was even more confused."
+    },
+    "correct_answer": "verwirrt",
+    "wrong_answers": [
+      "gelassen",
+      "verärgert",
+      "abgelenkt"
+    ],
+    "explanation_en": "'verwirrt' (confused) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_verwirrt_004",
+    "word_id": "adj_verwirrt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er sah mich _____ an.",
+      "en": "He looked at me, confused."
+    },
+    "correct_answer": "verwirrt",
+    "wrong_answers": [
+      "gelassen",
+      "verärgert",
+      "abgelenkt"
+    ],
+    "explanation_en": "'verwirrt' (confused) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_verwirrt_003",
+    "word_id": "adj_verwirrt",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "confused",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "verwirrt",
+    "wrong_answers": [
+      "gelassen",
+      "verärgert",
+      "abgelenkt"
+    ],
+    "explanation_en": "'confused' translates to 'verwirrt' in German."
+  },
+  {
+    "exercise_id": "ex_adj_gespannt_001",
+    "word_id": "adj_gespannt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "gespannt",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "curious / eager (to see) / tense",
+    "wrong_answers": [
+      "indifferent",
+      "disappointed",
+      "relaxed"
+    ],
+    "explanation_en": "'gespannt' means 'curious / eager (to see) / tense' in German. Opposite: 'gleichgültig'. Key pattern: gespannt sein auf + Akk = to be eager/curious about. Also literal: tense (eine gespannte Atmosphäre)."
+  },
+  {
+    "exercise_id": "ex_adj_gespannt_002",
+    "word_id": "adj_gespannt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich bin _____, wie der Film endet.",
+      "en": "I'm curious to see how the film ends."
+    },
+    "correct_answer": "gespannt",
+    "wrong_answers": [
+      "gleichgültig",
+      "enttäuscht",
+      "entspannt"
+    ],
+    "explanation_en": "'gespannt' (curious / eager (to see) / tense) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_gespannt_004",
+    "word_id": "adj_gespannt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Zuschauer warteten _____ auf das Ergebnis.",
+      "en": "The spectators waited eagerly for the result."
+    },
+    "correct_answer": "gespannt",
+    "wrong_answers": [
+      "gleichgültig",
+      "enttäuscht",
+      "entspannt"
+    ],
+    "explanation_en": "'gespannt' (curious / eager (to see) / tense) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_gespannt_003",
+    "word_id": "adj_gespannt",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "curious / eager (to see) / tense",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "gespannt",
+    "wrong_answers": [
+      "gleichgültig",
+      "enttäuscht",
+      "entspannt"
+    ],
+    "explanation_en": "'curious / eager (to see) / tense' translates to 'gespannt' in German."
+  },
+  {
+    "exercise_id": "ex_adj_unabhaengig_001",
+    "word_id": "adj_unabhaengig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "unabhängig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "independent",
+    "wrong_answers": [
+      "dependent",
+      "neutral",
+      "separate"
+    ],
+    "explanation_en": "'unabhängig' means 'independent' in German. Opposite: 'abhängig'. un- + abhängig (dependent). Pattern: unabhängig von + Dat. Also as connector: unabhängig davon, ob … = regardless of whether."
+  },
+  {
+    "exercise_id": "ex_adj_unabhaengig_002",
+    "word_id": "adj_unabhaengig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Sie ist finanziell _____ von ihren Eltern.",
+      "en": "She is financially independent of her parents."
+    },
+    "correct_answer": "unabhängig",
+    "wrong_answers": [
+      "abhängig",
+      "neutral",
+      "getrennt"
+    ],
+    "explanation_en": "'unabhängig' (independent) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_unabhaengig_004",
+    "word_id": "adj_unabhaengig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Eine _____ Untersuchung soll den Fall klären.",
+      "en": "An independent investigation is to clarify the case."
+    },
+    "correct_answer": "unabhängige",
+    "wrong_answers": [
+      "abhängige",
+      "neutrale",
+      "getrennte"
+    ],
+    "explanation_en": "'unabhängig' (independent) fits this sentence. Attributive position — the adjective takes the ending: 'unabhängige'."
+  },
+  {
+    "exercise_id": "ex_adj_unabhaengig_003",
+    "word_id": "adj_unabhaengig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "independent",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "unabhängig",
+    "wrong_answers": [
+      "abhängig",
+      "neutral",
+      "getrennt"
+    ],
+    "explanation_en": "'independent' translates to 'unabhängig' in German."
+  },
+  {
+    "exercise_id": "ex_adj_untroestlich_001",
+    "word_id": "adj_untroestlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "untröstlich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "inconsolable",
+    "wrong_answers": [
+      "cheerful",
+      "hopeless",
+      "indifferent"
+    ],
+    "explanation_en": "'untröstlich' means 'inconsolable' in German. un- + trösten (to comfort) + -lich: 'not able to be comforted'. Polite apology register: Wir sind untröstlich! = We are terribly sorry!"
+  },
+  {
+    "exercise_id": "ex_adj_untroestlich_002",
+    "word_id": "adj_untroestlich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Kind war _____, als der Luftballon platzte.",
+      "en": "The child was inconsolable when the balloon burst."
+    },
+    "correct_answer": "untröstlich",
+    "wrong_answers": [
+      "fröhlich",
+      "hoffnungslos",
+      "gleichgültig"
+    ],
+    "explanation_en": "'untröstlich' (inconsolable) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_untroestlich_004",
+    "word_id": "adj_untroestlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Nach dem Verlust ihres Hundes war sie _____.",
+      "en": "After losing her dog she was inconsolable."
+    },
+    "correct_answer": "untröstlich",
+    "wrong_answers": [
+      "fröhlich",
+      "hoffnungslos",
+      "gleichgültig"
+    ],
+    "explanation_en": "'untröstlich' (inconsolable) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_untroestlich_003",
+    "word_id": "adj_untroestlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "inconsolable",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "untröstlich",
+    "wrong_answers": [
+      "fröhlich",
+      "hoffnungslos",
+      "gleichgültig"
+    ],
+    "explanation_en": "'inconsolable' translates to 'untröstlich' in German."
+  },
+  {
+    "exercise_id": "ex_adj_schlau_001",
+    "word_id": "adj_schlau",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "schlau",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "clever / smart / cunning",
+    "wrong_answers": [
+      "stupid",
+      "wise (from experience)",
+      "hard-working"
+    ],
+    "explanation_en": "'schlau' means 'clever / smart / cunning' in German. Opposite: 'dumm'. Colloquial partner of klug/intelligent, with a hint of cunning. Idiom: Ich werde daraus nicht schlau = I can't make sense of it."
+  },
+  {
+    "exercise_id": "ex_adj_schlau_002",
+    "word_id": "adj_schlau",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Fuchs gilt als besonders _____.",
+      "en": "The fox is considered particularly cunning."
+    },
+    "correct_answer": "schlau",
+    "wrong_answers": [
+      "dumm",
+      "weise",
+      "fleißig"
+    ],
+    "explanation_en": "'schlau' (clever / smart / cunning) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_schlau_004",
+    "word_id": "adj_schlau",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das war eine _____ Idee!",
+      "en": "That was a clever idea!"
+    },
+    "correct_answer": "schlaue",
+    "wrong_answers": [
+      "dumme",
+      "weise",
+      "fleißige"
+    ],
+    "explanation_en": "'schlau' (clever / smart / cunning) fits this sentence. Attributive position — the adjective takes the ending: 'schlaue'."
+  },
+  {
+    "exercise_id": "ex_adj_schlau_003",
+    "word_id": "adj_schlau",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "clever / smart / cunning",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "schlau",
+    "wrong_answers": [
+      "dumm",
+      "weise",
+      "fleißig"
+    ],
+    "explanation_en": "'clever / smart / cunning' translates to 'schlau' in German."
+  },
+  {
+    "exercise_id": "ex_adj_wahr_001",
+    "word_id": "adj_wahr",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "wahr",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "true",
+    "wrong_answers": [
+      "false",
+      "real (existing)",
+      "honest"
+    ],
+    "explanation_en": "'wahr' means 'true' in German. Opposite: 'falsch'. Family: die Wahrheit (truth), wahrscheinlich (probable), wirklich (real). Tag question: …, nicht wahr? = …, right?"
+  },
+  {
+    "exercise_id": "ex_adj_wahr_002",
+    "word_id": "adj_wahr",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Geschichte ist wirklich _____.",
+      "en": "The story is really true."
+    },
+    "correct_answer": "wahr",
+    "wrong_answers": [
+      "falsch",
+      "echt",
+      "ehrlich"
+    ],
+    "explanation_en": "'wahr' (true) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_wahr_004",
+    "word_id": "adj_wahr",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Es ist _____, dass er umzieht.",
+      "en": "It is true that he is moving."
+    },
+    "correct_answer": "wahr",
+    "wrong_answers": [
+      "falsch",
+      "echt",
+      "ehrlich"
+    ],
+    "explanation_en": "'wahr' (true) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_wahr_003",
+    "word_id": "adj_wahr",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "true",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "wahr",
+    "wrong_answers": [
+      "falsch",
+      "echt",
+      "ehrlich"
+    ],
+    "explanation_en": "'true' translates to 'wahr' in German."
+  },
+  {
+    "exercise_id": "ex_adj_heillos_001",
+    "word_id": "adj_heillos",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "heillos",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "utter / hopeless (chaos, confusion)",
+    "wrong_answers": [
+      "mild",
+      "organised",
+      "partial"
+    ],
+    "explanation_en": "'heillos' means 'utter / hopeless (chaos, confusion)' in German. das Heil (salvation) + -los. Intensifier for negative states: heilloses Chaos, heillos zerstritten (hopelessly divided)."
+  },
+  {
+    "exercise_id": "ex_adj_heillos_002",
+    "word_id": "adj_heillos",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Nach dem Umzug herrschte ein _____ Durcheinander.",
+      "en": "After the move there was utter chaos."
+    },
+    "correct_answer": "heilloses",
+    "wrong_answers": [
+      "leichtes",
+      "geordnetes",
+      "teilweises"
+    ],
+    "explanation_en": "'heillos' (utter / hopeless (chaos, confusion)) fits this sentence. Attributive position — the adjective takes the ending: 'heilloses'."
+  },
+  {
+    "exercise_id": "ex_adj_heillos_004",
+    "word_id": "adj_heillos",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er war _____ überfordert mit der Situation.",
+      "en": "He was hopelessly overwhelmed by the situation."
+    },
+    "correct_answer": "heillos",
+    "wrong_answers": [
+      "leicht",
+      "geordnet",
+      "teilweise"
+    ],
+    "explanation_en": "'heillos' (utter / hopeless (chaos, confusion)) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_heillos_003",
+    "word_id": "adj_heillos",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "utter / hopeless (chaos, confusion)",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "heillos",
+    "wrong_answers": [
+      "leicht",
+      "geordnet",
+      "teilweise"
+    ],
+    "explanation_en": "'utter / hopeless (chaos, confusion)' translates to 'heillos' in German."
+  },
+  {
+    "exercise_id": "ex_adj_schillernd_001",
+    "word_id": "adj_schillernd",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "schillernd",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "iridescent / dazzling / colourful (figurative)",
+    "wrong_answers": [
+      "colourless",
+      "transparent",
+      "shy"
+    ],
+    "explanation_en": "'schillernd' means 'iridescent / dazzling / colourful (figurative)' in German. Opposite: 'farblos'. From schillern (to shimmer in changing colours). Figurative: eine schillernde Persönlichkeit = a dazzling, ambiguous personality."
+  },
+  {
+    "exercise_id": "ex_adj_schillernd_002",
+    "word_id": "adj_schillernd",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Seifenblasen sind wunderschön _____.",
+      "en": "The soap bubbles are beautifully iridescent."
+    },
+    "correct_answer": "schillernd",
+    "wrong_answers": [
+      "farblos",
+      "durchsichtig",
+      "schüchtern"
+    ],
+    "explanation_en": "'schillernd' (iridescent / dazzling / colourful (figurative)) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_schillernd_004",
+    "word_id": "adj_schillernd",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er ist eine _____ Figur der Stadtgeschichte.",
+      "en": "He is a colourful figure in the city's history."
+    },
+    "correct_answer": "schillernde",
+    "wrong_answers": [
+      "farblose",
+      "durchsichtige",
+      "schüchterne"
+    ],
+    "explanation_en": "'schillernd' (iridescent / dazzling / colourful (figurative)) fits this sentence. Attributive position — the adjective takes the ending: 'schillernde'."
+  },
+  {
+    "exercise_id": "ex_adj_schillernd_003",
+    "word_id": "adj_schillernd",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "iridescent / dazzling / colourful (figurative)",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "schillernd",
+    "wrong_answers": [
+      "farblos",
+      "durchsichtig",
+      "schüchtern"
+    ],
+    "explanation_en": "'iridescent / dazzling / colourful (figurative)' translates to 'schillernd' in German."
+  },
+  {
+    "exercise_id": "ex_adj_moeglich_001",
+    "word_id": "adj_moeglich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "möglich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "possible",
+    "wrong_answers": [
+      "impossible",
+      "necessary",
+      "likely"
+    ],
+    "explanation_en": "'möglich' means 'possible' in German. Opposite: 'unmöglich'. Key patterns: so … wie möglich = as … as possible; möglichst viel/wenig/oft = as much/little/often as possible (see Ausdrücke)."
+  },
+  {
+    "exercise_id": "ex_adj_moeglich_002",
+    "word_id": "adj_moeglich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ist es _____, den Termin zu verschieben?",
+      "en": "Is it possible to postpone the appointment?"
+    },
+    "correct_answer": "möglich",
+    "wrong_answers": [
+      "unmöglich",
+      "nötig",
+      "wahrscheinlich"
+    ],
+    "explanation_en": "'möglich' (possible) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_moeglich_004",
+    "word_id": "adj_moeglich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir kommen so schnell wie _____.",
+      "en": "We'll come as quickly as possible."
+    },
+    "correct_answer": "möglich",
+    "wrong_answers": [
+      "unmöglich",
+      "nötig",
+      "wahrscheinlich"
+    ],
+    "explanation_en": "'möglich' (possible) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_moeglich_003",
+    "word_id": "adj_moeglich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "possible",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "möglich",
+    "wrong_answers": [
+      "unmöglich",
+      "nötig",
+      "wahrscheinlich"
+    ],
+    "explanation_en": "'possible' translates to 'möglich' in German."
+  },
+  {
+    "exercise_id": "ex_adj_notwendig_001",
+    "word_id": "adj_notwendig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "notwendig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "necessary",
+    "wrong_answers": [
+      "superfluous",
+      "useful",
+      "urgent"
+    ],
+    "explanation_en": "'notwendig' means 'necessary' in German. Opposite: 'überflüssig'. die Not (need) + wendig. Synonym: nötig (more colloquial). Noun: die Notwendigkeit."
+  },
+  {
+    "exercise_id": "ex_adj_notwendig_002",
+    "word_id": "adj_notwendig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ein Visum ist für diese Reise _____.",
+      "en": "A visa is necessary for this trip."
+    },
+    "correct_answer": "notwendig",
+    "wrong_answers": [
+      "überflüssig",
+      "nützlich",
+      "dringend"
+    ],
+    "explanation_en": "'notwendig' (necessary) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_notwendig_004",
+    "word_id": "adj_notwendig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Es ist _____, dass alle pünktlich kommen.",
+      "en": "It is necessary that everyone arrives on time."
+    },
+    "correct_answer": "notwendig",
+    "wrong_answers": [
+      "überflüssig",
+      "nützlich",
+      "dringend"
+    ],
+    "explanation_en": "'notwendig' (necessary) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_notwendig_003",
+    "word_id": "adj_notwendig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "necessary",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "notwendig",
+    "wrong_answers": [
+      "überflüssig",
+      "nützlich",
+      "dringend"
+    ],
+    "explanation_en": "'necessary' translates to 'notwendig' in German."
+  },
+  {
+    "exercise_id": "ex_adj_durchschnittlich_001",
+    "word_id": "adj_durchschnittlich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "durchschnittlich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "average",
+    "wrong_answers": [
+      "exceptional",
+      "approximate",
+      "total"
+    ],
+    "explanation_en": "'durchschnittlich' means 'average' in German. Opposite: 'außergewöhnlich'. From der Durchschnitt (average). Adverbial use is extremely common in statistics: durchschnittlich X pro Jahr."
+  },
+  {
+    "exercise_id": "ex_adj_durchschnittlich_002",
+    "word_id": "adj_durchschnittlich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ein Deutscher trinkt _____ 160 Liter Kaffee pro Jahr.",
+      "en": "A German drinks on average 160 litres of coffee per year."
+    },
+    "correct_answer": "durchschnittlich",
+    "wrong_answers": [
+      "außergewöhnlich",
+      "ungefähr",
+      "gesamt"
+    ],
+    "explanation_en": "'durchschnittlich' (average) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_durchschnittlich_004",
+    "word_id": "adj_durchschnittlich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Seine Noten sind nur _____.",
+      "en": "His grades are only average."
+    },
+    "correct_answer": "durchschnittlich",
+    "wrong_answers": [
+      "außergewöhnlich",
+      "ungefähr",
+      "gesamt"
+    ],
+    "explanation_en": "'durchschnittlich' (average) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_durchschnittlich_003",
+    "word_id": "adj_durchschnittlich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "average",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "durchschnittlich",
+    "wrong_answers": [
+      "außergewöhnlich",
+      "ungefähr",
+      "gesamt"
+    ],
+    "explanation_en": "'average' translates to 'durchschnittlich' in German."
+  },
+  {
+    "exercise_id": "ex_adj_freiwillig_001",
+    "word_id": "adj_freiwillig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "freiwillig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "voluntary / of one's own free will",
+    "wrong_answers": [
+      "forced",
+      "paid",
+      "spontaneous"
+    ],
+    "explanation_en": "'freiwillig' means 'voluntary / of one's own free will' in German. Opposite: 'gezwungen'. frei + der Wille (will). Noun: die Freiwilligen (volunteers), das freiwillige soziale Jahr (FSJ)."
+  },
+  {
+    "exercise_id": "ex_adj_freiwillig_002",
+    "word_id": "adj_freiwillig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Sie arbeitet _____ im Tierheim.",
+      "en": "She works voluntarily at the animal shelter."
+    },
+    "correct_answer": "freiwillig",
+    "wrong_answers": [
+      "gezwungen",
+      "bezahlt",
+      "spontan"
+    ],
+    "explanation_en": "'freiwillig' (voluntary / of one's own free will) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_freiwillig_004",
+    "word_id": "adj_freiwillig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Teilnahme am Kurs ist _____.",
+      "en": "Participation in the course is voluntary."
+    },
+    "correct_answer": "freiwillig",
+    "wrong_answers": [
+      "gezwungen",
+      "bezahlt",
+      "spontan"
+    ],
+    "explanation_en": "'freiwillig' (voluntary / of one's own free will) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_freiwillig_003",
+    "word_id": "adj_freiwillig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "voluntary / of one's own free will",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "freiwillig",
+    "wrong_answers": [
+      "gezwungen",
+      "bezahlt",
+      "spontan"
+    ],
+    "explanation_en": "'voluntary / of one's own free will' translates to 'freiwillig' in German."
+  },
+  {
+    "exercise_id": "ex_adj_zufaellig_001",
+    "word_id": "adj_zufaellig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "zufällig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "random / accidental / by chance",
+    "wrong_answers": [
+      "intentional",
+      "frequent",
+      "fortunate"
+    ],
+    "explanation_en": "'zufällig' means 'random / accidental / by chance' in German. Opposite: 'absichtlich'. From der Zufall (coincidence). Polite question softener: Weißt du zufällig …? = Do you happen to know …?"
+  },
+  {
+    "exercise_id": "ex_adj_zufaellig_002",
+    "word_id": "adj_zufaellig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wir haben uns _____ im Supermarkt getroffen.",
+      "en": "We met by chance at the supermarket."
+    },
+    "correct_answer": "zufällig",
+    "wrong_answers": [
+      "absichtlich",
+      "häufig",
+      "glücklich"
+    ],
+    "explanation_en": "'zufällig' (random / accidental / by chance) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_zufaellig_004",
+    "word_id": "adj_zufaellig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Weißt du _____, wie spät es ist?",
+      "en": "Do you happen to know what time it is?"
+    },
+    "correct_answer": "zufällig",
+    "wrong_answers": [
+      "absichtlich",
+      "häufig",
+      "glücklich"
+    ],
+    "explanation_en": "'zufällig' (random / accidental / by chance) fits this sentence."
+  },
+  {
+    "exercise_id": "ex_adj_zufaellig_003",
+    "word_id": "adj_zufaellig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "random / accidental / by chance",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "zufällig",
+    "wrong_answers": [
+      "absichtlich",
+      "häufig",
+      "glücklich"
+    ],
+    "explanation_en": "'random / accidental / by chance' translates to 'zufällig' in German."
+  },
+  {
+    "exercise_id": "ex_adj_zugrundeliegend_001",
+    "word_id": "adj_zugrundeliegend",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "zugrundeliegend",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "underlying",
+    "wrong_answers": [
+      "superficial",
+      "resulting",
+      "obvious"
+    ],
+    "explanation_en": "'zugrundeliegend' means 'underlying' in German. From zugrunde liegen + Dat (to underlie): 'Der Theorie liegt eine Annahme zugrunde.' Academic/report register. Also spelled 'zugrunde liegend'."
+  },
+  {
+    "exercise_id": "ex_adj_zugrundeliegend_002",
+    "word_id": "adj_zugrundeliegend",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ Ursache des Problems ist unklar.",
+      "en": "The underlying cause of the problem is unclear."
+    },
+    "correct_answer": "zugrundeliegende",
+    "wrong_answers": [
+      "oberflächliche",
+      "resultierende",
+      "offensichtliche"
+    ],
+    "explanation_en": "'zugrundeliegend' (underlying) fits this sentence. Attributive position — the adjective takes the ending: 'zugrundeliegende'."
+  },
+  {
+    "exercise_id": "ex_adj_zugrundeliegend_004",
+    "word_id": "adj_zugrundeliegend",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Studie liegen aktuelle Daten zugrunde — die _____ Methode ist solide.",
+      "en": "The study is based on current data — the underlying method is solid."
+    },
+    "correct_answer": "zugrundeliegende",
+    "wrong_answers": [
+      "oberflächliche",
+      "resultierende",
+      "offensichtliche"
+    ],
+    "explanation_en": "'zugrundeliegend' (underlying) fits this sentence. Attributive position — the adjective takes the ending: 'zugrundeliegende'."
+  },
+  {
+    "exercise_id": "ex_adj_zugrundeliegend_003",
+    "word_id": "adj_zugrundeliegend",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "underlying",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "zugrundeliegend",
+    "wrong_answers": [
+      "oberflächlich",
+      "resultierend",
+      "offensichtlich"
+    ],
+    "explanation_en": "'underlying' translates to 'zugrundeliegend' in German."
   }
 ]

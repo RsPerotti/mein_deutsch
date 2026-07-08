@@ -1,0 +1,854 @@
+[
+  {
+    "exercise_id": "ex_adv_irgendwann_001",
+    "word_id": "adv_irgendwann",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "irgendwann",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "at some point / someday",
+    "wrong_answers": [
+      "never",
+      "soon",
+      "somewhere",
+      "recently"
+    ],
+    "explanation_en": "'irgendwann' means 'at some point / someday'. irgend- makes things indefinite: irgendwann (some time), irgendwo (somewhere), irgendetwas (something)."
+  },
+  {
+    "exercise_id": "ex_adv_irgendwann_002",
+    "word_id": "adv_irgendwann",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ möchte ich nach Japan reisen.",
+      "en": "Someday I want to travel to Japan."
+    },
+    "correct_answer": "Irgendwann",
+    "wrong_answers": [
+      "Niemals",
+      "Bald",
+      "Irgendwo",
+      "Neulich"
+    ],
+    "explanation_en": "The correct word here is 'irgendwann' (at some point / someday)."
+  },
+  {
+    "exercise_id": "ex_adv_irgendwann_003",
+    "word_id": "adv_irgendwann",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "at some point / someday",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "irgendwann",
+    "wrong_answers": [
+      "Niemals",
+      "Bald",
+      "Irgendwo",
+      "Neulich"
+    ],
+    "explanation_en": "'at some point / someday' is 'irgendwann' in German."
+  },
+  {
+    "exercise_id": "ex_adv_irgendwann_004",
+    "word_id": "adv_irgendwann",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Irgendwann möchte ich nach Japan reisen.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Someday I want to travel to Japan.",
+    "wrong_answers": [
+      "I never want to travel to Japan.",
+      "I'm travelling to Japan right now.",
+      "I travel to Japan every year."
+    ],
+    "explanation_en": "'Irgendwann möchte ich nach Japan reisen.' = 'Someday I want to travel to Japan.' — 'irgendwann' means 'at some point / someday'."
+  },
+  {
+    "exercise_id": "ex_adv_mindestens_001",
+    "word_id": "adv_mindestens",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "mindestens",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "at least",
+    "wrong_answers": [
+      "at most",
+      "approximately",
+      "exactly",
+      "almost"
+    ],
+    "explanation_en": "'mindestens' means 'at least'. Opposite: höchstens (at most). With numbers and quantities: mindestens zehn Minuten."
+  },
+  {
+    "exercise_id": "ex_adv_mindestens_002",
+    "word_id": "adv_mindestens",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Flug dauert _____ acht Stunden.",
+      "en": "The flight takes at least eight hours."
+    },
+    "correct_answer": "mindestens",
+    "wrong_answers": [
+      "höchstens",
+      "ungefähr",
+      "genau",
+      "fast"
+    ],
+    "explanation_en": "The correct word here is 'mindestens' (at least)."
+  },
+  {
+    "exercise_id": "ex_adv_mindestens_003",
+    "word_id": "adv_mindestens",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "at least",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "mindestens",
+    "wrong_answers": [
+      "höchstens",
+      "ungefähr",
+      "genau",
+      "fast"
+    ],
+    "explanation_en": "'at least' is 'mindestens' in German."
+  },
+  {
+    "exercise_id": "ex_adv_mindestens_004",
+    "word_id": "adv_mindestens",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Der Flug dauert mindestens acht Stunden.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "The flight takes at least eight hours.",
+    "wrong_answers": [
+      "The flight takes at most eight hours.",
+      "The flight takes exactly eight hours.",
+      "The flight rarely takes eight hours."
+    ],
+    "explanation_en": "'Der Flug dauert mindestens acht Stunden.' = 'The flight takes at least eight hours.' — 'mindestens' means 'at least'."
+  },
+  {
+    "exercise_id": "ex_adv_insgesamt_001",
+    "word_id": "adv_insgesamt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "insgesamt",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "in total / altogether / overall",
+    "wrong_answers": [
+      "partially",
+      "on average",
+      "additionally",
+      "namely"
+    ],
+    "explanation_en": "'insgesamt' means 'in total / altogether / overall'. Sums things up: insgesamt gesehen = all in all. Very common in statistics and reports."
+  },
+  {
+    "exercise_id": "ex_adv_insgesamt_002",
+    "word_id": "adv_insgesamt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ haben sich 200 Personen angemeldet.",
+      "en": "In total, 200 people registered."
+    },
+    "correct_answer": "Insgesamt",
+    "wrong_answers": [
+      "Teilweise",
+      "Durchschnittlich",
+      "Zusätzlich",
+      "Nämlich"
+    ],
+    "explanation_en": "The correct word here is 'insgesamt' (in total / altogether / overall)."
+  },
+  {
+    "exercise_id": "ex_adv_insgesamt_003",
+    "word_id": "adv_insgesamt",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "in total / altogether / overall",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "insgesamt",
+    "wrong_answers": [
+      "Teilweise",
+      "Durchschnittlich",
+      "Zusätzlich",
+      "Nämlich"
+    ],
+    "explanation_en": "'in total / altogether / overall' is 'insgesamt' in German."
+  },
+  {
+    "exercise_id": "ex_adv_insgesamt_004",
+    "word_id": "adv_insgesamt",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Insgesamt haben sich 200 Personen angemeldet.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "In total, 200 people registered.",
+    "wrong_answers": [
+      "Only 200 people registered at first.",
+      "On average 200 people register.",
+      "Additionally, 200 people registered."
+    ],
+    "explanation_en": "'Insgesamt haben sich 200 Personen angemeldet.' = 'In total, 200 people registered.' — 'insgesamt' means 'in total / altogether / overall'."
+  },
+  {
+    "exercise_id": "ex_adv_gleichzeitig_001",
+    "word_id": "adv_gleichzeitig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "gleichzeitig",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "at the same time / simultaneously",
+    "wrong_answers": [
+      "one after another",
+      "immediately",
+      "occasionally",
+      "in advance"
+    ],
+    "explanation_en": "'gleichzeitig' means 'at the same time / simultaneously'. gleich (same) + Zeit (time). Also 'at once both X and Y': Das ist gleichzeitig schön und traurig."
+  },
+  {
+    "exercise_id": "ex_adv_gleichzeitig_002",
+    "word_id": "adv_gleichzeitig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich kann nicht zwei Dinge _____ tun.",
+      "en": "I can't do two things at the same time."
+    },
+    "correct_answer": "gleichzeitig",
+    "wrong_answers": [
+      "nacheinander",
+      "sofort",
+      "gelegentlich",
+      "vorher"
+    ],
+    "explanation_en": "The correct word here is 'gleichzeitig' (at the same time / simultaneously)."
+  },
+  {
+    "exercise_id": "ex_adv_gleichzeitig_003",
+    "word_id": "adv_gleichzeitig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "at the same time / simultaneously",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "gleichzeitig",
+    "wrong_answers": [
+      "nacheinander",
+      "sofort",
+      "gelegentlich",
+      "vorher"
+    ],
+    "explanation_en": "'at the same time / simultaneously' is 'gleichzeitig' in German."
+  },
+  {
+    "exercise_id": "ex_adv_gleichzeitig_004",
+    "word_id": "adv_gleichzeitig",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ich kann nicht zwei Dinge gleichzeitig tun.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I can't do two things at the same time.",
+    "wrong_answers": [
+      "I can't do two things one after another.",
+      "I can only do two things immediately.",
+      "I never do two things."
+    ],
+    "explanation_en": "'Ich kann nicht zwei Dinge gleichzeitig tun.' = 'I can't do two things at the same time.' — 'gleichzeitig' means 'at the same time / simultaneously'."
+  },
+  {
+    "exercise_id": "ex_adv_beinahe_001",
+    "word_id": "adv_beinahe",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "beinahe",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "almost / nearly",
+    "wrong_answers": [
+      "completely",
+      "barely",
+      "luckily",
+      "suddenly"
+    ],
+    "explanation_en": "'beinahe' means 'almost / nearly'. Synonym of fast. Often with hätte/wäre for near-misses: Ich wäre beinahe gefallen = I almost fell."
+  },
+  {
+    "exercise_id": "ex_adv_beinahe_002",
+    "word_id": "adv_beinahe",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich hätte _____ meinen Schlüssel vergessen.",
+      "en": "I almost forgot my key."
+    },
+    "correct_answer": "beinahe",
+    "wrong_answers": [
+      "völlig",
+      "kaum",
+      "zum Glück",
+      "plötzlich"
+    ],
+    "explanation_en": "The correct word here is 'beinahe' (almost / nearly)."
+  },
+  {
+    "exercise_id": "ex_adv_beinahe_003",
+    "word_id": "adv_beinahe",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "almost / nearly",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "beinahe",
+    "wrong_answers": [
+      "völlig",
+      "kaum",
+      "zum glück",
+      "plötzlich"
+    ],
+    "explanation_en": "'almost / nearly' is 'beinahe' in German."
+  },
+  {
+    "exercise_id": "ex_adv_beinahe_004",
+    "word_id": "adv_beinahe",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ich hätte beinahe meinen Schlüssel vergessen.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I almost forgot my key.",
+    "wrong_answers": [
+      "I completely forgot my key.",
+      "I definitely forgot my key.",
+      "I barely found my key."
+    ],
+    "explanation_en": "'Ich hätte beinahe meinen Schlüssel vergessen.' = 'I almost forgot my key.' — 'beinahe' means 'almost / nearly'."
+  },
+  {
+    "exercise_id": "ex_adv_lediglich_001",
+    "word_id": "adv_lediglich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "lediglich",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "merely / only",
+    "wrong_answers": [
+      "mainly",
+      "at least",
+      "precisely",
+      "truly"
+    ],
+    "explanation_en": "'lediglich' means 'merely / only'. Formal/written synonym of nur. Downplays: lediglich eine Formalität = just a formality."
+  },
+  {
+    "exercise_id": "ex_adv_lediglich_002",
+    "word_id": "adv_lediglich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Es war _____ ein Missverständnis.",
+      "en": "It was merely a misunderstanding."
+    },
+    "correct_answer": "lediglich",
+    "wrong_answers": [
+      "hauptsächlich",
+      "mindestens",
+      "genau",
+      "wirklich"
+    ],
+    "explanation_en": "The correct word here is 'lediglich' (merely / only)."
+  },
+  {
+    "exercise_id": "ex_adv_lediglich_003",
+    "word_id": "adv_lediglich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "merely / only",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "lediglich",
+    "wrong_answers": [
+      "hauptsächlich",
+      "mindestens",
+      "genau",
+      "wirklich"
+    ],
+    "explanation_en": "'merely / only' is 'lediglich' in German."
+  },
+  {
+    "exercise_id": "ex_adv_lediglich_004",
+    "word_id": "adv_lediglich",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Es war lediglich ein Missverständnis.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "It was merely a misunderstanding.",
+    "wrong_answers": [
+      "It was mainly a misunderstanding.",
+      "It was definitely not a misunderstanding.",
+      "It was a serious misunderstanding."
+    ],
+    "explanation_en": "'Es war lediglich ein Missverständnis.' = 'It was merely a misunderstanding.' — 'lediglich' means 'merely / only'."
+  },
+  {
+    "exercise_id": "ex_adv_erneut_001",
+    "word_id": "adv_erneut",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "erneut",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "again / once more (formal)",
+    "wrong_answers": [
+      "for the first time",
+      "finally",
+      "rarely",
+      "completely"
+    ],
+    "explanation_en": "'erneut' means 'again / once more (formal)'. Written/news synonym of wieder/noch einmal. From neu (new). Verb: erneuern (to renew)."
+  },
+  {
+    "exercise_id": "ex_adv_erneut_002",
+    "word_id": "adv_erneut",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Versuch ist _____ gescheitert.",
+      "en": "The attempt failed once again."
+    },
+    "correct_answer": "erneut",
+    "wrong_answers": [
+      "erstmals",
+      "endlich",
+      "selten",
+      "völlig"
+    ],
+    "explanation_en": "The correct word here is 'erneut' (again / once more (formal))."
+  },
+  {
+    "exercise_id": "ex_adv_erneut_003",
+    "word_id": "adv_erneut",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "again / once more (formal)",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "erneut",
+    "wrong_answers": [
+      "erstmals",
+      "endlich",
+      "selten",
+      "völlig"
+    ],
+    "explanation_en": "'again / once more (formal)' is 'erneut' in German."
+  },
+  {
+    "exercise_id": "ex_adv_erneut_004",
+    "word_id": "adv_erneut",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Der Versuch ist erneut gescheitert.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "The attempt failed once again.",
+    "wrong_answers": [
+      "The attempt failed for the first time.",
+      "The attempt finally succeeded.",
+      "The attempt rarely fails."
+    ],
+    "explanation_en": "'Der Versuch ist erneut gescheitert.' = 'The attempt failed once again.' — 'erneut' means 'again / once more (formal)'."
+  },
+  {
+    "exercise_id": "ex_adv_vorwärts_001",
+    "word_id": "adv_vorwärts",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "vorwärts",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "forward / ahead",
+    "wrong_answers": [
+      "backward",
+      "sideways",
+      "upward",
+      "downhill"
+    ],
+    "explanation_en": "'vorwärts' means 'forward / ahead'. The -wärts family: rückwärts (backward), aufwärts (upward), abwärts (downward), seitwärts (sideways)."
+  },
+  {
+    "exercise_id": "ex_adv_vorwärts_002",
+    "word_id": "adv_vorwärts",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Im Stau kommen wir nur langsam _____.",
+      "en": "In the traffic jam we only move forward slowly."
+    },
+    "correct_answer": "vorwärts",
+    "wrong_answers": [
+      "rückwärts",
+      "seitwärts",
+      "aufwärts",
+      "abwärts"
+    ],
+    "explanation_en": "The correct word here is 'vorwärts' (forward / ahead)."
+  },
+  {
+    "exercise_id": "ex_adv_vorwärts_003",
+    "word_id": "adv_vorwärts",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "forward / ahead",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "vorwärts",
+    "wrong_answers": [
+      "rückwärts",
+      "seitwärts",
+      "aufwärts",
+      "abwärts"
+    ],
+    "explanation_en": "'forward / ahead' is 'vorwärts' in German."
+  },
+  {
+    "exercise_id": "ex_adv_vorwärts_004",
+    "word_id": "adv_vorwärts",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Im Stau kommen wir nur langsam vorwärts.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "In the traffic jam we only move forward slowly.",
+    "wrong_answers": [
+      "In the traffic jam we roll backward slowly.",
+      "In the traffic jam we don't move at all.",
+      "We leave the traffic jam quickly."
+    ],
+    "explanation_en": "'Im Stau kommen wir nur langsam vorwärts.' = 'In the traffic jam we only move forward slowly.' — 'vorwärts' means 'forward / ahead'."
+  },
+  {
+    "exercise_id": "ex_adv_vergleichsweise_001",
+    "word_id": "adv_vergleichsweise",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "vergleichsweise",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "comparatively / relatively",
+    "wrong_answers": [
+      "extremely",
+      "surprisingly",
+      "consistently",
+      "allegedly"
+    ],
+    "explanation_en": "'vergleichsweise' means 'comparatively / relatively'. From der Vergleich (comparison) + -weise. The -weise family: beispielsweise, teilweise, möglicherweise."
+  },
+  {
+    "exercise_id": "ex_adv_vergleichsweise_002",
+    "word_id": "adv_vergleichsweise",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Winter war _____ mild.",
+      "en": "The winter was comparatively mild."
+    },
+    "correct_answer": "vergleichsweise",
+    "wrong_answers": [
+      "äußerst",
+      "überraschend",
+      "durchgehend",
+      "angeblich"
+    ],
+    "explanation_en": "The correct word here is 'vergleichsweise' (comparatively / relatively)."
+  },
+  {
+    "exercise_id": "ex_adv_vergleichsweise_003",
+    "word_id": "adv_vergleichsweise",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "comparatively / relatively",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "vergleichsweise",
+    "wrong_answers": [
+      "äußerst",
+      "überraschend",
+      "durchgehend",
+      "angeblich"
+    ],
+    "explanation_en": "'comparatively / relatively' is 'vergleichsweise' in German."
+  },
+  {
+    "exercise_id": "ex_adv_vergleichsweise_004",
+    "word_id": "adv_vergleichsweise",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Der Winter war vergleichsweise mild.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "The winter was comparatively mild.",
+    "wrong_answers": [
+      "The winter was extremely cold.",
+      "The winter was surprisingly long.",
+      "The winter has not started yet."
+    ],
+    "explanation_en": "'Der Winter war vergleichsweise mild.' = 'The winter was comparatively mild.' — 'vergleichsweise' means 'comparatively / relatively'."
+  },
+  {
+    "exercise_id": "ex_adv_irgendetwas_001",
+    "word_id": "adv_irgendetwas",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "irgendetwas",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "something / anything (indefinite)",
+    "wrong_answers": [
+      "someone",
+      "nothing",
+      "everything",
+      "somewhere"
+    ],
+    "explanation_en": "'irgendetwas' means 'something / anything (indefinite)'. Colloquial short form: irgendwas. Family: irgendjemand (someone), irgendwo (somewhere), irgendwie (somehow)."
+  },
+  {
+    "exercise_id": "ex_adv_irgendetwas_002",
+    "word_id": "adv_irgendetwas",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ stimmt hier nicht.",
+      "en": "Something is not right here."
+    },
+    "correct_answer": "Irgendetwas",
+    "wrong_answers": [
+      "Irgendjemand",
+      "Nichts",
+      "Alles",
+      "Irgendwo"
+    ],
+    "explanation_en": "The correct word here is 'irgendetwas' (something / anything (indefinite))."
+  },
+  {
+    "exercise_id": "ex_adv_irgendetwas_003",
+    "word_id": "adv_irgendetwas",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "something / anything (indefinite)",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "irgendetwas",
+    "wrong_answers": [
+      "Irgendjemand",
+      "Nichts",
+      "Alles",
+      "Irgendwo"
+    ],
+    "explanation_en": "'something / anything (indefinite)' is 'irgendetwas' in German."
+  },
+  {
+    "exercise_id": "ex_adv_irgendetwas_004",
+    "word_id": "adv_irgendetwas",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Irgendetwas stimmt hier nicht.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Something is not right here.",
+    "wrong_answers": [
+      "Nothing is right here.",
+      "Everything is fine here.",
+      "Someone is not right here."
+    ],
+    "explanation_en": "'Irgendetwas stimmt hier nicht.' = 'Something is not right here.' — 'irgendetwas' means 'something / anything (indefinite)'."
+  },
+  {
+    "exercise_id": "ex_adv_entweder_001",
+    "word_id": "adv_entweder",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "entweder",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "either (… or)",
+    "wrong_answers": [
+      "neither (… nor)",
+      "both",
+      "otherwise",
+      "unless"
+    ],
+    "explanation_en": "'entweder' means 'either (… or)'. Fixed pair: entweder … oder = either … or. Negative counterpart: weder … noch = neither … nor."
+  },
+  {
+    "exercise_id": "ex_adv_entweder_002",
+    "word_id": "adv_entweder",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ kommst du jetzt mit, oder du bleibst hier.",
+      "en": "Either you come along now, or you stay here."
+    },
+    "correct_answer": "Entweder",
+    "wrong_answers": [
+      "Weder",
+      "Sowohl",
+      "Andernfalls",
+      "Außerdem"
+    ],
+    "explanation_en": "The correct word here is 'entweder' (either (… or))."
+  },
+  {
+    "exercise_id": "ex_adv_entweder_003",
+    "word_id": "adv_entweder",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "either (… or)",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "entweder",
+    "wrong_answers": [
+      "Weder",
+      "Sowohl",
+      "Andernfalls",
+      "Außerdem"
+    ],
+    "explanation_en": "'either (… or)' is 'entweder' in German."
+  },
+  {
+    "exercise_id": "ex_adv_entweder_004",
+    "word_id": "adv_entweder",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Entweder kommst du jetzt mit, oder du bleibst hier.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Either you come along now, or you stay here.",
+    "wrong_answers": [
+      "Neither do you come along, nor do you stay.",
+      "You always come along.",
+      "You can stay here as long as you like."
+    ],
+    "explanation_en": "'Entweder kommst du jetzt mit, oder du bleibst hier.' = 'Either you come along now, or you stay here.' — 'entweder' means 'either (… or)'."
+  },
+  {
+    "exercise_id": "ex_adv_sondern_001",
+    "word_id": "adv_sondern",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "sondern",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "but (rather) — after a negation",
+    "wrong_answers": [
+      "but (however)",
+      "because",
+      "therefore",
+      "although"
+    ],
+    "explanation_en": "'sondern' means 'but (rather) — after a negation'. Only after a negation, correcting it: nicht X, sondern Y. 'aber' contrasts without correcting. Fixed phrase: nicht nur … sondern auch."
+  },
+  {
+    "exercise_id": "ex_adv_sondern_002",
+    "word_id": "adv_sondern",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er ist nicht nur klug, _____ auch fleißig.",
+      "en": "He is not only clever but also hard-working."
+    },
+    "correct_answer": "sondern",
+    "wrong_answers": [
+      "aber",
+      "denn",
+      "deshalb",
+      "obwohl"
+    ],
+    "explanation_en": "The correct word here is 'sondern' (but (rather) — after a negation)."
+  },
+  {
+    "exercise_id": "ex_adv_sondern_003",
+    "word_id": "adv_sondern",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "but (rather) — after a negation",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "sondern",
+    "wrong_answers": [
+      "aber",
+      "denn",
+      "deshalb",
+      "obwohl"
+    ],
+    "explanation_en": "'but (rather) — after a negation' is 'sondern' in German."
+  },
+  {
+    "exercise_id": "ex_adv_sondern_004",
+    "word_id": "adv_sondern",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Er ist nicht nur klug, sondern auch fleißig.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "He is not only clever but also hard-working.",
+    "wrong_answers": [
+      "He is clever but lazy.",
+      "He is neither clever nor hard-working.",
+      "He is clever because he works hard."
+    ],
+    "explanation_en": "'Er ist nicht nur klug, sondern auch fleißig.' = 'He is not only clever but also hard-working.' — 'sondern' means 'but (rather) — after a negation'."
+  }
+]

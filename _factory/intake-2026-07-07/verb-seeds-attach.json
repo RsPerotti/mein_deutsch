@@ -1,0 +1,482 @@
+{
+  "_schema": "Prefix variants to attach to EXISTING roots in data/verbs.json. Present forms are derived from the base root's conjugation. praet = 6 base forms or ich-form string (regular).",
+  "attach": [
+    {
+      "word": "anschließen",
+      "base": "schließen",
+      "prefix": "an",
+      "separable": true,
+      "english": "to connect (a device) / (sich) to join",
+      "cefr": "B1",
+      "praet": [
+        "schloss",
+        "schlossest",
+        "schloss",
+        "schlossen",
+        "schlosst",
+        "schlossen"
+      ],
+      "pp": "angeschlossen",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Ich _____ den Drucker an den Computer _____.",
+          "en": "I connect the printer to the computer.",
+          "ans": "schließe ... an",
+          "p": "ich"
+        },
+        {
+          "de": "_____ du dich unserer Gruppe _____?",
+          "en": "Are you joining our group?",
+          "ans": "Schließt ... an",
+          "p": "du"
+        },
+        {
+          "de": "Er _____ das Kabel an den Fernseher _____.",
+          "en": "He connects the cable to the TV.",
+          "ans": "schließt ... an",
+          "p": "er_sie_es"
+        }
+      ],
+      "tdist": [
+        "to close",
+        "to exclude",
+        "to unlock",
+        "to decide"
+      ],
+      "notes": "Separable: Ich schließe das Gerät an. Reflexive 'sich anschließen' + Dativ = to join: 'Ich schließe mich euch an.'"
+    },
+    {
+      "word": "vorhersagen",
+      "base": "sagen",
+      "prefix": "vorher",
+      "separable": true,
+      "english": "to predict / to forecast",
+      "cefr": "B1",
+      "praet": "sagte",
+      "pp": "vorhergesagt",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Der Wetterbericht _____ für morgen Regen _____.",
+          "en": "The weather report predicts rain for tomorrow.",
+          "ans": "sagt ... vorher",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "Niemand kann die Zukunft _____.",
+          "en": "Nobody can predict the future.",
+          "ans": "vorhersagen",
+          "p": "inf"
+        },
+        {
+          "de": "Die Experten _____ steigende Preise _____.",
+          "en": "The experts predict rising prices.",
+          "ans": "sagen ... vorher",
+          "p": "sie_Sie"
+        }
+      ],
+      "tdist": [
+        "to say goodbye",
+        "to promise",
+        "to remember",
+        "to announce"
+      ],
+      "notes": "Separable with the double prefix 'vorher': Er sagt das Wetter vorher. Related noun: die Vorhersage (forecast)."
+    },
+    {
+      "word": "vorhersehen",
+      "base": "sehen",
+      "prefix": "vorher",
+      "separable": true,
+      "english": "to foresee / to anticipate",
+      "cefr": "B2",
+      "praet": [
+        "sah",
+        "sahst",
+        "sah",
+        "sahen",
+        "saht",
+        "sahen"
+      ],
+      "pp": "vorhergesehen",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Niemand konnte den Unfall _____.",
+          "en": "Nobody could foresee the accident.",
+          "ans": "vorhersehen",
+          "p": "inf"
+        },
+        {
+          "de": "Ich _____ schon jetzt große Schwierigkeiten _____.",
+          "en": "I already foresee big difficulties.",
+          "ans": "sehe ... vorher",
+          "p": "ich"
+        },
+        {
+          "de": "Er _____ die Folgen genau _____.",
+          "en": "He foresees the consequences precisely.",
+          "ans": "sieht ... vorher",
+          "p": "er_sie_es"
+        }
+      ],
+      "tdist": [
+        "to look forward to",
+        "to review",
+        "to plan",
+        "to overlook"
+      ],
+      "notes": "Separable: Er sieht Probleme vorher. Related adjective: vorhersehbar (foreseeable, predictable)."
+    },
+    {
+      "word": "zusammenstellen",
+      "base": "stellen",
+      "prefix": "zusammen",
+      "separable": true,
+      "english": "to put together / to compile",
+      "cefr": "B1",
+      "praet": "stellte",
+      "pp": "zusammengestellt",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Ich _____ eine Playlist für die Party _____.",
+          "en": "I put together a playlist for the party.",
+          "ans": "stelle ... zusammen",
+          "p": "ich"
+        },
+        {
+          "de": "Sie _____ das Menü für die Hochzeit _____.",
+          "en": "She puts together the menu for the wedding.",
+          "ans": "stellt ... zusammen",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "Wir müssen die Unterlagen noch _____.",
+          "en": "We still have to compile the documents.",
+          "ans": "zusammenstellen",
+          "p": "inf"
+        }
+      ],
+      "tdist": [
+        "to stand together",
+        "to order",
+        "to introduce",
+        "to collect"
+      ],
+      "notes": "Separable: Ich stelle die Liste zusammen. Related noun: die Zusammenstellung (compilation)."
+    },
+    {
+      "word": "gleichsetzen",
+      "base": "setzen",
+      "prefix": "gleich",
+      "separable": true,
+      "english": "to equate (mit = with)",
+      "cefr": "B2",
+      "praet": "setzte",
+      "pp": "gleichgesetzt",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Man darf Preis nicht mit Wert _____.",
+          "en": "One must not equate price with value.",
+          "ans": "gleichsetzen",
+          "p": "inf"
+        },
+        {
+          "de": "Er _____ Schweigen mit Zustimmung _____.",
+          "en": "He equates silence with agreement.",
+          "ans": "setzt ... gleich",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "Viele _____ Erfolg mit Geld _____.",
+          "en": "Many people equate success with money.",
+          "ans": "setzen ... gleich",
+          "p": "sie_Sie"
+        }
+      ],
+      "tdist": [
+        "to sit down",
+        "to compare carefully",
+        "to replace",
+        "to balance"
+      ],
+      "notes": "Separable. gleichsetzen = to treat as identical (mit + Dativ). Contrast gleichstellen = to give equal legal/social status."
+    },
+    {
+      "word": "gleichstellen",
+      "base": "stellen",
+      "prefix": "gleich",
+      "separable": true,
+      "english": "to give equal status / to treat as equal",
+      "cefr": "B2",
+      "praet": "stellte",
+      "pp": "gleichgestellt",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Das Gesetz _____ alle Bürger _____.",
+          "en": "The law gives all citizens equal status.",
+          "ans": "stellt ... gleich",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "Der Betrieb will Teilzeitkräfte den Vollzeitkräften _____.",
+          "en": "The company wants to give part-time workers equal status with full-time workers.",
+          "ans": "gleichstellen",
+          "p": "inf"
+        },
+        {
+          "de": "Wir _____ beide Gruppen rechtlich _____.",
+          "en": "We give both groups equal legal status.",
+          "ans": "stellen ... gleich",
+          "p": "wir"
+        }
+      ],
+      "tdist": [
+        "to stand up",
+        "to adjust",
+        "to introduce",
+        "to promote"
+      ],
+      "notes": "Separable. gleichstellen = equal STATUS (rights, law). Contrast gleichsetzen = to claim two things are the SAME. Related noun: die Gleichstellung."
+    },
+    {
+      "word": "herausrechnen",
+      "base": "rechnen",
+      "prefix": "heraus",
+      "separable": true,
+      "english": "to factor out / to exclude from a calculation",
+      "cefr": "B2",
+      "praet": "rechnete",
+      "pp": "herausgerechnet",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Die Statistiker _____ saisonale Effekte _____.",
+          "en": "The statisticians factor out seasonal effects.",
+          "ans": "rechnen ... heraus",
+          "p": "sie_Sie"
+        },
+        {
+          "de": "Ich _____ die Mehrwertsteuer _____.",
+          "en": "I factor out the VAT.",
+          "ans": "rechne ... heraus",
+          "p": "ich"
+        },
+        {
+          "de": "Man muss die Inflation _____.",
+          "en": "One has to factor out inflation.",
+          "ans": "herausrechnen",
+          "p": "inf"
+        }
+      ],
+      "tdist": [
+        "to calculate",
+        "to add up",
+        "to estimate",
+        "to guess"
+      ],
+      "notes": "Separable: Wir rechnen den Effekt heraus. Common in statistics and data journalism."
+    },
+    {
+      "word": "abmachen",
+      "base": "machen",
+      "prefix": "ab",
+      "separable": true,
+      "english": "to agree on / to arrange; to take off",
+      "cefr": "B1",
+      "praet": "machte",
+      "pp": "abgemacht",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Wir _____ einen Termin für nächste Woche _____.",
+          "en": "We arrange an appointment for next week.",
+          "ans": "machen ... ab",
+          "p": "wir"
+        },
+        {
+          "de": "Ich _____ das Preisschild vom Geschenk _____.",
+          "en": "I take the price tag off the present.",
+          "ans": "mache ... ab",
+          "p": "ich"
+        },
+        {
+          "de": "Er _____ mit ihr ein geheimes Zeichen _____.",
+          "en": "He agrees on a secret signal with her.",
+          "ans": "macht ... ab",
+          "p": "er_sie_es"
+        }
+      ],
+      "tdist": [
+        "to cancel",
+        "to clean up",
+        "to turn off",
+        "to pick up"
+      ],
+      "notes": "Separable. Two meanings: arrange/agree ('einen Termin abmachen') and remove ('das Etikett abmachen'). 'Abgemacht!' = Deal! (see Ausdrücke)."
+    },
+    {
+      "word": "angehören",
+      "base": "gehören",
+      "prefix": "an",
+      "separable": true,
+      "english": "to belong to / to be a member of (+ Dativ)",
+      "cefr": "B2",
+      "praet": "gehörte",
+      "pp": "angehört",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Ich _____ keiner Partei _____.",
+          "en": "I don't belong to any political party.",
+          "ans": "gehöre ... an",
+          "p": "ich"
+        },
+        {
+          "de": "Er _____ dem Vorstand seit Jahren _____.",
+          "en": "He has been a member of the board for years.",
+          "ans": "gehört ... an",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "Diese Länder _____ der EU _____.",
+          "en": "These countries belong to the EU.",
+          "ans": "gehören ... an",
+          "p": "sie_Sie"
+        }
+      ],
+      "tdist": [
+        "to listen to",
+        "to belong to someone (as property)",
+        "to join",
+        "to depend on"
+      ],
+      "notes": "Separable, takes the Dativ: Ich gehöre dem Verein an. Contrast gehören + Dativ = possession ('Das Buch gehört mir'), angehören = membership."
+    },
+    {
+      "word": "verändern",
+      "base": "ändern",
+      "prefix": "ver",
+      "separable": false,
+      "english": "to change / to alter",
+      "cefr": "B1",
+      "praet": "veränderte",
+      "pp": "verändert",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Die Stadt _____ sich schnell.",
+          "en": "The city is changing quickly.",
+          "ans": "verändert",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "Ich _____ nichts an meinem Plan.",
+          "en": "I'm not changing anything about my plan.",
+          "ans": "verändere",
+          "p": "ich"
+        },
+        {
+          "de": "Du _____ dich gar nicht!",
+          "en": "You haven't changed at all!",
+          "ans": "veränderst",
+          "p": "du"
+        }
+      ],
+      "tdist": [
+        "to exchange",
+        "to repair",
+        "to improve",
+        "to move"
+      ],
+      "notes": "Inseparable: Ich verändere mich. ändern = change something concrete (plans, rules); verändern = transform, often reflexive ('sich verändern')."
+    },
+    {
+      "word": "beziehen",
+      "base": "ziehen",
+      "prefix": "be",
+      "separable": false,
+      "english": "to refer to (sich beziehen auf) / to obtain / to move into",
+      "cefr": "B2",
+      "praet": [
+        "bezog",
+        "bezogst",
+        "bezog",
+        "bezogen",
+        "bezogt",
+        "bezogen"
+      ],
+      "pp": "bezogen",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Meine Frage _____ sich auf den letzten Punkt.",
+          "en": "My question refers to the last point.",
+          "ans": "bezieht",
+          "p": "er_sie_es"
+        },
+        {
+          "de": "Wir _____ nächsten Monat die neue Wohnung.",
+          "en": "We are moving into the new apartment next month.",
+          "ans": "beziehen",
+          "p": "wir"
+        },
+        {
+          "de": "Worauf _____ du dich genau?",
+          "en": "What exactly are you referring to?",
+          "ans": "beziehst",
+          "p": "du"
+        }
+      ],
+      "tdist": [
+        "to pull",
+        "to pay",
+        "to receive guests",
+        "to move out"
+      ],
+      "notes": "Inseparable. Key pattern: 'sich beziehen auf' + Akkusativ = to refer to. Also: eine Rente beziehen (to draw a pension), eine Wohnung beziehen (to move in)."
+    },
+    {
+      "word": "wohlfühlen",
+      "prefix": "wohl",
+      "separable": true,
+      "english": "to feel comfortable / to feel at ease (sich wohlfühlen)",
+      "cefr": "B1",
+      "praet": "fühlte",
+      "pp": "wohlgefühlt",
+      "aux": "haben",
+      "sent": [
+        {
+          "de": "Ich _____ mich in meiner neuen Wohnung sehr _____.",
+          "en": "I feel very comfortable in my new apartment.",
+          "ans": "fühle ... wohl",
+          "p": "ich"
+        },
+        {
+          "de": "_____ du dich in der Firma _____?",
+          "en": "Do you feel at ease at the company?",
+          "ans": "Fühlst ... wohl",
+          "p": "du"
+        },
+        {
+          "de": "Die Gäste sollen sich bei uns _____.",
+          "en": "The guests should feel at ease with us.",
+          "ans": "wohlfühlen",
+          "p": "inf"
+        }
+      ],
+      "tdist": [
+        "to behave well",
+        "to recover",
+        "to relax",
+        "to enjoy oneself"
+      ],
+      "notes": "Always reflexive: sich wohlfühlen. Separable: Ich fühle mich hier wohl. Related noun: das Wohlbefinden.",
+      "base": "fühlen"
+    }
+  ]
+}

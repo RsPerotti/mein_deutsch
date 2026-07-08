@@ -83,5 +83,16 @@
     "icon": "🔡",
     "unlock_order": 8,
     "status": "active"
+  },
+  {
+    "id": "module_expressions",
+    "title_de": "Ausdrücke",
+    "title_en": "Expressions",
+    "description_en": "Common expressions and idioms that make your German sound natural — from Schwein haben to Abgemacht!",
+    "icon": "💬",
+    "data_file": "expressions.json",
+    "exercises_file": "exercises-expressions.json",
+    "unlock_order": 9,
+    "status": "active"
   }
 ]

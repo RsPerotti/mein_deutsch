@@ -91,6 +91,8 @@ function startExercise(state) {
     contextLabel = 'ADJEKTIVE · GRUNDFORMEN';
   } else if (moduleId === 'module_prepositions') {
     contextLabel = 'PRÄPOSITIONEN · ÜBUNGEN';
+  } else if (moduleId === 'module_expressions') {
+    contextLabel = 'AUSDRÜCKE · ÜBUNGEN';
   } else if (moduleId === 'module_particles') {
     const catLabels = {
       'modal-softening':    'ERWEICHEN',
