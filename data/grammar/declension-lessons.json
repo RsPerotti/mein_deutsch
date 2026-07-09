@@ -1,0 +1,377 @@
+[
+  {
+    "id": "dekl-warum-endungen",
+    "title": "Warum Endungen?",
+    "order": 1,
+    "unlocks": [],
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Two positions, two behaviors",
+        "body": "A German adjective behaves differently depending on where it stands. After the noun (predicative position, usually with sein/werden/bleiben), it never changes — it stays in its base form. Before the noun (attributive position), it always takes an ending. This module is entirely about that second position.",
+        "example_de": "Der Hund ist groß. → der große Hund",
+        "example_en": "The dog is big. → the big dog"
+      },
+      {
+        "type": "explanation",
+        "heading": "The signal principle",
+        "body": "German grammar wants every noun phrase to signal its gender and case exactly once, clearly. Usually the article does that job: 'der' already tells you masculine nominative. When the article gives a strong signal, the adjective can relax. When the article gives a weak signal or is missing, the adjective must carry the signal itself. Every declension rule follows from this one idea.",
+        "example_de": "der alte Mann · alter Mann",
+        "example_en": "the old man (article signals) · old man (adjective signals)"
+      },
+      {
+        "type": "explanation",
+        "heading": "The three patterns",
+        "body": "There are exactly three patterns, named after how strong the adjective's job is. Schwach (weak): after der-words like der/die/das, dieser, jeder — the article does all the work. Gemischt (mixed): after ein-words like ein, kein, mein — the article does most of the work, but fails in three spots. Stark (strong): no article at all — the adjective does everything.",
+        "example_de": "der gute Wein · ein guter Wein · guter Wein",
+        "example_en": "the good wine · a good wine · good wine"
+      },
+      {
+        "type": "explanation",
+        "heading": "Case recap: the four questions",
+        "body": "Endings depend on case, so you need the four cases at your fingertips. Nominativ marks the subject (wer?). Akkusativ marks the direct object (wen?) and follows prepositions like für, ohne, durch. Dativ marks the indirect object (wem?) and follows mit, bei, von, zu, nach, aus. Genitiv shows possession (wessen?) and follows wegen, trotz, während.",
+        "example_de": "Der Mann gibt dem Kind den Ball des Nachbarn.",
+        "example_en": "The man (Nom) gives the child (Dat) the neighbor's (Gen) ball (Akk)."
+      }
+    ],
+    "key_rules": [
+      "Predicative adjectives (after sein/werden/bleiben) never take an ending.",
+      "Attributive adjectives (before a noun) always take an ending.",
+      "The signal principle: gender and case must be marked once — by the article if it can, otherwise by the adjective.",
+      "Three patterns: schwach (after der-words), gemischt (after ein-words), stark (no article).",
+      "Endings depend on three things: pattern, case, and gender."
+    ],
+    "quiz": [
+      {
+        "type": "rule_check",
+        "question": "In which sentence does 'groß' need an ending?",
+        "options": ["Das Haus ist groß.", "Das groß__ Haus steht dort.", "Das Haus bleibt groß.", "Das Haus wird groß."],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "What determines which declension pattern an adjective follows?",
+        "options": ["The length of the adjective", "The word that stands before it (der-word, ein-word, or nothing)", "Whether the noun is a person or a thing", "The position in the sentence"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "What is the core idea behind all adjective endings?",
+        "options": ["Adjectives must rhyme with their noun", "Gender and case must be signaled exactly once in the noun phrase", "Longer words take longer endings", "Endings mark whether the noun is plural"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "Which pattern applies in 'ein guter Wein'?",
+        "options": ["Schwach", "Gemischt", "Stark", "No pattern — predicative"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "Which case answers the question 'wem?'",
+        "options": ["Nominativ", "Akkusativ", "Dativ", "Genitiv"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "dekl-schwach",
+    "title": "Schwache Deklination",
+    "order": 2,
+    "unlocks": [],
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "After der-words, the adjective relaxes",
+        "body": "The weak declension applies after der/die/das and other der-words: dieser, jeder, jener, welcher, alle. These words already signal gender and case perfectly, so the adjective needs almost no information. It uses only two endings in the entire table: -e and -en.",
+        "example_de": "der junge Mann · diese kleine Stadt · jedes neue Buch",
+        "example_en": "the young man · this small town · every new book"
+      },
+      {
+        "type": "explanation",
+        "heading": "The -e zone",
+        "body": "Only five combinations take -e; everything else takes -en. The -e zone is: all three genders in the Nominativ singular, plus feminine and neuter in the Akkusativ singular. Notice why masculine Akkusativ is excluded: 'der' changes to 'den', and the adjective echoes that change with -en.",
+        "example_de": "der alte Mann · die alte Frau · das alte Haus · Ich sehe den alten Mann.",
+        "example_en": "Nominativ: all -e. But: I see the old man (Akk m → -en)."
+      },
+      {
+        "type": "explanation",
+        "heading": "Everything else is -en",
+        "body": "Outside the -e zone, every single form is -en: masculine Akkusativ, the whole Dativ row, the whole Genitiv row, and all plurals in every case. This makes weak declension the easiest pattern: when in doubt, -en is right far more often than not.",
+        "example_de": "mit dem alten Mann · trotz der alten Häuser · die alten Bücher",
+        "example_en": "with the old man (Dat) · despite the old houses (Gen) · the old books (pl)"
+      },
+      {
+        "type": "explanation",
+        "heading": "The full weak table",
+        "body": "Nominativ: -e / -e / -e / -en (m/f/n/pl). Akkusativ: -en / -e / -e / -en. Dativ: -en across the board. Genitiv: -en across the board. Two endings total — learn the five -e slots and you know the whole pattern.",
+        "example_de": "der gute Wein, den guten Wein, dem guten Wein, des guten Weins",
+        "example_en": "the good wine through all four cases (masculine)"
+      }
+    ],
+    "key_rules": [
+      "Weak declension follows der-words: der/die/das, dieser, jeder, jener, welcher, alle.",
+      "Only two endings exist: -e and -en.",
+      "The -e zone: Nominativ singular (all genders) + Akkusativ singular feminine and neuter.",
+      "Everything else — Akkusativ masculine, all Dativ, all Genitiv, all plurals — takes -en.",
+      "When unsure in the weak pattern, -en is the statistically safe guess."
+    ],
+    "quiz": [
+      {
+        "type": "rule_check",
+        "question": "Which words trigger the weak declension?",
+        "options": ["ein, kein, mein", "der, dieser, jeder", "No article at all", "Prepositions like mit and für"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "How many different endings does the weak declension use?",
+        "options": ["Two: -e and -en", "Three: -e, -en, -er", "Four: -e, -en, -er, -es", "Five: all possible endings"],
+        "correct": 0
+      },
+      {
+        "type": "rule_check",
+        "question": "Der alt__ Mann schläft. Which ending?",
+        "options": ["-en", "-er", "-e", "-es"],
+        "correct": 2
+      },
+      {
+        "type": "rule_check",
+        "question": "Ich sehe den alt__ Mann. Why -en?",
+        "options": ["Masculine Akkusativ leaves the -e zone", "Dativ always takes -en", "The noun is plural", "Adjectives before Mann always take -en"],
+        "correct": 0
+      },
+      {
+        "type": "rule_check",
+        "question": "Which ending do ALL plurals take in the weak declension?",
+        "options": ["-e", "-er", "-en", "-es"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "dekl-gemischt",
+    "title": "Gemischte Deklination",
+    "order": 3,
+    "unlocks": [],
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Ein-words almost do the job",
+        "body": "The mixed declension follows ein-words: ein, kein, and the possessives mein, dein, sein, ihr, unser, euer. These words signal case well — but with a flaw. In three spots, 'ein' looks identical and reveals nothing about gender. That is where the adjective must step in.",
+        "example_de": "ein Mann · ein Kind — same 'ein', different genders",
+        "example_en": "a man (m) · a child (n) — the article gives no gender signal"
+      },
+      {
+        "type": "explanation",
+        "heading": "The three repair spots",
+        "body": "Nominativ masculine: 'ein' could be masculine or neuter, so the adjective shows -er (echoing 'der'). Nominativ and Akkusativ neuter: 'ein' is ambiguous again, so the adjective shows -es (echoing 'das'). In these three slots the adjective borrows the strong ending. Everywhere else, mixed is identical to weak.",
+        "example_de": "ein guter Mann · ein gutes Kind · Ich sehe ein gutes Kind.",
+        "example_en": "a good man (-er) · a good child (-es) · I see a good child (-es)"
+      },
+      {
+        "type": "explanation",
+        "heading": "The rest matches the weak pattern",
+        "body": "Feminine forms are safe: 'eine' clearly signals feminine, so the adjective takes plain -e in Nominativ and Akkusativ. Masculine Akkusativ ('einen'), all Dativ, all Genitiv, and all plurals take -en — exactly like the weak declension.",
+        "example_de": "eine gute Idee · mit einem guten Freund · keine guten Ideen",
+        "example_en": "a good idea · with a good friend (Dat) · no good ideas (pl)"
+      },
+      {
+        "type": "explanation",
+        "heading": "Plural only with kein and possessives",
+        "body": "'Ein' has no plural — you cannot say 'ein Bücher'. Mixed-pattern plurals therefore only appear after kein and the possessives, and they take -en in every case. The full mixed table: Nominativ -er/-e/-es/-en, Akkusativ -en/-e/-es/-en, Dativ all -en, Genitiv all -en.",
+        "example_de": "meine alten Bücher · ohne seine neuen Schuhe",
+        "example_en": "my old books · without his new shoes"
+      }
+    ],
+    "key_rules": [
+      "Mixed declension follows ein-words: ein, kein, mein, dein, sein, ihr, unser, euer.",
+      "Three repair spots where 'ein' hides the gender: Nom m → -er, Nom n → -es, Akk n → -es.",
+      "Everywhere else, mixed is identical to weak: -e in the feminine Nom/Akk, otherwise -en.",
+      "Plural exists only with kein/possessives and always takes -en.",
+      "Memory hook: the adjective echoes the missing der-word (der→-er, das→-es)."
+    ],
+    "quiz": [
+      {
+        "type": "rule_check",
+        "question": "Which words trigger the mixed declension?",
+        "options": ["der, die, das", "ein, kein, mein and other possessives", "dieser, jeder, welcher", "No article at all"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "Ein gut__ Mann wartet draußen. Which ending?",
+        "options": ["-e", "-en", "-er", "-es"],
+        "correct": 2
+      },
+      {
+        "type": "rule_check",
+        "question": "Why does 'ein gutes Kind' take -es?",
+        "options": ["Neuter nouns always take -es", "'Ein' fails to show neuter gender, so the adjective echoes 'das'", "Akkusativ always takes -es", "Kind is an exception"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "Eine gut__ Idee. Which ending, and why?",
+        "options": ["-e, because 'eine' already signals feminine clearly", "-er, because ideas are abstract", "-en, because feminine always takes -en", "-es, echoing 'das'"],
+        "correct": 0
+      },
+      {
+        "type": "rule_check",
+        "question": "Why can a mixed-pattern plural never start with 'ein'?",
+        "options": ["Plurals are always feminine", "'Ein' means one — it has no plural form", "Plurals take the strong pattern", "It can — 'ein Bücher' is correct"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "dekl-stark",
+    "title": "Starke Deklination",
+    "order": 4,
+    "unlocks": [],
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "No article — the adjective does everything",
+        "body": "The strong declension applies when nothing stands before the adjective: mass nouns (frisches Brot), plurals without article (alte Häuser), and after amounts like viel, wenig, etwas, mehr. With no article to carry the signal, the adjective takes over completely — it wears the der-word endings itself.",
+        "example_de": "frisches Brot · heiße Suppe · starker Kaffee",
+        "example_en": "fresh bread · hot soup · strong coffee"
+      },
+      {
+        "type": "explanation",
+        "heading": "The adjective becomes the article",
+        "body": "The trick for the strong pattern: ask which der-word would have stood there, and give its ending to the adjective. Der → starker, die → heiße, das → frisches, dem → starkem, den (pl Dat) → starken. This works for the entire table with one exception, covered next.",
+        "example_de": "der Kaffee → starker Kaffee · dem Kaffee → mit starkem Kaffee",
+        "example_en": "the coffee → strong coffee · with the coffee → with strong coffee"
+      },
+      {
+        "type": "explanation",
+        "heading": "The Genitiv exception",
+        "body": "In the Genitiv masculine and neuter, the noun itself already carries an -s (des Weins). The signal is taken, so the adjective steps back and takes -en instead of the expected -es. Genitiv feminine and plural keep the strong -er.",
+        "example_de": "trotz guten Weins · wegen schlechten Wetters · trotz starker Hitze",
+        "example_en": "despite good wine (-en!) · because of bad weather (-en!) · despite strong heat (-er)"
+      },
+      {
+        "type": "explanation",
+        "heading": "The full strong table",
+        "body": "Nominativ: -er/-e/-es/-e (m/f/n/pl). Akkusativ: -en/-e/-es/-e. Dativ: -em/-er/-em/-en. Genitiv: -en/-er/-en/-er. This is the only pattern that uses all five endings — because the adjective is doing the article's whole job.",
+        "example_de": "guter Wein, guten Wein, gutem Wein, guten Weins",
+        "example_en": "good wine through all four cases (masculine)"
+      }
+    ],
+    "key_rules": [
+      "Strong declension applies with no article: mass nouns, bare plurals, after viel/wenig/etwas/mehr.",
+      "The adjective takes the ending of the missing der-word: der→-er, die→-e, das→-es, dem→-em.",
+      "Genitiv exception: masculine and neuter take -en because the noun's own -s already signals the case.",
+      "Strong is the only pattern using all five endings: -e, -en, -er, -es, -em.",
+      "Bare plurals: Nom/Akk -e, Dativ -en, Genitiv -er."
+    ],
+    "quiz": [
+      {
+        "type": "rule_check",
+        "question": "When does the strong declension apply?",
+        "options": ["After der-words", "After ein-words", "When no article stands before the adjective", "Only in the Genitiv"],
+        "correct": 2
+      },
+      {
+        "type": "rule_check",
+        "question": "What is the memory trick for strong endings?",
+        "options": ["Always use -en", "The adjective takes the ending of the missing der-word", "Copy the noun's plural form", "Use the weak table backwards"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "Ich trinke gern stark__ Kaffee. Which ending?",
+        "options": ["-er", "-es", "-e", "-en"],
+        "correct": 3
+      },
+      {
+        "type": "rule_check",
+        "question": "Trotz gut__ Weins — why -en and not -es?",
+        "options": ["Genitiv always takes -en", "The noun's own -s already carries the signal, so the adjective steps back", "Wein is an exception", "Trotz triggers the weak pattern"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "Which pattern uses all five possible endings?",
+        "options": ["Schwach", "Gemischt", "Stark", "All three do"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "dekl-entscheidungsweg",
+    "title": "Der Entscheidungsweg",
+    "order": 5,
+    "unlocks": [],
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Three questions, one ending",
+        "body": "Every ending can be found with three questions asked in order. First: is the adjective directly before a noun? If not — no ending, done. Second: what stands before the adjective? A der-word means weak, an ein-word means mixed, nothing means strong. Third: what case and gender? Look up the slot in that pattern's table.",
+        "example_de": "Frage 1: attributiv? → Frage 2: welches Wort davor? → Frage 3: Kasus + Genus?",
+        "example_en": "Q1: before a noun? → Q2: what word comes before? → Q3: case + gender?"
+      },
+      {
+        "type": "explanation",
+        "heading": "The patterns side by side",
+        "body": "Compare masculine Nominativ across all three: der gute Wein (weak -e), ein guter Wein (mixed -er), guter Wein (strong -er). The signal moves: in the first, 'der' carries it; in the others, the adjective does. Notice that weak and mixed share most of their table — the three repair spots are the only difference.",
+        "example_de": "der gute Wein · ein guter Wein · guter Wein",
+        "example_en": "the good wine · a good wine · good wine"
+      },
+      {
+        "type": "explanation",
+        "heading": "Shortcuts that cover most cases",
+        "body": "Three rules of thumb resolve the majority of real sentences. All Dativ and Genitiv forms after any article take -en. All plurals after any article word take -en. In the singular Nominativ after 'der/die/das', it is always -e. Master these three and you only need to think hard about the remaining slots.",
+        "example_de": "mit dem neuen Auto · alle guten Freunde · die schöne Stadt",
+        "example_en": "with the new car · all good friends · the beautiful city"
+      },
+      {
+        "type": "explanation",
+        "heading": "Special adjectives to watch",
+        "body": "A few adjectives change their stem when declined: dunkel → dunkle (the -el loses its e), teuer → teure, hoch → hohe. And a small group never declines at all: rosa, lila, prima, super. These are excluded from the typing exercises in this module — recognize them, and when writing, check the stem before adding the ending.",
+        "example_de": "das dunkle Zimmer · ein hohes Haus · eine rosa Blume",
+        "example_en": "the dark room · a tall house · a pink flower (no ending!)"
+      }
+    ],
+    "key_rules": [
+      "Decision path: attributive? → which word before it? → case + gender lookup.",
+      "der-word → schwach · ein-word → gemischt · nothing → stark.",
+      "Shortcut: Dativ and Genitiv after any article → always -en.",
+      "Shortcut: plural after any article word → always -en.",
+      "Stem-changers (dunkel→dunkle, hoch→hohe) and indeclinables (rosa, lila) are special cases."
+    ],
+    "quiz": [
+      {
+        "type": "rule_check",
+        "question": "What is the FIRST question in the decision path?",
+        "options": ["What case is the noun in?", "Is the adjective directly before a noun?", "Is the noun plural?", "Does the adjective end in -el?"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "'Mit einem neu__ Auto' — which shortcut applies?",
+        "options": ["Nominativ singular → -e", "Dativ after an article → always -en", "Plural → always -en", "No article → strong"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "Same adjective, three phrases: der gute Wein / ein guter Wein / guter Wein. Why do the endings differ?",
+        "options": ["Wein changes gender", "The signal carrier changes: der-word, weak ein-word, or the adjective itself", "The case changes", "They are regional variants"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "Which adjective takes NO ending in 'eine ___ Blume'?",
+        "options": ["schön", "klein", "rosa", "rot"],
+        "correct": 2
+      },
+      {
+        "type": "rule_check",
+        "question": "What happens to 'dunkel' before an ending?",
+        "options": ["Nothing — dunkele Nacht", "The stem changes: dunkle Nacht", "It cannot stand before a noun", "It takes a double ending"],
+        "correct": 1
+      }
+    ]
+  }
+]

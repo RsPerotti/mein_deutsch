@@ -259,6 +259,20 @@
       </div>
     </div>
 
+    <!-- Deklination CEFR picker (shown only for exerciseMode === 'deklination') -->
+    <div id="dekl-cefr-picker" style="display:none;padding:0 var(--sp-4) var(--sp-3)">
+      <div style="font-size:var(--font-size-xs);color:var(--color-text-muted);
+                  margin-bottom:var(--sp-2);letter-spacing:0.04em;text-transform:uppercase">
+        Niveau (bis)
+      </div>
+      <div style="display:flex;gap:8px">
+        <button class="diff-btn" id="dekl-cefr-A1" onclick="setDeklinationCefr('A1')">A1</button>
+        <button class="diff-btn" id="dekl-cefr-A2" onclick="setDeklinationCefr('A2')">A2</button>
+        <button class="diff-btn" id="dekl-cefr-B1" onclick="setDeklinationCefr('B1')">B1</button>
+        <button class="diff-btn" id="dekl-cefr-B2" onclick="setDeklinationCefr('B2')">B2</button>
+      </div>
+    </div>
+
 <!-- Verb Vergangenheit sub-picker (Perfekt / Präteritum — shown only for Verbs + Vergangenheit) -->
     <div id="verb-tense-picker" style="display:none;padding:0 var(--sp-4) var(--sp-3)">
       <div style="font-size:var(--font-size-xs);color:var(--color-text-muted);
@@ -278,6 +292,27 @@
     <button class="primary-btn" id="next-btn" style="display:none" onclick="advanceExercise()">
       Weiter →
     </button>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       SCREEN: Deklinationen (Adjective endings home)
+  ═══════════════════════════════════════════ -->
+  <div id="screen-deklinationen" class="screen">
+    <div class="nav-header">
+      <button class="back-btn" onclick="navigateBack()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+             stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"/>
+        </svg>
+      </button>
+      <div class="nav-pill">
+        <span class="dot"></span>
+        <span>Deklinationen</span>
+      </div>
+    </div>
+    <div class="screen-content" style="padding:0 var(--page-x) var(--sp-6)">
+      <div id="deklinationen-content"></div>
+    </div>
   </div>
 
   <!-- ═══════════════════════════════════════════
@@ -722,6 +757,7 @@
   <script src="js/particles-data.js"></script>
   <script src="js/grammar-data.js"></script>
   <script src="js/article-grammar-data.js"></script>
+  <script src="js/declension-data.js"></script>
   <script src="js/progress.js"></script>
   <script src="js/wordlist.js"></script>
   <script src="js/exercises.js"></script>

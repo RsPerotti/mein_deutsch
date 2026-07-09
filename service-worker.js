@@ -12,13 +12,15 @@
  * v10: Fix — data.js modules array updated to include Partikeln + Artikel (was missing from bundle).
  * v11: 7 bug fixes — Artikel cooldown, chevrons removed, Partikel cards simplified, CEFR selector
  *      removed, soft gate removed, Alle Partikeln button removed, particle list design + click fixed.
+ * v12: Wörter Intake #1 + Ausdrücke module (Session 35).
+ * v13: Deklinationen area (Session 36) — 5 lessons, 360 type_ending exercises, declension-data.js.
  *
  * DEPLOY NOTE: bump the CACHE version string on every push that changes
  * JS/CSS files. The browser only installs a new SW when this file changes.
  * If the version is not bumped, users keep running the old cached code.
  */
 
-const CACHE = 'mein-deutsch-v12';
+const CACHE = 'mein-deutsch-v13';
 
 const PRECACHE = [
   './',
@@ -29,6 +31,7 @@ const PRECACHE = [
   './js/particles-data.js',
   './js/grammar-data.js',
   './js/article-grammar-data.js',
+  './js/declension-data.js',
   './js/grammar.js',
   './js/app.js',
   './js/progress.js',

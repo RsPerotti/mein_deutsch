@@ -127,6 +127,10 @@ function startExercise(state) {
     if (showVerbPicker) _updateVerbTensePicker(session.vergangenheitTense);
   }
 
+  // Deklination CEFR picker belongs only to exerciseMode === 'deklination'
+  const deklPicker = document.getElementById('dekl-cefr-picker');
+  if (deklPicker) deklPicker.style.display = 'none';
+
   _updateChips();
   _showNext();
 }
@@ -852,6 +856,7 @@ function selectAnswer(btn) {
 function advanceExercise() {
   if (exerciseMode === 'wordlist') { _showNextWL(); return; }
   if (exerciseMode === 'artikel')  { _artikelShowNext(); return; }
+  if (exerciseMode === 'deklination') { _deklShowNext(); return; }
   _showNext();
 }
 
@@ -866,6 +871,13 @@ function exitExerciseEarly() {
   if (exerciseMode === 'artikel') {
     exerciseMode = 'module';
     returnFromResults();
+    return;
+  }
+  if (exerciseMode === 'deklination') {
+    exerciseMode = 'module';
+    const deklPicker = document.getElementById('dekl-cefr-picker');
+    if (deklPicker) deklPicker.style.display = 'none';
+    navigateTo('screen-deklinationen');
     return;
   }
   returnFromResults();
@@ -1423,8 +1435,10 @@ function startArtikelExercise() {
   // Hide module-specific pickers
   const prepPicker = document.getElementById('prep-difficulty-picker');
   const verbPicker = document.getElementById('verb-tense-picker');
+  const deklPicker = document.getElementById('dekl-cefr-picker');
   if (prepPicker) prepPicker.style.display = 'none';
   if (verbPicker) verbPicker.style.display = 'none';
+  if (deklPicker) deklPicker.style.display = 'none';
 
   // Chips
   document.getElementById('chip-correct').textContent   = '0';
@@ -1566,6 +1580,261 @@ function _artikelShowResults() {
   document.getElementById('results-unlocked').innerHTML = '';
 
   // Restore cooldown chip visibility for next regular exercise session
+  const cdWrap = document.getElementById('chip-cooldown-wrap');
+  if (cdWrap) cdWrap.style.display = '';
+}
+
+// ═══════════════════════════════════════════════════════
+// DEKLINATION EXERCISE ENGINE — type_ending (adjective endings)
+// Static exercises from DECLENSION_DATA.exercises, filtered by pattern
+// (_deklPattern set in app.js) + cumulative CEFR level.
+// exerciseMode === 'deklination' while this engine is active.
+// ═══════════════════════════════════════════════════════
+
+const _DEKL_CEFR_KEY   = 'app_declension_cefr';
+const _DEKL_CEFR_ORDER = { A1: 1, A2: 2, B1: 3, B2: 4 };
+
+function _getDeklCefr() {
+  try { return localStorage.getItem(_DEKL_CEFR_KEY) || 'A1'; }
+  catch { return 'A1'; }
+}
+
+let _deklSession = {
+  queue:        [],
+  cooldown:     [],
+  correctCount: 0,
+  totalCount:   0,
+  current:      null,
+  answered:     false
+};
+
+function _deklBuildQueue() {
+  const all = (typeof DECLENSION_DATA !== 'undefined' && DECLENSION_DATA.exercises)
+    ? DECLENSION_DATA.exercises : [];
+  const pattern = (typeof _deklPattern !== 'undefined') ? _deklPattern : 'alle';
+  const maxLvl  = _DEKL_CEFR_ORDER[_getDeklCefr()] || 1;
+
+  return _shuffle(all.filter(e =>
+    (pattern === 'alle' || e.pattern === pattern) &&
+    (_DEKL_CEFR_ORDER[e.cefr] || 1) <= maxLvl
+  ));
+}
+
+/**
+ * Entry point — called from onScreenEnter when exerciseMode === 'deklination'.
+ */
+function startDeklinationExercise() {
+  const queue = _deklBuildQueue();
+
+  const patternLabels = { schwach: 'SCHWACH', gemischt: 'GEMISCHT', stark: 'STARK', alle: 'ALLE MUSTER' };
+  document.getElementById('exercise-context-label').textContent =
+    'DEKLINATION · ' + (patternLabels[_deklPattern] || 'ALLE MUSTER');
+
+  // Hide other module pickers, show the CEFR picker
+  const prepPicker = document.getElementById('prep-difficulty-picker');
+  const verbPicker = document.getElementById('verb-tense-picker');
+  const deklPicker = document.getElementById('dekl-cefr-picker');
+  if (prepPicker) prepPicker.style.display = 'none';
+  if (verbPicker) verbPicker.style.display = 'none';
+  if (deklPicker) {
+    deklPicker.style.display = 'block';
+    _updateDeklCefrPicker(_getDeklCefr());
+  }
+
+  _deklSession = {
+    queue,
+    cooldown:     [],
+    correctCount: 0,
+    totalCount:   queue.length,
+    current:      null,
+    answered:     false
+  };
+
+  document.getElementById('chip-correct').textContent   = '0';
+  document.getElementById('chip-queue').textContent     = queue.length;
+  document.getElementById('chip-cooldown').textContent  = '0';
+  document.getElementById('chip-cooldown-wrap').style.display = '';
+
+  if (queue.length === 0) {
+    document.getElementById('exercise-card').innerHTML = `
+      <div class="empty-state" style="padding:40px 0">
+        <div class="empty-icon">📦</div>
+        <p>Keine Übungen auf diesem Niveau.<br>Wähle oben ein höheres Niveau.</p>
+      </div>`;
+    document.getElementById('next-btn').style.display = 'none';
+    return;
+  }
+
+  _deklShowNext();
+}
+
+/**
+ * Called by the dekl-cefr-picker buttons. Persists level and rebuilds
+ * the queue mid-session (same behavior as prepositions difficulty).
+ */
+function setDeklinationCefr(level) {
+  try { localStorage.setItem(_DEKL_CEFR_KEY, level); }
+  catch (e) { console.warn('Deklination: localStorage write failed', e); }
+  _updateDeklCefrPicker(level);
+  startDeklinationExercise();
+}
+
+function _updateDeklCefrPicker(level) {
+  ['A1', 'A2', 'B1', 'B2'].forEach(l => {
+    const btn = document.getElementById('dekl-cefr-' + l);
+    if (btn) btn.classList.toggle('active', l === level);
+  });
+}
+
+function _deklShowNext() {
+  const s = _deklSession;
+
+  // Flush cooldown back into queue when main queue is empty
+  if (s.queue.length === 0 && s.cooldown.length > 0) {
+    s.queue    = _shuffle([...s.cooldown]);
+    s.cooldown = [];
+  }
+
+  if (s.queue.length === 0) {
+    _deklShowResults();
+    return;
+  }
+
+  s.current  = s.queue.shift();
+  s.answered = false;
+
+  const pct = s.totalCount > 0 ? Math.round(s.correctCount / s.totalCount * 100) : 0;
+  document.getElementById('exercise-progress-fill').style.width = pct + '%';
+
+  document.getElementById('exercise-card').innerHTML = _renderTypeEnding(s.current);
+  document.getElementById('next-btn').style.display = 'none';
+
+  document.getElementById('chip-correct').textContent  = s.correctCount;
+  document.getElementById('chip-queue').textContent    = s.queue.length + s.cooldown.length;
+  document.getElementById('chip-cooldown').textContent = s.cooldown.length;
+
+  const input = document.getElementById('dekl-ending-input');
+  if (input) input.focus();
+}
+
+// --- Render: type_ending ---
+// Sentence with the adjective ending blanked; learner types it (strict match).
+function _renderTypeEnding(ex) {
+  const patternLabels = { schwach: 'Schwach', gemischt: 'Gemischt', stark: 'Stark' };
+
+  const sentHtml = _esc(ex.sentence_de).replace('___', `<input type="text"
+      id="dekl-ending-input" class="dekl-ending-input" maxlength="2"
+      onkeydown="if(event.key==='Enter') submitDeklinationAnswer()"
+      autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">`);
+
+  return `
+    <div class="exercise-meta">
+      <div class="exercise-counter">FRAGE ${_deklSession.correctCount + 1}</div>
+      <div class="exercise-type-label">${patternLabels[ex.pattern] || ''} · ${_esc(ex.cefr || '')}</div>
+    </div>
+    <div class="exercise-sentence" style="line-height:2">${sentHtml}</div>
+    <div class="exercise-translation">${_esc(ex.sentence_en)}</div>
+    <div style="padding:0 var(--sp-2) var(--sp-4)">
+      <button class="check-btn" onclick="submitDeklinationAnswer()">Prüfen →</button>
+    </div>
+    <div id="dekl-feedback-card" class="particle-feedback-card" style="display:none"></div>`;
+}
+
+/**
+ * Called on Enter or the Prüfen button. Strict ending-only match.
+ */
+function submitDeklinationAnswer() {
+  const s = _deklSession;
+  if (!s || s.answered) return;
+
+  const input = document.getElementById('dekl-ending-input');
+  if (!input) return;
+  const given = input.value.trim().toLowerCase();
+  if (given === '') { input.focus(); return; }
+
+  s.answered = true;
+  const ex      = s.current;
+  const isRight = given === ex.correct;
+
+  // Lock the input and show the correct ending inline
+  input.disabled = true;
+  input.value    = ex.correct;
+  input.classList.add(isRight ? 'dekl-input-correct' : 'dekl-input-wrong');
+
+  if (isRight) {
+    s.correctCount++;
+  } else {
+    s.cooldown.push(ex);
+  }
+
+  _showDeklFeedbackCard(ex, isRight, given);
+
+  // No auto-advance (same decision as Partikeln) — feedback card must be read.
+  document.getElementById('next-btn').style.display = 'block';
+  document.getElementById('chip-correct').textContent  = s.correctCount;
+  document.getElementById('chip-queue').textContent    = s.queue.length + s.cooldown.length;
+  document.getElementById('chip-cooldown').textContent = s.cooldown.length;
+}
+
+// --- Deklination feedback card ---
+// Shown after EVERY answer (correct AND wrong). Reuses the particle
+// feedback card styling: lime left border + green tint + dark green text.
+function _showDeklFeedbackCard(ex, isCorrect, given) {
+  const card = document.getElementById('dekl-feedback-card');
+  if (!card) return;
+
+  const patternLabels = { schwach: 'Schwache Deklination', gemischt: 'Gemischte Deklination', stark: 'Starke Deklination' };
+  const caseLabels    = { nominativ: 'Nominativ', akkusativ: 'Akkusativ', dativ: 'Dativ', genitiv: 'Genitiv' };
+  const genderLabels  = { m: 'Maskulin', f: 'Feminin', n: 'Neutrum', pl: 'Plural' };
+
+  const resultLine = isCorrect ? '' :
+    `<div style="font-size:var(--font-size-xs);font-weight:var(--fw-semibold);
+                 color:#3D6020;margin-bottom:6px;letter-spacing:0.03em">
+       Deine Antwort: <strong>-${_esc(given)}</strong> · Richtig: <strong>-${_esc(ex.correct)}</strong>
+     </div>`;
+
+  card.innerHTML = `
+    ${resultLine}
+    <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:4px">
+      <span style="font-size:var(--font-size-xl);font-weight:var(--fw-bold)">-${_esc(ex.correct)}</span>
+      <span style="font-size:var(--font-size-xs);color:#2D4A1A;opacity:0.7;
+                   letter-spacing:0.04em;text-transform:uppercase">
+        ${_esc(patternLabels[ex.pattern] || '')} · ${_esc(caseLabels[ex.case] || '')} ${_esc(genderLabels[ex.gender] || '')}
+      </span>
+    </div>
+    <div style="font-size:var(--font-size-sm)">${_esc(ex.feedback || '')}</div>`;
+
+  card.style.display = 'block';
+  _flash(isCorrect ? 'green' : 'red');
+}
+
+function _deklShowResults() {
+  exerciseMode = 'module';
+
+  const deklPicker = document.getElementById('dekl-cefr-picker');
+  if (deklPicker) deklPicker.style.display = 'none';
+
+  navigateTo('screen-results');
+
+  const s     = _deklSession;
+  const total = s.totalCount;
+  const right = s.correctCount;
+
+  document.getElementById('results-summary').textContent =
+    `${right} von ${total} Endungen richtig.`;
+
+  const pct = total > 0 ? Math.round(right / total * 100) : 0;
+
+  document.getElementById('results-stats').innerHTML = `
+    <div class="results-stat-row">
+      <span>Richtige Antworten</span><strong>${right} / ${total}</strong>
+    </div>
+    <div class="results-stat-row">
+      <span>Ergebnis</span><strong>${pct}%</strong>
+    </div>`;
+
+  document.getElementById('results-unlocked').innerHTML = '';
+
   const cdWrap = document.getElementById('chip-cooldown-wrap');
   if (cdWrap) cdWrap.style.display = '';
 }

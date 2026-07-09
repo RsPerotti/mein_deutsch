@@ -1080,3 +1080,291 @@ function renderGrammatikStrip() {
       </div>
     </div>`;
 }
+
+// ─────────────────────────────────────────
+// DEKLINATION GRAMMAR — mirrors ArticleGrammar for the Deklinationen area
+// (Adjectives module). No gating: lessons are reference + quiz only.
+// localStorage key: app_grammar_deklination_lessons
+// ─────────────────────────────────────────
+
+const DeclensionGrammar = {
+
+  KEY: 'app_grammar_deklination_lessons',
+
+  PASS_THRESHOLD: 0.8,
+
+  LESSON_IDS: [
+    'dekl-warum-endungen',
+    'dekl-schwach',
+    'dekl-gemischt',
+    'dekl-stark',
+    'dekl-entscheidungsweg'
+  ],
+
+  _get() {
+    try {
+      const raw = localStorage.getItem(this.KEY);
+      return raw !== null ? JSON.parse(raw) : null;
+    } catch { return null; }
+  },
+
+  _set(value) {
+    try { localStorage.setItem(this.KEY, JSON.stringify(value)); }
+    catch (e) { console.warn('DeclensionGrammar: localStorage write failed', e); }
+  },
+
+  getLessonState(lessonId) {
+    const all = this._get() || {};
+    return all[lessonId] || { status: 'locked', score: null, attempts: 0 };
+  },
+
+  setLessonState(lessonId, partial) {
+    const all = this._get() || {};
+    all[lessonId] = { ...this.getLessonState(lessonId), ...partial };
+    this._set(all);
+  },
+
+  isComplete(lessonId) {
+    return this.getLessonState(lessonId).status === 'complete';
+  },
+
+  markStarted(lessonId) {
+    const current = this.getLessonState(lessonId);
+    if (current.status === 'locked') {
+      this.setLessonState(lessonId, { status: 'in_progress' });
+    }
+  },
+
+  recordQuizResult(lessonId, correctCount, totalCount) {
+    const score  = totalCount > 0 ? correctCount / totalCount : 0;
+    const passed = score >= this.PASS_THRESHOLD;
+    const current = this.getLessonState(lessonId);
+    this.setLessonState(lessonId, {
+      status:   passed ? 'complete' : 'in_progress',
+      score:    score,
+      attempts: (current.attempts || 0) + 1
+    });
+    return passed;
+  },
+
+  init() {
+    if (this._get() !== null) return;
+    const state = {};
+    for (const id of this.LESSON_IDS) {
+      state[id] = { status: 'locked', score: null, attempts: 0 };
+    }
+    this._set(state);
+    console.log('[DeclensionGrammar] Initialised — all lessons locked for new user.');
+  }
+
+};
+
+function _deklLessons() {
+  return (typeof DECLENSION_DATA !== 'undefined' && DECLENSION_DATA.lessons) ? DECLENSION_DATA.lessons : [];
+}
+
+// ─────────────────────────────────────────
+// DEKLINATION LESSON RENDERER
+// ─────────────────────────────────────────
+
+function openDeklinationLesson(lessonId) {
+  window._currentGrammarLessonId = lessonId;
+  window._currentGrammarModule   = 'deklination';
+  navigateTo('screen-grammar-lesson');
+}
+
+function renderDeklinationLesson(lessonId) {
+  const lesson = _deklLessons().find(l => l.id === lessonId);
+
+  if (!lesson) {
+    document.getElementById('grammar-lesson-content').innerHTML =
+      '<div style="padding:var(--sp-6);color:var(--color-text-muted)">Lektion nicht gefunden.</div>';
+    return;
+  }
+
+  DeclensionGrammar.markStarted(lessonId);
+
+  document.getElementById('grammar-lesson-nav-context').textContent =
+    'Deklinationen · ' + lesson.title;
+
+  const sectionsHtml = (lesson.sections || []).map(sec => `
+    <div class="grammar-section">
+      <h2 class="grammar-section-heading">${sec.heading}</h2>
+      <p class="grammar-section-body">${sec.body}</p>
+      ${sec.example_de ? `
+        <div class="grammar-example">
+          <div class="grammar-example-de">${sec.example_de}</div>
+          <div class="grammar-example-en">${sec.example_en || ''}</div>
+        </div>` : ''}
+    </div>`).join('');
+
+  const rulesHtml = (lesson.key_rules || []).length > 0 ? `
+    <div class="grammar-key-rules">
+      <div class="grammar-key-rules-heading">Schlüsselregeln</div>
+      <ul>
+        ${lesson.key_rules.map(r => `<li>${r}</li>`).join('')}
+      </ul>
+    </div>` : '';
+
+  const quizCount  = (lesson.quiz || []).length;
+  const state      = DeclensionGrammar.getLessonState(lessonId);
+  const isComplete = state.status === 'complete';
+  const ctaLabel   = isComplete
+    ? `Quiz wiederholen · ${quizCount} Fragen`
+    : `Quiz starten · ${quizCount} Fragen`;
+
+  const ctaHtml = quizCount > 0 ? `
+    <div class="grammar-cta-area">
+      <button onclick="startDeklinationQuiz('${lessonId}')">${ctaLabel}</button>
+    </div>` : '';
+
+  document.getElementById('grammar-lesson-content').innerHTML = `
+    <div class="grammar-lesson-body">
+      <h1 class="grammar-lesson-title">${lesson.title}</h1>
+      ${sectionsHtml}
+      ${rulesHtml}
+    </div>
+    ${ctaHtml}`;
+
+  document.getElementById('grammar-lesson-content').scrollTop = 0;
+}
+
+function startDeklinationQuiz(lessonId) {
+  const lesson = _deklLessons().find(l => l.id === lessonId);
+  if (!lesson) return;
+
+  const questions = (lesson.quiz || []).filter(q => q.type === 'rule_check');
+
+  window._grammarQuizState = {
+    lessonId,
+    questions,
+    currentIndex: 0,
+    correctCount: 0,
+    answered:     false,
+    module:       'deklination'
+  };
+
+  if (typeof currentScreen !== 'undefined' && currentScreen === 'screen-grammar-quiz') {
+    renderDeklinationQuiz();
+  } else {
+    navigateTo('screen-grammar-quiz');
+  }
+}
+
+function renderDeklinationQuiz() {
+  const state = window._grammarQuizState;
+  if (!state) return;
+
+  const lesson = _deklLessons().find(l => l.id === state.lessonId);
+
+  document.getElementById('grammar-quiz-nav-context').textContent =
+    (lesson ? lesson.title : 'Quiz') + ' · Quiz';
+
+  if (state.currentIndex >= state.questions.length) {
+    _renderDeklinationQuizResults();
+    return;
+  }
+
+  _renderGrammarQuizQuestion(); // shared question renderer
+}
+
+function _renderDeklinationQuizResults() {
+  const state   = window._grammarQuizState;
+  const total   = state.questions.length;
+  const correct = state.correctCount;
+  const pct     = total > 0 ? Math.round(correct / total * 100) : 0;
+
+  const passed  = DeclensionGrammar.recordQuizResult(state.lessonId, correct, total);
+
+  const progEl = document.getElementById('grammar-quiz-progress');
+  if (progEl) progEl.textContent = '';
+
+  const passHtml = `
+    <div class="quiz-results-status passed">✓ Bestanden</div>
+    <button class="primary-btn" style="margin-bottom:var(--sp-3)"
+            onclick="navigateBack();navigateBack()">Zurück zu Deklinationen</button>
+    <button class="secondary-btn"
+            onclick="startDeklinationQuiz('${state.lessonId}')">Quiz wiederholen</button>`;
+
+  const failHtml = `
+    <div class="quiz-results-status failed">
+      Noch nicht bestanden. Du brauchst ${Math.ceil(DeclensionGrammar.PASS_THRESHOLD * total)} / ${total} richtig.
+    </div>
+    <button class="primary-btn" style="margin-bottom:var(--sp-3)"
+            onclick="startDeklinationQuiz('${state.lessonId}')">Noch einmal versuchen</button>
+    <button class="secondary-btn"
+            onclick="navigateBack()">Lektion nochmal lesen</button>`;
+
+  document.getElementById('grammar-quiz-content').innerHTML = `
+    <div style="padding:var(--sp-4)">
+      <div class="quiz-results-card">
+        <div class="quiz-results-score">${pct}%</div>
+        <div class="quiz-results-label">${correct} / ${total} richtig</div>
+        ${passed ? passHtml : failHtml}
+      </div>
+    </div>`;
+}
+
+// ─────────────────────────────────────────
+// DEKLINATION GRAMMATIK ACCORDION
+// ─────────────────────────────────────────
+
+let _deklGramOpen = false;
+
+function toggleDeklGrammatikAccordion() {
+  _deklGramOpen = !_deklGramOpen;
+  const body    = document.getElementById('dekl-gram-body');
+  const chevron = document.getElementById('dekl-gram-chevron');
+  if (body)    body.classList.toggle('open', _deklGramOpen);
+  if (chevron) chevron.style.transform = _deklGramOpen ? 'rotate(180deg)' : '';
+}
+
+function _renderDeklGrammatikStrip(lessons) {
+  const total    = lessons.length;
+  const done     = lessons.filter(l => DeclensionGrammar.isComplete(l.id)).length;
+  const bodyClass    = _deklGramOpen ? 'grammatik-accordion-body open' : 'grammatik-accordion-body';
+  const chevronStyle = _deklGramOpen
+    ? 'style="color:var(--color-text-muted);transition:transform 0.2s;flex-shrink:0;transform:rotate(180deg)"'
+    : 'style="color:var(--color-text-muted);transition:transform 0.2s;flex-shrink:0"';
+
+  const dotColor = {
+    locked:      'var(--color-text-muted)',
+    in_progress: '#D97706',
+    complete:    'var(--color-green-accent)'
+  };
+
+  const rows = lessons.map(l => {
+    const state  = DeclensionGrammar.getLessonState(l.id);
+    const status = state.status || 'locked';
+    const color  = dotColor[status] || dotColor.locked;
+    return `
+    <div class="grammatik-row" onclick="openDeklinationLesson('${l.id}')">
+      <span class="grammatik-row-dot" style="background:${color}"></span>
+      <span class="grammatik-row-title">${l.title}</span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+           stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+           style="color:var(--color-text-muted);flex-shrink:0">
+        <polyline points="9 18 15 12 9 6"/>
+      </svg>
+    </div>`;
+  }).join('');
+
+  return `
+    <div class="grammatik-accordion mt-4">
+      <div class="grammatik-accordion-header" onclick="toggleDeklGrammatikAccordion()">
+        <div class="grammatik-accordion-left">
+          <span class="grammatik-accordion-label">Grammatik</span>
+          <span class="grammatik-accordion-count">${done} / ${total}</span>
+        </div>
+        <svg id="dekl-gram-chevron" width="16" height="16" viewBox="0 0 24 24"
+             fill="none" stroke="currentColor" stroke-width="2.5"
+             stroke-linecap="round" stroke-linejoin="round"
+             ${chevronStyle}>
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </div>
+      <div class="${bodyClass}" id="dekl-gram-body">
+        ${rows}
+      </div>
+    </div>`;
+}

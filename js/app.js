@@ -78,6 +78,7 @@ function onScreenEnter(screenId) {
     case 'screen-module-home':       renderModuleHome(currentModuleId);       break;
     case 'screen-exercise':
       if (exerciseMode === 'artikel') startArtikelExercise();
+      else if (exerciseMode === 'deklination') startDeklinationExercise();
       else startExercise(currentExerciseState);
       break;
     case 'screen-verbliste':         renderVerbliste();                       break;
@@ -94,6 +95,8 @@ function onScreenEnter(screenId) {
         renderParticleLesson(window._currentGrammarLessonId || '');
       } else if (window._currentGrammarModule === 'artikel') {
         renderArticleLesson(window._currentGrammarLessonId || '');
+      } else if (window._currentGrammarModule === 'deklination') {
+        renderDeklinationLesson(window._currentGrammarLessonId || '');
       } else {
         renderGrammarLesson(window._currentGrammarLessonId || '');
       }
@@ -103,11 +106,14 @@ function onScreenEnter(screenId) {
         renderParticleQuiz();
       } else if (window._grammarQuizState && window._grammarQuizState.module === 'artikel') {
         renderArticleQuiz();
+      } else if (window._grammarQuizState && window._grammarQuizState.module === 'deklination') {
+        renderDeklinationQuiz();
       } else {
         renderGrammarQuiz();
       }
       break;
     case 'screen-particle-reference': renderPartikelliste(); break;
+    case 'screen-deklinationen':      renderDeklinationenHome(); break;
   }
 }
 
@@ -859,14 +865,66 @@ function _renderAdjectiveModuleCategories() {
         <div class="category-card-cta">Üben →</div>
       </div>
 
-      <div class="category-card locked">
-        <div class="category-card-title" style="color:var(--color-text-muted)">Deklinationen</div>
-        <div class="category-card-subtitle">Gender &amp; case forms</div>
-        <div style="margin-top:var(--sp-3);font-size:20px">🔒</div>
+      <div class="category-card" onclick="navigateTo('screen-deklinationen')">
+        <div class="category-card-title">Deklinationen</div>
+        <div class="category-card-subtitle">Adjective endings</div>
+        <div class="category-card-count mt-3">${_deklExerciseCount()} Übungen</div>
         <div style="font-size:var(--font-size-xs);color:var(--color-text-muted);margin-top:var(--sp-2);line-height:1.4">
-          Coming soon</div>
+          Schwach · Gemischt · Stark</div>
+        <div class="category-card-cta">Üben →</div>
       </div>
     </div>`;
+}
+
+// ─────────────────────────────────────────
+// DEKLINATIONEN HOME (Adjective endings area)
+// ─────────────────────────────────────────
+
+function _deklExerciseCount() {
+  return (typeof DECLENSION_DATA !== 'undefined' && DECLENSION_DATA.exercises)
+    ? DECLENSION_DATA.exercises.length : 0;
+}
+
+// Selected pattern for the next session: 'schwach' | 'gemischt' | 'stark' | 'alle'
+let _deklPattern = 'alle';
+
+function renderDeklinationenHome() {
+  const lessons   = _deklLessons();
+  const gramStrip = _renderDeklGrammatikStrip(lessons);
+  const exercises = (typeof DECLENSION_DATA !== 'undefined' && DECLENSION_DATA.exercises)
+    ? DECLENSION_DATA.exercises : [];
+
+  const countFor = p => exercises.filter(e => e.pattern === p).length;
+
+  const mkCard = (pattern, title, subtitle) => `
+    <div class="category-card" onclick="openDeklinationExercise('${pattern}')">
+      <div class="category-card-title">${title}</div>
+      <div class="category-card-subtitle">${subtitle}</div>
+      <div class="category-card-count mt-3">${pattern === 'alle' ? exercises.length : countFor(pattern)} Übungen</div>
+      <div class="category-card-cta">Üben →</div>
+    </div>`;
+
+  document.getElementById('deklinationen-content').innerHTML = `
+    ${gramStrip}
+
+    <div class="label mt-4" style="color:var(--color-text-primary);margin-bottom:var(--sp-3)">
+      Übungen — Endung eintippen
+    </div>
+
+    <div class="category-pair">
+      ${mkCard('schwach',  'Schwach',  'nach der, dieser, jeder')}
+      ${mkCard('gemischt', 'Gemischt', 'nach ein, kein, mein')}
+    </div>
+    <div class="category-pair" style="margin-top:var(--sp-3)">
+      ${mkCard('stark', 'Stark', 'ohne Artikel')}
+      ${mkCard('alle',  'Alle',  'alle drei Muster gemischt')}
+    </div>`;
+}
+
+function openDeklinationExercise(pattern) {
+  _deklPattern = pattern || 'alle';
+  exerciseMode = 'deklination';
+  navigateTo('screen-exercise');
 }
 
 // ─────────────────────────────────────────
@@ -1512,6 +1570,7 @@ async function init() {
   Grammar.init();         // run migration before any rendering (idempotent after first run)
   ParticleGrammar.init(); // initialise particle lesson state (no migration — new module)
   ArticleGrammar.init();  // initialise article lesson state (no migration — new module)
+  DeclensionGrammar.init();  // initialise declension lesson state (Session 36)
   Progress.updateStreak();
   Progress.recordSession();
   renderHome();
