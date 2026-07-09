@@ -1,11 +1,13 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-07-07 — Session 35 (Wörter Intake #1 + Ausdrücke module — v12 live)*
+*Last updated: 2026-07-09 — Session 36 (Adjektiv-Deklinationen — v13 live)*
 
 ---
 
 ## Current State
 
-**9 modules built and live.** App at https://rsperotti.github.io/mein_deutsch (v12).
+**9 modules built and live.** App at https://rsperotti.github.io/mein_deutsch (v13).
+
+**Deklinationen area COMPLETE (Session 36).** The Adjectives module's placeholder card is now a full adjective-endings area: 5 grammar lessons (no gating, Artikel model) + 360 `type_ending` exercises (3 patterns × 4 cases × 30), strict ending-only typing, feedback card after every answer, cooldown re-queue, cumulative CEFR picker. Endings machine-generated from the pattern×case×gender lookup table and validated by an independent script — 0 integrity errors. Excluded from v1: stem-changers, indeclinables, comparative/superlative declension, adjectival nouns. PRD: `PRD_Deklinationen.md`. Spec: `_factory/declension-spec.md`. Commit 00dea53.
 
 **Wörter Intake #1 COMPLETE (Session 35).** 213 reading-vocabulary words from Ricco's Google Sheet processed: 152 new words added across Verbs (+65 word forms), Nouns (+55), Adjectives (+36), Adverbs (+12), plus the new **Ausdrücke module** (9th module, 8 expressions, 32 exercises, no gating). ~958 new exercises. Full row-by-row resolution: `_factory/intake-log.json`. Repeatable workflow: sheet stays the inbox; future runs diff against the intake log and process only new rows. PRD: `PRD_Woerter_Intake.md`. Two flagged sheet entries need Ricco's confirmation: "Aufziele" (interpreted as abzielen) and "kindersinne" (skipped, unidentifiable).
 
@@ -56,7 +58,12 @@
 | `data/grammar/particle-lessons.json` | ✅ Built | 8 Particles grammar lessons (4 sections + 5 quiz questions each). |
 | `data/grammar/article-lessons.json` | ✅ Built | 6 Artikel grammar lessons (4 sections + 5 quiz questions each). |
 | `js/article-grammar-data.js` | ✅ Built | `window.ARTICLE_GRAMMAR_DATA` — Artikel grammar lessons bundled. |
-| `service-worker.js` | ✅ v12 | Cache-first. Precaches all JS/CSS including particles-data.js, grammar-data.js, article-grammar-data.js. Range request handler for audio. |
+| `data/grammar/declension-lessons.json` | ✅ NEW (S36) | 5 Deklinationen lessons (4 sections + 5 quiz questions each). |
+| `data/exercises/exercises-declension.json` | ✅ 360 exercises | NEW (S36). type_ending, 30 per pattern × case. Machine-validated, 0 errors. |
+| `js/declension-data.js` | ✅ Built | `window.DECLENSION_DATA` (lessons + exercises). 184 KB. |
+| `_factory/generate-declension.py` | ✅ NEW (S36) | Regenerates exercises from curated pairs; endings computed from lookup table. |
+| `_factory/validate-declension.py` | ✅ NEW (S36) | Independent ending table + 7 integrity checks. Run before any merge. |
+| `service-worker.js` | ✅ v13 | Cache-first. Precaches all JS/CSS including particles-data.js, grammar-data.js, article-grammar-data.js, declension-data.js. Range request handler for audio. |
 | `manifest.json` | ✅ Built | PWA config. |
 | `icons/` | ✅ Done | icon-192 + icon-512, speech bubble "de", #85B7EB. |
 
@@ -95,6 +102,11 @@
 | Wörter intake pipeline | Sheet = inbox. Diff against `_factory/intake-log.json`, seed files + generator, validation pass per category before merge. |
 | New verb exercise depth | 8 per word (9 for roots) — not the full ~22 of original seeds. Expandable later. |
 | Ausdrücke scope | Minimal by design — only expressions from Ricco's readings. No gating. |
+| Deklination exercises | type_ending: strict, ending only ("en" ✓, "großen" ✗). No auto-advance; feedback card after every answer. |
+| Deklination lessons | 5 lessons, NO gating (Artikel model). Signal principle as unifying idea. |
+| Deklination CEFR filter | **Cumulative** ("Niveau bis") — NOT exact-match. Changelog: deviation from PRD spec, flagged + accepted 2026-07-09 (exact-match B2 = empty session; no B2 adjectives in weak/mixed pairs). |
+| Deklination content rule | Endings never hand-written — generator computes from lookup table, validator holds independent copy. Regenerate + validate via `_factory/*-declension.py`. |
+| Deklination v1 exclusions | Stem-changers (dunkel/hoch/teuer), indeclinables (rosa/lila), Komparativ/Superlativ declension, adjectival nouns. |
 
 ---
 
@@ -110,8 +122,9 @@
 | Listening | 2026 | 45 articles | — | ✅ Complete |
 | Particles | A1–C2 | 34 | 510 | ✅ Complete |
 | Ausdrücke | B1–B2 | 8 expressions | 32 | ✅ Live — grows with readings |
+| Deklinationen | A1–B2 | 3 patterns × 4 cases | 360 | ✅ Complete (Session 36) |
 
-**Total exercises: ~5,134 across 8 modules + Artikel (dynamic queue from unlocked nouns).**
+**Total exercises: ~5,494 across 8 modules + Deklinationen area + Artikel (dynamic queue from unlocked nouns).**
 
 ---
 
@@ -212,13 +225,13 @@
 **Up next (in rough priority):**
 - Ricco to confirm two flagged sheet entries: "Aufziele" (→ abzielen?) and "kindersinne" (skipped)
 - Next Wörter intake when the sheet grows (diff against `_factory/intake-log.json`)
-- Deklinationen area for Adjectives
 - Lesen & Hören — more years: run crawler on 2025, 2024 archives; re-bundle listening-data.js
 - Prepositions C1/C2 expansion — architecture ready; add entries with `"cefr": "C1"`
+- Deklinationen expansions (later): stem-changers, Komparativ/Superlativ declension, adjectival nouns, case filter
 
 **Known open items:**
 - Prefix verb variants inherit parent root's `grammar.case_requirements` — `verstehen` shows Irregular with no case badge (should be Akkusativ). Fix: add per-variant `grammar` override field. Deferred.
-- Adjectives Deklinationen card is a placeholder — exercises and UI not yet built.
+- Deklinationen not yet QA'd on device (headless-tested only) — Ricco to try a session on the phone; check inline input + Android keyboard behavior.
 - Prepositions not in Word List Practice mode (no unlock mechanic — by design).
 - `.git` repo lives inside Google Drive folder — causes stale lock files (HEAD.lock, index.lock) that block commits. Must `rm .git/*.lock` from Terminal before committing. Long-term: move repo outside Drive.
 

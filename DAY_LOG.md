@@ -2,6 +2,35 @@
 
 ---
 
+## 2026-07-09 — Session 36: Adjektiv-Deklinationen (v13)
+
+**PRD:** `PRD_Deklinationen.md` — signed off same session. Commit `00dea53`, pushed and live (v13).
+
+**Scope decisions (interview + sign-off):**
+- All three patterns (schwach/gemischt/stark), staged via lessons, all four cases
+- Type-the-ending exercises (strict, ending only — "en" correct, "großen" not)
+- Lessons WITHOUT gating (Artikel model), feedback card after every answer instead
+- Pre-generated exercise JSON via factory pipeline; 360 exercises (30 per pattern × case)
+- Pattern picker only (no case filter in v1)
+
+**Built:**
+- `data/grammar/declension-lessons.json` — 5 lessons (Warum Endungen? / Schwach / Gemischt / Stark / Entscheidungsweg), Artikel format: 4 sections + key_rules + 5-question rule_check quiz. Unifying idea: the *signal principle* (gender+case marked exactly once — article or adjective).
+- `_factory/generate-declension.py` — endings NEVER hand-written: computed from the pattern×case×gender lookup table. 60 curated adjective-noun pairs × 4 case frames; weak+mixed share 30 pairs (only the article slot differs), strong has its own 30 (mass/abstract nouns + bare plurals — count-noun singulars are ungrammatical without article).
+- `_factory/validate-declension.py` — independent second copy of the ending table + 7 checks (blank count, table match, adjective/noun exist, article↔pattern consistency, no 'ein' plurals, CEFR match, structure). **360 exercises, 0 integrity errors.**
+- `data/exercises/exercises-declension.json` + bundle `js/declension-data.js` (184 KB, `window.DECLENSION_DATA`).
+- Engine (exercises.js): `exerciseMode='deklination'`, `type_ending` renderer with inline ending input, strict match, cooldown re-queue, feedback card (particle-card styling) showing pattern · case · gender + rule, no auto-advance. In-session CEFR picker.
+- UI (app.js/index.html): Deklinationen card in Adjectives module ACTIVATED (was 🔒 placeholder) → new `screen-deklinationen` home: Grammatik accordion (5 lessons, `DeclensionGrammar` singleton) + 4 pattern cards (Schwach 120 / Gemischt 120 / Stark 120 / Alle 360).
+- CSS: `.dekl-ending-input` inline blank styling.
+- Service worker v13, `declension-data.js` precached.
+
+**Deviation flagged & accepted:** CEFR filter is *cumulative* ("Niveau bis", B1 = A1+A2+B1), not exact-match like Prepositions — exact-match B2 would give an empty session (no B2 adjectives in the weak/mixed pairs). Counts: A1 248 → B2 360.
+
+**Excluded from v1 (in PRD):** stem-changers (dunkel→dunkle, hoch→hohe, teuer→teure) in typing pool, indeclinables (rosa, lila), comparative/superlative declension, adjectival nouns. Stem-changers/indeclinables get a warning section in Lesson 5.
+
+**Verification:** headless smoke tests (node) of full exercise flow (correct/wrong/cooldown/results), lesson render, quiz pass/fail state, home screen counts. `node --check` on all touched JS. Live deploy verified via raw.githubusercontent (v13 + precache entry).
+
+---
+
 ## 2026-07-07 — Session 35: Wörter Intake #1 + Ausdrücke Module (v12)
 
 **PRD:** `PRD_Woerter_Intake.md` — signed off same session.
