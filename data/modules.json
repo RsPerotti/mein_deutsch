@@ -94,5 +94,16 @@
     "exercises_file": "exercises-expressions.json",
     "unlock_order": 9,
     "status": "active"
+  },
+  {
+    "id": "module_prefixes",
+    "title_de": "Vorsilben",
+    "title_en": "Prefixes",
+    "description_en": "35 German verb prefixes — the feeling each one carries, and why it turns a root verb into the meaning it does.",
+    "icon": "🧩",
+    "data_file": "prefixes.json",
+    "exercises_file": "exercises-prefixes.json",
+    "unlock_order": 10,
+    "status": "active"
   }
 ]

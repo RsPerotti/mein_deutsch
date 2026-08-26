@@ -857,6 +857,7 @@ function advanceExercise() {
   if (exerciseMode === 'wordlist') { _showNextWL(); return; }
   if (exerciseMode === 'artikel')  { _artikelShowNext(); return; }
   if (exerciseMode === 'deklination') { _deklShowNext(); return; }
+  if (exerciseMode === 'prefix')      { _prefixShowNext(); return; }
   _showNext();
 }
 
@@ -878,6 +879,11 @@ function exitExerciseEarly() {
     const deklPicker = document.getElementById('dekl-cefr-picker');
     if (deklPicker) deklPicker.style.display = 'none';
     navigateTo('screen-deklinationen');
+    return;
+  }
+  if (exerciseMode === 'prefix') {
+    exerciseMode = 'module';
+    returnFromResults();
     return;
   }
   returnFromResults();
@@ -1849,4 +1855,275 @@ function _speak(text) {
   u.rate = 0.85;
   speechSynthesis.cancel();
   speechSynthesis.speak(u);
+}
+
+// ═══════════════════════════════════════════════════════
+// VORSILBEN (Prefixes) EXERCISE ENGINE — Session 37
+// Mirrors the Deklination engine: self-contained session,
+// cooldown re-queue, feedback card after EVERY answer, no gating.
+// Two types:
+//   select_prefix   root + target meaning -> pick the prefix
+//   select_feeling  prefixed verb        -> pick the core feeling
+// ═══════════════════════════════════════════════════════
+
+let _prefixSession = {
+  queue:        [],
+  cooldown:     [],
+  correctCount: 0,
+  totalCount:   0,
+  current:      null,
+  answered:     false
+};
+
+function _prefixBuildQueue() {
+  const all = (typeof PREFIXES_DATA !== 'undefined' && PREFIXES_DATA.exercises)
+    ? PREFIXES_DATA.exercises : [];
+  const group = (typeof _prefixGroupFilter !== 'undefined') ? _prefixGroupFilter : 'alle';
+
+  return _shuffle(all.filter(e => group === 'alle' || e.group === group));
+}
+
+/**
+ * Entry point — called from onScreenEnter when exerciseMode === 'prefix'.
+ */
+function startPrefixExercise() {
+  const queue = _prefixBuildQueue();
+
+  const groupLabels = {
+    trennbar:   'TRENNBAR',
+    untrennbar: 'UNTRENNBAR',
+    beide:      'BEIDE',
+    alle:       'ALLE VORSILBEN'
+  };
+  document.getElementById('exercise-context-label').textContent =
+    'VORSILBEN · ' + (groupLabels[_prefixGroupFilter] || 'ALLE VORSILBEN');
+
+  // Hide the other modules' pickers — Vorsilben has no in-session picker
+  ['prep-difficulty-picker', 'verb-tense-picker', 'dekl-cefr-picker'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.style.display = 'none';
+  });
+
+  _prefixSession = {
+    queue,
+    cooldown:     [],
+    correctCount: 0,
+    totalCount:   queue.length,
+    current:      null,
+    answered:     false
+  };
+
+  document.getElementById('chip-correct').textContent  = '0';
+  document.getElementById('chip-queue').textContent    = queue.length;
+  document.getElementById('chip-cooldown').textContent = '0';
+  document.getElementById('chip-cooldown-wrap').style.display = '';
+
+  if (queue.length === 0) {
+    document.getElementById('exercise-card').innerHTML = `
+      <div class="empty-state" style="padding:40px 0">
+        <div class="empty-icon">🧩</div>
+        <p>Keine Übungen in dieser Gruppe.</p>
+      </div>`;
+    document.getElementById('next-btn').style.display = 'none';
+    return;
+  }
+
+  _prefixShowNext();
+}
+
+function _prefixShowNext() {
+  const s = _prefixSession;
+
+  // Flush cooldown back into the queue when the main queue empties
+  if (s.queue.length === 0 && s.cooldown.length > 0) {
+    s.queue    = _shuffle([...s.cooldown]);
+    s.cooldown = [];
+  }
+
+  if (s.queue.length === 0) {
+    _prefixShowResults();
+    return;
+  }
+
+  s.current  = s.queue.shift();
+  s.answered = false;
+
+  const pct = s.totalCount > 0 ? Math.round(s.correctCount / s.totalCount * 100) : 0;
+  document.getElementById('exercise-progress-fill').style.width = pct + '%';
+
+  document.getElementById('exercise-card').innerHTML =
+    s.current.type === 'select_feeling'
+      ? _renderSelectFeeling(s.current)
+      : _renderSelectPrefix(s.current);
+
+  document.getElementById('next-btn').style.display = 'none';
+
+  document.getElementById('chip-correct').textContent  = s.correctCount;
+  document.getElementById('chip-queue').textContent    = s.queue.length + s.cooldown.length;
+  document.getElementById('chip-cooldown').textContent = s.cooldown.length;
+}
+
+const _PREFIX_GROUP_LABEL = {
+  trennbar:   'Trennbar',
+  untrennbar: 'Untrennbar',
+  beide:      'Trennbar oder untrennbar'
+};
+
+// --- Render: select_prefix ---
+// "kaufen  →  to sell"  — which prefix?
+function _renderSelectPrefix(ex) {
+  const options = _shuffle([...ex.options]);
+  const root    = (ex.reflexive ? 'sich ' : '') + ex.root;
+
+  return `
+    <div class="exercise-meta">
+      <div class="exercise-counter">FRAGE ${_prefixSession.correctCount + 1}</div>
+      <div class="exercise-type-label">${_esc(_PREFIX_GROUP_LABEL[ex.group] || '')}</div>
+    </div>
+
+    <div class="prefix-prompt">
+      <div class="prefix-prompt-hint">Welche Vorsilbe?</div>
+      <div class="prefix-prompt-root">${_esc(root)}</div>
+      <div class="prefix-prompt-arrow">↓</div>
+      <div class="prefix-prompt-target">„${_esc(ex.target_en)}”</div>
+    </div>
+
+    <div class="options-grid" id="opts">
+      ${options.map(opt => `
+        <button class="option-btn grid-opt"
+                data-answer="${_esc(opt)}"
+                onclick="selectPrefixAnswer(this)">
+          <span class="opt-word">${_esc(opt)}</span>
+        </button>`).join('')}
+    </div>
+    <div id="prefix-feedback-card" class="particle-feedback-card" style="display:none"></div>`;
+}
+
+// --- Render: select_feeling ---
+// "zerbrechen" — which feeling does the prefix carry?
+function _renderSelectFeeling(ex) {
+  const options = _shuffle([...ex.options]);
+
+  return `
+    <div class="exercise-meta">
+      <div class="exercise-counter">FRAGE ${_prefixSession.correctCount + 1}</div>
+      <div class="exercise-type-label">${_esc(_PREFIX_GROUP_LABEL[ex.group] || '')}</div>
+    </div>
+
+    <div class="prefix-prompt">
+      <div class="prefix-prompt-hint">Welches Gefühl trägt die Vorsilbe?</div>
+      <div class="prefix-prompt-root">${_esc(ex.verb)}</div>
+      <div class="prefix-prompt-target" style="font-size:var(--font-size-base);
+           font-weight:var(--fw-regular);color:var(--color-text-secondary);margin-top:6px">
+        ${_esc(ex.verb_en)}
+      </div>
+    </div>
+
+    <div class="prefix-feeling-grid" id="opts">
+      ${options.map(opt => `
+        <button class="option-btn"
+                data-answer="${_esc(opt)}"
+                onclick="selectPrefixAnswer(this)">
+          ${_esc(opt)}
+        </button>`).join('')}
+    </div>
+    <div id="prefix-feedback-card" class="particle-feedback-card" style="display:none"></div>`;
+}
+
+/**
+ * Shared answer handler for both prefix exercise types.
+ * No auto-advance — the feedback card must be read (same rule as Partikeln).
+ */
+function selectPrefixAnswer(btn) {
+  const s = _prefixSession;
+  if (!s || s.answered) return;
+  s.answered = true;
+
+  const ex      = s.current;
+  const chosen  = btn.dataset.answer;
+  const correct = ex.correct;
+  const isRight = chosen === correct;
+
+  // Same visual states as selectAnswer(): pointer-events off, state-* classes
+  document.querySelectorAll('#opts .option-btn').forEach(b => {
+    b.style.pointerEvents = 'none';
+    const a = b.dataset.answer;
+    if (a === correct)                 b.classList.add('state-correct');
+    else if (a === chosen && !isRight) b.classList.add('state-wrong');
+  });
+
+  if (isRight) s.correctCount++;
+  else         s.cooldown.push(ex);
+
+  _showPrefixFeedbackCard(ex, isRight);
+
+  document.getElementById('next-btn').style.display = 'block';
+  document.getElementById('chip-correct').textContent  = s.correctCount;
+  document.getElementById('chip-queue').textContent    = s.queue.length + s.cooldown.length;
+  document.getElementById('chip-cooldown').textContent = s.cooldown.length;
+}
+
+// --- Prefix feedback card ---
+// Shown after EVERY answer. Reuses the Partikeln card styling.
+function _showPrefixFeedbackCard(ex, isCorrect) {
+  const card = document.getElementById('prefix-feedback-card');
+  if (!card) return;
+
+  const pd     = (typeof PREFIXES_DATA !== 'undefined') ? PREFIXES_DATA : {};
+  const prefix = (pd.prefixes || []).find(p => p.id === ex.prefix_id);
+  const headline = ex.type === 'select_feeling'
+    ? (prefix ? prefix.prefix : '')
+    : ex.correct;
+
+  const resultLine = isCorrect ? '' : `
+    <div style="font-size:var(--font-size-xs);font-weight:var(--fw-semibold);
+                color:#3D6020;margin-bottom:6px;letter-spacing:0.03em">
+      Richtig: <strong>${_esc(ex.type === 'select_feeling' ? ex.correct : ex.answer_verb)}</strong>
+    </div>`;
+
+  const verbLine = ex.type === 'select_prefix' ? `
+    <div style="font-size:var(--font-size-sm);font-weight:var(--fw-semibold);
+                color:#2D4A1A;margin-bottom:4px">${_esc(ex.answer_verb)}</div>` : '';
+
+  card.innerHTML = `
+    ${resultLine}
+    <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:4px">
+      <span style="font-size:var(--font-size-xl);font-weight:var(--fw-bold)">${_esc(headline)}</span>
+      <span style="font-size:var(--font-size-xs);color:#2D4A1A;opacity:0.7;
+                   letter-spacing:0.04em;text-transform:uppercase">
+        ${_esc(_PREFIX_GROUP_LABEL[ex.group] || '')}
+      </span>
+    </div>
+    ${verbLine}
+    <div style="font-size:var(--font-size-sm)">${_esc(ex.feedback || '')}</div>`;
+
+  card.style.display = 'block';
+  _flash(isCorrect ? 'green' : 'red');
+}
+
+function _prefixShowResults() {
+  exerciseMode = 'module';
+
+  navigateTo('screen-results');
+
+  const s     = _prefixSession;
+  const total = s.totalCount;
+  const right = s.correctCount;
+  const pct   = total > 0 ? Math.round(right / total * 100) : 0;
+
+  document.getElementById('results-summary').textContent =
+    `${right} von ${total} Vorsilben richtig.`;
+
+  document.getElementById('results-stats').innerHTML = `
+    <div class="results-stat-row">
+      <span>Richtige Antworten</span><strong>${right} / ${total}</strong>
+    </div>
+    <div class="results-stat-row">
+      <span>Ergebnis</span><strong>${pct}%</strong>
+    </div>`;
+
+  document.getElementById('results-unlocked').innerHTML = '';
+
+  const cdWrap = document.getElementById('chip-cooldown-wrap');
+  if (cdWrap) cdWrap.style.display = '';
 }

@@ -1,0 +1,178 @@
+#!/usr/bin/env python3
+"""
+validate-prefixes.py — independent integrity check for the Vorsilben module.
+
+Deliberately holds its OWN copy of the exclusion table and its own reading of
+the rules, so a bug in generate-prefixes.py cannot pass silently. Same
+discipline as validate-declension.py.
+
+Must report 0 errors before any merge.
+Run:  python3 _factory/validate-prefixes.py
+"""
+
+import json
+import sys
+from collections import Counter
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+PREFIXES = ROOT / "data" / "prefixes.json"
+EXERCISES = ROOT / "data" / "exercises" / "exercises-prefixes.json"
+
+N_OPTIONS = 4
+EXPECT_SELECT_PREFIX = 6
+EXPECT_SELECT_FEELING = 4
+
+# Independent copy — written from the PRD, not imported from the generator.
+NEAR_SYNONYMS = [
+    ("ab", "weg"), ("ab", "fort"), ("weg", "fort"),
+    ("ver", "zer"), ("miss", "ver"),
+    ("an", "zu"), ("durch", "über"),
+    ("zurück", "wieder"),
+    ("mit", "zusammen"), ("mit", "bei"),
+    ("weiter", "fort"), ("nieder", "ab"),
+    ("entgegen", "wider"), ("her", "hin"),
+]
+
+errors = []
+warnings = []
+
+
+def err(check, msg):
+    errors.append(f"[{check}] {msg}")
+
+
+def main():
+    prefixes = json.loads(PREFIXES.read_text(encoding="utf-8"))
+    exercises = json.loads(EXERCISES.read_text(encoding="utf-8"))
+
+    by_id = {p["id"]: p for p in prefixes}
+    prefix_to_id = {p["prefix"]: p["id"] for p in prefixes}
+    core_to_id = {}
+    for p in prefixes:
+        core_to_id.setdefault(p["core"], []).append(p["id"])
+
+    # (root, prefix_id) -> {english, ...}
+    # A set, not a scalar: the same root can appear twice under one prefix
+    # (e.g. widersprechen and der Widerspruch both have root "sprechen").
+    verb_index = {}
+    for p in prefixes:
+        for ex in p["examples"]:
+            verb_index.setdefault((ex["root"], p["id"]), set()).add(ex["english"])
+
+    banned = set()
+    for a, b in NEAR_SYNONYMS:
+        banned.add(frozenset((a, b)))
+
+    # --- 1. structural ----------------------------------------------------
+    seen_ids = Counter(e["id"] for e in exercises)
+    for eid, c in seen_ids.items():
+        if c > 1:
+            err("unique-id", f"{eid} appears {c} times")
+
+    for e in exercises:
+        opts = e["options"]
+        if len(opts) != N_OPTIONS:
+            err("options-count", f"{e['id']} has {len(opts)} options")
+        if len(set(opts)) != len(opts):
+            err("options-dupe", f"{e['id']} has duplicate options")
+        if e["correct"] not in opts:
+            err("correct-present", f"{e['id']} correct answer not among options")
+        if opts.count(e["correct"]) != 1:
+            err("single-answer", f"{e['id']} correct answer appears more than once")
+
+    # --- 2. core feelings must be globally unique -------------------------
+    for core, ids in core_to_id.items():
+        if len(ids) > 1:
+            err("core-unique",
+                f"core feeling shared by {ids} — select_feeling cannot be unambiguous")
+
+    # --- 3. exclusion pairs ------------------------------------------------
+    for e in exercises:
+        pid = e["prefix_id"]
+        if e["type"] == "select_prefix":
+            opt_ids = [prefix_to_id.get(o) for o in e["options"]]
+        else:
+            opt_ids = [core_to_id.get(o, [None])[0] for o in e["options"]]
+        if any(o is None for o in opt_ids):
+            err("option-resolve", f"{e['id']} has an option that maps to no prefix")
+            continue
+        for o in opt_ids:
+            if o != pid and frozenset((pid, o)) in banned:
+                err("near-synonym",
+                    f"{e['id']} pairs {pid} with near-synonym {o}")
+
+    # --- 4. select_prefix semantic safety ---------------------------------
+    for e in exercises:
+        if e["type"] != "select_prefix":
+            continue
+        pid = e["prefix_id"]
+        if e["target_en"] not in verb_index.get((e["root"], pid), set()):
+            err("answer-real",
+                f"{e['id']} correct prefix + root does not reconstruct the example")
+        expected = by_id[pid]["prefix"].rstrip("-") + e["root"]
+        if expected.lower() != e["answer_verb"].replace("sich ", "").lower():
+            err("answer-verb",
+                f"{e['id']} {expected} != {e['answer_verb']} — prompt would not "
+                "form the answer verb")
+        for o in e["options"]:
+            oid = prefix_to_id[o]
+            if oid == pid:
+                continue
+            if e["target_en"] in verb_index.get((e["root"], oid), set()):
+                err("distractor-valid",
+                    f"{e['id']} distractor {oid}+{e['root']} also means "
+                    f"'{e['target_en']}'")
+
+    # --- 5. coverage -------------------------------------------------------
+    per_prefix = Counter((e["prefix_id"], e["type"]) for e in exercises)
+    for p in prefixes:
+        pid = p["id"]
+        sp = per_prefix[(pid, "select_prefix")]
+        sf = per_prefix[(pid, "select_feeling")]
+        if p.get("exercisable", True):
+            if sp != EXPECT_SELECT_PREFIX:
+                err("coverage", f"{pid} has {sp} select_prefix (expected {EXPECT_SELECT_PREFIX})")
+            if sf != EXPECT_SELECT_FEELING:
+                err("coverage", f"{pid} has {sf} select_feeling (expected {EXPECT_SELECT_FEELING})")
+        else:
+            if sp or sf:
+                err("non-exercisable",
+                    f"{pid} is marked exercisable:false but has {sp + sf} exercises")
+
+    # --- 6. source data sanity --------------------------------------------
+    for p in prefixes:
+        if p["group"] not in ("trennbar", "untrennbar", "beide"):
+            err("group", f"{p['id']} has unknown group {p['group']}")
+        if len(p["examples"]) != 10:
+            err("examples", f"{p['id']} has {len(p['examples'])} examples (expected 10)")
+        for f in ("core", "hint", "feeling", "mnemonic"):
+            if not p.get(f):
+                err("field", f"{p['id']} missing {f}")
+        if p.get("exercisable", True) and \
+           sum(1 for e in p["examples"] if e["drillable"]) < EXPECT_SELECT_PREFIX:
+            err("drillable", f"{p['id']} has too few drillable examples")
+
+    # --- report ------------------------------------------------------------
+    print(f"prefixes      : {len(prefixes)}")
+    print(f"exercises     : {len(exercises)}")
+    print(f"select_prefix : {sum(1 for e in exercises if e['type'] == 'select_prefix')}")
+    print(f"select_feeling: {sum(1 for e in exercises if e['type'] == 'select_feeling')}")
+    print()
+    if warnings:
+        print(f"{len(warnings)} warning(s):")
+        for w in warnings:
+            print("  " + w)
+        print()
+    if errors:
+        print(f"❌ {len(errors)} integrity error(s):")
+        for e in errors[:60]:
+            print("  " + e)
+        if len(errors) > 60:
+            print(f"  … and {len(errors) - 60} more")
+        sys.exit(1)
+    print("✅ 0 integrity errors")
+
+
+if __name__ == "__main__":
+    main()

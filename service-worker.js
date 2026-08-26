@@ -14,13 +14,15 @@
  *      removed, soft gate removed, Alle Partikeln button removed, particle list design + click fixed.
  * v12: Wörter Intake #1 + Ausdrücke module (Session 35).
  * v13: Deklinationen area (Session 36) — 5 lessons, 360 type_ending exercises, declension-data.js.
+ * v14: Vorsilben module (Session 37) — 10th module. 35 verb prefixes, 5 lessons,
+ *      330 select_prefix/select_feeling exercises, prefixes-data.js.
  *
  * DEPLOY NOTE: bump the CACHE version string on every push that changes
  * JS/CSS files. The browser only installs a new SW when this file changes.
  * If the version is not bumped, users keep running the old cached code.
  */
 
-const CACHE = 'mein-deutsch-v13';
+const CACHE = 'mein-deutsch-v14';
 
 const PRECACHE = [
   './',
@@ -29,6 +31,7 @@ const PRECACHE = [
   './js/data.js',
   './js/listening-data.js',
   './js/particles-data.js',
+  './js/prefixes-data.js',
   './js/grammar-data.js',
   './js/article-grammar-data.js',
   './js/declension-data.js',

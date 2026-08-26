@@ -19,6 +19,7 @@ const appData = {
   adjectives:   [],
   prepositions: [],
   particles:    [],
+  prefixes:     [],
   expressions:  [],
   exercises:    {}   // keyed by moduleId e.g. 'module_verbs'
 };
@@ -79,6 +80,7 @@ function onScreenEnter(screenId) {
     case 'screen-exercise':
       if (exerciseMode === 'artikel') startArtikelExercise();
       else if (exerciseMode === 'deklination') startDeklinationExercise();
+      else if (exerciseMode === 'prefix') startPrefixExercise();
       else startExercise(currentExerciseState);
       break;
     case 'screen-verbliste':         renderVerbliste();                       break;
@@ -97,6 +99,8 @@ function onScreenEnter(screenId) {
         renderArticleLesson(window._currentGrammarLessonId || '');
       } else if (window._currentGrammarModule === 'deklination') {
         renderDeklinationLesson(window._currentGrammarLessonId || '');
+      } else if (window._currentGrammarModule === 'prefixes') {
+        renderPrefixLesson(window._currentGrammarLessonId || '');
       } else {
         renderGrammarLesson(window._currentGrammarLessonId || '');
       }
@@ -108,11 +112,14 @@ function onScreenEnter(screenId) {
         renderArticleQuiz();
       } else if (window._grammarQuizState && window._grammarQuizState.module === 'deklination') {
         renderDeklinationQuiz();
+      } else if (window._grammarQuizState && window._grammarQuizState.module === 'prefixes') {
+        renderPrefixQuiz();
       } else {
         renderGrammarQuiz();
       }
       break;
     case 'screen-particle-reference': renderPartikelliste(); break;
+    case 'screen-prefix-reference':   renderVorsilbenliste(); break;
     case 'screen-deklinationen':      renderDeklinationenHome(); break;
   }
 }
@@ -183,6 +190,16 @@ async function loadData() {
   const pd = window.PARTICLES_DATA || {};
   appData.particles                        = pd.particles || [];
   appData.exercises['module_particles']    = pd.exercises || [];
+
+  // Vorsilben module — definitions + exercises + lessons bundled in
+  // js/prefixes-data.js. The module descriptor rides along in the same
+  // bundle so v14 does not need a 2.2 MB js/data.js rebundle.
+  const xd = window.PREFIXES_DATA || {};
+  appData.prefixes                         = xd.prefixes || [];
+  appData.exercises['module_prefixes']     = xd.exercises || [];
+  if (xd.module && !appData.modules.find(m => m.id === 'module_prefixes')) {
+    appData.modules.push(xd.module);
+  }
 }
 
 // ─────────────────────────────────────────
@@ -256,6 +273,8 @@ function _moduleIcon(moduleId) {
       `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" ${sw}><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/><line x1="9" y1="10" x2="15" y2="10"/><line x1="9" y1="14" x2="13" y2="14"/></svg>`,
     module_expressions:
       `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" ${sw}><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>`,
+    module_prefixes:
+      `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" ${sw}><rect x="3" y="3" width="7" height="7" rx="1.5"/><path d="M14 6.5h7"/><path d="M14 10h4"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><path d="M14 17.5h7"/><path d="M14 21h4"/></svg>`,
   };
   return icons[moduleId] ||
     `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" ${sw}><circle cx="12" cy="12" r="10"/></svg>`;
@@ -319,6 +338,8 @@ function renderModuleHome(moduleId) {
     _renderArtikelModuleCategories();
   } else if (moduleId === 'module_expressions') {
     _renderExpressionsModuleCategories();
+  } else if (moduleId === 'module_prefixes') {
+    _renderPrefixModuleCategories();
   }
 }
 
@@ -1571,6 +1592,7 @@ async function init() {
   ParticleGrammar.init(); // initialise particle lesson state (no migration — new module)
   ArticleGrammar.init();  // initialise article lesson state (no migration — new module)
   DeclensionGrammar.init();  // initialise declension lesson state (Session 36)
+  PrefixGrammar.init();      // initialise Vorsilben lesson state (Session 37)
   Progress.updateStreak();
   Progress.recordSession();
   renderHome();
@@ -1725,4 +1747,267 @@ function toggleExpressionCard(id) {
   if (!det) return;
   const open = det.classList.toggle('open');
   if (arr) arr.style.transform = open ? 'rotate(180deg)' : '';
+}
+
+// ─────────────────────────────────────────
+// VORSILBEN MODULE (Session 37)
+// 35 verb prefixes. No unlock gate, no CEFR filter —
+// filtered by separability instead (trennbar / untrennbar / beide).
+// ─────────────────────────────────────────
+
+// Group selected for the next exercise session and for the reference list
+let _prefixGroupFilter = 'alle';
+let _prefixSearch      = '';
+let _prefixDetailId    = null;
+
+const _PREFIX_GROUP_TITLE = {
+  trennbar:   'Trennbar',
+  untrennbar: 'Untrennbar',
+  beide:      'Beide'
+};
+
+const _PREFIX_GROUP_SUB = {
+  trennbar:   'Vorsilbe wandert ans Satzende',
+  untrennbar: 'Vorsilbe bleibt fest am Verb',
+  beide:      'wörtlich trennbar, übertragen nicht'
+};
+
+function _prefixData() {
+  return (typeof PREFIXES_DATA !== 'undefined') ? PREFIXES_DATA : {};
+}
+
+function _renderPrefixModuleCategories() {
+  const pd     = _prefixData();
+  const all    = pd.prefixes  || [];
+  const allEx  = pd.exercises || [];
+
+  const gramStrip = _renderPrefixGrammatikStrip(pd.lessons || []);
+
+  const countFor = g => allEx.filter(e => e.group === g).length;
+  const doneFor  = g => allEx.filter(e =>
+    e.group === g && Progress.getExerciseHistory(e.id).correct > 0
+  ).length;
+
+  const mkCard = (group, title, subtitle) => {
+    const n    = group === 'alle' ? allEx.length : countFor(group);
+    const done = group === 'alle'
+      ? allEx.filter(e => Progress.getExerciseHistory(e.id).correct > 0).length
+      : doneFor(group);
+    const pct  = n > 0 ? Math.round(done / n * 100) : 0;
+    return `
+      <div class="category-card" onclick="openPrefixExercise('${group}')">
+        <div class="category-card-title">${title}</div>
+        <div class="category-card-subtitle">${subtitle}</div>
+        <div class="category-card-count mt-3">${done} / ${n}</div>
+        <div class="progress-bar mt-2">
+          <div class="progress-fill" style="width:${pct}%"></div>
+        </div>
+      </div>`;
+  };
+
+  const seenTotal = allEx.filter(e => Progress.getExerciseHistory(e.id).correct > 0).length;
+  const pctTotal  = allEx.length > 0 ? Math.round(seenTotal / allEx.length * 100) : 0;
+
+  document.getElementById('module-categories').innerHTML = `
+    <!-- Summary card — tap to browse all prefixes -->
+    <div class="card" style="cursor:pointer" onclick="openVorsilbenliste()">
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <div style="flex:1;min-width:0">
+          <div style="font-size:var(--font-size-xs);font-weight:var(--fw-semibold);letter-spacing:var(--ls-label);text-transform:uppercase;color:var(--color-text-secondary);margin-bottom:4px">Vorsilben</div>
+          <div style="display:flex;align-items:baseline;gap:4px">
+            <span style="font-size:var(--font-size-2xl);font-weight:var(--fw-bold)">${all.length}</span>
+            <span style="font-size:var(--font-size-sm);color:var(--color-text-muted)">total · ${allEx.length} exercises</span>
+          </div>
+          <div class="progress-bar mt-2"><div class="progress-fill" style="width:${pctTotal}%"></div></div>
+        </div>
+        <span style="font-size:var(--font-size-lg);color:var(--color-text-muted);margin-left:12px">›</span>
+      </div>
+    </div>
+
+    <!-- Grammatik accordion -->
+    ${gramStrip}
+
+    <div class="label mt-4" style="color:var(--color-text-primary);margin-bottom:var(--sp-3)">
+      Übungen — Vorsilbe & Gefühl
+    </div>
+
+    <div class="category-pair">
+      ${mkCard('trennbar',   'Trennbar',   _PREFIX_GROUP_SUB.trennbar)}
+      ${mkCard('untrennbar', 'Untrennbar', _PREFIX_GROUP_SUB.untrennbar)}
+    </div>
+    <div class="category-pair" style="margin-top:var(--sp-3)">
+      ${mkCard('beide', 'Beide', _PREFIX_GROUP_SUB.beide)}
+      ${mkCard('alle',  'Alle',  'alle Gruppen gemischt')}
+    </div>`;
+}
+
+function openPrefixExercise(group) {
+  _prefixGroupFilter = group || 'alle';
+  exerciseMode = 'prefix';
+  navigateTo('screen-exercise');
+}
+
+// ─────────────────────────────────────────
+// VORSILBENLISTE (Prefix Reference)
+// ─────────────────────────────────────────
+
+function openVorsilbenliste() {
+  navigateTo('screen-prefix-reference');
+}
+
+function renderVorsilbenliste() {
+  _prefixSearch = '';
+  const searchEl = document.getElementById('prefix-ref-search');
+  if (searchEl) searchEl.value = '';
+  document.querySelectorAll('.prefix-group-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.group === _prefixGroupFilter);
+  });
+  _renderPrefixList();
+}
+
+function setPrefixGroup(group) {
+  _prefixGroupFilter = group;
+  document.querySelectorAll('.prefix-group-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.group === group);
+  });
+  _renderPrefixList();
+}
+
+function filterPrefixSearch(val) {
+  _prefixSearch = val.trim().toLowerCase();
+  _renderPrefixList();
+}
+
+function _renderPrefixList() {
+  let prefixes    = _prefixData().prefixes || [];
+  const container = document.getElementById('prefix-ref-list');
+  if (!container) return;
+
+  if (_prefixGroupFilter !== 'alle') {
+    prefixes = prefixes.filter(p => p.group === _prefixGroupFilter);
+  }
+
+  // Search matches the prefix, its core feeling, and any example verb
+  if (_prefixSearch) {
+    const q = _prefixSearch;
+    prefixes = prefixes.filter(p =>
+      p.prefix.toLowerCase().includes(q) ||
+      (p.core || '').toLowerCase().includes(q) ||
+      (p.examples || []).some(e =>
+        e.word.toLowerCase().includes(q) ||
+        (e.english || '').toLowerCase().includes(q))
+    );
+  }
+
+  if (prefixes.length === 0) {
+    container.innerHTML = `<div class="particle-ref-empty">Keine Vorsilben gefunden.</div>`;
+    return;
+  }
+
+  const order = ['untrennbar', 'trennbar', 'beide'];
+  const label = {
+    untrennbar: 'Untrennbar — fest am Verb',
+    trennbar:   'Trennbar — wandert ans Satzende',
+    beide:      'Beide — je nach Bedeutung'
+  };
+
+  let html = '';
+  for (const g of order) {
+    const group = prefixes.filter(p => p.group === g);
+    if (!group.length) continue;
+    html += `
+      <div class="alpha-section">
+        <div class="alpha-header">${label[g]}</div>
+        <div class="word-list-group">${group.map(_prefixRowHtml).join('')}</div>
+      </div>`;
+  }
+  container.innerHTML = html;
+}
+
+function _prefixRowHtml(p) {
+  const badge = `<span class="prefix-group-badge g-${p.group}">${_PREFIX_GROUP_TITLE[p.group] || ''}</span>`;
+  return `
+    <div class="particle-ref-row" onclick="showPrefixDetail('${p.id}')">
+      <div class="particle-ref-row-left">
+        <span class="particle-ref-word">${p.prefix}</span>
+        <span class="particle-ref-signal">${p.core || ''}</span>
+      </div>
+      <div class="prefix-ref-row-right">
+        ${badge}
+        <span class="word-item-arrow">›</span>
+      </div>
+    </div>`;
+}
+
+// ─── Prefix detail bottom sheet ──────────────────────────────────────────────
+
+function showPrefixDetail(prefixId) {
+  const pd     = _prefixData();
+  const prefix = (pd.prefixes || []).find(p => p.id === prefixId);
+  if (!prefix) return;
+
+  _prefixDetailId = prefixId;
+
+  const closedSetHtml = prefix.exercisable === false ? `
+    <div class="prefix-closed-set">
+      <strong>Geschlossene Gruppe.</strong> Diese Vorsilbe bildet nur eine Handvoll
+      Verben — sie lässt sich nicht produktiv anwenden. Deshalb gibt es hier keine
+      Übungen: erkennen genügt.
+    </div>` : '';
+
+  const examplesHtml = (prefix.examples || []).map(ex => `
+    <div class="prefix-example">
+      <div class="prefix-example-head">
+        <span class="prefix-example-verb">${ex.word}</span>
+        <span class="prefix-example-root">← ${ex.root}</span>
+        ${ex.in_app ? '<span class="prefix-example-inapp">im Verbmodul</span>' : ''}
+      </div>
+      <div class="prefix-example-en">${ex.english}</div>
+      <div class="prefix-example-why">${ex.why}</div>
+    </div>`).join('');
+
+  const relatedHtml = (prefix.related || []).length > 0 ? `
+    <div class="particle-detail-section">
+      <div class="particle-detail-label">Verwandte Vorsilben</div>
+      <div class="particle-ref-chips">
+        ${prefix.related.map(r => {
+          const target = (pd.prefixes || []).find(p => p.id === r);
+          return target
+            ? `<span class="particle-ref-chip" onclick="showPrefixDetail('${r}')">${target.prefix}</span>`
+            : '';
+        }).join('')}
+      </div>
+    </div>` : '';
+
+  document.getElementById('prefix-detail-content').innerHTML = `
+    <div class="particle-detail-header">
+      <span class="particle-detail-word">${prefix.prefix}</span>
+      <span class="prefix-group-badge g-${prefix.group}">${_PREFIX_GROUP_TITLE[prefix.group] || ''}</span>
+    </div>
+    <div class="particle-detail-category">${prefix.core}</div>
+
+    ${closedSetHtml}
+
+    <div class="particle-detail-section">
+      <div class="particle-detail-label">Das Gefühl</div>
+      <div class="particle-detail-body">${prefix.feeling}</div>
+      <div class="prefix-mnemonic">${prefix.mnemonic}</div>
+    </div>
+
+    <div class="particle-detail-section">
+      <div class="particle-detail-label">Beispiele</div>
+      ${examplesHtml}
+    </div>
+
+    ${relatedHtml}`;
+
+  document.getElementById('prefix-detail-overlay').classList.add('visible');
+  document.getElementById('prefix-detail-sheet').classList.add('open');
+  document.getElementById('prefix-detail-content').scrollTop = 0;
+}
+
+function closePrefixDetail() {
+  document.getElementById('prefix-detail-overlay').classList.remove('visible');
+  document.getElementById('prefix-detail-sheet').classList.remove('open');
+  _prefixDetailId = null;
 }

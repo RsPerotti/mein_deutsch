@@ -1,11 +1,15 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-07-09 — Session 36 (Adjektiv-Deklinationen — v13 live)*
+*Last updated: 2026-08-26 — Session 37 (Vorsilben module — v14 built, awaiting push)*
 
 ---
 
 ## Current State
 
-**9 modules built and live.** App at https://rsperotti.github.io/mein_deutsch (v13).
+**10 modules built. 9 live, Vorsilben built and validated but NOT YET PUSHED.** App at https://rsperotti.github.io/mein_deutsch (v13 live; v14 staged locally).
+
+**Vorsilben module COMPLETE — awaiting push (Session 37).** New standalone 10th module teaching German verb prefixes as a generative system rather than as vocabulary. 35 prefixes across three groups (8 untrennbar / 20 trennbar / 7 beide), each with a core feeling, a feeling paragraph, a mnemonic and 10 worked examples. 5 grammar lessons (no gating, Artikel model) + 330 exercises of two new types. Filters by **separability, not CEFR** — a deliberate departure from every other module, recorded in Active Decisions. `emp-` and `hinter-` are reference-only (closed sets, no exercises). Machine-validated by an independent script — 0 integrity errors. 49-check headless QA suite passes. PRD: `PRD_Vorsilben.md`. **Not yet committed or pushed — Ricco to review and push.**
+
+**BUGFIX shipped with v14 — grammar quiz results were recorded against the wrong module.** `advanceGrammarQuiz()` always called `_renderGrammarQuizResults()`, which writes into the Verbs `Grammar` singleton. Partikeln, Artikel and Deklinationen quiz completions were therefore never recorded against `ParticleGrammar` / `ArticleGrammar` / `DeclensionGrammar`: their Grammatik accordion dots never turned green, and their lesson IDs were written as stray keys into `app_grammar_lessons`. `advanceGrammarQuiz()` now dispatches on `_grammarQuizState.module`, matching what `onScreenEnter` already did. Affects all four modules. Existing users will see previously-completed Partikeln/Artikel/Deklinationen lessons still showing as incomplete — the old results were written to the wrong store and are not migrated.
 
 **Deklinationen area COMPLETE (Session 36).** The Adjectives module's placeholder card is now a full adjective-endings area: 5 grammar lessons (no gating, Artikel model) + 360 `type_ending` exercises (3 patterns × 4 cases × 30), strict ending-only typing, feedback card after every answer, cooldown re-queue, cumulative CEFR picker. Endings machine-generated from the pattern×case×gender lookup table and validated by an independent script — 0 integrity errors. Excluded from v1: stem-changers, indeclinables, comparative/superlative declension, adjectival nouns. PRD: `PRD_Deklinationen.md`. Spec: `_factory/declension-spec.md`. Commit 00dea53.
 
@@ -38,7 +42,7 @@
 | `js/listening.js` | ✅ Built | Article list, reader, vocab highlighting, audio caching, read-state. |
 | `js/particles-data.js` | ✅ Updated | `window.PARTICLES_DATA`. 34 particles + 510 exercises + 8 lessons. **244 KB. Content-reviewed (Phase 6).** |
 | `js/grammar-data.js` | ✅ Built | `window.GRAMMAR_DATA` — Verbs grammar lessons bundled. |
-| `data/modules.json` | ✅ Updated | 9 modules active: + Ausdrücke (Expressions). |
+| `data/modules.json` | ✅ Updated | 10 modules active: + Vorsilben (Prefixes, S37). NOTE: the Vorsilben descriptor is delivered via `js/prefixes-data.js` and merged in `loadData()` — `js/data.js` was deliberately NOT rebundled for v14 (2.2 MB churn avoided). Same mechanism the listening module uses. |
 | `data/expressions.json` | ✅ 8 expressions | NEW (Session 35). Schwein haben, Abgemacht!, Einverstanden, Wie auch immer, Bitte sachlich bleiben, Ratschläge geben, möglichst+, durcheinander kommen. |
 | `data/exercises/exercises-expressions.json` | ✅ 32 exercises | 8 × 4: meaning, 2× gap-fill, situation-match. Reuses translate_word + fill_blank renderers. |
 | `_factory/intake-log.json` | ✅ NEW | Row-by-row resolution of all 213 sheet entries. Future intake runs diff against this. |
@@ -63,7 +67,16 @@
 | `js/declension-data.js` | ✅ Built | `window.DECLENSION_DATA` (lessons + exercises). 184 KB. |
 | `_factory/generate-declension.py` | ✅ NEW (S36) | Regenerates exercises from curated pairs; endings computed from lookup table. |
 | `_factory/validate-declension.py` | ✅ NEW (S36) | Independent ending table + 7 integrity checks. Run before any merge. |
-| `service-worker.js` | ✅ v13 | Cache-first. Precaches all JS/CSS including particles-data.js, grammar-data.js, article-grammar-data.js, declension-data.js. Range request handler for audio. |
+| `data/prefixes.json` | ✅ NEW (S37) | 35 verb prefixes. Per-prefix: group, core feeling, feeling paragraph, mnemonic, 10 worked examples (verb, root, English, why), related prefixes, `exercisable` flag. |
+| `data/grammar/prefix-lessons.json` | ✅ NEW (S37) | 5 Vorsilben lessons (4 sections + 5 quiz questions each). |
+| `data/exercises/exercises-prefixes.json` | ✅ 330 exercises | NEW (S37). 33 drilled prefixes × 10 (6 `select_prefix` + 4 `select_feeling`). Machine-validated, 0 errors. |
+| `js/prefixes-data.js` | ✅ Built | `window.PREFIXES_DATA` (prefixes + exercises + lessons + module descriptor). 277 KB. |
+| `_factory/generate-prefixes.py` | ✅ NEW (S37) | Deterministic generator (fixed seed). Every exercise derived from a reviewed example — nothing invented. |
+| `_factory/validate-prefixes.py` | ✅ NEW (S37) | Independent exclusion table + 6 integrity check families. Run before any merge. |
+| `_factory/bundle-prefixes.py` | ✅ NEW (S37) | Bundles the three JSON sources into `js/prefixes-data.js`. |
+| `_factory/qa-prefixes.js` | ✅ NEW (S37) | 49-check headless jsdom suite: data wiring, module home, reference, detail sheet, lessons, quiz, both exercise types, feedback card, cooldown, results, plus regressions on Verbs/Partikeln/Deklinationen. Needs `npm i jsdom`. |
+| `_factory/vorsilben/source-reference.html` | ✅ NEW (S37) | The reviewed 35-prefix reference the module content was generated from. |
+| `service-worker.js` | ✅ v14 | Cache-first. Precaches all JS/CSS including particles-data.js, prefixes-data.js, grammar-data.js, article-grammar-data.js, declension-data.js. Range request handler for audio. |
 | `manifest.json` | ✅ Built | PWA config. |
 | `icons/` | ✅ Done | icon-192 + icon-512, speech bubble "de", #85B7EB. |
 
@@ -106,6 +119,13 @@
 | Deklination lessons | 5 lessons, NO gating (Artikel model). Signal principle as unifying idea. |
 | Deklination CEFR filter | **Cumulative** ("Niveau bis") — NOT exact-match. Changelog: deviation from PRD spec, flagged + accepted 2026-07-09 (exact-match B2 = empty session; no B2 adjectives in weak/mixed pairs). |
 | Deklination content rule | Endings never hand-written — generator computes from lookup table, validator holds independent copy. Regenerate + validate via `_factory/*-declension.py`. |
+| Vorsilben filter axis | **Separability (Trennbar / Untrennbar / Beide), NOT CEFR.** Deliberate departure from every other module — prefixes do not map cleanly onto CEFR (`ver-` is A2 in *verkaufen*, C1 in *sich versprechen*), and separability is what governs sentence behaviour. Decided 2026-08-26. |
+| Vorsilben exercise types | Two: `select_prefix` (root + target meaning → prefix) and `select_feeling` (prefixed verb → core feeling). Tests generation and decoding in both directions. |
+| Vorsilben volume | 10 per prefix (6 + 4). 33 drilled × 10 = 330. |
+| Vorsilben gating | None (Artikel/Deklinationen model). Feedback card after every answer instead. |
+| Vorsilben thin sets | `emp-` (3 verbs) and `hinter-` (~7) are `exercisable: false` — full reference cards with an explicit closed-set notice, no exercises. Drilling them would teach a rule that does not generalise. |
+| Vorsilben content rule | Exercises are never invented — the generator derives every item from a reviewed worked example in `prefixes.json`, and the validator holds an independent copy of the near-synonym exclusion table. Regenerate + validate via `_factory/*-prefixes.py`. |
+| Vorsilben vocabulary | Self-contained. Detail cards flag which examples already exist in `verbs.json` ("im Verbmodul"). Full reconciliation deferred to v15 — see Next Steps. |
 | Deklination v1 exclusions | Stem-changers (dunkel/hoch/teuer), indeclinables (rosa/lila), Komparativ/Superlativ declension, adjectival nouns. |
 
 ---
@@ -123,8 +143,9 @@
 | Particles | A1–C2 | 34 | 510 | ✅ Complete |
 | Ausdrücke | B1–B2 | 8 expressions | 32 | ✅ Live — grows with readings |
 | Deklinationen | A1–B2 | 3 patterns × 4 cases | 360 | ✅ Complete (Session 36) |
+| Vorsilben | — | 35 prefixes (33 drilled) | 330 | ✅ Built, not pushed (Session 37) |
 
-**Total exercises: ~5,494 across 8 modules + Deklinationen area + Artikel (dynamic queue from unlocked nouns).**
+**Total exercises: ~5,824 across 9 modules + Deklinationen area + Artikel (dynamic queue from unlocked nouns).**
 
 ---
 
@@ -191,6 +212,46 @@
 
 ---
 
+## Vorsilben Module — BUILT, AWAITING PUSH
+
+*PRD signed off: 2026-08-26 — Session 37. Phases 1–5 complete. Phase 6 (reconciliation) approved for v15.*
+
+**Concept:** Standalone 10th module. Teaches the ~35 German verb prefixes as a generative system: learn the gesture each prefix carries and you can decode verbs you have never seen.
+
+**Two areas:**
+1. **Reference** — "Alle Vorsilben" screen, searchable (prefix, core feeling, or any example verb), filterable by group. Detail bottom sheet per prefix.
+2. **Exercises** — four cards: Trennbar / Untrennbar / Beide / Alle.
+
+**Content:**
+
+| Group | Count | Prefixes |
+|---|---|---|
+| Untrennbar | 8 | be-, ent-, emp-, er-, ge-, miss-, ver-, zer- |
+| Trennbar | 20 | ab-, an-, auf-, aus-, bei-, ein-, fort-, her-, hin-, los-, mit-, nach-, nieder-, vor-, weg-, weiter-, zu-, zurück-, zusammen-, entgegen- |
+| Beide | 7 | durch-, hinter-, über-, um-, unter-, wider-, wieder- |
+
+**5 lessons:** Was sind Vorsilben? · Trennbar oder untrennbar? · Die untrennbaren Vorsilben · Die trennbaren Vorsilben · Die Wechselpräfixe.
+
+**Exercise integrity rules (enforced by `validate-prefixes.py`):**
+- Near-synonym prefixes never appear together as options: ab/weg/fort, ver/zer, miss/ver, an/zu, durch/über, zurück/wieder, mit/zusammen, mit/bei, weiter/fort, nieder/ab, entgegen/wider, her/hin.
+- `select_prefix`: no distractor may form a real verb with the same meaning as the target.
+- `select_prefix`: prefix + root must literally reconstruct the answer verb (this check caught `missgelingen` / `missgefallen`, where miss- replaces ge- — both dropped from the drill pool).
+- Core feelings must be globally unique, or `select_feeling` cannot have one right answer.
+
+**localStorage keys:** `app_grammar_prefix_lessons`
+
+**Build phases:**
+1. ~~Data architecture~~ ✅ Session 37
+2. ~~Lessons content~~ ✅ Session 37
+3. ~~Exercise generation + validation~~ ✅ Session 37
+4. ~~Engine + UI~~ ✅ Session 37
+5. ~~QA~~ ✅ Session 37 — 49 headless checks pass. **Push pending.**
+6. Reconciliation into `verbs.json` — v15, not started
+
+**Full PRD:** `PRD_Vorsilben.md`
+
+---
+
 ## Grammatik Curriculum Layer (Verbs)
 
 *PRD signed off: Session 25. All phases complete. Live.*
@@ -223,6 +284,9 @@
 ## Next Steps
 
 **Up next (in rough priority):**
+- **Push v14.** Vorsilben is built and validated but not committed. Ricco to review, commit, push. Remember the `.git` lock workaround below.
+- **Device QA on Vorsilben** — headless only so far. Check the `select_feeling` option buttons, which wrap to multiple lines on a 430px screen.
+- **v15 — Vorsilben ↔ Verbs reconciliation (Phase 6).** Of the 342 reference verbs: 79 already exist in `verbs.json`, **142 are missing but their root verb exists** (add as `prefix_variants`, ~1,100 new exercises, `data.js` rebundle), 121 have no root either (logged for a future Wörter intake). Fix the per-variant `grammar` override in the same pass — see Known open items.
 - Ricco to confirm two flagged sheet entries: "Aufziele" (→ abzielen?) and "kindersinne" (skipped)
 - Next Wörter intake when the sheet grows (diff against `_factory/intake-log.json`)
 - Lesen & Hören — more years: run crawler on 2025, 2024 archives; re-bundle listening-data.js
@@ -230,7 +294,8 @@
 - Deklinationen expansions (later): stem-changers, Komparativ/Superlativ declension, adjectival nouns, case filter
 
 **Known open items:**
-- Prefix verb variants inherit parent root's `grammar.case_requirements` — `verstehen` shows Irregular with no case badge (should be Akkusativ). Fix: add per-variant `grammar` override field. Deferred.
+- Prefix verb variants inherit parent root's `grammar.case_requirements` — `verstehen` shows Irregular with no case badge (should be Akkusativ). Fix: add per-variant `grammar` override field. **Scheduled for v15 Phase 6**, which rewrites `prefix_variants` anyway.
+- Vorsilben quiz bugfix is not retroactive: users who completed Partikeln / Artikel / Deklinationen lessons before v14 will see them as incomplete, because those results were written into the wrong store. No migration written — low stakes, single user. Redo the quiz to restore the green dot.
 - Deklinationen not yet QA'd on device (headless-tested only) — Ricco to try a session on the phone; check inline input + Android keyboard behavior.
 - Prepositions not in Word List Practice mode (no unlock mechanic — by design).
 - `.git` repo lives inside Google Drive folder — causes stale lock files (HEAD.lock, index.lock) that block commits. Must `rm .git/*.lock` from Terminal before committing. Long-term: move repo outside Drive.

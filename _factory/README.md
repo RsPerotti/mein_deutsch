@@ -44,3 +44,35 @@ https://docs.google.com/spreadsheets/d/1--W4h39JCh3p0heMWJN1ykHUPXRyfRfHWnAHBYrX
 6. Append new rows to `intake-log.json`
 
 Expressions that fit no word category go to the **Ausdrücke** module (`data/expressions.json`).
+
+
+---
+
+## Vorsilben (Prefixes) — Session 37
+
+Pipeline. Run in order; the validator must report **0 integrity errors** before merge.
+
+```bash
+python3 _factory/generate-prefixes.py   # -> data/exercises/exercises-prefixes.json (330)
+python3 _factory/validate-prefixes.py   # independent integrity check
+python3 _factory/bundle-prefixes.py     # -> js/prefixes-data.js
+npm install jsdom && node _factory/qa-prefixes.js   # 49 headless checks
+```
+
+**Curated source:** `data/prefixes.json` — 35 prefixes x 10 worked examples. This is
+the file to edit when content changes. `_factory/vorsilben/source-reference.html` is
+the reviewed reference it was derived from.
+
+**Rules the validator enforces**
+
+- Exactly one correct answer; 4 distinct options.
+- Near-synonym prefixes never co-occur as options (ab/weg/fort, ver/zer, miss/ver,
+  an/zu, durch/uber, zuruck/wieder, mit/zusammen, mit/bei, weiter/fort, nieder/ab,
+  entgegen/wider, her/hin). The validator holds its **own** copy of this table.
+- `select_prefix`: no distractor may form a real verb with the target meaning.
+- `select_prefix`: prefix + root must literally reconstruct the answer verb.
+- Core feelings globally unique (otherwise `select_feeling` has no single answer).
+- `exercisable: false` prefixes (emp-, hinter-) must have zero exercises.
+
+**Note:** the generator is seeded (`SEED = 20260826`), so regeneration is
+byte-identical unless `data/prefixes.json` changes.

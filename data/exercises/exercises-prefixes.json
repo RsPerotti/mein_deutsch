@@ -1,0 +1,5678 @@
+[
+  {
+    "id": "prefixes_ab_001",
+    "type": "select_prefix",
+    "prefix_id": "ab",
+    "group": "trennbar",
+    "root": "fahren",
+    "reflexive": false,
+    "target_en": "to depart, set off",
+    "answer_verb": "abfahren",
+    "options": [
+      "weiter-",
+      "nach-",
+      "ab-",
+      "los-"
+    ],
+    "correct": "ab-",
+    "feedback": "ab- — Off, away, down — detachment from a starting point. The vehicle detaches from the station. Motion plus separation from a starting point."
+  },
+  {
+    "id": "prefixes_ab_002",
+    "type": "select_prefix",
+    "prefix_id": "ab",
+    "group": "trennbar",
+    "root": "nehmen",
+    "reflexive": false,
+    "target_en": "to take off; to lose weight",
+    "answer_verb": "abnehmen",
+    "options": [
+      "ver-",
+      "ab-",
+      "ge-",
+      "mit-"
+    ],
+    "correct": "ab-",
+    "feedback": "ab- — Off, away, down — detachment from a starting point. Taking something off a surface — or off your body. Removal from a total in both senses."
+  },
+  {
+    "id": "prefixes_ab_003",
+    "type": "select_prefix",
+    "prefix_id": "ab",
+    "group": "trennbar",
+    "root": "schneiden",
+    "reflexive": false,
+    "target_en": "to cut off",
+    "answer_verb": "abschneiden",
+    "options": [
+      "miss-",
+      "er-",
+      "ab-",
+      "emp-"
+    ],
+    "correct": "ab-",
+    "feedback": "ab- — Off, away, down — detachment from a starting point. Cutting with the result that a piece separates. The bread and the slice part ways."
+  },
+  {
+    "id": "prefixes_ab_004",
+    "type": "select_prefix",
+    "prefix_id": "ab",
+    "group": "trennbar",
+    "root": "sagen",
+    "reflexive": false,
+    "target_en": "to cancel",
+    "answer_verb": "absagen",
+    "options": [
+      "ent-",
+      "emp-",
+      "ge-",
+      "ab-"
+    ],
+    "correct": "ab-",
+    "feedback": "ab- — Off, away, down — detachment from a starting point. Saying something off the calendar — the event is detached from the plan."
+  },
+  {
+    "id": "prefixes_ab_005",
+    "type": "select_prefix",
+    "prefix_id": "ab",
+    "group": "trennbar",
+    "root": "holen",
+    "reflexive": false,
+    "target_en": "to pick up, collect",
+    "answer_verb": "abholen",
+    "options": [
+      "unter-",
+      "über-",
+      "er-",
+      "ab-"
+    ],
+    "correct": "ab-",
+    "feedback": "ab- — Off, away, down — detachment from a starting point. Fetching plus removal: you take the person or parcel away from where it was waiting."
+  },
+  {
+    "id": "prefixes_ab_006",
+    "type": "select_prefix",
+    "prefix_id": "ab",
+    "group": "trennbar",
+    "root": "schließen",
+    "reflexive": false,
+    "target_en": "to lock; to conclude",
+    "answer_verb": "abschließen",
+    "options": [
+      "über-",
+      "ab-",
+      "an-",
+      "weiter-"
+    ],
+    "correct": "ab-",
+    "feedback": "ab- — Off, away, down — detachment from a starting point. Closing so completely that it's sealed off. Same word for a door and a degree."
+  },
+  {
+    "id": "prefixes_ab_007",
+    "type": "select_feeling",
+    "prefix_id": "ab",
+    "group": "trennbar",
+    "verb": "abstellen",
+    "verb_en": "to switch off; to put down",
+    "options": [
+      "Together — joining, or collapsing into one",
+      "Toward and facing — meeting, or opposing",
+      "Off, away, down — detachment from a starting point",
+      "In front, in advance, presented forward"
+    ],
+    "correct": "Off, away, down — detachment from a starting point",
+    "feedback": "ab- — Off, away, down — detachment from a starting point. Putting a thing down and away from you — the appliance is detached from its power."
+  },
+  {
+    "id": "prefixes_ab_008",
+    "type": "select_feeling",
+    "prefix_id": "ab",
+    "group": "trennbar",
+    "verb": "abwaschen",
+    "verb_en": "to wash off, do the dishes",
+    "options": [
+      "Again, back — repetition and restoration",
+      "Off, away, down — detachment from a starting point",
+      "Through — physically across, or thoroughly to the end",
+      "Behind — left behind, or done behind someone's back"
+    ],
+    "correct": "Off, away, down — detachment from a starting point",
+    "feedback": "ab- — Off, away, down — detachment from a starting point. Washing with the goal of removing what's stuck on. The dirt comes off."
+  },
+  {
+    "id": "prefixes_ab_009",
+    "type": "select_feeling",
+    "prefix_id": "ab",
+    "group": "trennbar",
+    "verb": "abhängen",
+    "verb_en": "to unhook; to depend on",
+    "options": [
+      "Up, open, onto — rising and unsealing",
+      "Alongside, added to, present with",
+      "Again, back — repetition and restoration",
+      "Off, away, down — detachment from a starting point"
+    ],
+    "correct": "Off, away, down — detachment from a starting point",
+    "feedback": "ab- — Off, away, down — detachment from a starting point. Both: taking a picture off a hook, and (with von) hanging off something else."
+  },
+  {
+    "id": "prefixes_ab_010",
+    "type": "select_feeling",
+    "prefix_id": "ab",
+    "group": "trennbar",
+    "verb": "abbrechen",
+    "verb_en": "to break off, abort",
+    "options": [
+      "Off, away, down — detachment from a starting point",
+      "Wrong, failed, badly done",
+      "Over — across, above, beyond the limit, or missed entirely",
+      "Behind — left behind, or done behind someone's back"
+    ],
+    "correct": "Off, away, down — detachment from a starting point",
+    "feedback": "ab- — Off, away, down — detachment from a starting point. Breaking that ends the connection — a branch, or a conversation you stop mid-way."
+  },
+  {
+    "id": "prefixes_an_001",
+    "type": "select_prefix",
+    "prefix_id": "an",
+    "group": "trennbar",
+    "root": "rufen",
+    "reflexive": false,
+    "target_en": "to phone someone",
+    "answer_verb": "anrufen",
+    "options": [
+      "aus-",
+      "über-",
+      "hin-",
+      "an-"
+    ],
+    "correct": "an-",
+    "feedback": "an- — Toward and touching — contact, attachment, switching on. Calling aimed at one person until it connects. Contact made — hence a phone call."
+  },
+  {
+    "id": "prefixes_an_002",
+    "type": "select_prefix",
+    "prefix_id": "an",
+    "group": "trennbar",
+    "root": "fangen",
+    "reflexive": false,
+    "target_en": "to begin",
+    "answer_verb": "anfangen",
+    "options": [
+      "zer-",
+      "an-",
+      "entgegen-",
+      "um-"
+    ],
+    "correct": "an-",
+    "feedback": "an- — Toward and touching — contact, attachment, switching on. The moment the action first catches hold. First contact between you and the task."
+  },
+  {
+    "id": "prefixes_an_003",
+    "type": "select_prefix",
+    "prefix_id": "an",
+    "group": "trennbar",
+    "root": "machen",
+    "reflexive": false,
+    "target_en": "to switch on; to hit on sb",
+    "answer_verb": "anmachen",
+    "options": [
+      "hinter-",
+      "zurück-",
+      "her-",
+      "an-"
+    ],
+    "correct": "an-",
+    "feedback": "an- — Toward and touching — contact, attachment, switching on. Making contact with the circuit. The flirting sense is the same idea, applied to a person."
+  },
+  {
+    "id": "prefixes_an_004",
+    "type": "select_prefix",
+    "prefix_id": "an",
+    "group": "trennbar",
+    "root": "kommen",
+    "reflexive": false,
+    "target_en": "to arrive",
+    "answer_verb": "ankommen",
+    "options": [
+      "wieder-",
+      "durch-",
+      "an-",
+      "unter-"
+    ],
+    "correct": "an-",
+    "feedback": "an- — Toward and touching — contact, attachment, switching on. Coming until you touch the destination. The journey meets its endpoint."
+  },
+  {
+    "id": "prefixes_an_005",
+    "type": "select_prefix",
+    "prefix_id": "an",
+    "group": "trennbar",
+    "root": "ziehen",
+    "reflexive": false,
+    "target_en": "to put on; to attract",
+    "answer_verb": "anziehen",
+    "options": [
+      "her-",
+      "aus-",
+      "be-",
+      "an-"
+    ],
+    "correct": "an-",
+    "feedback": "an- — Toward and touching — contact, attachment, switching on. Pulling clothes onto the body, or pulling something toward you. Both close a distance."
+  },
+  {
+    "id": "prefixes_an_006",
+    "type": "select_prefix",
+    "prefix_id": "an",
+    "group": "trennbar",
+    "root": "sehen",
+    "reflexive": false,
+    "target_en": "to look at",
+    "answer_verb": "ansehen",
+    "options": [
+      "ent-",
+      "nieder-",
+      "an-",
+      "durch-"
+    ],
+    "correct": "an-",
+    "feedback": "an- — Toward and touching — contact, attachment, switching on. Seeing pointed at a specific target — your gaze lands on it rather than wandering."
+  },
+  {
+    "id": "prefixes_an_007",
+    "type": "select_feeling",
+    "prefix_id": "an",
+    "group": "trennbar",
+    "verb": "anbieten",
+    "verb_en": "to offer to sb",
+    "options": [
+      "Toward and touching — contact, attachment, switching on",
+      "Again, back — repetition and restoration",
+      "Released, broken free — and therefore off we go",
+      "Into pieces — destruction and dispersal"
+    ],
+    "correct": "Toward and touching — contact, attachment, switching on",
+    "feedback": "an- — Toward and touching — contact, attachment, switching on. The offer is extended toward a person until it reaches them. Takes the dative."
+  },
+  {
+    "id": "prefixes_an_008",
+    "type": "select_feeling",
+    "prefix_id": "an",
+    "group": "trennbar",
+    "verb": "anhalten",
+    "verb_en": "to stop, pull over",
+    "options": [
+      "Down, downward, laid low",
+      "Toward and touching — contact, attachment, switching on",
+      "Around — encircling, turning, and therefore changing",
+      "Carry the action through to its result"
+    ],
+    "correct": "Toward and touching — contact, attachment, switching on",
+    "feedback": "an- — Toward and touching — contact, attachment, switching on. Holding applied to motion — you bring the movement into contact with a standstill."
+  },
+  {
+    "id": "prefixes_an_009",
+    "type": "select_feeling",
+    "prefix_id": "an",
+    "group": "trennbar",
+    "verb": "anfassen",
+    "verb_en": "to touch, take hold of",
+    "options": [
+      "Over — across, above, beyond the limit, or missed entirely",
+      "Toward and touching — contact, attachment, switching on",
+      "Off, away, down — detachment from a starting point",
+      "After, behind, in pursuit — and doing it again to check"
+    ],
+    "correct": "Toward and touching — contact, attachment, switching on",
+    "feedback": "an- — Toward and touching — contact, attachment, switching on. The most literal case: grasping that actually makes contact with the surface."
+  },
+  {
+    "id": "prefixes_an_010",
+    "type": "select_feeling",
+    "prefix_id": "an",
+    "group": "trennbar",
+    "verb": "anschreien",
+    "verb_en": "to shout at sb",
+    "options": [
+      "Toward and touching — contact, attachment, switching on",
+      "Onward, further, keep going",
+      "Again, back — repetition and restoration",
+      "Away from, off, out of — separation and release"
+    ],
+    "correct": "Toward and touching — contact, attachment, switching on",
+    "feedback": "an- — Toward and touching — contact, attachment, switching on. Screaming aimed at a person. The difference between shouting and shouting at is just an-."
+  },
+  {
+    "id": "prefixes_auf_001",
+    "type": "select_prefix",
+    "prefix_id": "auf",
+    "group": "trennbar",
+    "root": "stehen",
+    "reflexive": false,
+    "target_en": "to get up, stand up",
+    "answer_verb": "aufstehen",
+    "options": [
+      "entgegen-",
+      "auf-",
+      "zusammen-",
+      "wieder-"
+    ],
+    "correct": "auf-",
+    "feedback": "auf- — Up, open, onto — rising and unsealing. The purest case: standing plus upward. Out of bed, or up from a chair."
+  },
+  {
+    "id": "prefixes_auf_002",
+    "type": "select_prefix",
+    "prefix_id": "auf",
+    "group": "trennbar",
+    "root": "machen",
+    "reflexive": false,
+    "target_en": "to open",
+    "answer_verb": "aufmachen",
+    "options": [
+      "auf-",
+      "bei-",
+      "hin-",
+      "unter-"
+    ],
+    "correct": "auf-",
+    "feedback": "auf- — Up, open, onto — rising and unsealing. Making something open — the lid, the door, the shop. The 'open' gesture in its plainest form."
+  },
+  {
+    "id": "prefixes_auf_003",
+    "type": "select_prefix",
+    "prefix_id": "auf",
+    "group": "trennbar",
+    "root": "wachen",
+    "reflexive": false,
+    "target_en": "to wake up",
+    "answer_verb": "aufwachen",
+    "options": [
+      "aus-",
+      "mit-",
+      "auf-",
+      "nieder-"
+    ],
+    "correct": "auf-",
+    "feedback": "auf- — Up, open, onto — rising and unsealing. Consciousness springing up. The sudden-onset flavour of auf-."
+  },
+  {
+    "id": "prefixes_auf_004",
+    "type": "select_prefix",
+    "prefix_id": "auf",
+    "group": "trennbar",
+    "root": "heben",
+    "reflexive": false,
+    "target_en": "to pick up; to keep",
+    "answer_verb": "aufheben",
+    "options": [
+      "zu-",
+      "auf-",
+      "hinter-",
+      "ver-"
+    ],
+    "correct": "auf-",
+    "feedback": "auf- — Up, open, onto — rising and unsealing. Lifting up off the ground — and by extension keeping it, since you didn't put it back."
+  },
+  {
+    "id": "prefixes_auf_005",
+    "type": "select_prefix",
+    "prefix_id": "auf",
+    "group": "trennbar",
+    "root": "schreiben",
+    "reflexive": false,
+    "target_en": "to write down",
+    "answer_verb": "aufschreiben",
+    "options": [
+      "auf-",
+      "wider-",
+      "her-",
+      "bei-"
+    ],
+    "correct": "auf-",
+    "feedback": "auf- — Up, open, onto — rising and unsealing. Confusing for English speakers: German sees writing onto a surface, not down."
+  },
+  {
+    "id": "prefixes_auf_006",
+    "type": "select_prefix",
+    "prefix_id": "auf",
+    "group": "trennbar",
+    "root": "bauen",
+    "reflexive": false,
+    "target_en": "to build up, set up",
+    "answer_verb": "aufbauen",
+    "options": [
+      "an-",
+      "mit-",
+      "durch-",
+      "auf-"
+    ],
+    "correct": "auf-",
+    "feedback": "auf- — Up, open, onto — rising and unsealing. Building upward from nothing — a tent, a company, an argument."
+  },
+  {
+    "id": "prefixes_auf_007",
+    "type": "select_feeling",
+    "prefix_id": "auf",
+    "group": "trennbar",
+    "verb": "aufblühen",
+    "verb_en": "to blossom, flourish",
+    "options": [
+      "Up, open, onto — rising and unsealing",
+      "Into, inward — entering and settling",
+      "Under — beneath, supporting from below, or cutting off",
+      "In front, in advance, presented forward"
+    ],
+    "correct": "Up, open, onto — rising and unsealing",
+    "feedback": "auf- — Up, open, onto — rising and unsealing. A flower opening. Used of people too: someone who opens up and comes alive."
+  },
+  {
+    "id": "prefixes_auf_008",
+    "type": "select_feeling",
+    "prefix_id": "auf",
+    "group": "trennbar",
+    "verb": "aufräumen",
+    "verb_en": "to tidy up",
+    "options": [
+      "Into, inward — entering and settling",
+      "Released, broken free — and therefore off we go",
+      "Up, open, onto — rising and unsealing",
+      "A sound-variant of ent- — receiving, sensing, rising toward"
+    ],
+    "correct": "Up, open, onto — rising and unsealing",
+    "feedback": "auf- — Up, open, onto — rising and unsealing. Clearing with an upward, restorative sense: things get lifted back into their places."
+  },
+  {
+    "id": "prefixes_auf_009",
+    "type": "select_feeling",
+    "prefix_id": "auf",
+    "group": "trennbar",
+    "verb": "aufgeben",
+    "verb_en": "to give up, abandon",
+    "options": [
+      "In front, in advance, presented forward",
+      "Under — beneath, supporting from below, or cutting off",
+      "Into pieces — destruction and dispersal",
+      "Up, open, onto — rising and unsealing"
+    ],
+    "correct": "Up, open, onto — rising and unsealing",
+    "feedback": "auf- — Up, open, onto — rising and unsealing. Handing the thing up and out of your hands — you release it to someone or something else."
+  },
+  {
+    "id": "prefixes_auf_010",
+    "type": "select_feeling",
+    "prefix_id": "auf",
+    "group": "trennbar",
+    "verb": "aufhören",
+    "verb_en": "to stop, cease",
+    "options": [
+      "Up, open, onto — rising and unsealing",
+      "Down, downward, laid low",
+      "Gathered, brought to a whole — mostly fossilised",
+      "Together with, joining in — participation"
+    ],
+    "correct": "Up, open, onto — rising and unsealing",
+    "feedback": "auf- — Up, open, onto — rising and unsealing. The exception. No transparent logic survives — memorise it as a fixed pair."
+  },
+  {
+    "id": "prefixes_aus_001",
+    "type": "select_prefix",
+    "prefix_id": "aus",
+    "group": "trennbar",
+    "root": "gehen",
+    "reflexive": false,
+    "target_en": "to go out",
+    "answer_verb": "ausgehen",
+    "options": [
+      "aus-",
+      "auf-",
+      "durch-",
+      "er-"
+    ],
+    "correct": "aus-",
+    "feedback": "aus- — Out, out of, and out to the very end. Leaving the house — and also 'to run out', as in supplies. Out of a space, out of a stock."
+  },
+  {
+    "id": "prefixes_aus_002",
+    "type": "select_prefix",
+    "prefix_id": "aus",
+    "group": "trennbar",
+    "root": "machen",
+    "reflexive": false,
+    "target_en": "to switch off",
+    "answer_verb": "ausmachen",
+    "options": [
+      "entgegen-",
+      "über-",
+      "aus-",
+      "fort-"
+    ],
+    "correct": "aus-",
+    "feedback": "aus- — Out, out of, and out to the very end. The light goes out. Direct opposite of anmachen: contact broken instead of made."
+  },
+  {
+    "id": "prefixes_aus_003",
+    "type": "select_prefix",
+    "prefix_id": "aus",
+    "group": "trennbar",
+    "root": "steigen",
+    "reflexive": false,
+    "target_en": "to get out, disembark",
+    "answer_verb": "aussteigen",
+    "options": [
+      "durch-",
+      "her-",
+      "aus-",
+      "weg-"
+    ],
+    "correct": "aus-",
+    "feedback": "aus- — Out, out of, and out to the very end. Climbing out of a vehicle. Also figurative: to quit a project or a lifestyle."
+  },
+  {
+    "id": "prefixes_aus_004",
+    "type": "select_prefix",
+    "prefix_id": "aus",
+    "group": "trennbar",
+    "root": "ziehen",
+    "reflexive": false,
+    "target_en": "to take off; to move out",
+    "answer_verb": "ausziehen",
+    "options": [
+      "ent-",
+      "aus-",
+      "zurück-",
+      "vor-"
+    ],
+    "correct": "aus-",
+    "feedback": "aus- — Out, out of, and out to the very end. Pulling clothes off the body, or pulling yourself out of a flat. Same outward tug."
+  },
+  {
+    "id": "prefixes_aus_005",
+    "type": "select_prefix",
+    "prefix_id": "aus",
+    "group": "trennbar",
+    "root": "drücken",
+    "reflexive": false,
+    "target_en": "to express; to squeeze out",
+    "answer_verb": "ausdrücken",
+    "options": [
+      "zer-",
+      "ge-",
+      "hinter-",
+      "aus-"
+    ],
+    "correct": "aus-",
+    "feedback": "aus- — Out, out of, and out to the very end. Pressing until the content comes out — a lemon, or a thought."
+  },
+  {
+    "id": "prefixes_aus_006",
+    "type": "select_prefix",
+    "prefix_id": "aus",
+    "group": "trennbar",
+    "root": "trinken",
+    "reflexive": false,
+    "target_en": "to drink up, finish",
+    "answer_verb": "austrinken",
+    "options": [
+      "nach-",
+      "aus-",
+      "er-",
+      "ge-"
+    ],
+    "correct": "aus-",
+    "feedback": "aus- — Out, out of, and out to the very end. Exhaustive branch: drinking until the glass is empty. Not the act, the completion."
+  },
+  {
+    "id": "prefixes_aus_007",
+    "type": "select_feeling",
+    "prefix_id": "aus",
+    "group": "trennbar",
+    "verb": "ausschlafen",
+    "verb_en": "to sleep in fully",
+    "options": [
+      "Alongside, added to, present with",
+      "Off, away, down — detachment from a starting point",
+      "Out, out of, and out to the very end",
+      "Toward and touching — contact, attachment, switching on"
+    ],
+    "correct": "Out, out of, and out to the very end",
+    "feedback": "aus- — Out, out of, and out to the very end. Sleeping until you've used up all the sleep you needed. A very German concept."
+  },
+  {
+    "id": "prefixes_aus_008",
+    "type": "select_feeling",
+    "prefix_id": "aus",
+    "group": "trennbar",
+    "verb": "ausfüllen",
+    "verb_en": "to fill out a form",
+    "options": [
+      "Again, back — repetition and restoration",
+      "Around — encircling, turning, and therefore changing",
+      "Into, inward — entering and settling",
+      "Out, out of, and out to the very end"
+    ],
+    "correct": "Out, out of, and out to the very end",
+    "feedback": "aus- — Out, out of, and out to the very end. Filling every field until none is left blank — filling to exhaustion, not outward."
+  },
+  {
+    "id": "prefixes_aus_009",
+    "type": "select_feeling",
+    "prefix_id": "aus",
+    "group": "trennbar",
+    "verb": "auspacken",
+    "verb_en": "to unpack; to spill the beans",
+    "options": [
+      "Gathered, brought to a whole — mostly fossilised",
+      "Out, out of, and out to the very end",
+      "Into, inward — entering and settling",
+      "Up, open, onto — rising and unsealing"
+    ],
+    "correct": "Out, out of, and out to the very end",
+    "feedback": "aus- — Out, out of, and out to the very end. Taking things out of a box — or taking the truth out of yourself."
+  },
+  {
+    "id": "prefixes_aus_010",
+    "type": "select_feeling",
+    "prefix_id": "aus",
+    "group": "trennbar",
+    "verb": "auswählen",
+    "verb_en": "to select, pick out",
+    "options": [
+      "A sound-variant of ent- — receiving, sensing, rising toward",
+      "Four feelings: away, wrong, transformed, used up",
+      "Out, out of, and out to the very end",
+      "Against — resistance and reflection"
+    ],
+    "correct": "Out, out of, and out to the very end",
+    "feedback": "aus- — Out, out of, and out to the very end. Choosing one thing out of a set. The chosen item leaves the group."
+  },
+  {
+    "id": "prefixes_be_001",
+    "type": "select_prefix",
+    "prefix_id": "be",
+    "group": "untrennbar",
+    "root": "antworten",
+    "reflexive": false,
+    "target_en": "to answer sth",
+    "answer_verb": "beantworten",
+    "options": [
+      "wider-",
+      "ver-",
+      "be-",
+      "ent-"
+    ],
+    "correct": "be-",
+    "feedback": "be- — Apply the action directly onto a thing. Answering used to need auf. be- swallows the preposition — you now answer the question itself."
+  },
+  {
+    "id": "prefixes_be_002",
+    "type": "select_prefix",
+    "prefix_id": "be",
+    "group": "untrennbar",
+    "root": "sprechen",
+    "reflexive": false,
+    "target_en": "to discuss sth",
+    "answer_verb": "besprechen",
+    "options": [
+      "ab-",
+      "be-",
+      "durch-",
+      "ge-"
+    ],
+    "correct": "be-",
+    "feedback": "be- — Apply the action directly onto a thing. Speech spread over a topic until every part is covered, rather than speech drifting outward."
+  },
+  {
+    "id": "prefixes_be_003",
+    "type": "select_prefix",
+    "prefix_id": "be",
+    "group": "untrennbar",
+    "root": "steigen",
+    "reflexive": false,
+    "target_en": "to climb sth",
+    "answer_verb": "besteigen",
+    "options": [
+      "nieder-",
+      "be-",
+      "an-",
+      "nach-"
+    ],
+    "correct": "be-",
+    "feedback": "be- — Apply the action directly onto a thing. Climbing stops being 'going up' and becomes an act performed on a mountain."
+  },
+  {
+    "id": "prefixes_be_004",
+    "type": "select_prefix",
+    "prefix_id": "be",
+    "group": "untrennbar",
+    "root": "malen",
+    "reflexive": false,
+    "target_en": "to paint onto",
+    "answer_verb": "bemalen",
+    "options": [
+      "weg-",
+      "be-",
+      "über-",
+      "miss-"
+    ],
+    "correct": "be-",
+    "feedback": "be- — Apply the action directly onto a thing. Paint applied over a surface. Malen makes a picture; bemalen covers an object."
+  },
+  {
+    "id": "prefixes_be_005",
+    "type": "select_prefix",
+    "prefix_id": "be",
+    "group": "untrennbar",
+    "root": "treten",
+    "reflexive": false,
+    "target_en": "to enter, step onto",
+    "answer_verb": "betreten",
+    "options": [
+      "be-",
+      "hinter-",
+      "wider-",
+      "um-"
+    ],
+    "correct": "be-",
+    "feedback": "be- — Apply the action directly onto a thing. Your step lands on a specific floor. The room becomes what you do the stepping to."
+  },
+  {
+    "id": "prefixes_be_006",
+    "type": "select_prefix",
+    "prefix_id": "be",
+    "group": "untrennbar",
+    "root": "wohnen",
+    "reflexive": false,
+    "target_en": "to inhabit sth",
+    "answer_verb": "bewohnen",
+    "options": [
+      "zusammen-",
+      "über-",
+      "weiter-",
+      "be-"
+    ],
+    "correct": "be-",
+    "feedback": "be- — Apply the action directly onto a thing. Wohnen in is living somewhere; bewohnen makes the house the thing you occupy."
+  },
+  {
+    "id": "prefixes_be_007",
+    "type": "select_feeling",
+    "prefix_id": "be",
+    "group": "untrennbar",
+    "verb": "beschreiben",
+    "verb_en": "to describe",
+    "options": [
+      "Up, open, onto — rising and unsealing",
+      "Shut — and, oppositely, toward someone",
+      "Together with, joining in — participation",
+      "Apply the action directly onto a thing"
+    ],
+    "correct": "Apply the action directly onto a thing",
+    "feedback": "be- — Apply the action directly onto a thing. Writing spread across a subject until its shape is visible — writing onto a thing."
+  },
+  {
+    "id": "prefixes_be_008",
+    "type": "select_feeling",
+    "prefix_id": "be",
+    "group": "untrennbar",
+    "verb": "bearbeiten",
+    "verb_en": "to work on, process",
+    "options": [
+      "Apply the action directly onto a thing",
+      "Into, inward — entering and settling",
+      "Out, out of, and out to the very end",
+      "Toward and facing — meeting, or opposing"
+    ],
+    "correct": "Apply the action directly onto a thing",
+    "feedback": "be- — Apply the action directly onto a thing. Work applied to a specific object until it changes. Not labour in general — labour on this."
+  },
+  {
+    "id": "prefixes_be_009",
+    "type": "select_feeling",
+    "prefix_id": "be",
+    "group": "untrennbar",
+    "verb": "bekommen",
+    "verb_en": "to receive",
+    "options": [
+      "Over — across, above, beyond the limit, or missed entirely",
+      "Apply the action directly onto a thing",
+      "Behind — left behind, or done behind someone's back",
+      "Under — beneath, supporting from below, or cutting off"
+    ],
+    "correct": "Apply the action directly onto a thing",
+    "feedback": "be- — Apply the action directly onto a thing. The coming lands on you. Something arrives at your surface, so you end up holding it."
+  },
+  {
+    "id": "prefixes_be_010",
+    "type": "select_feeling",
+    "prefix_id": "be",
+    "group": "untrennbar",
+    "verb": "bezahlen",
+    "verb_en": "to pay for sth",
+    "options": [
+      "Apply the action directly onto a thing",
+      "Under — beneath, supporting from below, or cutting off",
+      "Around — encircling, turning, and therefore changing",
+      "Wrong, failed, badly done"
+    ],
+    "correct": "Apply the action directly onto a thing",
+    "feedback": "be- — Apply the action directly onto a thing. Zahlen is to pay in general; bezahlen settles a specific bill — payment applied to a thing."
+  },
+  {
+    "id": "prefixes_bei_001",
+    "type": "select_prefix",
+    "prefix_id": "bei",
+    "group": "trennbar",
+    "root": "tragen",
+    "reflexive": false,
+    "target_en": "to contribute",
+    "answer_verb": "beitragen",
+    "options": [
+      "be-",
+      "über-",
+      "bei-",
+      "hin-"
+    ],
+    "correct": "bei-",
+    "feedback": "bei- — Alongside, added to, present with. Carrying your piece over and setting it beside the shared pile. Dative + zu."
+  },
+  {
+    "id": "prefixes_bei_002",
+    "type": "select_prefix",
+    "prefix_id": "bei",
+    "group": "trennbar",
+    "root": "bringen",
+    "reflexive": false,
+    "target_en": "to teach sb sth",
+    "answer_verb": "beibringen",
+    "options": [
+      "hin-",
+      "weg-",
+      "bei-",
+      "zer-"
+    ],
+    "correct": "bei-",
+    "feedback": "bei- — Alongside, added to, present with. Bringing knowledge alongside a person until they have it. Dative for the learner."
+  },
+  {
+    "id": "prefixes_bei_003",
+    "type": "select_prefix",
+    "prefix_id": "bei",
+    "group": "trennbar",
+    "root": "legen",
+    "reflexive": false,
+    "target_en": "to enclose, attach",
+    "answer_verb": "beilegen",
+    "options": [
+      "weiter-",
+      "entgegen-",
+      "über-",
+      "bei-"
+    ],
+    "correct": "bei-",
+    "feedback": "bei- — Alongside, added to, present with. Laying a document beside the main one inside the envelope. The literal core."
+  },
+  {
+    "id": "prefixes_bei_004",
+    "type": "select_prefix",
+    "prefix_id": "bei",
+    "group": "trennbar",
+    "root": "stehen",
+    "reflexive": false,
+    "target_en": "to stand by, support",
+    "answer_verb": "beistehen",
+    "options": [
+      "zusammen-",
+      "hinter-",
+      "ent-",
+      "bei-"
+    ],
+    "correct": "bei-",
+    "feedback": "bei- — Alongside, added to, present with. Standing next to someone in difficulty. Physical position as emotional loyalty."
+  },
+  {
+    "id": "prefixes_bei_005",
+    "type": "select_prefix",
+    "prefix_id": "bei",
+    "group": "trennbar",
+    "root": "treten",
+    "reflexive": false,
+    "target_en": "to join an organisation",
+    "answer_verb": "beitreten",
+    "options": [
+      "nieder-",
+      "um-",
+      "bei-",
+      "wider-"
+    ],
+    "correct": "bei-",
+    "feedback": "bei- — Alongside, added to, present with. Stepping into position alongside the existing members. Dative: dem Verein beitreten."
+  },
+  {
+    "id": "prefixes_bei_006",
+    "type": "select_prefix",
+    "prefix_id": "bei",
+    "group": "trennbar",
+    "root": "wohnen",
+    "reflexive": false,
+    "target_en": "to attend, be present at",
+    "answer_verb": "beiwohnen",
+    "options": [
+      "zusammen-",
+      "her-",
+      "durch-",
+      "bei-"
+    ],
+    "correct": "bei-",
+    "feedback": "bei- — Alongside, added to, present with. Formal: to be located alongside an event as it happens."
+  },
+  {
+    "id": "prefixes_bei_007",
+    "type": "select_feeling",
+    "prefix_id": "bei",
+    "group": "trennbar",
+    "verb": "beimischen",
+    "verb_en": "to mix in, add",
+    "options": [
+      "Alongside, added to, present with",
+      "Out, out of, and out to the very end",
+      "Toward and touching — contact, attachment, switching on",
+      "Shut — and, oppositely, toward someone"
+    ],
+    "correct": "Alongside, added to, present with",
+    "feedback": "bei- — Alongside, added to, present with. Adding one substance alongside another in a mixture."
+  },
+  {
+    "id": "prefixes_bei_008",
+    "type": "select_feeling",
+    "prefix_id": "bei",
+    "group": "trennbar",
+    "verb": "beifügen",
+    "verb_en": "to append, attach",
+    "options": [
+      "Alongside, added to, present with",
+      "Carry the action through to its result",
+      "Away from, off, out of — separation and release",
+      "Again, back — repetition and restoration"
+    ],
+    "correct": "Alongside, added to, present with",
+    "feedback": "bei- — Alongside, added to, present with. Bureaucratic cousin of beilegen — joining a thing onto the end of a document."
+  },
+  {
+    "id": "prefixes_bei_009",
+    "type": "select_feeling",
+    "prefix_id": "bei",
+    "group": "trennbar",
+    "verb": "beibehalten",
+    "verb_en": "to retain, keep up",
+    "options": [
+      "Through — physically across, or thoroughly to the end",
+      "Four feelings: away, wrong, transformed, used up",
+      "Onward, further, keep going",
+      "Alongside, added to, present with"
+    ],
+    "correct": "Alongside, added to, present with",
+    "feedback": "bei- — Alongside, added to, present with. Keeping something alongside you as things change — a habit, a policy, a name."
+  },
+  {
+    "id": "prefixes_bei_010",
+    "type": "select_feeling",
+    "prefix_id": "bei",
+    "group": "trennbar",
+    "verb": "beisetzen",
+    "verb_en": "to inter, lay to rest",
+    "options": [
+      "Toward and facing — meeting, or opposing",
+      "In front, in advance, presented forward",
+      "Through — physically across, or thoroughly to the end",
+      "Alongside, added to, present with"
+    ],
+    "correct": "Alongside, added to, present with",
+    "feedback": "bei- — Alongside, added to, present with. Formal funeral verb: setting the person beside those already there."
+  },
+  {
+    "id": "prefixes_durch_001",
+    "type": "select_prefix",
+    "prefix_id": "durch",
+    "group": "beide",
+    "root": "gehen",
+    "reflexive": false,
+    "target_en": "to walk through; to go over sth",
+    "answer_verb": "durchgehen",
+    "options": [
+      "zurück-",
+      "aus-",
+      "um-",
+      "durch-"
+    ],
+    "correct": "durch-",
+    "feedback": "durch- — Through — physically across, or thoroughly to the end. Separable. Passing through a space — or going through a list item by item."
+  },
+  {
+    "id": "prefixes_durch_002",
+    "type": "select_prefix",
+    "prefix_id": "durch",
+    "group": "beide",
+    "root": "lesen",
+    "reflexive": false,
+    "target_en": "to read through",
+    "answer_verb": "durchlesen",
+    "options": [
+      "hin-",
+      "er-",
+      "los-",
+      "durch-"
+    ],
+    "correct": "durch-",
+    "feedback": "durch- — Through — physically across, or thoroughly to the end. Separable. Reading from one end to the other, not sampling."
+  },
+  {
+    "id": "prefixes_durch_003",
+    "type": "select_prefix",
+    "prefix_id": "durch",
+    "group": "beide",
+    "root": "fallen",
+    "reflexive": false,
+    "target_en": "to fail an exam",
+    "answer_verb": "durchfallen",
+    "options": [
+      "ein-",
+      "durch-",
+      "bei-",
+      "auf-"
+    ],
+    "correct": "durch-",
+    "feedback": "durch- — Through — physically across, or thoroughly to the end. Separable. You fall through the net instead of being caught by it."
+  },
+  {
+    "id": "prefixes_durch_004",
+    "type": "select_prefix",
+    "prefix_id": "durch",
+    "group": "beide",
+    "root": "halten",
+    "reflexive": false,
+    "target_en": "to hold out, persevere",
+    "answer_verb": "durchhalten",
+    "options": [
+      "mit-",
+      "vor-",
+      "durch-",
+      "ver-"
+    ],
+    "correct": "durch-",
+    "feedback": "durch- — Through — physically across, or thoroughly to the end. Separable. Holding on all the way through to the other side of a hard stretch."
+  },
+  {
+    "id": "prefixes_durch_005",
+    "type": "select_prefix",
+    "prefix_id": "durch",
+    "group": "beide",
+    "root": "setzen",
+    "reflexive": false,
+    "target_en": "to push through, assert",
+    "answer_verb": "durchsetzen",
+    "options": [
+      "emp-",
+      "vor-",
+      "mit-",
+      "durch-"
+    ],
+    "correct": "durch-",
+    "feedback": "durch- — Through — physically across, or thoroughly to the end. Separable. Getting your position through the resistance. Reflexively: to prevail."
+  },
+  {
+    "id": "prefixes_durch_006",
+    "type": "select_prefix",
+    "prefix_id": "durch",
+    "group": "beide",
+    "root": "denken",
+    "reflexive": false,
+    "target_en": "to think through",
+    "answer_verb": "durchdenken",
+    "options": [
+      "emp-",
+      "durch-",
+      "um-",
+      "entgegen-"
+    ],
+    "correct": "durch-",
+    "feedback": "durch- — Through — physically across, or thoroughly to the end. Thinking that traverses the whole problem rather than touching one corner."
+  },
+  {
+    "id": "prefixes_durch_007",
+    "type": "select_feeling",
+    "prefix_id": "durch",
+    "group": "beide",
+    "verb": "durchsuchen",
+    "verb_en": "to search thoroughly",
+    "options": [
+      "Away, gone — removal in everyday speech",
+      "Apply the action directly onto a thing",
+      "Wrong, failed, badly done",
+      "Through — physically across, or thoroughly to the end"
+    ],
+    "correct": "Through — physically across, or thoroughly to the end",
+    "feedback": "durch- — Through — physically across, or thoroughly to the end. Inseparable. Searching that covers every part — a house, a bag, a database."
+  },
+  {
+    "id": "prefixes_durch_008",
+    "type": "select_feeling",
+    "prefix_id": "durch",
+    "group": "beide",
+    "verb": "durchschauen",
+    "verb_en": "to see through sb",
+    "options": [
+      "Through — physically across, or thoroughly to the end",
+      "Back — return and reversal",
+      "Apply the action directly onto a thing",
+      "Carry the action through to its result"
+    ],
+    "correct": "Through — physically across, or thoroughly to the end",
+    "feedback": "durch- — Through — physically across, or thoroughly to the end. Inseparable here. Your gaze passes through the pretence to the truth behind it."
+  },
+  {
+    "id": "prefixes_durch_009",
+    "type": "select_feeling",
+    "prefix_id": "durch",
+    "group": "beide",
+    "verb": "durchbrechen",
+    "verb_en": "to break through / in two",
+    "options": [
+      "Into, inward — entering and settling",
+      "Through — physically across, or thoroughly to the end",
+      "Behind — left behind, or done behind someone's back",
+      "Away — and, by extension, onward"
+    ],
+    "correct": "Through — physically across, or thoroughly to the end",
+    "feedback": "durch- — Through — physically across, or thoroughly to the end. Both, with different meanings: separable = snap in two; inseparable = break through a barrier."
+  },
+  {
+    "id": "prefixes_durch_010",
+    "type": "select_feeling",
+    "prefix_id": "durch",
+    "group": "beide",
+    "verb": "durchgehen",
+    "verb_en": "to walk through; to go over sth",
+    "options": [
+      "Into pieces — destruction and dispersal",
+      "Toward and touching — contact, attachment, switching on",
+      "Through — physically across, or thoroughly to the end",
+      "Onward, further, keep going"
+    ],
+    "correct": "Through — physically across, or thoroughly to the end",
+    "feedback": "durch- — Through — physically across, or thoroughly to the end. Separable. Passing through a space — or going through a list item by item."
+  },
+  {
+    "id": "prefixes_ein_001",
+    "type": "select_prefix",
+    "prefix_id": "ein",
+    "group": "trennbar",
+    "root": "steigen",
+    "reflexive": false,
+    "target_en": "to get in, board",
+    "answer_verb": "einsteigen",
+    "options": [
+      "wieder-",
+      "be-",
+      "her-",
+      "ein-"
+    ],
+    "correct": "ein-",
+    "feedback": "ein- — Into, inward — entering and settling. Climbing into a vehicle. The exact mirror of aussteigen."
+  },
+  {
+    "id": "prefixes_ein_002",
+    "type": "select_prefix",
+    "prefix_id": "ein",
+    "group": "trennbar",
+    "root": "laden",
+    "reflexive": false,
+    "target_en": "to invite",
+    "answer_verb": "einladen",
+    "options": [
+      "hinter-",
+      "fort-",
+      "ein-",
+      "weiter-"
+    ],
+    "correct": "ein-",
+    "feedback": "ein- — Into, inward — entering and settling. Loading someone into your event or home. The same verb loads a truck."
+  },
+  {
+    "id": "prefixes_ein_003",
+    "type": "select_prefix",
+    "prefix_id": "ein",
+    "group": "trennbar",
+    "root": "kaufen",
+    "reflexive": false,
+    "target_en": "to go shopping",
+    "answer_verb": "einkaufen",
+    "options": [
+      "bei-",
+      "wider-",
+      "auf-",
+      "ein-"
+    ],
+    "correct": "ein-",
+    "feedback": "ein- — Into, inward — entering and settling. Buying things into the household. The goods come inside; hence groceries."
+  },
+  {
+    "id": "prefixes_ein_004",
+    "type": "select_prefix",
+    "prefix_id": "ein",
+    "group": "trennbar",
+    "root": "schlafen",
+    "reflexive": false,
+    "target_en": "to fall asleep",
+    "answer_verb": "einschlafen",
+    "options": [
+      "her-",
+      "miss-",
+      "auf-",
+      "ein-"
+    ],
+    "correct": "ein-",
+    "feedback": "ein- — Into, inward — entering and settling. Sinking into sleep. Not the state, the entry into it — which is why it's a different verb."
+  },
+  {
+    "id": "prefixes_ein_005",
+    "type": "select_prefix",
+    "prefix_id": "ein",
+    "group": "trennbar",
+    "root": "atmen",
+    "reflexive": false,
+    "target_en": "to inhale",
+    "answer_verb": "einatmen",
+    "options": [
+      "miss-",
+      "wider-",
+      "ein-",
+      "her-"
+    ],
+    "correct": "ein-",
+    "feedback": "ein- — Into, inward — entering and settling. Breathing inward. Its opposite, ausatmen, shows the pair working perfectly."
+  },
+  {
+    "id": "prefixes_ein_006",
+    "type": "select_prefix",
+    "prefix_id": "ein",
+    "group": "trennbar",
+    "root": "führen",
+    "reflexive": false,
+    "target_en": "to introduce, import",
+    "answer_verb": "einführen",
+    "options": [
+      "ein-",
+      "auf-",
+      "ge-",
+      "um-"
+    ],
+    "correct": "ein-",
+    "feedback": "ein- — Into, inward — entering and settling. Leading something in — a product into a market, a topic into a talk, a person into a role."
+  },
+  {
+    "id": "prefixes_ein_007",
+    "type": "select_feeling",
+    "prefix_id": "ein",
+    "group": "trennbar",
+    "verb": "einpacken",
+    "verb_en": "to pack up, wrap",
+    "options": [
+      "Into, inward — entering and settling",
+      "Behind — left behind, or done behind someone's back",
+      "Together — joining, or collapsing into one",
+      "Gathered, brought to a whole — mostly fossilised"
+    ],
+    "correct": "Into, inward — entering and settling",
+    "feedback": "ein- — Into, inward — entering and settling. Putting things into the bag. Opposite of auspacken."
+  },
+  {
+    "id": "prefixes_ein_008",
+    "type": "select_feeling",
+    "prefix_id": "ein",
+    "group": "trennbar",
+    "verb": "einziehen",
+    "verb_en": "to move in",
+    "options": [
+      "Into, inward — entering and settling",
+      "Away from, off, out of — separation and release",
+      "Together — joining, or collapsing into one",
+      "Over — across, above, beyond the limit, or missed entirely"
+    ],
+    "correct": "Into, inward — entering and settling",
+    "feedback": "ein- — Into, inward — entering and settling. Pulling yourself into a new home. The settling nuance: you arrive and stay."
+  },
+  {
+    "id": "prefixes_ein_009",
+    "type": "select_feeling",
+    "prefix_id": "ein",
+    "group": "trennbar",
+    "verb": "einsetzen",
+    "verb_en": "to insert; to deploy",
+    "options": [
+      "Into, inward — entering and settling",
+      "Up, open, onto — rising and unsealing",
+      "Carry the action through to its result",
+      "Wrong, failed, badly done"
+    ],
+    "correct": "Into, inward — entering and settling",
+    "feedback": "ein- — Into, inward — entering and settling. Setting something into position so it starts working — a part, a team, a rule."
+  },
+  {
+    "id": "prefixes_ein_010",
+    "type": "select_feeling",
+    "prefix_id": "ein",
+    "group": "trennbar",
+    "verb": "einsehen",
+    "verb_en": "to realise, come to accept",
+    "options": [
+      "Toward and touching — contact, attachment, switching on",
+      "Shut — and, oppositely, toward someone",
+      "Four feelings: away, wrong, transformed, used up",
+      "Into, inward — entering and settling"
+    ],
+    "correct": "Into, inward — entering and settling",
+    "feedback": "ein- — Into, inward — entering and settling. Seeing into a matter deeply enough to concede it. Ich sehe das ein = fair enough, I get it."
+  },
+  {
+    "id": "prefixes_ent_001",
+    "type": "select_prefix",
+    "prefix_id": "ent",
+    "group": "untrennbar",
+    "root": "laufen",
+    "reflexive": false,
+    "target_en": "to run away, escape",
+    "answer_verb": "entlaufen",
+    "options": [
+      "vor-",
+      "ent-",
+      "unter-",
+      "zusammen-"
+    ],
+    "correct": "ent-",
+    "feedback": "ent- — Away from, off, out of — separation and release. Running plus a boundary: you leave the person or place you belonged to. Takes the dative."
+  },
+  {
+    "id": "prefixes_ent_002",
+    "type": "select_prefix",
+    "prefix_id": "ent",
+    "group": "untrennbar",
+    "root": "decken",
+    "reflexive": false,
+    "target_en": "to discover",
+    "answer_verb": "entdecken",
+    "options": [
+      "wieder-",
+      "be-",
+      "zer-",
+      "ent-"
+    ],
+    "correct": "ent-",
+    "feedback": "ent- — Away from, off, out of — separation and release. Decken is to cover. Remove the cover and the thing underneath appears — literally un-cover."
+  },
+  {
+    "id": "prefixes_ent_003",
+    "type": "select_prefix",
+    "prefix_id": "ent",
+    "group": "untrennbar",
+    "root": "lassen",
+    "reflexive": false,
+    "target_en": "to dismiss, release",
+    "answer_verb": "entlassen",
+    "options": [
+      "zer-",
+      "ge-",
+      "ent-",
+      "hinter-"
+    ],
+    "correct": "ent-",
+    "feedback": "ent- — Away from, off, out of — separation and release. Letting go plus separation: the person is let loose from the institution holding them."
+  },
+  {
+    "id": "prefixes_ent_004",
+    "type": "select_prefix",
+    "prefix_id": "ent",
+    "group": "untrennbar",
+    "root": "spannen",
+    "reflexive": false,
+    "target_en": "to relax",
+    "answer_verb": "entspannen",
+    "options": [
+      "zer-",
+      "an-",
+      "er-",
+      "ent-"
+    ],
+    "correct": "ent-",
+    "feedback": "ent- — Away from, off, out of — separation and release. Spannen is to stretch tight. ent- releases the tension — the string goes slack."
+  },
+  {
+    "id": "prefixes_ent_005",
+    "type": "select_prefix",
+    "prefix_id": "ent",
+    "group": "untrennbar",
+    "root": "fliehen",
+    "reflexive": false,
+    "target_en": "to flee from",
+    "answer_verb": "entfliehen",
+    "options": [
+      "be-",
+      "zu-",
+      "ent-",
+      "auf-"
+    ],
+    "correct": "ent-",
+    "feedback": "ent- — Away from, off, out of — separation and release. Fleeing already means running; ent- adds the thing you break away from, in the dative."
+  },
+  {
+    "id": "prefixes_ent_006",
+    "type": "select_prefix",
+    "prefix_id": "ent",
+    "group": "untrennbar",
+    "root": "stehen",
+    "reflexive": false,
+    "target_en": "to arise, come into being",
+    "answer_verb": "entstehen",
+    "options": [
+      "ent-",
+      "aus-",
+      "auf-",
+      "zurück-"
+    ],
+    "correct": "ent-",
+    "feedback": "ent- — Away from, off, out of — separation and release. The emergence branch: something steps out of nothing and stands there. Origin, not removal."
+  },
+  {
+    "id": "prefixes_ent_007",
+    "type": "select_feeling",
+    "prefix_id": "ent",
+    "group": "untrennbar",
+    "verb": "entscheiden",
+    "verb_en": "to decide",
+    "options": [
+      "Over — across, above, beyond the limit, or missed entirely",
+      "In front, in advance, presented forward",
+      "Away from, off, out of — separation and release",
+      "Toward the speaker — 'this way, come here'"
+    ],
+    "correct": "Away from, off, out of — separation and release",
+    "feedback": "ent- — Away from, off, out of — separation and release. Scheiden is to separate. You pull the options apart and cut one loose from the rest."
+  },
+  {
+    "id": "prefixes_ent_008",
+    "type": "select_feeling",
+    "prefix_id": "ent",
+    "group": "untrennbar",
+    "verb": "entführen",
+    "verb_en": "to kidnap",
+    "options": [
+      "Behind — left behind, or done behind someone's back",
+      "Down, downward, laid low",
+      "Through — physically across, or thoroughly to the end",
+      "Away from, off, out of — separation and release"
+    ],
+    "correct": "Away from, off, out of — separation and release",
+    "feedback": "ent- — Away from, off, out of — separation and release. Leading plus away: you lead someone out of where they belong. Same logic as entlaufen, but done to them."
+  },
+  {
+    "id": "prefixes_ent_009",
+    "type": "select_feeling",
+    "prefix_id": "ent",
+    "group": "untrennbar",
+    "verb": "entsorgen",
+    "verb_en": "to dispose of",
+    "options": [
+      "Wrong, failed, badly done",
+      "Up, open, onto — rising and unsealing",
+      "Again, back — repetition and restoration",
+      "Away from, off, out of — separation and release"
+    ],
+    "correct": "Away from, off, out of — separation and release",
+    "feedback": "ent- — Away from, off, out of — separation and release. Bureaucratic humour: the Sorge (worry) is removed. The rubbish, and your problem, go away."
+  },
+  {
+    "id": "prefixes_ent_010",
+    "type": "select_feeling",
+    "prefix_id": "ent",
+    "group": "untrennbar",
+    "verb": "entlaufen",
+    "verb_en": "to run away, escape",
+    "options": [
+      "Away, gone — removal in everyday speech",
+      "Away from, off, out of — separation and release",
+      "Toward and touching — contact, attachment, switching on",
+      "Back — return and reversal"
+    ],
+    "correct": "Away from, off, out of — separation and release",
+    "feedback": "ent- — Away from, off, out of — separation and release. Running plus a boundary: you leave the person or place you belonged to. Takes the dative."
+  },
+  {
+    "id": "prefixes_entgegen_001",
+    "type": "select_prefix",
+    "prefix_id": "entgegen",
+    "group": "trennbar",
+    "root": "kommen",
+    "reflexive": false,
+    "target_en": "to come to meet; to accommodate",
+    "answer_verb": "entgegenkommen",
+    "options": [
+      "ver-",
+      "entgegen-",
+      "ge-",
+      "be-"
+    ],
+    "correct": "entgegen-",
+    "feedback": "entgegen- — Toward and facing — meeting, or opposing. Walking toward someone approaching you. Figuratively: meeting them halfway on terms."
+  },
+  {
+    "id": "prefixes_entgegen_002",
+    "type": "select_prefix",
+    "prefix_id": "entgegen",
+    "group": "trennbar",
+    "root": "sehen",
+    "reflexive": false,
+    "target_en": "to look forward to; to face",
+    "answer_verb": "entgegensehen",
+    "options": [
+      "zu-",
+      "entgegen-",
+      "ein-",
+      "be-"
+    ],
+    "correct": "entgegen-",
+    "feedback": "entgegen- — Toward and facing — meeting, or opposing. Looking at what's coming toward you — with anticipation or with resolve."
+  },
+  {
+    "id": "prefixes_entgegen_003",
+    "type": "select_prefix",
+    "prefix_id": "entgegen",
+    "group": "trennbar",
+    "root": "nehmen",
+    "reflexive": false,
+    "target_en": "to accept, receive",
+    "answer_verb": "entgegennehmen",
+    "options": [
+      "ein-",
+      "entgegen-",
+      "her-",
+      "an-"
+    ],
+    "correct": "entgegen-",
+    "feedback": "entgegen- — Toward and facing — meeting, or opposing. Taking something being handed toward you. Formal: prizes, deliveries, applications."
+  },
+  {
+    "id": "prefixes_entgegen_004",
+    "type": "select_prefix",
+    "prefix_id": "entgegen",
+    "group": "trennbar",
+    "root": "bringen",
+    "reflexive": false,
+    "target_en": "to show, extend to sb",
+    "answer_verb": "entgegenbringen",
+    "options": [
+      "bei-",
+      "ge-",
+      "um-",
+      "entgegen-"
+    ],
+    "correct": "entgegen-",
+    "feedback": "entgegen- — Toward and facing — meeting, or opposing. Carrying a feeling toward someone: Vertrauen entgegenbringen — to extend trust."
+  },
+  {
+    "id": "prefixes_entgegen_005",
+    "type": "select_prefix",
+    "prefix_id": "entgegen",
+    "group": "trennbar",
+    "root": "stehen",
+    "reflexive": false,
+    "target_en": "to stand in the way of",
+    "answer_verb": "entgegenstehen",
+    "options": [
+      "entgegen-",
+      "um-",
+      "er-",
+      "mit-"
+    ],
+    "correct": "entgegen-",
+    "feedback": "entgegen- — Toward and facing — meeting, or opposing. Standing facing the thing so it can't pass. The obstacle sense."
+  },
+  {
+    "id": "prefixes_entgegen_006",
+    "type": "select_prefix",
+    "prefix_id": "entgegen",
+    "group": "trennbar",
+    "root": "wirken",
+    "reflexive": false,
+    "target_en": "to counteract",
+    "answer_verb": "entgegenwirken",
+    "options": [
+      "mit-",
+      "ein-",
+      "fort-",
+      "entgegen-"
+    ],
+    "correct": "entgegen-",
+    "feedback": "entgegen- — Toward and facing — meeting, or opposing. Acting in the opposing direction to reduce an effect. Policy and medicine both use it."
+  },
+  {
+    "id": "prefixes_entgegen_007",
+    "type": "select_feeling",
+    "prefix_id": "entgegen",
+    "group": "trennbar",
+    "verb": "entgegentreten",
+    "verb_en": "to confront, oppose",
+    "options": [
+      "Over — across, above, beyond the limit, or missed entirely",
+      "Up, open, onto — rising and unsealing",
+      "Gathered, brought to a whole — mostly fossilised",
+      "Toward and facing — meeting, or opposing"
+    ],
+    "correct": "Toward and facing — meeting, or opposing",
+    "feedback": "entgegen- — Toward and facing — meeting, or opposing. Stepping into the path of something. Used of prejudice, rumour, aggression."
+  },
+  {
+    "id": "prefixes_entgegen_008",
+    "type": "select_feeling",
+    "prefix_id": "entgegen",
+    "group": "trennbar",
+    "verb": "entgegensetzen",
+    "verb_en": "to counter, set against",
+    "options": [
+      "Toward and touching — contact, attachment, switching on",
+      "Toward the speaker — 'this way, come here'",
+      "Gathered, brought to a whole — mostly fossilised",
+      "Toward and facing — meeting, or opposing"
+    ],
+    "correct": "Toward and facing — meeting, or opposing",
+    "feedback": "entgegen- — Toward and facing — meeting, or opposing. Placing your position opposite theirs. Widerstand entgegensetzen — to put up resistance."
+  },
+  {
+    "id": "prefixes_entgegen_009",
+    "type": "select_feeling",
+    "prefix_id": "entgegen",
+    "group": "trennbar",
+    "verb": "entgegenhalten",
+    "verb_en": "to object, counter with",
+    "options": [
+      "Gathered, brought to a whole — mostly fossilised",
+      "Toward and facing — meeting, or opposing",
+      "Away, gone — removal in everyday speech",
+      "Onward, further, keep going"
+    ],
+    "correct": "Toward and facing — meeting, or opposing",
+    "feedback": "entgegen- — Toward and facing — meeting, or opposing. Holding an argument up in front of the other person's claim."
+  },
+  {
+    "id": "prefixes_entgegen_010",
+    "type": "select_feeling",
+    "prefix_id": "entgegen",
+    "group": "trennbar",
+    "verb": "entgegenlaufen",
+    "verb_en": "to run toward; to run counter to",
+    "options": [
+      "Gathered, brought to a whole — mostly fossilised",
+      "Up, open, onto — rising and unsealing",
+      "Toward and facing — meeting, or opposing",
+      "Away from, off, out of — separation and release"
+    ],
+    "correct": "Toward and facing — meeting, or opposing",
+    "feedback": "entgegen- — Toward and facing — meeting, or opposing. Literally running to meet someone — or, figuratively, contradicting a principle."
+  },
+  {
+    "id": "prefixes_er_001",
+    "type": "select_prefix",
+    "prefix_id": "er",
+    "group": "untrennbar",
+    "root": "reichen",
+    "reflexive": false,
+    "target_en": "to reach, attain",
+    "answer_verb": "erreichen",
+    "options": [
+      "er-",
+      "fort-",
+      "um-",
+      "zer-"
+    ],
+    "correct": "er-",
+    "feedback": "er- — Carry the action through to its result. Reichen is to extend toward. er- lands it: your hand actually arrives at the thing."
+  },
+  {
+    "id": "prefixes_er_002",
+    "type": "select_prefix",
+    "prefix_id": "er",
+    "group": "untrennbar",
+    "root": "finden",
+    "reflexive": false,
+    "target_en": "to invent",
+    "answer_verb": "erfinden",
+    "options": [
+      "wider-",
+      "er-",
+      "ge-",
+      "miss-"
+    ],
+    "correct": "er-",
+    "feedback": "er- — Carry the action through to its result. Finding pushed past discovery: you keep going until the thing you found didn't exist before."
+  },
+  {
+    "id": "prefixes_er_003",
+    "type": "select_prefix",
+    "prefix_id": "er",
+    "group": "untrennbar",
+    "root": "kennen",
+    "reflexive": false,
+    "target_en": "to recognise",
+    "answer_verb": "erkennen",
+    "options": [
+      "er-",
+      "nach-",
+      "los-",
+      "weiter-"
+    ],
+    "correct": "er-",
+    "feedback": "er- — Carry the action through to its result. Knowing arrives in one moment — the point at which acquaintance snaps into identification."
+  },
+  {
+    "id": "prefixes_er_004",
+    "type": "select_prefix",
+    "prefix_id": "er",
+    "group": "untrennbar",
+    "root": "warten",
+    "reflexive": false,
+    "target_en": "to expect",
+    "answer_verb": "erwarten",
+    "options": [
+      "ver-",
+      "miss-",
+      "ab-",
+      "er-"
+    ],
+    "correct": "er-",
+    "feedback": "er- — Carry the action through to its result. Waiting with its endpoint attached: you wait for a result you already picture."
+  },
+  {
+    "id": "prefixes_er_005",
+    "type": "select_prefix",
+    "prefix_id": "er",
+    "group": "untrennbar",
+    "root": "zählen",
+    "reflexive": false,
+    "target_en": "to tell a story",
+    "answer_verb": "erzählen",
+    "options": [
+      "er-",
+      "zusammen-",
+      "an-",
+      "los-"
+    ],
+    "correct": "er-",
+    "feedback": "er- — Carry the action through to its result. Counting things out one after another until the whole sequence is delivered."
+  },
+  {
+    "id": "prefixes_er_006",
+    "type": "select_prefix",
+    "prefix_id": "er",
+    "group": "untrennbar",
+    "root": "lernen",
+    "reflexive": false,
+    "target_en": "to master a skill",
+    "answer_verb": "erlernen",
+    "options": [
+      "er-",
+      "zurück-",
+      "ab-",
+      "be-"
+    ],
+    "correct": "er-",
+    "feedback": "er- — Carry the action through to its result. Lernen is studying; erlernen is studying until the skill is fully acquired and yours."
+  },
+  {
+    "id": "prefixes_er_007",
+    "type": "select_feeling",
+    "prefix_id": "er",
+    "group": "untrennbar",
+    "verb": "erschießen",
+    "verb_en": "to shoot dead",
+    "options": [
+      "Against — resistance and reflection",
+      "Carry the action through to its result",
+      "Again, back — repetition and restoration",
+      "Back — return and reversal"
+    ],
+    "correct": "Carry the action through to its result",
+    "feedback": "er- — Carry the action through to its result. Shooting carried to its final result. The clearest case of er- as 'all the way to the end'."
+  },
+  {
+    "id": "prefixes_er_008",
+    "type": "select_feeling",
+    "prefix_id": "er",
+    "group": "untrennbar",
+    "verb": "ertrinken",
+    "verb_en": "to drown",
+    "options": [
+      "Carry the action through to its result",
+      "Toward and touching — contact, attachment, switching on",
+      "Down, downward, laid low",
+      "Up, open, onto — rising and unsealing"
+    ],
+    "correct": "Carry the action through to its result",
+    "feedback": "er- — Carry the action through to its result. Grim logic: you take in water until the process completes. The endpoint is fatal."
+  },
+  {
+    "id": "prefixes_er_009",
+    "type": "select_feeling",
+    "prefix_id": "er",
+    "group": "untrennbar",
+    "verb": "erfrieren",
+    "verb_en": "to freeze to death",
+    "options": [
+      "Carry the action through to its result",
+      "Toward and touching — contact, attachment, switching on",
+      "Out, out of, and out to the very end",
+      "Wrong, failed, badly done"
+    ],
+    "correct": "Carry the action through to its result",
+    "feedback": "er- — Carry the action through to its result. Freezing pushed past discomfort to its absolute conclusion."
+  },
+  {
+    "id": "prefixes_er_010",
+    "type": "select_feeling",
+    "prefix_id": "er",
+    "group": "untrennbar",
+    "verb": "erwachen",
+    "verb_en": "to awaken",
+    "options": [
+      "Through — physically across, or thoroughly to the end",
+      "Carry the action through to its result",
+      "Away — and, by extension, onward",
+      "Around — encircling, turning, and therefore changing"
+    ],
+    "correct": "Carry the action through to its result",
+    "feedback": "er- — Carry the action through to its result. The emergence branch: consciousness comes into being. Same arc, arriving at a beginning."
+  },
+  {
+    "id": "prefixes_fort_001",
+    "type": "select_prefix",
+    "prefix_id": "fort",
+    "group": "trennbar",
+    "root": "gehen",
+    "reflexive": false,
+    "target_en": "to go away, leave",
+    "answer_verb": "fortgehen",
+    "options": [
+      "fort-",
+      "über-",
+      "nieder-",
+      "be-"
+    ],
+    "correct": "fort-",
+    "feedback": "fort- — Away — and, by extension, onward. The plain departure sense. Slightly more formal than weggehen."
+  },
+  {
+    "id": "prefixes_fort_002",
+    "type": "select_prefix",
+    "prefix_id": "fort",
+    "group": "trennbar",
+    "root": "setzen",
+    "reflexive": false,
+    "target_en": "to continue, resume",
+    "answer_verb": "fortsetzen",
+    "options": [
+      "bei-",
+      "fort-",
+      "unter-",
+      "um-"
+    ],
+    "correct": "fort-",
+    "feedback": "fort- — Away — and, by extension, onward. The continuation branch: you set the thing further along its line."
+  },
+  {
+    "id": "prefixes_fort_003",
+    "type": "select_prefix",
+    "prefix_id": "fort",
+    "group": "trennbar",
+    "root": "fahren",
+    "reflexive": false,
+    "target_en": "to continue; to drive off",
+    "answer_verb": "fortfahren",
+    "options": [
+      "aus-",
+      "los-",
+      "fort-",
+      "wieder-"
+    ],
+    "correct": "fort-",
+    "feedback": "fort- — Away — and, by extension, onward. Both readings in one verb — carry on speaking, or drive away. Context decides."
+  },
+  {
+    "id": "prefixes_fort_004",
+    "type": "select_prefix",
+    "prefix_id": "fort",
+    "group": "trennbar",
+    "root": "laufen",
+    "reflexive": false,
+    "target_en": "to run away; to run on",
+    "answer_verb": "fortlaufen",
+    "options": [
+      "zusammen-",
+      "vor-",
+      "emp-",
+      "fort-"
+    ],
+    "correct": "fort-",
+    "feedback": "fort- — Away — and, by extension, onward. Same duality: a child running off, or a number series running onward."
+  },
+  {
+    "id": "prefixes_fort_005",
+    "type": "select_prefix",
+    "prefix_id": "fort",
+    "group": "trennbar",
+    "root": "bestehen",
+    "reflexive": false,
+    "target_en": "to persist, endure",
+    "answer_verb": "fortbestehen",
+    "options": [
+      "zu-",
+      "unter-",
+      "fort-",
+      "ge-"
+    ],
+    "correct": "fort-",
+    "feedback": "fort- — Away — and, by extension, onward. Existence carried onward past the point it might have stopped."
+  },
+  {
+    "id": "prefixes_fort_006",
+    "type": "select_prefix",
+    "prefix_id": "fort",
+    "group": "trennbar",
+    "root": "schreiten",
+    "reflexive": false,
+    "target_en": "to progress, advance",
+    "answer_verb": "fortschreiten",
+    "options": [
+      "emp-",
+      "fort-",
+      "entgegen-",
+      "zu-"
+    ],
+    "correct": "fort-",
+    "feedback": "fort- — Away — and, by extension, onward. Striding onward. The source of Fortschritt — progress as steps taken forward."
+  },
+  {
+    "id": "prefixes_fort_007",
+    "type": "select_feeling",
+    "prefix_id": "fort",
+    "group": "trennbar",
+    "verb": "sich fortbilden",
+    "verb_en": "to do further training",
+    "options": [
+      "Out, out of, and out to the very end",
+      "Away — and, by extension, onward",
+      "A sound-variant of ent- — receiving, sensing, rising toward",
+      "Down, downward, laid low"
+    ],
+    "correct": "Away — and, by extension, onward",
+    "feedback": "fort- — Away — and, by extension, onward. Educating yourself onward past your current level. Common in job listings."
+  },
+  {
+    "id": "prefixes_fort_008",
+    "type": "select_feeling",
+    "prefix_id": "fort",
+    "group": "trennbar",
+    "verb": "fortbewegen",
+    "verb_en": "to move, propel",
+    "options": [
+      "Into pieces — destruction and dispersal",
+      "Away — and, by extension, onward",
+      "Down, downward, laid low",
+      "Back — return and reversal"
+    ],
+    "correct": "Away — and, by extension, onward",
+    "feedback": "fort- — Away — and, by extension, onward. Moving a thing away from where it is. The neutral, technical use."
+  },
+  {
+    "id": "prefixes_fort_009",
+    "type": "select_feeling",
+    "prefix_id": "fort",
+    "group": "trennbar",
+    "verb": "fortziehen",
+    "verb_en": "to move away",
+    "options": [
+      "Four feelings: away, wrong, transformed, used up",
+      "Over — across, above, beyond the limit, or missed entirely",
+      "Away — and, by extension, onward",
+      "Against — resistance and reflection"
+    ],
+    "correct": "Away — and, by extension, onward",
+    "feedback": "fort- — Away — and, by extension, onward. Pulling yourself away from a town for good. Stronger than umziehen."
+  },
+  {
+    "id": "prefixes_fort_010",
+    "type": "select_feeling",
+    "prefix_id": "fort",
+    "group": "trennbar",
+    "verb": "fortjagen",
+    "verb_en": "to chase away, drive off",
+    "options": [
+      "Away — and, by extension, onward",
+      "Away from, off, out of — separation and release",
+      "Over — across, above, beyond the limit, or missed entirely",
+      "Apply the action directly onto a thing"
+    ],
+    "correct": "Away — and, by extension, onward",
+    "feedback": "fort- — Away — and, by extension, onward. Hunting someone away from the place — the aggressive end of the departure sense."
+  },
+  {
+    "id": "prefixes_ge_001",
+    "type": "select_prefix",
+    "prefix_id": "ge",
+    "group": "untrennbar",
+    "root": "hören",
+    "reflexive": false,
+    "target_en": "to belong to",
+    "answer_verb": "gehören",
+    "options": [
+      "hinter-",
+      "an-",
+      "mit-",
+      "ge-"
+    ],
+    "correct": "ge-",
+    "feedback": "ge- — Gathered, brought to a whole — mostly fossilised. Old sense: to be within earshot of, therefore under someone's authority. Takes the dative."
+  },
+  {
+    "id": "prefixes_ge_002",
+    "type": "select_prefix",
+    "prefix_id": "ge",
+    "group": "untrennbar",
+    "root": "fallen",
+    "reflexive": false,
+    "target_en": "to please, be liked",
+    "answer_verb": "gefallen",
+    "options": [
+      "fort-",
+      "ein-",
+      "zurück-",
+      "ge-"
+    ],
+    "correct": "ge-",
+    "feedback": "ge- — Gathered, brought to a whole — mostly fossilised. It 'falls together' well with you — it suits. Note the reversal: es gefällt mir."
+  },
+  {
+    "id": "prefixes_ge_003",
+    "type": "select_prefix",
+    "prefix_id": "ge",
+    "group": "untrennbar",
+    "root": "lingen",
+    "reflexive": false,
+    "target_en": "to succeed, turn out well",
+    "answer_verb": "gelingen",
+    "options": [
+      "auf-",
+      "ge-",
+      "aus-",
+      "bei-"
+    ],
+    "correct": "ge-",
+    "feedback": "ge- — Gathered, brought to a whole — mostly fossilised. The parts come together properly. Also dative: es ist mir gelungen."
+  },
+  {
+    "id": "prefixes_ge_004",
+    "type": "select_prefix",
+    "prefix_id": "ge",
+    "group": "untrennbar",
+    "root": "winnen",
+    "reflexive": false,
+    "target_en": "to win, gain",
+    "answer_verb": "gewinnen",
+    "options": [
+      "ver-",
+      "ge-",
+      "aus-",
+      "vor-"
+    ],
+    "correct": "ge-",
+    "feedback": "ge- — Gathered, brought to a whole — mostly fossilised. Old winnan = to strive. ge- brings the striving to its completed, successful whole."
+  },
+  {
+    "id": "prefixes_ge_005",
+    "type": "select_prefix",
+    "prefix_id": "ge",
+    "group": "untrennbar",
+    "root": "stehen",
+    "reflexive": false,
+    "target_en": "to confess",
+    "answer_verb": "gestehen",
+    "options": [
+      "entgegen-",
+      "ge-",
+      "fort-",
+      "bei-"
+    ],
+    "correct": "ge-",
+    "feedback": "ge- — Gathered, brought to a whole — mostly fossilised. To stand fully behind something — the whole truth brought out and stood on."
+  },
+  {
+    "id": "prefixes_ge_006",
+    "type": "select_prefix",
+    "prefix_id": "ge",
+    "group": "untrennbar",
+    "root": "nießen",
+    "reflexive": false,
+    "target_en": "to enjoy",
+    "answer_verb": "genießen",
+    "options": [
+      "um-",
+      "ge-",
+      "zurück-",
+      "nieder-"
+    ],
+    "correct": "ge-",
+    "feedback": "ge- — Gathered, brought to a whole — mostly fossilised. Related to 'to use, take'. ge- makes it total: taking something in fully."
+  },
+  {
+    "id": "prefixes_ge_007",
+    "type": "select_feeling",
+    "prefix_id": "ge",
+    "group": "untrennbar",
+    "verb": "gebrauchen",
+    "verb_en": "to use, make use of",
+    "options": [
+      "Off, away, down — detachment from a starting point",
+      "Gathered, brought to a whole — mostly fossilised",
+      "Four feelings: away, wrong, transformed, used up",
+      "Behind — left behind, or done behind someone's back"
+    ],
+    "correct": "Gathered, brought to a whole — mostly fossilised",
+    "feedback": "ge- — Gathered, brought to a whole — mostly fossilised. Brauchen is to need; ge- turns need into completed application — putting it to use."
+  },
+  {
+    "id": "prefixes_ge_008",
+    "type": "select_feeling",
+    "prefix_id": "ge",
+    "group": "untrennbar",
+    "verb": "geraten",
+    "verb_en": "to end up, turn out",
+    "options": [
+      "Behind — left behind, or done behind someone's back",
+      "Apply the action directly onto a thing",
+      "Out, out of, and out to the very end",
+      "Gathered, brought to a whole — mostly fossilised"
+    ],
+    "correct": "Gathered, brought to a whole — mostly fossilised",
+    "feedback": "ge- — Gathered, brought to a whole — mostly fossilised. You land somewhere without steering — the outcome comes together around you."
+  },
+  {
+    "id": "prefixes_ge_009",
+    "type": "select_feeling",
+    "prefix_id": "ge",
+    "group": "untrennbar",
+    "verb": "gedenken",
+    "verb_en": "to commemorate",
+    "options": [
+      "Through — physically across, or thoroughly to the end",
+      "Four feelings: away, wrong, transformed, used up",
+      "Toward the speaker — 'this way, come here'",
+      "Gathered, brought to a whole — mostly fossilised"
+    ],
+    "correct": "Gathered, brought to a whole — mostly fossilised",
+    "feedback": "ge- — Gathered, brought to a whole — mostly fossilised. Thinking gathered and formalised into remembrance. Takes the genitive."
+  },
+  {
+    "id": "prefixes_ge_010",
+    "type": "select_feeling",
+    "prefix_id": "ge",
+    "group": "untrennbar",
+    "verb": "gehorchen",
+    "verb_en": "to obey",
+    "options": [
+      "Released, broken free — and therefore off we go",
+      "Gathered, brought to a whole — mostly fossilised",
+      "Away, gone — removal in everyday speech",
+      "Toward and touching — contact, attachment, switching on"
+    ],
+    "correct": "Gathered, brought to a whole — mostly fossilised",
+    "feedback": "ge- — Gathered, brought to a whole — mostly fossilised. Horchen is to listen closely. ge- completes it: listening that ends in doing."
+  },
+  {
+    "id": "prefixes_her_001",
+    "type": "select_prefix",
+    "prefix_id": "her",
+    "group": "trennbar",
+    "root": "kommen",
+    "reflexive": false,
+    "target_en": "to come here",
+    "answer_verb": "herkommen",
+    "options": [
+      "her-",
+      "miss-",
+      "nach-",
+      "er-"
+    ],
+    "correct": "her-",
+    "feedback": "her- — Toward the speaker — 'this way, come here'. Coming in the direction of the speaker. Wo kommst du her? = where are you from?"
+  },
+  {
+    "id": "prefixes_her_002",
+    "type": "select_prefix",
+    "prefix_id": "her",
+    "group": "trennbar",
+    "root": "bringen",
+    "reflexive": false,
+    "target_en": "to bring here",
+    "answer_verb": "herbringen",
+    "options": [
+      "zer-",
+      "unter-",
+      "be-",
+      "her-"
+    ],
+    "correct": "her-",
+    "feedback": "her- — Toward the speaker — 'this way, come here'. Carrying something toward me. Hinbringen would carry it away to somewhere else."
+  },
+  {
+    "id": "prefixes_her_003",
+    "type": "select_prefix",
+    "prefix_id": "her",
+    "group": "trennbar",
+    "root": "geben",
+    "reflexive": false,
+    "target_en": "to hand over",
+    "answer_verb": "hergeben",
+    "options": [
+      "ent-",
+      "her-",
+      "unter-",
+      "zer-"
+    ],
+    "correct": "her-",
+    "feedback": "her- — Toward the speaker — 'this way, come here'. Giving in my direction. There's often a note of reluctance — hand it over."
+  },
+  {
+    "id": "prefixes_her_004",
+    "type": "select_prefix",
+    "prefix_id": "her",
+    "group": "trennbar",
+    "root": "stellen",
+    "reflexive": false,
+    "target_en": "to manufacture, produce",
+    "answer_verb": "herstellen",
+    "options": [
+      "wieder-",
+      "her-",
+      "be-",
+      "auf-"
+    ],
+    "correct": "her-",
+    "feedback": "her- — Toward the speaker — 'this way, come here'. Placing something 'here' into existence — the factory brings it into our world."
+  },
+  {
+    "id": "prefixes_her_005",
+    "type": "select_prefix",
+    "prefix_id": "her",
+    "group": "trennbar",
+    "root": "holen",
+    "reflexive": false,
+    "target_en": "to fetch here",
+    "answer_verb": "herholen",
+    "options": [
+      "her-",
+      "weiter-",
+      "los-",
+      "zu-"
+    ],
+    "correct": "her-",
+    "feedback": "her- — Toward the speaker — 'this way, come here'. Going to get something and bringing it back to where I am."
+  },
+  {
+    "id": "prefixes_her_006",
+    "type": "select_prefix",
+    "prefix_id": "her",
+    "group": "trennbar",
+    "root": "bekommen",
+    "reflexive": false,
+    "target_en": "to get hold of, obtain",
+    "answer_verb": "herbekommen",
+    "options": [
+      "miss-",
+      "zurück-",
+      "aus-",
+      "her-"
+    ],
+    "correct": "her-",
+    "feedback": "her- — Toward the speaker — 'this way, come here'. Managing to get something to arrive at you. Often Wo bekomme ich das her?"
+  },
+  {
+    "id": "prefixes_her_007",
+    "type": "select_feeling",
+    "prefix_id": "her",
+    "group": "trennbar",
+    "verb": "herlaufen",
+    "verb_en": "to run over here",
+    "options": [
+      "Under — beneath, supporting from below, or cutting off",
+      "Again, back — repetition and restoration",
+      "Toward the speaker — 'this way, come here'",
+      "Gathered, brought to a whole — mostly fossilised"
+    ],
+    "correct": "Toward the speaker — 'this way, come here'",
+    "feedback": "her- — Toward the speaker — 'this way, come here'. Running toward the speaker. Also hinter jdm herlaufen — to run after someone."
+  },
+  {
+    "id": "prefixes_her_008",
+    "type": "select_feeling",
+    "prefix_id": "her",
+    "group": "trennbar",
+    "verb": "hernehmen",
+    "verb_en": "to take from, get from",
+    "options": [
+      "Toward the speaker — 'this way, come here'",
+      "Gathered, brought to a whole — mostly fossilised",
+      "Together with, joining in — participation",
+      "Away — and, by extension, onward"
+    ],
+    "correct": "Toward the speaker — 'this way, come here'",
+    "feedback": "her- — Toward the speaker — 'this way, come here'. Wo nimmst du das her? — where are you taking that from, to bring it here?"
+  },
+  {
+    "id": "prefixes_her_009",
+    "type": "select_feeling",
+    "prefix_id": "her",
+    "group": "trennbar",
+    "verb": "herreichen",
+    "verb_en": "to pass over, hand across",
+    "options": [
+      "Toward the speaker — 'this way, come here'",
+      "Back — return and reversal",
+      "In front, in advance, presented forward",
+      "Behind — left behind, or done behind someone's back"
+    ],
+    "correct": "Toward the speaker — 'this way, come here'",
+    "feedback": "her- — Toward the speaker — 'this way, come here'. Extending your arm so the thing comes to my side."
+  },
+  {
+    "id": "prefixes_her_010",
+    "type": "select_feeling",
+    "prefix_id": "her",
+    "group": "trennbar",
+    "verb": "herrühren",
+    "verb_en": "to stem from, originate in",
+    "options": [
+      "Back — return and reversal",
+      "Toward the speaker — 'this way, come here'",
+      "Together — joining, or collapsing into one",
+      "Away — and, by extension, onward"
+    ],
+    "correct": "Toward the speaker — 'this way, come here'",
+    "feedback": "her- — Toward the speaker — 'this way, come here'. Figurative: the cause moves toward the present from somewhere back there."
+  },
+  {
+    "id": "prefixes_hin_001",
+    "type": "select_prefix",
+    "prefix_id": "hin",
+    "group": "trennbar",
+    "root": "gehen",
+    "reflexive": false,
+    "target_en": "to go there",
+    "answer_verb": "hingehen",
+    "options": [
+      "hin-",
+      "um-",
+      "zusammen-",
+      "hinter-"
+    ],
+    "correct": "hin-",
+    "feedback": "hin- — Away from the speaker, toward a target — 'that way'. Walking toward a destination away from the current position. Answers wohin?"
+  },
+  {
+    "id": "prefixes_hin_002",
+    "type": "select_prefix",
+    "prefix_id": "hin",
+    "group": "trennbar",
+    "root": "fahren",
+    "reflexive": false,
+    "target_en": "to drive/travel there",
+    "answer_verb": "hinfahren",
+    "options": [
+      "über-",
+      "hin-",
+      "nieder-",
+      "ent-"
+    ],
+    "correct": "hin-",
+    "feedback": "hin- — Away from the speaker, toward a target — 'that way'. Same arrow, by vehicle. Fährst du hin? — are you going there?"
+  },
+  {
+    "id": "prefixes_hin_003",
+    "type": "select_prefix",
+    "prefix_id": "hin",
+    "group": "trennbar",
+    "root": "legen",
+    "reflexive": false,
+    "target_en": "to lay down, put down",
+    "answer_verb": "hinlegen",
+    "options": [
+      "ent-",
+      "über-",
+      "hin-",
+      "nach-"
+    ],
+    "correct": "hin-",
+    "feedback": "hin- — Away from the speaker, toward a target — 'that way'. Placing something down over there. Reflexively, sich hinlegen = to lie down."
+  },
+  {
+    "id": "prefixes_hin_004",
+    "type": "select_prefix",
+    "prefix_id": "hin",
+    "group": "trennbar",
+    "root": "setzen",
+    "reflexive": true,
+    "target_en": "to sit down",
+    "answer_verb": "sich hinsetzen",
+    "options": [
+      "unter-",
+      "hin-",
+      "aus-",
+      "be-"
+    ],
+    "correct": "hin-",
+    "feedback": "hin- — Away from the speaker, toward a target — 'that way'. Putting yourself down into a spot. The hin supplies the target position."
+  },
+  {
+    "id": "prefixes_hin_005",
+    "type": "select_prefix",
+    "prefix_id": "hin",
+    "group": "trennbar",
+    "root": "stellen",
+    "reflexive": false,
+    "target_en": "to put down, set there",
+    "answer_verb": "hinstellen",
+    "options": [
+      "wieder-",
+      "hin-",
+      "nieder-",
+      "hinter-"
+    ],
+    "correct": "hin-",
+    "feedback": "hin- — Away from the speaker, toward a target — 'that way'. Standing an object in a particular place away from you."
+  },
+  {
+    "id": "prefixes_hin_006",
+    "type": "select_prefix",
+    "prefix_id": "hin",
+    "group": "trennbar",
+    "root": "schauen",
+    "reflexive": false,
+    "target_en": "to look over there",
+    "answer_verb": "hinschauen",
+    "options": [
+      "hinter-",
+      "emp-",
+      "miss-",
+      "hin-"
+    ],
+    "correct": "hin-",
+    "feedback": "hin- — Away from the speaker, toward a target — 'that way'. Directing your gaze outward to a point. Schau mal hin!"
+  },
+  {
+    "id": "prefixes_hin_007",
+    "type": "select_feeling",
+    "prefix_id": "hin",
+    "group": "trennbar",
+    "verb": "hinfallen",
+    "verb_en": "to fall over",
+    "options": [
+      "Into, inward — entering and settling",
+      "Over — across, above, beyond the limit, or missed entirely",
+      "Released, broken free — and therefore off we go",
+      "Away from the speaker, toward a target — 'that way'"
+    ],
+    "correct": "Away from the speaker, toward a target — 'that way'",
+    "feedback": "hin- — Away from the speaker, toward a target — 'that way'. Falling away from your upright position toward the ground. The downward flavour."
+  },
+  {
+    "id": "prefixes_hin_008",
+    "type": "select_feeling",
+    "prefix_id": "hin",
+    "group": "trennbar",
+    "verb": "hinbringen",
+    "verb_en": "to take there",
+    "options": [
+      "Away from the speaker, toward a target — 'that way'",
+      "Into pieces — destruction and dispersal",
+      "A sound-variant of ent- — receiving, sensing, rising toward",
+      "Apply the action directly onto a thing"
+    ],
+    "correct": "Away from the speaker, toward a target — 'that way'",
+    "feedback": "hin- — Away from the speaker, toward a target — 'that way'. Carrying something away to a destination. Exact opposite of herbringen."
+  },
+  {
+    "id": "prefixes_hin_009",
+    "type": "select_feeling",
+    "prefix_id": "hin",
+    "group": "trennbar",
+    "verb": "hinweisen",
+    "verb_en": "to point out, indicate",
+    "options": [
+      "Back — return and reversal",
+      "Toward and facing — meeting, or opposing",
+      "Over — across, above, beyond the limit, or missed entirely",
+      "Away from the speaker, toward a target — 'that way'"
+    ],
+    "correct": "Away from the speaker, toward a target — 'that way'",
+    "feedback": "hin- — Away from the speaker, toward a target — 'that way'. Pointing away from yourself at the thing you want noticed. Takes auf + accusative."
+  },
+  {
+    "id": "prefixes_hin_010",
+    "type": "select_feeling",
+    "prefix_id": "hin",
+    "group": "trennbar",
+    "verb": "hinhören",
+    "verb_en": "to listen closely",
+    "options": [
+      "Away from the speaker, toward a target — 'that way'",
+      "Off, away, down — detachment from a starting point",
+      "In front, in advance, presented forward",
+      "Wrong, failed, badly done"
+    ],
+    "correct": "Away from the speaker, toward a target — 'that way'",
+    "feedback": "hin- — Away from the speaker, toward a target — 'that way'. Sending your attention outward toward a sound instead of just hearing it."
+  },
+  {
+    "id": "prefixes_los_001",
+    "type": "select_prefix",
+    "prefix_id": "los",
+    "group": "trennbar",
+    "root": "fahren",
+    "reflexive": false,
+    "target_en": "to set off, drive off",
+    "answer_verb": "losfahren",
+    "options": [
+      "nieder-",
+      "los-",
+      "ver-",
+      "an-"
+    ],
+    "correct": "los-",
+    "feedback": "los- — Released, broken free — and therefore off we go. The vehicle is released from standstill. The most common start-sense los- verb."
+  },
+  {
+    "id": "prefixes_los_002",
+    "type": "select_prefix",
+    "prefix_id": "los",
+    "group": "trennbar",
+    "root": "gehen",
+    "reflexive": false,
+    "target_en": "to start, kick off",
+    "answer_verb": "losgehen",
+    "options": [
+      "ein-",
+      "über-",
+      "zurück-",
+      "los-"
+    ],
+    "correct": "los-",
+    "feedback": "los- — Released, broken free — and therefore off we go. Wann geht's los? — when does it start? The event is let loose."
+  },
+  {
+    "id": "prefixes_los_003",
+    "type": "select_prefix",
+    "prefix_id": "los",
+    "group": "trennbar",
+    "root": "lassen",
+    "reflexive": false,
+    "target_en": "to let go, release",
+    "answer_verb": "loslassen",
+    "options": [
+      "los-",
+      "er-",
+      "ver-",
+      "zu-"
+    ],
+    "correct": "los-",
+    "feedback": "los- — Released, broken free — and therefore off we go. The purest case: your grip opens and the thing is free."
+  },
+  {
+    "id": "prefixes_los_004",
+    "type": "select_prefix",
+    "prefix_id": "los",
+    "group": "trennbar",
+    "root": "werden",
+    "reflexive": false,
+    "target_en": "to get rid of",
+    "answer_verb": "loswerden",
+    "options": [
+      "ver-",
+      "ab-",
+      "los-",
+      "zurück-"
+    ],
+    "correct": "los-",
+    "feedback": "los- — Released, broken free — and therefore off we go. Becoming free of something. Takes an accusative object: ich werde ihn nicht los."
+  },
+  {
+    "id": "prefixes_los_005",
+    "type": "select_prefix",
+    "prefix_id": "los",
+    "group": "trennbar",
+    "root": "binden",
+    "reflexive": false,
+    "target_en": "to untie",
+    "answer_verb": "losbinden",
+    "options": [
+      "los-",
+      "ein-",
+      "fort-",
+      "be-"
+    ],
+    "correct": "los-",
+    "feedback": "los- — Released, broken free — and therefore off we go. Undoing the knot so the thing is loose. Release in its literal, physical form."
+  },
+  {
+    "id": "prefixes_los_006",
+    "type": "select_prefix",
+    "prefix_id": "los",
+    "group": "trennbar",
+    "root": "legen",
+    "reflexive": false,
+    "target_en": "to get going, dive in",
+    "answer_verb": "loslegen",
+    "options": [
+      "weiter-",
+      "ab-",
+      "los-",
+      "miss-"
+    ],
+    "correct": "los-",
+    "feedback": "los- — Released, broken free — and therefore off we go. Colloquial and energetic: to start with real momentum. Leg los!"
+  },
+  {
+    "id": "prefixes_los_007",
+    "type": "select_feeling",
+    "prefix_id": "los",
+    "group": "trennbar",
+    "verb": "losrennen",
+    "verb_en": "to take off running",
+    "options": [
+      "Toward and facing — meeting, or opposing",
+      "Released, broken free — and therefore off we go",
+      "Onward, further, keep going",
+      "In front, in advance, presented forward"
+    ],
+    "correct": "Released, broken free — and therefore off we go",
+    "feedback": "los- — Released, broken free — and therefore off we go. Running released from stillness — the sprint start."
+  },
+  {
+    "id": "prefixes_los_008",
+    "type": "select_feeling",
+    "prefix_id": "los",
+    "group": "trennbar",
+    "verb": "losschrauben",
+    "verb_en": "to unscrew",
+    "options": [
+      "Released, broken free — and therefore off we go",
+      "Out, out of, and out to the very end",
+      "Behind — left behind, or done behind someone's back",
+      "Under — beneath, supporting from below, or cutting off"
+    ],
+    "correct": "Released, broken free — and therefore off we go",
+    "feedback": "los- — Released, broken free — and therefore off we go. Turning until the part comes free. Release applied to fastenings."
+  },
+  {
+    "id": "prefixes_los_009",
+    "type": "select_feeling",
+    "prefix_id": "los",
+    "group": "trennbar",
+    "verb": "sich loslösen",
+    "verb_en": "to detach oneself, break away",
+    "options": [
+      "Released, broken free — and therefore off we go",
+      "Onward, further, keep going",
+      "Again, back — repetition and restoration",
+      "Toward and touching — contact, attachment, switching on"
+    ],
+    "correct": "Released, broken free — and therefore off we go",
+    "feedback": "los- — Released, broken free — and therefore off we go. Freeing yourself from a group, an idea, or a dependency."
+  },
+  {
+    "id": "prefixes_los_010",
+    "type": "select_feeling",
+    "prefix_id": "los",
+    "group": "trennbar",
+    "verb": "losbrechen",
+    "verb_en": "to break out, erupt",
+    "options": [
+      "Toward the speaker — 'this way, come here'",
+      "Back — return and reversal",
+      "Onward, further, keep going",
+      "Released, broken free — and therefore off we go"
+    ],
+    "correct": "Released, broken free — and therefore off we go",
+    "feedback": "los- — Released, broken free — and therefore off we go. A storm or an argument bursting loose all at once. Sudden onset at full force."
+  },
+  {
+    "id": "prefixes_miss_001",
+    "type": "select_prefix",
+    "prefix_id": "miss",
+    "group": "untrennbar",
+    "root": "verstehen",
+    "reflexive": false,
+    "target_en": "to misunderstand",
+    "answer_verb": "missverstehen",
+    "options": [
+      "wieder-",
+      "miss-",
+      "entgegen-",
+      "zu-"
+    ],
+    "correct": "miss-",
+    "feedback": "miss- — Wrong, failed, badly done. Understanding that went the wrong way. The verdict prefix sits on top of the action."
+  },
+  {
+    "id": "prefixes_miss_002",
+    "type": "select_prefix",
+    "prefix_id": "miss",
+    "group": "untrennbar",
+    "root": "brauchen",
+    "reflexive": false,
+    "target_en": "to misuse, abuse",
+    "answer_verb": "missbrauchen",
+    "options": [
+      "her-",
+      "vor-",
+      "miss-",
+      "weg-"
+    ],
+    "correct": "miss-",
+    "feedback": "miss- — Wrong, failed, badly done. Use bent in the wrong direction — the thing was used, but wrongly."
+  },
+  {
+    "id": "prefixes_miss_003",
+    "type": "select_prefix",
+    "prefix_id": "miss",
+    "group": "untrennbar",
+    "root": "trauen",
+    "reflexive": false,
+    "target_en": "to distrust",
+    "answer_verb": "misstrauen",
+    "options": [
+      "miss-",
+      "los-",
+      "be-",
+      "über-"
+    ],
+    "correct": "miss-",
+    "feedback": "miss- — Wrong, failed, badly done. Trust judged as misplaced. Takes the dative: ich misstraue ihm."
+  },
+  {
+    "id": "prefixes_miss_004",
+    "type": "select_prefix",
+    "prefix_id": "miss",
+    "group": "untrennbar",
+    "root": "achten",
+    "reflexive": false,
+    "target_en": "to disregard, flout",
+    "answer_verb": "missachten",
+    "options": [
+      "bei-",
+      "wieder-",
+      "miss-",
+      "ab-"
+    ],
+    "correct": "miss-",
+    "feedback": "miss- — Wrong, failed, badly done. Attention (achten) given wrongly — that is, not given at all."
+  },
+  {
+    "id": "prefixes_miss_005",
+    "type": "select_prefix",
+    "prefix_id": "miss",
+    "group": "untrennbar",
+    "root": "glücken",
+    "reflexive": false,
+    "target_en": "to go wrong, fail",
+    "answer_verb": "missglücken",
+    "options": [
+      "zusammen-",
+      "an-",
+      "ge-",
+      "miss-"
+    ],
+    "correct": "miss-",
+    "feedback": "miss- — Wrong, failed, badly done. Glücken is to turn out lucky. miss- flips the luck."
+  },
+  {
+    "id": "prefixes_miss_006",
+    "type": "select_prefix",
+    "prefix_id": "miss",
+    "group": "untrennbar",
+    "root": "deuten",
+    "reflexive": false,
+    "target_en": "to misinterpret",
+    "answer_verb": "missdeuten",
+    "options": [
+      "miss-",
+      "bei-",
+      "wieder-",
+      "zu-"
+    ],
+    "correct": "miss-",
+    "feedback": "miss- — Wrong, failed, badly done. Interpretation that points at the wrong thing."
+  },
+  {
+    "id": "prefixes_miss_007",
+    "type": "select_feeling",
+    "prefix_id": "miss",
+    "group": "untrennbar",
+    "verb": "misshandeln",
+    "verb_en": "to mistreat, abuse",
+    "options": [
+      "Wrong, failed, badly done",
+      "After, behind, in pursuit — and doing it again to check",
+      "Through — physically across, or thoroughly to the end",
+      "Toward and touching — contact, attachment, switching on"
+    ],
+    "correct": "Wrong, failed, badly done",
+    "feedback": "miss- — Wrong, failed, badly done. Handling done badly — the verdict applied to physical treatment of a person."
+  },
+  {
+    "id": "prefixes_miss_008",
+    "type": "select_feeling",
+    "prefix_id": "miss",
+    "group": "untrennbar",
+    "verb": "missverstehen",
+    "verb_en": "to misunderstand",
+    "options": [
+      "Wrong, failed, badly done",
+      "Into pieces — destruction and dispersal",
+      "Back — return and reversal",
+      "In front, in advance, presented forward"
+    ],
+    "correct": "Wrong, failed, badly done",
+    "feedback": "miss- — Wrong, failed, badly done. Understanding that went the wrong way. The verdict prefix sits on top of the action."
+  },
+  {
+    "id": "prefixes_miss_009",
+    "type": "select_feeling",
+    "prefix_id": "miss",
+    "group": "untrennbar",
+    "verb": "misslingen",
+    "verb_en": "to fail, go wrong",
+    "options": [
+      "Onward, further, keep going",
+      "Together — joining, or collapsing into one",
+      "Wrong, failed, badly done",
+      "Behind — left behind, or done behind someone's back"
+    ],
+    "correct": "Wrong, failed, badly done",
+    "feedback": "miss- — Wrong, failed, badly done. The direct opposite of gelingen: the parts did not come together. Dative: es misslang mir."
+  },
+  {
+    "id": "prefixes_miss_010",
+    "type": "select_feeling",
+    "prefix_id": "miss",
+    "group": "untrennbar",
+    "verb": "missbrauchen",
+    "verb_en": "to misuse, abuse",
+    "options": [
+      "Wrong, failed, badly done",
+      "Toward and touching — contact, attachment, switching on",
+      "Toward the speaker — 'this way, come here'",
+      "Carry the action through to its result"
+    ],
+    "correct": "Wrong, failed, badly done",
+    "feedback": "miss- — Wrong, failed, badly done. Use bent in the wrong direction — the thing was used, but wrongly."
+  },
+  {
+    "id": "prefixes_mit_001",
+    "type": "select_prefix",
+    "prefix_id": "mit",
+    "group": "trennbar",
+    "root": "kommen",
+    "reflexive": false,
+    "target_en": "to come along",
+    "answer_verb": "mitkommen",
+    "options": [
+      "mit-",
+      "nach-",
+      "um-",
+      "aus-"
+    ],
+    "correct": "mit-",
+    "feedback": "mit- — Together with, joining in — participation. Coming as part of the group. Kommst du mit? — the object is understood."
+  },
+  {
+    "id": "prefixes_mit_002",
+    "type": "select_prefix",
+    "prefix_id": "mit",
+    "group": "trennbar",
+    "root": "machen",
+    "reflexive": false,
+    "target_en": "to join in, take part",
+    "answer_verb": "mitmachen",
+    "options": [
+      "ein-",
+      "miss-",
+      "mit-",
+      "zer-"
+    ],
+    "correct": "mit-",
+    "feedback": "mit- — Together with, joining in — participation. Doing the thing alongside everyone else rather than watching."
+  },
+  {
+    "id": "prefixes_mit_003",
+    "type": "select_prefix",
+    "prefix_id": "mit",
+    "group": "trennbar",
+    "root": "nehmen",
+    "reflexive": false,
+    "target_en": "to take along",
+    "answer_verb": "mitnehmen",
+    "options": [
+      "zu-",
+      "um-",
+      "mit-",
+      "durch-"
+    ],
+    "correct": "mit-",
+    "feedback": "mit- — Together with, joining in — participation. Taking a thing or person with you when you go. Also: zum Mitnehmen = takeaway."
+  },
+  {
+    "id": "prefixes_mit_004",
+    "type": "select_prefix",
+    "prefix_id": "mit",
+    "group": "trennbar",
+    "root": "bringen",
+    "reflexive": false,
+    "target_en": "to bring along",
+    "answer_verb": "mitbringen",
+    "options": [
+      "um-",
+      "mit-",
+      "entgegen-",
+      "ver-"
+    ],
+    "correct": "mit-",
+    "feedback": "mit- — Together with, joining in — participation. Bringing something with you to where you're going — wine, a friend, bad news."
+  },
+  {
+    "id": "prefixes_mit_005",
+    "type": "select_prefix",
+    "prefix_id": "mit",
+    "group": "trennbar",
+    "root": "teilen",
+    "reflexive": false,
+    "target_en": "to inform, communicate",
+    "answer_verb": "mitteilen",
+    "options": [
+      "auf-",
+      "zurück-",
+      "her-",
+      "mit-"
+    ],
+    "correct": "mit-",
+    "feedback": "mit- — Together with, joining in — participation. Teilen is to share. Sharing information with someone. Takes the dative."
+  },
+  {
+    "id": "prefixes_mit_006",
+    "type": "select_prefix",
+    "prefix_id": "mit",
+    "group": "trennbar",
+    "root": "fahren",
+    "reflexive": false,
+    "target_en": "to ride along",
+    "answer_verb": "mitfahren",
+    "options": [
+      "nieder-",
+      "mit-",
+      "ab-",
+      "nach-"
+    ],
+    "correct": "mit-",
+    "feedback": "mit- — Together with, joining in — participation. Travelling in someone else's vehicle. Source of Mitfahrgelegenheit — a lift."
+  },
+  {
+    "id": "prefixes_mit_007",
+    "type": "select_feeling",
+    "prefix_id": "mit",
+    "group": "trennbar",
+    "verb": "mitspielen",
+    "verb_en": "to play along, join the game",
+    "options": [
+      "Away from the speaker, toward a target — 'that way'",
+      "A sound-variant of ent- — receiving, sensing, rising toward",
+      "Down, downward, laid low",
+      "Together with, joining in — participation"
+    ],
+    "correct": "Together with, joining in — participation",
+    "feedback": "mit- — Together with, joining in — participation. Being included in the game — or, figuratively, going along with a plan."
+  },
+  {
+    "id": "prefixes_mit_008",
+    "type": "select_feeling",
+    "prefix_id": "mit",
+    "group": "trennbar",
+    "verb": "mitarbeiten",
+    "verb_en": "to collaborate, work with",
+    "options": [
+      "Away — and, by extension, onward",
+      "A sound-variant of ent- — receiving, sensing, rising toward",
+      "Together with, joining in — participation",
+      "Against — resistance and reflection"
+    ],
+    "correct": "Together with, joining in — participation",
+    "feedback": "mit- — Together with, joining in — participation. Working as part of a shared effort. Mitarbeiter = colleague, co-worker."
+  },
+  {
+    "id": "prefixes_mit_009",
+    "type": "select_feeling",
+    "prefix_id": "mit",
+    "group": "trennbar",
+    "verb": "mitdenken",
+    "verb_en": "to think along, use initiative",
+    "options": [
+      "Out, out of, and out to the very end",
+      "Wrong, failed, badly done",
+      "Together with, joining in — participation",
+      "A sound-variant of ent- — receiving, sensing, rising toward"
+    ],
+    "correct": "Together with, joining in — participation",
+    "feedback": "mit- — Together with, joining in — participation. Praise in German workplaces: thinking with the team rather than just following orders."
+  },
+  {
+    "id": "prefixes_mit_010",
+    "type": "select_feeling",
+    "prefix_id": "mit",
+    "group": "trennbar",
+    "verb": "mitsingen",
+    "verb_en": "to sing along",
+    "options": [
+      "Together with, joining in — participation",
+      "Off, away, down — detachment from a starting point",
+      "Carry the action through to its result",
+      "Away — and, by extension, onward"
+    ],
+    "correct": "Together with, joining in — participation",
+    "feedback": "mit- — Together with, joining in — participation. Joining your voice to the others. The most literal 'together' there is."
+  },
+  {
+    "id": "prefixes_nach_001",
+    "type": "select_prefix",
+    "prefix_id": "nach",
+    "group": "trennbar",
+    "root": "denken",
+    "reflexive": false,
+    "target_en": "to reflect, ponder",
+    "answer_verb": "nachdenken",
+    "options": [
+      "nach-",
+      "zusammen-",
+      "vor-",
+      "ein-"
+    ],
+    "correct": "nach-",
+    "feedback": "nach- — After, behind, in pursuit — and doing it again to check. Thinking that comes after the event — going back over it in your head. Takes über."
+  },
+  {
+    "id": "prefixes_nach_002",
+    "type": "select_prefix",
+    "prefix_id": "nach",
+    "group": "trennbar",
+    "root": "schauen",
+    "reflexive": false,
+    "target_en": "to check, look up",
+    "answer_verb": "nachschauen",
+    "options": [
+      "nach-",
+      "auf-",
+      "er-",
+      "ent-"
+    ],
+    "correct": "nach-",
+    "feedback": "nach- — After, behind, in pursuit — and doing it again to check. Looking again, after the fact, to make sure. Everyday verifying sense."
+  },
+  {
+    "id": "prefixes_nach_003",
+    "type": "select_prefix",
+    "prefix_id": "nach",
+    "group": "trennbar",
+    "root": "schlagen",
+    "reflexive": false,
+    "target_en": "to look up in a book",
+    "answer_verb": "nachschlagen",
+    "options": [
+      "ent-",
+      "fort-",
+      "nach-",
+      "durch-"
+    ],
+    "correct": "nach-",
+    "feedback": "nach- — After, behind, in pursuit — and doing it again to check. Literally striking the pages open after the question arose. Dictionary verb."
+  },
+  {
+    "id": "prefixes_nach_004",
+    "type": "select_prefix",
+    "prefix_id": "nach",
+    "group": "trennbar",
+    "root": "fragen",
+    "reflexive": false,
+    "target_en": "to enquire further",
+    "answer_verb": "nachfragen",
+    "options": [
+      "nach-",
+      "entgegen-",
+      "be-",
+      "ein-"
+    ],
+    "correct": "nach-",
+    "feedback": "nach- — After, behind, in pursuit — and doing it again to check. Asking a follow-up — a question that comes after the first answer."
+  },
+  {
+    "id": "prefixes_nach_005",
+    "type": "select_prefix",
+    "prefix_id": "nach",
+    "group": "trennbar",
+    "root": "machen",
+    "reflexive": false,
+    "target_en": "to imitate, copy",
+    "answer_verb": "nachmachen",
+    "options": [
+      "auf-",
+      "ab-",
+      "durch-",
+      "nach-"
+    ],
+    "correct": "nach-",
+    "feedback": "nach- — After, behind, in pursuit — and doing it again to check. Doing what someone did, afterwards. Following their model step for step."
+  },
+  {
+    "id": "prefixes_nach_006",
+    "type": "select_prefix",
+    "prefix_id": "nach",
+    "group": "trennbar",
+    "root": "ahmen",
+    "reflexive": false,
+    "target_en": "to imitate, mimic",
+    "answer_verb": "nachahmen",
+    "options": [
+      "ein-",
+      "nach-",
+      "unter-",
+      "zer-"
+    ],
+    "correct": "nach-",
+    "feedback": "nach- — After, behind, in pursuit — and doing it again to check. The more formal cousin. Same idea: your action trails theirs."
+  },
+  {
+    "id": "prefixes_nach_007",
+    "type": "select_feeling",
+    "prefix_id": "nach",
+    "group": "trennbar",
+    "verb": "nachlaufen",
+    "verb_en": "to run after, chase",
+    "options": [
+      "Released, broken free — and therefore off we go",
+      "After, behind, in pursuit — and doing it again to check",
+      "Down, downward, laid low",
+      "In front, in advance, presented forward"
+    ],
+    "correct": "After, behind, in pursuit — and doing it again to check",
+    "feedback": "nach- — After, behind, in pursuit — and doing it again to check. The literal core. Also figurative: chasing after someone's approval. Dative."
+  },
+  {
+    "id": "prefixes_nach_008",
+    "type": "select_feeling",
+    "prefix_id": "nach",
+    "group": "trennbar",
+    "verb": "nachgeben",
+    "verb_en": "to give in, yield",
+    "options": [
+      "After, behind, in pursuit — and doing it again to check",
+      "Released, broken free — and therefore off we go",
+      "Together — joining, or collapsing into one",
+      "Away from, off, out of — separation and release"
+    ],
+    "correct": "After, behind, in pursuit — and doing it again to check",
+    "feedback": "nach- — After, behind, in pursuit — and doing it again to check. Giving ground and moving into the position behind. Conceding the lead."
+  },
+  {
+    "id": "prefixes_nach_009",
+    "type": "select_feeling",
+    "prefix_id": "nach",
+    "group": "trennbar",
+    "verb": "nachlassen",
+    "verb_en": "to ease off, diminish",
+    "options": [
+      "Four feelings: away, wrong, transformed, used up",
+      "Onward, further, keep going",
+      "After, behind, in pursuit — and doing it again to check",
+      "Together — joining, or collapsing into one"
+    ],
+    "correct": "After, behind, in pursuit — and doing it again to check",
+    "feedback": "nach- — After, behind, in pursuit — and doing it again to check. The pain or the storm lets up — it falls behind its previous intensity."
+  },
+  {
+    "id": "prefixes_nach_010",
+    "type": "select_feeling",
+    "prefix_id": "nach",
+    "group": "trennbar",
+    "verb": "nachholen",
+    "verb_en": "to catch up on, make up for",
+    "options": [
+      "After, behind, in pursuit — and doing it again to check",
+      "Away, gone — removal in everyday speech",
+      "Around — encircling, turning, and therefore changing",
+      "A sound-variant of ent- — receiving, sensing, rising toward"
+    ],
+    "correct": "After, behind, in pursuit — and doing it again to check",
+    "feedback": "nach- — After, behind, in pursuit — and doing it again to check. Fetching what you missed and bringing it into the present. Sleep, work, a birthday."
+  },
+  {
+    "id": "prefixes_nieder_001",
+    "type": "select_prefix",
+    "prefix_id": "nieder",
+    "group": "trennbar",
+    "root": "legen",
+    "reflexive": false,
+    "target_en": "to lay down, resign",
+    "answer_verb": "niederlegen",
+    "options": [
+      "weg-",
+      "nieder-",
+      "mit-",
+      "emp-"
+    ],
+    "correct": "nieder-",
+    "feedback": "nieder- — Down, downward, laid low. Laying something down formally — flowers, weapons, or an office you hold."
+  },
+  {
+    "id": "prefixes_nieder_002",
+    "type": "select_prefix",
+    "prefix_id": "nieder",
+    "group": "trennbar",
+    "root": "schlagen",
+    "reflexive": false,
+    "target_en": "to knock down, suppress",
+    "answer_verb": "niederschlagen",
+    "options": [
+      "durch-",
+      "er-",
+      "an-",
+      "nieder-"
+    ],
+    "correct": "nieder-",
+    "feedback": "nieder- — Down, downward, laid low. Striking downward. Used of people and of uprisings alike."
+  },
+  {
+    "id": "prefixes_nieder_003",
+    "type": "select_prefix",
+    "prefix_id": "nieder",
+    "group": "trennbar",
+    "root": "schreiben",
+    "reflexive": false,
+    "target_en": "to set down in writing",
+    "answer_verb": "niederschreiben",
+    "options": [
+      "nieder-",
+      "mit-",
+      "vor-",
+      "über-"
+    ],
+    "correct": "nieder-",
+    "feedback": "nieder- — Down, downward, laid low. Writing down, in the formal register. Records and testimony rather than shopping lists."
+  },
+  {
+    "id": "prefixes_nieder_004",
+    "type": "select_prefix",
+    "prefix_id": "nieder",
+    "group": "trennbar",
+    "root": "brennen",
+    "reflexive": false,
+    "target_en": "to burn to the ground",
+    "answer_verb": "niederbrennen",
+    "options": [
+      "ein-",
+      "hin-",
+      "nach-",
+      "nieder-"
+    ],
+    "correct": "nieder-",
+    "feedback": "nieder- — Down, downward, laid low. Burning until the structure is down. The endpoint is total."
+  },
+  {
+    "id": "prefixes_nieder_005",
+    "type": "select_prefix",
+    "prefix_id": "nieder",
+    "group": "trennbar",
+    "root": "knien",
+    "reflexive": false,
+    "target_en": "to kneel down",
+    "answer_verb": "niederknien",
+    "options": [
+      "hinter-",
+      "zusammen-",
+      "nach-",
+      "nieder-"
+    ],
+    "correct": "nieder-",
+    "feedback": "nieder- — Down, downward, laid low. Lowering yourself onto your knees. Ceremonial and physical at once."
+  },
+  {
+    "id": "prefixes_nieder_006",
+    "type": "select_prefix",
+    "prefix_id": "nieder",
+    "group": "trennbar",
+    "root": "reißen",
+    "reflexive": false,
+    "target_en": "to tear down, demolish",
+    "answer_verb": "niederreißen",
+    "options": [
+      "nieder-",
+      "über-",
+      "her-",
+      "zer-"
+    ],
+    "correct": "nieder-",
+    "feedback": "nieder- — Down, downward, laid low. Pulling a structure down. Buildings, walls, and by extension conventions."
+  },
+  {
+    "id": "prefixes_nieder_007",
+    "type": "select_feeling",
+    "prefix_id": "nieder",
+    "group": "trennbar",
+    "verb": "sich niederlassen",
+    "verb_en": "to settle down, set up",
+    "options": [
+      "Into, inward — entering and settling",
+      "Away from the speaker, toward a target — 'that way'",
+      "Down, downward, laid low",
+      "Wrong, failed, badly done"
+    ],
+    "correct": "Down, downward, laid low",
+    "feedback": "nieder- — Down, downward, laid low. Letting yourself down into a place and staying — a town, or a medical practice."
+  },
+  {
+    "id": "prefixes_nieder_008",
+    "type": "select_feeling",
+    "prefix_id": "nieder",
+    "group": "trennbar",
+    "verb": "niedersinken",
+    "verb_en": "to sink down",
+    "options": [
+      "Through — physically across, or thoroughly to the end",
+      "Back — return and reversal",
+      "Down, downward, laid low",
+      "Under — beneath, supporting from below, or cutting off"
+    ],
+    "correct": "Down, downward, laid low",
+    "feedback": "nieder- — Down, downward, laid low. Slow, heavy descent. Literary: a body, a mist, a mood."
+  },
+  {
+    "id": "prefixes_nieder_009",
+    "type": "select_feeling",
+    "prefix_id": "nieder",
+    "group": "trennbar",
+    "verb": "niederdrücken",
+    "verb_en": "to press down, depress",
+    "options": [
+      "Toward and touching — contact, attachment, switching on",
+      "Down, downward, laid low",
+      "Through — physically across, or thoroughly to the end",
+      "Gathered, brought to a whole — mostly fossilised"
+    ],
+    "correct": "Down, downward, laid low",
+    "feedback": "nieder- — Down, downward, laid low. Pressure applied downward — a lever, or a person's spirits."
+  },
+  {
+    "id": "prefixes_nieder_010",
+    "type": "select_feeling",
+    "prefix_id": "nieder",
+    "group": "trennbar",
+    "verb": "niedersetzen",
+    "verb_en": "to set down, sit down",
+    "options": [
+      "Down, downward, laid low",
+      "Away — and, by extension, onward",
+      "Together with, joining in — participation",
+      "Again, back — repetition and restoration"
+    ],
+    "correct": "Down, downward, laid low",
+    "feedback": "nieder- — Down, downward, laid low. The formal version of hinsetzen. Placing down with deliberateness."
+  },
+  {
+    "id": "prefixes_um_001",
+    "type": "select_prefix",
+    "prefix_id": "um",
+    "group": "beide",
+    "root": "ziehen",
+    "reflexive": false,
+    "target_en": "to move house; to change clothes",
+    "answer_verb": "umziehen",
+    "options": [
+      "um-",
+      "weg-",
+      "er-",
+      "zurück-"
+    ],
+    "correct": "um-",
+    "feedback": "um- — Around — encircling, turning, and therefore changing. Separable. Both are turning yourself into a different arrangement — new flat, new outfit."
+  },
+  {
+    "id": "prefixes_um_002",
+    "type": "select_prefix",
+    "prefix_id": "um",
+    "group": "beide",
+    "root": "steigen",
+    "reflexive": false,
+    "target_en": "to change trains",
+    "answer_verb": "umsteigen",
+    "options": [
+      "durch-",
+      "um-",
+      "über-",
+      "emp-"
+    ],
+    "correct": "um-",
+    "feedback": "um- — Around — encircling, turning, and therefore changing. Separable. Climbing out and into a different one. Turning your journey around."
+  },
+  {
+    "id": "prefixes_um_003",
+    "type": "select_prefix",
+    "prefix_id": "um",
+    "group": "beide",
+    "root": "drehen",
+    "reflexive": false,
+    "target_en": "to turn around",
+    "answer_verb": "umdrehen",
+    "options": [
+      "nieder-",
+      "um-",
+      "zu-",
+      "ein-"
+    ],
+    "correct": "um-",
+    "feedback": "um- — Around — encircling, turning, and therefore changing. Separable, and the literal source of the whole 'change' branch."
+  },
+  {
+    "id": "prefixes_um_004",
+    "type": "select_prefix",
+    "prefix_id": "um",
+    "group": "beide",
+    "root": "tauschen",
+    "reflexive": false,
+    "target_en": "to exchange, swap",
+    "answer_verb": "umtauschen",
+    "options": [
+      "bei-",
+      "zurück-",
+      "entgegen-",
+      "um-"
+    ],
+    "correct": "um-",
+    "feedback": "um- — Around — encircling, turning, and therefore changing. Separable. Turning one item around into another. What you do with a bad gift."
+  },
+  {
+    "id": "prefixes_um_005",
+    "type": "select_prefix",
+    "prefix_id": "um",
+    "group": "beide",
+    "root": "bauen",
+    "reflexive": false,
+    "target_en": "to rebuild, convert",
+    "answer_verb": "umbauen",
+    "options": [
+      "ab-",
+      "wider-",
+      "um-",
+      "zer-"
+    ],
+    "correct": "um-",
+    "feedback": "um- — Around — encircling, turning, and therefore changing. Separable. Building the thing into a different shape. Also Umbau — renovation."
+  },
+  {
+    "id": "prefixes_um_006",
+    "type": "select_prefix",
+    "prefix_id": "um",
+    "group": "beide",
+    "root": "kehren",
+    "reflexive": false,
+    "target_en": "to turn back, reverse",
+    "answer_verb": "umkehren",
+    "options": [
+      "zurück-",
+      "um-",
+      "hin-",
+      "ein-"
+    ],
+    "correct": "um-",
+    "feedback": "um- — Around — encircling, turning, and therefore changing. Separable. Turning fully around and retracing. Physical or moral."
+  },
+  {
+    "id": "prefixes_um_007",
+    "type": "select_feeling",
+    "prefix_id": "um",
+    "group": "beide",
+    "verb": "umbringen",
+    "verb_en": "to kill",
+    "options": [
+      "Alongside, added to, present with",
+      "Together with, joining in — participation",
+      "Around — encircling, turning, and therefore changing",
+      "Out, out of, and out to the very end"
+    ],
+    "correct": "Around — encircling, turning, and therefore changing",
+    "feedback": "um- — Around — encircling, turning, and therefore changing. Separable. Bleak logic: bringing someone around, out of life. Learn as a fixed item."
+  },
+  {
+    "id": "prefixes_um_008",
+    "type": "select_feeling",
+    "prefix_id": "um",
+    "group": "beide",
+    "verb": "umgeben",
+    "verb_en": "to surround",
+    "options": [
+      "Shut — and, oppositely, toward someone",
+      "Under — beneath, supporting from below, or cutting off",
+      "Around — encircling, turning, and therefore changing",
+      "In front, in advance, presented forward"
+    ],
+    "correct": "Around — encircling, turning, and therefore changing",
+    "feedback": "um- — Around — encircling, turning, and therefore changing. Inseparable. Placed all around something. Umgebung = surroundings, area."
+  },
+  {
+    "id": "prefixes_um_009",
+    "type": "select_feeling",
+    "prefix_id": "um",
+    "group": "beide",
+    "verb": "umfahren",
+    "verb_en": "to drive around / to run over",
+    "options": [
+      "Onward, further, keep going",
+      "Gathered, brought to a whole — mostly fossilised",
+      "Through — physically across, or thoroughly to the end",
+      "Around — encircling, turning, and therefore changing"
+    ],
+    "correct": "Around — encircling, turning, and therefore changing",
+    "feedback": "um- — Around — encircling, turning, and therefore changing. The famous trap. Inseparable umfáhren = drive around it. Separable úmfahren = flatten it."
+  },
+  {
+    "id": "prefixes_um_010",
+    "type": "select_feeling",
+    "prefix_id": "um",
+    "group": "beide",
+    "verb": "umziehen",
+    "verb_en": "to move house; to change clothes",
+    "options": [
+      "Over — across, above, beyond the limit, or missed entirely",
+      "Toward and facing — meeting, or opposing",
+      "Behind — left behind, or done behind someone's back",
+      "Around — encircling, turning, and therefore changing"
+    ],
+    "correct": "Around — encircling, turning, and therefore changing",
+    "feedback": "um- — Around — encircling, turning, and therefore changing. Separable. Both are turning yourself into a different arrangement — new flat, new outfit."
+  },
+  {
+    "id": "prefixes_unter_001",
+    "type": "select_prefix",
+    "prefix_id": "unter",
+    "group": "beide",
+    "root": "schreiben",
+    "reflexive": false,
+    "target_en": "to sign",
+    "answer_verb": "unterschreiben",
+    "options": [
+      "nieder-",
+      "an-",
+      "ver-",
+      "unter-"
+    ],
+    "correct": "unter-",
+    "feedback": "unter- — Under — beneath, supporting from below, or cutting off. Inseparable. Writing underneath the text — literally what a signature is."
+  },
+  {
+    "id": "prefixes_unter_002",
+    "type": "select_prefix",
+    "prefix_id": "unter",
+    "group": "beide",
+    "root": "brechen",
+    "reflexive": false,
+    "target_en": "to interrupt",
+    "answer_verb": "unterbrechen",
+    "options": [
+      "er-",
+      "unter-",
+      "durch-",
+      "nieder-"
+    ],
+    "correct": "unter-",
+    "feedback": "unter- — Under — beneath, supporting from below, or cutting off. Breaking into a flow from below and cutting it. Conversations, power supplies, journeys."
+  },
+  {
+    "id": "prefixes_unter_003",
+    "type": "select_prefix",
+    "prefix_id": "unter",
+    "group": "beide",
+    "root": "suchen",
+    "reflexive": false,
+    "target_en": "to investigate, examine",
+    "answer_verb": "untersuchen",
+    "options": [
+      "miss-",
+      "unter-",
+      "um-",
+      "ab-"
+    ],
+    "correct": "unter-",
+    "feedback": "unter- — Under — beneath, supporting from below, or cutting off. Searching beneath the surface for what isn't visible. Medical and criminal alike."
+  },
+  {
+    "id": "prefixes_unter_004",
+    "type": "select_prefix",
+    "prefix_id": "unter",
+    "group": "beide",
+    "root": "stützen",
+    "reflexive": false,
+    "target_en": "to support",
+    "answer_verb": "unterstützen",
+    "options": [
+      "hin-",
+      "unter-",
+      "nach-",
+      "durch-"
+    ],
+    "correct": "unter-",
+    "feedback": "unter- — Under — beneath, supporting from below, or cutting off. Stützen is to prop. Holding something up from underneath so it doesn't fall."
+  },
+  {
+    "id": "prefixes_unter_005",
+    "type": "select_prefix",
+    "prefix_id": "unter",
+    "group": "beide",
+    "root": "halten",
+    "reflexive": false,
+    "target_en": "to entertain; to maintain",
+    "answer_verb": "unterhalten",
+    "options": [
+      "wider-",
+      "über-",
+      "hinter-",
+      "unter-"
+    ],
+    "correct": "unter-",
+    "feedback": "unter- — Under — beneath, supporting from below, or cutting off. Holding up from below — a conversation, a guest's mood, or a household."
+  },
+  {
+    "id": "prefixes_unter_006",
+    "type": "select_prefix",
+    "prefix_id": "unter",
+    "group": "beide",
+    "root": "drücken",
+    "reflexive": false,
+    "target_en": "to suppress, oppress",
+    "answer_verb": "unterdrücken",
+    "options": [
+      "unter-",
+      "ein-",
+      "be-",
+      "emp-"
+    ],
+    "correct": "unter-",
+    "feedback": "unter- — Under — beneath, supporting from below, or cutting off. Pressing down so it stays under. People, feelings, and revolts."
+  },
+  {
+    "id": "prefixes_unter_007",
+    "type": "select_feeling",
+    "prefix_id": "unter",
+    "group": "beide",
+    "verb": "unterscheiden",
+    "verb_en": "to distinguish",
+    "options": [
+      "Under — beneath, supporting from below, or cutting off",
+      "Four feelings: away, wrong, transformed, used up",
+      "Away — and, by extension, onward",
+      "Into, inward — entering and settling"
+    ],
+    "correct": "Under — beneath, supporting from below, or cutting off",
+    "feedback": "unter- — Under — beneath, supporting from below, or cutting off. Separating things by getting underneath what makes them different."
+  },
+  {
+    "id": "prefixes_unter_008",
+    "type": "select_feeling",
+    "prefix_id": "unter",
+    "group": "beide",
+    "verb": "unternehmen",
+    "verb_en": "to undertake",
+    "options": [
+      "Away from, off, out of — separation and release",
+      "Under — beneath, supporting from below, or cutting off",
+      "Into, inward — entering and settling",
+      "A sound-variant of ent- — receiving, sensing, rising toward"
+    ],
+    "correct": "Under — beneath, supporting from below, or cutting off",
+    "feedback": "unter- — Under — beneath, supporting from below, or cutting off. Taking a thing on and under your own responsibility. Unternehmen = enterprise."
+  },
+  {
+    "id": "prefixes_unter_009",
+    "type": "select_feeling",
+    "prefix_id": "unter",
+    "group": "beide",
+    "verb": "unterlassen",
+    "verb_en": "to refrain from, omit",
+    "options": [
+      "Under — beneath, supporting from below, or cutting off",
+      "Away from, off, out of — separation and release",
+      "Four feelings: away, wrong, transformed, used up",
+      "Together with, joining in — participation"
+    ],
+    "correct": "Under — beneath, supporting from below, or cutting off",
+    "feedback": "unter- — Under — beneath, supporting from below, or cutting off. Letting the action stay under — never letting it surface. Legal register."
+  },
+  {
+    "id": "prefixes_unter_010",
+    "type": "select_feeling",
+    "prefix_id": "unter",
+    "group": "beide",
+    "verb": "untergehen",
+    "verb_en": "to sink, to set",
+    "options": [
+      "Shut — and, oppositely, toward someone",
+      "Under — beneath, supporting from below, or cutting off",
+      "Carry the action through to its result",
+      "Wrong, failed, badly done"
+    ],
+    "correct": "Under — beneath, supporting from below, or cutting off",
+    "feedback": "unter- — Under — beneath, supporting from below, or cutting off. Separable. The sun and the ship do the same thing: go under. Also: a culture collapsing."
+  },
+  {
+    "id": "prefixes_ver_001",
+    "type": "select_prefix",
+    "prefix_id": "ver",
+    "group": "untrennbar",
+    "root": "kaufen",
+    "reflexive": false,
+    "target_en": "to sell",
+    "answer_verb": "verkaufen",
+    "options": [
+      "ver-",
+      "ent-",
+      "los-",
+      "nach-"
+    ],
+    "correct": "ver-",
+    "feedback": "ver- — Four feelings: away, wrong, transformed, used up. Branch 1, away: buying with the direction reversed — the goods leave your hands."
+  },
+  {
+    "id": "prefixes_ver_002",
+    "type": "select_prefix",
+    "prefix_id": "ver",
+    "group": "untrennbar",
+    "root": "schwinden",
+    "reflexive": false,
+    "target_en": "to disappear",
+    "answer_verb": "verschwinden",
+    "options": [
+      "ver-",
+      "weg-",
+      "durch-",
+      "ein-"
+    ],
+    "correct": "ver-",
+    "feedback": "ver- — Four feelings: away, wrong, transformed, used up. Schwinden is to dwindle. ver- takes the dwindling all the way to gone."
+  },
+  {
+    "id": "prefixes_ver_003",
+    "type": "select_prefix",
+    "prefix_id": "ver",
+    "group": "untrennbar",
+    "root": "laufen",
+    "reflexive": true,
+    "target_en": "to get lost",
+    "answer_verb": "sich verlaufen",
+    "options": [
+      "an-",
+      "ge-",
+      "ver-",
+      "fort-"
+    ],
+    "correct": "ver-",
+    "feedback": "ver- — Four feelings: away, wrong, transformed, used up. Branch 2, wrong: your walking went astray. Reflexive marks the error as yours."
+  },
+  {
+    "id": "prefixes_ver_004",
+    "type": "select_prefix",
+    "prefix_id": "ver",
+    "group": "untrennbar",
+    "root": "sprechen",
+    "reflexive": true,
+    "target_en": "to misspeak",
+    "answer_verb": "sich versprechen",
+    "options": [
+      "über-",
+      "hinter-",
+      "an-",
+      "ver-"
+    ],
+    "correct": "ver-",
+    "feedback": "ver- — Four feelings: away, wrong, transformed, used up. Same reflexive logic. Note the non-reflexive versprechen = to promise: words given away."
+  },
+  {
+    "id": "prefixes_ver_005",
+    "type": "select_prefix",
+    "prefix_id": "ver",
+    "group": "untrennbar",
+    "root": "bessern",
+    "reflexive": false,
+    "target_en": "to improve",
+    "answer_verb": "verbessern",
+    "options": [
+      "her-",
+      "durch-",
+      "ver-",
+      "fort-"
+    ],
+    "correct": "ver-",
+    "feedback": "ver- — Four feelings: away, wrong, transformed, used up. Branch 3, transformation: ver- moves the thing into a better state."
+  },
+  {
+    "id": "prefixes_ver_006",
+    "type": "select_prefix",
+    "prefix_id": "ver",
+    "group": "untrennbar",
+    "root": "lieben",
+    "reflexive": true,
+    "target_en": "to fall in love",
+    "answer_verb": "sich verlieben",
+    "options": [
+      "er-",
+      "entgegen-",
+      "zusammen-",
+      "ver-"
+    ],
+    "correct": "ver-",
+    "feedback": "ver- — Four feelings: away, wrong, transformed, used up. Transformation of a person: you don't do loving, you become someone in love."
+  },
+  {
+    "id": "prefixes_ver_007",
+    "type": "select_feeling",
+    "prefix_id": "ver",
+    "group": "untrennbar",
+    "verb": "verbrauchen",
+    "verb_en": "to use up, consume",
+    "options": [
+      "Four feelings: away, wrong, transformed, used up",
+      "Again, back — repetition and restoration",
+      "Out, out of, and out to the very end",
+      "Toward and facing — meeting, or opposing"
+    ],
+    "correct": "Four feelings: away, wrong, transformed, used up",
+    "feedback": "ver- — Four feelings: away, wrong, transformed, used up. Branch 4: needing carried until nothing is left. The fuel is gone."
+  },
+  {
+    "id": "prefixes_ver_008",
+    "type": "select_feeling",
+    "prefix_id": "ver",
+    "group": "untrennbar",
+    "verb": "verschlafen",
+    "verb_en": "to oversleep",
+    "options": [
+      "A sound-variant of ent- — receiving, sensing, rising toward",
+      "Four feelings: away, wrong, transformed, used up",
+      "Away, gone — removal in everyday speech",
+      "Into, inward — entering and settling"
+    ],
+    "correct": "Four feelings: away, wrong, transformed, used up",
+    "feedback": "ver- — Four feelings: away, wrong, transformed, used up. Sleeping that consumes the time it should have fit inside. You slept the morning away."
+  },
+  {
+    "id": "prefixes_ver_009",
+    "type": "select_feeling",
+    "prefix_id": "ver",
+    "group": "untrennbar",
+    "verb": "vergessen",
+    "verb_en": "to forget",
+    "options": [
+      "A sound-variant of ent- — receiving, sensing, rising toward",
+      "Released, broken free — and therefore off we go",
+      "Four feelings: away, wrong, transformed, used up",
+      "In front, in advance, presented forward"
+    ],
+    "correct": "Four feelings: away, wrong, transformed, used up",
+    "feedback": "ver- — Four feelings: away, wrong, transformed, used up. The old root means 'to grasp'. ver- takes the grasp away — the memory slips out of hold."
+  },
+  {
+    "id": "prefixes_ver_010",
+    "type": "select_feeling",
+    "prefix_id": "ver",
+    "group": "untrennbar",
+    "verb": "verbieten",
+    "verb_en": "to forbid",
+    "options": [
+      "Four feelings: away, wrong, transformed, used up",
+      "Behind — left behind, or done behind someone's back",
+      "Away from the speaker, toward a target — 'that way'",
+      "Away — and, by extension, onward"
+    ],
+    "correct": "Four feelings: away, wrong, transformed, used up",
+    "feedback": "ver- — Four feelings: away, wrong, transformed, used up. Bieten is to offer. ver- turns the offer against itself: the thing is offered away from you."
+  },
+  {
+    "id": "prefixes_vor_001",
+    "type": "select_prefix",
+    "prefix_id": "vor",
+    "group": "trennbar",
+    "root": "stellen",
+    "reflexive": false,
+    "target_en": "to introduce; to imagine",
+    "answer_verb": "vorstellen",
+    "options": [
+      "vor-",
+      "wieder-",
+      "fort-",
+      "weiter-"
+    ],
+    "correct": "vor-",
+    "feedback": "vor- — In front, in advance, presented forward. Placing a person before others — or, reflexively, placing an image before your own mind."
+  },
+  {
+    "id": "prefixes_vor_002",
+    "type": "select_prefix",
+    "prefix_id": "vor",
+    "group": "trennbar",
+    "root": "bereiten",
+    "reflexive": false,
+    "target_en": "to prepare",
+    "answer_verb": "vorbereiten",
+    "options": [
+      "aus-",
+      "wieder-",
+      "an-",
+      "vor-"
+    ],
+    "correct": "vor-",
+    "feedback": "vor- — In front, in advance, presented forward. Making ready ahead of time. The time branch in its plainest form."
+  },
+  {
+    "id": "prefixes_vor_003",
+    "type": "select_prefix",
+    "prefix_id": "vor",
+    "group": "trennbar",
+    "root": "schlagen",
+    "reflexive": false,
+    "target_en": "to suggest, propose",
+    "answer_verb": "vorschlagen",
+    "options": [
+      "vor-",
+      "emp-",
+      "ver-",
+      "zu-"
+    ],
+    "correct": "vor-",
+    "feedback": "vor- — In front, in advance, presented forward. Striking an idea forward into the room so the others can see it."
+  },
+  {
+    "id": "prefixes_vor_004",
+    "type": "select_prefix",
+    "prefix_id": "vor",
+    "group": "trennbar",
+    "root": "lesen",
+    "reflexive": false,
+    "target_en": "to read aloud to sb",
+    "answer_verb": "vorlesen",
+    "options": [
+      "ver-",
+      "aus-",
+      "vor-",
+      "er-"
+    ],
+    "correct": "vor-",
+    "feedback": "vor- — In front, in advance, presented forward. Reading out in front of a listener. What you do to a child at bedtime."
+  },
+  {
+    "id": "prefixes_vor_005",
+    "type": "select_prefix",
+    "prefix_id": "vor",
+    "group": "trennbar",
+    "root": "ziehen",
+    "reflexive": false,
+    "target_en": "to prefer; to pull forward",
+    "answer_verb": "vorziehen",
+    "options": [
+      "zusammen-",
+      "mit-",
+      "vor-",
+      "hinter-"
+    ],
+    "correct": "vor-",
+    "feedback": "vor- — In front, in advance, presented forward. Pulling one option to the front of the queue. Preference as physical ranking."
+  },
+  {
+    "id": "prefixes_vor_006",
+    "type": "select_prefix",
+    "prefix_id": "vor",
+    "group": "trennbar",
+    "root": "haben",
+    "reflexive": false,
+    "target_en": "to intend, plan",
+    "answer_verb": "vorhaben",
+    "options": [
+      "emp-",
+      "vor-",
+      "fort-",
+      "hinter-"
+    ],
+    "correct": "vor-",
+    "feedback": "vor- — In front, in advance, presented forward. Having something in front of you on the agenda. Was hast du vor?"
+  },
+  {
+    "id": "prefixes_vor_007",
+    "type": "select_feeling",
+    "prefix_id": "vor",
+    "group": "trennbar",
+    "verb": "vorwerfen",
+    "verb_en": "to reproach, accuse",
+    "options": [
+      "Away — and, by extension, onward",
+      "In front, in advance, presented forward",
+      "Toward and touching — contact, attachment, switching on",
+      "Alongside, added to, present with"
+    ],
+    "correct": "In front, in advance, presented forward",
+    "feedback": "vor- — In front, in advance, presented forward. Throwing the fault down in front of someone. Dative for the person accused."
+  },
+  {
+    "id": "prefixes_vor_008",
+    "type": "select_feeling",
+    "prefix_id": "vor",
+    "group": "trennbar",
+    "verb": "vorkommen",
+    "verb_en": "to occur; to seem",
+    "options": [
+      "Onward, further, keep going",
+      "Under — beneath, supporting from below, or cutting off",
+      "In front, in advance, presented forward",
+      "Behind — left behind, or done behind someone's back"
+    ],
+    "correct": "In front, in advance, presented forward",
+    "feedback": "vor- — In front, in advance, presented forward. Coming forward into view — an event happens, or something appears a certain way to you."
+  },
+  {
+    "id": "prefixes_vor_009",
+    "type": "select_feeling",
+    "prefix_id": "vor",
+    "group": "trennbar",
+    "verb": "vorsehen",
+    "verb_en": "to provide for, plan",
+    "options": [
+      "After, behind, in pursuit — and doing it again to check",
+      "In front, in advance, presented forward",
+      "Down, downward, laid low",
+      "Together — joining, or collapsing into one"
+    ],
+    "correct": "In front, in advance, presented forward",
+    "feedback": "vor- — In front, in advance, presented forward. Seeing ahead and making arrangements. Vorsicht — caution — is the same root."
+  },
+  {
+    "id": "prefixes_vor_010",
+    "type": "select_feeling",
+    "prefix_id": "vor",
+    "group": "trennbar",
+    "verb": "vorgehen",
+    "verb_en": "to proceed; to go on",
+    "options": [
+      "Away from, off, out of — separation and release",
+      "In front, in advance, presented forward",
+      "Away — and, by extension, onward",
+      "Together with, joining in — participation"
+    ],
+    "correct": "In front, in advance, presented forward",
+    "feedback": "vor- — In front, in advance, presented forward. Going ahead. Was geht hier vor? = what's going on here?"
+  },
+  {
+    "id": "prefixes_weg_001",
+    "type": "select_prefix",
+    "prefix_id": "weg",
+    "group": "trennbar",
+    "root": "gehen",
+    "reflexive": false,
+    "target_en": "to go away, leave",
+    "answer_verb": "weggehen",
+    "options": [
+      "hinter-",
+      "miss-",
+      "weg-",
+      "mit-"
+    ],
+    "correct": "weg-",
+    "feedback": "weg- — Away, gone — removal in everyday speech. Leaving the scene. No destination implied — that's the difference from hingehen."
+  },
+  {
+    "id": "prefixes_weg_002",
+    "type": "select_prefix",
+    "prefix_id": "weg",
+    "group": "trennbar",
+    "root": "nehmen",
+    "reflexive": false,
+    "target_en": "to take away",
+    "answer_verb": "wegnehmen",
+    "options": [
+      "weg-",
+      "hinter-",
+      "zu-",
+      "wider-"
+    ],
+    "correct": "weg-",
+    "feedback": "weg- — Away, gone — removal in everyday speech. Taking something so it's no longer there. Often with a note of unfairness."
+  },
+  {
+    "id": "prefixes_weg_003",
+    "type": "select_prefix",
+    "prefix_id": "weg",
+    "group": "trennbar",
+    "root": "werfen",
+    "reflexive": false,
+    "target_en": "to throw away",
+    "answer_verb": "wegwerfen",
+    "options": [
+      "weg-",
+      "mit-",
+      "her-",
+      "hinter-"
+    ],
+    "correct": "weg-",
+    "feedback": "weg- — Away, gone — removal in everyday speech. Throwing with disposal as the point. Wegwerfgesellschaft = throwaway society."
+  },
+  {
+    "id": "prefixes_weg_004",
+    "type": "select_prefix",
+    "prefix_id": "weg",
+    "group": "trennbar",
+    "root": "laufen",
+    "reflexive": false,
+    "target_en": "to run away",
+    "answer_verb": "weglaufen",
+    "options": [
+      "nieder-",
+      "emp-",
+      "weg-",
+      "weiter-"
+    ],
+    "correct": "weg-",
+    "feedback": "weg- — Away, gone — removal in everyday speech. Fleeing the scene. Blunter and more everyday than entlaufen."
+  },
+  {
+    "id": "prefixes_weg_005",
+    "type": "select_prefix",
+    "prefix_id": "weg",
+    "group": "trennbar",
+    "root": "fahren",
+    "reflexive": false,
+    "target_en": "to drive off, go away",
+    "answer_verb": "wegfahren",
+    "options": [
+      "wieder-",
+      "her-",
+      "ein-",
+      "weg-"
+    ],
+    "correct": "weg-",
+    "feedback": "weg- — Away, gone — removal in everyday speech. Departing by vehicle, or going away on a trip."
+  },
+  {
+    "id": "prefixes_weg_006",
+    "type": "select_prefix",
+    "prefix_id": "weg",
+    "group": "trennbar",
+    "root": "lassen",
+    "reflexive": false,
+    "target_en": "to leave out, omit",
+    "answer_verb": "weglassen",
+    "options": [
+      "emp-",
+      "weiter-",
+      "los-",
+      "weg-"
+    ],
+    "correct": "weg-",
+    "feedback": "weg- — Away, gone — removal in everyday speech. Letting a part be absent — the ingredient or the sentence isn't there."
+  },
+  {
+    "id": "prefixes_weg_007",
+    "type": "select_feeling",
+    "prefix_id": "weg",
+    "group": "trennbar",
+    "verb": "wegräumen",
+    "verb_en": "to clear away, put away",
+    "options": [
+      "Toward and touching — contact, attachment, switching on",
+      "Up, open, onto — rising and unsealing",
+      "Away, gone — removal in everyday speech",
+      "Together with, joining in — participation"
+    ],
+    "correct": "Away, gone — removal in everyday speech",
+    "feedback": "weg- — Away, gone — removal in everyday speech. Clearing things off the visible surface. What you do before guests arrive."
+  },
+  {
+    "id": "prefixes_weg_008",
+    "type": "select_feeling",
+    "prefix_id": "weg",
+    "group": "trennbar",
+    "verb": "wegschicken",
+    "verb_en": "to send away",
+    "options": [
+      "Into, inward — entering and settling",
+      "Away, gone — removal in everyday speech",
+      "Back — return and reversal",
+      "Released, broken free — and therefore off we go"
+    ],
+    "correct": "Away, gone — removal in everyday speech",
+    "feedback": "weg- — Away, gone — removal in everyday speech. Dispatching a person or thing out of your space. Often a rejection."
+  },
+  {
+    "id": "prefixes_weg_009",
+    "type": "select_feeling",
+    "prefix_id": "weg",
+    "group": "trennbar",
+    "verb": "wegbringen",
+    "verb_en": "to take away, remove",
+    "options": [
+      "Shut — and, oppositely, toward someone",
+      "Against — resistance and reflection",
+      "Into, inward — entering and settling",
+      "Away, gone — removal in everyday speech"
+    ],
+    "correct": "Away, gone — removal in everyday speech",
+    "feedback": "weg- — Away, gone — removal in everyday speech. Carrying something off — rubbish, a car to the garage, a child to school."
+  },
+  {
+    "id": "prefixes_weg_010",
+    "type": "select_feeling",
+    "prefix_id": "weg",
+    "group": "trennbar",
+    "verb": "wegsehen",
+    "verb_en": "to look away",
+    "options": [
+      "Up, open, onto — rising and unsealing",
+      "Away, gone — removal in everyday speech",
+      "Against — resistance and reflection",
+      "Carry the action through to its result"
+    ],
+    "correct": "Away, gone — removal in everyday speech",
+    "feedback": "weg- — Away, gone — removal in everyday speech. Turning your gaze away. Figurative too: ignoring what you should confront."
+  },
+  {
+    "id": "prefixes_weiter_001",
+    "type": "select_prefix",
+    "prefix_id": "weiter",
+    "group": "trennbar",
+    "root": "machen",
+    "reflexive": false,
+    "target_en": "to carry on, continue",
+    "answer_verb": "weitermachen",
+    "options": [
+      "mit-",
+      "an-",
+      "nach-",
+      "weiter-"
+    ],
+    "correct": "weiter-",
+    "feedback": "weiter- — Onward, further, keep going. The template case. Doing what you were doing, further along the line."
+  },
+  {
+    "id": "prefixes_weiter_002",
+    "type": "select_prefix",
+    "prefix_id": "weiter",
+    "group": "trennbar",
+    "root": "gehen",
+    "reflexive": false,
+    "target_en": "to go on, move along",
+    "answer_verb": "weitergehen",
+    "options": [
+      "weg-",
+      "weiter-",
+      "entgegen-",
+      "er-"
+    ],
+    "correct": "weiter-",
+    "feedback": "weiter- — Onward, further, keep going. Walking further — or a situation continuing. Es geht weiter = it continues."
+  },
+  {
+    "id": "prefixes_weiter_003",
+    "type": "select_prefix",
+    "prefix_id": "weiter",
+    "group": "trennbar",
+    "root": "fahren",
+    "reflexive": false,
+    "target_en": "to drive on, travel on",
+    "answer_verb": "weiterfahren",
+    "options": [
+      "wieder-",
+      "aus-",
+      "weiter-",
+      "um-"
+    ],
+    "correct": "weiter-",
+    "feedback": "weiter- — Onward, further, keep going. Resuming the journey after a stop."
+  },
+  {
+    "id": "prefixes_weiter_004",
+    "type": "select_prefix",
+    "prefix_id": "weiter",
+    "group": "trennbar",
+    "root": "leiten",
+    "reflexive": false,
+    "target_en": "to forward, pass on",
+    "answer_verb": "weiterleiten",
+    "options": [
+      "weiter-",
+      "weg-",
+      "zer-",
+      "nieder-"
+    ],
+    "correct": "weiter-",
+    "feedback": "weiter- — Onward, further, keep going. Directing something onward to the next recipient. The email verb."
+  },
+  {
+    "id": "prefixes_weiter_005",
+    "type": "select_prefix",
+    "prefix_id": "weiter",
+    "group": "trennbar",
+    "root": "erzählen",
+    "reflexive": false,
+    "target_en": "to pass a story on",
+    "answer_verb": "weitererzählen",
+    "options": [
+      "weiter-",
+      "zusammen-",
+      "ein-",
+      "zurück-"
+    ],
+    "correct": "weiter-",
+    "feedback": "weiter- — Onward, further, keep going. Telling it further along the chain. Often with a warning: nicht weitererzählen!"
+  },
+  {
+    "id": "prefixes_weiter_006",
+    "type": "select_prefix",
+    "prefix_id": "weiter",
+    "group": "trennbar",
+    "root": "entwickeln",
+    "reflexive": false,
+    "target_en": "to develop further",
+    "answer_verb": "weiterentwickeln",
+    "options": [
+      "weiter-",
+      "los-",
+      "vor-",
+      "ein-"
+    ],
+    "correct": "weiter-",
+    "feedback": "weiter- — Onward, further, keep going. Taking an existing thing and pushing its development onward."
+  },
+  {
+    "id": "prefixes_weiter_007",
+    "type": "select_feeling",
+    "prefix_id": "weiter",
+    "group": "trennbar",
+    "verb": "weiterhelfen",
+    "verb_en": "to help sb further along",
+    "options": [
+      "Back — return and reversal",
+      "Over — across, above, beyond the limit, or missed entirely",
+      "Onward, further, keep going",
+      "Out, out of, and out to the very end"
+    ],
+    "correct": "Onward, further, keep going",
+    "feedback": "weiter- — Onward, further, keep going. Helping someone get past the point where they were stuck. Dative."
+  },
+  {
+    "id": "prefixes_weiter_008",
+    "type": "select_feeling",
+    "prefix_id": "weiter",
+    "group": "trennbar",
+    "verb": "sich weiterbilden",
+    "verb_en": "to continue one's education",
+    "options": [
+      "Onward, further, keep going",
+      "Down, downward, laid low",
+      "Behind — left behind, or done behind someone's back",
+      "Under — beneath, supporting from below, or cutting off"
+    ],
+    "correct": "Onward, further, keep going",
+    "feedback": "weiter- — Onward, further, keep going. Educating yourself onward. Weiterbildung is standard on any German CV."
+  },
+  {
+    "id": "prefixes_weiter_009",
+    "type": "select_feeling",
+    "prefix_id": "weiter",
+    "group": "trennbar",
+    "verb": "weiterarbeiten",
+    "verb_en": "to keep working",
+    "options": [
+      "Away from, off, out of — separation and release",
+      "Onward, further, keep going",
+      "Down, downward, laid low",
+      "Wrong, failed, badly done"
+    ],
+    "correct": "Onward, further, keep going",
+    "feedback": "weiter- — Onward, further, keep going. Work continuing past a break or a deadline."
+  },
+  {
+    "id": "prefixes_weiter_010",
+    "type": "select_feeling",
+    "prefix_id": "weiter",
+    "group": "trennbar",
+    "verb": "weiterlaufen",
+    "verb_en": "to keep running",
+    "options": [
+      "Back — return and reversal",
+      "Against — resistance and reflection",
+      "Onward, further, keep going",
+      "Around — encircling, turning, and therefore changing"
+    ],
+    "correct": "Onward, further, keep going",
+    "feedback": "weiter- — Onward, further, keep going. Machines, contracts and costs that carry on whether you're watching or not."
+  },
+  {
+    "id": "prefixes_wider_001",
+    "type": "select_prefix",
+    "prefix_id": "wider",
+    "group": "beide",
+    "root": "sprechen",
+    "reflexive": false,
+    "target_en": "to contradict",
+    "answer_verb": "widersprechen",
+    "options": [
+      "wider-",
+      "ver-",
+      "fort-",
+      "über-"
+    ],
+    "correct": "wider-",
+    "feedback": "wider- — Against — resistance and reflection. Speaking against what was said. Dative: ich widerspreche dir."
+  },
+  {
+    "id": "prefixes_wider_002",
+    "type": "select_prefix",
+    "prefix_id": "wider",
+    "group": "beide",
+    "root": "stehen",
+    "reflexive": false,
+    "target_en": "to resist, withstand",
+    "answer_verb": "widerstehen",
+    "options": [
+      "miss-",
+      "bei-",
+      "weg-",
+      "wider-"
+    ],
+    "correct": "wider-",
+    "feedback": "wider- — Against — resistance and reflection. Standing against a force. Temptation, pressure, an army. Dative."
+  },
+  {
+    "id": "prefixes_wider_003",
+    "type": "select_prefix",
+    "prefix_id": "wider",
+    "group": "beide",
+    "root": "legen",
+    "reflexive": false,
+    "target_en": "to refute, disprove",
+    "answer_verb": "widerlegen",
+    "options": [
+      "fort-",
+      "auf-",
+      "durch-",
+      "wider-"
+    ],
+    "correct": "wider-",
+    "feedback": "wider- — Against — resistance and reflection. Laying counter-evidence against a claim until it no longer stands."
+  },
+  {
+    "id": "prefixes_wider_004",
+    "type": "select_prefix",
+    "prefix_id": "wider",
+    "group": "beide",
+    "root": "rufen",
+    "reflexive": false,
+    "target_en": "to revoke, retract",
+    "answer_verb": "widerrufen",
+    "options": [
+      "zer-",
+      "aus-",
+      "zu-",
+      "wider-"
+    ],
+    "correct": "wider-",
+    "feedback": "wider- — Against — resistance and reflection. Calling back against your own earlier statement. Legal and contractual."
+  },
+  {
+    "id": "prefixes_wider_005",
+    "type": "select_prefix",
+    "prefix_id": "wider",
+    "group": "beide",
+    "root": "setzen",
+    "reflexive": true,
+    "target_en": "to oppose, defy",
+    "answer_verb": "sich widersetzen",
+    "options": [
+      "zu-",
+      "wider-",
+      "weiter-",
+      "vor-"
+    ],
+    "correct": "wider-",
+    "feedback": "wider- — Against — resistance and reflection. Setting yourself against an order or authority. Dative."
+  },
+  {
+    "id": "prefixes_wider_006",
+    "type": "select_prefix",
+    "prefix_id": "wider",
+    "group": "beide",
+    "root": "streben",
+    "reflexive": false,
+    "target_en": "to be reluctant, resist",
+    "answer_verb": "widerstreben",
+    "options": [
+      "wider-",
+      "weg-",
+      "ge-",
+      "zu-"
+    ],
+    "correct": "wider-",
+    "feedback": "wider- — Against — resistance and reflection. An inner striving against the thing. Es widerstrebt mir — I find it distasteful."
+  },
+  {
+    "id": "prefixes_wider_007",
+    "type": "select_feeling",
+    "prefix_id": "wider",
+    "group": "beide",
+    "verb": "widerfahren",
+    "verb_en": "to befall sb",
+    "options": [
+      "Against — resistance and reflection",
+      "Toward and touching — contact, attachment, switching on",
+      "Into, inward — entering and settling",
+      "Alongside, added to, present with"
+    ],
+    "correct": "Against — resistance and reflection",
+    "feedback": "wider- — Against — resistance and reflection. Something travelling against you, arriving unbidden. Formal and often solemn."
+  },
+  {
+    "id": "prefixes_wider_008",
+    "type": "select_feeling",
+    "prefix_id": "wider",
+    "group": "beide",
+    "verb": "widerspiegeln",
+    "verb_en": "to reflect, mirror",
+    "options": [
+      "Against — resistance and reflection",
+      "Released, broken free — and therefore off we go",
+      "Together with, joining in — participation",
+      "Shut — and, oppositely, toward someone"
+    ],
+    "correct": "Against — resistance and reflection",
+    "feedback": "wider- — Against — resistance and reflection. The reflection branch. Separable. The image bounces back off the surface."
+  },
+  {
+    "id": "prefixes_wider_009",
+    "type": "select_feeling",
+    "prefix_id": "wider",
+    "group": "beide",
+    "verb": "widerhallen",
+    "verb_en": "to echo, resound",
+    "options": [
+      "Released, broken free — and therefore off we go",
+      "Against — resistance and reflection",
+      "Together with, joining in — participation",
+      "Away — and, by extension, onward"
+    ],
+    "correct": "Against — resistance and reflection",
+    "feedback": "wider- — Against — resistance and reflection. Sound returning from a wall. Same physics as the mirror."
+  },
+  {
+    "id": "prefixes_wider_010",
+    "type": "select_feeling",
+    "prefix_id": "wider",
+    "group": "beide",
+    "verb": "widersprechen",
+    "verb_en": "to contradict",
+    "options": [
+      "Apply the action directly onto a thing",
+      "Onward, further, keep going",
+      "Against — resistance and reflection",
+      "Out, out of, and out to the very end"
+    ],
+    "correct": "Against — resistance and reflection",
+    "feedback": "wider- — Against — resistance and reflection. Speaking against what was said. Dative: ich widerspreche dir."
+  },
+  {
+    "id": "prefixes_wieder_001",
+    "type": "select_prefix",
+    "prefix_id": "wieder",
+    "group": "beide",
+    "root": "sehen",
+    "reflexive": false,
+    "target_en": "to see again",
+    "answer_verb": "wiedersehen",
+    "options": [
+      "zu-",
+      "ver-",
+      "wieder-",
+      "aus-"
+    ],
+    "correct": "wieder-",
+    "feedback": "wieder- — Again, back — repetition and restoration. Meeting again after time apart. Auf Wiedersehen is this verb as a farewell."
+  },
+  {
+    "id": "prefixes_wieder_002",
+    "type": "select_prefix",
+    "prefix_id": "wieder",
+    "group": "beide",
+    "root": "holen",
+    "reflexive": false,
+    "target_en": "to repeat",
+    "answer_verb": "wiederholen",
+    "options": [
+      "wieder-",
+      "aus-",
+      "vor-",
+      "mit-"
+    ],
+    "correct": "wieder-",
+    "feedback": "wieder- — Again, back — repetition and restoration. Inseparable exception. Fetching the same thing back a second time — hence repeating it."
+  },
+  {
+    "id": "prefixes_wieder_003",
+    "type": "select_prefix",
+    "prefix_id": "wieder",
+    "group": "beide",
+    "root": "kommen",
+    "reflexive": false,
+    "target_en": "to come back, return",
+    "answer_verb": "wiederkommen",
+    "options": [
+      "wider-",
+      "auf-",
+      "miss-",
+      "wieder-"
+    ],
+    "correct": "wieder-",
+    "feedback": "wieder- — Again, back — repetition and restoration. Coming a second time. Warmer and less formal than zurückkehren."
+  },
+  {
+    "id": "prefixes_wieder_004",
+    "type": "select_prefix",
+    "prefix_id": "wieder",
+    "group": "beide",
+    "root": "geben",
+    "reflexive": false,
+    "target_en": "to reproduce, render",
+    "answer_verb": "wiedergeben",
+    "options": [
+      "ab-",
+      "nieder-",
+      "wieder-",
+      "auf-"
+    ],
+    "correct": "wieder-",
+    "feedback": "wieder- — Again, back — repetition and restoration. Giving the thing back out again — a quote, a performance, a colour on screen."
+  },
+  {
+    "id": "prefixes_wieder_005",
+    "type": "select_prefix",
+    "prefix_id": "wieder",
+    "group": "beide",
+    "root": "finden",
+    "reflexive": false,
+    "target_en": "to find again, recover",
+    "answer_verb": "wiederfinden",
+    "options": [
+      "mit-",
+      "wieder-",
+      "miss-",
+      "be-"
+    ],
+    "correct": "wieder-",
+    "feedback": "wieder- — Again, back — repetition and restoration. Finding what was lost. Also sich wiederfinden — to find yourself somewhere again."
+  },
+  {
+    "id": "prefixes_wieder_006",
+    "type": "select_prefix",
+    "prefix_id": "wieder",
+    "group": "beide",
+    "root": "herstellen",
+    "reflexive": false,
+    "target_en": "to restore, repair",
+    "answer_verb": "wiederherstellen",
+    "options": [
+      "wieder-",
+      "durch-",
+      "entgegen-",
+      "zer-"
+    ],
+    "correct": "wieder-",
+    "feedback": "wieder- — Again, back — repetition and restoration. Producing the original state again. The IT and medical restoration verb."
+  },
+  {
+    "id": "prefixes_wieder_007",
+    "type": "select_feeling",
+    "prefix_id": "wieder",
+    "group": "beide",
+    "verb": "wiedererkennen",
+    "verb_en": "to recognise",
+    "options": [
+      "Into, inward — entering and settling",
+      "Down, downward, laid low",
+      "After, behind, in pursuit — and doing it again to check",
+      "Again, back — repetition and restoration"
+    ],
+    "correct": "Again, back — repetition and restoration",
+    "feedback": "wieder- — Again, back — repetition and restoration. Recognition as knowing again — the arrival of er-, repeated."
+  },
+  {
+    "id": "prefixes_wieder_008",
+    "type": "select_feeling",
+    "prefix_id": "wieder",
+    "group": "beide",
+    "verb": "wiederaufbauen",
+    "verb_en": "to rebuild",
+    "options": [
+      "Shut — and, oppositely, toward someone",
+      "Against — resistance and reflection",
+      "Again, back — repetition and restoration",
+      "Carry the action through to its result"
+    ],
+    "correct": "Again, back — repetition and restoration",
+    "feedback": "wieder- — Again, back — repetition and restoration. Building up again after destruction. Wiederaufbau — postwar reconstruction."
+  },
+  {
+    "id": "prefixes_wieder_009",
+    "type": "select_feeling",
+    "prefix_id": "wieder",
+    "group": "beide",
+    "verb": "wiederbeleben",
+    "verb_en": "to revive, resuscitate",
+    "options": [
+      "Up, open, onto — rising and unsealing",
+      "In front, in advance, presented forward",
+      "Again, back — repetition and restoration",
+      "Apply the action directly onto a thing"
+    ],
+    "correct": "Again, back — repetition and restoration",
+    "feedback": "wieder- — Again, back — repetition and restoration. Bringing life again. Used of patients, traditions, and neighbourhoods."
+  },
+  {
+    "id": "prefixes_wieder_010",
+    "type": "select_feeling",
+    "prefix_id": "wieder",
+    "group": "beide",
+    "verb": "wiedervereinigen",
+    "verb_en": "to reunify",
+    "options": [
+      "Away — and, by extension, onward",
+      "Again, back — repetition and restoration",
+      "After, behind, in pursuit — and doing it again to check",
+      "Into pieces — destruction and dispersal"
+    ],
+    "correct": "Again, back — repetition and restoration",
+    "feedback": "wieder- — Again, back — repetition and restoration. Uniting again what was split. Wiedervereinigung — German reunification, 1990."
+  },
+  {
+    "id": "prefixes_zer_001",
+    "type": "select_prefix",
+    "prefix_id": "zer",
+    "group": "untrennbar",
+    "root": "brechen",
+    "reflexive": false,
+    "target_en": "to shatter, break apart",
+    "answer_verb": "zerbrechen",
+    "options": [
+      "zu-",
+      "zer-",
+      "nach-",
+      "um-"
+    ],
+    "correct": "zer-",
+    "feedback": "zer- — Into pieces — destruction and dispersal. Breaking, but into many pieces rather than two. zer- multiplies the fracture."
+  },
+  {
+    "id": "prefixes_zer_002",
+    "type": "select_prefix",
+    "prefix_id": "zer",
+    "group": "untrennbar",
+    "root": "stören",
+    "reflexive": false,
+    "target_en": "to destroy",
+    "answer_verb": "zerstören",
+    "options": [
+      "auf-",
+      "zer-",
+      "nach-",
+      "weg-"
+    ],
+    "correct": "zer-",
+    "feedback": "zer- — Into pieces — destruction and dispersal. Stören is to disturb. zer- pushes disturbance to total ruin."
+  },
+  {
+    "id": "prefixes_zer_003",
+    "type": "select_prefix",
+    "prefix_id": "zer",
+    "group": "untrennbar",
+    "root": "reißen",
+    "reflexive": false,
+    "target_en": "to tear to shreds",
+    "answer_verb": "zerreißen",
+    "options": [
+      "mit-",
+      "an-",
+      "zer-",
+      "durch-"
+    ],
+    "correct": "zer-",
+    "feedback": "zer- — Into pieces — destruction and dispersal. Tearing that doesn't stop at one rip — the paper ends up in fragments."
+  },
+  {
+    "id": "prefixes_zer_004",
+    "type": "select_prefix",
+    "prefix_id": "zer",
+    "group": "untrennbar",
+    "root": "schneiden",
+    "reflexive": false,
+    "target_en": "to cut into pieces",
+    "answer_verb": "zerschneiden",
+    "options": [
+      "ent-",
+      "nieder-",
+      "zu-",
+      "zer-"
+    ],
+    "correct": "zer-",
+    "feedback": "zer- — Into pieces — destruction and dispersal. Cutting applied until the thing is no longer one thing."
+  },
+  {
+    "id": "prefixes_zer_005",
+    "type": "select_prefix",
+    "prefix_id": "zer",
+    "group": "untrennbar",
+    "root": "legen",
+    "reflexive": false,
+    "target_en": "to take apart, dismantle",
+    "answer_verb": "zerlegen",
+    "options": [
+      "be-",
+      "ab-",
+      "hinter-",
+      "zer-"
+    ],
+    "correct": "zer-",
+    "feedback": "zer- — Into pieces — destruction and dispersal. Laying out the parts separately — controlled fragmentation, as with an engine or an argument."
+  },
+  {
+    "id": "prefixes_zer_006",
+    "type": "select_prefix",
+    "prefix_id": "zer",
+    "group": "untrennbar",
+    "root": "fallen",
+    "reflexive": false,
+    "target_en": "to disintegrate, decay",
+    "answer_verb": "zerfallen",
+    "options": [
+      "zer-",
+      "unter-",
+      "hin-",
+      "bei-"
+    ],
+    "correct": "zer-",
+    "feedback": "zer- — Into pieces — destruction and dispersal. Falling apart from the inside. Empires and buildings both zerfallen."
+  },
+  {
+    "id": "prefixes_zer_007",
+    "type": "select_feeling",
+    "prefix_id": "zer",
+    "group": "untrennbar",
+    "verb": "zerdrücken",
+    "verb_en": "to crush, mash",
+    "options": [
+      "Into pieces — destruction and dispersal",
+      "Against — resistance and reflection",
+      "In front, in advance, presented forward",
+      "Away from, off, out of — separation and release"
+    ],
+    "correct": "Into pieces — destruction and dispersal",
+    "feedback": "zer- — Into pieces — destruction and dispersal. Pressing until the structure gives way — potatoes, or a cigarette."
+  },
+  {
+    "id": "prefixes_zer_008",
+    "type": "select_feeling",
+    "prefix_id": "zer",
+    "group": "untrennbar",
+    "verb": "zersplittern",
+    "verb_en": "to splinter, fragment",
+    "options": [
+      "Into pieces — destruction and dispersal",
+      "Under — beneath, supporting from below, or cutting off",
+      "In front, in advance, presented forward",
+      "Toward the speaker — 'this way, come here'"
+    ],
+    "correct": "Into pieces — destruction and dispersal",
+    "feedback": "zer- — Into pieces — destruction and dispersal. Wood, glass, or a political party — all break into shards the same way."
+  },
+  {
+    "id": "prefixes_zer_009",
+    "type": "select_feeling",
+    "prefix_id": "zer",
+    "group": "untrennbar",
+    "verb": "zerplatzen",
+    "verb_en": "to burst apart",
+    "options": [
+      "Off, away, down — detachment from a starting point",
+      "Into, inward — entering and settling",
+      "Into pieces — destruction and dispersal",
+      "Shut — and, oppositely, toward someone"
+    ],
+    "correct": "Into pieces — destruction and dispersal",
+    "feedback": "zer- — Into pieces — destruction and dispersal. Bursting where the pieces fly outward, not just a pop."
+  },
+  {
+    "id": "prefixes_zer_010",
+    "type": "select_feeling",
+    "prefix_id": "zer",
+    "group": "untrennbar",
+    "verb": "zerbrechen",
+    "verb_en": "to shatter, break apart",
+    "options": [
+      "Into pieces — destruction and dispersal",
+      "After, behind, in pursuit — and doing it again to check",
+      "Against — resistance and reflection",
+      "Again, back — repetition and restoration"
+    ],
+    "correct": "Into pieces — destruction and dispersal",
+    "feedback": "zer- — Into pieces — destruction and dispersal. Breaking, but into many pieces rather than two. zer- multiplies the fracture."
+  },
+  {
+    "id": "prefixes_zu_001",
+    "type": "select_prefix",
+    "prefix_id": "zu",
+    "group": "trennbar",
+    "root": "machen",
+    "reflexive": false,
+    "target_en": "to close, shut",
+    "answer_verb": "zumachen",
+    "options": [
+      "zer-",
+      "ge-",
+      "zu-",
+      "durch-"
+    ],
+    "correct": "zu-",
+    "feedback": "zu- — Shut — and, oppositely, toward someone. The closing sense at its simplest. Opposite of aufmachen."
+  },
+  {
+    "id": "prefixes_zu_002",
+    "type": "select_prefix",
+    "prefix_id": "zu",
+    "group": "trennbar",
+    "root": "schließen",
+    "reflexive": false,
+    "target_en": "to lock shut",
+    "answer_verb": "zuschließen",
+    "options": [
+      "unter-",
+      "ab-",
+      "zu-",
+      "zurück-"
+    ],
+    "correct": "zu-",
+    "feedback": "zu- — Shut — and, oppositely, toward someone. Closing so it's sealed and secured. The extra zu- adds finality to schließen."
+  },
+  {
+    "id": "prefixes_zu_003",
+    "type": "select_prefix",
+    "prefix_id": "zu",
+    "group": "trennbar",
+    "root": "hören",
+    "reflexive": false,
+    "target_en": "to listen to sb",
+    "answer_verb": "zuhören",
+    "options": [
+      "hinter-",
+      "zu-",
+      "weg-",
+      "wider-"
+    ],
+    "correct": "zu-",
+    "feedback": "zu- — Shut — and, oppositely, toward someone. Hearing directed at a person. Hören is passive; zu- makes it deliberate. Dative."
+  },
+  {
+    "id": "prefixes_zu_004",
+    "type": "select_prefix",
+    "prefix_id": "zu",
+    "group": "trennbar",
+    "root": "sehen",
+    "reflexive": false,
+    "target_en": "to watch, look on",
+    "answer_verb": "zusehen",
+    "options": [
+      "wieder-",
+      "unter-",
+      "her-",
+      "zu-"
+    ],
+    "correct": "zu-",
+    "feedback": "zu- — Shut — and, oppositely, toward someone. Looking directed at something happening. Often with a hint of not intervening."
+  },
+  {
+    "id": "prefixes_zu_005",
+    "type": "select_prefix",
+    "prefix_id": "zu",
+    "group": "trennbar",
+    "root": "stimmen",
+    "reflexive": false,
+    "target_en": "to agree with sb",
+    "answer_verb": "zustimmen",
+    "options": [
+      "mit-",
+      "durch-",
+      "zu-",
+      "weg-"
+    ],
+    "correct": "zu-",
+    "feedback": "zu- — Shut — and, oppositely, toward someone. Placing your voice alongside theirs. Dative: ich stimme dir zu."
+  },
+  {
+    "id": "prefixes_zu_006",
+    "type": "select_prefix",
+    "prefix_id": "zu",
+    "group": "trennbar",
+    "root": "geben",
+    "reflexive": false,
+    "target_en": "to admit; to add",
+    "answer_verb": "zugeben",
+    "options": [
+      "emp-",
+      "zu-",
+      "durch-",
+      "nach-"
+    ],
+    "correct": "zu-",
+    "feedback": "zu- — Shut — and, oppositely, toward someone. Giving something toward the truth — or adding an ingredient to the pot."
+  },
+  {
+    "id": "prefixes_zu_007",
+    "type": "select_feeling",
+    "prefix_id": "zu",
+    "group": "trennbar",
+    "verb": "zunehmen",
+    "verb_en": "to increase, gain weight",
+    "options": [
+      "A sound-variant of ent- — receiving, sensing, rising toward",
+      "Shut — and, oppositely, toward someone",
+      "Off, away, down — detachment from a starting point",
+      "Released, broken free — and therefore off we go"
+    ],
+    "correct": "Shut — and, oppositely, toward someone",
+    "feedback": "zu- — Shut — and, oppositely, toward someone. The addition branch: the total takes something on. Opposite of abnehmen."
+  },
+  {
+    "id": "prefixes_zu_008",
+    "type": "select_feeling",
+    "prefix_id": "zu",
+    "group": "trennbar",
+    "verb": "zulassen",
+    "verb_en": "to permit, allow",
+    "options": [
+      "Shut — and, oppositely, toward someone",
+      "Released, broken free — and therefore off we go",
+      "After, behind, in pursuit — and doing it again to check",
+      "Behind — left behind, or done behind someone's back"
+    ],
+    "correct": "Shut — and, oppositely, toward someone",
+    "feedback": "zu- — Shut — and, oppositely, toward someone. Letting something come toward you rather than blocking it. Also: to license."
+  },
+  {
+    "id": "prefixes_zu_009",
+    "type": "select_feeling",
+    "prefix_id": "zu",
+    "group": "trennbar",
+    "verb": "zuordnen",
+    "verb_en": "to assign, allocate to",
+    "options": [
+      "Into, inward — entering and settling",
+      "Down, downward, laid low",
+      "Shut — and, oppositely, toward someone",
+      "Toward the speaker — 'this way, come here'"
+    ],
+    "correct": "Shut — and, oppositely, toward someone",
+    "feedback": "zu- — Shut — and, oppositely, toward someone. Ordering one thing toward another so they belong together. Dative."
+  },
+  {
+    "id": "prefixes_zu_010",
+    "type": "select_feeling",
+    "prefix_id": "zu",
+    "group": "trennbar",
+    "verb": "zukommen",
+    "verb_en": "to approach; to be due to sb",
+    "options": [
+      "Shut — and, oppositely, toward someone",
+      "Four feelings: away, wrong, transformed, used up",
+      "Released, broken free — and therefore off we go",
+      "Away, gone — removal in everyday speech"
+    ],
+    "correct": "Shut — and, oppositely, toward someone",
+    "feedback": "zu- — Shut — and, oppositely, toward someone. Something moving toward you. Auf mich zukommen — heading my way."
+  },
+  {
+    "id": "prefixes_zurück_001",
+    "type": "select_prefix",
+    "prefix_id": "zurück",
+    "group": "trennbar",
+    "root": "kommen",
+    "reflexive": false,
+    "target_en": "to come back, return",
+    "answer_verb": "zurückkommen",
+    "options": [
+      "mit-",
+      "zurück-",
+      "vor-",
+      "emp-"
+    ],
+    "correct": "zurück-",
+    "feedback": "zurück- — Back — return and reversal. Coming back to where you were. The core image with nothing added."
+  },
+  {
+    "id": "prefixes_zurück_002",
+    "type": "select_prefix",
+    "prefix_id": "zurück",
+    "group": "trennbar",
+    "root": "geben",
+    "reflexive": false,
+    "target_en": "to give back, return sth",
+    "answer_verb": "zurückgeben",
+    "options": [
+      "ver-",
+      "be-",
+      "unter-",
+      "zurück-"
+    ],
+    "correct": "zurück-",
+    "feedback": "zurück- — Back — return and reversal. Reversing the direction of a gift or a loan."
+  },
+  {
+    "id": "prefixes_zurück_003",
+    "type": "select_prefix",
+    "prefix_id": "zurück",
+    "group": "trennbar",
+    "root": "gehen",
+    "reflexive": false,
+    "target_en": "to go back, decline",
+    "answer_verb": "zurückgehen",
+    "options": [
+      "über-",
+      "zurück-",
+      "hinter-",
+      "weg-"
+    ],
+    "correct": "zurück-",
+    "feedback": "zurück- — Back — return and reversal. Retracing your steps — or, of numbers, falling back to a lower level."
+  },
+  {
+    "id": "prefixes_zurück_004",
+    "type": "select_prefix",
+    "prefix_id": "zurück",
+    "group": "trennbar",
+    "root": "rufen",
+    "reflexive": false,
+    "target_en": "to call back",
+    "answer_verb": "zurückrufen",
+    "options": [
+      "aus-",
+      "ver-",
+      "zurück-",
+      "ein-"
+    ],
+    "correct": "zurück-",
+    "feedback": "zurück- — Back — return and reversal. Returning a phone call. The call goes back the way it came."
+  },
+  {
+    "id": "prefixes_zurück_005",
+    "type": "select_prefix",
+    "prefix_id": "zurück",
+    "group": "trennbar",
+    "root": "ziehen",
+    "reflexive": true,
+    "target_en": "to withdraw, retire",
+    "answer_verb": "sich zurückziehen",
+    "options": [
+      "bei-",
+      "über-",
+      "aus-",
+      "zurück-"
+    ],
+    "correct": "zurück-",
+    "feedback": "zurück- — Back — return and reversal. Pulling yourself back out of a situation. The restraint branch."
+  },
+  {
+    "id": "prefixes_zurück_006",
+    "type": "select_prefix",
+    "prefix_id": "zurück",
+    "group": "trennbar",
+    "root": "legen",
+    "reflexive": false,
+    "target_en": "to put back; to cover a distance",
+    "answer_verb": "zurücklegen",
+    "options": [
+      "zurück-",
+      "zu-",
+      "nieder-",
+      "zusammen-"
+    ],
+    "correct": "zurück-",
+    "feedback": "zurück- — Back — return and reversal. Putting a thing back on the shelf — or laying a stretch of road behind you."
+  },
+  {
+    "id": "prefixes_zurück_007",
+    "type": "select_feeling",
+    "prefix_id": "zurück",
+    "group": "trennbar",
+    "verb": "zurückhalten",
+    "verb_en": "to hold back, restrain",
+    "options": [
+      "Together — joining, or collapsing into one",
+      "Back — return and reversal",
+      "In front, in advance, presented forward",
+      "Toward and facing — meeting, or opposing"
+    ],
+    "correct": "Back — return and reversal",
+    "feedback": "zurück- — Back — return and reversal. Holding something so it doesn't go forward. Also zurückhaltend = reserved."
+  },
+  {
+    "id": "prefixes_zurück_008",
+    "type": "select_feeling",
+    "prefix_id": "zurück",
+    "group": "trennbar",
+    "verb": "zurückkehren",
+    "verb_en": "to return, come back",
+    "options": [
+      "Back — return and reversal",
+      "Down, downward, laid low",
+      "Apply the action directly onto a thing",
+      "Onward, further, keep going"
+    ],
+    "correct": "Back — return and reversal",
+    "feedback": "zurück- — Back — return and reversal. The more formal 'return'. Used of journeys, eras, and symptoms."
+  },
+  {
+    "id": "prefixes_zurück_009",
+    "type": "select_feeling",
+    "prefix_id": "zurück",
+    "group": "trennbar",
+    "verb": "zurückzahlen",
+    "verb_en": "to repay",
+    "options": [
+      "Four feelings: away, wrong, transformed, used up",
+      "Away from, off, out of — separation and release",
+      "Back — return and reversal",
+      "Shut — and, oppositely, toward someone"
+    ],
+    "correct": "Back — return and reversal",
+    "feedback": "zurück- — Back — return and reversal. Sending the money back along the path it came. Loans and favours alike."
+  },
+  {
+    "id": "prefixes_zurück_010",
+    "type": "select_feeling",
+    "prefix_id": "zurück",
+    "group": "trennbar",
+    "verb": "zurückweisen",
+    "verb_en": "to reject, turn away",
+    "options": [
+      "Wrong, failed, badly done",
+      "Back — return and reversal",
+      "Away — and, by extension, onward",
+      "Down, downward, laid low"
+    ],
+    "correct": "Back — return and reversal",
+    "feedback": "zurück- — Back — return and reversal. Pointing someone back the way they came. Refusal as reversed direction."
+  },
+  {
+    "id": "prefixes_zusammen_001",
+    "type": "select_prefix",
+    "prefix_id": "zusammen",
+    "group": "trennbar",
+    "root": "arbeiten",
+    "reflexive": false,
+    "target_en": "to collaborate",
+    "answer_verb": "zusammenarbeiten",
+    "options": [
+      "entgegen-",
+      "zurück-",
+      "zusammen-",
+      "weiter-"
+    ],
+    "correct": "zusammen-",
+    "feedback": "zusammen- — Together — joining, or collapsing into one. Separate efforts merged into one piece of work."
+  },
+  {
+    "id": "prefixes_zusammen_002",
+    "type": "select_prefix",
+    "prefix_id": "zusammen",
+    "group": "trennbar",
+    "root": "fassen",
+    "reflexive": false,
+    "target_en": "to summarise",
+    "answer_verb": "zusammenfassen",
+    "options": [
+      "unter-",
+      "zusammen-",
+      "aus-",
+      "emp-"
+    ],
+    "correct": "zusammen-",
+    "feedback": "zusammen- — Together — joining, or collapsing into one. Grasping scattered points and holding them as one. Zusammenfassung = summary."
+  },
+  {
+    "id": "prefixes_zusammen_003",
+    "type": "select_prefix",
+    "prefix_id": "zusammen",
+    "group": "trennbar",
+    "root": "brechen",
+    "reflexive": false,
+    "target_en": "to collapse, break down",
+    "answer_verb": "zusammenbrechen",
+    "options": [
+      "um-",
+      "emp-",
+      "nach-",
+      "zusammen-"
+    ],
+    "correct": "zusammen-",
+    "feedback": "zusammen- — Together — joining, or collapsing into one. Breaking such that the whole falls in on itself. Buildings, systems, people."
+  },
+  {
+    "id": "prefixes_zusammen_004",
+    "type": "select_prefix",
+    "prefix_id": "zusammen",
+    "group": "trennbar",
+    "root": "kommen",
+    "reflexive": false,
+    "target_en": "to gather, meet up",
+    "answer_verb": "zusammenkommen",
+    "options": [
+      "ver-",
+      "zusammen-",
+      "ab-",
+      "ge-"
+    ],
+    "correct": "zusammen-",
+    "feedback": "zusammen- — Together — joining, or collapsing into one. People converging on one place. Also: circumstances coinciding."
+  },
+  {
+    "id": "prefixes_zusammen_005",
+    "type": "select_prefix",
+    "prefix_id": "zusammen",
+    "group": "trennbar",
+    "root": "stellen",
+    "reflexive": false,
+    "target_en": "to compile, put together",
+    "answer_verb": "zusammenstellen",
+    "options": [
+      "an-",
+      "zurück-",
+      "zusammen-",
+      "ab-"
+    ],
+    "correct": "zusammen-",
+    "feedback": "zusammen- — Together — joining, or collapsing into one. Placing separate items into a single arrangement — a playlist, a team, a menu."
+  },
+  {
+    "id": "prefixes_zusammen_006",
+    "type": "select_prefix",
+    "prefix_id": "zusammen",
+    "group": "trennbar",
+    "root": "passen",
+    "reflexive": false,
+    "target_en": "to fit together, match",
+    "answer_verb": "zusammenpassen",
+    "options": [
+      "zusammen-",
+      "nach-",
+      "wider-",
+      "weiter-"
+    ],
+    "correct": "zusammen-",
+    "feedback": "zusammen- — Together — joining, or collapsing into one. Two things whose shapes agree. Used of colours, schedules, and couples."
+  },
+  {
+    "id": "prefixes_zusammen_007",
+    "type": "select_feeling",
+    "prefix_id": "zusammen",
+    "group": "trennbar",
+    "verb": "zusammenlegen",
+    "verb_en": "to merge; to fold up",
+    "options": [
+      "Apply the action directly onto a thing",
+      "Together — joining, or collapsing into one",
+      "Toward the speaker — 'this way, come here'",
+      "Released, broken free — and therefore off we go"
+    ],
+    "correct": "Together — joining, or collapsing into one",
+    "feedback": "zusammen- — Together — joining, or collapsing into one. Laying two things into one — departments, or a map folded flat."
+  },
+  {
+    "id": "prefixes_zusammen_008",
+    "type": "select_feeling",
+    "prefix_id": "zusammen",
+    "group": "trennbar",
+    "verb": "zusammenzählen",
+    "verb_en": "to add up, total",
+    "options": [
+      "Into, inward — entering and settling",
+      "Carry the action through to its result",
+      "Four feelings: away, wrong, transformed, used up",
+      "Together — joining, or collapsing into one"
+    ],
+    "correct": "Together — joining, or collapsing into one",
+    "feedback": "zusammen- — Together — joining, or collapsing into one. Counting separate figures into one sum."
+  },
+  {
+    "id": "prefixes_zusammen_009",
+    "type": "select_feeling",
+    "prefix_id": "zusammen",
+    "group": "trennbar",
+    "verb": "zusammenhalten",
+    "verb_en": "to stick together",
+    "options": [
+      "A sound-variant of ent- — receiving, sensing, rising toward",
+      "Behind — left behind, or done behind someone's back",
+      "Under — beneath, supporting from below, or cutting off",
+      "Together — joining, or collapsing into one"
+    ],
+    "correct": "Together — joining, or collapsing into one",
+    "feedback": "zusammen- — Together — joining, or collapsing into one. A group holding as one under pressure. Loyalty as physical cohesion."
+  },
+  {
+    "id": "prefixes_zusammen_010",
+    "type": "select_feeling",
+    "prefix_id": "zusammen",
+    "group": "trennbar",
+    "verb": "zusammenstoßen",
+    "verb_en": "to collide, clash",
+    "options": [
+      "Together — joining, or collapsing into one",
+      "Out, out of, and out to the very end",
+      "Up, open, onto — rising and unsealing",
+      "Down, downward, laid low"
+    ],
+    "correct": "Together — joining, or collapsing into one",
+    "feedback": "zusammen- — Together — joining, or collapsing into one. The destructive edge: two things arriving at the same point at speed."
+  },
+  {
+    "id": "prefixes_über_001",
+    "type": "select_prefix",
+    "prefix_id": "über",
+    "group": "beide",
+    "root": "setzen",
+    "reflexive": false,
+    "target_en": "to translate; to ferry across",
+    "answer_verb": "übersetzen",
+    "options": [
+      "zer-",
+      "fort-",
+      "über-",
+      "weiter-"
+    ],
+    "correct": "über-",
+    "feedback": "über- — Over — across, above, beyond the limit, or missed entirely. Inseparable = translate (carry meaning across). Separable = physically ferry someone over."
+  },
+  {
+    "id": "prefixes_über_002",
+    "type": "select_prefix",
+    "prefix_id": "über",
+    "group": "beide",
+    "root": "legen",
+    "reflexive": false,
+    "target_en": "to consider, think over",
+    "answer_verb": "überlegen",
+    "options": [
+      "zusammen-",
+      "über-",
+      "nieder-",
+      "fort-"
+    ],
+    "correct": "über-",
+    "feedback": "über- — Over — across, above, beyond the limit, or missed entirely. Inseparable. Laying thoughts over a matter. Ich überlege es mir."
+  },
+  {
+    "id": "prefixes_über_003",
+    "type": "select_prefix",
+    "prefix_id": "über",
+    "group": "beide",
+    "root": "sehen",
+    "reflexive": false,
+    "target_en": "to overlook, miss",
+    "answer_verb": "übersehen",
+    "options": [
+      "über-",
+      "ge-",
+      "er-",
+      "an-"
+    ],
+    "correct": "über-",
+    "feedback": "über- — Over — across, above, beyond the limit, or missed entirely. Your gaze passes over the thing without landing. The 'missing' branch."
+  },
+  {
+    "id": "prefixes_über_004",
+    "type": "select_prefix",
+    "prefix_id": "über",
+    "group": "beide",
+    "root": "leben",
+    "reflexive": false,
+    "target_en": "to survive",
+    "answer_verb": "überleben",
+    "options": [
+      "fort-",
+      "vor-",
+      "über-",
+      "unter-"
+    ],
+    "correct": "über-",
+    "feedback": "über- — Over — across, above, beyond the limit, or missed entirely. Living beyond the event that should have ended it. The 'beyond' branch."
+  },
+  {
+    "id": "prefixes_über_005",
+    "type": "select_prefix",
+    "prefix_id": "über",
+    "group": "beide",
+    "root": "treiben",
+    "reflexive": false,
+    "target_en": "to exaggerate",
+    "answer_verb": "übertreiben",
+    "options": [
+      "fort-",
+      "über-",
+      "zer-",
+      "miss-"
+    ],
+    "correct": "über-",
+    "feedback": "über- — Over — across, above, beyond the limit, or missed entirely. Driving the thing past its proper limit. Literally over-driving it."
+  },
+  {
+    "id": "prefixes_über_006",
+    "type": "select_prefix",
+    "prefix_id": "über",
+    "group": "beide",
+    "root": "zeugen",
+    "reflexive": false,
+    "target_en": "to convince",
+    "answer_verb": "überzeugen",
+    "options": [
+      "über-",
+      "ein-",
+      "entgegen-",
+      "hinter-"
+    ],
+    "correct": "über-",
+    "feedback": "über- — Over — across, above, beyond the limit, or missed entirely. Covering someone with evidence until their doubt is entirely overlaid."
+  },
+  {
+    "id": "prefixes_über_007",
+    "type": "select_feeling",
+    "prefix_id": "über",
+    "group": "beide",
+    "verb": "überweisen",
+    "verb_en": "to transfer money",
+    "options": [
+      "Into pieces — destruction and dispersal",
+      "Against — resistance and reflection",
+      "Released, broken free — and therefore off we go",
+      "Over — across, above, beyond the limit, or missed entirely"
+    ],
+    "correct": "Over — across, above, beyond the limit, or missed entirely",
+    "feedback": "über- — Over — across, above, beyond the limit, or missed entirely. Directing funds across from one account to another. The banking verb."
+  },
+  {
+    "id": "prefixes_über_008",
+    "type": "select_feeling",
+    "prefix_id": "über",
+    "group": "beide",
+    "verb": "übernehmen",
+    "verb_en": "to take over, assume",
+    "options": [
+      "Over — across, above, beyond the limit, or missed entirely",
+      "In front, in advance, presented forward",
+      "Away — and, by extension, onward",
+      "Into, inward — entering and settling"
+    ],
+    "correct": "Over — across, above, beyond the limit, or missed entirely",
+    "feedback": "über- — Over — across, above, beyond the limit, or missed entirely. Taking a thing across from someone else's hands into yours — a role, a firm, a cost."
+  },
+  {
+    "id": "prefixes_über_009",
+    "type": "select_feeling",
+    "prefix_id": "über",
+    "group": "beide",
+    "verb": "überlaufen",
+    "verb_en": "to overflow; to defect",
+    "options": [
+      "Out, out of, and out to the very end",
+      "Over — across, above, beyond the limit, or missed entirely",
+      "Toward the speaker — 'this way, come here'",
+      "Away from the speaker, toward a target — 'that way'"
+    ],
+    "correct": "Over — across, above, beyond the limit, or missed entirely",
+    "feedback": "über- — Over — across, above, beyond the limit, or missed entirely. Separable = boil over the rim. Inseparable = to run over to the other side."
+  },
+  {
+    "id": "prefixes_über_010",
+    "type": "select_feeling",
+    "prefix_id": "über",
+    "group": "beide",
+    "verb": "übersetzen",
+    "verb_en": "to translate; to ferry across",
+    "options": [
+      "Onward, further, keep going",
+      "Out, out of, and out to the very end",
+      "Around — encircling, turning, and therefore changing",
+      "Over — across, above, beyond the limit, or missed entirely"
+    ],
+    "correct": "Over — across, above, beyond the limit, or missed entirely",
+    "feedback": "über- — Over — across, above, beyond the limit, or missed entirely. Inseparable = translate (carry meaning across). Separable = physically ferry someone over."
+  }
+]

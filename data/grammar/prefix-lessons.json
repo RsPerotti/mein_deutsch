@@ -1,0 +1,457 @@
+[
+  {
+    "id": "prefixes-intro",
+    "title": "Was sind Vorsilben?",
+    "order": 1,
+    "module": "prefixes",
+    "unlocks": [],
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "A prefix is a feeling, not a word",
+        "body": "A German verb prefix is a small piece attached to the front of a verb that changes what the verb means. Unlike a particle, it cannot stand alone — 'ver' is not a word. What it carries is a direction or a gesture: away, apart, toward, under, around. Native speakers hear the prefix before they hear the verb, and already have an expectation of the meaning. That expectation is what this module teaches.",
+        "example_de": "kaufen → verkaufen, einkaufen, abkaufen, zukaufen",
+        "example_en": "to buy → to sell, to shop, to buy off sb, to buy in addition"
+      },
+      {
+        "type": "explanation",
+        "heading": "The system is generative",
+        "body": "There are only about 35 prefixes, but they combine with hundreds of verbs. If you learn the 35 gestures, you can decode verbs you have never seen. This is the single highest-leverage thing you can learn about German vocabulary: it turns memorisation into prediction. You will not always be exactly right, but you will almost always be in the right neighbourhood.",
+        "example_de": "zer- means 'into pieces'. So: zerbrechen, zerreißen, zerschneiden, zerlegen…",
+        "example_en": "…to shatter, to tear to shreds, to cut into pieces, to dismantle."
+      },
+      {
+        "type": "explanation",
+        "heading": "Three groups, and the group matters",
+        "body": "Prefixes split into three groups by how they behave in a sentence. Trennbare (separable) prefixes detach and go to the end of the clause. Untrennbare (inseparable) prefixes never move. A third group does both, and which one it does changes the meaning. You cannot use a prefix verb correctly without knowing its group, which is why this module filters by group rather than by CEFR level.",
+        "example_de": "Ich rufe dich an. / Ich verkaufe das Auto.",
+        "example_en": "I call you. (an- separates) / I sell the car. (ver- does not)"
+      },
+      {
+        "type": "explanation",
+        "heading": "How to use this module",
+        "body": "Start with the reference. Read a prefix's feeling paragraph, then look at its ten examples and check that the explanation makes sense to you. Then drill. The exercises work in two directions: given a root verb and a meaning, choose the prefix; and given a prefixed verb, choose the feeling. The first tests whether you can build, the second whether you can decode. You need both.",
+        "example_de": "kaufen + 'to sell' → ver-",
+        "example_en": "zerbrechen → 'into pieces'"
+      }
+    ],
+    "key_rules": [
+      "A prefix is not a word — it only exists attached to a verb.",
+      "About 35 prefixes generate hundreds of verbs. Learn the gesture, not each verb.",
+      "Every prefix belongs to one of three groups: trennbar, untrennbar, or both.",
+      "The group determines where the prefix goes in the sentence and whether ge- appears in the perfect.",
+      "Prefix meanings are reliable but not absolute — expect to land in the right neighbourhood, not always on the exact word."
+    ],
+    "quiz": [
+      {
+        "type": "rule_check",
+        "question": "What is the main reason to learn German verb prefixes as a system?",
+        "options": [
+          "They are required for correct pronunciation",
+          "They let you predict the meaning of verbs you have never seen",
+          "They change the gender of related nouns",
+          "They are the only way to form the past tense"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "How does a verb prefix differ from a modal particle like 'doch'?",
+        "options": [
+          "A prefix cannot stand alone as a word; a particle can",
+          "A prefix is always stressed; a particle never is",
+          "A prefix only appears in written German",
+          "There is no real difference"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "rule_check",
+        "question": "Roughly how many verb prefixes does German have?",
+        "options": ["About 10", "About 35", "About 120", "Over 500"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "Why does this module filter by trennbar/untrennbar rather than by CEFR level?",
+        "options": [
+          "CEFR levels do not exist for verbs",
+          "Separability governs how the verb behaves in a sentence; CEFR does not map cleanly onto prefixes",
+          "Because the prefixes are all the same difficulty",
+          "To make the module shorter"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "What does 'zer-' signal?",
+        "options": [
+          "Movement toward the speaker",
+          "Something done again",
+          "Something breaking into pieces",
+          "Something done badly or wrongly"
+        ],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "prefixes-separability",
+    "title": "Trennbar oder untrennbar?",
+    "order": 2,
+    "module": "prefixes",
+    "unlocks": [],
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Separable prefixes kick to the end",
+        "body": "In a main clause, a separable prefix detaches from its verb and moves to the very end of the clause. The conjugated verb stays in second position, the prefix waits at the back. This feels strange at first because the meaning of the sentence is not complete until the last word — German speakers hold the whole clause in mind and resolve it at the end.",
+        "example_de": "Ich stehe jeden Morgen um sieben Uhr auf.",
+        "example_en": "I get up at seven every morning. (aufstehen → stehe … auf)"
+      },
+      {
+        "type": "explanation",
+        "heading": "Inseparable prefixes never move",
+        "body": "Inseparable prefixes are welded on. They stay attached in every tense and every clause type. There are only eight of them and they are worth memorising as a closed list: be-, ent-, emp-, er-, ge-, miss-, ver-, zer-. If a prefix is not in that list and not one of the seven dual prefixes, it separates.",
+        "example_de": "Ich verkaufe das Auto. / Ich habe das Auto verkauft.",
+        "example_en": "I sell the car. / I have sold the car. (ver- never detaches)"
+      },
+      {
+        "type": "explanation",
+        "heading": "The stress test, and the ge- test",
+        "body": "Two reliable tests. First, stress: separable prefixes are stressed (ÁNrufen), inseparable ones are not (verKAUfen). Second, the perfect tense: separable verbs take ge- between the prefix and the stem (angerufen), inseparable verbs take no ge- at all (verkauft). If you are unsure which group a verb belongs to, say it out loud and listen for the stress.",
+        "example_de": "ángerufen / verkáuft / áufgestanden / entschíeden",
+        "example_en": "called / sold / got up / decided"
+      },
+      {
+        "type": "explanation",
+        "heading": "Subordinate clauses and zu",
+        "body": "In a subordinate clause the verb goes to the end and a separable prefix rejoins it: 'weil ich früh aufstehe'. With zu + infinitive, the zu slides inside a separable verb — aufzustehen — but sits in front of an inseparable one — zu verkaufen. This is the detail that most often catches learners out in writing.",
+        "example_de": "Ich versuche, früh aufzustehen. / Ich versuche, das Auto zu verkaufen.",
+        "example_en": "I try to get up early. / I try to sell the car."
+      }
+    ],
+    "key_rules": [
+      "Separable prefix in a main clause: verb in position 2, prefix at the end of the clause.",
+      "The eight inseparable prefixes are be-, ent-, emp-, er-, ge-, miss-, ver-, zer-.",
+      "Separable prefixes are stressed; inseparable prefixes are not.",
+      "Perfect tense: separable verbs insert ge- (angerufen); inseparable verbs take no ge- (verkauft).",
+      "With zu + infinitive: aufzustehen (inside) vs. zu verkaufen (in front)."
+    ],
+    "quiz": [
+      {
+        "type": "rule_check",
+        "question": "Where does a separable prefix go in a main clause?",
+        "options": [
+          "Directly before the verb",
+          "At the end of the clause",
+          "In first position, before the subject",
+          "It is dropped entirely"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "Which is the correct perfect form of 'verkaufen'?",
+        "options": ["geverkauft", "verkauft", "verkauft gehabt", "vergekauft"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "Which of these prefixes is inseparable?",
+        "options": ["mit-", "ent-", "auf-", "zurück-"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "Which sentence is correct?",
+        "options": [
+          "Ich versuche, früh zu aufstehen.",
+          "Ich versuche, früh aufzustehen.",
+          "Ich versuche, früh aufstehen zu.",
+          "Ich versuche, früh zustehen auf."
+        ],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "What is the quickest spoken test for separability?",
+        "options": [
+          "Whether the verb takes the dative",
+          "Whether the prefix carries the stress",
+          "Whether the verb is regular",
+          "Whether the verb starts with a vowel"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "prefixes-inseparable",
+    "title": "Die untrennbaren Vorsilben",
+    "order": 3,
+    "module": "prefixes",
+    "unlocks": [],
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Eight prefixes, welded on",
+        "body": "The inseparable set is closed: be-, ent-, emp-, er-, ge-, miss-, ver-, zer-. Unlike the separable prefixes, which mostly describe physical direction, these describe what happens to the action itself — it lands on an object, it comes apart, it reaches its end, it goes wrong. They are more abstract and therefore harder, but there are only eight, and two of them barely exist.",
+        "example_de": "besprechen, entdecken, erreichen, verkaufen, zerbrechen",
+        "example_en": "to discuss, to discover, to attain, to sell, to shatter"
+      },
+      {
+        "type": "explanation",
+        "heading": "be- makes the verb transitive",
+        "body": "be- is the most mechanical of the eight. It takes a verb that needs a preposition and lets it take a direct object instead — it swallows the preposition. 'Auf eine Frage antworten' becomes 'eine Frage beantworten'. Whenever you meet a be- verb, expect the accusative and no preposition. The feeling is contact and coverage: the action is spread onto the thing.",
+        "example_de": "auf eine Frage antworten → eine Frage beantworten",
+        "example_en": "to answer to a question → to answer a question"
+      },
+      {
+        "type": "explanation",
+        "heading": "ver- has four branches",
+        "body": "ver- is the hardest prefix in German because it is three old prefixes that merged. Run these four in order when you meet a new one: away/gone (verkaufen, verschwinden); wrong, almost always reflexive (sich verlaufen, sich versprechen); transformation into a new state (verbessern, sich verlieben); used up or done to exhaustion (verbrauchen, verschlafen). One of the four almost always fits. The reflexive marker is your strongest clue — sich ver- nearly always means 'I did it wrong'.",
+        "example_de": "Ich habe mich verlaufen. / Ich habe mich versprochen.",
+        "example_en": "I got lost. / I misspoke."
+      },
+      {
+        "type": "explanation",
+        "heading": "The reliable ones, and the fossils",
+        "body": "zer- and miss- are the easiest: zer- always means into pieces, miss- always means wrongly, and miss- maps directly onto English mis-. er- means the action carried through to its result, which can be triumph (erreichen) or death (ertrinken) — the same arc either way. ge- is a fossil: it once meant 'together' but has drifted, so learn ge- verbs as vocabulary. emp- is not productive at all — only empfangen, empfehlen and empfinden exist.",
+        "example_de": "zerbrechen / missverstehen / erreichen / gehören / empfehlen",
+        "example_en": "to shatter / to misunderstand / to attain / to belong to / to recommend"
+      }
+    ],
+    "key_rules": [
+      "The inseparable set is closed: be-, ent-, emp-, er-, ge-, miss-, ver-, zer-.",
+      "be- makes an intransitive verb transitive — it swallows the preposition and takes the accusative.",
+      "ver- has four branches: away, wrong, transformed, used up. Reflexive sich ver- = done wrongly.",
+      "er- carries the action to its endpoint — achievement or death, same gesture.",
+      "ge- is fossilised (learn as vocabulary) and emp- has only three verbs."
+    ],
+    "quiz": [
+      {
+        "type": "rule_check",
+        "question": "What does be- do to a verb grammatically?",
+        "options": [
+          "Makes it reflexive",
+          "Makes it take a direct object instead of a preposition",
+          "Makes it irregular",
+          "Makes it take the dative"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "'Sich verlaufen' means to get lost. Which branch of ver- is that?",
+        "options": ["Away/gone", "Wrong", "Transformation", "Used up"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "Both 'erreichen' (to attain) and 'ertrinken' (to drown) use er-. What do they share?",
+        "options": [
+          "Both are reflexive",
+          "Both describe an action carried through to its endpoint",
+          "Both take the dative",
+          "Both are about water"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "Why is ge- treated differently from the other inseparable prefixes?",
+        "options": [
+          "It is actually separable",
+          "Its meaning has fossilised, so ge- verbs must be learned as vocabulary",
+          "It only appears in the past tense",
+          "It is not a real prefix"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "Which prefix reliably means 'into pieces'?",
+        "options": ["ent-", "er-", "zer-", "be-"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "prefixes-separable",
+    "title": "Die trennbaren Vorsilben",
+    "order": 4,
+    "module": "prefixes",
+    "unlocks": [],
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Mostly prepositions doing a second job",
+        "body": "Most separable prefixes are prepositions you already know: ab, an, auf, aus, bei, ein, mit, nach, vor, zu. Their prefix meaning is usually their preposition meaning made physical. If you know that 'aus' means out of, then 'aussteigen' (to get out) and 'auspacken' (to unpack) are free. This is the easiest group precisely because you are not learning new material, only a second use of it.",
+        "example_de": "aus → aussteigen, auspacken, ausziehen, ausgehen",
+        "example_en": "out of → to get out, to unpack, to move out, to go out"
+      },
+      {
+        "type": "explanation",
+        "heading": "Learn them as opposite pairs",
+        "body": "Separable prefixes come in natural pairs, and learning them paired doubles the return on each one. an- (contact, on) against ab- (detachment, off). ein- (into) against aus- (out of). auf- (up, open) against zu- (shut). her- (toward me) against hin- (away from me). Whenever you learn one, immediately ask what its opposite is.",
+        "example_de": "anmachen / ausmachen — einsteigen / aussteigen — aufmachen / zumachen",
+        "example_en": "switch on / switch off — get in / get out — open / close"
+      },
+      {
+        "type": "explanation",
+        "heading": "The her-/hin- axis: German encodes viewpoint",
+        "body": "German marks direction relative to the speaker in a way English does not. her- means toward me, hin- means away from me toward a target. 'Komm her' is come here; 'geh hin' is go there. They also stack with other prepositions to make precise compounds: herein (in, toward me), hinaus (out, away from me), herunter, hinauf. In speech these shorten — reinkommen, runterkommen.",
+        "example_de": "Wo kommst du her? / Wo gehst du hin?",
+        "example_en": "Where do you come from? / Where are you going to?"
+      },
+      {
+        "type": "explanation",
+        "heading": "The high-value ones for a learner",
+        "body": "Three separable prefixes are worth learning early because they attach to almost anything and rarely surprise you. mit- always means together with, and never anything else. weiter- means carry on doing it, and can be bolted onto nearly any verb. zurück- means back, and maps almost exactly onto English re-. These three are safe to experiment with: if you invent a verb with them, you will usually be right.",
+        "example_de": "mitkommen, weitermachen, zurückgeben",
+        "example_en": "to come along, to carry on, to give back"
+      }
+    ],
+    "key_rules": [
+      "Most separable prefixes are prepositions reused — their prefix meaning follows their preposition meaning.",
+      "Learn them in opposite pairs: an/ab, ein/aus, auf/zu, her/hin.",
+      "her- = toward the speaker; hin- = away from the speaker toward a target.",
+      "mit-, weiter- and zurück- are the most predictable and safest to build with.",
+      "zu- has two jobs: shut (zumachen) and toward a person (zuhören + dative). The dative tells you which."
+    ],
+    "quiz": [
+      {
+        "type": "rule_check",
+        "question": "What is the natural opposite of 'anmachen' (to switch on)?",
+        "options": ["abmachen", "ausmachen", "zumachen", "einmachen"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "What does her- signal?",
+        "options": [
+          "Motion toward the speaker",
+          "Motion away from the speaker",
+          "Repetition",
+          "Completion"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "rule_check",
+        "question": "'Ich höre dir zu' — how do you know zu- here means 'toward you' and not 'shut'?",
+        "options": [
+          "Because the verb is irregular",
+          "Because there is a dative object",
+          "Because zu- is always 'toward'",
+          "Because the sentence is in the present tense"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "Which prefix means 'together with' and essentially nothing else?",
+        "options": ["bei-", "zusammen-", "mit-", "an-"],
+        "correct": 2
+      },
+      {
+        "type": "rule_check",
+        "question": "Which prefix maps most closely onto English 're-' / 'back'?",
+        "options": ["wieder-", "zurück-", "nach-", "weiter-"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "prefixes-dual",
+    "title": "Die Wechselpräfixe",
+    "order": 5,
+    "module": "prefixes",
+    "unlocks": [],
+    "sections": [
+      {
+        "type": "explanation",
+        "heading": "Seven prefixes that do both",
+        "body": "durch-, hinter-, über-, um-, unter-, wider- and wieder- can be separable or inseparable, and the choice is not arbitrary. The rule is remarkably consistent: when the meaning is literal and physical, the prefix separates. When the meaning is figurative or abstract, it does not. Learn the rule once and seven prefixes resolve at the same time.",
+        "example_de": "Der Topf läuft über. / Er ist zum Feind übergelaufen.",
+        "example_en": "The pot boils over. (literal, separable) / He defected to the enemy. (figurative)"
+      },
+      {
+        "type": "explanation",
+        "heading": "Stress tells you which one you are hearing",
+        "body": "Because the two versions are spelled identically, stress is the only spoken signal. Stressed prefix = separable = literal. Unstressed prefix = inseparable = figurative. The classic pair is umfahren: ÚMfahren means to run someone over, umFÁHren means to drive around them. Same letters, opposite outcomes, and only the stress distinguishes them.",
+        "example_de": "Ich fahre den Radfahrer úm. / Ich umfáhre den Radfahrer.",
+        "example_en": "I run the cyclist over. / I drive around the cyclist."
+      },
+      {
+        "type": "explanation",
+        "heading": "über- and unter- carry the most weight",
+        "body": "über- inseparable fans out into four figurative senses: across (übersetzen, to translate), beyond a limit (übertreiben, überleben), covering (überzeugen), and missing by passing over (übersehen, to overlook — exactly like the English word). unter- inseparable splits between propping up from below (unterstützen, unterhalten), getting underneath to examine (untersuchen), and pressing down (unterdrücken). Ask which way the force is going.",
+        "example_de": "übersehen / überleben / unterstützen / unterdrücken",
+        "example_en": "to overlook / to survive / to support / to suppress"
+      },
+      {
+        "type": "explanation",
+        "heading": "wider- and wieder-: one letter apart",
+        "body": "These two are pronounced almost identically and mean completely different things. wider- (one e) means against: widersprechen, to contradict; widerstehen, to resist. wieder- (two e's) means again: wiedersehen, wiederholen. Fix it by remembering that English 'withstand' preserves the old 'against' sense of wider. Note the exception: wiederholen (to repeat) is inseparable, while almost every other wieder- verb separates.",
+        "example_de": "Ich widerspreche dir. / Ich wiederhole den Satz.",
+        "example_en": "I contradict you. / I repeat the sentence."
+      }
+    ],
+    "key_rules": [
+      "Literal and physical → separable. Figurative and abstract → inseparable.",
+      "Stress is the only spoken signal: stressed = separable = literal.",
+      "úmfahren (run over) vs. umfáhren (drive around) — same spelling, opposite meaning.",
+      "wider- (one e) = against. wieder- (two e's) = again.",
+      "wiederholen (to repeat) is the notable inseparable exception among wieder- verbs."
+    ],
+    "quiz": [
+      {
+        "type": "rule_check",
+        "question": "For a dual prefix, when does it separate?",
+        "options": [
+          "When the meaning is figurative",
+          "When the meaning is literal and physical",
+          "Only in the perfect tense",
+          "Only in subordinate clauses"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "'Ich umfáhre den Radfahrer' (unstressed prefix) means:",
+        "options": [
+          "I run the cyclist over",
+          "I drive around the cyclist",
+          "I overtake the cyclist",
+          "I follow the cyclist"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "What does 'übersehen' mean?",
+        "options": ["To supervise", "To translate", "To overlook, to miss", "To look across"],
+        "correct": 2
+      },
+      {
+        "type": "rule_check",
+        "question": "Which means 'to contradict'?",
+        "options": ["wiedersprechen", "widersprechen", "wiederholen", "widerholen"],
+        "correct": 1
+      },
+      {
+        "type": "rule_check",
+        "question": "'Unterstützen' means to support. Which sense of unter- is that?",
+        "options": [
+          "Pressing down from above",
+          "Propping up from below",
+          "Getting underneath to examine",
+          "Interrupting a flow"
+        ],
+        "correct": 1
+      }
+    ]
+  }
+]

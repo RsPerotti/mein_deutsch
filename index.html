@@ -751,10 +751,60 @@
     </div>
   </div>
 
+  <!-- ═══════════════════════════════════════════
+       SCREEN: Alle Vorsilben — Reference
+  ═══════════════════════════════════════════ -->
+  <div id="screen-prefix-reference" class="screen">
+    <div class="nav-header">
+      <button class="back-btn" onclick="navigateBack()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+             stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"/>
+        </svg>
+      </button>
+      <span class="nav-context">Alle Vorsilben</span>
+    </div>
+
+    <div class="screen-content" style="padding-top:0">
+      <!-- Search + group filter -->
+      <div class="particle-ref-controls">
+        <input id="prefix-ref-search" class="particle-ref-search"
+               type="search" placeholder="Vorsilbe oder Verb suchen…"
+               oninput="filterPrefixSearch(this.value)">
+        <div class="particle-sort-toggle">
+          <button class="particle-sort-btn prefix-group-btn" data-group="alle"
+                  onclick="setPrefixGroup('alle')">Alle</button>
+          <button class="particle-sort-btn prefix-group-btn" data-group="trennbar"
+                  onclick="setPrefixGroup('trennbar')">Trennbar</button>
+          <button class="particle-sort-btn prefix-group-btn" data-group="untrennbar"
+                  onclick="setPrefixGroup('untrennbar')">Untrennbar</button>
+          <button class="particle-sort-btn prefix-group-btn" data-group="beide"
+                  onclick="setPrefixGroup('beide')">Beide</button>
+        </div>
+      </div>
+
+      <!-- Prefix list (populated by renderVorsilbenliste) -->
+      <div id="prefix-ref-list"></div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       BOTTOM SHEET: Prefix detail reference card
+  ═══════════════════════════════════════════ -->
+  <div class="sheet-overlay" id="prefix-detail-overlay" onclick="closePrefixDetail()"></div>
+  <div class="bottom-sheet particle-detail-sheet" id="prefix-detail-sheet">
+    <div class="bottom-sheet-handle"></div>
+    <div class="screen-content" style="padding-top:0;overflow-y:auto;max-height:70vh"
+         id="prefix-detail-content">
+      <!-- populated by showPrefixDetail() -->
+    </div>
+  </div>
+
   <!-- JS — load order matters -->
   <script src="js/data.js"></script>
   <script src="js/listening-data.js"></script>
   <script src="js/particles-data.js"></script>
+  <script src="js/prefixes-data.js"></script>
   <script src="js/grammar-data.js"></script>
   <script src="js/article-grammar-data.js"></script>
   <script src="js/declension-data.js"></script>

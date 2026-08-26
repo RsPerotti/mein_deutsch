@@ -402,6 +402,24 @@ function submitGrammarAnswer(selectedIndex) {
 /**
  * Advance to next question, or show results if all done.
  */
+/**
+ * Results renderers, keyed by _grammarQuizState.module.
+ *
+ * BUGFIX (Session 37): advanceGrammarQuiz() previously always called
+ * _renderGrammarQuizResults(), which records into the Verbs `Grammar` store.
+ * That meant Partikeln / Artikel / Deklinationen quiz completions were written
+ * against the wrong singleton — their own lessons never reached 'complete', so
+ * the Grammatik accordion dots never turned green, and stray lesson IDs were
+ * written into app_grammar_lessons. onScreenEnter already dispatched on
+ * state.module; this path did not. Now both do.
+ */
+const _QUIZ_RESULT_RENDERERS = {
+  particles:   () => _renderParticleQuizResults(),
+  artikel:     () => _renderArticleQuizResults(),
+  deklination: () => _renderDeklinationQuizResults(),
+  prefixes:    () => _renderPrefixQuizResults()
+};
+
 function advanceGrammarQuiz() {
   const state = window._grammarQuizState;
   if (!state) return;
@@ -409,7 +427,9 @@ function advanceGrammarQuiz() {
   state.answered = false;
 
   if (state.currentIndex >= state.questions.length) {
-    _renderGrammarQuizResults();
+    const renderer = _QUIZ_RESULT_RENDERERS[state.module];
+    if (renderer) renderer();
+    else _renderGrammarQuizResults();
   } else {
     _renderGrammarQuizQuestion();
     // Clear progress label briefly then re-set (already correct — just re-render)
@@ -1364,6 +1384,295 @@ function _renderDeklGrammatikStrip(lessons) {
         </svg>
       </div>
       <div class="${bodyClass}" id="dekl-gram-body">
+        ${rows}
+      </div>
+    </div>`;
+}
+
+// ─────────────────────────────────────────
+// VORSILBEN GRAMMAR — Session 37
+// Mirrors DeclensionGrammar. No gating: lessons are reference + quiz only.
+// localStorage key: app_grammar_prefix_lessons
+// ─────────────────────────────────────────
+
+const PrefixGrammar = {
+
+  KEY: 'app_grammar_prefix_lessons',
+
+  PASS_THRESHOLD: 0.8,
+
+  LESSON_IDS: [
+    'prefixes-intro',
+    'prefixes-separability',
+    'prefixes-inseparable',
+    'prefixes-separable',
+    'prefixes-dual'
+  ],
+
+  _get() {
+    try {
+      const raw = localStorage.getItem(this.KEY);
+      return raw !== null ? JSON.parse(raw) : null;
+    } catch { return null; }
+  },
+
+  _set(value) {
+    try { localStorage.setItem(this.KEY, JSON.stringify(value)); }
+    catch (e) { console.warn('PrefixGrammar: localStorage write failed', e); }
+  },
+
+  getLessonState(lessonId) {
+    const all = this._get() || {};
+    return all[lessonId] || { status: 'locked', score: null, attempts: 0 };
+  },
+
+  setLessonState(lessonId, partial) {
+    const all = this._get() || {};
+    all[lessonId] = { ...this.getLessonState(lessonId), ...partial };
+    this._set(all);
+  },
+
+  isComplete(lessonId) {
+    return this.getLessonState(lessonId).status === 'complete';
+  },
+
+  markStarted(lessonId) {
+    const current = this.getLessonState(lessonId);
+    if (current.status === 'locked') {
+      this.setLessonState(lessonId, { status: 'in_progress' });
+    }
+  },
+
+  recordQuizResult(lessonId, correctCount, totalCount) {
+    const score   = totalCount > 0 ? correctCount / totalCount : 0;
+    const passed  = score >= this.PASS_THRESHOLD;
+    const current = this.getLessonState(lessonId);
+    this.setLessonState(lessonId, {
+      status:   passed ? 'complete' : 'in_progress',
+      score:    score,
+      attempts: (current.attempts || 0) + 1
+    });
+    return passed;
+  },
+
+  init() {
+    if (this._get() !== null) return;
+    const state = {};
+    for (const id of this.LESSON_IDS) {
+      state[id] = { status: 'locked', score: null, attempts: 0 };
+    }
+    this._set(state);
+    console.log('[PrefixGrammar] Initialised — all lessons locked for new user.');
+  }
+
+};
+
+function _prefixLessons() {
+  return (typeof PREFIXES_DATA !== 'undefined' && PREFIXES_DATA.lessons)
+    ? PREFIXES_DATA.lessons : [];
+}
+
+// ─────────────────────────────────────────
+// VORSILBEN LESSON RENDERER
+// ─────────────────────────────────────────
+
+function openPrefixLesson(lessonId) {
+  window._currentGrammarLessonId = lessonId;
+  window._currentGrammarModule   = 'prefixes';
+  navigateTo('screen-grammar-lesson');
+}
+
+function renderPrefixLesson(lessonId) {
+  const lesson = _prefixLessons().find(l => l.id === lessonId);
+
+  if (!lesson) {
+    document.getElementById('grammar-lesson-content').innerHTML =
+      '<div style="padding:var(--sp-6);color:var(--color-text-muted)">Lektion nicht gefunden.</div>';
+    return;
+  }
+
+  PrefixGrammar.markStarted(lessonId);
+
+  document.getElementById('grammar-lesson-nav-context').textContent =
+    'Vorsilben · ' + lesson.title;
+
+  const sectionsHtml = (lesson.sections || []).map(sec => `
+    <div class="grammar-section">
+      <h2 class="grammar-section-heading">${sec.heading}</h2>
+      <p class="grammar-section-body">${sec.body}</p>
+      ${sec.example_de ? `
+        <div class="grammar-example">
+          <div class="grammar-example-de">${sec.example_de}</div>
+          <div class="grammar-example-en">${sec.example_en || ''}</div>
+        </div>` : ''}
+    </div>`).join('');
+
+  const rulesHtml = (lesson.key_rules || []).length > 0 ? `
+    <div class="grammar-key-rules">
+      <div class="grammar-key-rules-heading">Schlüsselregeln</div>
+      <ul>
+        ${lesson.key_rules.map(r => `<li>${r}</li>`).join('')}
+      </ul>
+    </div>` : '';
+
+  const quizCount  = (lesson.quiz || []).length;
+  const state      = PrefixGrammar.getLessonState(lessonId);
+  const isComplete = state.status === 'complete';
+  const ctaLabel   = isComplete
+    ? `Quiz wiederholen · ${quizCount} Fragen`
+    : `Quiz starten · ${quizCount} Fragen`;
+
+  const ctaHtml = quizCount > 0 ? `
+    <div class="grammar-cta-area">
+      <button onclick="startPrefixQuiz('${lessonId}')">${ctaLabel}</button>
+    </div>` : '';
+
+  document.getElementById('grammar-lesson-content').innerHTML = `
+    <div class="grammar-lesson-body">
+      <h1 class="grammar-lesson-title">${lesson.title}</h1>
+      ${sectionsHtml}
+      ${rulesHtml}
+    </div>
+    ${ctaHtml}`;
+
+  document.getElementById('grammar-lesson-content').scrollTop = 0;
+}
+
+function startPrefixQuiz(lessonId) {
+  const lesson = _prefixLessons().find(l => l.id === lessonId);
+  if (!lesson) return;
+
+  const questions = (lesson.quiz || []).filter(q => q.type === 'rule_check');
+
+  window._grammarQuizState = {
+    lessonId,
+    questions,
+    currentIndex: 0,
+    correctCount: 0,
+    answered:     false,
+    module:       'prefixes'
+  };
+
+  if (typeof currentScreen !== 'undefined' && currentScreen === 'screen-grammar-quiz') {
+    renderPrefixQuiz();
+  } else {
+    navigateTo('screen-grammar-quiz');
+  }
+}
+
+function renderPrefixQuiz() {
+  const state = window._grammarQuizState;
+  if (!state) return;
+
+  const lesson = _prefixLessons().find(l => l.id === state.lessonId);
+
+  document.getElementById('grammar-quiz-nav-context').textContent =
+    (lesson ? lesson.title : 'Quiz') + ' · Quiz';
+
+  if (state.currentIndex >= state.questions.length) {
+    _renderPrefixQuizResults();
+    return;
+  }
+
+  _renderGrammarQuizQuestion(); // shared question renderer
+}
+
+function _renderPrefixQuizResults() {
+  const state   = window._grammarQuizState;
+  const total   = state.questions.length;
+  const correct = state.correctCount;
+  const pct     = total > 0 ? Math.round(correct / total * 100) : 0;
+
+  const passed  = PrefixGrammar.recordQuizResult(state.lessonId, correct, total);
+
+  const progEl = document.getElementById('grammar-quiz-progress');
+  if (progEl) progEl.textContent = '';
+
+  const passHtml = `
+    <div class="quiz-results-status passed">✓ Bestanden</div>
+    <button class="primary-btn" style="margin-bottom:var(--sp-3)"
+            onclick="navigateBack();navigateBack()">Zurück zu Vorsilben</button>
+    <button class="secondary-btn"
+            onclick="startPrefixQuiz('${state.lessonId}')">Quiz wiederholen</button>`;
+
+  const failHtml = `
+    <div class="quiz-results-status failed">
+      Noch nicht bestanden. Du brauchst ${Math.ceil(PrefixGrammar.PASS_THRESHOLD * total)} / ${total} richtig.
+    </div>
+    <button class="primary-btn" style="margin-bottom:var(--sp-3)"
+            onclick="startPrefixQuiz('${state.lessonId}')">Noch einmal versuchen</button>
+    <button class="secondary-btn"
+            onclick="navigateBack()">Lektion nochmal lesen</button>`;
+
+  document.getElementById('grammar-quiz-content').innerHTML = `
+    <div style="padding:var(--sp-4)">
+      <div class="quiz-results-card">
+        <div class="quiz-results-score">${pct}%</div>
+        <div class="quiz-results-label">${correct} / ${total} richtig</div>
+        ${passed ? passHtml : failHtml}
+      </div>
+    </div>`;
+}
+
+// ─────────────────────────────────────────
+// VORSILBEN GRAMMATIK ACCORDION
+// ─────────────────────────────────────────
+
+let _prefixGramOpen = false;
+
+function togglePrefixGrammatikAccordion() {
+  _prefixGramOpen = !_prefixGramOpen;
+  const body    = document.getElementById('prefix-gram-body');
+  const chevron = document.getElementById('prefix-gram-chevron');
+  if (body)    body.classList.toggle('open', _prefixGramOpen);
+  if (chevron) chevron.style.transform = _prefixGramOpen ? 'rotate(180deg)' : '';
+}
+
+function _renderPrefixGrammatikStrip(lessons) {
+  const total     = lessons.length;
+  const done      = lessons.filter(l => PrefixGrammar.isComplete(l.id)).length;
+  const bodyClass = _prefixGramOpen ? 'grammatik-accordion-body open' : 'grammatik-accordion-body';
+  const chevronStyle = _prefixGramOpen
+    ? 'style="color:var(--color-text-muted);transition:transform 0.2s;flex-shrink:0;transform:rotate(180deg)"'
+    : 'style="color:var(--color-text-muted);transition:transform 0.2s;flex-shrink:0"';
+
+  const dotColor = {
+    locked:      'var(--color-text-muted)',
+    in_progress: '#D97706',
+    complete:    'var(--color-green-accent)'
+  };
+
+  const rows = lessons.map(l => {
+    const state  = PrefixGrammar.getLessonState(l.id);
+    const status = state.status || 'locked';
+    const color  = dotColor[status] || dotColor.locked;
+    return `
+    <div class="grammatik-row" onclick="openPrefixLesson('${l.id}')">
+      <span class="grammatik-row-dot" style="background:${color}"></span>
+      <span class="grammatik-row-title">${l.title}</span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+           stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+           style="color:var(--color-text-muted);flex-shrink:0">
+        <polyline points="9 18 15 12 9 6"/>
+      </svg>
+    </div>`;
+  }).join('');
+
+  return `
+    <div class="grammatik-accordion mt-4">
+      <div class="grammatik-accordion-header" onclick="togglePrefixGrammatikAccordion()">
+        <div class="grammatik-accordion-left">
+          <span class="grammatik-accordion-label">Grammatik</span>
+          <span class="grammatik-accordion-count">${done} / ${total}</span>
+        </div>
+        <svg id="prefix-gram-chevron" width="16" height="16" viewBox="0 0 24 24"
+             fill="none" stroke="currentColor" stroke-width="2.5"
+             stroke-linecap="round" stroke-linejoin="round"
+             ${chevronStyle}>
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </div>
+      <div class="${bodyClass}" id="prefix-gram-body">
         ${rows}
       </div>
     </div>`;

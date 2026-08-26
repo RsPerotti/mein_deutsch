@@ -2,6 +2,51 @@
 
 ---
 
+## 2026-08-26 — Session 37: Vorsilben module (v14 — built, not pushed)
+
+**PRD:** `PRD_Vorsilben.md` — signed off same session. **Not committed. Not pushed.** Working tree is dirty; Ricco to review and push.
+
+**Origin:** started outside the app entirely — Ricco asked for a feeling-driven reference to all German verb prefixes, which became a 35-prefix / 350-example HTML artifact. That artifact then became the content source for a new module. `_factory/vorsilben/source-reference.html` is the reviewed source.
+
+**Decision: standalone module, not an addition to Verbs.**
+Considered folding it into the Verbs module (prefix verbs already live there as 154 `prefix_variants`) and rejected it: Verbs already carries 2,644 exercises plus the Präsens/Vergangenheit tab toggle, and the skill is different — Verbs teaches *this verb means this*, Vorsilben teaches *why it means that*. The Partikeln architecture mapped onto the content almost field-for-field, so the module is a clone of it.
+
+**Scope decisions (sign-off):**
+- Filter axis is **separability, not CEFR** — deliberate departure from every other module. `ver-` is A2 in *verkaufen* and C1 in *sich versprechen*; CEFR would have been a fiction. Separability is what actually governs the sentence.
+- Two exercise types: `select_prefix` (build) and `select_feeling` (decode). Both directions, because knowing *ver- = away* does not mean you can produce *verkaufen*.
+- 10 per prefix (6 + 4). 33 drilled prefixes → 330 exercises.
+- No gating (Artikel/Deklinationen model). Feedback card after every answer instead.
+- `emp-` and `hinter-` are **reference-only**. `emp-` has exactly 3 real verbs; `hinter-` ~7. Drilling a rule that does not generalise teaches the wrong lesson. Their cards say so explicitly.
+- Two releases: v14 = module, v15 = `verbs.json` reconciliation. Keeps a new module's device QA away from a rewrite of the largest data file.
+
+**Built:**
+- `data/prefixes.json` — 35 prefixes (8 untrennbar / 20 trennbar / 7 beide), each with core feeling, feeling paragraph, mnemonic, `related`, and 10 worked examples (verb, root, English, why, `in_app`, `drillable`).
+- `data/grammar/prefix-lessons.json` — 5 lessons, Artikel format (4 sections + key_rules + 5 rule_check questions).
+- `_factory/generate-prefixes.py` — deterministic (fixed seed). Every exercise derived from a reviewed example; nothing invented at generation time.
+- `_factory/validate-prefixes.py` — independent copy of the near-synonym exclusion table + 6 check families. **330 exercises, 0 integrity errors.**
+- `_factory/bundle-prefixes.py` → `js/prefixes-data.js` (277 KB).
+- `_factory/qa-prefixes.js` — 49-check headless jsdom suite covering data wiring, module home, reference screen, group filter, search, detail sheet, closed-set notice, lessons, quiz recording, both exercise types, feedback card, cooldown, results, plus regressions on Verbs / Partikeln / Deklinationen.
+- UI: `screen-prefix-reference` + detail bottom sheet in `index.html`; `_renderPrefixModuleCategories`, `renderVorsilbenliste`, `showPrefixDetail` in `app.js`; `PrefixGrammar` + lesson/quiz renderers in `grammar.js`; the exercise engine in `exercises.js`; ~150 lines of CSS reusing the `.particle-*` classes.
+
+**Two bugs the validator caught (content):**
+- `missgelingen` / `missgefallen` — the source listed roots as `gelingen` / `gefallen`, but miss- *replaces* ge-. Prefix + root did not reconstruct the answer verb, so a `select_prefix` prompt would have taught a non-word. Both dropped from the drill pool; still present as reference examples.
+- Duplicate `(root, prefix)` keys — `widersprechen` and `der Widerspruch` share root `sprechen`, and the naive scalar index silently overwrote the verb with the noun. Index is now a set.
+
+**One bug found in existing code (fixed):**
+`advanceGrammarQuiz()` was the single shared quiz-advance path and always called `_renderGrammarQuizResults()`, which records into the Verbs `Grammar` singleton. So **Partikeln, Artikel and Deklinationen quiz completions have never been recorded against their own modules** — their Grammatik dots never turned green, and their lesson IDs were written as stray keys into `app_grammar_lessons`. `onScreenEnter` already dispatched on `state.module`; this path did not. Now dispatches via `_QUIZ_RESULT_RENDERERS`. Regression test added.
+*Not retroactive:* previously-completed lessons in those three modules will still show as incomplete. No migration written — single user, low stakes, redoing a quiz fixes it.
+
+**Deliberately not done:**
+- `js/data.js` not rebundled. The Vorsilben module descriptor rides in `js/prefixes-data.js` and is merged in `loadData()`, the same mechanism the listening module uses. Avoided 2.2 MB of churn for one JSON object.
+- No commit, no push. Reversibility rule — Ricco reviews and pushes.
+- Phase 6 (reconciliation) not started. Measured: of 342 reference verbs, **79** already in `verbs.json`, **142** missing with root present (the v15 job, ~1,100 new exercises), **121** missing with no root either (future Wörter intake).
+
+**Open:**
+- Device QA — `select_feeling` options are full sentences and wrap to several lines at 430px. Needs a look on the phone.
+- v15: the 142 variants + per-variant `grammar` override (fixes the `verstehen` case-badge bug in the same pass).
+
+---
+
 ## 2026-07-09 — Session 36: Adjektiv-Deklinationen (v13)
 
 **PRD:** `PRD_Deklinationen.md` — signed off same session. Commit `00dea53`, pushed and live (v13).

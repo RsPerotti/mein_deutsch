@@ -2445,3 +2445,154 @@ button {
   background: var(--color-wrong-bg);
   color: var(--color-wrong);
 }
+
+/* ═══════════════════════════════════════════════════════
+   VORSILBEN (Prefixes) — Session 37
+   Reuses .particle-ref-* and .particle-detail-* wholesale.
+   Only the prefix-specific pieces live here.
+   ═══════════════════════════════════════════════════════ */
+
+/* Group filter sits four-across, so the buttons must shrink */
+.prefix-group-btn {
+  flex: 1;
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 12px;
+}
+
+/* Group badge — colour-codes trennbar / untrennbar / beide */
+.prefix-group-badge {
+  font-size: 10px;
+  font-weight: var(--fw-semibold);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 999px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.prefix-group-badge.g-trennbar   { background: rgba(29, 78, 216, 0.10); color: #1D4ED8; }
+.prefix-group-badge.g-untrennbar { background: rgba(154, 52, 18, 0.10);  color: #9A3412; }
+.prefix-group-badge.g-beide      { background: rgba(109, 40, 217, 0.10); color: #6D28D9; }
+
+/* Reference row: prefix + core feeling + group badge */
+.prefix-ref-row-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+/* Detail sheet — mnemonic block */
+.prefix-mnemonic {
+  background: rgba(141, 196, 74, 0.13);
+  border-left: 3px solid var(--color-green-lime);
+  border-radius: 0 8px 8px 0;
+  padding: 10px 12px;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-primary);
+  line-height: 1.5;
+  margin-top: var(--sp-2);
+}
+
+/* Detail sheet — worked example rows */
+.prefix-example {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--color-border-light, rgba(0,0,0,0.06));
+}
+.prefix-example:last-child { border-bottom: none; }
+
+.prefix-example-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.prefix-example-verb {
+  font-size: var(--font-size-base);
+  font-weight: var(--fw-semibold);
+  color: var(--color-text-primary);
+}
+.prefix-example-root {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+}
+.prefix-example-en {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-top: 1px;
+}
+.prefix-example-why {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+  margin-top: 4px;
+}
+.prefix-example-inapp {
+  font-size: 10px;
+  font-weight: var(--fw-semibold);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-green-accent);
+  background: rgba(45, 74, 26, 0.08);
+  border-radius: 999px;
+  padding: 1px 6px;
+}
+
+/* Reference-only notice for emp- / hinter- */
+.prefix-closed-set {
+  background: rgba(217, 119, 6, 0.08);
+  border-left: 3px solid #D97706;
+  border-radius: 0 8px 8px 0;
+  padding: 10px 12px;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+  margin-bottom: var(--sp-4);
+}
+
+/* Exercise: the "root + meaning" prompt card */
+.prefix-prompt {
+  text-align: center;
+  padding: var(--sp-5) var(--sp-3) var(--sp-4);
+}
+.prefix-prompt-root {
+  font-size: 2.1rem;
+  font-weight: var(--fw-bold);
+  color: var(--color-text-primary);
+  line-height: 1.1;
+}
+.prefix-prompt-arrow {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-muted);
+  margin: var(--sp-2) 0;
+}
+.prefix-prompt-target {
+  font-size: var(--font-size-lg);
+  font-weight: var(--fw-semibold);
+  color: var(--color-green-accent);
+}
+.prefix-prompt-hint {
+  font-size: var(--font-size-xs);
+  letter-spacing: var(--ls-label);
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin-bottom: var(--sp-3);
+}
+
+/* select_feeling options are full sentences — stack them, left-aligned */
+.prefix-feeling-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  padding: 0 var(--sp-2) var(--sp-3);
+}
+.prefix-feeling-grid .option-btn {
+  text-align: left;
+  line-height: 1.4;
+  padding: var(--sp-3) var(--sp-4);
+  font-size: var(--font-size-sm);
+  height: auto;
+  min-height: 0;
+  white-space: normal;
+}

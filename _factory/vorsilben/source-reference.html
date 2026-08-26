@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>German Prefixes — The Feeling Map</title>
+<style>
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: #faf9f7; color: #1c1b19;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 15px; line-height: 1.55;
+}
+.wrap { max-width: 940px; margin: 0 auto; padding: 28px 20px 80px; }
+header h1 { font-size: 27px; margin: 0 0 6px; letter-spacing: -0.02em; }
+header p.sub { margin: 0 0 22px; color: #6b665e; font-size: 14px; max-width: 640px; }
+
+.controls { position: sticky; top: 0; background: #faf9f7; padding: 12px 0 14px; z-index: 20; border-bottom: 1px solid #e8e4dd; margin-bottom: 4px; }
+#q { width: 100%; padding: 10px 13px; font-size: 15px; border: 1px solid #d9d4cb; border-radius: 9px; background: #fff; color: #1c1b19; }
+#q:focus { outline: none; border-color: #b08968; box-shadow: 0 0 0 3px rgba(176,137,104,.15); }
+.filters { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 10px; align-items: center; }
+.chip { border: 1px solid #d9d4cb; background: #fff; color: #4a463f; padding: 5px 11px; border-radius: 999px; font-size: 12.5px; cursor: pointer; font-family: inherit; }
+.chip:hover { border-color: #b08968; }
+.chip.on { background: #1c1b19; color: #fff; border-color: #1c1b19; }
+.count { margin-left: auto; font-size: 12.5px; color: #8a857c; }
+
+.index { display: flex; flex-wrap: wrap; gap: 6px; margin: 18px 0 26px; }
+.index a { font-size: 13px; text-decoration: none; color: #4a463f; background: #fff; border: 1px solid #e8e4dd; padding: 4px 9px; border-radius: 6px; font-weight: 600; }
+.index a:hover { border-color: #b08968; color: #8a5a2b; }
+
+.card { background: #fff; border: 1px solid #e8e4dd; border-radius: 13px; margin-bottom: 16px; overflow: hidden; scroll-margin-top: 110px; }
+.head { padding: 17px 20px; cursor: pointer; display: flex; align-items: flex-start; gap: 13px; }
+.head:hover { background: #fcfbf9; }
+.pfx { font-size: 21px; font-weight: 700; letter-spacing: -0.01em; min-width: 108px; }
+.pfx .kind { display: block; font-size: 10.5px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; margin-top: 3px; }
+.k-insep { color: #9a3412; }
+.k-sep { color: #1d4ed8; }
+.k-dual { color: #6d28d9; }
+.gloss { flex: 1; }
+.gloss .core { font-weight: 600; font-size: 15px; }
+.gloss .hint { color: #6b665e; font-size: 13.5px; margin-top: 2px; }
+.arrow { color: #b5afa4; font-size: 13px; padding-top: 4px; transition: transform .15s; }
+.card.open .arrow { transform: rotate(90deg); }
+
+.body { display: none; padding: 0 20px 20px; border-top: 1px solid #f0ece5; }
+.card.open .body { display: block; }
+.feel { margin: 16px 0 18px; font-size: 14.5px; }
+.feel strong { color: #8a5a2b; }
+.mnemo { background: #fdf8f1; border-left: 3px solid #d9a441; padding: 9px 13px; border-radius: 0 7px 7px 0; font-size: 13.5px; margin: 14px 0 18px; }
+table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+th { text-align: left; font-size: 10.5px; text-transform: uppercase; letter-spacing: .07em; color: #8a857c; padding: 0 8px 7px 0; font-weight: 600; border-bottom: 1px solid #eee9e1; }
+td { padding: 9px 8px 9px 0; border-bottom: 1px solid #f4f1ea; vertical-align: top; }
+tr:last-child td { border-bottom: none; }
+td.v { font-weight: 600; white-space: nowrap; }
+td.v .root { display: block; font-weight: 400; color: #a09a90; font-size: 12px; margin-top: 1px; }
+td.en { color: #4a463f; width: 27%; }
+td.why { color: #6b665e; font-size: 13px; }
+mark { background: #fbeec4; color: inherit; border-radius: 3px; padding: 0 1px; }
+.empty { text-align: center; color: #8a857c; padding: 50px 0; }
+.legend { font-size: 12.5px; color: #8a857c; margin: 0 0 18px; }
+.legend b { color: #4a463f; }
+footer { margin-top: 40px; font-size: 12.5px; color: #a09a90; border-top: 1px solid #e8e4dd; padding-top: 16px; }
+@media (max-width: 640px) {
+  .head { flex-wrap: wrap; }
+  .pfx { min-width: 0; }
+  td.en { width: auto; }
+  table, thead, tbody, tr, td, th { display: block; }
+  thead { display: none; }
+  td { border: none; padding: 2px 0; }
+  tr { border-bottom: 1px solid #f4f1ea; padding: 10px 0; display: block; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>German Prefixes — The Feeling Map</h1>
+  <p class="sub">Every German prefix carries a physical intuition before it carries a meaning. Learn the gesture, and hundreds of verbs stop being vocabulary and start being predictable.</p>
+</header>
+
+<div class="controls">
+  <input id="q" type="search" placeholder="Search a prefix, a verb, or an English meaning…" autocomplete="off">
+  <div class="filters">
+    <button class="chip on" data-f="all">All</button>
+    <button class="chip" data-f="insep">Inseparable</button>
+    <button class="chip" data-f="sep">Separable</button>
+    <button class="chip" data-f="dual">Both</button>
+    <button class="chip" data-f="expand">Expand all</button>
+    <span class="count" id="count"></span>
+  </div>
+</div>
+
+<p class="legend"><b>Inseparable</b> — glued to the verb, never moves, no <i>ge-</i> in the perfect (<i>ich habe verkauft</i>). &nbsp;<b>Separable</b> — stressed, kicks to the end of the clause (<i>ich rufe dich an</i>). &nbsp;<b>Both</b> — separable when literal/physical, inseparable when figurative.</p>
+
+<nav class="index" id="index"></nav>
+<div id="list"></div>
+
+<footer>Built as a feeling-first reference. The "why" column is a mnemonic bridge, not an etymology — a few are folk-logic rather than historical fact, but they hold the meaning in place.</footer>
+</div>
+
+<script>
+const DATA = [
+
+/* ============ INSEPARABLE ============ */
+
+{ p: "be-", kind: "insep", core: "Apply the action directly onto a thing",
+  hint: "Takes a verb that wanders and points it at an object — covering it, treating it, doing it all over.",
+  feel: "<strong>be-</strong> is a hand pressing down on a surface. It takes an intransitive verb — one that just happens — and forces it to land on a direct object. <em>Sprechen</em> is to speak, floating; <em>besprechen</em> is to speak all over a topic until it is covered. Wherever you meet <em>be-</em>, expect the accusative: no <em>über</em>, no <em>zu</em>, no preposition at all. The thing itself becomes the target. Native speakers feel it as thoroughness plus contact — the action is not just aimed at something, it is spread onto it.",
+  mnemo: "Rule of thumb: <b>be-</b> = 'do X <i>to</i> it, all over it'. If a preposition disappears, be- ate it.",
+  ex: [
+    ["beantworten","antworten","to answer sth","Answering used to need <i>auf</i>. be- swallows the preposition — you now answer the question itself."],
+    ["besprechen","sprechen","to discuss sth","Speech spread over a topic until every part is covered, rather than speech drifting outward."],
+    ["besteigen","steigen","to climb sth","Climbing stops being 'going up' and becomes an act performed on a mountain."],
+    ["bemalen","malen","to paint onto","Paint applied over a surface. <i>Malen</i> makes a picture; <i>bemalen</i> covers an object."],
+    ["betreten","treten","to enter, step onto","Your step lands on a specific floor. The room becomes what you do the stepping to."],
+    ["bewohnen","wohnen","to inhabit sth","<i>Wohnen in</i> is living somewhere; <i>bewohnen</i> makes the house the thing you occupy."],
+    ["beschreiben","schreiben","to describe","Writing spread across a subject until its shape is visible — writing <i>onto</i> a thing."],
+    ["bearbeiten","arbeiten","to work on, process","Work applied to a specific object until it changes. Not labour in general — labour on this."],
+    ["bekommen","kommen","to receive","The coming lands on you. Something arrives at your surface, so you end up holding it."],
+    ["bezahlen","zahlen","to pay for sth","<i>Zahlen</i> is to pay in general; <i>bezahlen</i> settles a specific bill — payment applied to a thing."]
+  ]},
+
+{ p: "ent-", kind: "insep", core: "Away from, off, out of — separation and release",
+  hint: "The un- prefix: removing, escaping, or emerging out of something.",
+  feel: "<strong>ent-</strong> is the moment two things come apart. Sometimes it removes (<em>entdecken</em> — take the cover off), sometimes it escapes (<em>entlaufen</em> — run away from), sometimes it is the reverse gear of a verb (<em>entspannen</em> — un-tension). There is a second, quieter branch: emergence, coming out of a source (<em>entstehen</em> — to arise). Both branches share one gesture — a boundary being crossed outward. If English would reach for <em>un-</em>, <em>de-</em>, or <em>-away</em>, German usually reaches for <em>ent-</em>.",
+  mnemo: "Feel it as a snap apart. Note it often takes a <b>dative</b> of the thing escaped from: <i>dem Feuer entkommen</i>.",
+  ex: [
+    ["entlaufen","laufen","to run away, escape","Running plus a boundary: you leave the person or place you belonged to. Takes the dative."],
+    ["entdecken","decken","to discover","<i>Decken</i> is to cover. Remove the cover and the thing underneath appears — literally un-cover."],
+    ["entlassen","lassen","to dismiss, release","Letting go plus separation: the person is let loose from the institution holding them."],
+    ["entspannen","spannen","to relax","<i>Spannen</i> is to stretch tight. ent- releases the tension — the string goes slack."],
+    ["entfliehen","fliehen","to flee from","Fleeing already means running; ent- adds the thing you break away from, in the dative."],
+    ["entstehen","stehen","to arise, come into being","The emergence branch: something steps out of nothing and stands there. Origin, not removal."],
+    ["entscheiden","scheiden","to decide","<i>Scheiden</i> is to separate. You pull the options apart and cut one loose from the rest."],
+    ["entschuldigen","Schuld","to excuse, apologise","Guilt (<i>Schuld</i>) is removed from the person. ent- lifts it off like a coat."],
+    ["entführen","führen","to kidnap","Leading plus away: you lead someone out of where they belong. Same logic as <i>entlaufen</i>, but done to them."],
+    ["entsorgen","sorgen","to dispose of","Bureaucratic humour: the <i>Sorge</i> (worry) is removed. The rubbish, and your problem, go away."]
+  ]},
+
+{ p: "emp-", kind: "insep", core: "A sound-variant of ent- — receiving, sensing, rising toward",
+  hint: "A tiny closed set: only three real verbs exist. Learn them, don't try to build more.",
+  feel: "<strong>emp-</strong> is not a productive prefix — it is <em>ent-</em> that softened before <em>f</em> for ease of pronunciation, and it froze that way in exactly three verbs: <em>empfangen</em>, <em>empfehlen</em>, <em>empfinden</em>. The feeling that survives is <em>ent-</em>'s outward movement turned inward: something comes toward you and you take it in. Reception rather than removal. Be honest with yourself about this one — you recognise <em>emp-</em>, you never generate it. The list below gives the three verbs plus their everyday derivatives, which is the whole family.",
+  mnemo: "Three roots only: <b>-fangen</b> (catch), <b>-fehlen</b> (commend), <b>-finden</b> (sense). Everything else is a derivative.",
+  ex: [
+    ["empfangen","fangen","to receive, welcome","<i>Fangen</i> is to catch. You catch what comes toward you — a guest, a signal, a parcel."],
+    ["empfehlen","befehlen","to recommend","Old sense: to commend something into someone's care — you hand it toward them."],
+    ["empfinden","finden","to feel, sense","Finding turned inward: you find something inside yourself rather than out in the world."],
+    ["empfindlich","empfinden","sensitive, delicate","Someone who senses too much and too easily — the feeling arrives and lands hard."],
+    ["empfindsam","empfinden","sentimental, tender","The gentler adjective: inclined to feel deeply. Same inward-sensing root."],
+    ["der Empfang","empfangen","reception, welcome","The place or moment where things are caught as they arrive — hotel desk, party, signal."],
+    ["der Empfänger","empfangen","recipient, receiver","The one doing the catching, in a letter or on a radio."],
+    ["die Empfehlung","empfehlen","recommendation","The thing you hand toward someone as worth having."],
+    ["die Empfindung","empfinden","sensation, feeling","The noun of inward finding: what you notice inside yourself."],
+    ["empfangsbereit","empfangen","ready to receive","Compound of the catching sense — a device or a host open to what is coming."]
+  ]},
+
+{ p: "er-", kind: "insep", core: "Carry the action through to its result",
+  hint: "The action reaches completion — achievement, or death.",
+  feel: "<strong>er-</strong> is an arrow finally hitting the target. It takes a verb of process and adds the endpoint: not doing, but having got there. <em>Arbeiten</em> is to work; <em>erarbeiten</em> is to work until you own the result. That endpoint can be a triumph (<em>erreichen</em>, <em>erfinden</em>) or a death (<em>erschießen</em>, <em>ertrinken</em>) — German uses the same gesture for both, because both are the action pushed all the way to where it stops. There is also a birth branch: <em>erwachen</em>, <em>erblühen</em>, something coming into being. Emergence and completion are the same arc seen from either end.",
+  mnemo: "Ask: 'and then what happened?' <b>er-</b> is the answer. Effort → outcome, or process → finality.",
+  ex: [
+    ["erreichen","reichen","to reach, attain","<i>Reichen</i> is to extend toward. er- lands it: your hand actually arrives at the thing."],
+    ["erfinden","finden","to invent","Finding pushed past discovery: you keep going until the thing you found didn't exist before."],
+    ["erkennen","kennen","to recognise","Knowing arrives in one moment — the point at which acquaintance snaps into identification."],
+    ["erwarten","warten","to expect","Waiting with its endpoint attached: you wait <i>for a result you already picture</i>."],
+    ["erzählen","zählen","to tell a story","Counting things out one after another until the whole sequence is delivered."],
+    ["erlernen","lernen","to master a skill","<i>Lernen</i> is studying; <i>erlernen</i> is studying until the skill is fully acquired and yours."],
+    ["erschießen","schießen","to shoot dead","Shooting carried to its final result. The clearest case of er- as 'all the way to the end'."],
+    ["ertrinken","trinken","to drown","Grim logic: you take in water until the process completes. The endpoint is fatal."],
+    ["erfrieren","frieren","to freeze to death","Freezing pushed past discomfort to its absolute conclusion."],
+    ["erwachen","wachen","to awaken","The emergence branch: consciousness comes into being. Same arc, arriving at a beginning."]
+  ]},
+
+{ p: "ge-", kind: "insep", core: "Gathered, brought to a whole — mostly fossilised",
+  hint: "Ancient 'together / completed'. In modern German it's frozen: recognise it, don't build with it.",
+  feel: "<strong>ge-</strong> once meant <em>together</em> and <em>brought to completion</em> — you can still see it alive in nouns (<em>Gebirge</em>, a whole range of mountains; <em>Gespräch</em>, speech gathered into a conversation) and in the past participle itself (<em>ge-macht</em> — the doing, completed). As a verb prefix it has gone fossil: the meanings drifted centuries ago and no longer decompose cleanly. Treat this list as a set to memorise rather than a pattern to apply — but the faint scent of 'brought fully together' is still there in most of them if you look.",
+  mnemo: "Learn these as vocabulary. The one living use of <b>ge-</b> is the past participle: <i>ge-sag-t</i>, <i>ge-lauf-en</i>.",
+  ex: [
+    ["gehören","hören","to belong to","Old sense: to be within earshot of, therefore under someone's authority. Takes the dative."],
+    ["gefallen","fallen","to please, be liked","It 'falls together' well with you — it suits. Note the reversal: <i>es gefällt mir</i>."],
+    ["gelingen","lingen","to succeed, turn out well","The parts come together properly. Also dative: <i>es ist mir gelungen</i>."],
+    ["gewinnen","winnen","to win, gain","Old <i>winnan</i> = to strive. ge- brings the striving to its completed, successful whole."],
+    ["gestehen","stehen","to confess","To stand fully behind something — the whole truth brought out and stood on."],
+    ["genießen","nießen","to enjoy","Related to 'to use, take'. ge- makes it total: taking something in fully."],
+    ["gebrauchen","brauchen","to use, make use of","<i>Brauchen</i> is to need; ge- turns need into completed application — putting it to use."],
+    ["geraten","raten","to end up, turn out","You land somewhere without steering — the outcome comes together around you."],
+    ["gedenken","denken","to commemorate","Thinking gathered and formalised into remembrance. Takes the genitive."],
+    ["gehorchen","horchen","to obey","<i>Horchen</i> is to listen closely. ge- completes it: listening that ends in doing."]
+  ]},
+
+{ p: "miss-", kind: "insep", core: "Wrong, failed, badly done",
+  hint: "The exact twin of English mis-. Clean, transparent, easy to trust.",
+  feel: "<strong>miss-</strong> is the easiest prefix in German because it means what your ear already expects: something has gone wrong, been done badly, or failed outright. It maps onto English <em>mis-</em> almost perfectly (<em>missverstehen</em> / misunderstand). The feeling is a judgement — not just a description of an action but a verdict on it. Two small mechanics: it is unstressed and inseparable, and in the perfect tense it takes no <em>ge-</em> (<em>ich habe es missverstanden</em>).",
+  mnemo: "If English would say <b>mis-</b>, German almost certainly says <b>miss-</b>. Trust the cognate.",
+  ex: [
+    ["missverstehen","verstehen","to misunderstand","Understanding that went the wrong way. The verdict prefix sits on top of the action."],
+    ["misslingen","gelingen","to fail, go wrong","The direct opposite of <i>gelingen</i>: the parts did not come together. Dative: <i>es misslang mir</i>."],
+    ["missbrauchen","brauchen","to misuse, abuse","Use bent in the wrong direction — the thing was used, but wrongly."],
+    ["misstrauen","trauen","to distrust","Trust judged as misplaced. Takes the dative: <i>ich misstraue ihm</i>."],
+    ["missfallen","gefallen","to displease","Exact mirror of <i>gefallen</i>: it falls together badly with you."],
+    ["missachten","achten","to disregard, flout","Attention (<i>achten</i>) given wrongly — that is, not given at all."],
+    ["missglücken","glücken","to go wrong, fail","<i>Glücken</i> is to turn out lucky. miss- flips the luck."],
+    ["missdeuten","deuten","to misinterpret","Interpretation that points at the wrong thing."],
+    ["missraten","geraten","to turn out badly","<i>Geraten</i> is to end up somewhere; miss- makes that somewhere the wrong place."],
+    ["misshandeln","handeln","to mistreat, abuse","Handling done badly — the verdict applied to physical treatment of a person."]
+  ]},
+
+{ p: "ver-", kind: "insep", core: "Four feelings: away, wrong, transformed, used up",
+  hint: "The biggest and most slippery prefix. Learn its four branches and most of it resolves.",
+  feel: "<strong>ver-</strong> is really three old prefixes that collapsed into one, which is why it feels chaotic. It has four branches. <b>(1) Away / gone</b> — <em>verkaufen</em>, <em>verschwinden</em>: the thing leaves. <b>(2) Wrong</b>, almost always reflexive — <em>sich verlaufen</em>, <em>sich versprechen</em>: the action misfired. <b>(3) Transformation</b> — <em>verbessern</em>, <em>sich verlieben</em>: something becomes a new state. <b>(4) Used up / to exhaustion</b> — <em>verbrauchen</em>, <em>verschlafen</em>: the action consumes its object or its time. When you meet a new <em>ver-</em> verb, run those four in order; one of them almost always fits.",
+  mnemo: "Reflexive <b>sich ver-</b> = 'I did it wrong'. That single rule unlocks a whole class: <i>versprechen, verlaufen, verwählen, verschreiben</i>.",
+  ex: [
+    ["verkaufen","kaufen","to sell","Branch 1, away: buying with the direction reversed — the goods leave your hands."],
+    ["verschwinden","schwinden","to disappear","<i>Schwinden</i> is to dwindle. ver- takes the dwindling all the way to gone."],
+    ["sich verlaufen","laufen","to get lost","Branch 2, wrong: your walking went astray. Reflexive marks the error as yours."],
+    ["sich versprechen","sprechen","to misspeak","Same reflexive logic. Note the non-reflexive <i>versprechen</i> = to promise: words given away."],
+    ["verbessern","bessern","to improve","Branch 3, transformation: ver- moves the thing into a better state."],
+    ["sich verlieben","lieben","to fall in love","Transformation of a person: you don't do loving, you become someone in love."],
+    ["verbrauchen","brauchen","to use up, consume","Branch 4: needing carried until nothing is left. The fuel is gone."],
+    ["verschlafen","schlafen","to oversleep","Sleeping that consumes the time it should have fit inside. You slept the morning away."],
+    ["vergessen","gessen (old: grasp)","to forget","The old root means 'to grasp'. ver- takes the grasp away — the memory slips out of hold."],
+    ["verbieten","bieten","to forbid","<i>Bieten</i> is to offer. ver- turns the offer against itself: the thing is offered <i>away</i> from you."]
+  ]},
+
+{ p: "zer-", kind: "insep", core: "Into pieces — destruction and dispersal",
+  hint: "The most physical prefix in German. Something whole becomes fragments.",
+  feel: "<strong>zer-</strong> is a single, unambiguous image: a thing coming apart into pieces. Unlike <em>ver-</em>, it has no second branch and no figurative drift to speak of — whatever verb you attach it to, the object ends up fragmented, scattered, or ruined. That reliability makes it a good prefix to learn early, because it also teaches you the shape of the system: attach the gesture to any action verb and you can predict the meaning without a dictionary. If you can break it, you can <em>zer-</em> it.",
+  mnemo: "Picture a plate hitting the floor. Every <b>zer-</b> verb is that image applied to a different action.",
+  ex: [
+    ["zerbrechen","brechen","to shatter, break apart","Breaking, but into many pieces rather than two. zer- multiplies the fracture."],
+    ["zerstören","stören","to destroy","<i>Stören</i> is to disturb. zer- pushes disturbance to total ruin."],
+    ["zerreißen","reißen","to tear to shreds","Tearing that doesn't stop at one rip — the paper ends up in fragments."],
+    ["zerschneiden","schneiden","to cut into pieces","Cutting applied until the thing is no longer one thing."],
+    ["zerlegen","legen","to take apart, dismantle","Laying out the parts separately — controlled fragmentation, as with an engine or an argument."],
+    ["zerfallen","fallen","to disintegrate, decay","Falling apart from the inside. Empires and buildings both <i>zerfallen</i>."],
+    ["zerdrücken","drücken","to crush, mash","Pressing until the structure gives way — potatoes, or a cigarette."],
+    ["zerkleinern","klein machen","to chop up, reduce in size","Deliberately making something into small pieces. The cooking-verb version of zer-."],
+    ["zersplittern","splittern","to splinter, fragment","Wood, glass, or a political party — all break into shards the same way."],
+    ["zerplatzen","platzen","to burst apart","Bursting where the pieces fly outward, not just a pop."]
+  ]},
+
+/* ============ SEPARABLE ============ */
+
+{ p: "ab-", kind: "sep", core: "Off, away, down — detachment from a starting point",
+  hint: "Something leaves a surface, a place, or a list. The counterpart of an-.",
+  feel: "<strong>ab-</strong> is a hand pulling something off. The core image is detachment: a train leaving a platform, a hat coming off a head, a task coming off a list. It carries a faint sense of subtraction — <em>abnehmen</em> is both 'take off' and 'lose weight', because both are removal from a total. A second use is downward motion (<em>absteigen</em>), and a third is completion-by-removal: once the thing is off, the job is done (<em>abschließen</em>). Where <em>an-</em> attaches, <em>ab-</em> detaches — learning them as a pair is the fastest route in.",
+  mnemo: "Think of a sticker being peeled. If English says <b>off</b>, <b>de-</b>, or <b>-away</b>, German often says <b>ab-</b>.",
+  ex: [
+    ["abfahren","fahren","to depart, set off","The vehicle detaches from the station. Motion plus separation from a starting point."],
+    ["abnehmen","nehmen","to take off; to lose weight","Taking something off a surface — or off your body. Removal from a total in both senses."],
+    ["abschneiden","schneiden","to cut off","Cutting with the result that a piece separates. The bread and the slice part ways."],
+    ["absagen","sagen","to cancel","Saying something off the calendar — the event is detached from the plan."],
+    ["abholen","holen","to pick up, collect","Fetching plus removal: you take the person or parcel away from where it was waiting."],
+    ["abschließen","schließen","to lock; to conclude","Closing so completely that it's sealed off. Same word for a door and a degree."],
+    ["abstellen","stellen","to switch off; to put down","Putting a thing down and away from you — the appliance is detached from its power."],
+    ["abwaschen","waschen","to wash off, do the dishes","Washing with the goal of removing what's stuck on. The dirt comes off."],
+    ["abhängen","hängen","to unhook; to depend on","Both: taking a picture off a hook, and (with <i>von</i>) hanging off something else."],
+    ["abbrechen","brechen","to break off, abort","Breaking that ends the connection — a branch, or a conversation you stop mid-way."]
+  ]},
+
+{ p: "an-", kind: "sep", core: "Toward and touching — contact, attachment, switching on",
+  hint: "The action reaches a target and makes contact. Also the moment something starts.",
+  feel: "<strong>an-</strong> is the click of two things touching. It takes an action and gives it a target it actually reaches: <em>rufen</em> is to shout into the air; <em>anrufen</em> is to shout at a specific person, which is why it means to phone them. From contact come two extensions: switching on (<em>anmachen</em> — the current makes contact) and beginning (<em>anfangen</em> — the action makes first contact with the world). Emotionally, <em>an-</em> can be a bit confrontational — <em>anschreien</em> is not shouting near someone but shouting <em>at</em> them. Contact always has a direction.",
+  mnemo: "<b>an-</b> = the arrow reaches and touches. Its opposites are <b>ab-</b> (off) and <b>aus-</b> (out/off).",
+  ex: [
+    ["anrufen","rufen","to phone someone","Calling aimed at one person until it connects. Contact made — hence a phone call."],
+    ["anfangen","fangen","to begin","The moment the action first catches hold. First contact between you and the task."],
+    ["anmachen","machen","to switch on; to hit on sb","Making contact with the circuit. The flirting sense is the same idea, applied to a person."],
+    ["ankommen","kommen","to arrive","Coming until you touch the destination. The journey meets its endpoint."],
+    ["anziehen","ziehen","to put on; to attract","Pulling clothes onto the body, or pulling something toward you. Both close a distance."],
+    ["ansehen","sehen","to look at","Seeing pointed at a specific target — your gaze lands on it rather than wandering."],
+    ["anbieten","bieten","to offer to sb","The offer is extended toward a person until it reaches them. Takes the dative."],
+    ["anhalten","halten","to stop, pull over","Holding applied to motion — you bring the movement into contact with a standstill."],
+    ["anfassen","fassen","to touch, take hold of","The most literal case: grasping that actually makes contact with the surface."],
+    ["anschreien","schreien","to shout at sb","Screaming aimed at a person. The difference between shouting and shouting <i>at</i> is just an-."]
+  ]},
+
+{ p: "auf-", kind: "sep", core: "Up, open, onto — rising and unsealing",
+  hint: "Upward motion, opening something closed, or landing onto a surface.",
+  feel: "<strong>auf-</strong> has two gestures that feel like one: <b>up</b> (<em>aufstehen</em>, <em>aufheben</em>) and <b>open</b> (<em>aufmachen</em>, <em>aufblühen</em>) — because to open something is usually to lift its lid. Underneath both sits the preposition's own meaning, <em>on top of</em>, which gives a third use: applying something onto a surface (<em>aufschreiben</em> — writing onto paper). There's also a sudden-onset flavour, the moment something springs up: <em>aufwachen</em>, <em>aufschrecken</em>. The odd one out is <em>aufhören</em> (to stop) — treat it as an exception and move on.",
+  mnemo: "Lid lifting. <b>auf-</b> = up / open / onto. Its natural opposites are <b>zu-</b> (shut) and <b>ab-</b> (down, off).",
+  ex: [
+    ["aufstehen","stehen","to get up, stand up","The purest case: standing plus upward. Out of bed, or up from a chair."],
+    ["aufmachen","machen","to open","Making something open — the lid, the door, the shop. The 'open' gesture in its plainest form."],
+    ["aufwachen","wachen","to wake up","Consciousness springing up. The sudden-onset flavour of auf-."],
+    ["aufheben","heben","to pick up; to keep","Lifting up off the ground — and by extension keeping it, since you didn't put it back."],
+    ["aufschreiben","schreiben","to write down","Confusing for English speakers: German sees writing <i>onto</i> a surface, not down."],
+    ["aufbauen","bauen","to build up, set up","Building upward from nothing — a tent, a company, an argument."],
+    ["aufblühen","blühen","to blossom, flourish","A flower opening. Used of people too: someone who opens up and comes alive."],
+    ["aufräumen","räumen","to tidy up","Clearing with an upward, restorative sense: things get lifted back into their places."],
+    ["aufgeben","geben","to give up, abandon","Handing the thing up and out of your hands — you release it to someone or something else."],
+    ["aufhören","hören","to stop, cease","The exception. No transparent logic survives — memorise it as a fixed pair."]
+  ]},
+
+{ p: "aus-", kind: "sep", core: "Out, out of, and out to the very end",
+  hint: "Motion outward, switching off, or doing something exhaustively until nothing is left.",
+  feel: "<strong>aus-</strong> starts as pure geometry — out of a container (<em>aussteigen</em>, <em>auspacken</em>). Two extensions follow naturally. First, switching off: <em>ausmachen</em>, because the light goes out. Second, and more interesting for a learner, <b>exhaustiveness</b>: if you do something <em>aus-</em>, you do it until the supply runs out. <em>Austrinken</em> is not to drink but to finish the glass; <em>ausschlafen</em> is to sleep until you have no sleep left. That second branch is where <em>aus-</em> gets genuinely useful — it turns an activity into a completed one.",
+  mnemo: "Empty the container. Either something comes out of it, or you keep going until it's empty.",
+  ex: [
+    ["ausgehen","gehen","to go out","Leaving the house — and also 'to run out', as in supplies. Out of a space, out of a stock."],
+    ["ausmachen","machen","to switch off","The light goes out. Direct opposite of <i>anmachen</i>: contact broken instead of made."],
+    ["aussteigen","steigen","to get out, disembark","Climbing out of a vehicle. Also figurative: to quit a project or a lifestyle."],
+    ["ausziehen","ziehen","to take off; to move out","Pulling clothes off the body, or pulling yourself out of a flat. Same outward tug."],
+    ["ausdrücken","drücken","to express; to squeeze out","Pressing until the content comes out — a lemon, or a thought."],
+    ["austrinken","trinken","to drink up, finish","Exhaustive branch: drinking until the glass is empty. Not the act, the completion."],
+    ["ausschlafen","schlafen","to sleep in fully","Sleeping until you've used up all the sleep you needed. A very German concept."],
+    ["ausfüllen","füllen","to fill out a form","Filling every field until none is left blank — filling to exhaustion, not outward."],
+    ["auspacken","packen","to unpack; to spill the beans","Taking things out of a box — or taking the truth out of yourself."],
+    ["auswählen","wählen","to select, pick out","Choosing one thing out of a set. The chosen item leaves the group."]
+  ]},
+
+{ p: "bei-", kind: "sep", core: "Alongside, added to, present with",
+  hint: "A small, slightly formal set: something is placed next to or added into something else.",
+  feel: "<strong>bei-</strong> is the preposition <em>bei</em> (at, near, alongside) doing prefix duty. The gesture is placing one thing beside another so it joins it — an enclosure in a letter, a person standing next to you in a crisis, a member added to a club. It is a low-frequency prefix and it leans formal or written; you will meet it far more in a contract or a newspaper than in conversation. Almost every <em>bei-</em> verb takes a <b>dative</b>, because the whole idea is proximity <em>to</em> something.",
+  mnemo: "Placing a card next to the pile. Expect the dative: <i>er trug <b>der Diskussion</b> bei</i>.",
+  ex: [
+    ["beitragen","tragen","to contribute","Carrying your piece over and setting it beside the shared pile. Dative + <i>zu</i>."],
+    ["beibringen","bringen","to teach sb sth","Bringing knowledge alongside a person until they have it. Dative for the learner."],
+    ["beilegen","legen","to enclose, attach","Laying a document beside the main one inside the envelope. The literal core."],
+    ["beistehen","stehen","to stand by, support","Standing next to someone in difficulty. Physical position as emotional loyalty."],
+    ["beitreten","treten","to join an organisation","Stepping into position alongside the existing members. Dative: <i>dem Verein beitreten</i>."],
+    ["beiwohnen","wohnen","to attend, be present at","Formal: to be located alongside an event as it happens."],
+    ["beimischen","mischen","to mix in, add","Adding one substance alongside another in a mixture."],
+    ["beifügen","fügen","to append, attach","Bureaucratic cousin of <i>beilegen</i> — joining a thing onto the end of a document."],
+    ["beibehalten","behalten","to retain, keep up","Keeping something alongside you as things change — a habit, a policy, a name."],
+    ["beisetzen","setzen","to inter, lay to rest","Formal funeral verb: setting the person beside those already there."]
+  ]},
+
+{ p: "ein-", kind: "sep", core: "Into, inward — entering and settling",
+  hint: "Something moves in and stays there. The prefix form of the preposition in.",
+  feel: "<strong>ein-</strong> is a thing going into a container and staying. The literal cases are easy (<em>einsteigen</em>, <em>einpacken</em>, <em>einatmen</em>), but the useful ones are where the container is abstract: <em>einschlafen</em> is sinking into sleep, <em>einsehen</em> is seeing into a matter until you accept it, <em>einführen</em> is leading something into a country or a conversation. Watch for the <em>settling</em> nuance too — <em>sich einleben</em>, <em>einziehen</em>: not just entering but coming to rest inside. Note that <em>ein-</em> as a prefix has nothing to do with <em>ein</em> meaning 'one'.",
+  mnemo: "Arrow pointing into a box. Opposite: <b>aus-</b>. Pair them (<i>einsteigen / aussteigen</i>) and both stick.",
+  ex: [
+    ["einsteigen","steigen","to get in, board","Climbing into a vehicle. The exact mirror of <i>aussteigen</i>."],
+    ["einladen","laden","to invite","Loading someone into your event or home. The same verb loads a truck."],
+    ["einkaufen","kaufen","to go shopping","Buying things <i>into</i> the household. The goods come inside; hence groceries."],
+    ["einschlafen","schlafen","to fall asleep","Sinking into sleep. Not the state, the entry into it — which is why it's a different verb."],
+    ["einatmen","atmen","to inhale","Breathing inward. Its opposite, <i>ausatmen</i>, shows the pair working perfectly."],
+    ["einführen","führen","to introduce, import","Leading something in — a product into a market, a topic into a talk, a person into a role."],
+    ["einpacken","packen","to pack up, wrap","Putting things into the bag. Opposite of <i>auspacken</i>."],
+    ["einziehen","ziehen","to move in","Pulling yourself into a new home. The settling nuance: you arrive and stay."],
+    ["einsetzen","setzen","to insert; to deploy","Setting something into position so it starts working — a part, a team, a rule."],
+    ["einsehen","sehen","to realise, come to accept","Seeing into a matter deeply enough to concede it. <i>Ich sehe das ein</i> = fair enough, I get it."]
+  ]},
+
+{ p: "fort-", kind: "sep", core: "Away — and, by extension, onward",
+  hint: "Departure, plus the sense of carrying on. Slightly literary next to weg-.",
+  feel: "<strong>fort-</strong> means away, and it overlaps heavily with <em>weg-</em>: <em>fortgehen</em> and <em>weggehen</em> are near-twins, with <em>fort-</em> the more written, slightly older-sounding option. Its distinctive second sense is the one worth learning: <b>onward continuation</b>. If something goes away from you along a line, it keeps going — hence <em>fortsetzen</em> (continue), <em>fortschreiten</em> (progress), <em>Fortschritt</em> (progress, the noun). Same gesture, two readings: leaving, or carrying on. Context tells you which, and usually the verb is fixed in one sense anyway.",
+  mnemo: "'Away along a line.' If it's about leaving, <b>weg-</b> is more natural in speech; <b>fort-</b> for continuation.",
+  ex: [
+    ["fortgehen","gehen","to go away, leave","The plain departure sense. Slightly more formal than <i>weggehen</i>."],
+    ["fortsetzen","setzen","to continue, resume","The continuation branch: you set the thing further along its line."],
+    ["fortfahren","fahren","to continue; to drive off","Both readings in one verb — carry on speaking, or drive away. Context decides."],
+    ["fortlaufen","laufen","to run away; to run on","Same duality: a child running off, or a number series running onward."],
+    ["fortbestehen","bestehen","to persist, endure","Existence carried onward past the point it might have stopped."],
+    ["fortschreiten","schreiten","to progress, advance","Striding onward. The source of <i>Fortschritt</i> — progress as steps taken forward."],
+    ["sich fortbilden","bilden","to do further training","Educating yourself onward past your current level. Common in job listings."],
+    ["fortbewegen","bewegen","to move, propel","Moving a thing away from where it is. The neutral, technical use."],
+    ["fortziehen","ziehen","to move away","Pulling yourself away from a town for good. Stronger than <i>umziehen</i>."],
+    ["fortjagen","jagen","to chase away, drive off","Hunting someone away from the place — the aggressive end of the departure sense."]
+  ]},
+
+{ p: "her-", kind: "sep", core: "Toward the speaker — 'this way, come here'",
+  hint: "Direction relative to you. The mirror of hin-. Master the pair and dozens of compounds open up.",
+  feel: "<strong>her-</strong> means <em>toward me, the speaker</em>. It carries no meaning of its own beyond direction, which is exactly why it is powerful: German encodes viewpoint into the verb, where English uses tone or context. <em>Komm her!</em> is come <em>here</em>. Its real value is in compounds with other prepositions: <em>herein</em> (in, toward me), <em>herunter</em> (down, toward me), <em>heraus</em> (out, toward me). In spoken German these shorten — <em>reinkommen</em>, <em>runterkommen</em>. If you learn nothing else about direction prefixes, learn that <em>her</em> = here, <em>hin</em> = there.",
+  mnemo: "<b>her</b> ≈ <b>here</b>. The vowels even match. Compounds: her + ein/aus/unter/über/auf.",
+  ex: [
+    ["herkommen","kommen","to come here","Coming in the direction of the speaker. <i>Wo kommst du her?</i> = where are you from?"],
+    ["herbringen","bringen","to bring here","Carrying something toward me. <i>Hinbringen</i> would carry it away to somewhere else."],
+    ["hergeben","geben","to hand over","Giving in my direction. There's often a note of reluctance — hand it over."],
+    ["herstellen","stellen","to manufacture, produce","Placing something 'here' into existence — the factory brings it into our world."],
+    ["herholen","holen","to fetch here","Going to get something and bringing it back to where I am."],
+    ["herbekommen","bekommen","to get hold of, obtain","Managing to get something to arrive at you. Often <i>Wo bekomme ich das her?</i>"],
+    ["herlaufen","laufen","to run over here","Running toward the speaker. Also <i>hinter jdm herlaufen</i> — to run after someone."],
+    ["hernehmen","nehmen","to take from, get from","<i>Wo nimmst du das her?</i> — where are you taking that from, to bring it here?"],
+    ["herreichen","reichen","to pass over, hand across","Extending your arm so the thing comes to my side."],
+    ["herrühren","rühren","to stem from, originate in","Figurative: the cause moves toward the present from somewhere back there."]
+  ]},
+
+{ p: "hin-", kind: "sep", core: "Away from the speaker, toward a target — 'that way'",
+  hint: "The mirror of her-. Motion out from you toward a destination.",
+  feel: "<strong>hin-</strong> is the outbound arrow: away from me, toward there. It answers <em>wohin?</em> — where to. Where <em>her-</em> pulls things toward the speaker, <em>hin-</em> sends them out: <em>hingehen</em> (go there), <em>hinlegen</em> (lay it down over there), <em>hinsehen</em> (look over that way). Like <em>her-</em>, it stacks with prepositions to make precise compounds — <em>hinauf</em>, <em>hinunter</em>, <em>hinaus</em>, <em>hinein</em>. There's also a downward flavour in some verbs (<em>hinfallen</em> — to fall over), because falling is motion away from your upright self toward the ground.",
+  mnemo: "<b>hin</b> = thither, <b>her</b> = hither. <i>Ich gehe hin</i> (I go there) / <i>Komm her</i> (come here).",
+  ex: [
+    ["hingehen","gehen","to go there","Walking toward a destination away from the current position. Answers <i>wohin?</i>"],
+    ["hinfahren","fahren","to drive/travel there","Same arrow, by vehicle. <i>Fährst du hin?</i> — are you going there?"],
+    ["hinlegen","legen","to lay down, put down","Placing something down over there. Reflexively, <i>sich hinlegen</i> = to lie down."],
+    ["sich hinsetzen","setzen","to sit down","Putting yourself down into a spot. The <i>hin</i> supplies the target position."],
+    ["hinstellen","stellen","to put down, set there","Standing an object in a particular place away from you."],
+    ["hinschauen","schauen","to look over there","Directing your gaze outward to a point. <i>Schau mal hin!</i>"],
+    ["hinfallen","fallen","to fall over","Falling away from your upright position toward the ground. The downward flavour."],
+    ["hinbringen","bringen","to take there","Carrying something away to a destination. Exact opposite of <i>herbringen</i>."],
+    ["hinweisen","weisen","to point out, indicate","Pointing away from yourself at the thing you want noticed. Takes <i>auf</i> + accusative."],
+    ["hinhören","hören","to listen closely","Sending your attention outward toward a sound instead of just hearing it."]
+  ]},
+
+{ p: "los-", kind: "sep", core: "Released, broken free — and therefore off we go",
+  hint: "Something is let loose. Either it starts suddenly, or you get rid of it.",
+  feel: "<strong>los-</strong> comes from the adjective <em>los</em> (loose, free) and it does two related jobs. First, <b>release</b>: <em>loslassen</em> — let go, <em>losbinden</em> — untie, <em>loswerden</em> — get rid of. Second, and more common in daily speech, <b>sudden starting</b>: once a thing is released it moves, so <em>losfahren</em> is to set off, <em>losgehen</em> is for something to kick off, <em>loslegen</em> is to get stuck in. That energetic, informal quality is the giveaway — <em>los-</em> verbs sound like the starting pistol. <em>Los!</em> on its own means 'go!'.",
+  mnemo: "The dog off the leash. Release → motion → 'and off we go'.",
+  ex: [
+    ["losfahren","fahren","to set off, drive off","The vehicle is released from standstill. The most common start-sense los- verb."],
+    ["losgehen","gehen","to start, kick off","<i>Wann geht's los?</i> — when does it start? The event is let loose."],
+    ["loslassen","lassen","to let go, release","The purest case: your grip opens and the thing is free."],
+    ["loswerden","werden","to get rid of","Becoming free <i>of</i> something. Takes an accusative object: <i>ich werde ihn nicht los</i>."],
+    ["losbinden","binden","to untie","Undoing the knot so the thing is loose. Release in its literal, physical form."],
+    ["loslegen","legen","to get going, dive in","Colloquial and energetic: to start with real momentum. <i>Leg los!</i>"],
+    ["losrennen","rennen","to take off running","Running released from stillness — the sprint start."],
+    ["losschrauben","schrauben","to unscrew","Turning until the part comes free. Release applied to fastenings."],
+    ["sich loslösen","lösen","to detach oneself, break away","Freeing yourself from a group, an idea, or a dependency."],
+    ["losbrechen","brechen","to break out, erupt","A storm or an argument bursting loose all at once. Sudden onset at full force."]
+  ]},
+
+{ p: "mit-", kind: "sep", core: "Together with, joining in — participation",
+  hint: "Someone or something does the action alongside the others. The friendliest prefix.",
+  feel: "<strong>mit-</strong> is the one your friends described, and it is the cleanest example of the whole system: whatever verb follows, someone is doing it <em>together with</em> someone else. <em>Kommen</em> is to come; <em>mitkommen</em> is to come along with us. It never means anything else. Two nuances worth noticing. First, the 'with whom' is often left unsaid because the prefix already implies the group — <em>Kommst du mit?</em> needs no object. Second, it can carry a warm, inclusive tone: <em>mitdenken</em>, <em>mitfühlen</em>, <em>mitmachen</em> all describe someone showing up for the shared effort.",
+  mnemo: "Always 'along with us'. If a person or thing is included in the action, <b>mit-</b> is the prefix.",
+  ex: [
+    ["mitkommen","kommen","to come along","Coming as part of the group. <i>Kommst du mit?</i> — the object is understood."],
+    ["mitmachen","machen","to join in, take part","Doing the thing alongside everyone else rather than watching."],
+    ["mitnehmen","nehmen","to take along","Taking a thing or person with you when you go. Also: <i>zum Mitnehmen</i> = takeaway."],
+    ["mitbringen","bringen","to bring along","Bringing something with you to where you're going — wine, a friend, bad news."],
+    ["mitteilen","teilen","to inform, communicate","<i>Teilen</i> is to share. Sharing information with someone. Takes the dative."],
+    ["mitfahren","fahren","to ride along","Travelling in someone else's vehicle. Source of <i>Mitfahrgelegenheit</i> — a lift."],
+    ["mitspielen","spielen","to play along, join the game","Being included in the game — or, figuratively, going along with a plan."],
+    ["mitarbeiten","arbeiten","to collaborate, work with","Working as part of a shared effort. <i>Mitarbeiter</i> = colleague, co-worker."],
+    ["mitdenken","denken","to think along, use initiative","Praise in German workplaces: thinking with the team rather than just following orders."],
+    ["mitsingen","singen","to sing along","Joining your voice to the others. The most literal 'together' there is."]
+  ]},
+
+{ p: "nach-", kind: "sep", core: "After, behind, in pursuit — and doing it again to check",
+  hint: "The action follows something else in time or space: chasing, copying, or verifying.",
+  feel: "<strong>nach-</strong> means <em>after</em>, and everything grows from that. Physically it is pursuit: <em>nachlaufen</em>, running after. In time it is doing something later or a second time — which becomes the very useful <b>checking</b> sense: <em>nachschauen</em>, <em>nachfragen</em>, <em>nachschlagen</em> all mean going back over something to verify it. A third branch is imitation, following someone's model: <em>nachmachen</em>, <em>nachahmen</em>. And a fourth, softer one: yielding, letting the other person go first — <em>nachgeben</em>, <em>nachlassen</em>. All four are the same posture: you are behind, and the other thing leads.",
+  mnemo: "You are in second position. Chasing it, copying it, checking it, or giving way to it.",
+  ex: [
+    ["nachdenken","denken","to reflect, ponder","Thinking that comes after the event — going back over it in your head. Takes <i>über</i>."],
+    ["nachschauen","schauen","to check, look up","Looking again, after the fact, to make sure. Everyday verifying sense."],
+    ["nachschlagen","schlagen","to look up in a book","Literally striking the pages open after the question arose. Dictionary verb."],
+    ["nachfragen","fragen","to enquire further","Asking a follow-up — a question that comes after the first answer."],
+    ["nachmachen","machen","to imitate, copy","Doing what someone did, afterwards. Following their model step for step."],
+    ["nachahmen","ahmen","to imitate, mimic","The more formal cousin. Same idea: your action trails theirs."],
+    ["nachlaufen","laufen","to run after, chase","The literal core. Also figurative: chasing after someone's approval. Dative."],
+    ["nachgeben","geben","to give in, yield","Giving ground and moving into the position behind. Conceding the lead."],
+    ["nachlassen","lassen","to ease off, diminish","The pain or the storm lets up — it falls behind its previous intensity."],
+    ["nachholen","holen","to catch up on, make up for","Fetching what you missed and bringing it into the present. Sleep, work, a birthday."]
+  ]},
+
+{ p: "nieder-", kind: "sep", core: "Down, downward, laid low",
+  hint: "Literary and formal. Downward motion, often with force or ceremony.",
+  feel: "<strong>nieder-</strong> means down, and it is the higher-register alternative to <em>hinunter-</em> or <em>ab-</em>. You meet it in three settings: physical lowering with some weight to it (<em>niederlegen</em>, <em>niederknien</em>), forceful suppression (<em>niederschlagen</em>, <em>niederreißen</em>), and formal or written registers (<em>niederschreiben</em> — to set down in writing). It rarely appears in casual speech, so treat it as a reading prefix: you want to recognise it in news, history, and literature rather than deploy it at the bakery. The related adjective is <em>niedrig</em> — low.",
+  mnemo: "'Down, with weight or ceremony.' If plain 'down' will do, spoken German picks <b>runter-</b>.",
+  ex: [
+    ["niederlegen","legen","to lay down, resign","Laying something down formally — flowers, weapons, or an office you hold."],
+    ["niederschlagen","schlagen","to knock down, suppress","Striking downward. Used of people and of uprisings alike."],
+    ["niederschreiben","schreiben","to set down in writing","Writing down, in the formal register. Records and testimony rather than shopping lists."],
+    ["niederbrennen","brennen","to burn to the ground","Burning until the structure is down. The endpoint is total."],
+    ["niederknien","knien","to kneel down","Lowering yourself onto your knees. Ceremonial and physical at once."],
+    ["niederreißen","reißen","to tear down, demolish","Pulling a structure down. Buildings, walls, and by extension conventions."],
+    ["sich niederlassen","lassen","to settle down, set up","Letting yourself down into a place and staying — a town, or a medical practice."],
+    ["niedersinken","sinken","to sink down","Slow, heavy descent. Literary: a body, a mist, a mood."],
+    ["niederdrücken","drücken","to press down, depress","Pressure applied downward — a lever, or a person's spirits."],
+    ["niedersetzen","setzen","to set down, sit down","The formal version of <i>hinsetzen</i>. Placing down with deliberateness."]
+  ]},
+
+{ p: "vor-", kind: "sep", core: "In front, in advance, presented forward",
+  hint: "Ahead in space or in time: placing before someone, or doing something beforehand.",
+  feel: "<strong>vor-</strong> is <em>in front of</em>, and it splits neatly into space and time. In space, you hold something out in front of a person — which is how <em>vorstellen</em> (place before) becomes both 'introduce' and 'imagine', and how <em>vorlesen</em> becomes reading aloud to someone. In time, it is doing something beforehand: <em>vorbereiten</em>, <em>vorhaben</em>, <em>vorsehen</em>. There's a sharper third use where holding something in front of someone becomes accusation — <em>vorwerfen</em>, to throw it in their face. Notice how much of German's mental vocabulary lives here: to imagine is to set a thing before your own eyes.",
+  mnemo: "Hold it out in front. Before someone's eyes (space) or before the event (time).",
+  ex: [
+    ["vorstellen","stellen","to introduce; to imagine","Placing a person before others — or, reflexively, placing an image before your own mind."],
+    ["vorbereiten","bereiten","to prepare","Making ready ahead of time. The time branch in its plainest form."],
+    ["vorschlagen","schlagen","to suggest, propose","Striking an idea forward into the room so the others can see it."],
+    ["vorlesen","lesen","to read aloud to sb","Reading out in front of a listener. What you do to a child at bedtime."],
+    ["vorziehen","ziehen","to prefer; to pull forward","Pulling one option to the front of the queue. Preference as physical ranking."],
+    ["vorhaben","haben","to intend, plan","Having something in front of you on the agenda. <i>Was hast du vor?</i>"],
+    ["vorwerfen","werfen","to reproach, accuse","Throwing the fault down in front of someone. Dative for the person accused."],
+    ["vorkommen","kommen","to occur; to seem","Coming forward into view — an event happens, or something appears a certain way to you."],
+    ["vorsehen","sehen","to provide for, plan","Seeing ahead and making arrangements. <i>Vorsicht</i> — caution — is the same root."],
+    ["vorgehen","gehen","to proceed; to go on","Going ahead. <i>Was geht hier vor?</i> = what's going on here?"]
+  ]},
+
+{ p: "weg-", kind: "sep", core: "Away, gone — removal in everyday speech",
+  hint: "The spoken, everyday 'away'. Blunter and more common than fort-.",
+  feel: "<strong>weg-</strong> is the workhorse 'away'. Where <em>ab-</em> detaches something from a specific surface or starting point, <em>weg-</em> just removes it from the scene: it's gone, and where it went doesn't matter. That indifference is the feeling — <em>wegwerfen</em> is to throw away without a destination, <em>weggehen</em> is to leave without saying where. It's the most colloquial of the departure prefixes, and it stacks easily onto almost any action verb, which makes it a good one to experiment with: if you can think of an action, <em>weg-</em> plus that action almost certainly means doing it so the thing disappears.",
+  mnemo: "'Gone, and I don't care where.' <b>ab-</b> = off <i>this</i>; <b>weg-</b> = away from <i>here</i>.",
+  ex: [
+    ["weggehen","gehen","to go away, leave","Leaving the scene. No destination implied — that's the difference from <i>hingehen</i>."],
+    ["wegnehmen","nehmen","to take away","Taking something so it's no longer there. Often with a note of unfairness."],
+    ["wegwerfen","werfen","to throw away","Throwing with disposal as the point. <i>Wegwerfgesellschaft</i> = throwaway society."],
+    ["weglaufen","laufen","to run away","Fleeing the scene. Blunter and more everyday than <i>entlaufen</i>."],
+    ["wegfahren","fahren","to drive off, go away","Departing by vehicle, or going away on a trip."],
+    ["weglassen","lassen","to leave out, omit","Letting a part be absent — the ingredient or the sentence isn't there."],
+    ["wegräumen","räumen","to clear away, put away","Clearing things off the visible surface. What you do before guests arrive."],
+    ["wegschicken","schicken","to send away","Dispatching a person or thing out of your space. Often a rejection."],
+    ["wegbringen","bringen","to take away, remove","Carrying something off — rubbish, a car to the garage, a child to school."],
+    ["wegsehen","sehen","to look away","Turning your gaze away. Figurative too: ignoring what you should confront."]
+  ]},
+
+{ p: "weiter-", kind: "sep", core: "Onward, further, keep going",
+  hint: "The action continues past where it might have stopped, or passes to the next person.",
+  feel: "<strong>weiter-</strong> comes from <em>weit</em> (far) and means <em>further along</em>. It is one of the most productive prefixes in modern German: attach it to almost any verb and you get 'carry on doing that'. <em>Machen</em> → <em>weitermachen</em>, carry on. That alone makes it worth learning early — it turns verbs you already know into new ones with zero risk. Its second use is <b>passing onward</b>: <em>weiterleiten</em> (forward an email), <em>weitererzählen</em> (pass a story on). Same line, but now the thing travels from you to the next person rather than continuing under your own steam.",
+  mnemo: "'And further.' Safest prefix to invent with — <b>weiter-</b> + almost any verb works.",
+  ex: [
+    ["weitermachen","machen","to carry on, continue","The template case. Doing what you were doing, further along the line."],
+    ["weitergehen","gehen","to go on, move along","Walking further — or a situation continuing. <i>Es geht weiter</i> = it continues."],
+    ["weiterfahren","fahren","to drive on, travel on","Resuming the journey after a stop."],
+    ["weiterleiten","leiten","to forward, pass on","Directing something onward to the next recipient. The email verb."],
+    ["weitererzählen","erzählen","to pass a story on","Telling it further along the chain. Often with a warning: <i>nicht weitererzählen!</i>"],
+    ["weiterentwickeln","entwickeln","to develop further","Taking an existing thing and pushing its development onward."],
+    ["weiterhelfen","helfen","to help sb further along","Helping someone get past the point where they were stuck. Dative."],
+    ["sich weiterbilden","bilden","to continue one's education","Educating yourself onward. <i>Weiterbildung</i> is standard on any German CV."],
+    ["weiterarbeiten","arbeiten","to keep working","Work continuing past a break or a deadline."],
+    ["weiterlaufen","laufen","to keep running","Machines, contracts and costs that carry on whether you're watching or not."]
+  ]},
+
+{ p: "zu-", kind: "sep", core: "Shut — and, oppositely, toward someone",
+  hint: "Two senses: closing something, or directing an action at a person. The dative is the clue.",
+  feel: "<strong>zu-</strong> looks contradictory until you separate its two jobs. <b>(1) Closing</b>: <em>zumachen</em>, <em>zuschließen</em> — the gap is sealed. <b>(2) Toward a person</b>, from the preposition <em>zu</em>: <em>zuhören</em> is to direct your hearing at someone, <em>zustimmen</em> is to place your agreement with them. The two rarely get confused in practice because sense (2) almost always comes with a <b>dative</b> object — <em>ich höre dir zu</em>. A third, minor branch is addition: <em>zunehmen</em>, <em>zugeben</em>, something is added to a total. Watch for that dative and the ambiguity dissolves.",
+  mnemo: "Dative present → 'toward that person'. No dative → 'shut'. <i>Mach die Tür zu</i> vs. <i>hör mir zu</i>.",
+  ex: [
+    ["zumachen","machen","to close, shut","The closing sense at its simplest. Opposite of <i>aufmachen</i>."],
+    ["zuschließen","schließen","to lock shut","Closing so it's sealed and secured. The extra zu- adds finality to <i>schließen</i>."],
+    ["zuhören","hören","to listen to sb","Hearing directed at a person. <i>Hören</i> is passive; zu- makes it deliberate. Dative."],
+    ["zusehen","sehen","to watch, look on","Looking directed at something happening. Often with a hint of not intervening."],
+    ["zustimmen","stimmen","to agree with sb","Placing your voice alongside theirs. Dative: <i>ich stimme dir zu</i>."],
+    ["zugeben","geben","to admit; to add","Giving something toward the truth — or adding an ingredient to the pot."],
+    ["zunehmen","nehmen","to increase, gain weight","The addition branch: the total takes something on. Opposite of <i>abnehmen</i>."],
+    ["zulassen","lassen","to permit, allow","Letting something come toward you rather than blocking it. Also: to license."],
+    ["zuordnen","ordnen","to assign, allocate to","Ordering one thing toward another so they belong together. Dative."],
+    ["zukommen","kommen","to approach; to be due to sb","Something moving toward you. <i>Auf mich zukommen</i> — heading my way."]
+  ]},
+
+{ p: "zurück-", kind: "sep", core: "Back — return and reversal",
+  hint: "The action is undone or retraced. Maps almost perfectly onto English re-/back.",
+  feel: "<strong>zurück-</strong> is <em>back</em>, and it is one of the most transparent prefixes for an English speaker: whatever the verb does, <em>zurück-</em> makes it go the other way or return to the origin. <em>Geben</em> → <em>zurückgeben</em>, give back. <em>Rufen</em> → <em>zurückrufen</em>, call back. There's no hidden second branch and no figurative trap, which makes it, like <em>zer-</em>, a good confidence-builder. The only nuance worth noting is restraint: <em>zurückhalten</em>, <em>sich zurückziehen</em> — pulling yourself back from involvement. Backwards motion becomes reticence.",
+  mnemo: "English <b>back</b> or <b>re-</b> → German <b>zurück-</b>. One of the few near-perfect one-to-one mappings.",
+  ex: [
+    ["zurückkommen","kommen","to come back, return","Coming back to where you were. The core image with nothing added."],
+    ["zurückgeben","geben","to give back, return sth","Reversing the direction of a gift or a loan."],
+    ["zurückgehen","gehen","to go back, decline","Retracing your steps — or, of numbers, falling back to a lower level."],
+    ["zurückrufen","rufen","to call back","Returning a phone call. The call goes back the way it came."],
+    ["sich zurückziehen","ziehen","to withdraw, retire","Pulling yourself back out of a situation. The restraint branch."],
+    ["zurücklegen","legen","to put back; to cover a distance","Putting a thing back on the shelf — or laying a stretch of road behind you."],
+    ["zurückhalten","halten","to hold back, restrain","Holding something so it doesn't go forward. Also <i>zurückhaltend</i> = reserved."],
+    ["zurückkehren","kehren","to return, come back","The more formal 'return'. Used of journeys, eras, and symptoms."],
+    ["zurückzahlen","zahlen","to repay","Sending the money back along the path it came. Loans and favours alike."],
+    ["zurückweisen","weisen","to reject, turn away","Pointing someone back the way they came. Refusal as reversed direction."]
+  ]},
+
+{ p: "zusammen-", kind: "sep", core: "Together — joining, or collapsing into one",
+  hint: "Separate parts become a single thing. Sometimes constructively, sometimes catastrophically.",
+  feel: "<strong>zusammen-</strong> means <em>together</em>, and it differs from <em>mit-</em> in an important way: <em>mit-</em> is about a person joining an action, while <em>zusammen-</em> is about parts merging into one whole. That merging can be productive (<em>zusammenarbeiten</em>, <em>zusammenfassen</em>) or destructive (<em>zusammenbrechen</em>, <em>zusammenstoßen</em>) — because a building collapsing is also, physically, its parts coming together. Keep that double edge in mind: <em>zusammen-</em> tells you things converge, not whether that's good news. It's a long prefix and it always carries the stress.",
+  mnemo: "Two hands closing into one fist. Constructive merging or collapse — the prefix doesn't judge.",
+  ex: [
+    ["zusammenarbeiten","arbeiten","to collaborate","Separate efforts merged into one piece of work."],
+    ["zusammenfassen","fassen","to summarise","Grasping scattered points and holding them as one. <i>Zusammenfassung</i> = summary."],
+    ["zusammenbrechen","brechen","to collapse, break down","Breaking such that the whole falls in on itself. Buildings, systems, people."],
+    ["zusammenkommen","kommen","to gather, meet up","People converging on one place. Also: circumstances coinciding."],
+    ["zusammenstellen","stellen","to compile, put together","Placing separate items into a single arrangement — a playlist, a team, a menu."],
+    ["zusammenpassen","passen","to fit together, match","Two things whose shapes agree. Used of colours, schedules, and couples."],
+    ["zusammenlegen","legen","to merge; to fold up","Laying two things into one — departments, or a map folded flat."],
+    ["zusammenzählen","zählen","to add up, total","Counting separate figures into one sum."],
+    ["zusammenhalten","halten","to stick together","A group holding as one under pressure. Loyalty as physical cohesion."],
+    ["zusammenstoßen","stoßen","to collide, clash","The destructive edge: two things arriving at the same point at speed."]
+  ]},
+
+{ p: "entgegen-", kind: "sep", core: "Toward and facing — meeting, or opposing",
+  hint: "Head-on. You move toward something that is moving toward you — to greet it or to resist it.",
+  feel: "<strong>entgegen-</strong> is the head-on gesture: two things facing each other. That single image gives two opposite tones. <b>Welcoming</b>: <em>entgegenkommen</em> is to come to meet someone — and figuratively to accommodate them, to meet them halfway. <b>Resisting</b>: <em>entgegenwirken</em>, <em>entgegenstehen</em>, <em>entgegentreten</em> — facing something in order to block it. The prefix itself is neutral; the verb decides whether the meeting is a handshake or a stand-off. It's formal in register and almost always takes the <b>dative</b>, since you are facing <em>toward</em> something.",
+  mnemo: "Two arrows pointing at each other. Greeting or confrontation — same geometry. Always dative.",
+  ex: [
+    ["entgegenkommen","kommen","to come to meet; to accommodate","Walking toward someone approaching you. Figuratively: meeting them halfway on terms."],
+    ["entgegensehen","sehen","to look forward to; to face","Looking at what's coming toward you — with anticipation or with resolve."],
+    ["entgegennehmen","nehmen","to accept, receive","Taking something being handed toward you. Formal: prizes, deliveries, applications."],
+    ["entgegenbringen","bringen","to show, extend to sb","Carrying a feeling toward someone: <i>Vertrauen entgegenbringen</i> — to extend trust."],
+    ["entgegenstehen","stehen","to stand in the way of","Standing facing the thing so it can't pass. The obstacle sense."],
+    ["entgegenwirken","wirken","to counteract","Acting in the opposing direction to reduce an effect. Policy and medicine both use it."],
+    ["entgegentreten","treten","to confront, oppose","Stepping into the path of something. Used of prejudice, rumour, aggression."],
+    ["entgegensetzen","setzen","to counter, set against","Placing your position opposite theirs. <i>Widerstand entgegensetzen</i> — to put up resistance."],
+    ["entgegenhalten","halten","to object, counter with","Holding an argument up in front of the other person's claim."],
+    ["entgegenlaufen","laufen","to run toward; to run counter to","Literally running to meet someone — or, figuratively, contradicting a principle."]
+  ]},
+
+/* ============ DUAL ============ */
+
+{ p: "durch-", kind: "dual", core: "Through — physically across, or thoroughly to the end",
+  hint: "Separable when a body passes through space. Inseparable when the action saturates something.",
+  feel: "<strong>durch-</strong> is passage through a body or a barrier. The split follows a clean rule: when something literally travels through and out the other side, it is <b>separable</b> and stressed (<em>Ich gehe durch</em>). When the meaning becomes thoroughness — doing the action across the whole of something — it goes <b>inseparable</b> (<em>durchsuchen</em>, to search a place thoroughly). That second sense is where the real feeling lives: <em>durch-</em> verbs are exhaustive. You didn't read the book, you read it through. You didn't think about it, you thought it all the way through to the far side.",
+  mnemo: "Literal passage → separable (<i>ich gehe durch</i>). Thoroughness → inseparable (<i>ich durchsuche</i>).",
+  ex: [
+    ["durchgehen","gehen","to walk through; to go over sth","Separable. Passing through a space — or going through a list item by item."],
+    ["durchlesen","lesen","to read through","Separable. Reading from one end to the other, not sampling."],
+    ["durchfallen","fallen","to fail an exam","Separable. You fall through the net instead of being caught by it."],
+    ["durchhalten","halten","to hold out, persevere","Separable. Holding on all the way through to the other side of a hard stretch."],
+    ["durchsetzen","setzen","to push through, assert","Separable. Getting your position through the resistance. Reflexively: to prevail."],
+    ["durchdenken","denken","to think through","Thinking that traverses the whole problem rather than touching one corner."],
+    ["durchsuchen","suchen","to search thoroughly","Inseparable. Searching that covers every part — a house, a bag, a database."],
+    ["durchqueren","quer","to cross, traverse","Inseparable. Moving across the full width of a country, desert, or room."],
+    ["durchschauen","schauen","to see through sb","Inseparable here. Your gaze passes through the pretence to the truth behind it."],
+    ["durchbrechen","brechen","to break through / in two","Both, with different meanings: separable = snap in two; inseparable = break through a barrier."]
+  ]},
+
+{ p: "hinter-", kind: "dual", core: "Behind — left behind, or done behind someone's back",
+  hint: "A small, almost entirely inseparable set. Where German keeps its verbs of deceit.",
+  feel: "<strong>hinter-</strong> is the space behind, and as a prefix it is nearly always <b>inseparable</b> and slightly sinister. Two branches. <b>Leaving behind</b>: <em>hinterlassen</em>, what remains after you. <b>Behind someone's back</b>: <em>hintergehen</em> (to deceive), <em>hinterziehen</em> (to evade tax), <em>hinterbringen</em> (to report secretly). German locates dishonesty spatially — it happens where you can't see. It's a closed, low-frequency set, so the honest list below includes the everyday nouns that share the feeling, since they are what you'll actually meet in print.",
+  mnemo: "If it's behind your back, it's shady. <b>hinter-</b> is the prefix of things done out of sight.",
+  ex: [
+    ["hinterlassen","lassen","to leave behind","What remains after you've gone — a message, a mess, an inheritance."],
+    ["hintergehen","gehen","to deceive, go behind sb's back","Moving around behind the person so they can't see what you're doing."],
+    ["hinterfragen","fragen","to question critically","Asking what sits behind the surface claim. A favourite of German commentary."],
+    ["hinterlegen","legen","to deposit, lodge","Placing something behind the counter for safekeeping — money, a key, a deposit."],
+    ["hinterziehen","ziehen","to evade (tax)","Pulling money out of sight behind the state's back. <i>Steuerhinterziehung</i>."],
+    ["hintertreiben","treiben","to thwart, sabotage","Driving a plan off course from behind, where the effort can't be traced."],
+    ["hinterbringen","bringen","to report secretly, tip off","Carrying information to someone behind the subject's back."],
+    ["der Hinterhalt","halten","ambush","Holding position behind cover until the moment to strike. Same instinct, as a noun."],
+    ["der Hintergrund","Grund","background","The ground behind the subject — of a picture, or of a story."],
+    ["die Hintertür","Tür","back door, loophole","The exit nobody sees you use. Also a legal or contractual escape route."]
+  ]},
+
+{ p: "über-", kind: "dual", core: "Over — across, above, beyond the limit, or missed entirely",
+  hint: "Separable when something physically crosses or spills. Inseparable when it covers, exceeds, or overlooks.",
+  feel: "<strong>über-</strong> is one of the richest prefixes. Separable and stressed, it is literal: something goes over an edge (<em>überlaufen</em> — to boil over, <em>überkochen</em>). Inseparable and unstressed, it fans out into four figurative senses. <b>Across</b>: <em>überqueren</em>, <em>übersetzen</em> (carrying meaning across languages). <b>Beyond the limit</b>: <em>übertreiben</em>, <em>überleben</em> — going past where you'd expect to stop. <b>Covering</b>: <em>überzeugen</em>, <em>überdecken</em>. And, most usefully, <b>missing by passing over</b>: <em>übersehen</em> is to look right over something and not see it. Same as English 'overlook', with exactly the same double edge.",
+  mnemo: "Stress it and it's physical. Swallow the stress and it's figurative: beyond, across, or missed.",
+  ex: [
+    ["übersetzen","setzen","to translate; to ferry across","Inseparable = translate (carry meaning across). Separable = physically ferry someone over."],
+    ["überqueren","quer","to cross","Inseparable. Moving over a road, river or border to the far side."],
+    ["überlegen","legen","to consider, think over","Inseparable. Laying thoughts over a matter. <i>Ich überlege es mir</i>."],
+    ["übersehen","sehen","to overlook, miss","Your gaze passes over the thing without landing. The 'missing' branch."],
+    ["überleben","leben","to survive","Living beyond the event that should have ended it. The 'beyond' branch."],
+    ["übertreiben","treiben","to exaggerate","Driving the thing past its proper limit. Literally over-driving it."],
+    ["überzeugen","zeugen","to convince","Covering someone with evidence until their doubt is entirely overlaid."],
+    ["überweisen","weisen","to transfer money","Directing funds across from one account to another. The banking verb."],
+    ["übernehmen","nehmen","to take over, assume","Taking a thing across from someone else's hands into yours — a role, a firm, a cost."],
+    ["überlaufen","laufen","to overflow; to defect","Separable = boil over the rim. Inseparable = to run over to the other side."]
+  ]},
+
+{ p: "um-", kind: "dual", core: "Around — encircling, turning, and therefore changing",
+  hint: "Separable when something turns or is redone differently. Inseparable when it surrounds.",
+  feel: "<strong>um-</strong> means <em>around</em>, and the split is unusually satisfying. <b>Inseparable</b> = encircling, going around the outside: <em>umarmen</em> (put your arms around), <em>umgeben</em> (surround), <em>umfahren</em> (drive around an obstacle). <b>Separable</b> = turning around, hence <b>changing</b>: <em>umziehen</em> (change home or clothes), <em>umsteigen</em> (change trains), <em>umdrehen</em> (turn round). That second branch is the one to internalise — in German, to change something is to turn it around, which is why so many 'switch/convert/re-do' verbs start with <em>um-</em>. Beware the pair <em>úmfahren</em> (run over) vs. <em>umfáhren</em> (drive around) — stress alone is life or death.",
+  mnemo: "Stressed <b>úm-</b> = turn it round, change it. Unstressed <b>um-</b> = go round the outside of it.",
+  ex: [
+    ["umziehen","ziehen","to move house; to change clothes","Separable. Both are turning yourself into a different arrangement — new flat, new outfit."],
+    ["umsteigen","steigen","to change trains","Separable. Climbing out and into a different one. Turning your journey around."],
+    ["umdrehen","drehen","to turn around","Separable, and the literal source of the whole 'change' branch."],
+    ["umtauschen","tauschen","to exchange, swap","Separable. Turning one item around into another. What you do with a bad gift."],
+    ["umbauen","bauen","to rebuild, convert","Separable. Building the thing into a different shape. Also <i>Umbau</i> — renovation."],
+    ["umkehren","kehren","to turn back, reverse","Separable. Turning fully around and retracing. Physical or moral."],
+    ["umbringen","bringen","to kill","Separable. Bleak logic: bringing someone around, out of life. Learn as a fixed item."],
+    ["umarmen","Arm","to embrace, hug","Inseparable. Your arms go around the person. The clearest encircling case."],
+    ["umgeben","geben","to surround","Inseparable. Placed all around something. <i>Umgebung</i> = surroundings, area."],
+    ["umfahren","fahren","to drive around / to run over","The famous trap. Inseparable <i>umfáhren</i> = drive around it. Separable <i>úmfahren</i> = flatten it."]
+  ]},
+
+{ p: "unter-", kind: "dual", core: "Under — beneath, supporting from below, or cutting off",
+  hint: "Separable when something physically goes under. Inseparable for subordination, interruption, and examination.",
+  feel: "<strong>unter-</strong> starts beneath. <b>Separable</b> and stressed, it is literal descent (<em>untergehen</em> — to sink, to set). <b>Inseparable</b>, it branches three ways. <b>Support from below</b>: <em>unterstützen</em> — to prop up; <em>unterhalten</em> — to hold up, which becomes 'entertain' and 'maintain'. <b>Getting underneath to examine</b>: <em>untersuchen</em>, to investigate — searching beneath the surface. <b>Cutting in from below</b>: <em>unterbrechen</em>, to interrupt — breaking into something from underneath. And of course the plain hierarchical sense: <em>unterdrücken</em>, to press down and hold under.",
+  mnemo: "Ask which way the force goes: propping <i>up</i> from below, or pressing <i>down</i> from above.",
+  ex: [
+    ["unterschreiben","schreiben","to sign","Inseparable. Writing underneath the text — literally what a signature is."],
+    ["unterbrechen","brechen","to interrupt","Breaking into a flow from below and cutting it. Conversations, power supplies, journeys."],
+    ["untersuchen","suchen","to investigate, examine","Searching beneath the surface for what isn't visible. Medical and criminal alike."],
+    ["unterstützen","stützen","to support","<i>Stützen</i> is to prop. Holding something up from underneath so it doesn't fall."],
+    ["unterhalten","halten","to entertain; to maintain","Holding up from below — a conversation, a guest's mood, or a household."],
+    ["unterdrücken","drücken","to suppress, oppress","Pressing down so it stays under. People, feelings, and revolts."],
+    ["unterscheiden","scheiden","to distinguish","Separating things by getting underneath what makes them different."],
+    ["unternehmen","nehmen","to undertake","Taking a thing on and under your own responsibility. <i>Unternehmen</i> = enterprise."],
+    ["unterlassen","lassen","to refrain from, omit","Letting the action stay under — never letting it surface. Legal register."],
+    ["untergehen","gehen","to sink, to set","Separable. The sun and the ship do the same thing: go under. Also: a culture collapsing."]
+  ]},
+
+{ p: "wider-", kind: "dual", core: "Against — resistance and reflection",
+  hint: "Counter-force. Note the single 'e': wider = against. Not to be confused with wieder = again.",
+  feel: "<strong>wider-</strong> means <em>against</em>, and it is the prefix of pushing back. Almost always inseparable, it forms verbs of contradiction and resistance: <em>widersprechen</em>, <em>widerstehen</em>, <em>widerlegen</em>. Its quieter second branch is <b>reflection</b> — a thing bouncing back off a surface: <em>widerspiegeln</em> (to mirror), <em>widerhallen</em> (to echo). Both are the same physics: something meets a surface and returns. Most <em>wider-</em> verbs take the <b>dative</b> for what is being resisted. Keep it apart from <em>wieder-</em> by spelling: one <em>e</em> means against, two mean again.",
+  mnemo: "<b>wider</b> (one e) = against. <b>wieder</b> (two e's) = again. English <i>with</i>-stand keeps the old sense.",
+  ex: [
+    ["widersprechen","sprechen","to contradict","Speaking against what was said. Dative: <i>ich widerspreche dir</i>."],
+    ["widerstehen","stehen","to resist, withstand","Standing against a force. Temptation, pressure, an army. Dative."],
+    ["widerlegen","legen","to refute, disprove","Laying counter-evidence against a claim until it no longer stands."],
+    ["widerrufen","rufen","to revoke, retract","Calling back against your own earlier statement. Legal and contractual."],
+    ["sich widersetzen","setzen","to oppose, defy","Setting yourself against an order or authority. Dative."],
+    ["widerstreben","streben","to be reluctant, resist","An inner striving against the thing. <i>Es widerstrebt mir</i> — I find it distasteful."],
+    ["widerfahren","fahren","to befall sb","Something travelling against you, arriving unbidden. Formal and often solemn."],
+    ["widerspiegeln","spiegeln","to reflect, mirror","The reflection branch. Separable. The image bounces back off the surface."],
+    ["widerhallen","hallen","to echo, resound","Sound returning from a wall. Same physics as the mirror."],
+    ["der Widerspruch","sprechen","contradiction, objection","The noun of speaking against. Also <i>Widerstand</i> — resistance."]
+  ]},
+
+{ p: "wieder-", kind: "dual", core: "Again, back — repetition and restoration",
+  hint: "Two e's: this is 'again'. Mostly separable; wiederholen is the notable exception.",
+  feel: "<strong>wieder-</strong> means <em>again</em>, and it maps almost exactly onto English <em>re-</em>. Attach it to a verb and the action happens a second time, or the previous state is restored: <em>wiederaufbauen</em> (rebuild), <em>wiederherstellen</em> (restore), <em>wiedersehen</em> (see again — hence <em>auf Wiedersehen</em>, 'until we see each other again'). It is nearly always <b>separable</b> and stressed. The one exception you must memorise is <em>wiederholen</em> — inseparable, meaning 'to repeat'. Said separably, <em>wieder holen</em>, it means to fetch something again. Alongside <em>weiter-</em>, this is one of the safest prefixes to build new verbs with.",
+  mnemo: "German <b>wieder-</b> ≈ English <b>re-</b>. Exception: <i>wiederhólen</i> (repeat) is inseparable.",
+  ex: [
+    ["wiedersehen","sehen","to see again","Meeting again after time apart. <i>Auf Wiedersehen</i> is this verb as a farewell."],
+    ["wiederholen","holen","to repeat","Inseparable exception. Fetching the same thing back a second time — hence repeating it."],
+    ["wiederkommen","kommen","to come back, return","Coming a second time. Warmer and less formal than <i>zurückkehren</i>."],
+    ["wiedergeben","geben","to reproduce, render","Giving the thing back out again — a quote, a performance, a colour on screen."],
+    ["wiederfinden","finden","to find again, recover","Finding what was lost. Also <i>sich wiederfinden</i> — to find yourself somewhere again."],
+    ["wiederherstellen","herstellen","to restore, repair","Producing the original state again. The IT and medical restoration verb."],
+    ["wiedererkennen","erkennen","to recognise","Recognition as knowing again — the arrival of <i>er-</i>, repeated."],
+    ["wiederaufbauen","aufbauen","to rebuild","Building up again after destruction. <i>Wiederaufbau</i> — postwar reconstruction."],
+    ["wiederbeleben","beleben","to revive, resuscitate","Bringing life again. Used of patients, traditions, and neighbourhoods."],
+    ["wiedervereinigen","vereinigen","to reunify","Uniting again what was split. <i>Wiedervereinigung</i> — German reunification, 1990."]
+  ]},
+
+];
+
+/* ---------- render ---------- */
+const list = document.getElementById("list");
+const index = document.getElementById("index");
+const countEl = document.getElementById("count");
+const q = document.getElementById("q");
+let filter = "all", expanded = false;
+
+const slug = s => s.replace(/[^a-zA-ZäöüßÄÖÜ]/g, "").toLowerCase();
+const esc = s => s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+
+function hl(html, term) {
+  if (!term) return html;
+  const re = new RegExp("(" + term.replace(/[.*+?^${}()|[\]\\]/g,"\\$&") + ")", "gi");
+  return html.replace(/(<[^>]+>)|([^<]+)/g, (m, tag, txt) => tag ? tag : txt.replace(re, "<mark>$1</mark>"));
+}
+
+function matches(p, t) {
+  if (!t) return true;
+  const hay = [p.p, p.core, p.hint, p.feel, ...p.ex.flat()].join(" ").toLowerCase();
+  return hay.includes(t);
+}
+
+function render() {
+  const t = q.value.trim().toLowerCase();
+  const items = DATA.filter(p => (filter === "all" || filter === "expand" || p.kind === filter) && matches(p, t));
+  countEl.textContent = items.length + " of " + DATA.length + " prefixes";
+
+  index.innerHTML = items.map(p => '<a href="#' + slug(p.p) + '">' + esc(p.p) + '</a>').join("");
+
+  const openAll = expanded || (t.length >= 2);
+  list.innerHTML = items.length ? items.map(p => {
+    const kindLabel = p.kind === "insep" ? "inseparable" : p.kind === "sep" ? "separable" : "both";
+    const rows = p.ex.map(e =>
+      '<tr><td class="v">' + hl(esc(e[0]), t) + '<span class="root">← ' + esc(e[1]) + '</span></td>' +
+      '<td class="en">' + hl(esc(e[2]), t) + '</td>' +
+      '<td class="why">' + hl(e[3], t) + '</td></tr>'
+    ).join("");
+    return '<section class="card' + (openAll ? " open" : "") + '" id="' + slug(p.p) + '">' +
+      '<div class="head"><div class="pfx">' + hl(esc(p.p), t) + '<span class="kind k-' + p.kind + '">' + kindLabel + '</span></div>' +
+      '<div class="gloss"><div class="core">' + hl(esc(p.core), t) + '</div><div class="hint">' + hl(esc(p.hint), t) + '</div></div>' +
+      '<div class="arrow">▶</div></div>' +
+      '<div class="body"><p class="feel">' + hl(p.feel, t) + '</p><div class="mnemo">' + p.mnemo + '</div>' +
+      '<table><thead><tr><th>Verb</th><th>Meaning</th><th>Why the prefix does that</th></tr></thead><tbody>' + rows + '</tbody></table></div></section>';
+  }).join("") : '<div class="empty">Nothing matches that. Try a root verb like <i>laufen</i>, or an English word like <i>away</i>.</div>';
+
+  list.querySelectorAll(".head").forEach(h => h.addEventListener("click", () => h.parentElement.classList.toggle("open")));
+}
+
+document.querySelectorAll(".chip").forEach(c => c.addEventListener("click", () => {
+  if (c.dataset.f === "expand") {
+    expanded = !expanded;
+    c.classList.toggle("on", expanded);
+    c.textContent = expanded ? "Collapse all" : "Expand all";
+  } else {
+    filter = c.dataset.f;
+    document.querySelectorAll(".chip").forEach(x => { if (x.dataset.f !== "expand") x.classList.toggle("on", x === c); });
+  }
+  render();
+}));
+q.addEventListener("input", render);
+render();
+</script>
+</body>
+</html>
