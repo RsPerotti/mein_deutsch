@@ -42,7 +42,7 @@ Considered folding it into the Verbs module (prefix verbs already live there as 
 
 **Push notes:**
 - Four stale `.git` lock files blocked the commit (`HEAD.lock`, `index.lock`, later `refs/remotes/origin/main.lock` and `objects/maintenance.lock`) — the documented Drive-repo problem. Cleared before committing; the last two only broke the local tracking-ref update *after* the push had already succeeded.
-- ⚠️ **Found: a classic GitHub PAT sitting in plaintext in `.git/config`**, inside the Drive-synced folder. Not in the public repo (`.git/config` is untracked), but it is in cloud storage. `SOURCE_OF_TRUTH.md` had claimed auth was SSH — stale, now corrected. **Rotation added to Next Steps.**
+- `SOURCE_OF_TRUTH.md` claimed auth was SSH. Stale — it is HTTPS with a PAT embedded in the remote URL, adopted deliberately because SSH does not work from the Cowork sandbox. Corrected, with a note that the token syncs to Drive (untracked, so never in the public repo). Accepted tradeoff, not an action item.
 
 **Open:**
 - Device QA — `select_feeling` options are full sentences and wrap to several lines at 430px. Needs a look on the phone.

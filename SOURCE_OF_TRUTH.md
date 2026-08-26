@@ -154,7 +154,8 @@
 - **Live URL:** https://rsperotti.github.io/mein_deutsch
 - **Repo:** https://github.com/RsPerotti/mein_deutsch (public)
 - **Deploy:** push to `main` → GitHub Pages auto-deploys
-- **Auth:** HTTPS with a personal access token embedded in the remote URL in `.git/config` (NOT SSH — this entry was stale until Session 37). ⚠️ Token sits in plaintext inside the Drive-synced folder; scheduled for rotation.
+- **Auth:** HTTPS with a personal access token embedded in the remote URL in `.git/config`. (This entry previously said SSH — stale, corrected Session 37. SSH does not work from the Cowork sandbox, which is why the token approach was adopted.)
+- **Token note:** `.git/config` is untracked, so the token never reaches the public repo — but it does sync to Google Drive with the rest of the folder. Accepted tradeoff. Rotate at github.com → Settings → Developer settings → Personal access tokens (classic, scope `repo`) and re-run `git remote set-url` if it ever leaks or expires.
 - **To push:** `git push origin main` from Mac Terminal (no password prompt)
 
 ---
@@ -284,7 +285,6 @@
 ## Next Steps
 
 **Up next (in rough priority):**
-- **Rotate the GitHub token.** `.git/config` holds a classic PAT in plaintext in the remote URL, inside the Drive-synced folder. Not in the repo (`.git/config` is untracked) but it is in cloud storage. Rotate at github.com/settings/tokens, then re-set the remote — ideally via SSH or a credential helper rather than an embedded token.
 - **Device QA on Vorsilben** — headless only so far. Check the `select_feeling` option buttons, which wrap to multiple lines on a 430px screen.
 - **v15 — Vorsilben ↔ Verbs reconciliation (Phase 6).** Of the 342 reference verbs: 79 already exist in `verbs.json`, **142 are missing but their root verb exists** (add as `prefix_variants`, ~1,100 new exercises, `data.js` rebundle), 121 have no root either (logged for a future Wörter intake). Fix the per-variant `grammar` override in the same pass — see Known open items.
 - Ricco to confirm two flagged sheet entries: "Aufziele" (→ abzielen?) and "kindersinne" (skipped)
