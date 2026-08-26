@@ -1,13 +1,13 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-08-26 — Session 37 (Vorsilben module — v14 built, awaiting push)*
+*Last updated: 2026-08-26 — Session 37 (Vorsilben module — v14 live)*
 
 ---
 
 ## Current State
 
-**10 modules built. 9 live, Vorsilben built and validated but NOT YET PUSHED.** App at https://rsperotti.github.io/mein_deutsch (v13 live; v14 staged locally).
+**10 modules built and live.** App at https://rsperotti.github.io/mein_deutsch (v14).
 
-**Vorsilben module COMPLETE — awaiting push (Session 37).** New standalone 10th module teaching German verb prefixes as a generative system rather than as vocabulary. 35 prefixes across three groups (8 untrennbar / 20 trennbar / 7 beide), each with a core feeling, a feeling paragraph, a mnemonic and 10 worked examples. 5 grammar lessons (no gating, Artikel model) + 330 exercises of two new types. Filters by **separability, not CEFR** — a deliberate departure from every other module, recorded in Active Decisions. `emp-` and `hinter-` are reference-only (closed sets, no exercises). Machine-validated by an independent script — 0 integrity errors. 49-check headless QA suite passes. PRD: `PRD_Vorsilben.md`. **Not yet committed or pushed — Ricco to review and push.**
+**Vorsilben module COMPLETE (Session 37).** New standalone 10th module teaching German verb prefixes as a generative system rather than as vocabulary. 35 prefixes across three groups (8 untrennbar / 20 trennbar / 7 beide), each with a core feeling, a feeling paragraph, a mnemonic and 10 worked examples. 5 grammar lessons (no gating, Artikel model) + 330 exercises of two new types. Filters by **separability, not CEFR** — a deliberate departure from every other module, recorded in Active Decisions. `emp-` and `hinter-` are reference-only (closed sets, no exercises). Machine-validated by an independent script — 0 integrity errors. 49-check headless QA suite passes. PRD: `PRD_Vorsilben.md`. Commit `ec4891c`, pushed and live (v14).
 
 **BUGFIX shipped with v14 — grammar quiz results were recorded against the wrong module.** `advanceGrammarQuiz()` always called `_renderGrammarQuizResults()`, which writes into the Verbs `Grammar` singleton. Partikeln, Artikel and Deklinationen quiz completions were therefore never recorded against `ParticleGrammar` / `ArticleGrammar` / `DeclensionGrammar`: their Grammatik accordion dots never turned green, and their lesson IDs were written as stray keys into `app_grammar_lessons`. `advanceGrammarQuiz()` now dispatches on `_grammarQuizState.module`, matching what `onScreenEnter` already did. Affects all four modules. Existing users will see previously-completed Partikeln/Artikel/Deklinationen lessons still showing as incomplete — the old results were written to the wrong store and are not migrated.
 
@@ -143,7 +143,7 @@
 | Particles | A1–C2 | 34 | 510 | ✅ Complete |
 | Ausdrücke | B1–B2 | 8 expressions | 32 | ✅ Live — grows with readings |
 | Deklinationen | A1–B2 | 3 patterns × 4 cases | 360 | ✅ Complete (Session 36) |
-| Vorsilben | — | 35 prefixes (33 drilled) | 330 | ✅ Built, not pushed (Session 37) |
+| Vorsilben | — | 35 prefixes (33 drilled) | 330 | ✅ Complete (Session 37) |
 
 **Total exercises: ~5,824 across 9 modules + Deklinationen area + Artikel (dynamic queue from unlocked nouns).**
 
@@ -154,7 +154,7 @@
 - **Live URL:** https://rsperotti.github.io/mein_deutsch
 - **Repo:** https://github.com/RsPerotti/mein_deutsch (public)
 - **Deploy:** push to `main` → GitHub Pages auto-deploys
-- **Auth:** SSH (`~/.ssh/id_ed25519`, ed25519). Remote: `git@github.com:RsPerotti/mein_deutsch.git`
+- **Auth:** HTTPS with a personal access token embedded in the remote URL in `.git/config` (NOT SSH — this entry was stale until Session 37). ⚠️ Token sits in plaintext inside the Drive-synced folder; scheduled for rotation.
 - **To push:** `git push origin main` from Mac Terminal (no password prompt)
 
 ---
@@ -245,7 +245,7 @@
 2. ~~Lessons content~~ ✅ Session 37
 3. ~~Exercise generation + validation~~ ✅ Session 37
 4. ~~Engine + UI~~ ✅ Session 37
-5. ~~QA~~ ✅ Session 37 — 49 headless checks pass. **Push pending.**
+5. ~~QA + deploy~~ ✅ Session 37 — 49 headless checks pass. Commit `ec4891c`, pushed and live (v14).
 6. Reconciliation into `verbs.json` — v15, not started
 
 **Full PRD:** `PRD_Vorsilben.md`
@@ -284,7 +284,7 @@
 ## Next Steps
 
 **Up next (in rough priority):**
-- **Push v14.** Vorsilben is built and validated but not committed. Ricco to review, commit, push. Remember the `.git` lock workaround below.
+- **Rotate the GitHub token.** `.git/config` holds a classic PAT in plaintext in the remote URL, inside the Drive-synced folder. Not in the repo (`.git/config` is untracked) but it is in cloud storage. Rotate at github.com/settings/tokens, then re-set the remote — ideally via SSH or a credential helper rather than an embedded token.
 - **Device QA on Vorsilben** — headless only so far. Check the `select_feeling` option buttons, which wrap to multiple lines on a 430px screen.
 - **v15 — Vorsilben ↔ Verbs reconciliation (Phase 6).** Of the 342 reference verbs: 79 already exist in `verbs.json`, **142 are missing but their root verb exists** (add as `prefix_variants`, ~1,100 new exercises, `data.js` rebundle), 121 have no root either (logged for a future Wörter intake). Fix the per-variant `grammar` override in the same pass — see Known open items.
 - Ricco to confirm two flagged sheet entries: "Aufziele" (→ abzielen?) and "kindersinne" (skipped)

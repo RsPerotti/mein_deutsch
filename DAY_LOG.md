@@ -2,9 +2,9 @@
 
 ---
 
-## 2026-08-26 — Session 37: Vorsilben module (v14 — built, not pushed)
+## 2026-08-26 — Session 37: Vorsilben module (v14)
 
-**PRD:** `PRD_Vorsilben.md` — signed off same session. **Not committed. Not pushed.** Working tree is dirty; Ricco to review and push.
+**PRD:** `PRD_Vorsilben.md` — signed off same session. Commit `ec4891c`, pushed and live (v14).
 
 **Origin:** started outside the app entirely — Ricco asked for a feeling-driven reference to all German verb prefixes, which became a 35-prefix / 350-example HTML artifact. That artifact then became the content source for a new module. `_factory/vorsilben/source-reference.html` is the reviewed source.
 
@@ -38,8 +38,11 @@ Considered folding it into the Verbs module (prefix verbs already live there as 
 
 **Deliberately not done:**
 - `js/data.js` not rebundled. The Vorsilben module descriptor rides in `js/prefixes-data.js` and is merged in `loadData()`, the same mechanism the listening module uses. Avoided 2.2 MB of churn for one JSON object.
-- No commit, no push. Reversibility rule — Ricco reviews and pushes.
 - Phase 6 (reconciliation) not started. Measured: of 342 reference verbs, **79** already in `verbs.json`, **142** missing with root present (the v15 job, ~1,100 new exercises), **121** missing with no root either (future Wörter intake).
+
+**Push notes:**
+- Four stale `.git` lock files blocked the commit (`HEAD.lock`, `index.lock`, later `refs/remotes/origin/main.lock` and `objects/maintenance.lock`) — the documented Drive-repo problem. Cleared before committing; the last two only broke the local tracking-ref update *after* the push had already succeeded.
+- ⚠️ **Found: a classic GitHub PAT sitting in plaintext in `.git/config`**, inside the Drive-synced folder. Not in the public repo (`.git/config` is untracked), but it is in cloud storage. `SOURCE_OF_TRUTH.md` had claimed auth was SSH — stale, now corrected. **Rotation added to Next Steps.**
 
 **Open:**
 - Device QA — `select_feeling` options are full sentences and wrap to several lines at 430px. Needs a look on the phone.
