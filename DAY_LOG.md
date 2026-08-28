@@ -51,8 +51,10 @@ Grammar is templated rather than hand-written, so the authored content is 266 sh
 **Verification:** `validate-variants.py` (independent re-derivation) 0 errors; `qa-variants.js` 21 checks; `qa-prefixes.js` 61 checks; `validate-prefixes.py` and `validate-declension.py` both still 0. Backups of the pre-run `verbs.json`, `exercises-verbs.json` and `data.js` in `_factory/vorsilben/backups/`.
 
 **Open:**
-- Review `_factory/vorsilben/judgement-review.md` — 54 + 12 calls. The dual-prefix separability rows are the ones most worth a sceptical read.
-- Device QA on the new verb variants.
+- The 66 judgement calls in `judgement-review.md` are **unverified**. They need checking against a dictionary, not against Ricco — he is a learner, and asking him to confirm whether `durchsuchen` is inseparable is circular. Next session: build `_factory/verify-variants.py` to check separability / auxiliary / Partizip II against an external source.
+- Device QA on the new verb variants — usability only.
+
+**Process correction (end of session).** I closed Part 2 by asking Ricco to review the linguistic judgement calls. That was the wrong ask: the whole point of the app is that he does not yet know this material. Correctness has to be verified mechanically or against an authority; his review is for whether the product works and feels right. Recorded as an Active Decision so it does not recur.
 
 ---
 

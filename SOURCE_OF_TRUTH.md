@@ -60,7 +60,7 @@
 | `_factory/bundle-data.py` | ✅ NEW (S38) | **First reproducible builder for `js/data.js`** — it was assembled ad hoc before, which is how it drifted from `data/modules.json` (see v10). |
 | `_factory/qa-variants.js` | ✅ NEW (S38) | 21 headless checks incl. the verstehen case badge. |
 | `_factory/vorsilben/variant-seeds-*.json` | ✅ NEW (S38) | 133 authored seeds — separability, auxiliary, case, 2 complements. Only what cannot be derived. |
-| `_factory/vorsilben/judgement-review.md` | ⚠️ NEEDS REVIEW | 54 generation calls + 12 pre-existing case overrides, with reasoning. |
+| `_factory/vorsilben/judgement-review.md` | ⚠️ UNVERIFIED | 54 generation calls + 12 pre-existing case overrides, with reasoning. To be checked against a dictionary in a future session — NOT by Ricco. |
 | `data/exercises/exercises-nouns.json` | ✅ 690 exercises | 230 × 3. |
 | `data/exercises/exercises-adverbs.json` | ✅ 556 exercises | 139 × 4. |
 | `data/exercises/exercises-adjectives.json` | ✅ 544 exercises | 136 × 4. |
@@ -135,6 +135,7 @@
 | Vorsilben distractor rule | A distractor is invalid if its own core feeling shares a content keyword with the target meaning, even when the two prefixes are not near-synonyms. Enforced in both generator and validator (`semantic-overlap`). Added Session 38. |
 | Vorsilben content rule | Exercises are never invented — the generator derives every item from a reviewed worked example in `prefixes.json`, and the validator holds an independent copy of the near-synonym exclusion table. Regenerate + validate via `_factory/*-prefixes.py`. |
 | Vorsilben vocabulary | Reconciled into `verbs.json` in Session 38 (v16): 133 variants added where the root already existed. 121 whose root is also absent remain out of scope — future Wörter intake. |
+| Correctness verification | Ricco is a learner and cannot validate German. Never route linguistic correctness through him — verify against a dictionary or an independent script. His review is for usability and product direction only. |
 | Variant case requirements | Variants inherit `grammar.case_requirements` from their root unless they carry their own override. Overrides exist only where the case genuinely diverges — chiefly the transitivising prefixes be-, er-, ver-, über-. |
 | js/data.js builds | Always via `_factory/bundle-data.py`. Never hand-edited. |
 | Deklination v1 exclusions | Stem-changers (dunkel/hoch/teuer), indeclinables (rosa/lila), Komparativ/Superlativ declension, adjectival nouns. |
@@ -296,8 +297,8 @@
 ## Next Steps
 
 **Up next (in rough priority):**
-- **Review `_factory/vorsilben/judgement-review.md`** — 66 linguistic calls made during the v16 reconciliation. The 33 dual-prefix separability rows deserve the most sceptical read.
-- **Device QA** on the new verb variants and on the Vorsilben module.
+- **Verify the 66 judgement calls in `_factory/vorsilben/judgement-review.md` against a dictionary** (Wiktionary / DWDS / Duden), not against Ricco. He is a learner; he cannot confirm whether `durchsuchen` is inseparable, and asking him to is circular. Build `_factory/verify-variants.py` to check separability, auxiliary and Partizip II per verb against an external source, and treat any mismatch as an integrity error.
+- **Device QA** on the new verb variants and on the Vorsilben module — usability only (does it look right, does it feel right), never correctness.
 - **Remaining 121 prefix verbs** whose root is also missing from `verbs.json` (entsorgen, hintertreiben, niederknien…) — a future Wörter intake, not a reconciliation.
 - Ricco to confirm two flagged sheet entries: "Aufziele" (→ abzielen?) and "kindersinne" (skipped)
 - Next Wörter intake when the sheet grows (diff against `_factory/intake-log.json`)
