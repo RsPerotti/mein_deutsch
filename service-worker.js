@@ -18,13 +18,16 @@
  *      330 select_prefix/select_feeling exercises, prefixes-data.js.
  * v15: Vorsilben fixes (Session 38) — progress recording, misfiled-quiz migration,
  *      semantic-overlap distractor rule.
+ * v16: Vorsilben ↔ Verbs reconciliation (Session 38) — +133 prefix_variants,
+ *      +1064 verb exercises, per-variant grammar override (verstehen case badge),
+ *      js/data.js rebundled from data/*.json via _factory/bundle-data.py.
  *
  * DEPLOY NOTE: bump the CACHE version string on every push that changes
  * JS/CSS files. The browser only installs a new SW when this file changes.
  * If the version is not bumped, users keep running the old cached code.
  */
 
-const CACHE = 'mein-deutsch-v15';
+const CACHE = 'mein-deutsch-v16';
 
 const PRECACHE = [
   './',

@@ -1078,11 +1078,20 @@ function _verbMetaBadge(wordId) {
     typeStr = root.type === 'weak' ? 'Regular' : 'Irregular';
     cases   = root.grammar?.case_requirements || [];
   } else {
-    // Prefix variant — inherit type and case from parent root
+    // Prefix variant — inherit type from the parent root, but prefer the
+    // variant's OWN case requirements when it has them.
+    //
+    // BUGFIX (Session 38): case was always inherited from the root, so
+    // 'verstehen' rendered as Irregular with no case badge even though it
+    // takes the accusative while 'stehen' takes none. Variants may now carry
+    // `grammar.case_requirements`; inheritance remains the default.
     for (const v of appData.verbs) {
-      if ((v.prefix_variants || []).some(pv => pv.id === wordId)) {
+      const variant = (v.prefix_variants || []).find(pv => pv.id === wordId);
+      if (variant) {
         typeStr = v.type === 'weak' ? 'Regular' : 'Irregular';
-        cases   = v.grammar?.case_requirements || [];
+        cases   = variant.grammar?.case_requirements
+               ?? v.grammar?.case_requirements
+               ?? [];
         break;
       }
     }

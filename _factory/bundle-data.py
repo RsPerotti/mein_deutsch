@@ -1,0 +1,64 @@
+#!/usr/bin/env python3
+"""
+bundle-data.py — rebuilds js/data.js (window.APP_DATA) from data/*.json
+
+Until Session 38 this was done ad hoc, which is how js/data.js and
+data/modules.json drifted apart (v10 in the day log was a fix for exactly
+that). This script makes the bundle reproducible.
+
+Key shape is preserved exactly as the app expects it:
+  modules, verbs, nouns, adverbs, adjectives, prepositions, expressions,
+  exercises_* arrays, and exercises.module_verbs
+
+Note on modules: the listening module descriptor lives in js/listening-data.js
+and the Vorsilben one in js/prefixes-data.js; both are merged into
+appData.modules at load time, and app.js guards against duplicates. Including
+them here as well is harmless and keeps js/data.js honest against
+data/modules.json.
+
+Run:  python3 _factory/bundle-data.py
+"""
+
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+D = ROOT / "data"
+OUT = ROOT / "js" / "data.js"
+
+
+def load(*parts):
+    return json.loads((D.joinpath(*parts)).read_text(encoding="utf-8"))
+
+
+def main():
+    payload = {
+        "modules":                 load("modules.json"),
+        "verbs":                   load("verbs.json"),
+        "nouns":                   load("nouns.json"),
+        "adverbs":                 load("adverbs.json"),
+        "adjectives":              load("adjectives.json"),
+        "exercises_nouns":         load("exercises", "exercises-nouns.json"),
+        "exercises_adverbs":       load("exercises", "exercises-adverbs.json"),
+        "exercises_adjectives":    load("exercises", "exercises-adjectives.json"),
+        "prepositions":            load("prepositions.json"),
+        "exercises_prepositions":  load("exercises", "exercises-prepositions.json"),
+        "expressions":             load("expressions.json"),
+        "exercises_expressions":   load("exercises", "exercises-expressions.json"),
+        "exercises": {"module_verbs": load("exercises", "exercises-verbs.json")},
+    }
+
+    OUT.write_text(
+        "window.APP_DATA = "
+        + json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
+        + ";\n",
+        encoding="utf-8",
+    )
+    print(f"wrote {OUT.relative_to(ROOT)}  ({OUT.stat().st_size / 1024 / 1024:.2f} MB)")
+    for k, v in payload.items():
+        n = len(v["module_verbs"]) if k == "exercises" else len(v)
+        print(f"  {k:24s} {n}")
+
+
+if __name__ == "__main__":
+    main()

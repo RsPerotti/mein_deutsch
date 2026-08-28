@@ -2,7 +2,7 @@
 
 ---
 
-## 2026-08-28 — Session 38: Vorsilben fixes (v15)
+## 2026-08-28 — Session 38: Vorsilben fixes (v15) + Verbs reconciliation (v16)
 
 **Reported:** progress not displaying in the Vorsilben module.
 
@@ -26,6 +26,33 @@
 - Regenerated: still 330 exercises, 0 integrity errors. `vorgehen` now sits against emp-, her- and über-.
 
 **Note on the heuristic:** keyword overlap alone would *not* have caught `vorgehen` ("proceed / go on" shares no literal token with "onward"). The explicit vor/fort pair does. The two mechanisms are complements — the scan finds families, the pairs catch the ones that need judgement.
+
+### Part 2 — Vorsilben ↔ Verbs reconciliation (v16)
+
+Phase 6 of `PRD_Vorsilben.md`, approved at sign-off. **133 candidates, not the 142 first estimated** — the earlier figure double-counted non-drillable entries and duplicates.
+
+**Result:** 149 roots / **287 variants** (was 154), **3,708 verb exercises** (was 2,644).
+
+**What is authored vs. derived.** Only the parts that cannot be computed live in `_factory/vorsilben/variant-seeds-*.json`: separability, auxiliary, case, and two example complements per verb. Everything else is derived, which is what keeps 1,064 generated exercises trustworthy:
+- **Partizip II** — separable: prefix + root participle (`an` + `gerufen`); inseparable: prefix + root participle minus the `ge-` augment (`ver` + `kauft`).
+- **Präsens / Präteritum** — lifted from the root's existing `conjugation_table` exercises. No root stores Präteritum in `verbs.json`; it only ever existed inside the exercise data.
+- **Perfekt** — seeded auxiliary paradigm + derived participle.
+
+Grammar is templated rather than hand-written, so the authored content is 266 short complements instead of ~400 full German sentences — far less surface for error.
+
+**54 judgement calls, all logged** to `_factory/vorsilben/judgement-review.md` for review: 33 dual-prefix separability decisions (`durchlesen` separates, `durchsuchen` doesn't; `umfáhren` = drive around vs. `úmfahren` = run over), auxiliary where it doesn't inherit (`stehen` haben → `entstehen` sein), and case divergences (`reichen` dative → `erreichen` accusative).
+
+**The verstehen bug, closed properly.** Two halves: variants may now carry `grammar.case_requirements`, and `_verbMetaBadge()` prefers the variant's own value over the root's — inheritance stays the default. Then 12 *pre-existing* variants got overrides, all on the transitivising prefixes be-/er-/ver-/über-, which is exactly the rule Lesson 3 of the Vorsilben module teaches: verstehen, bekommen, bestehen, bedenken, überleben, erarbeiten, erfahren, verschlafen, bewohnen, bereisen, abwarten, erwarten. The other 26 that inherit `none` were left alone — ankommen, aufstehen, einschlafen and friends are genuinely intransitive.
+
+**A false positive worth recording.** My validator flagged `umgeben` as "inseparable but its participle keeps ge-". It was wrong: root `geben` has participle `gegeben`, stripping the augment gives `um` + `geben` = `umgeben`, which is correct German. **You cannot detect a leftover `ge-` augment by inspecting the characters after the prefix** — roots whose *stem* begins with "ge" (geben, gehen, gewinnen) make it undecidable. The check now derives and compares, and only warns for the ambiguous shape. Two pre-existing warnings remain and are correct: `anerkennen` and `kennenlernen` are irregular and don't follow the rule.
+
+**js/data.js now has a real builder.** `_factory/bundle-data.py` rebuilds it from `data/*.json`. Until now it was assembled ad hoc — which is how it drifted from `data/modules.json` before (see v10). The rebundle also folds in the Vorsilben module descriptor, so `js/data.js` and `data/modules.json` agree again; `app.js` already guards against the duplicate from `prefixes-data.js`.
+
+**Verification:** `validate-variants.py` (independent re-derivation) 0 errors; `qa-variants.js` 21 checks; `qa-prefixes.js` 61 checks; `validate-prefixes.py` and `validate-declension.py` both still 0. Backups of the pre-run `verbs.json`, `exercises-verbs.json` and `data.js` in `_factory/vorsilben/backups/`.
+
+**Open:**
+- Review `_factory/vorsilben/judgement-review.md` — 54 + 12 calls. The dual-prefix separability rows are the ones most worth a sceptical read.
+- Device QA on the new verb variants.
 
 ---
 

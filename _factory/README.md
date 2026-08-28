@@ -76,3 +76,42 @@ the reviewed reference it was derived from.
 
 **Note:** the generator is seeded (`SEED = 20260826`), so regeneration is
 byte-identical unless `data/prefixes.json` changes.
+
+
+---
+
+## Vorsilben -> Verbs reconciliation — Session 38 (v16)
+
+Adds the prefix verbs from the Vorsilben module into `data/verbs.json` as
+`prefix_variants`, with the full 8-exercise package each.
+
+```bash
+python3 _factory/generate-variants.py   # +133 variants, +1064 exercises, writes judgement-review.md
+python3 _factory/validate-variants.py   # independent check — must be 0 errors
+python3 _factory/bundle-data.py         # rebuild js/data.js from data/*.json
+node _factory/qa-variants.js            # 21 headless checks
+```
+
+**Authored source:** `_factory/vorsilben/variant-seeds-*.json`. Only what cannot be
+derived lives there — separability, auxiliary, case, and two example complements
+per verb. Every judgement call carries a `judgement` field and is collected into
+`_factory/vorsilben/judgement-review.md`.
+
+**Derived, never authored:**
+- Partizip II — separable: prefix + root participle; inseparable: prefix + root
+  participle minus the `ge-` augment.
+- Präsens / Präteritum — lifted from the root's existing `conjugation_table`
+  exercises (no root stores Präteritum in `verbs.json`).
+- Perfekt — seeded auxiliary paradigm + derived participle.
+
+**Trap to know about:** you cannot detect a leftover `ge-` augment by inspecting
+the characters after the prefix. Roots whose *stem* starts with "ge" (geben,
+gehen, gewinnen) make it undecidable — `umgeben` is the correct inseparable
+participle of `umgeben`. The validator derives and compares instead, and only
+emits an eyeball warning for the ambiguous shape.
+
+**Backups** of the pre-run files are in `_factory/vorsilben/backups/`.
+
+`bundle-data.py` is also the first reproducible builder for `js/data.js`, which
+until now was assembled ad hoc — the reason `js/data.js` and `data/modules.json`
+drifted apart before (day log v10).

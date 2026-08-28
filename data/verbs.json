@@ -72,7 +72,16 @@
       "past_participle": "gehabt",
       "auxiliary": "haben"
     },
-    "prefix_variants": [],
+    "prefix_variants": [
+      {
+        "id": "verb_vorhaben",
+        "prefix": "vor",
+        "word": "vorhaben",
+        "english": "to intend, plan",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich habe … vor."
+      }
+    ],
     "example_sentences": [
       {
         "de": "Ich habe einen Hund.",
@@ -125,7 +134,22 @@
       "past_participle": "geworden",
       "auxiliary": "sein"
     },
-    "prefix_variants": [],
+    "prefix_variants": [
+      {
+        "id": "verb_loswerden",
+        "prefix": "los",
+        "word": "loswerden",
+        "english": "to get rid of",
+        "separable": true,
+        "notes": "'Ich werde den Husten nicht los.' Accusative, unlike plain werden.",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "case ACCUSATIVE despite werden being a copula with the nominative — loswerden is the exception"
+        }
+      }
+    ],
     "example_sentences": [
       {
         "de": "Er wird Arzt.",
@@ -402,6 +426,44 @@
         "english": "to agree on / to arrange; to take off",
         "separable": true,
         "notes": "Separable. Two meanings: arrange/agree ('einen Termin abmachen') and remove ('das Etikett abmachen'). 'Abgemacht!' = Deal! (see Ausdrücke)."
+      },
+      {
+        "id": "verb_anmachen",
+        "prefix": "an",
+        "word": "anmachen",
+        "english": "to switch on; to hit on sb",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich mache … an."
+      },
+      {
+        "id": "verb_mitmachen",
+        "prefix": "mit",
+        "word": "mitmachen",
+        "english": "to join in, take part",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich mache … mit."
+      },
+      {
+        "id": "verb_nachmachen",
+        "prefix": "nach",
+        "word": "nachmachen",
+        "english": "to imitate, copy",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich mache … nach."
+      },
+      {
+        "id": "verb_weitermachen",
+        "prefix": "weiter",
+        "word": "weitermachen",
+        "english": "to carry on, continue",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich mache … weiter.",
+        "grammar": {
+          "case_requirements": [
+            "none"
+          ],
+          "notes_en": "no case — root machen takes the accusative, but weitermachen is typically intransitive"
+        }
       }
     ],
     "example_sentences": [
@@ -488,6 +550,90 @@
         "english": "to pass (time)",
         "separable": false,
         "notes": "Inseparable prefix. The prefix never separates: Die Zeit vergeht schnell."
+      },
+      {
+        "id": "verb_durchgehen",
+        "prefix": "durch",
+        "word": "durchgehen",
+        "english": "to walk through; to go over sth",
+        "separable": true,
+        "notes": "'Wir gehen die Liste durch.' The motion sense takes sein: 'Er ist durchgegangen.'",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "SEPARABLE and aux HABEN in the 'go over something' sense taken here; the motion sense ('walk through') is separable with sein"
+        }
+      },
+      {
+        "id": "verb_fortgehen",
+        "prefix": "fort",
+        "word": "fortgehen",
+        "english": "to go away, leave",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich gehe … fort."
+      },
+      {
+        "id": "verb_hingehen",
+        "prefix": "hin",
+        "word": "hingehen",
+        "english": "to go there",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich gehe … hin."
+      },
+      {
+        "id": "verb_hintergehen",
+        "prefix": "hinter",
+        "word": "hintergehen",
+        "english": "to deceive, go behind sb's back",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich hintergehe.'",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "aux HABEN and case ACCUSATIVE — both differ from root gehen (sein, no case), because hintergehen is transitive 'to deceive'"
+        }
+      },
+      {
+        "id": "verb_untergehen",
+        "prefix": "unter",
+        "word": "untergehen",
+        "english": "to sink, to set",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich gehe … unter."
+      },
+      {
+        "id": "verb_vorgehen",
+        "prefix": "vor",
+        "word": "vorgehen",
+        "english": "to proceed; to go on",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich gehe … vor."
+      },
+      {
+        "id": "verb_weggehen",
+        "prefix": "weg",
+        "word": "weggehen",
+        "english": "to go away, leave",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich gehe … weg."
+      },
+      {
+        "id": "verb_weitergehen",
+        "prefix": "weiter",
+        "word": "weitergehen",
+        "english": "to go on, move along",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich gehe … weiter."
+      },
+      {
+        "id": "verb_zurückgehen",
+        "prefix": "zurück",
+        "word": "zurückgehen",
+        "english": "to go back, decline",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich gehe … zurück."
       }
     ],
     "example_sentences": [
@@ -557,7 +703,13 @@
         "word": "bekommen",
         "english": "to receive / to get",
         "separable": false,
-        "notes": "Inseparable prefix: Ich bekomme ein Paket."
+        "notes": "Inseparable prefix: Ich bekomme ein Paket.",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "be- makes it transitive: 'ein Geschenk bekommen'. Root kommen takes no case."
+        }
       },
       {
         "id": "verb_vorkommen",
@@ -566,6 +718,74 @@
         "english": "to occur / to seem",
         "separable": true,
         "notes": "Prefix separates: Das kommt selten vor."
+      },
+      {
+        "id": "verb_entgegenkommen",
+        "prefix": "entgegen",
+        "word": "entgegenkommen",
+        "english": "to come to meet; to accommodate",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich komme … entgegen.",
+        "grammar": {
+          "case_requirements": [
+            "dative"
+          ],
+          "notes_en": "case DATIVE — you come toward someone; root kommen has none"
+        }
+      },
+      {
+        "id": "verb_herkommen",
+        "prefix": "her",
+        "word": "herkommen",
+        "english": "to come here",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich komme … her."
+      },
+      {
+        "id": "verb_mitkommen",
+        "prefix": "mit",
+        "word": "mitkommen",
+        "english": "to come along",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich komme … mit."
+      },
+      {
+        "id": "verb_wiederkommen",
+        "prefix": "wieder",
+        "word": "wiederkommen",
+        "english": "to come back, return",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich komme … wieder."
+      },
+      {
+        "id": "verb_zukommen",
+        "prefix": "zu",
+        "word": "zukommen",
+        "english": "to approach; to be due to sb",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich komme … zu.",
+        "grammar": {
+          "case_requirements": [
+            "dative"
+          ],
+          "notes_en": "case DATIVE"
+        }
+      },
+      {
+        "id": "verb_zurückkommen",
+        "prefix": "zurück",
+        "word": "zurückkommen",
+        "english": "to come back, return",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich komme … zurück."
+      },
+      {
+        "id": "verb_zusammenkommen",
+        "prefix": "zusammen",
+        "word": "zusammenkommen",
+        "english": "to gather, meet up",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich komme … zusammen."
       }
     ],
     "example_sentences": [
@@ -705,6 +925,72 @@
         "english": "to foresee / to anticipate",
         "separable": true,
         "notes": "Separable: Er sieht Probleme vorher. Related adjective: vorhersehbar (foreseeable, predictable)."
+      },
+      {
+        "id": "verb_einsehen",
+        "prefix": "ein",
+        "word": "einsehen",
+        "english": "to realise, come to accept",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich sehe … ein."
+      },
+      {
+        "id": "verb_entgegensehen",
+        "prefix": "entgegen",
+        "word": "entgegensehen",
+        "english": "to look forward to; to face",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich sehe … entgegen.",
+        "grammar": {
+          "case_requirements": [
+            "dative"
+          ],
+          "notes_en": "case DATIVE — 'einer Sache entgegensehen'"
+        }
+      },
+      {
+        "id": "verb_wegsehen",
+        "prefix": "weg",
+        "word": "wegsehen",
+        "english": "to look away",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich sehe … weg.",
+        "grammar": {
+          "case_requirements": [
+            "none"
+          ],
+          "notes_en": "no case — root sehen takes the accusative, but wegsehen is intransitive"
+        }
+      },
+      {
+        "id": "verb_wiedersehen",
+        "prefix": "wieder",
+        "word": "wiedersehen",
+        "english": "to see again",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich sehe … wieder."
+      },
+      {
+        "id": "verb_zusehen",
+        "prefix": "zu",
+        "word": "zusehen",
+        "english": "to watch, look on",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich sehe … zu.",
+        "grammar": {
+          "case_requirements": [
+            "dative"
+          ],
+          "notes_en": "case DATIVE — you watch someone doing something; root sehen takes the accusative"
+        }
+      },
+      {
+        "id": "verb_übersehen",
+        "prefix": "über",
+        "word": "übersehen",
+        "english": "to overlook, miss",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich übersehe.'"
       }
     ],
     "example_sentences": [
@@ -783,6 +1069,76 @@
         "english": "to let in",
         "separable": true,
         "notes": "Prefix separates: Er lässt mich nicht ein."
+      },
+      {
+        "id": "verb_entlassen",
+        "prefix": "ent",
+        "word": "entlassen",
+        "english": "to dismiss, release",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich entlasse.'"
+      },
+      {
+        "id": "verb_hinterlassen",
+        "prefix": "hinter",
+        "word": "hinterlassen",
+        "english": "to leave behind",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich hinterlasse.'"
+      },
+      {
+        "id": "verb_loslassen",
+        "prefix": "los",
+        "word": "loslassen",
+        "english": "to let go, release",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich lasse … los."
+      },
+      {
+        "id": "verb_nachlassen",
+        "prefix": "nach",
+        "word": "nachlassen",
+        "english": "to ease off, diminish",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich lasse … nach.",
+        "grammar": {
+          "case_requirements": [
+            "none"
+          ],
+          "notes_en": "no case — root lassen takes the accusative, but nachlassen (ease off) is intransitive"
+        }
+      },
+      {
+        "id": "verb_niederlassen",
+        "prefix": "nieder",
+        "word": "niederlassen",
+        "english": "to settle down, set up",
+        "separable": true,
+        "notes": "Reflexive: 'Sie hat sich in Köln niedergelassen.'"
+      },
+      {
+        "id": "verb_unterlassen",
+        "prefix": "unter",
+        "word": "unterlassen",
+        "english": "to refrain from, omit",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich unterlasse.'"
+      },
+      {
+        "id": "verb_weglassen",
+        "prefix": "weg",
+        "word": "weglassen",
+        "english": "to leave out, omit",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich lasse … weg."
+      },
+      {
+        "id": "verb_zulassen",
+        "prefix": "zu",
+        "word": "zulassen",
+        "english": "to permit, allow",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich lasse … zu."
       }
     ],
     "example_sentences": [
@@ -844,7 +1200,13 @@
         "word": "verstehen",
         "english": "to understand",
         "separable": false,
-        "notes": "Inseparable prefix: Ich verstehe dich nicht."
+        "notes": "Inseparable prefix: Ich verstehe dich nicht.",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "be-/er-/ver-/über- transitivise: 'die Frage verstehen' takes the accusative, while root stehen takes no case. This is the verstehen case-badge bug."
+        }
       },
       {
         "id": "verb_aufstehen",
@@ -860,7 +1222,77 @@
         "word": "bestehen",
         "english": "to pass (an exam) / to consist of",
         "separable": false,
-        "notes": "Inseparable prefix: Er besteht die Prüfung. / Das Team besteht aus fünf Personen."
+        "notes": "Inseparable prefix: Er besteht die Prüfung. / Das Team besteht aus fünf Personen.",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "be- transitivises: 'die Prüfung bestehen' (accusative). Note 'bestehen aus' uses a preposition instead."
+        }
+      },
+      {
+        "id": "verb_beistehen",
+        "prefix": "bei",
+        "word": "beistehen",
+        "english": "to stand by, support",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich stehe … bei.",
+        "grammar": {
+          "case_requirements": [
+            "dative"
+          ],
+          "notes_en": "case DATIVE — the person supported stands in the dative; root stehen has none"
+        }
+      },
+      {
+        "id": "verb_entgegenstehen",
+        "prefix": "entgegen",
+        "word": "entgegenstehen",
+        "english": "to stand in the way of",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich stehe … entgegen.",
+        "grammar": {
+          "case_requirements": [
+            "dative"
+          ],
+          "notes_en": "case DATIVE"
+        }
+      },
+      {
+        "id": "verb_entstehen",
+        "prefix": "ent",
+        "word": "entstehen",
+        "english": "to arise, come into being",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich entstehe.'"
+      },
+      {
+        "id": "verb_gestehen",
+        "prefix": "ge",
+        "word": "gestehen",
+        "english": "to confess",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich gestehe.'",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "case ACCUSATIVE — root stehen has none"
+        }
+      },
+      {
+        "id": "verb_widerstehen",
+        "prefix": "wider",
+        "word": "widerstehen",
+        "english": "to resist, withstand",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich widerstehe.'",
+        "grammar": {
+          "case_requirements": [
+            "dative"
+          ],
+          "notes_en": "case DATIVE — root stehen has none"
+        }
       }
     ],
     "example_sentences": [
@@ -939,6 +1371,14 @@
         "english": "to feel / to perceive",
         "separable": false,
         "notes": "Inseparable prefix: Ich empfinde große Freude."
+      },
+      {
+        "id": "verb_wiederfinden",
+        "prefix": "wieder",
+        "word": "wiederfinden",
+        "english": "to find again, recover",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich finde … wieder."
       }
     ],
     "example_sentences": [
@@ -1209,7 +1649,13 @@
         "word": "bedenken",
         "english": "to consider / to bear in mind",
         "separable": false,
-        "notes": "Inseparable prefix: Bedenke die Konsequenzen!"
+        "notes": "Inseparable prefix: Bedenke die Konsequenzen!",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "be- transitivises: 'die Folgen bedenken'. Root denken takes no case."
+        }
       },
       {
         "id": "verb_umdenken",
@@ -1218,6 +1664,42 @@
         "english": "to rethink / to change one's thinking",
         "separable": true,
         "notes": "Prefix separates: Wir müssen umdenken."
+      },
+      {
+        "id": "verb_durchdenken",
+        "prefix": "durch",
+        "word": "durchdenken",
+        "english": "to think through",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich durchdenke.'",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "INSEPARABLE — figurative (think a thing through), so the prefix stays attached"
+        }
+      },
+      {
+        "id": "verb_gedenken",
+        "prefix": "ge",
+        "word": "gedenken",
+        "english": "to commemorate",
+        "separable": false,
+        "notes": "Takes the genitive: 'Wir gedenken der Opfer.'",
+        "grammar": {
+          "case_requirements": [
+            "genitive"
+          ],
+          "notes_en": "case GENITIVE — one of the few surviving genitive verbs"
+        }
+      },
+      {
+        "id": "verb_mitdenken",
+        "prefix": "mit",
+        "word": "mitdenken",
+        "english": "to think along, use initiative",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich denke … mit."
       }
     ],
     "example_sentences": [
@@ -1304,6 +1786,46 @@
         "english": "to undertake / to do (something fun)",
         "separable": false,
         "notes": "Inseparable prefix: Wir unternehmen etwas zusammen."
+      },
+      {
+        "id": "verb_entgegennehmen",
+        "prefix": "entgegen",
+        "word": "entgegennehmen",
+        "english": "to accept, receive",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich nehme … entgegen."
+      },
+      {
+        "id": "verb_hernehmen",
+        "prefix": "her",
+        "word": "hernehmen",
+        "english": "to take from, get from",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich nehme … her."
+      },
+      {
+        "id": "verb_mitnehmen",
+        "prefix": "mit",
+        "word": "mitnehmen",
+        "english": "to take along",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich nehme … mit."
+      },
+      {
+        "id": "verb_wegnehmen",
+        "prefix": "weg",
+        "word": "wegnehmen",
+        "english": "to take away",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich nehme … weg."
+      },
+      {
+        "id": "verb_übernehmen",
+        "prefix": "über",
+        "word": "übernehmen",
+        "english": "to take over, assume",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich übernehme.'"
       }
     ],
     "example_sentences": [
@@ -1443,6 +1965,58 @@
         "english": "to receive / to maintain",
         "separable": false,
         "notes": "Inseparable prefix: Ich erhalte eine E-Mail."
+      },
+      {
+        "id": "verb_durchhalten",
+        "prefix": "durch",
+        "word": "durchhalten",
+        "english": "to hold out, persevere",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich halte … durch.",
+        "grammar": {
+          "case_requirements": [
+            "none"
+          ],
+          "notes_en": "SEPARABLE — literal 'hold out through'; intransitive, so no case despite root halten taking the accusative"
+        }
+      },
+      {
+        "id": "verb_entgegenhalten",
+        "prefix": "entgegen",
+        "word": "entgegenhalten",
+        "english": "to object, counter with",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich halte … entgegen."
+      },
+      {
+        "id": "verb_unterhalten",
+        "prefix": "unter",
+        "word": "unterhalten",
+        "english": "to entertain; to maintain",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich unterhalte.'"
+      },
+      {
+        "id": "verb_zurückhalten",
+        "prefix": "zurück",
+        "word": "zurückhalten",
+        "english": "to hold back, restrain",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich halte … zurück."
+      },
+      {
+        "id": "verb_zusammenhalten",
+        "prefix": "zusammen",
+        "word": "zusammenhalten",
+        "english": "to stick together",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich halte … zusammen.",
+        "grammar": {
+          "case_requirements": [
+            "none"
+          ],
+          "notes_en": "no case in the 'stick together' sense taken here; root halten takes the accusative"
+        }
       }
     ],
     "example_sentences": [
@@ -1521,6 +2095,78 @@
         "english": "to state / to show off",
         "separable": true,
         "notes": "Prefix separates: Er gibt immer an."
+      },
+      {
+        "id": "verb_hergeben",
+        "prefix": "her",
+        "word": "hergeben",
+        "english": "to hand over",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich gebe … her.",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": ""
+        }
+      },
+      {
+        "id": "verb_nachgeben",
+        "prefix": "nach",
+        "word": "nachgeben",
+        "english": "to give in, yield",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich gebe … nach.",
+        "grammar": {
+          "case_requirements": [
+            "dative"
+          ],
+          "notes_en": "case DATIVE — you yield TO someone; root geben takes accusative + dative"
+        }
+      },
+      {
+        "id": "verb_umgeben",
+        "prefix": "um",
+        "word": "umgeben",
+        "english": "to surround",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich umgebe.'",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "INSEPARABLE — encircling sense"
+        }
+      },
+      {
+        "id": "verb_wiedergeben",
+        "prefix": "wieder",
+        "word": "wiedergeben",
+        "english": "to reproduce, render",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich gebe … wieder."
+      },
+      {
+        "id": "verb_zugeben",
+        "prefix": "zu",
+        "word": "zugeben",
+        "english": "to admit; to add",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich gebe … zu.",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": ""
+        }
+      },
+      {
+        "id": "verb_zurückgeben",
+        "prefix": "zurück",
+        "word": "zurückgeben",
+        "english": "to give back, return sth",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich gebe … zurück."
       }
     ],
     "example_sentences": [
@@ -1600,6 +2246,86 @@
         "english": "to spend (time)",
         "separable": false,
         "notes": "Inseparable prefix: Wir verbringen den Urlaub in Italien."
+      },
+      {
+        "id": "verb_beibringen",
+        "prefix": "bei",
+        "word": "beibringen",
+        "english": "to teach sb sth",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich bringe … bei."
+      },
+      {
+        "id": "verb_entgegenbringen",
+        "prefix": "entgegen",
+        "word": "entgegenbringen",
+        "english": "to show, extend to sb",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich bringe … entgegen."
+      },
+      {
+        "id": "verb_herbringen",
+        "prefix": "her",
+        "word": "herbringen",
+        "english": "to bring here",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich bringe … her.",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": ""
+        }
+      },
+      {
+        "id": "verb_hinbringen",
+        "prefix": "hin",
+        "word": "hinbringen",
+        "english": "to take there",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich bringe … hin.",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": ""
+        }
+      },
+      {
+        "id": "verb_hinterbringen",
+        "prefix": "hinter",
+        "word": "hinterbringen",
+        "english": "to report secretly, tip off",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich hinterbringe.'"
+      },
+      {
+        "id": "verb_umbringen",
+        "prefix": "um",
+        "word": "umbringen",
+        "english": "to kill",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich bringe … um.",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "SEPARABLE — 'Der Frost hat die Pflanzen umgebracht.'"
+        }
+      },
+      {
+        "id": "verb_wegbringen",
+        "prefix": "weg",
+        "word": "wegbringen",
+        "english": "to take away, remove",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich bringe … weg.",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": ""
+        }
       }
     ],
     "example_sentences": [
@@ -1662,7 +2388,13 @@
         "word": "überleben",
         "english": "to survive",
         "separable": false,
-        "notes": "Inseparable prefix: Er überlebt den Unfall."
+        "notes": "Inseparable prefix: Er überlebt den Unfall.",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "Transitive in the 'outlive' sense: 'den Krieg überleben'."
+        }
       },
       {
         "id": "verb_zusammenleben",
@@ -1826,7 +2558,35 @@
         "word": "erarbeiten",
         "english": "to work out / to develop",
         "separable": false,
-        "notes": "Inseparable. Er erarbeitet einen Plan."
+        "notes": "Inseparable. Er erarbeitet einen Plan.",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "er- carries the action to a result on an object: 'sich ein Konzept erarbeiten'."
+        }
+      },
+      {
+        "id": "verb_bearbeiten",
+        "prefix": "be",
+        "word": "bearbeiten",
+        "english": "to work on, process",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich bearbeite.'",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": ""
+        }
+      },
+      {
+        "id": "verb_weiterarbeiten",
+        "prefix": "weiter",
+        "word": "weiterarbeiten",
+        "english": "to keep working",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich arbeite … weiter."
       }
     ],
     "example_sentences": [
@@ -2341,6 +3101,14 @@
         "english": "to perform / to list",
         "separable": true,
         "notes": "Das Theater führt ein Stück auf."
+      },
+      {
+        "id": "verb_entführen",
+        "prefix": "ent",
+        "word": "entführen",
+        "english": "to kidnap",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich entführe.'"
       }
     ],
     "example_sentences": [
@@ -2419,6 +3187,88 @@
         "english": "to start up / to approach",
         "separable": true,
         "notes": "Der Motor läuft an."
+      },
+      {
+        "id": "verb_entgegenlaufen",
+        "prefix": "entgegen",
+        "word": "entgegenlaufen",
+        "english": "to run toward; to run counter to",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich laufe … entgegen.",
+        "grammar": {
+          "case_requirements": [
+            "dative"
+          ],
+          "notes_en": "case DATIVE"
+        }
+      },
+      {
+        "id": "verb_entlaufen",
+        "prefix": "ent",
+        "word": "entlaufen",
+        "english": "to run away, escape",
+        "separable": false,
+        "notes": "Takes the dative: 'Der Hund ist dem Besitzer entlaufen.'",
+        "grammar": {
+          "case_requirements": [
+            "dative"
+          ],
+          "notes_en": "aux sein (motion away); ent- verbs of escape take the DATIVE for what is fled — differs from root laufen (no case)"
+        }
+      },
+      {
+        "id": "verb_fortlaufen",
+        "prefix": "fort",
+        "word": "fortlaufen",
+        "english": "to run away; to run on",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich laufe … fort."
+      },
+      {
+        "id": "verb_herlaufen",
+        "prefix": "her",
+        "word": "herlaufen",
+        "english": "to run over here",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich laufe … her."
+      },
+      {
+        "id": "verb_nachlaufen",
+        "prefix": "nach",
+        "word": "nachlaufen",
+        "english": "to run after, chase",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich laufe … nach.",
+        "grammar": {
+          "case_requirements": [
+            "dative"
+          ],
+          "notes_en": "case DATIVE — you run after someone"
+        }
+      },
+      {
+        "id": "verb_weglaufen",
+        "prefix": "weg",
+        "word": "weglaufen",
+        "english": "to run away",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich laufe … weg."
+      },
+      {
+        "id": "verb_weiterlaufen",
+        "prefix": "weiter",
+        "word": "weiterlaufen",
+        "english": "to keep running",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich laufe … weiter."
+      },
+      {
+        "id": "verb_überlaufen",
+        "prefix": "über",
+        "word": "überlaufen",
+        "english": "to overflow; to defect",
+        "separable": true,
+        "notes": "Separable = boil over. Inseparable überláufen = to defect to the other side."
       }
     ],
     "example_sentences": [
@@ -2497,6 +3347,22 @@
         "english": "to prescribe / to misspell",
         "separable": false,
         "notes": "Inseparable. Der Arzt verschreibt ein Medikament."
+      },
+      {
+        "id": "verb_niederschreiben",
+        "prefix": "nieder",
+        "word": "niederschreiben",
+        "english": "to set down in writing",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich schreibe … nieder."
+      },
+      {
+        "id": "verb_unterschreiben",
+        "prefix": "unter",
+        "word": "unterschreiben",
+        "english": "to sign",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich unterschreibe.'"
       }
     ],
     "example_sentences": [
@@ -2567,6 +3433,14 @@
         "english": "to read off / to deduce from",
         "separable": true,
         "notes": "Er liest den Zählerstand ab."
+      },
+      {
+        "id": "verb_durchlesen",
+        "prefix": "durch",
+        "word": "durchlesen",
+        "english": "to read through",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich lese … durch."
       }
     ],
     "example_sentences": [
@@ -2644,7 +3518,89 @@
         "word": "erfahren",
         "english": "to find out / to learn (news)",
         "separable": false,
-        "notes": "Inseparable. Ich erfahre die Neuigkeit."
+        "notes": "Inseparable. Ich erfahre die Neuigkeit.",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "er- transitivises: 'die Wahrheit erfahren'. Root fahren takes no case."
+        }
+      },
+      {
+        "id": "verb_fortfahren",
+        "prefix": "fort",
+        "word": "fortfahren",
+        "english": "to continue; to drive off",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich fahre … fort."
+      },
+      {
+        "id": "verb_hinfahren",
+        "prefix": "hin",
+        "word": "hinfahren",
+        "english": "to drive/travel there",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich fahre … hin."
+      },
+      {
+        "id": "verb_losfahren",
+        "prefix": "los",
+        "word": "losfahren",
+        "english": "to set off, drive off",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich fahre … los."
+      },
+      {
+        "id": "verb_mitfahren",
+        "prefix": "mit",
+        "word": "mitfahren",
+        "english": "to ride along",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich fahre … mit."
+      },
+      {
+        "id": "verb_umfahren",
+        "prefix": "um",
+        "word": "umfahren",
+        "english": "to drive around / to run over",
+        "separable": false,
+        "notes": "Stress decides: umfáhren (inseparable) = drive around; úmfahren (separable) = run over.",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "INSEPARABLE reading chosen (umfáhren = drive around). The separable úmfahren means 'to run over' — same spelling, opposite outcome"
+        }
+      },
+      {
+        "id": "verb_wegfahren",
+        "prefix": "weg",
+        "word": "wegfahren",
+        "english": "to drive off, go away",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich fahre … weg."
+      },
+      {
+        "id": "verb_weiterfahren",
+        "prefix": "weiter",
+        "word": "weiterfahren",
+        "english": "to drive on, travel on",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich fahre … weiter."
+      },
+      {
+        "id": "verb_widerfahren",
+        "prefix": "wider",
+        "word": "widerfahren",
+        "english": "to befall sb",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich widerfahre.'",
+        "grammar": {
+          "case_requirements": [
+            "dative"
+          ],
+          "notes_en": "aux SEIN, case DATIVE — the person it befalls stands in the dative"
+        }
       }
     ],
     "example_sentences": [
@@ -2777,6 +3733,20 @@
         "english": "to drink to someone / to toast",
         "separable": true,
         "notes": "Er trinkt ihr zu."
+      },
+      {
+        "id": "verb_ertrinken",
+        "prefix": "er",
+        "word": "ertrinken",
+        "english": "to drown",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich ertrinke.'",
+        "grammar": {
+          "case_requirements": [
+            "none"
+          ],
+          "notes_en": "aux sein — change of state; root trinken takes haben and the accusative"
+        }
       }
     ],
     "example_sentences": [
@@ -2846,7 +3816,21 @@
         "word": "verschlafen",
         "english": "to oversleep / to sleep through",
         "separable": false,
-        "notes": "Inseparable. Ich verschlafe — I oversleep."
+        "notes": "Inseparable. Ich verschlafe — I oversleep.",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "Transitive in the 'sleep through something' sense: 'den Termin verschlafen'."
+        }
+      },
+      {
+        "id": "verb_ausschlafen",
+        "prefix": "aus",
+        "word": "ausschlafen",
+        "english": "to sleep in fully",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich schlafe … aus."
       }
     ],
     "example_sentences": [
@@ -3073,6 +4057,14 @@
         "english": "to connect (a device) / (sich) to join",
         "separable": true,
         "notes": "Separable: Ich schließe das Gerät an. Reflexive 'sich anschließen' + Dativ = to join: 'Ich schließe mich euch an.'"
+      },
+      {
+        "id": "verb_zuschließen",
+        "prefix": "zu",
+        "word": "zuschließen",
+        "english": "to lock shut",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich schließe … zu."
       }
     ],
     "example_sentences": [
@@ -3151,6 +4143,14 @@
         "english": "to try / to attempt",
         "separable": false,
         "notes": "Inseparable. Ich versuche es."
+      },
+      {
+        "id": "verb_durchsuchen",
+        "prefix": "durch",
+        "word": "durchsuchen",
+        "english": "to search thoroughly",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich durchsuche.'"
       }
     ],
     "example_sentences": [
@@ -3221,6 +4221,14 @@
         "english": "to help along / to lend a hand",
         "separable": true,
         "notes": "Kannst du mithelfen?"
+      },
+      {
+        "id": "verb_weiterhelfen",
+        "prefix": "weiter",
+        "word": "weiterhelfen",
+        "english": "to help sb further along",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich helfe … weiter."
       }
     ],
     "example_sentences": [
@@ -3282,7 +4290,13 @@
         "word": "bewohnen",
         "english": "to inhabit / to occupy (a dwelling)",
         "separable": false,
-        "notes": "Inseparable. Sie bewohnen ein großes Haus."
+        "notes": "Inseparable. Sie bewohnen ein großes Haus.",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "be- swallows the preposition: 'in einem Haus wohnen' becomes 'ein Haus bewohnen'."
+        }
       },
       {
         "id": "verb_einwohnen",
@@ -3291,6 +4305,20 @@
         "english": "to be inherent in (formal/rare)",
         "separable": true,
         "notes": "Rare. More common as 'Einwohner' (inhabitant)."
+      },
+      {
+        "id": "verb_beiwohnen",
+        "prefix": "bei",
+        "word": "beiwohnen",
+        "english": "to attend, be present at",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich wohne … bei.",
+        "grammar": {
+          "case_requirements": [
+            "dative"
+          ],
+          "notes_en": "case DATIVE — formal; root wohnen has none"
+        }
       }
     ],
     "example_sentences": [
@@ -3368,7 +4396,13 @@
         "word": "bereisen",
         "english": "to travel through / to tour",
         "separable": false,
-        "notes": "Inseparable. Er bereist die Welt."
+        "notes": "Inseparable. Er bereist die Welt.",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "be- swallows the preposition: 'durch ein Land reisen' becomes 'ein Land bereisen'."
+        }
       }
     ],
     "example_sentences": [
@@ -3447,6 +4481,14 @@
         "english": "to ask again / to follow up",
         "separable": true,
         "notes": "Er fragt nochmal nach."
+      },
+      {
+        "id": "verb_hinterfragen",
+        "prefix": "hinter",
+        "word": "hinterfragen",
+        "english": "to question critically",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich hinterfrage.'"
       }
     ],
     "example_sentences": [
@@ -3595,6 +4637,34 @@
         "english": "to belong to",
         "separable": false,
         "notes": "Inseparable. Das gehört mir. (Dative: governs dative)"
+      },
+      {
+        "id": "verb_hinhören",
+        "prefix": "hin",
+        "word": "hinhören",
+        "english": "to listen closely",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich höre … hin.",
+        "grammar": {
+          "case_requirements": [
+            "none"
+          ],
+          "notes_en": "no case — root hören takes the accusative, but hinhören is intransitive"
+        }
+      },
+      {
+        "id": "verb_zuhören",
+        "prefix": "zu",
+        "word": "zuhören",
+        "english": "to listen to sb",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich höre … zu.",
+        "grammar": {
+          "case_requirements": [
+            "dative"
+          ],
+          "notes_en": "case DATIVE — you listen TO someone; root hören takes the accusative. This is the zu- dative rule"
+        }
       }
     ],
     "example_sentences": [
@@ -3665,6 +4735,14 @@
         "english": "to consume / to use up",
         "separable": false,
         "notes": "Inseparable. Das Auto verbraucht viel Benzin."
+      },
+      {
+        "id": "verb_missbrauchen",
+        "prefix": "miss",
+        "word": "missbrauchen",
+        "english": "to misuse, abuse",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich missbrauche.'"
       }
     ],
     "example_sentences": [
@@ -3910,6 +4988,68 @@
         "english": "to equate (mit = with)",
         "separable": true,
         "notes": "Separable. gleichsetzen = to treat as identical (mit + Dativ). Contrast gleichstellen = to give equal legal/social status."
+      },
+      {
+        "id": "verb_beisetzen",
+        "prefix": "bei",
+        "word": "beisetzen",
+        "english": "to inter, lay to rest",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich setze … bei."
+      },
+      {
+        "id": "verb_entgegensetzen",
+        "prefix": "entgegen",
+        "word": "entgegensetzen",
+        "english": "to counter, set against",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich setze … entgegen."
+      },
+      {
+        "id": "verb_fortsetzen",
+        "prefix": "fort",
+        "word": "fortsetzen",
+        "english": "to continue, resume",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich setze … fort."
+      },
+      {
+        "id": "verb_hinsetzen",
+        "prefix": "hin",
+        "word": "hinsetzen",
+        "english": "to sit down",
+        "separable": true,
+        "notes": "Usually reflexive: 'Ich setze mich hin.'"
+      },
+      {
+        "id": "verb_niedersetzen",
+        "prefix": "nieder",
+        "word": "niedersetzen",
+        "english": "to set down, sit down",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich setze … nieder."
+      },
+      {
+        "id": "verb_widersetzen",
+        "prefix": "wider",
+        "word": "widersetzen",
+        "english": "to oppose, defy",
+        "separable": false,
+        "notes": "Reflexive: 'Er hat sich dem Befehl widersetzt.'",
+        "grammar": {
+          "case_requirements": [
+            "dative"
+          ],
+          "notes_en": "case DATIVE and reflexive — 'sich widersetzen' differs from root setzen (accusative)"
+        }
+      },
+      {
+        "id": "verb_übersetzen",
+        "prefix": "über",
+        "word": "übersetzen",
+        "english": "to translate; to ferry across",
+        "separable": false,
+        "notes": "Inseparable = translate. Separable úbersetzen = to ferry someone across."
       }
     ],
     "example_sentences": [
@@ -4004,6 +5144,22 @@
         "english": "to give equal status / to treat as equal",
         "separable": true,
         "notes": "Separable. gleichstellen = equal STATUS (rights, law). Contrast gleichsetzen = to claim two things are the SAME. Related noun: die Gleichstellung."
+      },
+      {
+        "id": "verb_abstellen",
+        "prefix": "ab",
+        "word": "abstellen",
+        "english": "to switch off; to put down",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich stelle … ab."
+      },
+      {
+        "id": "verb_hinstellen",
+        "prefix": "hin",
+        "word": "hinstellen",
+        "english": "to put down, set there",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich stelle … hin."
       }
     ],
     "example_sentences": [
@@ -4082,6 +5238,92 @@
         "english": "to invest / to create / to dock",
         "separable": true,
         "notes": "Er legt Geld an. / Das Schiff legt an."
+      },
+      {
+        "id": "verb_beilegen",
+        "prefix": "bei",
+        "word": "beilegen",
+        "english": "to enclose, attach",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich lege … bei."
+      },
+      {
+        "id": "verb_hinlegen",
+        "prefix": "hin",
+        "word": "hinlegen",
+        "english": "to lay down, put down",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich lege … hin."
+      },
+      {
+        "id": "verb_hinterlegen",
+        "prefix": "hinter",
+        "word": "hinterlegen",
+        "english": "to deposit, lodge",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich hinterlege.'"
+      },
+      {
+        "id": "verb_loslegen",
+        "prefix": "los",
+        "word": "loslegen",
+        "english": "to get going, dive in",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich lege … los.",
+        "grammar": {
+          "case_requirements": [
+            "none"
+          ],
+          "notes_en": "no case — root legen takes the accusative, but loslegen (get going) is intransitive"
+        }
+      },
+      {
+        "id": "verb_niederlegen",
+        "prefix": "nieder",
+        "word": "niederlegen",
+        "english": "to lay down, resign",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich lege … nieder."
+      },
+      {
+        "id": "verb_widerlegen",
+        "prefix": "wider",
+        "word": "widerlegen",
+        "english": "to refute, disprove",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich widerlege.'"
+      },
+      {
+        "id": "verb_zerlegen",
+        "prefix": "zer",
+        "word": "zerlegen",
+        "english": "to take apart, dismantle",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich zerlege.'"
+      },
+      {
+        "id": "verb_zurücklegen",
+        "prefix": "zurück",
+        "word": "zurücklegen",
+        "english": "to put back; to cover a distance",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich lege … zurück."
+      },
+      {
+        "id": "verb_zusammenlegen",
+        "prefix": "zusammen",
+        "word": "zusammenlegen",
+        "english": "to merge; to fold up",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich lege … zusammen."
+      },
+      {
+        "id": "verb_überlegen",
+        "prefix": "über",
+        "word": "überlegen",
+        "english": "to consider, think over",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich überlege.'"
       }
     ],
     "example_sentences": [
@@ -4168,6 +5410,52 @@
         "english": "to refer to (sich beziehen auf) / to obtain / to move into",
         "separable": false,
         "notes": "Inseparable. Key pattern: 'sich beziehen auf' + Akkusativ = to refer to. Also: eine Rente beziehen (to draw a pension), eine Wohnung beziehen (to move in)."
+      },
+      {
+        "id": "verb_anziehen",
+        "prefix": "an",
+        "word": "anziehen",
+        "english": "to put on; to attract",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich ziehe … an."
+      },
+      {
+        "id": "verb_ausziehen",
+        "prefix": "aus",
+        "word": "ausziehen",
+        "english": "to take off; to move out",
+        "separable": true,
+        "notes": "'Er hat den Mantel ausgezogen.' But: 'Sie ist ausgezogen' (moved out)."
+      },
+      {
+        "id": "verb_fortziehen",
+        "prefix": "fort",
+        "word": "fortziehen",
+        "english": "to move away",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich ziehe … fort.",
+        "grammar": {
+          "case_requirements": [
+            "none"
+          ],
+          "notes_en": "aux SEIN and no case — root ziehen takes haben + accusative, but fortziehen (move away) is intransitive motion"
+        }
+      },
+      {
+        "id": "verb_hinterziehen",
+        "prefix": "hinter",
+        "word": "hinterziehen",
+        "english": "to evade (tax)",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich hinterziehe.'"
+      },
+      {
+        "id": "verb_zurückziehen",
+        "prefix": "zurück",
+        "word": "zurückziehen",
+        "english": "to withdraw, retire",
+        "separable": true,
+        "notes": "Often reflexive: 'Er hat sich zurückgezogen.'"
       }
     ],
     "example_sentences": [
@@ -4229,7 +5517,13 @@
         "word": "abwarten",
         "english": "to wait and see / to await",
         "separable": true,
-        "notes": "Warten wir ab! Let's wait and see."
+        "notes": "Warten wir ab! Let's wait and see.",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "Transitive: 'die Reaktion abwarten', unlike 'auf etwas warten'."
+        }
       },
       {
         "id": "verb_erwarten",
@@ -4237,7 +5531,13 @@
         "word": "erwarten",
         "english": "to expect / to await",
         "separable": false,
-        "notes": "Inseparable. Ich erwarte ihn um drei Uhr."
+        "notes": "Inseparable. Ich erwarte ihn um drei Uhr.",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "er- transitivises: 'ein Kind erwarten', unlike 'auf jemanden warten'."
+        }
       }
     ],
     "example_sentences": [
@@ -4316,6 +5616,14 @@
         "english": "to pay out / to be worth it",
         "separable": true,
         "notes": "Er zahlt den Lohn aus. / Das zahlt sich aus (it pays off)."
+      },
+      {
+        "id": "verb_zurückzahlen",
+        "prefix": "zurück",
+        "word": "zurückzahlen",
+        "english": "to repay",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich zahle … zurück."
       }
     ],
     "example_sentences": [
@@ -6687,6 +7995,14 @@
         "english": "to blend / to mix together",
         "separable": false,
         "notes": "Inseparable prefix: Ich vermische die Farben. Often figurative: Begriffe/Themen vermischen."
+      },
+      {
+        "id": "verb_beimischen",
+        "prefix": "bei",
+        "word": "beimischen",
+        "english": "to mix in, add",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich mische … bei."
       }
     ],
     "example_sentences": [
@@ -6791,7 +8107,16 @@
       "past_participle": "entwickelt",
       "auxiliary": "haben"
     },
-    "prefix_variants": [],
+    "prefix_variants": [
+      {
+        "id": "verb_weiterentwickeln",
+        "prefix": "weiter",
+        "word": "weiterentwickeln",
+        "english": "to develop further",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich entwickle … weiter."
+      }
+    ],
     "example_sentences": [
       {
         "de": "Ich entwickle eine neue App.",
@@ -6897,7 +8222,16 @@
       "past_participle": "gestrebt",
       "auxiliary": "haben"
     },
-    "prefix_variants": [],
+    "prefix_variants": [
+      {
+        "id": "verb_widerstreben",
+        "prefix": "wider",
+        "word": "widerstreben",
+        "english": "to be reluctant, resist",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich widerstrebe.'"
+      }
+    ],
     "example_sentences": [
       {
         "de": "Ich strebe nach einem besseren Leben.",
@@ -7116,6 +8450,20 @@
         "english": "to return / to come back",
         "separable": true,
         "notes": "Separable: Ich kehre morgen zurück. Uses 'sein' in the Perfekt: Ich bin zurückgekehrt."
+      },
+      {
+        "id": "verb_umkehren",
+        "prefix": "um",
+        "word": "umkehren",
+        "english": "to turn back, reverse",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich kehre … um.",
+        "grammar": {
+          "case_requirements": [
+            "none"
+          ],
+          "notes_en": "SEPARABLE and aux SEIN — motion/turning back; root kehren takes haben"
+        }
       }
     ],
     "example_sentences": [
@@ -7273,7 +8621,36 @@
       "past_participle": "gereicht",
       "auxiliary": "haben"
     },
-    "prefix_variants": [],
+    "prefix_variants": [
+      {
+        "id": "verb_erreichen",
+        "prefix": "er",
+        "word": "erreichen",
+        "english": "to reach, attain",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich erreiche.'",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "case ACCUSATIVE — root reichen takes the dative, er- makes it transitive"
+        }
+      },
+      {
+        "id": "verb_herreichen",
+        "prefix": "her",
+        "word": "herreichen",
+        "english": "to pass over, hand across",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich reiche … her.",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "case ACCUSATIVE — root reichen takes the dative, but herreichen passes a thing across"
+        }
+      }
+    ],
     "example_sentences": [
       {
         "de": "Das Geld reicht nicht für den Urlaub.",
@@ -7819,6 +9196,21 @@
         "english": "to throw away",
         "separable": true,
         "notes": "Separable: Ich werfe es weg. Key vocabulary in texts about waste (Lebensmittelverschwendung)."
+      },
+      {
+        "id": "verb_vorwerfen",
+        "prefix": "vor",
+        "word": "vorwerfen",
+        "english": "to reproach, accuse",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich werfe … vor.",
+        "grammar": {
+          "case_requirements": [
+            "accusative",
+            "dative"
+          ],
+          "notes_en": ""
+        }
       }
     ],
     "example_sentences": [
@@ -8241,7 +9633,22 @@
       "past_participle": "gestoßen",
       "auxiliary": "haben"
     },
-    "prefix_variants": [],
+    "prefix_variants": [
+      {
+        "id": "verb_zusammenstoßen",
+        "prefix": "zusammen",
+        "word": "zusammenstoßen",
+        "english": "to collide, clash",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich stoße … zusammen.",
+        "grammar": {
+          "case_requirements": [
+            "none"
+          ],
+          "notes_en": "aux SEIN — collision is a change of state; root stoßen takes haben + accusative"
+        }
+      }
+    ],
     "example_sentences": [
       {
         "de": "Ich stoße mich immer an dieser Ecke.",

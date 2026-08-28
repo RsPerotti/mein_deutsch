@@ -1,11 +1,11 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-08-28 — Session 38 (Vorsilben fixes — v15 live)*
+*Last updated: 2026-08-28 — Session 38 (Vorsilben fixes v15 + Verbs reconciliation v16)*
 
 ---
 
 ## Current State
 
-**10 modules built and live.** App at https://rsperotti.github.io/mein_deutsch (v15).
+**10 modules built and live.** App at https://rsperotti.github.io/mein_deutsch (v16).
 
 **Session 38 — Vorsilben fixes.** Module-home progress was stuck at 0 / n: `selectPrefixAnswer()` never wrote to exercise history. Fixed, and the same omission fixed in the Deklination engine. One-shot migration added (`migrateMisfiledQuizResults`) that recovers quiz results written to the wrong store by the pre-Session-37 bug — previously-passed Partikeln / Artikel / Deklinationen lessons show as complete again with no action needed. First visual QA at 375px: the `select_feeling` wrapping concern was unfounded, but it exposed an ambiguous item (`vorgehen` offered against `fort-`). Now prevented structurally by a `semantic-overlap` check in the validator plus 13 new exclusion pairs.
 
@@ -48,13 +48,19 @@
 | `data/expressions.json` | ✅ 8 expressions | NEW (Session 35). Schwein haben, Abgemacht!, Einverstanden, Wie auch immer, Bitte sachlich bleiben, Ratschläge geben, möglichst+, durcheinander kommen. |
 | `data/exercises/exercises-expressions.json` | ✅ 32 exercises | 8 × 4: meaning, 2× gap-fill, situation-match. Reuses translate_word + fill_blank renderers. |
 | `_factory/intake-log.json` | ✅ NEW | Row-by-row resolution of all 213 sheet entries. Future intake runs diff against this. |
-| `data/verbs.json` | ✅ 149 root verbs + 154 variants | Session 35: +49 roots, +16 variants (intake #1). |
+| `data/verbs.json` | ✅ 149 roots + 287 variants | Session 38: +133 prefix_variants from the Vorsilben module. Variants may now carry a `grammar.case_requirements` override; inheritance from the root remains the default. |
 | `data/nouns.json` | ✅ 230 nouns | 152 roots + 78 variations. Session 35: +55 roots (intake #1). |
 | `data/adverbs.json` | ✅ 139 adverbs | Session 35: +12 (new categories: Indefinites, Place & Direction, Connectors additions). |
 | `data/adjectives.json` | ✅ 136 adjectives | Session 35: +36 (intake #1). |
 | `data/prepositions.json` | ✅ 53 prepositions | A1–B2. Categories: two-way, akkusativ, dativ, genitiv. |
 | `data/particles.json` | ✅ 34 particles | Core (A1–B2) + Advanced (C1–C2). Per-particle: signals, position, 3 examples, contrast note, related. |
-| `data/exercises/exercises-verbs.json` | ✅ 2,644 exercises | Session 35: +569. New words: 8-exercise package (9 for roots). |
+| `data/exercises/exercises-verbs.json` | ✅ 3,708 exercises | Session 38: +1,064 (133 new variants x 8). |
+| `_factory/generate-variants.py` | ✅ NEW (S38) | Expands the variant seeds. Partizip II derived, Präsens/Präteritum lifted from the root's tables, Perfekt built. Writes `judgement-review.md`. |
+| `_factory/validate-variants.py` | ✅ NEW (S38) | Independent re-derivation of participles and all conjugated forms + MC hygiene. |
+| `_factory/bundle-data.py` | ✅ NEW (S38) | **First reproducible builder for `js/data.js`** — it was assembled ad hoc before, which is how it drifted from `data/modules.json` (see v10). |
+| `_factory/qa-variants.js` | ✅ NEW (S38) | 21 headless checks incl. the verstehen case badge. |
+| `_factory/vorsilben/variant-seeds-*.json` | ✅ NEW (S38) | 133 authored seeds — separability, auxiliary, case, 2 complements. Only what cannot be derived. |
+| `_factory/vorsilben/judgement-review.md` | ⚠️ NEEDS REVIEW | 54 generation calls + 12 pre-existing case overrides, with reasoning. |
 | `data/exercises/exercises-nouns.json` | ✅ 690 exercises | 230 × 3. |
 | `data/exercises/exercises-adverbs.json` | ✅ 556 exercises | 139 × 4. |
 | `data/exercises/exercises-adjectives.json` | ✅ 544 exercises | 136 × 4. |
@@ -78,7 +84,7 @@
 | `_factory/bundle-prefixes.py` | ✅ NEW (S37) | Bundles the three JSON sources into `js/prefixes-data.js`. |
 | `_factory/qa-prefixes.js` | ✅ NEW (S37) | 49-check headless jsdom suite: data wiring, module home, reference, detail sheet, lessons, quiz, both exercise types, feedback card, cooldown, results, plus regressions on Verbs/Partikeln/Deklinationen. Needs `npm i jsdom`. |
 | `_factory/vorsilben/source-reference.html` | ✅ NEW (S37) | The reviewed 35-prefix reference the module content was generated from. |
-| `service-worker.js` | ✅ v15 | Cache-first. Precaches all JS/CSS including particles-data.js, prefixes-data.js, grammar-data.js, article-grammar-data.js, declension-data.js. Range request handler for audio. |
+| `service-worker.js` | ✅ v16 | Cache-first. Precaches all JS/CSS including particles-data.js, prefixes-data.js, grammar-data.js, article-grammar-data.js, declension-data.js. Range request handler for audio. |
 | `manifest.json` | ✅ Built | PWA config. |
 | `icons/` | ✅ Done | icon-192 + icon-512, speech bubble "de", #85B7EB. |
 
@@ -128,7 +134,9 @@
 | Vorsilben thin sets | `emp-` (3 verbs) and `hinter-` (~7) are `exercisable: false` — full reference cards with an explicit closed-set notice, no exercises. Drilling them would teach a rule that does not generalise. |
 | Vorsilben distractor rule | A distractor is invalid if its own core feeling shares a content keyword with the target meaning, even when the two prefixes are not near-synonyms. Enforced in both generator and validator (`semantic-overlap`). Added Session 38. |
 | Vorsilben content rule | Exercises are never invented — the generator derives every item from a reviewed worked example in `prefixes.json`, and the validator holds an independent copy of the near-synonym exclusion table. Regenerate + validate via `_factory/*-prefixes.py`. |
-| Vorsilben vocabulary | Self-contained. Detail cards flag which examples already exist in `verbs.json` ("im Verbmodul"). Full reconciliation deferred to v15 — see Next Steps. |
+| Vorsilben vocabulary | Reconciled into `verbs.json` in Session 38 (v16): 133 variants added where the root already existed. 121 whose root is also absent remain out of scope — future Wörter intake. |
+| Variant case requirements | Variants inherit `grammar.case_requirements` from their root unless they carry their own override. Overrides exist only where the case genuinely diverges — chiefly the transitivising prefixes be-, er-, ver-, über-. |
+| js/data.js builds | Always via `_factory/bundle-data.py`. Never hand-edited. |
 | Deklination v1 exclusions | Stem-changers (dunkel/hoch/teuer), indeclinables (rosa/lila), Komparativ/Superlativ declension, adjectival nouns. |
 
 ---
@@ -137,7 +145,7 @@
 
 | Module | Scope | Items | Exercises | Status |
 |---|---|---|---|---|
-| Verbs | A1–B2 | 149 roots + 154 variants | 2,644 | ✅ Complete |
+| Verbs | A1–B2 | 149 roots + **287 variants** | **3,708** | ✅ Complete (S38 reconciliation) |
 | Nouns | A1–B2 | 230 (152 roots + 78 variants) | 690 | ✅ Complete |
 | Adverbs | A1–B2 | 139 | 556 | ✅ Complete |
 | Adjectives | A1–B2 | 136 | 544 | ✅ Complete |
@@ -288,7 +296,9 @@
 ## Next Steps
 
 **Up next (in rough priority):**
-- **v15 — Vorsilben ↔ Verbs reconciliation (Phase 6).** Of the 342 reference verbs: 79 already exist in `verbs.json`, **142 are missing but their root verb exists** (add as `prefix_variants`, ~1,100 new exercises, `data.js` rebundle), 121 have no root either (logged for a future Wörter intake). Fix the per-variant `grammar` override in the same pass — see Known open items.
+- **Review `_factory/vorsilben/judgement-review.md`** — 66 linguistic calls made during the v16 reconciliation. The 33 dual-prefix separability rows deserve the most sceptical read.
+- **Device QA** on the new verb variants and on the Vorsilben module.
+- **Remaining 121 prefix verbs** whose root is also missing from `verbs.json` (entsorgen, hintertreiben, niederknien…) — a future Wörter intake, not a reconciliation.
 - Ricco to confirm two flagged sheet entries: "Aufziele" (→ abzielen?) and "kindersinne" (skipped)
 - Next Wörter intake when the sheet grows (diff against `_factory/intake-log.json`)
 - Lesen & Hören — more years: run crawler on 2025, 2024 archives; re-bundle listening-data.js
@@ -296,7 +306,7 @@
 - Deklinationen expansions (later): stem-changers, Komparativ/Superlativ declension, adjectival nouns, case filter
 
 **Known open items:**
-- Prefix verb variants inherit parent root's `grammar.case_requirements` — `verstehen` shows Irregular with no case badge (should be Akkusativ). Fix: add per-variant `grammar` override field. **Scheduled for v15 Phase 6**, which rewrites `prefix_variants` anyway.
+- ~~Prefix verb variants inherit parent root's `grammar.case_requirements`~~ — **resolved Session 38 (v16).** Variants may carry their own override and `_verbMetaBadge()` prefers it; `verstehen` now shows Akkusativ.
 - ~~Vorsilben quiz bugfix is not retroactive~~ — resolved Session 38. `migrateMisfiledQuizResults()` recovers those results on first load after v15.
 - Deklinationen not yet QA'd on device (headless-tested only) — Ricco to try a session on the phone; check inline input + Android keyboard behavior.
 - Prepositions not in Word List Practice mode (no unlock mechanic — by design).
