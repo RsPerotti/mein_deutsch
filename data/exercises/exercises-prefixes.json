@@ -9,10 +9,10 @@
     "target_en": "to depart, set off",
     "answer_verb": "abfahren",
     "options": [
+      "zurück-",
       "weiter-",
-      "nach-",
       "ab-",
-      "los-"
+      "nach-"
     ],
     "correct": "ab-",
     "feedback": "ab- — Off, away, down — detachment from a starting point. The vehicle detaches from the station. Motion plus separation from a starting point."
@@ -27,10 +27,10 @@
     "target_en": "to take off; to lose weight",
     "answer_verb": "abnehmen",
     "options": [
-      "ver-",
+      "an-",
       "ab-",
-      "ge-",
-      "mit-"
+      "miss-",
+      "vor-"
     ],
     "correct": "ab-",
     "feedback": "ab- — Off, away, down — detachment from a starting point. Taking something off a surface — or off your body. Removal from a total in both senses."
@@ -45,10 +45,10 @@
     "target_en": "to cut off",
     "answer_verb": "abschneiden",
     "options": [
-      "miss-",
-      "er-",
+      "zer-",
+      "ge-",
       "ab-",
-      "emp-"
+      "er-"
     ],
     "correct": "ab-",
     "feedback": "ab- — Off, away, down — detachment from a starting point. Cutting with the result that a piece separates. The bread and the slice part ways."
@@ -63,9 +63,9 @@
     "target_en": "to cancel",
     "answer_verb": "absagen",
     "options": [
-      "ent-",
       "emp-",
-      "ge-",
+      "er-",
+      "miss-",
       "ab-"
     ],
     "correct": "ab-",
@@ -81,9 +81,9 @@
     "target_en": "to pick up, collect",
     "answer_verb": "abholen",
     "options": [
+      "wieder-",
       "unter-",
-      "über-",
-      "er-",
+      "ge-",
       "ab-"
     ],
     "correct": "ab-",
@@ -99,10 +99,10 @@
     "target_en": "to lock; to conclude",
     "answer_verb": "abschließen",
     "options": [
-      "über-",
+      "unter-",
       "ab-",
-      "an-",
-      "weiter-"
+      "aus-",
+      "zurück-"
     ],
     "correct": "ab-",
     "feedback": "ab- — Off, away, down — detachment from a starting point. Closing so completely that it's sealed off. Same word for a door and a degree."
@@ -115,10 +115,10 @@
     "verb": "abstellen",
     "verb_en": "to switch off; to put down",
     "options": [
-      "Together — joining, or collapsing into one",
-      "Toward and facing — meeting, or opposing",
+      "Through — physically across, or thoroughly to the end",
+      "Behind — left behind, or done behind someone's back",
       "Off, away, down — detachment from a starting point",
-      "In front, in advance, presented forward"
+      "Shut — and, oppositely, toward someone"
     ],
     "correct": "Off, away, down — detachment from a starting point",
     "feedback": "ab- — Off, away, down — detachment from a starting point. Putting a thing down and away from you — the appliance is detached from its power."
@@ -131,10 +131,10 @@
     "verb": "abwaschen",
     "verb_en": "to wash off, do the dishes",
     "options": [
-      "Again, back — repetition and restoration",
+      "Around — encircling, turning, and therefore changing",
       "Off, away, down — detachment from a starting point",
-      "Through — physically across, or thoroughly to the end",
-      "Behind — left behind, or done behind someone's back"
+      "Over — across, above, beyond the limit, or missed entirely",
+      "Onward, further, keep going"
     ],
     "correct": "Off, away, down — detachment from a starting point",
     "feedback": "ab- — Off, away, down — detachment from a starting point. Washing with the goal of removing what's stuck on. The dirt comes off."
@@ -147,9 +147,9 @@
     "verb": "abhängen",
     "verb_en": "to unhook; to depend on",
     "options": [
-      "Up, open, onto — rising and unsealing",
       "Alongside, added to, present with",
-      "Again, back — repetition and restoration",
+      "In front, in advance, presented forward",
+      "Toward the speaker — 'this way, come here'",
       "Off, away, down — detachment from a starting point"
     ],
     "correct": "Off, away, down — detachment from a starting point",
@@ -164,9 +164,9 @@
     "verb_en": "to break off, abort",
     "options": [
       "Off, away, down — detachment from a starting point",
-      "Wrong, failed, badly done",
-      "Over — across, above, beyond the limit, or missed entirely",
-      "Behind — left behind, or done behind someone's back"
+      "Into pieces — destruction and dispersal",
+      "Under — beneath, supporting from below, or cutting off",
+      "Around — encircling, turning, and therefore changing"
     ],
     "correct": "Off, away, down — detachment from a starting point",
     "feedback": "ab- — Off, away, down — detachment from a starting point. Breaking that ends the connection — a branch, or a conversation you stop mid-way."
@@ -182,7 +182,7 @@
     "answer_verb": "anrufen",
     "options": [
       "aus-",
-      "über-",
+      "um-",
       "hin-",
       "an-"
     ],
@@ -407,9 +407,9 @@
     "target_en": "to pick up; to keep",
     "answer_verb": "aufheben",
     "options": [
-      "zu-",
+      "zurück-",
       "auf-",
-      "hinter-",
+      "über-",
       "ver-"
     ],
     "correct": "auf-",
@@ -526,8 +526,8 @@
     "answer_verb": "ausgehen",
     "options": [
       "aus-",
-      "auf-",
-      "durch-",
+      "bei-",
+      "hinter-",
       "er-"
     ],
     "correct": "aus-",
@@ -543,10 +543,10 @@
     "target_en": "to switch off",
     "answer_verb": "ausmachen",
     "options": [
-      "entgegen-",
-      "über-",
+      "durch-",
+      "um-",
       "aus-",
-      "fort-"
+      "her-"
     ],
     "correct": "aus-",
     "feedback": "aus- — Out, out of, and out to the very end. The light goes out. Direct opposite of anmachen: contact broken instead of made."
@@ -561,10 +561,10 @@
     "target_en": "to get out, disembark",
     "answer_verb": "aussteigen",
     "options": [
-      "durch-",
-      "her-",
+      "hinter-",
+      "hin-",
       "aus-",
-      "weg-"
+      "weiter-"
     ],
     "correct": "aus-",
     "feedback": "aus- — Out, out of, and out to the very end. Climbing out of a vehicle. Also figurative: to quit a project or a lifestyle."
@@ -581,8 +581,8 @@
     "options": [
       "ent-",
       "aus-",
-      "zurück-",
-      "vor-"
+      "zusammen-",
+      "weg-"
     ],
     "correct": "aus-",
     "feedback": "aus- — Out, out of, and out to the very end. Pulling clothes off the body, or pulling yourself out of a flat. Same outward tug."
@@ -597,9 +597,9 @@
     "target_en": "to express; to squeeze out",
     "answer_verb": "ausdrücken",
     "options": [
-      "zer-",
-      "ge-",
-      "hinter-",
+      "ab-",
+      "miss-",
+      "über-",
       "aus-"
     ],
     "correct": "aus-",
@@ -615,10 +615,10 @@
     "target_en": "to drink up, finish",
     "answer_verb": "austrinken",
     "options": [
-      "nach-",
+      "nieder-",
       "aus-",
       "er-",
-      "ge-"
+      "miss-"
     ],
     "correct": "aus-",
     "feedback": "aus- — Out, out of, and out to the very end. Exhaustive branch: drinking until the glass is empty. Not the act, the completion."
@@ -631,10 +631,10 @@
     "verb": "ausschlafen",
     "verb_en": "to sleep in fully",
     "options": [
-      "Alongside, added to, present with",
-      "Off, away, down — detachment from a starting point",
+      "Into, inward — entering and settling",
+      "Toward and touching — contact, attachment, switching on",
       "Out, out of, and out to the very end",
-      "Toward and touching — contact, attachment, switching on"
+      "Up, open, onto — rising and unsealing"
     ],
     "correct": "Out, out of, and out to the very end",
     "feedback": "aus- — Out, out of, and out to the very end. Sleeping until you've used up all the sleep you needed. A very German concept."
@@ -647,10 +647,10 @@
     "verb": "ausfüllen",
     "verb_en": "to fill out a form",
     "options": [
-      "Again, back — repetition and restoration",
-      "Around — encircling, turning, and therefore changing",
-      "Into, inward — entering and settling",
-      "Out, out of, and out to the very end"
+      "Out, out of, and out to the very end",
+      "Toward and facing — meeting, or opposing",
+      "Away — and, by extension, onward",
+      "Under — beneath, supporting from below, or cutting off"
     ],
     "correct": "Out, out of, and out to the very end",
     "feedback": "aus- — Out, out of, and out to the very end. Filling every field until none is left blank — filling to exhaustion, not outward."
@@ -663,10 +663,10 @@
     "verb": "auspacken",
     "verb_en": "to unpack; to spill the beans",
     "options": [
-      "Gathered, brought to a whole — mostly fossilised",
       "Out, out of, and out to the very end",
-      "Into, inward — entering and settling",
-      "Up, open, onto — rising and unsealing"
+      "Into pieces — destruction and dispersal",
+      "Wrong, failed, badly done",
+      "Away — and, by extension, onward"
     ],
     "correct": "Out, out of, and out to the very end",
     "feedback": "aus- — Out, out of, and out to the very end. Taking things out of a box — or taking the truth out of yourself."
@@ -679,10 +679,10 @@
     "verb": "auswählen",
     "verb_en": "to select, pick out",
     "options": [
-      "A sound-variant of ent- — receiving, sensing, rising toward",
-      "Four feelings: away, wrong, transformed, used up",
+      "In front, in advance, presented forward",
+      "Onward, further, keep going",
       "Out, out of, and out to the very end",
-      "Against — resistance and reflection"
+      "Again, back — repetition and restoration"
     ],
     "correct": "Out, out of, and out to the very end",
     "feedback": "aus- — Out, out of, and out to the very end. Choosing one thing out of a set. The chosen item leaves the group."
@@ -697,10 +697,10 @@
     "target_en": "to answer sth",
     "answer_verb": "beantworten",
     "options": [
-      "wider-",
-      "ver-",
       "be-",
-      "ent-"
+      "unter-",
+      "durch-",
+      "ab-"
     ],
     "correct": "be-",
     "feedback": "be- — Apply the action directly onto a thing. Answering used to need auf. be- swallows the preposition — you now answer the question itself."
@@ -715,10 +715,10 @@
     "target_en": "to discuss sth",
     "answer_verb": "besprechen",
     "options": [
-      "ab-",
+      "über-",
       "be-",
-      "durch-",
-      "ge-"
+      "mit-",
+      "an-"
     ],
     "correct": "be-",
     "feedback": "be- — Apply the action directly onto a thing. Speech spread over a topic until every part is covered, rather than speech drifting outward."
@@ -733,10 +733,10 @@
     "target_en": "to climb sth",
     "answer_verb": "besteigen",
     "options": [
-      "nieder-",
-      "be-",
+      "über-",
       "an-",
-      "nach-"
+      "be-",
+      "miss-"
     ],
     "correct": "be-",
     "feedback": "be- — Apply the action directly onto a thing. Climbing stops being 'going up' and becomes an act performed on a mountain."
@@ -751,10 +751,10 @@
     "target_en": "to paint onto",
     "answer_verb": "bemalen",
     "options": [
-      "weg-",
-      "be-",
-      "über-",
-      "miss-"
+      "hin-",
+      "zurück-",
+      "wieder-",
+      "be-"
     ],
     "correct": "be-",
     "feedback": "be- — Apply the action directly onto a thing. Paint applied over a surface. Malen makes a picture; bemalen covers an object."
@@ -769,10 +769,10 @@
     "target_en": "to enter, step onto",
     "answer_verb": "betreten",
     "options": [
-      "be-",
-      "hinter-",
-      "wider-",
-      "um-"
+      "fort-",
+      "her-",
+      "miss-",
+      "be-"
     ],
     "correct": "be-",
     "feedback": "be- — Apply the action directly onto a thing. Your step lands on a specific floor. The room becomes what you do the stepping to."
@@ -787,10 +787,10 @@
     "target_en": "to inhabit sth",
     "answer_verb": "bewohnen",
     "options": [
-      "zusammen-",
-      "über-",
+      "be-",
       "weiter-",
-      "be-"
+      "zusammen-",
+      "ge-"
     ],
     "correct": "be-",
     "feedback": "be- — Apply the action directly onto a thing. Wohnen in is living somewhere; bewohnen makes the house the thing you occupy."
@@ -803,9 +803,9 @@
     "verb": "beschreiben",
     "verb_en": "to describe",
     "options": [
+      "Together — joining, or collapsing into one",
+      "Under — beneath, supporting from below, or cutting off",
       "Up, open, onto — rising and unsealing",
-      "Shut — and, oppositely, toward someone",
-      "Together with, joining in — participation",
       "Apply the action directly onto a thing"
     ],
     "correct": "Apply the action directly onto a thing",
@@ -819,10 +819,10 @@
     "verb": "bearbeiten",
     "verb_en": "to work on, process",
     "options": [
-      "Apply the action directly onto a thing",
-      "Into, inward — entering and settling",
       "Out, out of, and out to the very end",
-      "Toward and facing — meeting, or opposing"
+      "Together with, joining in — participation",
+      "Off, away, down — detachment from a starting point",
+      "Apply the action directly onto a thing"
     ],
     "correct": "Apply the action directly onto a thing",
     "feedback": "be- — Apply the action directly onto a thing. Work applied to a specific object until it changes. Not labour in general — labour on this."
@@ -835,10 +835,10 @@
     "verb": "bekommen",
     "verb_en": "to receive",
     "options": [
-      "Over — across, above, beyond the limit, or missed entirely",
-      "Apply the action directly onto a thing",
-      "Behind — left behind, or done behind someone's back",
-      "Under — beneath, supporting from below, or cutting off"
+      "Wrong, failed, badly done",
+      "In front, in advance, presented forward",
+      "Under — beneath, supporting from below, or cutting off",
+      "Apply the action directly onto a thing"
     ],
     "correct": "Apply the action directly onto a thing",
     "feedback": "be- — Apply the action directly onto a thing. The coming lands on you. Something arrives at your surface, so you end up holding it."
@@ -851,10 +851,10 @@
     "verb": "bezahlen",
     "verb_en": "to pay for sth",
     "options": [
-      "Apply the action directly onto a thing",
-      "Under — beneath, supporting from below, or cutting off",
-      "Around — encircling, turning, and therefore changing",
-      "Wrong, failed, badly done"
+      "Together with, joining in — participation",
+      "Toward and facing — meeting, or opposing",
+      "Away from, off, out of — separation and release",
+      "Apply the action directly onto a thing"
     ],
     "correct": "Apply the action directly onto a thing",
     "feedback": "be- — Apply the action directly onto a thing. Zahlen is to pay in general; bezahlen settles a specific bill — payment applied to a thing."
@@ -869,10 +869,10 @@
     "target_en": "to contribute",
     "answer_verb": "beitragen",
     "options": [
-      "be-",
-      "über-",
+      "zer-",
+      "zu-",
       "bei-",
-      "hin-"
+      "los-"
     ],
     "correct": "bei-",
     "feedback": "bei- — Alongside, added to, present with. Carrying your piece over and setting it beside the shared pile. Dative + zu."
@@ -887,10 +887,10 @@
     "target_en": "to teach sb sth",
     "answer_verb": "beibringen",
     "options": [
-      "hin-",
-      "weg-",
-      "bei-",
-      "zer-"
+      "ein-",
+      "ent-",
+      "durch-",
+      "bei-"
     ],
     "correct": "bei-",
     "feedback": "bei- — Alongside, added to, present with. Bringing knowledge alongside a person until they have it. Dative for the learner."
@@ -905,9 +905,9 @@
     "target_en": "to enclose, attach",
     "answer_verb": "beilegen",
     "options": [
-      "weiter-",
-      "entgegen-",
       "über-",
+      "zu-",
+      "durch-",
       "bei-"
     ],
     "correct": "bei-",
@@ -923,9 +923,9 @@
     "target_en": "to stand by, support",
     "answer_verb": "beistehen",
     "options": [
-      "zusammen-",
-      "hinter-",
+      "über-",
       "ent-",
+      "wieder-",
       "bei-"
     ],
     "correct": "bei-",
@@ -942,9 +942,9 @@
     "answer_verb": "beitreten",
     "options": [
       "nieder-",
-      "um-",
       "bei-",
-      "wider-"
+      "wieder-",
+      "ein-"
     ],
     "correct": "bei-",
     "feedback": "bei- — Alongside, added to, present with. Stepping into position alongside the existing members. Dative: dem Verein beitreten."
@@ -959,10 +959,10 @@
     "target_en": "to attend, be present at",
     "answer_verb": "beiwohnen",
     "options": [
-      "zusammen-",
-      "her-",
-      "durch-",
-      "bei-"
+      "entgegen-",
+      "bei-",
+      "hinter-",
+      "ab-"
     ],
     "correct": "bei-",
     "feedback": "bei- — Alongside, added to, present with. Formal: to be located alongside an event as it happens."
@@ -975,10 +975,10 @@
     "verb": "beimischen",
     "verb_en": "to mix in, add",
     "options": [
+      "Away from, off, out of — separation and release",
+      "After, behind, in pursuit — and doing it again to check",
       "Alongside, added to, present with",
-      "Out, out of, and out to the very end",
-      "Toward and touching — contact, attachment, switching on",
-      "Shut — and, oppositely, toward someone"
+      "Carry the action through to its result"
     ],
     "correct": "Alongside, added to, present with",
     "feedback": "bei- — Alongside, added to, present with. Adding one substance alongside another in a mixture."
@@ -992,9 +992,9 @@
     "verb_en": "to append, attach",
     "options": [
       "Alongside, added to, present with",
-      "Carry the action through to its result",
-      "Away from, off, out of — separation and release",
-      "Again, back — repetition and restoration"
+      "Back — return and reversal",
+      "Four feelings: away, wrong, transformed, used up",
+      "Behind — left behind, or done behind someone's back"
     ],
     "correct": "Alongside, added to, present with",
     "feedback": "bei- — Alongside, added to, present with. Bureaucratic cousin of beilegen — joining a thing onto the end of a document."
@@ -1008,8 +1008,8 @@
     "verb_en": "to retain, keep up",
     "options": [
       "Through — physically across, or thoroughly to the end",
-      "Four feelings: away, wrong, transformed, used up",
-      "Onward, further, keep going",
+      "In front, in advance, presented forward",
+      "Behind — left behind, or done behind someone's back",
       "Alongside, added to, present with"
     ],
     "correct": "Alongside, added to, present with",
@@ -1023,9 +1023,9 @@
     "verb": "beisetzen",
     "verb_en": "to inter, lay to rest",
     "options": [
-      "Toward and facing — meeting, or opposing",
-      "In front, in advance, presented forward",
       "Through — physically across, or thoroughly to the end",
+      "Out, out of, and out to the very end",
+      "Under — beneath, supporting from below, or cutting off",
       "Alongside, added to, present with"
     ],
     "correct": "Alongside, added to, present with",
@@ -1041,9 +1041,9 @@
     "target_en": "to walk through; to go over sth",
     "answer_verb": "durchgehen",
     "options": [
-      "zurück-",
-      "aus-",
-      "um-",
+      "los-",
+      "ge-",
+      "mit-",
       "durch-"
     ],
     "correct": "durch-",
@@ -1059,10 +1059,10 @@
     "target_en": "to read through",
     "answer_verb": "durchlesen",
     "options": [
-      "hin-",
-      "er-",
-      "los-",
-      "durch-"
+      "fort-",
+      "durch-",
+      "ein-",
+      "aus-"
     ],
     "correct": "durch-",
     "feedback": "durch- — Through — physically across, or thoroughly to the end. Separable. Reading from one end to the other, not sampling."
@@ -1077,10 +1077,10 @@
     "target_en": "to fail an exam",
     "answer_verb": "durchfallen",
     "options": [
-      "ein-",
+      "nach-",
+      "weg-",
       "durch-",
-      "bei-",
-      "auf-"
+      "zer-"
     ],
     "correct": "durch-",
     "feedback": "durch- — Through — physically across, or thoroughly to the end. Separable. You fall through the net instead of being caught by it."
@@ -1095,10 +1095,10 @@
     "target_en": "to hold out, persevere",
     "answer_verb": "durchhalten",
     "options": [
-      "mit-",
-      "vor-",
-      "durch-",
-      "ver-"
+      "emp-",
+      "weg-",
+      "nach-",
+      "durch-"
     ],
     "correct": "durch-",
     "feedback": "durch- — Through — physically across, or thoroughly to the end. Separable. Holding on all the way through to the other side of a hard stretch."
@@ -1114,9 +1114,9 @@
     "answer_verb": "durchsetzen",
     "options": [
       "emp-",
-      "vor-",
-      "mit-",
-      "durch-"
+      "durch-",
+      "unter-",
+      "hinter-"
     ],
     "correct": "durch-",
     "feedback": "durch- — Through — physically across, or thoroughly to the end. Separable. Getting your position through the resistance. Reflexively: to prevail."
@@ -1131,10 +1131,10 @@
     "target_en": "to think through",
     "answer_verb": "durchdenken",
     "options": [
-      "emp-",
-      "durch-",
-      "um-",
-      "entgegen-"
+      "weiter-",
+      "be-",
+      "ver-",
+      "durch-"
     ],
     "correct": "durch-",
     "feedback": "durch- — Through — physically across, or thoroughly to the end. Thinking that traverses the whole problem rather than touching one corner."
@@ -1147,10 +1147,10 @@
     "verb": "durchsuchen",
     "verb_en": "to search thoroughly",
     "options": [
-      "Away, gone — removal in everyday speech",
+      "Through — physically across, or thoroughly to the end",
+      "Together — joining, or collapsing into one",
       "Apply the action directly onto a thing",
-      "Wrong, failed, badly done",
-      "Through — physically across, or thoroughly to the end"
+      "Gathered, brought to a whole — mostly fossilised"
     ],
     "correct": "Through — physically across, or thoroughly to the end",
     "feedback": "durch- — Through — physically across, or thoroughly to the end. Inseparable. Searching that covers every part — a house, a bag, a database."
@@ -1163,10 +1163,10 @@
     "verb": "durchschauen",
     "verb_en": "to see through sb",
     "options": [
+      "Away — and, by extension, onward",
       "Through — physically across, or thoroughly to the end",
-      "Back — return and reversal",
-      "Apply the action directly onto a thing",
-      "Carry the action through to its result"
+      "Around — encircling, turning, and therefore changing",
+      "Toward the speaker — 'this way, come here'"
     ],
     "correct": "Through — physically across, or thoroughly to the end",
     "feedback": "durch- — Through — physically across, or thoroughly to the end. Inseparable here. Your gaze passes through the pretence to the truth behind it."
@@ -1179,10 +1179,10 @@
     "verb": "durchbrechen",
     "verb_en": "to break through / in two",
     "options": [
-      "Into, inward — entering and settling",
+      "Off, away, down — detachment from a starting point",
+      "Up, open, onto — rising and unsealing",
       "Through — physically across, or thoroughly to the end",
-      "Behind — left behind, or done behind someone's back",
-      "Away — and, by extension, onward"
+      "Shut — and, oppositely, toward someone"
     ],
     "correct": "Through — physically across, or thoroughly to the end",
     "feedback": "durch- — Through — physically across, or thoroughly to the end. Both, with different meanings: separable = snap in two; inseparable = break through a barrier."
@@ -1195,10 +1195,10 @@
     "verb": "durchgehen",
     "verb_en": "to walk through; to go over sth",
     "options": [
-      "Into pieces — destruction and dispersal",
-      "Toward and touching — contact, attachment, switching on",
+      "Apply the action directly onto a thing",
       "Through — physically across, or thoroughly to the end",
-      "Onward, further, keep going"
+      "Again, back — repetition and restoration",
+      "Toward the speaker — 'this way, come here'"
     ],
     "correct": "Through — physically across, or thoroughly to the end",
     "feedback": "durch- — Through — physically across, or thoroughly to the end. Separable. Passing through a space — or going through a list item by item."
@@ -1213,10 +1213,10 @@
     "target_en": "to get in, board",
     "answer_verb": "einsteigen",
     "options": [
-      "wieder-",
-      "be-",
-      "her-",
-      "ein-"
+      "hinter-",
+      "fort-",
+      "ein-",
+      "weiter-"
     ],
     "correct": "ein-",
     "feedback": "ein- — Into, inward — entering and settling. Climbing into a vehicle. The exact mirror of aussteigen."
@@ -1231,10 +1231,10 @@
     "target_en": "to invite",
     "answer_verb": "einladen",
     "options": [
-      "hinter-",
-      "fort-",
-      "ein-",
-      "weiter-"
+      "bei-",
+      "wider-",
+      "auf-",
+      "ein-"
     ],
     "correct": "ein-",
     "feedback": "ein- — Into, inward — entering and settling. Loading someone into your event or home. The same verb loads a truck."
@@ -1249,8 +1249,8 @@
     "target_en": "to go shopping",
     "answer_verb": "einkaufen",
     "options": [
-      "bei-",
-      "wider-",
+      "her-",
+      "miss-",
       "auf-",
       "ein-"
     ],
@@ -1267,10 +1267,10 @@
     "target_en": "to fall asleep",
     "answer_verb": "einschlafen",
     "options": [
-      "her-",
       "miss-",
-      "auf-",
-      "ein-"
+      "wider-",
+      "ein-",
+      "her-"
     ],
     "correct": "ein-",
     "feedback": "ein- — Into, inward — entering and settling. Sinking into sleep. Not the state, the entry into it — which is why it's a different verb."
@@ -1285,10 +1285,10 @@
     "target_en": "to inhale",
     "answer_verb": "einatmen",
     "options": [
-      "miss-",
-      "wider-",
       "ein-",
-      "her-"
+      "auf-",
+      "ge-",
+      "um-"
     ],
     "correct": "ein-",
     "feedback": "ein- — Into, inward — entering and settling. Breathing inward. Its opposite, ausatmen, shows the pair working perfectly."
@@ -1304,9 +1304,9 @@
     "answer_verb": "einführen",
     "options": [
       "ein-",
-      "auf-",
-      "ge-",
-      "um-"
+      "hinter-",
+      "zusammen-",
+      "ge-"
     ],
     "correct": "ein-",
     "feedback": "ein- — Into, inward — entering and settling. Leading something in — a product into a market, a topic into a talk, a person into a role."
@@ -1320,9 +1320,9 @@
     "verb_en": "to pack up, wrap",
     "options": [
       "Into, inward — entering and settling",
-      "Behind — left behind, or done behind someone's back",
+      "Away from, off, out of — separation and release",
       "Together — joining, or collapsing into one",
-      "Gathered, brought to a whole — mostly fossilised"
+      "Over — across, above, beyond the limit, or missed entirely"
     ],
     "correct": "Into, inward — entering and settling",
     "feedback": "ein- — Into, inward — entering and settling. Putting things into the bag. Opposite of auspacken."
@@ -1336,9 +1336,9 @@
     "verb_en": "to move in",
     "options": [
       "Into, inward — entering and settling",
-      "Away from, off, out of — separation and release",
-      "Together — joining, or collapsing into one",
-      "Over — across, above, beyond the limit, or missed entirely"
+      "Up, open, onto — rising and unsealing",
+      "Carry the action through to its result",
+      "Wrong, failed, badly done"
     ],
     "correct": "Into, inward — entering and settling",
     "feedback": "ein- — Into, inward — entering and settling. Pulling yourself into a new home. The settling nuance: you arrive and stay."
@@ -1351,10 +1351,10 @@
     "verb": "einsetzen",
     "verb_en": "to insert; to deploy",
     "options": [
-      "Into, inward — entering and settling",
-      "Up, open, onto — rising and unsealing",
-      "Carry the action through to its result",
-      "Wrong, failed, badly done"
+      "Toward and touching — contact, attachment, switching on",
+      "Shut — and, oppositely, toward someone",
+      "Four feelings: away, wrong, transformed, used up",
+      "Into, inward — entering and settling"
     ],
     "correct": "Into, inward — entering and settling",
     "feedback": "ein- — Into, inward — entering and settling. Setting something into position so it starts working — a part, a team, a rule."
@@ -1367,10 +1367,10 @@
     "verb": "einsehen",
     "verb_en": "to realise, come to accept",
     "options": [
-      "Toward and touching — contact, attachment, switching on",
-      "Shut — and, oppositely, toward someone",
-      "Four feelings: away, wrong, transformed, used up",
-      "Into, inward — entering and settling"
+      "Away, gone — removal in everyday speech",
+      "Into, inward — entering and settling",
+      "Against — resistance and reflection",
+      "Toward and facing — meeting, or opposing"
     ],
     "correct": "Into, inward — entering and settling",
     "feedback": "ein- — Into, inward — entering and settling. Seeing into a matter deeply enough to concede it. Ich sehe das ein = fair enough, I get it."
@@ -1385,10 +1385,10 @@
     "target_en": "to run away, escape",
     "answer_verb": "entlaufen",
     "options": [
-      "vor-",
       "ent-",
-      "unter-",
-      "zusammen-"
+      "be-",
+      "vor-",
+      "zurück-"
     ],
     "correct": "ent-",
     "feedback": "ent- — Away from, off, out of — separation and release. Running plus a boundary: you leave the person or place you belonged to. Takes the dative."
@@ -1403,9 +1403,9 @@
     "target_en": "to discover",
     "answer_verb": "entdecken",
     "options": [
-      "wieder-",
-      "be-",
-      "zer-",
+      "an-",
+      "zusammen-",
+      "vor-",
       "ent-"
     ],
     "correct": "ent-",
@@ -1421,10 +1421,10 @@
     "target_en": "to dismiss, release",
     "answer_verb": "entlassen",
     "options": [
-      "zer-",
-      "ge-",
+      "er-",
       "ent-",
-      "hinter-"
+      "über-",
+      "um-"
     ],
     "correct": "ent-",
     "feedback": "ent- — Away from, off, out of — separation and release. Letting go plus separation: the person is let loose from the institution holding them."
@@ -1439,10 +1439,10 @@
     "target_en": "to relax",
     "answer_verb": "entspannen",
     "options": [
-      "zer-",
-      "an-",
-      "er-",
-      "ent-"
+      "ent-",
+      "zu-",
+      "emp-",
+      "zurück-"
     ],
     "correct": "ent-",
     "feedback": "ent- — Away from, off, out of — separation and release. Spannen is to stretch tight. ent- releases the tension — the string goes slack."
@@ -1457,10 +1457,10 @@
     "target_en": "to flee from",
     "answer_verb": "entfliehen",
     "options": [
-      "be-",
-      "zu-",
+      "nieder-",
+      "wider-",
       "ent-",
-      "auf-"
+      "unter-"
     ],
     "correct": "ent-",
     "feedback": "ent- — Away from, off, out of — separation and release. Fleeing already means running; ent- adds the thing you break away from, in the dative."
@@ -1475,10 +1475,10 @@
     "target_en": "to arise, come into being",
     "answer_verb": "entstehen",
     "options": [
+      "wider-",
+      "ein-",
       "ent-",
-      "aus-",
-      "auf-",
-      "zurück-"
+      "weiter-"
     ],
     "correct": "ent-",
     "feedback": "ent- — Away from, off, out of — separation and release. The emergence branch: something steps out of nothing and stands there. Origin, not removal."
@@ -1491,10 +1491,10 @@
     "verb": "entscheiden",
     "verb_en": "to decide",
     "options": [
-      "Over — across, above, beyond the limit, or missed entirely",
-      "In front, in advance, presented forward",
+      "Around — encircling, turning, and therefore changing",
+      "Wrong, failed, badly done",
       "Away from, off, out of — separation and release",
-      "Toward the speaker — 'this way, come here'"
+      "Back — return and reversal"
     ],
     "correct": "Away from, off, out of — separation and release",
     "feedback": "ent- — Away from, off, out of — separation and release. Scheiden is to separate. You pull the options apart and cut one loose from the rest."
@@ -1507,10 +1507,10 @@
     "verb": "entführen",
     "verb_en": "to kidnap",
     "options": [
-      "Behind — left behind, or done behind someone's back",
-      "Down, downward, laid low",
-      "Through — physically across, or thoroughly to the end",
-      "Away from, off, out of — separation and release"
+      "Four feelings: away, wrong, transformed, used up",
+      "Up, open, onto — rising and unsealing",
+      "Away from, off, out of — separation and release",
+      "Toward and facing — meeting, or opposing"
     ],
     "correct": "Away from, off, out of — separation and release",
     "feedback": "ent- — Away from, off, out of — separation and release. Leading plus away: you lead someone out of where they belong. Same logic as entlaufen, but done to them."
@@ -1523,10 +1523,10 @@
     "verb": "entsorgen",
     "verb_en": "to dispose of",
     "options": [
-      "Wrong, failed, badly done",
-      "Up, open, onto — rising and unsealing",
-      "Again, back — repetition and restoration",
-      "Away from, off, out of — separation and release"
+      "A sound-variant of ent- — receiving, sensing, rising toward",
+      "Away from, off, out of — separation and release",
+      "Over — across, above, beyond the limit, or missed entirely",
+      "Four feelings: away, wrong, transformed, used up"
     ],
     "correct": "Away from, off, out of — separation and release",
     "feedback": "ent- — Away from, off, out of — separation and release. Bureaucratic humour: the Sorge (worry) is removed. The rubbish, and your problem, go away."
@@ -1539,10 +1539,10 @@
     "verb": "entlaufen",
     "verb_en": "to run away, escape",
     "options": [
-      "Away, gone — removal in everyday speech",
       "Away from, off, out of — separation and release",
-      "Toward and touching — contact, attachment, switching on",
-      "Back — return and reversal"
+      "Again, back — repetition and restoration",
+      "Together with, joining in — participation",
+      "Over — across, above, beyond the limit, or missed entirely"
     ],
     "correct": "Away from, off, out of — separation and release",
     "feedback": "ent- — Away from, off, out of — separation and release. Running plus a boundary: you leave the person or place you belonged to. Takes the dative."
@@ -1557,10 +1557,10 @@
     "target_en": "to come to meet; to accommodate",
     "answer_verb": "entgegenkommen",
     "options": [
-      "ver-",
       "entgegen-",
-      "ge-",
-      "be-"
+      "durch-",
+      "unter-",
+      "ge-"
     ],
     "correct": "entgegen-",
     "feedback": "entgegen- — Toward and facing — meeting, or opposing. Walking toward someone approaching you. Figuratively: meeting them halfway on terms."
@@ -1575,10 +1575,10 @@
     "target_en": "to look forward to; to face",
     "answer_verb": "entgegensehen",
     "options": [
-      "zu-",
+      "miss-",
+      "zer-",
       "entgegen-",
-      "ein-",
-      "be-"
+      "ab-"
     ],
     "correct": "entgegen-",
     "feedback": "entgegen- — Toward and facing — meeting, or opposing. Looking at what's coming toward you — with anticipation or with resolve."
@@ -1593,10 +1593,10 @@
     "target_en": "to accept, receive",
     "answer_verb": "entgegennehmen",
     "options": [
+      "emp-",
+      "be-",
       "ein-",
-      "entgegen-",
-      "her-",
-      "an-"
+      "entgegen-"
     ],
     "correct": "entgegen-",
     "feedback": "entgegen- — Toward and facing — meeting, or opposing. Taking something being handed toward you. Formal: prizes, deliveries, applications."
@@ -1611,10 +1611,10 @@
     "target_en": "to show, extend to sb",
     "answer_verb": "entgegenbringen",
     "options": [
-      "bei-",
-      "ge-",
-      "um-",
-      "entgegen-"
+      "entgegen-",
+      "hin-",
+      "aus-",
+      "ge-"
     ],
     "correct": "entgegen-",
     "feedback": "entgegen- — Toward and facing — meeting, or opposing. Carrying a feeling toward someone: Vertrauen entgegenbringen — to extend trust."
@@ -1629,10 +1629,10 @@
     "target_en": "to stand in the way of",
     "answer_verb": "entgegenstehen",
     "options": [
+      "ver-",
       "entgegen-",
-      "um-",
-      "er-",
-      "mit-"
+      "weiter-",
+      "zu-"
     ],
     "correct": "entgegen-",
     "feedback": "entgegen- — Toward and facing — meeting, or opposing. Standing facing the thing so it can't pass. The obstacle sense."
@@ -1647,9 +1647,9 @@
     "target_en": "to counteract",
     "answer_verb": "entgegenwirken",
     "options": [
-      "mit-",
-      "ein-",
-      "fort-",
+      "bei-",
+      "ge-",
+      "um-",
       "entgegen-"
     ],
     "correct": "entgegen-",
@@ -1663,10 +1663,10 @@
     "verb": "entgegentreten",
     "verb_en": "to confront, oppose",
     "options": [
-      "Over — across, above, beyond the limit, or missed entirely",
-      "Up, open, onto — rising and unsealing",
-      "Gathered, brought to a whole — mostly fossilised",
-      "Toward and facing — meeting, or opposing"
+      "Toward and facing — meeting, or opposing",
+      "Around — encircling, turning, and therefore changing",
+      "Carry the action through to its result",
+      "Together with, joining in — participation"
     ],
     "correct": "Toward and facing — meeting, or opposing",
     "feedback": "entgegen- — Toward and facing — meeting, or opposing. Stepping into the path of something. Used of prejudice, rumour, aggression."
@@ -1679,9 +1679,9 @@
     "verb": "entgegensetzen",
     "verb_en": "to counter, set against",
     "options": [
-      "Toward and touching — contact, attachment, switching on",
-      "Toward the speaker — 'this way, come here'",
-      "Gathered, brought to a whole — mostly fossilised",
+      "Together with, joining in — participation",
+      "Into, inward — entering and settling",
+      "Away — and, by extension, onward",
       "Toward and facing — meeting, or opposing"
     ],
     "correct": "Toward and facing — meeting, or opposing",
@@ -1695,10 +1695,10 @@
     "verb": "entgegenhalten",
     "verb_en": "to object, counter with",
     "options": [
+      "Over — across, above, beyond the limit, or missed entirely",
+      "Up, open, onto — rising and unsealing",
       "Gathered, brought to a whole — mostly fossilised",
-      "Toward and facing — meeting, or opposing",
-      "Away, gone — removal in everyday speech",
-      "Onward, further, keep going"
+      "Toward and facing — meeting, or opposing"
     ],
     "correct": "Toward and facing — meeting, or opposing",
     "feedback": "entgegen- — Toward and facing — meeting, or opposing. Holding an argument up in front of the other person's claim."
@@ -1711,10 +1711,10 @@
     "verb": "entgegenlaufen",
     "verb_en": "to run toward; to run counter to",
     "options": [
-      "Gathered, brought to a whole — mostly fossilised",
-      "Up, open, onto — rising and unsealing",
       "Toward and facing — meeting, or opposing",
-      "Away from, off, out of — separation and release"
+      "Under — beneath, supporting from below, or cutting off",
+      "Wrong, failed, badly done",
+      "Down, downward, laid low"
     ],
     "correct": "Toward and facing — meeting, or opposing",
     "feedback": "entgegen- — Toward and facing — meeting, or opposing. Literally running to meet someone — or, figuratively, contradicting a principle."
@@ -1729,10 +1729,10 @@
     "target_en": "to reach, attain",
     "answer_verb": "erreichen",
     "options": [
+      "zurück-",
+      "zusammen-",
       "er-",
-      "fort-",
-      "um-",
-      "zer-"
+      "weiter-"
     ],
     "correct": "er-",
     "feedback": "er- — Carry the action through to its result. Reichen is to extend toward. er- lands it: your hand actually arrives at the thing."
@@ -1747,10 +1747,10 @@
     "target_en": "to invent",
     "answer_verb": "erfinden",
     "options": [
-      "wider-",
       "er-",
-      "ge-",
-      "miss-"
+      "hinter-",
+      "ein-",
+      "emp-"
     ],
     "correct": "er-",
     "feedback": "er- — Carry the action through to its result. Finding pushed past discovery: you keep going until the thing you found didn't exist before."
@@ -1765,10 +1765,10 @@
     "target_en": "to recognise",
     "answer_verb": "erkennen",
     "options": [
+      "ein-",
+      "unter-",
       "er-",
-      "nach-",
-      "los-",
-      "weiter-"
+      "vor-"
     ],
     "correct": "er-",
     "feedback": "er- — Carry the action through to its result. Knowing arrives in one moment — the point at which acquaintance snaps into identification."
@@ -1783,10 +1783,10 @@
     "target_en": "to expect",
     "answer_verb": "erwarten",
     "options": [
-      "ver-",
-      "miss-",
-      "ab-",
-      "er-"
+      "zer-",
+      "er-",
+      "wieder-",
+      "ab-"
     ],
     "correct": "er-",
     "feedback": "er- — Carry the action through to its result. Waiting with its endpoint attached: you wait for a result you already picture."
@@ -1802,8 +1802,8 @@
     "answer_verb": "erzählen",
     "options": [
       "er-",
-      "zusammen-",
-      "an-",
+      "fort-",
+      "zu-",
       "los-"
     ],
     "correct": "er-",
@@ -1820,9 +1820,9 @@
     "answer_verb": "erlernen",
     "options": [
       "er-",
-      "zurück-",
-      "ab-",
-      "be-"
+      "wieder-",
+      "ver-",
+      "ab-"
     ],
     "correct": "er-",
     "feedback": "er- — Carry the action through to its result. Lernen is studying; erlernen is studying until the skill is fully acquired and yours."
@@ -1835,10 +1835,10 @@
     "verb": "erschießen",
     "verb_en": "to shoot dead",
     "options": [
-      "Against — resistance and reflection",
-      "Carry the action through to its result",
-      "Again, back — repetition and restoration",
-      "Back — return and reversal"
+      "Off, away, down — detachment from a starting point",
+      "Away from, off, out of — separation and release",
+      "Released, broken free — and therefore off we go",
+      "Carry the action through to its result"
     ],
     "correct": "Carry the action through to its result",
     "feedback": "er- — Carry the action through to its result. Shooting carried to its final result. The clearest case of er- as 'all the way to the end'."
@@ -1851,10 +1851,10 @@
     "verb": "ertrinken",
     "verb_en": "to drown",
     "options": [
+      "Back — return and reversal",
+      "Together with, joining in — participation",
       "Carry the action through to its result",
-      "Toward and touching — contact, attachment, switching on",
-      "Down, downward, laid low",
-      "Up, open, onto — rising and unsealing"
+      "Wrong, failed, badly done"
     ],
     "correct": "Carry the action through to its result",
     "feedback": "er- — Carry the action through to its result. Grim logic: you take in water until the process completes. The endpoint is fatal."
@@ -1867,10 +1867,10 @@
     "verb": "erfrieren",
     "verb_en": "to freeze to death",
     "options": [
+      "Back — return and reversal",
       "Carry the action through to its result",
-      "Toward and touching — contact, attachment, switching on",
-      "Out, out of, and out to the very end",
-      "Wrong, failed, badly done"
+      "In front, in advance, presented forward",
+      "Off, away, down — detachment from a starting point"
     ],
     "correct": "Carry the action through to its result",
     "feedback": "er- — Carry the action through to its result. Freezing pushed past discomfort to its absolute conclusion."
@@ -1883,10 +1883,10 @@
     "verb": "erwachen",
     "verb_en": "to awaken",
     "options": [
-      "Through — physically across, or thoroughly to the end",
       "Carry the action through to its result",
-      "Away — and, by extension, onward",
-      "Around — encircling, turning, and therefore changing"
+      "Toward and touching — contact, attachment, switching on",
+      "Down, downward, laid low",
+      "Up, open, onto — rising and unsealing"
     ],
     "correct": "Carry the action through to its result",
     "feedback": "er- — Carry the action through to its result. The emergence branch: consciousness comes into being. Same arc, arriving at a beginning."
@@ -1902,9 +1902,9 @@
     "answer_verb": "fortgehen",
     "options": [
       "fort-",
-      "über-",
-      "nieder-",
-      "be-"
+      "miss-",
+      "unter-",
+      "zer-"
     ],
     "correct": "fort-",
     "feedback": "fort- — Away — and, by extension, onward. The plain departure sense. Slightly more formal than weggehen."
@@ -1919,10 +1919,10 @@
     "target_en": "to continue, resume",
     "answer_verb": "fortsetzen",
     "options": [
-      "bei-",
-      "fort-",
-      "unter-",
-      "um-"
+      "wieder-",
+      "er-",
+      "los-",
+      "fort-"
     ],
     "correct": "fort-",
     "feedback": "fort- — Away — and, by extension, onward. The continuation branch: you set the thing further along its line."
@@ -1937,10 +1937,10 @@
     "target_en": "to continue; to drive off",
     "answer_verb": "fortfahren",
     "options": [
-      "aus-",
-      "los-",
+      "emp-",
       "fort-",
-      "wieder-"
+      "über-",
+      "an-"
     ],
     "correct": "fort-",
     "feedback": "fort- — Away — and, by extension, onward. Both readings in one verb — carry on speaking, or drive away. Context decides."
@@ -1955,10 +1955,10 @@
     "target_en": "to run away; to run on",
     "answer_verb": "fortlaufen",
     "options": [
-      "zusammen-",
-      "vor-",
+      "ein-",
       "emp-",
-      "fort-"
+      "fort-",
+      "her-"
     ],
     "correct": "fort-",
     "feedback": "fort- — Away — and, by extension, onward. Same duality: a child running off, or a number series running onward."
@@ -1973,10 +1973,10 @@
     "target_en": "to persist, endure",
     "answer_verb": "fortbestehen",
     "options": [
-      "zu-",
-      "unter-",
       "fort-",
-      "ge-"
+      "emp-",
+      "an-",
+      "nach-"
     ],
     "correct": "fort-",
     "feedback": "fort- — Away — and, by extension, onward. Existence carried onward past the point it might have stopped."
@@ -1991,10 +1991,10 @@
     "target_en": "to progress, advance",
     "answer_verb": "fortschreiten",
     "options": [
-      "emp-",
-      "fort-",
+      "über-",
       "entgegen-",
-      "zu-"
+      "er-",
+      "fort-"
     ],
     "correct": "fort-",
     "feedback": "fort- — Away — and, by extension, onward. Striding onward. The source of Fortschritt — progress as steps taken forward."
@@ -2007,10 +2007,10 @@
     "verb": "sich fortbilden",
     "verb_en": "to do further training",
     "options": [
-      "Out, out of, and out to the very end",
+      "Through — physically across, or thoroughly to the end",
+      "Together — joining, or collapsing into one",
       "Away — and, by extension, onward",
-      "A sound-variant of ent- — receiving, sensing, rising toward",
-      "Down, downward, laid low"
+      "Wrong, failed, badly done"
     ],
     "correct": "Away — and, by extension, onward",
     "feedback": "fort- — Away — and, by extension, onward. Educating yourself onward past your current level. Common in job listings."
@@ -2023,10 +2023,10 @@
     "verb": "fortbewegen",
     "verb_en": "to move, propel",
     "options": [
-      "Into pieces — destruction and dispersal",
+      "Carry the action through to its result",
       "Away — and, by extension, onward",
-      "Down, downward, laid low",
-      "Back — return and reversal"
+      "Around — encircling, turning, and therefore changing",
+      "Through — physically across, or thoroughly to the end"
     ],
     "correct": "Away — and, by extension, onward",
     "feedback": "fort- — Away — and, by extension, onward. Moving a thing away from where it is. The neutral, technical use."
@@ -2039,10 +2039,10 @@
     "verb": "fortziehen",
     "verb_en": "to move away",
     "options": [
-      "Four feelings: away, wrong, transformed, used up",
-      "Over — across, above, beyond the limit, or missed entirely",
+      "Into, inward — entering and settling",
       "Away — and, by extension, onward",
-      "Against — resistance and reflection"
+      "Carry the action through to its result",
+      "Toward and facing — meeting, or opposing"
     ],
     "correct": "Away — and, by extension, onward",
     "feedback": "fort- — Away — and, by extension, onward. Pulling yourself away from a town for good. Stronger than umziehen."
@@ -2055,10 +2055,10 @@
     "verb": "fortjagen",
     "verb_en": "to chase away, drive off",
     "options": [
+      "Up, open, onto — rising and unsealing",
       "Away — and, by extension, onward",
-      "Away from, off, out of — separation and release",
-      "Over — across, above, beyond the limit, or missed entirely",
-      "Apply the action directly onto a thing"
+      "Toward and facing — meeting, or opposing",
+      "Over — across, above, beyond the limit, or missed entirely"
     ],
     "correct": "Away — and, by extension, onward",
     "feedback": "fort- — Away — and, by extension, onward. Hunting someone away from the place — the aggressive end of the departure sense."
@@ -2073,10 +2073,10 @@
     "target_en": "to belong to",
     "answer_verb": "gehören",
     "options": [
-      "hinter-",
-      "an-",
-      "mit-",
-      "ge-"
+      "weg-",
+      "vor-",
+      "ge-",
+      "fort-"
     ],
     "correct": "ge-",
     "feedback": "ge- — Gathered, brought to a whole — mostly fossilised. Old sense: to be within earshot of, therefore under someone's authority. Takes the dative."
@@ -2091,9 +2091,9 @@
     "target_en": "to please, be liked",
     "answer_verb": "gefallen",
     "options": [
-      "fort-",
-      "ein-",
-      "zurück-",
+      "mit-",
+      "emp-",
+      "hinter-",
       "ge-"
     ],
     "correct": "ge-",
@@ -2109,10 +2109,10 @@
     "target_en": "to succeed, turn out well",
     "answer_verb": "gelingen",
     "options": [
-      "auf-",
       "ge-",
-      "aus-",
-      "bei-"
+      "unter-",
+      "zu-",
+      "um-"
     ],
     "correct": "ge-",
     "feedback": "ge- — Gathered, brought to a whole — mostly fossilised. The parts come together properly. Also dative: es ist mir gelungen."
@@ -2127,10 +2127,10 @@
     "target_en": "to win, gain",
     "answer_verb": "gewinnen",
     "options": [
-      "ver-",
       "ge-",
-      "aus-",
-      "vor-"
+      "her-",
+      "unter-",
+      "zusammen-"
     ],
     "correct": "ge-",
     "feedback": "ge- — Gathered, brought to a whole — mostly fossilised. Old winnan = to strive. ge- brings the striving to its completed, successful whole."
@@ -2145,10 +2145,10 @@
     "target_en": "to confess",
     "answer_verb": "gestehen",
     "options": [
-      "entgegen-",
       "ge-",
-      "fort-",
-      "bei-"
+      "auf-",
+      "bei-",
+      "ein-"
     ],
     "correct": "ge-",
     "feedback": "ge- — Gathered, brought to a whole — mostly fossilised. To stand fully behind something — the whole truth brought out and stood on."
@@ -2163,10 +2163,10 @@
     "target_en": "to enjoy",
     "answer_verb": "genießen",
     "options": [
-      "um-",
+      "ver-",
       "ge-",
-      "zurück-",
-      "nieder-"
+      "bei-",
+      "weg-"
     ],
     "correct": "ge-",
     "feedback": "ge- — Gathered, brought to a whole — mostly fossilised. Related to 'to use, take'. ge- makes it total: taking something in fully."
@@ -2179,10 +2179,10 @@
     "verb": "gebrauchen",
     "verb_en": "to use, make use of",
     "options": [
-      "Off, away, down — detachment from a starting point",
+      "Through — physically across, or thoroughly to the end",
       "Gathered, brought to a whole — mostly fossilised",
-      "Four feelings: away, wrong, transformed, used up",
-      "Behind — left behind, or done behind someone's back"
+      "Toward the speaker — 'this way, come here'",
+      "Into, inward — entering and settling"
     ],
     "correct": "Gathered, brought to a whole — mostly fossilised",
     "feedback": "ge- — Gathered, brought to a whole — mostly fossilised. Brauchen is to need; ge- turns need into completed application — putting it to use."
@@ -2195,10 +2195,10 @@
     "verb": "geraten",
     "verb_en": "to end up, turn out",
     "options": [
-      "Behind — left behind, or done behind someone's back",
-      "Apply the action directly onto a thing",
-      "Out, out of, and out to the very end",
-      "Gathered, brought to a whole — mostly fossilised"
+      "Against — resistance and reflection",
+      "Gathered, brought to a whole — mostly fossilised",
+      "Together — joining, or collapsing into one",
+      "In front, in advance, presented forward"
     ],
     "correct": "Gathered, brought to a whole — mostly fossilised",
     "feedback": "ge- — Gathered, brought to a whole — mostly fossilised. You land somewhere without steering — the outcome comes together around you."
@@ -2211,10 +2211,10 @@
     "verb": "gedenken",
     "verb_en": "to commemorate",
     "options": [
-      "Through — physically across, or thoroughly to the end",
+      "Off, away, down — detachment from a starting point",
+      "Gathered, brought to a whole — mostly fossilised",
       "Four feelings: away, wrong, transformed, used up",
-      "Toward the speaker — 'this way, come here'",
-      "Gathered, brought to a whole — mostly fossilised"
+      "Over — across, above, beyond the limit, or missed entirely"
     ],
     "correct": "Gathered, brought to a whole — mostly fossilised",
     "feedback": "ge- — Gathered, brought to a whole — mostly fossilised. Thinking gathered and formalised into remembrance. Takes the genitive."
@@ -2227,10 +2227,10 @@
     "verb": "gehorchen",
     "verb_en": "to obey",
     "options": [
-      "Released, broken free — and therefore off we go",
-      "Gathered, brought to a whole — mostly fossilised",
-      "Away, gone — removal in everyday speech",
-      "Toward and touching — contact, attachment, switching on"
+      "Over — across, above, beyond the limit, or missed entirely",
+      "Apply the action directly onto a thing",
+      "Alongside, added to, present with",
+      "Gathered, brought to a whole — mostly fossilised"
     ],
     "correct": "Gathered, brought to a whole — mostly fossilised",
     "feedback": "ge- — Gathered, brought to a whole — mostly fossilised. Horchen is to listen closely. ge- completes it: listening that ends in doing."
@@ -2245,10 +2245,10 @@
     "target_en": "to come here",
     "answer_verb": "herkommen",
     "options": [
-      "her-",
+      "hinter-",
       "miss-",
-      "nach-",
-      "er-"
+      "fort-",
+      "her-"
     ],
     "correct": "her-",
     "feedback": "her- — Toward the speaker — 'this way, come here'. Coming in the direction of the speaker. Wo kommst du her? = where are you from?"
@@ -2263,10 +2263,10 @@
     "target_en": "to bring here",
     "answer_verb": "herbringen",
     "options": [
-      "zer-",
-      "unter-",
-      "be-",
-      "her-"
+      "mit-",
+      "her-",
+      "weiter-",
+      "ab-"
     ],
     "correct": "her-",
     "feedback": "her- — Toward the speaker — 'this way, come here'. Carrying something toward me. Hinbringen would carry it away to somewhere else."
@@ -2281,10 +2281,10 @@
     "target_en": "to hand over",
     "answer_verb": "hergeben",
     "options": [
-      "ent-",
       "her-",
-      "unter-",
-      "zer-"
+      "miss-",
+      "nach-",
+      "er-"
     ],
     "correct": "her-",
     "feedback": "her- — Toward the speaker — 'this way, come here'. Giving in my direction. There's often a note of reluctance — hand it over."
@@ -2299,10 +2299,10 @@
     "target_en": "to manufacture, produce",
     "answer_verb": "herstellen",
     "options": [
-      "wieder-",
-      "her-",
+      "zer-",
+      "unter-",
       "be-",
-      "auf-"
+      "her-"
     ],
     "correct": "her-",
     "feedback": "her- — Toward the speaker — 'this way, come here'. Placing something 'here' into existence — the factory brings it into our world."
@@ -2317,10 +2317,10 @@
     "target_en": "to fetch here",
     "answer_verb": "herholen",
     "options": [
+      "ent-",
       "her-",
-      "weiter-",
-      "los-",
-      "zu-"
+      "unter-",
+      "zer-"
     ],
     "correct": "her-",
     "feedback": "her- — Toward the speaker — 'this way, come here'. Going to get something and bringing it back to where I am."
@@ -2335,10 +2335,10 @@
     "target_en": "to get hold of, obtain",
     "answer_verb": "herbekommen",
     "options": [
-      "miss-",
-      "zurück-",
-      "aus-",
-      "her-"
+      "wieder-",
+      "her-",
+      "be-",
+      "auf-"
     ],
     "correct": "her-",
     "feedback": "her- — Toward the speaker — 'this way, come here'. Managing to get something to arrive at you. Often Wo bekomme ich das her?"
@@ -2351,10 +2351,10 @@
     "verb": "herlaufen",
     "verb_en": "to run over here",
     "options": [
-      "Under — beneath, supporting from below, or cutting off",
-      "Again, back — repetition and restoration",
       "Toward the speaker — 'this way, come here'",
-      "Gathered, brought to a whole — mostly fossilised"
+      "Onward, further, keep going",
+      "Released, broken free — and therefore off we go",
+      "Shut — and, oppositely, toward someone"
     ],
     "correct": "Toward the speaker — 'this way, come here'",
     "feedback": "her- — Toward the speaker — 'this way, come here'. Running toward the speaker. Also hinter jdm herlaufen — to run after someone."
@@ -2367,10 +2367,10 @@
     "verb": "hernehmen",
     "verb_en": "to take from, get from",
     "options": [
-      "Toward the speaker — 'this way, come here'",
-      "Gathered, brought to a whole — mostly fossilised",
-      "Together with, joining in — participation",
-      "Away — and, by extension, onward"
+      "Wrong, failed, badly done",
+      "Back — return and reversal",
+      "Out, out of, and out to the very end",
+      "Toward the speaker — 'this way, come here'"
     ],
     "correct": "Toward the speaker — 'this way, come here'",
     "feedback": "her- — Toward the speaker — 'this way, come here'. Wo nimmst du das her? — where are you taking that from, to bring it here?"
@@ -2383,10 +2383,10 @@
     "verb": "herreichen",
     "verb_en": "to pass over, hand across",
     "options": [
-      "Toward the speaker — 'this way, come here'",
-      "Back — return and reversal",
-      "In front, in advance, presented forward",
-      "Behind — left behind, or done behind someone's back"
+      "A sound-variant of ent- — receiving, sensing, rising toward",
+      "Together with, joining in — participation",
+      "Onward, further, keep going",
+      "Toward the speaker — 'this way, come here'"
     ],
     "correct": "Toward the speaker — 'this way, come here'",
     "feedback": "her- — Toward the speaker — 'this way, come here'. Extending your arm so the thing comes to my side."
@@ -2399,10 +2399,10 @@
     "verb": "herrühren",
     "verb_en": "to stem from, originate in",
     "options": [
-      "Back — return and reversal",
+      "Together with, joining in — participation",
+      "Away — and, by extension, onward",
       "Toward the speaker — 'this way, come here'",
-      "Together — joining, or collapsing into one",
-      "Away — and, by extension, onward"
+      "Apply the action directly onto a thing"
     ],
     "correct": "Toward the speaker — 'this way, come here'",
     "feedback": "her- — Toward the speaker — 'this way, come here'. Figurative: the cause moves toward the present from somewhere back there."
@@ -2417,10 +2417,10 @@
     "target_en": "to go there",
     "answer_verb": "hingehen",
     "options": [
+      "hinter-",
+      "entgegen-",
       "hin-",
-      "um-",
-      "zusammen-",
-      "hinter-"
+      "zurück-"
     ],
     "correct": "hin-",
     "feedback": "hin- — Away from the speaker, toward a target — 'that way'. Walking toward a destination away from the current position. Answers wohin?"
@@ -2435,10 +2435,10 @@
     "target_en": "to drive/travel there",
     "answer_verb": "hinfahren",
     "options": [
+      "zusammen-",
       "über-",
       "hin-",
-      "nieder-",
-      "ent-"
+      "fort-"
     ],
     "correct": "hin-",
     "feedback": "hin- — Away from the speaker, toward a target — 'that way'. Same arrow, by vehicle. Fährst du hin? — are you going there?"
@@ -2453,10 +2453,10 @@
     "target_en": "to lay down, put down",
     "answer_verb": "hinlegen",
     "options": [
-      "ent-",
-      "über-",
-      "hin-",
-      "nach-"
+      "um-",
+      "weiter-",
+      "zer-",
+      "hin-"
     ],
     "correct": "hin-",
     "feedback": "hin- — Away from the speaker, toward a target — 'that way'. Placing something down over there. Reflexively, sich hinlegen = to lie down."
@@ -2471,10 +2471,10 @@
     "target_en": "to sit down",
     "answer_verb": "sich hinsetzen",
     "options": [
-      "unter-",
-      "hin-",
-      "aus-",
-      "be-"
+      "nieder-",
+      "ent-",
+      "ein-",
+      "hin-"
     ],
     "correct": "hin-",
     "feedback": "hin- — Away from the speaker, toward a target — 'that way'. Putting yourself down into a spot. The hin supplies the target position."
@@ -2489,10 +2489,10 @@
     "target_en": "to put down, set there",
     "answer_verb": "hinstellen",
     "options": [
-      "wieder-",
+      "nach-",
+      "über-",
       "hin-",
-      "nieder-",
-      "hinter-"
+      "aus-"
     ],
     "correct": "hin-",
     "feedback": "hin- — Away from the speaker, toward a target — 'that way'. Standing an object in a particular place away from you."
@@ -2507,9 +2507,9 @@
     "target_en": "to look over there",
     "answer_verb": "hinschauen",
     "options": [
-      "hinter-",
-      "emp-",
-      "miss-",
+      "aus-",
+      "er-",
+      "be-",
       "hin-"
     ],
     "correct": "hin-",
@@ -2523,9 +2523,9 @@
     "verb": "hinfallen",
     "verb_en": "to fall over",
     "options": [
-      "Into, inward — entering and settling",
-      "Over — across, above, beyond the limit, or missed entirely",
-      "Released, broken free — and therefore off we go",
+      "Down, downward, laid low",
+      "Toward and touching — contact, attachment, switching on",
+      "Back — return and reversal",
       "Away from the speaker, toward a target — 'that way'"
     ],
     "correct": "Away from the speaker, toward a target — 'that way'",
@@ -2539,10 +2539,10 @@
     "verb": "hinbringen",
     "verb_en": "to take there",
     "options": [
+      "Behind — left behind, or done behind someone's back",
       "Away from the speaker, toward a target — 'that way'",
-      "Into pieces — destruction and dispersal",
       "A sound-variant of ent- — receiving, sensing, rising toward",
-      "Apply the action directly onto a thing"
+      "Out, out of, and out to the very end"
     ],
     "correct": "Away from the speaker, toward a target — 'that way'",
     "feedback": "hin- — Away from the speaker, toward a target — 'that way'. Carrying something away to a destination. Exact opposite of herbringen."
@@ -2555,9 +2555,9 @@
     "verb": "hinweisen",
     "verb_en": "to point out, indicate",
     "options": [
-      "Back — return and reversal",
-      "Toward and facing — meeting, or opposing",
-      "Over — across, above, beyond the limit, or missed entirely",
+      "Away — and, by extension, onward",
+      "Around — encircling, turning, and therefore changing",
+      "Together with, joining in — participation",
       "Away from the speaker, toward a target — 'that way'"
     ],
     "correct": "Away from the speaker, toward a target — 'that way'",
@@ -2572,9 +2572,9 @@
     "verb_en": "to listen closely",
     "options": [
       "Away from the speaker, toward a target — 'that way'",
-      "Off, away, down — detachment from a starting point",
-      "In front, in advance, presented forward",
-      "Wrong, failed, badly done"
+      "Into pieces — destruction and dispersal",
+      "A sound-variant of ent- — receiving, sensing, rising toward",
+      "Apply the action directly onto a thing"
     ],
     "correct": "Away from the speaker, toward a target — 'that way'",
     "feedback": "hin- — Away from the speaker, toward a target — 'that way'. Sending your attention outward toward a sound instead of just hearing it."
@@ -2589,10 +2589,10 @@
     "target_en": "to set off, drive off",
     "answer_verb": "losfahren",
     "options": [
-      "nieder-",
-      "los-",
-      "ver-",
-      "an-"
+      "zurück-",
+      "entgegen-",
+      "über-",
+      "los-"
     ],
     "correct": "los-",
     "feedback": "los- — Released, broken free — and therefore off we go. The vehicle is released from standstill. The most common start-sense los- verb."
@@ -2607,10 +2607,10 @@
     "target_en": "to start, kick off",
     "answer_verb": "losgehen",
     "options": [
-      "ein-",
-      "über-",
-      "zurück-",
-      "los-"
+      "los-",
+      "ab-",
+      "nieder-",
+      "miss-"
     ],
     "correct": "los-",
     "feedback": "los- — Released, broken free — and therefore off we go. Wann geht's los? — when does it start? The event is let loose."
@@ -2625,10 +2625,10 @@
     "target_en": "to let go, release",
     "answer_verb": "loslassen",
     "options": [
+      "vor-",
       "los-",
-      "er-",
-      "ver-",
-      "zu-"
+      "zer-",
+      "auf-"
     ],
     "correct": "los-",
     "feedback": "los- — Released, broken free — and therefore off we go. The purest case: your grip opens and the thing is free."
@@ -2643,10 +2643,10 @@
     "target_en": "to get rid of",
     "answer_verb": "loswerden",
     "options": [
-      "ver-",
-      "ab-",
-      "los-",
-      "zurück-"
+      "ein-",
+      "um-",
+      "zusammen-",
+      "los-"
     ],
     "correct": "los-",
     "feedback": "los- — Released, broken free — and therefore off we go. Becoming free of something. Takes an accusative object: ich werde ihn nicht los."
@@ -2662,9 +2662,9 @@
     "answer_verb": "losbinden",
     "options": [
       "los-",
-      "ein-",
-      "fort-",
-      "be-"
+      "er-",
+      "ver-",
+      "zurück-"
     ],
     "correct": "los-",
     "feedback": "los- — Released, broken free — and therefore off we go. Undoing the knot so the thing is loose. Release in its literal, physical form."
@@ -2679,10 +2679,10 @@
     "target_en": "to get going, dive in",
     "answer_verb": "loslegen",
     "options": [
-      "weiter-",
+      "ver-",
       "ab-",
       "los-",
-      "miss-"
+      "zusammen-"
     ],
     "correct": "los-",
     "feedback": "los- — Released, broken free — and therefore off we go. Colloquial and energetic: to start with real momentum. Leg los!"
@@ -2695,10 +2695,10 @@
     "verb": "losrennen",
     "verb_en": "to take off running",
     "options": [
-      "Toward and facing — meeting, or opposing",
       "Released, broken free — and therefore off we go",
-      "Onward, further, keep going",
-      "In front, in advance, presented forward"
+      "Into, inward — entering and settling",
+      "Away — and, by extension, onward",
+      "Apply the action directly onto a thing"
     ],
     "correct": "Released, broken free — and therefore off we go",
     "feedback": "los- — Released, broken free — and therefore off we go. Running released from stillness — the sprint start."
@@ -2711,10 +2711,10 @@
     "verb": "losschrauben",
     "verb_en": "to unscrew",
     "options": [
+      "Shut — and, oppositely, toward someone",
+      "Off, away, down — detachment from a starting point",
       "Released, broken free — and therefore off we go",
-      "Out, out of, and out to the very end",
-      "Behind — left behind, or done behind someone's back",
-      "Under — beneath, supporting from below, or cutting off"
+      "Wrong, failed, badly done"
     ],
     "correct": "Released, broken free — and therefore off we go",
     "feedback": "los- — Released, broken free — and therefore off we go. Turning until the part comes free. Release applied to fastenings."
@@ -2727,10 +2727,10 @@
     "verb": "sich loslösen",
     "verb_en": "to detach oneself, break away",
     "options": [
+      "After, behind, in pursuit — and doing it again to check",
       "Released, broken free — and therefore off we go",
-      "Onward, further, keep going",
-      "Again, back — repetition and restoration",
-      "Toward and touching — contact, attachment, switching on"
+      "Toward the speaker — 'this way, come here'",
+      "Over — across, above, beyond the limit, or missed entirely"
     ],
     "correct": "Released, broken free — and therefore off we go",
     "feedback": "los- — Released, broken free — and therefore off we go. Freeing yourself from a group, an idea, or a dependency."
@@ -2743,9 +2743,9 @@
     "verb": "losbrechen",
     "verb_en": "to break out, erupt",
     "options": [
-      "Toward the speaker — 'this way, come here'",
-      "Back — return and reversal",
-      "Onward, further, keep going",
+      "After, behind, in pursuit — and doing it again to check",
+      "Over — across, above, beyond the limit, or missed entirely",
+      "Out, out of, and out to the very end",
       "Released, broken free — and therefore off we go"
     ],
     "correct": "Released, broken free — and therefore off we go",
@@ -2761,10 +2761,10 @@
     "target_en": "to misunderstand",
     "answer_verb": "missverstehen",
     "options": [
-      "wieder-",
       "miss-",
-      "entgegen-",
-      "zu-"
+      "zu-",
+      "aus-",
+      "los-"
     ],
     "correct": "miss-",
     "feedback": "miss- — Wrong, failed, badly done. Understanding that went the wrong way. The verdict prefix sits on top of the action."
@@ -2779,10 +2779,10 @@
     "target_en": "to misuse, abuse",
     "answer_verb": "missbrauchen",
     "options": [
-      "her-",
-      "vor-",
-      "miss-",
-      "weg-"
+      "los-",
+      "zusammen-",
+      "zu-",
+      "miss-"
     ],
     "correct": "miss-",
     "feedback": "miss- — Wrong, failed, badly done. Use bent in the wrong direction — the thing was used, but wrongly."
@@ -2797,10 +2797,10 @@
     "target_en": "to distrust",
     "answer_verb": "misstrauen",
     "options": [
+      "wieder-",
       "miss-",
-      "los-",
-      "be-",
-      "über-"
+      "entgegen-",
+      "zu-"
     ],
     "correct": "miss-",
     "feedback": "miss- — Wrong, failed, badly done. Trust judged as misplaced. Takes the dative: ich misstraue ihm."
@@ -2815,10 +2815,10 @@
     "target_en": "to disregard, flout",
     "answer_verb": "missachten",
     "options": [
-      "bei-",
-      "wieder-",
+      "her-",
+      "vor-",
       "miss-",
-      "ab-"
+      "weg-"
     ],
     "correct": "miss-",
     "feedback": "miss- — Wrong, failed, badly done. Attention (achten) given wrongly — that is, not given at all."
@@ -2833,10 +2833,10 @@
     "target_en": "to go wrong, fail",
     "answer_verb": "missglücken",
     "options": [
-      "zusammen-",
-      "an-",
-      "ge-",
-      "miss-"
+      "miss-",
+      "los-",
+      "be-",
+      "über-"
     ],
     "correct": "miss-",
     "feedback": "miss- — Wrong, failed, badly done. Glücken is to turn out lucky. miss- flips the luck."
@@ -2851,10 +2851,10 @@
     "target_en": "to misinterpret",
     "answer_verb": "missdeuten",
     "options": [
-      "miss-",
       "bei-",
       "wieder-",
-      "zu-"
+      "miss-",
+      "ab-"
     ],
     "correct": "miss-",
     "feedback": "miss- — Wrong, failed, badly done. Interpretation that points at the wrong thing."
@@ -2867,10 +2867,10 @@
     "verb": "misshandeln",
     "verb_en": "to mistreat, abuse",
     "options": [
-      "Wrong, failed, badly done",
-      "After, behind, in pursuit — and doing it again to check",
-      "Through — physically across, or thoroughly to the end",
-      "Toward and touching — contact, attachment, switching on"
+      "Together — joining, or collapsing into one",
+      "Toward and touching — contact, attachment, switching on",
+      "Gathered, brought to a whole — mostly fossilised",
+      "Wrong, failed, badly done"
     ],
     "correct": "Wrong, failed, badly done",
     "feedback": "miss- — Wrong, failed, badly done. Handling done badly — the verdict applied to physical treatment of a person."
@@ -2884,9 +2884,9 @@
     "verb_en": "to misunderstand",
     "options": [
       "Wrong, failed, badly done",
-      "Into pieces — destruction and dispersal",
-      "Back — return and reversal",
-      "In front, in advance, presented forward"
+      "Alongside, added to, present with",
+      "Again, back — repetition and restoration",
+      "Shut — and, oppositely, toward someone"
     ],
     "correct": "Wrong, failed, badly done",
     "feedback": "miss- — Wrong, failed, badly done. Understanding that went the wrong way. The verdict prefix sits on top of the action."
@@ -2899,10 +2899,10 @@
     "verb": "misslingen",
     "verb_en": "to fail, go wrong",
     "options": [
-      "Onward, further, keep going",
-      "Together — joining, or collapsing into one",
       "Wrong, failed, badly done",
-      "Behind — left behind, or done behind someone's back"
+      "After, behind, in pursuit — and doing it again to check",
+      "Through — physically across, or thoroughly to the end",
+      "Toward and touching — contact, attachment, switching on"
     ],
     "correct": "Wrong, failed, badly done",
     "feedback": "miss- — Wrong, failed, badly done. The direct opposite of gelingen: the parts did not come together. Dative: es misslang mir."
@@ -2916,9 +2916,9 @@
     "verb_en": "to misuse, abuse",
     "options": [
       "Wrong, failed, badly done",
-      "Toward and touching — contact, attachment, switching on",
-      "Toward the speaker — 'this way, come here'",
-      "Carry the action through to its result"
+      "Into pieces — destruction and dispersal",
+      "Back — return and reversal",
+      "In front, in advance, presented forward"
     ],
     "correct": "Wrong, failed, badly done",
     "feedback": "miss- — Wrong, failed, badly done. Use bent in the wrong direction — the thing was used, but wrongly."
@@ -2933,10 +2933,10 @@
     "target_en": "to come along",
     "answer_verb": "mitkommen",
     "options": [
-      "mit-",
-      "nach-",
-      "um-",
-      "aus-"
+      "auf-",
+      "wieder-",
+      "hinter-",
+      "mit-"
     ],
     "correct": "mit-",
     "feedback": "mit- — Together with, joining in — participation. Coming as part of the group. Kommst du mit? — the object is understood."
@@ -2951,9 +2951,9 @@
     "target_en": "to join in, take part",
     "answer_verb": "mitmachen",
     "options": [
-      "ein-",
-      "miss-",
       "mit-",
+      "er-",
+      "zu-",
       "zer-"
     ],
     "correct": "mit-",
@@ -2969,10 +2969,10 @@
     "target_en": "to take along",
     "answer_verb": "mitnehmen",
     "options": [
-      "zu-",
-      "um-",
       "mit-",
-      "durch-"
+      "nach-",
+      "um-",
+      "aus-"
     ],
     "correct": "mit-",
     "feedback": "mit- — Together with, joining in — participation. Taking a thing or person with you when you go. Also: zum Mitnehmen = takeaway."
@@ -2987,10 +2987,10 @@
     "target_en": "to bring along",
     "answer_verb": "mitbringen",
     "options": [
-      "um-",
+      "ein-",
+      "miss-",
       "mit-",
-      "entgegen-",
-      "ver-"
+      "zer-"
     ],
     "correct": "mit-",
     "feedback": "mit- — Together with, joining in — participation. Bringing something with you to where you're going — wine, a friend, bad news."
@@ -3005,10 +3005,10 @@
     "target_en": "to inform, communicate",
     "answer_verb": "mitteilen",
     "options": [
-      "auf-",
-      "zurück-",
-      "her-",
-      "mit-"
+      "zu-",
+      "um-",
+      "mit-",
+      "durch-"
     ],
     "correct": "mit-",
     "feedback": "mit- — Together with, joining in — participation. Teilen is to share. Sharing information with someone. Takes the dative."
@@ -3023,10 +3023,10 @@
     "target_en": "to ride along",
     "answer_verb": "mitfahren",
     "options": [
-      "nieder-",
+      "um-",
       "mit-",
-      "ab-",
-      "nach-"
+      "entgegen-",
+      "ver-"
     ],
     "correct": "mit-",
     "feedback": "mit- — Together with, joining in — participation. Travelling in someone else's vehicle. Source of Mitfahrgelegenheit — a lift."
@@ -3039,9 +3039,9 @@
     "verb": "mitspielen",
     "verb_en": "to play along, join the game",
     "options": [
-      "Away from the speaker, toward a target — 'that way'",
-      "A sound-variant of ent- — receiving, sensing, rising toward",
-      "Down, downward, laid low",
+      "Up, open, onto — rising and unsealing",
+      "Back — return and reversal",
+      "Toward the speaker — 'this way, come here'",
       "Together with, joining in — participation"
     ],
     "correct": "Together with, joining in — participation",
@@ -3055,10 +3055,10 @@
     "verb": "mitarbeiten",
     "verb_en": "to collaborate, work with",
     "options": [
-      "Away — and, by extension, onward",
-      "A sound-variant of ent- — receiving, sensing, rising toward",
+      "Down, downward, laid low",
       "Together with, joining in — participation",
-      "Against — resistance and reflection"
+      "Off, away, down — detachment from a starting point",
+      "After, behind, in pursuit — and doing it again to check"
     ],
     "correct": "Together with, joining in — participation",
     "feedback": "mit- — Together with, joining in — participation. Working as part of a shared effort. Mitarbeiter = colleague, co-worker."
@@ -3071,10 +3071,10 @@
     "verb": "mitdenken",
     "verb_en": "to think along, use initiative",
     "options": [
-      "Out, out of, and out to the very end",
-      "Wrong, failed, badly done",
-      "Together with, joining in — participation",
-      "A sound-variant of ent- — receiving, sensing, rising toward"
+      "Away from the speaker, toward a target — 'that way'",
+      "A sound-variant of ent- — receiving, sensing, rising toward",
+      "Down, downward, laid low",
+      "Together with, joining in — participation"
     ],
     "correct": "Together with, joining in — participation",
     "feedback": "mit- — Together with, joining in — participation. Praise in German workplaces: thinking with the team rather than just following orders."
@@ -3087,10 +3087,10 @@
     "verb": "mitsingen",
     "verb_en": "to sing along",
     "options": [
+      "Away — and, by extension, onward",
+      "A sound-variant of ent- — receiving, sensing, rising toward",
       "Together with, joining in — participation",
-      "Off, away, down — detachment from a starting point",
-      "Carry the action through to its result",
-      "Away — and, by extension, onward"
+      "Against — resistance and reflection"
     ],
     "correct": "Together with, joining in — participation",
     "feedback": "mit- — Together with, joining in — participation. Joining your voice to the others. The most literal 'together' there is."
@@ -3105,10 +3105,10 @@
     "target_en": "to reflect, ponder",
     "answer_verb": "nachdenken",
     "options": [
+      "aus-",
+      "miss-",
       "nach-",
-      "zusammen-",
-      "vor-",
-      "ein-"
+      "emp-"
     ],
     "correct": "nach-",
     "feedback": "nach- — After, behind, in pursuit — and doing it again to check. Thinking that comes after the event — going back over it in your head. Takes über."
@@ -3124,9 +3124,9 @@
     "answer_verb": "nachschauen",
     "options": [
       "nach-",
-      "auf-",
+      "ab-",
       "er-",
-      "ent-"
+      "ein-"
     ],
     "correct": "nach-",
     "feedback": "nach- — After, behind, in pursuit — and doing it again to check. Looking again, after the fact, to make sure. Everyday verifying sense."
@@ -3141,10 +3141,10 @@
     "target_en": "to look up in a book",
     "answer_verb": "nachschlagen",
     "options": [
-      "ent-",
-      "fort-",
       "nach-",
-      "durch-"
+      "zusammen-",
+      "vor-",
+      "ein-"
     ],
     "correct": "nach-",
     "feedback": "nach- — After, behind, in pursuit — and doing it again to check. Literally striking the pages open after the question arose. Dictionary verb."
@@ -3160,9 +3160,9 @@
     "answer_verb": "nachfragen",
     "options": [
       "nach-",
-      "entgegen-",
-      "be-",
-      "ein-"
+      "auf-",
+      "er-",
+      "ent-"
     ],
     "correct": "nach-",
     "feedback": "nach- — After, behind, in pursuit — and doing it again to check. Asking a follow-up — a question that comes after the first answer."
@@ -3177,10 +3177,10 @@
     "target_en": "to imitate, copy",
     "answer_verb": "nachmachen",
     "options": [
-      "auf-",
-      "ab-",
-      "durch-",
-      "nach-"
+      "ent-",
+      "fort-",
+      "nach-",
+      "durch-"
     ],
     "correct": "nach-",
     "feedback": "nach- — After, behind, in pursuit — and doing it again to check. Doing what someone did, afterwards. Following their model step for step."
@@ -3195,10 +3195,10 @@
     "target_en": "to imitate, mimic",
     "answer_verb": "nachahmen",
     "options": [
-      "ein-",
       "nach-",
-      "unter-",
-      "zer-"
+      "entgegen-",
+      "be-",
+      "ein-"
     ],
     "correct": "nach-",
     "feedback": "nach- — After, behind, in pursuit — and doing it again to check. The more formal cousin. Same idea: your action trails theirs."
@@ -3211,10 +3211,10 @@
     "verb": "nachlaufen",
     "verb_en": "to run after, chase",
     "options": [
-      "Released, broken free — and therefore off we go",
-      "After, behind, in pursuit — and doing it again to check",
-      "Down, downward, laid low",
-      "In front, in advance, presented forward"
+      "Up, open, onto — rising and unsealing",
+      "Off, away, down — detachment from a starting point",
+      "Through — physically across, or thoroughly to the end",
+      "After, behind, in pursuit — and doing it again to check"
     ],
     "correct": "After, behind, in pursuit — and doing it again to check",
     "feedback": "nach- — After, behind, in pursuit — and doing it again to check. The literal core. Also figurative: chasing after someone's approval. Dative."
@@ -3227,10 +3227,10 @@
     "verb": "nachgeben",
     "verb_en": "to give in, yield",
     "options": [
+      "Into, inward — entering and settling",
       "After, behind, in pursuit — and doing it again to check",
-      "Released, broken free — and therefore off we go",
-      "Together — joining, or collapsing into one",
-      "Away from, off, out of — separation and release"
+      "Against — resistance and reflection",
+      "Into pieces — destruction and dispersal"
     ],
     "correct": "After, behind, in pursuit — and doing it again to check",
     "feedback": "nach- — After, behind, in pursuit — and doing it again to check. Giving ground and moving into the position behind. Conceding the lead."
@@ -3243,10 +3243,10 @@
     "verb": "nachlassen",
     "verb_en": "to ease off, diminish",
     "options": [
-      "Four feelings: away, wrong, transformed, used up",
-      "Onward, further, keep going",
+      "Released, broken free — and therefore off we go",
       "After, behind, in pursuit — and doing it again to check",
-      "Together — joining, or collapsing into one"
+      "Down, downward, laid low",
+      "In front, in advance, presented forward"
     ],
     "correct": "After, behind, in pursuit — and doing it again to check",
     "feedback": "nach- — After, behind, in pursuit — and doing it again to check. The pain or the storm lets up — it falls behind its previous intensity."
@@ -3260,9 +3260,9 @@
     "verb_en": "to catch up on, make up for",
     "options": [
       "After, behind, in pursuit — and doing it again to check",
-      "Away, gone — removal in everyday speech",
-      "Around — encircling, turning, and therefore changing",
-      "A sound-variant of ent- — receiving, sensing, rising toward"
+      "Released, broken free — and therefore off we go",
+      "Together — joining, or collapsing into one",
+      "Away from, off, out of — separation and release"
     ],
     "correct": "After, behind, in pursuit — and doing it again to check",
     "feedback": "nach- — After, behind, in pursuit — and doing it again to check. Fetching what you missed and bringing it into the present. Sleep, work, a birthday."
@@ -3277,10 +3277,10 @@
     "target_en": "to lay down, resign",
     "answer_verb": "niederlegen",
     "options": [
-      "weg-",
+      "ver-",
+      "zu-",
       "nieder-",
-      "mit-",
-      "emp-"
+      "entgegen-"
     ],
     "correct": "nieder-",
     "feedback": "nieder- — Down, downward, laid low. Laying something down formally — flowers, weapons, or an office you hold."
@@ -3295,10 +3295,10 @@
     "target_en": "to knock down, suppress",
     "answer_verb": "niederschlagen",
     "options": [
-      "durch-",
-      "er-",
-      "an-",
-      "nieder-"
+      "nieder-",
+      "weiter-",
+      "unter-",
+      "emp-"
     ],
     "correct": "nieder-",
     "feedback": "nieder- — Down, downward, laid low. Striking downward. Used of people and of uprisings alike."
@@ -3313,10 +3313,10 @@
     "target_en": "to set down in writing",
     "answer_verb": "niederschreiben",
     "options": [
+      "weg-",
       "nieder-",
       "mit-",
-      "vor-",
-      "über-"
+      "emp-"
     ],
     "correct": "nieder-",
     "feedback": "nieder- — Down, downward, laid low. Writing down, in the formal register. Records and testimony rather than shopping lists."
@@ -3331,9 +3331,9 @@
     "target_en": "to burn to the ground",
     "answer_verb": "niederbrennen",
     "options": [
-      "ein-",
-      "hin-",
-      "nach-",
+      "durch-",
+      "er-",
+      "an-",
       "nieder-"
     ],
     "correct": "nieder-",
@@ -3349,10 +3349,10 @@
     "target_en": "to kneel down",
     "answer_verb": "niederknien",
     "options": [
-      "hinter-",
-      "zusammen-",
-      "nach-",
-      "nieder-"
+      "nieder-",
+      "mit-",
+      "vor-",
+      "über-"
     ],
     "correct": "nieder-",
     "feedback": "nieder- — Down, downward, laid low. Lowering yourself onto your knees. Ceremonial and physical at once."
@@ -3367,10 +3367,10 @@
     "target_en": "to tear down, demolish",
     "answer_verb": "niederreißen",
     "options": [
-      "nieder-",
-      "über-",
-      "her-",
-      "zer-"
+      "ein-",
+      "hin-",
+      "nach-",
+      "nieder-"
     ],
     "correct": "nieder-",
     "feedback": "nieder- — Down, downward, laid low. Pulling a structure down. Buildings, walls, and by extension conventions."
@@ -3383,10 +3383,10 @@
     "verb": "sich niederlassen",
     "verb_en": "to settle down, set up",
     "options": [
-      "Into, inward — entering and settling",
-      "Away from the speaker, toward a target — 'that way'",
-      "Down, downward, laid low",
-      "Wrong, failed, badly done"
+      "Behind — left behind, or done behind someone's back",
+      "Together — joining, or collapsing into one",
+      "After, behind, in pursuit — and doing it again to check",
+      "Down, downward, laid low"
     ],
     "correct": "Down, downward, laid low",
     "feedback": "nieder- — Down, downward, laid low. Letting yourself down into a place and staying — a town, or a medical practice."
@@ -3399,10 +3399,10 @@
     "verb": "niedersinken",
     "verb_en": "to sink down",
     "options": [
-      "Through — physically across, or thoroughly to the end",
-      "Back — return and reversal",
       "Down, downward, laid low",
-      "Under — beneath, supporting from below, or cutting off"
+      "Over — across, above, beyond the limit, or missed entirely",
+      "Toward the speaker — 'this way, come here'",
+      "Into pieces — destruction and dispersal"
     ],
     "correct": "Down, downward, laid low",
     "feedback": "nieder- — Down, downward, laid low. Slow, heavy descent. Literary: a body, a mist, a mood."
@@ -3415,10 +3415,10 @@
     "verb": "niederdrücken",
     "verb_en": "to press down, depress",
     "options": [
-      "Toward and touching — contact, attachment, switching on",
+      "Into, inward — entering and settling",
+      "Away from the speaker, toward a target — 'that way'",
       "Down, downward, laid low",
-      "Through — physically across, or thoroughly to the end",
-      "Gathered, brought to a whole — mostly fossilised"
+      "Wrong, failed, badly done"
     ],
     "correct": "Down, downward, laid low",
     "feedback": "nieder- — Down, downward, laid low. Pressure applied downward — a lever, or a person's spirits."
@@ -3431,10 +3431,10 @@
     "verb": "niedersetzen",
     "verb_en": "to set down, sit down",
     "options": [
+      "Through — physically across, or thoroughly to the end",
+      "Back — return and reversal",
       "Down, downward, laid low",
-      "Away — and, by extension, onward",
-      "Together with, joining in — participation",
-      "Again, back — repetition and restoration"
+      "Under — beneath, supporting from below, or cutting off"
     ],
     "correct": "Down, downward, laid low",
     "feedback": "nieder- — Down, downward, laid low. The formal version of hinsetzen. Placing down with deliberateness."
@@ -3449,10 +3449,10 @@
     "target_en": "to move house; to change clothes",
     "answer_verb": "umziehen",
     "options": [
+      "ab-",
       "um-",
-      "weg-",
-      "er-",
-      "zurück-"
+      "zusammen-",
+      "ge-"
     ],
     "correct": "um-",
     "feedback": "um- — Around — encircling, turning, and therefore changing. Separable. Both are turning yourself into a different arrangement — new flat, new outfit."
@@ -3467,10 +3467,10 @@
     "target_en": "to change trains",
     "answer_verb": "umsteigen",
     "options": [
-      "durch-",
       "um-",
-      "über-",
-      "emp-"
+      "ein-",
+      "los-",
+      "wider-"
     ],
     "correct": "um-",
     "feedback": "um- — Around — encircling, turning, and therefore changing. Separable. Climbing out and into a different one. Turning your journey around."
@@ -3485,10 +3485,10 @@
     "target_en": "to turn around",
     "answer_verb": "umdrehen",
     "options": [
-      "nieder-",
       "um-",
-      "zu-",
-      "ein-"
+      "weg-",
+      "er-",
+      "zurück-"
     ],
     "correct": "um-",
     "feedback": "um- — Around — encircling, turning, and therefore changing. Separable, and the literal source of the whole 'change' branch."
@@ -3503,10 +3503,10 @@
     "target_en": "to exchange, swap",
     "answer_verb": "umtauschen",
     "options": [
-      "bei-",
-      "zurück-",
-      "entgegen-",
-      "um-"
+      "durch-",
+      "um-",
+      "über-",
+      "emp-"
     ],
     "correct": "um-",
     "feedback": "um- — Around — encircling, turning, and therefore changing. Separable. Turning one item around into another. What you do with a bad gift."
@@ -3521,10 +3521,10 @@
     "target_en": "to rebuild, convert",
     "answer_verb": "umbauen",
     "options": [
-      "ab-",
-      "wider-",
+      "nieder-",
       "um-",
-      "zer-"
+      "zu-",
+      "ein-"
     ],
     "correct": "um-",
     "feedback": "um- — Around — encircling, turning, and therefore changing. Separable. Building the thing into a different shape. Also Umbau — renovation."
@@ -3539,10 +3539,10 @@
     "target_en": "to turn back, reverse",
     "answer_verb": "umkehren",
     "options": [
+      "bei-",
       "zurück-",
-      "um-",
-      "hin-",
-      "ein-"
+      "entgegen-",
+      "um-"
     ],
     "correct": "um-",
     "feedback": "um- — Around — encircling, turning, and therefore changing. Separable. Turning fully around and retracing. Physical or moral."
@@ -3555,10 +3555,10 @@
     "verb": "umbringen",
     "verb_en": "to kill",
     "options": [
-      "Alongside, added to, present with",
-      "Together with, joining in — participation",
+      "Off, away, down — detachment from a starting point",
+      "Against — resistance and reflection",
       "Around — encircling, turning, and therefore changing",
-      "Out, out of, and out to the very end"
+      "Into pieces — destruction and dispersal"
     ],
     "correct": "Around — encircling, turning, and therefore changing",
     "feedback": "um- — Around — encircling, turning, and therefore changing. Separable. Bleak logic: bringing someone around, out of life. Learn as a fixed item."
@@ -3571,10 +3571,10 @@
     "verb": "umgeben",
     "verb_en": "to surround",
     "options": [
-      "Shut — and, oppositely, toward someone",
-      "Under — beneath, supporting from below, or cutting off",
+      "Back — return and reversal",
       "Around — encircling, turning, and therefore changing",
-      "In front, in advance, presented forward"
+      "Away from the speaker, toward a target — 'that way'",
+      "Into, inward — entering and settling"
     ],
     "correct": "Around — encircling, turning, and therefore changing",
     "feedback": "um- — Around — encircling, turning, and therefore changing. Inseparable. Placed all around something. Umgebung = surroundings, area."
@@ -3587,10 +3587,10 @@
     "verb": "umfahren",
     "verb_en": "to drive around / to run over",
     "options": [
-      "Onward, further, keep going",
-      "Gathered, brought to a whole — mostly fossilised",
-      "Through — physically across, or thoroughly to the end",
-      "Around — encircling, turning, and therefore changing"
+      "Alongside, added to, present with",
+      "Together with, joining in — participation",
+      "Around — encircling, turning, and therefore changing",
+      "Out, out of, and out to the very end"
     ],
     "correct": "Around — encircling, turning, and therefore changing",
     "feedback": "um- — Around — encircling, turning, and therefore changing. The famous trap. Inseparable umfáhren = drive around it. Separable úmfahren = flatten it."
@@ -3603,10 +3603,10 @@
     "verb": "umziehen",
     "verb_en": "to move house; to change clothes",
     "options": [
-      "Over — across, above, beyond the limit, or missed entirely",
-      "Toward and facing — meeting, or opposing",
-      "Behind — left behind, or done behind someone's back",
-      "Around — encircling, turning, and therefore changing"
+      "Shut — and, oppositely, toward someone",
+      "Under — beneath, supporting from below, or cutting off",
+      "Around — encircling, turning, and therefore changing",
+      "In front, in advance, presented forward"
     ],
     "correct": "Around — encircling, turning, and therefore changing",
     "feedback": "um- — Around — encircling, turning, and therefore changing. Separable. Both are turning yourself into a different arrangement — new flat, new outfit."
@@ -3621,9 +3621,9 @@
     "target_en": "to sign",
     "answer_verb": "unterschreiben",
     "options": [
-      "nieder-",
-      "an-",
-      "ver-",
+      "weiter-",
+      "ge-",
+      "durch-",
       "unter-"
     ],
     "correct": "unter-",
@@ -3639,10 +3639,10 @@
     "target_en": "to interrupt",
     "answer_verb": "unterbrechen",
     "options": [
-      "er-",
-      "unter-",
-      "durch-",
-      "nieder-"
+      "über-",
+      "entgegen-",
+      "hinter-",
+      "unter-"
     ],
     "correct": "unter-",
     "feedback": "unter- — Under — beneath, supporting from below, or cutting off. Breaking into a flow from below and cutting it. Conversations, power supplies, journeys."
@@ -3657,10 +3657,10 @@
     "target_en": "to investigate, examine",
     "answer_verb": "untersuchen",
     "options": [
-      "miss-",
-      "unter-",
-      "um-",
-      "ab-"
+      "nieder-",
+      "an-",
+      "ver-",
+      "unter-"
     ],
     "correct": "unter-",
     "feedback": "unter- — Under — beneath, supporting from below, or cutting off. Searching beneath the surface for what isn't visible. Medical and criminal alike."
@@ -3675,10 +3675,10 @@
     "target_en": "to support",
     "answer_verb": "unterstützen",
     "options": [
-      "hin-",
+      "er-",
       "unter-",
-      "nach-",
-      "durch-"
+      "durch-",
+      "nieder-"
     ],
     "correct": "unter-",
     "feedback": "unter- — Under — beneath, supporting from below, or cutting off. Stützen is to prop. Holding something up from underneath so it doesn't fall."
@@ -3693,10 +3693,10 @@
     "target_en": "to entertain; to maintain",
     "answer_verb": "unterhalten",
     "options": [
-      "wider-",
-      "über-",
-      "hinter-",
-      "unter-"
+      "miss-",
+      "unter-",
+      "um-",
+      "ab-"
     ],
     "correct": "unter-",
     "feedback": "unter- — Under — beneath, supporting from below, or cutting off. Holding up from below — a conversation, a guest's mood, or a household."
@@ -3711,10 +3711,10 @@
     "target_en": "to suppress, oppress",
     "answer_verb": "unterdrücken",
     "options": [
+      "hin-",
       "unter-",
-      "ein-",
-      "be-",
-      "emp-"
+      "nach-",
+      "durch-"
     ],
     "correct": "unter-",
     "feedback": "unter- — Under — beneath, supporting from below, or cutting off. Pressing down so it stays under. People, feelings, and revolts."
@@ -3727,10 +3727,10 @@
     "verb": "unterscheiden",
     "verb_en": "to distinguish",
     "options": [
-      "Under — beneath, supporting from below, or cutting off",
-      "Four feelings: away, wrong, transformed, used up",
-      "Away — and, by extension, onward",
-      "Into, inward — entering and settling"
+      "Against — resistance and reflection",
+      "Over — across, above, beyond the limit, or missed entirely",
+      "Behind — left behind, or done behind someone's back",
+      "Under — beneath, supporting from below, or cutting off"
     ],
     "correct": "Under — beneath, supporting from below, or cutting off",
     "feedback": "unter- — Under — beneath, supporting from below, or cutting off. Separating things by getting underneath what makes them different."
@@ -3743,9 +3743,9 @@
     "verb": "unternehmen",
     "verb_en": "to undertake",
     "options": [
-      "Away from, off, out of — separation and release",
       "Under — beneath, supporting from below, or cutting off",
       "Into, inward — entering and settling",
+      "Apply the action directly onto a thing",
       "A sound-variant of ent- — receiving, sensing, rising toward"
     ],
     "correct": "Under — beneath, supporting from below, or cutting off",
@@ -3760,9 +3760,9 @@
     "verb_en": "to refrain from, omit",
     "options": [
       "Under — beneath, supporting from below, or cutting off",
-      "Away from, off, out of — separation and release",
       "Four feelings: away, wrong, transformed, used up",
-      "Together with, joining in — participation"
+      "Away — and, by extension, onward",
+      "Into, inward — entering and settling"
     ],
     "correct": "Under — beneath, supporting from below, or cutting off",
     "feedback": "unter- — Under — beneath, supporting from below, or cutting off. Letting the action stay under — never letting it surface. Legal register."
@@ -3775,10 +3775,10 @@
     "verb": "untergehen",
     "verb_en": "to sink, to set",
     "options": [
-      "Shut — and, oppositely, toward someone",
+      "Away from, off, out of — separation and release",
       "Under — beneath, supporting from below, or cutting off",
-      "Carry the action through to its result",
-      "Wrong, failed, badly done"
+      "Into, inward — entering and settling",
+      "A sound-variant of ent- — receiving, sensing, rising toward"
     ],
     "correct": "Under — beneath, supporting from below, or cutting off",
     "feedback": "unter- — Under — beneath, supporting from below, or cutting off. Separable. The sun and the ship do the same thing: go under. Also: a culture collapsing."
@@ -3793,10 +3793,10 @@
     "target_en": "to sell",
     "answer_verb": "verkaufen",
     "options": [
+      "ein-",
       "ver-",
-      "ent-",
-      "los-",
-      "nach-"
+      "zu-",
+      "er-"
     ],
     "correct": "ver-",
     "feedback": "ver- — Four feelings: away, wrong, transformed, used up. Branch 1, away: buying with the direction reversed — the goods leave your hands."
@@ -3811,10 +3811,10 @@
     "target_en": "to disappear",
     "answer_verb": "verschwinden",
     "options": [
-      "ver-",
-      "weg-",
       "durch-",
-      "ein-"
+      "zusammen-",
+      "emp-",
+      "ver-"
     ],
     "correct": "ver-",
     "feedback": "ver- — Four feelings: away, wrong, transformed, used up. Schwinden is to dwindle. ver- takes the dwindling all the way to gone."
@@ -3829,10 +3829,10 @@
     "target_en": "to get lost",
     "answer_verb": "sich verlaufen",
     "options": [
-      "an-",
-      "ge-",
       "ver-",
-      "fort-"
+      "ent-",
+      "aus-",
+      "zusammen-"
     ],
     "correct": "ver-",
     "feedback": "ver- — Four feelings: away, wrong, transformed, used up. Branch 2, wrong: your walking went astray. Reflexive marks the error as yours."
@@ -3847,9 +3847,9 @@
     "target_en": "to misspeak",
     "answer_verb": "sich versprechen",
     "options": [
-      "über-",
-      "hinter-",
-      "an-",
+      "unter-",
+      "her-",
+      "aus-",
       "ver-"
     ],
     "correct": "ver-",
@@ -3865,10 +3865,10 @@
     "target_en": "to improve",
     "answer_verb": "verbessern",
     "options": [
-      "her-",
+      "an-",
       "durch-",
-      "ver-",
-      "fort-"
+      "zurück-",
+      "ver-"
     ],
     "correct": "ver-",
     "feedback": "ver- — Four feelings: away, wrong, transformed, used up. Branch 3, transformation: ver- moves the thing into a better state."
@@ -3884,9 +3884,9 @@
     "answer_verb": "sich verlieben",
     "options": [
       "er-",
-      "entgegen-",
-      "zusammen-",
-      "ver-"
+      "ver-",
+      "wider-",
+      "an-"
     ],
     "correct": "ver-",
     "feedback": "ver- — Four feelings: away, wrong, transformed, used up. Transformation of a person: you don't do loving, you become someone in love."
@@ -3899,10 +3899,10 @@
     "verb": "verbrauchen",
     "verb_en": "to use up, consume",
     "options": [
+      "Over — across, above, beyond the limit, or missed entirely",
       "Four feelings: away, wrong, transformed, used up",
       "Again, back — repetition and restoration",
-      "Out, out of, and out to the very end",
-      "Toward and facing — meeting, or opposing"
+      "Toward and touching — contact, attachment, switching on"
     ],
     "correct": "Four feelings: away, wrong, transformed, used up",
     "feedback": "ver- — Four feelings: away, wrong, transformed, used up. Branch 4: needing carried until nothing is left. The fuel is gone."
@@ -3915,10 +3915,10 @@
     "verb": "verschlafen",
     "verb_en": "to oversleep",
     "options": [
-      "A sound-variant of ent- — receiving, sensing, rising toward",
-      "Four feelings: away, wrong, transformed, used up",
-      "Away, gone — removal in everyday speech",
-      "Into, inward — entering and settling"
+      "Through — physically across, or thoroughly to the end",
+      "Together with, joining in — participation",
+      "After, behind, in pursuit — and doing it again to check",
+      "Four feelings: away, wrong, transformed, used up"
     ],
     "correct": "Four feelings: away, wrong, transformed, used up",
     "feedback": "ver- — Four feelings: away, wrong, transformed, used up. Sleeping that consumes the time it should have fit inside. You slept the morning away."
@@ -3931,10 +3931,10 @@
     "verb": "vergessen",
     "verb_en": "to forget",
     "options": [
-      "A sound-variant of ent- — receiving, sensing, rising toward",
-      "Released, broken free — and therefore off we go",
+      "Up, open, onto — rising and unsealing",
+      "Again, back — repetition and restoration",
       "Four feelings: away, wrong, transformed, used up",
-      "In front, in advance, presented forward"
+      "Toward and touching — contact, attachment, switching on"
     ],
     "correct": "Four feelings: away, wrong, transformed, used up",
     "feedback": "ver- — Four feelings: away, wrong, transformed, used up. The old root means 'to grasp'. ver- takes the grasp away — the memory slips out of hold."
@@ -3948,9 +3948,9 @@
     "verb_en": "to forbid",
     "options": [
       "Four feelings: away, wrong, transformed, used up",
-      "Behind — left behind, or done behind someone's back",
-      "Away from the speaker, toward a target — 'that way'",
-      "Away — and, by extension, onward"
+      "Toward and touching — contact, attachment, switching on",
+      "Gathered, brought to a whole — mostly fossilised",
+      "Released, broken free — and therefore off we go"
     ],
     "correct": "Four feelings: away, wrong, transformed, used up",
     "feedback": "ver- — Four feelings: away, wrong, transformed, used up. Bieten is to offer. ver- turns the offer against itself: the thing is offered away from you."
@@ -3965,10 +3965,10 @@
     "target_en": "to introduce; to imagine",
     "answer_verb": "vorstellen",
     "options": [
-      "vor-",
-      "wieder-",
-      "fort-",
-      "weiter-"
+      "los-",
+      "miss-",
+      "ab-",
+      "vor-"
     ],
     "correct": "vor-",
     "feedback": "vor- — In front, in advance, presented forward. Placing a person before others — or, reflexively, placing an image before your own mind."
@@ -3983,10 +3983,10 @@
     "target_en": "to prepare",
     "answer_verb": "vorbereiten",
     "options": [
-      "aus-",
-      "wieder-",
-      "an-",
-      "vor-"
+      "her-",
+      "bei-",
+      "vor-",
+      "wider-"
     ],
     "correct": "vor-",
     "feedback": "vor- — In front, in advance, presented forward. Making ready ahead of time. The time branch in its plainest form."
@@ -4001,10 +4001,10 @@
     "target_en": "to suggest, propose",
     "answer_verb": "vorschlagen",
     "options": [
-      "vor-",
+      "nieder-",
       "emp-",
-      "ver-",
-      "zu-"
+      "vor-",
+      "be-"
     ],
     "correct": "vor-",
     "feedback": "vor- — In front, in advance, presented forward. Striking an idea forward into the room so the others can see it."
@@ -4019,10 +4019,10 @@
     "target_en": "to read aloud to sb",
     "answer_verb": "vorlesen",
     "options": [
-      "ver-",
-      "aus-",
+      "nieder-",
       "vor-",
-      "er-"
+      "ein-",
+      "durch-"
     ],
     "correct": "vor-",
     "feedback": "vor- — In front, in advance, presented forward. Reading out in front of a listener. What you do to a child at bedtime."
@@ -4037,10 +4037,10 @@
     "target_en": "to prefer; to pull forward",
     "answer_verb": "vorziehen",
     "options": [
-      "zusammen-",
-      "mit-",
+      "wider-",
       "vor-",
-      "hinter-"
+      "aus-",
+      "her-"
     ],
     "correct": "vor-",
     "feedback": "vor- — In front, in advance, presented forward. Pulling one option to the front of the queue. Preference as physical ranking."
@@ -4055,10 +4055,10 @@
     "target_en": "to intend, plan",
     "answer_verb": "vorhaben",
     "options": [
-      "emp-",
+      "aus-",
       "vor-",
-      "fort-",
-      "hinter-"
+      "zusammen-",
+      "an-"
     ],
     "correct": "vor-",
     "feedback": "vor- — In front, in advance, presented forward. Having something in front of you on the agenda. Was hast du vor?"
@@ -4071,10 +4071,10 @@
     "verb": "vorwerfen",
     "verb_en": "to reproach, accuse",
     "options": [
-      "Away — and, by extension, onward",
       "In front, in advance, presented forward",
-      "Toward and touching — contact, attachment, switching on",
-      "Alongside, added to, present with"
+      "A sound-variant of ent- — receiving, sensing, rising toward",
+      "Four feelings: away, wrong, transformed, used up",
+      "Back — return and reversal"
     ],
     "correct": "In front, in advance, presented forward",
     "feedback": "vor- — In front, in advance, presented forward. Throwing the fault down in front of someone. Dative for the person accused."
@@ -4087,10 +4087,10 @@
     "verb": "vorkommen",
     "verb_en": "to occur; to seem",
     "options": [
-      "Onward, further, keep going",
-      "Under — beneath, supporting from below, or cutting off",
+      "Four feelings: away, wrong, transformed, used up",
+      "Out, out of, and out to the very end",
       "In front, in advance, presented forward",
-      "Behind — left behind, or done behind someone's back"
+      "Carry the action through to its result"
     ],
     "correct": "In front, in advance, presented forward",
     "feedback": "vor- — In front, in advance, presented forward. Coming forward into view — an event happens, or something appears a certain way to you."
@@ -4103,10 +4103,10 @@
     "verb": "vorsehen",
     "verb_en": "to provide for, plan",
     "options": [
+      "Toward and facing — meeting, or opposing",
       "After, behind, in pursuit — and doing it again to check",
       "In front, in advance, presented forward",
-      "Down, downward, laid low",
-      "Together — joining, or collapsing into one"
+      "Over — across, above, beyond the limit, or missed entirely"
     ],
     "correct": "In front, in advance, presented forward",
     "feedback": "vor- — In front, in advance, presented forward. Seeing ahead and making arrangements. Vorsicht — caution — is the same root."
@@ -4119,10 +4119,10 @@
     "verb": "vorgehen",
     "verb_en": "to proceed; to go on",
     "options": [
-      "Away from, off, out of — separation and release",
+      "A sound-variant of ent- — receiving, sensing, rising toward",
       "In front, in advance, presented forward",
-      "Away — and, by extension, onward",
-      "Together with, joining in — participation"
+      "Toward the speaker — 'this way, come here'",
+      "Over — across, above, beyond the limit, or missed entirely"
     ],
     "correct": "In front, in advance, presented forward",
     "feedback": "vor- — In front, in advance, presented forward. Going ahead. Was geht hier vor? = what's going on here?"
@@ -4137,10 +4137,10 @@
     "target_en": "to go away, leave",
     "answer_verb": "weggehen",
     "options": [
-      "hinter-",
-      "miss-",
       "weg-",
-      "mit-"
+      "durch-",
+      "miss-",
+      "an-"
     ],
     "correct": "weg-",
     "feedback": "weg- — Away, gone — removal in everyday speech. Leaving the scene. No destination implied — that's the difference from hingehen."
@@ -4155,10 +4155,10 @@
     "target_en": "to take away",
     "answer_verb": "wegnehmen",
     "options": [
-      "weg-",
-      "hinter-",
-      "zu-",
-      "wider-"
+      "her-",
+      "zusammen-",
+      "bei-",
+      "weg-"
     ],
     "correct": "weg-",
     "feedback": "weg- — Away, gone — removal in everyday speech. Taking something so it's no longer there. Often with a note of unfairness."
@@ -4173,10 +4173,10 @@
     "target_en": "to throw away",
     "answer_verb": "wegwerfen",
     "options": [
-      "weg-",
       "mit-",
-      "her-",
-      "hinter-"
+      "bei-",
+      "zu-",
+      "weg-"
     ],
     "correct": "weg-",
     "feedback": "weg- — Away, gone — removal in everyday speech. Throwing with disposal as the point. Wegwerfgesellschaft = throwaway society."
@@ -4191,10 +4191,10 @@
     "target_en": "to run away",
     "answer_verb": "weglaufen",
     "options": [
-      "nieder-",
-      "emp-",
+      "zurück-",
+      "hinter-",
       "weg-",
-      "weiter-"
+      "zusammen-"
     ],
     "correct": "weg-",
     "feedback": "weg- — Away, gone — removal in everyday speech. Fleeing the scene. Blunter and more everyday than entlaufen."
@@ -4209,10 +4209,10 @@
     "target_en": "to drive off, go away",
     "answer_verb": "wegfahren",
     "options": [
-      "wieder-",
-      "her-",
-      "ein-",
-      "weg-"
+      "ge-",
+      "weg-",
+      "vor-",
+      "los-"
     ],
     "correct": "weg-",
     "feedback": "weg- — Away, gone — removal in everyday speech. Departing by vehicle, or going away on a trip."
@@ -4227,10 +4227,10 @@
     "target_en": "to leave out, omit",
     "answer_verb": "weglassen",
     "options": [
-      "emp-",
-      "weiter-",
-      "los-",
-      "weg-"
+      "entgegen-",
+      "weg-",
+      "zusammen-",
+      "um-"
     ],
     "correct": "weg-",
     "feedback": "weg- — Away, gone — removal in everyday speech. Letting a part be absent — the ingredient or the sentence isn't there."
@@ -4243,10 +4243,10 @@
     "verb": "wegräumen",
     "verb_en": "to clear away, put away",
     "options": [
-      "Toward and touching — contact, attachment, switching on",
-      "Up, open, onto — rising and unsealing",
       "Away, gone — removal in everyday speech",
-      "Together with, joining in — participation"
+      "Together — joining, or collapsing into one",
+      "Again, back — repetition and restoration",
+      "Carry the action through to its result"
     ],
     "correct": "Away, gone — removal in everyday speech",
     "feedback": "weg- — Away, gone — removal in everyday speech. Clearing things off the visible surface. What you do before guests arrive."
@@ -4259,10 +4259,10 @@
     "verb": "wegschicken",
     "verb_en": "to send away",
     "options": [
-      "Into, inward — entering and settling",
+      "Released, broken free — and therefore off we go",
+      "Together — joining, or collapsing into one",
       "Away, gone — removal in everyday speech",
-      "Back — return and reversal",
-      "Released, broken free — and therefore off we go"
+      "Back — return and reversal"
     ],
     "correct": "Away, gone — removal in everyday speech",
     "feedback": "weg- — Away, gone — removal in everyday speech. Dispatching a person or thing out of your space. Often a rejection."
@@ -4275,9 +4275,9 @@
     "verb": "wegbringen",
     "verb_en": "to take away, remove",
     "options": [
-      "Shut — and, oppositely, toward someone",
-      "Against — resistance and reflection",
-      "Into, inward — entering and settling",
+      "Toward and facing — meeting, or opposing",
+      "Together — joining, or collapsing into one",
+      "Onward, further, keep going",
       "Away, gone — removal in everyday speech"
     ],
     "correct": "Away, gone — removal in everyday speech",
@@ -4291,10 +4291,10 @@
     "verb": "wegsehen",
     "verb_en": "to look away",
     "options": [
-      "Up, open, onto — rising and unsealing",
       "Away, gone — removal in everyday speech",
-      "Against — resistance and reflection",
-      "Carry the action through to its result"
+      "Toward the speaker — 'this way, come here'",
+      "In front, in advance, presented forward",
+      "Into pieces — destruction and dispersal"
     ],
     "correct": "Away, gone — removal in everyday speech",
     "feedback": "weg- — Away, gone — removal in everyday speech. Turning your gaze away. Figurative too: ignoring what you should confront."
@@ -4309,10 +4309,10 @@
     "target_en": "to carry on, continue",
     "answer_verb": "weitermachen",
     "options": [
-      "mit-",
-      "an-",
-      "nach-",
-      "weiter-"
+      "zurück-",
+      "zer-",
+      "weiter-",
+      "an-"
     ],
     "correct": "weiter-",
     "feedback": "weiter- — Onward, further, keep going. The template case. Doing what you were doing, further along the line."
@@ -4327,10 +4327,10 @@
     "target_en": "to go on, move along",
     "answer_verb": "weitergehen",
     "options": [
-      "weg-",
+      "unter-",
+      "zurück-",
       "weiter-",
-      "entgegen-",
-      "er-"
+      "wider-"
     ],
     "correct": "weiter-",
     "feedback": "weiter- — Onward, further, keep going. Walking further — or a situation continuing. Es geht weiter = it continues."
@@ -4345,10 +4345,10 @@
     "target_en": "to drive on, travel on",
     "answer_verb": "weiterfahren",
     "options": [
-      "wieder-",
-      "aus-",
       "weiter-",
-      "um-"
+      "ver-",
+      "auf-",
+      "wider-"
     ],
     "correct": "weiter-",
     "feedback": "weiter- — Onward, further, keep going. Resuming the journey after a stop."
@@ -4363,10 +4363,10 @@
     "target_en": "to forward, pass on",
     "answer_verb": "weiterleiten",
     "options": [
-      "weiter-",
-      "weg-",
-      "zer-",
-      "nieder-"
+      "zusammen-",
+      "ver-",
+      "entgegen-",
+      "weiter-"
     ],
     "correct": "weiter-",
     "feedback": "weiter- — Onward, further, keep going. Directing something onward to the next recipient. The email verb."
@@ -4381,10 +4381,10 @@
     "target_en": "to pass a story on",
     "answer_verb": "weitererzählen",
     "options": [
+      "auf-",
       "weiter-",
-      "zusammen-",
-      "ein-",
-      "zurück-"
+      "vor-",
+      "nach-"
     ],
     "correct": "weiter-",
     "feedback": "weiter- — Onward, further, keep going. Telling it further along the chain. Often with a warning: nicht weitererzählen!"
@@ -4399,10 +4399,10 @@
     "target_en": "to develop further",
     "answer_verb": "weiterentwickeln",
     "options": [
+      "mit-",
+      "auf-",
       "weiter-",
-      "los-",
-      "vor-",
-      "ein-"
+      "nieder-"
     ],
     "correct": "weiter-",
     "feedback": "weiter- — Onward, further, keep going. Taking an existing thing and pushing its development onward."
@@ -4415,10 +4415,10 @@
     "verb": "weiterhelfen",
     "verb_en": "to help sb further along",
     "options": [
+      "Gathered, brought to a whole — mostly fossilised",
       "Back — return and reversal",
-      "Over — across, above, beyond the limit, or missed entirely",
       "Onward, further, keep going",
-      "Out, out of, and out to the very end"
+      "Off, away, down — detachment from a starting point"
     ],
     "correct": "Onward, further, keep going",
     "feedback": "weiter- — Onward, further, keep going. Helping someone get past the point where they were stuck. Dative."
@@ -4431,10 +4431,10 @@
     "verb": "sich weiterbilden",
     "verb_en": "to continue one's education",
     "options": [
+      "Against — resistance and reflection",
+      "In front, in advance, presented forward",
       "Onward, further, keep going",
-      "Down, downward, laid low",
-      "Behind — left behind, or done behind someone's back",
-      "Under — beneath, supporting from below, or cutting off"
+      "Down, downward, laid low"
     ],
     "correct": "Onward, further, keep going",
     "feedback": "weiter- — Onward, further, keep going. Educating yourself onward. Weiterbildung is standard on any German CV."
@@ -4447,10 +4447,10 @@
     "verb": "weiterarbeiten",
     "verb_en": "to keep working",
     "options": [
-      "Away from, off, out of — separation and release",
+      "Up, open, onto — rising and unsealing",
       "Onward, further, keep going",
-      "Down, downward, laid low",
-      "Wrong, failed, badly done"
+      "Out, out of, and out to the very end",
+      "Together with, joining in — participation"
     ],
     "correct": "Onward, further, keep going",
     "feedback": "weiter- — Onward, further, keep going. Work continuing past a break or a deadline."
@@ -4463,10 +4463,10 @@
     "verb": "weiterlaufen",
     "verb_en": "to keep running",
     "options": [
-      "Back — return and reversal",
-      "Against — resistance and reflection",
+      "Gathered, brought to a whole — mostly fossilised",
+      "Together with, joining in — participation",
       "Onward, further, keep going",
-      "Around — encircling, turning, and therefore changing"
+      "Toward the speaker — 'this way, come here'"
     ],
     "correct": "Onward, further, keep going",
     "feedback": "weiter- — Onward, further, keep going. Machines, contracts and costs that carry on whether you're watching or not."
@@ -4481,10 +4481,10 @@
     "target_en": "to contradict",
     "answer_verb": "widersprechen",
     "options": [
-      "wider-",
-      "ver-",
       "fort-",
-      "über-"
+      "er-",
+      "wider-",
+      "hin-"
     ],
     "correct": "wider-",
     "feedback": "wider- — Against — resistance and reflection. Speaking against what was said. Dative: ich widerspreche dir."
@@ -4499,10 +4499,10 @@
     "target_en": "to resist, withstand",
     "answer_verb": "widerstehen",
     "options": [
-      "miss-",
-      "bei-",
-      "weg-",
-      "wider-"
+      "unter-",
+      "zurück-",
+      "wider-",
+      "mit-"
     ],
     "correct": "wider-",
     "feedback": "wider- — Against — resistance and reflection. Standing against a force. Temptation, pressure, an army. Dative."
@@ -4517,10 +4517,10 @@
     "target_en": "to refute, disprove",
     "answer_verb": "widerlegen",
     "options": [
-      "fort-",
-      "auf-",
-      "durch-",
-      "wider-"
+      "über-",
+      "ent-",
+      "wider-",
+      "vor-"
     ],
     "correct": "wider-",
     "feedback": "wider- — Against — resistance and reflection. Laying counter-evidence against a claim until it no longer stands."
@@ -4535,10 +4535,10 @@
     "target_en": "to revoke, retract",
     "answer_verb": "widerrufen",
     "options": [
-      "zer-",
-      "aus-",
-      "zu-",
-      "wider-"
+      "über-",
+      "auf-",
+      "wider-",
+      "wieder-"
     ],
     "correct": "wider-",
     "feedback": "wider- — Against — resistance and reflection. Calling back against your own earlier statement. Legal and contractual."
@@ -4553,9 +4553,9 @@
     "target_en": "to oppose, defy",
     "answer_verb": "sich widersetzen",
     "options": [
-      "zu-",
       "wider-",
-      "weiter-",
+      "an-",
+      "be-",
       "vor-"
     ],
     "correct": "wider-",
@@ -4571,10 +4571,10 @@
     "target_en": "to be reluctant, resist",
     "answer_verb": "widerstreben",
     "options": [
-      "wider-",
-      "weg-",
-      "ge-",
-      "zu-"
+      "ein-",
+      "zu-",
+      "ver-",
+      "wider-"
     ],
     "correct": "wider-",
     "feedback": "wider- — Against — resistance and reflection. An inner striving against the thing. Es widerstrebt mir — I find it distasteful."
@@ -4588,9 +4588,9 @@
     "verb_en": "to befall sb",
     "options": [
       "Against — resistance and reflection",
-      "Toward and touching — contact, attachment, switching on",
-      "Into, inward — entering and settling",
-      "Alongside, added to, present with"
+      "Away from the speaker, toward a target — 'that way'",
+      "Down, downward, laid low",
+      "Into, inward — entering and settling"
     ],
     "correct": "Against — resistance and reflection",
     "feedback": "wider- — Against — resistance and reflection. Something travelling against you, arriving unbidden. Formal and often solemn."
@@ -4603,10 +4603,10 @@
     "verb": "widerspiegeln",
     "verb_en": "to reflect, mirror",
     "options": [
+      "Onward, further, keep going",
+      "Behind — left behind, or done behind someone's back",
       "Against — resistance and reflection",
-      "Released, broken free — and therefore off we go",
-      "Together with, joining in — participation",
-      "Shut — and, oppositely, toward someone"
+      "Out, out of, and out to the very end"
     ],
     "correct": "Against — resistance and reflection",
     "feedback": "wider- — Against — resistance and reflection. The reflection branch. Separable. The image bounces back off the surface."
@@ -4619,10 +4619,10 @@
     "verb": "widerhallen",
     "verb_en": "to echo, resound",
     "options": [
-      "Released, broken free — and therefore off we go",
       "Against — resistance and reflection",
-      "Together with, joining in — participation",
-      "Away — and, by extension, onward"
+      "After, behind, in pursuit — and doing it again to check",
+      "Through — physically across, or thoroughly to the end",
+      "Around — encircling, turning, and therefore changing"
     ],
     "correct": "Against — resistance and reflection",
     "feedback": "wider- — Against — resistance and reflection. Sound returning from a wall. Same physics as the mirror."
@@ -4635,10 +4635,10 @@
     "verb": "widersprechen",
     "verb_en": "to contradict",
     "options": [
-      "Apply the action directly onto a thing",
-      "Onward, further, keep going",
+      "Away from, off, out of — separation and release",
       "Against — resistance and reflection",
-      "Out, out of, and out to the very end"
+      "After, behind, in pursuit — and doing it again to check",
+      "Wrong, failed, badly done"
     ],
     "correct": "Against — resistance and reflection",
     "feedback": "wider- — Against — resistance and reflection. Speaking against what was said. Dative: ich widerspreche dir."
@@ -4653,10 +4653,10 @@
     "target_en": "to see again",
     "answer_verb": "wiedersehen",
     "options": [
-      "zu-",
-      "ver-",
+      "weiter-",
+      "unter-",
       "wieder-",
-      "aus-"
+      "über-"
     ],
     "correct": "wieder-",
     "feedback": "wieder- — Again, back — repetition and restoration. Meeting again after time apart. Auf Wiedersehen is this verb as a farewell."
@@ -4672,9 +4672,9 @@
     "answer_verb": "wiederholen",
     "options": [
       "wieder-",
-      "aus-",
-      "vor-",
-      "mit-"
+      "ver-",
+      "fort-",
+      "über-"
     ],
     "correct": "wieder-",
     "feedback": "wieder- — Again, back — repetition and restoration. Inseparable exception. Fetching the same thing back a second time — hence repeating it."
@@ -4689,9 +4689,9 @@
     "target_en": "to come back, return",
     "answer_verb": "wiederkommen",
     "options": [
-      "wider-",
-      "auf-",
       "miss-",
+      "bei-",
+      "weiter-",
       "wieder-"
     ],
     "correct": "wieder-",
@@ -4707,10 +4707,10 @@
     "target_en": "to reproduce, render",
     "answer_verb": "wiedergeben",
     "options": [
-      "ab-",
-      "nieder-",
-      "wieder-",
-      "auf-"
+      "fort-",
+      "auf-",
+      "durch-",
+      "wieder-"
     ],
     "correct": "wieder-",
     "feedback": "wieder- — Again, back — repetition and restoration. Giving the thing back out again — a quote, a performance, a colour on screen."
@@ -4725,10 +4725,10 @@
     "target_en": "to find again, recover",
     "answer_verb": "wiederfinden",
     "options": [
-      "mit-",
-      "wieder-",
-      "miss-",
-      "be-"
+      "zer-",
+      "aus-",
+      "zu-",
+      "wieder-"
     ],
     "correct": "wieder-",
     "feedback": "wieder- — Again, back — repetition and restoration. Finding what was lost. Also sich wiederfinden — to find yourself somewhere again."
@@ -4743,10 +4743,10 @@
     "target_en": "to restore, repair",
     "answer_verb": "wiederherstellen",
     "options": [
+      "zu-",
       "wieder-",
-      "durch-",
-      "entgegen-",
-      "zer-"
+      "weiter-",
+      "vor-"
     ],
     "correct": "wieder-",
     "feedback": "wieder- — Again, back — repetition and restoration. Producing the original state again. The IT and medical restoration verb."
@@ -4759,10 +4759,10 @@
     "verb": "wiedererkennen",
     "verb_en": "to recognise",
     "options": [
-      "Into, inward — entering and settling",
-      "Down, downward, laid low",
-      "After, behind, in pursuit — and doing it again to check",
-      "Again, back — repetition and restoration"
+      "Again, back — repetition and restoration",
+      "Away, gone — removal in everyday speech",
+      "Gathered, brought to a whole — mostly fossilised",
+      "Shut — and, oppositely, toward someone"
     ],
     "correct": "Again, back — repetition and restoration",
     "feedback": "wieder- — Again, back — repetition and restoration. Recognition as knowing again — the arrival of er-, repeated."
@@ -4775,10 +4775,10 @@
     "verb": "wiederaufbauen",
     "verb_en": "to rebuild",
     "options": [
-      "Shut — and, oppositely, toward someone",
-      "Against — resistance and reflection",
       "Again, back — repetition and restoration",
-      "Carry the action through to its result"
+      "Toward and touching — contact, attachment, switching on",
+      "Into, inward — entering and settling",
+      "Alongside, added to, present with"
     ],
     "correct": "Again, back — repetition and restoration",
     "feedback": "wieder- — Again, back — repetition and restoration. Building up again after destruction. Wiederaufbau — postwar reconstruction."
@@ -4791,10 +4791,10 @@
     "verb": "wiederbeleben",
     "verb_en": "to revive, resuscitate",
     "options": [
-      "Up, open, onto — rising and unsealing",
-      "In front, in advance, presented forward",
       "Again, back — repetition and restoration",
-      "Apply the action directly onto a thing"
+      "Released, broken free — and therefore off we go",
+      "Together with, joining in — participation",
+      "Shut — and, oppositely, toward someone"
     ],
     "correct": "Again, back — repetition and restoration",
     "feedback": "wieder- — Again, back — repetition and restoration. Bringing life again. Used of patients, traditions, and neighbourhoods."
@@ -4807,10 +4807,10 @@
     "verb": "wiedervereinigen",
     "verb_en": "to reunify",
     "options": [
-      "Away — and, by extension, onward",
+      "Released, broken free — and therefore off we go",
       "Again, back — repetition and restoration",
-      "After, behind, in pursuit — and doing it again to check",
-      "Into pieces — destruction and dispersal"
+      "Together with, joining in — participation",
+      "Away — and, by extension, onward"
     ],
     "correct": "Again, back — repetition and restoration",
     "feedback": "wieder- — Again, back — repetition and restoration. Uniting again what was split. Wiedervereinigung — German reunification, 1990."
@@ -4825,10 +4825,10 @@
     "target_en": "to shatter, break apart",
     "answer_verb": "zerbrechen",
     "options": [
-      "zu-",
+      "be-",
+      "zurück-",
       "zer-",
-      "nach-",
-      "um-"
+      "ein-"
     ],
     "correct": "zer-",
     "feedback": "zer- — Into pieces — destruction and dispersal. Breaking, but into many pieces rather than two. zer- multiplies the fracture."
@@ -4843,10 +4843,10 @@
     "target_en": "to destroy",
     "answer_verb": "zerstören",
     "options": [
-      "auf-",
+      "zusammen-",
+      "ab-",
       "zer-",
-      "nach-",
-      "weg-"
+      "ein-"
     ],
     "correct": "zer-",
     "feedback": "zer- — Into pieces — destruction and dispersal. Stören is to disturb. zer- pushes disturbance to total ruin."
@@ -4861,10 +4861,10 @@
     "target_en": "to tear to shreds",
     "answer_verb": "zerreißen",
     "options": [
-      "mit-",
-      "an-",
       "zer-",
-      "durch-"
+      "ein-",
+      "weiter-",
+      "nieder-"
     ],
     "correct": "zer-",
     "feedback": "zer- — Into pieces — destruction and dispersal. Tearing that doesn't stop at one rip — the paper ends up in fragments."
@@ -4879,9 +4879,9 @@
     "target_en": "to cut into pieces",
     "answer_verb": "zerschneiden",
     "options": [
-      "ent-",
-      "nieder-",
-      "zu-",
+      "wieder-",
+      "bei-",
+      "miss-",
       "zer-"
     ],
     "correct": "zer-",
@@ -4897,10 +4897,10 @@
     "target_en": "to take apart, dismantle",
     "answer_verb": "zerlegen",
     "options": [
-      "be-",
-      "ab-",
-      "hinter-",
-      "zer-"
+      "auf-",
+      "weg-",
+      "zer-",
+      "bei-"
     ],
     "correct": "zer-",
     "feedback": "zer- — Into pieces — destruction and dispersal. Laying out the parts separately — controlled fragmentation, as with an engine or an argument."
@@ -4915,10 +4915,10 @@
     "target_en": "to disintegrate, decay",
     "answer_verb": "zerfallen",
     "options": [
+      "nieder-",
       "zer-",
-      "unter-",
-      "hin-",
-      "bei-"
+      "miss-",
+      "be-"
     ],
     "correct": "zer-",
     "feedback": "zer- — Into pieces — destruction and dispersal. Falling apart from the inside. Empires and buildings both zerfallen."
@@ -4932,9 +4932,9 @@
     "verb_en": "to crush, mash",
     "options": [
       "Into pieces — destruction and dispersal",
-      "Against — resistance and reflection",
-      "In front, in advance, presented forward",
-      "Away from, off, out of — separation and release"
+      "Behind — left behind, or done behind someone's back",
+      "Through — physically across, or thoroughly to the end",
+      "Toward and touching — contact, attachment, switching on"
     ],
     "correct": "Into pieces — destruction and dispersal",
     "feedback": "zer- — Into pieces — destruction and dispersal. Pressing until the structure gives way — potatoes, or a cigarette."
@@ -4947,10 +4947,10 @@
     "verb": "zersplittern",
     "verb_en": "to splinter, fragment",
     "options": [
-      "Into pieces — destruction and dispersal",
-      "Under — beneath, supporting from below, or cutting off",
+      "Toward the speaker — 'this way, come here'",
+      "Away, gone — removal in everyday speech",
       "In front, in advance, presented forward",
-      "Toward the speaker — 'this way, come here'"
+      "Into pieces — destruction and dispersal"
     ],
     "correct": "Into pieces — destruction and dispersal",
     "feedback": "zer- — Into pieces — destruction and dispersal. Wood, glass, or a political party — all break into shards the same way."
@@ -4963,10 +4963,10 @@
     "verb": "zerplatzen",
     "verb_en": "to burst apart",
     "options": [
-      "Off, away, down — detachment from a starting point",
-      "Into, inward — entering and settling",
+      "Together — joining, or collapsing into one",
+      "Again, back — repetition and restoration",
       "Into pieces — destruction and dispersal",
-      "Shut — and, oppositely, toward someone"
+      "Carry the action through to its result"
     ],
     "correct": "Into pieces — destruction and dispersal",
     "feedback": "zer- — Into pieces — destruction and dispersal. Bursting where the pieces fly outward, not just a pop."
@@ -4979,10 +4979,10 @@
     "verb": "zerbrechen",
     "verb_en": "to shatter, break apart",
     "options": [
+      "Alongside, added to, present with",
+      "Onward, further, keep going",
       "Into pieces — destruction and dispersal",
-      "After, behind, in pursuit — and doing it again to check",
-      "Against — resistance and reflection",
-      "Again, back — repetition and restoration"
+      "Apply the action directly onto a thing"
     ],
     "correct": "Into pieces — destruction and dispersal",
     "feedback": "zer- — Into pieces — destruction and dispersal. Breaking, but into many pieces rather than two. zer- multiplies the fracture."
@@ -4997,10 +4997,10 @@
     "target_en": "to close, shut",
     "answer_verb": "zumachen",
     "options": [
-      "zer-",
-      "ge-",
+      "her-",
       "zu-",
-      "durch-"
+      "nieder-",
+      "zer-"
     ],
     "correct": "zu-",
     "feedback": "zu- — Shut — and, oppositely, toward someone. The closing sense at its simplest. Opposite of aufmachen."
@@ -5015,10 +5015,10 @@
     "target_en": "to lock shut",
     "answer_verb": "zuschließen",
     "options": [
-      "unter-",
-      "ab-",
+      "weiter-",
       "zu-",
-      "zurück-"
+      "mit-",
+      "um-"
     ],
     "correct": "zu-",
     "feedback": "zu- — Shut — and, oppositely, toward someone. Closing so it's sealed and secured. The extra zu- adds finality to schließen."
@@ -5033,10 +5033,10 @@
     "target_en": "to listen to sb",
     "answer_verb": "zuhören",
     "options": [
-      "hinter-",
+      "ab-",
       "zu-",
-      "weg-",
-      "wider-"
+      "mit-",
+      "vor-"
     ],
     "correct": "zu-",
     "feedback": "zu- — Shut — and, oppositely, toward someone. Hearing directed at a person. Hören is passive; zu- makes it deliberate. Dative."
@@ -5051,10 +5051,10 @@
     "target_en": "to watch, look on",
     "answer_verb": "zusehen",
     "options": [
-      "wieder-",
-      "unter-",
-      "her-",
-      "zu-"
+      "los-",
+      "zer-",
+      "zu-",
+      "durch-"
     ],
     "correct": "zu-",
     "feedback": "zu- — Shut — and, oppositely, toward someone. Looking directed at something happening. Often with a hint of not intervening."
@@ -5069,10 +5069,10 @@
     "target_en": "to agree with sb",
     "answer_verb": "zustimmen",
     "options": [
-      "mit-",
-      "durch-",
-      "zu-",
-      "weg-"
+      "ent-",
+      "nach-",
+      "weiter-",
+      "zu-"
     ],
     "correct": "zu-",
     "feedback": "zu- — Shut — and, oppositely, toward someone. Placing your voice alongside theirs. Dative: ich stimme dir zu."
@@ -5087,10 +5087,10 @@
     "target_en": "to admit; to add",
     "answer_verb": "zugeben",
     "options": [
-      "emp-",
-      "zu-",
-      "durch-",
-      "nach-"
+      "be-",
+      "ver-",
+      "hinter-",
+      "zu-"
     ],
     "correct": "zu-",
     "feedback": "zu- — Shut — and, oppositely, toward someone. Giving something toward the truth — or adding an ingredient to the pot."
@@ -5103,10 +5103,10 @@
     "verb": "zunehmen",
     "verb_en": "to increase, gain weight",
     "options": [
-      "A sound-variant of ent- — receiving, sensing, rising toward",
       "Shut — and, oppositely, toward someone",
-      "Off, away, down — detachment from a starting point",
-      "Released, broken free — and therefore off we go"
+      "Under — beneath, supporting from below, or cutting off",
+      "Toward the speaker — 'this way, come here'",
+      "Out, out of, and out to the very end"
     ],
     "correct": "Shut — and, oppositely, toward someone",
     "feedback": "zu- — Shut — and, oppositely, toward someone. The addition branch: the total takes something on. Opposite of abnehmen."
@@ -5120,9 +5120,9 @@
     "verb_en": "to permit, allow",
     "options": [
       "Shut — and, oppositely, toward someone",
-      "Released, broken free — and therefore off we go",
-      "After, behind, in pursuit — and doing it again to check",
-      "Behind — left behind, or done behind someone's back"
+      "Against — resistance and reflection",
+      "Down, downward, laid low",
+      "Away from, off, out of — separation and release"
     ],
     "correct": "Shut — and, oppositely, toward someone",
     "feedback": "zu- — Shut — and, oppositely, toward someone. Letting something come toward you rather than blocking it. Also: to license."
@@ -5135,10 +5135,10 @@
     "verb": "zuordnen",
     "verb_en": "to assign, allocate to",
     "options": [
-      "Into, inward — entering and settling",
-      "Down, downward, laid low",
       "Shut — and, oppositely, toward someone",
-      "Toward the speaker — 'this way, come here'"
+      "Under — beneath, supporting from below, or cutting off",
+      "Down, downward, laid low",
+      "Away — and, by extension, onward"
     ],
     "correct": "Shut — and, oppositely, toward someone",
     "feedback": "zu- — Shut — and, oppositely, toward someone. Ordering one thing toward another so they belong together. Dative."
@@ -5151,10 +5151,10 @@
     "verb": "zukommen",
     "verb_en": "to approach; to be due to sb",
     "options": [
-      "Shut — and, oppositely, toward someone",
       "Four feelings: away, wrong, transformed, used up",
-      "Released, broken free — and therefore off we go",
-      "Away, gone — removal in everyday speech"
+      "Alongside, added to, present with",
+      "Shut — and, oppositely, toward someone",
+      "Onward, further, keep going"
     ],
     "correct": "Shut — and, oppositely, toward someone",
     "feedback": "zu- — Shut — and, oppositely, toward someone. Something moving toward you. Auf mich zukommen — heading my way."
@@ -5169,10 +5169,10 @@
     "target_en": "to come back, return",
     "answer_verb": "zurückkommen",
     "options": [
-      "mit-",
       "zurück-",
-      "vor-",
-      "emp-"
+      "ab-",
+      "los-",
+      "mit-"
     ],
     "correct": "zurück-",
     "feedback": "zurück- — Back — return and reversal. Coming back to where you were. The core image with nothing added."
@@ -5187,10 +5187,10 @@
     "target_en": "to give back, return sth",
     "answer_verb": "zurückgeben",
     "options": [
-      "ver-",
-      "be-",
-      "unter-",
-      "zurück-"
+      "zer-",
+      "ge-",
+      "zurück-",
+      "durch-"
     ],
     "correct": "zurück-",
     "feedback": "zurück- — Back — return and reversal. Reversing the direction of a gift or a loan."
@@ -5205,10 +5205,10 @@
     "target_en": "to go back, decline",
     "answer_verb": "zurückgehen",
     "options": [
-      "über-",
+      "unter-",
+      "ab-",
       "zurück-",
-      "hinter-",
-      "weg-"
+      "zu-"
     ],
     "correct": "zurück-",
     "feedback": "zurück- — Back — return and reversal. Retracing your steps — or, of numbers, falling back to a lower level."
@@ -5223,10 +5223,10 @@
     "target_en": "to call back",
     "answer_verb": "zurückrufen",
     "options": [
-      "aus-",
-      "ver-",
+      "hinter-",
       "zurück-",
-      "ein-"
+      "weg-",
+      "wider-"
     ],
     "correct": "zurück-",
     "feedback": "zurück- — Back — return and reversal. Returning a phone call. The call goes back the way it came."
@@ -5241,10 +5241,10 @@
     "target_en": "to withdraw, retire",
     "answer_verb": "sich zurückziehen",
     "options": [
-      "bei-",
-      "über-",
-      "aus-",
-      "zurück-"
+      "her-",
+      "zusammen-",
+      "zurück-",
+      "unter-"
     ],
     "correct": "zurück-",
     "feedback": "zurück- — Back — return and reversal. Pulling yourself back out of a situation. The restraint branch."
@@ -5259,10 +5259,10 @@
     "target_en": "to put back; to cover a distance",
     "answer_verb": "zurücklegen",
     "options": [
+      "er-",
       "zurück-",
-      "zu-",
-      "nieder-",
-      "zusammen-"
+      "mit-",
+      "durch-"
     ],
     "correct": "zurück-",
     "feedback": "zurück- — Back — return and reversal. Putting a thing back on the shelf — or laying a stretch of road behind you."
@@ -5275,10 +5275,10 @@
     "verb": "zurückhalten",
     "verb_en": "to hold back, restrain",
     "options": [
-      "Together — joining, or collapsing into one",
+      "Toward and touching — contact, attachment, switching on",
       "Back — return and reversal",
-      "In front, in advance, presented forward",
-      "Toward and facing — meeting, or opposing"
+      "A sound-variant of ent- — receiving, sensing, rising toward",
+      "After, behind, in pursuit — and doing it again to check"
     ],
     "correct": "Back — return and reversal",
     "feedback": "zurück- — Back — return and reversal. Holding something so it doesn't go forward. Also zurückhaltend = reserved."
@@ -5291,10 +5291,10 @@
     "verb": "zurückkehren",
     "verb_en": "to return, come back",
     "options": [
+      "Onward, further, keep going",
+      "Through — physically across, or thoroughly to the end",
       "Back — return and reversal",
-      "Down, downward, laid low",
-      "Apply the action directly onto a thing",
-      "Onward, further, keep going"
+      "Over — across, above, beyond the limit, or missed entirely"
     ],
     "correct": "Back — return and reversal",
     "feedback": "zurück- — Back — return and reversal. The more formal 'return'. Used of journeys, eras, and symptoms."
@@ -5307,10 +5307,10 @@
     "verb": "zurückzahlen",
     "verb_en": "to repay",
     "options": [
-      "Four feelings: away, wrong, transformed, used up",
-      "Away from, off, out of — separation and release",
+      "Shut — and, oppositely, toward someone",
+      "In front, in advance, presented forward",
       "Back — return and reversal",
-      "Shut — and, oppositely, toward someone"
+      "Together — joining, or collapsing into one"
     ],
     "correct": "Back — return and reversal",
     "feedback": "zurück- — Back — return and reversal. Sending the money back along the path it came. Loans and favours alike."
@@ -5323,10 +5323,10 @@
     "verb": "zurückweisen",
     "verb_en": "to reject, turn away",
     "options": [
-      "Wrong, failed, badly done",
+      "Released, broken free — and therefore off we go",
       "Back — return and reversal",
-      "Away — and, by extension, onward",
-      "Down, downward, laid low"
+      "Together with, joining in — participation",
+      "Out, out of, and out to the very end"
     ],
     "correct": "Back — return and reversal",
     "feedback": "zurück- — Back — return and reversal. Pointing someone back the way they came. Refusal as reversed direction."
@@ -5341,10 +5341,10 @@
     "target_en": "to collaborate",
     "answer_verb": "zusammenarbeiten",
     "options": [
-      "entgegen-",
-      "zurück-",
       "zusammen-",
-      "weiter-"
+      "wieder-",
+      "ver-",
+      "bei-"
     ],
     "correct": "zusammen-",
     "feedback": "zusammen- — Together — joining, or collapsing into one. Separate efforts merged into one piece of work."
@@ -5359,10 +5359,10 @@
     "target_en": "to summarise",
     "answer_verb": "zusammenfassen",
     "options": [
-      "unter-",
       "zusammen-",
-      "aus-",
-      "emp-"
+      "ver-",
+      "hin-",
+      "weg-"
     ],
     "correct": "zusammen-",
     "feedback": "zusammen- — Together — joining, or collapsing into one. Grasping scattered points and holding them as one. Zusammenfassung = summary."
@@ -5377,10 +5377,10 @@
     "target_en": "to collapse, break down",
     "answer_verb": "zusammenbrechen",
     "options": [
-      "um-",
-      "emp-",
       "nach-",
-      "zusammen-"
+      "zusammen-",
+      "weg-",
+      "emp-"
     ],
     "correct": "zusammen-",
     "feedback": "zusammen- — Together — joining, or collapsing into one. Breaking such that the whole falls in on itself. Buildings, systems, people."
@@ -5396,9 +5396,9 @@
     "answer_verb": "zusammenkommen",
     "options": [
       "ver-",
-      "zusammen-",
-      "ab-",
-      "ge-"
+      "be-",
+      "wider-",
+      "zusammen-"
     ],
     "correct": "zusammen-",
     "feedback": "zusammen- — Together — joining, or collapsing into one. People converging on one place. Also: circumstances coinciding."
@@ -5413,10 +5413,10 @@
     "target_en": "to compile, put together",
     "answer_verb": "zusammenstellen",
     "options": [
-      "an-",
-      "zurück-",
+      "um-",
       "zusammen-",
-      "ab-"
+      "über-",
+      "weiter-"
     ],
     "correct": "zusammen-",
     "feedback": "zusammen- — Together — joining, or collapsing into one. Placing separate items into a single arrangement — a playlist, a team, a menu."
@@ -5431,10 +5431,10 @@
     "target_en": "to fit together, match",
     "answer_verb": "zusammenpassen",
     "options": [
+      "aus-",
+      "ver-",
       "zusammen-",
-      "nach-",
-      "wider-",
-      "weiter-"
+      "ein-"
     ],
     "correct": "zusammen-",
     "feedback": "zusammen- — Together — joining, or collapsing into one. Two things whose shapes agree. Used of colours, schedules, and couples."
@@ -5447,10 +5447,10 @@
     "verb": "zusammenlegen",
     "verb_en": "to merge; to fold up",
     "options": [
-      "Apply the action directly onto a thing",
-      "Together — joining, or collapsing into one",
-      "Toward the speaker — 'this way, come here'",
-      "Released, broken free — and therefore off we go"
+      "Alongside, added to, present with",
+      "Around — encircling, turning, and therefore changing",
+      "Out, out of, and out to the very end",
+      "Together — joining, or collapsing into one"
     ],
     "correct": "Together — joining, or collapsing into one",
     "feedback": "zusammen- — Together — joining, or collapsing into one. Laying two things into one — departments, or a map folded flat."
@@ -5463,10 +5463,10 @@
     "verb": "zusammenzählen",
     "verb_en": "to add up, total",
     "options": [
-      "Into, inward — entering and settling",
-      "Carry the action through to its result",
-      "Four feelings: away, wrong, transformed, used up",
-      "Together — joining, or collapsing into one"
+      "Together — joining, or collapsing into one",
+      "Back — return and reversal",
+      "In front, in advance, presented forward",
+      "Toward and facing — meeting, or opposing"
     ],
     "correct": "Together — joining, or collapsing into one",
     "feedback": "zusammen- — Together — joining, or collapsing into one. Counting separate figures into one sum."
@@ -5479,10 +5479,10 @@
     "verb": "zusammenhalten",
     "verb_en": "to stick together",
     "options": [
-      "A sound-variant of ent- — receiving, sensing, rising toward",
-      "Behind — left behind, or done behind someone's back",
-      "Under — beneath, supporting from below, or cutting off",
-      "Together — joining, or collapsing into one"
+      "Toward and facing — meeting, or opposing",
+      "Together — joining, or collapsing into one",
+      "Away, gone — removal in everyday speech",
+      "Through — physically across, or thoroughly to the end"
     ],
     "correct": "Together — joining, or collapsing into one",
     "feedback": "zusammen- — Together — joining, or collapsing into one. A group holding as one under pressure. Loyalty as physical cohesion."
@@ -5496,9 +5496,9 @@
     "verb_en": "to collide, clash",
     "options": [
       "Together — joining, or collapsing into one",
-      "Out, out of, and out to the very end",
-      "Up, open, onto — rising and unsealing",
-      "Down, downward, laid low"
+      "In front, in advance, presented forward",
+      "Apply the action directly onto a thing",
+      "Shut — and, oppositely, toward someone"
     ],
     "correct": "Together — joining, or collapsing into one",
     "feedback": "zusammen- — Together — joining, or collapsing into one. The destructive edge: two things arriving at the same point at speed."
@@ -5513,10 +5513,10 @@
     "target_en": "to translate; to ferry across",
     "answer_verb": "übersetzen",
     "options": [
-      "zer-",
-      "fort-",
+      "ver-",
+      "ent-",
       "über-",
-      "weiter-"
+      "zu-"
     ],
     "correct": "über-",
     "feedback": "über- — Over — across, above, beyond the limit, or missed entirely. Inseparable = translate (carry meaning across). Separable = physically ferry someone over."
@@ -5531,10 +5531,10 @@
     "target_en": "to consider, think over",
     "answer_verb": "überlegen",
     "options": [
-      "zusammen-",
+      "miss-",
       "über-",
-      "nieder-",
-      "fort-"
+      "fort-",
+      "nieder-"
     ],
     "correct": "über-",
     "feedback": "über- — Over — across, above, beyond the limit, or missed entirely. Inseparable. Laying thoughts over a matter. Ich überlege es mir."
@@ -5549,10 +5549,10 @@
     "target_en": "to overlook, miss",
     "answer_verb": "übersehen",
     "options": [
+      "zurück-",
+      "zu-",
       "über-",
-      "ge-",
-      "er-",
-      "an-"
+      "weg-"
     ],
     "correct": "über-",
     "feedback": "über- — Over — across, above, beyond the limit, or missed entirely. Your gaze passes over the thing without landing. The 'missing' branch."
@@ -5567,10 +5567,10 @@
     "target_en": "to survive",
     "answer_verb": "überleben",
     "options": [
-      "fort-",
-      "vor-",
+      "unter-",
       "über-",
-      "unter-"
+      "aus-",
+      "emp-"
     ],
     "correct": "über-",
     "feedback": "über- — Over — across, above, beyond the limit, or missed entirely. Living beyond the event that should have ended it. The 'beyond' branch."
@@ -5585,10 +5585,10 @@
     "target_en": "to exaggerate",
     "answer_verb": "übertreiben",
     "options": [
-      "fort-",
-      "über-",
-      "zer-",
-      "miss-"
+      "um-",
+      "emp-",
+      "mit-",
+      "über-"
     ],
     "correct": "über-",
     "feedback": "über- — Over — across, above, beyond the limit, or missed entirely. Driving the thing past its proper limit. Literally over-driving it."
@@ -5603,10 +5603,10 @@
     "target_en": "to convince",
     "answer_verb": "überzeugen",
     "options": [
+      "ver-",
       "über-",
-      "ein-",
-      "entgegen-",
-      "hinter-"
+      "ab-",
+      "ge-"
     ],
     "correct": "über-",
     "feedback": "über- — Over — across, above, beyond the limit, or missed entirely. Covering someone with evidence until their doubt is entirely overlaid."
@@ -5619,10 +5619,10 @@
     "verb": "überweisen",
     "verb_en": "to transfer money",
     "options": [
-      "Into pieces — destruction and dispersal",
-      "Against — resistance and reflection",
-      "Released, broken free — and therefore off we go",
-      "Over — across, above, beyond the limit, or missed entirely"
+      "Toward and touching — contact, attachment, switching on",
+      "Shut — and, oppositely, toward someone",
+      "Over — across, above, beyond the limit, or missed entirely",
+      "Off, away, down — detachment from a starting point"
     ],
     "correct": "Over — across, above, beyond the limit, or missed entirely",
     "feedback": "über- — Over — across, above, beyond the limit, or missed entirely. Directing funds across from one account to another. The banking verb."
@@ -5636,9 +5636,9 @@
     "verb_en": "to take over, assume",
     "options": [
       "Over — across, above, beyond the limit, or missed entirely",
-      "In front, in advance, presented forward",
-      "Away — and, by extension, onward",
-      "Into, inward — entering and settling"
+      "Together with, joining in — participation",
+      "Against — resistance and reflection",
+      "Away, gone — removal in everyday speech"
     ],
     "correct": "Over — across, above, beyond the limit, or missed entirely",
     "feedback": "über- — Over — across, above, beyond the limit, or missed entirely. Taking a thing across from someone else's hands into yours — a role, a firm, a cost."
@@ -5651,10 +5651,10 @@
     "verb": "überlaufen",
     "verb_en": "to overflow; to defect",
     "options": [
-      "Out, out of, and out to the very end",
+      "Apply the action directly onto a thing",
       "Over — across, above, beyond the limit, or missed entirely",
       "Toward the speaker — 'this way, come here'",
-      "Away from the speaker, toward a target — 'that way'"
+      "Released, broken free — and therefore off we go"
     ],
     "correct": "Over — across, above, beyond the limit, or missed entirely",
     "feedback": "über- — Over — across, above, beyond the limit, or missed entirely. Separable = boil over the rim. Inseparable = to run over to the other side."
@@ -5667,9 +5667,9 @@
     "verb": "übersetzen",
     "verb_en": "to translate; to ferry across",
     "options": [
-      "Onward, further, keep going",
-      "Out, out of, and out to the very end",
-      "Around — encircling, turning, and therefore changing",
+      "Into, inward — entering and settling",
+      "Carry the action through to its result",
+      "Four feelings: away, wrong, transformed, used up",
       "Over — across, above, beyond the limit, or missed entirely"
     ],
     "correct": "Over — across, above, beyond the limit, or missed entirely",

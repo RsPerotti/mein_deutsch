@@ -16,13 +16,15 @@
  * v13: Deklinationen area (Session 36) — 5 lessons, 360 type_ending exercises, declension-data.js.
  * v14: Vorsilben module (Session 37) — 10th module. 35 verb prefixes, 5 lessons,
  *      330 select_prefix/select_feeling exercises, prefixes-data.js.
+ * v15: Vorsilben fixes (Session 38) — progress recording, misfiled-quiz migration,
+ *      semantic-overlap distractor rule.
  *
  * DEPLOY NOTE: bump the CACHE version string on every push that changes
  * JS/CSS files. The browser only installs a new SW when this file changes.
  * If the version is not bumped, users keep running the old cached code.
  */
 
-const CACHE = 'mein-deutsch-v14';
+const CACHE = 'mein-deutsch-v15';
 
 const PRECACHE = [
   './',

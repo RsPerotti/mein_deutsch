@@ -2,6 +2,33 @@
 
 ---
 
+## 2026-08-28 — Session 38: Vorsilben fixes (v15)
+
+**Reported:** progress not displaying in the Vorsilben module.
+
+**Cause:** `selectPrefixAnswer()` never called `Progress.recordResult()`. The module home reads `Progress.getExerciseHistory(id).correct` to draw its "done / total" counts and progress bars, so every card sat at 0 / n permanently no matter how much was answered. One missing line.
+
+**Fixed:**
+- `Progress.recordResult(ex.id, isRight)` in `selectPrefixAnswer()`.
+- Same omission found and fixed in `submitDeklinationAnswer()` (Session 36). Invisible there because the Deklinationen home shows exercise counts rather than progress — but it left a hole in exercise history, so Deklination work was never counted anywhere.
+- QA extended: history recording for right and wrong answers, module home showing non-zero counts, non-zero progress-bar width, and the Deklination equivalent.
+
+**Migration for the Session 37 quiz bug.** `migrateMisfiledQuizResults()` runs once at init: reads `app_grammar_lessons`, moves any Partikeln / Artikel / Deklinationen / Vorsilben lesson entries into their own store, deletes them from the Verbs store, sets a one-shot flag. Never downgrades existing progress; preserves the higher attempt count. Previously-passed lessons in those three modules now show as complete again without redoing anything.
+
+**Visual QA on the live app at 375×812 (first real device-width pass).**
+- The `select_feeling` layout concern from Session 37 was **unfounded** — full-sentence options wrap cleanly to two lines and the card holds together. No change needed.
+- But the screenshot surfaced a genuine content bug the validator had missed: **`vorgehen` — "to proceed; to go on"** was offered with `fort-` ("Away — and, by extension, onward") as a distractor. Both fit the meaning. Two defensible answers.
+
+**Turned that into an enforced rule rather than a one-off fix.**
+- New generator constraint: a distractor is rejected if its own core feeling shares a content keyword with the target meaning.
+- New validator check family `semantic-overlap`, with its own independent stopword list — fails the build on any such pair.
+- 13 exclusion pairs added after a systematic scan found 9 similar items: vor/fort, ent/weg, ent/ab, ent/fort, ver/weg, ver/ab, ver/fort, zurück/fort, bei/weiter, durch/er, ge/aus, los/weiter, nach/hinter.
+- Regenerated: still 330 exercises, 0 integrity errors. `vorgehen` now sits against emp-, her- and über-.
+
+**Note on the heuristic:** keyword overlap alone would *not* have caught `vorgehen` ("proceed / go on" shares no literal token with "onward"). The explicit vor/fort pair does. The two mechanisms are complements — the scan finds families, the pairs catch the ones that need judgement.
+
+---
+
 ## 2026-08-26 — Session 37: Vorsilben module (v14)
 
 **PRD:** `PRD_Vorsilben.md` — signed off same session. Commit `ec4891c`, pushed and live (v14).

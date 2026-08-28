@@ -1,11 +1,13 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-08-26 — Session 37 (Vorsilben module — v14 live)*
+*Last updated: 2026-08-28 — Session 38 (Vorsilben fixes — v15 live)*
 
 ---
 
 ## Current State
 
-**10 modules built and live.** App at https://rsperotti.github.io/mein_deutsch (v14).
+**10 modules built and live.** App at https://rsperotti.github.io/mein_deutsch (v15).
+
+**Session 38 — Vorsilben fixes.** Module-home progress was stuck at 0 / n: `selectPrefixAnswer()` never wrote to exercise history. Fixed, and the same omission fixed in the Deklination engine. One-shot migration added (`migrateMisfiledQuizResults`) that recovers quiz results written to the wrong store by the pre-Session-37 bug — previously-passed Partikeln / Artikel / Deklinationen lessons show as complete again with no action needed. First visual QA at 375px: the `select_feeling` wrapping concern was unfounded, but it exposed an ambiguous item (`vorgehen` offered against `fort-`). Now prevented structurally by a `semantic-overlap` check in the validator plus 13 new exclusion pairs.
 
 **Vorsilben module COMPLETE (Session 37).** New standalone 10th module teaching German verb prefixes as a generative system rather than as vocabulary. 35 prefixes across three groups (8 untrennbar / 20 trennbar / 7 beide), each with a core feeling, a feeling paragraph, a mnemonic and 10 worked examples. 5 grammar lessons (no gating, Artikel model) + 330 exercises of two new types. Filters by **separability, not CEFR** — a deliberate departure from every other module, recorded in Active Decisions. `emp-` and `hinter-` are reference-only (closed sets, no exercises). Machine-validated by an independent script — 0 integrity errors. 49-check headless QA suite passes. PRD: `PRD_Vorsilben.md`. Commit `ec4891c`, pushed and live (v14).
 
@@ -76,7 +78,7 @@
 | `_factory/bundle-prefixes.py` | ✅ NEW (S37) | Bundles the three JSON sources into `js/prefixes-data.js`. |
 | `_factory/qa-prefixes.js` | ✅ NEW (S37) | 49-check headless jsdom suite: data wiring, module home, reference, detail sheet, lessons, quiz, both exercise types, feedback card, cooldown, results, plus regressions on Verbs/Partikeln/Deklinationen. Needs `npm i jsdom`. |
 | `_factory/vorsilben/source-reference.html` | ✅ NEW (S37) | The reviewed 35-prefix reference the module content was generated from. |
-| `service-worker.js` | ✅ v14 | Cache-first. Precaches all JS/CSS including particles-data.js, prefixes-data.js, grammar-data.js, article-grammar-data.js, declension-data.js. Range request handler for audio. |
+| `service-worker.js` | ✅ v15 | Cache-first. Precaches all JS/CSS including particles-data.js, prefixes-data.js, grammar-data.js, article-grammar-data.js, declension-data.js. Range request handler for audio. |
 | `manifest.json` | ✅ Built | PWA config. |
 | `icons/` | ✅ Done | icon-192 + icon-512, speech bubble "de", #85B7EB. |
 
@@ -124,6 +126,7 @@
 | Vorsilben volume | 10 per prefix (6 + 4). 33 drilled × 10 = 330. |
 | Vorsilben gating | None (Artikel/Deklinationen model). Feedback card after every answer instead. |
 | Vorsilben thin sets | `emp-` (3 verbs) and `hinter-` (~7) are `exercisable: false` — full reference cards with an explicit closed-set notice, no exercises. Drilling them would teach a rule that does not generalise. |
+| Vorsilben distractor rule | A distractor is invalid if its own core feeling shares a content keyword with the target meaning, even when the two prefixes are not near-synonyms. Enforced in both generator and validator (`semantic-overlap`). Added Session 38. |
 | Vorsilben content rule | Exercises are never invented — the generator derives every item from a reviewed worked example in `prefixes.json`, and the validator holds an independent copy of the near-synonym exclusion table. Regenerate + validate via `_factory/*-prefixes.py`. |
 | Vorsilben vocabulary | Self-contained. Detail cards flag which examples already exist in `verbs.json` ("im Verbmodul"). Full reconciliation deferred to v15 — see Next Steps. |
 | Deklination v1 exclusions | Stem-changers (dunkel/hoch/teuer), indeclinables (rosa/lila), Komparativ/Superlativ declension, adjectival nouns. |
@@ -285,7 +288,6 @@
 ## Next Steps
 
 **Up next (in rough priority):**
-- **Device QA on Vorsilben** — headless only so far. Check the `select_feeling` option buttons, which wrap to multiple lines on a 430px screen.
 - **v15 — Vorsilben ↔ Verbs reconciliation (Phase 6).** Of the 342 reference verbs: 79 already exist in `verbs.json`, **142 are missing but their root verb exists** (add as `prefix_variants`, ~1,100 new exercises, `data.js` rebundle), 121 have no root either (logged for a future Wörter intake). Fix the per-variant `grammar` override in the same pass — see Known open items.
 - Ricco to confirm two flagged sheet entries: "Aufziele" (→ abzielen?) and "kindersinne" (skipped)
 - Next Wörter intake when the sheet grows (diff against `_factory/intake-log.json`)
@@ -295,7 +297,7 @@
 
 **Known open items:**
 - Prefix verb variants inherit parent root's `grammar.case_requirements` — `verstehen` shows Irregular with no case badge (should be Akkusativ). Fix: add per-variant `grammar` override field. **Scheduled for v15 Phase 6**, which rewrites `prefix_variants` anyway.
-- Vorsilben quiz bugfix is not retroactive: users who completed Partikeln / Artikel / Deklinationen lessons before v14 will see them as incomplete, because those results were written into the wrong store. No migration written — low stakes, single user. Redo the quiz to restore the green dot.
+- ~~Vorsilben quiz bugfix is not retroactive~~ — resolved Session 38. `migrateMisfiledQuizResults()` recovers those results on first load after v15.
 - Deklinationen not yet QA'd on device (headless-tested only) — Ricco to try a session on the phone; check inline input + Android keyboard behavior.
 - Prepositions not in Word List Practice mode (no unlock mechanic — by design).
 - `.git` repo lives inside Google Drive folder — causes stale lock files (HEAD.lock, index.lock) that block commits. Must `rm .git/*.lock` from Terminal before committing. Long-term: move repo outside Drive.

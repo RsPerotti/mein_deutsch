@@ -1767,6 +1767,11 @@ function submitDeklinationAnswer() {
   input.value    = ex.correct;
   input.classList.add(isRight ? 'dekl-input-correct' : 'dekl-input-wrong');
 
+  // Same omission existed here (Session 36). Invisible on the Deklinationen
+  // home, which shows exercise counts rather than progress — but it left a
+  // hole in exercise history. Recording for consistency.
+  Progress.recordResult(ex.id, isRight);
+
   if (isRight) {
     s.correctCount++;
   } else {
@@ -2051,6 +2056,10 @@ function selectPrefixAnswer(btn) {
     if (a === correct)                 b.classList.add('state-correct');
     else if (a === chosen && !isRight) b.classList.add('state-wrong');
   });
+
+  // Persist to exercise history — this is what the module-home progress bars
+  // read. Omitting it (Session 37) meant Vorsilben always showed 0 / 330.
+  Progress.recordResult(ex.id, isRight);
 
   if (isRight) s.correctCount++;
   else         s.cooldown.push(ex);

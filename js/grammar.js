@@ -1677,3 +1677,62 @@ function _renderPrefixGrammatikStrip(lessons) {
       </div>
     </div>`;
 }
+
+// ─────────────────────────────────────────
+// MIGRATION — misfiled quiz results (Session 38)
+//
+// Until Session 37, advanceGrammarQuiz() always called
+// _renderGrammarQuizResults(), which records into the Verbs `Grammar` store
+// (app_grammar_lessons). Every Partikeln / Artikel / Deklinationen quiz the
+// user passed was therefore written under the wrong key: their own module
+// showed the lesson as still locked, and app_grammar_lessons accumulated
+// lesson IDs that do not belong to the Verbs curriculum.
+//
+// This moves those entries to the right store, then removes them from the
+// Verbs store. Idempotent, and guarded by a one-shot flag.
+// ─────────────────────────────────────────
+
+const _QUIZ_MIGRATION_FLAG = 'app_grammar_misfiled_migrated';
+
+function migrateMisfiledQuizResults() {
+  try {
+    if (localStorage.getItem(_QUIZ_MIGRATION_FLAG) === '1') return;
+
+    const raw = localStorage.getItem('app_grammar_lessons');
+    if (!raw) { localStorage.setItem(_QUIZ_MIGRATION_FLAG, '1'); return; }
+
+    const verbStore = JSON.parse(raw);
+    const targets = [ParticleGrammar, ArticleGrammar, DeclensionGrammar, PrefixGrammar];
+    let moved = 0;
+
+    for (const store of targets) {
+      for (const lessonId of store.LESSON_IDS) {
+        const misfiled = verbStore[lessonId];
+        if (!misfiled) continue;
+
+        // Only promote a genuine result; never downgrade existing progress.
+        const existing = store.getLessonState(lessonId);
+        const better =
+          misfiled.status === 'complete' ||
+          (misfiled.status === 'in_progress' && existing.status === 'locked');
+        if (better) {
+          store.setLessonState(lessonId, {
+            status:   misfiled.status,
+            score:    misfiled.score ?? null,
+            attempts: Math.max(existing.attempts || 0, misfiled.attempts || 0)
+          });
+          moved++;
+        }
+        delete verbStore[lessonId];
+      }
+    }
+
+    localStorage.setItem('app_grammar_lessons', JSON.stringify(verbStore));
+    localStorage.setItem(_QUIZ_MIGRATION_FLAG, '1');
+    if (moved > 0) {
+      console.log(`[migration] Recovered ${moved} misfiled quiz result(s) into their own modules.`);
+    }
+  } catch (e) {
+    console.warn('[migration] misfiled quiz results — skipped:', e);
+  }
+}

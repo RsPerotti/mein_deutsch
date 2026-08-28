@@ -178,6 +178,68 @@ w.eval('_prefixSession.queue=[];_prefixSession.cooldown=[];_prefixShowNext()');
 ok('results rendered', w.document.getElementById('results-summary').textContent.includes('Vorsilben'));
 ok('exerciseMode reset', w.eval('exerciseMode') === 'module');
 
+// ── progress recording (Session 38 fix) ────────────────────────────────────
+w.eval("localStorage.removeItem('app_exercise_history'); openPrefixExercise('alle'); startPrefixExercise();");
+const firstId = w.eval('_prefixSession.current.id');
+const corr    = w.eval('_prefixSession.current.correct');
+const btnList = [...w.document.querySelectorAll('#opts .option-btn')];
+w.eval(`selectPrefixAnswer(document.querySelectorAll('#opts .option-btn')[${btnList.findIndex(b => b.dataset.answer === corr)}])`);
+ok('correct answer recorded to exercise history',
+   w.eval(`Progress.getExerciseHistory('${firstId}').correct`) === 1,
+   w.eval(`Progress.getExerciseHistory('${firstId}').correct`));
+w.eval('advanceExercise()');
+const wrongId  = w.eval('_prefixSession.current.id');
+const wcorr    = w.eval('_prefixSession.current.correct');
+const wbtnList = [...w.document.querySelectorAll('#opts .option-btn')];
+w.eval(`selectPrefixAnswer(document.querySelectorAll('#opts .option-btn')[${wbtnList.findIndex(b => b.dataset.answer !== wcorr)}])`);
+ok('wrong answer recorded to exercise history',
+   w.eval(`Progress.getExerciseHistory('${wrongId}').incorrect`) === 1);
+
+// module home must now show non-zero progress
+w.eval("exerciseMode='module'; currentModuleId='module_prefixes'; renderModuleHome('module_prefixes')");
+const mhProg = w.document.getElementById('module-categories').innerHTML;
+ok('module home shows non-zero progress', /(^|[^\d])1 \/ \d+/.test(mhProg),
+   (mhProg.match(/\d+ \/ \d+/g) || []).join(' '));
+ok('progress bar has non-zero width',
+   /progress-fill" style="width:(?!0%)/.test(mhProg));
+
+// deklination records too
+w.eval("localStorage.removeItem('app_exercise_history'); _deklPattern='alle'; exerciseMode='deklination'; startDeklinationExercise();");
+const dId = w.eval('_deklSession.current.id');
+w.eval(`document.getElementById('dekl-ending-input').value = _deklSession.current.correct; submitDeklinationAnswer();`);
+ok('deklination records to exercise history',
+   w.eval(`Progress.getExerciseHistory('${dId}').correct`) === 1);
+w.eval("exerciseMode='module'");
+
+// ── migration: misfiled quiz results (Session 38) ──────────────────────────
+w.eval(`
+  localStorage.removeItem('${''}app_grammar_misfiled_migrated');
+  localStorage.setItem('app_grammar_lessons', JSON.stringify({
+    'verb-basics':      { status:'complete', score:1, attempts:1 },
+    'particles-intro':  { status:'complete', score:1, attempts:2 },
+    'dekl-schwach':     { status:'in_progress', score:0.4, attempts:1 }
+  }));
+  localStorage.setItem('app_particles_lesson', JSON.stringify({}));
+  localStorage.setItem('app_grammar_deklination_lessons', JSON.stringify({}));
+  migrateMisfiledQuizResults();
+`);
+ok('migration moved particle lesson',
+   w.eval("ParticleGrammar.isComplete('particles-intro')"));
+ok('migration moved dekl lesson as in_progress',
+   w.eval("DeclensionGrammar.getLessonState('dekl-schwach').status") === 'in_progress');
+ok('migration preserved attempts',
+   w.eval("ParticleGrammar.getLessonState('particles-intro').attempts") === 2);
+ok('migration cleaned the Verbs store',
+   w.eval("JSON.parse(localStorage.getItem('app_grammar_lessons'))['particles-intro']") === undefined);
+ok('migration left genuine verb lesson alone',
+   w.eval("JSON.parse(localStorage.getItem('app_grammar_lessons'))['verb-basics'].status") === 'complete');
+ok('migration is one-shot',
+   w.eval("localStorage.getItem('app_grammar_misfiled_migrated')") === '1');
+// second run must not downgrade
+w.eval("localStorage.removeItem('app_grammar_misfiled_migrated'); migrateMisfiledQuizResults();");
+ok('migration is idempotent',
+   w.eval("ParticleGrammar.isComplete('particles-intro')"));
+
 // ── regression: other modules still work ───────────────────────────────────
 w.eval("currentModuleId='module_particles'; renderModuleHome('module_particles')");
 ok('particles module still renders',

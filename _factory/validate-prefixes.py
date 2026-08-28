@@ -32,7 +32,26 @@ NEAR_SYNONYMS = [
     ("mit", "zusammen"), ("mit", "bei"),
     ("weiter", "fort"), ("nieder", "ab"),
     ("entgegen", "wider"), ("her", "hin"),
+    # Session 38 — added after visual QA caught "vorgehen = to proceed;
+    # to go on" offered against fort- ("onward").
+    ("vor", "fort"),
+    ("ent", "weg"), ("ent", "ab"), ("ent", "fort"),
+    ("ver", "weg"), ("ver", "ab"), ("ver", "fort"),
+    ("zurück", "fort"), ("bei", "weiter"), ("durch", "er"),
+    ("ge", "aus"), ("los", "weiter"), ("nach", "hinter"),
 ]
+
+# Independent copy of the stopword list used by the generator.
+STOPWORDS = set(
+    "to a an the of in on and or with sth sb into out up down off over under "
+    "back again for by from at it its as".split()
+)
+
+
+def keywords(text):
+    import re
+    return {w for w in re.findall(r"[a-z]+", text.lower())
+            if w not in STOPWORDS and len(w) > 2}
 
 errors = []
 warnings = []
@@ -123,6 +142,23 @@ def main():
                 err("distractor-valid",
                     f"{e['id']} distractor {oid}+{e['root']} also means "
                     f"'{e['target_en']}'")
+
+    # --- 4b. semantic overlap ------------------------------------------------
+    # A distractor whose own core feeling explains the target meaning makes the
+    # item ambiguous even when the prefixes are not near-synonyms. Session 38.
+    for e in exercises:
+        target = e["target_en"] if e["type"] == "select_prefix" else e["verb_en"]
+        tkw = keywords(target)
+        for o in e["options"]:
+            oid = prefix_to_id.get(o) if e["type"] == "select_prefix" \
+                else core_to_id.get(o, [None])[0]
+            if oid is None or oid == e["prefix_id"]:
+                continue
+            overlap = tkw & keywords(by_id[oid]["core"])
+            if overlap:
+                err("semantic-overlap",
+                    f"{e['id']} '{target}' shares {sorted(overlap)} with "
+                    f"distractor {oid}'s core feeling")
 
     # --- 5. coverage -------------------------------------------------------
     per_prefix = Counter((e["prefix_id"], e["type"]) for e in exercises)

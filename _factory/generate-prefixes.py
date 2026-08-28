@@ -45,7 +45,30 @@ EXCLUSION_GROUPS = [
     {"nieder", "ab"},             # both "down/off"
     {"entgegen", "wider"},        # both "against"
     {"her", "hin"},               # mirror pair — ambiguous without context
+    # Added Session 38 after visual QA found "vorgehen = to proceed; to go on"
+    # offered alongside fort- ("onward"), which fits the meaning just as well.
+    {"vor", "fort"},              # "in advance / forward" vs "onward"
+    {"ent", "weg"}, {"ent", "ab"}, {"ent", "fort"},   # ent- branch 1 is "away"
+    {"ver", "weg"}, {"ver", "ab"}, {"ver", "fort"},   # ver- branch 1 is "away"
+    {"zurück", "fort"},           # "turn away / back" vs "away, onward"
+    {"bei", "weiter"},            # "keep alongside" vs "keep going"
+    {"durch", "er"},              # both "through to the end"
+    {"ge", "aus"},                # "end up" vs "out to the end"
+    {"los", "weiter"},            # "get going" vs "keep going"
+    {"nach", "hinter"},           # both "behind / after"
 ]
+
+# Content words that carry no disambiguating force.
+_STOPWORDS = set(
+    "to a an the of in on and or with sth sb into out up down off over under "
+    "back again for by from at it its as".split()
+)
+
+
+def _keywords(text):
+    import re
+    return {w for w in re.findall(r"[a-z]+", text.lower())
+            if w not in _STOPWORDS and len(w) > 2}
 
 
 def excluded_with(pid):
@@ -83,11 +106,14 @@ def main():
 
         # ---- select_prefix ------------------------------------------------
         for ex in drillable[:N_SELECT_PREFIX]:
-            # a distractor is unsafe if distractor+root is a known verb
-            # whose meaning matches the target meaning
+            # A distractor is unsafe if (a) distractor+root is a known verb
+            # whose meaning matches the target, or (b) the distractor's own
+            # core feeling would explain the target meaning just as well.
+            target_kw = _keywords(ex["english"])
             safe = [
                 d for d in pool
                 if verb_index.get((ex["root"], d)) != ex["english"]
+                and not (target_kw & _keywords(by_id[d]["core"]))
             ]
             distractors = rng.sample(safe, N_OPTIONS - 1)
             options = [by_id[d]["prefix"] for d in distractors] + [p["prefix"]]
@@ -112,7 +138,12 @@ def main():
         if len(feeling_pool) < N_SELECT_FEELING:
             feeling_pool += [e for e in p["examples"] if e not in feeling_pool]
         for ex in feeling_pool[:N_SELECT_FEELING]:
-            distractors = rng.sample(pool, N_OPTIONS - 1)
+            target_kw = _keywords(ex["english"])
+            safe_f = [d for d in pool
+                      if not (target_kw & _keywords(by_id[d]["core"]))]
+            if len(safe_f) < N_OPTIONS - 1:
+                safe_f = pool  # should not happen; validator will catch it
+            distractors = rng.sample(safe_f, N_OPTIONS - 1)
             options = [by_id[d]["core"] for d in distractors] + [p["core"]]
             rng.shuffle(options)
             n += 1

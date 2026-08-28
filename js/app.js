@@ -1593,6 +1593,7 @@ async function init() {
   ArticleGrammar.init();  // initialise article lesson state (no migration — new module)
   DeclensionGrammar.init();  // initialise declension lesson state (Session 36)
   PrefixGrammar.init();      // initialise Vorsilben lesson state (Session 37)
+  migrateMisfiledQuizResults(); // one-shot: recover quiz results written to the wrong store (Session 38)
   Progress.updateStreak();
   Progress.recordSession();
   renderHome();
