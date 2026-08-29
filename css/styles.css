@@ -2681,3 +2681,61 @@ button {
   line-height: 1.5;
   margin-top: var(--sp-1);
 }
+
+
+/* ── Wiederholung card (Session 40) ──────────────────────────────────────
+   Sits between the Wortliste hero and the module grid. Visually a step down
+   from the hero — it is a daily action, not the main destination — and a step
+   up from a module card, because it is the one thing on the home screen that
+   changes every day. */
+.review-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-green-accent);
+  border-radius: var(--r-lg);
+  padding: var(--sp-4);
+  position: relative;
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.15s;
+}
+
+.review-card:active { transform: scale(0.985); }
+
+.review-card-label {
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+}
+
+.review-card-title {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.review-card-sub {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-top: 2px;
+}
+
+.review-card-arrow {
+  position: absolute;
+  top: 50%;
+  right: var(--sp-4);
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  color: var(--color-text-secondary);
+}
+
+/* Nothing due: same footprint, no affordance. Deliberately not hidden — a
+   card that vanishes on a good day reads as a bug, and the count of what is
+   scheduled is the reassurance that the schedule is still there. */
+.review-card-empty {
+  border-left-color: var(--color-border);
+  cursor: default;
+  opacity: 0.75;
+}

@@ -81,6 +81,7 @@ function onScreenEnter(screenId) {
       if (exerciseMode === 'artikel') startArtikelExercise();
       else if (exerciseMode === 'deklination') startDeklinationExercise();
       else if (exerciseMode === 'prefix') startPrefixExercise();
+      else if (exerciseMode === 'review') Review.startSession();
       else startExercise(currentExerciseState);
       break;
     case 'screen-verbliste':         renderVerbliste();                       break;
@@ -227,6 +228,10 @@ function renderHome() {
 
   // Streak
   document.getElementById('home-streak').textContent = Progress.getStreak();
+
+  // Wiederholung card (Session 40) — above the modules, because it is a daily
+  // action rather than a place. Renders itself empty when nothing is due.
+  if (typeof Review !== 'undefined') Review.renderHomeCard();
 
   // Module cards
   _renderModuleCards();

@@ -22,7 +22,9 @@ ROOT = Path(__file__).resolve().parent.parent
 SRS = ROOT / "js" / "srs.js"
 VALIDATOR = ROOT / "_factory" / "validate-srs.py"
 EXERCISES = ROOT / "js" / "exercises.js"
+REVIEW    = ROOT / "js" / "review.js"
 QA_SRS    = ROOT / "_factory" / "qa-srs.js"
+QA_REVIEW = ROOT / "_factory" / "qa-review.js"
 
 # (name, find, replace) — each is a plausible one-character-class slip, not a
 # strawman. These are the mistakes an edit to this file would actually make.
@@ -71,10 +73,87 @@ def run_validator():
     return p.returncode, (p.stdout + p.stderr).strip()
 
 
+# Phase 2 mutations. These target the ways a mixed cross-module queue can break
+# the Main engine, which is the risk the PRD flagged before the build started.
+REVIEW_MUTATIONS = [
+    ("index falls back to window globals (the lexical-global bug)",
+     "    const data = (typeof appData !== 'undefined') ? appData : null;",
+     "    const data = window.appData || null;"),
+    ("Phase 3 items are offered as servable",
+     "      if (entry.engine !== 'main') { counts.later++; continue; }",
+     "      if (false) { counts.later++; continue; }"),
+    ("scheduling state for deleted content crashes into the queue",
+     "      if (!entry) { counts.unknown++; continue; }",
+     "      if (!entry) { counts.unknown++; }"),
+    ("not-yet-due items leak into the queue",
+     "    const items = this.dueBreakdown().servable;",
+     "    const items = Object.values(this.buildIndex()).map(e => e.ex);"),
+    ("queue is no longer most-overdue first",
+     "    return Object.keys(byDate).sort()", "    return Object.keys(byDate).sort().reverse()"),
+    ("exercises are mutated in place instead of cloned",
+     "        index[id] = { ex: { ...ex, _srcModule: moduleId }, moduleId, engine: 'main' };",
+     "        ex._srcModule = moduleId; index[id] = { ex, moduleId, engine: 'main' };"),
+    ("the session forgets it is a review",
+     "      reviewMode: true,", "      reviewMode: false,"),
+]
+
+REVIEW_ENGINE_MUTATIONS = [
+    ("review unlocks words as if they were new",
+     "  if (session.reviewMode) return;\n  if (!wordId || Progress.isUnlocked(wordId)) return;",
+     "  if (!wordId || Progress.isUnlocked(wordId)) return;"),
+    ("emptying a review queue falls through to a stale module home",
+     "    if (session.reviewMode) { Review.finish(); return; }\n    returnFromResults();",
+     "    returnFromResults();"),
+    ("module-specific behaviour keys off the session again",
+     "function _srcModule() {\n  return session.moduleId || (session.current && session.current._srcModule) || null;\n}",
+     "function _srcModule() {\n  return session.moduleId;\n}"),
+]
+
+
 def run_qa_srs():
     p = subprocess.run(["node", str(QA_SRS)], capture_output=True, text=True,
                        cwd=str(ROOT))
     return p.returncode, (p.stdout + p.stderr).strip()
+
+
+def run_qa_review():
+    p = subprocess.run(["node", str(QA_REVIEW)], capture_output=True, text=True,
+                       cwd=str(ROOT))
+    return p.returncode, (p.stdout + p.stderr).strip()
+
+
+def mutate_suite(title, path, mutations, runner, failures):
+    """Seed each mutation into `path`, run `runner`, assert it fails."""
+    original = path.read_text()
+    try:
+        code, out = runner()
+        if code != 0:
+            print(f"\nFAIL: {title} does not pass on unmodified code")
+            print(out)
+            return False
+        print(f"\nbaseline: {title} passes on clean {path.name}")
+
+        for name, find, replace in mutations:
+            if original.count(find) != 1:
+                failures.append(f"{name}: anchor not found exactly once "
+                                f"(found {original.count(find)})")
+                print(f"  SKIP  {name}  (anchor missing)")
+                continue
+
+            path.write_text(original.replace(find, replace, 1))
+            code, out = runner()
+            path.write_text(original)
+
+            if code == 0:
+                failures.append(f"{name}: {title} PASSED on broken code")
+                print(f"  MISS  {name}")
+            else:
+                first = next((l for l in out.splitlines()
+                              if l.strip().startswith("- ")), "").strip()
+                print(f"  caught  {name}" + (f"  →  {first}" if first else ""))
+    finally:
+        path.write_text(original)
+    return True
 
 
 def main():
@@ -108,48 +187,32 @@ def main():
                               if "field" in l or "  - " in l), "").strip()
                 print(f"  caught  {name}" + (f"  →  {first}" if first else ""))
 
-        # ---- wiring suite ----
-        original_ex = EXERCISES.read_text()
-        try:
-            code, out = run_qa_srs()
-            if code != 0:
-                print("\nFAIL: qa-srs.js does not pass on unmodified code")
-                print(out)
-                return 1
-            print("\nbaseline: qa-srs.js passes on clean exercises.js")
-
-            for name, find, replace in WIRING_MUTATIONS:
-                if original_ex.count(find) != 1:
-                    failures.append(f"{name}: anchor not found exactly once "
-                                    f"(found {original_ex.count(find)})")
-                    print(f"  SKIP  {name}  (anchor missing)")
-                    continue
-
-                EXERCISES.write_text(original_ex.replace(find, replace, 1))
-                code, out = run_qa_srs()
-                EXERCISES.write_text(original_ex)
-
-                if code == 0:
-                    failures.append(f"{name}: qa-srs.js PASSED on broken code")
-                    print(f"  MISS  {name}")
-                else:
-                    first = next((l for l in out.splitlines() if l.strip().startswith("- ")), "").strip()
-                    print(f"  caught  {name}" + (f"  →  {first}" if first else ""))
-        finally:
-            EXERCISES.write_text(original_ex)
+        # ---- wiring suites ----
+        if not mutate_suite("qa-srs.js", EXERCISES, WIRING_MUTATIONS,
+                            run_qa_srs, failures):
+            return 1
+        if not mutate_suite("qa-review.js", REVIEW, REVIEW_MUTATIONS,
+                            run_qa_review, failures):
+            return 1
+        if not mutate_suite("qa-review.js", EXERCISES, REVIEW_ENGINE_MUTATIONS,
+                            run_qa_review, failures):
+            return 1
 
     finally:
         SRS.write_text(original)
 
     if failures:
-        print(f"\nFAIL: {len(failures)} of {len(MUTATIONS) + len(WIRING_MUTATIONS)} "
-              f"seeded bugs not detected")
+        print(f"\nFAIL: {len(failures)} seeded bugs not detected")
         for f in failures:
             print(f"  - {f}")
         return 1
 
-    print(f"\nPASS: detected all {len(MUTATIONS)} algorithm bugs and "
-          f"{len(WIRING_MUTATIONS)} wiring bugs; both suites pass on clean code")
+    total = len(MUTATIONS) + len(WIRING_MUTATIONS) + len(REVIEW_MUTATIONS) \
+            + len(REVIEW_ENGINE_MUTATIONS)
+    print(f"\nPASS: detected all {total} seeded bugs "
+          f"({len(MUTATIONS)} algorithm, {len(WIRING_MUTATIONS)} wiring, "
+          f"{len(REVIEW_MUTATIONS) + len(REVIEW_ENGINE_MUTATIONS)} review); "
+          f"all suites pass on clean code")
     return 0
 
 

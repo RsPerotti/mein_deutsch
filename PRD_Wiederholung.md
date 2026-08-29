@@ -233,12 +233,33 @@ sites, the Artikel recording fix, backfill, and `_factory/validate-srs.py`. Ship
 UI. Scheduling data starts accumulating and can be inspected in the console before any
 screen depends on it.
 
-**Phase 2 — the surface.** Wiederholung home tile with due count, review session, the
-Main-engine dispatcher. One mixed queue, verb/noun/adverb/adjective/particle/preposition
-items only.
+**Phase 2 — the surface. SHIPPED 2026-08-29 (v20).** Wiederholung home card with due count,
+review session, Main engine. One mixed queue over verbs, nouns, adverbs, adjectives,
+prepositions, particles and expressions.
+
+> **What the build changed against §5.4.** The predicted approach was a dispatcher routing
+> each item to one of four engines. For the Main engine that turned out to be unnecessary:
+> `_showNext()` already dispatches on `ex.type`, so a mixed queue of Main-engine items is
+> something it can serve as-is. Review builds `session` directly with `reviewMode: true` and
+> hands over. The engine needed four small branches, not a dispatcher: end-of-queue goes to
+> `Review.finish()` rather than a module home that does not exist; `_unlockWord` is a no-op;
+> early exit shows results; and module-specific behaviour (the verb badge, the particle
+> feedback card, the preposition unlock skip) reads `_srcModule()` — the item's own tag —
+> instead of `session.moduleId`, which is null in a mixed queue. The dispatcher is still
+> required for Phase 3, whose three engines have their own session objects and cannot share
+> `session`.
+>
+> **A real bug the QA suite caught:** the index was guarded on `window.appData`, which is
+> always `undefined` — the app's data files declare their globals with top-level `const`,
+> which is lexical and never a property of `window`. In a browser this would have silently
+> indexed nothing from the seven Main modules and left review permanently empty.
 
 **Phase 3 — the other three engines.** Deklination, Vorsilben and Artikel items join the
-review queue.
+review queue. This is where the §5.4 dispatcher is actually needed: each has its own session
+object (`_deklSession`, `_prefixSession`, `_artikelSession`), its own grading handler and its
+own advance step, so review must hand control to them per item rather than sharing `session`.
+Their due items are already indexed and counted — the home card reports them as *noch nicht
+verfügbar* rather than pretending they are not due.
 
 Each phase is a separate commit with a service-worker `CACHE` bump.
 

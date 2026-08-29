@@ -32,13 +32,19 @@
  *      app_srs store, all 8 grade sites funnelled through _recordAnswer, Artikel
  *      result recording fixed (recorded nothing since it shipped), one-shot
  *      backfill from app_exercise_history staggered over 14 days. No UI yet.
+ * v20: Spaced repetition Phase 2 (Session 40) — Wiederholung home card and the
+ *      cross-module review session. js/review.js builds one mixed due queue and
+ *      hands it to the Main engine rather than duplicating its renderers; the
+ *      engine gains a reviewMode branch in four places. Main-engine items only
+ *      (verbs, nouns, adverbs, adjectives, prepositions, particles, expressions)
+ *      — Deklination, Vorsilben and Artikel join in Phase 3.
  *
  * DEPLOY NOTE: bump the CACHE version string on every push that changes
  * JS/CSS files. The browser only installs a new SW when this file changes.
  * If the version is not bumped, users keep running the old cached code.
  */
 
-const CACHE = 'mein-deutsch-v19';
+const CACHE = 'mein-deutsch-v20';
 
 const PRECACHE = [
   './',
@@ -55,6 +61,7 @@ const PRECACHE = [
   './js/app.js',
   './js/progress.js',
   './js/srs.js',
+  './js/review.js',
   './js/exercises.js',
   './js/wordlist.js',
   './js/wordpractice.js',

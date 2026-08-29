@@ -48,6 +48,15 @@ let session = {
 // `sess` is whichever session object owns the answer — session, _deklSession,
 // _prefixSession or _artikelSession. Passing it rather than reading a global
 // is what lets the same handlers serve both module play and review.
+// In module play the session knows its module. In a review session the queue is
+// mixed, so `session.moduleId` is null and any behaviour that keys off it (the
+// verb Regular/Irregular badge, the particle feedback card, the preposition
+// unlock skip) has to key off the item instead. Review tags each queued
+// exercise with `_srcModule` for exactly this.
+function _srcModule() {
+  return session.moduleId || (session.current && session.current._srcModule) || null;
+}
+
 function _recordAnswer(itemId, isRight, sess) {
   if (!itemId) return;
   if (!sess || !sess.reviewMode) Progress.recordResult(itemId, isRight);
@@ -239,6 +248,8 @@ function _showNext() {
   }
 
   if (session.queue.length === 0) {
+    // A review session has no module to return to.
+    if (session.reviewMode) { Review.finish(); return; }
     returnFromResults();
     return;
   }
@@ -283,7 +294,7 @@ function _showNext() {
   }
 
   // Inject Regular/Irregular + case badge for verb exercises
-  if (session.moduleId === 'module_verbs' && ex.word_id) {
+  if (_srcModule() === 'module_verbs' && ex.word_id) {
     const badge = _verbMetaBadge(ex.word_id);
     if (badge) {
       const metaEl = card.querySelector('.exercise-meta');
@@ -715,6 +726,7 @@ function checkPartizipII() {
       fb.style.display = 'block';
     }
 
+    session.incorrectCount = (session.incorrectCount || 0) + 1;
     _recordAnswer(session.current.exercise_id, false, session);
 
     const retryKey = session.current.word_id || session.current.exercise_id;
@@ -781,6 +793,7 @@ function submitConjugationTable() {
     _flash('green');
     setTimeout(() => _showNext(), 1800);
   } else {
+    session.incorrectCount = (session.incorrectCount || 0) + 1;
     _recordAnswer(ex.exercise_id, false, session);
 
     const retryKey = ex.word_id || ex.exercise_id;
@@ -805,7 +818,8 @@ function selectAnswer(btn) {
   const correct    = session.current.correct_answer ?? session.current.correct;
   const exKey      = session.current.exercise_id    ?? session.current.id;
   const isRight    = chosen === correct;
-  const isParticle = session.moduleId === 'module_particles';
+  const srcModule  = _srcModule();
+  const isParticle = srcModule === 'module_particles';
 
   // Disable all buttons
   document.querySelectorAll('#opts .option-btn').forEach(b => {
@@ -817,7 +831,7 @@ function selectAnswer(btn) {
     session.correctCount++;
     _recordAnswer(exKey, true, session);
     // Particles have no word-unlock mechanic; prepositions likewise skip it
-    if (!isParticle && session.moduleId !== 'module_prepositions') {
+    if (!isParticle && srcModule !== 'module_prepositions') {
       _unlockWord(session.current.word_id);
     }
 
@@ -855,6 +869,7 @@ function selectAnswer(btn) {
       }
     }
 
+    session.incorrectCount = (session.incorrectCount || 0) + 1;
     _recordAnswer(exKey, false, session);
 
     // Cooldown logic (Section 11.3)
@@ -862,7 +877,7 @@ function selectAnswer(btn) {
     session.retries[retryKey] = (session.retries[retryKey] || 0) + 1;
     if (session.retries[retryKey] <= 2) {
       session.cooldown.push(session.current);
-    } else if (!isParticle && session.moduleId !== 'module_prepositions') {
+    } else if (!isParticle && srcModule !== 'module_prepositions') {
       Progress.addNeedsReview(retryKey);
     }
 
@@ -907,12 +922,23 @@ function exitExerciseEarly() {
     returnFromResults();
     return;
   }
+  if (exerciseMode === 'review') {
+    // Leaving a review session part-way is expected, not an abort: there is no
+    // session cap (PRD §5.7), so "answered 40 of 600" is the normal shape of a
+    // session. Show the results rather than dropping silently to the home screen.
+    Review.finish();
+    return;
+  }
   returnFromResults();
 }
 
 // --- Unlock word on correct answer ---
 function _unlockWord(wordId) {
-  if (Progress.isUnlocked(wordId)) return;
+  // Review never unlocks. An item can only be due because it was answered in a
+  // module, which means its word is already unlocked; treating a review answer
+  // as a first exposure would put stale words in the "Neu freigeschaltet" list.
+  if (session.reviewMode) return;
+  if (!wordId || Progress.isUnlocked(wordId)) return;
 
   const nounEntry = appData.nouns && appData.nouns.find(n => n.id === wordId);
   if (nounEntry) {
@@ -955,6 +981,10 @@ function _flash(color) {
 // --- Results screen ---
 function _showResults() {
   navigateTo('screen-results');
+
+  // Restore the button Review.finish() hides — the results screen is shared.
+  const modBtn = document.getElementById('results-module-btn');
+  if (modBtn) modBtn.style.display = '';
 
   document.getElementById('results-summary').textContent =
     `${session.correctCount} Frage${session.correctCount !== 1 ? 'n' : ''} richtig beantwortet.`;
