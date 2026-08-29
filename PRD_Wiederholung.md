@@ -1,6 +1,6 @@
 # PRD — Wiederholung (Spaced Repetition & Cross-Module Review)
 
-**Status:** SIGNED OFF — 2026-08-29
+**Status:** DELIVERED — all three phases shipped 2026-08-29 (v21)
 **Created:** 2026-08-29 (Session 40)
 **Owner:** Ricco
 
