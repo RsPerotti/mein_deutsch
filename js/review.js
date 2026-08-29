@@ -11,11 +11,11 @@
  * engine that already knows how to draw and grade each item. Duplicating the
  * thirteen renderers here would guarantee they drift apart.
  *
- * Phase 2 serves only Main-engine items (verbs, nouns, adverbs, adjectives,
- * prepositions, particles, expressions). Deklination, Vorsilben and Artikel have
- * their own session objects and join in Phase 3. The home card counts only what
- * can actually be served, so the number on it is never a promise the session
- * fails to keep.
+ * Phase 3 completes it: all four engines now serve review items. Review owns the
+ * queue, the counters, the requeue-on-miss and the HUD; each engine is handed
+ * exactly one item at a time, draws it, grades it, and hands control back. An
+ * engine in reviewMode manages no queue and no cooldown of its own — it cannot,
+ * because it can only see its own item and the session spans all four.
  */
 
 const Review = {
@@ -64,8 +64,8 @@ const Review = {
       }
     }
 
-    // Phase 3 engines. Indexed now so the home card can report honestly on what
-    // is due but not yet servable, and so prune() does not delete their state.
+    // The other three engines. Each item carries the engine that can draw it;
+    // _serve() dispatches on that.
     const dekl   = (typeof DECLENSION_DATA !== 'undefined') ? DECLENSION_DATA : {};
     const prefix = (typeof PREFIXES_DATA   !== 'undefined') ? PREFIXES_DATA   : {};
     const later = [
@@ -103,41 +103,40 @@ const Review = {
   // --- What is due ---------------------------------------------------------
 
   /**
-   * Due items split by whether this phase can serve them.
-   * `unknown` is scheduling state for content that no longer exists — dropped
-   * silently rather than crashing a session on a missing renderer.
+   * Due items, as index entries. `unknown` is scheduling state for content that
+   * no longer exists — dropped silently rather than crashing a session on a
+   * renderer that cannot be found.
    */
   dueBreakdown() {
-    if (typeof SRS === 'undefined') return { servable: [], later: 0, unknown: 0 };
+    if (typeof SRS === 'undefined') return { servable: [], unknown: 0 };
     const index = this.buildIndex();
-    const servable = [], counts = { later: 0, unknown: 0 };
+    const servable = [];
+    let unknown = 0;
 
     for (const id of SRS.getDue()) {
       const entry = index[id];
-      if (!entry) { counts.unknown++; continue; }
-      if (entry.engine !== 'main') { counts.later++; continue; }
-      servable.push(entry.ex);
+      if (!entry) { unknown++; continue; }
+      servable.push(entry);
     }
-    return { servable, later: counts.later, unknown: counts.unknown };
+    return { servable, unknown };
   },
 
   dueCount() { return this.dueBreakdown().servable.length; },
 
   /**
-   * Most overdue first (PRD §5.7), shuffled within each due date so a session
-   * is genuinely mixed rather than clustered by whichever module happens to
-   * share a date.
+   * Most overdue first (PRD §5.7), shuffled within each due date so a session is
+   * genuinely mixed rather than clustered by whichever module happens to share a
+   * date. Returns index entries, not bare exercises — the engine tag travels
+   * with the item all the way to _serve().
    */
   buildQueue() {
-    const items = this.dueBreakdown().servable;
     const byDate = {};
-    for (const ex of items) {
-      const st = SRS.get(ex.exercise_id || ex.id);
+    for (const entry of this.dueBreakdown().servable) {
+      const st = SRS.get(entry.ex.exercise_id || entry.ex.id);
       const d  = (st && st.d) || '9999-12-31';
-      (byDate[d] = byDate[d] || []).push(ex);
+      (byDate[d] = byDate[d] || []).push(entry);
     }
-    return Object.keys(byDate).sort()
-      .flatMap(d => _shuffle(byDate[d]));
+    return Object.keys(byDate).sort().flatMap(d => _shuffle(byDate[d]));
   },
 
   // --- Session -------------------------------------------------------------
@@ -146,13 +145,26 @@ const Review = {
   open() {
     if (this.dueCount() === 0) return;
     exerciseMode = 'review';
+    // navigateTo() early-returns when the target is already the current screen,
+    // so onScreenEnter — and therefore startSession — would never fire and the
+    // previous session would silently continue. Unreachable from the home card,
+    // but a trap for any future caller.
+    if (currentScreen === 'screen-exercise') { this.startSession(); return; }
     navigateTo('screen-exercise');
   },
 
+  // Session state. Review owns all of it; the engines own none of it.
+  _queue: [], _cooldown: [], _retries: {},
+  _engine: null, _current: null,
+  _correct: 0, _incorrect: 0, _total: 0, _active: false,
+
+  isActive() { return this._active; },
+
+  /** Answers given so far this session — the "FRAGE n" position. */
+  answeredCount() { return this._correct + this._incorrect; },
+
   /**
-   * Called by onScreenEnter when exerciseMode === 'review'. Builds the Main
-   * engine's own session object with reviewMode set, then hands over: every
-   * render, grade and advance from here is the existing engine's code.
+   * Called by onScreenEnter when exerciseMode === 'review'.
    */
   startSession() {
     const queue = this.buildQueue();
@@ -166,15 +178,15 @@ const Review = {
       return;
     }
 
-    session = {
-      moduleId: null, category: null,
-      tenseContext: null, vergangenheitTense: null,
-      reviewMode: true,
-      queue, cooldown: [], retries: {},
-      correctCount: 0, incorrectCount: 0, newlyUnlocked: [],
-      current: null, answered: false,
-      reviewTotal: queue.length
-    };
+    this._queue    = queue;
+    this._cooldown = [];
+    this._retries  = {};
+    this._engine   = null;
+    this._current  = null;
+    this._correct  = 0;
+    this._incorrect = 0;
+    this._total    = queue.length;
+    this._active   = true;
 
     document.getElementById('exercise-context-label').textContent =
       'WIEDERHOLUNG · ' + queue.length + ' FÄLLIG';
@@ -185,13 +197,114 @@ const Review = {
       if (el) el.style.display = 'none';
     });
 
-    _updateChips();
+    this.updateHud();
+    this.next();
+  },
+
+  /**
+   * Serve the next item, or finish. Called by every engine when it runs out of
+   * items — which, in review, is after every single card.
+   */
+  next() {
+    if (this._queue.length === 0 && this._cooldown.length > 0) {
+      this._queue    = _shuffle([...this._cooldown]);
+      this._cooldown = [];
+    }
+    if (this._queue.length === 0) { this.finish(); return; }
+    this._serve(this._queue.shift());
+  },
+
+  /**
+   * Hand one item to the engine that can draw it. Each engine gets a session
+   * object holding exactly this item: no queue to advance into, no cooldown to
+   * flush, so when it asks for the next card it necessarily comes back here.
+   *
+   * This is the dispatcher PRD §5.4 called for. Phase 2 did not need it because
+   * the Main engine already dispatches on `ex.type`; these three cannot share
+   * `session`, because each reads its own module-level global.
+   */
+  _serve(entry) {
+    const ex = entry.ex;
+    this._engine  = entry.engine;
+    this._current = entry;
+
+    const shell = (extra) => Object.assign({
+      queue: [ex], cooldown: [], correctCount: 0, totalCount: 1,
+      current: null, answered: false, reviewMode: true
+    }, extra || {});
+
+    if (entry.engine === 'main') {
+      session = shell({
+        moduleId: null, category: null,
+        tenseContext: null, vergangenheitTense: null,
+        retries: {}, newlyUnlocked: []
+      });
+      _showNext();
+    } else if (entry.engine === 'dekl') {
+      _deklSession = shell();
+      _deklShowNext();
+    } else if (entry.engine === 'prefix') {
+      _prefixSession = shell();
+      _prefixShowNext();
+    } else if (entry.engine === 'artikel') {
+      _artikelSession = shell();
+      _artikelShowNext();
+    } else {
+      // Unknown engine: skip rather than stall the session.
+      this.next();
+    }
+  },
+
+  /** The "Weiter →" button. Which engine drew the card decides who advances. */
+  advance() {
+    if (this._engine === 'dekl')    { _deklShowNext();    return; }
+    if (this._engine === 'prefix')  { _prefixShowNext();  return; }
+    if (this._engine === 'artikel') { _artikelShowNext(); return; }
     _showNext();
+  },
+
+  /**
+   * Every graded answer in a review session arrives here, from all four engines,
+   * via _recordAnswer(). Review counts it and decides whether it comes back.
+   */
+  onGraded(itemId, isRight) {
+    if (!this._active) return;
+    if (isRight) { this._correct++; }
+    else {
+      this._incorrect++;
+      // Same rule as module play (blueprint 11.3): a missed item comes back
+      // later in the session, but only twice — after that the schedule has it
+      // due today anyway, so a third pass is drilling, not review.
+      this._retries[itemId] = (this._retries[itemId] || 0) + 1;
+      if (this._retries[itemId] <= 2 && this._current) {
+        this._cooldown.push(this._current);
+      }
+    }
+    this.updateHud();
+  },
+
+  /** The chips and progress bar belong to the session, not to one card. */
+  updateHud() {
+    const answered = this._correct + this._incorrect;
+    const left     = this._queue.length + this._cooldown.length;
+    const pct      = this._total > 0
+      ? Math.round(Math.min(answered, this._total) / this._total * 100) : 0;
+
+    const bar = document.getElementById('exercise-progress-fill');
+    if (bar) bar.style.width = pct + '%';
+
+    const set = (id, v) => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = v;
+    };
+    set('chip-correct', this._correct);
+    set('chip-queue', left);
+    set('chip-cooldown', this._cooldown.length);
   },
 
   /** End of a review session, whether the queue emptied or Ricco left early. */
   finish() {
-    const s = session;
+    this._active = false;
     exerciseMode = 'module';
 
     navigateTo('screen-results');
@@ -201,20 +314,20 @@ const Review = {
     const modBtn = document.getElementById('results-module-btn');
     if (modBtn) modBtn.style.display = 'none';
 
-    const answered  = s.correctCount + (s.incorrectCount || 0);
-    const remaining = s.queue.length + s.cooldown.length;
+    const answered  = this._correct + this._incorrect;
+    const remaining  = this._queue.length + this._cooldown.length;
 
     document.getElementById('results-summary').textContent = answered === 0
       ? 'Keine Aufgaben beantwortet.'
-      : `${s.correctCount} von ${answered} richtig.`;
+      : `${this._correct} von ${answered} richtig.`;
 
-    const pct = answered > 0 ? Math.round(s.correctCount / answered * 100) : 0;
+    const pct = answered > 0 ? Math.round(this._correct / answered * 100) : 0;
     document.getElementById('results-stats').innerHTML = `
       <div class="results-stat-row">
-        <span>Richtig</span><strong>${s.correctCount}</strong>
+        <span>Richtig</span><strong>${this._correct}</strong>
       </div>
       <div class="results-stat-row">
-        <span>Falsch</span><strong>${s.incorrectCount || 0}</strong>
+        <span>Falsch</span><strong>${this._incorrect}</strong>
       </div>
       <div class="results-stat-row">
         <span>Trefferquote</span><strong>${pct}%</strong>
@@ -237,8 +350,7 @@ const Review = {
     if (!el) return;
     if (typeof SRS === 'undefined') { el.innerHTML = ''; return; }
 
-    const { servable, later } = this.dueBreakdown();
-    const n = servable.length;
+    const n = this.dueCount();
 
     if (n === 0) {
       const scheduled = SRS.countScheduled();
@@ -246,8 +358,7 @@ const Review = {
         <div class="review-card review-card-empty">
           <div class="review-card-label">Wiederholung</div>
           <div class="review-card-title">Nichts fällig</div>
-          <div class="review-card-sub">${scheduled} Aufgaben im Plan${
-            later > 0 ? ` · ${later} noch nicht verfügbar` : ''}</div>
+          <div class="review-card-sub">${scheduled} Aufgaben im Plan</div>
         </div>`;
       return;
     }
@@ -262,8 +373,7 @@ const Review = {
         </div>
         <div class="review-card-label">Wiederholung</div>
         <div class="review-card-title">${n} fällig</div>
-        <div class="review-card-sub">Aus allen Modulen${
-          later > 0 ? ` · ${later} noch nicht verfügbar` : ''}</div>
+        <div class="review-card-sub">Aus allen Modulen</div>
       </div>`;
   }
 };

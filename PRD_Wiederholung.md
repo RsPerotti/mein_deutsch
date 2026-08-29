@@ -254,12 +254,32 @@ prepositions, particles and expressions.
 > which is lexical and never a property of `window`. In a browser this would have silently
 > indexed nothing from the seven Main modules and left review permanently empty.
 
-**Phase 3 — the other three engines.** Deklination, Vorsilben and Artikel items join the
-review queue. This is where the §5.4 dispatcher is actually needed: each has its own session
-object (`_deklSession`, `_prefixSession`, `_artikelSession`), its own grading handler and its
-own advance step, so review must hand control to them per item rather than sharing `session`.
-Their due items are already indexed and counted — the home card reports them as *noch nicht
-verfügbar* rather than pretending they are not due.
+**Phase 3 — the other three engines. SHIPPED 2026-08-29 (v21).** Deklination, Vorsilben and
+Artikel items now appear in the review queue. This is where the §5.4 dispatcher was genuinely
+needed: each engine owns a module-level session global, so they cannot share `session`.
+
+> **The shape it took.** Review now owns the queue, the counters, the requeue-on-miss and the
+> HUD; each engine is handed a shell session containing exactly one item, with no queue to
+> advance into and no cooldown to flush, so asking for the next card necessarily returns
+> control to `Review.next()`. An engine in `reviewMode` therefore manages nothing of its own —
+> it cannot, because it can see one item and the session spans four engines.
+>
+> Concretely: `_reviewHud()` decides who owns the chips and the progress bar (six sites, all
+> previously duplicated); `_questionNumber()` does the same for the "FRAGE n" counter; each
+> engine's empty-queue branch hands back rather than opening its own results screen; each
+> engine's cooldown push is skipped; and `advanceExercise()` dispatches on the engine that drew
+> the current card rather than on `exerciseMode`.
+>
+> **Three defects found during the build, all by checks rather than by reading:**
+> 1. Two of the six HUD blocks were left unguarded, so the one-item shell's zeros overwrote the
+>    session's chips after every Deklination and Vorsilben answer.
+> 2. Every renderer built its counter from its own session's `correctCount`, which is always 0
+>    in a one-item shell — so **every card in a review session read "FRAGE 1"**, including the
+>    three Phase 3 engines, which read the stale Main session. Caught by a screenshot; no
+>    assertion existed for it, and one does now.
+> 3. `Review.open()` while already on the exercise screen silently continued the previous
+>    session, because `navigateTo()` early-returns on the current screen and `onScreenEnter`
+>    never fires. Unreachable from the home card, guarded anyway.
 
 Each phase is a separate commit with a service-worker `CACHE` bump.
 

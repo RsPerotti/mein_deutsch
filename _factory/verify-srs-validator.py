@@ -79,22 +79,67 @@ REVIEW_MUTATIONS = [
     ("index falls back to window globals (the lexical-global bug)",
      "    const data = (typeof appData !== 'undefined') ? appData : null;",
      "    const data = window.appData || null;"),
-    ("Phase 3 items are offered as servable",
-     "      if (entry.engine !== 'main') { counts.later++; continue; }",
-     "      if (false) { counts.later++; continue; }"),
     ("scheduling state for deleted content crashes into the queue",
-     "      if (!entry) { counts.unknown++; continue; }",
-     "      if (!entry) { counts.unknown++; }"),
+     "      if (!entry) { unknown++; continue; }",
+     "      if (!entry) { unknown++; }"),
     ("not-yet-due items leak into the queue",
-     "    const items = this.dueBreakdown().servable;",
-     "    const items = Object.values(this.buildIndex()).map(e => e.ex);"),
+     "    for (const entry of this.dueBreakdown().servable) {",
+     "    for (const entry of Object.values(this.buildIndex())) {"),
     ("queue is no longer most-overdue first",
      "    return Object.keys(byDate).sort()", "    return Object.keys(byDate).sort().reverse()"),
     ("exercises are mutated in place instead of cloned",
      "        index[id] = { ex: { ...ex, _srcModule: moduleId }, moduleId, engine: 'main' };",
      "        ex._srcModule = moduleId; index[id] = { ex, moduleId, engine: 'main' };"),
     ("the session forgets it is a review",
-     "      reviewMode: true,", "      reviewMode: false,"),
+     "      current: null, answered: false, reviewMode: true",
+     "      current: null, answered: false, reviewMode: false"),
+]
+
+# Phase 3. The dispatcher's failure modes: an engine that advances into its own
+# empty queue instead of handing back, one that keeps its own counters or
+# cooldown, or one whose HUD writes overwrite the session's.
+PHASE3_MUTATIONS = [
+    ("Deklination advances into its own results screen instead of handing back",
+     "    if (s.reviewMode) { Review.next(); return; }\n    _deklShowResults();",
+     "    _deklShowResults();"),
+    ("Vorsilben advances into its own results screen instead of handing back",
+     "    if (s.reviewMode) { Review.next(); return; }\n    _prefixShowResults();",
+     "    _prefixShowResults();"),
+    ("Artikel advances into its own results screen instead of handing back",
+     "    if (s.reviewMode) { Review.next(); return; }\n    _artikelShowResults();",
+     "    _artikelShowResults();"),
+    ("the Weiter button stops dispatching on the engine",
+     "  if (exerciseMode === 'review') { Review.advance(); return; }",
+     "  if (exerciseMode === 'review') { _showNext(); return; }"),
+    ("an engine keeps its own cooldown in review (Deklination)",
+     "  } else if (!s.reviewMode) {\n    s.cooldown.push(ex);",
+     "  } else {\n    s.cooldown.push(ex);"),
+    ("an engine keeps its own cooldown in review (Vorsilben)",
+     "  else if (!s.reviewMode) s.cooldown.push(ex);",
+     "  else s.cooldown.push(ex);"),
+    ("the HUD is written by the engine instead of the session",
+     "function _reviewHud() {\n  if (exerciseMode !== 'review' || typeof Review === 'undefined') return false;",
+     "function _reviewHud() {\n  if (true) return false;\n  if (exerciseMode !== 'review' || typeof Review === 'undefined') return false;"),
+    ("the question counter reads off the one-item shell",
+     "  if (exerciseMode === 'review' && typeof Review !== 'undefined' && Review.isActive()) {\n    return Review.answeredCount() + 1;\n  }",
+     "  if (false) {\n    return Review.answeredCount() + 1;\n  }"),
+    ("grading no longer reaches Review's counters",
+     "  if (sess && sess.reviewMode && typeof Review !== 'undefined') {\n    Review.onGraded(itemId, isRight);",
+     "  if (false) {\n    Review.onGraded(itemId, isRight);"),
+]
+
+PHASE3_REVIEW_MUTATIONS = [
+    ("the dispatcher sends every item to the Main engine",
+     "    if (entry.engine === 'main') {", "    if (true) {"),
+    ("an engine is handed the whole queue instead of one item",
+     "      queue: [ex], cooldown: [], correctCount: 0, totalCount: 1,",
+     "      queue: [ex, ex], cooldown: [], correctCount: 0, totalCount: 1,"),
+    ("misses are no longer requeued",
+     "      if (this._retries[itemId] <= 2 && this._current) {",
+     "      if (false && this._current) {"),
+    ("the queue drops its engine tags",
+     "      (byDate[d] = byDate[d] || []).push(entry);",
+     "      (byDate[d] = byDate[d] || []).push({ ...entry, engine: 'main' });"),
 ]
 
 REVIEW_ENGINE_MUTATIONS = [
@@ -102,7 +147,7 @@ REVIEW_ENGINE_MUTATIONS = [
      "  if (session.reviewMode) return;\n  if (!wordId || Progress.isUnlocked(wordId)) return;",
      "  if (!wordId || Progress.isUnlocked(wordId)) return;"),
     ("emptying a review queue falls through to a stale module home",
-     "    if (session.reviewMode) { Review.finish(); return; }\n    returnFromResults();",
+     "    if (session.reviewMode) { Review.next(); return; }\n    returnFromResults();",
      "    returnFromResults();"),
     ("module-specific behaviour keys off the session again",
      "function _srcModule() {\n  return session.moduleId || (session.current && session.current._srcModule) || null;\n}",
@@ -197,6 +242,12 @@ def main():
         if not mutate_suite("qa-review.js", EXERCISES, REVIEW_ENGINE_MUTATIONS,
                             run_qa_review, failures):
             return 1
+        if not mutate_suite("qa-review.js (phase 3)", EXERCISES, PHASE3_MUTATIONS,
+                            run_qa_review, failures):
+            return 1
+        if not mutate_suite("qa-review.js (phase 3)", REVIEW, PHASE3_REVIEW_MUTATIONS,
+                            run_qa_review, failures):
+            return 1
 
     finally:
         SRS.write_text(original)
@@ -208,10 +259,12 @@ def main():
         return 1
 
     total = len(MUTATIONS) + len(WIRING_MUTATIONS) + len(REVIEW_MUTATIONS) \
-            + len(REVIEW_ENGINE_MUTATIONS)
+            + len(REVIEW_ENGINE_MUTATIONS) + len(PHASE3_MUTATIONS) \
+            + len(PHASE3_REVIEW_MUTATIONS)
     print(f"\nPASS: detected all {total} seeded bugs "
           f"({len(MUTATIONS)} algorithm, {len(WIRING_MUTATIONS)} wiring, "
-          f"{len(REVIEW_MUTATIONS) + len(REVIEW_ENGINE_MUTATIONS)} review); "
+          f"{len(REVIEW_MUTATIONS) + len(REVIEW_ENGINE_MUTATIONS)} review, "
+          f"{len(PHASE3_MUTATIONS) + len(PHASE3_REVIEW_MUTATIONS)} dispatcher); "
           f"all suites pass on clean code")
     return 0
 

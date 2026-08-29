@@ -38,13 +38,17 @@
  *      engine gains a reviewMode branch in four places. Main-engine items only
  *      (verbs, nouns, adverbs, adjectives, prepositions, particles, expressions)
  *      — Deklination, Vorsilben and Artikel join in Phase 3.
+ * v21: Spaced repetition Phase 3 (Session 40) — all four engines serve review.
+ *      Review owns the queue, counters, requeue-on-miss and HUD; each engine is
+ *      handed one item at a time and hands control back. Deklination, Vorsilben
+ *      and Artikel items now appear in the Wiederholung queue.
  *
  * DEPLOY NOTE: bump the CACHE version string on every push that changes
  * JS/CSS files. The browser only installs a new SW when this file changes.
  * If the version is not bumped, users keep running the old cached code.
  */
 
-const CACHE = 'mein-deutsch-v20';
+const CACHE = 'mein-deutsch-v21';
 
 const PRECACHE = [
   './',

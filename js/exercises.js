@@ -53,6 +53,29 @@ let session = {
 // verb Regular/Irregular badge, the particle feedback card, the preposition
 // unlock skip) has to key off the item instead. Review tags each queued
 // exercise with `_srcModule` for exactly this.
+// In a review session the HUD belongs to Review, not to whichever engine is
+// drawing the current item. Each engine is handed exactly one item at a time
+// and knows nothing about the session as a whole, so its own "queue: 0,
+// cooldown: 0, 100% done" numbers would be wrong on every single card.
+// Returns true when Review handled it, so callers skip their own version.
+// Every renderer draws a "FRAGE n" counter off its own session's correctCount.
+// In review each engine is handed a one-item shell whose counter is always 0, so
+// without this every single card in the session would read "FRAGE 1" — including
+// the three Phase 3 engines, which read the stale Main session. Review knows the
+// real position; module play keeps its existing "correct answers + 1" semantics.
+function _questionNumber(fallbackCount) {
+  if (exerciseMode === 'review' && typeof Review !== 'undefined' && Review.isActive()) {
+    return Review.answeredCount() + 1;
+  }
+  return (fallbackCount || 0) + 1;
+}
+
+function _reviewHud() {
+  if (exerciseMode !== 'review' || typeof Review === 'undefined') return false;
+  Review.updateHud();
+  return true;
+}
+
 function _srcModule() {
   return session.moduleId || (session.current && session.current._srcModule) || null;
 }
@@ -61,6 +84,11 @@ function _recordAnswer(itemId, isRight, sess) {
   if (!itemId) return;
   if (!sess || !sess.reviewMode) Progress.recordResult(itemId, isRight);
   if (typeof SRS !== 'undefined') SRS.grade(itemId, isRight);
+  // Review owns the counters and the requeue-on-miss for every engine, so it
+  // has to hear about the answer here rather than in four separate handlers.
+  if (sess && sess.reviewMode && typeof Review !== 'undefined') {
+    Review.onGraded(itemId, isRight);
+  }
 }
 
 // --- Entry point (called from app.js onScreenEnter) ---
@@ -248,8 +276,9 @@ function _showNext() {
   }
 
   if (session.queue.length === 0) {
-    // A review session has no module to return to.
-    if (session.reviewMode) { Review.finish(); return; }
+    // A review session has no module to return to, and the next item may
+    // belong to a different engine entirely — Review decides what comes next.
+    if (session.reviewMode) { Review.next(); return; }
     returnFromResults();
     return;
   }
@@ -257,11 +286,13 @@ function _showNext() {
   session.current  = session.queue.shift();
   session.answered = false;
 
-  // Progress bar
-  const done  = session.correctCount;
-  const total = done + session.queue.length + session.cooldown.length + 1;
-  document.getElementById('exercise-progress-fill').style.width =
-    total > 0 ? Math.round(done / total * 100) + '%' : '0%';
+  // Progress bar (Review draws its own in a review session)
+  if (!_reviewHud()) {
+    const done  = session.correctCount;
+    const total = done + session.queue.length + session.cooldown.length + 1;
+    document.getElementById('exercise-progress-fill').style.width =
+      total > 0 ? Math.round(done / total * 100) + '%' : '0%';
+  }
 
   // Render by exercise type
   const card = document.getElementById('exercise-card');
@@ -322,7 +353,7 @@ function _renderTranslateWord(ex) {
 
   return `
     <div class="exercise-meta">
-      <div class="exercise-counter">FRAGE ${session.correctCount + 1}</div>
+      <div class="exercise-counter">FRAGE ${_questionNumber(session.correctCount)}</div>
       <div class="exercise-type-label">Übersetzen</div>
     </div>
     <div class="exercise-word-display">
@@ -362,7 +393,7 @@ function _renderFillBlank(ex) {
 
   return `
     <div class="exercise-meta">
-      <div class="exercise-counter">FRAGE ${session.correctCount + 1}</div>
+      <div class="exercise-counter">FRAGE ${_questionNumber(session.correctCount)}</div>
       <div class="exercise-type-label">Lückentext</div>
     </div>
     <div class="exercise-sentence">${sentHtml}</div>
@@ -390,7 +421,7 @@ function _renderArticleChoice(ex) {
 
   return `
     <div class="exercise-meta">
-      <div class="exercise-counter">FRAGE ${session.correctCount + 1}</div>
+      <div class="exercise-counter">FRAGE ${_questionNumber(session.correctCount)}</div>
       <div class="exercise-type-label">Artikel</div>
     </div>
     <div class="exercise-sentence">${sentHtml}</div>
@@ -424,7 +455,7 @@ function _renderConjugation(ex) {
 
     return `
       <div class="exercise-meta">
-        <div class="exercise-counter">FRAGE ${session.correctCount + 1}</div>
+        <div class="exercise-counter">FRAGE ${_questionNumber(session.correctCount)}</div>
         <div class="exercise-type-label">Konjugation</div>
       </div>
       <div class="exercise-sentence">${sentHtml}</div>
@@ -446,7 +477,7 @@ function _renderConjugation(ex) {
 
   return `
     <div class="exercise-meta">
-      <div class="exercise-counter">FRAGE ${session.correctCount + 1}</div>
+      <div class="exercise-counter">FRAGE ${_questionNumber(session.correctCount)}</div>
       <div class="exercise-type-label">Konjugation</div>
     </div>
     <div class="exercise-word-display">
@@ -477,7 +508,7 @@ function _renderSelectPreposition(ex) {
 
   return `
     <div class="exercise-meta">
-      <div class="exercise-counter">FRAGE ${session.correctCount + 1}</div>
+      <div class="exercise-counter">FRAGE ${_questionNumber(session.correctCount)}</div>
       <div class="exercise-type-label">Präposition</div>
     </div>
     <div class="exercise-sentence">${sentHtml}</div>
@@ -511,7 +542,7 @@ function _renderSelectCase(ex) {
 
   return `
     <div class="exercise-meta">
-      <div class="exercise-counter">FRAGE ${session.correctCount + 1}</div>
+      <div class="exercise-counter">FRAGE ${_questionNumber(session.correctCount)}</div>
       <div class="exercise-type-label">Kasus</div>
     </div>
     <div class="exercise-sentence">${sentHtml}</div>
@@ -546,7 +577,7 @@ function _renderFillBlankParticle(ex) {
 
   return `
     <div class="exercise-meta">
-      <div class="exercise-counter">FRAGE ${session.correctCount + 1}</div>
+      <div class="exercise-counter">FRAGE ${_questionNumber(session.correctCount)}</div>
       <div class="exercise-type-label">Partikel · ${_esc(ex.cefr || '')}</div>
     </div>
     <div class="exercise-sentence">${sentHtml}</div>
@@ -575,7 +606,7 @@ function _renderPartizipII(ex) {
 
   return `
     <div class="exercise-meta">
-      <div class="exercise-counter">FRAGE ${session.correctCount + 1}</div>
+      <div class="exercise-counter">FRAGE ${_questionNumber(session.correctCount)}</div>
       <div class="exercise-type-label">Partizip II</div>
     </div>
     <div class="exercise-word-display">
@@ -616,7 +647,7 @@ function _renderAuxiliaryChoice(ex) {
 
   return `
     <div class="exercise-meta">
-      <div class="exercise-counter">FRAGE ${session.correctCount + 1}</div>
+      <div class="exercise-counter">FRAGE ${_questionNumber(session.correctCount)}</div>
       <div class="exercise-type-label">Hilfsverb</div>
     </div>
     <div class="exercise-word-display">
@@ -665,7 +696,7 @@ function _renderConjugationTable(ex) {
 
   return `
     <div class="exercise-meta">
-      <div class="exercise-counter">FRAGE ${session.correctCount + 1}</div>
+      <div class="exercise-counter">FRAGE ${_questionNumber(session.correctCount)}</div>
       <div class="exercise-type-label">Tabelle</div>
     </div>
     <div class="exercise-word-display" style="margin-bottom:var(--sp-3)">
@@ -726,12 +757,11 @@ function checkPartizipII() {
       fb.style.display = 'block';
     }
 
-    session.incorrectCount = (session.incorrectCount || 0) + 1;
     _recordAnswer(session.current.exercise_id, false, session);
 
     const retryKey = session.current.word_id || session.current.exercise_id;
     session.retries[retryKey] = (session.retries[retryKey] || 0) + 1;
-    if (session.retries[retryKey] <= 2) session.cooldown.push(session.current);
+    if (!session.reviewMode && session.retries[retryKey] <= 2) session.cooldown.push(session.current);
 
     _flash('red');
     document.getElementById('next-btn').style.display = 'block';
@@ -793,12 +823,11 @@ function submitConjugationTable() {
     _flash('green');
     setTimeout(() => _showNext(), 1800);
   } else {
-    session.incorrectCount = (session.incorrectCount || 0) + 1;
     _recordAnswer(ex.exercise_id, false, session);
 
     const retryKey = ex.word_id || ex.exercise_id;
     session.retries[retryKey] = (session.retries[retryKey] || 0) + 1;
-    if (session.retries[retryKey] <= 2) session.cooldown.push(ex);
+    if (!session.reviewMode && session.retries[retryKey] <= 2) session.cooldown.push(ex);
 
     _flash('red');
     document.getElementById('next-btn').style.display = 'block';
@@ -869,13 +898,14 @@ function selectAnswer(btn) {
       }
     }
 
-    session.incorrectCount = (session.incorrectCount || 0) + 1;
     _recordAnswer(exKey, false, session);
 
     // Cooldown logic (Section 11.3)
     const retryKey = session.current.word_id || exKey;
     session.retries[retryKey] = (session.retries[retryKey] || 0) + 1;
-    if (session.retries[retryKey] <= 2) {
+    if (session.reviewMode) {
+      // Review requeues misses itself, across all four engines.
+    } else if (session.retries[retryKey] <= 2) {
       session.cooldown.push(session.current);
     } else if (!isParticle && srcModule !== 'module_prepositions') {
       Progress.addNeedsReview(retryKey);
@@ -890,6 +920,9 @@ function selectAnswer(btn) {
 
 // Called by the "Weiter →" button
 function advanceExercise() {
+  // In review the mode does not tell you which engine drew the card — the queue
+  // is mixed — so Review dispatches to whichever one owns the current item.
+  if (exerciseMode === 'review') { Review.advance(); return; }
   if (exerciseMode === 'wordlist') { _showNextWL(); return; }
   if (exerciseMode === 'artikel')  { _artikelShowNext(); return; }
   if (exerciseMode === 'deklination') { _deklShowNext(); return; }
@@ -899,6 +932,14 @@ function advanceExercise() {
 
 // Called by the back button inside the exercise screen
 function exitExerciseEarly() {
+  if (exerciseMode === 'review') {
+    // Leaving a review session part-way is expected, not an abort: there is no
+    // session cap (PRD §5.7), so "answered 40 of 600" is the normal shape of a
+    // session. Checked first because the engine that drew the last card is
+    // irrelevant — Review owns the session.
+    Review.finish();
+    return;
+  }
   if (exerciseMode === 'wordlist') {
     exerciseMode = 'module';
     _restoreModuleChips();
@@ -920,13 +961,6 @@ function exitExerciseEarly() {
   if (exerciseMode === 'prefix') {
     exerciseMode = 'module';
     returnFromResults();
-    return;
-  }
-  if (exerciseMode === 'review') {
-    // Leaving a review session part-way is expected, not an abort: there is no
-    // session cap (PRD §5.7), so "answered 40 of 600" is the normal shape of a
-    // session. Show the results rather than dropping silently to the home screen.
-    Review.finish();
     return;
   }
   returnFromResults();
@@ -1039,6 +1073,7 @@ function returnFromResults() {
 
 // --- Chips ---
 function _updateChips() {
+  if (_reviewHud()) return;
   document.getElementById('chip-correct').textContent  = session.correctCount;
   document.getElementById('chip-queue').textContent    = session.queue.length + session.cooldown.length;
   document.getElementById('chip-cooldown').textContent = session.cooldown.length;
@@ -1530,6 +1565,7 @@ function _artikelShowNext() {
   }
 
   if (s.queue.length === 0) {
+    if (s.reviewMode) { Review.next(); return; }
     _artikelShowResults();
     return;
   }
@@ -1538,15 +1574,19 @@ function _artikelShowNext() {
   s.answered = false;
 
   // Progress bar — based on totalCount so it doesn't shrink during cooldown rounds
-  const pct = s.totalCount > 0 ? Math.round(s.correctCount / s.totalCount * 100) : 0;
-  document.getElementById('exercise-progress-fill').style.width = pct + '%';
+  if (!_reviewHud()) {
+    const pct = s.totalCount > 0 ? Math.round(s.correctCount / s.totalCount * 100) : 0;
+    document.getElementById('exercise-progress-fill').style.width = pct + '%';
+  }
 
   document.getElementById('exercise-card').innerHTML = _renderSelectArticle(s.current);
   document.getElementById('next-btn').style.display = 'none';
 
-  document.getElementById('chip-correct').textContent  = s.correctCount;
-  document.getElementById('chip-queue').textContent    = s.queue.length + s.cooldown.length;
-  document.getElementById('chip-cooldown').textContent = s.cooldown.length;
+  if (!_reviewHud()) {
+    document.getElementById('chip-correct').textContent  = s.correctCount;
+    document.getElementById('chip-queue').textContent    = s.queue.length + s.cooldown.length;
+    document.getElementById('chip-cooldown').textContent = s.cooldown.length;
+  }
 }
 
 function _renderSelectArticle(ex) {
@@ -1617,7 +1657,7 @@ function selectArticleAnswer(chosen) {
     // Auto-advance after 800ms
     setTimeout(() => _artikelShowNext(), 800);
   } else {
-    s.cooldown.push(s.current);
+    if (!s.reviewMode) s.cooldown.push(s.current);
     if (feedback) {
       feedback.style.color = '#D97706';
       feedback.textContent = `Richtig: ${correct} ${s.current.word}`;
@@ -1625,11 +1665,13 @@ function selectArticleAnswer(chosen) {
     _flash('red');
     // Manual advance — show next button
     document.getElementById('next-btn').style.display = 'block';
-    document.getElementById('chip-cooldown').textContent = s.cooldown.length;
-    document.getElementById('chip-queue').textContent    = s.queue.length + s.cooldown.length;
+    if (!_reviewHud()) {
+      document.getElementById('chip-cooldown').textContent = s.cooldown.length;
+      document.getElementById('chip-queue').textContent    = s.queue.length + s.cooldown.length;
+    }
   }
 
-  document.getElementById('chip-correct').textContent = s.correctCount;
+  if (!_reviewHud()) document.getElementById('chip-correct').textContent = s.correctCount;
 }
 
 function _artikelShowResults() {
@@ -1772,6 +1814,7 @@ function _deklShowNext() {
   }
 
   if (s.queue.length === 0) {
+    if (s.reviewMode) { Review.next(); return; }
     _deklShowResults();
     return;
   }
@@ -1779,15 +1822,19 @@ function _deklShowNext() {
   s.current  = s.queue.shift();
   s.answered = false;
 
-  const pct = s.totalCount > 0 ? Math.round(s.correctCount / s.totalCount * 100) : 0;
-  document.getElementById('exercise-progress-fill').style.width = pct + '%';
+  if (!_reviewHud()) {
+    const pct = s.totalCount > 0 ? Math.round(s.correctCount / s.totalCount * 100) : 0;
+    document.getElementById('exercise-progress-fill').style.width = pct + '%';
+  }
 
   document.getElementById('exercise-card').innerHTML = _renderTypeEnding(s.current);
   document.getElementById('next-btn').style.display = 'none';
 
-  document.getElementById('chip-correct').textContent  = s.correctCount;
-  document.getElementById('chip-queue').textContent    = s.queue.length + s.cooldown.length;
-  document.getElementById('chip-cooldown').textContent = s.cooldown.length;
+  if (!_reviewHud()) {
+    document.getElementById('chip-correct').textContent  = s.correctCount;
+    document.getElementById('chip-queue').textContent    = s.queue.length + s.cooldown.length;
+    document.getElementById('chip-cooldown').textContent = s.cooldown.length;
+  }
 
   const input = document.getElementById('dekl-ending-input');
   if (input) input.focus();
@@ -1805,7 +1852,7 @@ function _renderTypeEnding(ex) {
 
   return `
     <div class="exercise-meta">
-      <div class="exercise-counter">FRAGE ${_deklSession.correctCount + 1}</div>
+      <div class="exercise-counter">FRAGE ${_questionNumber(_deklSession.correctCount)}</div>
       <div class="exercise-type-label">${patternLabels[ex.pattern] || ''} · ${_esc(ex.cefr || '')}</div>
     </div>
     <div class="exercise-sentence" style="line-height:2">${sentHtml}</div>
@@ -1844,7 +1891,7 @@ function submitDeklinationAnswer() {
 
   if (isRight) {
     s.correctCount++;
-  } else {
+  } else if (!s.reviewMode) {
     s.cooldown.push(ex);
   }
 
@@ -1852,9 +1899,11 @@ function submitDeklinationAnswer() {
 
   // No auto-advance (same decision as Partikeln) — feedback card must be read.
   document.getElementById('next-btn').style.display = 'block';
-  document.getElementById('chip-correct').textContent  = s.correctCount;
-  document.getElementById('chip-queue').textContent    = s.queue.length + s.cooldown.length;
-  document.getElementById('chip-cooldown').textContent = s.cooldown.length;
+  if (!_reviewHud()) {
+    document.getElementById('chip-correct').textContent  = s.correctCount;
+    document.getElementById('chip-queue').textContent    = s.queue.length + s.cooldown.length;
+    document.getElementById('chip-cooldown').textContent = s.cooldown.length;
+  }
 }
 
 // --- Deklination feedback card ---
@@ -2016,6 +2065,7 @@ function _prefixShowNext() {
   }
 
   if (s.queue.length === 0) {
+    if (s.reviewMode) { Review.next(); return; }
     _prefixShowResults();
     return;
   }
@@ -2023,8 +2073,10 @@ function _prefixShowNext() {
   s.current  = s.queue.shift();
   s.answered = false;
 
-  const pct = s.totalCount > 0 ? Math.round(s.correctCount / s.totalCount * 100) : 0;
-  document.getElementById('exercise-progress-fill').style.width = pct + '%';
+  if (!_reviewHud()) {
+    const pct = s.totalCount > 0 ? Math.round(s.correctCount / s.totalCount * 100) : 0;
+    document.getElementById('exercise-progress-fill').style.width = pct + '%';
+  }
 
   document.getElementById('exercise-card').innerHTML =
     s.current.type === 'select_feeling'
@@ -2033,9 +2085,11 @@ function _prefixShowNext() {
 
   document.getElementById('next-btn').style.display = 'none';
 
-  document.getElementById('chip-correct').textContent  = s.correctCount;
-  document.getElementById('chip-queue').textContent    = s.queue.length + s.cooldown.length;
-  document.getElementById('chip-cooldown').textContent = s.cooldown.length;
+  if (!_reviewHud()) {
+    document.getElementById('chip-correct').textContent  = s.correctCount;
+    document.getElementById('chip-queue').textContent    = s.queue.length + s.cooldown.length;
+    document.getElementById('chip-cooldown').textContent = s.cooldown.length;
+  }
 }
 
 const _PREFIX_GROUP_LABEL = {
@@ -2052,7 +2106,7 @@ function _renderSelectPrefix(ex) {
 
   return `
     <div class="exercise-meta">
-      <div class="exercise-counter">FRAGE ${_prefixSession.correctCount + 1}</div>
+      <div class="exercise-counter">FRAGE ${_questionNumber(_prefixSession.correctCount)}</div>
       <div class="exercise-type-label">${_esc(_PREFIX_GROUP_LABEL[ex.group] || '')}</div>
     </div>
 
@@ -2081,7 +2135,7 @@ function _renderSelectFeeling(ex) {
 
   return `
     <div class="exercise-meta">
-      <div class="exercise-counter">FRAGE ${_prefixSession.correctCount + 1}</div>
+      <div class="exercise-counter">FRAGE ${_questionNumber(_prefixSession.correctCount)}</div>
       <div class="exercise-type-label">${_esc(_PREFIX_GROUP_LABEL[ex.group] || '')}</div>
     </div>
 
@@ -2132,14 +2186,16 @@ function selectPrefixAnswer(btn) {
   _recordAnswer(ex.id, isRight, s);
 
   if (isRight) s.correctCount++;
-  else         s.cooldown.push(ex);
+  else if (!s.reviewMode) s.cooldown.push(ex);
 
   _showPrefixFeedbackCard(ex, isRight);
 
   document.getElementById('next-btn').style.display = 'block';
-  document.getElementById('chip-correct').textContent  = s.correctCount;
-  document.getElementById('chip-queue').textContent    = s.queue.length + s.cooldown.length;
-  document.getElementById('chip-cooldown').textContent = s.cooldown.length;
+  if (!_reviewHud()) {
+    document.getElementById('chip-correct').textContent  = s.correctCount;
+    document.getElementById('chip-queue').textContent    = s.queue.length + s.cooldown.length;
+    document.getElementById('chip-cooldown').textContent = s.cooldown.length;
+  }
 }
 
 // --- Prefix feedback card ---
