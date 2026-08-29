@@ -33,6 +33,27 @@ let session = {
   answered:       false
 };
 
+// --- Answer recording -------------------------------------------------------
+// Single funnel for every graded answer in the app (PRD_Wiederholung.md §5.4).
+//
+// Two stores, deliberately different:
+//   Progress.recordResult  — correct/incorrect counts, drives module-home
+//                            progress bars. Means "coverage".
+//   SRS.grade              — spaced-repetition scheduling. Means "retention".
+//
+// In reviewMode we grade SRS only (PRD Q3). Counting a review answer toward
+// the progress bars would let Vorsilben read 400 / 330 once the same items had
+// been reviewed a few times, and the bars would stop meaning anything.
+//
+// `sess` is whichever session object owns the answer — session, _deklSession,
+// _prefixSession or _artikelSession. Passing it rather than reading a global
+// is what lets the same handlers serve both module play and review.
+function _recordAnswer(itemId, isRight, sess) {
+  if (!itemId) return;
+  if (!sess || !sess.reviewMode) Progress.recordResult(itemId, isRight);
+  if (typeof SRS !== 'undefined') SRS.grade(itemId, isRight);
+}
+
 // --- Entry point (called from app.js onScreenEnter) ---
 function startExercise(state) {
   const { moduleId, category, tenseContext } = state || {};
@@ -678,7 +699,7 @@ function checkPartizipII() {
   if (isRight) {
     input.classList.add('partizip-correct');
     session.correctCount++;
-    Progress.recordResult(session.current.exercise_id, true);
+    _recordAnswer(session.current.exercise_id, true, session);
     _unlockWord(session.current.word_id);
     _flash('green');
     setTimeout(() => _showNext(), 1500);
@@ -694,7 +715,7 @@ function checkPartizipII() {
       fb.style.display = 'block';
     }
 
-    Progress.recordResult(session.current.exercise_id, false);
+    _recordAnswer(session.current.exercise_id, false, session);
 
     const retryKey = session.current.word_id || session.current.exercise_id;
     session.retries[retryKey] = (session.retries[retryKey] || 0) + 1;
@@ -755,12 +776,12 @@ function submitConjugationTable() {
 
   if (allCorrect) {
     session.correctCount++;
-    Progress.recordResult(ex.exercise_id, true);
+    _recordAnswer(ex.exercise_id, true, session);
     _unlockWord(ex.word_id);
     _flash('green');
     setTimeout(() => _showNext(), 1800);
   } else {
-    Progress.recordResult(ex.exercise_id, false);
+    _recordAnswer(ex.exercise_id, false, session);
 
     const retryKey = ex.word_id || ex.exercise_id;
     session.retries[retryKey] = (session.retries[retryKey] || 0) + 1;
@@ -794,7 +815,7 @@ function selectAnswer(btn) {
   if (isRight) {
     btn.classList.add('state-correct');
     session.correctCount++;
-    Progress.recordResult(exKey, true);
+    _recordAnswer(exKey, true, session);
     // Particles have no word-unlock mechanic; prepositions likewise skip it
     if (!isParticle && session.moduleId !== 'module_prepositions') {
       _unlockWord(session.current.word_id);
@@ -834,7 +855,7 @@ function selectAnswer(btn) {
       }
     }
 
-    Progress.recordResult(exKey, false);
+    _recordAnswer(exKey, false, session);
 
     // Cooldown logic (Section 11.3)
     const retryKey = session.current.word_id || exKey;
@@ -1426,8 +1447,13 @@ function startArtikelExercise() {
     return;
   }
 
-  // Build synthetic exercise objects from noun data
+  // Build synthetic exercise objects from noun data.
+  // `id` is synthetic but stable and namespaced, matching the convention of the
+  // generated exercise files (ex_verb_*, dekl_*, prefixes_*). Artikel items are
+  // the only ones built at runtime rather than loaded from data/, and without an
+  // id they could not be scheduled — see PRD_Wiederholung.md §5.3.
   const queue = _shuffle(nouns.map(n => ({
+    id:              'ex_artikel_' + n.id,
     type:            'select_article',
     word_id:         n.id,
     word:            n.word,
@@ -1535,6 +1561,11 @@ function selectArticleAnswer(chosen) {
   const correct  = s.current.correct_article;
   const isRight  = chosen === correct;
   const feedback = document.getElementById('artikel-feedback');
+
+  // Artikel recorded nothing at all until Session 40 — the same omission that
+  // hit Deklinationen (Session 36) and Vorsilben (Session 37). It went unnoticed
+  // here because the Artikel home shows noun counts rather than a progress bar.
+  _recordAnswer(s.current.id, isRight, s);
 
   // Disable all three buttons
   ['der','die','das'].forEach(art => {
@@ -1779,7 +1810,7 @@ function submitDeklinationAnswer() {
   // Same omission existed here (Session 36). Invisible on the Deklinationen
   // home, which shows exercise counts rather than progress — but it left a
   // hole in exercise history. Recording for consistency.
-  Progress.recordResult(ex.id, isRight);
+  _recordAnswer(ex.id, isRight, s);
 
   if (isRight) {
     s.correctCount++;
@@ -2068,7 +2099,7 @@ function selectPrefixAnswer(btn) {
 
   // Persist to exercise history — this is what the module-home progress bars
   // read. Omitting it (Session 37) meant Vorsilben always showed 0 / 330.
-  Progress.recordResult(ex.id, isRight);
+  _recordAnswer(ex.id, isRight, s);
 
   if (isRight) s.correctCount++;
   else         s.cooldown.push(ex);

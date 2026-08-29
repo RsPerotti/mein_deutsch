@@ -28,13 +28,17 @@
  *      verbs with both readings, generated from the Wiktionary cache. New "pairs"
  *      section renderer in grammar.js + CSS. Fixed the Lesson 5 überlaufen example,
  *      which contradicted the rule it was illustrating.
+ * v19: Spaced repetition Phase 1 (Session 40) — js/srs.js binary SM-2 scheduler,
+ *      app_srs store, all 8 grade sites funnelled through _recordAnswer, Artikel
+ *      result recording fixed (recorded nothing since it shipped), one-shot
+ *      backfill from app_exercise_history staggered over 14 days. No UI yet.
  *
  * DEPLOY NOTE: bump the CACHE version string on every push that changes
  * JS/CSS files. The browser only installs a new SW when this file changes.
  * If the version is not bumped, users keep running the old cached code.
  */
 
-const CACHE = 'mein-deutsch-v18';
+const CACHE = 'mein-deutsch-v19';
 
 const PRECACHE = [
   './',
@@ -50,6 +54,7 @@ const PRECACHE = [
   './js/grammar.js',
   './js/app.js',
   './js/progress.js',
+  './js/srs.js',
   './js/exercises.js',
   './js/wordlist.js',
   './js/wordpractice.js',

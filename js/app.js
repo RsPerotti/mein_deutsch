@@ -1594,6 +1594,13 @@ async function init() {
   DeclensionGrammar.init();  // initialise declension lesson state (Session 36)
   PrefixGrammar.init();      // initialise Vorsilben lesson state (Session 37)
   migrateMisfiledQuizResults(); // one-shot: recover quiz results written to the wrong store (Session 38)
+  // One-shot: seed the spaced-repetition store from existing exercise history
+  // (Session 40). Guarded internally by app_srs_backfilled, so this is a no-op
+  // on every run after the first. See PRD_Wiederholung.md §5.6.
+  if (typeof SRS !== 'undefined') {
+    const seeded = SRS.backfill();
+    if (seeded) console.log(`SRS: backfilled ${seeded} items from exercise history`);
+  }
   Progress.updateStreak();
   Progress.recordSession();
   renderHome();
