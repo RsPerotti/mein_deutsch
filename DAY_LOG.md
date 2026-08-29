@@ -2,6 +2,95 @@
 
 ---
 
+## 2026-08-29 — Session 40b: Wiederholung — the surface
+
+Phase 2 shipped the same session. The card is on the home screen, the session runs, and the
+queue is genuinely mixed — an adverb, then a verb, then a particle.
+
+### The predicted design was more complicated than the code needed
+
+PRD §5.4 called for a dispatcher routing each due item to one of four engines, and flagged it
+as the largest risk in the build. For the Main engine it turned out to be unnecessary work:
+`_showNext()` already dispatches on `ex.type`, because a module queue was always a mix of
+exercise types. A cross-module queue is not a new kind of thing to it — it is the same thing
+with a wider spread. So review builds `session` directly with `reviewMode: true` and hands
+over.
+
+What the engine actually needed was four small branches, each of which is a place where the
+engine assumed a module it no longer has:
+
+- end of queue called `returnFromResults()`, which navigates to `screen-module-home` — for a
+  cross-module session that is whichever module happened to be opened last, a stale
+  destination;
+- `_unlockWord` would have treated review answers as first exposures and filled the "Neu
+  freigeschaltet" list with words unlocked months ago;
+- early exit dropped to the home screen with no summary, which is wrong when there is no
+  session cap and *"answered 40 of 600"* is the normal shape of a session, not an abort;
+- three behaviours keyed off `session.moduleId` — the verb Regular/Irregular badge, the
+  particle feedback card, the preposition unlock skip — and `moduleId` is null in a mixed
+  queue. They now read `_srcModule()`, which prefers the session and falls back to a tag on
+  the item.
+
+That last one is the general shape of this whole phase: **state that legitimately lived on the
+session has to move to the item once the session stops being about one module.** The
+dispatcher is still needed for Phase 3, whose three engines each own a session object and
+cannot share `session`.
+
+### The QA suite caught a real bug, not a test artifact
+
+`Review.buildIndex()` guarded on `window.appData`. That is always `undefined` — the app's data
+files declare their globals with top-level `const`, which creates a lexical global that is not
+a property of `window`. The guard silently skipped all seven Main modules and left the index
+holding only Deklination and Vorsilben data: 690 entries instead of ~6,200.
+
+In a browser this would have shipped as *"Wiederholung: nichts fällig"*, forever, with no
+error anywhere. Nothing would have looked broken. Two things made it visible — writing the
+index-size assertion as `> 5000` rather than `> 0`, and the mutation test now carrying
+`index falls back to window globals` as a permanent seeded bug so it cannot come back.
+
+Worth noting the near-miss: my instinct on the first red check was that jsdom was failing to
+expose the globals, i.e. that the harness was wrong. It was not. Same lesson as the empty
+Artikel queue earlier in the session and the two "mismatches" in Session 39 — except this time
+the code was the guilty party, and assuming the test was wrong would have shipped it.
+
+### One thing the screenshot caught that no assertion would have
+
+The card read *"12 warten auf Phase 3"*. Internally accurate, and meaningless to someone
+learning German — build-phase vocabulary leaking onto a learner-facing screen. Changed to
+*"12 noch nicht verfügbar"*, and `qa-review.js` now asserts the card contains no phase or
+engine jargon, since the next phase will be tempted to write the same thing again.
+
+### Design of the card
+
+It sits between the Wortliste hero and the module grid: a step down from the hero because it
+is a daily action rather than the main destination, a step up from a module card because it is
+the one thing on the home screen that changes every day. When nothing is due it keeps its
+footprint and drops its affordance rather than disappearing — a card that vanishes on a good
+day reads as a bug, and *"0 Aufgaben im Plan"* is the reassurance that the schedule is still
+running.
+
+It counts only what this phase can actually serve, so the number is never a promise the
+session fails to keep. Due items belonging to Phase 3 engines are reported separately rather
+than hidden.
+
+### Shipped
+
+`js/review.js`, four `reviewMode` branches in `exercises.js`, the home card slot, the review
+card styles, `screen-results` reused with its module button hidden. Service worker v19 → v20.
+Commit `38be554`, pushed and live.
+
+Checks: `qa-review.js` 65/65 · `verify-srs-validator.py` now 23 seeded bugs, all caught ·
+`qa-srs.js` 47/47 · `qa-variants.js` 21/21 · `qa-prefixes.js` 71/71 · `validate-srs.py` exact.
+Screenshot-verified at 375px in all three states, no overflow, no console errors.
+
+**Next:** Phase 3 — the dispatcher, for real this time. Deklination, Vorsilben and Artikel.
+Also worth raising with Ricco separately: `Progress.updateStreak()` fires from `init()`, so
+the streak counts *opening the app*, not practising. That is pre-existing and out of this
+PRD's scope, but now that there is a daily action on the home screen it is a more visible
+inconsistency than it was.
+
+---
+
 ## 2026-08-29 — Session 40: the app starts remembering
 
 Ricco picked up the question left open at the end of Session 39c — the app has no memory of

@@ -5,7 +5,21 @@
 
 ## Current State
 
-**10 modules built and live.** App at https://rsperotti.github.io/mein_deutsch (v19).
+**10 modules built and live.** App at https://rsperotti.github.io/mein_deutsch (v20).
+
+**Session 40b — Wiederholung is live (v20).** A card on the home screen shows how many items
+are due across every module; opening it serves them in one mixed queue, most overdue first.
+`js/review.js` owns the index, the due queue and the card, and **renders nothing itself** — it
+hands the queue to the Main engine so the thirteen renderers keep one implementation. The
+predicted four-engine dispatcher turned out not to be needed for this phase: `_showNext()`
+already dispatches on `ex.type`, so it serves a mixed queue as-is; the engine needed four
+`reviewMode` branches instead, all of them places that assumed a module the session no longer
+has. **Phase 2 serves Main-engine items only** (verbs, nouns, adverbs, adjectives,
+prepositions, particles, expressions); Deklination, Vorsilben and Artikel are indexed and
+counted but reported as *noch nicht verfügbar* until Phase 3. **Bug caught by the new QA
+suite:** the index was guarded on `window.appData`, which is always undefined because the data
+files use top-level `const` — it would have shipped as a permanently empty, silently broken
+review. PRD: `PRD_Wiederholung.md`.
 
 **Session 40 — spaced repetition Phase 1, invisible (v19).** The app now records what Ricco
 gets wrong and when to show it again. `js/srs.js` implements binary SM-2 over an `app_srs`
@@ -392,14 +406,20 @@ signed off, Phase 1 shipped. Four decisions taken at sign-off, all recorded in t
 - **Review answers do not increment module progress bars** (Q3), so the bars keep meaning
   coverage rather than repetitions.
 
-**Phase 2 — the surface.** Wiederholung home tile with a due count, the review session, and
-the Main-engine dispatcher. Verb / noun / adverb / adjective / particle / preposition items
-only.
+**Phase 2 — SHIPPED (v20).** Wiederholung home card, review session, Main-engine items.
 
 **Phase 3 — the other three engines.** Deklination, Vorsilben and Artikel items join the
 review queue.
 
-**The known risk, written down before starting (§5.4):** there is no single answer path in
+**Phase 2 revised the risk.** The Main engine needed no dispatcher — `_showNext()` already
+dispatches on exercise type. What it needed was four branches where module-specific assumptions
+lived: end-of-queue navigation, `_unlockWord`, early exit, and three behaviours that keyed off
+`session.moduleId` (verb badge, particle feedback card, preposition unlock skip) which now read
+`_srcModule()` — the item's own tag — instead. **The general rule this exposes: state that
+legitimately lived on the session has to move to the item once a session stops being about one
+module.** Expect the same for Phase 3.
+
+**The original risk, still live for Phase 3 (§5.4):** there is no single answer path in
 the app. Four engines — Main (`session`), Deklination (`_deklSession`), Vorsilben
 (`_prefixSession`) and Artikel (`_artikelSession`) — each own their renderers, grading
 handler and accumulated module-specific state (tense context, CEFR pickers, group filters,
@@ -412,6 +432,10 @@ the Main engine before wiring the rest.
 - ~~Vorsilben quiz bugfix is not retroactive~~ — resolved Session 38. `migrateMisfiledQuizResults()` recovers those results on first load after v15.
 - Deklinationen not yet QA'd on device (headless-tested only) — Ricco to try a session on the phone; check inline input + Android keyboard behavior.
 - Prepositions not in Word List Practice mode (no unlock mechanic — by design).
+- **The streak counts app opens, not practice.** `Progress.updateStreak()` fires from `init()`,
+  so launching the app and closing it extends the streak. Pre-existing and outside the
+  Wiederholung PRD's scope, but more visibly inconsistent now that the home screen carries a
+  daily action. Raised 2026-08-29, Ricco's call.
 - `.git` repo lives inside Google Drive folder — causes stale lock files (HEAD.lock, index.lock) that block commits. Must `rm .git/*.lock` from Terminal before committing. Long-term: move repo outside Drive.
 
 ---
