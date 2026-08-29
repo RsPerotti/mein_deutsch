@@ -311,19 +311,43 @@
 
 ## Next Steps
 
-**Up next (in rough priority):**
-- ~~Verify the judgement calls against a dictionary~~ — **done, Session 39** for separability, auxiliary and Partizip II. `durchgehen` corrected.
-- **Verify the 22 case calls** — the half `verify-variants.py` deliberately does not cover. Needs a valency source (DWDS Wortprofil, or Duden), not Wiktionary prose. Same rule: never route it through Ricco.
-- ~~Decide what to do about the 11 AMBIGUOUS verbs~~ — **done, Session 39b.** Taught explicitly in Lesson 5. **Residual gap, accepted:** a learner drilling `umfahren` in the **Verbs** module still meets it cold — Lesson 5 lives in Vorsilben, with no gating or cross-link. Closing that needs a card note or a link, which was the option not chosen.
-- **`entgegenlaufen` and `herreichen` have no Wiktionary page** — both filed by derivation only. Check against Duden, or drop them.
-- **Sentence-builder English is weak for adverbial complements** — "We want to overflow almost." (`überlaufen`), "I have to befall to him." (`widerfahren`). The German is fine; the English gloss line is not. Affects a handful of intransitive variants.
-- **Device QA** on the new verb variants and on the Vorsilben module — usability only (does it look right, does it feel right), never correctness.
-- **Remaining 121 prefix verbs** whose root is also missing from `verbs.json` (entsorgen, hintertreiben, niederknien…) — a future Wörter intake, not a reconciliation.
+**DECISION 2026-08-28 — the Vorsilben verification thread is CLOSED.** Ricco: *"there are
+enough cases and examples to give me a lot of practice."* Correct, and it settles a question
+that had been drifting: **content volume is no longer the constraint.** 6,150 exercises across
+10 modules is more than a year of daily practice. Further verification and expansion of the
+prefix-verb material is work with no learner-visible payoff, so it stops here rather than
+staying on the list as permanent guilt. What shipped is sound: separability, auxiliary and
+Partizip II are dictionary-verified for all 133 variants, and `verify-variants.py` +
+`validate-prefixes.py` guard any future addition automatically.
+
+**Closed, will not be picked up (reopen only if the data actually misleads in use):**
+- ~~Verify the 22 case calls~~ — closed. The case data is derived-or-authored and unverified,
+  and that is accepted. It affects a badge on a card, not what the learner types.
+- ~~`entgegenlaufen` / `herreichen` have no Wiktionary page~~ — closed. Both filed by
+  derivation, both left in.
+- ~~Remaining 121 prefix verbs whose root is missing from `verbs.json`~~ — closed. Not needed.
+- ~~The residual `umfahren` gap~~ (Verbs-module learner never reaches Lesson 5) — closed.
+  Lesson 5 teaches the pairs; that is enough.
+
+**Still live:**
+- **Sentence-builder English is weak for adverbial complements** — "We want to overflow
+  almost." (`überlaufen`), "I have to befall to him." (`widerfahren`). Kept deliberately while
+  the rest of the thread closed: this is not verification, it is a wrong-looking card the
+  learner actually reads. A handful of intransitive variants.
+- **Device QA** on the Vorsilben module, the new verb variants and Deklinationen — usability
+  only (does it look right, does it feel right), never correctness.
 - Ricco to confirm two flagged sheet entries: "Aufziele" (→ abzielen?) and "kindersinne" (skipped)
-- Next Wörter intake when the sheet grows (diff against `_factory/intake-log.json`)
+- Next Wörter intake when the sheet grows (diff against `_factory/intake-log.json`) — driven by
+  Ricco's own reading, which is the one content source that stays worth adding.
 - Lesen & Hören — more years: run crawler on 2025, 2024 archives; re-bundle listening-data.js
 - Prepositions C1/C2 expansion — architecture ready; add entries with `"cefr": "C1"`
 - Deklinationen expansions (later): stem-changers, Komparativ/Superlativ declension, adjectival nouns, case filter
+
+**The open question this decision surfaces.** If content is no longer the constraint, the next
+real project is not another module — it is whether the app knows what Ricco keeps getting
+wrong. There is no spaced repetition and no cross-module review anywhere in the architecture:
+every module serves a fresh queue with a cooldown, and a word answered correctly once is
+treated as learned. Raised 2026-08-28, not yet PRD'd.
 
 **Known open items:**
 - ~~Prefix verb variants inherit parent root's `grammar.case_requirements`~~ — **resolved Session 38 (v16).** Variants may carry their own override and `_verbMetaBadge()` prefers it; `verstehen` now shows Akkusativ.

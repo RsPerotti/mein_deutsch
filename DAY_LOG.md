@@ -2,6 +2,35 @@
 
 ---
 
+## 2026-08-28 — Session 39c: closing the Vorsilben thread
+
+**Ricco's call:** *"We can stop with this topic. There are enough cases and examples to give me a lot of practice."*
+
+Agreed, and it is worth writing down why rather than just ticking items off.
+
+### What was actually decided
+
+Not "we ran out of time on verification" but **content volume has stopped being the constraint**. The app holds ~6,150 exercises across 10 modules. At any realistic practice rate that is more than a year of material. Every remaining item on the Vorsilben thread — the 22 case calls, the two verbs with no Wiktionary page, the 121 prefix verbs whose roots are missing — is work whose payoff is invisible to the person using the app. Keeping them on the list would not make them happen; it would just make the list a source of guilt.
+
+The thread closed in a good state, which is what makes closing it safe rather than sloppy:
+- Separability, auxiliary and Partizip II are dictionary-verified for all 133 variants.
+- `verify-variants.py` and the `dual-pairs` check in `validate-prefixes.py` guard anything added later, automatically. The discipline outlives the session.
+- The one thing genuinely unverified — case requirements — is written down as unverified rather than quietly assumed. It affects a badge on a card, not what the learner types.
+
+### What was deliberately kept open
+
+One item was pulled out of the closure: **the weak sentence-builder English** ("We want to overflow almost."). It is not verification. It is a card the learner actually reads, and it looks wrong. Closing a thread is not a reason to sweep a visible defect into it.
+
+Device QA also stays, for the same reason — it is about whether the thing is usable, which is the only question left that content work cannot answer.
+
+### The question this exposes
+
+If content is no longer the constraint, the next real project is not an 11th module. It is that **the app has no memory of what Ricco gets wrong**. No spaced repetition, no cross-module review; each module serves a fresh queue with a cooldown, and a word answered right once is treated as learned. That has been the largest gap in the product for several sessions and has never been on the backlog, because the backlog was always full of content.
+
+Recorded in Next Steps. Not PRD'd — that is a decision for Ricco, not a default.
+
+---
+
 ## 2026-08-28 — Session 39b: Wechselpräfixe — teach the pairs explicitly
 
 **Goal:** close the gap Session 39 opened. Verification found 11 verbs with two real readings; the app had just been taught to gloss one of them unambiguously, which fixed the confusion and hid the fact that the other reading exists. For `umfahren` the two are opposites.
