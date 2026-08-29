@@ -80,6 +80,8 @@ material Ricco knows best. PRD: `PRD_Wiederholung.md`.
 | `js/app.js` | ✅ Updated | All 7 module renderers. History API for Android gesture back. **Particles (Sessions 29-B, 30):** `appData.particles`, `_particlesCefr`, `_particlesGramOpen`, particles loading, icon, module home renderer, CEFR filter state, grammatik strip, `openPartikelliste()`, `renderPartikelliste()`, `_renderParticleList()`, `showParticleDetail()`, `openParticleExercise()` + soft gate, `_PARTICLE_GATE_MAP`, `ParticleGrammar.init()` in bootstrap. |
 | `js/exercises.js` | ✅ Updated | All exercise types including `fill_blank_particle` renderer, `_showParticleFeedbackCard()`, CEFR-aware particle queue, `setParticlesCefrInSession()`. Also: `partizip_ii`, `auxiliary_choice`, `conjugation_table` for Verbs. |
 | `js/grammar.js` | ✅ Updated | `Grammar` + `ParticleGrammar` + `ArticleGrammar` singletons. Full lesson + quiz renderers for all three modules. |
+| `js/srs.js` | ✅ NEW (S40) | Binary SM-2 scheduler. Pure functions + the `app_srs` store. No DOM, no knowledge of exercises or modules — it deals in opaque item IDs, which is what makes it checkable against an independent implementation. |
+| `js/review.js` | ✅ NEW (S40) | `Review` — the Wiederholung index, due queue, home card and cross-module session. Renders nothing itself; dispatches each item to the engine that owns it. |
 | `js/progress.js` | ✅ Updated | All localStorage keys: root/variant split for nouns, adjectives, prepositions difficulty, articles read. |
 | `js/wordlist.js` | ✅ Updated | Adjectives. Case dot helpers. Verb cards show case dots. |
 | `js/wordpractice.js` | ✅ Built | Adjektive class in WLP_CLASSES picker. |
@@ -101,6 +103,10 @@ material Ricco knows best. PRD: `PRD_Wiederholung.md`.
 | `data/exercises/exercises-verbs.json` | ✅ 3,708 exercises | Session 38: +1,064 (133 new variants x 8). |
 | `_factory/generate-variants.py` | ✅ NEW (S38) | Expands the variant seeds. Partizip II derived, Präsens/Präteritum lifted from the root's tables, Perfekt built. Writes `judgement-review.md`. |
 | `_factory/validate-variants.py` | ✅ NEW (S38) | Independent re-derivation of participles and all conjugated forms + MC hygiene. |
+| `_factory/validate-srs.py` | ✅ NEW (S40) | Independent SM-2 written from the PRD, never from `js/srs.js`. Replays 4,800 answers over 120 items and compares interval, ease, reps, lapses and due date after **every** answer. Found the interval overflow. |
+| `_factory/qa-srs.js` | ✅ NEW (S40) | 47 checks. The scheduler's *wiring*: grading reaches the store, `reviewMode` suppresses the bars but not the schedule, backfill, DST/leap-day arithmetic, corrupt-store recovery, Artikel. |
+| `_factory/qa-review.js` | ✅ NEW (S40) | 152 checks. Wiederholung end to end: index tagging, due ordering, all four engines dispatched, requeue-on-miss, HUD ownership, the `FRAGE n` counter, results, early exit, and module play unchanged. |
+| `_factory/verify-srs-validator.py` | ✅ NEW (S40) | The negative test. Seeds 35 plausible bugs into the real source files one at a time and asserts each suite catches its own. Run it after touching anything in the SRS/review path. |
 | `_factory/bundle-data.py` | ✅ NEW (S38) | **First reproducible builder for `js/data.js`** — it was assembled ad hoc before, which is how it drifted from `data/modules.json` (see v10). |
 | `_factory/qa-variants.js` | ✅ NEW (S38) | 21 headless checks incl. the verstehen case badge. |
 | `_factory/vorsilben/variant-seeds-*.json` | ✅ NEW (S38) | 133 authored seeds — separability, auxiliary, case, 2 complements. Only what cannot be derived. |
@@ -300,7 +306,7 @@ to both stores" as a mandatory check for any new engine.
 
 ---
 
-## Vorsilben Module — BUILT, AWAITING PUSH
+## Vorsilben Module — COMPLETE
 
 *PRD signed off: 2026-08-26 — Session 37. Phases 1–5 complete. Phase 6 (reconciliation) approved for v15.*
 
@@ -340,6 +346,97 @@ to both stores" as a mandatory check for any new engine.
 
 ---
 
+## Wiederholung / Spaced Repetition — COMPLETE
+
+Shipped Session 40 across three phases (v19, v20, v21). PRD: `PRD_Wiederholung.md`, delivered.
+This is the layer that makes the app remember what Ricco gets wrong; before it, every module
+served a fresh queue and a word answered right once was treated as learned forever.
+
+### The two stores, and why they are separate
+
+| Store | Written by | Means |
+|---|---|---|
+| `app_exercise_history` | `Progress.recordResult` | **Coverage.** Correct/incorrect counts. Drives the module-home progress bars. |
+| `app_srs` | `SRS.grade` | **Retention.** Per-item scheduling state. Drives Wiederholung. |
+
+Both are written by one funnel — `_recordAnswer(itemId, isRight, sess)` in `exercises.js`.
+When `sess.reviewMode` is set, only the second is written, so reviewing an item does not push
+a module's progress bar past 100% (PRD Q3). **Never call `Progress.recordResult` directly from
+an exercise engine again** — `qa-srs.js` enforces this.
+
+### `app_srs` shape
+
+One entry per exercise ID, one-character keys (~2.3x smaller than readable ones across ~6,150
+items; nothing outside `srs.js` reads the raw shape):
+
+`e` ease 1.3-2.5 · `i` interval in days · `r` consecutive correct reps · `d` due date
+(`YYYY-MM-DD`, **local** — a 23:30 session must count as today) · `l` last seen · `x` lapses
+
+Binary SM-2. Correct: `r+=1`, interval `1 -> 6 -> round(i x e)`, ease `+0.1` capped at 2.5.
+Wrong: `r=0`, `i=0` (due today), ease `-0.2` floored at 1.3, `x+=1`. **Intervals cap at 365
+days** — without a ceiling they overflow the date type, and JS would write `d="NaN-NaN-NaN"`
+and drop the item from the pool permanently.
+
+`app_srs_backfilled` guards the one-shot seed from existing history; seeded due dates are
+spread over 14 days by hashing the ID, so the first session is not the entire backlog.
+
+### The four engines and the dispatcher
+
+There is no single answer path in this app. Four engines each own a session global, renderers
+and a grading handler:
+
+| Engine | Session | Exercise types |
+|---|---|---|
+| Main | `session` | translate_word, fill_blank, article_choice, conjugation_choice, select_preposition, select_case, fill_blank_particle, partizip_ii, auxiliary_choice, conjugation_table |
+| Deklination | `_deklSession` | type_ending |
+| Vorsilben | `_prefixSession` | select_prefix, select_feeling |
+| Artikel | `_artikelSession` | select_article |
+
+**Review owns the queue, the counters, the requeue-on-miss and the HUD. Each engine is handed
+a shell session containing exactly one item** — no queue to advance into, no cooldown to flush
+— so when it asks for its next card it necessarily falls back into `Review.next()`. An engine
+in `reviewMode` manages nothing of its own; it cannot, because it sees one item and the session
+spans four engines. This is the single most important thing to preserve when touching any
+engine.
+
+Consequences that are easy to break:
+- `_reviewHud()` decides who writes the chips and progress bar. **Every** chip write in an
+  engine must go through it, or the one-item shell's zeros overwrite the session's numbers.
+- `_questionNumber()` does the same for the `FRAGE n` counter, which every renderer builds from
+  its own session's `correctCount` — always 0 in a shell.
+- `_srcModule()` supplies module identity per item, because `session.moduleId` is null in a
+  mixed queue. The verb Regular/Irregular badge, the particle feedback card and the preposition
+  unlock skip all read it.
+- `_unlockWord()` is a no-op in review — an item can only be due because it was already answered.
+- Each engine's empty-queue branch hands back to `Review.next()` instead of opening its own
+  results screen; `advanceExercise()` dispatches on the engine that drew the current card.
+
+### Deliberately out of scope
+
+FSRS (every exercise is binary; there is no recall-quality signal to feed it) · cross-device
+sync · any UI for tuning ease, burying or suspending · **changing the existing module queues**,
+which remain first-exposure engines · Word List practice, which keys by word rather than
+exercise and stays out of the pool.
+
+**No session cap** (PRD §5.7) — Ricco's call over my recorded objection. `exitExerciseEarly()`
+plus per-answer persistence makes a large queue behave like a capped one. Adding a cap later is
+a one-line change; nothing depends on its absence. Do not relitigate.
+
+### Running the checks
+
+```
+npm install jsdom --prefix ~/qa        # the local VM is fresh each session
+NODE_PATH=~/qa/node_modules node _factory/qa-srs.js         # 47
+NODE_PATH=~/qa/node_modules node _factory/qa-review.js      # 152
+python3 _factory/validate-srs.py                            # 4,800 answers, exact agreement
+NODE_PATH=~/qa/node_modules python3 _factory/verify-srs-validator.py   # 35 seeded bugs
+```
+
+Run the last one after any change to `srs.js`, `review.js` or the engines — it is the only
+thing that distinguishes a check that passes from a check that works.
+
+---
+
 ## Grammatik Curriculum Layer (Verbs)
 
 *PRD signed off: Session 25. All phases complete. Live.*
@@ -371,6 +468,27 @@ to both stores" as a mandatory check for any new engine.
 
 ## Next Steps
 
+**DECISION 2026-08-29 — spaced repetition is DONE, and nothing replaces it yet.**
+`PRD_Wiederholung.md` is delivered: all three phases shipped, all success criteria met.
+**The next step is deliberately not a build.** The schedule is only worth what it does to
+retention, and no QA suite can measure that — it needs a week or two of Ricco actually using
+Wiederholung daily. Two questions to answer from use, not from code:
+
+1. **Do the intervals feel right?** SM-2's constants (`1 → 6 → ×ease`, ease 1.3–2.5) are the
+   plainest possible defaults and were chosen to be auditable, not tuned. If items come back
+   too often or vanish for too long, they are one-line changes in `js/srs.js` — but change
+   them from evidence, and re-run `validate-srs.py` (the Python copy holds the same constants
+   independently and must be changed with it, or it will correctly fail).
+2. **Does the no-cap decision hold?** A large due count after a break is the failure mode I
+   argued about and lost. If it turns out to be demoralising in practice, a cap is a one-line
+   change. Ricco's call, from experience.
+
+Resist starting an 11th module until those are answered. Content stopped being the constraint
+on 2026-08-28 and the fix for that shipped on 2026-08-29; the next real question is whether it
+works.
+
+---
+
 **DECISION 2026-08-28 — the Vorsilben verification thread is CLOSED.** Ricco: *"there are
 enough cases and examples to give me a lot of practice."* Correct, and it settles a question
 that had been drifting: **content volume is no longer the constraint.** 6,150 exercises across
@@ -395,7 +513,9 @@ Partizip II are dictionary-verified for all 133 variants, and `verify-variants.p
   the rest of the thread closed: this is not verification, it is a wrong-looking card the
   learner actually reads. A handful of intransitive variants.
 - **Device QA** on the Vorsilben module, the new verb variants and Deklinationen — usability
-  only (does it look right, does it feel right), never correctness.
+  only (does it look right, does it feel right), never correctness. **Add Wiederholung to this**:
+  it has been screenshot-verified at 375px but never used on the actual phone, and it is the one
+  screen Ricco will now open every day.
 - Ricco to confirm two flagged sheet entries: "Aufziele" (→ abzielen?) and "kindersinne" (skipped)
 - Next Wörter intake when the sheet grows (diff against `_factory/intake-log.json`) — driven by
   Ricco's own reading, which is the one content source that stays worth adding.
