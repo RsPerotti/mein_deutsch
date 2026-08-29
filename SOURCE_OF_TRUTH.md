@@ -5,7 +5,17 @@
 
 ## Current State
 
-**10 modules built and live.** App at https://rsperotti.github.io/mein_deutsch (v20).
+**10 modules built and live, plus Wiederholung.** App at https://rsperotti.github.io/mein_deutsch (v21).
+
+**Session 40c — spaced repetition is COMPLETE (v21).** All four engines now serve review, so
+Deklination, Vorsilben and Artikel items appear in the Wiederholung queue alongside everything
+else. **Review owns the queue, the counters, the requeue-on-miss and the HUD; each engine is
+handed a shell session containing exactly one item** — no queue to advance into, no cooldown to
+flush — so asking for the next card necessarily hands control back to `Review.next()`. Two
+helpers absorbed duplication that Phase 3 made load-bearing: `_reviewHud()` (six copies of the
+chips/progress block) and `_questionNumber()` (fourteen copies of the `FRAGE n` counter, all
+reading a session that no longer describes the session — **every card in a review session read
+"FRAGE 1"** until a screenshot caught it). PRD `PRD_Wiederholung.md` is fully delivered.
 
 **Session 40b — Wiederholung is live (v20).** A card on the home screen shows how many items
 are due across every module; opening it serves them in one mixed queue, most overdue first.
@@ -408,8 +418,7 @@ signed off, Phase 1 shipped. Four decisions taken at sign-off, all recorded in t
 
 **Phase 2 — SHIPPED (v20).** Wiederholung home card, review session, Main-engine items.
 
-**Phase 3 — the other three engines.** Deklination, Vorsilben and Artikel items join the
-review queue.
+**Phase 3 — SHIPPED (v21).** All four engines serve review.
 
 **Phase 2 revised the risk.** The Main engine needed no dispatcher — `_showNext()` already
 dispatches on exercise type. What it needed was four branches where module-specific assumptions

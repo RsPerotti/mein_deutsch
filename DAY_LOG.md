@@ -2,6 +2,94 @@
 
 ---
 
+## 2026-08-29 — Session 40c: Phase 3 — the dispatcher, and three bugs no one read
+
+All four engines now serve review. One session can hand you a verb, an adjective ending, a
+prefix and an article in a row.
+
+### The idea that made it simple
+
+The engines each own a module-level session global, so they cannot share `session` — that part
+of §5.4 was right. What made it tractable was inverting who owns what: **Review owns the queue,
+the counters, the requeue and the HUD, and each engine is handed a shell session containing
+exactly one item.** No queue to advance into, no cooldown to flush. So when an engine asks for
+its next card it necessarily falls out of its own empty-queue branch and back into
+`Review.next()`. An engine in `reviewMode` manages nothing of its own — it cannot, because it
+can see one item and the session spans four engines.
+
+That inversion is what turned "four engines with divergent lifecycles" into four one-line
+handbacks plus two shared helpers.
+
+### The consolidation that fell out of it
+
+`_reviewHud()` and `_questionNumber()` both exist because the same code was duplicated across
+all four engines — six copies of the chips-and-progress-bar block, fourteen copies of the
+`FRAGE n` counter. Phase 3 did not create that duplication, it just made it load-bearing: every
+copy read from a session that no longer describes the session. Routing them through one function
+each was less work than guarding six copies, and it is the reason the next engine will be easier.
+
+### Three defects, none found by reading the code
+
+**1. Two HUD blocks left unguarded.** I guarded six sites and missed the trailing ones in
+`submitDeklinationAnswer` and `selectPrefixAnswer`, so after every Deklination and Vorsilben
+answer the one-item shell's zeros overwrote the real chips. Artikel passed the same check
+because I had happened to guard both of its blocks. Caught by `qa-review.js` asserting the
+queue chip counts the session rather than the card — an assertion I nearly did not write,
+because it looked like it was testing the obvious.
+
+**2. Every card read "FRAGE 1".** Every renderer builds its counter from its own session's
+`correctCount`, which in a one-item shell is always 0 — and the three Phase 3 engines read the
+*stale Main* session, which is worse. A forty-item review session would have counted "Frage 1"
+forty times. **No assertion existed for this and none would have been written**; it was visible
+in the first screenshot and invisible to 129 passing checks. Worth remembering the next time a
+green suite feels like sufficient evidence.
+
+**3. `Review.open()` on the exercise screen continues the old session.** `navigateTo()`
+early-returns when the target is already the current screen, so `onScreenEnter` — and therefore
+`startSession()` — never fires. This surfaced as a *test* failure and my first instinct was that
+the harness was wrong. It was: you cannot tap the home card mid-session, so it is unreachable
+in the app. But it is two lines to guard and it is exactly the trap a Phase 4 caller would fall
+into, so it is guarded.
+
+### Two checks that were passing without testing anything
+
+The mutation suite is what found these, which is the whole argument for it.
+
+**"review unlocks nothing"** asserted `newlyUnlocked.length === 0`. It passed on code with the
+`reviewMode` guard deleted — because the word had already been unlocked by an earlier block, so
+`_unlockWord` returned early either way. Worse, it was *flaky-by-shuffle*: particles and
+prepositions skip the unlock path, so whether the check meant anything depended on which item
+the shuffle served first. It now clears the unlock stores, seeds verb items specifically,
+asserts the word is locked beforehand, and — the part that matters — asserts that **module play
+does unlock**, so the check cannot pass on code that simply never unlocks anything.
+
+**"Weiter dispatches to the engine"** also passed on broken code. Replacing `Review.advance()`
+with `_showNext()` still works when `session` happens to be a spent review shell, because that
+also falls through to `Review.next()`. It only breaks when a review session opens on a
+non-Main item with a real module session left behind. The check now installs a spy on the
+engine's own function and seeds exactly that stale-session condition.
+
+Both are the same failure: **a check that passes for a reason other than the one it claims.**
+Green, and worthless. The mutation script is the only thing that distinguishes them from real
+coverage.
+
+### Shipped
+
+`js/review.js` gains the dispatcher (`_serve`, `next`, `advance`, `onGraded`, `updateHud`);
+`js/exercises.js` gains `_reviewHud()` and `_questionNumber()` and loses six duplicated HUD
+blocks. Service worker v20 → v21. Commit `90a58ef`, pushed and live.
+
+Checks: `qa-review.js` 152/152 · `verify-srs-validator.py` 35 seeded bugs all caught (8
+algorithm, 5 wiring, 9 review, 13 dispatcher) · `qa-srs.js` 47/47 · `qa-variants.js` 21/21 ·
+`qa-prefixes.js` 71/71 · `validate-srs.py` exact. Screenshot-verified at 375px across all four
+engines in one session, counter advancing 1→16 through engine changes.
+
+**The PRD is now complete.** All three phases shipped, all four success criteria met. What is
+left is not more building but a week of actual use — the schedule is only worth what it does to
+retention, and nothing in the QA suite can tell us that.
+
+---
+
 ## 2026-08-29 — Session 40b: Wiederholung — the surface
 
 Phase 2 shipped the same session. The card is on the home screen, the session runs, and the
