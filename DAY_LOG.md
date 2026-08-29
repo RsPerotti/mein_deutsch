@@ -2,6 +2,110 @@
 
 ---
 
+## 2026-08-29 — Session 40: the app starts remembering
+
+Ricco picked up the question left open at the end of Session 39c — the app has no memory of
+what he gets wrong — and signed off `PRD_Wiederholung.md` the same session. Phase 1 shipped.
+
+### The interview, and what it settled
+
+Four decisions, taken before any code:
+
+- **A separate Wiederholung module**, not scheduling woven into the existing ten. Review is
+  something he opens deliberately. The alternative — making every module's queue
+  scheduling-aware — touches all five queue builders and changes the feel of everything;
+  it is deferred to a possible Phase 3 rather than refused.
+- **Everything answered enters the pool**, not just misses. This is real spaced repetition:
+  it also protects what he already knows from decaying, which the misses-only variant does
+  not.
+- **No session cap.** I argued against this and lost, and the disagreement is recorded in
+  PRD §5.7 rather than relitigated. Two things make it survivable: `exitExerciseEarly()`
+  already exists, and grading persists per answer rather than at session end — so a
+  600-item queue answered forty at a time behaves identically to a capped one. The cap
+  would only ever have been a guardrail against a number on a screen.
+- **Review answers do not move the module progress bars** (Q3). Otherwise Vorsilben reads
+  400 / 330 after a few weeks of review and the bars stop meaning anything. They mean
+  coverage; the SRS store means retention. Two stores, two meanings, one funnel.
+
+### Two findings from reading the code first, before proposing anything
+
+**The feared blocker was not one.** `Progress.recordResult` writes every module's results
+into a single flat `app_exercise_history` map, and I expected the exercise IDs to collide
+across modules — which would have meant an ID migration before anything else could happen.
+They do not: every generated data file namespaces its own IDs (`ex_verb_sein_001`,
+`dekl_schwach_nom_001`, `prefixes_ab_001`, `particles_mal_001`). The existing history was
+never corrupted and `app_srs` can safely reuse the same keyspace. Worth the twenty minutes
+of checking; assuming it either way would have been wrong.
+
+**Artikel had been recording nothing since it shipped.** `selectArticleAnswer()` has no
+`recordResult` call at all. This is the third instance of exactly the same omission —
+Deklinationen in Session 36, Vorsilben in Session 37 — and the reason it survived two
+rounds of fixing the others is that the Artikel home screen shows noun counts rather than a
+progress bar, so there was no visible `0 / n` to notice. The pattern is now clear enough to
+name: **a new exercise engine gets written, and the line that persists the result is the one
+that gets forgotten, because nothing on screen fails without it.** Artikel exercises are
+also the only ones built at runtime from `appData.nouns` rather than loaded from `data/`, so
+they had no IDs either. Both fixed.
+
+### What the second implementation caught
+
+The factory rule is that every generated thing has a validator holding its own independent
+copy of the rules. Applied here, that meant writing SM-2 twice — once in `js/srs.js`, once
+in `_factory/validate-srs.py` from the PRD text rather than from the JS.
+
+It paid for itself on the first run, with an `OverflowError`. The interval compounds by the
+ease factor with no ceiling, so 38 consecutive correct answers push the due date past the
+year 100,000. Python raises. **JavaScript would not have.** `new Date()` returns
+`Invalid Date`, `toDayString()` yields `"NaN-NaN-NaN"`, and `"NaN-NaN-NaN" <= today` is
+`false` — so the item would never have come due again. A silently disappearing item,
+occurring only for the material Ricco knows best, and invisible for months. Capped at 365
+days in both implementations; PRD §5.2 amended after sign-off with the reason.
+
+That is the second time in three sessions that the independent check found something the
+primary implementation was confidently wrong about. It is not a formality.
+
+### Verifying the verifier
+
+Per the standing rule, a check that has never failed has not been shown to work.
+`_factory/verify-srs-validator.py` seeds bugs into the real files one at a time and asserts
+the suites catch them: 8 algorithm mutations into `js/srs.js` (ease floor lowered, second
+step off by one, lapse not resetting the rep count, the interval cap removed) and 5 wiring
+mutations into `js/exercises.js` (reviewMode no longer suppressing the bars, grading not
+reaching the store, the Artikel fix reverted). All 13 caught; both suites pass clean.
+
+The mutations are deliberately plausible — each is a slip an edit to those files would
+actually make, not a strawman. The reverted-Artikel-fix mutation matters most: it is the
+regression this session exists to prevent recurring a fourth time.
+
+### One test failure that was the test's fault
+
+`qa-srs.js` first reported an empty Artikel queue. The cause was mine, not the app's:
+`startArtikelExercise()` advances to the first item itself, so unlocking one noun leaves
+`queue.length === 0` and `current` set. Noted because the instinct on a red check is to go
+looking in the source, and it was the check that was wrong — the same lesson as Session 39's
+two "mismatches" that turned out to be parser faults.
+
+### Shipped
+
+`js/srs.js`, all 8 grade sites funnelled through `_recordAnswer()`, the Artikel fix,
+one-shot backfill from existing history spread over 14 days by hashing the ID (Q2 — seeding
+everything as due today would have made his first review session thousands of items long,
+and with no cap that is the entire backlog on one screen). Service worker v18 → v19.
+No UI: scheduling data starts accumulating now, so Phase 2 is built against real data rather
+than an empty store. Commit `126f412`, pushed and live.
+
+Checks: `validate-srs.py` 4,800 answers / 120 items in exact agreement · `qa-srs.js` 47/47 ·
+`verify-srs-validator.py` 13/13 seeded bugs caught · `qa-variants.js` 21/21 ·
+`qa-prefixes.js` 71/71.
+
+**Next:** Phase 2 — the Wiederholung tile and the review session, Main engine only. The
+dispatcher is the real risk and it is written down as such in PRD §5.4: four engines with
+their own session objects and accumulated module-specific state (tense context, CEFR
+pickers, group filters, chip counters) that review has to neutralise per item. Prove one
+mixed queue end to end on the Main engine before wiring Deklination, Vorsilben and Artikel.
+
+---
+
 ## 2026-08-28 — Session 39c: closing the Vorsilben thread
 
 **Ricco's call:** *"We can stop with this topic. There are enough cases and examples to give me a lot of practice."*

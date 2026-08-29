@@ -5,7 +5,23 @@
 
 ## Current State
 
-**10 modules built and live.** App at https://rsperotti.github.io/mein_deutsch (v18).
+**10 modules built and live.** App at https://rsperotti.github.io/mein_deutsch (v19).
+
+**Session 40 — spaced repetition Phase 1, invisible (v19).** The app now records what Ricco
+gets wrong and when to show it again. `js/srs.js` implements binary SM-2 over an `app_srs`
+store keyed by exercise ID; every graded answer in the app funnels through a single
+`_recordAnswer()` helper in `exercises.js` that writes both stores. **Nothing visible has
+changed** — there is no review surface yet. Phase 1 exists so that scheduling data
+accumulates from real practice before Phase 2 is built against it. **Also fixed: Artikel had
+never recorded a single answer** — `selectArticleAnswer()` had no `recordResult` call, the
+third instance of the same omission after Deklinationen (S36) and Vorsilben (S37); it went
+unnoticed for four months because the Artikel home shows noun counts rather than a progress
+bar. Its runtime-built exercises now carry stable `ex_artikel_<noun_id>` IDs. Existing
+history was backfilled into the scheduler, spread over 14 days. **An interval cap (365d) was
+added after sign-off**, amending the PRD: `validate-srs.py` crashed on its first run because
+unbounded interval growth overflows the date type — in JavaScript that would have silently
+written `d = "NaN-NaN-NaN"` and dropped the item from the pool permanently, only for the
+material Ricco knows best. PRD: `PRD_Wiederholung.md`.
 
 **Session 39b — the Wechselpräfix pairs are taught explicitly (v18).** Vorsilben Lesson 5 now ends with a generated pair list: all 11 dual-reading verbs, both readings each, with separability, auxiliary, Partizip II and a gloss, and the half the app drills marked **geübt**. The list is not hand-kept — it is built from the AMBIGUOUS verdicts in `verify-report.md` plus `wiktionary-cache.tsv`, and `validate-prefixes.py` now fails if an AMBIGUOUS verb is missing from it, so a future intake cannot add a pair the lesson silently ignores. New `pairs` section type with its own renderer branch in `grammar.js` (the other four lesson renderers are untouched, and a regression check enforces that). Screenshot-verified at 375px: no horizontal overflow. **Also fixed: Lesson 5's own example contradicted the rule it taught** — "Der Topf läuft über. / Er ist zum Feind übergelaufen." was offered as separable-vs-inseparable, but *übergelaufen* is the separable participle, so both halves were separable. The same error sat in the `überlaufen` card in `prefixes.json`. PRD: `PRD_Wechselpraefixe_Paare.md`.
 
@@ -114,6 +130,26 @@
 ---
 
 ## Active Decisions
+
+**Spaced repetition uses SM-2 with a binary grade, not FSRS (2026-08-29).** Every exercise in
+the app is right/wrong; FSRS wants a graded recall quality there is no way to collect. SM-2 is
+~40 lines and can be validated mechanically against an independent implementation, which FSRS
+in practice cannot.
+
+**Two progress stores with two different meanings (2026-08-29).** `app_exercise_history`
+(`Progress.recordResult`) counts correct/incorrect and drives the module-home progress bars —
+it means *coverage*. `app_srs` (`SRS.grade`) holds scheduling state — it means *retention*.
+Both are written by the single `_recordAnswer()` funnel in `exercises.js`; in `reviewMode`
+only the second is written. Never call `Progress.recordResult` directly from an exercise
+engine again — a check in `qa-srs.js` enforces this.
+
+**Every new exercise engine must record its results, and the QA suite must prove it
+(2026-08-29).** Three engines shipped without a `recordResult` call — Deklinationen (S36),
+Vorsilben (S37), Artikel (never, until S40). The omission survives review because nothing on
+screen fails without it: Vorsilben showed a visible `0 / 330` and was caught in one session,
+Artikel showed nothing and was not caught for four months. Treat "does answering this write
+to both stores" as a mandatory check for any new engine.
+
 
 | Decision | Value |
 |---|---|
@@ -343,11 +379,33 @@ Partizip II are dictionary-verified for all 133 variants, and `verify-variants.p
 - Prepositions C1/C2 expansion — architecture ready; add entries with `"cefr": "C1"`
 - Deklinationen expansions (later): stem-changers, Komparativ/Superlativ declension, adjectival nouns, case filter
 
-**The open question this decision surfaces.** If content is no longer the constraint, the next
-real project is not another module — it is whether the app knows what Ricco keeps getting
-wrong. There is no spaced repetition and no cross-module review anywhere in the architecture:
-every module serves a fresh queue with a cooldown, and a word answered correctly once is
-treated as learned. Raised 2026-08-28, not yet PRD'd.
+**RESOLVED 2026-08-29 — the open question is now the active project.** `PRD_Wiederholung.md`
+signed off, Phase 1 shipped. Four decisions taken at sign-off, all recorded in the PRD:
+
+- **A separate Wiederholung module** (an 11th tile), not scheduling woven into the existing
+  ten. Existing module queues are explicitly out of scope.
+- **Everything answered enters the pool**, not misses only — so material already known is
+  protected from decay, not just weak material rehearsed.
+- **No session cap** (§5.7). I argued for one and lost; the disagreement is recorded rather
+  than relitigated. `exitExerciseEarly()` plus per-answer persistence makes a large queue
+  behave like a capped one in practice. Adding a cap later is a one-line change.
+- **Review answers do not increment module progress bars** (Q3), so the bars keep meaning
+  coverage rather than repetitions.
+
+**Phase 2 — the surface.** Wiederholung home tile with a due count, the review session, and
+the Main-engine dispatcher. Verb / noun / adverb / adjective / particle / preposition items
+only.
+
+**Phase 3 — the other three engines.** Deklination, Vorsilben and Artikel items join the
+review queue.
+
+**The known risk, written down before starting (§5.4):** there is no single answer path in
+the app. Four engines — Main (`session`), Deklination (`_deklSession`), Vorsilben
+(`_prefixSession`) and Artikel (`_artikelSession`) — each own their renderers, grading
+handler and accumulated module-specific state (tense context, CEFR pickers, group filters,
+chip counters). Review dispatches to them rather than duplicating thirteen renderers, which
+means each gains a `reviewMode` flag and nothing else. Prove one mixed queue end to end on
+the Main engine before wiring the rest.
 
 **Known open items:**
 - ~~Prefix verb variants inherit parent root's `grammar.case_requirements`~~ — **resolved Session 38 (v16).** Variants may carry their own override and `_verbMetaBadge()` prefers it; `verstehen` now shows Akkusativ.
