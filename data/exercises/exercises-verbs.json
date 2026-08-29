@@ -47956,148 +47956,6 @@
     }
   },
   {
-    "exercise_id": "ex_verb_beibringen_001",
-    "word_id": "verb_beibringen",
-    "type": "translate_word",
-    "difficulty": 1,
-    "question": {
-      "de": "beibringen",
-      "prompt_en": "What does this verb mean?"
-    },
-    "correct_answer": "to teach sb sth",
-    "wrong_answers": [
-      "to bring along",
-      "to bring in / to contribute",
-      "to spend (time)",
-      "to bring"
-    ],
-    "explanation_en": "'beibringen' means 'to teach sb sth'. Separable: the prefix 'bei' detaches — 'Ich bringe … bei.'"
-  },
-  {
-    "exercise_id": "ex_verb_beibringen_002",
-    "word_id": "verb_beibringen",
-    "type": "fill_blank",
-    "difficulty": 1,
-    "question": {
-      "de": "Ich muss ihm Deutsch _____.",
-      "en": "I have to teach sb sth him German.",
-      "show_english": true
-    },
-    "correct_answer": "beibringen",
-    "wrong_answers": [
-      "mitbringen",
-      "einbringen",
-      "verbringen",
-      "bringen"
-    ],
-    "explanation_en": "'beibringen' (to teach sb sth). After a modal verb the infinitive stays whole at the end of the clause."
-  },
-  {
-    "exercise_id": "ex_verb_beibringen_003",
-    "word_id": "verb_beibringen",
-    "type": "fill_blank",
-    "difficulty": 1,
-    "question": {
-      "de": "Wir wollen den Kindern das Lesen _____.",
-      "en": "We want to teach sb sth the children to read.",
-      "show_english": true
-    },
-    "correct_answer": "beibringen",
-    "wrong_answers": [
-      "mitbringen",
-      "einbringen",
-      "verbringen",
-      "bringen"
-    ],
-    "explanation_en": "'beibringen' (to teach sb sth). After a modal verb the infinitive stays whole at the end of the clause."
-  },
-  {
-    "exercise_id": "ex_verb_beibringen_004",
-    "word_id": "verb_beibringen",
-    "type": "conjugation_choice",
-    "difficulty": 2,
-    "question": {
-      "de": "Er _____ den Kindern das Lesen bei.",
-      "en": "He teaches sb sth the children to read.",
-      "show_english": true
-    },
-    "correct_answer": "bringt ... bei",
-    "wrong_answers": [
-      "beibringt",
-      "bringt",
-      "beibringen",
-      "brachte bei"
-    ],
-    "explanation_en": "'beibringen' is separable. In a present-tense main clause the prefix 'bei' goes to the end: 'Er bringt den Kindern das Lesen bei.'"
-  },
-  {
-    "exercise_id": "verb_beibringen_partizip",
-    "word_id": "verb_beibringen",
-    "type": "partizip_ii",
-    "tense": "perfekt",
-    "difficulty": 2,
-    "question": {
-      "de": "beibringen",
-      "prompt_en": "Type the Partizip II (past participle)."
-    },
-    "correct_answer": "beigebracht",
-    "explanation_en": "The Partizip II of 'beibringen' is 'beigebracht'. Separable: the 'ge-' sits between prefix and stem."
-  },
-  {
-    "exercise_id": "verb_beibringen_aux",
-    "word_id": "verb_beibringen",
-    "type": "auxiliary_choice",
-    "tense": "perfekt",
-    "difficulty": 2,
-    "question": {
-      "de": "beibringen",
-      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
-    },
-    "correct_answer": "hat",
-    "wrong_answers": [
-      "ist"
-    ],
-    "explanation_en": "'beibringen' uses 'haben' in the Perfekt. Most transitive verbs take 'haben'."
-  },
-  {
-    "exercise_id": "verb_beibringen_table_prateritum",
-    "word_id": "verb_beibringen",
-    "type": "conjugation_table",
-    "tense": "prateritum",
-    "difficulty": 3,
-    "question": {
-      "de": "beibringen",
-      "tense_label": "Präteritum"
-    },
-    "forms": {
-      "ich": "brachte bei",
-      "du": "brachtest bei",
-      "er_sie_es": "brachte bei",
-      "wir": "brachten bei",
-      "ihr": "brachtet bei",
-      "sie_Sie": "brachten bei"
-    }
-  },
-  {
-    "exercise_id": "verb_beibringen_table_perfekt",
-    "word_id": "verb_beibringen",
-    "type": "conjugation_table",
-    "tense": "perfekt",
-    "difficulty": 3,
-    "question": {
-      "de": "beibringen",
-      "tense_label": "Perfekt"
-    },
-    "forms": {
-      "ich": "habe beigebracht",
-      "du": "hast beigebracht",
-      "er_sie_es": "hat beigebracht",
-      "wir": "haben beigebracht",
-      "ihr": "habt beigebracht",
-      "sie_Sie": "haben beigebracht"
-    }
-  },
-  {
     "exercise_id": "ex_verb_beilegen_001",
     "word_id": "verb_beilegen",
     "type": "translate_word",
@@ -48941,148 +48799,6 @@
       "wir": "haben durchdacht",
       "ihr": "habt durchdacht",
       "sie_Sie": "haben durchdacht"
-    }
-  },
-  {
-    "exercise_id": "ex_verb_durchgehen_001",
-    "word_id": "verb_durchgehen",
-    "type": "translate_word",
-    "difficulty": 1,
-    "question": {
-      "de": "durchgehen",
-      "prompt_en": "What does this verb mean?"
-    },
-    "correct_answer": "to walk through; to go over sth",
-    "wrong_answers": [
-      "to go out",
-      "to set off / to start",
-      "to enter / to shrink",
-      "to pass (time)"
-    ],
-    "explanation_en": "'durchgehen' means 'to walk through; to go over sth'. Separable: the prefix 'durch' detaches — 'Ich gehe … durch.'"
-  },
-  {
-    "exercise_id": "ex_verb_durchgehen_002",
-    "word_id": "verb_durchgehen",
-    "type": "fill_blank",
-    "difficulty": 1,
-    "question": {
-      "de": "Ich muss die Liste _____.",
-      "en": "I have to walk through the list.",
-      "show_english": true
-    },
-    "correct_answer": "durchgehen",
-    "wrong_answers": [
-      "ausgehen",
-      "losgehen",
-      "eingehen",
-      "gehen"
-    ],
-    "explanation_en": "'durchgehen' (to walk through; to go over sth). After a modal verb the infinitive stays whole at the end of the clause."
-  },
-  {
-    "exercise_id": "ex_verb_durchgehen_003",
-    "word_id": "verb_durchgehen",
-    "type": "fill_blank",
-    "difficulty": 1,
-    "question": {
-      "de": "Wir wollen den Text _____.",
-      "en": "We want to walk through the text.",
-      "show_english": true
-    },
-    "correct_answer": "durchgehen",
-    "wrong_answers": [
-      "ausgehen",
-      "losgehen",
-      "eingehen",
-      "gehen"
-    ],
-    "explanation_en": "'durchgehen' (to walk through; to go over sth). After a modal verb the infinitive stays whole at the end of the clause."
-  },
-  {
-    "exercise_id": "ex_verb_durchgehen_004",
-    "word_id": "verb_durchgehen",
-    "type": "conjugation_choice",
-    "difficulty": 2,
-    "question": {
-      "de": "Er _____ den Text durch.",
-      "en": "He walks through the text.",
-      "show_english": true
-    },
-    "correct_answer": "geht ... durch",
-    "wrong_answers": [
-      "durchgeht",
-      "geht",
-      "durchgehen",
-      "ging durch"
-    ],
-    "explanation_en": "'durchgehen' is separable. In a present-tense main clause the prefix 'durch' goes to the end: 'Er geht den Text durch.'"
-  },
-  {
-    "exercise_id": "verb_durchgehen_partizip",
-    "word_id": "verb_durchgehen",
-    "type": "partizip_ii",
-    "tense": "perfekt",
-    "difficulty": 2,
-    "question": {
-      "de": "durchgehen",
-      "prompt_en": "Type the Partizip II (past participle)."
-    },
-    "correct_answer": "durchgegangen",
-    "explanation_en": "The Partizip II of 'durchgehen' is 'durchgegangen'. Separable: the 'ge-' sits between prefix and stem."
-  },
-  {
-    "exercise_id": "verb_durchgehen_aux",
-    "word_id": "verb_durchgehen",
-    "type": "auxiliary_choice",
-    "tense": "perfekt",
-    "difficulty": 2,
-    "question": {
-      "de": "durchgehen",
-      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
-    },
-    "correct_answer": "hat",
-    "wrong_answers": [
-      "ist"
-    ],
-    "explanation_en": "'durchgehen' uses 'haben' in the Perfekt. Most transitive verbs take 'haben'."
-  },
-  {
-    "exercise_id": "verb_durchgehen_table_prateritum",
-    "word_id": "verb_durchgehen",
-    "type": "conjugation_table",
-    "tense": "prateritum",
-    "difficulty": 3,
-    "question": {
-      "de": "durchgehen",
-      "tense_label": "Präteritum"
-    },
-    "forms": {
-      "ich": "ging durch",
-      "du": "gingst durch",
-      "er_sie_es": "ging durch",
-      "wir": "gingen durch",
-      "ihr": "gingt durch",
-      "sie_Sie": "gingen durch"
-    }
-  },
-  {
-    "exercise_id": "verb_durchgehen_table_perfekt",
-    "word_id": "verb_durchgehen",
-    "type": "conjugation_table",
-    "tense": "perfekt",
-    "difficulty": 3,
-    "question": {
-      "de": "durchgehen",
-      "tense_label": "Perfekt"
-    },
-    "forms": {
-      "ich": "habe durchgegangen",
-      "du": "hast durchgegangen",
-      "er_sie_es": "hat durchgegangen",
-      "wir": "haben durchgegangen",
-      "ihr": "habt durchgegangen",
-      "sie_Sie": "haben durchgegangen"
     }
   },
   {
@@ -58010,148 +57726,6 @@
     }
   },
   {
-    "exercise_id": "ex_verb_umfahren_001",
-    "word_id": "verb_umfahren",
-    "type": "translate_word",
-    "difficulty": 1,
-    "question": {
-      "de": "umfahren",
-      "prompt_en": "What does this verb mean?"
-    },
-    "correct_answer": "to drive around / to run over",
-    "wrong_answers": [
-      "to depart / to leave (by vehicle)",
-      "to approach / to start (engine)",
-      "to find out / to learn (news)",
-      "to continue; to drive off"
-    ],
-    "explanation_en": "'umfahren' means 'to drive around / to run over'. Inseparable: 'um' never detaches, and the Partizip II takes no 'ge-'."
-  },
-  {
-    "exercise_id": "ex_verb_umfahren_002",
-    "word_id": "verb_umfahren",
-    "type": "fill_blank",
-    "difficulty": 1,
-    "question": {
-      "de": "Ich muss die Baustelle _____.",
-      "en": "I have to drive around / to run over the roadworks.",
-      "show_english": true
-    },
-    "correct_answer": "umfahren",
-    "wrong_answers": [
-      "abfahren",
-      "anfahren",
-      "erfahren",
-      "fahren"
-    ],
-    "explanation_en": "'umfahren' (to drive around / to run over). After a modal verb the infinitive stays whole at the end of the clause."
-  },
-  {
-    "exercise_id": "ex_verb_umfahren_003",
-    "word_id": "verb_umfahren",
-    "type": "fill_blank",
-    "difficulty": 1,
-    "question": {
-      "de": "Wir wollen das Hindernis _____.",
-      "en": "We want to drive around / to run over the obstacle.",
-      "show_english": true
-    },
-    "correct_answer": "umfahren",
-    "wrong_answers": [
-      "abfahren",
-      "anfahren",
-      "erfahren",
-      "fahren"
-    ],
-    "explanation_en": "'umfahren' (to drive around / to run over). After a modal verb the infinitive stays whole at the end of the clause."
-  },
-  {
-    "exercise_id": "ex_verb_umfahren_004",
-    "word_id": "verb_umfahren",
-    "type": "conjugation_choice",
-    "difficulty": 2,
-    "question": {
-      "de": "Er _____ das Hindernis.",
-      "en": "He drives around / to run over the obstacle.",
-      "show_english": true
-    },
-    "correct_answer": "umfährt",
-    "wrong_answers": [
-      "fährt um",
-      "fährt",
-      "umfahren",
-      "umfuhr"
-    ],
-    "explanation_en": "'umfahren' is inseparable. The prefix stays attached: 'Er umfährt das Hindernis.'"
-  },
-  {
-    "exercise_id": "verb_umfahren_partizip",
-    "word_id": "verb_umfahren",
-    "type": "partizip_ii",
-    "tense": "perfekt",
-    "difficulty": 2,
-    "question": {
-      "de": "umfahren",
-      "prompt_en": "Type the Partizip II (past participle)."
-    },
-    "correct_answer": "umfahren",
-    "explanation_en": "The Partizip II of 'umfahren' is 'umfahren'. Inseparable verbs take no 'ge-'."
-  },
-  {
-    "exercise_id": "verb_umfahren_aux",
-    "word_id": "verb_umfahren",
-    "type": "auxiliary_choice",
-    "tense": "perfekt",
-    "difficulty": 2,
-    "question": {
-      "de": "umfahren",
-      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
-    },
-    "correct_answer": "hat",
-    "wrong_answers": [
-      "ist"
-    ],
-    "explanation_en": "'umfahren' uses 'haben' in the Perfekt. Most transitive verbs take 'haben'."
-  },
-  {
-    "exercise_id": "verb_umfahren_table_prateritum",
-    "word_id": "verb_umfahren",
-    "type": "conjugation_table",
-    "tense": "prateritum",
-    "difficulty": 3,
-    "question": {
-      "de": "umfahren",
-      "tense_label": "Präteritum"
-    },
-    "forms": {
-      "ich": "umfuhr",
-      "du": "umfuhrst",
-      "er_sie_es": "umfuhr",
-      "wir": "umfuhren",
-      "ihr": "umfuhrt",
-      "sie_Sie": "umfuhren"
-    }
-  },
-  {
-    "exercise_id": "verb_umfahren_table_perfekt",
-    "word_id": "verb_umfahren",
-    "type": "conjugation_table",
-    "tense": "perfekt",
-    "difficulty": 3,
-    "question": {
-      "de": "umfahren",
-      "tense_label": "Perfekt"
-    },
-    "forms": {
-      "ich": "habe umfahren",
-      "du": "hast umfahren",
-      "er_sie_es": "hat umfahren",
-      "wir": "haben umfahren",
-      "ihr": "habt umfahren",
-      "sie_Sie": "haben umfahren"
-    }
-  },
-  {
     "exercise_id": "ex_verb_umgeben_001",
     "word_id": "verb_umgeben",
     "type": "translate_word",
@@ -58571,148 +58145,6 @@
       "wir": "sind untergegangen",
       "ihr": "seid untergegangen",
       "sie_Sie": "sind untergegangen"
-    }
-  },
-  {
-    "exercise_id": "ex_verb_unterhalten_001",
-    "word_id": "verb_unterhalten",
-    "type": "translate_word",
-    "difficulty": 1,
-    "question": {
-      "de": "unterhalten",
-      "prompt_en": "What does this verb mean?"
-    },
-    "correct_answer": "to entertain; to maintain",
-    "wrong_answers": [
-      "to stop (a vehicle) / to urge",
-      "to stop / to delay / to stay",
-      "to keep / to retain",
-      "to receive / to maintain"
-    ],
-    "explanation_en": "'unterhalten' means 'to entertain; to maintain'. Inseparable: 'unter' never detaches, and the Partizip II takes no 'ge-'."
-  },
-  {
-    "exercise_id": "ex_verb_unterhalten_002",
-    "word_id": "verb_unterhalten",
-    "type": "fill_blank",
-    "difficulty": 1,
-    "question": {
-      "de": "Ich muss die Gäste _____.",
-      "en": "I have to entertain the guests.",
-      "show_english": true
-    },
-    "correct_answer": "unterhalten",
-    "wrong_answers": [
-      "anhalten",
-      "aufhalten",
-      "behalten",
-      "halten"
-    ],
-    "explanation_en": "'unterhalten' (to entertain; to maintain). After a modal verb the infinitive stays whole at the end of the clause."
-  },
-  {
-    "exercise_id": "ex_verb_unterhalten_003",
-    "word_id": "verb_unterhalten",
-    "type": "fill_blank",
-    "difficulty": 1,
-    "question": {
-      "de": "Wir wollen die Familie _____.",
-      "en": "We want to entertain the family.",
-      "show_english": true
-    },
-    "correct_answer": "unterhalten",
-    "wrong_answers": [
-      "anhalten",
-      "aufhalten",
-      "behalten",
-      "halten"
-    ],
-    "explanation_en": "'unterhalten' (to entertain; to maintain). After a modal verb the infinitive stays whole at the end of the clause."
-  },
-  {
-    "exercise_id": "ex_verb_unterhalten_004",
-    "word_id": "verb_unterhalten",
-    "type": "conjugation_choice",
-    "difficulty": 2,
-    "question": {
-      "de": "Er _____ die Familie.",
-      "en": "He entertains the family.",
-      "show_english": true
-    },
-    "correct_answer": "unterhält",
-    "wrong_answers": [
-      "hält unter",
-      "hält",
-      "unterhalten",
-      "unterhielt"
-    ],
-    "explanation_en": "'unterhalten' is inseparable. The prefix stays attached: 'Er unterhält die Familie.'"
-  },
-  {
-    "exercise_id": "verb_unterhalten_partizip",
-    "word_id": "verb_unterhalten",
-    "type": "partizip_ii",
-    "tense": "perfekt",
-    "difficulty": 2,
-    "question": {
-      "de": "unterhalten",
-      "prompt_en": "Type the Partizip II (past participle)."
-    },
-    "correct_answer": "unterhalten",
-    "explanation_en": "The Partizip II of 'unterhalten' is 'unterhalten'. Inseparable verbs take no 'ge-'."
-  },
-  {
-    "exercise_id": "verb_unterhalten_aux",
-    "word_id": "verb_unterhalten",
-    "type": "auxiliary_choice",
-    "tense": "perfekt",
-    "difficulty": 2,
-    "question": {
-      "de": "unterhalten",
-      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
-    },
-    "correct_answer": "hat",
-    "wrong_answers": [
-      "ist"
-    ],
-    "explanation_en": "'unterhalten' uses 'haben' in the Perfekt. Most transitive verbs take 'haben'."
-  },
-  {
-    "exercise_id": "verb_unterhalten_table_prateritum",
-    "word_id": "verb_unterhalten",
-    "type": "conjugation_table",
-    "tense": "prateritum",
-    "difficulty": 3,
-    "question": {
-      "de": "unterhalten",
-      "tense_label": "Präteritum"
-    },
-    "forms": {
-      "ich": "unterhielt",
-      "du": "unterhieltest",
-      "er_sie_es": "unterhielt",
-      "wir": "unterhielten",
-      "ihr": "unterhieltet",
-      "sie_Sie": "unterhielten"
-    }
-  },
-  {
-    "exercise_id": "verb_unterhalten_table_perfekt",
-    "word_id": "verb_unterhalten",
-    "type": "conjugation_table",
-    "tense": "perfekt",
-    "difficulty": 3,
-    "question": {
-      "de": "unterhalten",
-      "tense_label": "Perfekt"
-    },
-    "forms": {
-      "ich": "habe unterhalten",
-      "du": "hast unterhalten",
-      "er_sie_es": "hat unterhalten",
-      "wir": "haben unterhalten",
-      "ihr": "habt unterhalten",
-      "sie_Sie": "haben unterhalten"
     }
   },
   {
@@ -60974,146 +60406,6 @@
     }
   },
   {
-    "exercise_id": "ex_verb_weiterhelfen_001",
-    "word_id": "verb_weiterhelfen",
-    "type": "translate_word",
-    "difficulty": 1,
-    "question": {
-      "de": "weiterhelfen",
-      "prompt_en": "What does this verb mean?"
-    },
-    "correct_answer": "to help sb further along",
-    "wrong_answers": [
-      "to help out / to stand in",
-      "to help along / to lend a hand",
-      "to help",
-      "to answer sth"
-    ],
-    "explanation_en": "'weiterhelfen' means 'to help sb further along'. Separable: the prefix 'weiter' detaches — 'Ich helfe … weiter.'"
-  },
-  {
-    "exercise_id": "ex_verb_weiterhelfen_002",
-    "word_id": "verb_weiterhelfen",
-    "type": "fill_blank",
-    "difficulty": 1,
-    "question": {
-      "de": "Ich muss mir _____.",
-      "en": "I have to help sb further along me.",
-      "show_english": true
-    },
-    "correct_answer": "weiterhelfen",
-    "wrong_answers": [
-      "aushelfen",
-      "mithelfen",
-      "helfen"
-    ],
-    "explanation_en": "'weiterhelfen' (to help sb further along). After a modal verb the infinitive stays whole at the end of the clause."
-  },
-  {
-    "exercise_id": "ex_verb_weiterhelfen_003",
-    "word_id": "verb_weiterhelfen",
-    "type": "fill_blank",
-    "difficulty": 1,
-    "question": {
-      "de": "Wir wollen dem Kunden _____.",
-      "en": "We want to help sb further along the customer.",
-      "show_english": true
-    },
-    "correct_answer": "weiterhelfen",
-    "wrong_answers": [
-      "aushelfen",
-      "mithelfen",
-      "helfen"
-    ],
-    "explanation_en": "'weiterhelfen' (to help sb further along). After a modal verb the infinitive stays whole at the end of the clause."
-  },
-  {
-    "exercise_id": "ex_verb_weiterhelfen_004",
-    "word_id": "verb_weiterhelfen",
-    "type": "conjugation_choice",
-    "difficulty": 2,
-    "question": {
-      "de": "Er _____ dem Kunden weiter.",
-      "en": "He helps sb further along the customer.",
-      "show_english": true
-    },
-    "correct_answer": "hilft ... weiter",
-    "wrong_answers": [
-      "weiterhilft",
-      "hilft",
-      "weiterhelfen",
-      "half weiter"
-    ],
-    "explanation_en": "'weiterhelfen' is separable. In a present-tense main clause the prefix 'weiter' goes to the end: 'Er hilft dem Kunden weiter.'"
-  },
-  {
-    "exercise_id": "verb_weiterhelfen_partizip",
-    "word_id": "verb_weiterhelfen",
-    "type": "partizip_ii",
-    "tense": "perfekt",
-    "difficulty": 2,
-    "question": {
-      "de": "weiterhelfen",
-      "prompt_en": "Type the Partizip II (past participle)."
-    },
-    "correct_answer": "weitergeholfen",
-    "explanation_en": "The Partizip II of 'weiterhelfen' is 'weitergeholfen'. Separable: the 'ge-' sits between prefix and stem."
-  },
-  {
-    "exercise_id": "verb_weiterhelfen_aux",
-    "word_id": "verb_weiterhelfen",
-    "type": "auxiliary_choice",
-    "tense": "perfekt",
-    "difficulty": 2,
-    "question": {
-      "de": "weiterhelfen",
-      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
-    },
-    "correct_answer": "hat",
-    "wrong_answers": [
-      "ist"
-    ],
-    "explanation_en": "'weiterhelfen' uses 'haben' in the Perfekt. Most transitive verbs take 'haben'."
-  },
-  {
-    "exercise_id": "verb_weiterhelfen_table_prateritum",
-    "word_id": "verb_weiterhelfen",
-    "type": "conjugation_table",
-    "tense": "prateritum",
-    "difficulty": 3,
-    "question": {
-      "de": "weiterhelfen",
-      "tense_label": "Präteritum"
-    },
-    "forms": {
-      "ich": "half weiter",
-      "du": "halfst weiter",
-      "er_sie_es": "half weiter",
-      "wir": "halfen weiter",
-      "ihr": "halft weiter",
-      "sie_Sie": "halfen weiter"
-    }
-  },
-  {
-    "exercise_id": "verb_weiterhelfen_table_perfekt",
-    "word_id": "verb_weiterhelfen",
-    "type": "conjugation_table",
-    "tense": "perfekt",
-    "difficulty": 3,
-    "question": {
-      "de": "weiterhelfen",
-      "tense_label": "Perfekt"
-    },
-    "forms": {
-      "ich": "habe weitergeholfen",
-      "du": "hast weitergeholfen",
-      "er_sie_es": "hat weitergeholfen",
-      "wir": "haben weitergeholfen",
-      "ihr": "habt weitergeholfen",
-      "sie_Sie": "haben weitergeholfen"
-    }
-  },
-  {
     "exercise_id": "ex_verb_weiterlaufen_001",
     "word_id": "verb_weiterlaufen",
     "type": "translate_word",
@@ -61395,148 +60687,6 @@
       "wir": "haben weitergemacht",
       "ihr": "habt weitergemacht",
       "sie_Sie": "haben weitergemacht"
-    }
-  },
-  {
-    "exercise_id": "ex_verb_widerfahren_001",
-    "word_id": "verb_widerfahren",
-    "type": "translate_word",
-    "difficulty": 1,
-    "question": {
-      "de": "widerfahren",
-      "prompt_en": "What does this verb mean?"
-    },
-    "correct_answer": "to befall sb",
-    "wrong_answers": [
-      "to depart / to leave (by vehicle)",
-      "to approach / to start (engine)",
-      "to find out / to learn (news)",
-      "to continue; to drive off"
-    ],
-    "explanation_en": "'widerfahren' means 'to befall sb'. Inseparable: 'wider' never detaches, and the Partizip II takes no 'ge-'."
-  },
-  {
-    "exercise_id": "ex_verb_widerfahren_002",
-    "word_id": "verb_widerfahren",
-    "type": "fill_blank",
-    "difficulty": 1,
-    "question": {
-      "de": "Ich muss ihm _____.",
-      "en": "I have to befall sb to him.",
-      "show_english": true
-    },
-    "correct_answer": "widerfahren",
-    "wrong_answers": [
-      "abfahren",
-      "anfahren",
-      "erfahren",
-      "fahren"
-    ],
-    "explanation_en": "'widerfahren' (to befall sb). After a modal verb the infinitive stays whole at the end of the clause."
-  },
-  {
-    "exercise_id": "ex_verb_widerfahren_003",
-    "word_id": "verb_widerfahren",
-    "type": "fill_blank",
-    "difficulty": 1,
-    "question": {
-      "de": "Wir wollen uns _____.",
-      "en": "We want to befall sb to us.",
-      "show_english": true
-    },
-    "correct_answer": "widerfahren",
-    "wrong_answers": [
-      "abfahren",
-      "anfahren",
-      "erfahren",
-      "fahren"
-    ],
-    "explanation_en": "'widerfahren' (to befall sb). After a modal verb the infinitive stays whole at the end of the clause."
-  },
-  {
-    "exercise_id": "ex_verb_widerfahren_004",
-    "word_id": "verb_widerfahren",
-    "type": "conjugation_choice",
-    "difficulty": 2,
-    "question": {
-      "de": "Er _____ uns.",
-      "en": "He befalls sb to us.",
-      "show_english": true
-    },
-    "correct_answer": "widerfährt",
-    "wrong_answers": [
-      "fährt wider",
-      "fährt",
-      "widerfahren",
-      "widerfuhr"
-    ],
-    "explanation_en": "'widerfahren' is inseparable. The prefix stays attached: 'Er widerfährt uns.'"
-  },
-  {
-    "exercise_id": "verb_widerfahren_partizip",
-    "word_id": "verb_widerfahren",
-    "type": "partizip_ii",
-    "tense": "perfekt",
-    "difficulty": 2,
-    "question": {
-      "de": "widerfahren",
-      "prompt_en": "Type the Partizip II (past participle)."
-    },
-    "correct_answer": "widerfahren",
-    "explanation_en": "The Partizip II of 'widerfahren' is 'widerfahren'. Inseparable verbs take no 'ge-'."
-  },
-  {
-    "exercise_id": "verb_widerfahren_aux",
-    "word_id": "verb_widerfahren",
-    "type": "auxiliary_choice",
-    "tense": "perfekt",
-    "difficulty": 2,
-    "question": {
-      "de": "widerfahren",
-      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
-    },
-    "correct_answer": "ist",
-    "wrong_answers": [
-      "hat"
-    ],
-    "explanation_en": "'widerfahren' uses 'sein' in the Perfekt. Verbs of motion and change of state take 'sein'."
-  },
-  {
-    "exercise_id": "verb_widerfahren_table_prateritum",
-    "word_id": "verb_widerfahren",
-    "type": "conjugation_table",
-    "tense": "prateritum",
-    "difficulty": 3,
-    "question": {
-      "de": "widerfahren",
-      "tense_label": "Präteritum"
-    },
-    "forms": {
-      "ich": "widerfuhr",
-      "du": "widerfuhrst",
-      "er_sie_es": "widerfuhr",
-      "wir": "widerfuhren",
-      "ihr": "widerfuhrt",
-      "sie_Sie": "widerfuhren"
-    }
-  },
-  {
-    "exercise_id": "verb_widerfahren_table_perfekt",
-    "word_id": "verb_widerfahren",
-    "type": "conjugation_table",
-    "tense": "perfekt",
-    "difficulty": 3,
-    "question": {
-      "de": "widerfahren",
-      "tense_label": "Perfekt"
-    },
-    "forms": {
-      "ich": "bin widerfahren",
-      "du": "bist widerfahren",
-      "er_sie_es": "ist widerfahren",
-      "wir": "sind widerfahren",
-      "ihr": "seid widerfahren",
-      "sie_Sie": "sind widerfahren"
     }
   },
   {
@@ -62951,148 +62101,6 @@
       "wir": "haben zugegeben",
       "ihr": "habt zugegeben",
       "sie_Sie": "haben zugegeben"
-    }
-  },
-  {
-    "exercise_id": "ex_verb_zuhören_001",
-    "word_id": "verb_zuhören",
-    "type": "translate_word",
-    "difficulty": 1,
-    "question": {
-      "de": "zuhören",
-      "prompt_en": "What does this verb mean?"
-    },
-    "correct_answer": "to listen to sb",
-    "wrong_answers": [
-      "to listen to / to hear out",
-      "to stop / to cease",
-      "to belong to",
-      "to listen closely"
-    ],
-    "explanation_en": "'zuhören' means 'to listen to sb'. Separable: the prefix 'zu' detaches — 'Ich höre … zu.'"
-  },
-  {
-    "exercise_id": "ex_verb_zuhören_002",
-    "word_id": "verb_zuhören",
-    "type": "fill_blank",
-    "difficulty": 1,
-    "question": {
-      "de": "Ich muss mir _____.",
-      "en": "I have to listen to sb me.",
-      "show_english": true
-    },
-    "correct_answer": "zuhören",
-    "wrong_answers": [
-      "anhören",
-      "aufhören",
-      "gehören",
-      "hören"
-    ],
-    "explanation_en": "'zuhören' (to listen to sb). After a modal verb the infinitive stays whole at the end of the clause."
-  },
-  {
-    "exercise_id": "ex_verb_zuhören_003",
-    "word_id": "verb_zuhören",
-    "type": "fill_blank",
-    "difficulty": 1,
-    "question": {
-      "de": "Wir wollen dem Lehrer _____.",
-      "en": "We want to listen to sb the teacher.",
-      "show_english": true
-    },
-    "correct_answer": "zuhören",
-    "wrong_answers": [
-      "anhören",
-      "aufhören",
-      "gehören",
-      "hören"
-    ],
-    "explanation_en": "'zuhören' (to listen to sb). After a modal verb the infinitive stays whole at the end of the clause."
-  },
-  {
-    "exercise_id": "ex_verb_zuhören_004",
-    "word_id": "verb_zuhören",
-    "type": "conjugation_choice",
-    "difficulty": 2,
-    "question": {
-      "de": "Er _____ dem Lehrer zu.",
-      "en": "He listens to sb the teacher.",
-      "show_english": true
-    },
-    "correct_answer": "hört ... zu",
-    "wrong_answers": [
-      "zuhört",
-      "hört",
-      "zuhören",
-      "hörte zu"
-    ],
-    "explanation_en": "'zuhören' is separable. In a present-tense main clause the prefix 'zu' goes to the end: 'Er hört dem Lehrer zu.'"
-  },
-  {
-    "exercise_id": "verb_zuhören_partizip",
-    "word_id": "verb_zuhören",
-    "type": "partizip_ii",
-    "tense": "perfekt",
-    "difficulty": 2,
-    "question": {
-      "de": "zuhören",
-      "prompt_en": "Type the Partizip II (past participle)."
-    },
-    "correct_answer": "zugehört",
-    "explanation_en": "The Partizip II of 'zuhören' is 'zugehört'. Separable: the 'ge-' sits between prefix and stem."
-  },
-  {
-    "exercise_id": "verb_zuhören_aux",
-    "word_id": "verb_zuhören",
-    "type": "auxiliary_choice",
-    "tense": "perfekt",
-    "difficulty": 2,
-    "question": {
-      "de": "zuhören",
-      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
-    },
-    "correct_answer": "hat",
-    "wrong_answers": [
-      "ist"
-    ],
-    "explanation_en": "'zuhören' uses 'haben' in the Perfekt. Most transitive verbs take 'haben'."
-  },
-  {
-    "exercise_id": "verb_zuhören_table_prateritum",
-    "word_id": "verb_zuhören",
-    "type": "conjugation_table",
-    "tense": "prateritum",
-    "difficulty": 3,
-    "question": {
-      "de": "zuhören",
-      "tense_label": "Präteritum"
-    },
-    "forms": {
-      "ich": "hörte zu",
-      "du": "hörtest zu",
-      "er_sie_es": "hörte zu",
-      "wir": "hörten zu",
-      "ihr": "hörtet zu",
-      "sie_Sie": "hörten zu"
-    }
-  },
-  {
-    "exercise_id": "verb_zuhören_table_perfekt",
-    "word_id": "verb_zuhören",
-    "type": "conjugation_table",
-    "tense": "perfekt",
-    "difficulty": 3,
-    "question": {
-      "de": "zuhören",
-      "tense_label": "Perfekt"
-    },
-    "forms": {
-      "ich": "habe zugehört",
-      "du": "hast zugehört",
-      "er_sie_es": "hat zugehört",
-      "wir": "haben zugehört",
-      "ihr": "habt zugehört",
-      "sie_Sie": "haben zugehört"
     }
   },
   {
@@ -65220,148 +64228,6 @@
     }
   },
   {
-    "exercise_id": "ex_verb_überlaufen_001",
-    "word_id": "verb_überlaufen",
-    "type": "translate_word",
-    "difficulty": 1,
-    "question": {
-      "de": "überlaufen",
-      "prompt_en": "What does this verb mean?"
-    },
-    "correct_answer": "to overflow; to defect",
-    "wrong_answers": [
-      "to expire / to run off",
-      "to get lost / to proceed",
-      "to start up / to approach",
-      "to run toward; to run counter to"
-    ],
-    "explanation_en": "'überlaufen' means 'to overflow; to defect'. Separable: the prefix 'über' detaches — 'Ich laufe … über.'"
-  },
-  {
-    "exercise_id": "ex_verb_überlaufen_002",
-    "word_id": "verb_überlaufen",
-    "type": "fill_blank",
-    "difficulty": 1,
-    "question": {
-      "de": "Ich muss gleich _____.",
-      "en": "I have to overflow in a moment.",
-      "show_english": true
-    },
-    "correct_answer": "überlaufen",
-    "wrong_answers": [
-      "ablaufen",
-      "verlaufen",
-      "anlaufen",
-      "laufen"
-    ],
-    "explanation_en": "'überlaufen' (to overflow; to defect). After a modal verb the infinitive stays whole at the end of the clause."
-  },
-  {
-    "exercise_id": "ex_verb_überlaufen_003",
-    "word_id": "verb_überlaufen",
-    "type": "fill_blank",
-    "difficulty": 1,
-    "question": {
-      "de": "Wir wollen fast _____.",
-      "en": "We want to overflow almost.",
-      "show_english": true
-    },
-    "correct_answer": "überlaufen",
-    "wrong_answers": [
-      "ablaufen",
-      "verlaufen",
-      "anlaufen",
-      "laufen"
-    ],
-    "explanation_en": "'überlaufen' (to overflow; to defect). After a modal verb the infinitive stays whole at the end of the clause."
-  },
-  {
-    "exercise_id": "ex_verb_überlaufen_004",
-    "word_id": "verb_überlaufen",
-    "type": "conjugation_choice",
-    "difficulty": 2,
-    "question": {
-      "de": "Er _____ fast über.",
-      "en": "He overflows almost.",
-      "show_english": true
-    },
-    "correct_answer": "läuft ... über",
-    "wrong_answers": [
-      "überläuft",
-      "läuft",
-      "überlaufen",
-      "lief über"
-    ],
-    "explanation_en": "'überlaufen' is separable. In a present-tense main clause the prefix 'über' goes to the end: 'Er läuft fast über.'"
-  },
-  {
-    "exercise_id": "verb_überlaufen_partizip",
-    "word_id": "verb_überlaufen",
-    "type": "partizip_ii",
-    "tense": "perfekt",
-    "difficulty": 2,
-    "question": {
-      "de": "überlaufen",
-      "prompt_en": "Type the Partizip II (past participle)."
-    },
-    "correct_answer": "übergelaufen",
-    "explanation_en": "The Partizip II of 'überlaufen' is 'übergelaufen'. Separable: the 'ge-' sits between prefix and stem."
-  },
-  {
-    "exercise_id": "verb_überlaufen_aux",
-    "word_id": "verb_überlaufen",
-    "type": "auxiliary_choice",
-    "tense": "perfekt",
-    "difficulty": 2,
-    "question": {
-      "de": "überlaufen",
-      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
-    },
-    "correct_answer": "ist",
-    "wrong_answers": [
-      "hat"
-    ],
-    "explanation_en": "'überlaufen' uses 'sein' in the Perfekt. Verbs of motion and change of state take 'sein'."
-  },
-  {
-    "exercise_id": "verb_überlaufen_table_prateritum",
-    "word_id": "verb_überlaufen",
-    "type": "conjugation_table",
-    "tense": "prateritum",
-    "difficulty": 3,
-    "question": {
-      "de": "überlaufen",
-      "tense_label": "Präteritum"
-    },
-    "forms": {
-      "ich": "lief über",
-      "du": "liefst über",
-      "er_sie_es": "lief über",
-      "wir": "liefen über",
-      "ihr": "lieft über",
-      "sie_Sie": "liefen über"
-    }
-  },
-  {
-    "exercise_id": "verb_überlaufen_table_perfekt",
-    "word_id": "verb_überlaufen",
-    "type": "conjugation_table",
-    "tense": "perfekt",
-    "difficulty": 3,
-    "question": {
-      "de": "überlaufen",
-      "tense_label": "Perfekt"
-    },
-    "forms": {
-      "ich": "bin übergelaufen",
-      "du": "bist übergelaufen",
-      "er_sie_es": "ist übergelaufen",
-      "wir": "sind übergelaufen",
-      "ihr": "seid übergelaufen",
-      "sie_Sie": "sind übergelaufen"
-    }
-  },
-  {
     "exercise_id": "ex_verb_überlegen_001",
     "word_id": "verb_überlegen",
     "type": "translate_word",
@@ -65788,6 +64654,290 @@
     }
   },
   {
+    "exercise_id": "ex_verb_unterhalten_001",
+    "word_id": "verb_unterhalten",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "unterhalten",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to entertain",
+    "wrong_answers": [
+      "to stop (a vehicle) / to urge",
+      "to stop / to delay / to stay",
+      "to keep / to retain",
+      "to receive / to maintain"
+    ],
+    "explanation_en": "'unterhalten' means 'to entertain'. Inseparable: 'unter' never detaches, and the Partizip II takes no 'ge-'."
+  },
+  {
+    "exercise_id": "ex_verb_unterhalten_002",
+    "word_id": "verb_unterhalten",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich muss die Gäste _____.",
+      "en": "I have to entertain the guests.",
+      "show_english": true
+    },
+    "correct_answer": "unterhalten",
+    "wrong_answers": [
+      "anhalten",
+      "aufhalten",
+      "behalten",
+      "halten"
+    ],
+    "explanation_en": "'unterhalten' (to entertain). After a modal verb the infinitive stays whole at the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_unterhalten_003",
+    "word_id": "verb_unterhalten",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wir wollen die Familie _____.",
+      "en": "We want to entertain the family.",
+      "show_english": true
+    },
+    "correct_answer": "unterhalten",
+    "wrong_answers": [
+      "anhalten",
+      "aufhalten",
+      "behalten",
+      "halten"
+    ],
+    "explanation_en": "'unterhalten' (to entertain). After a modal verb the infinitive stays whole at the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_unterhalten_004",
+    "word_id": "verb_unterhalten",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Er _____ die Familie.",
+      "en": "He entertains the family.",
+      "show_english": true
+    },
+    "correct_answer": "unterhält",
+    "wrong_answers": [
+      "hält unter",
+      "hält",
+      "unterhalten",
+      "unterhielt"
+    ],
+    "explanation_en": "'unterhalten' is inseparable. The prefix stays attached: 'Er unterhält die Familie.'"
+  },
+  {
+    "exercise_id": "verb_unterhalten_partizip",
+    "word_id": "verb_unterhalten",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "unterhalten",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "unterhalten",
+    "explanation_en": "The Partizip II of 'unterhalten' is 'unterhalten'. Inseparable verbs take no 'ge-'."
+  },
+  {
+    "exercise_id": "verb_unterhalten_aux",
+    "word_id": "verb_unterhalten",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "unterhalten",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'unterhalten' uses 'haben' in the Perfekt. Most transitive verbs take 'haben'."
+  },
+  {
+    "exercise_id": "verb_unterhalten_table_prateritum",
+    "word_id": "verb_unterhalten",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "unterhalten",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "unterhielt",
+      "du": "unterhieltest",
+      "er_sie_es": "unterhielt",
+      "wir": "unterhielten",
+      "ihr": "unterhieltet",
+      "sie_Sie": "unterhielten"
+    }
+  },
+  {
+    "exercise_id": "verb_unterhalten_table_perfekt",
+    "word_id": "verb_unterhalten",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "unterhalten",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe unterhalten",
+      "du": "hast unterhalten",
+      "er_sie_es": "hat unterhalten",
+      "wir": "haben unterhalten",
+      "ihr": "habt unterhalten",
+      "sie_Sie": "haben unterhalten"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_überlaufen_001",
+    "word_id": "verb_überlaufen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "überlaufen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to overflow, boil over",
+    "wrong_answers": [
+      "to expire / to run off",
+      "to get lost / to proceed",
+      "to start up / to approach",
+      "to run toward; to run counter to"
+    ],
+    "explanation_en": "'überlaufen' means 'to overflow, boil over'. Separable: the prefix 'über' detaches — 'Ich laufe … über.'"
+  },
+  {
+    "exercise_id": "ex_verb_überlaufen_002",
+    "word_id": "verb_überlaufen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich muss gleich _____.",
+      "en": "I have to overflow in a moment.",
+      "show_english": true
+    },
+    "correct_answer": "überlaufen",
+    "wrong_answers": [
+      "ablaufen",
+      "verlaufen",
+      "anlaufen",
+      "laufen"
+    ],
+    "explanation_en": "'überlaufen' (to overflow, boil over). After a modal verb the infinitive stays whole at the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_überlaufen_003",
+    "word_id": "verb_überlaufen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wir wollen fast _____.",
+      "en": "We want to overflow almost.",
+      "show_english": true
+    },
+    "correct_answer": "überlaufen",
+    "wrong_answers": [
+      "ablaufen",
+      "verlaufen",
+      "anlaufen",
+      "laufen"
+    ],
+    "explanation_en": "'überlaufen' (to overflow, boil over). After a modal verb the infinitive stays whole at the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_überlaufen_004",
+    "word_id": "verb_überlaufen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Er _____ fast über.",
+      "en": "He overflows almost.",
+      "show_english": true
+    },
+    "correct_answer": "läuft ... über",
+    "wrong_answers": [
+      "überläuft",
+      "läuft",
+      "überlaufen",
+      "lief über"
+    ],
+    "explanation_en": "'überlaufen' is separable. In a present-tense main clause the prefix 'über' goes to the end: 'Er läuft fast über.'"
+  },
+  {
+    "exercise_id": "verb_überlaufen_partizip",
+    "word_id": "verb_überlaufen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "überlaufen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "übergelaufen",
+    "explanation_en": "The Partizip II of 'überlaufen' is 'übergelaufen'. Separable: the 'ge-' sits between prefix and stem."
+  },
+  {
+    "exercise_id": "verb_überlaufen_aux",
+    "word_id": "verb_überlaufen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "überlaufen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "ist",
+    "wrong_answers": [
+      "hat"
+    ],
+    "explanation_en": "'überlaufen' uses 'sein' in the Perfekt. Verbs of motion and change of state take 'sein'."
+  },
+  {
+    "exercise_id": "verb_überlaufen_table_prateritum",
+    "word_id": "verb_überlaufen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "überlaufen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "lief über",
+      "du": "liefst über",
+      "er_sie_es": "lief über",
+      "wir": "liefen über",
+      "ihr": "lieft über",
+      "sie_Sie": "liefen über"
+    }
+  },
+  {
+    "exercise_id": "verb_überlaufen_table_perfekt",
+    "word_id": "verb_überlaufen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "überlaufen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "bin übergelaufen",
+      "du": "bist übergelaufen",
+      "er_sie_es": "ist übergelaufen",
+      "wir": "sind übergelaufen",
+      "ihr": "seid übergelaufen",
+      "sie_Sie": "sind übergelaufen"
+    }
+  },
+  {
     "exercise_id": "ex_verb_übersetzen_001",
     "word_id": "verb_übersetzen",
     "type": "translate_word",
@@ -65796,14 +64946,14 @@
       "de": "übersetzen",
       "prompt_en": "What does this verb mean?"
     },
-    "correct_answer": "to translate; to ferry across",
+    "correct_answer": "to translate",
     "wrong_answers": [
       "to deploy / to use / to set in",
       "to enforce / to assert oneself",
       "to place before / to serve (food)",
       "to equate (mit = with)"
     ],
-    "explanation_en": "'übersetzen' means 'to translate; to ferry across'. Inseparable: 'über' never detaches, and the Partizip II takes no 'ge-'."
+    "explanation_en": "'übersetzen' means 'to translate'. Inseparable: 'über' never detaches, and the Partizip II takes no 'ge-'."
   },
   {
     "exercise_id": "ex_verb_übersetzen_002",
@@ -65822,7 +64972,7 @@
       "vorsetzen",
       "setzen"
     ],
-    "explanation_en": "'übersetzen' (to translate; to ferry across). After a modal verb the infinitive stays whole at the end of the clause."
+    "explanation_en": "'übersetzen' (to translate). After a modal verb the infinitive stays whole at the end of the clause."
   },
   {
     "exercise_id": "ex_verb_übersetzen_003",
@@ -65841,7 +64991,7 @@
       "vorsetzen",
       "setzen"
     ],
-    "explanation_en": "'übersetzen' (to translate; to ferry across). After a modal verb the infinitive stays whole at the end of the clause."
+    "explanation_en": "'übersetzen' (to translate). After a modal verb the infinitive stays whole at the end of the clause."
   },
   {
     "exercise_id": "ex_verb_übersetzen_004",
@@ -65927,6 +65077,856 @@
       "wir": "haben übersetzt",
       "ihr": "habt übersetzt",
       "sie_Sie": "haben übersetzt"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_beibringen_001",
+    "word_id": "verb_beibringen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "beibringen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to teach sb sth",
+    "wrong_answers": [
+      "to bring along",
+      "to bring in / to contribute",
+      "to spend (time)",
+      "to show, extend to sb"
+    ],
+    "explanation_en": "'beibringen' means 'to teach sb sth'. Separable: the prefix 'bei' detaches — 'Ich bringe … bei.'"
+  },
+  {
+    "exercise_id": "ex_verb_beibringen_002",
+    "word_id": "verb_beibringen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich muss ihm Deutsch _____.",
+      "en": "I have to teach him German.",
+      "show_english": true
+    },
+    "correct_answer": "beibringen",
+    "wrong_answers": [
+      "mitbringen",
+      "einbringen",
+      "verbringen",
+      "bringen"
+    ],
+    "explanation_en": "'beibringen' (to teach sb sth). After a modal verb the infinitive stays whole at the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_beibringen_003",
+    "word_id": "verb_beibringen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wir wollen den Kindern das Lesen _____.",
+      "en": "We want to teach the children to read.",
+      "show_english": true
+    },
+    "correct_answer": "beibringen",
+    "wrong_answers": [
+      "mitbringen",
+      "einbringen",
+      "verbringen",
+      "bringen"
+    ],
+    "explanation_en": "'beibringen' (to teach sb sth). After a modal verb the infinitive stays whole at the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_beibringen_004",
+    "word_id": "verb_beibringen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Er _____ den Kindern das Lesen bei.",
+      "en": "He teaches the children to read.",
+      "show_english": true
+    },
+    "correct_answer": "bringt ... bei",
+    "wrong_answers": [
+      "beibringt",
+      "bringt",
+      "beibringen",
+      "brachte bei"
+    ],
+    "explanation_en": "'beibringen' is separable. In a present-tense main clause the prefix 'bei' goes to the end: 'Er bringt den Kindern das Lesen bei.'"
+  },
+  {
+    "exercise_id": "verb_beibringen_partizip",
+    "word_id": "verb_beibringen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "beibringen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "beigebracht",
+    "explanation_en": "The Partizip II of 'beibringen' is 'beigebracht'. Separable: the 'ge-' sits between prefix and stem."
+  },
+  {
+    "exercise_id": "verb_beibringen_aux",
+    "word_id": "verb_beibringen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "beibringen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'beibringen' uses 'haben' in the Perfekt. Most transitive verbs take 'haben'."
+  },
+  {
+    "exercise_id": "verb_beibringen_table_prateritum",
+    "word_id": "verb_beibringen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "beibringen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "brachte bei",
+      "du": "brachtest bei",
+      "er_sie_es": "brachte bei",
+      "wir": "brachten bei",
+      "ihr": "brachtet bei",
+      "sie_Sie": "brachten bei"
+    }
+  },
+  {
+    "exercise_id": "verb_beibringen_table_perfekt",
+    "word_id": "verb_beibringen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "beibringen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe beigebracht",
+      "du": "hast beigebracht",
+      "er_sie_es": "hat beigebracht",
+      "wir": "haben beigebracht",
+      "ihr": "habt beigebracht",
+      "sie_Sie": "haben beigebracht"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_durchgehen_001",
+    "word_id": "verb_durchgehen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "durchgehen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to go over sth, check through",
+    "wrong_answers": [
+      "to go out",
+      "to set off / to start",
+      "to enter / to shrink",
+      "to pass (time)"
+    ],
+    "explanation_en": "'durchgehen' means 'to go over sth, check through'. Separable: the prefix 'durch' detaches — 'Ich gehe … durch.'"
+  },
+  {
+    "exercise_id": "ex_verb_durchgehen_002",
+    "word_id": "verb_durchgehen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich muss die Liste _____.",
+      "en": "I have to go over the list.",
+      "show_english": true
+    },
+    "correct_answer": "durchgehen",
+    "wrong_answers": [
+      "ausgehen",
+      "losgehen",
+      "eingehen",
+      "gehen"
+    ],
+    "explanation_en": "'durchgehen' (to go over sth, check through). After a modal verb the infinitive stays whole at the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_durchgehen_003",
+    "word_id": "verb_durchgehen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wir wollen den Text _____.",
+      "en": "We want to go over the text.",
+      "show_english": true
+    },
+    "correct_answer": "durchgehen",
+    "wrong_answers": [
+      "ausgehen",
+      "losgehen",
+      "eingehen",
+      "gehen"
+    ],
+    "explanation_en": "'durchgehen' (to go over sth, check through). After a modal verb the infinitive stays whole at the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_durchgehen_004",
+    "word_id": "verb_durchgehen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Er _____ den Text durch.",
+      "en": "He goes over the text.",
+      "show_english": true
+    },
+    "correct_answer": "geht ... durch",
+    "wrong_answers": [
+      "durchgeht",
+      "geht",
+      "durchgehen",
+      "ging durch"
+    ],
+    "explanation_en": "'durchgehen' is separable. In a present-tense main clause the prefix 'durch' goes to the end: 'Er geht den Text durch.'"
+  },
+  {
+    "exercise_id": "verb_durchgehen_partizip",
+    "word_id": "verb_durchgehen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "durchgehen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "durchgegangen",
+    "explanation_en": "The Partizip II of 'durchgehen' is 'durchgegangen'. Separable: the 'ge-' sits between prefix and stem."
+  },
+  {
+    "exercise_id": "verb_durchgehen_aux",
+    "word_id": "verb_durchgehen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "durchgehen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "ist",
+    "wrong_answers": [
+      "hat"
+    ],
+    "explanation_en": "'durchgehen' uses 'sein' in the Perfekt. Verbs of motion and change of state take 'sein'."
+  },
+  {
+    "exercise_id": "verb_durchgehen_table_prateritum",
+    "word_id": "verb_durchgehen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "durchgehen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "ging durch",
+      "du": "gingst durch",
+      "er_sie_es": "ging durch",
+      "wir": "gingen durch",
+      "ihr": "gingt durch",
+      "sie_Sie": "gingen durch"
+    }
+  },
+  {
+    "exercise_id": "verb_durchgehen_table_perfekt",
+    "word_id": "verb_durchgehen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "durchgehen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "bin durchgegangen",
+      "du": "bist durchgegangen",
+      "er_sie_es": "ist durchgegangen",
+      "wir": "sind durchgegangen",
+      "ihr": "seid durchgegangen",
+      "sie_Sie": "sind durchgegangen"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_umfahren_001",
+    "word_id": "verb_umfahren",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "umfahren",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to drive around (avoid)",
+    "wrong_answers": [
+      "to depart / to leave (by vehicle)",
+      "to approach / to start (engine)",
+      "to find out / to learn (news)",
+      "to continue; to drive off"
+    ],
+    "explanation_en": "'umfahren' means 'to drive around (avoid)'. Inseparable: 'um' never detaches, and the Partizip II takes no 'ge-'."
+  },
+  {
+    "exercise_id": "ex_verb_umfahren_002",
+    "word_id": "verb_umfahren",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich muss die Baustelle _____.",
+      "en": "I have to drive around the roadworks.",
+      "show_english": true
+    },
+    "correct_answer": "umfahren",
+    "wrong_answers": [
+      "abfahren",
+      "anfahren",
+      "erfahren",
+      "fahren"
+    ],
+    "explanation_en": "'umfahren' (to drive around (avoid)). After a modal verb the infinitive stays whole at the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_umfahren_003",
+    "word_id": "verb_umfahren",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wir wollen das Hindernis _____.",
+      "en": "We want to drive around the obstacle.",
+      "show_english": true
+    },
+    "correct_answer": "umfahren",
+    "wrong_answers": [
+      "abfahren",
+      "anfahren",
+      "erfahren",
+      "fahren"
+    ],
+    "explanation_en": "'umfahren' (to drive around (avoid)). After a modal verb the infinitive stays whole at the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_umfahren_004",
+    "word_id": "verb_umfahren",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Er _____ das Hindernis.",
+      "en": "He drives around the obstacle.",
+      "show_english": true
+    },
+    "correct_answer": "umfährt",
+    "wrong_answers": [
+      "fährt um",
+      "fährt",
+      "umfahren",
+      "umfuhr"
+    ],
+    "explanation_en": "'umfahren' is inseparable. The prefix stays attached: 'Er umfährt das Hindernis.'"
+  },
+  {
+    "exercise_id": "verb_umfahren_partizip",
+    "word_id": "verb_umfahren",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "umfahren",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "umfahren",
+    "explanation_en": "The Partizip II of 'umfahren' is 'umfahren'. Inseparable verbs take no 'ge-'."
+  },
+  {
+    "exercise_id": "verb_umfahren_aux",
+    "word_id": "verb_umfahren",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "umfahren",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'umfahren' uses 'haben' in the Perfekt. Most transitive verbs take 'haben'."
+  },
+  {
+    "exercise_id": "verb_umfahren_table_prateritum",
+    "word_id": "verb_umfahren",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "umfahren",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "umfuhr",
+      "du": "umfuhrst",
+      "er_sie_es": "umfuhr",
+      "wir": "umfuhren",
+      "ihr": "umfuhrt",
+      "sie_Sie": "umfuhren"
+    }
+  },
+  {
+    "exercise_id": "verb_umfahren_table_perfekt",
+    "word_id": "verb_umfahren",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "umfahren",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe umfahren",
+      "du": "hast umfahren",
+      "er_sie_es": "hat umfahren",
+      "wir": "haben umfahren",
+      "ihr": "habt umfahren",
+      "sie_Sie": "haben umfahren"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_weiterhelfen_001",
+    "word_id": "verb_weiterhelfen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "weiterhelfen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to help sb further along",
+    "wrong_answers": [
+      "to help out / to stand in",
+      "to help along / to lend a hand",
+      "to help",
+      "to answer sth"
+    ],
+    "explanation_en": "'weiterhelfen' means 'to help sb further along'. Separable: the prefix 'weiter' detaches — 'Ich helfe … weiter.'"
+  },
+  {
+    "exercise_id": "ex_verb_weiterhelfen_002",
+    "word_id": "verb_weiterhelfen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich muss mir _____.",
+      "en": "I have to help further along me.",
+      "show_english": true
+    },
+    "correct_answer": "weiterhelfen",
+    "wrong_answers": [
+      "aushelfen",
+      "mithelfen",
+      "helfen"
+    ],
+    "explanation_en": "'weiterhelfen' (to help sb further along). After a modal verb the infinitive stays whole at the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_weiterhelfen_003",
+    "word_id": "verb_weiterhelfen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wir wollen dem Kunden _____.",
+      "en": "We want to help further along the customer.",
+      "show_english": true
+    },
+    "correct_answer": "weiterhelfen",
+    "wrong_answers": [
+      "aushelfen",
+      "mithelfen",
+      "helfen"
+    ],
+    "explanation_en": "'weiterhelfen' (to help sb further along). After a modal verb the infinitive stays whole at the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_weiterhelfen_004",
+    "word_id": "verb_weiterhelfen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Er _____ dem Kunden weiter.",
+      "en": "He helps further along the customer.",
+      "show_english": true
+    },
+    "correct_answer": "hilft ... weiter",
+    "wrong_answers": [
+      "weiterhilft",
+      "hilft",
+      "weiterhelfen",
+      "half weiter"
+    ],
+    "explanation_en": "'weiterhelfen' is separable. In a present-tense main clause the prefix 'weiter' goes to the end: 'Er hilft dem Kunden weiter.'"
+  },
+  {
+    "exercise_id": "verb_weiterhelfen_partizip",
+    "word_id": "verb_weiterhelfen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "weiterhelfen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "weitergeholfen",
+    "explanation_en": "The Partizip II of 'weiterhelfen' is 'weitergeholfen'. Separable: the 'ge-' sits between prefix and stem."
+  },
+  {
+    "exercise_id": "verb_weiterhelfen_aux",
+    "word_id": "verb_weiterhelfen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "weiterhelfen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'weiterhelfen' uses 'haben' in the Perfekt. Most transitive verbs take 'haben'."
+  },
+  {
+    "exercise_id": "verb_weiterhelfen_table_prateritum",
+    "word_id": "verb_weiterhelfen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "weiterhelfen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "half weiter",
+      "du": "halfst weiter",
+      "er_sie_es": "half weiter",
+      "wir": "halfen weiter",
+      "ihr": "halft weiter",
+      "sie_Sie": "halfen weiter"
+    }
+  },
+  {
+    "exercise_id": "verb_weiterhelfen_table_perfekt",
+    "word_id": "verb_weiterhelfen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "weiterhelfen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe weitergeholfen",
+      "du": "hast weitergeholfen",
+      "er_sie_es": "hat weitergeholfen",
+      "wir": "haben weitergeholfen",
+      "ihr": "habt weitergeholfen",
+      "sie_Sie": "haben weitergeholfen"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_widerfahren_001",
+    "word_id": "verb_widerfahren",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "widerfahren",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to befall sb",
+    "wrong_answers": [
+      "to depart / to leave (by vehicle)",
+      "to approach / to start (engine)",
+      "to find out / to learn (news)",
+      "to continue; to drive off"
+    ],
+    "explanation_en": "'widerfahren' means 'to befall sb'. Inseparable: 'wider' never detaches, and the Partizip II takes no 'ge-'."
+  },
+  {
+    "exercise_id": "ex_verb_widerfahren_002",
+    "word_id": "verb_widerfahren",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich muss ihm _____.",
+      "en": "I have to befall to him.",
+      "show_english": true
+    },
+    "correct_answer": "widerfahren",
+    "wrong_answers": [
+      "abfahren",
+      "anfahren",
+      "erfahren",
+      "fahren"
+    ],
+    "explanation_en": "'widerfahren' (to befall sb). After a modal verb the infinitive stays whole at the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_widerfahren_003",
+    "word_id": "verb_widerfahren",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wir wollen uns _____.",
+      "en": "We want to befall to us.",
+      "show_english": true
+    },
+    "correct_answer": "widerfahren",
+    "wrong_answers": [
+      "abfahren",
+      "anfahren",
+      "erfahren",
+      "fahren"
+    ],
+    "explanation_en": "'widerfahren' (to befall sb). After a modal verb the infinitive stays whole at the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_widerfahren_004",
+    "word_id": "verb_widerfahren",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Er _____ uns.",
+      "en": "He befalls to us.",
+      "show_english": true
+    },
+    "correct_answer": "widerfährt",
+    "wrong_answers": [
+      "fährt wider",
+      "fährt",
+      "widerfahren",
+      "widerfuhr"
+    ],
+    "explanation_en": "'widerfahren' is inseparable. The prefix stays attached: 'Er widerfährt uns.'"
+  },
+  {
+    "exercise_id": "verb_widerfahren_partizip",
+    "word_id": "verb_widerfahren",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "widerfahren",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "widerfahren",
+    "explanation_en": "The Partizip II of 'widerfahren' is 'widerfahren'. Inseparable verbs take no 'ge-'."
+  },
+  {
+    "exercise_id": "verb_widerfahren_aux",
+    "word_id": "verb_widerfahren",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "widerfahren",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "ist",
+    "wrong_answers": [
+      "hat"
+    ],
+    "explanation_en": "'widerfahren' uses 'sein' in the Perfekt. Verbs of motion and change of state take 'sein'."
+  },
+  {
+    "exercise_id": "verb_widerfahren_table_prateritum",
+    "word_id": "verb_widerfahren",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "widerfahren",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "widerfuhr",
+      "du": "widerfuhrst",
+      "er_sie_es": "widerfuhr",
+      "wir": "widerfuhren",
+      "ihr": "widerfuhrt",
+      "sie_Sie": "widerfuhren"
+    }
+  },
+  {
+    "exercise_id": "verb_widerfahren_table_perfekt",
+    "word_id": "verb_widerfahren",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "widerfahren",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "bin widerfahren",
+      "du": "bist widerfahren",
+      "er_sie_es": "ist widerfahren",
+      "wir": "sind widerfahren",
+      "ihr": "seid widerfahren",
+      "sie_Sie": "sind widerfahren"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_zuhören_001",
+    "word_id": "verb_zuhören",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "zuhören",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to listen to sb",
+    "wrong_answers": [
+      "to listen to / to hear out",
+      "to stop / to cease",
+      "to belong to",
+      "to listen closely"
+    ],
+    "explanation_en": "'zuhören' means 'to listen to sb'. Separable: the prefix 'zu' detaches — 'Ich höre … zu.'"
+  },
+  {
+    "exercise_id": "ex_verb_zuhören_002",
+    "word_id": "verb_zuhören",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich muss mir _____.",
+      "en": "I have to listen to me.",
+      "show_english": true
+    },
+    "correct_answer": "zuhören",
+    "wrong_answers": [
+      "anhören",
+      "aufhören",
+      "gehören",
+      "hören"
+    ],
+    "explanation_en": "'zuhören' (to listen to sb). After a modal verb the infinitive stays whole at the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_zuhören_003",
+    "word_id": "verb_zuhören",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wir wollen dem Lehrer _____.",
+      "en": "We want to listen to the teacher.",
+      "show_english": true
+    },
+    "correct_answer": "zuhören",
+    "wrong_answers": [
+      "anhören",
+      "aufhören",
+      "gehören",
+      "hören"
+    ],
+    "explanation_en": "'zuhören' (to listen to sb). After a modal verb the infinitive stays whole at the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_zuhören_004",
+    "word_id": "verb_zuhören",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Er _____ dem Lehrer zu.",
+      "en": "He listens to the teacher.",
+      "show_english": true
+    },
+    "correct_answer": "hört ... zu",
+    "wrong_answers": [
+      "zuhört",
+      "hört",
+      "zuhören",
+      "hörte zu"
+    ],
+    "explanation_en": "'zuhören' is separable. In a present-tense main clause the prefix 'zu' goes to the end: 'Er hört dem Lehrer zu.'"
+  },
+  {
+    "exercise_id": "verb_zuhören_partizip",
+    "word_id": "verb_zuhören",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "zuhören",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "zugehört",
+    "explanation_en": "The Partizip II of 'zuhören' is 'zugehört'. Separable: the 'ge-' sits between prefix and stem."
+  },
+  {
+    "exercise_id": "verb_zuhören_aux",
+    "word_id": "verb_zuhören",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "zuhören",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'zuhören' uses 'haben' in the Perfekt. Most transitive verbs take 'haben'."
+  },
+  {
+    "exercise_id": "verb_zuhören_table_prateritum",
+    "word_id": "verb_zuhören",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "zuhören",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "hörte zu",
+      "du": "hörtest zu",
+      "er_sie_es": "hörte zu",
+      "wir": "hörten zu",
+      "ihr": "hörtet zu",
+      "sie_Sie": "hörten zu"
+    }
+  },
+  {
+    "exercise_id": "verb_zuhören_table_perfekt",
+    "word_id": "verb_zuhören",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "zuhören",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe zugehört",
+      "du": "hast zugehört",
+      "er_sie_es": "hat zugehört",
+      "wir": "haben zugehört",
+      "ihr": "habt zugehört",
+      "sie_Sie": "haben zugehört"
     }
   }
 ]

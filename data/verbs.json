@@ -552,20 +552,6 @@
         "notes": "Inseparable prefix. The prefix never separates: Die Zeit vergeht schnell."
       },
       {
-        "id": "verb_durchgehen",
-        "prefix": "durch",
-        "word": "durchgehen",
-        "english": "to walk through; to go over sth",
-        "separable": true,
-        "notes": "'Wir gehen die Liste durch.' The motion sense takes sein: 'Er ist durchgegangen.'",
-        "grammar": {
-          "case_requirements": [
-            "accusative"
-          ],
-          "notes_en": "SEPARABLE and aux HABEN in the 'go over something' sense taken here; the motion sense ('walk through') is separable with sein"
-        }
-      },
-      {
         "id": "verb_fortgehen",
         "prefix": "fort",
         "word": "fortgehen",
@@ -634,6 +620,20 @@
         "english": "to go back, decline",
         "separable": true,
         "notes": "Prefix separates in main clause: Ich gehe … zurück."
+      },
+      {
+        "id": "verb_durchgehen",
+        "prefix": "durch",
+        "word": "durchgehen",
+        "english": "to go over sth, check through",
+        "separable": true,
+        "notes": "'Wir gehen die Liste durch.' Perfekt with sein: 'Wir sind die Liste durchgegangen.'",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "aux SEIN — corrected Session 39 against de.wiktionary.org, which lists exactly two readings: separable + sein (incl. sense [8] 'etwas Punkt für Punkt überprüfen', the sense taken here) and inseparable + haben ('durchgangen'). The filed separable+haben combination is attested by neither."
+        }
       }
     ],
     "example_sentences": [
@@ -1989,14 +1989,6 @@
         "notes": "Prefix separates in main clause: Ich halte … entgegen."
       },
       {
-        "id": "verb_unterhalten",
-        "prefix": "unter",
-        "word": "unterhalten",
-        "english": "to entertain; to maintain",
-        "separable": false,
-        "notes": "Inseparable: the prefix stays attached — 'Ich unterhalte.'"
-      },
-      {
         "id": "verb_zurückhalten",
         "prefix": "zurück",
         "word": "zurückhalten",
@@ -2017,6 +2009,14 @@
           ],
           "notes_en": "no case in the 'stick together' sense taken here; root halten takes the accusative"
         }
+      },
+      {
+        "id": "verb_unterhalten",
+        "prefix": "unter",
+        "word": "unterhalten",
+        "english": "to entertain",
+        "separable": false,
+        "notes": "Inseparable: the prefix stays attached — 'Ich unterhalte.'"
       }
     ],
     "example_sentences": [
@@ -2248,14 +2248,6 @@
         "notes": "Inseparable prefix: Wir verbringen den Urlaub in Italien."
       },
       {
-        "id": "verb_beibringen",
-        "prefix": "bei",
-        "word": "beibringen",
-        "english": "to teach sb sth",
-        "separable": true,
-        "notes": "Prefix separates in main clause: Ich bringe … bei."
-      },
-      {
         "id": "verb_entgegenbringen",
         "prefix": "entgegen",
         "word": "entgegenbringen",
@@ -2326,6 +2318,14 @@
           ],
           "notes_en": ""
         }
+      },
+      {
+        "id": "verb_beibringen",
+        "prefix": "bei",
+        "word": "beibringen",
+        "english": "to teach sb sth",
+        "separable": true,
+        "notes": "Prefix separates in main clause: Ich bringe … bei."
       }
     ],
     "example_sentences": [
@@ -3266,7 +3266,7 @@
         "id": "verb_überlaufen",
         "prefix": "über",
         "word": "überlaufen",
-        "english": "to overflow; to defect",
+        "english": "to overflow, boil over",
         "separable": true,
         "notes": "Separable = boil over. Inseparable überláufen = to defect to the other side."
       }
@@ -3559,20 +3559,6 @@
         "notes": "Prefix separates in main clause: Ich fahre … mit."
       },
       {
-        "id": "verb_umfahren",
-        "prefix": "um",
-        "word": "umfahren",
-        "english": "to drive around / to run over",
-        "separable": false,
-        "notes": "Stress decides: umfáhren (inseparable) = drive around; úmfahren (separable) = run over.",
-        "grammar": {
-          "case_requirements": [
-            "accusative"
-          ],
-          "notes_en": "INSEPARABLE reading chosen (umfáhren = drive around). The separable úmfahren means 'to run over' — same spelling, opposite outcome"
-        }
-      },
-      {
         "id": "verb_wegfahren",
         "prefix": "weg",
         "word": "wegfahren",
@@ -3587,6 +3573,20 @@
         "english": "to drive on, travel on",
         "separable": true,
         "notes": "Prefix separates in main clause: Ich fahre … weiter."
+      },
+      {
+        "id": "verb_umfahren",
+        "prefix": "um",
+        "word": "umfahren",
+        "english": "to drive around (avoid)",
+        "separable": false,
+        "notes": "Stress decides: umfáhren (inseparable) = drive around; úmfahren (separable) = run over.",
+        "grammar": {
+          "case_requirements": [
+            "accusative"
+          ],
+          "notes_en": "INSEPARABLE reading chosen (umfáhren = drive around). The separable úmfahren means 'to run over' — same spelling, opposite outcome"
+        }
       },
       {
         "id": "verb_widerfahren",
@@ -5047,7 +5047,7 @@
         "id": "verb_übersetzen",
         "prefix": "über",
         "word": "übersetzen",
-        "english": "to translate; to ferry across",
+        "english": "to translate",
         "separable": false,
         "notes": "Inseparable = translate. Separable úbersetzen = to ferry someone across."
       }

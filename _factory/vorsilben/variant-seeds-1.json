@@ -1,47 +1,756 @@
 [
-{"w":"bearbeiten","sep":false,"aux":"hat","case":["accusative"],"c1":["den Text","the text"],"c2":["das Foto","the photo"]},
-{"w":"entführen","sep":false,"aux":"hat","case":["accusative"],"c1":["das Flugzeug","the plane"],"c2":["den Diplomaten","the diplomat"]},
-{"w":"entlassen","sep":false,"aux":"hat","case":["accusative"],"c1":["den Mitarbeiter","the employee"],"c2":["die Patientin","the patient"]},
-{"w":"entlaufen","sep":false,"aux":"ist","case":["dative"],"c1":["dem Besitzer","from the owner"],"c2":["uns","from us"],"judgement":"aux sein (motion away); ent- verbs of escape take the DATIVE for what is fled — differs from root laufen (no case)","note":"Takes the dative: 'Der Hund ist dem Besitzer entlaufen.'"},
-{"w":"entstehen","sep":false,"aux":"ist","case":["none"],"c1":["hier","here"],"c2":["langsam","slowly"],"judgement":"aux sein — entstehen is a change-of-state verb, unlike root stehen which takes haben"},
-{"w":"erreichen","sep":false,"aux":"hat","case":["accusative"],"c1":["den Zug","the train"],"c2":["das Ziel","the goal"],"judgement":"case ACCUSATIVE — root reichen takes the dative, er- makes it transitive"},
-{"w":"ertrinken","sep":false,"aux":"ist","case":["none"],"c1":["fast","almost"],"c2":["im See","in the lake"],"judgement":"aux sein — change of state; root trinken takes haben and the accusative"},
-{"w":"gedenken","sep":false,"aux":"hat","case":["genitive"],"c1":["der Opfer","the victims"],"c2":["der Toten","the dead"],"judgement":"case GENITIVE — one of the few surviving genitive verbs","note":"Takes the genitive: 'Wir gedenken der Opfer.'"},
-{"w":"gestehen","sep":false,"aux":"hat","case":["accusative"],"c1":["die Wahrheit","the truth"],"c2":["alles","everything"],"judgement":"case ACCUSATIVE — root stehen has none"},
-{"w":"missbrauchen","sep":false,"aux":"hat","case":["accusative"],"c1":["sein Vertrauen","his trust"],"c2":["die Macht","the power"]},
-{"w":"zerlegen","sep":false,"aux":"hat","case":["accusative"],"c1":["den Motor","the engine"],"c2":["das Regal","the shelf"]},
-
-{"w":"durchdenken","sep":false,"aux":"hat","case":["accusative"],"c1":["den Plan","the plan"],"c2":["das Problem","the problem"],"judgement":"INSEPARABLE — figurative (think a thing through), so the prefix stays attached"},
-{"w":"durchgehen","sep":true,"aux":"hat","case":["accusative"],"c1":["die Liste","the list"],"c2":["den Text","the text"],"judgement":"SEPARABLE and aux HABEN in the 'go over something' sense taken here; the motion sense ('walk through') is separable with sein","note":"'Wir gehen die Liste durch.' The motion sense takes sein: 'Er ist durchgegangen.'"},
-{"w":"durchhalten","sep":true,"aux":"hat","case":["none"],"c1":["bis zum Ende","until the end"],"c2":["noch zwei Wochen","for two more weeks"],"judgement":"SEPARABLE — literal 'hold out through'; intransitive, so no case despite root halten taking the accusative"},
-{"w":"durchlesen","sep":true,"aux":"hat","case":["accusative"],"c1":["den Vertrag","the contract"],"c2":["das Buch","the book"],"judgement":"SEPARABLE — literal passage through the text"},
-{"w":"durchsuchen","sep":false,"aux":"hat","case":["accusative"],"c1":["das Haus","the house"],"c2":["die Tasche","the bag"],"judgement":"INSEPARABLE — figurative/thorough sense. Contrast durchlesen, which separates"},
-{"w":"hinterbringen","sep":false,"aux":"hat","case":["accusative","dative"],"c1":["die Nachricht","the news"],"c2":["das Gerücht","the rumour"],"judgement":"INSEPARABLE — hinter- is inseparable in all its verbs"},
-{"w":"hinterfragen","sep":false,"aux":"hat","case":["accusative"],"c1":["die Regel","the rule"],"c2":["seine Motive","his motives"]},
-{"w":"hintergehen","sep":false,"aux":"hat","case":["accusative"],"c1":["seinen Freund","his friend"],"c2":["die Partner","the partners"],"judgement":"aux HABEN and case ACCUSATIVE — both differ from root gehen (sein, no case), because hintergehen is transitive 'to deceive'"},
-{"w":"hinterlassen","sep":false,"aux":"hat","case":["accusative"],"c1":["eine Nachricht","a message"],"c2":["einen guten Eindruck","a good impression"]},
-{"w":"hinterlegen","sep":false,"aux":"hat","case":["accusative"],"c1":["den Schlüssel","the key"],"c2":["eine Kaution","a deposit"]},
-{"w":"hinterziehen","sep":false,"aux":"hat","case":["accusative"],"c1":["Steuern","taxes"],"c2":["das Geld","the money"]},
-{"w":"umbringen","sep":true,"aux":"hat","case":["accusative"],"c1":["die Pflanzen","the plants"],"c2":["die Figur","the character"],"judgement":"SEPARABLE — 'Der Frost hat die Pflanzen umgebracht.'"},
-{"w":"umfahren","sep":false,"aux":"hat","case":["accusative"],"c1":["die Baustelle","the roadworks"],"c2":["das Hindernis","the obstacle"],"judgement":"INSEPARABLE reading chosen (umfáhren = drive around). The separable úmfahren means 'to run over' — same spelling, opposite outcome","note":"Stress decides: umfáhren (inseparable) = drive around; úmfahren (separable) = run over."},
-{"w":"umgeben","sep":false,"aux":"hat","case":["accusative"],"c1":["das Haus","the house"],"c2":["den Platz","the square"],"judgement":"INSEPARABLE — encircling sense"},
-{"w":"umkehren","sep":true,"aux":"ist","case":["none"],"c1":["sofort","immediately"],"c2":["auf halbem Weg","halfway"],"judgement":"SEPARABLE and aux SEIN — motion/turning back; root kehren takes haben"},
-{"w":"untergehen","sep":true,"aux":"ist","case":["none"],"c1":["langsam","slowly"],"c2":["im Westen","in the west"],"judgement":"SEPARABLE — literal downward motion"},
-{"w":"unterhalten","sep":false,"aux":"hat","case":["accusative"],"c1":["die Gäste","the guests"],"c2":["die Familie","the family"],"judgement":"INSEPARABLE — figurative 'hold up from below' (entertain, maintain)"},
-{"w":"unterlassen","sep":false,"aux":"hat","case":["accusative"],"c1":["die Bemerkung","the remark"],"c2":["solche Kommentare","such comments"]},
-{"w":"unterschreiben","sep":false,"aux":"hat","case":["accusative"],"c1":["den Vertrag","the contract"],"c2":["das Formular","the form"]},
-{"w":"widerfahren","sep":false,"aux":"ist","case":["dative"],"c1":["ihm","to him"],"c2":["uns","to us"],"judgement":"aux SEIN, case DATIVE — the person it befalls stands in the dative"},
-{"w":"widerlegen","sep":false,"aux":"hat","case":["accusative"],"c1":["die These","the thesis"],"c2":["das Argument","the argument"]},
-{"w":"widersetzen","sep":false,"aux":"hat","case":["dative"],"c1":["dem Befehl","the order"],"c2":["der Anordnung","the instruction"],"judgement":"case DATIVE and reflexive — 'sich widersetzen' differs from root setzen (accusative)","note":"Reflexive: 'Er hat sich dem Befehl widersetzt.'"},
-{"w":"widerstehen","sep":false,"aux":"hat","case":["dative"],"c1":["der Versuchung","the temptation"],"c2":["dem Druck","the pressure"],"judgement":"case DATIVE — root stehen has none"},
-{"w":"widerstreben","sep":false,"aux":"hat","case":["dative"],"c1":["mir","me"],"c2":["ihr","her"]},
-{"w":"wiederfinden","sep":true,"aux":"hat","case":["accusative"],"c1":["den Schlüssel","the key"],"c2":["die alten Fotos","the old photos"],"judgement":"SEPARABLE — wieder- separates in all its verbs except wiederholen"},
-{"w":"wiedergeben","sep":true,"aux":"hat","case":["accusative","dative"],"c1":["den Inhalt","the content"],"c2":["die Farben","the colours"],"judgement":"SEPARABLE"},
-{"w":"wiederkommen","sep":true,"aux":"ist","case":["none"],"c1":["morgen","tomorrow"],"c2":["später","later"],"judgement":"SEPARABLE, aux sein (motion)"},
-{"w":"wiedersehen","sep":true,"aux":"hat","case":["accusative"],"c1":["die Familie","the family"],"c2":["alte Freunde","old friends"],"judgement":"SEPARABLE"},
-{"w":"überlaufen","sep":true,"aux":"ist","case":["none"],"c1":["gleich","in a moment"],"c2":["fast","almost"],"judgement":"SEPARABLE reading chosen (literal: boil over), aux sein. The inseparable überláufen means 'to defect'","note":"Separable = boil over. Inseparable überláufen = to defect to the other side."},
-{"w":"überlegen","sep":false,"aux":"hat","case":["accusative"],"c1":["den Vorschlag","the proposal"],"c2":["die Antwort","the answer"],"judgement":"INSEPARABLE — figurative 'lay thoughts over'"},
-{"w":"übernehmen","sep":false,"aux":"hat","case":["accusative"],"c1":["die Verantwortung","the responsibility"],"c2":["die Firma","the company"],"judgement":"INSEPARABLE"},
-{"w":"übersehen","sep":false,"aux":"hat","case":["accusative"],"c1":["den Fehler","the mistake"],"c2":["das Schild","the sign"],"judgement":"INSEPARABLE — figurative 'pass over and miss'"},
-{"w":"übersetzen","sep":false,"aux":"hat","case":["accusative"],"c1":["den Text","the text"],"c2":["das Buch","the book"],"judgement":"INSEPARABLE reading chosen (translate). The separable übersetzen means 'to ferry across'","note":"Inseparable = translate. Separable úbersetzen = to ferry someone across."}
+ {
+  "w": "bearbeiten",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "den Text",
+   "the text"
+  ],
+  "c2": [
+   "das Foto",
+   "the photo"
+  ]
+ },
+ {
+  "w": "entführen",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "das Flugzeug",
+   "the plane"
+  ],
+  "c2": [
+   "den Diplomaten",
+   "the diplomat"
+  ]
+ },
+ {
+  "w": "entlassen",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "den Mitarbeiter",
+   "the employee"
+  ],
+  "c2": [
+   "die Patientin",
+   "the patient"
+  ]
+ },
+ {
+  "w": "entlaufen",
+  "sep": false,
+  "aux": "ist",
+  "case": [
+   "dative"
+  ],
+  "c1": [
+   "dem Besitzer",
+   "from the owner"
+  ],
+  "c2": [
+   "uns",
+   "from us"
+  ],
+  "judgement": "aux sein (motion away); ent- verbs of escape take the DATIVE for what is fled — differs from root laufen (no case)",
+  "note": "Takes the dative: 'Der Hund ist dem Besitzer entlaufen.'"
+ },
+ {
+  "w": "entstehen",
+  "sep": false,
+  "aux": "ist",
+  "case": [
+   "none"
+  ],
+  "c1": [
+   "hier",
+   "here"
+  ],
+  "c2": [
+   "langsam",
+   "slowly"
+  ],
+  "judgement": "aux sein — entstehen is a change-of-state verb, unlike root stehen which takes haben"
+ },
+ {
+  "w": "erreichen",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "den Zug",
+   "the train"
+  ],
+  "c2": [
+   "das Ziel",
+   "the goal"
+  ],
+  "judgement": "case ACCUSATIVE — root reichen takes the dative, er- makes it transitive"
+ },
+ {
+  "w": "ertrinken",
+  "sep": false,
+  "aux": "ist",
+  "case": [
+   "none"
+  ],
+  "c1": [
+   "fast",
+   "almost"
+  ],
+  "c2": [
+   "im See",
+   "in the lake"
+  ],
+  "judgement": "aux sein — change of state; root trinken takes haben and the accusative"
+ },
+ {
+  "w": "gedenken",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "genitive"
+  ],
+  "c1": [
+   "der Opfer",
+   "the victims"
+  ],
+  "c2": [
+   "der Toten",
+   "the dead"
+  ],
+  "judgement": "case GENITIVE — one of the few surviving genitive verbs",
+  "note": "Takes the genitive: 'Wir gedenken der Opfer.'"
+ },
+ {
+  "w": "gestehen",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "die Wahrheit",
+   "the truth"
+  ],
+  "c2": [
+   "alles",
+   "everything"
+  ],
+  "judgement": "case ACCUSATIVE — root stehen has none"
+ },
+ {
+  "w": "missbrauchen",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "sein Vertrauen",
+   "his trust"
+  ],
+  "c2": [
+   "die Macht",
+   "the power"
+  ]
+ },
+ {
+  "w": "zerlegen",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "den Motor",
+   "the engine"
+  ],
+  "c2": [
+   "das Regal",
+   "the shelf"
+  ]
+ },
+ {
+  "w": "durchdenken",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "den Plan",
+   "the plan"
+  ],
+  "c2": [
+   "das Problem",
+   "the problem"
+  ],
+  "judgement": "INSEPARABLE — figurative (think a thing through), so the prefix stays attached"
+ },
+ {
+  "w": "durchgehen",
+  "sep": true,
+  "aux": "ist",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "die Liste",
+   "the list"
+  ],
+  "c2": [
+   "den Text",
+   "the text"
+  ],
+  "judgement": "aux SEIN — corrected Session 39 against de.wiktionary.org, which lists exactly two readings: separable + sein (incl. sense [8] 'etwas Punkt für Punkt überprüfen', the sense taken here) and inseparable + haben ('durchgangen'). The filed separable+haben combination is attested by neither.",
+  "note": "'Wir gehen die Liste durch.' Perfekt with sein: 'Wir sind die Liste durchgegangen.'",
+  "english": "to go over sth, check through",
+  "english_note": "gloss pinned to the filed reading (Session 39) — prefixes.json teaches both readings with a `why`; the Verbs card has no room for that"
+ },
+ {
+  "w": "durchhalten",
+  "sep": true,
+  "aux": "hat",
+  "case": [
+   "none"
+  ],
+  "c1": [
+   "bis zum Ende",
+   "until the end"
+  ],
+  "c2": [
+   "noch zwei Wochen",
+   "for two more weeks"
+  ],
+  "judgement": "SEPARABLE — literal 'hold out through'; intransitive, so no case despite root halten taking the accusative"
+ },
+ {
+  "w": "durchlesen",
+  "sep": true,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "den Vertrag",
+   "the contract"
+  ],
+  "c2": [
+   "das Buch",
+   "the book"
+  ],
+  "judgement": "SEPARABLE — literal passage through the text"
+ },
+ {
+  "w": "durchsuchen",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "das Haus",
+   "the house"
+  ],
+  "c2": [
+   "die Tasche",
+   "the bag"
+  ],
+  "judgement": "INSEPARABLE — figurative/thorough sense. Contrast durchlesen, which separates"
+ },
+ {
+  "w": "hinterbringen",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative",
+   "dative"
+  ],
+  "c1": [
+   "die Nachricht",
+   "the news"
+  ],
+  "c2": [
+   "das Gerücht",
+   "the rumour"
+  ],
+  "judgement": "INSEPARABLE — hinter- is inseparable in all its verbs"
+ },
+ {
+  "w": "hinterfragen",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "die Regel",
+   "the rule"
+  ],
+  "c2": [
+   "seine Motive",
+   "his motives"
+  ]
+ },
+ {
+  "w": "hintergehen",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "seinen Freund",
+   "his friend"
+  ],
+  "c2": [
+   "die Partner",
+   "the partners"
+  ],
+  "judgement": "aux HABEN and case ACCUSATIVE — both differ from root gehen (sein, no case), because hintergehen is transitive 'to deceive'"
+ },
+ {
+  "w": "hinterlassen",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "eine Nachricht",
+   "a message"
+  ],
+  "c2": [
+   "einen guten Eindruck",
+   "a good impression"
+  ]
+ },
+ {
+  "w": "hinterlegen",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "den Schlüssel",
+   "the key"
+  ],
+  "c2": [
+   "eine Kaution",
+   "a deposit"
+  ]
+ },
+ {
+  "w": "hinterziehen",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "Steuern",
+   "taxes"
+  ],
+  "c2": [
+   "das Geld",
+   "the money"
+  ]
+ },
+ {
+  "w": "umbringen",
+  "sep": true,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "die Pflanzen",
+   "the plants"
+  ],
+  "c2": [
+   "die Figur",
+   "the character"
+  ],
+  "judgement": "SEPARABLE — 'Der Frost hat die Pflanzen umgebracht.'"
+ },
+ {
+  "w": "umfahren",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "die Baustelle",
+   "the roadworks"
+  ],
+  "c2": [
+   "das Hindernis",
+   "the obstacle"
+  ],
+  "judgement": "INSEPARABLE reading chosen (umfáhren = drive around). The separable úmfahren means 'to run over' — same spelling, opposite outcome",
+  "note": "Stress decides: umfáhren (inseparable) = drive around; úmfahren (separable) = run over.",
+  "english": "to drive around (avoid)",
+  "english_note": "gloss pinned to the filed reading (Session 39) — prefixes.json teaches both readings with a `why`; the Verbs card has no room for that"
+ },
+ {
+  "w": "umgeben",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "das Haus",
+   "the house"
+  ],
+  "c2": [
+   "den Platz",
+   "the square"
+  ],
+  "judgement": "INSEPARABLE — encircling sense"
+ },
+ {
+  "w": "umkehren",
+  "sep": true,
+  "aux": "ist",
+  "case": [
+   "none"
+  ],
+  "c1": [
+   "sofort",
+   "immediately"
+  ],
+  "c2": [
+   "auf halbem Weg",
+   "halfway"
+  ],
+  "judgement": "SEPARABLE and aux SEIN — motion/turning back; root kehren takes haben"
+ },
+ {
+  "w": "untergehen",
+  "sep": true,
+  "aux": "ist",
+  "case": [
+   "none"
+  ],
+  "c1": [
+   "langsam",
+   "slowly"
+  ],
+  "c2": [
+   "im Westen",
+   "in the west"
+  ],
+  "judgement": "SEPARABLE — literal downward motion"
+ },
+ {
+  "w": "unterhalten",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "die Gäste",
+   "the guests"
+  ],
+  "c2": [
+   "die Familie",
+   "the family"
+  ],
+  "judgement": "INSEPARABLE — figurative 'hold up from below' (entertain, maintain)",
+  "english": "to entertain",
+  "english_note": "gloss pinned to the filed reading (Session 39) — prefixes.json teaches both readings with a `why`; the Verbs card has no room for that"
+ },
+ {
+  "w": "unterlassen",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "die Bemerkung",
+   "the remark"
+  ],
+  "c2": [
+   "solche Kommentare",
+   "such comments"
+  ]
+ },
+ {
+  "w": "unterschreiben",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "den Vertrag",
+   "the contract"
+  ],
+  "c2": [
+   "das Formular",
+   "the form"
+  ]
+ },
+ {
+  "w": "widerfahren",
+  "sep": false,
+  "aux": "ist",
+  "case": [
+   "dative"
+  ],
+  "c1": [
+   "ihm",
+   "to him"
+  ],
+  "c2": [
+   "uns",
+   "to us"
+  ],
+  "judgement": "aux SEIN, case DATIVE — the person it befalls stands in the dative"
+ },
+ {
+  "w": "widerlegen",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "die These",
+   "the thesis"
+  ],
+  "c2": [
+   "das Argument",
+   "the argument"
+  ]
+ },
+ {
+  "w": "widersetzen",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "dative"
+  ],
+  "c1": [
+   "dem Befehl",
+   "the order"
+  ],
+  "c2": [
+   "der Anordnung",
+   "the instruction"
+  ],
+  "judgement": "case DATIVE and reflexive — 'sich widersetzen' differs from root setzen (accusative)",
+  "note": "Reflexive: 'Er hat sich dem Befehl widersetzt.'"
+ },
+ {
+  "w": "widerstehen",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "dative"
+  ],
+  "c1": [
+   "der Versuchung",
+   "the temptation"
+  ],
+  "c2": [
+   "dem Druck",
+   "the pressure"
+  ],
+  "judgement": "case DATIVE — root stehen has none"
+ },
+ {
+  "w": "widerstreben",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "dative"
+  ],
+  "c1": [
+   "mir",
+   "me"
+  ],
+  "c2": [
+   "ihr",
+   "her"
+  ]
+ },
+ {
+  "w": "wiederfinden",
+  "sep": true,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "den Schlüssel",
+   "the key"
+  ],
+  "c2": [
+   "die alten Fotos",
+   "the old photos"
+  ],
+  "judgement": "SEPARABLE — wieder- separates in all its verbs except wiederholen"
+ },
+ {
+  "w": "wiedergeben",
+  "sep": true,
+  "aux": "hat",
+  "case": [
+   "accusative",
+   "dative"
+  ],
+  "c1": [
+   "den Inhalt",
+   "the content"
+  ],
+  "c2": [
+   "die Farben",
+   "the colours"
+  ],
+  "judgement": "SEPARABLE"
+ },
+ {
+  "w": "wiederkommen",
+  "sep": true,
+  "aux": "ist",
+  "case": [
+   "none"
+  ],
+  "c1": [
+   "morgen",
+   "tomorrow"
+  ],
+  "c2": [
+   "später",
+   "later"
+  ],
+  "judgement": "SEPARABLE, aux sein (motion)"
+ },
+ {
+  "w": "wiedersehen",
+  "sep": true,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "die Familie",
+   "the family"
+  ],
+  "c2": [
+   "alte Freunde",
+   "old friends"
+  ],
+  "judgement": "SEPARABLE"
+ },
+ {
+  "w": "überlaufen",
+  "sep": true,
+  "aux": "ist",
+  "case": [
+   "none"
+  ],
+  "c1": [
+   "gleich",
+   "in a moment"
+  ],
+  "c2": [
+   "fast",
+   "almost"
+  ],
+  "judgement": "SEPARABLE reading chosen (literal: boil over), aux sein. The inseparable überláufen means 'to defect'",
+  "note": "Separable = boil over. Inseparable überláufen = to defect to the other side.",
+  "english": "to overflow, boil over",
+  "english_note": "gloss pinned to the filed reading (Session 39) — prefixes.json teaches both readings with a `why`; the Verbs card has no room for that"
+ },
+ {
+  "w": "überlegen",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "den Vorschlag",
+   "the proposal"
+  ],
+  "c2": [
+   "die Antwort",
+   "the answer"
+  ],
+  "judgement": "INSEPARABLE — figurative 'lay thoughts over'"
+ },
+ {
+  "w": "übernehmen",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "die Verantwortung",
+   "the responsibility"
+  ],
+  "c2": [
+   "die Firma",
+   "the company"
+  ],
+  "judgement": "INSEPARABLE"
+ },
+ {
+  "w": "übersehen",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "den Fehler",
+   "the mistake"
+  ],
+  "c2": [
+   "das Schild",
+   "the sign"
+  ],
+  "judgement": "INSEPARABLE — figurative 'pass over and miss'"
+ },
+ {
+  "w": "übersetzen",
+  "sep": false,
+  "aux": "hat",
+  "case": [
+   "accusative"
+  ],
+  "c1": [
+   "den Text",
+   "the text"
+  ],
+  "c2": [
+   "das Buch",
+   "the book"
+  ],
+  "judgement": "INSEPARABLE reading chosen (translate). The separable übersetzen means 'to ferry across'",
+  "note": "Inseparable = translate. Separable úbersetzen = to ferry someone across.",
+  "english": "to translate",
+  "english_note": "gloss pinned to the filed reading (Session 39) — prefixes.json teaches both readings with a `why`; the Verbs card has no room for that"
+ }
 ]

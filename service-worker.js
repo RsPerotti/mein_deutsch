@@ -21,13 +21,16 @@
  * v16: Vorsilben ↔ Verbs reconciliation (Session 38) — +133 prefix_variants,
  *      +1064 verb exercises, per-variant grammar override (verstehen case badge),
  *      js/data.js rebundled from data/*.json via _factory/bundle-data.py.
+ * v17: Variant verification (Session 39) — durchgehen corrected to separable + sein,
+ *      5 dual-reading glosses pinned to one reading, dictionary scaffolding stripped
+ *      from English prompts. js/data.js rebundled.
  *
  * DEPLOY NOTE: bump the CACHE version string on every push that changes
  * JS/CSS files. The browser only installs a new SW when this file changes.
  * If the version is not bumped, users keep running the old cached code.
  */
 
-const CACHE = 'mein-deutsch-v16';
+const CACHE = 'mein-deutsch-v17';
 
 const PRECACHE = [
   './',

@@ -2,6 +2,67 @@
 
 ---
 
+## 2026-08-28 — Session 39: Variant verification against de.wiktionary.org
+
+**Goal:** close the correctness debt from Session 38 — 54 judgement calls shipped live in v16, unverified, on material Ricco cannot check himself.
+
+**PRD:** `PRD_Verify_Variants.md`, signed off before any code was written.
+
+### Approach
+
+Wiktionary's `{{Deutsch Verb Übersicht}}` template carries **Partizip II** and **Hilfsverb** as structured fields. Both target facts fall out of them mechanically: the auxiliary is read directly, and separability is derived from `Präsens_ich` — a separable verb splits in the finite clause (`stelle ab`), an inseparable one does not (`durchsuche`). No judgement involved, which is the whole point.
+
+Chosen over DWDS and Duden because it is the only one of the three with a structured, parseable API.
+
+### Network constraint — and why the script is split in two
+
+Neither shell can reach Wiktionary: the Mac's shell has no network at all, and the container is blocked from the domain. Only the in-app browser could, so the fetch runs there via the MediaWiki API — 40 titles per request, four requests for 133 verbs. Consequence for the architecture: `verify-variants.py` **cannot fetch**. It is a pure offline comparison over `wiktionary-cache.tsv`, which is committed. That turned out to be the better design anyway — the verdict is reproducible without network, and re-runnable in CI.
+
+### Results
+
+**120 PASS · 0 MISMATCH · 11 AMBIGUOUS · 2 NOT-FOUND** (after corrections).
+
+**One real error, corrected: `durchgehen`.** Filed separable + *haben*. Wiktionary lists exactly two readings — separable + *sein* (which includes sense [8], "etwas Punkt für Punkt überprüfen", the sense the app teaches) and inseparable + *haben* (`durchgangen`). The filed combination is attested by neither. Corrected to separable + *sein*; the accusative and the "go over a list" meaning were right and stayed. Per the PRD this was corrected without asking Ricco — it is a dictionary fact, and routing it through a learner is the circularity the rule forbids.
+
+### Two mismatches that were my bugs, not the data's
+
+Worth recording, because both are the shape of error that makes a verifier worse than useless — it reports confidently and it is wrong.
+
+1. **`ausziehen`** — reported MISMATCH on the auxiliary. The template carries `Hilfsverb=sein` **and** `Hilfsverb*=haben`; my regex only read the unstarred field. The app's *hat* was correct all along. Fixed by collecting every `Hilfsverb`/`Hilfsverb*` value and passing if the filed auxiliary is among them.
+
+2. **The `ge`-infix cross-check** fired two false conflicts. `umgeben` → strip `um`, see `geben`, conclude there is a *ge* infix — but that is the stem. `weiterentwickeln` → participle `weiterentwickelt` has no *ge* anywhere, because the base `entwickeln` forms none, so a separable verb looked inseparable. Replaced the heuristic with an exact rule: **separable iff the participle equals prefix + the root's own participle**. Both conflicts vanished, and the rule needs no special-casing.
+
+The lesson is the one this factory already encodes: the check has to be derived independently, but it also has to be *right*, and a heuristic that is 98% correct will spend its errors on exactly the interesting verbs.
+
+### Content problems the AMBIGUOUS rows exposed
+
+Not what the PRD went looking for, but they were sitting in the same 11 rows.
+
+- **Dual-reading glosses on the Verbs card.** `generate-variants.py` copies `english` straight from `prefixes.json`, where a two-reading gloss is correct — the reference card has a `why` field to explain them. The Verbs card does not, so the learner met "umfahren = to drive around / to run over", two opposite meanings and no way to tell which the exercise wants. Fixed at the seed, not in `prefixes.json`: an optional `english` field pins the gloss to the reading the seed files, and the generator prefers it. `durchgehen`, `umfahren`, `überlaufen`, `übersetzen`, `unterhalten`.
+- **Dictionary scaffolding pasted into sentences.** "I have to teach sb sth him German." The gloss `to teach sb sth` was being spliced into the English prompt verbatim. Added `clean_en()` — strips `sth`/`sb`/`somebody` placeholders and parentheticals before the gloss enters a sentence. 6 broken sentences across `beibringen`, `durchgehen`, `weiterhelfen`, `widerfahren`, `zuhören`, `umfahren`; 0 remain.
+
+### A file-clobbering bug in the generator
+
+Re-running the generator to rebuild one corrected verb truncated `judgement-review.md` from 54 rows to 1 — it built the review from the rows *that run* added, and the run added one. Restored and fixed properly: the review table is now built from **all** seeds every run, and the 12-override section is recomputed from `verbs.json` rather than hand-maintained, so neither can drift or be truncated. A partial re-run is now safe.
+
+### Verified green
+
+- `validate-variants.py` — 0 integrity errors (2 known pre-existing warnings: `anerkennen`, `kennenlernen`)
+- `validate-prefixes.py` — 0 · `validate-declension.py` — 0
+- `qa-variants.js` — 21 checks · `qa-prefixes.js` — 61 checks
+- Counts unchanged: 149 roots, 287 variants, 3,708 verb exercises. `js/data.js` rebundled.
+
+Note: `qa-*.js` need jsdom, which is not installed in the repo. Installed to `~/qa` outside the Drive folder and run with `NODE_PATH=~/qa/node_modules` — deliberately not `npm install`ed into the project, which would sync `node_modules` to Google Drive.
+
+### Left open, deliberately
+
+- **The 22 case calls.** Wiktionary marks valency in prose sense-lines, inconsistently. Parsing it would be a heuristic dressed up as verification — the exact failure mode this session just spent an hour on. Needs a valency source (DWDS Wortprofil).
+- **`entgegenlaufen`, `herreichen`** — no Wiktionary page. Filed by derivation only.
+- **The 11 AMBIGUOUS verbs.** Glosses are pinned, but the app never tells the learner the other reading exists, and for `umfahren` the readings are opposites. Product decision, not a data fix.
+- **Sentence-builder English for adverbial complements** — "We want to overflow almost." German fine, English not.
+
+---
+
 ## 2026-08-28 — Session 38: Vorsilben fixes (v15) + Verbs reconciliation (v16)
 
 **Reported:** progress not displaying in the Vorsilben module.

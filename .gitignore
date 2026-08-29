@@ -10,3 +10,6 @@
 Design_System_App.fig
 screens/
 thumbnail.png
+
+# Session backups (large, local only)
+_factory/vorsilben/backups-s39/
