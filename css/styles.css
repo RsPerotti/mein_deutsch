@@ -2596,3 +2596,88 @@ button {
   min-height: 0;
   white-space: normal;
 }
+
+/* ---------------------------------------------------------------------------
+   Wechselpräfix pair cards (Vorsilben Lesson 5, section type "pairs")
+   Stacked rather than tabular: at 375px a 4-column table wraps into soup.
+   The drilled half is the one the app teaches; the other is real German too.
+   --------------------------------------------------------------------------- */
+
+.grammar-pairs {
+  margin-top: var(--sp-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+
+.grammar-pair {
+  background: var(--color-surface-2);
+  border-radius: var(--r-sm);
+  padding: var(--sp-3) var(--sp-4);
+}
+
+.grammar-pair-verb {
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-bold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--sp-2);
+}
+
+.grammar-pair-reading {
+  border-left: 3px solid var(--color-border);
+  padding: var(--sp-2) 0 var(--sp-2) var(--sp-3);
+}
+
+.grammar-pair-reading + .grammar-pair-reading {
+  margin-top: var(--sp-2);
+}
+
+.grammar-pair-reading.is-drilled {
+  border-left-color: var(--color-green-lime);
+}
+
+.grammar-pair-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--sp-2);
+}
+
+.grammar-pair-sep {
+  font-size: var(--font-size-xs);
+  font-weight: var(--fw-semibold);
+  color: var(--color-green-accent);
+  text-transform: lowercase;
+}
+
+.grammar-pair-form {
+  font-size: var(--font-size-sm);
+  font-style: italic;
+  color: var(--color-text-primary);
+}
+
+.grammar-pair-badge {
+  font-size: 10px;
+  font-weight: var(--fw-bold);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-green-dark);
+  background: var(--color-green-lime);
+  border-radius: var(--r-xs, 4px);
+  padding: 1px 6px;
+}
+
+.grammar-pair-tag {
+  font-size: 10px;
+  color: var(--color-text-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--r-xs, 4px);
+  padding: 1px 6px;
+}
+
+.grammar-pair-en {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+  margin-top: var(--sp-1);
+}

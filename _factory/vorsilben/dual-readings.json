@@ -1,0 +1,47 @@
+{
+ "_comment": "Second-reading glosses for the Wechselpräfix verbs the app drills. AUTHORED here: the English gloss and the register tag only. Separability, Partizip II and auxiliary are DERIVED from wiktionary-cache.tsv by generate-dual-section.py and never written here. Keyed by Partizip II so the generator can match a gloss to a reading without guessing. Glosses are paraphrased from the de.wiktionary sense lines of the matching reading (fetched 2026-08-28), not invented.",
+ "durchdenken": {
+  "durchdacht": {"en": "to think sth through in all its aspects"},
+  "durchgedacht": {"en": "to think sth through step by step to the end"}
+ },
+ "durchgehen": {
+  "durchgegangen": {"en": "to go through; to go over sth point by point"},
+  "durchgangen": {"en": "to traverse, cross through a space", "tag": "selten"}
+ },
+ "hintergehen": {
+  "hintergangen": {"en": "to deceive sb, go behind their back"},
+  "hintergegangen": {"en": "to go to the back", "tag": "regional"}
+ },
+ "hinterlegen": {
+  "hinterlegt": {"en": "to deposit sth for safekeeping"},
+  "hintergelegt": {"en": "to put sth further back", "tag": "süddt./öst."}
+ },
+ "umfahren": {
+  "umfahren": {"en": "to drive around sth, avoid it"},
+  "umgefahren": {"en": "to knock sth over by driving into it"}
+ },
+ "umgeben": {
+  "umgeben": {"en": "to surround sth"},
+  "umgegeben": {"en": "to put sth around sb, e.g. a scarf", "tag": "selten, ugs."}
+ },
+ "unterhalten": {
+  "unterhalten": {"en": "to entertain; to converse; to support financially"},
+  "untergehalten": {"en": "to hold sth underneath", "tag": "ugs."}
+ },
+ "überlaufen": {
+  "übergelaufen": {"en": "to overflow; to defect to the other side"},
+  "überlaufen": {"en": "to overrun sth, swamp it — of crowds"}
+ },
+ "überlegen": {
+  "überlegt": {"en": "to consider, think sth over"},
+  "übergelegt": {"en": "to lay sth over sb, e.g. a blanket"}
+ },
+ "übersehen": {
+  "übersehen": {"en": "to overlook sth, miss it"},
+  "übergesehen": {"en": "to grow tired of seeing sth", "tag": "selten, ugs."}
+ },
+ "übersetzen": {
+  "übersetzt": {"en": "to translate sth"},
+  "übergesetzt": {"en": "to ferry sb across"}
+ }
+}

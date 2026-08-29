@@ -24,13 +24,17 @@
  * v17: Variant verification (Session 39) — durchgehen corrected to separable + sein,
  *      5 dual-reading glosses pinned to one reading, dictionary scaffolding stripped
  *      from English prompts. js/data.js rebundled.
+ * v18: Wechselpräfix pairs (Session 39) — Lesson 5 now lists all 11 dual-reading
+ *      verbs with both readings, generated from the Wiktionary cache. New "pairs"
+ *      section renderer in grammar.js + CSS. Fixed the Lesson 5 überlaufen example,
+ *      which contradicted the rule it was illustrating.
  *
  * DEPLOY NOTE: bump the CACHE version string on every push that changes
  * JS/CSS files. The browser only installs a new SW when this file changes.
  * If the version is not bumped, users keep running the old cached code.
  */
 
-const CACHE = 'mein-deutsch-v17';
+const CACHE = 'mein-deutsch-v18';
 
 const PRECACHE = [
   './',

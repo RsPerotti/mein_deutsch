@@ -68,7 +68,12 @@
       {
         "type": "rule_check",
         "question": "Roughly how many verb prefixes does German have?",
-        "options": ["About 10", "About 35", "About 120", "Over 500"],
+        "options": [
+          "About 10",
+          "About 35",
+          "About 120",
+          "Over 500"
+        ],
         "correct": 1
       },
       {
@@ -153,13 +158,23 @@
       {
         "type": "rule_check",
         "question": "Which is the correct perfect form of 'verkaufen'?",
-        "options": ["geverkauft", "verkauft", "verkauft gehabt", "vergekauft"],
+        "options": [
+          "geverkauft",
+          "verkauft",
+          "verkauft gehabt",
+          "vergekauft"
+        ],
         "correct": 1
       },
       {
         "type": "rule_check",
         "question": "Which of these prefixes is inseparable?",
-        "options": ["mit-", "ent-", "auf-", "zurück-"],
+        "options": [
+          "mit-",
+          "ent-",
+          "auf-",
+          "zurück-"
+        ],
         "correct": 1
       },
       {
@@ -244,7 +259,12 @@
       {
         "type": "rule_check",
         "question": "'Sich verlaufen' means to get lost. Which branch of ver- is that?",
-        "options": ["Away/gone", "Wrong", "Transformation", "Used up"],
+        "options": [
+          "Away/gone",
+          "Wrong",
+          "Transformation",
+          "Used up"
+        ],
         "correct": 1
       },
       {
@@ -272,7 +292,12 @@
       {
         "type": "rule_check",
         "question": "Which prefix reliably means 'into pieces'?",
-        "options": ["ent-", "er-", "zer-", "be-"],
+        "options": [
+          "ent-",
+          "er-",
+          "zer-",
+          "be-"
+        ],
         "correct": 2
       }
     ]
@@ -324,7 +349,12 @@
       {
         "type": "rule_check",
         "question": "What is the natural opposite of 'anmachen' (to switch on)?",
-        "options": ["abmachen", "ausmachen", "zumachen", "einmachen"],
+        "options": [
+          "abmachen",
+          "ausmachen",
+          "zumachen",
+          "einmachen"
+        ],
         "correct": 1
       },
       {
@@ -352,13 +382,23 @@
       {
         "type": "rule_check",
         "question": "Which prefix means 'together with' and essentially nothing else?",
-        "options": ["bei-", "zusammen-", "mit-", "an-"],
+        "options": [
+          "bei-",
+          "zusammen-",
+          "mit-",
+          "an-"
+        ],
         "correct": 2
       },
       {
         "type": "rule_check",
         "question": "Which prefix maps most closely onto English 're-' / 'back'?",
-        "options": ["wieder-", "zurück-", "nach-", "weiter-"],
+        "options": [
+          "wieder-",
+          "zurück-",
+          "nach-",
+          "weiter-"
+        ],
         "correct": 1
       }
     ]
@@ -374,8 +414,8 @@
         "type": "explanation",
         "heading": "Seven prefixes that do both",
         "body": "durch-, hinter-, über-, um-, unter-, wider- and wieder- can be separable or inseparable, and the choice is not arbitrary. The rule is remarkably consistent: when the meaning is literal and physical, the prefix separates. When the meaning is figurative or abstract, it does not. Learn the rule once and seven prefixes resolve at the same time.",
-        "example_de": "Der Topf läuft über. / Er ist zum Feind übergelaufen.",
-        "example_en": "The pot boils over. (literal, separable) / He defected to the enemy. (figurative)"
+        "example_de": "Der Topf läuft über. / Die Leute überlaufen den Supermarkt.",
+        "example_en": "The pot boils over. (literal, separable) / People are swamping the supermarket. (figurative, inseparable)"
       },
       {
         "type": "explanation",
@@ -397,6 +437,244 @@
         "body": "These two are pronounced almost identically and mean completely different things. wider- (one e) means against: widersprechen, to contradict; widerstehen, to resist. wieder- (two e's) means again: wiedersehen, wiederholen. Fix it by remembering that English 'withstand' preserves the old 'against' sense of wider. Note the exception: wiederholen (to repeat) is inseparable, while almost every other wieder- verb separates.",
         "example_de": "Ich widerspreche dir. / Ich wiederhole den Satz.",
         "example_en": "I contradict you. / I repeat the sentence."
+      },
+      {
+        "type": "pairs",
+        "heading": "Die Paare in dieser App",
+        "body": "Eleven verbs in this app are genuinely both. The app drills the reading marked <strong>geübt</strong> — the other one is real German too, and for <em>umfahren</em> it is the opposite of what you are practising. Stressed prefix = separable = literal; unstressed = inseparable = figurative.",
+        "pairs": [
+          {
+            "verb": "durchdenken",
+            "readings": [
+              {
+                "form": "durchgedacht",
+                "separable": true,
+                "aux": "hat",
+                "en": "to think sth through step by step to the end",
+                "tag": "",
+                "drilled": false
+              },
+              {
+                "form": "durchdacht",
+                "separable": false,
+                "aux": "hat",
+                "en": "to think sth through in all its aspects",
+                "tag": "",
+                "drilled": true
+              }
+            ]
+          },
+          {
+            "verb": "durchgehen",
+            "readings": [
+              {
+                "form": "durchgegangen",
+                "separable": true,
+                "aux": "ist",
+                "en": "to go through; to go over sth point by point",
+                "tag": "",
+                "drilled": true
+              },
+              {
+                "form": "durchgangen",
+                "separable": false,
+                "aux": "hat",
+                "en": "to traverse, cross through a space",
+                "tag": "selten",
+                "drilled": false
+              }
+            ]
+          },
+          {
+            "verb": "hintergehen",
+            "readings": [
+              {
+                "form": "hintergegangen",
+                "separable": true,
+                "aux": "ist",
+                "en": "to go to the back",
+                "tag": "regional",
+                "drilled": false
+              },
+              {
+                "form": "hintergangen",
+                "separable": false,
+                "aux": "hat",
+                "en": "to deceive sb, go behind their back",
+                "tag": "",
+                "drilled": true
+              }
+            ]
+          },
+          {
+            "verb": "hinterlegen",
+            "readings": [
+              {
+                "form": "hintergelegt",
+                "separable": true,
+                "aux": "hat",
+                "en": "to put sth further back",
+                "tag": "süddt./öst.",
+                "drilled": false
+              },
+              {
+                "form": "hinterlegt",
+                "separable": false,
+                "aux": "hat",
+                "en": "to deposit sth for safekeeping",
+                "tag": "",
+                "drilled": true
+              }
+            ]
+          },
+          {
+            "verb": "umfahren",
+            "readings": [
+              {
+                "form": "umgefahren",
+                "separable": true,
+                "aux": "hat",
+                "en": "to knock sth over by driving into it",
+                "tag": "",
+                "drilled": false
+              },
+              {
+                "form": "umfahren",
+                "separable": false,
+                "aux": "hat",
+                "en": "to drive around sth, avoid it",
+                "tag": "",
+                "drilled": true
+              }
+            ]
+          },
+          {
+            "verb": "umgeben",
+            "readings": [
+              {
+                "form": "umgegeben",
+                "separable": true,
+                "aux": "hat",
+                "en": "to put sth around sb, e.g. a scarf",
+                "tag": "selten, ugs.",
+                "drilled": false
+              },
+              {
+                "form": "umgeben",
+                "separable": false,
+                "aux": "hat",
+                "en": "to surround sth",
+                "tag": "",
+                "drilled": true
+              }
+            ]
+          },
+          {
+            "verb": "unterhalten",
+            "readings": [
+              {
+                "form": "untergehalten",
+                "separable": true,
+                "aux": "hat",
+                "en": "to hold sth underneath",
+                "tag": "ugs.",
+                "drilled": false
+              },
+              {
+                "form": "unterhalten",
+                "separable": false,
+                "aux": "hat",
+                "en": "to entertain; to converse; to support financially",
+                "tag": "",
+                "drilled": true
+              }
+            ]
+          },
+          {
+            "verb": "überlaufen",
+            "readings": [
+              {
+                "form": "übergelaufen",
+                "separable": true,
+                "aux": "ist",
+                "en": "to overflow; to defect to the other side",
+                "tag": "",
+                "drilled": true
+              },
+              {
+                "form": "überlaufen",
+                "separable": false,
+                "aux": "hat",
+                "en": "to overrun sth, swamp it — of crowds",
+                "tag": "",
+                "drilled": false
+              }
+            ]
+          },
+          {
+            "verb": "überlegen",
+            "readings": [
+              {
+                "form": "übergelegt",
+                "separable": true,
+                "aux": "hat",
+                "en": "to lay sth over sb, e.g. a blanket",
+                "tag": "",
+                "drilled": false
+              },
+              {
+                "form": "überlegt",
+                "separable": false,
+                "aux": "hat",
+                "en": "to consider, think sth over",
+                "tag": "",
+                "drilled": true
+              }
+            ]
+          },
+          {
+            "verb": "übersehen",
+            "readings": [
+              {
+                "form": "übergesehen",
+                "separable": true,
+                "aux": "hat",
+                "en": "to grow tired of seeing sth",
+                "tag": "selten, ugs.",
+                "drilled": false
+              },
+              {
+                "form": "übersehen",
+                "separable": false,
+                "aux": "hat",
+                "en": "to overlook sth, miss it",
+                "tag": "",
+                "drilled": true
+              }
+            ]
+          },
+          {
+            "verb": "übersetzen",
+            "readings": [
+              {
+                "form": "übergesetzt",
+                "separable": true,
+                "aux": "hat",
+                "en": "to ferry sb across",
+                "tag": "",
+                "drilled": false
+              },
+              {
+                "form": "übersetzt",
+                "separable": false,
+                "aux": "hat",
+                "en": "to translate sth",
+                "tag": "",
+                "drilled": true
+              }
+            ]
+          }
+        ]
       }
     ],
     "key_rules": [
@@ -432,13 +710,23 @@
       {
         "type": "rule_check",
         "question": "What does 'übersehen' mean?",
-        "options": ["To supervise", "To translate", "To overlook, to miss", "To look across"],
+        "options": [
+          "To supervise",
+          "To translate",
+          "To overlook, to miss",
+          "To look across"
+        ],
         "correct": 2
       },
       {
         "type": "rule_check",
         "question": "Which means 'to contradict'?",
-        "options": ["wiedersprechen", "widersprechen", "wiederholen", "widerholen"],
+        "options": [
+          "wiedersprechen",
+          "widersprechen",
+          "wiederholen",
+          "widerholen"
+        ],
         "correct": 1
       },
       {

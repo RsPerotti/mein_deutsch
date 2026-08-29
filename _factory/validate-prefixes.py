@@ -61,6 +61,68 @@ def err(check, msg):
     errors.append(f"[{check}] {msg}")
 
 
+
+def check_dual_pairs():
+    """Every AMBIGUOUS verb must be taught in Lesson 5, with facts matching the cache.
+
+    Holds its own reading of the cache — it does not import generate-dual-section.py.
+    Without this, a future intake could add a dual-reading verb that the lesson
+    silently never mentions, which is exactly the gap Session 39 opened this for.
+    """
+    V = ROOT / "_factory" / "vorsilben"
+    report = V / "verify-report.md"
+    if not report.exists():
+        warnings.append("[dual-pairs] verify-report.md absent — pair coverage not checked")
+        return
+
+    ambiguous = sorted({ln.split("`")[1] for ln in report.read_text(encoding="utf-8").splitlines()
+                        if ln.startswith("| `") and "**AMBIGUOUS**" in ln})
+
+    lessons = json.loads((ROOT / "data" / "grammar" / "prefix-lessons.json")
+                         .read_text(encoding="utf-8"))
+    section = None
+    for l in lessons:
+        for sec in l.get("sections", []):
+            if sec.get("type") == "pairs":
+                section = sec
+    if section is None:
+        for v in ambiguous:
+            err("dual-pairs", f"{v} is AMBIGUOUS but no pairs section exists")
+        return
+
+    taught = {p["verb"]: p for p in section.get("pairs", [])}
+    for v in ambiguous:
+        if v not in taught:
+            err("dual-pairs", f"{v} is AMBIGUOUS but is not in the Lesson 5 pair list")
+    for v in taught:
+        if v not in ambiguous:
+            err("dual-pairs", f"{v} is taught as a pair but is not AMBIGUOUS in verify-report.md")
+
+    # facts must match the cache, independently re-read
+    cache = {}
+    for line in (V / "wiktionary-cache.tsv").read_text(encoding="utf-8").splitlines():
+        if not line or line.startswith("#"):
+            continue
+        w, _, rest = line.partition("\t")
+        if rest.strip() in ("MISSING", "NOTEMPLATE"):
+            continue
+        forms = set()
+        for chunk in rest.split("||"):
+            parts = [c.strip() for c in chunk.strip().split("~")]
+            forms.add(parts[0])
+        cache[w] = forms
+    for v, p in taught.items():
+        listed = {r["form"] for r in p["readings"]}
+        if v in cache and listed != cache[v]:
+            err("dual-pairs", f"{v}: lesson lists {sorted(listed)}, cache has {sorted(cache[v])}")
+        drilled = [r for r in p["readings"] if r.get("drilled")]
+        if len(drilled) != 1:
+            err("dual-pairs", f"{v}: {len(drilled)} readings marked as drilled, expected exactly 1")
+        for r in p["readings"]:
+            if not r.get("en"):
+                err("dual-pairs", f"{v}/{r['form']}: no English gloss")
+
+
 def main():
     prefixes = json.loads(PREFIXES.read_text(encoding="utf-8"))
     exercises = json.loads(EXERCISES.read_text(encoding="utf-8"))
@@ -189,11 +251,14 @@ def main():
            sum(1 for e in p["examples"] if e["drillable"]) < EXPECT_SELECT_PREFIX:
             err("drillable", f"{p['id']} has too few drillable examples")
 
+    check_dual_pairs()
+
     # --- report ------------------------------------------------------------
     print(f"prefixes      : {len(prefixes)}")
     print(f"exercises     : {len(exercises)}")
     print(f"select_prefix : {sum(1 for e in exercises if e['type'] == 'select_prefix')}")
     print(f"select_feeling: {sum(1 for e in exercises if e['type'] == 'select_feeling')}")
+    print(f"dual pairs    : checked against verify-report.md + wiktionary-cache.tsv")
     print()
     if warnings:
         print(f"{len(warnings)} warning(s):")

@@ -1,11 +1,13 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-08-28 — Session 39 (Variant verification against de.wiktionary.org)*
+*Last updated: 2026-08-28 — Session 39 (Variant verification + Wechselpräfix pairs)*
 
 ---
 
 ## Current State
 
-**10 modules built and live.** App at https://rsperotti.github.io/mein_deutsch (v17).
+**10 modules built and live.** App at https://rsperotti.github.io/mein_deutsch (v18).
+
+**Session 39b — the Wechselpräfix pairs are taught explicitly (v18).** Vorsilben Lesson 5 now ends with a generated pair list: all 11 dual-reading verbs, both readings each, with separability, auxiliary, Partizip II and a gloss, and the half the app drills marked **geübt**. The list is not hand-kept — it is built from the AMBIGUOUS verdicts in `verify-report.md` plus `wiktionary-cache.tsv`, and `validate-prefixes.py` now fails if an AMBIGUOUS verb is missing from it, so a future intake cannot add a pair the lesson silently ignores. New `pairs` section type with its own renderer branch in `grammar.js` (the other four lesson renderers are untouched, and a regression check enforces that). Screenshot-verified at 375px: no horizontal overflow. **Also fixed: Lesson 5's own example contradicted the rule it taught** — "Der Topf läuft über. / Er ist zum Feind übergelaufen." was offered as separable-vs-inseparable, but *übergelaufen* is the separable participle, so both halves were separable. The same error sat in the `überlaufen` card in `prefixes.json`. PRD: `PRD_Wechselpraefixe_Paare.md`.
 
 **Session 39 — the 133 prefix variants are now dictionary-verified.** Separability, auxiliary and Partizip II for every variant were checked against de.wiktionary.org's `{{Deutsch Verb Übersicht}}` fields by a new independent script: **120 PASS, 0 MISMATCH, 11 AMBIGUOUS, 2 NOT-FOUND.** One genuine error found and corrected: `durchgehen` was filed separable + **haben**, a combination Wiktionary attests for neither of its two readings — corrected to separable + **sein**. Two apparent mismatches were faults in the checker, not the data (`ausziehen`'s second auxiliary lives in the `Hilfsverb*` field my parser ignored; the `ge`-infix cross-check misfires on stems that begin with *ge* and on bases forming no *ge*-participle — replaced with an exact `prefix + root participle` comparison). Also fixed, found via the AMBIGUOUS rows: five Verbs cards carried a dual-reading gloss copied from `prefixes.json` ("umfahren = to drive around / to run over"), and the sentence builder was pasting dictionary scaffolding into English prompts ("I have to teach sb sth him German"). **Case requirements remain unverified** — 22 calls, deliberately out of scope. PRD: `PRD_Verify_Variants.md`. Report: `_factory/vorsilben/verify-report.md`.
 
@@ -62,6 +64,9 @@
 | `_factory/bundle-data.py` | ✅ NEW (S38) | **First reproducible builder for `js/data.js`** — it was assembled ad hoc before, which is how it drifted from `data/modules.json` (see v10). |
 | `_factory/qa-variants.js` | ✅ NEW (S38) | 21 headless checks incl. the verstehen case badge. |
 | `_factory/vorsilben/variant-seeds-*.json` | ✅ NEW (S38) | 133 authored seeds — separability, auxiliary, case, 2 complements. Only what cannot be derived. |
+| `_factory/vorsilben/dual-readings.json` | ✅ NEW (S39) | The only authored input to the pair list: an English gloss + register tag per reading, paraphrased from the matching Wiktionary sense lines. Keyed by Partizip II. |
+| `_factory/generate-dual-section.py` | ✅ NEW (S39) | Builds the Lesson 5 `pairs` section from verify-report + cache + filed facts. Idempotent — replaces any existing pairs section. |
+| `data/grammar/prefix-lessons.json` | ✅ Updated (S39) | Lesson 5 gained a generated `pairs` section; its section-1 example corrected. |
 | `_factory/verify-variants.py` | ✅ NEW (S39) | Compares filed separability/auxiliary/Partizip II against the Wiktionary cache. Holds its own derivation (Präsens_ich split, cross-checked against prefix + root participle) — imports nothing from the generator. Exits non-zero on any MISMATCH. |
 | `_factory/extract-filed-facts.py` | ✅ NEW (S39) | Collects what the app claims per variant into `filed-facts.json`. Read-only. |
 | `_factory/vorsilben/wiktionary-cache.tsv` | ✅ NEW (S39) | 133 verbs as de.wiktionary.org has them, fetched 2026-08-28. Committed so the verdict is reproducible offline. |
@@ -90,7 +95,7 @@
 | `_factory/bundle-prefixes.py` | ✅ NEW (S37) | Bundles the three JSON sources into `js/prefixes-data.js`. |
 | `_factory/qa-prefixes.js` | ✅ NEW (S37) | 49-check headless jsdom suite: data wiring, module home, reference, detail sheet, lessons, quiz, both exercise types, feedback card, cooldown, results, plus regressions on Verbs/Partikeln/Deklinationen. Needs `npm i jsdom`. |
 | `_factory/vorsilben/source-reference.html` | ✅ NEW (S37) | The reviewed 35-prefix reference the module content was generated from. |
-| `service-worker.js` | ✅ v17 | Cache-first. Precaches all JS/CSS including particles-data.js, prefixes-data.js, grammar-data.js, article-grammar-data.js, declension-data.js. Range request handler for audio. |
+| `service-worker.js` | ✅ v18 | Cache-first. Precaches all JS/CSS including particles-data.js, prefixes-data.js, grammar-data.js, article-grammar-data.js, declension-data.js. Range request handler for audio. |
 | `manifest.json` | ✅ Built | PWA config. |
 | `icons/` | ✅ Done | icon-192 + icon-512, speech bubble "de", #85B7EB. |
 
@@ -143,6 +148,8 @@
 | Vorsilben vocabulary | Reconciled into `verbs.json` in Session 38 (v16): 133 variants added where the root already existed. 121 whose root is also absent remain out of scope — future Wörter intake. |
 | Correctness verification | Ricco is a learner and cannot validate German. Never route linguistic correctness through him — verify against a dictionary or an independent script. His review is for usability and product direction only. |
 | Variant verification | Separability + auxiliary are checked against de.wiktionary.org by `verify-variants.py` before any variant ships. Case is NOT — Wiktionary marks valency in prose, and parsing it would be a heuristic dressed up as verification. Decided 2026-08-28. |
+| Wechselpräfix pair list | Generated from the AMBIGUOUS verdicts, never hand-kept. `validate-prefixes.py` fails if an AMBIGUOUS verb is missing from Lesson 5, or if a verb has other than exactly one `drilled` reading. |
+| Lesson section types | `explanation` (all modules) and `pairs` (Vorsilben Lesson 5 only). A new type gets its own renderer branch — the existing branch is never edited, and `qa-prefixes.js` asserts the Verbs renderer stays free of it. |
 | Variant glosses | Where a verb has two readings, the Verbs card gloss is pinned to the filed reading via an `english` field in the seed. `prefixes.json` keeps both readings — it has a `why` field to explain them; the Verbs card does not. |
 | Variant case requirements | Variants inherit `grammar.case_requirements` from their root unless they carry their own override. Overrides exist only where the case genuinely diverges — chiefly the transitivising prefixes be-, er-, ver-, über-. |
 | js/data.js builds | Always via `_factory/bundle-data.py`. Never hand-edited. |
@@ -307,7 +314,7 @@
 **Up next (in rough priority):**
 - ~~Verify the judgement calls against a dictionary~~ — **done, Session 39** for separability, auxiliary and Partizip II. `durchgehen` corrected.
 - **Verify the 22 case calls** — the half `verify-variants.py` deliberately does not cover. Needs a valency source (DWDS Wortprofil, or Duden), not Wiktionary prose. Same rule: never route it through Ricco.
-- **Decide what to do about the 11 AMBIGUOUS verbs** (`umfahren`, `übersetzen`, `überlaufen`, `durchgehen`, `hintergehen`, `unterhalten`, `durchdenken`, `hinterlegen`, `umgeben`, `überlegen`, `übersehen`). Their glosses are now pinned to one reading, but the app never tells the learner the other reading exists — and for `umfahren` the two are opposites. Options: a "second reading" note on the card, or teach the pair explicitly in the Vorsilben lesson on Wechselpräfixe.
+- ~~Decide what to do about the 11 AMBIGUOUS verbs~~ — **done, Session 39b.** Taught explicitly in Lesson 5. **Residual gap, accepted:** a learner drilling `umfahren` in the **Verbs** module still meets it cold — Lesson 5 lives in Vorsilben, with no gating or cross-link. Closing that needs a card note or a link, which was the option not chosen.
 - **`entgegenlaufen` and `herreichen` have no Wiktionary page** — both filed by derivation only. Check against Duden, or drop them.
 - **Sentence-builder English is weak for adverbial complements** — "We want to overflow almost." (`überlaufen`), "I have to befall to him." (`widerfahren`). The German is fine; the English gloss line is not. Affects a handful of intransitive variants.
 - **Device QA** on the new verb variants and on the Vorsilben module — usability only (does it look right, does it feel right), never correctness.

@@ -2,6 +2,48 @@
 
 ---
 
+## 2026-08-28 — Session 39b: Wechselpräfixe — teach the pairs explicitly
+
+**Goal:** close the gap Session 39 opened. Verification found 11 verbs with two real readings; the app had just been taught to gloss one of them unambiguously, which fixed the confusion and hid the fact that the other reading exists. For `umfahren` the two are opposites.
+
+**PRD:** `PRD_Wechselpraefixe_Paare.md`, signed off. Ricco chose "teach in the lesson" over "note on the card".
+
+### Grounding the glosses first
+
+The one authored input is the English gloss per reading, so those were paraphrased from the de.wiktionary **sense lines of the matching reading** — fetched per reading by splitting each page at its `Übersicht` templates, so a gloss can never be attached to the wrong half. `dual-readings.json` holds only those glosses and a register tag; everything else is derived.
+
+Register tags earned their place immediately: `hintergegangen` (go to the back) is *regional*, `hintergelegt` *süddt./öst.*, `übergesehen` (grow tired of seeing) *selten, ugs.*, `umgegeben` (put a scarf around sb) *selten, ugs.* Listing those without a tag would make the app look like it thinks they are everyday German.
+
+### The list is generated, not typed
+
+`generate-dual-section.py` reads the AMBIGUOUS verdicts out of `verify-report.md`, the readings out of `wiktionary-cache.tsv`, and the drilled half out of `filed-facts.json`. 11 verbs, 22 readings, exactly 11 drilled halves. Re-running replaces the section rather than appending.
+
+`validate-prefixes.py` gained a `dual-pairs` check that holds its own reading of the cache: every AMBIGUOUS verb must appear in the lesson, nothing may appear that is not AMBIGUOUS, the listed participles must equal the cache's, and each verb must have exactly one `drilled` reading. **Tested negatively** — dropped `umfahren` and forced a second drilled reading, and got exactly the two expected errors. A check that has never failed is not a check.
+
+### The error the grounding exposed
+
+Lesson 5's opening example was **"Der Topf läuft über. / Er ist zum Feind übergelaufen."**, glossed as literal-separable versus figurative-inseparable. But *übergelaufen* is the **separable** participle — defecting is separable too. Both halves of the contrast were separable, so the example demonstrated nothing while appearing to prove the rule. Wiktionary files the inseparable reading as *von Menschenmengen: übermäßig in Anspruch nehmen*, so the example is now "Die Leute überlaufen den Supermarkt." The same error sat in the `überlaufen` card in `prefixes.json` ("Inseparable = to run over to the other side") and was corrected there too.
+
+Worth noting how this was found: not by reading the lesson, but by fetching the sense lines for a different purpose. The lesson had been shipped, QA'd and reviewed with a self-refuting example in its first paragraph.
+
+### UI
+
+New `pairs` section type. Stacked cards, not a table — 11 verbs × 4 facts does not survive 375px. Added as a **new branch** in the Vorsilben renderer; the existing `explanation` branch is untouched, and `qa-prefixes.js` now asserts the Verbs lesson renderer never emits `grammar-pairs`. The drilled half carries a lime left border and a GEÜBT badge; the other half is grey.
+
+Screenshot-verified at 375px via Playwright in the cloud container (the local shell has no browser): renders cleanly, `document.scrollWidth === clientWidth`, no horizontal overflow.
+
+### Verified green
+
+- `validate-prefixes.py` 0 errors (incl. the new dual-pairs family) · `validate-variants.py` 0 · `validate-declension.py` 0
+- `qa-prefixes.js` **71 checks** (was 61 — +10 for the pair cards and the renderer-isolation regression) · `qa-variants.js` 21
+- `prefixes-data.js` rebundled · SW **v18**
+
+### Left open
+
+The residual gap, recorded because it is real and was not chosen against on the merits: a learner drilling `umfahren` in the **Verbs** module never reaches Lesson 5. Different module, no gating, no cross-link. This session closed "the app never teaches it", not "the learner meets it cold".
+
+---
+
 ## 2026-08-28 — Session 39: Variant verification against de.wiktionary.org
 
 **Goal:** close the correctness debt from Session 38 — 54 judgement calls shipped live in v16, unverified, on material Ricco cannot check himself.

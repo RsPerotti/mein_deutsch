@@ -108,6 +108,30 @@ ok('lesson renders', les.includes('Wechselpräfixe') || les.includes('umfáhren'
 ok('lesson has key rules', les.includes('Schlüsselregeln'));
 ok('lesson has quiz CTA', les.includes('startPrefixQuiz'));
 
+// ── Wechselpräfix pair cards (Session 39) ──────────────────────────────────
+ok('pairs section renders', les.includes('grammar-pairs'));
+ok('11 pair cards', (les.match(/class="grammar-pair"/g) || []).length === 11,
+   (les.match(/class="grammar-pair"/g) || []).length);
+ok('22 readings', (les.match(/grammar-pair-reading/g) || []).length === 22,
+   (les.match(/grammar-pair-reading/g) || []).length);
+ok('11 drilled halves marked', (les.match(/is-drilled/g) || []).length === 11,
+   (les.match(/is-drilled/g) || []).length);
+ok('umfahren shows both readings',
+   les.includes('umgefahren') && les.includes('knock sth over'));
+ok('rare readings tagged', les.includes('grammar-pair-tag'));
+ok('no raw [object Object] in pairs', !les.includes('[object Object]'));
+ok('lesson 5 example no longer contradicts the rule',
+   !les.includes('zum Feind übergelaufen'));
+// the other four lesson renderers must be untouched by the new branch
+w.eval("renderGrammarLesson('verb-basics')");
+{
+  const verbsHtml = w.document.getElementById('grammar-lesson-content').innerHTML;
+  ok('Verbs lesson still renders', verbsHtml.includes('grammar-section-heading'));
+  ok('Verbs lesson renderer unaffected by the pairs branch',
+     !verbsHtml.includes('grammar-pairs'));
+}
+w.eval("openPrefixLesson('prefixes-dual')");
+
 w.eval("startPrefixQuiz('prefixes-dual')");
 ok('quiz state module', w.eval('window._grammarQuizState.module') === 'prefixes');
 ok('quiz has 5 questions', w.eval('window._grammarQuizState.questions.length') === 5);
