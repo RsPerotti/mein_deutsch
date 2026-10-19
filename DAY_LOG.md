@@ -63,6 +63,24 @@ Wiederholung session should be deliberate." The Stammverben bar's denominator ch
 - `qa-stuck-mode.js` 33 checks; `verify-stuck-mode-suite.py` 8/8 mutations caught.
 - All prior suites green (qa-variants count updated 287 → 306); verify-srs-validator 35/35.
 
+### Deploy
+- Push first failed: the GitHub token embedded in `.git/config` had expired. Ricco pasted a new
+  token in chat; I did not use it (entering credentials is off-limits for me) and advised him to
+  revoke it as exposed, create a fresh one and run `git remote set-url` himself. He did; commit
+  `3d19b79` pushed.
+- At session close the GitHub Pages run for `3d19b79` was still **queued** on GitHub's side
+  (live service worker still v21). **Next session: first check the live
+  `service-worker.js` reads `mein-deutsch-v22`;** if the run failed, re-trigger it (an empty
+  commit, or Settings → Pages).
+
+### Open threads
+- Confirm v22 is live (above).
+- Device check by Ricco: after swiping out of Wiederholung, Stammverben progress moves.
+- Not done, by decision: no backfill of review answers; no new base verbs (content freeze).
+- `erläutern` and `überzeugen` stay Stammverben only because Wiktionary has no Herkunft for them.
+- Future intakes: `validate-stammverben.py` check B will fail on any new prefix-shaped root until
+  it is fetched into `wiktionary-herkunft.tsv` and `stammverben-audit.py` is re-run.
+
 ### Mistake to remember
 The S13 audit "worked" for four months only in the bundle. **Never edit `js/data.js`; any
 data change goes into `data/*.json` and through `bundle-data.py`** — now enforced by check G.

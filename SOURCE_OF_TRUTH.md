@@ -16,7 +16,9 @@ because it lived only in `js/data.js` (14 bases back, 126 orphaned exercises ser
 **114 Stammverben, 306 variants under a root, 26 standalone variations** (`standalone_variant`
 in `verbs.json`: prefixed verbs whose base the app does not teach; served in Variationen with no
 root unlock). Guard: `validate-stammverben.py` (+ mutation test). PRD: `PRD_Stammverben_Audit.md`.
-Report: `_factory/stammverben/audit-report.md`.
+Report: `_factory/stammverben/audit-report.md`. **Open at close of S41:** GitHub Pages deploy of `3d19b79` was still queued — verify the
+live service worker reads `mein-deutsch-v22` before anything else. Run order for verb data
+changes: `stammverben-audit.py` → `bundle-data.py` → `validate-stammverben.py`.
 
 **Session 40c — spaced repetition is COMPLETE (v21).** All four engines now serve review, so
 Deklination, Vorsilben and Artikel items appear in the Wiederholung queue alongside everything
