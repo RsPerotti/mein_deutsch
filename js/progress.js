@@ -84,6 +84,23 @@ const Progress = {
     this.unlockWord(verbId);
   },
 
+  /**
+   * Session 41 (PRD_Stammverben_Audit.md): some verbs stopped being Stammverben.
+   * An id in the root-unlock list that is no longer a root moves to the variant
+   * list, so root counts stay honest and the word stays unlocked. Idempotent.
+   * Exercise history is keyed by exercise_id and is untouched.
+   */
+  rebucketVerbUnlocks(stammIds) {
+    const roots = this.getUnlockedRootVerbs();
+    const stale = roots.filter(id => !stammIds.has(id));
+    if (stale.length === 0) return 0;
+    this._set(this.KEYS.VERBS_ROOT, roots.filter(id => stammIds.has(id)));
+    const vars = this.getUnlockedVariants();
+    stale.forEach(id => { if (!vars.includes(id)) vars.push(id); });
+    this._set(this.KEYS.VERBS_VARIANT, vars);
+    return stale.length;
+  },
+
   // --- Variant verbs ---
   getUnlockedVariants() { return this._get(this.KEYS.VERBS_VARIANT, []); },
 

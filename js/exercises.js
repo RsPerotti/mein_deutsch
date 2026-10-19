@@ -252,15 +252,23 @@ function _buildQueue(moduleId, category) {
   }
 
   if (category === 'roots') {
-    const rootIds = new Set(appData.verbs.map(v => v.id));
+    const rootIds = new Set(_stammverben().map(v => v.id));
     return _shuffle(tenseFiltered.filter(ex => rootIds.has(ex.word_id)));
   }
 
-  // Variants: only exercises for variants of already-unlocked root verbs
+  // Variants: variants of already-unlocked root verbs, plus every standalone
+  // variation (Session 41 — a prefixed verb whose base is not in the app has no
+  // root to unlock it). A standalone's own variants (weiterentwickeln) open once
+  // the standalone itself has been unlocked.
   const unlockedRoots = new Set(Progress.getUnlockedRootVerbs());
   const allowedVariantIds = new Set();
   for (const verb of appData.verbs) {
-    if (unlockedRoots.has(verb.id)) {
+    if (verb.standalone_variant) {
+      allowedVariantIds.add(verb.id);
+      if (Progress.isUnlocked(verb.id)) {
+        (verb.prefix_variants || []).forEach(pv => allowedVariantIds.add(pv.id));
+      }
+    } else if (unlockedRoots.has(verb.id)) {
       (verb.prefix_variants || []).forEach(pv => allowedVariantIds.add(pv.id));
     }
   }
@@ -930,6 +938,20 @@ function advanceExercise() {
   _showNext();
 }
 
+// Drop any special-mode state when the exercise screen is left by a route other
+// than an engine's own exit (Session 41). Without it, exerciseMode outlives the
+// session and onScreenEnter('screen-exercise') dispatches the NEXT session to the
+// wrong engine — e.g. Stammverben -> Review.startSession().
+function _abandonExerciseMode() {
+  if (exerciseMode === 'review' && typeof Review !== 'undefined') Review._active = false;
+  if (exerciseMode === 'wordlist') _restoreModuleChips();
+  if (exerciseMode === 'deklination') {
+    const deklPicker = document.getElementById('dekl-cefr-picker');
+    if (deklPicker) deklPicker.style.display = 'none';
+  }
+  exerciseMode = 'module';
+}
+
 // Called by the back button inside the exercise screen
 function exitExerciseEarly() {
   if (exerciseMode === 'review') {
@@ -986,7 +1008,7 @@ function _unlockWord(wordId) {
   } else if (appData.adjectives && appData.adjectives.some(a => a.id === wordId)) {
     Progress.unlockAdjective(wordId);
   } else {
-    const isRoot = appData.verbs.some(v => v.id === wordId);
+    const isRoot = appData.verbs.some(v => v.id === wordId && !v.standalone_variant);
     if (isRoot) {
       Progress.unlockRootVerb(wordId);
     } else {
@@ -1080,7 +1102,25 @@ function _updateChips() {
 }
 
 // --- Helpers ---
+// Session 41: Stammverben are the verbs in appData.verbs that are not standalone
+// variations. Anything that counts or serves "roots" must go through this.
+function _stammverben() {
+  return appData.verbs.filter(v => !v.standalone_variant);
+}
+
+// Every Variationen word id: prefix variants of any entry + standalone variations.
+function _verbVariantIds() {
+  const ids = new Set();
+  for (const v of appData.verbs) {
+    if (v.standalone_variant) ids.add(v.id);
+    (v.prefix_variants || []).forEach(pv => ids.add(pv.id));
+  }
+  return ids;
+}
+
 function _findPrefixVerb(word) {
+  const sv = appData.verbs.find(v => v.standalone_variant && v.root === word);
+  if (sv) return { id: sv.id, prefix: sv.prefix, word: sv.root };
   for (const v of appData.verbs) {
     const pv = (v.prefix_variants || []).find(p => p.word === word);
     if (pv) return pv;

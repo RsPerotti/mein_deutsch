@@ -32,8 +32,10 @@ w.eval('loadData()');
 w.eval('Grammar.init();ParticleGrammar.init();ArticleGrammar.init();DeclensionGrammar.init();PrefixGrammar.init();');
 
 // ── data ───────────────────────────────────────────────────────────────────
-ok('287 prefix variants',
-   w.eval("appData.verbs.reduce((a,v)=>a+(v.prefix_variants||[]).length,0)") === 287,
+// 287 until Session 41; +19 from the restored Session 13 audit (see
+// _factory/stammverben/audit-report.md).
+ok('306 prefix variants',
+   w.eval("appData.verbs.reduce((a,v)=>a+(v.prefix_variants||[]).length,0)") === 306,
    w.eval("appData.verbs.reduce((a,v)=>a+(v.prefix_variants||[]).length,0)"));
 ok('3708 verb exercises',
    w.eval("appData.exercises['module_verbs'].length") === 3708,

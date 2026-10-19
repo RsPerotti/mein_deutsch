@@ -48,6 +48,11 @@ function navigateTo(screenId) {
 
 function navigateBack() {
   if (navStack.length === 0) return;
+  // BUGFIX (Session 41): the OS/browser back gesture lands here, never in
+  // exitExerciseEarly(), so leaving Wiederholung (or Vorsilben, Artikel,
+  // Deklination) that way left exerciseMode stale — and the next Stammverben tap
+  // silently started a review session that writes no progress.
+  if (currentScreen === 'screen-exercise') _abandonExerciseMode();
   const prev  = navStack.pop();
   const from  = document.getElementById(currentScreen);
   const to    = document.getElementById(prev);
@@ -134,6 +139,9 @@ function openModule(moduleId) {
 // Convenience: start an exercise session
 // tenseContext: 'prasens' | 'vergangenheit' (verbs only; omit for all other modules)
 function openExercise(moduleId, category, tenseContext) {
+  // A module session is always a module session, whatever mode the last one left
+  // behind (Session 41 — defence in depth for the stale-mode bug).
+  _abandonExerciseMode();
   currentExerciseState = { moduleId, category, tenseContext: tenseContext || null };
   navigateTo('screen-exercise');
 }
@@ -351,16 +359,15 @@ function renderModuleHome(moduleId) {
 function _renderVerbModuleCategories() {
   const rootUnlocked = Progress.getUnlockedRootVerbs().length;
   const varUnlocked  = Progress.getUnlockedVariants().length;
-  const rootTotal    = appData.verbs.length;
-  const varTotal     = appData.verbs.reduce((n, v) => n + (v.prefix_variants || []).length, 0);
+  const rootTotal    = _stammverben().length;
+  const varTotal     = _verbVariantIds().size;
   const totalUnlocked = rootUnlocked + varUnlocked;
   const totalAll      = rootTotal + varTotal;
   const pct = totalAll > 0 ? Math.round(totalUnlocked / totalAll * 100) : 0;
 
   const allVerbEx  = appData.exercises['module_verbs'] || [];
-  const rootIds    = new Set(appData.verbs.map(v => v.id));
-  const variantIds = new Set();
-  for (const v of appData.verbs) (v.prefix_variants || []).forEach(pv => variantIds.add(pv.id));
+  const rootIds    = new Set(_stammverben().map(v => v.id));
+  const variantIds = _verbVariantIds();
 
   // Tense filter — Präsens: no tense field or 'prasens'; Vergangenheit: 'perfekt' or 'prateritum'
   const isTenseMatch = (ex) => _verbTenseTab === 'prasens'
@@ -1599,6 +1606,8 @@ async function init() {
   DeclensionGrammar.init();  // initialise declension lesson state (Session 36)
   PrefixGrammar.init();      // initialise Vorsilben lesson state (Session 37)
   migrateMisfiledQuizResults(); // one-shot: recover quiz results written to the wrong store (Session 38)
+  // Session 41: verbs demoted from Stammverben keep their unlock, in the right bucket.
+  Progress.rebucketVerbUnlocks(new Set(_stammverben().map(v => v.id)));
   // One-shot: seed the spaced-repetition store from existing exercise history
   // (Session 40). Guarded internally by app_srs_backfilled, so this is a no-op
   // on every run after the first. See PRD_Wiederholung.md §5.6.

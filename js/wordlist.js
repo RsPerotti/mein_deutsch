@@ -70,8 +70,8 @@ function buildWordObjects() {
       words.push({
         id:          verb.id,
         german:      verb.root,
-        prefix:      null,
-        type:        'VERB',
+        prefix:      verb.standalone_variant ? verb.prefix : null,
+        type:        verb.standalone_variant ? 'VERB · VARIATION' : 'VERB',
         article:     null,
         translation: verb.english,
         level:       _extractLevel(verb.tags),
@@ -232,9 +232,17 @@ function pronounceSheetWord() {
 }
 
 // --- Verbliste (Verb Reference, Section 11.5) ---
-function renderVerbliste() {
+// Session 41: a standalone variation (no base verb in the app) gets its own card
+// once unlocked — it has no root card to sit under.
+function _verblisteEntries() {
   const unlockedRoots = Progress.getUnlockedRootVerbs();
-  let verbs = appData.verbs.filter(v => unlockedRoots.includes(v.id));
+  return appData.verbs.filter(v => v.standalone_variant
+    ? Progress.isUnlocked(v.id)
+    : unlockedRoots.includes(v.id));
+}
+
+function renderVerbliste() {
+  let verbs = _verblisteEntries();
 
   _vlSortMode === 'alpha'
     ? verbs.sort((a, b) => a.root.localeCompare(b.root, 'de'))
@@ -246,8 +254,7 @@ function renderVerbliste() {
 
 function filterVerbList(query) {
   const q = query.toLowerCase().trim();
-  const unlockedRoots = Progress.getUnlockedRootVerbs();
-  let verbs = appData.verbs.filter(v => unlockedRoots.includes(v.id));
+  let verbs = _verblisteEntries();
 
   if (q) {
     verbs = verbs.filter(v => {

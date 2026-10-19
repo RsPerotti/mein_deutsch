@@ -2,6 +2,73 @@
 
 ---
 
+## 2026-10-19 — Session 41: Stammverben audit + the stuck review mode (v22)
+
+Ricco: several verb-only sessions in Stammverben recorded no progress, and served prefix verbs
+(*verkaufen*). PRD `PRD_Stammverben_Audit.md`, signed off the same day.
+
+### Two separate faults, one symptom
+
+**1. Stuck review mode (the progress bug).** Leaving any special-mode session with the OS /
+browser back gesture fires `popstate` → `navigateBack()`, which never ran `exitExerciseEarly()`.
+`exerciseMode` stayed `'review'`, so the next tap on Stammverben ran `Review.startSession()`
+instead of `startExercise()`: a mixed cross-module queue (hence *verkaufen*) with `reviewMode`
+on, which by the S40 decision writes no coverage. Both of Ricco's symptoms are this one bug.
+Same latent fault for Vorsilben, Artikel and Deklination. Fix: `_abandonExerciseMode()` in
+`exercises.js`, called by `navigateBack()` when leaving `screen-exercise` and by `openExercise()`
+(defence in depth). Reproduced first: `qa-stuck-mode.js` failed 9/17 on the old code, including
+"Stammverben then starts a module session" (session.moduleId was null). Also confirmed in real
+Chromium with `page.goBack()`.
+
+**2. Session 13 was silently undone.** The 2026-06-07 audit (14 base roots added, 23 prefixed
+"roots" demoted) was applied only to `js/data.js`; `data/verbs.json` never got it. Wörter
+Intake #1 (v12) rebuilt the bundle from `verbs.json` and reverted it — leaving 4 verbs filed as
+both root and variant, and **126 exercises orphaned for four months** (written for the 14 bases,
+whose verb entries no longer existed, so never served). Intake #1 also added ~44 prefix-shaped
+verbs as roots. Restored from `_factory/intake-2026-07-07/backups/data.js` (snapshot committed
+as `_factory/s13-verbs-snapshot.json`).
+
+### The rule, and how it was decided mechanically
+A Stammverb is not *prefix + independent verb*. "Independent" was decided against
+de.wiktionary.org, not by me: the rendered Herkunft must say the word is formed from
+"dem/zum/vom Verb X", and X must have at least one sense not tagged *veraltet*. Evidence in
+`_factory/stammverben/wiktionary-*.tsv` (with revids). Consequences worth knowing:
+- noun/adjective derivations stay roots: *betonen* (Ton), *berücksichtigen* (Rücksicht),
+  *verursachen* (Ursache), *erledigen* (ledig), *veröffentlichen* (öffentlich), *beginnen*.
+- obsolete bases stay roots: *gewinnen* (winnen), *verschwenden* (schwenden), *verpflichten*
+  (pflichten) — which reproduces S13's own call on *verpflichten* without special-casing it.
+- *erläutern* and *überzeugen* have no Herkunft on Wiktionary → stay roots (conservative).
+- My first splitter missed *bei-* (read *beitragen* as be+itragen); Wiktionary's text, not the
+  splitter, decides, so the splitter only selects candidates.
+
+Result: **114 Stammverben** (was 149), **306 variants under a root**, **26 standalone
+variations** — prefixed verbs whose base the app does not teach (abbiegen, entwickeln,
+verbinden…). Content freeze respected: no new base verbs. Standalone variations stay in
+`verbs.json` flagged `standalone_variant` (+ `prefix`, `base`, `separable`), are served under
+Variationen without a root unlock, and keep their own variants (*entwickeln → weiterentwickeln*,
+opened once *entwickeln* is unlocked). *angehören* followed its demoted parent *gehören* into the
+*hören* family.
+
+### Progress
+History is keyed by `exercise_id`, so nothing answered is lost; it now counts on the card the
+verb belongs to. `Progress.rebucketVerbUnlocks()` (runs at init, idempotent) moves demoted ids
+from the root-unlock list to the variant list. **No backfill from review answers** — Ricco: "A
+Wiederholung session should be deliberate." The Stammverben bar's denominator changes (Präsens:
+570 exercises).
+
+### Guards
+- `validate-stammverben.py` — independent of the audit script; checks A–G incl. **G: js/data.js
+  must equal data/verbs.json**, the exact root cause of the S13 loss.
+  `verify-stammverben-validator.py`: 8/8 seeded mutations caught (incl. the pre-audit data).
+- `qa-stuck-mode.js` 33 checks; `verify-stuck-mode-suite.py` 8/8 mutations caught.
+- All prior suites green (qa-variants count updated 287 → 306); verify-srs-validator 35/35.
+
+### Mistake to remember
+The S13 audit "worked" for four months only in the bundle. **Never edit `js/data.js`; any
+data change goes into `data/*.json` and through `bundle-data.py`** — now enforced by check G.
+
+---
+
 ## 2026-08-29 — Session 40c: Phase 3 — the dispatcher, and three bugs no one read
 
 All four engines now serve review. One session can hand you a verb, an adjective ending, a

@@ -98,7 +98,8 @@ function _wlpWordsForClass(cls, unlocked) {
           german:      verb.root,
           translation: verb.english,
           type:        'VERB',
-          isVariant:   false
+          isVariant:   !!verb.standalone_variant,
+          prefix:      verb.standalone_variant ? verb.prefix : undefined
         });
       }
       for (const pv of (verb.prefix_variants || [])) {

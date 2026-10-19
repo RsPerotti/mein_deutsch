@@ -1,11 +1,22 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-08-28 — Session 39 (Variant verification + Wechselpräfix pairs)*
+*Last updated: 2026-10-19 — Session 41 (Stammverben audit + stuck review mode)*
 
 ---
 
 ## Current State
 
-**10 modules built and live, plus Wiederholung.** App at https://rsperotti.github.io/mein_deutsch (v21).
+**10 modules built and live, plus Wiederholung.** App at https://rsperotti.github.io/mein_deutsch (v22).
+
+**Session 41 — Stammverben audit + stuck review mode (v22).** *Fixed:* leaving a session with
+the back gesture left `exerciseMode` stale, so Stammverben could silently start a Wiederholung
+session (no progress written, mixed queue). `_abandonExerciseMode()` now runs on every exit from
+the exercise screen and on every `openExercise()`. *Restored:* the Session 13 verb audit, lost
+because it lived only in `js/data.js` (14 bases back, 126 orphaned exercises served again).
+*Rule (decided against de.wiktionary.org):* a Stammverb is not prefix + living independent verb.
+**114 Stammverben, 306 variants under a root, 26 standalone variations** (`standalone_variant`
+in `verbs.json`: prefixed verbs whose base the app does not teach; served in Variationen with no
+root unlock). Guard: `validate-stammverben.py` (+ mutation test). PRD: `PRD_Stammverben_Audit.md`.
+Report: `_factory/stammverben/audit-report.md`.
 
 **Session 40c — spaced repetition is COMPLETE (v21).** All four engines now serve review, so
 Deklination, Vorsilben and Artikel items appear in the Wiederholung queue alongside everything
@@ -94,7 +105,7 @@ material Ricco knows best. PRD: `PRD_Wiederholung.md`.
 | `data/expressions.json` | ✅ 8 expressions | NEW (Session 35). Schwein haben, Abgemacht!, Einverstanden, Wie auch immer, Bitte sachlich bleiben, Ratschläge geben, möglichst+, durcheinander kommen. |
 | `data/exercises/exercises-expressions.json` | ✅ 32 exercises | 8 × 4: meaning, 2× gap-fill, situation-match. Reuses translate_word + fill_blank renderers. |
 | `_factory/intake-log.json` | ✅ NEW | Row-by-row resolution of all 213 sheet entries. Future intake runs diff against this. |
-| `data/verbs.json` | ✅ 149 roots + 287 variants | Session 38: +133 prefix_variants from the Vorsilben module. Variants may now carry a `grammar.case_requirements` override; inheritance from the root remains the default. |
+| `data/verbs.json` | ✅ 114 roots + 306 variants + 26 standalone variations (S41) | Session 38: +133 prefix_variants from the Vorsilben module. Variants may now carry a `grammar.case_requirements` override; inheritance from the root remains the default. |
 | `data/nouns.json` | ✅ 230 nouns | 152 roots + 78 variations. Session 35: +55 roots (intake #1). |
 | `data/adverbs.json` | ✅ 139 adverbs | Session 35: +12 (new categories: Indefinites, Place & Direction, Connectors additions). |
 | `data/adjectives.json` | ✅ 136 adjectives | Session 35: +36 (intake #1). |
@@ -217,6 +228,9 @@ to both stores" as a mandatory check for any new engine.
 | Wechselpräfix pair list | Generated from the AMBIGUOUS verdicts, never hand-kept. `validate-prefixes.py` fails if an AMBIGUOUS verb is missing from Lesson 5, or if a verb has other than exactly one `drilled` reading. |
 | Lesson section types | `explanation` (all modules) and `pairs` (Vorsilben Lesson 5 only). A new type gets its own renderer branch — the existing branch is never edited, and `qa-prefixes.js` asserts the Verbs renderer stays free of it. |
 | Variant glosses | Where a verb has two readings, the Verbs card gloss is pinned to the filed reading via an `english` field in the seed. `prefixes.json` keeps both readings — it has a `why` field to explain them; the Verbs card does not. |
+| Stammverben rule | A Stammverb is not prefix + an independent living verb, per de.wiktionary.org's Herkunft. Base in app → variant; base not in app → standalone variation (no new base verbs; content freeze). Decided 2026-10-19 (S41). |
+| Data edits | Never edit `js/data.js`. Data changes go into `data/*.json` and through `bundle-data.py`; `validate-stammverben.py` check G fails otherwise. S41. |
+| Wiederholung vs progress | Review answers never move progress bars and are not backfilled — a review session must be deliberate (Ricco, 2026-10-19). |
 | Variant case requirements | Variants inherit `grammar.case_requirements` from their root unless they carry their own override. Overrides exist only where the case genuinely diverges — chiefly the transitivising prefixes be-, er-, ver-, über-. |
 | js/data.js builds | Always via `_factory/bundle-data.py`. Never hand-edited. |
 | Deklination v1 exclusions | Stem-changers (dunkel/hoch/teuer), indeclinables (rosa/lila), Komparativ/Superlativ declension, adjectival nouns. |
@@ -227,7 +241,7 @@ to both stores" as a mandatory check for any new engine.
 
 | Module | Scope | Items | Exercises | Status |
 |---|---|---|---|---|
-| Verbs | A1–B2 | 149 roots + **287 variants** | **3,708** | ✅ Complete (S38 reconciliation) |
+| Verbs | A1–B2 | 114 roots + **306 variants** + 26 standalone | **3,708** | ✅ Complete (S41 audit) |
 | Nouns | A1–B2 | 230 (152 roots + 78 variants) | 690 | ✅ Complete |
 | Adverbs | A1–B2 | 139 | 556 | ✅ Complete |
 | Adjectives | A1–B2 | 136 | 544 | ✅ Complete |
