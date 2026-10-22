@@ -1,11 +1,13 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-10-22 — Session 42 closed (Adverb Scales v23 + one-viable-answer fix v24)*
+*Last updated: 2026-10-22 — Session 43 (Lesen & Hören: 83 articles, v25)*
 
 ---
 
 ## Current State
 
-**10 modules built and live, plus Wiederholung.** App at https://rsperotti.github.io/mein_deutsch (v24).
+**10 modules built and live, plus Wiederholung.** App at https://rsperotti.github.io/mein_deutsch (v25).
+
+**Session 43 — Lesen & Hören update (v25).** 38 new DW Top-Thema articles (to 2026-10-20) → **83 articles, 1592 vocab**. German quotation marks restored in all transcripts (old crawler dropped HTML entities). Bundle is now reproducible: `_factory/listening/bundle-listening.py` → `validate-listening.py` (A–I, mutation-tested).
 
 **Session 42b — one viable answer per adverb exercise (v24).** Every adverb exercise now has exactly
 one right option. 578 distractors in 304 exercises were replaced because they meant the same as the
@@ -120,7 +122,7 @@ material Ricco knows best. PRD: `PRD_Wiederholung.md`.
 | `js/wordlist.js` | ✅ Updated | Adjectives. Case dot helpers. Verb cards show case dots. |
 | `js/wordpractice.js` | ✅ Built | Adjektive class in WLP_CLASSES picker. |
 | `js/data.js` | ✅ Bundled | `window.APP_DATA` (2.2 MB). All word data + exercises incl. expressions. Rebundled Session 35. |
-| `js/listening-data.js` | ✅ Built | `window.LISTENING_DATA`. 45 articles, transcripts + vocabulary. 212 KB. |
+| `js/listening-data.js` | ✅ Built | `window.LISTENING_DATA`. 83 articles, transcripts + vocabulary. Built by `_factory/listening/bundle-listening.py` — never hand-edit. |
 | `js/listening.js` | ✅ Built | Article list, reader, vocab highlighting, audio caching, read-state. |
 | `js/particles-data.js` | ✅ Updated | `window.PARTICLES_DATA`. 34 particles + 510 exercises + 8 lessons. **244 KB. Content-reviewed (Phase 6).** |
 | `js/grammar-data.js` | ✅ Built | `window.GRAMMAR_DATA` — Verbs grammar lessons bundled. |
@@ -275,7 +277,7 @@ to both stores" as a mandatory check for any new engine.
 | Adverbs | A1–B2 | 213 | 940 | ✅ Complete (+ Skalen, S42) |
 | Adjectives | A1–B2 | 136 | 544 | ✅ Complete |
 | Prepositions | A1–B2 | 53 | 158 | ✅ Complete |
-| Listening | 2026 | 45 articles | — | ✅ Complete |
+| Listening | 2026 | 83 articles (to 2026-10-20) | — | ✅ Complete |
 | Particles | A1–C2 | 34 | 510 | ✅ Complete |
 | Ausdrücke | B1–B2 | 8 expressions | 32 | ✅ Live — grows with readings |
 | Deklinationen | A1–B2 | 3 patterns × 4 cases | 360 | ✅ Complete (Session 36) |
@@ -618,7 +620,11 @@ the Main engine before wiring the rest.
 
 ## DW Crawler — How to Add More Years
 
-**Status: built and run. 45 articles from 2026 archive complete.**
+**Status: 83 articles from the 2026 archive (last update 2026-10-22, newest 2026-10-20).**
+
+**Current method (Session 43) — `crawler.py` is NOT the path any more:** DW and its audio CDN are blocked from both Cowork shells, and `crawler.py` drops German quotation marks (HTML entities → spaces). Instead: (1) in-app browser on the archive page, fetch each new `/de/l-NNN` and parse `window.__APOLLO_STATE__` (Lesson `manuscript`, `lastPublicationDate`, Audio `mp3Src`), decoding entities properly; (2) Claude writes `explanation_en`; (3) write `content/listening/articles/l-NNN/data.json`; (4) Ricco runs a generated `_factory/listening/download-audio.sh` in Terminal; (5) `python3 _factory/listening/bundle-listening.py` + `validate-listening.py`; (6) bump SW. Dedupe by DW lesson id (one old article lives under a human slug).
+
+Legacy steps (crawler.py, needs local Playwright + API key):
 
 1. Find the archive URL for the target year at `https://learngerman.dw.com` → Top-Thema → Archiv
 2. Update `ARCHIVE_URL` in `crawler.py`

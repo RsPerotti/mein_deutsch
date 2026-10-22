@@ -1,0 +1,116 @@
+{
+  "id": "l-79272701",
+  "title": "Das Geschäft mit unseren Daten",
+  "url": "https://learngerman.dw.com/de/l-79272701",
+  "date": "2026-09-15",
+  "crawled_at": "2026-10-22T12:42:40+00:00",
+  "audio_file": "",
+  "transcript": "Das Geschäft mit unseren Daten\n\nApps sammeln große Mengen persönlicher Daten – aus denen Tech-Unternehmen Nutzerprofile erstellen und mit denen sie viel Geld verdienen können. Effektiver Datenschutz ist auch in der EU schwer durchzusetzen.\n\nEine App wie ein Messenger ist schnell installiert. Bei der Abfrage, ob persönliche Daten genutzt werden dürfen, klicken viele einfach auf „Ja“ – und erlauben damit zum Beispiel WhatsApp, alle Kontakte des Telefons zu speichern. Doch das ist noch nicht alles. Denn große Tech-Unternehmen kontrollieren komplette Infrastrukturen. Digitalexperte Jan Penfrat erklärt: Daten werden über das Telefon selbst, das Betriebssystem und die Apps gesammelt. Bei Google sind das zum Beispiel Google-Mail, Kontakte, Kalender – und Google Maps, „wo die Aufenthaltsorte der Menschen im Minutentakt mit aufgezeichnet werden können.“\n\nDazu kommen Annahmen der Unternehmen selbst. „Wenn sie also Zugriff haben auf meine Ortungsdaten und wissen, wo ich mich üblicherweise nachts aufhalte, können sie davon ausgehen: Das ist meine Wohnadresse“, erklärt Penfrat. Aus den Nutzungsdaten und den Annahmen können individuelle Profile erstellt werden. „Das ist ein riesiger, globaler Milliardenmarkt, auf dem persönliche Datenprofile von Menschen einfach verhökert werden,“ so Penfrat.\n\nDabei hat die EU vergleichsweise strenge Datenschutzregeln. Mehrfach wurden Konzerne wie Apple, Meta oder Google zu Strafen von Hunderten Millionen Euro verurteilt. Doch das ist nicht hoch genug, meint Penfrat. Und eine wirklich effektive Kontrolle durch die EU ist nicht einfach: Die Tech-Konzerne besitzen globale Infrastrukturen, große finanzielle Ressourcen und komplexe Geschäftsmodelle. Dazu kommt Europas Abhängigkeit: Cloud-Dienste, Betriebssysteme, Plattformen und KI-Infrastruktur kommen zu großen Teilen von US-Unternehmen.\n\nNutzenden rät Penfrat, sich zu fragen, womit im jeweiligen Fall gerade Geld verdient wird. Es gilt: „Wenn ich nicht bezahle, dann bin ich das Produkt.“ Kostenlose Dienste werden also mit Daten bezahlt. Daher lohnt sich die Suche nach Alternativen – wie nach entsprechenden Handys oder sozialen Netzwerken, so der Experte. Gleichzeitig fordert Penfrat stärkere Regulierungen und mehr politischen Mut. „Denn wir müssen es hier aufnehmen mit den größten und mächtigsten Konzernen, die die Menschheit je gesehen hat – und die stehen leider nicht auf unserer Seite.“",
+  "vocabulary": [
+    {
+      "word": "Tech-Unternehmen",
+      "explanation_de": "Tech-Unternehmen, - (n.)",
+      "explanation_en": "Tech companies."
+    },
+    {
+      "word": "profile",
+      "explanation_de": "Profil, -e (n.)",
+      "explanation_en": "Profiles."
+    },
+    {
+      "word": "Effektiver",
+      "explanation_de": "effektiv",
+      "explanation_en": "More effective."
+    },
+    {
+      "word": "Datenschutz",
+      "explanation_de": "Datenschutz (m., nur Singular)",
+      "explanation_en": "Data protection."
+    },
+    {
+      "word": "durchzusetzen",
+      "explanation_de": "etwas durch|setzen",
+      "explanation_en": "To enforce."
+    },
+    {
+      "word": "Messenger",
+      "explanation_de": "Messenger, - (m., aus dem Englischen)",
+      "explanation_en": "Messaging app."
+    },
+    {
+      "word": "Infrastrukturen",
+      "explanation_de": "Infrastruktur, -en (f.)",
+      "explanation_en": "Infrastructures."
+    },
+    {
+      "word": "Betriebssystem",
+      "explanation_de": "Betriebssystem, -e (n.)",
+      "explanation_en": "Operating system."
+    },
+    {
+      "word": "im Minutentakt",
+      "explanation_de": "im Minutentakt",
+      "explanation_en": "Every minute; minute by minute."
+    },
+    {
+      "word": "aufgezeichnet",
+      "explanation_de": "etwas auf|zeichnen",
+      "explanation_en": "Recorded (from 'aufzeichnen')."
+    },
+    {
+      "word": "Annahmen",
+      "explanation_de": "Annahme, -n (f.)",
+      "explanation_en": "Assumptions."
+    },
+    {
+      "word": "Zugriff haben auf",
+      "explanation_de": "auf etwas Zugriff haben",
+      "explanation_en": "To have access to."
+    },
+    {
+      "word": "Ortung",
+      "explanation_de": "Ortung, -en (f.)",
+      "explanation_en": "Location tracking."
+    },
+    {
+      "word": "verhökert",
+      "explanation_de": "etwas verhökern",
+      "explanation_en": "Flogged, sold off (colloquial, from 'verhökern')."
+    },
+    {
+      "word": "Ressourcen",
+      "explanation_de": "Ressource, -n (f.)",
+      "explanation_en": "Resources."
+    },
+    {
+      "word": "Cloud",
+      "explanation_de": "Cloud, -s (f., aus dem Englischen)",
+      "explanation_en": "Cloud (computing)."
+    },
+    {
+      "word": "KI",
+      "explanation_de": "KI",
+      "explanation_en": "AI (artificial intelligence)."
+    },
+    {
+      "word": "entsprechenden",
+      "explanation_de": "entsprechend",
+      "explanation_en": "Corresponding; appropriate."
+    },
+    {
+      "word": "Regulierungen",
+      "explanation_de": "Regulierung, -en (f.)",
+      "explanation_en": "Regulations."
+    },
+    {
+      "word": "es",
+      "explanation_de": "es mit jemandem auf|nehmen",
+      "explanation_en": "Part of 'es mit jemandem aufnehmen' — to take someone on."
+    },
+    {
+      "word": "aufnehmen mit",
+      "explanation_de": "es mit jemandem auf|nehmen",
+      "explanation_en": "To take on, compete with (from 'es mit jemandem aufnehmen')."
+    }
+  ]
+}

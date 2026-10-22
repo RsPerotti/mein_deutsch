@@ -2,6 +2,34 @@
 
 ---
 
+## 2026-10-22 — Session 43: Lesen & Hören update (v25)
+
+Ricco: add every DW Top-Thema article published since the module was built (last crawl 2026-06-07).
+
+- **38 new articles** (2026-06-09 → 2026-10-20), 741 vocab entries → module now **83 articles, 1592 vocab**.
+- **Network:** learngerman.dw.com and DW's audio CDN (radiodownloaddw-a.akamaihd.net) are blocked from
+  both shells. Text was fetched in the in-app browser (archive page + per-lesson `__APOLLO_STATE__`,
+  same parsing as `crawler.py`); audio downloaded by Ricco running `_factory/listening/download-audio.sh`
+  in his own Terminal (38/38, 99 MB). The one odd MP3 path (`mp3/deu/F17E3F2C_2.mp3`, *Ein Leben mit
+  Zwängen*) was confirmed as that lesson's own `Audio.mp3Src`, not a stray link.
+- **English glosses** written by Claude (no ANTHROPIC_API_KEY used), one line per entry, in the sense
+  used in the article; split separable/idiom fragments ("an", "aus") are glossed as part of their phrase.
+- **Quotation-mark bug fixed in all 83 transcripts.** `crawler.py` turned every HTML entity (`&bdquo;`,
+  `&ldquo;`…) into a space, so all German quotes vanished. Transcripts are now decoded properly; a
+  check confirmed the only differences are punctuation/whitespace. 44 of the old 45 changed (170 quotes
+  restored). 8 stray "word ." spaces remain — they are in DW's own HTML, left alone.
+  `crawler.py` itself still has the bug — next crawl must use the browser path or fix its entity regex.
+- **Duplicate trap:** the old crawl stored lesson l-77421058 under a human slug
+  (`wieso-immer-weniger-…`). New articles use `l-NNN` ids; dedupe is by DW lesson id, not slug.
+- **Factory:** `_factory/listening/bundle-listening.py` (new — reproduced the old bundle byte-for-byte
+  before adding anything; skips articles without audio) and the independent
+  `validate-listening.py` (checks A–I; every check mutation-tested, 10/10 caught).
+- SW v24 → **v25**.
+
+**Open:** nothing blocked on Ricco. Next update: same browser path; only articles after 2026-10-20.
+
+---
+
 ## 2026-10-22 — Session 42 close
 
 **Shipped today:** v23 Adverb Scales (16 axes, +74 adverbs, 88 ordering drills) → v24 one viable

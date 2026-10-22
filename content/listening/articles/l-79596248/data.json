@@ -1,0 +1,96 @@
+{
+  "id": "l-79596248",
+  "title": "Mehr Rechenzentren für Europa",
+  "url": "https://learngerman.dw.com/de/l-79596248",
+  "date": "2026-10-09",
+  "crawled_at": "2026-10-22T12:42:40+00:00",
+  "audio_file": "",
+  "transcript": "Mehr Rechenzentren für Europa\n\nIn Europa sollen neue Rechenzentren gebaut werden, auch um selbst über  Daten bestimmen zu können. Doch die Zentren brauchen viel Strom und Wasser. Deshalb gibt es immer öfter Proteste gegen die Projekte.\n\nBei Diskussionen über Künstliche Intelligenz (KI) geht es meist um ihre Gefahren und darum, wie sie unseren Alltag beeinflusst. Dass sich durch die neue Technologie auch Städte und Landschaften verändern können, zeigt sich am Bau neuer Rechenzentren. Die meisten Anlagen befinden sich in den USA, doch inzwischen entstehen auch in Europa immer mehr dieser Zentren. Der Grund: Viele Länder und Unternehmen wollen ihre Daten lieber in Europa speichern.\n\nNeue Rechenzentren sollen in Zukunft nicht mehr nur in der Nähe großer Städte wie Frankfurt oder Paris stehen, sondern auch in kleineren Städten und Gemeinden. Dagegen gibt es regelmäßig Proteste. Im kleinen österreichischen Ort Kronstorf demonstrierten zuletzt mehrere Hundert Menschen gegen ein geplantes Google-Projekt. Und im französischen Dorf Étrechet traten sogar mehrere Kommunalpolitikerinnen zurück. Beide Projekte konnten trotz des Widerstands nicht gestoppt werden.\n\nDie Kritik der Gegner: Rechenzentren brauchen viel Energie, vor allem für die Server und ihre Kühlung. Das Google-Projekt in Étrechet soll bei voller Auslastung so viel Strom verbrauchen, wie ein Atomkraftwerk ungefähr produziert. Und in Finnland könnte der Stromverbrauch beim Bau aller geplanten Zentren im Vergleich zu 2025 um fast 40 Prozent steigen, so eine Prognose. Für die Kühlung von Rechenzentren wird außerdem viel Wasser benötigt. Dieses Wasser verdunstet teilweise oder kommt erwärmt zurück in andere Gewässer.\n\nWie man in Rechenzentren Ressourcen sparen kann, zeigt hingegen eine große Anlage in Marseille, die derzeit entsteht. Mit einem geschlossenen Wasserkreislauf, bei dem das Wasser immer wieder verwendet wird, kann dort der Energiebedarf für die Kühlung um 30 Prozent reduziert werden. In anderen Rechenzentren, vor allem in Skandinavien, wird die Abwärme der Server genutzt, um Hunderte Wohnungen zu heizen. Wahrscheinlich braucht es genau solche Innovationen, um die gesellschaftliche Akzeptanz von neuen Rechenzentren zu erhöhen.",
+  "vocabulary": [
+    {
+      "word": "Rechenzentren",
+      "explanation_de": "Rechenzentrum, - zentren (n.)",
+      "explanation_en": "Data centres."
+    },
+    {
+      "word": "Künstliche Intelligenz (KI)",
+      "explanation_de": "KI (f., nur Singular)",
+      "explanation_en": "Artificial intelligence (AI)."
+    },
+    {
+      "word": "traten",
+      "explanation_de": "zurück|treten",
+      "explanation_en": "Stepped (as in 'zurücktreten' = to resign or step back)."
+    },
+    {
+      "word": "Kommunal",
+      "explanation_de": "kommunal",
+      "explanation_en": "Municipal, local."
+    },
+    {
+      "word": "zurück",
+      "explanation_de": "zurück|treten",
+      "explanation_en": "Part of 'zurücktreten' — to resign, step down."
+    },
+    {
+      "word": "Widerstands",
+      "explanation_de": "Widerstand, -stände (m.)",
+      "explanation_en": "Of resistance."
+    },
+    {
+      "word": "Server",
+      "explanation_de": "Server, - (m., aus dem Englischen)",
+      "explanation_en": "Servers."
+    },
+    {
+      "word": "Kühlung",
+      "explanation_de": "Kühlung (f., nur Singular)",
+      "explanation_en": "Cooling."
+    },
+    {
+      "word": "Auslastung",
+      "explanation_de": "Auslastung, -en (f.)",
+      "explanation_en": "Capacity utilisation; workload."
+    },
+    {
+      "word": "Atomkraftwerk",
+      "explanation_de": "Atomkraftwerk, -e (n.)",
+      "explanation_en": "Nuclear power plant."
+    },
+    {
+      "word": "Prognose",
+      "explanation_de": "Prognose, -n (f.)",
+      "explanation_en": "Forecast."
+    },
+    {
+      "word": "verdunstet",
+      "explanation_de": "verdunsten",
+      "explanation_en": "Evaporates."
+    },
+    {
+      "word": "erwärmt",
+      "explanation_de": "erwärmt",
+      "explanation_en": "Heated, warmed."
+    },
+    {
+      "word": "Ressourcen",
+      "explanation_de": "Ressource, -n  (f.)",
+      "explanation_en": "Resources."
+    },
+    {
+      "word": "Wasserkreislauf",
+      "explanation_de": "Wasserkreislauf, -läufe (m.)",
+      "explanation_en": "Water cycle."
+    },
+    {
+      "word": "Abwärme",
+      "explanation_de": "Abwärme (f., nur Singular)",
+      "explanation_en": "Waste heat."
+    },
+    {
+      "word": "Innovationen",
+      "explanation_de": "Innovation, -en (f.)",
+      "explanation_en": "Innovations."
+    }
+  ]
+}
