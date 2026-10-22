@@ -1,5 +1,5 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-10-22 — Session 42 (Adverb Scales)*
+*Last updated: 2026-10-22 — Session 42 closed (Adverb Scales v23 + one-viable-answer fix v24)*
 
 ---
 
@@ -510,6 +510,10 @@ thing that distinguishes a check that passes from a check that works.
 ---
 
 ## Next Steps
+
+**After Session 42 (2026-10-22):** nothing blocked. Candidate next: the same one-viable-answer audit for
+the adjective, noun and verb modules (the synonym-distractor bug class is not adverb-specific). Any
+new adverbs from a Wörter intake go through `generate → fix-distractors → bundle → validators`.
 
 **DECISION 2026-08-29 — spaced repetition is DONE, and nothing replaces it yet.**
 `PRD_Wiederholung.md` is delivered: all three phases shipped, all success criteria met.

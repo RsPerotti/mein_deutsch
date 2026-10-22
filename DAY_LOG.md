@@ -2,6 +2,26 @@
 
 ---
 
+## 2026-10-22 — Session 42 close
+
+**Shipped today:** v23 Adverb Scales (16 axes, +74 adverbs, 88 ordering drills) → v24 one viable
+answer per adverb exercise (578 distractors replaced in 304 exercises). Commits `a4597fd`,
+`18c18a4`, `22874c3`, `ca2a2bd`; live site verified at v24.
+
+**Decisions recorded (Ricco):** content rule of 2026-08-28 is a rule of thumb; scale axes need 4+
+words; ordering exercise in; strict one-viable-answer rule for all adverb exercises.
+
+**Open threads (nothing blocked on Ricco):**
+- Future Wörter intakes that add adverbs must run `fix-distractors.py` + `validate-adverb-distractors.py`
+  after the generator (documented in `_factory/README.md`).
+- Same synonym-distractor class almost certainly exists in other word modules (adjectives, nouns,
+  verbs) — not audited; candidate for a future session if Ricco wants it.
+- Watch from use: do the Skalen and drills help? Any tier order that feels wrong goes to the
+  Wiktionary/Duden check, not to Ricco.
+- Untracked `trip-eltern-dashboard.pdf` in the repo root is not app content — left alone.
+
+---
+
 ## 2026-10-22 — Session 42b: one viable answer per adverb exercise (v24)
 
 Ricco: fix the synonym distractors, "making sure that no more than one option is a viable answer."
