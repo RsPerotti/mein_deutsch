@@ -92,6 +92,8 @@ function onScreenEnter(screenId) {
     case 'screen-verbliste':         renderVerbliste();                       break;
     case 'screen-nomenliste':        renderNomenliste();                      break;
     case 'screen-adverbliste':       renderAdverbliste();                     break;
+    case 'screen-adverb-scales':     renderAdverbScales();                    break;
+    case 'screen-adverb-scale':      renderAdverbScale();                     break;
     case 'screen-adjektivliste':     renderAdjektivliste();                   break;
     case 'screen-prapositionsliste': renderPrapositionsliste();               break;
     case 'screen-ausdrueckeliste':   renderAusdrueckeliste();                 break;
@@ -181,6 +183,7 @@ async function loadData() {
   appData.exercises['module_verbs']         = (d.exercises || {}).module_verbs || d.exercises_verbs       || [];
   appData.exercises['module_nouns']         = d.exercises_nouns       || [];
   appData.exercises['module_adverbs']       = d.exercises_adverbs     || [];
+  appData.adverbScales                      = d.adverb_scales         || { axes: [] };
   appData.exercises['module_adjectives']    = d.exercises_adjectives   || [];
   appData.prepositions                      = d.prepositions            || [];
   appData.exercises['module_prepositions']  = d.exercises_prepositions  || [];
@@ -745,6 +748,8 @@ function _renderAdverbModuleCategories() {
       </div>
     </div>
 
+    ${_adverbScalesCard()}
+
     <div class="label mt-4" style="color:var(--color-text-primary);margin-bottom:var(--sp-3)">
       Übungen
     </div>
@@ -767,6 +772,27 @@ function _renderAdverbModuleCategories() {
 // ADVERBLISTE (Adverb Reference)
 // ─────────────────────────────────────────
 
+// Entry point to the Skalen reference (Session 42) — module home and Adverbliste
+function _adverbScalesCard() {
+  const axes = (appData.adverbScales && appData.adverbScales.axes) || [];
+  if (!axes.length) return '';
+  return `
+    <div class="card mt-4" style="cursor:pointer" onclick="openAdverbScales()">
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <div style="flex:1;min-width:0">
+          <div style="font-size:var(--font-size-xs);font-weight:var(--fw-semibold);letter-spacing:var(--ls-label);text-transform:uppercase;color:var(--color-text-secondary);margin-bottom:4px">Nachschlagen</div>
+          <div style="font-size:var(--font-size-xl);font-weight:var(--fw-bold);line-height:1.2">Skalen</div>
+          <div style="font-size:var(--font-size-sm);color:var(--color-text-muted);margin-top:4px">${axes.length} Skalen · sicher → nie, immer → nie, total → gar nicht</div>
+        </div>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+             style="color:var(--color-text-muted);flex-shrink:0;margin-left:var(--sp-3)">
+          <polyline points="9 18 15 12 9 6"/>
+        </svg>
+      </div>
+    </div>`;
+}
+
 function renderAdverbliste() {
   const unlockedIds = new Set(Progress.getUnlockedAdverbs());
   let adverbs = appData.adverbs.filter(a => unlockedIds.has(a.id));
@@ -775,7 +801,7 @@ function renderAdverbliste() {
   const container = document.getElementById('adverbliste-content');
 
   if (adverbs.length === 0) {
-    container.innerHTML = `
+    container.innerHTML = _adverbScalesCard().replace('card mt-4', 'card') + `
       <div class="empty-state">
         <div class="empty-icon">📖</div>
         <p>Noch keine Adverbien freigeschaltet.</p>
@@ -783,7 +809,8 @@ function renderAdverbliste() {
     return;
   }
 
-  container.innerHTML = _renderAdverbCards(adverbs);
+  container.innerHTML = _adverbScalesCard().replace('card mt-4', 'card') +
+    '<div style="height:var(--sp-4)"></div>' + _renderAdverbCards(adverbs);
 }
 
 function _renderAdverbCards(adverbs) {

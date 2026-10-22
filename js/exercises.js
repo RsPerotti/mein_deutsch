@@ -144,7 +144,7 @@ function startExercise(state) {
     const label = category === 'roots' ? 'STAMMNOMEN' : 'VARIATIONEN';
     contextLabel = 'NOMEN · ' + label;
   } else if (moduleId === 'module_adverbs') {
-    contextLabel = 'ADVERBIEN · ÜBUNGEN';
+    contextLabel = category === 'all' ? 'ADVERBIEN · ÜBUNGEN' : 'ADVERBIEN · SKALEN';
   } else if (moduleId === 'module_adjectives') {
     contextLabel = 'ADJEKTIVE · GRUNDFORMEN';
   } else if (moduleId === 'module_prepositions') {
@@ -209,8 +209,16 @@ function _buildQueue(moduleId, category) {
     return _shuffle(all.filter(ex => variationIds.has(ex.word_id)));
   }
 
-  // Adverbs — single category, serve all exercises
-  if (moduleId === 'module_adverbs') return _shuffle([...all]);
+  // Adverbs — 'all' serves everything; the Skalen screens (Session 42) start
+  // 'scales' (every ordering exercise) or 'scale:<axisId>' (one axis).
+  if (moduleId === 'module_adverbs') {
+    if (category === 'scales') return _shuffle(all.filter(ex => ex.type === 'scale_choice'));
+    if (category && category.startsWith('scale:')) {
+      const prefix = 'ex_adv_scale_' + category.slice(6) + '_';
+      return _shuffle(all.filter(ex => ex.exercise_id.startsWith(prefix)));
+    }
+    return _shuffle([...all]);
+  }
 
   // Adjectives — single category (Grundformen), serve all exercises
   if (moduleId === 'module_adjectives') return _shuffle([...all]);
@@ -328,6 +336,8 @@ function _showNext() {
     setTimeout(() => document.getElementById('input-ich')?.focus(), 80);
   } else if (ex.type === 'fill_blank_particle') {
     card.innerHTML = _renderFillBlankParticle(ex);
+  } else if (ex.type === 'scale_choice') {
+    card.innerHTML = _renderScaleChoice(ex);
   } else {
     card.innerHTML = _renderTranslateWord(ex); // fallback
   }
@@ -377,6 +387,36 @@ function _renderTranslateWord(ex) {
         </button>
       </div>
       <div class="exercise-word-prompt">${_esc(prompt)}</div>
+    </div>
+    <div class="options-stack" id="opts">
+      ${options.map((opt, i) => `
+        <button class="option-btn stack-opt"
+                data-answer="${_esc(opt)}"
+                onclick="selectAnswer(this)">
+          <span class="opt-letter">${letters[i]}</span>
+          <span class="opt-text">${_esc(opt)}</span>
+        </button>`).join('')}
+    </div>
+    <div class="feedback-text" id="feedback"></div>`;
+}
+
+// --- Render: scale_choice (Adverb Scales, Session 42) ---
+// "Which word is the most certain?" — options come from different tiers of one
+// axis (see _factory/adverb-scales/generate.py). Answers go through selectAnswer(),
+// so recording, unlocking, cooldown and review all behave exactly as for
+// translate_word; validate-adverb-scales.py check K holds this in place.
+function _renderScaleChoice(ex) {
+  const q       = ex.question || {};
+  const options = _shuffle([ex.correct_answer, ...ex.wrong_answers.slice(0, 3)]);
+  const letters = ['A', 'B', 'C', 'D'];
+  return `
+    <div class="exercise-meta">
+      <div class="exercise-counter">FRAGE ${_questionNumber(session.correctCount)}</div>
+      <div class="exercise-type-label">Skala · ${_esc(q.axis || '')}</div>
+    </div>
+    <div class="exercise-word-display">
+      <div class="exercise-word scale-question-word">${_esc(q.de || '')}</div>
+      <div class="exercise-word-prompt">${_esc(q.en || '')}</div>
     </div>
     <div class="options-stack" id="opts">
       ${options.map((opt, i) => `

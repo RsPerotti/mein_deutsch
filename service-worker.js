@@ -48,7 +48,7 @@
  * If the version is not bumped, users keep running the old cached code.
  */
 
-const CACHE = 'mein-deutsch-v22';
+const CACHE = 'mein-deutsch-v23';
 
 const PRECACHE = [
   './',
@@ -66,6 +66,7 @@ const PRECACHE = [
   './js/progress.js',
   './js/srs.js',
   './js/review.js',
+  './js/scales.js',
   './js/exercises.js',
   './js/wordlist.js',
   './js/wordpractice.js',

@@ -1,0 +1,2587 @@
+{
+ "axes": [
+  {
+   "id": "gewissheit",
+   "title": "Gewissheit",
+   "question_de": "Wie sicher ist der Sprecher?",
+   "question_en": "How sure is the speaker?",
+   "layout": "linear",
+   "side": [
+    {
+     "text": "unwahrscheinlich and unmöglich are adjectives: Das ist unwahrscheinlich. They describe a thing, they don't sit inside the sentence like kaum.",
+     "words": [
+      {
+       "w": "unwahrscheinlich",
+       "id": "adv_unwahrscheinlich",
+       "en": "unlikely",
+       "status": "ok"
+      }
+     ]
+    },
+    {
+     "text": "unbedingt is not about certainty: it means 'absolutely must' — Du musst unbedingt kommen!",
+     "words": []
+    }
+   ],
+   "top": "sicher",
+   "bottom": "ausgeschlossen",
+   "tiers": [
+    {
+     "label": "Ausgemacht",
+     "label_en": "Settled",
+     "words": [
+      {
+       "w": "definitiv",
+       "id": "adv_definitiv",
+       "en": "definitely",
+       "status": "ok"
+      },
+      {
+       "w": "auf jeden Fall",
+       "id": "adv_auf_jeden_fall",
+       "en": "definitely / in any case",
+       "status": "ok"
+      },
+      {
+       "w": "garantiert",
+       "id": "adv_garantiert",
+       "en": "guaranteed / definitely",
+       "status": "ok"
+      },
+      {
+       "w": "zweifellos",
+       "id": "adv_zweifellos",
+       "en": "undoubtedly / without a doubt",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Das ist definitiv besser.",
+      "en": "That is definitely better."
+     },
+     "anchor": {
+      "de": "Er kommt definitiv morgen.",
+      "word": "definitiv",
+      "en": "He's definitely coming tomorrow."
+     }
+    },
+    {
+     "label": "Sehr sicher",
+     "label_en": "Very sure",
+     "words": [
+      {
+       "w": "bestimmt",
+       "id": "adv_bestimmt",
+       "en": "definitely / for sure",
+       "status": "ok"
+      },
+      {
+       "w": "sicher",
+       "id": "adv_sicher",
+       "en": "surely / certainly",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Das klappt bestimmt.",
+      "en": "That'll definitely work."
+     },
+     "anchor": {
+      "de": "Er kommt bestimmt morgen.",
+      "word": "bestimmt",
+      "en": "He's surely coming tomorrow."
+     }
+    },
+    {
+     "label": "Fast sicher",
+     "label_en": "Almost certain",
+     "words": [
+      {
+       "w": "höchstwahrscheinlich",
+       "id": "adv_hoechstwahrscheinlich",
+       "en": "most likely / in all probability",
+       "status": "ok"
+      },
+      {
+       "w": "sicherlich",
+       "id": "adv_sicherlich",
+       "en": "certainly / surely",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Der Zug fällt höchstwahrscheinlich aus.",
+      "en": "The train will most likely be cancelled."
+     },
+     "anchor": {
+      "de": "Er kommt höchstwahrscheinlich morgen.",
+      "word": "höchstwahrscheinlich",
+      "en": "He's most likely coming tomorrow."
+     },
+     "note": "sicherlich = 'mit ziemlicher Sicherheit' (Wiktionary) — and it often concedes a point: Das ist sicherlich richtig, aber …"
+    },
+    {
+     "label": "Wahrscheinlich",
+     "label_en": "Probable",
+     "words": [
+      {
+       "w": "wahrscheinlich",
+       "id": "adv_wahrscheinlich",
+       "en": "probably",
+       "status": "ok"
+      },
+      {
+       "w": "vermutlich",
+       "id": "adv_vermutlich",
+       "en": "presumably / probably",
+       "status": "ok"
+      },
+      {
+       "w": "voraussichtlich",
+       "id": "adv_voraussichtlich",
+       "en": "as expected / likely",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Sie kommt wahrscheinlich morgen.",
+      "en": "She'll probably come tomorrow."
+     },
+     "anchor": {
+      "de": "Er kommt wahrscheinlich morgen.",
+      "word": "wahrscheinlich",
+      "en": "He's probably coming tomorrow."
+     },
+     "note": "voraussichtlich = expected according to a plan or forecast (Zug, Wetter, Termine)."
+    },
+    {
+     "label": "Möglich",
+     "label_en": "Possible",
+     "words": [
+      {
+       "w": "vielleicht",
+       "id": "adv_vielleicht",
+       "en": "maybe / perhaps",
+       "status": "ok"
+      },
+      {
+       "w": "eventuell",
+       "id": "adv_eventuell",
+       "en": "possibly / perhaps",
+       "status": "ok"
+      },
+      {
+       "w": "möglicherweise",
+       "id": "adv_moeglicherweise",
+       "en": "possibly",
+       "status": "ok"
+      },
+      {
+       "w": "womöglich",
+       "id": "adv_womoeglich",
+       "en": "possibly / perhaps (even)",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Vielleicht kommt er später.",
+      "en": "Maybe he'll come later."
+     },
+     "anchor": {
+      "de": "Er kommt vielleicht morgen.",
+      "word": "vielleicht",
+      "en": "Maybe he's coming tomorrow."
+     }
+    },
+    {
+     "label": "Unwahrscheinlich",
+     "label_en": "Unlikely",
+     "words": [
+      {
+       "w": "kaum",
+       "id": "adv_kaum",
+       "en": "hardly / barely",
+       "status": "ok"
+      },
+      {
+       "w": "wohl kaum",
+       "id": "adv_wohl_kaum",
+       "en": "hardly / very unlikely",
+       "status": "phrase"
+      }
+     ],
+     "example": {
+      "de": "Das schafft er wohl kaum bis Freitag.",
+      "en": "He's hardly going to manage that by Friday."
+     },
+     "anchor": {
+      "de": "Er kommt wohl kaum morgen.",
+      "word": "wohl kaum",
+      "en": "He's hardly likely to come tomorrow."
+     }
+    },
+    {
+     "label": "Ausgeschlossen",
+     "label_en": "Ruled out",
+     "words": [
+      {
+       "w": "keineswegs",
+       "id": "adv_keineswegs",
+       "en": "by no means / not at all",
+       "status": "ok"
+      },
+      {
+       "w": "keinesfalls",
+       "id": "adv_keinesfalls",
+       "en": "under no circumstances",
+       "status": "ok"
+      },
+      {
+       "w": "auf keinen Fall",
+       "id": "adv_auf_keinen_fall",
+       "en": "absolutely not / no way",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Auf keinen Fall mache ich das.",
+      "en": "There's no way I'm doing that."
+     },
+     "anchor": {
+      "de": "Er kommt auf keinen Fall morgen.",
+      "word": "auf keinen Fall",
+      "en": "He's definitely not coming tomorrow."
+     }
+    }
+   ],
+   "anchor_frame": "Er kommt ___ morgen.",
+   "drill": true
+  },
+  {
+   "id": "quelle",
+   "title": "Quelle",
+   "question_de": "Glaubt der Sprecher, dass es stimmt?",
+   "question_en": "Does the speaker believe it's true?",
+   "layout": "linear",
+   "side": [],
+   "top": "klar sichtbar",
+   "bottom": "nur Schein",
+   "tiers": [
+    {
+     "label": "Klar sichtbar",
+     "label_en": "Plain to see",
+     "words": [
+      {
+       "w": "offensichtlich",
+       "id": "adv_offensichtlich",
+       "en": "obviously / evidently",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Er hat offensichtlich keine Lust.",
+      "en": "He obviously doesn't feel like it."
+     },
+     "anchor": {
+      "de": "Er ist offensichtlich krank.",
+      "word": "offensichtlich",
+      "en": "He's obviously ill (you can see it)."
+     },
+     "note": "offensichtlich and offenbar are also widely used to mean 'apparently' — the visible-evidence sense is the original one."
+    },
+    {
+     "label": "Es sieht so aus",
+     "label_en": "It seems so",
+     "words": [
+      {
+       "w": "offenbar",
+       "id": "adv_offenbar",
+       "en": "apparently / obviously",
+       "status": "ok"
+      },
+      {
+       "w": "anscheinend",
+       "id": "adv_anscheinend",
+       "en": "apparently / it seems",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Anscheinend wusste er Bescheid.",
+      "en": "Apparently he knew about it."
+     },
+     "anchor": {
+      "de": "Er ist anscheinend krank.",
+      "word": "anscheinend",
+      "en": "He's apparently ill (it seems so, and probably is)."
+     }
+    },
+    {
+     "label": "Jemand behauptet es",
+     "label_en": "Someone claims it",
+     "words": [
+      {
+       "w": "angeblich",
+       "id": "adv_angeblich",
+       "en": "supposedly / allegedly",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Angeblich war er krank.",
+      "en": "Supposedly he was sick."
+     },
+     "anchor": {
+      "de": "Er ist angeblich krank.",
+      "word": "angeblich",
+      "en": "He's supposedly ill (so someone says — I have doubts)."
+     }
+    },
+    {
+     "label": "Nur Schein",
+     "label_en": "Only appearance",
+     "words": [
+      {
+       "w": "scheinbar",
+       "id": "adv_scheinbar",
+       "en": "seemingly (but not really)",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Die Aufgabe ist nur scheinbar einfach.",
+      "en": "The task only seems easy."
+     },
+     "anchor": {
+      "de": "Er ist scheinbar krank.",
+      "word": "scheinbar",
+      "en": "He only seems ill (but he isn't)."
+     },
+     "note": "⚠ In everyday speech scheinbar is often used to mean anscheinend. Careful writers keep them apart."
+    }
+   ],
+   "anchor_frame": "Er ist ___ krank.",
+   "drill": true
+  },
+  {
+   "id": "haeufigkeit",
+   "title": "Häufigkeit",
+   "question_de": "Wie oft?",
+   "question_en": "How often?",
+   "layout": "linear",
+   "side": [
+    {
+     "text": "regelmäßig = at fixed intervals. Strictly it says nothing about how often (einmal im Jahr can be regelmäßig), though in everyday speech it often implies 'often'.",
+     "words": [
+      {
+       "w": "regelmäßig",
+       "id": "adv_regelmaessig",
+       "en": "regularly",
+       "status": "ok"
+      }
+     ]
+    }
+   ],
+   "top": "immer",
+   "bottom": "nie",
+   "tiers": [
+    {
+     "label": "100 %",
+     "label_en": "Always",
+     "words": [
+      {
+       "w": "immer",
+       "id": "adv_immer",
+       "en": "always",
+       "status": "ok"
+      },
+      {
+       "w": "stets",
+       "id": "adv_stets",
+       "en": "always (formal)",
+       "status": "ok"
+      },
+      {
+       "w": "jedes Mal",
+       "id": "adv_jedes_mal",
+       "en": "every time",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Ich komme immer zu spät.",
+      "en": "I'm always late."
+     },
+     "anchor": {
+      "de": "Ich gehe immer joggen.",
+      "word": "immer",
+      "en": "I always go jogging."
+     }
+    },
+    {
+     "label": "Zu oft",
+     "label_en": "Too often",
+     "words": [
+      {
+       "w": "ständig",
+       "id": "adv_staendig",
+       "en": "constantly",
+       "status": "ok"
+      },
+      {
+       "w": "dauernd",
+       "id": "adv_dauernd",
+       "en": "all the time",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Mein Handy klingelt ständig.",
+      "en": "My phone keeps ringing constantly."
+     },
+     "anchor": {
+      "de": "Ich gehe ständig joggen.",
+      "word": "ständig",
+      "en": "I'm constantly going jogging."
+     },
+     "note": "ständig and dauernd often sound annoyed: Er ruft ständig an!"
+    },
+    {
+     "label": "Fast immer",
+     "label_en": "Almost always",
+     "words": [
+      {
+       "w": "meistens",
+       "id": "adv_meistens",
+       "en": "usually / mostly",
+       "status": "ok"
+      },
+      {
+       "w": "normalerweise",
+       "id": "adv_normalerweise",
+       "en": "normally",
+       "status": "ok"
+      },
+      {
+       "w": "in der Regel",
+       "id": "adv_in_der_regel",
+       "en": "as a rule / usually",
+       "status": "ok"
+      },
+      {
+       "w": "fast immer",
+       "id": "adv_fast_immer",
+       "en": "almost always",
+       "status": "phrase"
+      }
+     ],
+     "example": {
+      "de": "Ich arbeite meistens von zu Hause.",
+      "en": "I usually work from home."
+     },
+     "anchor": {
+      "de": "Ich gehe meistens joggen.",
+      "word": "meistens",
+      "en": "I usually go jogging."
+     }
+    },
+    {
+     "label": "Oft",
+     "label_en": "Often",
+     "words": [
+      {
+       "w": "oft",
+       "id": "adv_oft",
+       "en": "often",
+       "status": "ok"
+      },
+      {
+       "w": "häufig",
+       "id": "adv_haeufig",
+       "en": "frequently",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Wir gehen oft spazieren.",
+      "en": "We often go for walks."
+     },
+     "anchor": {
+      "de": "Ich gehe oft joggen.",
+      "word": "oft",
+      "en": "I often go jogging."
+     }
+    },
+    {
+     "label": "Manchmal",
+     "label_en": "Sometimes",
+     "words": [
+      {
+       "w": "manchmal",
+       "id": "adv_manchmal",
+       "en": "sometimes",
+       "status": "ok"
+      },
+      {
+       "w": "ab und zu",
+       "id": "adv_ab_und_zu",
+       "en": "now and then",
+       "status": "ok"
+      },
+      {
+       "w": "hin und wieder",
+       "id": "adv_hin_und_wieder",
+       "en": "now and again",
+       "status": "ok"
+      },
+      {
+       "w": "gelegentlich",
+       "id": "adv_gelegentlich",
+       "en": "occasionally",
+       "status": "ok"
+      },
+      {
+       "w": "von Zeit zu Zeit",
+       "id": "adv_von_zeit_zu_zeit",
+       "en": "from time to time",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Manchmal brauche ich Ruhe.",
+      "en": "Sometimes I need quiet."
+     },
+     "anchor": {
+      "de": "Ich gehe manchmal joggen.",
+      "word": "manchmal",
+      "en": "I sometimes go jogging."
+     }
+    },
+    {
+     "label": "Selten",
+     "label_en": "Rarely",
+     "words": [
+      {
+       "w": "selten",
+       "id": "adv_selten",
+       "en": "rarely",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Ich esse selten Fleisch.",
+      "en": "I rarely eat meat."
+     },
+     "anchor": {
+      "de": "Ich gehe selten joggen.",
+      "word": "selten",
+      "en": "I rarely go jogging."
+     }
+    },
+    {
+     "label": "Fast nie",
+     "label_en": "Almost never",
+     "words": [
+      {
+       "w": "kaum",
+       "id": "adv_kaum",
+       "en": "hardly / barely",
+       "status": "ok"
+      },
+      {
+       "w": "fast nie",
+       "id": "adv_fast_nie",
+       "en": "almost never",
+       "status": "phrase"
+      }
+     ],
+     "example": {
+      "de": "Er ruft fast nie an.",
+      "en": "He almost never calls."
+     },
+     "anchor": {
+      "de": "Ich gehe fast nie joggen.",
+      "word": "fast nie",
+      "en": "I almost never go jogging."
+     }
+    },
+    {
+     "label": "0 %",
+     "label_en": "Never",
+     "words": [
+      {
+       "w": "nie",
+       "id": "adv_nie",
+       "en": "never",
+       "status": "ok"
+      },
+      {
+       "w": "niemals",
+       "id": "adv_niemals",
+       "en": "never (emphatic)",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Ich trinke nie Kaffee.",
+      "en": "I never drink coffee."
+     },
+     "anchor": {
+      "de": "Ich gehe nie joggen.",
+      "word": "nie",
+      "en": "I never go jogging."
+     }
+    }
+   ],
+   "anchor_frame": "Ich gehe ___ joggen.",
+   "drill": true
+  },
+  {
+   "id": "takt",
+   "title": "Takt",
+   "question_de": "In welchem Abstand?",
+   "question_en": "At what interval?",
+   "layout": "linear",
+   "side": [
+    {
+     "text": "All built the same way: noun + -lich (Stunde → stündlich, Jahr → jährlich).",
+     "words": []
+    }
+   ],
+   "top": "oft",
+   "bottom": "selten",
+   "tiers": [
+    {
+     "label": "Jede Stunde",
+     "label_en": "Every hour",
+     "words": [
+      {
+       "w": "stündlich",
+       "id": "adv_stuendlich",
+       "en": "hourly / every hour",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Der Bus fährt stündlich.",
+      "en": "The bus runs every hour."
+     },
+     "anchor": {
+      "de": "Der Bus fährt stündlich.",
+      "word": "stündlich",
+      "en": "The bus runs every hour."
+     }
+    },
+    {
+     "label": "Jeden Tag",
+     "label_en": "Every day",
+     "words": [
+      {
+       "w": "täglich",
+       "id": "adv_taeglich",
+       "en": "daily / every day",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Ich lerne täglich Deutsch.",
+      "en": "I study German every day."
+     },
+     "anchor": {
+      "de": "Der Bus fährt täglich.",
+      "word": "täglich",
+      "en": "The bus runs every day."
+     }
+    },
+    {
+     "label": "Jede Woche",
+     "label_en": "Every week",
+     "words": [
+      {
+       "w": "wöchentlich",
+       "id": "adv_woechentlich",
+       "en": "weekly",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Wir haben wöchentlich ein Meeting.",
+      "en": "We have a meeting weekly."
+     },
+     "anchor": {
+      "de": "Der Bus fährt wöchentlich.",
+      "word": "wöchentlich",
+      "en": "The bus runs every week."
+     }
+    },
+    {
+     "label": "Jeden Monat",
+     "label_en": "Every month",
+     "words": [
+      {
+       "w": "monatlich",
+       "id": "adv_monatlich",
+       "en": "monthly",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Die Miete wird monatlich bezahlt.",
+      "en": "The rent is paid monthly."
+     },
+     "anchor": {
+      "de": "Der Bus fährt monatlich.",
+      "word": "monatlich",
+      "en": "The bus runs every month."
+     }
+    },
+    {
+     "label": "Jedes Jahr",
+     "label_en": "Every year",
+     "words": [
+      {
+       "w": "jährlich",
+       "id": "adv_jaehrlich",
+       "en": "yearly / annually",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Das Fest findet jährlich statt.",
+      "en": "The festival takes place every year."
+     },
+     "anchor": {
+      "de": "Der Bus fährt jährlich.",
+      "word": "jährlich",
+      "en": "The bus runs every year."
+     }
+    }
+   ],
+   "anchor_frame": "Der Bus fährt ___.",
+   "drill": true
+  },
+  {
+   "id": "intensitaet",
+   "title": "Intensität",
+   "question_de": "Wie stark?",
+   "question_en": "How much?",
+   "layout": "linear",
+   "side": [
+    {
+     "text": "vergleichsweise = 'comparatively': it measures against something else, not on this scale.",
+     "words": [
+      {
+       "w": "vergleichsweise",
+       "id": "adv_vergleichsweise",
+       "en": "comparatively / relatively",
+       "status": "ok"
+      }
+     ]
+    }
+   ],
+   "top": "maximal",
+   "bottom": "null",
+   "tiers": [
+    {
+     "label": "Maximal",
+     "label_en": "Maximum",
+     "words": [
+      {
+       "w": "äußerst",
+       "id": "adv_aeusserst",
+       "en": "extremely (formal)",
+       "status": "ok"
+      },
+      {
+       "w": "extrem",
+       "id": "adv_extrem",
+       "en": "extremely",
+       "status": "ok"
+      },
+      {
+       "w": "absolut",
+       "id": "adv_absolut",
+       "en": "absolutely",
+       "status": "ok"
+      },
+      {
+       "w": "total",
+       "id": "adv_total",
+       "en": "totally / completely",
+       "status": "ok"
+      },
+      {
+       "w": "völlig",
+       "id": "adv_voellig",
+       "en": "completely",
+       "status": "ok"
+      },
+      {
+       "w": "unglaublich",
+       "id": "adv_unglaublich",
+       "en": "incredibly / unbelievably",
+       "status": "ok"
+      },
+      {
+       "w": "wahnsinnig",
+       "id": "adv_wahnsinnig",
+       "en": "incredibly / insanely",
+       "status": "ok"
+      },
+      {
+       "w": "voll",
+       "id": "adv_voll",
+       "en": "totally / completely (slang)",
+       "status": "ok"
+      },
+      {
+       "w": "mega",
+       "id": "adv_mega",
+       "en": "mega / super (slang)",
+       "status": "unverified"
+      },
+      {
+       "w": "super",
+       "id": "adv_super",
+       "en": "super / really (slang)",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Ich bin total müde.",
+      "en": "I'm totally tired."
+     },
+     "anchor": {
+      "de": "Ich bin total müde.",
+      "word": "total",
+      "en": "I'm totally tired."
+     },
+     "note": "voll, mega and super are spoken / slang."
+    },
+    {
+     "label": "Stark",
+     "label_en": "Strong",
+     "words": [
+      {
+       "w": "sehr",
+       "id": "adv_sehr",
+       "en": "very",
+       "status": "ok"
+      },
+      {
+       "w": "wirklich",
+       "id": "adv_wirklich",
+       "en": "really / truly",
+       "status": "ok"
+      },
+      {
+       "w": "echt",
+       "id": "adv_echt",
+       "en": "really / genuinely",
+       "status": "ok"
+      },
+      {
+       "w": "richtig",
+       "id": "adv_richtig",
+       "en": "really / properly (spoken)",
+       "status": "ok"
+      },
+      {
+       "w": "besonders",
+       "id": "adv_besonders",
+       "en": "especially / particularly",
+       "status": "ok"
+      },
+      {
+       "w": "so",
+       "id": "adv_so",
+       "en": "so (intensifier)",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Das ist sehr wichtig.",
+      "en": "That is very important."
+     },
+     "anchor": {
+      "de": "Ich bin sehr müde.",
+      "word": "sehr",
+      "en": "I'm very tired."
+     }
+    },
+    {
+     "label": "Mittel",
+     "label_en": "Medium",
+     "words": [
+      {
+       "w": "ziemlich",
+       "id": "adv_ziemlich",
+       "en": "quite / fairly / pretty",
+       "status": "ok"
+      },
+      {
+       "w": "recht",
+       "id": "adv_recht",
+       "en": "fairly / quite",
+       "status": "ok"
+      },
+      {
+       "w": "ganz",
+       "id": "adv_ganz",
+       "en": "fairly / quite (unstressed)",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Das ist ziemlich schwer.",
+      "en": "That is quite difficult."
+     },
+     "anchor": {
+      "de": "Ich bin ziemlich müde.",
+      "word": "ziemlich",
+      "en": "I'm pretty tired."
+     },
+     "note": "⚠ ganz gut (unstressed) = fairly good, a bit lukewarm — not 'completely good'."
+    },
+    {
+     "label": "Schwach",
+     "label_en": "Slight",
+     "words": [
+      {
+       "w": "etwas",
+       "id": "adv_etwas",
+       "en": "somewhat / a little",
+       "status": "ok"
+      },
+      {
+       "w": "ein bisschen",
+       "id": "adv_ein_bisschen",
+       "en": "a little / a bit",
+       "status": "phrase"
+      },
+      {
+       "w": "ein wenig",
+       "id": "adv_ein_wenig",
+       "en": "a little",
+       "status": "ok"
+      },
+      {
+       "w": "einigermaßen",
+       "id": "adv_einigermassen",
+       "en": "reasonably / more or less",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Ich bin ein bisschen müde.",
+      "en": "I'm a little tired."
+     },
+     "anchor": {
+      "de": "Ich bin ein bisschen müde.",
+      "word": "ein bisschen",
+      "en": "I'm a little tired."
+     }
+    },
+    {
+     "label": "Kaum",
+     "label_en": "Barely",
+     "words": [
+      {
+       "w": "kaum",
+       "id": "adv_kaum_2",
+       "en": "barely / hardly (downscaler)",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Das ist kaum zu glauben.",
+      "en": "That is barely believable."
+     },
+     "anchor": {
+      "de": "Ich bin kaum müde.",
+      "word": "kaum",
+      "en": "I'm barely tired."
+     }
+    },
+    {
+     "label": "Null",
+     "label_en": "Not at all",
+     "words": [
+      {
+       "w": "gar nicht",
+       "id": "adv_gar_nicht",
+       "en": "not at all",
+       "status": "ok"
+      },
+      {
+       "w": "überhaupt nicht",
+       "id": "adv_ueberhaupt_nicht",
+       "en": "not at all (emphatic)",
+       "status": "phrase"
+      }
+     ],
+     "example": {
+      "de": "Das gefällt mir gar nicht.",
+      "en": "I don't like that at all."
+     },
+     "anchor": {
+      "de": "Ich bin gar nicht müde.",
+      "word": "gar nicht",
+      "en": "I'm not tired at all."
+     }
+    }
+   ],
+   "anchor_frame": "Ich bin ___ müde.",
+   "drill": true
+  },
+  {
+   "id": "menge",
+   "title": "Menge um eine Zahl",
+   "question_de": "Mehr oder weniger als die Zahl?",
+   "question_en": "More or less than the number?",
+   "layout": "linear",
+   "side": [
+    {
+     "text": "nur, bloß and lediglich mean 'exactly this — and that's little'. They judge the number rather than move it: Ich habe nur zwei Stunden gewartet.",
+     "words": [
+      {
+       "w": "nur",
+       "id": "adv_nur",
+       "en": "only / just",
+       "status": "ok"
+      },
+      {
+       "w": "bloß",
+       "id": "adv_bloss",
+       "en": "only / merely (spoken)",
+       "status": "ok"
+      },
+      {
+       "w": "lediglich",
+       "id": "adv_lediglich",
+       "en": "merely / only",
+       "status": "ok"
+      }
+     ]
+    }
+   ],
+   "top": "mehr",
+   "bottom": "weniger",
+   "tiers": [
+    {
+     "label": "Mehr als",
+     "label_en": "More than",
+     "words": [
+      {
+       "w": "mehr als",
+       "id": "adv_mehr_als",
+       "en": "more than",
+       "status": "phrase"
+      }
+     ],
+     "example": {
+      "de": "Ich habe mehr als zwei Stunden gewartet.",
+      "en": "I waited more than two hours."
+     },
+     "anchor": {
+      "de": "Ich habe mehr als zwei Stunden gewartet.",
+      "word": "mehr als",
+      "en": "I waited more than two hours."
+     }
+    },
+    {
+     "label": "Etwas mehr",
+     "label_en": "A bit more",
+     "words": [
+      {
+       "w": "gut",
+       "id": "adv_gut",
+       "en": "a good … / just over (with numbers)",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Die Fahrt dauert gut drei Stunden.",
+      "en": "The journey takes a good three hours."
+     },
+     "anchor": {
+      "de": "Ich habe gut zwei Stunden gewartet.",
+      "word": "gut",
+      "en": "I waited a good two hours (a bit over)."
+     },
+     "note": "⚠ gut with a number = a bit MORE than it."
+    },
+    {
+     "label": "Mindestens",
+     "label_en": "At least",
+     "words": [
+      {
+       "w": "mindestens",
+       "id": "adv_mindestens",
+       "en": "at least",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Der Flug dauert mindestens acht Stunden.",
+      "en": "The flight takes at least eight hours."
+     },
+     "anchor": {
+      "de": "Ich habe mindestens zwei Stunden gewartet.",
+      "word": "mindestens",
+      "en": "I waited at least two hours."
+     }
+    },
+    {
+     "label": "Genau",
+     "label_en": "Exactly",
+     "words": [
+      {
+       "w": "genau",
+       "id": "adv_genau",
+       "en": "exactly / precisely",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Der Film beginnt genau um acht.",
+      "en": "The film starts at exactly eight."
+     },
+     "anchor": {
+      "de": "Ich habe genau zwei Stunden gewartet.",
+      "word": "genau",
+      "en": "I waited exactly two hours."
+     }
+    },
+    {
+     "label": "Ungefähr",
+     "label_en": "About",
+     "words": [
+      {
+       "w": "ungefähr",
+       "id": "adv_ungefaehr",
+       "en": "approximately / about",
+       "status": "ok"
+      },
+      {
+       "w": "etwa",
+       "id": "adv_etwa",
+       "en": "about / roughly",
+       "status": "ok"
+      },
+      {
+       "w": "circa",
+       "id": "adv_circa",
+       "en": "approximately (ca.)",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Das kostet ungefähr zwanzig Euro.",
+      "en": "That costs about twenty euros."
+     },
+     "anchor": {
+      "de": "Ich habe ungefähr zwei Stunden gewartet.",
+      "word": "ungefähr",
+      "en": "I waited about two hours."
+     }
+    },
+    {
+     "label": "Etwas weniger",
+     "label_en": "A bit less",
+     "words": [
+      {
+       "w": "knapp",
+       "id": "adv_knapp",
+       "en": "just under / barely",
+       "status": "ok"
+      },
+      {
+       "w": "fast",
+       "id": "adv_fast",
+       "en": "almost / nearly",
+       "status": "ok"
+      },
+      {
+       "w": "beinahe",
+       "id": "adv_beinahe",
+       "en": "almost / nearly",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Er ist knapp zwei Meter groß.",
+      "en": "He is just under two metres tall."
+     },
+     "anchor": {
+      "de": "Ich habe knapp zwei Stunden gewartet.",
+      "word": "knapp",
+      "en": "I waited just under two hours."
+     }
+    },
+    {
+     "label": "Höchstens",
+     "label_en": "At most",
+     "words": [
+      {
+       "w": "höchstens",
+       "id": "adv_hoechstens",
+       "en": "at most",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Ich bleibe höchstens eine Woche.",
+      "en": "I'm staying a week at most."
+     },
+     "anchor": {
+      "de": "Ich habe höchstens zwei Stunden gewartet.",
+      "word": "höchstens",
+      "en": "I waited two hours at most."
+     }
+    }
+   ],
+   "anchor_frame": "Ich habe ___ zwei Stunden gewartet.",
+   "drill": true
+  },
+  {
+   "id": "zeitstrahl",
+   "title": "Zeitstrahl",
+   "question_de": "Wann, von jetzt aus gesehen?",
+   "question_en": "When, seen from now?",
+   "layout": "linear",
+   "side": [],
+   "top": "Vergangenheit",
+   "bottom": "Zukunft",
+   "tiers": [
+    {
+     "label": "Lange her",
+     "label_en": "Long ago",
+     "words": [
+      {
+       "w": "früher",
+       "id": "adv_frueher",
+       "en": "earlier / in the past",
+       "status": "ok"
+      },
+      {
+       "w": "damals",
+       "id": "adv_damals",
+       "en": "back then / at that time",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Früher war alles billiger.",
+      "en": "Things used to be cheaper."
+     }
+    },
+    {
+     "label": "Vor einiger Zeit",
+     "label_en": "Some time ago",
+     "words": [
+      {
+       "w": "neulich",
+       "id": "adv_neulich",
+       "en": "recently",
+       "status": "ok"
+      },
+      {
+       "w": "kürzlich",
+       "id": "adv_kuerzlich",
+       "en": "recently",
+       "status": "ok"
+      },
+      {
+       "w": "vor Kurzem",
+       "id": "adv_vor_kurzem",
+       "en": "a short while ago",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Wir haben uns neulich getroffen.",
+      "en": "We met recently."
+     }
+    },
+    {
+     "label": "Vor wenigen Minuten",
+     "label_en": "A few minutes ago",
+     "words": [
+      {
+       "w": "vorhin",
+       "id": "adv_vorhin",
+       "en": "earlier / a moment ago",
+       "status": "ok"
+      },
+      {
+       "w": "eben",
+       "id": "adv_eben",
+       "en": "just now / a moment ago",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Ich habe ihn vorhin gesehen.",
+      "en": "I saw him earlier."
+     }
+    },
+    {
+     "label": "Jetzt",
+     "label_en": "Now",
+     "words": [
+      {
+       "w": "jetzt",
+       "id": "adv_jetzt",
+       "en": "now",
+       "status": "ok"
+      },
+      {
+       "w": "gerade",
+       "id": "adv_gerade",
+       "en": "right now / just",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Ich habe jetzt keine Zeit.",
+      "en": "I don't have time now."
+     },
+     "note": "⚠ gerade can also mean 'just now': Ich bin gerade angekommen."
+    },
+    {
+     "label": "In Sekunden",
+     "label_en": "Right away",
+     "words": [
+      {
+       "w": "sofort",
+       "id": "adv_sofort",
+       "en": "immediately",
+       "status": "ok"
+      },
+      {
+       "w": "gleich",
+       "id": "adv_gleich",
+       "en": "in a moment / right away",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Mach das sofort.",
+      "en": "Do that immediately."
+     }
+    },
+    {
+     "label": "Bald",
+     "label_en": "Soon",
+     "words": [
+      {
+       "w": "bald",
+       "id": "adv_bald",
+       "en": "soon",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Ich komme bald zurück.",
+      "en": "I'll be back soon."
+     }
+    },
+    {
+     "label": "Später",
+     "label_en": "Later",
+     "words": [
+      {
+       "w": "später",
+       "id": "adv_spaeter",
+       "en": "later",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Wir reden später.",
+      "en": "We'll talk later."
+     }
+    },
+    {
+     "label": "Irgendwann",
+     "label_en": "Some day",
+     "words": [
+      {
+       "w": "irgendwann",
+       "id": "adv_irgendwann",
+       "en": "at some point / someday",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Irgendwann möchte ich nach Japan reisen.",
+      "en": "Someday I want to travel to Japan."
+     },
+     "note": "irgendwann = at some unspecified time — usually future, but also past: Irgendwann hat er aufgehört.",
+     "drill": false
+    }
+   ],
+   "anchor_frame": null,
+   "drill": true
+  },
+  {
+   "id": "verlauf",
+   "title": "Verlauf",
+   "question_de": "Wo steht die Handlung?",
+   "question_en": "Where is the action in its lifecycle?",
+   "layout": "linear",
+   "side": [
+    {
+     "text": "inzwischen and mittlerweile mark that a change has happened over time: Inzwischen wohnt sie in Berlin.",
+     "words": [
+      {
+       "w": "inzwischen",
+       "id": "adv_inzwischen",
+       "en": "by now / meanwhile",
+       "status": "ok"
+      },
+      {
+       "w": "mittlerweile",
+       "id": "adv_mittlerweile",
+       "en": "by now / in the meantime",
+       "status": "ok"
+      }
+     ]
+    }
+   ],
+   "top": "vor dem Anfang",
+   "bottom": "vorbei",
+   "tiers": [
+    {
+     "label": "Noch nicht angefangen",
+     "label_en": "Not started",
+     "words": [
+      {
+       "w": "noch nicht",
+       "id": "adv_noch_nicht",
+       "en": "not yet",
+       "status": "phrase"
+      }
+     ],
+     "example": {
+      "de": "Der Bus ist noch nicht da.",
+      "en": "The bus isn't here yet."
+     },
+     "anchor": {
+      "de": "Sie schläft noch nicht.",
+      "word": "noch nicht",
+      "en": "She isn't asleep yet."
+     }
+    },
+    {
+     "label": "Hat angefangen",
+     "label_en": "Has started",
+     "words": [
+      {
+       "w": "schon",
+       "id": "adv_schon",
+       "en": "already",
+       "status": "ok"
+      },
+      {
+       "w": "bereits",
+       "id": "adv_bereits",
+       "en": "already (formal)",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Ich habe schon gegessen.",
+      "en": "I already ate."
+     },
+     "anchor": {
+      "de": "Sie schläft schon.",
+      "word": "schon",
+      "en": "She's already asleep."
+     }
+    },
+    {
+     "label": "Dauert an",
+     "label_en": "Still going",
+     "words": [
+      {
+       "w": "noch",
+       "id": "adv_noch",
+       "en": "still",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Bist du noch hier?",
+      "en": "Are you still here?"
+     },
+     "anchor": {
+      "de": "Sie schläft noch.",
+      "word": "noch",
+      "en": "She's still asleep."
+     }
+    },
+    {
+     "label": "Vorbei",
+     "label_en": "Over",
+     "words": [
+      {
+       "w": "nicht mehr",
+       "id": "adv_nicht_mehr",
+       "en": "not anymore",
+       "status": "phrase"
+      }
+     ],
+     "example": {
+      "de": "Ich rauche nicht mehr.",
+      "en": "I don't smoke anymore."
+     },
+     "anchor": {
+      "de": "Sie schläft nicht mehr.",
+      "word": "nicht mehr",
+      "en": "She isn't asleep anymore."
+     }
+    }
+   ],
+   "anchor_frame": "Sie schläft ___.",
+   "drill": true
+  },
+  {
+   "id": "reihenfolge",
+   "title": "Reihenfolge",
+   "question_de": "Welcher Schritt?",
+   "question_en": "Which step?",
+   "layout": "linear",
+   "side": [
+    {
+     "text": "⚠ endlich = 'at last!' — relief after waiting, not just the last step. Endlich bist du da!",
+     "words": [
+      {
+       "w": "endlich",
+       "id": "adv_endlich",
+       "en": "finally / at last",
+       "status": "ok"
+      }
+     ]
+    }
+   ],
+   "top": "Anfang",
+   "bottom": "Ende",
+   "tiers": [
+    {
+     "label": "Anfang",
+     "label_en": "Start",
+     "words": [
+      {
+       "w": "zuerst",
+       "id": "adv_zuerst",
+       "en": "first",
+       "status": "ok"
+      },
+      {
+       "w": "zunächst",
+       "id": "adv_zunaechst",
+       "en": "first / initially",
+       "status": "ok"
+      },
+      {
+       "w": "erstens",
+       "id": "adv_erstens",
+       "en": "firstly / first of all",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Zuerst musst du bezahlen.",
+      "en": "First you must pay."
+     }
+    },
+    {
+     "label": "Danach",
+     "label_en": "Next",
+     "words": [
+      {
+       "w": "dann",
+       "id": "adv_dann",
+       "en": "then",
+       "status": "ok"
+      },
+      {
+       "w": "danach",
+       "id": "adv_danach",
+       "en": "afterwards / after that",
+       "status": "ok"
+      },
+      {
+       "w": "anschließend",
+       "id": "adv_anschliessend",
+       "en": "afterwards / subsequently",
+       "status": "ok"
+      },
+      {
+       "w": "zweitens",
+       "id": "adv_zweitens",
+       "en": "secondly",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Dann machen wir weiter.",
+      "en": "Then we continue."
+     }
+    },
+    {
+     "label": "Dritter Schritt",
+     "label_en": "Third step",
+     "words": [
+      {
+       "w": "drittens",
+       "id": "adv_drittens",
+       "en": "thirdly",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Drittens fehlt uns Personal.",
+      "en": "Thirdly, we lack staff."
+     }
+    },
+    {
+     "label": "Ende",
+     "label_en": "End",
+     "words": [
+      {
+       "w": "zuletzt",
+       "id": "adv_zuletzt",
+       "en": "last (in a sequence)",
+       "status": "ok"
+      },
+      {
+       "w": "schließlich",
+       "id": "adv_schliesslich",
+       "en": "eventually / after all",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Zuletzt haben wir die Küche geputzt.",
+      "en": "Last of all, we cleaned the kitchen."
+     }
+    }
+   ],
+   "anchor_frame": null,
+   "drill": true
+  },
+  {
+   "id": "zustimmung",
+   "title": "Zustimmung",
+   "question_de": "Ja oder nein?",
+   "question_en": "Yes or no?",
+   "layout": "linear",
+   "side": [
+    {
+     "text": "leider = 'unfortunately' — it shows regret, not a position: Leider nicht.",
+     "words": [
+      {
+       "w": "leider",
+       "id": "adv_leider",
+       "en": "unfortunately",
+       "status": "ok"
+      }
+     ]
+    }
+   ],
+   "top": "ja",
+   "bottom": "nein",
+   "tiers": [
+    {
+     "label": "Volle Zustimmung",
+     "label_en": "Full yes",
+     "words": [
+      {
+       "w": "genau",
+       "id": "adv_genau",
+       "en": "exactly / precisely",
+       "status": "ok"
+      },
+      {
+       "w": "absolut",
+       "id": "adv_absolut",
+       "en": "absolutely",
+       "status": "ok"
+      },
+      {
+       "w": "auf jeden Fall",
+       "id": "adv_auf_jeden_fall",
+       "en": "definitely / in any case",
+       "status": "ok"
+      },
+      {
+       "w": "klar",
+       "id": "adv_klar",
+       "en": "sure / obviously / of course",
+       "status": "ok"
+      },
+      {
+       "w": "natürlich",
+       "id": "adv_natuerlich_2",
+       "en": "of course / naturally",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Wir treffen uns um acht, oder? – Genau.",
+      "en": "We're meeting at eight, right? – Exactly."
+     },
+     "anchor": {
+      "de": "Das Wetter ist schön, oder? – Genau!",
+      "word": "Genau",
+      "en": "Exactly!"
+     }
+    },
+    {
+     "label": "Zustimmung",
+     "label_en": "Yes",
+     "words": [
+      {
+       "w": "stimmt",
+       "id": "adv_stimmt",
+       "en": "true / right / correct",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Stimmt, du hast recht.",
+      "en": "True, you're right."
+     },
+     "anchor": {
+      "de": "Das Wetter ist schön, oder? – Stimmt!",
+      "word": "Stimmt",
+      "en": "True!"
+     }
+    },
+    {
+     "label": "Teils, teils",
+     "label_en": "Partly",
+     "words": [
+      {
+       "w": "jein",
+       "id": "adv_jein",
+       "en": "yes and no",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Hat es dir gefallen? – Jein, der Anfang war gut.",
+      "en": "Did you like it? – Yes and no, the beginning was good."
+     },
+     "anchor": {
+      "de": "Das Wetter ist schön, oder? – Jein!",
+      "word": "Jein",
+      "en": "Yes and no!"
+     }
+    },
+    {
+     "label": "Eher nein",
+     "label_en": "Rather no",
+     "words": [
+      {
+       "w": "eher nicht",
+       "id": "adv_eher_nicht",
+       "en": "rather not / probably not",
+       "status": "phrase"
+      }
+     ],
+     "example": {
+      "de": "Kommst du mit? – Eher nicht, ich bin müde.",
+      "en": "Are you coming along? – Probably not, I'm tired."
+     },
+     "anchor": {
+      "de": "Das Wetter ist schön, oder? – Eher nicht!",
+      "word": "Eher nicht",
+      "en": "Not really!"
+     }
+    },
+    {
+     "label": "Klares Nein",
+     "label_en": "Clear no",
+     "words": [
+      {
+       "w": "auf keinen Fall",
+       "id": "adv_auf_keinen_fall",
+       "en": "absolutely not / no way",
+       "status": "ok"
+      },
+      {
+       "w": "keineswegs",
+       "id": "adv_keineswegs",
+       "en": "by no means / not at all",
+       "status": "ok"
+      },
+      {
+       "w": "kein Stück",
+       "id": "adv_kein_stueck",
+       "en": "not one bit (slang)",
+       "status": "phrase"
+      }
+     ],
+     "example": {
+      "de": "Auf keinen Fall mache ich das.",
+      "en": "There's no way I'm doing that."
+     },
+     "anchor": {
+      "de": "Das Wetter ist schön, oder? – Auf keinen Fall!",
+      "word": "Auf keinen Fall",
+      "en": "No way!"
+     },
+     "note": "kein Stück and jein are spoken."
+    }
+   ],
+   "anchor_frame": "Das Wetter ist schön, oder? – ___!",
+   "drill": true
+  },
+  {
+   "id": "widerspruch",
+   "title": "Widerspruch",
+   "question_de": "Wie stark widerspricht der zweite Teil?",
+   "question_en": "How strongly does the second part push against the first?",
+   "layout": "linear",
+   "side": [
+    {
+     "text": "This axis is a sequence of types rather than a strict ranking, so it has no ordering exercise.",
+     "words": []
+    }
+   ],
+   "top": "schwach",
+   "bottom": "total",
+   "tiers": [
+    {
+     "label": "Einschränkend",
+     "label_en": "Restricting",
+     "words": [
+      {
+       "w": "allerdings",
+       "id": "adv_allerdings_2",
+       "en": "however / though / admittedly",
+       "status": "ok"
+      },
+      {
+       "w": "jedoch",
+       "id": "adv_jedoch",
+       "en": "however / yet",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Allerdings fehlt uns Zeit.",
+      "en": "However, we lack time."
+     },
+     "note": "The first part stays true, with a limitation: Das Hotel ist schön, allerdings teuer."
+    },
+    {
+     "label": "Gegen die Erwartung",
+     "label_en": "Against expectations",
+     "words": [
+      {
+       "w": "trotzdem",
+       "id": "adv_trotzdem_2",
+       "en": "nevertheless / even so",
+       "status": "ok"
+      },
+      {
+       "w": "dennoch",
+       "id": "adv_dennoch_2",
+       "en": "nonetheless / yet",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Trotzdem hat er gewonnen.",
+      "en": "Nevertheless he won."
+     },
+     "note": "Something happens although you'd expect it not to: Es regnet, trotzdem gehen wir."
+    },
+    {
+     "label": "Gegenüberstellend",
+     "label_en": "Comparing",
+     "words": [
+      {
+       "w": "hingegen",
+       "id": "adv_hingegen",
+       "en": "whereas / on the other hand",
+       "status": "ok"
+      },
+      {
+       "w": "dagegen",
+       "id": "adv_dagegen",
+       "en": "by contrast / on the other hand",
+       "status": "ok"
+      },
+      {
+       "w": "andererseits",
+       "id": "adv_andererseits",
+       "en": "on the other hand",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Sie liebt Berge, ich hingegen das Meer.",
+      "en": "She loves mountains, whereas I love the sea."
+     },
+     "note": "Two facts side by side: Er ist groß, sie hingegen klein."
+    },
+    {
+     "label": "Ersetzend",
+     "label_en": "Replacing",
+     "words": [
+      {
+       "w": "stattdessen",
+       "id": "adv_stattdessen",
+       "en": "instead",
+       "status": "ok"
+      },
+      {
+       "w": "sondern",
+       "id": "adv_sondern",
+       "en": "but (rather) — after a negation",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Stattdessen blieben wir zu Hause.",
+      "en": "Instead we stayed home."
+     },
+     "note": "The second part replaces the first: nicht Kaffee, sondern Tee."
+    },
+    {
+     "label": "Umkehrend",
+     "label_en": "Reversing",
+     "words": [
+      {
+       "w": "im Gegenteil",
+       "id": "adv_im_gegenteil",
+       "en": "on the contrary",
+       "status": "phrase"
+      }
+     ],
+     "example": {
+      "de": "Im Gegenteil, es war wunderbar.",
+      "en": "On the contrary, it was wonderful."
+     },
+     "note": "The opposite is true: Langweilig? Im Gegenteil!"
+    }
+   ],
+   "anchor_frame": null,
+   "drill": false,
+   "evidence": "rule_of_thumb"
+  },
+  {
+   "id": "register_folge",
+   "title": "Register: Folge",
+   "question_de": "Wie formell klingt 'deshalb'?",
+   "question_en": "How formal is the 'therefore'?",
+   "layout": "linear",
+   "side": [],
+   "top": "gesprochen",
+   "bottom": "formell",
+   "tiers": [
+    {
+     "label": "Gesprochen",
+     "label_en": "Spoken",
+     "words": [
+      {
+       "w": "darum",
+       "id": "adv_darum",
+       "en": "for that reason / that's why",
+       "status": "ok"
+      },
+      {
+       "w": "deswegen",
+       "id": "adv_deswegen_2",
+       "en": "that's why / because of that",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Ich hatte keine Zeit, deswegen kam ich zu spät.",
+      "en": "I had no time, that's why I was late."
+     },
+     "anchor": {
+      "de": "Es regnet, deswegen bleiben wir zu Hause.",
+      "word": "deswegen",
+      "en": "It's raining, that's why we're staying home."
+     }
+    },
+    {
+     "label": "Neutral",
+     "label_en": "Neutral",
+     "words": [
+      {
+       "w": "deshalb",
+       "id": "adv_deshalb_2",
+       "en": "therefore / that's why",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Es war spät, deshalb gingen wir.",
+      "en": "It was late, therefore we left."
+     },
+     "anchor": {
+      "de": "Es regnet, deshalb bleiben wir zu Hause.",
+      "word": "deshalb",
+      "en": "It's raining, so we're staying home."
+     }
+    },
+    {
+     "label": "Gehoben",
+     "label_en": "Careful",
+     "words": [
+      {
+       "w": "daher",
+       "id": "adv_daher_2",
+       "en": "hence / for that reason",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Er hat nicht gelernt, daher hat er die Prüfung nicht bestanden.",
+      "en": "He didn't study, hence he failed the exam."
+     },
+     "anchor": {
+      "de": "Es regnet, daher bleiben wir zu Hause.",
+      "word": "daher",
+      "en": "It's raining; hence we're staying home."
+     }
+    },
+    {
+     "label": "Schriftlich",
+     "label_en": "Written",
+     "words": [
+      {
+       "w": "somit",
+       "id": "adv_somit",
+       "en": "thus / therefore",
+       "status": "ok"
+      },
+      {
+       "w": "folglich",
+       "id": "adv_folglich",
+       "en": "consequently / as a result",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Er hat gelogen, folglich vertraue ich ihm nicht mehr.",
+      "en": "He lied, consequently I no longer trust him."
+     },
+     "anchor": {
+      "de": "Es regnet, folglich bleiben wir zu Hause.",
+      "word": "folglich",
+      "en": "It's raining; consequently we're staying home."
+     }
+    },
+    {
+     "label": "Sehr formell",
+     "label_en": "Very formal",
+     "words": [
+      {
+       "w": "infolgedessen",
+       "id": "adv_infolgedessen",
+       "en": "as a result / consequently",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Infolgedessen wurde das Projekt gestoppt.",
+      "en": "As a result the project was stopped."
+     },
+     "anchor": {
+      "de": "Es regnet, infolgedessen bleiben wir zu Hause.",
+      "word": "infolgedessen",
+      "en": "It is raining; as a result, we are staying at home."
+     }
+    }
+   ],
+   "anchor_frame": "Es regnet, ___ bleiben wir zu Hause.",
+   "drill": true,
+   "evidence": "rule_of_thumb"
+  },
+  {
+   "id": "register_gegensatz",
+   "title": "Register: Gegensatz",
+   "question_de": "Welche Bedeutung, welches Register?",
+   "question_en": "Which meaning, which register?",
+   "layout": "grid",
+   "side": [
+    {
+     "text": "trotzdem ≈ dennoch: it happens anyway. allerdings ≈ jedoch: true, but with a limitation.",
+     "words": []
+    }
+   ],
+   "cols": [
+    "Trotzdem-Sinn",
+    "Einschränkung"
+   ],
+   "cols_en": [
+    "despite that",
+    "with a limitation"
+   ],
+   "rows": [
+    "Alltag",
+    "Schriftlich"
+   ],
+   "rows_en": [
+    "everyday",
+    "written"
+   ],
+   "cells": [
+    [
+     [
+      {
+       "w": "trotzdem",
+       "id": "adv_trotzdem_2",
+       "en": "nevertheless / even so",
+       "status": "ok"
+      }
+     ],
+     [
+      {
+       "w": "allerdings",
+       "id": "adv_allerdings_2",
+       "en": "however / though / admittedly",
+       "status": "ok"
+      }
+     ]
+    ],
+    [
+     [
+      {
+       "w": "dennoch",
+       "id": "adv_dennoch_2",
+       "en": "nonetheless / yet",
+       "status": "ok"
+      }
+     ],
+     [
+      {
+       "w": "jedoch",
+       "id": "adv_jedoch",
+       "en": "however / yet",
+       "status": "ok"
+      }
+     ]
+    ]
+   ],
+   "drill": true,
+   "evidence": "rule_of_thumb"
+  },
+  {
+   "id": "register_zusatz",
+   "title": "Register: Zusatz",
+   "question_de": "Wie formell klingt 'außerdem'?",
+   "question_en": "How formal is the 'also'?",
+   "layout": "linear",
+   "side": [],
+   "top": "gesprochen",
+   "bottom": "formell",
+   "tiers": [
+    {
+     "label": "Basis",
+     "label_en": "Basic",
+     "words": [
+      {
+       "w": "auch",
+       "id": "adv_auch",
+       "en": "also / too",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Ich komme auch mit.",
+      "en": "I'm coming along too."
+     },
+     "anchor": {
+      "de": "Die Wohnung ist zu klein. Auch ist sie zu teuer.",
+      "word": "Auch",
+      "en": "The flat is too small. It's also too expensive."
+     }
+    },
+    {
+     "label": "Alltag",
+     "label_en": "Everyday",
+     "words": [
+      {
+       "w": "außerdem",
+       "id": "adv_ausserdem",
+       "en": "besides / additionally",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Außerdem ist es günstiger.",
+      "en": "Besides, it's cheaper."
+     },
+     "anchor": {
+      "de": "Die Wohnung ist zu klein. Außerdem ist sie zu teuer.",
+      "word": "Außerdem",
+      "en": "The flat is too small. Besides, it's too expensive."
+     }
+    },
+    {
+     "label": "Neutral",
+     "label_en": "Neutral",
+     "words": [
+      {
+       "w": "zusätzlich",
+       "id": "adv_zusaetzlich",
+       "en": "in addition",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Zusätzlich brauchen wir Wasser.",
+      "en": "In addition, we need water."
+     },
+     "anchor": {
+      "de": "Die Wohnung ist zu klein. Zusätzlich ist sie zu teuer.",
+      "word": "Zusätzlich",
+      "en": "The flat is too small. In addition, it's too expensive."
+     }
+    },
+    {
+     "label": "Gehoben",
+     "label_en": "Careful",
+     "words": [
+      {
+       "w": "zudem",
+       "id": "adv_zudem",
+       "en": "moreover",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Zudem war er krank.",
+      "en": "Moreover, he was sick."
+     },
+     "anchor": {
+      "de": "Die Wohnung ist zu klein. Zudem ist sie zu teuer.",
+      "word": "Zudem",
+      "en": "The flat is too small. Moreover, it's too expensive."
+     }
+    },
+    {
+     "label": "Formell",
+     "label_en": "Formal",
+     "words": [
+      {
+       "w": "darüber hinaus",
+       "id": "adv_darueber_hinaus",
+       "en": "beyond that / furthermore",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Darüber hinaus gibt es Risiken.",
+      "en": "Beyond that, there are risks."
+     },
+     "anchor": {
+      "de": "Die Wohnung ist zu klein. Darüber hinaus ist sie zu teuer.",
+      "word": "Darüber hinaus",
+      "en": "The flat is too small. Furthermore, it is too expensive."
+     }
+    }
+   ],
+   "anchor_frame": "Die Wohnung ist zu klein. ___ ist sie zu teuer.",
+   "drill": true,
+   "evidence": "rule_of_thumb"
+  },
+  {
+   "id": "alle_keine",
+   "title": "Alle ↔ Keine",
+   "question_de": "Alle, einige oder keine?",
+   "question_en": "All, some or none?",
+   "layout": "grid",
+   "side": [
+    {
+     "text": "irgend- makes anything indefinite: irgendwann, irgendwo, irgendetwas, irgendwer. alles, nichts, jeder, jemand and niemand are pronouns, listed here because they complete the pattern.",
+     "words": []
+    }
+   ],
+   "cols": [
+    "Zeit",
+    "Ort",
+    "Ding",
+    "Person"
+   ],
+   "cols_en": [
+    "time",
+    "place",
+    "thing",
+    "person"
+   ],
+   "rows": [
+    "alle",
+    "einige",
+    "keine"
+   ],
+   "rows_en": [
+    "all",
+    "some",
+    "none"
+   ],
+   "cells": [
+    [
+     [
+      {
+       "w": "immer",
+       "id": "adv_immer",
+       "en": "always",
+       "status": "ok"
+      },
+      {
+       "w": "jederzeit",
+       "id": "adv_jederzeit",
+       "en": "at any time",
+       "status": "ok"
+      }
+     ],
+     [
+      {
+       "w": "überall",
+       "id": "adv_ueberall",
+       "en": "everywhere",
+       "status": "ok"
+      }
+     ],
+     [
+      {
+       "w": "alles",
+       "id": "adv_alles",
+       "en": "everything",
+       "status": "ok"
+      }
+     ],
+     [
+      {
+       "w": "jeder",
+       "id": "adv_jeder",
+       "en": "everyone / each",
+       "status": "ok"
+      }
+     ]
+    ],
+    [
+     [
+      {
+       "w": "irgendwann",
+       "id": "adv_irgendwann",
+       "en": "at some point / someday",
+       "status": "ok"
+      }
+     ],
+     [
+      {
+       "w": "irgendwo",
+       "id": "adv_irgendwo",
+       "en": "somewhere",
+       "status": "ok"
+      }
+     ],
+     [
+      {
+       "w": "irgendetwas",
+       "id": "adv_irgendetwas",
+       "en": "something / anything (indefinite)",
+       "status": "ok"
+      }
+     ],
+     [
+      {
+       "w": "jemand",
+       "id": "adv_jemand",
+       "en": "someone / somebody",
+       "status": "ok"
+      },
+      {
+       "w": "irgendwer",
+       "id": "adv_irgendwer",
+       "en": "somebody or other",
+       "status": "ok"
+      }
+     ]
+    ],
+    [
+     [
+      {
+       "w": "nie",
+       "id": "adv_nie",
+       "en": "never",
+       "status": "ok"
+      },
+      {
+       "w": "niemals",
+       "id": "adv_niemals",
+       "en": "never (emphatic)",
+       "status": "ok"
+      }
+     ],
+     [
+      {
+       "w": "nirgends",
+       "id": "adv_nirgends",
+       "en": "nowhere",
+       "status": "ok"
+      },
+      {
+       "w": "nirgendwo",
+       "id": "adv_nirgendwo",
+       "en": "nowhere",
+       "status": "ok"
+      }
+     ],
+     [
+      {
+       "w": "nichts",
+       "id": "adv_nichts",
+       "en": "nothing",
+       "status": "ok"
+      }
+     ],
+     [
+      {
+       "w": "niemand",
+       "id": "adv_niemand",
+       "en": "nobody / no one",
+       "status": "ok"
+      }
+     ]
+    ]
+   ],
+   "drill": true
+  },
+  {
+   "id": "entfernung",
+   "title": "Entfernung",
+   "question_de": "Wie weit weg?",
+   "question_en": "How far away?",
+   "layout": "linear",
+   "side": [],
+   "top": "nah",
+   "bottom": "fern",
+   "tiers": [
+    {
+     "label": "Hier",
+     "label_en": "Here",
+     "words": [
+      {
+       "w": "hier",
+       "id": "adv_hier",
+       "en": "here",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Ich warte hier auf dich.",
+      "en": "I'll wait for you here."
+     },
+     "anchor": {
+      "de": "Das Café ist hier.",
+      "word": "hier",
+      "en": "The café is here."
+     }
+    },
+    {
+     "label": "Da",
+     "label_en": "There",
+     "words": [
+      {
+       "w": "da",
+       "id": "adv_da",
+       "en": "there",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Siehst du das Café da an der Ecke?",
+      "en": "Do you see the café there on the corner?"
+     },
+     "anchor": {
+      "de": "Das Café ist da.",
+      "word": "da",
+      "en": "The café is there."
+     },
+     "note": "da is the vaguest: it can point near or far. dort is 'stärker als da' (Wiktionary).",
+     "drill": false
+    },
+    {
+     "label": "Dort",
+     "label_en": "There (further)",
+     "words": [
+      {
+       "w": "dort",
+       "id": "adv_dort",
+       "en": "there (further away)",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Wir waren letztes Jahr dort im Urlaub.",
+      "en": "We were on holiday there last year."
+     },
+     "anchor": {
+      "de": "Das Café ist dort.",
+      "word": "dort",
+      "en": "The café is over there."
+     }
+    },
+    {
+     "label": "Drüben",
+     "label_en": "Across",
+     "words": [
+      {
+       "w": "drüben",
+       "id": "adv_drueben",
+       "en": "over there",
+       "status": "ok"
+      }
+     ],
+     "example": {
+      "de": "Der Bahnhof ist da drüben.",
+      "en": "The station is over there."
+     },
+     "anchor": {
+      "de": "Das Café ist drüben.",
+      "word": "drüben",
+      "en": "The café is across the way."
+     },
+     "drill": false
+    },
+    {
+     "label": "Weit weg",
+     "label_en": "Far",
+     "words": [
+      {
+       "w": "weit weg",
+       "id": "adv_weit_weg",
+       "en": "far away",
+       "status": "phrase"
+      }
+     ],
+     "example": {
+      "de": "Das Hotel ist nicht weit weg vom Strand.",
+      "en": "The hotel isn't far from the beach."
+     },
+     "anchor": {
+      "de": "Das Café ist weit weg.",
+      "word": "weit weg",
+      "en": "The café is far away."
+     }
+    }
+   ],
+   "anchor_frame": "Das Café ist ___.",
+   "drill": true
+  }
+ ]
+}

@@ -115,3 +115,17 @@ emits an eyeball warning for the ambiguous shape.
 `bundle-data.py` is also the first reproducible builder for `js/data.js`, which
 until now was assembled ad hoc — the reason `js/data.js` and `data/modules.json`
 drifted apart before (day log v10).
+
+## Adverb Scales (Session 42)
+
+Seeds in `adverb-scales/` (`axes.json`, `new-words.json`, `wiktionary-cache.tsv`). Run order:
+
+1. `python3 _factory/adverb-scales/generate.py` — rebuilds the new adverbs, their exercises, the
+   `scale_choice` drills and `data/adverb-scales.json` (idempotent)
+2. `python3 _factory/bundle-data.py`
+3. `python3 _factory/validate-adverb-scales.py` (A–K) and, after changing the validator,
+   `python3 _factory/verify-adverb-scales-validator.py`
+4. `NODE_PATH=~/qa/node_modules node _factory/qa-adverb-scales.js`
+
+To refresh the Wiktionary cache, fetch in the in-app browser (MediaWiki API) — neither shell can
+reach de.wiktionary.org.

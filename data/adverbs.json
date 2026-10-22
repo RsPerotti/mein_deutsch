@@ -2194,7 +2194,7 @@
     "cefr": "A2",
     "example_sentences": [
       {
-        "de": "Ich hatte keine Zeit, deswegen war ich spät.",
+        "de": "Ich hatte keine Zeit, deswegen kam ich zu spät.",
         "en": "I had no time, that's why I was late.",
         "exercise_type": [
           "fill_blank",
@@ -3335,6 +3335,1853 @@
     ],
     "tags": [
       "connector",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_garantiert",
+    "word": "garantiert",
+    "english": "guaranteed / definitely",
+    "category": "Certainty & Probability",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Er hat das garantiert vergessen.",
+        "en": "He's definitely forgotten it.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "gewissheit",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_zweifellos",
+    "word": "zweifellos",
+    "english": "undoubtedly / without a doubt",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Das ist zweifellos die beste Lösung.",
+        "en": "That is undoubtedly the best solution.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "gewissheit",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_sicher",
+    "word": "sicher",
+    "english": "surely / certainly",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Sie hat das sicher schon gehört.",
+        "en": "She has surely heard that already.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "gewissheit",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_hoechstwahrscheinlich",
+    "word": "höchstwahrscheinlich",
+    "english": "most likely / in all probability",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Der Zug fällt höchstwahrscheinlich aus.",
+        "en": "The train will most likely be cancelled.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "gewissheit",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_vermutlich",
+    "word": "vermutlich",
+    "english": "presumably / probably",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Er ist vermutlich schon zu Hause.",
+        "en": "He's presumably already at home.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "gewissheit",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_womoeglich",
+    "word": "womöglich",
+    "english": "possibly / perhaps (even)",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Wir haben den Termin womöglich verpasst.",
+        "en": "We may possibly have missed the appointment.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "gewissheit",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_wohl_kaum",
+    "word": "wohl kaum",
+    "english": "hardly / very unlikely",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Das schafft er wohl kaum bis Freitag.",
+        "en": "He's hardly going to manage that by Friday.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "gewissheit",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_keineswegs",
+    "word": "keineswegs",
+    "english": "by no means / not at all",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Das war keineswegs meine Absicht.",
+        "en": "That was by no means my intention.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "gewissheit",
+      "zustimmung",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_keinesfalls",
+    "word": "keinesfalls",
+    "english": "under no circumstances",
+    "category": "Certainty & Probability",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Sie dürfen das Fenster keinesfalls öffnen.",
+        "en": "You must not open the window under any circumstances.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "gewissheit",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_offensichtlich",
+    "word": "offensichtlich",
+    "english": "obviously / evidently",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Er hat offensichtlich keine Lust.",
+        "en": "He obviously doesn't feel like it.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "quelle",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_scheinbar",
+    "word": "scheinbar",
+    "english": "seemingly (but not really)",
+    "category": "Certainty & Probability",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Die Aufgabe ist nur scheinbar einfach.",
+        "en": "The task only seems easy.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "quelle",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_stets",
+    "word": "stets",
+    "english": "always (formal)",
+    "category": "Frequency & Time",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Er war stets freundlich zu uns.",
+        "en": "He was always friendly to us.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "haeufigkeit",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_jedes_mal",
+    "word": "jedes Mal",
+    "english": "every time",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Er kommt jedes Mal zu spät.",
+        "en": "He's late every time.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "haeufigkeit",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_in_der_regel",
+    "word": "in der Regel",
+    "english": "as a rule / usually",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ich stehe in der Regel um sieben auf.",
+        "en": "As a rule, I get up at seven.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "haeufigkeit",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_fast_immer",
+    "word": "fast immer",
+    "english": "almost always",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Sie trinkt fast immer Tee.",
+        "en": "She almost always drinks tea.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "haeufigkeit",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_hin_und_wieder",
+    "word": "hin und wieder",
+    "english": "now and again",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Wir gehen hin und wieder ins Kino.",
+        "en": "We go to the cinema now and again.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "haeufigkeit",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_fast_nie",
+    "word": "fast nie",
+    "english": "almost never",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Er ruft fast nie an.",
+        "en": "He almost never calls.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "haeufigkeit",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_stuendlich",
+    "word": "stündlich",
+    "english": "hourly / every hour",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Der Bus fährt stündlich.",
+        "en": "The bus runs every hour.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "takt",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_monatlich",
+    "word": "monatlich",
+    "english": "monthly",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Die Miete wird monatlich bezahlt.",
+        "en": "The rent is paid monthly.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "takt",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_jaehrlich",
+    "word": "jährlich",
+    "english": "yearly / annually",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das Fest findet jährlich statt.",
+        "en": "The festival takes place every year.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "takt",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_aeusserst",
+    "word": "äußerst",
+    "english": "extremely (formal)",
+    "category": "Intensifiers",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Die Lage ist äußerst ernst.",
+        "en": "The situation is extremely serious.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "intensitaet",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_voellig",
+    "word": "völlig",
+    "english": "completely",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ich bin völlig erschöpft.",
+        "en": "I'm completely exhausted.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "intensitaet",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_super",
+    "word": "super",
+    "english": "super / really (slang)",
+    "category": "Intensifiers",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das Essen war super lecker.",
+        "en": "The food was super tasty.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "intensitaet",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_richtig",
+    "word": "richtig",
+    "english": "really / properly (spoken)",
+    "category": "Intensifiers",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Es ist heute richtig kalt.",
+        "en": "It's really cold today.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "intensitaet",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_recht",
+    "word": "recht",
+    "english": "fairly / quite",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Der Test war recht einfach.",
+        "en": "The test was fairly easy.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "intensitaet",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_ganz",
+    "word": "ganz",
+    "english": "fairly / quite (unstressed)",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Der Film war ganz gut, aber nicht super.",
+        "en": "The film was quite good, but not great.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "intensitaet",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_etwas",
+    "word": "etwas",
+    "english": "somewhat / a little",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ich bin etwas müde.",
+        "en": "I'm a little tired.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "intensitaet",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_ein_wenig",
+    "word": "ein wenig",
+    "english": "a little",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Kannst du ein wenig leiser sprechen?",
+        "en": "Can you speak a little more quietly?",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "intensitaet",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_einigermassen",
+    "word": "einigermaßen",
+    "english": "reasonably / more or less",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ich habe einigermaßen gut geschlafen.",
+        "en": "I slept reasonably well.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "intensitaet",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_gar_nicht",
+    "word": "gar nicht",
+    "english": "not at all",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das gefällt mir gar nicht.",
+        "en": "I don't like that at all.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "intensitaet",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_ueberhaupt_nicht",
+    "word": "überhaupt nicht",
+    "english": "not at all (emphatic)",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das ist überhaupt nicht lustig.",
+        "en": "That's not funny at all.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "intensitaet",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_mehr_als",
+    "word": "mehr als",
+    "english": "more than",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich habe mehr als zwei Stunden gewartet.",
+        "en": "I waited more than two hours.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "menge",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_gut",
+    "word": "gut",
+    "english": "a good … / just over (with numbers)",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Die Fahrt dauert gut drei Stunden.",
+        "en": "The journey takes a good three hours.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "menge",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_ungefaehr",
+    "word": "ungefähr",
+    "english": "approximately / about",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das kostet ungefähr zwanzig Euro.",
+        "en": "That costs about twenty euros.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "menge",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_etwa",
+    "word": "etwa",
+    "english": "about / roughly",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Wir brauchen etwa eine Stunde.",
+        "en": "We need about an hour.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "menge",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_circa",
+    "word": "circa",
+    "english": "approximately (ca.)",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Die Stadt hat circa 50.000 Einwohner.",
+        "en": "The town has approximately 50,000 inhabitants.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "menge",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_knapp",
+    "word": "knapp",
+    "english": "just under / barely",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Er ist knapp zwei Meter groß.",
+        "en": "He is just under two metres tall.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "menge",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_fast",
+    "word": "fast",
+    "english": "almost / nearly",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Der Film dauert fast drei Stunden.",
+        "en": "The film lasts almost three hours.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "menge",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_hoechstens",
+    "word": "höchstens",
+    "english": "at most",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ich bleibe höchstens eine Woche.",
+        "en": "I'm staying a week at most.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "menge",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_nur",
+    "word": "nur",
+    "english": "only / just",
+    "category": "Intensifiers",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich habe nur fünf Euro.",
+        "en": "I only have five euros.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_bloss",
+    "word": "bloß",
+    "english": "only / merely (spoken)",
+    "category": "Intensifiers",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das war bloß ein Witz.",
+        "en": "That was only a joke.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_damals",
+    "word": "damals",
+    "english": "back then / at that time",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Damals wohnte ich in Hamburg.",
+        "en": "Back then I lived in Hamburg.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "zeitstrahl",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_kuerzlich",
+    "word": "kürzlich",
+    "english": "recently",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ich habe kürzlich einen alten Freund getroffen.",
+        "en": "I recently met an old friend.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "zeitstrahl",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_vor_kurzem",
+    "word": "vor Kurzem",
+    "english": "a short while ago",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Sie ist vor Kurzem umgezogen.",
+        "en": "She moved a short while ago.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "zeitstrahl",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_eben",
+    "word": "eben",
+    "english": "just now / a moment ago",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Er ist eben gegangen.",
+        "en": "He left just now.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "zeitstrahl",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_jetzt",
+    "word": "jetzt",
+    "english": "now",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich habe jetzt keine Zeit.",
+        "en": "I don't have time now.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "zeitstrahl",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_noch_nicht",
+    "word": "noch nicht",
+    "english": "not yet",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Der Bus ist noch nicht da.",
+        "en": "The bus isn't here yet.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "verlauf",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_bereits",
+    "word": "bereits",
+    "english": "already (formal)",
+    "category": "Frequency & Time",
+    "register": "Formal",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Der Zug ist bereits abgefahren.",
+        "en": "The train has already left.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "verlauf",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_mittlerweile",
+    "word": "mittlerweile",
+    "english": "by now / in the meantime",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Er spricht mittlerweile fließend Deutsch.",
+        "en": "By now he speaks fluent German.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_zunaechst",
+    "word": "zunächst",
+    "english": "first / initially",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Zunächst müssen wir das Formular ausfüllen.",
+        "en": "First we have to fill in the form.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "reihenfolge",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_anschliessend",
+    "word": "anschließend",
+    "english": "afterwards / subsequently",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Wir essen und gehen anschließend spazieren.",
+        "en": "We'll eat and afterwards go for a walk.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "reihenfolge",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_zuletzt",
+    "word": "zuletzt",
+    "english": "last (in a sequence)",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Zuletzt haben wir die Küche geputzt.",
+        "en": "Last of all, we cleaned the kitchen.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "reihenfolge",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_endlich",
+    "word": "endlich",
+    "english": "finally / at last",
+    "category": "Frequency & Time",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Der Bus ist endlich da!",
+        "en": "The bus is finally here!",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_jein",
+    "word": "jein",
+    "english": "yes and no",
+    "category": "Agreement & Reaction",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Hat es dir gefallen? – Jein, der Anfang war gut.",
+        "en": "Did you like it? – Yes and no, the beginning was good.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "zustimmung",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_eher_nicht",
+    "word": "eher nicht",
+    "english": "rather not / probably not",
+    "category": "Agreement & Reaction",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Kommst du mit? – Eher nicht, ich bin müde.",
+        "en": "Are you coming along? – Probably not, I'm tired.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "zustimmung",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_kein_stueck",
+    "word": "kein Stück",
+    "english": "not one bit (slang)",
+    "category": "Agreement & Reaction",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Das interessiert mich kein Stück.",
+        "en": "That doesn't interest me one bit.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "zustimmung",
+      "b2"
+    ]
+  },
+  {
+    "id": "adv_dagegen",
+    "word": "dagegen",
+    "english": "by contrast / on the other hand",
+    "category": "Contrast",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Mein Bruder ist groß, ich dagegen bin klein.",
+        "en": "My brother is tall; I, by contrast, am short.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "widerspruch",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_auch",
+    "word": "auch",
+    "english": "also / too",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich komme auch mit.",
+        "en": "I'm coming along too.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "register_zusatz",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_jederzeit",
+    "word": "jederzeit",
+    "english": "at any time",
+    "category": "Indefinites",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Du kannst mich jederzeit anrufen.",
+        "en": "You can call me at any time.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "alle_keine",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_ueberall",
+    "word": "überall",
+    "english": "everywhere",
+    "category": "Indefinites",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ich habe dich überall gesucht!",
+        "en": "I looked for you everywhere!",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "alle_keine",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_irgendwo",
+    "word": "irgendwo",
+    "english": "somewhere",
+    "category": "Indefinites",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Meine Brille muss irgendwo hier sein.",
+        "en": "My glasses must be somewhere here.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "alle_keine",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_nirgends",
+    "word": "nirgends",
+    "english": "nowhere",
+    "category": "Indefinites",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ich finde meinen Schlüssel nirgends.",
+        "en": "I can't find my key anywhere.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "alle_keine",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_nirgendwo",
+    "word": "nirgendwo",
+    "english": "nowhere",
+    "category": "Indefinites",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Hier gibt es nirgendwo einen Parkplatz.",
+        "en": "There's no parking space anywhere here.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "alle_keine",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_alles",
+    "word": "alles",
+    "english": "everything",
+    "category": "Indefinites",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich habe alles verstanden.",
+        "en": "I understood everything.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "alle_keine",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_nichts",
+    "word": "nichts",
+    "english": "nothing",
+    "category": "Indefinites",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich habe heute noch nichts gegessen.",
+        "en": "I haven't eaten anything yet today.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "alle_keine",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_jeder",
+    "word": "jeder",
+    "english": "everyone / each",
+    "category": "Indefinites",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Das weiß doch jeder!",
+        "en": "Everybody knows that!",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "alle_keine",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_jemand",
+    "word": "jemand",
+    "english": "someone / somebody",
+    "category": "Indefinites",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Hat jemand meinen Schlüssel gesehen?",
+        "en": "Has someone seen my key?",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "alle_keine",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_irgendwer",
+    "word": "irgendwer",
+    "english": "somebody or other",
+    "category": "Indefinites",
+    "register": "Spoken",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Irgendwer hat die Tür offen gelassen.",
+        "en": "Somebody or other left the door open.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "alle_keine",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_niemand",
+    "word": "niemand",
+    "english": "nobody / no one",
+    "category": "Indefinites",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Es war niemand zu Hause.",
+        "en": "Nobody was at home.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "alle_keine",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_hier",
+    "word": "hier",
+    "english": "here",
+    "category": "Place & Direction",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Ich warte hier auf dich.",
+        "en": "I'll wait for you here.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "entfernung",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_da",
+    "word": "da",
+    "english": "there",
+    "category": "Place & Direction",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 1,
+    "cefr": "A1",
+    "example_sentences": [
+      {
+        "de": "Siehst du das Café da an der Ecke?",
+        "en": "Do you see the café there on the corner?",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "entfernung",
+      "a1"
+    ]
+  },
+  {
+    "id": "adv_dort",
+    "word": "dort",
+    "english": "there (further away)",
+    "category": "Place & Direction",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Wir waren letztes Jahr dort im Urlaub.",
+        "en": "We were on holiday there last year.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "entfernung",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_drueben",
+    "word": "drüben",
+    "english": "over there",
+    "category": "Place & Direction",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Der Bahnhof ist da drüben.",
+        "en": "The station is over there.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "entfernung",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_weit_weg",
+    "word": "weit weg",
+    "english": "far away",
+    "category": "Place & Direction",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Das Hotel ist nicht weit weg vom Strand.",
+        "en": "The hotel isn't far from the beach.",
+        "exercise_type": [
+          "fill_blank",
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "scales_s42",
+      "entfernung",
       "a2"
     ]
   }

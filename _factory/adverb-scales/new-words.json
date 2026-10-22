@@ -1,0 +1,2150 @@
+{
+ "new_words": [
+  {
+   "word": "garantiert",
+   "english": "guaranteed / definitely",
+   "category": "Certainty & Probability",
+   "register": "Spoken",
+   "cefr": "B1",
+   "fb": {
+    "de": "Er hat das _____ vergessen.",
+    "en": "He's definitely forgotten it."
+   },
+   "tdist": [
+    "probably not",
+    "supposedly",
+    "rarely",
+    "almost"
+   ],
+   "gdist": [
+    "kaum",
+    "angeblich",
+    "selten",
+    "beinahe"
+   ],
+   "wsent": [
+    "He has probably not forgotten it.",
+    "He has supposedly forgotten it.",
+    "He rarely forgets it."
+   ],
+   "note": "Spoken: garantiert = ganz bestimmt (literally 'guaranteed')."
+  },
+  {
+   "word": "zweifellos",
+   "english": "undoubtedly / without a doubt",
+   "category": "Certainty & Probability",
+   "register": "Neutral",
+   "cefr": "B2",
+   "fb": {
+    "de": "Das ist _____ die beste Lösung.",
+    "en": "That is undoubtedly the best solution."
+   },
+   "tdist": [
+    "possibly",
+    "supposedly",
+    "hardly",
+    "usually"
+   ],
+   "gdist": [
+    "möglicherweise",
+    "angeblich",
+    "kaum",
+    "meistens"
+   ],
+   "wsent": [
+    "That is possibly the best solution.",
+    "That is supposedly the best solution.",
+    "That is usually the best solution."
+   ],
+   "note": "zweifellos = ohne Zweifel (without doubt)."
+  },
+  {
+   "word": "sicher",
+   "english": "surely / certainly",
+   "category": "Certainty & Probability",
+   "register": "Neutral",
+   "cefr": "A2",
+   "fb": {
+    "de": "Sie hat das _____ schon gehört.",
+    "en": "She has surely heard that already."
+   },
+   "tdist": [
+    "hardly",
+    "rarely",
+    "seemingly",
+    "never"
+   ],
+   "gdist": [
+    "kaum",
+    "selten",
+    "scheinbar",
+    "nie"
+   ],
+   "wsent": [
+    "She has hardly heard that.",
+    "She has rarely heard that.",
+    "She has never heard that."
+   ],
+   "note": "As an adverb, sicher = 'surely, I'm confident'. As an adjective: Ich bin sicher (I'm sure)."
+  },
+  {
+   "word": "höchstwahrscheinlich",
+   "english": "most likely / in all probability",
+   "category": "Certainty & Probability",
+   "register": "Neutral",
+   "cefr": "B2",
+   "fb": {
+    "de": "Der Zug fällt _____ aus.",
+    "en": "The train will most likely be cancelled."
+   },
+   "tdist": [
+    "definitely not",
+    "rarely",
+    "at most",
+    "by now"
+   ],
+   "gdist": [
+    "keinesfalls",
+    "selten",
+    "höchstens",
+    "inzwischen"
+   ],
+   "wsent": [
+    "The train will definitely not be cancelled.",
+    "The train is rarely cancelled.",
+    "The train has been cancelled by now."
+   ],
+   "note": "höchst + wahrscheinlich = the highest probability, one step below certain."
+  },
+  {
+   "word": "vermutlich",
+   "english": "presumably / probably",
+   "category": "Certainty & Probability",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Er ist _____ schon zu Hause.",
+    "en": "He's presumably already at home."
+   },
+   "tdist": [
+    "certainly",
+    "never",
+    "supposedly",
+    "recently"
+   ],
+   "gdist": [
+    "zweifellos",
+    "nie",
+    "angeblich",
+    "neulich"
+   ],
+   "wsent": [
+    "He's certainly already at home.",
+    "He's never at home.",
+    "He was at home recently."
+   ],
+   "note": "vermutlich ≈ wahrscheinlich, from vermuten (to assume)."
+  },
+  {
+   "word": "womöglich",
+   "english": "possibly / perhaps (even)",
+   "category": "Certainty & Probability",
+   "register": "Neutral",
+   "cefr": "B2",
+   "fb": {
+    "de": "Wir haben den Termin _____ verpasst.",
+    "en": "We may possibly have missed the appointment."
+   },
+   "tdist": [
+    "definitely",
+    "always",
+    "hardly",
+    "immediately"
+   ],
+   "gdist": [
+    "garantiert",
+    "immer",
+    "kaum",
+    "sofort"
+   ],
+   "wsent": [
+    "We definitely missed the appointment.",
+    "We always miss the appointment.",
+    "We immediately missed the appointment."
+   ],
+   "note": "womöglich ≈ möglicherweise; often hints that the possibility is unwelcome."
+  },
+  {
+   "word": "wohl kaum",
+   "english": "hardly / very unlikely",
+   "category": "Certainty & Probability",
+   "register": "Neutral",
+   "cefr": "B2",
+   "fb": {
+    "de": "Das schafft er _____ bis Freitag.",
+    "en": "He's hardly going to manage that by Friday."
+   },
+   "tdist": [
+    "definitely",
+    "probably",
+    "at least",
+    "soon"
+   ],
+   "gdist": [
+    "bestimmt",
+    "wahrscheinlich",
+    "mindestens",
+    "bald"
+   ],
+   "wsent": [
+    "He'll definitely manage that by Friday.",
+    "He'll probably manage that by Friday.",
+    "He'll manage that soon."
+   ],
+   "note": "wohl kaum = 'I really doubt it'. wohl softens, kaum negates."
+  },
+  {
+   "word": "keineswegs",
+   "english": "by no means / not at all",
+   "category": "Certainty & Probability",
+   "register": "Neutral",
+   "cefr": "B2",
+   "fb": {
+    "de": "Das war _____ meine Absicht.",
+    "en": "That was by no means my intention."
+   },
+   "tdist": [
+    "of course",
+    "probably",
+    "occasionally",
+    "almost"
+   ],
+   "gdist": [
+    "natürlich",
+    "wahrscheinlich",
+    "gelegentlich",
+    "beinahe"
+   ],
+   "wsent": [
+    "That was of course my intention.",
+    "That was probably my intention.",
+    "That was almost my intention."
+   ],
+   "note": "keineswegs = in no way. In conversation: auf keinen Fall."
+  },
+  {
+   "word": "keinesfalls",
+   "english": "under no circumstances",
+   "category": "Certainty & Probability",
+   "register": "Formal",
+   "cefr": "B2",
+   "fb": {
+    "de": "Sie dürfen das Fenster _____ öffnen.",
+    "en": "You must not open the window under any circumstances."
+   },
+   "tdist": [
+    "at any time",
+    "sometimes",
+    "later",
+    "in a moment"
+   ],
+   "gdist": [
+    "jederzeit",
+    "manchmal",
+    "später",
+    "gleich"
+   ],
+   "wsent": [
+    "You may open the window at any time.",
+    "You may sometimes open the window.",
+    "You may open the window later."
+   ],
+   "note": "keinesfalls ≈ keineswegs ≈ auf keinen Fall. Common in rules and instructions."
+  },
+  {
+   "word": "offensichtlich",
+   "english": "obviously / evidently",
+   "category": "Certainty & Probability",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Er hat _____ keine Lust.",
+    "en": "He obviously doesn't feel like it."
+   },
+   "tdist": [
+    "supposedly",
+    "rarely",
+    "still",
+    "at least"
+   ],
+   "gdist": [
+    "angeblich",
+    "selten",
+    "noch",
+    "mindestens"
+   ],
+   "wsent": [
+    "He supposedly doesn't feel like it.",
+    "He rarely feels like it.",
+    "He still doesn't feel like it."
+   ],
+   "note": "offensichtlich = you can clearly see it. Also an adjective: ein offensichtlicher Fehler."
+  },
+  {
+   "word": "scheinbar",
+   "english": "seemingly (but not really)",
+   "category": "Certainty & Probability",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Die Aufgabe ist nur _____ einfach.",
+    "en": "The task only seems easy."
+   },
+   "tdist": [
+    "obviously",
+    "definitely",
+    "usually",
+    "immediately"
+   ],
+   "gdist": [
+    "offensichtlich",
+    "definitiv",
+    "meistens",
+    "sofort"
+   ],
+   "wsent": [
+    "The task is obviously easy.",
+    "The task is usually easy.",
+    "The task is definitely easy."
+   ],
+   "note": "⚠ scheinbar = it only looks that way, but it isn't true. anscheinend = it seems so, and it probably is. In everyday speech many people use scheinbar for anscheinend."
+  },
+  {
+   "word": "stets",
+   "english": "always (formal)",
+   "category": "Frequency & Time",
+   "register": "Formal",
+   "cefr": "B2",
+   "fb": {
+    "de": "Er war _____ freundlich zu uns.",
+    "en": "He was always friendly to us."
+   },
+   "tdist": [
+    "rarely",
+    "hardly",
+    "recently",
+    "at first"
+   ],
+   "gdist": [
+    "selten",
+    "kaum",
+    "neulich",
+    "zunächst"
+   ],
+   "wsent": [
+    "He was rarely friendly to us.",
+    "He was recently friendly to us.",
+    "He was hardly friendly to us."
+   ],
+   "note": "stets = immer, but more formal and written."
+  },
+  {
+   "word": "jedes Mal",
+   "english": "every time",
+   "category": "Frequency & Time",
+   "register": "Neutral",
+   "cefr": "A2",
+   "fb": {
+    "de": "Er kommt _____ zu spät.",
+    "en": "He's late every time."
+   },
+   "tdist": [
+    "never",
+    "sometimes",
+    "soon",
+    "already"
+   ],
+   "gdist": [
+    "nie",
+    "manchmal",
+    "bald",
+    "schon"
+   ],
+   "wsent": [
+    "He's never late.",
+    "He's sometimes late.",
+    "He'll soon be late."
+   ],
+   "note": "jedes Mal = each single time, more concrete than immer."
+  },
+  {
+   "word": "in der Regel",
+   "english": "as a rule / usually",
+   "category": "Frequency & Time",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Ich stehe _____ um sieben auf.",
+    "en": "As a rule, I get up at seven."
+   },
+   "tdist": [
+    "never",
+    "rarely",
+    "just now",
+    "now"
+   ],
+   "gdist": [
+    "nie",
+    "selten",
+    "eben",
+    "jetzt"
+   ],
+   "wsent": [
+    "I never get up at seven.",
+    "I rarely get up at seven.",
+    "I'm getting up at seven right now."
+   ],
+   "note": "in der Regel ≈ normalerweise ≈ meistens."
+  },
+  {
+   "word": "fast immer",
+   "english": "almost always",
+   "category": "Frequency & Time",
+   "register": "Neutral",
+   "cefr": "A2",
+   "fb": {
+    "de": "Sie trinkt _____ Tee.",
+    "en": "She almost always drinks tea."
+   },
+   "tdist": [
+    "almost never",
+    "sometimes",
+    "every hour",
+    "not anymore"
+   ],
+   "gdist": [
+    "fast nie",
+    "manchmal",
+    "stündlich",
+    "nicht mehr"
+   ],
+   "wsent": [
+    "She almost never drinks tea.",
+    "She sometimes drinks tea.",
+    "She doesn't drink tea anymore."
+   ],
+   "note": "fast (almost) + immer. Opposite: fast nie."
+  },
+  {
+   "word": "hin und wieder",
+   "english": "now and again",
+   "category": "Frequency & Time",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Wir gehen _____ ins Kino.",
+    "en": "We go to the cinema now and again."
+   },
+   "tdist": [
+    "always",
+    "never",
+    "every day",
+    "constantly"
+   ],
+   "gdist": [
+    "immer",
+    "nie",
+    "täglich",
+    "ständig"
+   ],
+   "wsent": [
+    "We always go to the cinema.",
+    "We never go to the cinema.",
+    "We go to the cinema every day."
+   ],
+   "note": "hin und wieder ≈ ab und zu ≈ manchmal."
+  },
+  {
+   "word": "fast nie",
+   "english": "almost never",
+   "category": "Frequency & Time",
+   "register": "Neutral",
+   "cefr": "A2",
+   "fb": {
+    "de": "Er ruft _____ an.",
+    "en": "He almost never calls."
+   },
+   "tdist": [
+    "almost always",
+    "often",
+    "immediately",
+    "every week"
+   ],
+   "gdist": [
+    "fast immer",
+    "oft",
+    "sofort",
+    "wöchentlich"
+   ],
+   "wsent": [
+    "He almost always calls.",
+    "He often calls.",
+    "He calls every week."
+   ],
+   "note": "fast nie ≈ kaum (as frequency)."
+  },
+  {
+   "word": "stündlich",
+   "english": "hourly / every hour",
+   "category": "Frequency & Time",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Der Bus fährt _____.",
+    "en": "The bus runs every hour."
+   },
+   "tdist": [
+    "every month",
+    "rarely",
+    "every year",
+    "never"
+   ],
+   "gdist": [
+    "monatlich",
+    "selten",
+    "jährlich",
+    "nie"
+   ],
+   "wsent": [
+    "The bus runs every month.",
+    "The bus rarely runs.",
+    "The bus never runs."
+   ],
+   "note": "Stunde + -lich. Same pattern: täglich, wöchentlich, monatlich, jährlich."
+  },
+  {
+   "word": "monatlich",
+   "english": "monthly",
+   "category": "Frequency & Time",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Die Miete wird _____ bezahlt.",
+    "en": "The rent is paid monthly."
+   },
+   "tdist": [
+    "daily",
+    "every hour",
+    "yearly",
+    "immediately"
+   ],
+   "gdist": [
+    "täglich",
+    "stündlich",
+    "jährlich",
+    "sofort"
+   ],
+   "wsent": [
+    "The rent is paid daily.",
+    "The rent is paid yearly.",
+    "The rent is paid immediately."
+   ],
+   "note": "Monat + -lich."
+  },
+  {
+   "word": "jährlich",
+   "english": "yearly / annually",
+   "category": "Frequency & Time",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Das Fest findet _____ statt.",
+    "en": "The festival takes place every year."
+   },
+   "tdist": [
+    "every week",
+    "every hour",
+    "never",
+    "sometimes"
+   ],
+   "gdist": [
+    "wöchentlich",
+    "stündlich",
+    "nie",
+    "manchmal"
+   ],
+   "wsent": [
+    "The festival takes place every week.",
+    "The festival never takes place.",
+    "The festival sometimes takes place."
+   ],
+   "note": "Jahr + -lich, with an umlaut: jährlich."
+  },
+  {
+   "word": "äußerst",
+   "english": "extremely (formal)",
+   "category": "Intensifiers",
+   "register": "Formal",
+   "cefr": "B2",
+   "fb": {
+    "de": "Die Lage ist _____ ernst.",
+    "en": "The situation is extremely serious."
+   },
+   "tdist": [
+    "slightly",
+    "fairly",
+    "not at all",
+    "hardly"
+   ],
+   "gdist": [
+    "etwas",
+    "ziemlich",
+    "gar nicht",
+    "kaum"
+   ],
+   "wsent": [
+    "The situation is slightly serious.",
+    "The situation is fairly serious.",
+    "The situation is not serious at all."
+   ],
+   "note": "äußerst = extremely; more formal than extrem or total."
+  },
+  {
+   "word": "völlig",
+   "english": "completely",
+   "category": "Intensifiers",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Ich bin _____ erschöpft.",
+    "en": "I'm completely exhausted."
+   },
+   "tdist": [
+    "a little",
+    "hardly",
+    "fairly",
+    "reasonably"
+   ],
+   "gdist": [
+    "ein bisschen",
+    "kaum",
+    "ziemlich",
+    "einigermaßen"
+   ],
+   "wsent": [
+    "I'm a little exhausted.",
+    "I'm hardly exhausted.",
+    "I'm fairly exhausted."
+   ],
+   "note": "völlig = 100 %, completely. ≈ total, ganz und gar."
+  },
+  {
+   "word": "super",
+   "english": "super / really (slang)",
+   "category": "Intensifiers",
+   "register": "Spoken",
+   "cefr": "A2",
+   "fb": {
+    "de": "Das Essen war _____ lecker.",
+    "en": "The food was super tasty."
+   },
+   "tdist": [
+    "not at all",
+    "slightly",
+    "hardly",
+    "reasonably"
+   ],
+   "gdist": [
+    "gar nicht",
+    "etwas",
+    "kaum",
+    "einigermaßen"
+   ],
+   "wsent": [
+    "The food was not tasty at all.",
+    "The food was slightly tasty.",
+    "The food was reasonably tasty."
+   ],
+   "note": "Spoken. On its own: Super! = Great!"
+  },
+  {
+   "word": "richtig",
+   "english": "really / properly (spoken)",
+   "category": "Intensifiers",
+   "register": "Spoken",
+   "cefr": "A2",
+   "fb": {
+    "de": "Es ist heute _____ kalt.",
+    "en": "It's really cold today."
+   },
+   "tdist": [
+    "slightly",
+    "not at all",
+    "hardly",
+    "seemingly"
+   ],
+   "gdist": [
+    "etwas",
+    "gar nicht",
+    "kaum",
+    "scheinbar"
+   ],
+   "wsent": [
+    "It's slightly cold today.",
+    "It's not cold at all today.",
+    "It's hardly cold today."
+   ],
+   "note": "As an intensifier, spoken richtig = sehr. As an adjective it means 'correct'."
+  },
+  {
+   "word": "recht",
+   "english": "fairly / quite",
+   "category": "Intensifiers",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Der Test war _____ einfach.",
+    "en": "The test was fairly easy."
+   },
+   "tdist": [
+    "extremely",
+    "not at all",
+    "hardly",
+    "seemingly"
+   ],
+   "gdist": [
+    "äußerst",
+    "gar nicht",
+    "kaum",
+    "scheinbar"
+   ],
+   "wsent": [
+    "The test was extremely easy.",
+    "The test was not easy at all.",
+    "The test only seemed easy."
+   ],
+   "note": "recht ≈ ziemlich. Not the same as Recht haben (to be right)."
+  },
+  {
+   "word": "ganz",
+   "english": "fairly / quite (unstressed)",
+   "category": "Intensifiers",
+   "register": "Neutral",
+   "cefr": "A2",
+   "fb": {
+    "de": "Der Film war _____ gut, aber nicht super.",
+    "en": "The film was quite good, but not great."
+   },
+   "tdist": [
+    "extremely",
+    "not at all",
+    "hardly",
+    "always"
+   ],
+   "gdist": [
+    "äußerst",
+    "gar nicht",
+    "kaum",
+    "immer"
+   ],
+   "wsent": [
+    "The film was extremely good, but not great.",
+    "The film was not good at all.",
+    "The film was always good."
+   ],
+   "note": "⚠ Unstressed: ganz gut = fairly good (a bit lukewarm). Stressed GANZ, or ganz und gar = completely."
+  },
+  {
+   "word": "etwas",
+   "english": "somewhat / a little",
+   "category": "Intensifiers",
+   "register": "Neutral",
+   "cefr": "A2",
+   "fb": {
+    "de": "Ich bin _____ müde.",
+    "en": "I'm a little tired."
+   },
+   "tdist": [
+    "extremely",
+    "not at all",
+    "completely",
+    "really"
+   ],
+   "gdist": [
+    "äußerst",
+    "gar nicht",
+    "völlig",
+    "richtig"
+   ],
+   "wsent": [
+    "I'm extremely tired.",
+    "I'm not tired at all.",
+    "I'm really tired."
+   ],
+   "note": "etwas ≈ ein bisschen. Also 'something': Ich möchte etwas trinken."
+  },
+  {
+   "word": "ein wenig",
+   "english": "a little",
+   "category": "Intensifiers",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Kannst du _____ leiser sprechen?",
+    "en": "Can you speak a little more quietly?"
+   },
+   "tdist": [
+    "much",
+    "never",
+    "immediately",
+    "always"
+   ],
+   "gdist": [
+    "viel",
+    "nie",
+    "sofort",
+    "immer"
+   ],
+   "wsent": [
+    "Can you speak much more quietly?",
+    "Can you never speak quietly?",
+    "Can you speak quietly immediately?"
+   ],
+   "note": "ein wenig = ein bisschen, slightly more formal."
+  },
+  {
+   "word": "einigermaßen",
+   "english": "reasonably / more or less",
+   "category": "Intensifiers",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Ich habe _____ gut geschlafen.",
+    "en": "I slept reasonably well."
+   },
+   "tdist": [
+    "extremely",
+    "not at all",
+    "never",
+    "always"
+   ],
+   "gdist": [
+    "äußerst",
+    "gar nicht",
+    "nie",
+    "immer"
+   ],
+   "wsent": [
+    "I slept extremely well.",
+    "I never slept well.",
+    "I always slept well."
+   ],
+   "note": "einigermaßen = to some extent: OK, not great."
+  },
+  {
+   "word": "gar nicht",
+   "english": "not at all",
+   "category": "Intensifiers",
+   "register": "Neutral",
+   "cefr": "A2",
+   "fb": {
+    "de": "Das gefällt mir _____.",
+    "en": "I don't like that at all."
+   },
+   "tdist": [
+    "really",
+    "quite",
+    "a little",
+    "totally"
+   ],
+   "gdist": [
+    "sehr",
+    "ziemlich",
+    "ein bisschen",
+    "total"
+   ],
+   "wsent": [
+    "I really like that.",
+    "I quite like that.",
+    "I like that a little."
+   ],
+   "note": "gar strengthens the negation: nicht → gar nicht. ≈ überhaupt nicht."
+  },
+  {
+   "word": "überhaupt nicht",
+   "english": "not at all (emphatic)",
+   "category": "Intensifiers",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Das ist _____ lustig.",
+    "en": "That's not funny at all."
+   },
+   "tdist": [
+    "a little",
+    "extremely",
+    "fairly",
+    "really"
+   ],
+   "gdist": [
+    "ein bisschen",
+    "äußerst",
+    "ziemlich",
+    "echt"
+   ],
+   "wsent": [
+    "That's a little funny.",
+    "That's extremely funny.",
+    "That's fairly funny."
+   ],
+   "note": "überhaupt nicht ≈ gar nicht. überhaupt alone = 'at all / in general'."
+  },
+  {
+   "word": "mehr als",
+   "english": "more than",
+   "category": "Intensifiers",
+   "register": "Neutral",
+   "cefr": "A1",
+   "fb": {
+    "de": "Ich habe _____ zwei Stunden gewartet.",
+    "en": "I waited more than two hours."
+   },
+   "tdist": [
+    "at most",
+    "exactly",
+    "almost",
+    "just under"
+   ],
+   "gdist": [
+    "höchstens",
+    "genau",
+    "fast",
+    "knapp"
+   ],
+   "wsent": [
+    "I waited at most two hours.",
+    "I waited exactly two hours.",
+    "I waited almost two hours."
+   ],
+   "note": "A phrase rather than a single adverb, at the top of the number line. Opposite: weniger als."
+  },
+  {
+   "word": "gut",
+   "english": "a good … / just over (with numbers)",
+   "category": "Intensifiers",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Die Fahrt dauert _____ drei Stunden.",
+    "en": "The journey takes a good three hours."
+   },
+   "tdist": [
+    "just under",
+    "at most",
+    "exactly",
+    "never"
+   ],
+   "gdist": [
+    "knapp",
+    "höchstens",
+    "genau",
+    "nie"
+   ],
+   "wsent": [
+    "The journey takes just under three hours.",
+    "The journey takes at most three hours.",
+    "The journey takes exactly three hours."
+   ],
+   "note": "⚠ With numbers, gut = a bit MORE: gut drei Stunden ≈ 3 h 15. Opposite: knapp drei Stunden ≈ 2 h 50."
+  },
+  {
+   "word": "ungefähr",
+   "english": "approximately / about",
+   "category": "Intensifiers",
+   "register": "Neutral",
+   "cefr": "A2",
+   "fb": {
+    "de": "Das kostet _____ zwanzig Euro.",
+    "en": "That costs about twenty euros."
+   },
+   "tdist": [
+    "at least",
+    "exactly",
+    "more than",
+    "at most"
+   ],
+   "gdist": [
+    "mindestens",
+    "genau",
+    "mehr als",
+    "höchstens"
+   ],
+   "wsent": [
+    "That costs at least twenty euros.",
+    "That costs exactly twenty euros.",
+    "That costs more than twenty euros."
+   ],
+   "note": "ungefähr ≈ etwa ≈ circa (ca.)."
+  },
+  {
+   "word": "etwa",
+   "english": "about / roughly",
+   "category": "Intensifiers",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Wir brauchen _____ eine Stunde.",
+    "en": "We need about an hour."
+   },
+   "tdist": [
+    "at least",
+    "exactly",
+    "at most",
+    "more than"
+   ],
+   "gdist": [
+    "mindestens",
+    "genau",
+    "höchstens",
+    "mehr als"
+   ],
+   "wsent": [
+    "We need at least an hour.",
+    "We need exactly an hour.",
+    "We need at most an hour."
+   ],
+   "note": "etwa = ungefähr. In questions also 'by any chance': Bist du etwa krank?"
+  },
+  {
+   "word": "circa",
+   "english": "approximately (ca.)",
+   "category": "Intensifiers",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Die Stadt hat _____ 50.000 Einwohner.",
+    "en": "The town has approximately 50,000 inhabitants."
+   },
+   "tdist": [
+    "exactly",
+    "at least",
+    "at most",
+    "just under"
+   ],
+   "gdist": [
+    "genau",
+    "mindestens",
+    "höchstens",
+    "knapp"
+   ],
+   "wsent": [
+    "The town has exactly 50,000 inhabitants.",
+    "The town has at least 50,000 inhabitants.",
+    "The town has at most 50,000 inhabitants."
+   ],
+   "note": "circa, written ca., also spelled zirka."
+  },
+  {
+   "word": "knapp",
+   "english": "just under / barely",
+   "category": "Intensifiers",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Er ist _____ zwei Meter groß.",
+    "en": "He is just under two metres tall."
+   },
+   "tdist": [
+    "a good",
+    "more than",
+    "exactly",
+    "at least"
+   ],
+   "gdist": [
+    "gut",
+    "mehr als",
+    "genau",
+    "mindestens"
+   ],
+   "wsent": [
+    "He is a good two metres tall.",
+    "He is more than two metres tall.",
+    "He is at least two metres tall."
+   ],
+   "note": "knapp = a little LESS than the number. Opposite with numbers: gut."
+  },
+  {
+   "word": "fast",
+   "english": "almost / nearly",
+   "category": "Intensifiers",
+   "register": "Neutral",
+   "cefr": "A1",
+   "fb": {
+    "de": "Der Film dauert _____ drei Stunden.",
+    "en": "The film lasts almost three hours."
+   },
+   "tdist": [
+    "a good",
+    "at least",
+    "exactly",
+    "more than"
+   ],
+   "gdist": [
+    "gut",
+    "mindestens",
+    "genau",
+    "mehr als"
+   ],
+   "wsent": [
+    "The film lasts a good three hours.",
+    "The film lasts at least three hours.",
+    "The film lasts exactly three hours."
+   ],
+   "note": "fast ≈ beinahe. Also without numbers: Ich bin fast fertig."
+  },
+  {
+   "word": "höchstens",
+   "english": "at most",
+   "category": "Intensifiers",
+   "register": "Neutral",
+   "cefr": "A2",
+   "fb": {
+    "de": "Ich bleibe _____ eine Woche.",
+    "en": "I'm staying a week at most."
+   },
+   "tdist": [
+    "at least",
+    "more than",
+    "a good",
+    "exactly"
+   ],
+   "gdist": [
+    "mindestens",
+    "mehr als",
+    "gut",
+    "genau"
+   ],
+   "wsent": [
+    "I'm staying at least a week.",
+    "I'm staying more than a week.",
+    "I'm staying exactly a week."
+   ],
+   "note": "Opposite: mindestens (at least)."
+  },
+  {
+   "word": "nur",
+   "english": "only / just",
+   "category": "Intensifiers",
+   "register": "Neutral",
+   "cefr": "A1",
+   "fb": {
+    "de": "Ich habe _____ fünf Euro.",
+    "en": "I only have five euros."
+   },
+   "tdist": [
+    "at least",
+    "more than",
+    "about",
+    "a good"
+   ],
+   "gdist": [
+    "mindestens",
+    "mehr als",
+    "ungefähr",
+    "gut"
+   ],
+   "wsent": [
+    "I have at least five euros.",
+    "I have more than five euros.",
+    "I have about five euros."
+   ],
+   "note": "nur = this amount, and that's little. ≈ bloß (spoken), lediglich (formal)."
+  },
+  {
+   "word": "bloß",
+   "english": "only / merely (spoken)",
+   "category": "Intensifiers",
+   "register": "Spoken",
+   "cefr": "B1",
+   "fb": {
+    "de": "Das war _____ ein Witz.",
+    "en": "That was only a joke."
+   },
+   "tdist": [
+    "at least",
+    "more than",
+    "about",
+    "exactly"
+   ],
+   "gdist": [
+    "mindestens",
+    "mehr als",
+    "ungefähr",
+    "genau"
+   ],
+   "wsent": [
+    "That was at least a joke.",
+    "That was more than a joke.",
+    "That was about a joke."
+   ],
+   "note": "Spoken ≈ nur. Also in warnings: Sei bloß vorsichtig! (Do be careful!)"
+  },
+  {
+   "word": "damals",
+   "english": "back then / at that time",
+   "category": "Frequency & Time",
+   "register": "Neutral",
+   "cefr": "A2",
+   "fb": {
+    "de": "_____ wohnte ich in Hamburg.",
+    "en": "Back then I lived in Hamburg."
+   },
+   "tdist": [
+    "soon",
+    "right now",
+    "later",
+    "just now"
+   ],
+   "gdist": [
+    "bald",
+    "jetzt",
+    "später",
+    "eben"
+   ],
+   "wsent": [
+    "Soon I'll live in Hamburg.",
+    "I live in Hamburg right now.",
+    "Later I'll live in Hamburg."
+   ],
+   "note": "damals = at one specific time in the past. früher = in the past in general (habits)."
+  },
+  {
+   "word": "kürzlich",
+   "english": "recently",
+   "category": "Frequency & Time",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Ich habe _____ einen alten Freund getroffen.",
+    "en": "I recently met an old friend."
+   },
+   "tdist": [
+    "soon",
+    "later",
+    "never",
+    "at some point"
+   ],
+   "gdist": [
+    "bald",
+    "später",
+    "nie",
+    "irgendwann"
+   ],
+   "wsent": [
+    "I'll soon meet an old friend.",
+    "I never met an old friend.",
+    "I'll meet an old friend later."
+   ],
+   "note": "kürzlich ≈ neulich ≈ vor Kurzem."
+  },
+  {
+   "word": "vor Kurzem",
+   "english": "a short while ago",
+   "category": "Frequency & Time",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Sie ist _____ umgezogen.",
+    "en": "She moved a short while ago."
+   },
+   "tdist": [
+    "soon",
+    "back then",
+    "right now",
+    "later"
+   ],
+   "gdist": [
+    "bald",
+    "damals",
+    "jetzt",
+    "später"
+   ],
+   "wsent": [
+    "She's moving soon.",
+    "She's moving right now.",
+    "She'll move later."
+   ],
+   "note": "Also written vor kurzem. ≈ kürzlich."
+  },
+  {
+   "word": "eben",
+   "english": "just now / a moment ago",
+   "category": "Frequency & Time",
+   "register": "Neutral",
+   "cefr": "A2",
+   "fb": {
+    "de": "Er ist _____ gegangen.",
+    "en": "He left just now."
+   },
+   "tdist": [
+    "back then",
+    "soon",
+    "later",
+    "never"
+   ],
+   "gdist": [
+    "damals",
+    "bald",
+    "später",
+    "nie"
+   ],
+   "wsent": [
+    "He left back then.",
+    "He'll leave soon.",
+    "He never left."
+   ],
+   "note": "eben ≈ gerade in the sense 'just now'. Also a particle: Das ist eben so (That's just how it is)."
+  },
+  {
+   "word": "jetzt",
+   "english": "now",
+   "category": "Frequency & Time",
+   "register": "Neutral",
+   "cefr": "A1",
+   "fb": {
+    "de": "Ich habe _____ keine Zeit.",
+    "en": "I don't have time now."
+   },
+   "tdist": [
+    "back then",
+    "later",
+    "recently",
+    "every day"
+   ],
+   "gdist": [
+    "damals",
+    "später",
+    "neulich",
+    "täglich"
+   ],
+   "wsent": [
+    "I didn't have time back then.",
+    "I won't have time later.",
+    "I don't have time every day."
+   ],
+   "note": "jetzt = at this moment. jetzt gleich = right now."
+  },
+  {
+   "word": "noch nicht",
+   "english": "not yet",
+   "category": "Frequency & Time",
+   "register": "Neutral",
+   "cefr": "A1",
+   "fb": {
+    "de": "Der Bus ist _____ da.",
+    "en": "The bus isn't here yet."
+   },
+   "tdist": [
+    "already",
+    "not anymore",
+    "still",
+    "always"
+   ],
+   "gdist": [
+    "schon",
+    "nicht mehr",
+    "noch",
+    "immer"
+   ],
+   "wsent": [
+    "The bus is already here.",
+    "The bus isn't here anymore.",
+    "The bus is still here."
+   ],
+   "note": "noch nicht ↔ schon (already). noch (still) ↔ nicht mehr (not anymore)."
+  },
+  {
+   "word": "bereits",
+   "english": "already (formal)",
+   "category": "Frequency & Time",
+   "register": "Formal",
+   "cefr": "B1",
+   "fb": {
+    "de": "Der Zug ist _____ abgefahren.",
+    "en": "The train has already left."
+   },
+   "tdist": [
+    "not yet",
+    "soon",
+    "later",
+    "every hour"
+   ],
+   "gdist": [
+    "noch nicht",
+    "bald",
+    "später",
+    "stündlich"
+   ],
+   "wsent": [
+    "The train hasn't left yet.",
+    "The train is leaving soon.",
+    "The train will leave later."
+   ],
+   "note": "bereits = schon, a bit more formal."
+  },
+  {
+   "word": "mittlerweile",
+   "english": "by now / in the meantime",
+   "category": "Frequency & Time",
+   "register": "Neutral",
+   "cefr": "B2",
+   "fb": {
+    "de": "Er spricht _____ fließend Deutsch.",
+    "en": "By now he speaks fluent German."
+   },
+   "tdist": [
+    "not yet",
+    "never",
+    "back then",
+    "almost never"
+   ],
+   "gdist": [
+    "noch nicht",
+    "nie",
+    "damals",
+    "fast nie"
+   ],
+   "wsent": [
+    "He doesn't speak fluent German yet.",
+    "He never speaks fluent German.",
+    "Back then he spoke fluent German."
+   ],
+   "note": "mittlerweile ≈ inzwischen: something has changed over time."
+  },
+  {
+   "word": "zunächst",
+   "english": "first / initially",
+   "category": "Connectors",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "_____ müssen wir das Formular ausfüllen.",
+    "en": "First we have to fill in the form."
+   },
+   "tdist": [
+    "finally",
+    "last of all",
+    "later",
+    "never"
+   ],
+   "gdist": [
+    "endlich",
+    "zuletzt",
+    "später",
+    "nie"
+   ],
+   "wsent": [
+    "Finally we have to fill in the form.",
+    "Last of all we have to fill in the form.",
+    "Later we have to fill in the form."
+   ],
+   "note": "zunächst ≈ zuerst. Also 'for now': Das reicht zunächst."
+  },
+  {
+   "word": "anschließend",
+   "english": "afterwards / subsequently",
+   "category": "Connectors",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Wir essen und gehen _____ spazieren.",
+    "en": "We'll eat and afterwards go for a walk."
+   },
+   "tdist": [
+    "first",
+    "earlier",
+    "never",
+    "initially"
+   ],
+   "gdist": [
+    "zuerst",
+    "vorhin",
+    "nie",
+    "zunächst"
+   ],
+   "wsent": [
+    "We'll go for a walk first and then eat.",
+    "We went for a walk earlier.",
+    "We never go for a walk."
+   ],
+   "note": "anschließend = right after that. ≈ danach."
+  },
+  {
+   "word": "zuletzt",
+   "english": "last (in a sequence)",
+   "category": "Connectors",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "_____ haben wir die Küche geputzt.",
+    "en": "Last of all, we cleaned the kitchen."
+   },
+   "tdist": [
+    "first",
+    "secondly",
+    "initially",
+    "never"
+   ],
+   "gdist": [
+    "zuerst",
+    "zweitens",
+    "zunächst",
+    "nie"
+   ],
+   "wsent": [
+    "First we cleaned the kitchen.",
+    "Secondly, we cleaned the kitchen.",
+    "We never cleaned the kitchen."
+   ],
+   "note": "zuletzt = as the last step. Also 'last time': Wann hast du ihn zuletzt gesehen?"
+  },
+  {
+   "word": "endlich",
+   "english": "finally / at last",
+   "category": "Frequency & Time",
+   "register": "Neutral",
+   "cefr": "A2",
+   "fb": {
+    "de": "Der Bus ist _____ da!",
+    "en": "The bus is finally here!"
+   },
+   "tdist": [
+    "not yet",
+    "still",
+    "not anymore",
+    "never"
+   ],
+   "gdist": [
+    "noch nicht",
+    "noch",
+    "nicht mehr",
+    "nie"
+   ],
+   "wsent": [
+    "The bus isn't here yet!",
+    "The bus is still here!",
+    "The bus isn't here anymore!"
+   ],
+   "note": "⚠ endlich = at last, after waiting (relief). schließlich = in the end, as the last of several steps."
+  },
+  {
+   "word": "jein",
+   "english": "yes and no",
+   "category": "Agreement & Reaction",
+   "register": "Spoken",
+   "cefr": "B1",
+   "fb": {
+    "de": "Hat es dir gefallen? – _____, der Anfang war gut.",
+    "en": "Did you like it? – Yes and no, the beginning was good."
+   },
+   "tdist": [
+    "exactly",
+    "no way",
+    "of course",
+    "by no means"
+   ],
+   "gdist": [
+    "genau",
+    "auf keinen Fall",
+    "natürlich",
+    "keineswegs"
+   ],
+   "wsent": [
+    "Did you like it? – Exactly, the beginning was good.",
+    "Did you like it? – Of course, the beginning was good.",
+    "Did you like it? – No way, the beginning was good."
+   ],
+   "note": "Spoken. ja + nein → jein: partly yes, partly no."
+  },
+  {
+   "word": "eher nicht",
+   "english": "rather not / probably not",
+   "category": "Agreement & Reaction",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Kommst du mit? – _____, ich bin müde.",
+    "en": "Are you coming along? – Probably not, I'm tired."
+   },
+   "tdist": [
+    "of course",
+    "exactly",
+    "definitely",
+    "yes and no"
+   ],
+   "gdist": [
+    "natürlich",
+    "genau",
+    "auf jeden Fall",
+    "jein"
+   ],
+   "wsent": [
+    "Are you coming along? – Of course, I'm tired.",
+    "Are you coming along? – Definitely, I'm tired.",
+    "Are you coming along? – Exactly, I'm tired."
+   ],
+   "note": "eher = rather. eher nicht = a soft no; eher ja = a soft yes."
+  },
+  {
+   "word": "kein Stück",
+   "english": "not one bit (slang)",
+   "category": "Agreement & Reaction",
+   "register": "Spoken",
+   "cefr": "B2",
+   "fb": {
+    "de": "Das interessiert mich _____.",
+    "en": "That doesn't interest me one bit."
+   },
+   "tdist": [
+    "really",
+    "quite",
+    "a little",
+    "totally"
+   ],
+   "gdist": [
+    "sehr",
+    "ziemlich",
+    "ein bisschen",
+    "total"
+   ],
+   "wsent": [
+    "That really interests me.",
+    "That interests me a little.",
+    "That totally interests me."
+   ],
+   "note": "Spoken and strong: kein Stück = überhaupt nicht."
+  },
+  {
+   "word": "dagegen",
+   "english": "by contrast / on the other hand",
+   "category": "Contrast",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Mein Bruder ist groß, ich _____ bin klein.",
+    "en": "My brother is tall; I, by contrast, am short."
+   },
+   "tdist": [
+    "therefore",
+    "in addition",
+    "first",
+    "as a result"
+   ],
+   "gdist": [
+    "deshalb",
+    "außerdem",
+    "zuerst",
+    "folglich"
+   ],
+   "wsent": [
+    "My brother is tall, therefore I am short.",
+    "My brother is tall; in addition, I am short.",
+    "My brother is tall; as a result, I am short."
+   ],
+   "note": "dagegen ≈ hingegen: sets two facts side by side. Also 'against it': Ich bin dagegen."
+  },
+  {
+   "word": "auch",
+   "english": "also / too",
+   "category": "Connectors",
+   "register": "Neutral",
+   "cefr": "A1",
+   "fb": {
+    "de": "Ich komme _____ mit.",
+    "en": "I'm coming along too."
+   },
+   "tdist": [
+    "however",
+    "nevertheless",
+    "therefore",
+    "instead"
+   ],
+   "gdist": [
+    "jedoch",
+    "trotzdem",
+    "deshalb",
+    "stattdessen"
+   ],
+   "wsent": [
+    "I'm coming along, however.",
+    "I'm coming along nevertheless.",
+    "I'm therefore coming along."
+   ],
+   "note": "The basic way to add something. More formal: außerdem, zudem, darüber hinaus."
+  },
+  {
+   "word": "jederzeit",
+   "english": "at any time",
+   "category": "Indefinites",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Du kannst mich _____ anrufen.",
+    "en": "You can call me at any time."
+   },
+   "tdist": [
+    "never",
+    "at some point",
+    "rarely",
+    "nowhere"
+   ],
+   "gdist": [
+    "nie",
+    "irgendwann",
+    "selten",
+    "nirgends"
+   ],
+   "wsent": [
+    "You can never call me.",
+    "You can call me at some point.",
+    "You can rarely call me."
+   ],
+   "note": "jederzeit = whenever you like. Opposite: nie."
+  },
+  {
+   "word": "überall",
+   "english": "everywhere",
+   "category": "Indefinites",
+   "register": "Neutral",
+   "cefr": "A2",
+   "fb": {
+    "de": "Ich habe dich _____ gesucht!",
+    "en": "I looked for you everywhere!"
+   },
+   "tdist": [
+    "nowhere",
+    "somewhere",
+    "always",
+    "here"
+   ],
+   "gdist": [
+    "nirgends",
+    "irgendwo",
+    "immer",
+    "hier"
+   ],
+   "wsent": [
+    "I looked for you nowhere!",
+    "I looked for you somewhere!",
+    "I always looked for you!"
+   ],
+   "note": "überall (every place) → irgendwo (some place) → nirgends (no place)."
+  },
+  {
+   "word": "irgendwo",
+   "english": "somewhere",
+   "category": "Indefinites",
+   "register": "Neutral",
+   "cefr": "A2",
+   "fb": {
+    "de": "Meine Brille muss _____ hier sein.",
+    "en": "My glasses must be somewhere here."
+   },
+   "tdist": [
+    "nowhere",
+    "everywhere",
+    "at some point",
+    "never"
+   ],
+   "gdist": [
+    "nirgends",
+    "überall",
+    "irgendwann",
+    "nie"
+   ],
+   "wsent": [
+    "My glasses are nowhere here.",
+    "My glasses must be here at some point.",
+    "My glasses are never here."
+   ],
+   "note": "irgend- = some/any: irgendwo, irgendwann, irgendwer, irgendetwas."
+  },
+  {
+   "word": "nirgends",
+   "english": "nowhere",
+   "category": "Indefinites",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Ich finde meinen Schlüssel _____.",
+    "en": "I can't find my key anywhere."
+   },
+   "tdist": [
+    "everywhere",
+    "somewhere",
+    "always",
+    "there"
+   ],
+   "gdist": [
+    "überall",
+    "irgendwo",
+    "immer",
+    "dort"
+   ],
+   "wsent": [
+    "I find my key everywhere.",
+    "I find my key somewhere.",
+    "I always find my key."
+   ],
+   "note": "nirgends = nirgendwo. Opposite: überall."
+  },
+  {
+   "word": "nirgendwo",
+   "english": "nowhere",
+   "category": "Indefinites",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Hier gibt es _____ einen Parkplatz.",
+    "en": "There's no parking space anywhere here."
+   },
+   "tdist": [
+    "everywhere",
+    "somewhere",
+    "at any time",
+    "over there"
+   ],
+   "gdist": [
+    "überall",
+    "irgendwo",
+    "jederzeit",
+    "drüben"
+   ],
+   "wsent": [
+    "There's a parking space everywhere here.",
+    "There's a parking space somewhere here.",
+    "There's a parking space over there."
+   ],
+   "note": "nirgendwo = nirgends; both are common."
+  },
+  {
+   "word": "alles",
+   "english": "everything",
+   "category": "Indefinites",
+   "register": "Neutral",
+   "cefr": "A1",
+   "fb": {
+    "de": "Ich habe _____ verstanden.",
+    "en": "I understood everything."
+   },
+   "tdist": [
+    "nothing",
+    "something",
+    "somewhere",
+    "everywhere"
+   ],
+   "gdist": [
+    "nichts",
+    "irgendetwas",
+    "irgendwo",
+    "überall"
+   ],
+   "wsent": [
+    "I understood nothing.",
+    "I understood something.",
+    "I understood it everywhere."
+   ],
+   "note": "Pronoun. alles (all things) → irgendetwas (something) → nichts (nothing)."
+  },
+  {
+   "word": "nichts",
+   "english": "nothing",
+   "category": "Indefinites",
+   "register": "Neutral",
+   "cefr": "A1",
+   "fb": {
+    "de": "Ich habe heute noch _____ gegessen.",
+    "en": "I haven't eaten anything yet today."
+   },
+   "tdist": [
+    "everything",
+    "something",
+    "everywhere",
+    "always"
+   ],
+   "gdist": [
+    "alles",
+    "irgendetwas",
+    "überall",
+    "immer"
+   ],
+   "wsent": [
+    "I've already eaten everything today.",
+    "I've eaten something today.",
+    "I always eat today."
+   ],
+   "note": "Pronoun. Opposite: alles."
+  },
+  {
+   "word": "jeder",
+   "english": "everyone / each",
+   "category": "Indefinites",
+   "register": "Neutral",
+   "cefr": "A1",
+   "fb": {
+    "de": "Das weiß doch _____!",
+    "en": "Everybody knows that!"
+   },
+   "tdist": [
+    "nobody",
+    "someone",
+    "nothing",
+    "everything"
+   ],
+   "gdist": [
+    "niemand",
+    "jemand",
+    "nichts",
+    "alles"
+   ],
+   "wsent": [
+    "Nobody knows that!",
+    "Someone knows that!",
+    "Hardly anyone knows that!"
+   ],
+   "note": "Pronoun; changes with gender and case: jeder, jede, jedes, jeden … Opposite: niemand."
+  },
+  {
+   "word": "jemand",
+   "english": "someone / somebody",
+   "category": "Indefinites",
+   "register": "Neutral",
+   "cefr": "A1",
+   "fb": {
+    "de": "Hat _____ meinen Schlüssel gesehen?",
+    "en": "Has someone seen my key?"
+   },
+   "tdist": [
+    "nobody",
+    "everyone",
+    "nothing",
+    "somewhere"
+   ],
+   "gdist": [
+    "niemand",
+    "jeder",
+    "nichts",
+    "irgendwo"
+   ],
+   "wsent": [
+    "Has nobody seen my key?",
+    "Has everyone seen my key?",
+    "Have you seen my key anywhere?"
+   ],
+   "note": "Pronoun. jemand (some person) ↔ niemand (no person)."
+  },
+  {
+   "word": "irgendwer",
+   "english": "somebody or other",
+   "category": "Indefinites",
+   "register": "Spoken",
+   "cefr": "B1",
+   "fb": {
+    "de": "_____ hat die Tür offen gelassen.",
+    "en": "Somebody or other left the door open."
+   },
+   "tdist": [
+    "nobody",
+    "everyone",
+    "nothing",
+    "everywhere"
+   ],
+   "gdist": [
+    "niemand",
+    "jeder",
+    "nichts",
+    "überall"
+   ],
+   "wsent": [
+    "Nobody left the door open.",
+    "Everyone left the door open.",
+    "Nothing left the door open."
+   ],
+   "note": "Spoken ≈ jemand; stresses that you don't know who."
+  },
+  {
+   "word": "niemand",
+   "english": "nobody / no one",
+   "category": "Indefinites",
+   "register": "Neutral",
+   "cefr": "A2",
+   "fb": {
+    "de": "Es war _____ zu Hause.",
+    "en": "Nobody was at home."
+   },
+   "tdist": [
+    "someone",
+    "everyone",
+    "everything",
+    "somewhere"
+   ],
+   "gdist": [
+    "jemand",
+    "jeder",
+    "alles",
+    "irgendwo"
+   ],
+   "wsent": [
+    "Someone was at home.",
+    "Everyone was at home.",
+    "Everything was at home."
+   ],
+   "note": "Pronoun. Opposite: jemand."
+  },
+  {
+   "word": "hier",
+   "english": "here",
+   "category": "Place & Direction",
+   "register": "Neutral",
+   "cefr": "A1",
+   "fb": {
+    "de": "Ich warte _____ auf dich.",
+    "en": "I'll wait for you here."
+   },
+   "tdist": [
+    "over there",
+    "far away",
+    "nowhere",
+    "everywhere"
+   ],
+   "gdist": [
+    "drüben",
+    "weit weg",
+    "nirgends",
+    "überall"
+   ],
+   "wsent": [
+    "I'll wait for you over there.",
+    "I'll wait for you far away.",
+    "I'll wait for you everywhere."
+   ],
+   "note": "hier = where I am. da / dort = there."
+  },
+  {
+   "word": "da",
+   "english": "there",
+   "category": "Place & Direction",
+   "register": "Neutral",
+   "cefr": "A1",
+   "fb": {
+    "de": "Siehst du das Café _____ an der Ecke?",
+    "en": "Do you see the café there on the corner?"
+   },
+   "tdist": [
+    "here",
+    "far away",
+    "nowhere",
+    "everywhere"
+   ],
+   "gdist": [
+    "hier",
+    "weit weg",
+    "nirgends",
+    "überall"
+   ],
+   "wsent": [
+    "Do you see the café here on the corner?",
+    "Do you see the café far away?",
+    "Don't you see the café anywhere?"
+   ],
+   "note": "da = there, nearby, often while pointing. Also 'then' and 'since / because'."
+  },
+  {
+   "word": "dort",
+   "english": "there (further away)",
+   "category": "Place & Direction",
+   "register": "Neutral",
+   "cefr": "A2",
+   "fb": {
+    "de": "Wir waren letztes Jahr _____ im Urlaub.",
+    "en": "We were on holiday there last year."
+   },
+   "tdist": [
+    "here",
+    "nowhere",
+    "everywhere",
+    "right now"
+   ],
+   "gdist": [
+    "hier",
+    "nirgends",
+    "überall",
+    "jetzt"
+   ],
+   "wsent": [
+    "We were on holiday here last year.",
+    "We were on holiday nowhere last year.",
+    "We were on holiday everywhere last year."
+   ],
+   "note": "dort = there, a bit further away or more formal than da."
+  },
+  {
+   "word": "drüben",
+   "english": "over there",
+   "category": "Place & Direction",
+   "register": "Neutral",
+   "cefr": "B1",
+   "fb": {
+    "de": "Der Bahnhof ist da _____.",
+    "en": "The station is over there."
+   },
+   "tdist": [
+    "here",
+    "everywhere",
+    "nowhere",
+    "at any time"
+   ],
+   "gdist": [
+    "hier",
+    "überall",
+    "nirgends",
+    "jederzeit"
+   ],
+   "wsent": [
+    "The station is here.",
+    "The station is everywhere.",
+    "The station is nowhere."
+   ],
+   "note": "drüben = on the other side (of a street, room, border). Often: da drüben."
+  },
+  {
+   "word": "weit weg",
+   "english": "far away",
+   "category": "Place & Direction",
+   "register": "Neutral",
+   "cefr": "A2",
+   "fb": {
+    "de": "Das Hotel ist nicht _____ vom Strand.",
+    "en": "The hotel isn't far from the beach."
+   },
+   "tdist": [
+    "here",
+    "over there",
+    "everywhere",
+    "at least"
+   ],
+   "gdist": [
+    "hier",
+    "drüben",
+    "überall",
+    "mindestens"
+   ],
+   "wsent": [
+    "The hotel is here at the beach.",
+    "The hotel is everywhere.",
+    "The hotel is over there by the beach."
+   ],
+   "note": "weit = far, weg = away. Opposite: in der Nähe (nearby)."
+  }
+ ]
+}

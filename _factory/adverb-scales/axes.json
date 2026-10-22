@@ -1,0 +1,1303 @@
+{
+ "axes": [
+  {
+   "id": "gewissheit",
+   "title": "Gewissheit",
+   "question_de": "Wie sicher ist der Sprecher?",
+   "question_en": "How sure is the speaker?",
+   "top": "sicher",
+   "bottom": "ausgeschlossen",
+   "layout": "linear",
+   "anchor": "Er kommt ___ morgen.",
+   "drill": {
+    "gap": 2,
+    "most": [
+     "Was ist am sichersten?",
+     "Which word is the most certain?"
+    ],
+    "least": [
+     "Was ist am wenigsten wahrscheinlich?",
+     "Which word is the least likely?"
+    ]
+   },
+   "tiers": [
+    {
+     "label": "Ausgemacht",
+     "label_en": "Settled",
+     "words": [
+      "definitiv",
+      "auf jeden Fall",
+      "garantiert",
+      "zweifellos"
+     ],
+     "anchor_word": "definitiv",
+     "anchor_en": "He's definitely coming tomorrow."
+    },
+    {
+     "label": "Sehr sicher",
+     "label_en": "Very sure",
+     "words": [
+      "bestimmt",
+      "sicher"
+     ],
+     "anchor_word": "bestimmt",
+     "anchor_en": "He's surely coming tomorrow."
+    },
+    {
+     "label": "Fast sicher",
+     "label_en": "Almost certain",
+     "words": [
+      "höchstwahrscheinlich",
+      "sicherlich"
+     ],
+     "anchor_word": "höchstwahrscheinlich",
+     "anchor_en": "He's most likely coming tomorrow.",
+     "note": "sicherlich = 'mit ziemlicher Sicherheit' (Wiktionary) — and it often concedes a point: Das ist sicherlich richtig, aber …"
+    },
+    {
+     "label": "Wahrscheinlich",
+     "label_en": "Probable",
+     "words": [
+      "wahrscheinlich",
+      "vermutlich",
+      "voraussichtlich"
+     ],
+     "anchor_word": "wahrscheinlich",
+     "anchor_en": "He's probably coming tomorrow.",
+     "note": "voraussichtlich = expected according to a plan or forecast (Zug, Wetter, Termine)."
+    },
+    {
+     "label": "Möglich",
+     "label_en": "Possible",
+     "words": [
+      "vielleicht@adv_vielleicht",
+      "eventuell@adv_eventuell",
+      "möglicherweise",
+      "womöglich"
+     ],
+     "anchor_word": "vielleicht",
+     "anchor_en": "Maybe he's coming tomorrow."
+    },
+    {
+     "label": "Unwahrscheinlich",
+     "label_en": "Unlikely",
+     "words": [
+      "kaum@adv_kaum",
+      "wohl kaum"
+     ],
+     "anchor_word": "wohl kaum",
+     "anchor_en": "He's hardly likely to come tomorrow."
+    },
+    {
+     "label": "Ausgeschlossen",
+     "label_en": "Ruled out",
+     "words": [
+      "keineswegs",
+      "keinesfalls",
+      "auf keinen Fall"
+     ],
+     "anchor_word": "auf keinen Fall",
+     "anchor_en": "He's definitely not coming tomorrow."
+    }
+   ],
+   "side": [
+    {
+     "text": "unwahrscheinlich and unmöglich are adjectives: Das ist unwahrscheinlich. They describe a thing, they don't sit inside the sentence like kaum.",
+     "words": [
+      "unwahrscheinlich"
+     ]
+    },
+    {
+     "text": "unbedingt is not about certainty: it means 'absolutely must' — Du musst unbedingt kommen!"
+    }
+   ]
+  },
+  {
+   "id": "quelle",
+   "title": "Quelle",
+   "question_de": "Glaubt der Sprecher, dass es stimmt?",
+   "question_en": "Does the speaker believe it's true?",
+   "top": "klar sichtbar",
+   "bottom": "nur Schein",
+   "layout": "linear",
+   "anchor": "Er ist ___ krank.",
+   "drill": {
+    "gap": 1,
+    "most": [
+     "Bei welchem Wort ist sich der Sprecher am sichersten?",
+     "Which word shows the speaker is most convinced?"
+    ]
+   },
+   "tiers": [
+    {
+     "label": "Klar sichtbar",
+     "label_en": "Plain to see",
+     "words": [
+      "offensichtlich"
+     ],
+     "anchor_word": "offensichtlich",
+     "anchor_en": "He's obviously ill (you can see it).",
+     "note": "offensichtlich and offenbar are also widely used to mean 'apparently' — the visible-evidence sense is the original one."
+    },
+    {
+     "label": "Es sieht so aus",
+     "label_en": "It seems so",
+     "words": [
+      "offenbar",
+      "anscheinend"
+     ],
+     "anchor_word": "anscheinend",
+     "anchor_en": "He's apparently ill (it seems so, and probably is)."
+    },
+    {
+     "label": "Jemand behauptet es",
+     "label_en": "Someone claims it",
+     "words": [
+      "angeblich"
+     ],
+     "anchor_word": "angeblich",
+     "anchor_en": "He's supposedly ill (so someone says — I have doubts)."
+    },
+    {
+     "label": "Nur Schein",
+     "label_en": "Only appearance",
+     "words": [
+      "scheinbar"
+     ],
+     "anchor_word": "scheinbar",
+     "anchor_en": "He only seems ill (but he isn't).",
+     "note": "⚠ In everyday speech scheinbar is often used to mean anscheinend. Careful writers keep them apart."
+    }
+   ],
+   "side": []
+  },
+  {
+   "id": "haeufigkeit",
+   "title": "Häufigkeit",
+   "question_de": "Wie oft?",
+   "question_en": "How often?",
+   "top": "immer",
+   "bottom": "nie",
+   "layout": "linear",
+   "anchor": "Ich gehe ___ joggen.",
+   "drill": {
+    "gap": 2,
+    "most": [
+     "Was ist am häufigsten?",
+     "Which word means the most often?"
+    ],
+    "least": [
+     "Was ist am seltensten?",
+     "Which word means the least often?"
+    ]
+   },
+   "tiers": [
+    {
+     "label": "100 %",
+     "label_en": "Always",
+     "words": [
+      "immer",
+      "stets",
+      "jedes Mal"
+     ],
+     "anchor_word": "immer",
+     "anchor_en": "I always go jogging."
+    },
+    {
+     "label": "Zu oft",
+     "label_en": "Too often",
+     "words": [
+      "ständig",
+      "dauernd"
+     ],
+     "anchor_word": "ständig",
+     "anchor_en": "I'm constantly going jogging.",
+     "note": "ständig and dauernd often sound annoyed: Er ruft ständig an!"
+    },
+    {
+     "label": "Fast immer",
+     "label_en": "Almost always",
+     "words": [
+      "meistens",
+      "normalerweise",
+      "in der Regel",
+      "fast immer"
+     ],
+     "anchor_word": "meistens",
+     "anchor_en": "I usually go jogging."
+    },
+    {
+     "label": "Oft",
+     "label_en": "Often",
+     "words": [
+      "oft",
+      "häufig"
+     ],
+     "anchor_word": "oft",
+     "anchor_en": "I often go jogging."
+    },
+    {
+     "label": "Manchmal",
+     "label_en": "Sometimes",
+     "words": [
+      "manchmal",
+      "ab und zu",
+      "hin und wieder",
+      "gelegentlich",
+      "von Zeit zu Zeit"
+     ],
+     "anchor_word": "manchmal",
+     "anchor_en": "I sometimes go jogging."
+    },
+    {
+     "label": "Selten",
+     "label_en": "Rarely",
+     "words": [
+      "selten"
+     ],
+     "anchor_word": "selten",
+     "anchor_en": "I rarely go jogging."
+    },
+    {
+     "label": "Fast nie",
+     "label_en": "Almost never",
+     "words": [
+      "kaum@adv_kaum",
+      "fast nie"
+     ],
+     "anchor_word": "fast nie",
+     "anchor_en": "I almost never go jogging."
+    },
+    {
+     "label": "0 %",
+     "label_en": "Never",
+     "words": [
+      "nie",
+      "niemals"
+     ],
+     "anchor_word": "nie",
+     "anchor_en": "I never go jogging."
+    }
+   ],
+   "side": [
+    {
+     "text": "regelmäßig = at fixed intervals. Strictly it says nothing about how often (einmal im Jahr can be regelmäßig), though in everyday speech it often implies 'often'.",
+     "words": [
+      "regelmäßig"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "takt",
+   "title": "Takt",
+   "question_de": "In welchem Abstand?",
+   "question_en": "At what interval?",
+   "top": "oft",
+   "bottom": "selten",
+   "layout": "linear",
+   "anchor": "Der Bus fährt ___.",
+   "drill": {
+    "gap": 1,
+    "most": [
+     "Was passiert am häufigsten?",
+     "Which happens most often?"
+    ],
+    "least": [
+     "Was passiert am seltensten?",
+     "Which happens least often?"
+    ]
+   },
+   "tiers": [
+    {
+     "label": "Jede Stunde",
+     "label_en": "Every hour",
+     "words": [
+      "stündlich"
+     ],
+     "anchor_word": "stündlich",
+     "anchor_en": "The bus runs every hour."
+    },
+    {
+     "label": "Jeden Tag",
+     "label_en": "Every day",
+     "words": [
+      "täglich"
+     ],
+     "anchor_word": "täglich",
+     "anchor_en": "The bus runs every day."
+    },
+    {
+     "label": "Jede Woche",
+     "label_en": "Every week",
+     "words": [
+      "wöchentlich"
+     ],
+     "anchor_word": "wöchentlich",
+     "anchor_en": "The bus runs every week."
+    },
+    {
+     "label": "Jeden Monat",
+     "label_en": "Every month",
+     "words": [
+      "monatlich"
+     ],
+     "anchor_word": "monatlich",
+     "anchor_en": "The bus runs every month."
+    },
+    {
+     "label": "Jedes Jahr",
+     "label_en": "Every year",
+     "words": [
+      "jährlich"
+     ],
+     "anchor_word": "jährlich",
+     "anchor_en": "The bus runs every year."
+    }
+   ],
+   "side": [
+    {
+     "text": "All built the same way: noun + -lich (Stunde → stündlich, Jahr → jährlich)."
+    }
+   ]
+  },
+  {
+   "id": "intensitaet",
+   "title": "Intensität",
+   "question_de": "Wie stark?",
+   "question_en": "How much?",
+   "top": "maximal",
+   "bottom": "null",
+   "layout": "linear",
+   "anchor": "Ich bin ___ müde.",
+   "drill": {
+    "gap": 2,
+    "most": [
+     "Was ist am stärksten?",
+     "Which word is the strongest?"
+    ],
+    "least": [
+     "Was ist am schwächsten?",
+     "Which word is the weakest?"
+    ]
+   },
+   "tiers": [
+    {
+     "label": "Maximal",
+     "label_en": "Maximum",
+     "words": [
+      "äußerst",
+      "extrem",
+      "absolut",
+      "total",
+      "völlig",
+      "unglaublich",
+      "wahnsinnig",
+      "voll",
+      "mega",
+      "super"
+     ],
+     "anchor_word": "total",
+     "anchor_en": "I'm totally tired.",
+     "note": "voll, mega and super are spoken / slang."
+    },
+    {
+     "label": "Stark",
+     "label_en": "Strong",
+     "words": [
+      "sehr",
+      "wirklich",
+      "echt",
+      "richtig",
+      "besonders",
+      "so"
+     ],
+     "anchor_word": "sehr",
+     "anchor_en": "I'm very tired."
+    },
+    {
+     "label": "Mittel",
+     "label_en": "Medium",
+     "words": [
+      "ziemlich",
+      "recht",
+      "ganz"
+     ],
+     "anchor_word": "ziemlich",
+     "anchor_en": "I'm pretty tired.",
+     "note": "⚠ ganz gut (unstressed) = fairly good, a bit lukewarm — not 'completely good'."
+    },
+    {
+     "label": "Schwach",
+     "label_en": "Slight",
+     "words": [
+      "etwas",
+      "ein bisschen",
+      "ein wenig",
+      "einigermaßen"
+     ],
+     "anchor_word": "ein bisschen",
+     "anchor_en": "I'm a little tired."
+    },
+    {
+     "label": "Kaum",
+     "label_en": "Barely",
+     "words": [
+      "kaum@adv_kaum_2"
+     ],
+     "anchor_word": "kaum",
+     "anchor_en": "I'm barely tired."
+    },
+    {
+     "label": "Null",
+     "label_en": "Not at all",
+     "words": [
+      "gar nicht",
+      "überhaupt nicht"
+     ],
+     "anchor_word": "gar nicht",
+     "anchor_en": "I'm not tired at all."
+    }
+   ],
+   "side": [
+    {
+     "text": "vergleichsweise = 'comparatively': it measures against something else, not on this scale.",
+     "words": [
+      "vergleichsweise"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "menge",
+   "title": "Menge um eine Zahl",
+   "question_de": "Mehr oder weniger als die Zahl?",
+   "question_en": "More or less than the number?",
+   "top": "mehr",
+   "bottom": "weniger",
+   "layout": "linear",
+   "anchor": "Ich habe ___ zwei Stunden gewartet.",
+   "drill": {
+    "gap": 2,
+    "most": [
+     "Was bedeutet die größte Menge?",
+     "Which word means the largest amount?"
+    ],
+    "least": [
+     "Was bedeutet die kleinste Menge?",
+     "Which word means the smallest amount?"
+    ]
+   },
+   "tiers": [
+    {
+     "label": "Mehr als",
+     "label_en": "More than",
+     "words": [
+      "mehr als"
+     ],
+     "anchor_word": "mehr als",
+     "anchor_en": "I waited more than two hours."
+    },
+    {
+     "label": "Etwas mehr",
+     "label_en": "A bit more",
+     "words": [
+      "gut"
+     ],
+     "anchor_word": "gut",
+     "anchor_en": "I waited a good two hours (a bit over).",
+     "note": "⚠ gut with a number = a bit MORE than it."
+    },
+    {
+     "label": "Mindestens",
+     "label_en": "At least",
+     "words": [
+      "mindestens"
+     ],
+     "anchor_word": "mindestens",
+     "anchor_en": "I waited at least two hours."
+    },
+    {
+     "label": "Genau",
+     "label_en": "Exactly",
+     "words": [
+      "genau"
+     ],
+     "anchor_word": "genau",
+     "anchor_en": "I waited exactly two hours.",
+     "example": {
+      "de": "Der Film beginnt genau um acht.",
+      "en": "The film starts at exactly eight."
+     }
+    },
+    {
+     "label": "Ungefähr",
+     "label_en": "About",
+     "words": [
+      "ungefähr",
+      "etwa",
+      "circa"
+     ],
+     "anchor_word": "ungefähr",
+     "anchor_en": "I waited about two hours."
+    },
+    {
+     "label": "Etwas weniger",
+     "label_en": "A bit less",
+     "words": [
+      "knapp",
+      "fast",
+      "beinahe"
+     ],
+     "anchor_word": "knapp",
+     "anchor_en": "I waited just under two hours."
+    },
+    {
+     "label": "Höchstens",
+     "label_en": "At most",
+     "words": [
+      "höchstens"
+     ],
+     "anchor_word": "höchstens",
+     "anchor_en": "I waited two hours at most."
+    }
+   ],
+   "side": [
+    {
+     "text": "nur, bloß and lediglich mean 'exactly this — and that's little'. They judge the number rather than move it: Ich habe nur zwei Stunden gewartet.",
+     "words": [
+      "nur",
+      "bloß",
+      "lediglich"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zeitstrahl",
+   "title": "Zeitstrahl",
+   "question_de": "Wann, von jetzt aus gesehen?",
+   "question_en": "When, seen from now?",
+   "top": "Vergangenheit",
+   "bottom": "Zukunft",
+   "layout": "linear",
+   "anchor": null,
+   "drill": {
+    "gap": 2,
+    "most": [
+     "Was liegt am weitesten in der Vergangenheit?",
+     "Which word is furthest in the past?"
+    ],
+    "least": [
+     "Was liegt am weitesten in der Zukunft?",
+     "Which word is furthest in the future?"
+    ]
+   },
+   "tiers": [
+    {
+     "label": "Lange her",
+     "label_en": "Long ago",
+     "words": [
+      "früher",
+      "damals"
+     ]
+    },
+    {
+     "label": "Vor einiger Zeit",
+     "label_en": "Some time ago",
+     "words": [
+      "neulich",
+      "kürzlich",
+      "vor Kurzem"
+     ]
+    },
+    {
+     "label": "Vor wenigen Minuten",
+     "label_en": "A few minutes ago",
+     "words": [
+      "vorhin",
+      "eben"
+     ]
+    },
+    {
+     "label": "Jetzt",
+     "label_en": "Now",
+     "words": [
+      "jetzt",
+      "gerade"
+     ],
+     "note": "⚠ gerade can also mean 'just now': Ich bin gerade angekommen."
+    },
+    {
+     "label": "In Sekunden",
+     "label_en": "Right away",
+     "words": [
+      "sofort",
+      "gleich"
+     ]
+    },
+    {
+     "label": "Bald",
+     "label_en": "Soon",
+     "words": [
+      "bald"
+     ]
+    },
+    {
+     "label": "Später",
+     "label_en": "Later",
+     "words": [
+      "später"
+     ]
+    },
+    {
+     "label": "Irgendwann",
+     "label_en": "Some day",
+     "words": [
+      "irgendwann"
+     ],
+     "note": "irgendwann = at some unspecified time — usually future, but also past: Irgendwann hat er aufgehört.",
+     "drill": false
+    }
+   ],
+   "side": []
+  },
+  {
+   "id": "verlauf",
+   "title": "Verlauf",
+   "question_de": "Wo steht die Handlung?",
+   "question_en": "Where is the action in its lifecycle?",
+   "top": "vor dem Anfang",
+   "bottom": "vorbei",
+   "layout": "linear",
+   "anchor": "Sie schläft ___.",
+   "drill": {
+    "gap": 1,
+    "most": [
+     "Was kommt im Ablauf zuerst?",
+     "Which comes first in the process?"
+    ],
+    "least": [
+     "Was kommt im Ablauf zuletzt?",
+     "Which comes last in the process?"
+    ]
+   },
+   "tiers": [
+    {
+     "label": "Noch nicht angefangen",
+     "label_en": "Not started",
+     "words": [
+      "noch nicht"
+     ],
+     "anchor_word": "noch nicht",
+     "anchor_en": "She isn't asleep yet."
+    },
+    {
+     "label": "Hat angefangen",
+     "label_en": "Has started",
+     "words": [
+      "schon",
+      "bereits"
+     ],
+     "anchor_word": "schon",
+     "anchor_en": "She's already asleep."
+    },
+    {
+     "label": "Dauert an",
+     "label_en": "Still going",
+     "words": [
+      "noch"
+     ],
+     "anchor_word": "noch",
+     "anchor_en": "She's still asleep."
+    },
+    {
+     "label": "Vorbei",
+     "label_en": "Over",
+     "words": [
+      "nicht mehr"
+     ],
+     "anchor_word": "nicht mehr",
+     "anchor_en": "She isn't asleep anymore."
+    }
+   ],
+   "side": [
+    {
+     "text": "inzwischen and mittlerweile mark that a change has happened over time: Inzwischen wohnt sie in Berlin.",
+     "words": [
+      "inzwischen",
+      "mittlerweile"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reihenfolge",
+   "title": "Reihenfolge",
+   "question_de": "Welcher Schritt?",
+   "question_en": "Which step?",
+   "top": "Anfang",
+   "bottom": "Ende",
+   "layout": "linear",
+   "anchor": null,
+   "drill": {
+    "gap": 1,
+    "most": [
+     "Was kommt zuerst?",
+     "Which comes first?"
+    ],
+    "least": [
+     "Was kommt zuletzt?",
+     "Which comes last?"
+    ]
+   },
+   "tiers": [
+    {
+     "label": "Anfang",
+     "label_en": "Start",
+     "words": [
+      "zuerst",
+      "zunächst",
+      "erstens"
+     ]
+    },
+    {
+     "label": "Danach",
+     "label_en": "Next",
+     "words": [
+      "dann",
+      "danach",
+      "anschließend",
+      "zweitens"
+     ]
+    },
+    {
+     "label": "Dritter Schritt",
+     "label_en": "Third step",
+     "words": [
+      "drittens"
+     ]
+    },
+    {
+     "label": "Ende",
+     "label_en": "End",
+     "words": [
+      "zuletzt",
+      "schließlich"
+     ]
+    }
+   ],
+   "side": [
+    {
+     "text": "⚠ endlich = 'at last!' — relief after waiting, not just the last step. Endlich bist du da!",
+     "words": [
+      "endlich"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zustimmung",
+   "title": "Zustimmung",
+   "question_de": "Ja oder nein?",
+   "question_en": "Yes or no?",
+   "top": "ja",
+   "bottom": "nein",
+   "layout": "linear",
+   "anchor": "Das Wetter ist schön, oder? – ___!",
+   "drill": {
+    "gap": 2,
+    "most": [
+     "Was ist die stärkste Zustimmung?",
+     "Which is the strongest yes?"
+    ],
+    "least": [
+     "Was ist die stärkste Ablehnung?",
+     "Which is the strongest no?"
+    ]
+   },
+   "tiers": [
+    {
+     "label": "Volle Zustimmung",
+     "label_en": "Full yes",
+     "words": [
+      "genau",
+      "absolut",
+      "auf jeden Fall",
+      "klar",
+      "natürlich@adv_natuerlich_2"
+     ],
+     "anchor_word": "genau",
+     "anchor_en": "Exactly!",
+     "example": {
+      "de": "Wir treffen uns um acht, oder? – Genau.",
+      "en": "We're meeting at eight, right? – Exactly."
+     }
+    },
+    {
+     "label": "Zustimmung",
+     "label_en": "Yes",
+     "words": [
+      "stimmt"
+     ],
+     "anchor_word": "stimmt",
+     "anchor_en": "True!"
+    },
+    {
+     "label": "Teils, teils",
+     "label_en": "Partly",
+     "words": [
+      "jein"
+     ],
+     "anchor_word": "jein",
+     "anchor_en": "Yes and no!"
+    },
+    {
+     "label": "Eher nein",
+     "label_en": "Rather no",
+     "words": [
+      "eher nicht"
+     ],
+     "anchor_word": "eher nicht",
+     "anchor_en": "Not really!"
+    },
+    {
+     "label": "Klares Nein",
+     "label_en": "Clear no",
+     "words": [
+      "auf keinen Fall",
+      "keineswegs",
+      "kein Stück"
+     ],
+     "anchor_word": "auf keinen Fall",
+     "anchor_en": "No way!",
+     "note": "kein Stück and jein are spoken."
+    }
+   ],
+   "side": [
+    {
+     "text": "leider = 'unfortunately' — it shows regret, not a position: Leider nicht.",
+     "words": [
+      "leider"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "widerspruch",
+   "title": "Widerspruch",
+   "question_de": "Wie stark widerspricht der zweite Teil?",
+   "question_en": "How strongly does the second part push against the first?",
+   "top": "schwach",
+   "bottom": "total",
+   "layout": "linear",
+   "anchor": null,
+   "drill": null,
+   "tiers": [
+    {
+     "label": "Einschränkend",
+     "label_en": "Restricting",
+     "words": [
+      "allerdings@adv_allerdings_2",
+      "jedoch"
+     ],
+     "note": "The first part stays true, with a limitation: Das Hotel ist schön, allerdings teuer."
+    },
+    {
+     "label": "Gegen die Erwartung",
+     "label_en": "Against expectations",
+     "words": [
+      "trotzdem@adv_trotzdem_2",
+      "dennoch@adv_dennoch_2"
+     ],
+     "note": "Something happens although you'd expect it not to: Es regnet, trotzdem gehen wir."
+    },
+    {
+     "label": "Gegenüberstellend",
+     "label_en": "Comparing",
+     "words": [
+      "hingegen",
+      "dagegen",
+      "andererseits"
+     ],
+     "note": "Two facts side by side: Er ist groß, sie hingegen klein."
+    },
+    {
+     "label": "Ersetzend",
+     "label_en": "Replacing",
+     "words": [
+      "stattdessen",
+      "sondern"
+     ],
+     "note": "The second part replaces the first: nicht Kaffee, sondern Tee."
+    },
+    {
+     "label": "Umkehrend",
+     "label_en": "Reversing",
+     "words": [
+      "im Gegenteil"
+     ],
+     "note": "The opposite is true: Langweilig? Im Gegenteil!"
+    }
+   ],
+   "side": [
+    {
+     "text": "This axis is a sequence of types rather than a strict ranking, so it has no ordering exercise."
+    }
+   ],
+   "evidence": "rule_of_thumb"
+  },
+  {
+   "id": "register_folge",
+   "title": "Register: Folge",
+   "question_de": "Wie formell klingt 'deshalb'?",
+   "question_en": "How formal is the 'therefore'?",
+   "top": "gesprochen",
+   "bottom": "formell",
+   "layout": "linear",
+   "anchor": "Es regnet, ___ bleiben wir zu Hause.",
+   "drill": {
+    "gap": 2,
+    "most": [
+     "Was klingt am umgangssprachlichsten?",
+     "Which sounds the most conversational?"
+    ],
+    "least": [
+     "Was klingt am formellsten?",
+     "Which sounds the most formal?"
+    ]
+   },
+   "tiers": [
+    {
+     "label": "Gesprochen",
+     "label_en": "Spoken",
+     "words": [
+      "darum",
+      "deswegen@adv_deswegen_2"
+     ],
+     "anchor_word": "deswegen",
+     "anchor_en": "It's raining, that's why we're staying home."
+    },
+    {
+     "label": "Neutral",
+     "label_en": "Neutral",
+     "words": [
+      "deshalb@adv_deshalb_2"
+     ],
+     "anchor_word": "deshalb",
+     "anchor_en": "It's raining, so we're staying home."
+    },
+    {
+     "label": "Gehoben",
+     "label_en": "Careful",
+     "words": [
+      "daher@adv_daher_2"
+     ],
+     "anchor_word": "daher",
+     "anchor_en": "It's raining; hence we're staying home."
+    },
+    {
+     "label": "Schriftlich",
+     "label_en": "Written",
+     "words": [
+      "somit",
+      "folglich"
+     ],
+     "anchor_word": "folglich",
+     "anchor_en": "It's raining; consequently we're staying home."
+    },
+    {
+     "label": "Sehr formell",
+     "label_en": "Very formal",
+     "words": [
+      "infolgedessen"
+     ],
+     "anchor_word": "infolgedessen",
+     "anchor_en": "It is raining; as a result, we are staying at home."
+    }
+   ],
+   "side": [],
+   "evidence": "rule_of_thumb",
+   "synonyms_expected": true
+  },
+  {
+   "id": "register_gegensatz",
+   "title": "Register: Gegensatz",
+   "question_de": "Welche Bedeutung, welches Register?",
+   "question_en": "Which meaning, which register?",
+   "layout": "grid",
+   "cols": [
+    "Trotzdem-Sinn",
+    "Einschränkung"
+   ],
+   "cols_en": [
+    "despite that",
+    "with a limitation"
+   ],
+   "rows": [
+    "Alltag",
+    "Schriftlich"
+   ],
+   "rows_en": [
+    "everyday",
+    "written"
+   ],
+   "cells": [
+    [
+     [
+      "trotzdem@adv_trotzdem_2"
+     ],
+     [
+      "allerdings@adv_allerdings_2"
+     ]
+    ],
+    [
+     [
+      "dennoch@adv_dennoch_2"
+     ],
+     [
+      "jedoch"
+     ]
+    ]
+   ],
+   "drill": {
+    "kind": "cell"
+   },
+   "side": [
+    {
+     "text": "trotzdem ≈ dennoch: it happens anyway. allerdings ≈ jedoch: true, but with a limitation."
+    }
+   ],
+   "evidence": "rule_of_thumb",
+   "synonyms_expected": true
+  },
+  {
+   "id": "register_zusatz",
+   "title": "Register: Zusatz",
+   "question_de": "Wie formell klingt 'außerdem'?",
+   "question_en": "How formal is the 'also'?",
+   "top": "gesprochen",
+   "bottom": "formell",
+   "layout": "linear",
+   "anchor": "Die Wohnung ist zu klein. ___ ist sie zu teuer.",
+   "drill": {
+    "gap": 2,
+    "most": [
+     "Was klingt am umgangssprachlichsten?",
+     "Which sounds the most conversational?"
+    ],
+    "least": [
+     "Was klingt am formellsten?",
+     "Which sounds the most formal?"
+    ]
+   },
+   "tiers": [
+    {
+     "label": "Basis",
+     "label_en": "Basic",
+     "words": [
+      "auch"
+     ],
+     "anchor_word": "auch",
+     "anchor_en": "The flat is too small. It's also too expensive."
+    },
+    {
+     "label": "Alltag",
+     "label_en": "Everyday",
+     "words": [
+      "außerdem"
+     ],
+     "anchor_word": "außerdem",
+     "anchor_en": "The flat is too small. Besides, it's too expensive."
+    },
+    {
+     "label": "Neutral",
+     "label_en": "Neutral",
+     "words": [
+      "zusätzlich"
+     ],
+     "anchor_word": "zusätzlich",
+     "anchor_en": "The flat is too small. In addition, it's too expensive."
+    },
+    {
+     "label": "Gehoben",
+     "label_en": "Careful",
+     "words": [
+      "zudem"
+     ],
+     "anchor_word": "zudem",
+     "anchor_en": "The flat is too small. Moreover, it's too expensive."
+    },
+    {
+     "label": "Formell",
+     "label_en": "Formal",
+     "words": [
+      "darüber hinaus"
+     ],
+     "anchor_word": "darüber hinaus",
+     "anchor_en": "The flat is too small. Furthermore, it is too expensive."
+    }
+   ],
+   "side": [],
+   "evidence": "rule_of_thumb",
+   "synonyms_expected": true
+  },
+  {
+   "id": "alle_keine",
+   "title": "Alle ↔ Keine",
+   "question_de": "Alle, einige oder keine?",
+   "question_en": "All, some or none?",
+   "layout": "grid",
+   "cols": [
+    "Zeit",
+    "Ort",
+    "Ding",
+    "Person"
+   ],
+   "cols_en": [
+    "time",
+    "place",
+    "thing",
+    "person"
+   ],
+   "rows": [
+    "alle",
+    "einige",
+    "keine"
+   ],
+   "rows_en": [
+    "all",
+    "some",
+    "none"
+   ],
+   "cells": [
+    [
+     [
+      "immer",
+      "jederzeit"
+     ],
+     [
+      "überall"
+     ],
+     [
+      "alles"
+     ],
+     [
+      "jeder"
+     ]
+    ],
+    [
+     [
+      "irgendwann"
+     ],
+     [
+      "irgendwo"
+     ],
+     [
+      "irgendetwas"
+     ],
+     [
+      "jemand",
+      "irgendwer"
+     ]
+    ],
+    [
+     [
+      "nie",
+      "niemals"
+     ],
+     [
+      "nirgends",
+      "nirgendwo"
+     ],
+     [
+      "nichts"
+     ],
+     [
+      "niemand"
+     ]
+    ]
+   ],
+   "drill": {
+    "kind": "cell"
+   },
+   "side": [
+    {
+     "text": "irgend- makes anything indefinite: irgendwann, irgendwo, irgendetwas, irgendwer. alles, nichts, jeder, jemand and niemand are pronouns, listed here because they complete the pattern."
+    }
+   ]
+  },
+  {
+   "id": "entfernung",
+   "title": "Entfernung",
+   "question_de": "Wie weit weg?",
+   "question_en": "How far away?",
+   "top": "nah",
+   "bottom": "fern",
+   "layout": "linear",
+   "anchor": "Das Café ist ___.",
+   "drill": {
+    "gap": 2,
+    "most": [
+     "Was ist am nächsten?",
+     "Which is closest?"
+    ],
+    "least": [
+     "Was ist am weitesten weg?",
+     "Which is furthest away?"
+    ]
+   },
+   "tiers": [
+    {
+     "label": "Hier",
+     "label_en": "Here",
+     "words": [
+      "hier"
+     ],
+     "anchor_word": "hier",
+     "anchor_en": "The café is here."
+    },
+    {
+     "label": "Da",
+     "label_en": "There",
+     "words": [
+      "da"
+     ],
+     "anchor_word": "da",
+     "anchor_en": "The café is there.",
+     "drill": false,
+     "note": "da is the vaguest: it can point near or far. dort is 'stärker als da' (Wiktionary)."
+    },
+    {
+     "label": "Dort",
+     "label_en": "There (further)",
+     "words": [
+      "dort"
+     ],
+     "anchor_word": "dort",
+     "anchor_en": "The café is over there."
+    },
+    {
+     "label": "Drüben",
+     "label_en": "Across",
+     "words": [
+      "drüben"
+     ],
+     "anchor_word": "drüben",
+     "anchor_en": "The café is across the way.",
+     "drill": false
+    },
+    {
+     "label": "Weit weg",
+     "label_en": "Far",
+     "words": [
+      "weit weg"
+     ],
+     "anchor_word": "weit weg",
+     "anchor_en": "The café is far away."
+    }
+   ],
+   "side": []
+  }
+ ]
+}

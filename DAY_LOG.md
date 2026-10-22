@@ -2,6 +2,71 @@
 
 ---
 
+## 2026-10-22 — Session 42: Adverb Scales (v23)
+
+Ricco asked for reference pages that put adverbs on vertical axes (probability, frequency,
+intensity…) in tiers with examples. PRD `PRD_Adverb_Scales.md`: v1 draft → v2 after feedback →
+signed off same day ("Yes, build and ship").
+
+### Decisions from Ricco
+- In-app reference screen in the Adverbs module (Particle Reference pattern).
+- Don't build on his example list — he's a learner. Content derived independently. His list had
+  "é" for "ist", *unbedingt* (necessity, not certainty), *unmöglich* (adjective).
+- The 2026-08-28 "no more content" rule is a rule of thumb: new axis words go in WITH exercises.
+- Axes need 4+ words → Direktheit dropped (3 adverbs, mixed structures); Register split into 3
+  axes; Takt promoted to its own axis. 16 axes total.
+- Ordering exercise: in.
+
+### What was built
+- `_factory/adverb-scales/`: `axes.json` + `new-words.json` (seeds), `wiktionary-cache.tsv`
+  (188 entries, fetched via MediaWiki API in the in-app browser; transferred in two chunks, each
+  verified by length + hash against the browser copy), `generate.py` (idempotent: strips its own
+  previous output by tag/slug, so a rerun is byte-identical — checked by md5).
+- 74 new adverbs × 4 exercises, 88 `scale_choice` drills, `data/adverb-scales.json`.
+- `js/scales.js` (list + axis detail, chips tap to show English, grid layout), `_renderScaleChoice`
+  in exercises.js dispatching through `selectAnswer()` → `_recordAnswer` (no new engine — the
+  recurring "new engine forgets to persist" bug can't happen by construction, and check K + the
+  jsdom suite assert it).
+- Queue categories `scales` and `scale:<axis>` in `_buildQueue` for module_adverbs.
+- SW v23, `js/scales.js` precached.
+
+### Evidence changed the content (Wiktionary, not judgement)
+- *sicherlich* moved from "Sehr sicher" to "Fast sicher": Wiktionary defines it as "mit ziemlicher
+  Sicherheit", the same words it uses for *wahrscheinlich*.
+- *scheinbar* vs *anscheinend*: listed as Gegenwörter → supports the split; but scheinbar [2] also
+  = anscheinend, so the ⚠ note says the colloquial use exists.
+- *regelmäßig* side note softened (Wiktionary [2] "immer wieder").
+- *dort* "stärker als da" → supports da < dort; da/drüben excluded from distance drills (da is vague).
+- Register ladders + Widerspruch: Wiktionary lists them as plain synonyms → labelled **Faustregel**
+  in the app rather than presented as a ranking.
+
+### Mistakes caught by looking / by the checks
+- Tier examples were taken from the tier's first word: *kaum*'s stored example is the frequency
+  sense ("Ich kenne ihn kaum") — wrong on Gewissheit. Fixed: example comes from the anchor word;
+  seed override for *genau* (Menge, Zustimmung). New validator rule D: example must contain a tier word.
+- Grid drills first offered words printed in the prompt pattern (free eliminations). Fixed + check G.
+- Grid rows were separate CSS grids with `max-content` → misaligned columns, chips broke mid-word.
+  Fixed with a computed fixed head column. Only visible in screenshots.
+- `navigateTo()` ignores navigating to the current screen → `openAdverbScale()` re-renders instead.
+- The generator's first idempotency strip keyed off tags in adverbs.json only, so restoring
+  adverbs but not exercises duplicated 296 exercises. Now also strips by seed slug.
+
+### Existing data
+- Fixed an anglicism in `adv_deswegen_2` ("deswegen war ich spät" → "kam ich zu spät") in the
+  entry and its two exercises.
+- **Found, not fixed (out of scope):** 74 pre-S42 exercises (35 words) offer a synonym as a
+  "wrong" answer — e.g. *deswegen* with *daher/deshalb/folglich*, *total* with *absolut/voll*.
+  Learners get marked wrong for correct answers. Detected with the scale tiers + Wiktionary
+  synonyms; list in `_factory/adverb-scales/existing-distractor-audit.txt`. Also seen: existing
+  EN→DE items capitalise distractors ("Niemals") but not the answer — a giveaway.
+
+### QA
+validate-adverb-scales A–K PASS · mutation 17/17 · qa-adverb-scales 48/48 · qa-review, qa-srs,
+qa-stuck-mode, qa-prefixes, qa-variants, validate-srs, validate-stammverben, verify-srs-validator
+all green · 375 px screenshots of list, linear axes, both grids, drill + wrong-answer feedback.
+
+---
+
 ## 2026-10-19 — Session 41: Stammverben audit + the stuck review mode (v22)
 
 Ricco: several verb-only sessions in Stammverben recorded no progress, and served prefix verbs

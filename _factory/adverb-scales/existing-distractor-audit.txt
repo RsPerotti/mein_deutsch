@@ -1,0 +1,118 @@
+# Pre-Session-42 adverb exercises whose 'wrong' option is also right (Session 42 audit, NOT fixed — out of PRD scope)
+# 116 distractors in 74 exercises, 35 words. Columns: exercise, answer, distractor, why
+ex_adv_manchmal_002	manchmal	von Zeit zu Zeit	same scale tier + Wiktionary synonym
+ex_adv_manchmal_003	manchmal	von Zeit zu Zeit	same scale tier + Wiktionary synonym
+ex_adv_gelegentlich_002	gelegentlich	von Zeit zu Zeit	same scale tier + Wiktionary synonym
+ex_adv_gelegentlich_003	gelegentlich	von Zeit zu Zeit	same scale tier + Wiktionary synonym
+ex_adv_ab_und_zu_002	ab und zu	manchmal	same scale tier + Wiktionary synonym
+ex_adv_ab_und_zu_002	ab und zu	gelegentlich	same scale tier + Wiktionary synonym
+ex_adv_ab_und_zu_003	ab und zu	manchmal	same scale tier + Wiktionary synonym
+ex_adv_ab_und_zu_003	ab und zu	gelegentlich	same scale tier + Wiktionary synonym
+ex_adv_von_zeit_zu_zeit_002	von Zeit zu Zeit	manchmal	same scale tier + Wiktionary synonym
+ex_adv_von_zeit_zu_zeit_003	von Zeit zu Zeit	manchmal	same scale tier + Wiktionary synonym
+ex_adv_regelmaessig_002	regelmäßig	oft	Wiktionary synonym
+ex_adv_regelmaessig_003	regelmäßig	oft	Wiktionary synonym
+ex_adv_danach_002	danach	dann	same scale tier + Wiktionary synonym
+ex_adv_danach_003	danach	dann	same scale tier + Wiktionary synonym
+ex_adv_dann_002	dann	außerdem	Wiktionary synonym
+ex_adv_dann_003	dann	außerdem	Wiktionary synonym
+ex_adv_zweitens_002	zweitens	danach	same scale tier
+ex_adv_zweitens_002	zweitens	dann	same scale tier
+ex_adv_zweitens_003	zweitens	danach	same scale tier
+ex_adv_zweitens_003	zweitens	dann	same scale tier
+ex_adv_eventuell_002	eventuell	möglicherweise	same scale tier
+ex_adv_eventuell_003	eventuell	möglicherweise	same scale tier
+ex_adv_offenbar_002	offenbar	anscheinend	same scale tier + Wiktionary synonym
+ex_adv_offenbar_003	offenbar	anscheinend	same scale tier + Wiktionary synonym
+ex_adv_natuerlich_002	natürlich	auf jeden Fall	same scale tier
+ex_adv_natuerlich_003	natürlich	auf jeden Fall	same scale tier
+ex_adv_auf_jeden_fall_002	auf jeden Fall	bestimmt	Wiktionary synonym
+ex_adv_auf_jeden_fall_003	auf jeden Fall	bestimmt	Wiktionary synonym
+ex_adv_moeglicherweise_002	möglicherweise	eventuell	same scale tier + Wiktionary synonym
+ex_adv_moeglicherweise_003	möglicherweise	eventuell	same scale tier + Wiktionary synonym
+ex_adv_sehr_002	sehr	echt	same scale tier
+ex_adv_sehr_003	sehr	echt	same scale tier
+ex_adv_total_002	total	absolut	same scale tier
+ex_adv_total_002	total	voll	same scale tier
+ex_adv_total_002	total	wahnsinnig	same scale tier
+ex_adv_total_003	total	absolut	same scale tier
+ex_adv_total_003	total	voll	same scale tier
+ex_adv_total_003	total	wahnsinnig	same scale tier
+ex_adv_extrem_002	extrem	besonders	Wiktionary synonym
+ex_adv_extrem_002	extrem	unglaublich	same scale tier
+ex_adv_extrem_003	extrem	besonders	Wiktionary synonym
+ex_adv_extrem_003	extrem	unglaublich	same scale tier
+ex_adv_absolut_002	absolut	mega	same scale tier
+ex_adv_absolut_002	absolut	unglaublich	same scale tier
+ex_adv_absolut_002	absolut	wahnsinnig	same scale tier
+ex_adv_absolut_003	absolut	mega	same scale tier
+ex_adv_absolut_003	absolut	unglaublich	same scale tier
+ex_adv_absolut_003	absolut	wahnsinnig	same scale tier
+ex_adv_unglaublich_002	unglaublich	total	same scale tier
+ex_adv_unglaublich_002	unglaublich	wahnsinnig	same scale tier + Wiktionary synonym
+ex_adv_unglaublich_002	unglaublich	extrem	same scale tier
+ex_adv_unglaublich_003	unglaublich	total	same scale tier
+ex_adv_unglaublich_003	unglaublich	wahnsinnig	same scale tier + Wiktionary synonym
+ex_adv_unglaublich_003	unglaublich	extrem	same scale tier
+ex_adv_echt_002	echt	besonders	same scale tier
+ex_adv_echt_002	echt	sehr	same scale tier
+ex_adv_echt_003	echt	besonders	same scale tier
+ex_adv_echt_003	echt	sehr	same scale tier
+ex_adv_voll_002	voll	wahnsinnig	same scale tier
+ex_adv_voll_002	voll	mega	same scale tier
+ex_adv_voll_003	voll	wahnsinnig	same scale tier
+ex_adv_voll_003	voll	mega	same scale tier
+ex_adv_so_002	so	besonders	same scale tier
+ex_adv_so_003	so	besonders	same scale tier
+ex_adv_mega_002	mega	extrem	same scale tier
+ex_adv_mega_002	mega	wahnsinnig	same scale tier
+ex_adv_mega_003	mega	extrem	same scale tier
+ex_adv_mega_003	mega	wahnsinnig	same scale tier
+ex_adv_wahnsinnig_002	wahnsinnig	unglaublich	same scale tier
+ex_adv_wahnsinnig_002	wahnsinnig	voll	same scale tier
+ex_adv_wahnsinnig_003	wahnsinnig	unglaublich	same scale tier
+ex_adv_wahnsinnig_003	wahnsinnig	voll	same scale tier
+ex_adv_deswegen_2_002	deswegen	daher	Wiktionary synonym
+ex_adv_deswegen_2_002	deswegen	deshalb	Wiktionary synonym
+ex_adv_deswegen_2_002	deswegen	folglich	Wiktionary synonym
+ex_adv_deswegen_2_003	deswegen	daher	Wiktionary synonym
+ex_adv_deswegen_2_003	deswegen	deshalb	Wiktionary synonym
+ex_adv_deswegen_2_003	deswegen	folglich	Wiktionary synonym
+ex_adv_somit_002	somit	daher	Wiktionary synonym
+ex_adv_somit_002	somit	deshalb	Wiktionary synonym
+ex_adv_somit_003	somit	daher	Wiktionary synonym
+ex_adv_somit_003	somit	deshalb	Wiktionary synonym
+ex_adv_deshalb_2_002	deshalb	daher	Wiktionary synonym
+ex_adv_deshalb_2_002	deshalb	deswegen	Wiktionary synonym
+ex_adv_deshalb_2_002	deshalb	infolgedessen	Wiktionary synonym
+ex_adv_deshalb_2_002	deshalb	folglich	Wiktionary synonym
+ex_adv_deshalb_2_003	deshalb	daher	Wiktionary synonym
+ex_adv_deshalb_2_003	deshalb	deswegen	Wiktionary synonym
+ex_adv_deshalb_2_003	deshalb	infolgedessen	Wiktionary synonym
+ex_adv_deshalb_2_003	deshalb	folglich	Wiktionary synonym
+ex_adv_folglich_002	folglich	somit	same scale tier
+ex_adv_folglich_002	folglich	infolgedessen	Wiktionary synonym
+ex_adv_folglich_003	folglich	somit	same scale tier
+ex_adv_folglich_003	folglich	infolgedessen	Wiktionary synonym
+ex_adv_genau_002	genau	natürlich	same scale tier
+ex_adv_genau_003	genau	natürlich	same scale tier
+ex_adv_klar_002	klar	natürlich	same scale tier
+ex_adv_klar_003	klar	natürlich	same scale tier
+ex_adv_natuerlich_2_002	natürlich	klar	same scale tier + Wiktionary synonym
+ex_adv_natuerlich_2_002	natürlich	genau	same scale tier
+ex_adv_natuerlich_2_003	natürlich	klar	same scale tier + Wiktionary synonym
+ex_adv_natuerlich_2_003	natürlich	genau	same scale tier
+ex_adv_jedoch_002	jedoch	allerdings	same scale tier
+ex_adv_jedoch_003	jedoch	allerdings	same scale tier
+ex_adv_allerdings_2_002	allerdings	jedoch	same scale tier + Wiktionary synonym
+ex_adv_allerdings_2_003	allerdings	jedoch	same scale tier + Wiktionary synonym
+ex_adv_trotzdem_2_002	trotzdem	dennoch	same scale tier + Wiktionary synonym
+ex_adv_trotzdem_2_003	trotzdem	dennoch	same scale tier + Wiktionary synonym
+ex_adv_dennoch_2_002	dennoch	trotzdem	same scale tier + Wiktionary synonym
+ex_adv_dennoch_2_003	dennoch	trotzdem	same scale tier + Wiktionary synonym
+ex_adv_hingegen_002	hingegen	allerdings	Wiktionary synonym
+ex_adv_hingegen_003	hingegen	allerdings	Wiktionary synonym
+ex_adv_vielleicht_2_002	vielleicht	eventuell	same scale tier + Wiktionary synonym
+ex_adv_vielleicht_2_003	vielleicht	eventuell	same scale tier + Wiktionary synonym
+ex_adv_eventuell_2_002	eventuell	vielleicht	same scale tier
+ex_adv_eventuell_2_003	eventuell	vielleicht	same scale tier
