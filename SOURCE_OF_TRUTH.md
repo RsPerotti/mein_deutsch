@@ -5,7 +5,15 @@
 
 ## Current State
 
-**10 modules built and live, plus Wiederholung.** App at https://rsperotti.github.io/mein_deutsch (v23).
+**10 modules built and live, plus Wiederholung.** App at https://rsperotti.github.io/mein_deutsch (v24).
+
+**Session 42b — one viable answer per adverb exercise (v24).** Every adverb exercise now has exactly
+one right option. 578 distractors in 304 exercises were replaced because they meant the same as the
+answer (e.g. *deswegen* offered *deshalb/daher/folglich* as "wrong"); plus 16 capitalisation
+giveaways and 2 duplicate options. Rule + run order: `PRD_Adverb_Scales.md` §Follow-up. Tools:
+`_factory/adverb-distractors/fix-distractors.py` (deterministic, ledger in `ledger.tsv`) and the
+independent `validate-adverb-distractors.py` (L1–L6, mutation test 12/12). Wiktionary cache now
+covers all 213 adverbs.
 
 **Session 42 — Adverb Scales (v23).** New **Skalen** reference inside the Adverbs module (module home
 card + Adverbliste card): **16 axes**, each one question, drawn vertically pole → pole with tiers of
@@ -17,9 +25,8 @@ recording/unlock/cooldown/review are inherited. Pipeline: `_factory/adverb-scale
 (`axes.json`, `new-words.json`, `wiktionary-cache.tsv`) → `generate.py` → `bundle-data.py` →
 `validate-adverb-scales.py` (checks A–K, mutation-tested 17/17 by
 `verify-adverb-scales-validator.py`) + `qa-adverb-scales.js` (48). Report:
-`_factory/adverb-scales/report.md`. PRD: `PRD_Adverb_Scales.md`. **Open finding:** 74 pre-S42
-adverb exercises offer a synonym as a "wrong" answer (e.g. *deswegen* with *deshalb/daher*);
-list in `_factory/adverb-scales/existing-distractor-audit.txt` — not fixed, needs Ricco's go.
+`_factory/adverb-scales/report.md`. PRD: `PRD_Adverb_Scales.md`. The synonym-distractor finding from this
+session was fixed in Session 42b (see the entry above).
 Deploy `a4597fd` verified live 2026-10-22 (SW v23, 16 axes render on the live site).
 
 **Session 41 — Stammverben audit + stuck review mode (v22).** *Fixed:* leaving a session with
@@ -148,7 +155,7 @@ material Ricco knows best. PRD: `PRD_Wiederholung.md`.
 | `_factory/vorsilben/verify-report.md` | ✅ NEW (S39) | Per-verb verdict: PASS / MISMATCH / AMBIGUOUS / NOT-FOUND. |
 | `_factory/vorsilben/judgement-review.md` | ✅ VERIFIED (S39) | No longer flagged UNVERIFIED for separability + auxiliary. Both its table and the 12-override section are now recomputed from seeds and `verbs.json` on every generator run, so a partial re-run can no longer truncate it. Case calls still open. |
 | `data/exercises/exercises-nouns.json` | ✅ 690 exercises | 230 × 3. |
-| `data/exercises/exercises-adverbs.json` | ✅ 940 exercises | 213 × 4 + 88 `scale_choice` (`ex_adv_scale_<axis>_NNN`). |
+| `data/exercises/exercises-adverbs.json` | ✅ 940 exercises | 213 × 4 + 88 `scale_choice` (`ex_adv_scale_<axis>_NNN`). Distractors post-processed by `_factory/adverb-distractors/fix-distractors.py` (S42b). |
 | `data/exercises/exercises-adjectives.json` | ✅ 544 exercises | 136 × 4. |
 | `data/exercises/exercises-prepositions.json` | ✅ 158 exercises | 79 select_preposition + 79 select_case. |
 | `data/exercises/exercises-particles.json` | ✅ 510 exercises | 34 × 15. **Content-reviewed (Phase 6) — 0 integrity errors.** |
@@ -253,6 +260,7 @@ to both stores" as a mandatory check for any new engine.
 | js/data.js builds | Always via `_factory/bundle-data.py`. Never hand-edited. |
 | Content additions | The "new content only from Ricco's reading" rule (2026-08-28) is a rule of thumb, not a ban: words that complete a feature (e.g. a scale) are added WITH exercises. The Wörter sheet stays the main intake. Ricco, 2026-10-22. |
 | Adverb scale axes | An axis needs 4+ words (Ricco, 2026-10-22; validator check C). One axis = one question; words answering a different question go to a side note. Tier placements are checked against de.wiktionary.org (synonyms/Gegenwörter); register ladders and Widerspruch are labelled **Faustregel** because dictionaries give no ranking. `mega` is the one word shown with a ? badge (no German entry). |
+| Adverb distractors | No exercise may have a second viable answer. Equivalence = same word · same cell / ≤1 tier apart · Wiktionary synonym · same category + common synonym · shared gloss · shared stem · manual pair; plus the English-line context rule for fill-blanks. Strict on purpose. Any new adverb exercise must pass `validate-adverb-distractors.py`. Ricco, 2026-10-22. |
 | Scale drills | Options always come from distinct tiers with a per-axis minimum gap (2 on fine-grained axes) so the answer is never a hair-splitting call; grid drills never offer words printed in the prompt. |
 | Deklination v1 exclusions | Stem-changers (dunkel/hoch/teuer), indeclinables (rosa/lila), Komparativ/Superlativ declension, adjectival nouns. |
 

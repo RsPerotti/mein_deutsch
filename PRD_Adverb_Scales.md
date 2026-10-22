@@ -163,3 +163,17 @@ Phased delivery (one push per phase, usable after each):
 ## Open questions (Ricco)
 1. Which axes are in — all 14 phased as above, or a subset?
 2. Relational exercise: in or out?
+
+
+---
+
+## Follow-up (2026-10-22): one viable answer per exercise
+*Ricco: "Yes, please fix the exercises, making sure that no more than one option is a viable answer."*
+
+**Rule.** A wrong option is viable if it means the same as the answer. Two German options count as the same answer when any of these holds: the same word; the same grid cell, or at most one tier apart on a shared scale; a Wiktionary synonym; the same category plus a common Wiktionary synonym; a shared English gloss; a shared content-word stem; a manual pair (`extra-viable.json`). In fill-blank items, an option whose English gloss appears in the item's English line also counts. In DE→EN items, an English option is viable if it shares a gloss with the answer or with any word equivalent to it. The rule is deliberately strict: replacing a fine distractor costs nothing, but leaving a second right answer costs the learner a point.
+
+**Scope.** All 852 non-drill adverb exercises: fill-blank, EN→DE and DE→EN. Sentence-translation items were checked heuristically: 6 hits, all false positives, because the wrong sentences change the meaning. The fix also corrects capitalisation giveaways and duplicate options.
+
+**How.** `_factory/adverb-distractors/fix-distractors.py` replaces each viable option deterministically. The preferred replacement is a word ≥3 tiers away on the same scale, then a word from the same category, then a related category. The independent `validate-adverb-distractors.py` (L1–L6) holds its own copy of the rule and is mutation-tested 12/12, with each relation proven to fire on its own. Run order: `generate.py` → `fix-distractors.py` → `bundle-data.py` → validators.
+
+**Result.** 578 options replaced in 304 exercises, plus 16 capitalisation fixes (full list in `report.md` / `ledger.tsv`).

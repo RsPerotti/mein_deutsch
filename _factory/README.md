@@ -122,10 +122,12 @@ Seeds in `adverb-scales/` (`axes.json`, `new-words.json`, `wiktionary-cache.tsv`
 
 1. `python3 _factory/adverb-scales/generate.py` — rebuilds the new adverbs, their exercises, the
    `scale_choice` drills and `data/adverb-scales.json` (idempotent)
-2. `python3 _factory/bundle-data.py`
-3. `python3 _factory/validate-adverb-scales.py` (A–K) and, after changing the validator,
-   `python3 _factory/verify-adverb-scales-validator.py`
-4. `NODE_PATH=~/qa/node_modules node _factory/qa-adverb-scales.js`
+2. `python3 _factory/adverb-distractors/fix-distractors.py` — removes any second viable answer
+   (must run after step 1, which rewrites the new words' exercises)
+3. `python3 _factory/bundle-data.py`
+4. `python3 _factory/validate-adverb-scales.py` (A–K), `python3 _factory/validate-adverb-distractors.py` (L1–L6) and, after changing the validator,
+   `python3 _factory/verify-adverb-scales-validator.py` / `verify-adverb-distractors-validator.py`
+5. `NODE_PATH=~/qa/node_modules node _factory/qa-adverb-scales.js`
 
 To refresh the Wiktionary cache, fetch in the in-app browser (MediaWiki API) — neither shell can
 reach de.wiktionary.org.

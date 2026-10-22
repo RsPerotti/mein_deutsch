@@ -30,7 +30,7 @@
     "wrong_answers": [
       "vorhin",
       "selten",
-      "oft",
+      "niemals",
       "gerade"
     ],
     "explanation_en": "The correct adverb here is 'immer', meaning 'always'."
@@ -48,7 +48,7 @@
     "wrong_answers": [
       "vorhin",
       "selten",
-      "oft",
+      "niemals",
       "gerade"
     ],
     "explanation_en": "'always' is 'immer' in German. (Frequency & Time)"
@@ -83,7 +83,7 @@
     "wrong_answers": [
       "by now / meanwhile",
       "not anymore",
-      "sometimes",
+      "never",
       "rarely"
     ],
     "explanation_en": "'oft' means 'often' in German."
@@ -99,10 +99,10 @@
     },
     "correct_answer": "oft",
     "wrong_answers": [
-      "immer",
-      "ab und zu",
+      "später",
+      "kürzlich",
       "niemals",
-      "dauernd"
+      "jedes Mal"
     ],
     "explanation_en": "The correct adverb here is 'oft', meaning 'often'."
   },
@@ -117,10 +117,10 @@
     },
     "correct_answer": "oft",
     "wrong_answers": [
-      "immer",
-      "ab und zu",
+      "später",
+      "kürzlich",
       "niemals",
-      "dauernd"
+      "jedes Mal"
     ],
     "explanation_en": "'often' is 'oft' in German. (Frequency & Time)"
   },
@@ -152,7 +152,7 @@
     },
     "correct_answer": "frequently",
     "wrong_answers": [
-      "from time to time",
+      "never (emphatic)",
       "daily / every day",
       "immediately",
       "by now / meanwhile"
@@ -170,9 +170,9 @@
     },
     "correct_answer": "häufig",
     "wrong_answers": [
-      "gelegentlich",
-      "von Zeit zu Zeit",
-      "ab und zu",
+      "niemals",
+      "jedes Mal",
+      "stündlich",
       "gerade"
     ],
     "explanation_en": "The correct adverb here is 'häufig', meaning 'frequently'."
@@ -188,9 +188,9 @@
     },
     "correct_answer": "häufig",
     "wrong_answers": [
-      "gelegentlich",
-      "von Zeit zu Zeit",
-      "ab und zu",
+      "niemals",
+      "jedes Mal",
+      "stündlich",
       "gerade"
     ],
     "explanation_en": "'frequently' is 'häufig' in German. (Frequency & Time)"
@@ -226,7 +226,7 @@
       "constantly",
       "already",
       "later",
-      "now and then"
+      "always (formal)"
     ],
     "explanation_en": "'manchmal' means 'sometimes' in German."
   },
@@ -243,7 +243,7 @@
     "wrong_answers": [
       "vorhin",
       "täglich",
-      "von Zeit zu Zeit",
+      "stets",
       "inzwischen"
     ],
     "explanation_en": "The correct adverb here is 'manchmal', meaning 'sometimes'."
@@ -261,7 +261,7 @@
     "wrong_answers": [
       "vorhin",
       "täglich",
-      "von Zeit zu Zeit",
+      "stets",
       "inzwischen"
     ],
     "explanation_en": "'sometimes' is 'manchmal' in German. (Frequency & Time)"
@@ -314,7 +314,7 @@
     "wrong_answers": [
       "gleich",
       "neulich",
-      "von Zeit zu Zeit",
+      "nie",
       "dauernd"
     ],
     "explanation_en": "The correct adverb here is 'gelegentlich', meaning 'occasionally'."
@@ -332,7 +332,7 @@
     "wrong_answers": [
       "gleich",
       "neulich",
-      "von Zeit zu Zeit",
+      "nie",
       "dauernd"
     ],
     "explanation_en": "'occasionally' is 'gelegentlich' in German. (Frequency & Time)"
@@ -366,7 +366,7 @@
     "correct_answer": "rarely",
     "wrong_answers": [
       "by now / meanwhile",
-      "from time to time",
+      "constantly",
       "soon",
       "all the time"
     ],
@@ -385,7 +385,7 @@
     "wrong_answers": [
       "schon",
       "früher",
-      "manchmal",
+      "ständig",
       "nicht mehr"
     ],
     "explanation_en": "The correct adverb here is 'selten', meaning 'rarely'."
@@ -403,7 +403,7 @@
     "wrong_answers": [
       "schon",
       "früher",
-      "manchmal",
+      "ständig",
       "nicht mehr"
     ],
     "explanation_en": "'rarely' is 'selten' in German. (Frequency & Time)"
@@ -578,7 +578,7 @@
     },
     "correct_answer": "constantly",
     "wrong_answers": [
-      "normally",
+      "now and then",
       "later",
       "by now / meanwhile",
       "rarely"
@@ -598,7 +598,7 @@
     "wrong_answers": [
       "kaum",
       "gerade",
-      "meistens",
+      "ab und zu",
       "gleich"
     ],
     "explanation_en": "The correct adverb here is 'ständig', meaning 'constantly'."
@@ -616,7 +616,7 @@
     "wrong_answers": [
       "kaum",
       "gerade",
-      "meistens",
+      "ab und zu",
       "gleich"
     ],
     "explanation_en": "'constantly' is 'ständig' in German. (Frequency & Time)"
@@ -791,9 +791,9 @@
     },
     "correct_answer": "normally",
     "wrong_answers": [
-      "constantly",
+      "never (emphatic)",
       "hardly / barely",
-      "frequently",
+      "rarely",
       "now and then"
     ],
     "explanation_en": "'normalerweise' means 'normally' in German."
@@ -810,8 +810,8 @@
     "correct_answer": "normalerweise",
     "wrong_answers": [
       "gleich",
-      "immer",
-      "ständig",
+      "niemals",
+      "selten",
       "noch"
     ],
     "explanation_en": "The correct adverb here is 'normalerweise', meaning 'normally'."
@@ -828,8 +828,8 @@
     "correct_answer": "normalerweise",
     "wrong_answers": [
       "gleich",
-      "immer",
-      "ständig",
+      "niemals",
+      "selten",
       "noch"
     ],
     "explanation_en": "'normally' is 'normalerweise' in German. (Frequency & Time)"
@@ -882,7 +882,7 @@
     "wrong_answers": [
       "kaum",
       "früher",
-      "schon",
+      "jährlich",
       "wöchentlich"
     ],
     "explanation_en": "The correct adverb here is 'inzwischen', meaning 'by now / meanwhile'."
@@ -900,7 +900,7 @@
     "wrong_answers": [
       "kaum",
       "früher",
-      "schon",
+      "jährlich",
       "wöchentlich"
     ],
     "explanation_en": "'by now / meanwhile' is 'inzwischen' in German. (Frequency & Time)"
@@ -1024,7 +1024,7 @@
     "wrong_answers": [
       "täglich",
       "früher",
-      "sofort",
+      "kaum",
       "häufig"
     ],
     "explanation_en": "The correct adverb here is 'noch', meaning 'still'."
@@ -1042,7 +1042,7 @@
     "wrong_answers": [
       "täglich",
       "früher",
-      "sofort",
+      "kaum",
       "häufig"
     ],
     "explanation_en": "'still' is 'noch' in German. (Frequency & Time)"
@@ -1220,7 +1220,7 @@
       "all the time",
       "often",
       "still",
-      "recently"
+      "at some point / someday"
     ],
     "explanation_en": "'vorhin' means 'earlier / a moment ago' in German."
   },
@@ -1235,9 +1235,9 @@
     },
     "correct_answer": "vorhin",
     "wrong_answers": [
-      "früher",
+      "irgendwann",
       "gelegentlich",
-      "gerade",
+      "bald",
       "selten"
     ],
     "explanation_en": "The correct adverb here is 'vorhin', meaning 'earlier / a moment ago'."
@@ -1253,9 +1253,9 @@
     },
     "correct_answer": "vorhin",
     "wrong_answers": [
-      "früher",
+      "irgendwann",
       "gelegentlich",
-      "gerade",
+      "bald",
       "selten"
     ],
     "explanation_en": "'earlier / a moment ago' is 'vorhin' in German. (Frequency & Time)"
@@ -1309,7 +1309,7 @@
       "manchmal",
       "gelegentlich",
       "nicht mehr",
-      "früher"
+      "bald"
     ],
     "explanation_en": "The correct adverb here is 'neulich', meaning 'recently'."
   },
@@ -1327,7 +1327,7 @@
       "manchmal",
       "gelegentlich",
       "nicht mehr",
-      "früher"
+      "bald"
     ],
     "explanation_en": "'recently' is 'neulich' in German. (Frequency & Time)"
   },
@@ -1378,7 +1378,7 @@
     "correct_answer": "bald",
     "wrong_answers": [
       "oft",
-      "gleich",
+      "vor Kurzem",
       "manchmal",
       "selten"
     ],
@@ -1396,7 +1396,7 @@
     "correct_answer": "bald",
     "wrong_answers": [
       "oft",
-      "gleich",
+      "vor Kurzem",
       "manchmal",
       "selten"
     ],
@@ -1432,7 +1432,7 @@
     "wrong_answers": [
       "usually / mostly",
       "regularly",
-      "still",
+      "earlier / a moment ago",
       "right now / just"
     ],
     "explanation_en": "'später' means 'later' in German."
@@ -1520,7 +1520,7 @@
     "correct_answer": "früher",
     "wrong_answers": [
       "nie",
-      "vorhin",
+      "jetzt",
       "nicht mehr",
       "inzwischen"
     ],
@@ -1538,7 +1538,7 @@
     "correct_answer": "früher",
     "wrong_answers": [
       "nie",
-      "vorhin",
+      "jetzt",
       "nicht mehr",
       "inzwischen"
     ],
@@ -1590,10 +1590,10 @@
     },
     "correct_answer": "sofort",
     "wrong_answers": [
-      "bald",
+      "irgendwann",
       "inzwischen",
       "vorhin",
-      "noch"
+      "damals"
     ],
     "explanation_en": "The correct adverb here is 'sofort', meaning 'immediately'."
   },
@@ -1608,10 +1608,10 @@
     },
     "correct_answer": "sofort",
     "wrong_answers": [
-      "bald",
+      "irgendwann",
       "inzwischen",
       "vorhin",
-      "noch"
+      "damals"
     ],
     "explanation_en": "'immediately' is 'sofort' in German. (Frequency & Time)"
   },
@@ -1714,7 +1714,7 @@
     },
     "correct_answer": "now and then",
     "wrong_answers": [
-      "often",
+      "never (emphatic)",
       "normally",
       "earlier / in the past",
       "by now / meanwhile"
@@ -1733,8 +1733,8 @@
     "correct_answer": "ab und zu",
     "wrong_answers": [
       "immer",
-      "manchmal",
-      "gelegentlich",
+      "niemals",
+      "endlich",
       "wöchentlich"
     ],
     "explanation_en": "The correct adverb here is 'ab und zu', meaning 'now and then'."
@@ -1751,8 +1751,8 @@
     "correct_answer": "ab und zu",
     "wrong_answers": [
       "immer",
-      "manchmal",
-      "gelegentlich",
+      "niemals",
+      "endlich",
       "wöchentlich"
     ],
     "explanation_en": "'now and then' is 'ab und zu' in German. (Frequency & Time)"
@@ -1787,7 +1787,7 @@
     "wrong_answers": [
       "in a moment / right away",
       "already",
-      "now and then",
+      "every time",
       "not anymore"
     ],
     "explanation_en": "'von Zeit zu Zeit' means 'from time to time' in German."
@@ -1803,9 +1803,9 @@
     },
     "correct_answer": "von Zeit zu Zeit",
     "wrong_answers": [
-      "manchmal",
+      "nie",
       "normalerweise",
-      "häufig",
+      "monatlich",
       "immer"
     ],
     "explanation_en": "The correct adverb here is 'von Zeit zu Zeit', meaning 'from time to time'."
@@ -1821,9 +1821,9 @@
     },
     "correct_answer": "von Zeit zu Zeit",
     "wrong_answers": [
-      "manchmal",
+      "nie",
       "normalerweise",
-      "häufig",
+      "monatlich",
       "immer"
     ],
     "explanation_en": "'from time to time' is 'von Zeit zu Zeit' in German. (Frequency & Time)"
@@ -1859,7 +1859,7 @@
       "never (emphatic)",
       "rarely",
       "recently",
-      "often"
+      "already"
     ],
     "explanation_en": "'regelmäßig' means 'regularly' in German."
   },
@@ -1874,10 +1874,10 @@
     },
     "correct_answer": "regelmäßig",
     "wrong_answers": [
-      "oft",
+      "schon",
       "selten",
       "kaum",
-      "dauernd"
+      "erneut"
     ],
     "explanation_en": "The correct adverb here is 'regelmäßig', meaning 'regularly'."
   },
@@ -1892,10 +1892,10 @@
     },
     "correct_answer": "regelmäßig",
     "wrong_answers": [
-      "oft",
+      "schon",
       "selten",
       "kaum",
-      "dauernd"
+      "erneut"
     ],
     "explanation_en": "'regularly' is 'regelmäßig' in German. (Frequency & Time)"
   },
@@ -2070,8 +2070,8 @@
     "correct_answer": "hardly / barely",
     "wrong_answers": [
       "regularly",
-      "never",
-      "never (emphatic)",
+      "definitely / in any case",
+      "almost always",
       "earlier / in the past"
     ],
     "explanation_en": "'kaum' means 'hardly / barely' in German."
@@ -2143,7 +2143,7 @@
       "for that reason / that's why",
       "for that reason / hence",
       "namely / because (explanatory)",
-      "then"
+      "last (in a sequence)"
     ],
     "explanation_en": "'außerdem' means 'besides / additionally' in German."
   },
@@ -2159,7 +2159,7 @@
     "correct_answer": "außerdem",
     "wrong_answers": [
       "zuerst",
-      "darüber hinaus",
+      "nämlich",
       "zweitens",
       "dennoch"
     ],
@@ -2177,7 +2177,7 @@
     "correct_answer": "außerdem",
     "wrong_answers": [
       "zuerst",
-      "darüber hinaus",
+      "nämlich",
       "zweitens",
       "dennoch"
     ],
@@ -2214,7 +2214,7 @@
       "on the other hand",
       "first",
       "for that reason / that's why",
-      "besides / additionally"
+      "thirdly"
     ],
     "explanation_en": "'zusätzlich' means 'in addition' in German."
   },
@@ -2284,7 +2284,7 @@
     "wrong_answers": [
       "namely / because (explanatory)",
       "first",
-      "afterwards / after that",
+      "through that / because of that",
       "secondly"
     ],
     "explanation_en": "'darüber hinaus' means 'beyond that / furthermore' in German."
@@ -2372,7 +2372,7 @@
     "correct_answer": "zudem",
     "wrong_answers": [
       "allerdings",
-      "darüber hinaus",
+      "entweder",
       "deswegen",
       "danach"
     ],
@@ -2390,7 +2390,7 @@
     "correct_answer": "zudem",
     "wrong_answers": [
       "allerdings",
-      "darüber hinaus",
+      "entweder",
       "deswegen",
       "danach"
     ],
@@ -2426,7 +2426,7 @@
     "wrong_answers": [
       "namely / because (explanatory)",
       "for that reason / hence",
-      "first",
+      "either (… or)",
       "however / though"
     ],
     "explanation_en": "'danach' means 'afterwards / after that' in German."
@@ -2445,7 +2445,7 @@
       "trotzdem",
       "zudem",
       "schließlich",
-      "dann"
+      "entweder"
     ],
     "explanation_en": "The correct adverb here is 'danach', meaning 'afterwards / after that'."
   },
@@ -2463,7 +2463,7 @@
       "trotzdem",
       "zudem",
       "schließlich",
-      "dann"
+      "entweder"
     ],
     "explanation_en": "'afterwards / after that' is 'danach' in German. (Connectors)"
   },
@@ -2497,7 +2497,7 @@
     "wrong_answers": [
       "however / though",
       "for that reason / hence",
-      "secondly",
+      "that's why / because of that",
       "nonetheless / yet"
     ],
     "explanation_en": "'dann' means 'then' in German."
@@ -2514,9 +2514,9 @@
     "correct_answer": "dann",
     "wrong_answers": [
       "trotzdem",
-      "übrigens",
+      "deswegen",
       "schließlich",
-      "außerdem"
+      "entweder"
     ],
     "explanation_en": "The correct adverb here is 'dann', meaning 'then'."
   },
@@ -2532,9 +2532,9 @@
     "correct_answer": "dann",
     "wrong_answers": [
       "trotzdem",
-      "übrigens",
+      "deswegen",
       "schließlich",
-      "außerdem"
+      "entweder"
     ],
     "explanation_en": "'then' is 'dann' in German. (Connectors)"
   },
@@ -2584,7 +2584,7 @@
     },
     "correct_answer": "zuerst",
     "wrong_answers": [
-      "zweitens",
+      "schließlich",
       "dadurch",
       "zudem",
       "außerdem"
@@ -2602,7 +2602,7 @@
     },
     "correct_answer": "zuerst",
     "wrong_answers": [
-      "zweitens",
+      "schließlich",
       "dadurch",
       "zudem",
       "außerdem"
@@ -2709,7 +2709,7 @@
     "correct_answer": "secondly",
     "wrong_answers": [
       "for that reason / hence",
-      "afterwards / after that",
+      "in addition",
       "therefore / that's why",
       "through that / because of that"
     ],
@@ -2726,10 +2726,10 @@
     },
     "correct_answer": "zweitens",
     "wrong_answers": [
-      "danach",
+      "einerseits",
       "zudem",
       "deswegen",
-      "dann"
+      "trotzdem"
     ],
     "explanation_en": "The correct adverb here is 'zweitens', meaning 'secondly'."
   },
@@ -2744,10 +2744,10 @@
     },
     "correct_answer": "zweitens",
     "wrong_answers": [
-      "danach",
+      "einerseits",
       "zudem",
       "deswegen",
-      "dann"
+      "trotzdem"
     ],
     "explanation_en": "'secondly' is 'zweitens' in German. (Connectors)"
   },
@@ -2780,9 +2780,9 @@
     "correct_answer": "thirdly",
     "wrong_answers": [
       "for that reason / hence",
-      "afterwards / after that",
+      "nonetheless / yet",
       "by the way",
-      "secondly"
+      "beyond that / furthermore"
     ],
     "explanation_en": "'drittens' means 'thirdly' in German."
   },
@@ -3135,7 +3135,7 @@
     "correct_answer": "for that reason / that's why",
     "wrong_answers": [
       "afterwards / after that",
-      "that's why / because of that",
+      "thirdly",
       "firstly / first of all",
       "however / though"
     ],
@@ -3205,7 +3205,7 @@
     },
     "correct_answer": "through that / because of that",
     "wrong_answers": [
-      "that's why / because of that",
+      "anyway / at any rate",
       "by the way",
       "actually / in fact",
       "then"
@@ -3225,7 +3225,7 @@
     "wrong_answers": [
       "darüber hinaus",
       "erstens",
-      "daher",
+      "tatsächlich",
       "trotzdem"
     ],
     "explanation_en": "The correct adverb here is 'dadurch', meaning 'through that / because of that'."
@@ -3243,7 +3243,7 @@
     "wrong_answers": [
       "darüber hinaus",
       "erstens",
-      "daher",
+      "tatsächlich",
       "trotzdem"
     ],
     "explanation_en": "'through that / because of that' is 'dadurch' in German. (Connectors)"
@@ -3278,8 +3278,8 @@
     "wrong_answers": [
       "namely / because (explanatory)",
       "by the way",
-      "nonetheless / yet",
-      "however / though"
+      "on the contrary",
+      "last (in a sequence)"
     ],
     "explanation_en": "'trotzdem' means 'nevertheless / still' in German."
   },
@@ -3439,7 +3439,7 @@
       "schließlich",
       "zweitens",
       "drittens",
-      "dennoch"
+      "zusätzlich"
     ],
     "explanation_en": "The correct adverb here is 'andererseits', meaning 'on the other hand'."
   },
@@ -3457,7 +3457,7 @@
       "schließlich",
       "zweitens",
       "drittens",
-      "dennoch"
+      "zusätzlich"
     ],
     "explanation_en": "'on the other hand' is 'andererseits' in German. (Connectors)"
   },
@@ -3491,8 +3491,8 @@
     "wrong_answers": [
       "secondly",
       "moreover",
-      "anyway / at any rate",
-      "on the other hand"
+      "on the contrary",
+      "beyond that / furthermore"
     ],
     "explanation_en": "'dennoch' means 'nonetheless / yet' in German."
   },
@@ -3634,7 +3634,7 @@
       "through that / because of that",
       "secondly",
       "then",
-      "nevertheless / still"
+      "on the other hand"
     ],
     "explanation_en": "'jedenfalls' means 'anyway / at any rate' in German."
   },
@@ -3722,7 +3722,7 @@
     "wrong_answers": [
       "zusätzlich",
       "andererseits",
-      "zudem",
+      "zweitens",
       "daher"
     ],
     "explanation_en": "The correct adverb here is 'übrigens', meaning 'by the way'."
@@ -3740,7 +3740,7 @@
     "wrong_answers": [
       "zusätzlich",
       "andererseits",
-      "zudem",
+      "zweitens",
       "daher"
     ],
     "explanation_en": "'by the way' is 'übrigens' in German. (Connectors)"
@@ -3915,8 +3915,8 @@
     },
     "correct_answer": "maybe / perhaps",
     "wrong_answers": [
-      "probably",
-      "possibly / perhaps",
+      "definitely / in any case",
+      "undoubtedly / without a doubt",
       "of course / naturally",
       "honestly / to be honest"
     ],
@@ -3936,7 +3936,7 @@
       "natürlich",
       "bestimmt",
       "eigentlich",
-      "wahrscheinlich"
+      "scheinbar"
     ],
     "explanation_en": "The correct adverb here is 'vielleicht', meaning 'maybe / perhaps'."
   },
@@ -3954,7 +3954,7 @@
       "natürlich",
       "bestimmt",
       "eigentlich",
-      "wahrscheinlich"
+      "scheinbar"
     ],
     "explanation_en": "'maybe / perhaps' is 'vielleicht' in German. (Certainty & Probability)"
   },
@@ -3986,10 +3986,10 @@
     },
     "correct_answer": "probably",
     "wrong_answers": [
-      "apparently / it seems",
-      "apparently / obviously",
-      "definitely / for sure",
-      "definitely"
+      "absolutely not / no way",
+      "by no means / not at all",
+      "under no circumstances",
+      "undoubtedly / without a doubt"
     ],
     "explanation_en": "'wahrscheinlich' means 'probably' in German."
   },
@@ -4059,8 +4059,8 @@
     "wrong_answers": [
       "maybe / perhaps",
       "of course / naturally",
-      "definitely / for sure",
-      "probably"
+      "by no means / not at all",
+      "absolutely not / no way"
     ],
     "explanation_en": "'sicherlich' means 'certainly / surely' in German."
   },
@@ -4075,7 +4075,7 @@
     },
     "correct_answer": "sicherlich",
     "wrong_answers": [
-      "bestimmt",
+      "keineswegs",
       "offenbar",
       "eigentlich",
       "angeblich"
@@ -4093,7 +4093,7 @@
     },
     "correct_answer": "sicherlich",
     "wrong_answers": [
-      "bestimmt",
+      "keineswegs",
       "offenbar",
       "eigentlich",
       "angeblich"
@@ -4128,10 +4128,10 @@
     },
     "correct_answer": "definitely / for sure",
     "wrong_answers": [
-      "certainly / surely",
+      "possibly",
       "of course / naturally",
       "apparently / obviously",
-      "definitely"
+      "hardly / barely"
     ],
     "explanation_en": "'bestimmt' means 'definitely / for sure' in German."
   },
@@ -4199,9 +4199,9 @@
     },
     "correct_answer": "definitely",
     "wrong_answers": [
-      "definitely / for sure",
+      "hardly / barely",
       "probably",
-      "definitely / in any case",
+      "as expected / likely",
       "unlikely"
     ],
     "explanation_en": "'definitiv' means 'definitely' in German."
@@ -4217,9 +4217,9 @@
     },
     "correct_answer": "definitiv",
     "wrong_answers": [
-      "bestimmt",
+      "auf keinen Fall",
       "eventuell",
-      "sicherlich",
+      "natürlich",
       "unwahrscheinlich"
     ],
     "explanation_en": "The correct adverb here is 'definitiv', meaning 'definitely'."
@@ -4235,9 +4235,9 @@
     },
     "correct_answer": "definitiv",
     "wrong_answers": [
-      "bestimmt",
+      "auf keinen Fall",
       "eventuell",
-      "sicherlich",
+      "natürlich",
       "unwahrscheinlich"
     ],
     "explanation_en": "'definitely' is 'definitiv' in German. (Certainty & Probability)"
@@ -4271,7 +4271,7 @@
     "correct_answer": "possibly / perhaps",
     "wrong_answers": [
       "actually / in theory",
-      "as expected / likely",
+      "undoubtedly / without a doubt",
       "of course / naturally",
       "certainly / surely"
     ],
@@ -4288,9 +4288,9 @@
     },
     "correct_answer": "eventuell",
     "wrong_answers": [
-      "möglicherweise",
+      "eigentlich",
       "unwahrscheinlich",
-      "voraussichtlich",
+      "scheinbar",
       "definitiv"
     ],
     "explanation_en": "The correct adverb here is 'eventuell', meaning 'possibly / perhaps'."
@@ -4306,9 +4306,9 @@
     },
     "correct_answer": "eventuell",
     "wrong_answers": [
-      "möglicherweise",
+      "eigentlich",
       "unwahrscheinlich",
-      "voraussichtlich",
+      "scheinbar",
       "definitiv"
     ],
     "explanation_en": "'possibly / perhaps' is 'eventuell' in German. (Certainty & Probability)"
@@ -4343,7 +4343,7 @@
     "wrong_answers": [
       "definitely / in any case",
       "actually / in theory",
-      "possibly",
+      "under no circumstances",
       "definitely"
     ],
     "explanation_en": "'voraussichtlich' means 'as expected / likely' in German."
@@ -4359,7 +4359,7 @@
     },
     "correct_answer": "voraussichtlich",
     "wrong_answers": [
-      "vielleicht",
+      "keinesfalls",
       "eigentlich",
       "auf jeden Fall",
       "definitiv"
@@ -4377,7 +4377,7 @@
     },
     "correct_answer": "voraussichtlich",
     "wrong_answers": [
-      "vielleicht",
+      "keinesfalls",
       "eigentlich",
       "auf jeden Fall",
       "definitiv"
@@ -4412,9 +4412,9 @@
     },
     "correct_answer": "apparently / it seems",
     "wrong_answers": [
-      "apparently / obviously",
+      "possibly / perhaps (even)",
       "actually / in theory",
-      "probably",
+      "undoubtedly / without a doubt",
       "definitely / in any case"
     ],
     "explanation_en": "'anscheinend' means 'apparently / it seems' in German."
@@ -4484,7 +4484,7 @@
     "correct_answer": "apparently / obviously",
     "wrong_answers": [
       "unlikely",
-      "probably",
+      "actually / in theory",
       "definitely / for sure",
       "definitely"
     ],
@@ -4501,10 +4501,10 @@
     },
     "correct_answer": "offenbar",
     "wrong_answers": [
-      "wahrscheinlich",
+      "eigentlich",
       "eventuell",
       "voraussichtlich",
-      "anscheinend"
+      "ehrlich gesagt"
     ],
     "explanation_en": "The correct adverb here is 'offenbar', meaning 'apparently / obviously'."
   },
@@ -4519,10 +4519,10 @@
     },
     "correct_answer": "offenbar",
     "wrong_answers": [
-      "wahrscheinlich",
+      "eigentlich",
       "eventuell",
       "voraussichtlich",
-      "anscheinend"
+      "ehrlich gesagt"
     ],
     "explanation_en": "'apparently / obviously' is 'offenbar' in German. (Certainty & Probability)"
   },
@@ -4556,7 +4556,7 @@
     "wrong_answers": [
       "certainly / surely",
       "possibly / perhaps",
-      "apparently / obviously",
+      "definitely / for sure",
       "probably"
     ],
     "explanation_en": "'angeblich' means 'supposedly / allegedly' in German."
@@ -4574,7 +4574,7 @@
     "wrong_answers": [
       "vielleicht",
       "definitiv",
-      "offenbar",
+      "höchstwahrscheinlich",
       "auf jeden Fall"
     ],
     "explanation_en": "The correct adverb here is 'angeblich', meaning 'supposedly / allegedly'."
@@ -4592,7 +4592,7 @@
     "wrong_answers": [
       "vielleicht",
       "definitiv",
-      "offenbar",
+      "höchstwahrscheinlich",
       "auf jeden Fall"
     ],
     "explanation_en": "'supposedly / allegedly' is 'angeblich' in German. (Certainty & Probability)"
@@ -4699,7 +4699,7 @@
       "as expected / likely",
       "actually / in theory",
       "certainly / surely",
-      "apparently / obviously"
+      "absolutely not / no way"
     ],
     "explanation_en": "'natürlich' means 'of course / naturally' in German."
   },
@@ -4717,7 +4717,7 @@
       "eigentlich",
       "wahrscheinlich",
       "bestimmt",
-      "auf jeden Fall"
+      "auf keinen Fall"
     ],
     "explanation_en": "The correct adverb here is 'natürlich', meaning 'of course / naturally'."
   },
@@ -4735,7 +4735,7 @@
       "eigentlich",
       "wahrscheinlich",
       "bestimmt",
-      "auf jeden Fall"
+      "auf keinen Fall"
     ],
     "explanation_en": "'of course / naturally' is 'natürlich' in German. (Certainty & Probability)"
   },
@@ -4838,9 +4838,9 @@
     },
     "correct_answer": "definitely / in any case",
     "wrong_answers": [
-      "certainly / surely",
+      "presumably / probably",
       "possibly",
-      "definitely",
+      "by no means / not at all",
       "as expected / likely"
     ],
     "explanation_en": "'auf jeden Fall' means 'definitely / in any case' in German."
@@ -4856,7 +4856,7 @@
     },
     "correct_answer": "auf jeden Fall",
     "wrong_answers": [
-      "bestimmt",
+      "keineswegs",
       "wahrscheinlich",
       "vielleicht",
       "ehrlich gesagt"
@@ -4874,7 +4874,7 @@
     },
     "correct_answer": "auf jeden Fall",
     "wrong_answers": [
-      "bestimmt",
+      "keineswegs",
       "wahrscheinlich",
       "vielleicht",
       "ehrlich gesagt"
@@ -4980,8 +4980,8 @@
     },
     "correct_answer": "possibly",
     "wrong_answers": [
-      "possibly / perhaps",
-      "apparently / obviously",
+      "surely / certainly",
+      "undoubtedly / without a doubt",
       "unlikely",
       "definitely / in any case"
     ],
@@ -4998,7 +4998,7 @@
     },
     "correct_answer": "möglicherweise",
     "wrong_answers": [
-      "eventuell",
+      "ehrlich gesagt",
       "auf jeden Fall",
       "eigentlich",
       "offenbar"
@@ -5016,7 +5016,7 @@
     },
     "correct_answer": "möglicherweise",
     "wrong_answers": [
-      "eventuell",
+      "ehrlich gesagt",
       "auf jeden Fall",
       "eigentlich",
       "offenbar"
@@ -5123,7 +5123,7 @@
     "correct_answer": "so / well then",
     "wrong_answers": [
       "basically / at the core",
-      "so to speak / as it were",
+      "only / just",
       "anyway / regardless",
       "basically / all things considered"
     ],
@@ -5143,7 +5143,7 @@
       "jedenfalls",
       "im Grunde",
       "im Grunde genommen",
-      "sozusagen"
+      "nur"
     ],
     "explanation_en": "The correct adverb here is 'also', meaning 'so / well then'."
   },
@@ -5161,7 +5161,7 @@
       "jedenfalls",
       "im Grunde",
       "im Grunde genommen",
-      "sozusagen"
+      "nur"
     ],
     "explanation_en": "'so / well then' is 'also' in German. (Fillers & Conversation Flow)"
   },
@@ -5193,7 +5193,7 @@
     },
     "correct_answer": "so to speak / as it were",
     "wrong_answers": [
-      "so / well then",
+      "namely / because (explanatory)",
       "basically / all things considered",
       "basically / at the core",
       "anyway / regardless"
@@ -5212,9 +5212,9 @@
     "correct_answer": "sozusagen",
     "wrong_answers": [
       "jedenfalls",
-      "also",
-      "im Grunde genommen",
-      "im Grunde"
+      "nämlich",
+      "vermutlich",
+      "echt"
     ],
     "explanation_en": "The correct adverb here is 'sozusagen', meaning 'so to speak / as it were'."
   },
@@ -5230,7 +5230,7 @@
     "correct_answer": "sozusagen",
     "wrong_answers": [
       "jedenfalls",
-      "also",
+      "nämlich",
       "im Grunde genommen",
       "im Grunde"
     ],
@@ -5264,7 +5264,7 @@
     },
     "correct_answer": "basically / at the core",
     "wrong_answers": [
-      "basically / all things considered",
+      "daily / every day",
       "so / well then",
       "anyway / regardless",
       "so to speak / as it were"
@@ -5285,7 +5285,7 @@
       "jedenfalls",
       "also",
       "sozusagen",
-      "im Grunde genommen"
+      "täglich"
     ],
     "explanation_en": "The correct adverb here is 'im Grunde', meaning 'basically / at the core'."
   },
@@ -5303,7 +5303,7 @@
       "jedenfalls",
       "also",
       "sozusagen",
-      "im Grunde genommen"
+      "täglich"
     ],
     "explanation_en": "'basically / at the core' is 'im Grunde' in German. (Fillers & Conversation Flow)"
   },
@@ -5338,7 +5338,7 @@
       "so / well then",
       "anyway / regardless",
       "so to speak / as it were",
-      "basically / at the core"
+      "forward / ahead"
     ],
     "explanation_en": "'im Grunde genommen' means 'basically / all things considered' in German."
   },
@@ -5355,7 +5355,7 @@
     "wrong_answers": [
       "sozusagen",
       "also",
-      "im Grunde",
+      "vorwärts",
       "jedenfalls"
     ],
     "explanation_en": "The correct adverb here is 'im Grunde genommen', meaning 'basically / all things considered'."
@@ -5373,7 +5373,7 @@
     "wrong_answers": [
       "sozusagen",
       "also",
-      "im Grunde",
+      "vorwärts",
       "jedenfalls"
     ],
     "explanation_en": "'basically / all things considered' is 'im Grunde genommen' in German. (Fillers & Conversation Flow)"
@@ -5477,10 +5477,10 @@
     },
     "correct_answer": "very",
     "wrong_answers": [
-      "incredibly / insanely",
-      "really / genuinely",
-      "totally / completely (slang)",
-      "quite / fairly / pretty"
+      "hardly / barely",
+      "at least",
+      "about / roughly",
+      "approximately (ca.)"
     ],
     "explanation_en": "'sehr' means 'very' in German."
   },
@@ -5495,10 +5495,10 @@
     },
     "correct_answer": "sehr",
     "wrong_answers": [
-      "echt",
-      "ziemlich",
-      "total",
-      "extrem"
+      "kaum",
+      "mindestens",
+      "etwa",
+      "lediglich"
     ],
     "explanation_en": "The correct adverb here is 'sehr', meaning 'very'."
   },
@@ -5513,10 +5513,10 @@
     },
     "correct_answer": "sehr",
     "wrong_answers": [
-      "echt",
-      "ziemlich",
-      "total",
-      "extrem"
+      "kaum",
+      "mindestens",
+      "etwa",
+      "lediglich"
     ],
     "explanation_en": "'very' is 'sehr' in German. (Intensifiers)"
   },
@@ -5548,10 +5548,10 @@
     },
     "correct_answer": "really / truly",
     "wrong_answers": [
-      "absolutely",
-      "incredibly / insanely",
-      "so (intensifier)",
-      "incredibly / unbelievably"
+      "not at all (emphatic)",
+      "at least",
+      "merely / only",
+      "more than"
     ],
     "explanation_en": "'wirklich' means 'really / truly' in German."
   },
@@ -5566,10 +5566,10 @@
     },
     "correct_answer": "wirklich",
     "wrong_answers": [
-      "extrem",
-      "wahnsinnig",
-      "voll",
-      "ziemlich"
+      "überhaupt nicht",
+      "circa",
+      "mindestens",
+      "nur"
     ],
     "explanation_en": "The correct adverb here is 'wirklich', meaning 'really / truly'."
   },
@@ -5584,10 +5584,10 @@
     },
     "correct_answer": "wirklich",
     "wrong_answers": [
-      "extrem",
-      "wahnsinnig",
-      "voll",
-      "ziemlich"
+      "überhaupt nicht",
+      "circa",
+      "mindestens",
+      "nur"
     ],
     "explanation_en": "'really / truly' is 'wirklich' in German. (Intensifiers)"
   },
@@ -5619,10 +5619,10 @@
     },
     "correct_answer": "totally / completely",
     "wrong_answers": [
-      "especially / particularly",
-      "so (intensifier)",
-      "mega / super (slang)",
-      "totally / completely (slang)"
+      "a little",
+      "hardly / barely",
+      "not at all (emphatic)",
+      "almost / nearly"
     ],
     "explanation_en": "'total' means 'totally / completely' in German."
   },
@@ -5637,10 +5637,10 @@
     },
     "correct_answer": "total",
     "wrong_answers": [
-      "absolut",
-      "voll",
-      "wahnsinnig",
-      "sehr"
+      "ein wenig",
+      "überhaupt nicht",
+      "knapp",
+      "vergleichsweise"
     ],
     "explanation_en": "The correct adverb here is 'total', meaning 'totally / completely'."
   },
@@ -5655,10 +5655,10 @@
     },
     "correct_answer": "total",
     "wrong_answers": [
-      "absolut",
-      "voll",
-      "wahnsinnig",
-      "sehr"
+      "ein wenig",
+      "überhaupt nicht",
+      "knapp",
+      "vergleichsweise"
     ],
     "explanation_en": "'totally / completely' is 'total' in German. (Intensifiers)"
   },
@@ -5690,10 +5690,10 @@
     },
     "correct_answer": "extremely",
     "wrong_answers": [
-      "incredibly / unbelievably",
-      "especially / particularly",
-      "so (intensifier)",
-      "mega / super (slang)"
+      "reasonably / more or less",
+      "a little / a bit",
+      "hardly / barely",
+      "not at all"
     ],
     "explanation_en": "'extrem' means 'extremely' in German."
   },
@@ -5708,10 +5708,10 @@
     },
     "correct_answer": "extrem",
     "wrong_answers": [
-      "besonders",
-      "wirklich",
-      "sehr",
-      "unglaublich"
+      "ein bisschen",
+      "gar nicht",
+      "bloß",
+      "vergleichsweise"
     ],
     "explanation_en": "The correct adverb here is 'extrem', meaning 'extremely'."
   },
@@ -5726,10 +5726,10 @@
     },
     "correct_answer": "extrem",
     "wrong_answers": [
-      "besonders",
-      "wirklich",
-      "sehr",
-      "unglaublich"
+      "ein bisschen",
+      "gar nicht",
+      "bloß",
+      "vergleichsweise"
     ],
     "explanation_en": "'extremely' is 'extrem' in German. (Intensifiers)"
   },
@@ -5761,7 +5761,7 @@
     },
     "correct_answer": "quite / fairly / pretty",
     "wrong_answers": [
-      "totally / completely (slang)",
+      "not at all (emphatic)",
       "barely / hardly (downscaler)",
       "mega / super (slang)",
       "incredibly / insanely"
@@ -5781,8 +5781,8 @@
     "wrong_answers": [
       "extrem",
       "absolut",
-      "echt",
-      "besonders"
+      "überhaupt nicht",
+      "circa"
     ],
     "explanation_en": "The correct adverb here is 'ziemlich', meaning 'quite / fairly / pretty'."
   },
@@ -5799,8 +5799,8 @@
     "wrong_answers": [
       "extrem",
       "absolut",
-      "echt",
-      "besonders"
+      "überhaupt nicht",
+      "circa"
     ],
     "explanation_en": "'quite / fairly / pretty' is 'ziemlich' in German. (Intensifiers)"
   },
@@ -5832,10 +5832,10 @@
     },
     "correct_answer": "absolutely",
     "wrong_answers": [
-      "extremely",
-      "incredibly / unbelievably",
-      "very",
-      "incredibly / insanely"
+      "hardly / barely",
+      "rather not / probably not",
+      "not one bit (slang)",
+      "somewhat / a little"
     ],
     "explanation_en": "'absolut' means 'absolutely' in German."
   },
@@ -5850,10 +5850,10 @@
     },
     "correct_answer": "absolut",
     "wrong_answers": [
-      "mega",
-      "echt",
-      "unglaublich",
-      "wahnsinnig"
+      "kaum",
+      "eher nicht",
+      "höchstens",
+      "nur"
     ],
     "explanation_en": "The correct adverb here is 'absolut', meaning 'absolutely'."
   },
@@ -5868,10 +5868,10 @@
     },
     "correct_answer": "absolut",
     "wrong_answers": [
-      "mega",
-      "echt",
-      "unglaublich",
-      "wahnsinnig"
+      "kaum",
+      "eher nicht",
+      "höchstens",
+      "nur"
     ],
     "explanation_en": "'absolutely' is 'absolut' in German. (Intensifiers)"
   },
@@ -5903,8 +5903,8 @@
     },
     "correct_answer": "incredibly / unbelievably",
     "wrong_answers": [
-      "incredibly / insanely",
-      "totally / completely (slang)",
+      "not at all (emphatic)",
+      "a little / a bit",
       "barely / hardly (downscaler)",
       "quite / fairly / pretty"
     ],
@@ -5921,10 +5921,10 @@
     },
     "correct_answer": "unglaublich",
     "wrong_answers": [
-      "total",
-      "wahnsinnig",
-      "extrem",
-      "wirklich"
+      "überhaupt nicht",
+      "ein bisschen",
+      "höchstens",
+      "gut"
     ],
     "explanation_en": "The correct adverb here is 'unglaublich', meaning 'incredibly / unbelievably'."
   },
@@ -5939,10 +5939,10 @@
     },
     "correct_answer": "unglaublich",
     "wrong_answers": [
-      "total",
-      "wahnsinnig",
-      "extrem",
-      "wirklich"
+      "überhaupt nicht",
+      "ein bisschen",
+      "höchstens",
+      "gut"
     ],
     "explanation_en": "'incredibly / unbelievably' is 'unglaublich' in German. (Intensifiers)"
   },
@@ -5974,10 +5974,10 @@
     },
     "correct_answer": "really / genuinely",
     "wrong_answers": [
-      "totally / completely",
-      "mega / super (slang)",
-      "incredibly / insanely",
-      "totally / completely (slang)"
+      "hardly / barely",
+      "not at all",
+      "more than",
+      "almost / nearly"
     ],
     "explanation_en": "'echt' means 'really / genuinely' in German."
   },
@@ -5992,10 +5992,10 @@
     },
     "correct_answer": "echt",
     "wrong_answers": [
-      "besonders",
-      "voll",
-      "unglaublich",
-      "sehr"
+      "kaum",
+      "mehr als",
+      "beinahe",
+      "lediglich"
     ],
     "explanation_en": "The correct adverb here is 'echt', meaning 'really / genuinely'."
   },
@@ -6010,10 +6010,10 @@
     },
     "correct_answer": "echt",
     "wrong_answers": [
-      "besonders",
-      "voll",
-      "unglaublich",
-      "sehr"
+      "kaum",
+      "mehr als",
+      "beinahe",
+      "lediglich"
     ],
     "explanation_en": "'really / genuinely' is 'echt' in German. (Intensifiers)"
   },
@@ -6045,10 +6045,10 @@
     },
     "correct_answer": "totally / completely (slang)",
     "wrong_answers": [
-      "so (intensifier)",
-      "quite / fairly / pretty",
-      "incredibly / unbelievably",
-      "really / genuinely"
+      "a little / a bit",
+      "not at all",
+      "reasonably / more or less",
+      "hardly / barely"
     ],
     "explanation_en": "'voll' means 'totally / completely (slang)' in German."
   },
@@ -6063,10 +6063,10 @@
     },
     "correct_answer": "voll",
     "wrong_answers": [
-      "echt",
-      "wahnsinnig",
-      "mega",
-      "wirklich"
+      "ein bisschen",
+      "gar nicht",
+      "beinahe",
+      "gut"
     ],
     "explanation_en": "The correct adverb here is 'voll', meaning 'totally / completely (slang)'."
   },
@@ -6081,10 +6081,10 @@
     },
     "correct_answer": "voll",
     "wrong_answers": [
-      "echt",
-      "wahnsinnig",
-      "mega",
-      "wirklich"
+      "ein bisschen",
+      "gar nicht",
+      "beinahe",
+      "gut"
     ],
     "explanation_en": "'totally / completely (slang)' is 'voll' in German. (Intensifiers)"
   },
@@ -6116,10 +6116,10 @@
     },
     "correct_answer": "especially / particularly",
     "wrong_answers": [
-      "extremely",
-      "so (intensifier)",
-      "absolutely",
-      "really / truly"
+      "not at all (emphatic)",
+      "hardly / barely",
+      "about / roughly",
+      "almost / nearly"
     ],
     "explanation_en": "'besonders' means 'especially / particularly' in German."
   },
@@ -6134,10 +6134,10 @@
     },
     "correct_answer": "besonders",
     "wrong_answers": [
-      "extrem",
-      "total",
+      "etwa",
+      "bloß",
       "kaum",
-      "absolut"
+      "höchstens"
     ],
     "explanation_en": "The correct adverb here is 'besonders', meaning 'especially / particularly'."
   },
@@ -6152,10 +6152,10 @@
     },
     "correct_answer": "besonders",
     "wrong_answers": [
-      "extrem",
-      "total",
+      "etwa",
+      "bloß",
       "kaum",
-      "absolut"
+      "höchstens"
     ],
     "explanation_en": "'especially / particularly' is 'besonders' in German. (Intensifiers)"
   },
@@ -6187,9 +6187,9 @@
     },
     "correct_answer": "so (intensifier)",
     "wrong_answers": [
-      "totally / completely (slang)",
-      "mega / super (slang)",
-      "extremely",
+      "not at all",
+      "only / just",
+      "at most",
       "barely / hardly (downscaler)"
     ],
     "explanation_en": "'so' means 'so (intensifier)' in German."
@@ -6205,9 +6205,9 @@
     },
     "correct_answer": "so",
     "wrong_answers": [
-      "ziemlich",
-      "mega",
-      "besonders",
+      "nur",
+      "beinahe",
+      "mehr als",
       "kaum"
     ],
     "explanation_en": "The correct adverb here is 'so', meaning 'so (intensifier)'."
@@ -6223,9 +6223,9 @@
     },
     "correct_answer": "so",
     "wrong_answers": [
-      "ziemlich",
-      "mega",
-      "besonders",
+      "nur",
+      "beinahe",
+      "mehr als",
       "kaum"
     ],
     "explanation_en": "'so (intensifier)' is 'so' in German. (Intensifiers)"
@@ -6259,9 +6259,9 @@
     "correct_answer": "mega / super (slang)",
     "wrong_answers": [
       "quite / fairly / pretty",
-      "extremely",
-      "totally / completely",
-      "totally / completely (slang)"
+      "somewhat / a little",
+      "reasonably / more or less",
+      "not at all"
     ],
     "explanation_en": "'mega' means 'mega / super (slang)' in German."
   },
@@ -6276,10 +6276,10 @@
     },
     "correct_answer": "mega",
     "wrong_answers": [
-      "extrem",
-      "wirklich",
+      "gar nicht",
+      "höchstens",
       "ziemlich",
-      "wahnsinnig"
+      "nur"
     ],
     "explanation_en": "The correct adverb here is 'mega', meaning 'mega / super (slang)'."
   },
@@ -6294,10 +6294,10 @@
     },
     "correct_answer": "mega",
     "wrong_answers": [
-      "extrem",
-      "wirklich",
+      "gar nicht",
+      "höchstens",
       "ziemlich",
-      "wahnsinnig"
+      "nur"
     ],
     "explanation_en": "'mega / super (slang)' is 'mega' in German. (Intensifiers)"
   },
@@ -6329,10 +6329,10 @@
     },
     "correct_answer": "incredibly / insanely",
     "wrong_answers": [
-      "really / truly",
-      "totally / completely (slang)",
-      "absolutely",
-      "especially / particularly"
+      "not at all",
+      "a little / a bit",
+      "hardly / barely",
+      "reasonably / more or less"
     ],
     "explanation_en": "'wahnsinnig' means 'incredibly / insanely' in German."
   },
@@ -6347,10 +6347,10 @@
     },
     "correct_answer": "wahnsinnig",
     "wrong_answers": [
-      "so",
-      "sehr",
-      "unglaublich",
-      "voll"
+      "gar nicht",
+      "ein bisschen",
+      "knapp",
+      "vergleichsweise"
     ],
     "explanation_en": "The correct adverb here is 'wahnsinnig', meaning 'incredibly / insanely'."
   },
@@ -6365,10 +6365,10 @@
     },
     "correct_answer": "wahnsinnig",
     "wrong_answers": [
-      "so",
-      "sehr",
-      "unglaublich",
-      "voll"
+      "gar nicht",
+      "ein bisschen",
+      "knapp",
+      "vergleichsweise"
     ],
     "explanation_en": "'incredibly / insanely' is 'wahnsinnig' in German. (Intensifiers)"
   },
@@ -6471,10 +6471,10 @@
     },
     "correct_answer": "that's why / because of that",
     "wrong_answers": [
-      "hence / for that reason",
-      "through that / as a result",
-      "consequently / as a result",
-      "thus / therefore"
+      "however / though",
+      "afterwards / subsequently",
+      "besides / additionally",
+      "secondly"
     ],
     "explanation_en": "'deswegen' means 'that's why / because of that' in German."
   },
@@ -6489,10 +6489,10 @@
     },
     "correct_answer": "deswegen",
     "wrong_answers": [
-      "daher",
-      "deshalb",
-      "folglich",
-      "dadurch"
+      "allerdings",
+      "anschließend",
+      "außerdem",
+      "nämlich"
     ],
     "explanation_en": "The correct adverb here is 'deswegen', meaning 'that's why / because of that'."
   },
@@ -6507,10 +6507,10 @@
     },
     "correct_answer": "deswegen",
     "wrong_answers": [
-      "daher",
-      "deshalb",
-      "folglich",
-      "dadurch"
+      "allerdings",
+      "anschließend",
+      "außerdem",
+      "nämlich"
     ],
     "explanation_en": "'that's why / because of that' is 'deswegen' in German. (Cause & Effect)"
   },
@@ -6542,10 +6542,10 @@
     },
     "correct_answer": "through that / as a result",
     "wrong_answers": [
-      "hence / for that reason",
-      "that's why / because of that",
-      "as a result / consequently",
-      "therefore / that's why"
+      "anyway / at any rate",
+      "on the other hand",
+      "secondly",
+      "nevertheless / still"
     ],
     "explanation_en": "'dadurch' means 'through that / as a result' in German."
   },
@@ -6560,10 +6560,10 @@
     },
     "correct_answer": "dadurch",
     "wrong_answers": [
-      "daher",
-      "deswegen",
-      "deshalb",
-      "folglich"
+      "jedenfalls",
+      "andererseits",
+      "zweitens",
+      "tatsächlich"
     ],
     "explanation_en": "The correct adverb here is 'dadurch', meaning 'through that / as a result'."
   },
@@ -6578,10 +6578,10 @@
     },
     "correct_answer": "dadurch",
     "wrong_answers": [
-      "daher",
-      "deswegen",
-      "deshalb",
-      "folglich"
+      "jedenfalls",
+      "andererseits",
+      "zweitens",
+      "tatsächlich"
     ],
     "explanation_en": "'through that / as a result' is 'dadurch' in German. (Cause & Effect)"
   },
@@ -6613,10 +6613,10 @@
     },
     "correct_answer": "thus / therefore",
     "wrong_answers": [
-      "that's why / because of that",
-      "through that / as a result",
-      "as a result / consequently",
-      "therefore / that's why"
+      "thirdly",
+      "namely / because (explanatory)",
+      "first / initially",
+      "secondly"
     ],
     "explanation_en": "'somit' means 'thus / therefore' in German."
   },
@@ -6631,10 +6631,10 @@
     },
     "correct_answer": "somit",
     "wrong_answers": [
-      "daher",
-      "infolgedessen",
+      "drittens",
+      "nämlich",
       "dadurch",
-      "deshalb"
+      "zunächst"
     ],
     "explanation_en": "The correct adverb here is 'somit', meaning 'thus / therefore'."
   },
@@ -6649,10 +6649,10 @@
     },
     "correct_answer": "somit",
     "wrong_answers": [
-      "daher",
-      "infolgedessen",
+      "drittens",
+      "nämlich",
       "dadurch",
-      "deshalb"
+      "zunächst"
     ],
     "explanation_en": "'thus / therefore' is 'somit' in German. (Cause & Effect)"
   },
@@ -6684,10 +6684,10 @@
     },
     "correct_answer": "as a result / consequently",
     "wrong_answers": [
-      "through that / as a result",
-      "thus / therefore",
-      "consequently / as a result",
-      "therefore / that's why"
+      "on one hand",
+      "thirdly",
+      "secondly",
+      "on the contrary"
     ],
     "explanation_en": "'infolgedessen' means 'as a result / consequently' in German."
   },
@@ -6702,10 +6702,10 @@
     },
     "correct_answer": "infolgedessen",
     "wrong_answers": [
-      "deswegen",
-      "folglich",
-      "somit",
-      "deshalb"
+      "einerseits",
+      "drittens",
+      "im Gegenteil",
+      "allerdings"
     ],
     "explanation_en": "The correct adverb here is 'infolgedessen', meaning 'as a result / consequently'."
   },
@@ -6720,10 +6720,10 @@
     },
     "correct_answer": "infolgedessen",
     "wrong_answers": [
-      "deswegen",
-      "folglich",
-      "somit",
-      "deshalb"
+      "einerseits",
+      "drittens",
+      "im Gegenteil",
+      "allerdings"
     ],
     "explanation_en": "'as a result / consequently' is 'infolgedessen' in German. (Cause & Effect)"
   },
@@ -6755,10 +6755,10 @@
     },
     "correct_answer": "therefore / that's why",
     "wrong_answers": [
-      "thus / therefore",
-      "through that / as a result",
-      "that's why / because of that",
-      "as a result / consequently"
+      "first",
+      "by the way",
+      "thirdly",
+      "anyway / at any rate"
     ],
     "explanation_en": "'deshalb' means 'therefore / that's why' in German."
   },
@@ -6773,10 +6773,10 @@
     },
     "correct_answer": "deshalb",
     "wrong_answers": [
-      "daher",
-      "deswegen",
-      "infolgedessen",
-      "folglich"
+      "zuerst",
+      "übrigens",
+      "drittens",
+      "jedenfalls"
     ],
     "explanation_en": "The correct adverb here is 'deshalb', meaning 'therefore / that's why'."
   },
@@ -6791,10 +6791,10 @@
     },
     "correct_answer": "deshalb",
     "wrong_answers": [
-      "daher",
-      "deswegen",
-      "infolgedessen",
-      "folglich"
+      "zuerst",
+      "übrigens",
+      "drittens",
+      "jedenfalls"
     ],
     "explanation_en": "'therefore / that's why' is 'deshalb' in German. (Cause & Effect)"
   },
@@ -6826,10 +6826,10 @@
     },
     "correct_answer": "hence / for that reason",
     "wrong_answers": [
-      "as a result / consequently",
-      "consequently / as a result",
-      "thus / therefore",
-      "therefore / that's why"
+      "however / though",
+      "beyond that / furthermore",
+      "on one hand",
+      "first"
     ],
     "explanation_en": "'daher' means 'hence / for that reason' in German."
   },
@@ -6844,9 +6844,9 @@
     },
     "correct_answer": "daher",
     "wrong_answers": [
-      "dadurch",
-      "deshalb",
-      "folglich",
+      "allerdings",
+      "darüber hinaus",
+      "einerseits",
       "infolgedessen"
     ],
     "explanation_en": "The correct adverb here is 'daher', meaning 'hence / for that reason'."
@@ -6862,9 +6862,9 @@
     },
     "correct_answer": "daher",
     "wrong_answers": [
-      "dadurch",
-      "deshalb",
-      "folglich",
+      "allerdings",
+      "darüber hinaus",
+      "einerseits",
       "infolgedessen"
     ],
     "explanation_en": "'hence / for that reason' is 'daher' in German. (Cause & Effect)"
@@ -6897,10 +6897,10 @@
     },
     "correct_answer": "consequently / as a result",
     "wrong_answers": [
-      "thus / therefore",
-      "hence / for that reason",
-      "as a result / consequently",
-      "that's why / because of that"
+      "also / too",
+      "however / yet",
+      "but (rather) — after a negation",
+      "secondly"
     ],
     "explanation_en": "'folglich' means 'consequently / as a result' in German."
   },
@@ -6915,10 +6915,10 @@
     },
     "correct_answer": "folglich",
     "wrong_answers": [
-      "daher",
-      "somit",
-      "dadurch",
-      "infolgedessen"
+      "auch",
+      "jedoch",
+      "zweitens",
+      "entweder"
     ],
     "explanation_en": "The correct adverb here is 'folglich', meaning 'consequently / as a result'."
   },
@@ -6933,10 +6933,10 @@
     },
     "correct_answer": "folglich",
     "wrong_answers": [
-      "daher",
-      "somit",
-      "dadurch",
-      "infolgedessen"
+      "auch",
+      "jedoch",
+      "zweitens",
+      "entweder"
     ],
     "explanation_en": "'consequently / as a result' is 'folglich' in German. (Cause & Effect)"
   },
@@ -6969,9 +6969,9 @@
     "correct_answer": "exactly / precisely",
     "wrong_answers": [
       "absolutely not / no way",
-      "of course / naturally",
-      "sure / obviously / of course",
-      "true / right / correct"
+      "by no means / not at all",
+      "at most",
+      "more than"
     ],
     "explanation_en": "'genau' means 'exactly / precisely' in German."
   },
@@ -6988,8 +6988,8 @@
     "wrong_answers": [
       "leider",
       "auf keinen Fall",
-      "stimmt",
-      "natürlich"
+      "höchstens",
+      "mehr als"
     ],
     "explanation_en": "The correct adverb here is 'genau', meaning 'exactly / precisely'."
   },
@@ -7006,8 +7006,8 @@
     "wrong_answers": [
       "leider",
       "auf keinen Fall",
-      "stimmt",
-      "natürlich"
+      "höchstens",
+      "mehr als"
     ],
     "explanation_en": "'exactly / precisely' is 'genau' in German. (Agreement & Reaction)"
   },
@@ -7039,9 +7039,9 @@
     },
     "correct_answer": "true / right / correct",
     "wrong_answers": [
-      "exactly / precisely",
+      "not one bit (slang)",
       "unfortunately",
-      "sure / obviously / of course",
+      "by no means / not at all",
       "absolutely not / no way"
     ],
     "explanation_en": "'stimmt' means 'true / right / correct' in German."
@@ -7059,8 +7059,8 @@
     "wrong_answers": [
       "leider",
       "auf keinen Fall",
-      "genau",
-      "natürlich"
+      "angeblich",
+      "zweifellos"
     ],
     "explanation_en": "The correct adverb here is 'stimmt', meaning 'true / right / correct'."
   },
@@ -7077,8 +7077,8 @@
     "wrong_answers": [
       "leider",
       "auf keinen Fall",
-      "genau",
-      "natürlich"
+      "angeblich",
+      "zweifellos"
     ],
     "explanation_en": "'true / right / correct' is 'stimmt' in German. (Agreement & Reaction)"
   },
@@ -7110,10 +7110,10 @@
     },
     "correct_answer": "sure / obviously / of course",
     "wrong_answers": [
-      "true / right / correct",
-      "of course / naturally",
+      "by no means / not at all",
+      "rather not / probably not",
       "unfortunately",
-      "exactly / precisely"
+      "absolutely not / no way"
     ],
     "explanation_en": "'klar' means 'sure / obviously / of course' in German."
   },
@@ -7129,9 +7129,9 @@
     "correct_answer": "klar",
     "wrong_answers": [
       "leider",
-      "natürlich",
+      "unwahrscheinlich",
       "auf keinen Fall",
-      "stimmt"
+      "ehrlich gesagt"
     ],
     "explanation_en": "The correct adverb here is 'klar', meaning 'sure / obviously / of course'."
   },
@@ -7147,9 +7147,9 @@
     "correct_answer": "klar",
     "wrong_answers": [
       "leider",
-      "natürlich",
+      "unwahrscheinlich",
       "auf keinen Fall",
-      "stimmt"
+      "ehrlich gesagt"
     ],
     "explanation_en": "'sure / obviously / of course' is 'klar' in German. (Agreement & Reaction)"
   },
@@ -7181,10 +7181,10 @@
     },
     "correct_answer": "of course / naturally",
     "wrong_answers": [
-      "exactly / precisely",
+      "not one bit (slang)",
       "absolutely not / no way",
-      "sure / obviously / of course",
-      "true / right / correct"
+      "by no means / not at all",
+      "rather not / probably not"
     ],
     "explanation_en": "'natürlich' means 'of course / naturally' in German."
   },
@@ -7199,10 +7199,10 @@
     },
     "correct_answer": "natürlich",
     "wrong_answers": [
-      "stimmt",
-      "klar",
+      "auf keinen Fall",
+      "offensichtlich",
       "leider",
-      "genau"
+      "zweifellos"
     ],
     "explanation_en": "The correct adverb here is 'natürlich', meaning 'of course / naturally'."
   },
@@ -7217,10 +7217,10 @@
     },
     "correct_answer": "natürlich",
     "wrong_answers": [
-      "stimmt",
-      "klar",
+      "auf keinen Fall",
+      "offensichtlich",
       "leider",
-      "genau"
+      "zweifellos"
     ],
     "explanation_en": "'of course / naturally' is 'natürlich' in German. (Agreement & Reaction)"
   },
@@ -7394,10 +7394,10 @@
     },
     "correct_answer": "however / yet",
     "wrong_answers": [
-      "on the contrary",
+      "in addition",
       "instead",
-      "however / though / admittedly",
-      "nonetheless / yet"
+      "then",
+      "afterwards / subsequently"
     ],
     "explanation_en": "'jedoch' means 'however / yet' in German."
   },
@@ -7413,9 +7413,9 @@
     "correct_answer": "jedoch",
     "wrong_answers": [
       "stattdessen",
-      "allerdings",
-      "im Gegenteil",
-      "trotzdem"
+      "zusätzlich",
+      "anschließend",
+      "einerseits"
     ],
     "explanation_en": "The correct adverb here is 'jedoch', meaning 'however / yet'."
   },
@@ -7431,9 +7431,9 @@
     "correct_answer": "jedoch",
     "wrong_answers": [
       "stattdessen",
-      "allerdings",
-      "im Gegenteil",
-      "trotzdem"
+      "zusätzlich",
+      "anschließend",
+      "einerseits"
     ],
     "explanation_en": "'however / yet' is 'jedoch' in German. (Contrast)"
   },
@@ -7466,9 +7466,9 @@
     "correct_answer": "however / though / admittedly",
     "wrong_answers": [
       "instead",
-      "however / yet",
+      "but (rather) — after a negation",
       "on the contrary",
-      "nevertheless / even so"
+      "first / initially"
     ],
     "explanation_en": "'allerdings' means 'however / though / admittedly' in German."
   },
@@ -7483,9 +7483,9 @@
     },
     "correct_answer": "allerdings",
     "wrong_answers": [
-      "trotzdem",
+      "zunächst",
       "stattdessen",
-      "jedoch",
+      "übrigens",
       "im Gegenteil"
     ],
     "explanation_en": "The correct adverb here is 'allerdings', meaning 'however / though / admittedly'."
@@ -7501,9 +7501,9 @@
     },
     "correct_answer": "allerdings",
     "wrong_answers": [
-      "trotzdem",
+      "zunächst",
       "stattdessen",
-      "jedoch",
+      "übrigens",
       "im Gegenteil"
     ],
     "explanation_en": "'however / though / admittedly' is 'allerdings' in German. (Contrast)"
@@ -7536,10 +7536,10 @@
     },
     "correct_answer": "nevertheless / even so",
     "wrong_answers": [
-      "nonetheless / yet",
+      "last (in a sequence)",
       "on the contrary",
-      "however / though / admittedly",
-      "whereas / on the other hand"
+      "first / initially",
+      "in addition"
     ],
     "explanation_en": "'trotzdem' means 'nevertheless / even so' in German."
   },
@@ -7555,9 +7555,9 @@
     "correct_answer": "trotzdem",
     "wrong_answers": [
       "im Gegenteil",
-      "hingegen",
-      "dennoch",
-      "allerdings"
+      "zuletzt",
+      "zunächst",
+      "zusätzlich"
     ],
     "explanation_en": "The correct adverb here is 'trotzdem', meaning 'nevertheless / even so'."
   },
@@ -7573,9 +7573,9 @@
     "correct_answer": "trotzdem",
     "wrong_answers": [
       "im Gegenteil",
-      "hingegen",
-      "dennoch",
-      "allerdings"
+      "zuletzt",
+      "zunächst",
+      "zusätzlich"
     ],
     "explanation_en": "'nevertheless / even so' is 'trotzdem' in German. (Contrast)"
   },
@@ -7607,9 +7607,9 @@
     },
     "correct_answer": "nonetheless / yet",
     "wrong_answers": [
-      "nevertheless / even so",
+      "beyond that / furthermore",
       "on the contrary",
-      "however / yet",
+      "then",
       "instead"
     ],
     "explanation_en": "'dennoch' means 'nonetheless / yet' in German."
@@ -7625,10 +7625,10 @@
     },
     "correct_answer": "dennoch",
     "wrong_answers": [
-      "allerdings",
+      "darüber hinaus",
       "im Gegenteil",
-      "trotzdem",
-      "jedoch"
+      "entweder",
+      "drittens"
     ],
     "explanation_en": "The correct adverb here is 'dennoch', meaning 'nonetheless / yet'."
   },
@@ -7643,10 +7643,10 @@
     },
     "correct_answer": "dennoch",
     "wrong_answers": [
-      "allerdings",
+      "darüber hinaus",
       "im Gegenteil",
-      "trotzdem",
-      "jedoch"
+      "entweder",
+      "drittens"
     ],
     "explanation_en": "'nonetheless / yet' is 'dennoch' in German. (Contrast)"
   },
@@ -7678,10 +7678,10 @@
     },
     "correct_answer": "whereas / on the other hand",
     "wrong_answers": [
-      "on the contrary",
-      "nonetheless / yet",
-      "instead",
-      "however / yet"
+      "moreover",
+      "last (in a sequence)",
+      "for that reason / hence",
+      "therefore / that's why"
     ],
     "explanation_en": "'hingegen' means 'whereas / on the other hand' in German."
   },
@@ -7696,10 +7696,10 @@
     },
     "correct_answer": "hingegen",
     "wrong_answers": [
-      "allerdings",
-      "stattdessen",
-      "im Gegenteil",
-      "dennoch"
+      "zudem",
+      "zuletzt",
+      "daher",
+      "infolgedessen"
     ],
     "explanation_en": "The correct adverb here is 'hingegen', meaning 'whereas / on the other hand'."
   },
@@ -7714,10 +7714,10 @@
     },
     "correct_answer": "hingegen",
     "wrong_answers": [
-      "allerdings",
-      "stattdessen",
-      "im Gegenteil",
-      "dennoch"
+      "zudem",
+      "zuletzt",
+      "daher",
+      "infolgedessen"
     ],
     "explanation_en": "'whereas / on the other hand' is 'hingegen' in German. (Contrast)"
   },
@@ -7749,8 +7749,8 @@
     },
     "correct_answer": "instead",
     "wrong_answers": [
-      "on the contrary",
-      "whereas / on the other hand",
+      "last (in a sequence)",
+      "first",
       "however / yet",
       "nonetheless / yet"
     ],
@@ -7767,7 +7767,7 @@
     },
     "correct_answer": "stattdessen",
     "wrong_answers": [
-      "im Gegenteil",
+      "zuletzt",
       "dennoch",
       "jedoch",
       "allerdings"
@@ -7785,7 +7785,7 @@
     },
     "correct_answer": "stattdessen",
     "wrong_answers": [
-      "im Gegenteil",
+      "zuletzt",
       "dennoch",
       "jedoch",
       "allerdings"
@@ -7820,10 +7820,10 @@
     },
     "correct_answer": "on the contrary",
     "wrong_answers": [
-      "however / yet",
-      "instead",
-      "however / though / admittedly",
-      "whereas / on the other hand"
+      "nevertheless / still",
+      "therefore / that's why",
+      "actually / in fact",
+      "as a result / consequently"
     ],
     "explanation_en": "'im Gegenteil' means 'on the contrary' in German."
   },
@@ -7839,9 +7839,9 @@
     "correct_answer": "im Gegenteil",
     "wrong_answers": [
       "trotzdem",
-      "jedoch",
+      "deshalb",
       "allerdings",
-      "hingegen"
+      "tatsächlich"
     ],
     "explanation_en": "The correct adverb here is 'im Gegenteil', meaning 'on the contrary'."
   },
@@ -7857,9 +7857,9 @@
     "correct_answer": "im Gegenteil",
     "wrong_answers": [
       "trotzdem",
-      "jedoch",
+      "deshalb",
       "allerdings",
-      "hingegen"
+      "tatsächlich"
     ],
     "explanation_en": "'on the contrary' is 'im Gegenteil' in German. (Contrast)"
   },
@@ -7893,7 +7893,7 @@
     "wrong_answers": [
       "please",
       "a little / a bit",
-      "possibly / perhaps (polite hedge)",
+      "definitely / in any case",
       "kind of / somehow"
     ],
     "explanation_en": "'vielleicht' means 'maybe / perhaps (softener)' in German."
@@ -7911,7 +7911,7 @@
     "wrong_answers": [
       "bitte",
       "ein bisschen",
-      "eventuell",
+      "auf jeden Fall",
       "irgendwie"
     ],
     "explanation_en": "The correct adverb here is 'vielleicht', meaning 'maybe / perhaps (softener)'."
@@ -7929,7 +7929,7 @@
     "wrong_answers": [
       "bitte",
       "ein bisschen",
-      "eventuell",
+      "auf jeden Fall",
       "irgendwie"
     ],
     "explanation_en": "'maybe / perhaps (softener)' is 'vielleicht' in German. (Politeness & Softeners)"
@@ -8105,7 +8105,7 @@
     "correct_answer": "possibly / perhaps (polite hedge)",
     "wrong_answers": [
       "kind of / somehow",
-      "maybe / perhaps (softener)",
+      "surely / certainly",
       "a little / a bit",
       "please"
     ],
@@ -8123,7 +8123,7 @@
     "correct_answer": "eventuell",
     "wrong_answers": [
       "ein bisschen",
-      "vielleicht",
+      "sicher",
       "irgendwie",
       "bitte"
     ],
@@ -8141,7 +8141,7 @@
     "correct_answer": "eventuell",
     "wrong_answers": [
       "ein bisschen",
-      "vielleicht",
+      "sicher",
       "irgendwie",
       "bitte"
     ],
@@ -8264,8 +8264,8 @@
     },
     "correct_answer": "ehrlich gesagt",
     "wrong_answers": [
-      "um ehrlich zu sein",
-      "ehrlicherweise",
+      "vermutlich",
+      "wohl kaum",
       "im Allgemeinen",
       "genauer gesagt"
     ],
@@ -8282,8 +8282,8 @@
     },
     "correct_answer": "ehrlich gesagt",
     "wrong_answers": [
-      "um ehrlich zu sein",
-      "ehrlicherweise",
+      "vermutlich",
+      "wohl kaum",
       "im Allgemeinen",
       "genauer gesagt"
     ],
@@ -8319,8 +8319,8 @@
     "wrong_answers": [
       "to be honest",
       "in short / to put it briefly",
-      "to be honest",
-      "in principle / fundamentally"
+      "in my opinion",
+      "as far as I know"
     ],
     "explanation_en": "'im Allgemeinen' means 'generally speaking / in general' in German."
   },
@@ -8335,7 +8335,7 @@
     },
     "correct_answer": "im Allgemeinen",
     "wrong_answers": [
-      "grundsätzlich",
+      "meiner Meinung nach",
       "was mich betrifft",
       "genauer gesagt",
       "ehrlicherweise"
@@ -8353,7 +8353,7 @@
     },
     "correct_answer": "im Allgemeinen",
     "wrong_answers": [
-      "grundsätzlich",
+      "meiner Meinung nach",
       "was mich betrifft",
       "genauer gesagt",
       "ehrlicherweise"
@@ -8389,7 +8389,7 @@
     "correct_answer": "in principle / fundamentally",
     "wrong_answers": [
       "to be honest",
-      "generally speaking / in general",
+      "as far as I know",
       "in my opinion",
       "as far as I'm concerned"
     ],
@@ -8462,7 +8462,7 @@
       "generally speaking / in general",
       "as far as I know",
       "in principle / fundamentally",
-      "to be honest"
+      "as far as I'm concerned"
     ],
     "explanation_en": "'um ehrlich zu sein' means 'to be honest' in German."
   },
@@ -8480,7 +8480,7 @@
       "meiner Meinung nach",
       "im Allgemeinen",
       "kurz gesagt",
-      "ehrlicherweise"
+      "was mich betrifft"
     ],
     "explanation_en": "The correct adverb here is 'um ehrlich zu sein', meaning 'to be honest'."
   },
@@ -8498,7 +8498,7 @@
       "meiner Meinung nach",
       "im Allgemeinen",
       "kurz gesagt",
-      "ehrlicherweise"
+      "was mich betrifft"
     ],
     "explanation_en": "'to be honest' is 'um ehrlich zu sein' in German. (Sentence Openers)"
   },
@@ -8533,7 +8533,7 @@
       "as far as I know",
       "generally speaking / in general",
       "as far as I'm concerned",
-      "to be honest"
+      "in my opinion"
     ],
     "explanation_en": "'ehrlicherweise' means 'honestly speaking' in German."
   },
@@ -8549,7 +8549,7 @@
     "correct_answer": "ehrlicherweise",
     "wrong_answers": [
       "meiner Meinung nach",
-      "um ehrlich zu sein",
+      "soweit ich weiß",
       "grundsätzlich",
       "im Allgemeinen"
     ],
@@ -8567,7 +8567,7 @@
     "correct_answer": "ehrlicherweise",
     "wrong_answers": [
       "meiner Meinung nach",
-      "um ehrlich zu sein",
+      "soweit ich weiß",
       "grundsätzlich",
       "im Allgemeinen"
     ],
@@ -8815,7 +8815,7 @@
     "correct_answer": "as far as I know",
     "wrong_answers": [
       "to be honest",
-      "to be honest",
+      "in my opinion",
       "in short / to put it briefly",
       "in principle / fundamentally"
     ],
@@ -9063,10 +9063,10 @@
     },
     "correct_answer": "irgendwann",
     "wrong_answers": [
-      "Niemals",
-      "Bald",
-      "Irgendwo",
-      "Neulich"
+      "niemals",
+      "bald",
+      "irgendwo",
+      "neulich"
     ],
     "explanation_en": "'at some point / someday' is 'irgendwann' in German."
   },
@@ -9100,7 +9100,7 @@
     "wrong_answers": [
       "at most",
       "approximately",
-      "exactly",
+      "just under / barely",
       "almost"
     ],
     "explanation_en": "'mindestens' means 'at least'. Opposite: höchstens (at most). With numbers and quantities: mindestens zehn Minuten."
@@ -9118,7 +9118,7 @@
     "wrong_answers": [
       "höchstens",
       "ungefähr",
-      "genau",
+      "besonders",
       "fast"
     ],
     "explanation_en": "The correct word here is 'mindestens' (at least)."
@@ -9136,7 +9136,7 @@
     "wrong_answers": [
       "höchstens",
       "ungefähr",
-      "genau",
+      "besonders",
       "fast"
     ],
     "explanation_en": "'at least' is 'mindestens' in German."
@@ -9205,10 +9205,10 @@
     },
     "correct_answer": "insgesamt",
     "wrong_answers": [
-      "Teilweise",
-      "Durchschnittlich",
-      "Zusätzlich",
-      "Nämlich"
+      "teilweise",
+      "durchschnittlich",
+      "zusätzlich",
+      "nämlich"
     ],
     "explanation_en": "'in total / altogether / overall' is 'insgesamt' in German."
   },
@@ -9312,7 +9312,7 @@
     "correct_answer": "almost / nearly",
     "wrong_answers": [
       "completely",
-      "barely",
+      "at least",
       "luckily",
       "suddenly"
     ],
@@ -9702,10 +9702,10 @@
     },
     "correct_answer": "irgendetwas",
     "wrong_answers": [
-      "Irgendjemand",
-      "Nichts",
-      "Alles",
-      "Irgendwo"
+      "irgendjemand",
+      "nichts",
+      "alles",
+      "irgendwo"
     ],
     "explanation_en": "'something / anything (indefinite)' is 'irgendetwas' in German."
   },
@@ -9773,10 +9773,10 @@
     },
     "correct_answer": "entweder",
     "wrong_answers": [
-      "Weder",
-      "Sowohl",
-      "Andernfalls",
-      "Außerdem"
+      "weder",
+      "sowohl",
+      "andernfalls",
+      "außerdem"
     ],
     "explanation_en": "'either (… or)' is 'entweder' in German."
   },
@@ -9826,7 +9826,7 @@
     },
     "correct_answer": "sondern",
     "wrong_answers": [
-      "aber",
+      "allerdings",
       "denn",
       "deshalb",
       "obwohl"
@@ -9844,7 +9844,7 @@
     },
     "correct_answer": "sondern",
     "wrong_answers": [
-      "aber",
+      "allerdings",
       "denn",
       "deshalb",
       "obwohl"
@@ -10163,7 +10163,7 @@
     },
     "correct_answer": "presumably / probably",
     "wrong_answers": [
-      "certainly",
+      "undoubtedly / without a doubt",
       "never",
       "supposedly",
       "recently"
@@ -10236,7 +10236,7 @@
     "wrong_answers": [
       "definitely",
       "always",
-      "hardly",
+      "undoubtedly / without a doubt",
       "immediately"
     ],
     "explanation_en": "'womöglich' means 'possibly / perhaps (even)'. womöglich ≈ möglicherweise; often hints that the possibility is unwelcome."
@@ -10254,7 +10254,7 @@
     "wrong_answers": [
       "garantiert",
       "immer",
-      "kaum",
+      "angeblich",
       "sofort"
     ],
     "explanation_en": "The correct word here is 'womöglich' (possibly / perhaps (even))."
@@ -10272,7 +10272,7 @@
     "wrong_answers": [
       "garantiert",
       "immer",
-      "kaum",
+      "angeblich",
       "sofort"
     ],
     "explanation_en": "'possibly / perhaps (even)' is 'womöglich' in German."
@@ -10518,7 +10518,7 @@
     },
     "correct_answer": "obviously / evidently",
     "wrong_answers": [
-      "supposedly",
+      "actually / in theory",
       "rarely",
       "still",
       "at least"
@@ -10536,7 +10536,7 @@
     },
     "correct_answer": "offensichtlich",
     "wrong_answers": [
-      "angeblich",
+      "womöglich",
       "selten",
       "noch",
       "mindestens"
@@ -10554,7 +10554,7 @@
     },
     "correct_answer": "offensichtlich",
     "wrong_answers": [
-      "angeblich",
+      "womöglich",
       "selten",
       "noch",
       "mindestens"
@@ -10589,7 +10589,7 @@
     },
     "correct_answer": "seemingly (but not really)",
     "wrong_answers": [
-      "obviously",
+      "possibly",
       "definitely",
       "usually",
       "immediately"
@@ -10607,7 +10607,7 @@
     },
     "correct_answer": "scheinbar",
     "wrong_answers": [
-      "offensichtlich",
+      "möglicherweise",
       "definitiv",
       "meistens",
       "sofort"
@@ -10625,7 +10625,7 @@
     },
     "correct_answer": "scheinbar",
     "wrong_answers": [
-      "offensichtlich",
+      "möglicherweise",
       "definitiv",
       "meistens",
       "sofort"
@@ -11159,7 +11159,7 @@
     "wrong_answers": [
       "daily",
       "every hour",
-      "yearly",
+      "now",
       "immediately"
     ],
     "explanation_en": "'monatlich' means 'monthly'. Monat + -lich."
@@ -11177,7 +11177,7 @@
     "wrong_answers": [
       "täglich",
       "stündlich",
-      "jährlich",
+      "ab und zu",
       "sofort"
     ],
     "explanation_en": "The correct word here is 'monatlich' (monthly)."
@@ -11195,7 +11195,7 @@
     "wrong_answers": [
       "täglich",
       "stündlich",
-      "jährlich",
+      "ab und zu",
       "sofort"
     ],
     "explanation_en": "'monthly' is 'monatlich' in German."
@@ -11300,7 +11300,7 @@
     "correct_answer": "extremely (formal)",
     "wrong_answers": [
       "slightly",
-      "fairly",
+      "a little / a bit",
       "not at all",
       "hardly"
     ],
@@ -11372,8 +11372,8 @@
     "wrong_answers": [
       "a little",
       "hardly",
-      "fairly",
-      "reasonably"
+      "not at all (emphatic)",
+      "more than"
     ],
     "explanation_en": "'völlig' means 'completely'. völlig = 100 %, completely. ≈ total, ganz und gar."
   },
@@ -11390,8 +11390,8 @@
     "wrong_answers": [
       "ein bisschen",
       "kaum",
-      "ziemlich",
-      "einigermaßen"
+      "mehr als",
+      "lediglich"
     ],
     "explanation_en": "The correct word here is 'völlig' (completely)."
   },
@@ -11408,8 +11408,8 @@
     "wrong_answers": [
       "ein bisschen",
       "kaum",
-      "ziemlich",
-      "einigermaßen"
+      "mehr als",
+      "lediglich"
     ],
     "explanation_en": "'completely' is 'völlig' in German."
   },
@@ -11583,7 +11583,7 @@
     },
     "correct_answer": "fairly / quite",
     "wrong_answers": [
-      "extremely",
+      "about / roughly",
       "not at all",
       "hardly",
       "seemingly"
@@ -11601,7 +11601,7 @@
     },
     "correct_answer": "recht",
     "wrong_answers": [
-      "äußerst",
+      "etwa",
       "gar nicht",
       "kaum",
       "scheinbar"
@@ -11619,7 +11619,7 @@
     },
     "correct_answer": "recht",
     "wrong_answers": [
-      "äußerst",
+      "etwa",
       "gar nicht",
       "kaum",
       "scheinbar"
@@ -11654,8 +11654,8 @@
     },
     "correct_answer": "fairly / quite (unstressed)",
     "wrong_answers": [
-      "extremely",
-      "not at all",
+      "approximately / about",
+      "more than",
       "hardly",
       "always"
     ],
@@ -11672,7 +11672,7 @@
     },
     "correct_answer": "ganz",
     "wrong_answers": [
-      "äußerst",
+      "ungefähr",
       "gar nicht",
       "kaum",
       "immer"
@@ -11690,7 +11690,7 @@
     },
     "correct_answer": "ganz",
     "wrong_answers": [
-      "äußerst",
+      "ungefähr",
       "gar nicht",
       "kaum",
       "immer"
@@ -12223,7 +12223,7 @@
     "correct_answer": "approximately / about",
     "wrong_answers": [
       "at least",
-      "exactly",
+      "a good … / just over (with numbers)",
       "more than",
       "at most"
     ],
@@ -12241,7 +12241,7 @@
     "correct_answer": "ungefähr",
     "wrong_answers": [
       "mindestens",
-      "genau",
+      "total",
       "mehr als",
       "höchstens"
     ],
@@ -12259,7 +12259,7 @@
     "correct_answer": "ungefähr",
     "wrong_answers": [
       "mindestens",
-      "genau",
+      "total",
       "mehr als",
       "höchstens"
     ],
@@ -12294,7 +12294,7 @@
     "correct_answer": "about / roughly",
     "wrong_answers": [
       "at least",
-      "exactly",
+      "a good … / just over (with numbers)",
       "at most",
       "more than"
     ],
@@ -12312,7 +12312,7 @@
     "correct_answer": "etwa",
     "wrong_answers": [
       "mindestens",
-      "genau",
+      "nur",
       "höchstens",
       "mehr als"
     ],
@@ -12330,7 +12330,7 @@
     "correct_answer": "etwa",
     "wrong_answers": [
       "mindestens",
-      "genau",
+      "nur",
       "höchstens",
       "mehr als"
     ],
@@ -12364,10 +12364,10 @@
     },
     "correct_answer": "approximately (ca.)",
     "wrong_answers": [
-      "exactly",
+      "more than",
       "at least",
       "at most",
-      "just under"
+      "a good … / just over (with numbers)"
     ],
     "explanation_en": "'circa' means 'approximately (ca.)'. circa, written ca., also spelled zirka."
   },
@@ -12382,10 +12382,10 @@
     },
     "correct_answer": "circa",
     "wrong_answers": [
-      "genau",
+      "mehr als",
       "mindestens",
       "höchstens",
-      "knapp"
+      "bloß"
     ],
     "explanation_en": "The correct word here is 'circa' (approximately (ca.))."
   },
@@ -12400,10 +12400,10 @@
     },
     "correct_answer": "circa",
     "wrong_answers": [
-      "genau",
+      "mehr als",
       "mindestens",
       "höchstens",
-      "knapp"
+      "bloß"
     ],
     "explanation_en": "'approximately (ca.)' is 'circa' in German."
   },
@@ -12933,7 +12933,7 @@
     "correct_answer": "a short while ago",
     "wrong_answers": [
       "soon",
-      "back then",
+      "in a moment / right away",
       "right now",
       "later"
     ],
@@ -12951,7 +12951,7 @@
     "correct_answer": "vor Kurzem",
     "wrong_answers": [
       "bald",
-      "damals",
+      "manchmal",
       "jetzt",
       "später"
     ],
@@ -12969,7 +12969,7 @@
     "correct_answer": "vor Kurzem",
     "wrong_answers": [
       "bald",
-      "damals",
+      "manchmal",
       "jetzt",
       "später"
     ],
@@ -13145,7 +13145,7 @@
     },
     "correct_answer": "not yet",
     "wrong_answers": [
-      "already",
+      "constantly",
       "not anymore",
       "still",
       "always"
@@ -13163,7 +13163,7 @@
     },
     "correct_answer": "noch nicht",
     "wrong_answers": [
-      "schon",
+      "vor Kurzem",
       "nicht mehr",
       "noch",
       "immer"
@@ -13181,7 +13181,7 @@
     },
     "correct_answer": "noch nicht",
     "wrong_answers": [
-      "schon",
+      "vor Kurzem",
       "nicht mehr",
       "noch",
       "immer"
@@ -13216,7 +13216,7 @@
     },
     "correct_answer": "already (formal)",
     "wrong_answers": [
-      "not yet",
+      "almost never",
       "soon",
       "later",
       "every hour"
@@ -13234,7 +13234,7 @@
     },
     "correct_answer": "bereits",
     "wrong_answers": [
-      "noch nicht",
+      "fast nie",
       "bald",
       "später",
       "stündlich"
@@ -13252,7 +13252,7 @@
     },
     "correct_answer": "bereits",
     "wrong_answers": [
-      "noch nicht",
+      "fast nie",
       "bald",
       "später",
       "stündlich"
@@ -13429,10 +13429,10 @@
     },
     "correct_answer": "afterwards / subsequently",
     "wrong_answers": [
-      "first",
+      "by the way",
       "earlier",
       "never",
-      "initially"
+      "actually / in fact"
     ],
     "explanation_en": "'anschließend' means 'afterwards / subsequently'. anschließend = right after that. ≈ danach."
   },
@@ -13447,10 +13447,10 @@
     },
     "correct_answer": "anschließend",
     "wrong_answers": [
-      "zuerst",
+      "übrigens",
       "vorhin",
       "nie",
-      "zunächst"
+      "tatsächlich"
     ],
     "explanation_en": "The correct word here is 'anschließend' (afterwards / subsequently)."
   },
@@ -13465,10 +13465,10 @@
     },
     "correct_answer": "anschließend",
     "wrong_answers": [
-      "zuerst",
+      "übrigens",
       "vorhin",
       "nie",
-      "zunächst"
+      "tatsächlich"
     ],
     "explanation_en": "'afterwards / subsequently' is 'anschließend' in German."
   },
@@ -13716,7 +13716,7 @@
       "of course",
       "exactly",
       "definitely",
-      "yes and no"
+      "absolutely"
     ],
     "explanation_en": "'eher nicht' means 'rather not / probably not'. eher = rather. eher nicht = a soft no; eher ja = a soft yes."
   },
@@ -13734,7 +13734,7 @@
       "Natürlich",
       "Genau",
       "Auf jeden Fall",
-      "Jein"
+      "Leider"
     ],
     "explanation_en": "The correct word here is 'eher nicht' (rather not / probably not)."
   },
@@ -13752,7 +13752,7 @@
       "natürlich",
       "genau",
       "auf jeden Fall",
-      "jein"
+      "leider"
     ],
     "explanation_en": "'rather not / probably not' is 'eher nicht' in German."
   },
@@ -14442,7 +14442,7 @@
     "correct_answer": "nichts",
     "wrong_answers": [
       "alles",
-      "irgendetwas",
+      "irgendwer",
       "überall",
       "immer"
     ],
@@ -14778,7 +14778,7 @@
     },
     "correct_answer": "here",
     "wrong_answers": [
-      "over there",
+      "forward / ahead",
       "far away",
       "nowhere",
       "everywhere"
@@ -14796,7 +14796,7 @@
     },
     "correct_answer": "hier",
     "wrong_answers": [
-      "drüben",
+      "vorwärts",
       "weit weg",
       "nirgends",
       "überall"
@@ -14814,7 +14814,7 @@
     },
     "correct_answer": "hier",
     "wrong_answers": [
-      "drüben",
+      "vorwärts",
       "weit weg",
       "nirgends",
       "überall"
@@ -14849,7 +14849,7 @@
     },
     "correct_answer": "there",
     "wrong_answers": [
-      "here",
+      "forward / ahead",
       "far away",
       "nowhere",
       "everywhere"
@@ -14867,7 +14867,7 @@
     },
     "correct_answer": "da",
     "wrong_answers": [
-      "hier",
+      "vorwärts",
       "weit weg",
       "nirgends",
       "überall"
@@ -14885,7 +14885,7 @@
     },
     "correct_answer": "da",
     "wrong_answers": [
-      "hier",
+      "vorwärts",
       "weit weg",
       "nirgends",
       "überall"
@@ -14920,7 +14920,7 @@
     },
     "correct_answer": "there (further away)",
     "wrong_answers": [
-      "here",
+      "forward / ahead",
       "nowhere",
       "everywhere",
       "right now"
@@ -14938,7 +14938,7 @@
     },
     "correct_answer": "dort",
     "wrong_answers": [
-      "hier",
+      "vorwärts",
       "nirgends",
       "überall",
       "jetzt"
@@ -14956,7 +14956,7 @@
     },
     "correct_answer": "dort",
     "wrong_answers": [
-      "hier",
+      "vorwärts",
       "nirgends",
       "überall",
       "jetzt"
@@ -14991,7 +14991,7 @@
     },
     "correct_answer": "over there",
     "wrong_answers": [
-      "here",
+      "forward / ahead",
       "everywhere",
       "nowhere",
       "at any time"
@@ -15009,7 +15009,7 @@
     },
     "correct_answer": "drüben",
     "wrong_answers": [
-      "hier",
+      "vorwärts",
       "überall",
       "nirgends",
       "jederzeit"
@@ -15027,7 +15027,7 @@
     },
     "correct_answer": "drüben",
     "wrong_answers": [
-      "hier",
+      "vorwärts",
       "überall",
       "nirgends",
       "jederzeit"
@@ -15063,7 +15063,7 @@
     "correct_answer": "far away",
     "wrong_answers": [
       "here",
-      "over there",
+      "there",
       "everywhere",
       "at least"
     ],
@@ -15081,7 +15081,7 @@
     "correct_answer": "weit weg",
     "wrong_answers": [
       "hier",
-      "drüben",
+      "vorwärts",
       "überall",
       "mindestens"
     ],
@@ -15099,7 +15099,7 @@
     "correct_answer": "weit weg",
     "wrong_answers": [
       "hier",
-      "drüben",
+      "vorwärts",
       "überall",
       "mindestens"
     ],

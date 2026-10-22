@@ -1,0 +1,56 @@
+{
+ "_doc": "Pairs that are viable in the same slot although no dictionary relation links them. Each pair is treated as equivalent by fix-distractors.py and validate-adverb-distractors.py. Add a reason.",
+ "pairs": [
+  [
+   "sondern",
+   "aber",
+   "'nicht nur … aber auch' is common in speech next to the standard 'nicht nur … sondern auch'"
+  ],
+  [
+   "schon",
+   "inzwischen",
+   "'Der Zug ist inzwischen abgefahren' reads as 'has already left' (review 2026-10-22)"
+  ],
+  [
+   "schon",
+   "mittlerweile",
+   "'Der Zug ist inzwischen abgefahren' reads as 'has already left' (review 2026-10-22)"
+  ],
+  [
+   "bereits",
+   "inzwischen",
+   "'Der Zug ist inzwischen abgefahren' reads as 'has already left' (review 2026-10-22)"
+  ],
+  [
+   "bereits",
+   "mittlerweile",
+   "'Der Zug ist inzwischen abgefahren' reads as 'has already left' (review 2026-10-22)"
+  ]
+ ],
+ "reviewed_non_adverbs": {
+  "_doc": "Wrong options that are not adverbs in the app, so no relation can be computed. Each was checked by hand against its sentence (2026-10-22) and is not a viable answer there.",
+  "words": [
+   "teilweise",
+   "durchschnittlich",
+   "nacheinander",
+   "vorher",
+   "zum glück",
+   "plötzlich",
+   "hauptsächlich",
+   "erstmals",
+   "rückwärts",
+   "seitwärts",
+   "aufwärts",
+   "abwärts",
+   "überraschend",
+   "durchgehend",
+   "irgendjemand",
+   "weder",
+   "sowohl",
+   "andernfalls",
+   "denn",
+   "obwohl",
+   "viel"
+  ]
+ }
+}

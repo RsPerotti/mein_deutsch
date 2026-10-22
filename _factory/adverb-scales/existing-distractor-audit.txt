@@ -1,3 +1,4 @@
+# RESOLVED 2026-10-22 (Session 42 follow-up) — see _factory/adverb-distractors/report.md. Kept as the original finding.
 # Pre-Session-42 adverb exercises whose 'wrong' option is also right (Session 42 audit, NOT fixed — out of PRD scope)
 # 116 distractors in 74 exercises, 35 words. Columns: exercise, answer, distractor, why
 ex_adv_manchmal_002	manchmal	von Zeit zu Zeit	same scale tier + Wiktionary synonym

@@ -2,6 +2,34 @@
 
 ---
 
+## 2026-10-22 — Session 42b: one viable answer per adverb exercise (v24)
+
+Ricco: fix the synonym distractors, "making sure that no more than one option is a viable answer."
+Recorded as a follow-up section in `PRD_Adverb_Scales.md` (his message was the sign-off and the spec).
+
+- **The first audit was too narrow.** It looked at fill-blank/EN→DE against scale tiers plus
+  Wiktionary synonyms among scale words only: 74 exercises. The real rule needs all 213 adverbs in
+  the Wiktionary cache (refetched, 226 rows, three chunks hash-verified) and the DE→EN items too:
+  *deswegen* offered "hence / for that reason" and "consequently / as a result" as wrong translations.
+- **Relations added while reviewing samples**, each because a real case slipped through:
+  co-synonyms in the same category (*dadurch / daher*, both synonyms of *deshalb* but not of each
+  other); adjacent tiers (*jedoch / trotzdem*); shared stems (*ehrlich gesagt / ehrlicherweise*);
+  an English-line context rule (*sozusagen*'s sentence is translated "basically", which makes
+  *im Grunde* right); manual pairs for *sondern/aber* ("nicht nur … aber auch") and
+  *schon/bereits ~ inzwischen/mittlerweile* ("Der Zug ist inzwischen abgefahren").
+  A first stem rule used substrings and threw out good contrasts (*wahrscheinlich /
+  unwahrscheinlich*, *irgendwo / nirgendwo*); changed to prefix-only.
+- **Also fixed:** 16 capitalisation giveaways ("Niemals" next to "irgendwann"), 2 exercises with the
+  same option twice (pre-existing).
+- **Pipeline interaction:** generate.py rewrites the S42 words' exercises from seeds, so the fix
+  must run after it. Verified round-trip: generate → fix gives a byte-identical file (md5). The
+  report is fed by a keyed ledger so reruns don't shrink it.
+- Result: 578 replacements in 304 exercises. Sentence-translation items: 6 heuristic hits, all
+  false positives. `validate-adverb-distractors.py` L1–L6 PASS; mutation test 12/12 with each
+  relation asserted by name. All other suites green. SW v24.
+
+---
+
 ## 2026-10-22 — Session 42: Adverb Scales (v23)
 
 Ricco asked for reference pages that put adverbs on vertical axes (probability, frequency,

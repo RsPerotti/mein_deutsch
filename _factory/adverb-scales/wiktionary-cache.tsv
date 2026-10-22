@@ -1,20 +1,24 @@
-# de.wiktionary.org via MediaWiki API, fetched 2026-10-22 in the in-app browser (Session 42).
+# de.wiktionary.org via MediaWiki API, fetched 2026-10-22 in the in-app browser (Session 42; refreshed for all adverbs).
 # Columns: word, page_exists, has_deutsch_section, wortarten, bedeutungen (truncated 170 chars), synonyme_in_set, gegenwoerter_in_set
-# *_in_set = only links to other words on the scales; that is all the checks use.
+# *_in_set = only links to other words in the app's adverb set (+ scale words); that is all the checks use.
+Allgemeinen	0	0				
 Gegenteil	1	1	Substantiv	:[1] Wort, welches in entgegengesetzter Bedeutung zu einem andren Wort steht  ¦ :[2] etwas/jemand, was/welcher in seiner Handlung oder Beschaffenheit etwas oder jemand an		
+Grunde	1	1	Deklinierte Form			
 Mal	1	1	Abkürzung,Substantiv	:[1] (Bibel) Buch Maleachi ¦ :[1] (allgemein) Zeichen, Merkmal ¦ :[2] Zeichen im Sinne von Hervorhebung, Kenntlichmachung, Auszeichnung oder Hinweis ¦ :[3] Kurz für Wundm		
+Meinung	1	1	Substantiv	:[1] der selbst gebildete Standpunkt eines Menschen ¦ :[2] die persönliche Bewertung einer Sache oder Person, auch die Bewertung durch eine Gruppe ¦ :[3] selten: die Absi		
 Regel	1	1	Substantiv	:[1] Verhaltensvorschrift ¦ :[2] (ft=ohne Plural) gewöhnliches, normales oder typisches Verhalten (auch innerhalb eines bestimmten Anwendungsgebietes) ¦ :[3] (ugs.) die M		
 Stück	1	1	Substantiv,Zahlklassifikator	:[1] Teil eines Ganzen ¦ :[2] eine einzelne, oft kostbare Sache von Dingen gleicher Art und Beschaffenheit ¦ :[3] (ohne Plural) allgemeiner Zahlklassifikator für Dinge, P		
 ab und zu	1	1	Wortverbindung	:[1] Temporaladverb: mehr oder weniger oft, unterschiedlich häufig ¦ :[2] veraltend; bezüglich einer Bewegung: weg und wieder herbei; aus und ein	gelegentlich,hin und wieder,manchmal,von Zeit zu Zeit	häufig,oft,regelmäßig,nie,niemals
 absolut	1	1	Adjektiv	:[1] durch nichts bedingt, von uneingeschränkter Gültigkeit und/oder Verbindlichkeit ¦ :[2] Politik: unumschränkte Herrschaft betreffend oder habend ¦ :[3] adverbiell, me		
 allerdings	1	1	Adverb	:[1] unbetont: Kennzeichnung eines Widerspruches oder Einwandes ¦ :[2] betont: eine verstärkte Bejahung	jedoch,natürlich	
 alles	1	1	Indefinitpronomen			
-andererseits	1	1	Adverb	:[1] Adverb, das ein Thema in eine Zweigeteiltheit kategorisiert, von der die zweite Seite folgt		
+also	1	1	Adverb,Partikel	:[1] ein eine Schlussfolgerung einleitendes Wort, folglich ¦ :[2] greift etwas Zuvorgesagtes wieder auf ¦ :[3] greift einen unterbrochenen Gedankengang auf ¦ :[4] veralte	dadurch,daher,darum,deshalb,deswegen,folglich,infolgedessen,so,somit	dennoch,trotzdem
+andererseits	1	1	Adverb	:[1] Adverb, das ein Thema in eine Zweigeteiltheit kategorisiert, von der die zweite Seite folgt		einerseits
 angeblich	1	1	Adjektiv	:[1] wie ohne Gewähr angegeben, behauptet		
 anscheinend	1	1	Adverb,Partizip I	:[1] drückt die Annahme aus, dass die Wirklichkeit dem Schein entspricht: so wie es aussieht ¦ :[2] scheinbar, nur dem Anscheine nach		eventuell,scheinbar,vermutlich
 anschließend	1	1	Adjektiv,Partizip I	:[1] unmittelbar folgend	danach	
 auch	1	1	Konjunktion,Adverb,Partikel	:[1] hinzufügend, Zusätzlichkeit ausdrückend: außerdem, ferner, darüber hinaus, im Übrigen ¦ :[2] parallelisierend, Übereinstimmung ausdrückend, ein expliziter Bezug kann	außerdem,zudem	nicht
-auf jeden Fall	1	1	Redewendung	:[1] unbedingt; mit Sicherheit ¦ :[2] bestätigend: Ja!; Richtig!; So ist es. ¦ :[3] resümierend: was auch immer sei, …	ganz,bestimmt,genau,richtig	
+auf jeden Fall	1	1	Redewendung	:[1] unbedingt; mit Sicherheit ¦ :[2] bestätigend: Ja!; Richtig!; So ist es. ¦ :[3] resümierend: was auch immer sei, …	ganz,bestimmt,genau,richtig,jedenfalls	
 auf keinen Fall	1	1	Redewendung	:[1] unter keinen Umständen, unter keiner Bedingung	keinesfalls	auf jeden Fall
 außerdem	1	1	Adverb	:[1] (Konjunktionaladverb) dient dazu, etwas Weiteres anzufügen	zudem,auch	
 bald	1	1	Adverb	:[1] kurze Zeit danach ¦ :[2] ohne Steigerung: beinahe, fast ¦ :[3] ohne große Verzögerung, schnell		später
@@ -23,32 +27,41 @@ bereits	1	1	Adverb	:[1] auf ein Ereignis bezogen: einen relativ frühen Zeitpunk
 besonders	1	1	Adverb	:[1] für sich alleine, gesondert, separat ¦ :[2] mit Nachdruck zum Ausdruck gebracht; ausdrücklich, entschieden ¦ :[3] eine Eigenschaft verstärkend: sehr ¦ :[4] (umgangss		nicht,kaum
 bestimmt	1	1	Adjektiv,Adverb,Partizip II,Konjugierte Form	:[1] vorher definiert, für den Informierten klar umrissen ¦ :[2] mit Nachdruck, entschieden, entschlossen ¦ :[3] für etwas vorgesehen ¦ :[4] (Linguistik|ft=in festen Wend	definitiv,sicher,sicherlich	vielleicht,möglicherweise,womöglich
 bisschen	1	1	Indefinitpronomen	:[1] (undeklinierbar) ein klein wenig, eine kleine Menge von etwas ¦ :[2] in der Verneinung kein bisschen: überhaupt kein, gar nicht ¦ :[3] nur ab und an		
+bitte	1	1	Adverb,Antwortpartikel,Konjugierte Form	:[1] höflich um etwas ersuchen; um etwas bitten ¦ :[2] auf einen Dank antworten ¦ :[3] Aufforderung zum Eintreten ¦ :[4] der Wunsch nach Wiederholung von etwas bereits Ge		
 bloß	1	1	Adjektiv,Fokuspartikel,Abtönungspartikel	:[1] ohne Bekleidung, ohne Hülle, ohne Schutz ¦ :[2] ohne alles andere, Ergänzende, nichts Weiteres als das Bezeichnete ¦ :[1] (adverbial|emphatisch) verstärkende Bedeutu		
 circa	1	1	Adverb	:[1] etwa, rund, ungefähr		
 da	1	1	Adverb,Subjunktion,Abkürzung	:[1] an dieser (etwas entfernten) Stelle, an jenem (etwas entfernten) Ort ¦ :[2] an dieser Stelle, an diesem Ort (an der/dem sich der Sprecher/die Sprecherin befindet ode		
+dadurch	1	1	Pronominaladverb	:[1] räumlich: durch etwas hindurch ¦ :[2] bildet einen kausalen Zusammenhang zu einer genannten Auskunft, indem es Art und Weise oder Mittel erläutert ¦ :[3] in der Komb		
 dagegen	1	1	Pronominaladverb	:[1] gegen eine Sache; so, dass man einer Sache abgeneigt ist ¦ :[2] (Konjunktionaladverb|Übergang zur Konjunktion) auf der anderen Seite, im Gegensatz dazu ¦ :[3] im Ver	allerdings,andererseits,hingegen,jedoch,vergleichsweise	
 daher	1	1	Adverb	:[1] ersetzt einen bestimmten Ort, der zuvor erwähnt wurde, von dort ¦ :[2] (regional) hier her, an den gemeinten, gezeigten Ort ¦ :[3] eine Schlussfolgerung einleitend; 		
 damals	1	1	Adverb	:[1] referenziert einen zurückliegenden Zeitpunkt oder eine zurückliegende Zeitspanne		
 danach	1	1	Adverb,Pronominaladverb	:[1] zeitlich hinter Vorangegangenem	anschließend,dann,später	
 dann	1	1	Adverb	:[1] zu einem späteren Zeitpunkt oder einer späteren Zeitspanne in der baldigen Zukunft ¦ :[2] in der Reihenfolge anschließend, hinterher, darauffolgend, daran anschließe	später,danach,bald,außerdem,darüber hinaus,zusätzlich	jetzt
-darum	1	1	Adverb	:[1] aus d(ies)em Grund ¦ :[2] um die(se) Sache	folglich,deshalb,infolgedessen,somit,deswegen,daher	da
+darum	1	1	Adverb	:[1] aus d(ies)em Grund ¦ :[2] um die(se) Sache	also,folglich,deshalb,infolgedessen,somit,deswegen,daher	da
 darüber hinaus	1	1	Wortverbindung	:[1] zusätzlich zu etwas Bestehendem	außerdem	
 dauernd	1	1	Adjektiv,Partizip I	:[1] oft abwertend: häufig wiederkehrend ¦ :[2] Bestand habend	häufig,ständig	selten
 definitiv	1	1	Adjektiv	:[1] ohne Möglichkeit einer Veränderung ¦ :[2] österreichisch, ohne Steigerung: unkündbar (ein Beamtenstatus)		
 dennoch	1	1	Konjunktionaladverb	:[1] trotzdem	trotzdem	
-deshalb	1	1	Konjunktionaladverb	:[1] weist auf eine vorausgehende Ursache oder einen Grund hin und bezeichnet die Folge	deswegen,darum,daher,infolgedessen,folglich,somit	
-deswegen	1	1	Konjunktionaladverb	:[1] rückbezügliches Adverb, das eine Schlussfolgerung aus einem vorgenannten Sachverhalt bezeichnet	daher,darum,deshalb,folglich,infolgedessen,somit	
+deshalb	1	1	Konjunktionaladverb	:[1] weist auf eine vorausgehende Ursache oder einen Grund hin und bezeichnet die Folge	deswegen,darum,daher,dadurch,infolgedessen,folglich,somit	
+deswegen	1	1	Konjunktionaladverb	:[1] rückbezügliches Adverb, das eine Schlussfolgerung aus einem vorgenannten Sachverhalt bezeichnet	also,daher,darum,deshalb,folglich,infolgedessen,somit	
 dort	1	1	Adverb	:[1] Hinweis auf einen Ort, stärker als da	da	hier
 drittens	1	1	Adverb	:[1] an dritter Stelle (einer Aufzählung, Gliederung oder Ähnlichem) stehend		
 drüben	1	1	Adverb	:[1] auf der anderen Seite	da,dort	hier
-eben	1	1	Adjektiv,Adverb,Fokuspartikel,Modalpartikel	:[1] (im engeren Sinne) parallel zu einer gleichmäßig flachen Erdoberfläche; horizontal verlaufend, liegend; waagerecht ¦ :[2] (im weiteren Sinne) ohne Rauigkeiten und Un	jetzt,gerade,genau,wirklich,alles	später
+eben	1	1	Adjektiv,Adverb,Fokuspartikel,Modalpartikel	:[1] (im engeren Sinne) parallel zu einer gleichmäßig flachen Erdoberfläche; horizontal verlaufend, liegend; waagerecht ¦ :[2] (im weiteren Sinne) ohne Rauigkeiten und Un	jetzt,gerade,genau,wirklich,tatsächlich,alles	später
 echt	1	1	Adjektiv	:[1] ohne Steigerung: unverfälscht ¦ :[2] aufrichtig, wahr ¦ :[3] ohne Steigerung: typisch		
 eher	1	1	Adverb	:[1] zu einem früheren Zeitpunkt ¦ :[2] Einleitung einer bevorzugten Alternative in emotional negativ besetzten Kontexten ¦ :[3] größere Wahrscheinlichkeit bei sehr unwah	früher,mehr	später
 eher nicht	0	0				
+ehrlich	1	1	Adjektiv	:[1] der Wahrheit und Wirklichkeit entsprechend, nicht gelogen oder vorgetäuscht; wahr ¦ :[2] Charaktereigenschaft: anständig und fair, nie lügend; redlich	wirklich	
+ehrlich gesagt	1	1	Wortverbindung	:[1] meist in wörtlicher Rede: Ausdruck, der bekräftigen soll, dass man offen sagt, was man wirklich denkt		
+ehrlicherweise	1	1	Adverb	:[1] auf eine Art und Weise, die ehrlich ist; aufrichtig		
+eigentlich	1	1	Adverb,Adjektiv	:[1] im Prinzip ¦ :[2] in Wahrheit ¦ :[3] eine (nicht besonders dringende) Bitte um Antwort signalisierend ¦ :[4] im engeren Sinne ¦ :[1] der Wirklichkeit entsprechend ¦ 	im Grunde,im Grunde genommen,übrigens	
 ein bisschen	0	0				
 ein wenig	1	1	Redewendung	:[1] nicht viel	ein bisschen,etwas	
+einerseits	1	1	Adverb	:[1] Adverb, das ein Thema in eine Zweigeteiltheit kategorisiert, von der die erste Seite folgt ¦ :[2] (räumlich) die eine Seite betreffend		andererseits
 einigermaßen	1	1	Adverb	:[1] leidlich, in etwa, fast ¦ :[2] (ugs.) in hohem Maße, ziemlich		
 endlich	1	1	Adjektiv,Adverb	:[1] ein Ende habend ¦ :[1] am Ende, nach langer Zeit ¦ :[2] mit Nachdruck und Gefühlen verbunden: doch noch (heiß ersehnt)	schließlich	
+entweder	1	1	Konjunktion	:[1] Konjunktion nur in Verbindung mit oder, die der Hervorhebung der ersten von zwei oder mehreren einander ausschließenden Möglichkeiten dient. Siehe hiezu den Eintrag:		
+erneut	1	1	Adjektiv,Partizip II,Konjugierte Form	:[1] zum wiederholten Mal in Erscheinung tretend		
 erstens	1	1	Adverb	:[1] an erster Stelle (einer Aufzählung, Gliederung oder Ähnlichem) auch in übertragenem Sinne		
 etwa	1	1	Adverb,Modalpartikel	:[1] drückt ein etwas kleineres Maß an Sicherheit aus: ungefähr ¦ :[2] wie etwa, zum Beispiel ¦ :[1] in Interrogativsätzen drückt es die Erwartungshaltung auf eine negier	ungefähr,zirka,wirklich	genau
 etwas	1	1	Indefinitpronomen	:[1] unspezifische Mengenangabe: nicht nichts, ein wenig ¦ :[2] steht ganz allgemein für: ein nicht näher Bestimmtes (in Verwendung als Artikelwort oder Substantiv) ¦ :[3	bisschen	alles,nichts
@@ -57,15 +70,21 @@ extrem	1	1	Adjektiv	:[1] (im engeren Sinne) in irgend einem Maße nicht zu über
 fast	1	1	Adverb,Konjugierte Form	:[1] nicht ganz	beinahe,circa,etwa,knapp	
 fast immer	0	0				
 fast nie	0	0				
-folglich	1	1	Konjunktionaladverb	:[1] (Konnektor|ft=eine Schlussfolgerung einleitend) als logische Konsequenz	deshalb,infolgedessen	da
+folglich	1	1	Konjunktionaladverb	:[1] (Konnektor|ft=eine Schlussfolgerung einleitend) als logische Konsequenz	also,deshalb,infolgedessen	da
 früher	1	1	Adjektiv,Adverb,Deklinierte Form,Komparativ	:[1] Komparativ von früh: zeitlich vorher ¦ :[2] gewesen, zurückliegend ¦ :[1] Komparativ von früh: eher ¦ :[2] in der Vergangenheit liegend	eher,damals	später,jetzt,bald
 ganz	1	1	Adjektiv,Gradpartikel	:[1] nicht zerbrochen, unversehrt ¦ :[2] alles davon, nicht nur ein Teil ¦ :[3] (ugs.|ft=vor numerischen Mengenangaben) nur, gerade mal ¦ :[1] völlig, geradezu ¦ :[2] (ug	total,völlig,bloß,sehr,einigermaßen,recht,ziemlich	unglaublich
+gar	1	1	Adjektiv,Adverb,Partikel,Konjugierte Form	:[1] (Gastronomie|Küche|ft=synonym für) gegart, gut gekocht, durchgebraten, durchgebacken ¦ :[2] (Süddeutschland|Österreich|umgangssprachlich) zu Ende, aufgebraucht ¦ :[1	ganz,sehr,überhaupt	kaum
 gar nicht	1	1	Redewendung	:[1] verstärkte Negation: überhaupt nicht		
 garantiert	1	1	Partizip II,Konjugierte Form			
 gelegentlich	1	1	Adjektiv,Präposition	:[1] wenn sich eine günstige, passende Gelegenheit bietet, wenn es die Umstände erlauben, bei Gelegenheit ¦ :[2] mehr oder weniger oft, unterschiedlich häufig ¦ :[1] mit 	ab und zu,hin und wieder,manchmal,von Zeit zu Zeit	häufig,regelmäßig,nie,niemals,ständig
 genau	1	1	Adjektiv,Antwortpartikel	:[1] gründlich und sorgfältig, was das Einhalten von selbstgesetzten oder fremden Regeln betrifft ¦ :[2] um nichts abweichend; exakt zutreffend; auf den Punkt exakt so ¦ 		ungefähr
+genauer	1	1	Deklinierte Form,Komparativ			
+genauer gesagt	0	0				
 gerade	1	1	Adjektiv,Adverb,Fokuspartikel	:[1] nicht gebogen oder gekrümmt ¦ :[2] Mathematik: durch 2 teilbare ganze Zahl ¦ :[3] (fig.) aufrecht, ehrlich ¦ :[1] in diesem Moment oder vor sehr kurzer Zeit ¦ :[1] B	eben,genau,wirklich	
+gesagt	1	1	Partizip II			
 gleich	1	1	Adjektiv,Adverb,Präposition,Konjugierte Form	:[1] in jeder Hinsicht einander ähnelnd; so geartet, dass die Eigenschaften zweier Dinge sich wenig beziehungsweise gar nicht unterscheiden ¦ :[2] sich nicht verändernd ¦	bald,sofort	später
+gleichzeitig	1	1	Adjektiv	:[1] zur selben/gleichen Zeit ablaufend, stattfindend ¦ :[2] selten: auch noch, daneben, zugleich		
+grundsätzlich	1	1	Adjektiv	:[1] die Grundsätze beziehungsweise die feste Meinung einer Person oder Organisation betreffend und daher wichtig ¦ :[2] meist adverbial: einem Grundsatz folgend, aber in	eigentlich,im Grunde,in der Regel	
 gut	1	1	Adjektiv	:[1] vom Menschen her positiv bewertet, empfunden, gefühlt und dergleichen ¦ :[2] eine Schulnote ¦ :[3] mit Zahl- oder Maßangaben: reichlich bemessen, etwas mehr als ange	wohl	knapp
 hier	1	1	Adverb	:[1] an diesem Ort ¦ :[2] in diesem Fall ¦ :[3] in dieser Zeit	da	dort
 hin	1	1	Adverb	:[1] räumlich: in Richtung ¦ :[2] zeitlich: auf einen Zeitpunkt zu ¦ :[3] räumlich erstreckt ¦ :[4] zeitlich erstreckt ¦ :[5] verloren, weg ¦ :[6] defekt, kaputt, unbrauc	weg	
@@ -74,15 +93,21 @@ hingegen	1	1	Adverb	:[1] im Gegensatz [dazu], andererseits, jedoch	allerdings,an
 häufig	1	1	Adjektiv	:[1] vielfach vorkommend, viele Male, immer wieder auftretend	oft	kaum,knapp,selten,hin und wieder,ab und zu
 höchstens	1	1	Adverb	:[1] nicht mehr als, im besten Fall		mindestens
 höchstwahrscheinlich	1	1	Adverb	:[1] in sehr hohem Grad möglich		
+im Allgemeinen	1	1	Adverb,Wortverbindung	:[1] von wenigen Ausnahmen, Sonderfällen abgesehen; im Normalfall	in der Regel,meistens,normalerweise	
 im Gegenteil	0	0				
+im Grunde	0	0				
+im Grunde genommen	0	0				
 immer	1	1	Adverb	:[1] zu jeder Zeit ¦ :[2] in häufig wiederkehrenden Intervallen; immer wenn:  jedes Mal, wenn ¦ :[3] mit Komparativ: weist auf eine beständige Steigerung hin	jederzeit,stets,dauernd,ständig	nie,niemals,ab und zu,hin und wieder,manchmal,selten
 in der Regel	1	1	Wortverbindung	:[1] für gewöhnlich, meistens, fast immer	meistens	
 infolgedessen	1	1	Adverb	:[1] aus dem zuvor genannten Grunde		
+insgesamt	1	1	Adverb	:[1] alle(s) zusammen; über die Gesamtheit erstreckend		
 inzwischen	1	1	Temporaladverb	:[1] in der Zwischenzeit, nach Ablauf einer gewissen Zeit	mittlerweile	danach
 irgendetwas	1	1	Indefinitpronomen	:[1] etwas Unbestimmtes; etwas nicht näher Spezifiziertes		
 irgendwann	1	1	Adverb	:[1] zu einem unbestimmten oder und unbestimmbaren Zeitpunkt		
 irgendwer	1	1	Indefinitpronomen	:[1] eine oder mehrere unbestimmte Person(en)	jemand	niemand
+irgendwie	1	1	Adverb	:[1] auf eine unbestimmte oder und unbestimmbare Art und Weise		so
 irgendwo	1	1	Adverb	:[1] an einem unbestimmten oder und unbestimmbaren Ort		hier,da,dort,nirgendwo,nirgends,überall
+jedenfalls	1	1	Adverb	:[1] an Vorangegangenes anknüpfend: auf alle Fälle, bestimmt ¦ :[2] an Vorangegangenes anknüpfend: nach, trotz dem, was vorher geschehen ist	bestimmt,sicher,dennoch	keinesfalls
 jeder	1	1	Indefinitpronomen	:[1] ein Einzelner (eine Einzelne, ein Einzelnes) zusammen mit allen anderen einer Gruppe ¦ :[2] ein Einzelner (eine Einzelne, ein Einzelnes) einer Gruppe je für sich		niemand
 jederzeit	1	1	Adverb	:[1] zu jeder Zeit	stets,immer	niemals
 jedes Mal	1	1	Wortverbindung	:[1] immer dann, wenn … (man irgendetwas macht, irgendetwas stattfindet)		
@@ -93,10 +118,12 @@ jetzt	1	1	Adverb	:[1] nun, in diesem Moment, zum Zeitpunkt des Sprechens oder Sc
 jährlich	1	1	Adjektiv	:[1] jedes Jahr; von Jahr zu Jahr; Jahr für Jahr		monatlich,stündlich,täglich
 kaum	1	1	Adverb	:[1] nur zu einem sehr geringen Grad; so gut wie gar nicht ¦ :[2] nur mit Anstrengung möglich ¦ :[3] zeitlich in geringem Maße abweichend		
 kein Stück	0	0				
-keinesfalls	1	1	Adverb	:[1] unter gar keinen Umständen	keineswegs,nie,niemals	
-keineswegs	1	1	Adverb,Negationspartikel	:[1] stärkere Form für „nicht“	nicht,gar nicht,keinesfalls,auf keinen Fall,niemals	auf jeden Fall
+keinesfalls	1	1	Adverb	:[1] unter gar keinen Umständen	keineswegs,nie,niemals	jedenfalls
+keineswegs	1	1	Adverb,Negationspartikel	:[1] stärkere Form für „nicht“	nicht,gar nicht,keinesfalls,auf keinen Fall,niemals	auf jeden Fall,jedenfalls
 klar	1	1	Adjektiv,Adverb	:[1] frei von Unreinheiten oder generell Störendem ¦ :[2] leicht nachzuvollziehen ¦ :[3] (Seemannssprache|Fliegersprache) für etwas vorbereitet, bereit ¦ :[1] eine Aussag		
 knapp	1	1	Adjektiv	:[1] gerade noch ausreichend; weniger als das, was man eigentlich braucht oder gerne hätte ¦ :[2] (mit|Zahlen- oder Maßangabe) etwas kleiner als angegeben ¦ :[3] (bei|Dis	gerade	gut
+kurz	1	1	Adjektiv	:[1] wenig Länge habend ¦ :[2] wenig Worte benötigend ¦ :[3] wenig Zeit benötigend		richtig,wirklich
+kurz gesagt	0	0				
 kurzem	1	1	Deklinierte Form			
 kürzlich	1	1	Adverb,Adjektiv	:[1] vor kurzem, vor Kurzem, vor nicht langer Zeit ¦ :[1] vor Kurzem, vor nicht langer Zeit erfolgt	neulich	bald
 lediglich	1	1	Adverb	:[1] weiter nichts, nur	bloß	
@@ -106,6 +133,7 @@ mega	1	0
 mega-	1	1	Gebundenes Lexem	:[1] Vorsatz für SI-Einheiten, SI-Einheiten-Präfix für Maßeinheiten bedeutet 1 000 000  ¦ :[2] vorangestelltes Wortbildungselement mit der Bedeutung: (sehr) groß		
 mehr	1	1	Indefinitpronomen,Adverb,Komparativ,Konjugierte Form	:[1] über viel hinausgehend; eine bestimmte Anzahl/Menge übersteigend ¦ :[1] in größerem, höherem Ausmaß ¦ :[2] nur wenn negiert: wie bisher, wie früher ¦ :[3] mit höhere	eher	
 mehr als	0	0				
+meiner Meinung nach	0	0				
 meistens	1	1	Adverb	:[1] in der Regel; fast immer, sehr oft, am häufigsten	fast,häufig,immer,in der Regel,normalerweise,oft,so	
 mindestens	1	1	Adverb	:[1] genau so viel (wie angegeben), oder mehr (von Elementen desselben Typs)		höchstens
 mittlerweile	1	1	Adverb	:[1] in der Zwischenzeit	inzwischen	danach
@@ -125,13 +153,15 @@ noch	1	1	Adverb,Partikel,Konjunktion	:[1] weist auf die Fortdauer eines Zustands
 noch nicht	0	0				
 normalerweise	1	1	Adverb	:[1] unter normalen Umständen		
 nur	1	1	Fokuspartikel	:[1] drückt ausschließlichen Bezug auf einen Fokusbereich aus ¦ :[2] drückt die Verminderung einer qualitativen oder quantitativen Aussage aus ¦ :[3] unterstreicht den au	bloß,lediglich	
+nämlich	1	1	Adjektiv,Adverb,Konjunktion	:[1] (veraltend) der-, die-, dasselbe ¦ :[1] als nähere Erläuterung einer Tatsache: und zwar ¦ :[2] als betonendes Füllwort: tatsächlich; als nachgestellte Begründung für	gleich	
 offenbar	1	1	Adjektiv,Konjugierte Form	:[1] ursprünglich: für jeden zu sehen, klar ersichtlich (kein Zweifel möglich) ¦ :[2] seit etwa 1990, vor allem im Journalismus: den Eindruck erweckend, dass (es gibt sic	offensichtlich,angeblich,anscheinend	
 offensichtlich	1	1	Adjektiv	:[1] dem Anschein nach ¦ :[2] für jeden erkennbar	anscheinend,offenbar,wahrscheinlich	unwahrscheinlich
 oft	1	1	Adverb	:[1] viele Male (zu verschiedenen Zeiten) ¦ :[2] in vielen Fällen ¦ :[3] in hoher Frequenz		gelegentlich,immer,kaum,manchmal,meistens,nie,selten
 recht	1	1	Adjektiv,Adverb,Konjugierte Form	:[1] (attributiv|kSt.) zu der Seite gehörig, auf der die meisten Menschen das Herz nicht haben ¦ :[2] passend, richtig; den Erwartungen und der Moral entsprechend ¦ :[3] 	ziemlich	
 regelmäßig	1	1	Adjektiv	:[1] in festen örtlichen oder zeitlichen Abständen wiederholt ¦ :[2] immer wieder ¦ :[3] gemäß der Regel	häufig,oft	
 richtig	1	1	Adjektiv,Adverb	:[1] der Wirklichkeit entsprechend, wahr, nicht falsch ¦ :[2] den Absichten, Vorgaben oder Vorschriften entsprechend ¦ :[3] der Wirklichkeit, einem Vorbild entsprechend, 	echt	
-scheinbar	1	1	Adjektiv	:[1] nur auf den ersten Blick oder vordergründig wahr; etwas scheint zwar so zu sein, ist aber nicht so ¦ :[2] dem Anscheine nach, wahrscheinlich ¦ :[3] (Bedva.) sichtbar	anscheinend,offenbar	offenbar
+sagen	1	1	Verb	:[1] bestimmte Worte sprechen (mit direkter oder indirekter Rede verwendet) ¦ :[2] (Dativ) Worte an eine bestimmte Person oder Personenkreis richten ¦ :[3] (reflexiv) sic		
+scheinbar	1	1	Adjektiv	:[1] nur auf den ersten Blick oder vordergründig wahr; etwas scheint zwar so zu sein, ist aber nicht so ¦ :[2] dem Anscheine nach, wahrscheinlich ¦ :[3] (Bedva.) sichtbar	anscheinend,offenbar	tatsächlich,offenbar
 schließlich	1	1	Adverb	:[1] endlich, in letzter Konsequenz	zuletzt	sofort
 schon	1	1	Adverb,Modalpartikel,Antwortpartikel,Konjugierte Form	:[1] zu einem früheren Zeitpunkt als erwartet ¦ :[1] {{ugs.|:}} verstärkende Partikel, die die Bedeutung von etwas oder jemandem herunterstuft, abtönt ¦ :[1] Antwort, die	bereits	
 sehr	1	1	Gradpartikel	:[1] Steigerung eines Adjektivs oder Adverbs ohne Vergleich: in hohem Maße, besonders ¦ :[2] Steigerung eines Verbs	ganz,recht,äußerst,wahnsinnig	bisschen,kaum
@@ -140,18 +170,23 @@ sicher	1	1	Adjektiv,Konjugierte Form	:[1] vor Gefahren geschützt ¦ :[2] mit se
 sicherlich	1	1	Adverb	:[1] mit ziemlicher Sicherheit; oftmals eine gewisse Beeinschränkung beinhaltend, die zum Beispiel mit aber angeschlossen wird		
 so	1	1	Konjunktion,Subjunktion,Adverb,Gradpartikel,Interjektion	:[1] so … wie: drückt einen Vergleich aus ¦ :[2] umgangssprachlich: Einleitung einer wörtlichen Rede ¦ :[1] so … wie: drückt einen Vergleich aus ¦ :[2] gehoben: Festlegun		
 sofort	1	1	Temporaladverb	:[1] ohne irgendeine Verzögerung, auf der Stelle		später,irgendwann
-somit	1	1	Adverb	:[1] ursprünglich: mit diesem; damit ¦ :[2] Heute nahezu ausschließlich zur Einleitung einer Folgerung	daher,deshalb,folglich	
+somit	1	1	Adverb	:[1] ursprünglich: mit diesem; damit ¦ :[2] Heute nahezu ausschließlich zur Einleitung einer Folgerung	also,daher,deshalb,folglich	
 sondern	1	1	Verb,Konjunktion	:[1] gehoben: trennen ¦ :[1] den Gegensatz nach einem negierten Satzteil einleitend	dagegen,hingegen,im Gegenteil,jedoch,nur	
+soweit ich weiß	0	0				
+sozusagen	1	1	Adverb	:[1] Einleitung eines bildlich (metaphorisch) gemeinten Ausdrucks: gewissermaßen	so,gesagt	
 später	1	1	Adjektiv,Adverb,Komparativ	:[1] Steigerung von „spät“ ¦ :[2] zukünftig aus heutiger Perspektive ¦ :[3] zukünftig aus der Perspektive der Vergangenheit ¦ :[1] Steigerung von „spät“ ¦ :[2] in Zukunft	bald	früher,eher,jetzt,damals,sofort,gleich
 stattdessen	1	1	Adverb	:[1] als Ersatz für das zuvor Genannte, anstelle des zuvor Genannten		
 stets	1	1	Adverb	:[1] zu jeder Zeit, immer ¦ :[2] iterativ: bei jedem Anlass, jedes Mal, immer wieder	dauernd,immer,jederzeit,ständig,jedes Mal,regelmäßig	ab und zu,hin und wieder,manchmal,nie,niemals
 stimmt	1	1	Konjugierte Form			
-ständig	1	1	Adjektiv	:[1] immer während, oder mindestens über einen langen Zeitraum hinweg ¦ :[2] sich immer wiederholend, ununterbrochen	dauernd,immer,stets,regelmäßig,sehr,häufig	nie,selten,ab und zu,gelegentlich
+ständig	1	1	Adjektiv	:[1] immer während, oder mindestens über einen langen Zeitraum hinweg ¦ :[2] sich immer wiederholend, ununterbrochen	dauernd,immer,stets,regelmäßig,sehr,häufig	kurz,nie,selten,ab und zu,gelegentlich
 stündlich	1	1	Adjektiv	:[1] jede Stunde wiederkehrend		jährlich,monatlich,täglich
 super	1	1	Adjektiv	:[1] (ugs.|ft=häufig prädikativ) außergewöhnlich, sehr gut		
+tatsächlich	1	1	Adjektiv	:[1] (auch|Adverbial) (manchmal auch wider Erwarten) wahrheitsgemäß, wirklich		
 total	1	1	Adjektiv	:[1] völlig, vollständig	ganz,völlig	keineswegs
 trotzdem	1	1	Konjunktionaladverb,Subjunktion	:[1] dennoch; trotz dieses Umstandes ¦ :[1] {{ugs.|:}} obwohl; trotz des Umstandes, dass	dennoch	darum,deshalb,deswegen
 täglich	1	1	Adjektiv,Temporaladverb	:[1] jeden Tag wiederkehrend ¦ :[1] an jedem Tag		jährlich,monatlich,stündlich,wöchentlich
+um das zu sagen	0	0				
+um ehrlich zu sein	0	0				
 ungefähr	1	1	Adjektiv,Adverb	:[1] nicht genau, ohne Details ¦ :[1] nicht genau bestimmt, grob umrissen ¦ :[2] von ungefähr: ohne Ankündigung, (scheinbar) aus dem Nichts heraus		genau
 unglaublich	1	1	Adjektiv	:[1] nicht zu glauben, unwahrscheinlich ¦ :[2] (ugs.) von außergewöhnlicher Größe, Intensität, Zahl ¦ :[3] Ärger, Empörung verursachend, nicht angemessen	wahnsinnig	
 unwahrscheinlich	1	1	Adjektiv	:[1] nicht wahrscheinlich; mit geringer Wahrscheinlichkeit ¦ :[2] (ugs.) sehr, übermäßig		wahrscheinlich
@@ -164,14 +199,16 @@ vor Kurzem	1	1	Wortverbindung	:[1] vor nicht allzu langer Zeit; noch nicht lange
 voraussichtlich	1	1	Adjektiv	:[1] unter Berücksichtigung bekannter Umstände wahrscheinlich	vermutlich,wahrscheinlich	unwahrscheinlich
 vorhin	1	1	Adverb	:[1] vor kurzer Zeit		
 vorkurzem	0	0				
+vorwärts	1	1	Adverb	:[1] in der Richtung nach vorn ¦ :[2] weiter in der Richtung des Ziels		
 völlig	1	1	Adjektiv	:[1] gänzlich, vollständig, im höchst möglichen Maß, Grad	absolut,ganz,total	
 wahnsinnig	1	1	Adjektiv	:[1] vom Wahnsinn geprägt, an Wahnsinn erinnernd ¦ :[2] ohne jede Vernunft seiend/getan/gemacht ¦ :[3] (oft|adverbiell) in hohem Maße (getan/gemacht)		
-wahrscheinlich	1	1	Adjektiv,Adverb	:[1] in relativ hohem Grad möglich, mit ziemlicher Sicherheit anzunehmen ¦ :[1] mit ziemlicher Sicherheit	ziemlich,vermutlich,voraussichtlich,wohl	unwahrscheinlich
+wahrscheinlich	1	1	Adjektiv,Adverb	:[1] in relativ hohem Grad möglich, mit ziemlicher Sicherheit anzunehmen ¦ :[1] mit ziemlicher Sicherheit	ziemlich,vermutlich,voraussichtlich,wohl	tatsächlich,unwahrscheinlich
+was mich betrifft	0	0				
 weg	1	1	Adverb	:[1] Bewegungsrichtung: von hier aus an einen anderen Ort ¦ :[2] Standort: an einem anderen Ort ¦ :[3] umgangssprachlich: nicht mehr da, verschwunden, verloren ¦ :[4] in 		hier,da
 weit	1	1	Adjektiv,Konjugierte Form	:[1] (flächenhaft) ausgedehnt ¦ :[2] entfernt ¦ :[3] (in eine Richtung, vorzugsweise die Breite) ausgedehnt		
 weit weg	0	0				
-wieder	1	1	Adverb	:[1] ein oder mehrere weitere Male ¦ :[2] zeigt an, dass ein früherer Zustand hergestellt wird ¦ :[3] auch noch, zum andern, daneben, zugleich ¦ :[4] umgangssprachlich: d		nicht,mehr
-wirklich	1	1	Adjektiv,Adverb	:[1] tatsächlich existierend und nicht nur in der Einbildung vorhanden seiend ¦ :[2] den Erwartungen und Wertvorstellungen entsprechend ¦ :[3] Verstärkungswort: wahrhafti	echt,richtig	scheinbar
+wieder	1	1	Adverb	:[1] ein oder mehrere weitere Male ¦ :[2] zeigt an, dass ein früherer Zustand hergestellt wird ¦ :[3] auch noch, zum andern, daneben, zugleich ¦ :[4] umgangssprachlich: d	erneut	nicht,mehr
+wirklich	1	1	Adjektiv,Adverb	:[1] tatsächlich existierend und nicht nur in der Einbildung vorhanden seiend ¦ :[2] den Erwartungen und Wertvorstellungen entsprechend ¦ :[3] Verstärkungswort: wahrhafti	tatsächlich,echt,richtig	scheinbar
 wohl	1	1	Adverb,Partikel	:[1] gut, gesund, angenehm, behaglich ¦ :[1] wahrscheinlich, vermutlich ¦ :[2] doch	gut,bestimmt,höchstwahrscheinlich,sicher,sicherlich,allerdings,schon	
 wohl kaum	0	0				
 womöglich	1	1	Adverb	:[1] eventuell	eventuell,möglicherweise,vermutlich	sicher
@@ -189,3 +226,4 @@ zweitens	1	1	Adverb	:[1] an zweiter Stelle (einer Aufzählung, Gliederung oder �
 überall	1	1	Adverb	:[1] an allen Orten		nirgends,nirgendwo
 überhaupt	1	1	Adverb	:[1] nicht nur im Speziellen, sondern auch im Allgemeinen geltend ¦ :[2] eine Aussage, meist eine Verneinung, bekräftigend: ganz und gar (nicht) ¦ :[3] (ugs.) außerdem, ü		
 überhaupt nicht	0	0				
+übrigens	1	1	Adverb	:[1] nebenbei bemerkt, gesagt	außerdem	
