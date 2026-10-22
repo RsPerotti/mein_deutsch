@@ -27,6 +27,8 @@ Recorded as a follow-up section in `PRD_Adverb_Scales.md` (his message was the s
 - Result: 578 replacements in 304 exercises. Sentence-translation items: 6 heuristic hits, all
   false positives. `validate-adverb-distractors.py` L1–L6 PASS; mutation test 12/12 with each
   relation asserted by name. All other suites green. SW v24.
+- Pushed `22874c3`; live site verified: SW `mein-deutsch-v24`, *deswegen* fill-blank now offers
+  allerdings / anschließend / außerdem / nämlich.
 
 ---
 
