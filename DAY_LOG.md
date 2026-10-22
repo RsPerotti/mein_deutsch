@@ -64,6 +64,8 @@ signed off same day ("Yes, build and ship").
 validate-adverb-scales A–K PASS · mutation 17/17 · qa-adverb-scales 48/48 · qa-review, qa-srs,
 qa-stuck-mode, qa-prefixes, qa-variants, validate-srs, validate-stammverben, verify-srs-validator
 all green · 375 px screenshots of list, linear axes, both grids, drill + wrong-answer feedback.
+Pushed `a4597fd`; live site verified in the in-app browser: SW `mein-deutsch-v23`, `js/scales.js` 200,
+16 axes render. Stale `.git` locks cleared after the push.
 
 ---
 

@@ -20,6 +20,7 @@ recording/unlock/cooldown/review are inherited. Pipeline: `_factory/adverb-scale
 `_factory/adverb-scales/report.md`. PRD: `PRD_Adverb_Scales.md`. **Open finding:** 74 pre-S42
 adverb exercises offer a synonym as a "wrong" answer (e.g. *deswegen* with *deshalb/daher*);
 list in `_factory/adverb-scales/existing-distractor-audit.txt` — not fixed, needs Ricco's go.
+Deploy `a4597fd` verified live 2026-10-22 (SW v23, 16 axes render on the live site).
 
 **Session 41 — Stammverben audit + stuck review mode (v22).** *Fixed:* leaving a session with
 the back gesture left `exerciseMode` stale, so Stammverben could silently start a Wiederholung
@@ -30,8 +31,7 @@ because it lived only in `js/data.js` (14 bases back, 126 orphaned exercises ser
 **114 Stammverben, 306 variants under a root, 26 standalone variations** (`standalone_variant`
 in `verbs.json`: prefixed verbs whose base the app does not teach; served in Variationen with no
 root unlock). Guard: `validate-stammverben.py` (+ mutation test). PRD: `PRD_Stammverben_Audit.md`.
-Report: `_factory/stammverben/audit-report.md`. **Open at close of S41:** GitHub Pages deploy of `3d19b79` was still queued — verify the
-live service worker reads `mein-deutsch-v22` before anything else. Run order for verb data
+Report: `_factory/stammverben/audit-report.md`. *(S41 deploy check closed in S42: live SW verified at `mein-deutsch-v23`.)* Run order for verb data
 changes: `stammverben-audit.py` → `bundle-data.py` → `validate-stammverben.py`.
 
 **Session 40c — spaced repetition is COMPLETE (v21).** All four engines now serve review, so
