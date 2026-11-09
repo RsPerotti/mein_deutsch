@@ -1,153 +1,1364 @@
 [
-  {"exercise_id": "ex_expr_schwein_haben_001", "word_id": "expr_schwein_haben", "type": "translate_word", "difficulty": 1,
-   "question": {"de": "Schwein haben", "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"},
-   "correct_answer": "to be lucky (colloquial)",
-   "wrong_answers": ["to eat too much", "to be messy", "to be stubborn"],
-   "explanation_en": "'Schwein haben' literally means 'to have a pig' — the pig is a German good-luck symbol. Schwein gehabt! = Lucky!"},
-  {"exercise_id": "ex_expr_schwein_haben_002", "word_id": "expr_schwein_haben", "type": "fill_blank", "difficulty": 2,
-   "question": {"de": "Da hast du echt _____ gehabt — der Zug hatte zum Glück Verspätung!", "en": "You really got lucky there — luckily the train was delayed!"},
-   "correct_answer": "Schwein", "wrong_answers": ["Pech", "Hund", "Vogel"],
-   "explanation_en": "'Schwein haben' = to be lucky. 'Pech haben' is the opposite (to be unlucky). Hund and Vogel don't work in this pattern."},
-  {"exercise_id": "ex_expr_schwein_haben_003", "word_id": "expr_schwein_haben", "type": "translate_word", "difficulty": 2,
-   "question": {"de": "Du findest 20 Euro auf der Straße. Was sagst du?", "prompt_en": "WHICH EXPRESSION FITS THIS SITUATION?"},
-   "correct_answer": "Schwein gehabt!",
-   "wrong_answers": ["Abgemacht!", "Bitte sachlich bleiben!", "Wie auch immer …"],
-   "explanation_en": "Finding money is pure luck — Schwein gehabt! 'Abgemacht' seals a deal, 'sachlich bleiben' calms a discussion, 'wie auch immer' closes a topic."},
-  {"exercise_id": "ex_expr_schwein_haben_004", "word_id": "expr_schwein_haben", "type": "fill_blank", "difficulty": 2,
-   "question": {"de": "Wir haben _____ gehabt: Das waren die letzten zwei Tickets.", "en": "We got lucky: those were the last two tickets."},
-   "correct_answer": "Schwein", "wrong_answers": ["Katze", "Pech", "Glücksschwein"],
-   "explanation_en": "The fixed idiom is 'Schwein haben'. The Glücksschwein is the lucky-pig symbol itself — it doesn't go into this phrase."},
-
-  {"exercise_id": "ex_expr_ratschlaege_geben_001", "word_id": "expr_ratschlaege_geben", "type": "translate_word", "difficulty": 1,
-   "question": {"de": "Ratschläge geben", "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"},
-   "correct_answer": "to give advice",
-   "wrong_answers": ["to make suggestions for trips", "to give orders", "to ask questions"],
-   "explanation_en": "'Ratschläge geben' = to give advice. Fixed verb: geben. One piece of advice = ein Ratschlag / ein Rat."},
-  {"exercise_id": "ex_expr_ratschlaege_geben_002", "word_id": "expr_ratschlaege_geben", "type": "fill_blank", "difficulty": 2,
-   "question": {"de": "Meine Oma _____ mir immer gute Ratschläge.", "en": "My grandma always gives me good advice."},
-   "correct_answer": "gibt", "wrong_answers": ["macht", "nimmt", "stellt"],
-   "explanation_en": "The collocation is Ratschläge GEBEN — never machen. Collocations like this must be memorised as pairs."},
-  {"exercise_id": "ex_expr_ratschlaege_geben_003", "word_id": "expr_ratschlaege_geben", "type": "translate_word", "difficulty": 2,
-   "question": {"de": "Dein Freund weiß nicht, welchen Job er nehmen soll. Du sagst ihm deine Meinung und was du tun würdest.", "prompt_en": "WHICH EXPRESSION DESCRIBES WHAT YOU DO?"},
-   "correct_answer": "Ratschläge geben",
-   "wrong_answers": ["Schwein haben", "durcheinander kommen", "sachlich bleiben"],
-   "explanation_en": "Helping someone decide by sharing your opinion = Ratschläge geben (to give advice)."},
-  {"exercise_id": "ex_expr_ratschlaege_geben_004", "word_id": "expr_ratschlaege_geben", "type": "fill_blank", "difficulty": 2,
-   "question": {"de": "Er gibt gern _____, ohne gefragt zu werden.", "en": "He likes giving advice without being asked.", "show_english": true},
-   "correct_answer": "Ratschläge", "wrong_answers": ["Fragen", "Befehle", "Antworten"],
-   "explanation_en": "'Ratschläge geben' = to give advice. Fragen stellen (ask questions), Befehle geben (give orders), Antworten geben (give answers) are different collocations."},
-
-  {"exercise_id": "ex_expr_sachlich_bleiben_001", "word_id": "expr_sachlich_bleiben", "type": "translate_word", "difficulty": 1,
-   "question": {"de": "Bitte sachlich bleiben", "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"},
-   "correct_answer": "please stay objective / stick to the facts",
-   "wrong_answers": ["please stay seated", "please speak more slowly", "please be quiet"],
-   "explanation_en": "'sachlich' comes from die Sache (the matter) — stick to the matter, not emotions. Standard phrase in heated discussions."},
-  {"exercise_id": "ex_expr_sachlich_bleiben_002", "word_id": "expr_sachlich_bleiben", "type": "fill_blank", "difficulty": 2,
-   "question": {"de": "Die Diskussion wurde laut. „Bitte _____ bleiben!“, sagte die Moderatorin.", "en": "The discussion got loud. \"Please stay objective!\", said the moderator."},
-   "correct_answer": "sachlich", "wrong_answers": ["persönlich", "emotional", "langsam"],
-   "explanation_en": "'sachlich bleiben' = to stay objective. persönlich and emotional are exactly what the moderator wants to avoid."},
-  {"exercise_id": "ex_expr_sachlich_bleiben_003", "word_id": "expr_sachlich_bleiben", "type": "translate_word", "difficulty": 2,
-   "question": {"de": "In einer Diskussion wird jemand beleidigend. Du willst die Diskussion retten. Was sagst du?", "prompt_en": "WHICH EXPRESSION FITS THIS SITUATION?"},
-   "correct_answer": "Bitte sachlich bleiben!",
-   "wrong_answers": ["Schwein gehabt!", "Abgemacht!", "Durcheinander gekommen?"],
-   "explanation_en": "When a discussion turns personal, 'Bitte sachlich bleiben!' pulls it back to the facts."},
-  {"exercise_id": "ex_expr_sachlich_bleiben_004", "word_id": "expr_sachlich_bleiben", "type": "fill_blank", "difficulty": 2,
-   "question": {"de": "Bleiben wir _____: Was sind die Fakten?", "en": "Let's stick to the facts: what are the facts?"},
-   "correct_answer": "sachlich", "wrong_answers": ["freundlich", "ruhig", "ehrlich"],
-   "explanation_en": "'sachlich bleiben' pairs with facts (die Fakten). freundlich/ruhig/ehrlich are plausible words but don't match the fact-focused meaning shown in the English."},
-
-  {"exercise_id": "ex_expr_wie_auch_immer_001", "word_id": "expr_wie_auch_immer", "type": "translate_word", "difficulty": 1,
-   "question": {"de": "Wie auch immer …", "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"},
-   "correct_answer": "anyway / be that as it may",
-   "wrong_answers": ["how are you", "forever and always", "one way or another (it will work)"],
-   "explanation_en": "'Wie auch immer' closes a topic or signals the details don't matter — like English 'anyway'. Family: was auch immer = whatever."},
-  {"exercise_id": "ex_expr_wie_auch_immer_002", "word_id": "expr_wie_auch_immer", "type": "fill_blank", "difficulty": 2,
-   "question": {"de": "„_____ — wir müssen jetzt eine Entscheidung treffen.“", "en": "\"Anyway — we have to make a decision now.\""},
-   "correct_answer": "Wie auch immer", "wrong_answers": ["Schwein gehabt", "Abgemacht", "Danke der Nachfrage"],
-   "explanation_en": "'Wie auch immer' moves the conversation forward. The other expressions seal a deal, celebrate luck, or answer 'how are you'."},
-  {"exercise_id": "ex_expr_wie_auch_immer_003", "word_id": "expr_wie_auch_immer", "type": "translate_word", "difficulty": 2,
-   "question": {"de": "Ihr diskutiert lange ohne Ergebnis. Du willst das Thema beenden und weitermachen. Was sagst du?", "prompt_en": "WHICH EXPRESSION FITS THIS SITUATION?"},
-   "correct_answer": "Wie auch immer …",
-   "wrong_answers": ["Schwein gehabt!", "Ratschläge geben", "Bitte anschnallen!"],
-   "explanation_en": "'Wie auch immer …' is the natural topic-closer: 'anyway, moving on'."},
-  {"exercise_id": "ex_expr_wie_auch_immer_004", "word_id": "expr_wie_auch_immer", "type": "fill_blank", "difficulty": 2,
-   "question": {"de": "Wie _____ immer, das Ergebnis bleibt gleich.", "en": "Be that as it may, the result stays the same."},
-   "correct_answer": "auch", "wrong_answers": ["noch", "schon", "erst"],
-   "explanation_en": "The fixed phrase is 'wie AUCH immer'. The particles noch/schon/erst don't form this idiom."},
-
-  {"exercise_id": "ex_expr_abgemacht_001", "word_id": "expr_abgemacht", "type": "translate_word", "difficulty": 1,
-   "question": {"de": "Abgemacht!", "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"},
-   "correct_answer": "Deal! / It's settled!",
-   "wrong_answers": ["Switched off!", "Finished eating!", "Taken down!"],
-   "explanation_en": "'Abgemacht!' is the Partizip II of abmachen (to arrange) used as a one-word seal on an agreement — a verbal handshake."},
-  {"exercise_id": "ex_expr_abgemacht_002", "word_id": "expr_abgemacht", "type": "fill_blank", "difficulty": 2,
-   "question": {"de": "„Ich koche, du spülst?“ — „_____!“", "en": "\"I cook, you do the dishes?\" — \"Deal!\""},
-   "correct_answer": "Abgemacht", "wrong_answers": ["Angemacht", "Aufgemacht", "Zugemacht"],
-   "explanation_en": "abgemacht = agreed/arranged. angemacht (turned on / hit on), aufgemacht (opened) and zugemacht (closed) are different machen-verbs."},
-  {"exercise_id": "ex_expr_abgemacht_003", "word_id": "expr_abgemacht", "type": "translate_word", "difficulty": 2,
-   "question": {"de": "Deine Freundin schlägt vor: Sie kocht, du spülst. Du nimmst den Deal an. Was sagst du?", "prompt_en": "WHICH EXPRESSION FITS THIS SITUATION?"},
-   "correct_answer": "Abgemacht!",
-   "wrong_answers": ["Schwein gehabt!", "Wie auch immer …", "Bitte sachlich bleiben!"],
-   "explanation_en": "Accepting a proposed deal = Abgemacht! (Deal!)."},
-  {"exercise_id": "ex_expr_abgemacht_004", "word_id": "expr_abgemacht", "type": "fill_blank", "difficulty": 2,
-   "question": {"de": "Also morgen um zehn? _____!", "en": "So tomorrow at ten? Settled!"},
-   "correct_answer": "Abgemacht", "wrong_answers": ["Ausgeschlossen", "Aufgepasst", "Angefangen"],
-   "explanation_en": "'Abgemacht!' seals the appointment. Ausgeschlossen (out of the question) would reject it; aufgepasst/angefangen don't fit at all."},
-
-  {"exercise_id": "ex_expr_einverstanden_001", "word_id": "expr_einverstanden", "type": "translate_word", "difficulty": 1,
-   "question": {"de": "Einverstanden", "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"},
-   "correct_answer": "agreed / OK, I consent",
-   "wrong_answers": ["understood (I got it)", "invited", "arrived"],
-   "explanation_en": "'einverstanden sein mit + Dativ' = to agree with. As a one-word answer: Agreed. Note: verstanden alone just means 'understood'."},
-  {"exercise_id": "ex_expr_einverstanden_002", "word_id": "expr_einverstanden", "type": "fill_blank", "difficulty": 2,
-   "question": {"de": "Bist du mit dem Plan _____?", "en": "Do you agree with the plan?"},
-   "correct_answer": "einverstanden", "wrong_answers": ["verstanden", "verabredet", "überzeugt"],
-   "explanation_en": "'einverstanden sein mit' = to agree with. 'verstanden' = understood, 'verabredet' = having an appointment, 'überzeugt' takes 'von', not 'mit'."},
-  {"exercise_id": "ex_expr_einverstanden_003", "word_id": "expr_einverstanden", "type": "translate_word", "difficulty": 2,
-   "question": {"de": "Der Chef fragt, ob der neue Termin für dich in Ordnung ist. Du stimmst zu. Was sagst du?", "prompt_en": "WHICH EXPRESSION FITS THIS SITUATION?"},
-   "correct_answer": "Einverstanden.",
-   "wrong_answers": ["Schwein gehabt!", "Wie auch immer …", "Bitte sachlich bleiben!"],
-   "explanation_en": "Giving your OK to a proposal = Einverstanden. Slightly more formal than 'Abgemacht!' — fitting for the boss."},
-  {"exercise_id": "ex_expr_einverstanden_004", "word_id": "expr_einverstanden", "type": "fill_blank", "difficulty": 2,
-   "question": {"de": "„Treffen wir uns um acht?“ — „_____.“", "en": "\"Shall we meet at eight?\" — \"Agreed.\""},
-   "correct_answer": "Einverstanden", "wrong_answers": ["Entschuldigung", "Eingeladen", "Verstanden"],
-   "explanation_en": "'Einverstanden' gives consent. 'Verstanden' only confirms you understood — it doesn't say yes."},
-
-  {"exercise_id": "ex_expr_moeglichst_001", "word_id": "expr_moeglichst", "type": "translate_word", "difficulty": 1,
-   "question": {"de": "möglichst viel / wenig / oft", "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"},
-   "correct_answer": "as much / as little / as often as possible",
-   "wrong_answers": ["maybe a lot / a little / often", "mostly much / little / often", "at least much / little / often"],
-   "explanation_en": "möglichst + adverb compresses 'so … wie möglich': möglichst oft = so oft wie möglich = as often as possible."},
-  {"exercise_id": "ex_expr_moeglichst_002", "word_id": "expr_moeglichst", "type": "fill_blank", "difficulty": 2,
-   "question": {"de": "Trink _____ viel Wasser — das ist gesund.", "en": "Drink as much water as possible — it's healthy."},
-   "correct_answer": "möglichst", "wrong_answers": ["meistens", "mindestens", "möglich"],
-   "explanation_en": "'möglichst viel' = as much as possible. 'möglich' alone can't modify 'viel'; meistens = mostly; mindestens = at least."},
-  {"exercise_id": "ex_expr_moeglichst_003", "word_id": "expr_moeglichst", "type": "translate_word", "difficulty": 2,
-   "question": {"de": "Der Arzt sagt: „Trink so viel Wasser, wie du kannst.“ Wie sagt man das kürzer?", "prompt_en": "WHICH PHRASE SAYS THIS IN SHORT?"},
-   "correct_answer": "möglichst viel",
-   "wrong_answers": ["mindestens viel", "meistens viel", "höchstens viel"],
-   "explanation_en": "'so viel wie möglich' compresses to 'möglichst viel'. mindestens/höchstens need a number, 'meistens viel' means 'usually a lot'."},
-  {"exercise_id": "ex_expr_moeglichst_004", "word_id": "expr_moeglichst", "type": "fill_blank", "difficulty": 2,
-   "question": {"de": "Ich versuche, _____ oft zu Fuß zu gehen.", "en": "I try to walk as often as possible.", "show_english": true},
-   "correct_answer": "möglichst", "wrong_answers": ["mindestens", "höchstens", "meistens"],
-   "explanation_en": "'möglichst oft' = as often as possible. The English translation rules out at-least/at-most/mostly."},
-
-  {"exercise_id": "ex_expr_durcheinander_kommen_001", "word_id": "expr_durcheinander_kommen", "type": "translate_word", "difficulty": 1,
-   "question": {"de": "durcheinander kommen", "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"},
-   "correct_answer": "to get confused / mixed up",
-   "wrong_answers": ["to arrive together", "to pass through", "to interrupt each other"],
-   "explanation_en": "'durcheinander' = in disarray, mixed up. durcheinander kommen = to lose track / get confused. Noun: das Durcheinander (chaos)."},
-  {"exercise_id": "ex_expr_durcheinander_kommen_002", "word_id": "expr_durcheinander_kommen", "type": "fill_blank", "difficulty": 2,
-   "question": {"de": "Bei den vielen Namen komme ich _____.", "en": "With all these names I get confused."},
-   "correct_answer": "durcheinander", "wrong_answers": ["nacheinander", "miteinander", "auseinander"],
-   "explanation_en": "durcheinander = mixed up. nacheinander = one after another, miteinander = with each other, auseinander = apart."},
-  {"exercise_id": "ex_expr_durcheinander_kommen_003", "word_id": "expr_durcheinander_kommen", "type": "translate_word", "difficulty": 2,
-   "question": {"de": "Du verwechselst beim Deutschlernen ständig „riechen“ und „reichen“. Was ist passiert?", "prompt_en": "WHICH EXPRESSION DESCRIBES THIS?"},
-   "correct_answer": "Ich bin durcheinander gekommen.",
-   "wrong_answers": ["Ich habe Schwein gehabt.", "Ich bin sachlich geblieben.", "Ich habe Ratschläge gegeben."],
-   "explanation_en": "Mixing up two similar words = durcheinander kommen. (And yes — riechen/reichen is a classic trap.)"},
-  {"exercise_id": "ex_expr_durcheinander_kommen_004", "word_id": "expr_durcheinander_kommen", "type": "fill_blank", "difficulty": 2,
-   "question": {"de": "Ich bin mit den Terminen völlig durcheinander _____.", "en": "I got the appointments completely mixed up."},
-   "correct_answer": "gekommen", "wrong_answers": ["gegangen", "gemacht", "geworden"],
-   "explanation_en": "The idiom is durcheinander KOMMEN (Perfekt with sein: ich bin … gekommen). 'durcheinanderbringen' exists too, but takes an object."}
+  {
+    "exercise_id": "ex_expr_schwein_haben_001",
+    "word_id": "expr_schwein_haben",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "Schwein haben",
+      "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"
+    },
+    "correct_answer": "to be lucky (colloquial)",
+    "wrong_answers": [
+      "to eat too much",
+      "to be messy",
+      "to be stubborn"
+    ],
+    "explanation_en": "'Schwein haben' literally means 'to have a pig' — the pig is a German good-luck symbol. Schwein gehabt! = Lucky!"
+  },
+  {
+    "exercise_id": "ex_expr_schwein_haben_002",
+    "word_id": "expr_schwein_haben",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Da hast du echt _____ gehabt — der Zug hatte zum Glück Verspätung!",
+      "en": "You really got lucky there — luckily the train was delayed!"
+    },
+    "correct_answer": "Schwein",
+    "wrong_answers": [
+      "Pech",
+      "Hund",
+      "Vogel"
+    ],
+    "explanation_en": "'Schwein haben' = to be lucky. 'Pech haben' is the opposite (to be unlucky). Hund and Vogel don't work in this pattern."
+  },
+  {
+    "exercise_id": "ex_expr_schwein_haben_003",
+    "word_id": "expr_schwein_haben",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "Du findest 20 Euro auf der Straße. Was sagst du?",
+      "prompt_en": "WHICH EXPRESSION FITS THIS SITUATION?"
+    },
+    "correct_answer": "Schwein gehabt!",
+    "wrong_answers": [
+      "Abgemacht!",
+      "Bitte sachlich bleiben!",
+      "Wie auch immer …"
+    ],
+    "explanation_en": "Finding money is pure luck — Schwein gehabt! 'Abgemacht' seals a deal, 'sachlich bleiben' calms a discussion, 'wie auch immer' closes a topic."
+  },
+  {
+    "exercise_id": "ex_expr_schwein_haben_004",
+    "word_id": "expr_schwein_haben",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir haben _____ gehabt: Das waren die letzten zwei Tickets.",
+      "en": "We got lucky: those were the last two tickets."
+    },
+    "correct_answer": "Schwein",
+    "wrong_answers": [
+      "Katze",
+      "Pech",
+      "Glücksschwein"
+    ],
+    "explanation_en": "The fixed idiom is 'Schwein haben'. The Glücksschwein is the lucky-pig symbol itself — it doesn't go into this phrase."
+  },
+  {
+    "exercise_id": "ex_expr_ratschlaege_geben_001",
+    "word_id": "expr_ratschlaege_geben",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "Ratschläge geben",
+      "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"
+    },
+    "correct_answer": "to give advice",
+    "wrong_answers": [
+      "to make suggestions for trips",
+      "to give orders",
+      "to ask questions"
+    ],
+    "explanation_en": "'Ratschläge geben' = to give advice. Fixed verb: geben. One piece of advice = ein Ratschlag / ein Rat."
+  },
+  {
+    "exercise_id": "ex_expr_ratschlaege_geben_002",
+    "word_id": "expr_ratschlaege_geben",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Meine Oma _____ mir immer gute Ratschläge.",
+      "en": "My grandma always gives me good advice."
+    },
+    "correct_answer": "gibt",
+    "wrong_answers": [
+      "macht",
+      "nimmt",
+      "stellt"
+    ],
+    "explanation_en": "The collocation is Ratschläge GEBEN — never machen. Collocations like this must be memorised as pairs."
+  },
+  {
+    "exercise_id": "ex_expr_ratschlaege_geben_003",
+    "word_id": "expr_ratschlaege_geben",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "Dein Freund weiß nicht, welchen Job er nehmen soll. Du sagst ihm deine Meinung und was du tun würdest.",
+      "prompt_en": "WHICH EXPRESSION DESCRIBES WHAT YOU DO?"
+    },
+    "correct_answer": "Ratschläge geben",
+    "wrong_answers": [
+      "Schwein haben",
+      "durcheinander kommen",
+      "sachlich bleiben"
+    ],
+    "explanation_en": "Helping someone decide by sharing your opinion = Ratschläge geben (to give advice)."
+  },
+  {
+    "exercise_id": "ex_expr_ratschlaege_geben_004",
+    "word_id": "expr_ratschlaege_geben",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er gibt gern _____, ohne gefragt zu werden.",
+      "en": "He likes giving advice without being asked.",
+      "show_english": true
+    },
+    "correct_answer": "Ratschläge",
+    "wrong_answers": [
+      "Fragen",
+      "Befehle",
+      "Antworten"
+    ],
+    "explanation_en": "'Ratschläge geben' = to give advice. Fragen stellen (ask questions), Befehle geben (give orders), Antworten geben (give answers) are different collocations."
+  },
+  {
+    "exercise_id": "ex_expr_sachlich_bleiben_001",
+    "word_id": "expr_sachlich_bleiben",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "Bitte sachlich bleiben",
+      "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"
+    },
+    "correct_answer": "please stay objective / stick to the facts",
+    "wrong_answers": [
+      "please stay seated",
+      "please speak more slowly",
+      "please be quiet"
+    ],
+    "explanation_en": "'sachlich' comes from die Sache (the matter) — stick to the matter, not emotions. Standard phrase in heated discussions."
+  },
+  {
+    "exercise_id": "ex_expr_sachlich_bleiben_002",
+    "word_id": "expr_sachlich_bleiben",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Diskussion wurde laut. „Bitte _____ bleiben!“, sagte die Moderatorin.",
+      "en": "The discussion got loud. \"Please stay objective!\", said the moderator."
+    },
+    "correct_answer": "sachlich",
+    "wrong_answers": [
+      "persönlich",
+      "emotional",
+      "langsam"
+    ],
+    "explanation_en": "'sachlich bleiben' = to stay objective. persönlich and emotional are exactly what the moderator wants to avoid."
+  },
+  {
+    "exercise_id": "ex_expr_sachlich_bleiben_003",
+    "word_id": "expr_sachlich_bleiben",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "In einer Diskussion wird jemand beleidigend. Du willst die Diskussion retten. Was sagst du?",
+      "prompt_en": "WHICH EXPRESSION FITS THIS SITUATION?"
+    },
+    "correct_answer": "Bitte sachlich bleiben!",
+    "wrong_answers": [
+      "Schwein gehabt!",
+      "Abgemacht!",
+      "Durcheinander gekommen?"
+    ],
+    "explanation_en": "When a discussion turns personal, 'Bitte sachlich bleiben!' pulls it back to the facts."
+  },
+  {
+    "exercise_id": "ex_expr_sachlich_bleiben_004",
+    "word_id": "expr_sachlich_bleiben",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Bleiben wir _____: Was sind die Fakten?",
+      "en": "Let's stick to the facts: what are the facts?"
+    },
+    "correct_answer": "sachlich",
+    "wrong_answers": [
+      "freundlich",
+      "ruhig",
+      "ehrlich"
+    ],
+    "explanation_en": "'sachlich bleiben' pairs with facts (die Fakten). freundlich/ruhig/ehrlich are plausible words but don't match the fact-focused meaning shown in the English."
+  },
+  {
+    "exercise_id": "ex_expr_wie_auch_immer_001",
+    "word_id": "expr_wie_auch_immer",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "Wie auch immer …",
+      "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"
+    },
+    "correct_answer": "anyway / be that as it may",
+    "wrong_answers": [
+      "how are you",
+      "forever and always",
+      "one way or another (it will work)"
+    ],
+    "explanation_en": "'Wie auch immer' closes a topic or signals the details don't matter — like English 'anyway'. Family: was auch immer = whatever."
+  },
+  {
+    "exercise_id": "ex_expr_wie_auch_immer_002",
+    "word_id": "expr_wie_auch_immer",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "„_____ — wir müssen jetzt eine Entscheidung treffen.“",
+      "en": "\"Anyway — we have to make a decision now.\""
+    },
+    "correct_answer": "Wie auch immer",
+    "wrong_answers": [
+      "Schwein gehabt",
+      "Abgemacht",
+      "Danke der Nachfrage"
+    ],
+    "explanation_en": "'Wie auch immer' moves the conversation forward. The other expressions seal a deal, celebrate luck, or answer 'how are you'."
+  },
+  {
+    "exercise_id": "ex_expr_wie_auch_immer_003",
+    "word_id": "expr_wie_auch_immer",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "Ihr diskutiert lange ohne Ergebnis. Du willst das Thema beenden und weitermachen. Was sagst du?",
+      "prompt_en": "WHICH EXPRESSION FITS THIS SITUATION?"
+    },
+    "correct_answer": "Wie auch immer …",
+    "wrong_answers": [
+      "Schwein gehabt!",
+      "Ratschläge geben",
+      "Bitte anschnallen!"
+    ],
+    "explanation_en": "'Wie auch immer …' is the natural topic-closer: 'anyway, moving on'."
+  },
+  {
+    "exercise_id": "ex_expr_wie_auch_immer_004",
+    "word_id": "expr_wie_auch_immer",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wie _____ immer, das Ergebnis bleibt gleich.",
+      "en": "Be that as it may, the result stays the same."
+    },
+    "correct_answer": "auch",
+    "wrong_answers": [
+      "noch",
+      "schon",
+      "erst"
+    ],
+    "explanation_en": "The fixed phrase is 'wie AUCH immer'. The particles noch/schon/erst don't form this idiom."
+  },
+  {
+    "exercise_id": "ex_expr_abgemacht_001",
+    "word_id": "expr_abgemacht",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "Abgemacht!",
+      "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"
+    },
+    "correct_answer": "Deal! / It's settled!",
+    "wrong_answers": [
+      "Switched off!",
+      "Finished eating!",
+      "Taken down!"
+    ],
+    "explanation_en": "'Abgemacht!' is the Partizip II of abmachen (to arrange) used as a one-word seal on an agreement — a verbal handshake."
+  },
+  {
+    "exercise_id": "ex_expr_abgemacht_002",
+    "word_id": "expr_abgemacht",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "„Ich koche, du spülst?“ — „_____!“",
+      "en": "\"I cook, you do the dishes?\" — \"Deal!\""
+    },
+    "correct_answer": "Abgemacht",
+    "wrong_answers": [
+      "Angemacht",
+      "Aufgemacht",
+      "Zugemacht"
+    ],
+    "explanation_en": "abgemacht = agreed/arranged. angemacht (turned on / hit on), aufgemacht (opened) and zugemacht (closed) are different machen-verbs."
+  },
+  {
+    "exercise_id": "ex_expr_abgemacht_003",
+    "word_id": "expr_abgemacht",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "Deine Freundin schlägt vor: Sie kocht, du spülst. Du nimmst den Deal an. Was sagst du?",
+      "prompt_en": "WHICH EXPRESSION FITS THIS SITUATION?"
+    },
+    "correct_answer": "Abgemacht!",
+    "wrong_answers": [
+      "Schwein gehabt!",
+      "Wie auch immer …",
+      "Bitte sachlich bleiben!"
+    ],
+    "explanation_en": "Accepting a proposed deal = Abgemacht! (Deal!)."
+  },
+  {
+    "exercise_id": "ex_expr_abgemacht_004",
+    "word_id": "expr_abgemacht",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Also morgen um zehn? _____!",
+      "en": "So tomorrow at ten? Settled!"
+    },
+    "correct_answer": "Abgemacht",
+    "wrong_answers": [
+      "Ausgeschlossen",
+      "Aufgepasst",
+      "Angefangen"
+    ],
+    "explanation_en": "'Abgemacht!' seals the appointment. Ausgeschlossen (out of the question) would reject it; aufgepasst/angefangen don't fit at all."
+  },
+  {
+    "exercise_id": "ex_expr_einverstanden_001",
+    "word_id": "expr_einverstanden",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "Einverstanden",
+      "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"
+    },
+    "correct_answer": "agreed / OK, I consent",
+    "wrong_answers": [
+      "understood (I got it)",
+      "invited",
+      "arrived"
+    ],
+    "explanation_en": "'einverstanden sein mit + Dativ' = to agree with. As a one-word answer: Agreed. Note: verstanden alone just means 'understood'."
+  },
+  {
+    "exercise_id": "ex_expr_einverstanden_002",
+    "word_id": "expr_einverstanden",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Bist du mit dem Plan _____?",
+      "en": "Do you agree with the plan?"
+    },
+    "correct_answer": "einverstanden",
+    "wrong_answers": [
+      "verstanden",
+      "verabredet",
+      "überzeugt"
+    ],
+    "explanation_en": "'einverstanden sein mit' = to agree with. 'verstanden' = understood, 'verabredet' = having an appointment, 'überzeugt' takes 'von', not 'mit'."
+  },
+  {
+    "exercise_id": "ex_expr_einverstanden_003",
+    "word_id": "expr_einverstanden",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Chef fragt, ob der neue Termin für dich in Ordnung ist. Du stimmst zu. Was sagst du?",
+      "prompt_en": "WHICH EXPRESSION FITS THIS SITUATION?"
+    },
+    "correct_answer": "Einverstanden.",
+    "wrong_answers": [
+      "Schwein gehabt!",
+      "Wie auch immer …",
+      "Bitte sachlich bleiben!"
+    ],
+    "explanation_en": "Giving your OK to a proposal = Einverstanden. Slightly more formal than 'Abgemacht!' — fitting for the boss."
+  },
+  {
+    "exercise_id": "ex_expr_einverstanden_004",
+    "word_id": "expr_einverstanden",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "„Treffen wir uns um acht?“ — „_____.“",
+      "en": "\"Shall we meet at eight?\" — \"Agreed.\""
+    },
+    "correct_answer": "Einverstanden",
+    "wrong_answers": [
+      "Entschuldigung",
+      "Eingeladen",
+      "Verstanden"
+    ],
+    "explanation_en": "'Einverstanden' gives consent. 'Verstanden' only confirms you understood — it doesn't say yes."
+  },
+  {
+    "exercise_id": "ex_expr_moeglichst_001",
+    "word_id": "expr_moeglichst",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "möglichst viel / wenig / oft",
+      "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"
+    },
+    "correct_answer": "as much / as little / as often as possible",
+    "wrong_answers": [
+      "maybe a lot / a little / often",
+      "mostly much / little / often",
+      "at least much / little / often"
+    ],
+    "explanation_en": "möglichst + adverb compresses 'so … wie möglich': möglichst oft = so oft wie möglich = as often as possible."
+  },
+  {
+    "exercise_id": "ex_expr_moeglichst_002",
+    "word_id": "expr_moeglichst",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Trink _____ viel Wasser — das ist gesund.",
+      "en": "Drink as much water as possible — it's healthy."
+    },
+    "correct_answer": "möglichst",
+    "wrong_answers": [
+      "meistens",
+      "mindestens",
+      "möglich"
+    ],
+    "explanation_en": "'möglichst viel' = as much as possible. 'möglich' alone can't modify 'viel'; meistens = mostly; mindestens = at least."
+  },
+  {
+    "exercise_id": "ex_expr_moeglichst_003",
+    "word_id": "expr_moeglichst",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Arzt sagt: „Trink so viel Wasser, wie du kannst.“ Wie sagt man das kürzer?",
+      "prompt_en": "WHICH PHRASE SAYS THIS IN SHORT?"
+    },
+    "correct_answer": "möglichst viel",
+    "wrong_answers": [
+      "mindestens viel",
+      "meistens viel",
+      "höchstens viel"
+    ],
+    "explanation_en": "'so viel wie möglich' compresses to 'möglichst viel'. mindestens/höchstens need a number, 'meistens viel' means 'usually a lot'."
+  },
+  {
+    "exercise_id": "ex_expr_moeglichst_004",
+    "word_id": "expr_moeglichst",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich versuche, _____ oft zu Fuß zu gehen.",
+      "en": "I try to walk as often as possible.",
+      "show_english": true
+    },
+    "correct_answer": "möglichst",
+    "wrong_answers": [
+      "mindestens",
+      "höchstens",
+      "meistens"
+    ],
+    "explanation_en": "'möglichst oft' = as often as possible. The English translation rules out at-least/at-most/mostly."
+  },
+  {
+    "exercise_id": "ex_expr_durcheinander_kommen_001",
+    "word_id": "expr_durcheinander_kommen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "durcheinander kommen",
+      "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"
+    },
+    "correct_answer": "to get confused / mixed up",
+    "wrong_answers": [
+      "to arrive together",
+      "to pass through",
+      "to interrupt each other"
+    ],
+    "explanation_en": "'durcheinander' = in disarray, mixed up. durcheinander kommen = to lose track / get confused. Noun: das Durcheinander (chaos)."
+  },
+  {
+    "exercise_id": "ex_expr_durcheinander_kommen_002",
+    "word_id": "expr_durcheinander_kommen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Bei den vielen Namen komme ich _____.",
+      "en": "With all these names I get confused."
+    },
+    "correct_answer": "durcheinander",
+    "wrong_answers": [
+      "nacheinander",
+      "miteinander",
+      "auseinander"
+    ],
+    "explanation_en": "durcheinander = mixed up. nacheinander = one after another, miteinander = with each other, auseinander = apart."
+  },
+  {
+    "exercise_id": "ex_expr_durcheinander_kommen_003",
+    "word_id": "expr_durcheinander_kommen",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "Du verwechselst beim Deutschlernen ständig „riechen“ und „reichen“. Was ist passiert?",
+      "prompt_en": "WHICH EXPRESSION DESCRIBES THIS?"
+    },
+    "correct_answer": "Ich bin durcheinander gekommen.",
+    "wrong_answers": [
+      "Ich habe Schwein gehabt.",
+      "Ich bin sachlich geblieben.",
+      "Ich habe Ratschläge gegeben."
+    ],
+    "explanation_en": "Mixing up two similar words = durcheinander kommen. (And yes — riechen/reichen is a classic trap.)"
+  },
+  {
+    "exercise_id": "ex_expr_durcheinander_kommen_004",
+    "word_id": "expr_durcheinander_kommen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich bin mit den Terminen völlig durcheinander _____.",
+      "en": "I got the appointments completely mixed up."
+    },
+    "correct_answer": "gekommen",
+    "wrong_answers": [
+      "gegangen",
+      "gemacht",
+      "geworden"
+    ],
+    "explanation_en": "The idiom is durcheinander KOMMEN (Perfekt with sein: ich bin … gekommen). 'durcheinanderbringen' exists too, but takes an object."
+  },
+  {
+    "exercise_id": "ex_expr_mir_ist_nach_001",
+    "word_id": "expr_mir_ist_nach",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "Mir ist nach …",
+      "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"
+    },
+    "correct_answer": "I feel like … / I'm in the mood for …",
+    "wrong_answers": [
+      "I'm after …",
+      "I'm sick of …",
+      "It's my turn to …"
+    ],
+    "explanation_en": "'Mir ist nach …' = 'I feel like … / I'm in the mood for …'. mir (Dativ) + ist + nach + Dativ. Same meaning: Ich habe Lust auf … (+ Akk)."
+  },
+  {
+    "exercise_id": "ex_expr_mir_ist_nach_002",
+    "word_id": "expr_mir_ist_nach",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Heute ist mir _____ Pizza.",
+      "en": "I feel like pizza today."
+    },
+    "correct_answer": "nach",
+    "wrong_answers": [
+      "für",
+      "auf",
+      "zu"
+    ],
+    "explanation_en": "The fixed pattern is 'Mir ist nach …'. mir (Dativ) + ist + nach + Dativ. Same meaning: Ich habe Lust auf … (+ Akk)."
+  },
+  {
+    "exercise_id": "ex_expr_mir_ist_nach_003",
+    "word_id": "expr_mir_ist_nach",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "Es ist heiß und du willst schwimmen gehen. Was sagst du?",
+      "prompt_en": "WHICH EXPRESSION FITS THIS SITUATION?"
+    },
+    "correct_answer": "Mir ist nach Schwimmen.",
+    "wrong_answers": [
+      "Schwein gehabt!",
+      "Das erinnert mich an den Sommer.",
+      "Abgemacht!"
+    ],
+    "explanation_en": "Saying what you feel like doing or having right now. → 'Mir ist nach …'."
+  },
+  {
+    "exercise_id": "ex_expr_mir_ist_nach_004",
+    "word_id": "expr_mir_ist_nach",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Mir ist heute nicht _____ Feiern.",
+      "en": "I'm not in the mood for partying today."
+    },
+    "correct_answer": "nach",
+    "wrong_answers": [
+      "für",
+      "auf",
+      "von"
+    ],
+    "explanation_en": "The fixed pattern is 'Mir ist nach …'. mir (Dativ) + ist + nach + Dativ. Same meaning: Ich habe Lust auf … (+ Akk)."
+  },
+  {
+    "exercise_id": "ex_expr_was_haeltst_du_von_001",
+    "word_id": "expr_was_haeltst_du_von",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "Was hältst du von …?",
+      "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"
+    },
+    "correct_answer": "What do you think of …?",
+    "wrong_answers": [
+      "What are you holding?",
+      "What are you waiting for?",
+      "What do you know about …?"
+    ],
+    "explanation_en": "'Was hältst du von …?' = 'What do you think of …?'. halten von + Dativ = to have an opinion of. Answers: Ich halte viel/nichts davon."
+  },
+  {
+    "exercise_id": "ex_expr_was_haeltst_du_von_002",
+    "word_id": "expr_was_haeltst_du_von",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Was hältst du _____ der Idee?",
+      "en": "What do you think of the idea?"
+    },
+    "correct_answer": "von",
+    "wrong_answers": [
+      "für",
+      "um",
+      "durch"
+    ],
+    "explanation_en": "The fixed pattern is 'Was hältst du von …?'. halten von + Dativ = to have an opinion of. Answers: Ich halte viel/nichts davon."
+  },
+  {
+    "exercise_id": "ex_expr_was_haeltst_du_von_003",
+    "word_id": "expr_was_haeltst_du_von",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "Du möchtest wissen, wie dein Freund einen Film findet. Was fragst du?",
+      "prompt_en": "WHICH EXPRESSION FITS THIS SITUATION?"
+    },
+    "correct_answer": "Was hältst du von dem Film?",
+    "wrong_answers": [
+      "Mir ist nach dem Film.",
+      "Das erinnert mich an den Film.",
+      "Ich bin gerade dabei, den Film zu sehen."
+    ],
+    "explanation_en": "Asking for someone's opinion about something. → 'Was hältst du von …?'."
+  },
+  {
+    "exercise_id": "ex_expr_was_haeltst_du_von_004",
+    "word_id": "expr_was_haeltst_du_von",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Was _____ du davon, ins Kino zu gehen?",
+      "en": "What do you think about going to the cinema?"
+    },
+    "correct_answer": "hältst",
+    "wrong_answers": [
+      "halte",
+      "hält",
+      "haltet"
+    ],
+    "explanation_en": "The fixed pattern is 'Was hältst du von …?'. halten von + Dativ = to have an opinion of. Answers: Ich halte viel/nichts davon."
+  },
+  {
+    "exercise_id": "ex_expr_gerade_dabei_001",
+    "word_id": "expr_gerade_dabei",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich bin gerade dabei, … zu …",
+      "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"
+    },
+    "correct_answer": "I'm in the middle of …ing",
+    "wrong_answers": [
+      "I was there just now.",
+      "I'm about to leave.",
+      "I'm against it."
+    ],
+    "explanation_en": "'Ich bin gerade dabei, … zu …' = 'I'm in the middle of …ing'. dabei sein + zu-Infinitiv. German has no -ing form; this (or just 'gerade' + verb) expresses it."
+  },
+  {
+    "exercise_id": "ex_expr_gerade_dabei_002",
+    "word_id": "expr_gerade_dabei",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich bin gerade _____ zu kochen.",
+      "en": "I'm in the middle of cooking."
+    },
+    "correct_answer": "dabei",
+    "wrong_answers": [
+      "damit",
+      "davon",
+      "danach"
+    ],
+    "explanation_en": "The fixed pattern is 'Ich bin gerade dabei, … zu …'. dabei sein + zu-Infinitiv. German has no -ing form; this (or just 'gerade' + verb) expresses it."
+  },
+  {
+    "exercise_id": "ex_expr_gerade_dabei_003",
+    "word_id": "expr_gerade_dabei",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "Dein Freund ruft an, aber du kochst gerade. Was sagst du?",
+      "prompt_en": "WHICH EXPRESSION FITS THIS SITUATION?"
+    },
+    "correct_answer": "Ich bin gerade dabei zu kochen.",
+    "wrong_answers": [
+      "Mir ist nach Kochen.",
+      "Was hältst du vom Kochen?",
+      "Das erinnert mich an meine Oma."
+    ],
+    "explanation_en": "Saying what you are busy doing right now. → 'Ich bin gerade dabei, … zu …'."
+  },
+  {
+    "exercise_id": "ex_expr_gerade_dabei_004",
+    "word_id": "expr_gerade_dabei",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir sind gerade dabei, die Wohnung _____ putzen.",
+      "en": "We're in the middle of cleaning the flat."
+    },
+    "correct_answer": "zu",
+    "wrong_answers": [
+      "um",
+      "für",
+      "mit"
+    ],
+    "explanation_en": "The fixed pattern is 'Ich bin gerade dabei, … zu …'. dabei sein + zu-Infinitiv. German has no -ing form; this (or just 'gerade' + verb) expresses it."
+  },
+  {
+    "exercise_id": "ex_expr_erinnert_mich_an_001",
+    "word_id": "expr_erinnert_mich_an",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "Das erinnert mich an …",
+      "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"
+    },
+    "correct_answer": "That reminds me of …",
+    "wrong_answers": [
+      "That surprises me.",
+      "I forgot that.",
+      "That belongs to me."
+    ],
+    "explanation_en": "'Das erinnert mich an …' = 'That reminds me of …'. jemanden an + Akkusativ erinnern. Reflexive: sich an etwas erinnern = to remember."
+  },
+  {
+    "exercise_id": "ex_expr_erinnert_mich_an_002",
+    "word_id": "expr_erinnert_mich_an",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das erinnert mich _____ meinen Urlaub.",
+      "en": "That reminds me of my holiday."
+    },
+    "correct_answer": "an",
+    "wrong_answers": [
+      "von",
+      "zu",
+      "bei"
+    ],
+    "explanation_en": "The fixed pattern is 'Das erinnert mich an …'. jemanden an + Akkusativ erinnern. Reflexive: sich an etwas erinnern = to remember."
+  },
+  {
+    "exercise_id": "ex_expr_erinnert_mich_an_003",
+    "word_id": "expr_erinnert_mich_an",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "Ein Lied im Radio bringt dich gedanklich zurück in deine Schulzeit. Was sagst du?",
+      "prompt_en": "WHICH EXPRESSION FITS THIS SITUATION?"
+    },
+    "correct_answer": "Das erinnert mich an meine Schulzeit.",
+    "wrong_answers": [
+      "Mir ist nach Musik.",
+      "Was hältst du von dem Lied?",
+      "Schwein gehabt!"
+    ],
+    "explanation_en": "Something brings back a memory. → 'Das erinnert mich an …'."
+  },
+  {
+    "exercise_id": "ex_expr_erinnert_mich_an_004",
+    "word_id": "expr_erinnert_mich_an",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Dieses Lied _____ mich an dich.",
+      "en": "This song reminds me of you."
+    },
+    "correct_answer": "erinnert",
+    "wrong_answers": [
+      "erinnere",
+      "erinnerst",
+      "erinnern"
+    ],
+    "explanation_en": "The fixed pattern is 'Das erinnert mich an …'. jemanden an + Akkusativ erinnern. Reflexive: sich an etwas erinnern = to remember."
+  },
+  {
+    "exercise_id": "ex_expr_klasse_001",
+    "word_id": "expr_klasse",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "Klasse!",
+      "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"
+    },
+    "correct_answer": "Great! / Awesome!",
+    "wrong_answers": [
+      "What a pity!",
+      "Bless you!",
+      "Careful!"
+    ],
+    "explanation_en": "'Klasse!' = 'Great! / Awesome!'. Colloquial praise. As an adjective it never takes endings: ein klasse Abend. B1/B2 alternative: ausgezeichnet."
+  },
+  {
+    "exercise_id": "ex_expr_klasse_002",
+    "word_id": "expr_klasse",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Du hast den Job bekommen? _____!",
+      "en": "You got the job? Great!"
+    },
+    "correct_answer": "Klasse",
+    "wrong_answers": [
+      "Schade",
+      "Gesundheit",
+      "Vorsicht"
+    ],
+    "explanation_en": "The fixed pattern is 'Klasse!'. Colloquial praise. As an adjective it never takes endings: ein klasse Abend. B1/B2 alternative: ausgezeichnet."
+  },
+  {
+    "exercise_id": "ex_expr_klasse_003",
+    "word_id": "expr_klasse",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "Deine Freundin erzählt dir, dass sie die Prüfung bestanden hat. Was sagst du?",
+      "prompt_en": "WHICH EXPRESSION FITS THIS SITUATION?"
+    },
+    "correct_answer": "Klasse!",
+    "wrong_answers": [
+      "Wie auch immer …",
+      "Bitte sachlich bleiben!",
+      "Mir ist nach Schlafen."
+    ],
+    "explanation_en": "Reacting with enthusiasm to good news. → 'Klasse!'."
+  },
+  {
+    "exercise_id": "ex_expr_klasse_004",
+    "word_id": "expr_klasse",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das war ein _____ Abend!",
+      "en": "That was a great evening!"
+    },
+    "correct_answer": "klasse",
+    "wrong_answers": [
+      "klasser",
+      "klassen",
+      "klasses"
+    ],
+    "explanation_en": "The fixed pattern is 'Klasse!'. Colloquial praise. As an adjective it never takes endings: ein klasse Abend. B1/B2 alternative: ausgezeichnet."
+  },
+  {
+    "exercise_id": "ex_expr_je_desto_001",
+    "word_id": "expr_je_desto",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "je … desto",
+      "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"
+    },
+    "correct_answer": "the … the … (je mehr, desto besser)",
+    "wrong_answers": [
+      "either … or",
+      "neither … nor",
+      "both … and"
+    ],
+    "explanation_en": "'je … desto' = 'the … the … (je mehr, desto besser)'. je + comparative … verb at the END; desto + comparative + verb SECOND. umso can replace desto."
+  },
+  {
+    "exercise_id": "ex_expr_je_desto_002",
+    "word_id": "expr_je_desto",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Je mehr ich übe, _____ besser spreche ich Deutsch.",
+      "en": "The more I practise, the better I speak German."
+    },
+    "correct_answer": "desto",
+    "wrong_answers": [
+      "noch",
+      "oder",
+      "aber"
+    ],
+    "explanation_en": "The fixed pattern is 'je … desto'. je + comparative … verb at the END; desto + comparative + verb SECOND. umso can replace desto."
+  },
+  {
+    "exercise_id": "ex_expr_je_desto_003",
+    "word_id": "expr_je_desto",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "Du willst sagen: Mehr Übung bringt bessere Noten.",
+      "prompt_en": "WHICH EXPRESSION FITS THIS SITUATION?"
+    },
+    "correct_answer": "Je mehr ich übe, desto besser sind meine Noten.",
+    "wrong_answers": [
+      "Weder übe ich, noch sind meine Noten gut.",
+      "Entweder übe ich, oder meine Noten sind gut.",
+      "Zwar übe ich, aber meine Noten sind gut."
+    ],
+    "explanation_en": "Saying that one thing grows as another grows. → 'je … desto'."
+  },
+  {
+    "exercise_id": "ex_expr_je_desto_004",
+    "word_id": "expr_je_desto",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ älter er wird, desto ruhiger wird er.",
+      "en": "The older he gets, the calmer he becomes."
+    },
+    "correct_answer": "Je",
+    "wrong_answers": [
+      "Zwar",
+      "Sowohl",
+      "Weder"
+    ],
+    "explanation_en": "The fixed pattern is 'je … desto'. je + comparative … verb at the END; desto + comparative + verb SECOND. umso can replace desto."
+  },
+  {
+    "exercise_id": "ex_expr_sowohl_als_auch_001",
+    "word_id": "expr_sowohl_als_auch",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "sowohl … als auch",
+      "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"
+    },
+    "correct_answer": "both … and",
+    "wrong_answers": [
+      "neither … nor",
+      "either … or",
+      "the … the"
+    ],
+    "explanation_en": "'sowohl … als auch' = 'both … and'. Links two equal parts. Also possible: sowohl … wie auch."
+  },
+  {
+    "exercise_id": "ex_expr_sowohl_als_auch_002",
+    "word_id": "expr_sowohl_als_auch",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich spreche sowohl Deutsch _____ Englisch.",
+      "en": "I speak both German and English."
+    },
+    "correct_answer": "als auch",
+    "wrong_answers": [
+      "noch",
+      "oder",
+      "desto"
+    ],
+    "explanation_en": "The fixed pattern is 'sowohl … als auch'. Links two equal parts. Also possible: sowohl … wie auch."
+  },
+  {
+    "exercise_id": "ex_expr_sowohl_als_auch_003",
+    "word_id": "expr_sowohl_als_auch",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "Du willst sagen: Du trinkst Kaffee und auch Tee.",
+      "prompt_en": "WHICH EXPRESSION FITS THIS SITUATION?"
+    },
+    "correct_answer": "Ich trinke sowohl Kaffee als auch Tee.",
+    "wrong_answers": [
+      "Ich trinke weder Kaffee noch Tee.",
+      "Ich trinke entweder Kaffee oder Tee.",
+      "Ich trinke zwar Kaffee, aber keinen Tee."
+    ],
+    "explanation_en": "Including two things equally. → 'sowohl … als auch'."
+  },
+  {
+    "exercise_id": "ex_expr_sowohl_als_auch_004",
+    "word_id": "expr_sowohl_als_auch",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ die Kinder als auch die Eltern waren begeistert.",
+      "en": "Both the children and the parents were thrilled."
+    },
+    "correct_answer": "Sowohl",
+    "wrong_answers": [
+      "Weder",
+      "Entweder",
+      "Je"
+    ],
+    "explanation_en": "The fixed pattern is 'sowohl … als auch'. Links two equal parts. Also possible: sowohl … wie auch."
+  },
+  {
+    "exercise_id": "ex_expr_entweder_oder_001",
+    "word_id": "expr_entweder_oder",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "entweder … oder",
+      "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"
+    },
+    "correct_answer": "either … or",
+    "wrong_answers": [
+      "neither … nor",
+      "both … and",
+      "admittedly … but"
+    ],
+    "explanation_en": "'entweder … oder' = 'either … or'. Only one of the two. Entweder at the start: the verb follows directly (Entweder kommst du …)."
+  },
+  {
+    "exercise_id": "ex_expr_entweder_oder_002",
+    "word_id": "expr_entweder_oder",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Du kannst entweder Tee _____ Kaffee haben.",
+      "en": "You can have either tea or coffee."
+    },
+    "correct_answer": "oder",
+    "wrong_answers": [
+      "noch",
+      "als auch",
+      "desto"
+    ],
+    "explanation_en": "The fixed pattern is 'entweder … oder'. Only one of the two. Entweder at the start: the verb follows directly (Entweder kommst du …)."
+  },
+  {
+    "exercise_id": "ex_expr_entweder_oder_003",
+    "word_id": "expr_entweder_oder",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "Du willst sagen: Wir fahren mit dem Zug oder mit dem Auto – eins von beiden.",
+      "prompt_en": "WHICH EXPRESSION FITS THIS SITUATION?"
+    },
+    "correct_answer": "Wir fahren entweder mit dem Zug oder mit dem Auto.",
+    "wrong_answers": [
+      "Wir fahren sowohl mit dem Zug als auch mit dem Auto.",
+      "Wir fahren weder mit dem Zug noch mit dem Auto.",
+      "Je schneller der Zug, desto langsamer das Auto."
+    ],
+    "explanation_en": "Only one of two options is possible. → 'entweder … oder'."
+  },
+  {
+    "exercise_id": "ex_expr_entweder_oder_004",
+    "word_id": "expr_entweder_oder",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ kommst du mit, oder du bleibst zu Hause.",
+      "en": "Either you come along or you stay at home."
+    },
+    "correct_answer": "Entweder",
+    "wrong_answers": [
+      "Weder",
+      "Sowohl",
+      "Je"
+    ],
+    "explanation_en": "The fixed pattern is 'entweder … oder'. Only one of the two. Entweder at the start: the verb follows directly (Entweder kommst du …)."
+  },
+  {
+    "exercise_id": "ex_expr_weder_noch_001",
+    "word_id": "expr_weder_noch",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "weder … noch",
+      "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"
+    },
+    "correct_answer": "neither … nor",
+    "wrong_answers": [
+      "either … or",
+      "both … and",
+      "on the one hand … on the other hand"
+    ],
+    "explanation_en": "'weder … noch' = 'neither … nor'. Already negative — no nicht or kein needed."
+  },
+  {
+    "exercise_id": "ex_expr_weder_noch_002",
+    "word_id": "expr_weder_noch",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er hat weder Zeit _____ Geld.",
+      "en": "He has neither time nor money."
+    },
+    "correct_answer": "noch",
+    "wrong_answers": [
+      "oder",
+      "als auch",
+      "aber"
+    ],
+    "explanation_en": "The fixed pattern is 'weder … noch'. Already negative — no nicht or kein needed."
+  },
+  {
+    "exercise_id": "ex_expr_weder_noch_003",
+    "word_id": "expr_weder_noch",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "Du willst sagen: Du magst keinen Fisch und auch kein Fleisch.",
+      "prompt_en": "WHICH EXPRESSION FITS THIS SITUATION?"
+    },
+    "correct_answer": "Ich mag weder Fisch noch Fleisch.",
+    "wrong_answers": [
+      "Ich mag sowohl Fisch als auch Fleisch.",
+      "Ich mag entweder Fisch oder Fleisch.",
+      "Je mehr Fisch, desto mehr Fleisch."
+    ],
+    "explanation_en": "Excluding both of two things. → 'weder … noch'."
+  },
+  {
+    "exercise_id": "ex_expr_weder_noch_004",
+    "word_id": "expr_weder_noch",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich trinke _____ Kaffee noch Tee.",
+      "en": "I drink neither coffee nor tea."
+    },
+    "correct_answer": "weder",
+    "wrong_answers": [
+      "entweder",
+      "sowohl",
+      "zwar"
+    ],
+    "explanation_en": "The fixed pattern is 'weder … noch'. Already negative — no nicht or kein needed."
+  },
+  {
+    "exercise_id": "ex_expr_nicht_nur_sondern_auch_001",
+    "word_id": "expr_nicht_nur_sondern_auch",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "nicht nur … sondern auch",
+      "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"
+    },
+    "correct_answer": "not only … but also",
+    "wrong_answers": [
+      "neither … nor",
+      "either … or",
+      "the … the"
+    ],
+    "explanation_en": "'nicht nur … sondern auch' = 'not only … but also'. Stresses the second part. Comma before sondern."
+  },
+  {
+    "exercise_id": "ex_expr_nicht_nur_sondern_auch_002",
+    "word_id": "expr_nicht_nur_sondern_auch",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie ist nicht nur klug, _____ freundlich.",
+      "en": "She is not only clever but also friendly."
+    },
+    "correct_answer": "sondern auch",
+    "wrong_answers": [
+      "als auch",
+      "oder",
+      "noch"
+    ],
+    "explanation_en": "The fixed pattern is 'nicht nur … sondern auch'. Stresses the second part. Comma before sondern."
+  },
+  {
+    "exercise_id": "ex_expr_nicht_nur_sondern_auch_003",
+    "word_id": "expr_nicht_nur_sondern_auch",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "Du willst betonen: Das Hotel ist billig – und dazu noch schön.",
+      "prompt_en": "WHICH EXPRESSION FITS THIS SITUATION?"
+    },
+    "correct_answer": "Das Hotel ist nicht nur billig, sondern auch schön.",
+    "wrong_answers": [
+      "Das Hotel ist weder billig noch schön.",
+      "Das Hotel ist entweder billig oder schön.",
+      "Je billiger das Hotel, desto schöner."
+    ],
+    "explanation_en": "Adding a second, stronger point. → 'nicht nur … sondern auch'."
+  },
+  {
+    "exercise_id": "ex_expr_nicht_nur_sondern_auch_004",
+    "word_id": "expr_nicht_nur_sondern_auch",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er spricht nicht _____ Deutsch, sondern auch Japanisch.",
+      "en": "He speaks not only German but also Japanese."
+    },
+    "correct_answer": "nur",
+    "wrong_answers": [
+      "weder",
+      "sowohl",
+      "zwar"
+    ],
+    "explanation_en": "The fixed pattern is 'nicht nur … sondern auch'. Stresses the second part. Comma before sondern."
+  },
+  {
+    "exercise_id": "ex_expr_zwar_aber_001",
+    "word_id": "expr_zwar_aber",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "zwar … aber",
+      "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"
+    },
+    "correct_answer": "admittedly … but / … it's true, but",
+    "wrong_answers": [
+      "neither … nor",
+      "both … and",
+      "either … or"
+    ],
+    "explanation_en": "'zwar … aber' = 'admittedly … but / … it's true, but'. Concede, then contrast. doch or jedoch can replace aber."
+  },
+  {
+    "exercise_id": "ex_expr_zwar_aber_002",
+    "word_id": "expr_zwar_aber",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Auto ist zwar teuer, _____ sehr gut.",
+      "en": "The car is expensive, admittedly, but very good."
+    },
+    "correct_answer": "aber",
+    "wrong_answers": [
+      "noch",
+      "oder",
+      "desto"
+    ],
+    "explanation_en": "The fixed pattern is 'zwar … aber'. Concede, then contrast. doch or jedoch can replace aber."
+  },
+  {
+    "exercise_id": "ex_expr_zwar_aber_003",
+    "word_id": "expr_zwar_aber",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "Du gibst zu, dass die Wohnung klein ist – trotzdem findest du sie schön.",
+      "prompt_en": "WHICH EXPRESSION FITS THIS SITUATION?"
+    },
+    "correct_answer": "Die Wohnung ist zwar klein, aber schön.",
+    "wrong_answers": [
+      "Die Wohnung ist weder klein noch schön.",
+      "Die Wohnung ist entweder klein oder schön.",
+      "Je kleiner die Wohnung, desto schöner."
+    ],
+    "explanation_en": "Conceding a point, then contrasting it. → 'zwar … aber'."
+  },
+  {
+    "exercise_id": "ex_expr_zwar_aber_004",
+    "word_id": "expr_zwar_aber",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich habe _____ wenig Zeit, aber ich helfe dir.",
+      "en": "I don't have much time, it's true, but I'll help you."
+    },
+    "correct_answer": "zwar",
+    "wrong_answers": [
+      "weder",
+      "entweder",
+      "sowohl"
+    ],
+    "explanation_en": "The fixed pattern is 'zwar … aber'. Concede, then contrast. doch or jedoch can replace aber."
+  },
+  {
+    "exercise_id": "ex_expr_einerseits_andererseits_001",
+    "word_id": "expr_einerseits_andererseits",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "einerseits … andererseits",
+      "prompt_en": "WHAT DOES THIS EXPRESSION MEAN?"
+    },
+    "correct_answer": "on the one hand … on the other hand",
+    "wrong_answers": [
+      "neither … nor",
+      "both … and",
+      "not only … but also"
+    ],
+    "explanation_en": "'einerseits … andererseits' = 'on the one hand … on the other hand'. Both words take position 1, so the verb follows directly. The single words are also in the Adverbs module."
+  },
+  {
+    "exercise_id": "ex_expr_einerseits_andererseits_002",
+    "word_id": "expr_einerseits_andererseits",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Einerseits möchte ich reisen, _____ muss ich sparen.",
+      "en": "On the one hand I want to travel, on the other hand I have to save."
+    },
+    "correct_answer": "andererseits",
+    "wrong_answers": [
+      "desto",
+      "noch",
+      "sondern auch"
+    ],
+    "explanation_en": "The fixed pattern is 'einerseits … andererseits'. Both words take position 1, so the verb follows directly. The single words are also in the Adverbs module."
+  },
+  {
+    "exercise_id": "ex_expr_einerseits_andererseits_003",
+    "word_id": "expr_einerseits_andererseits",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "Du kannst dich nicht entscheiden: Der Job zahlt gut, aber er ist weit weg.",
+      "prompt_en": "WHICH EXPRESSION FITS THIS SITUATION?"
+    },
+    "correct_answer": "Einerseits zahlt der Job gut, andererseits ist er weit weg.",
+    "wrong_answers": [
+      "Der Job zahlt weder gut, noch ist er weit weg.",
+      "Je besser der Job zahlt, desto weiter ist er weg.",
+      "Entweder zahlt der Job gut, oder er ist weit weg."
+    ],
+    "explanation_en": "Weighing two sides of a decision. → 'einerseits … andererseits'."
+  },
+  {
+    "exercise_id": "ex_expr_einerseits_andererseits_004",
+    "word_id": "expr_einerseits_andererseits",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ ist die Stadt laut, andererseits ist sie spannend.",
+      "en": "On the one hand the city is noisy, on the other hand it's exciting."
+    },
+    "correct_answer": "Einerseits",
+    "wrong_answers": [
+      "Weder",
+      "Sowohl",
+      "Entweder"
+    ],
+    "explanation_en": "The fixed pattern is 'einerseits … andererseits'. Both words take position 1, so the verb follows directly. The single words are also in the Adverbs module."
+  }
 ]

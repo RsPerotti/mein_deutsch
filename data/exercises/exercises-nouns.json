@@ -12418,5 +12418,923 @@
       "Hinweis"
     ],
     "explanation_en": "'Ratschlag' (der Ratschlag, plural: die Ratschläge) means 'piece of advice'."
+  },
+  {
+    "exercise_id": "ex_noun_satz_001",
+    "word_id": "noun_satz",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Satz",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the sentence / set",
+    "wrong_answers": [
+      "the word",
+      "the page",
+      "the question"
+    ],
+    "explanation_en": "'Satz' (der Satz, plural: die Sätze) means 'sentence / set'. Root of the -satz family: Ersatz, Aufsatz, Zusatz, Absatz, Umsatz, Ansatz, Einsatz, Gegensatz, Vorsatz."
+  },
+  {
+    "exercise_id": "ex_noun_satz_002",
+    "word_id": "noun_satz",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Bitte lies den _____ noch einmal.",
+      "en": "Please read the sentence again."
+    },
+    "correct_answer": "Satz",
+    "wrong_answers": [
+      "Frage",
+      "Wort",
+      "Seite"
+    ],
+    "explanation_en": "'Satz' is masculine (der). The article/ending before the gap only fits a masculine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_satz_003",
+    "word_id": "noun_satz",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ein _____ braucht ein Subjekt und ein Verb.",
+      "en": "A sentence needs a subject and a verb."
+    },
+    "correct_answer": "Satz",
+    "wrong_answers": [
+      "Frage",
+      "Seite",
+      "Sprache"
+    ],
+    "explanation_en": "'Satz' is masculine (der). The article/ending before the gap only fits a masculine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_ersatz_001",
+    "word_id": "noun_ersatz",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Ersatz",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the replacement / substitute",
+    "wrong_answers": [
+      "the essay",
+      "the paragraph",
+      "the revenue"
+    ],
+    "explanation_en": "'Ersatz' (der Ersatz, plural: die Ersätze) means 'replacement / substitute'. Verb: ersetzen (to replace)."
+  },
+  {
+    "exercise_id": "ex_noun_ersatz_002",
+    "word_id": "noun_ersatz",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wir brauchen einen _____ für den kaputten Laptop.",
+      "en": "We need a replacement for the broken laptop."
+    },
+    "correct_answer": "Ersatz",
+    "wrong_answers": [
+      "Lösung",
+      "Angebot",
+      "Idee"
+    ],
+    "explanation_en": "'Ersatz' is masculine (der). The article/ending before the gap only fits a masculine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_ersatz_003",
+    "word_id": "noun_ersatz",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der _____ kommt morgen mit der Post.",
+      "en": "The replacement arrives tomorrow by post."
+    },
+    "correct_answer": "Ersatz",
+    "wrong_answers": [
+      "Angebot",
+      "Ergebnis",
+      "Buch"
+    ],
+    "explanation_en": "'Ersatz' is masculine (der). The article/ending before the gap only fits a masculine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_aufsatz_001",
+    "word_id": "noun_aufsatz",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Aufsatz",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the essay / composition",
+    "wrong_answers": [
+      "the replacement",
+      "the paragraph",
+      "the contrast"
+    ],
+    "explanation_en": "'Aufsatz' (der Aufsatz, plural: die Aufsätze) means 'essay / composition'."
+  },
+  {
+    "exercise_id": "ex_noun_aufsatz_002",
+    "word_id": "noun_aufsatz",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich schreibe einen _____ über meine Ferien.",
+      "en": "I'm writing an essay about my holidays."
+    },
+    "correct_answer": "Aufsatz",
+    "wrong_answers": [
+      "Arbeit",
+      "Buch",
+      "Seite"
+    ],
+    "explanation_en": "'Aufsatz' is masculine (der). The article/ending before the gap only fits a masculine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_aufsatz_003",
+    "word_id": "noun_aufsatz",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der _____ muss bis Freitag fertig sein.",
+      "en": "The essay has to be finished by Friday."
+    },
+    "correct_answer": "Aufsatz",
+    "wrong_answers": [
+      "Buch",
+      "Ergebnis",
+      "Thema"
+    ],
+    "explanation_en": "'Aufsatz' is masculine (der). The article/ending before the gap only fits a masculine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_zusatz_001",
+    "word_id": "noun_zusatz",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Zusatz",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the addition / additive / addendum",
+    "wrong_answers": [
+      "the essay",
+      "the revenue",
+      "the resolution"
+    ],
+    "explanation_en": "'Zusatz' (der Zusatz, plural: die Zusätze) means 'addition / additive / addendum'. Adjective: zusätzlich (additional)."
+  },
+  {
+    "exercise_id": "ex_noun_zusatz_002",
+    "word_id": "noun_zusatz",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Vertrag hat einen _____: Die Miete steigt jedes Jahr.",
+      "en": "The contract has an addendum: the rent rises every year."
+    },
+    "correct_answer": "Zusatz",
+    "wrong_answers": [
+      "Auflage",
+      "Grundlage",
+      "Problem"
+    ],
+    "explanation_en": "'Zusatz' is masculine (der). The article/ending before the gap only fits a masculine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_zusatz_003",
+    "word_id": "noun_zusatz",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ohne einen _____ von Salz schmeckt die Suppe fade.",
+      "en": "Without an addition of salt the soup tastes bland."
+    },
+    "correct_answer": "Zusatz",
+    "wrong_answers": [
+      "Milch",
+      "Wasser",
+      "Energie"
+    ],
+    "explanation_en": "'Zusatz' is masculine (der). The article/ending before the gap only fits a masculine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_absatz_001",
+    "word_id": "noun_absatz",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Absatz",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the paragraph / heel (of a shoe)",
+    "wrong_answers": [
+      "the essay",
+      "the replacement",
+      "the sentence"
+    ],
+    "explanation_en": "'Absatz' (der Absatz, plural: die Absätze) means 'paragraph / heel (of a shoe)'. In business also: sales (der Absatz von Waren)."
+  },
+  {
+    "exercise_id": "ex_noun_absatz_002",
+    "word_id": "noun_absatz",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Mach nach diesem Satz einen _____.",
+      "en": "Start a new paragraph after this sentence."
+    },
+    "correct_answer": "Absatz",
+    "wrong_answers": [
+      "Seite",
+      "Wort",
+      "Frage"
+    ],
+    "explanation_en": "'Absatz' is masculine (der). The article/ending before the gap only fits a masculine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_absatz_003",
+    "word_id": "noun_absatz",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Am Schuh ist der _____ abgebrochen.",
+      "en": "The heel of the shoe has broken off."
+    },
+    "correct_answer": "Absatz",
+    "wrong_answers": [
+      "Fenster",
+      "Handy",
+      "Bett"
+    ],
+    "explanation_en": "'Absatz' is masculine (der). The article/ending before the gap only fits a masculine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_umsatz_001",
+    "word_id": "noun_umsatz",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Umsatz",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the turnover / revenue / sales",
+    "wrong_answers": [
+      "the approach",
+      "the contrast",
+      "the addition"
+    ],
+    "explanation_en": "'Umsatz' (der Umsatz, plural: die Umsätze) means 'turnover / revenue / sales'."
+  },
+  {
+    "exercise_id": "ex_noun_umsatz_002",
+    "word_id": "noun_umsatz",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ ist im letzten Jahr gestiegen.",
+      "en": "Revenue rose last year."
+    },
+    "correct_answer": "Umsatz",
+    "wrong_answers": [
+      "Ergebnis",
+      "Interesse",
+      "Angebot"
+    ],
+    "explanation_en": "'Umsatz' is masculine (der). The article/ending before the gap only fits a masculine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_umsatz_003",
+    "word_id": "noun_umsatz",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wie hoch ist der _____ im Dezember?",
+      "en": "How high are the sales in December?"
+    },
+    "correct_answer": "Umsatz",
+    "wrong_answers": [
+      "Ergebnis",
+      "Risiko",
+      "Angebot"
+    ],
+    "explanation_en": "'Umsatz' is masculine (der). The article/ending before the gap only fits a masculine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_einsatz_001",
+    "word_id": "noun_einsatz",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Einsatz",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the use / deployment / commitment",
+    "wrong_answers": [
+      "the replacement",
+      "the revenue",
+      "the paragraph"
+    ],
+    "explanation_en": "'Einsatz' (der Einsatz, plural: die Einsätze) means 'use / deployment / commitment'. Verb: einsetzen (to use, to deploy)."
+  },
+  {
+    "exercise_id": "ex_noun_einsatz_002",
+    "word_id": "noun_einsatz",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ von Handys ist im Unterricht verboten.",
+      "en": "The use of mobile phones is forbidden in class."
+    },
+    "correct_answer": "Einsatz",
+    "wrong_answers": [
+      "Interesse",
+      "Verhalten",
+      "Angebot"
+    ],
+    "explanation_en": "'Einsatz' is masculine (der). The article/ending before the gap only fits a masculine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_einsatz_003",
+    "word_id": "noun_einsatz",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Danke für deinen _____!",
+      "en": "Thanks for your commitment!"
+    },
+    "correct_answer": "Einsatz",
+    "wrong_answers": [
+      "Leistung",
+      "Verständnis",
+      "Empfehlung"
+    ],
+    "explanation_en": "'Einsatz' is masculine (der). The article/ending before the gap only fits a masculine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_gegensatz_001",
+    "word_id": "noun_gegensatz",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Gegensatz",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the contrast / opposite",
+    "wrong_answers": [
+      "the resolution",
+      "the essay",
+      "the use"
+    ],
+    "explanation_en": "'Gegensatz' (der Gegensatz, plural: die Gegensätze) means 'contrast / opposite'. im Gegensatz zu + Dativ = in contrast to."
+  },
+  {
+    "exercise_id": "ex_noun_gegensatz_002",
+    "word_id": "noun_gegensatz",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Im _____ zu dir mag ich Kaffee.",
+      "en": "Unlike you, I like coffee."
+    },
+    "correct_answer": "Gegensatz",
+    "wrong_answers": [
+      "Meinung",
+      "Wirklichkeit",
+      "Beziehung"
+    ],
+    "explanation_en": "'Gegensatz' is masculine (der). The article/ending before the gap only fits a masculine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_gegensatz_003",
+    "word_id": "noun_gegensatz",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Heiß ist der _____ von kalt.",
+      "en": "Hot is the opposite of cold."
+    },
+    "correct_answer": "Gegensatz",
+    "wrong_answers": [
+      "Ziel",
+      "Wort",
+      "Beispiel"
+    ],
+    "explanation_en": "'Gegensatz' is masculine (der). The article/ending before the gap only fits a masculine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_vorsatz_001",
+    "word_id": "noun_vorsatz",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Vorsatz",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the resolution / intention",
+    "wrong_answers": [
+      "the paragraph",
+      "the replacement",
+      "the revenue"
+    ],
+    "explanation_en": "'Vorsatz' (der Vorsatz, plural: die Vorsätze) means 'resolution / intention'. Gute Vorsätze = (New Year's) resolutions."
+  },
+  {
+    "exercise_id": "ex_noun_vorsatz_002",
+    "word_id": "noun_vorsatz",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Mein _____ für das neue Jahr: mehr Sport!",
+      "en": "My resolution for the new year: more exercise!"
+    },
+    "correct_answer": "Vorsatz",
+    "wrong_answers": [
+      "Idee",
+      "Aufgabe",
+      "Meinung"
+    ],
+    "explanation_en": "'Vorsatz' is masculine (der). The article/ending before the gap only fits a masculine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_vorsatz_003",
+    "word_id": "noun_vorsatz",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich habe den _____, weniger Zucker zu essen.",
+      "en": "I have resolved to eat less sugar."
+    },
+    "correct_answer": "Vorsatz",
+    "wrong_answers": [
+      "Idee",
+      "Ziel",
+      "Pflicht"
+    ],
+    "explanation_en": "'Vorsatz' is masculine (der). The article/ending before the gap only fits a masculine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_alltag_001",
+    "word_id": "noun_alltag",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Alltag",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the everyday life",
+    "wrong_answers": [
+      "the weekend",
+      "the holiday",
+      "the birthday"
+    ],
+    "explanation_en": "'Alltag' (der Alltag, plural: die Alltage) means 'everyday life'. Almost always singular. Adjective: alltäglich."
+  },
+  {
+    "exercise_id": "ex_noun_alltag_002",
+    "word_id": "noun_alltag",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Im _____ spreche ich viel Deutsch.",
+      "en": "In everyday life I speak a lot of German."
+    },
+    "correct_answer": "Alltag",
+    "wrong_answers": [
+      "Schule",
+      "Familie",
+      "Arbeit"
+    ],
+    "explanation_en": "'Alltag' is masculine (der). The article/ending before the gap only fits a masculine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_alltag_003",
+    "word_id": "noun_alltag",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der _____ mit kleinen Kindern ist anstrengend.",
+      "en": "Everyday life with small children is exhausting."
+    },
+    "correct_answer": "Alltag",
+    "wrong_answers": [
+      "Jahr",
+      "Essen",
+      "Zimmer"
+    ],
+    "explanation_en": "'Alltag' is masculine (der). The article/ending before the gap only fits a masculine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_gewohnheit_001",
+    "word_id": "noun_gewohnheit",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Gewohnheit",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the habit",
+    "wrong_answers": [
+      "the opportunity",
+      "the experience",
+      "the decision"
+    ],
+    "explanation_en": "'Gewohnheit' (die Gewohnheit, plural: die Gewohnheiten) means 'habit'. Adjective: gewohnt (used to)."
+  },
+  {
+    "exercise_id": "ex_noun_gewohnheit_002",
+    "word_id": "noun_gewohnheit",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Kaffee am Morgen ist eine _____ von mir.",
+      "en": "Coffee in the morning is a habit of mine."
+    },
+    "correct_answer": "Gewohnheit",
+    "wrong_answers": [
+      "Fehler",
+      "Problem",
+      "Ziel"
+    ],
+    "explanation_en": "'Gewohnheit' is feminine (die). The article/ending before the gap only fits a feminine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_gewohnheit_003",
+    "word_id": "noun_gewohnheit",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich habe die _____, früh aufzustehen.",
+      "en": "I have the habit of getting up early."
+    },
+    "correct_answer": "Gewohnheit",
+    "wrong_answers": [
+      "Grund",
+      "Ziel",
+      "Vorteil"
+    ],
+    "explanation_en": "'Gewohnheit' is feminine (die). The article/ending before the gap only fits a feminine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_gelegenheit_001",
+    "word_id": "noun_gelegenheit",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Gelegenheit",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the opportunity / occasion",
+    "wrong_answers": [
+      "the habit",
+      "the decision",
+      "the difficulty"
+    ],
+    "explanation_en": "'Gelegenheit' (die Gelegenheit, plural: die Gelegenheiten) means 'opportunity / occasion'. Related: gelegentlich (occasionally)."
+  },
+  {
+    "exercise_id": "ex_noun_gelegenheit_002",
+    "word_id": "noun_gelegenheit",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich nutze jede _____, Deutsch zu sprechen.",
+      "en": "I use every opportunity to speak German."
+    },
+    "correct_answer": "Gelegenheit",
+    "wrong_answers": [
+      "Tag",
+      "Jahr",
+      "Grund"
+    ],
+    "explanation_en": "'Gelegenheit' is feminine (die). The article/ending before the gap only fits a feminine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_gelegenheit_003",
+    "word_id": "noun_gelegenheit",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Nutze die _____!",
+      "en": "Seize the opportunity!"
+    },
+    "correct_answer": "Gelegenheit",
+    "wrong_answers": [
+      "Vorteil",
+      "Angebot",
+      "Weg"
+    ],
+    "explanation_en": "'Gelegenheit' is feminine (die). The article/ending before the gap only fits a feminine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_unterstuetzung_001",
+    "word_id": "noun_unterstuetzung",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Unterstützung",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the support",
+    "wrong_answers": [
+      "the attention",
+      "the safety",
+      "the success"
+    ],
+    "explanation_en": "'Unterstützung' (die Unterstützung, plural: die Unterstützungen) means 'support'. Verb: unterstützen (to support)."
+  },
+  {
+    "exercise_id": "ex_noun_unterstuetzung_002",
+    "word_id": "noun_unterstuetzung",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Danke für deine _____!",
+      "en": "Thanks for your support!"
+    },
+    "correct_answer": "Unterstützung",
+    "wrong_answers": [
+      "Beitrag",
+      "Verständnis",
+      "Einfluss"
+    ],
+    "explanation_en": "'Unterstützung' is feminine (die). The article/ending before the gap only fits a feminine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_unterstuetzung_003",
+    "word_id": "noun_unterstuetzung",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ohne die _____ der Eltern schaffe ich das nicht.",
+      "en": "Without my parents' support I can't do it."
+    },
+    "correct_answer": "Unterstützung",
+    "wrong_answers": [
+      "Geld",
+      "Einfluss",
+      "Interesse"
+    ],
+    "explanation_en": "'Unterstützung' is feminine (die). The article/ending before the gap only fits a feminine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_sicherheit_001",
+    "word_id": "noun_sicherheit",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Sicherheit",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the safety / security / certainty",
+    "wrong_answers": [
+      "the freedom",
+      "the patience",
+      "the attention"
+    ],
+    "explanation_en": "'Sicherheit' (die Sicherheit, plural: die Sicherheiten) means 'safety / security / certainty'. Adjective: sicher (safe, sure)."
+  },
+  {
+    "exercise_id": "ex_noun_sicherheit_002",
+    "word_id": "noun_sicherheit",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ der Kinder ist am wichtigsten.",
+      "en": "The children's safety is the most important thing."
+    },
+    "correct_answer": "Sicherheit",
+    "wrong_answers": [
+      "Zustand",
+      "Gleichgewicht",
+      "Bewusstsein"
+    ],
+    "explanation_en": "'Sicherheit' is feminine (die). The article/ending before the gap only fits a feminine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_sicherheit_003",
+    "word_id": "noun_sicherheit",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Zu Ihrer _____ schließen wir die Tür ab.",
+      "en": "For your safety we lock the door."
+    },
+    "correct_answer": "Sicherheit",
+    "wrong_answers": [
+      "Wohlbefinden",
+      "Vorteil",
+      "Interesse"
+    ],
+    "explanation_en": "'Sicherheit' is feminine (die). The article/ending before the gap only fits a feminine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_geduld_001",
+    "word_id": "noun_geduld",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Geduld",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the patience",
+    "wrong_answers": [
+      "the attention",
+      "the safety",
+      "the habit"
+    ],
+    "explanation_en": "'Geduld' (die Geduld, plural: —) means 'patience'. No plural. Verb: sich gedulden. Adjective: geduldig."
+  },
+  {
+    "exercise_id": "ex_noun_geduld_002",
+    "word_id": "noun_geduld",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Meine _____ ist am Ende.",
+      "en": "My patience has run out."
+    },
+    "correct_answer": "Geduld",
+    "wrong_answers": [
+      "Kopf",
+      "Herz",
+      "Zustand"
+    ],
+    "explanation_en": "'Geduld' is feminine (die). The article/ending before the gap only fits a feminine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_geduld_003",
+    "word_id": "noun_geduld",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die _____ ist eine Tugend.",
+      "en": "Patience is a virtue."
+    },
+    "correct_answer": "Geduld",
+    "wrong_answers": [
+      "Verständnis",
+      "Fortschritt",
+      "Bewusstsein"
+    ],
+    "explanation_en": "'Geduld' is feminine (die). The article/ending before the gap only fits a feminine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_aufmerksamkeit_001",
+    "word_id": "noun_aufmerksamkeit",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Aufmerksamkeit",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the attention",
+    "wrong_answers": [
+      "the patience",
+      "the support",
+      "the opportunity"
+    ],
+    "explanation_en": "'Aufmerksamkeit' (die Aufmerksamkeit, plural: die Aufmerksamkeiten) means 'attention'. Adjective: aufmerksam (attentive)."
+  },
+  {
+    "exercise_id": "ex_noun_aufmerksamkeit_002",
+    "word_id": "noun_aufmerksamkeit",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Danke für Ihre _____.",
+      "en": "Thank you for your attention."
+    },
+    "correct_answer": "Aufmerksamkeit",
+    "wrong_answers": [
+      "Beitrag",
+      "Interesse",
+      "Verständnis"
+    ],
+    "explanation_en": "'Aufmerksamkeit' is feminine (die). The article/ending before the gap only fits a feminine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_aufmerksamkeit_003",
+    "word_id": "noun_aufmerksamkeit",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die _____ der Schüler lässt nach.",
+      "en": "The pupils' attention is waning."
+    },
+    "correct_answer": "Aufmerksamkeit",
+    "wrong_answers": [
+      "Interesse",
+      "Fortschritt",
+      "Bewusstsein"
+    ],
+    "explanation_en": "'Aufmerksamkeit' is feminine (die). The article/ending before the gap only fits a feminine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_schwierigkeit_001",
+    "word_id": "noun_schwierigkeit",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "die Schwierigkeit",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the difficulty",
+    "wrong_answers": [
+      "the success",
+      "the support",
+      "the attention"
+    ],
+    "explanation_en": "'Schwierigkeit' (die Schwierigkeit, plural: die Schwierigkeiten) means 'difficulty'. Adjective: schwierig. Often plural: Schwierigkeiten haben."
+  },
+  {
+    "exercise_id": "ex_noun_schwierigkeit_002",
+    "word_id": "noun_schwierigkeit",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die _____ liegt im Detail.",
+      "en": "The difficulty lies in the details."
+    },
+    "correct_answer": "Schwierigkeit",
+    "wrong_answers": [
+      "Grund",
+      "Ziel",
+      "Vorteil"
+    ],
+    "explanation_en": "'Schwierigkeit' is feminine (die). The article/ending before the gap only fits a feminine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_schwierigkeit_003",
+    "word_id": "noun_schwierigkeit",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ohne jede _____ hat sie die Prüfung bestanden.",
+      "en": "She passed the exam without any difficulty."
+    },
+    "correct_answer": "Schwierigkeit",
+    "wrong_answers": [
+      "Fehler",
+      "Ziel",
+      "Vorteil"
+    ],
+    "explanation_en": "'Schwierigkeit' is feminine (die). The article/ending before the gap only fits a feminine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_erfolg_001",
+    "word_id": "noun_erfolg",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "der Erfolg",
+      "prompt_en": "What does this word mean?"
+    },
+    "correct_answer": "the success",
+    "wrong_answers": [
+      "the failure",
+      "the difficulty",
+      "the progress"
+    ],
+    "explanation_en": "'Erfolg' (der Erfolg, plural: die Erfolge) means 'success'. Viel Erfolg! = Good luck! Adjective: erfolgreich."
+  },
+  {
+    "exercise_id": "ex_noun_erfolg_002",
+    "word_id": "noun_erfolg",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der _____ kam nach vielen Jahren.",
+      "en": "Success came after many years."
+    },
+    "correct_answer": "Erfolg",
+    "wrong_answers": [
+      "Ergebnis",
+      "Ziel",
+      "Angebot"
+    ],
+    "explanation_en": "'Erfolg' is masculine (der). The article/ending before the gap only fits a masculine noun — the other options have a different gender."
+  },
+  {
+    "exercise_id": "ex_noun_erfolg_003",
+    "word_id": "noun_erfolg",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Konzert war ein _____.",
+      "en": "The concert was a success."
+    },
+    "correct_answer": "Erfolg",
+    "wrong_answers": [
+      "Herausforderung",
+      "Sackgasse",
+      "Lösung"
+    ],
+    "explanation_en": "'Erfolg' is masculine (der). The article/ending before the gap only fits a masculine noun — the other options have a different gender."
   }
 ]

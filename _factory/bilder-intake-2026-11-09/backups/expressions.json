@@ -1,0 +1,114 @@
+[
+  {
+    "id": "expr_schwein_haben",
+    "expression": "Schwein haben",
+    "english": "to be lucky / to get lucky (colloquial)",
+    "literal": "to have (a) pig",
+    "register": "Colloquial",
+    "situation_en": "Something went well by pure luck — you caught the delayed train, found the last free table, passed by one point.",
+    "example_sentences": [
+      {"de": "Da hast du echt Schwein gehabt — der Zug hatte zum Glück Verspätung!", "en": "You really got lucky there — luckily the train was delayed!"},
+      {"de": "Wir haben Schwein gehabt: Das waren die letzten zwei Tickets.", "en": "We got lucky: those were the last two tickets."}
+    ],
+    "notes": "Almost always in the Perfekt: Schwein gehabt! The pig is a German good-luck symbol (das Glücksschwein) — marzipan pigs are given as New Year presents.",
+    "related": "Glück haben (neutral register), das Glücksschwein, Pech haben (opposite: to be unlucky)"
+  },
+  {
+    "id": "expr_ratschlaege_geben",
+    "expression": "Ratschläge geben",
+    "english": "to give advice",
+    "literal": "to give advices",
+    "register": "Neutral",
+    "situation_en": "Someone is unsure what to do and you offer your opinion on what they should do.",
+    "example_sentences": [
+      {"de": "Meine Oma gibt mir immer gute Ratschläge.", "en": "My grandma always gives me good advice."},
+      {"de": "Er gibt gern Ratschläge, ohne gefragt zu werden.", "en": "He likes giving advice without being asked."}
+    ],
+    "notes": "Fixed verb: geben (not machen!). Singular: einen Ratschlag / einen Rat geben. Ask for advice: jemanden um Rat fragen.",
+    "related": "der Ratschlag (noun), um Rat fragen, der Tipp"
+  },
+  {
+    "id": "expr_sachlich_bleiben",
+    "expression": "Bitte sachlich bleiben",
+    "english": "please stay objective / stick to the facts",
+    "literal": "please remain factual",
+    "register": "Formal / discussions",
+    "situation_en": "A discussion is getting emotional or personal and you want to bring it back to the facts.",
+    "example_sentences": [
+      {"de": "Die Diskussion wurde laut. „Bitte sachlich bleiben!“, sagte die Moderatorin.", "en": "The discussion got loud. \"Please stay objective!\", said the moderator."},
+      {"de": "Bleiben wir sachlich: Was sind die Fakten?", "en": "Let's stick to the facts: what are the facts?"}
+    ],
+    "notes": "sachlich comes from die Sache (the matter). Core vocabulary for meetings, debates and online discussions. Opposite: persönlich/emotional werden.",
+    "related": "sachlich (objective), die Sachlichkeit, zur Sache kommen (to get to the point)"
+  },
+  {
+    "id": "expr_wie_auch_immer",
+    "expression": "Wie auch immer …",
+    "english": "anyway / be that as it may",
+    "literal": "how also ever",
+    "register": "Conversational",
+    "situation_en": "You want to close a topic, move on, or signal that the details don't matter right now.",
+    "example_sentences": [
+      {"de": "Wie auch immer — wir müssen jetzt eine Entscheidung treffen.", "en": "Anyway — we have to make a decision now."},
+      {"de": "Wie auch immer, das Ergebnis bleibt gleich.", "en": "Be that as it may, the result stays the same."}
+    ],
+    "notes": "Discourse marker to change or close a topic — makes conversation flow naturally. Family: was auch immer (whatever), wo auch immer (wherever), wie dem auch sei (formal).",
+    "related": "jedenfalls (in any case), egal (doesn't matter), wie dem auch sei"
+  },
+  {
+    "id": "expr_abgemacht",
+    "expression": "Abgemacht!",
+    "english": "Deal! / It's settled!",
+    "literal": "arranged / agreed-off",
+    "register": "Colloquial",
+    "situation_en": "You and someone else just made an arrangement or deal and you seal it.",
+    "example_sentences": [
+      {"de": "„Ich koche, du spülst?“ — „Abgemacht!“", "en": "\"I cook, you do the dishes?\" — \"Deal!\""},
+      {"de": "Also morgen um zehn? Abgemacht!", "en": "So tomorrow at ten? Settled!"}
+    ],
+    "notes": "Partizip II of abmachen (to arrange/agree on — see Verbs). Used alone as a one-word answer to seal an agreement, like shaking hands verbally.",
+    "related": "abmachen (verb), einverstanden (agreed), Deal (colloquial Anglicism)"
+  },
+  {
+    "id": "expr_einverstanden",
+    "expression": "Einverstanden",
+    "english": "agreed / OK, I consent",
+    "literal": "in-understood",
+    "register": "Neutral",
+    "situation_en": "Someone proposes something and you formally give your OK — or you ask someone for theirs.",
+    "example_sentences": [
+      {"de": "Bist du mit dem Plan einverstanden?", "en": "Do you agree with the plan?"},
+      {"de": "„Treffen wir uns um acht?“ — „Einverstanden.“", "en": "\"Shall we meet at eight?\" — \"Agreed.\""}
+    ],
+    "notes": "Pattern: einverstanden sein mit + Dativ. As a standalone answer it is slightly more formal than Abgemacht. Noun: das Einverständnis (consent).",
+    "related": "das Einverständnis, zustimmen (to agree), Abgemacht!"
+  },
+  {
+    "id": "expr_moeglichst",
+    "expression": "möglichst viel / wenig / oft",
+    "english": "as much / as little / as often as possible",
+    "literal": "most-possibly much/little/often",
+    "register": "Neutral",
+    "situation_en": "You want to express 'to the maximum degree that is possible' without the long so-…-wie-möglich construction.",
+    "example_sentences": [
+      {"de": "Trink möglichst viel Wasser — das ist gesund.", "en": "Drink as much water as possible — it's healthy."},
+      {"de": "Ich versuche, möglichst oft zu Fuß zu gehen.", "en": "I try to walk as often as possible."}
+    ],
+    "notes": "möglichst + adjective/adverb compresses 'so X wie möglich': möglichst schnell = so schnell wie möglich. Extremely common in instructions and advice.",
+    "related": "so … wie möglich, möglich (possible), die Möglichkeit"
+  },
+  {
+    "id": "expr_durcheinander_kommen",
+    "expression": "durcheinander kommen",
+    "english": "to get confused / to get mixed up",
+    "literal": "to come through-one-another",
+    "register": "Conversational",
+    "situation_en": "Too many names, numbers or similar words — and your head loses track.",
+    "example_sentences": [
+      {"de": "Bei den vielen Namen komme ich durcheinander.", "en": "With all these names I get confused."},
+      {"de": "Ich bin mit den Terminen völlig durcheinander gekommen.", "en": "I got the appointments completely mixed up."}
+    ],
+    "notes": "durcheinander = mixed up, in disarray. Related: das Durcheinander (chaos/mess), etwas durcheinanderbringen (to mix things up). Perfekt with sein: Ich bin durcheinander gekommen.",
+    "related": "das Durcheinander, durcheinanderbringen, verwechseln (to confuse two things)"
+  }
+]

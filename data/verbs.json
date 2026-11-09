@@ -647,6 +647,14 @@
             "accusative"
           ]
         }
+      },
+      {
+        "id": "verb_vorausgehen",
+        "prefix": "voraus",
+        "word": "vorausgehen",
+        "english": "to precede / to go ahead",
+        "separable": true,
+        "notes": "Separable. Perfekt with sein. etwas (Dat) vorausgehen = to precede something."
       }
     ],
     "example_sentences": [
@@ -799,6 +807,14 @@
         "english": "to gather, meet up",
         "separable": true,
         "notes": "Prefix separates in main clause: Ich komme … zusammen."
+      },
+      {
+        "id": "verb_vorbeikommen",
+        "prefix": "vorbei",
+        "word": "vorbeikommen",
+        "english": "to drop by / to pass by",
+        "separable": true,
+        "notes": "Separable: Ich komme vorbei. Perfekt with sein. B1/B2 alternative to besuchen."
       }
     ],
     "example_sentences": [
@@ -1004,6 +1020,14 @@
         "english": "to overlook, miss",
         "separable": false,
         "notes": "Inseparable: the prefix stays attached — 'Ich übersehe.'"
+      },
+      {
+        "id": "verb_nachsehen",
+        "prefix": "nach",
+        "word": "nachsehen",
+        "english": "to check / to look up",
+        "separable": true,
+        "notes": "Separable. Also: jemandem nachsehen = to watch someone leave."
       }
     ],
     "example_sentences": [
@@ -1392,6 +1416,14 @@
         "english": "to find again, recover",
         "separable": true,
         "notes": "Prefix separates in main clause: Ich finde … wieder."
+      },
+      {
+        "id": "verb_herausfinden",
+        "prefix": "heraus",
+        "word": "herausfinden",
+        "english": "to find out",
+        "separable": true,
+        "notes": "Separable. Colloquial short form: rausfinden (Ich finde das raus)."
       }
     ],
     "example_sentences": [
@@ -4443,6 +4475,14 @@
           ],
           "notes_en": "be- swallows the preposition: 'durch ein Land reisen' becomes 'ein Land bereisen'."
         }
+      },
+      {
+        "id": "verb_verreisen",
+        "prefix": "ver",
+        "word": "verreisen",
+        "english": "to go away (on a trip)",
+        "separable": false,
+        "notes": "Inseparable (ver- never detaches). Perfekt with sein: Ich bin verreist = I'm away."
       }
     ],
     "example_sentences": [
@@ -5106,6 +5146,14 @@
         "english": "to translate",
         "separable": false,
         "notes": "Inseparable = translate. Separable úbersetzen = to ferry someone across."
+      },
+      {
+        "id": "verb_voraussetzen",
+        "prefix": "voraus",
+        "word": "voraussetzen",
+        "english": "to presuppose / to require",
+        "separable": true,
+        "notes": "Separable. Common: vorausgesetzt, dass … = provided that …"
       }
     ],
     "example_sentences": [
@@ -7070,6 +7118,14 @@
         "english": "to be reluctant, resist",
         "separable": false,
         "notes": "Inseparable: the prefix stays attached — 'Ich widerstrebe.'"
+      },
+      {
+        "id": "verb_anstreben",
+        "prefix": "an",
+        "word": "anstreben",
+        "english": "to strive for / to aim for",
+        "separable": true,
+        "notes": "Separable and transitive (+ Akk) — same meaning as streben nach + Dativ."
       }
     ],
     "example_sentences": [
@@ -10329,6 +10385,14 @@
             "accusative"
           ]
         }
+      },
+      {
+        "id": "verb_ausgleichen",
+        "prefix": "aus",
+        "word": "ausgleichen",
+        "english": "to compensate / to balance out",
+        "separable": true,
+        "notes": "Separable. Adjective: ausgeglichen = balanced (person)."
       }
     ],
     "example_sentences": [
@@ -10423,5 +10487,1657 @@
     "tags": [
       "b1"
     ]
+  },
+  {
+    "id": "verb_dauern",
+    "root": "dauern",
+    "english": "to last / to take (time)",
+    "type": "weak",
+    "frequency_rank": 151,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "dauere",
+        "du": "dauerst",
+        "er_sie_es": "dauert",
+        "wir": "dauern",
+        "ihr": "dauert",
+        "sie_Sie": "dauern"
+      },
+      "past_participle": "gedauert",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Der Film dauert zwei Stunden.",
+        "en": "The film lasts two hours.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Wie lange dauert die Fahrt nach Hamburg?",
+        "en": "How long does the drive to Hamburg take?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "dauern has no object; the duration is an accusative of time: Das dauert eine Stunde.",
+      "dual_case": false
+    },
+    "tags": [
+      "time",
+      "everyday",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_reden",
+    "root": "reden",
+    "english": "to talk",
+    "type": "weak",
+    "frequency_rank": 152,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "rede",
+        "du": "redest",
+        "er_sie_es": "redet",
+        "wir": "reden",
+        "ihr": "redet",
+        "sie_Sie": "reden"
+      },
+      "past_participle": "geredet",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Wir reden oft über Politik.",
+        "en": "We often talk about politics.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Du redest zu schnell!",
+        "en": "You talk too fast!",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "reden über + Akkusativ (about), reden mit + Dativ (with).",
+      "dual_case": false
+    },
+    "tags": [
+      "communication",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_melden",
+    "root": "melden",
+    "english": "to report / (sich) to get in touch",
+    "type": "weak",
+    "frequency_rank": 153,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "melde",
+        "du": "meldest",
+        "er_sie_es": "meldet",
+        "wir": "melden",
+        "ihr": "meldet",
+        "sie_Sie": "melden"
+      },
+      "past_participle": "gemeldet",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich melde mich morgen bei dir.",
+        "en": "I'll get in touch with you tomorrow.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Der Nachbar meldet den Unfall der Polizei.",
+        "en": "The neighbour reports the accident to the police.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative",
+        "dative"
+      ],
+      "notes_en": "etwas (Akk) jemandem (Dat) melden = to report something to someone. sich bei jemandem melden = to get in touch with someone.",
+      "dual_case": false
+    },
+    "tags": [
+      "communication",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_niesen",
+    "root": "niesen",
+    "english": "to sneeze",
+    "type": "weak",
+    "frequency_rank": 154,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "niese",
+        "du": "niest",
+        "er_sie_es": "niest",
+        "wir": "niesen",
+        "ihr": "niest",
+        "sie_Sie": "niesen"
+      },
+      "past_participle": "geniest",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich muss ständig niesen.",
+        "en": "I keep having to sneeze.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Mein Bruder niest immer dreimal hintereinander.",
+        "en": "My brother always sneezes three times in a row.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "No object. Partizip II: geniest.",
+      "dual_case": false
+    },
+    "tags": [
+      "body",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_lachen",
+    "root": "lachen",
+    "english": "to laugh",
+    "type": "weak",
+    "frequency_rank": 155,
+    "module": "verbs",
+    "unlock_level": 1,
+    "conjugation": {
+      "present": {
+        "ich": "lache",
+        "du": "lachst",
+        "er_sie_es": "lacht",
+        "wir": "lachen",
+        "ihr": "lacht",
+        "sie_Sie": "lachen"
+      },
+      "past_participle": "gelacht",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Wir lachen über den Witz.",
+        "en": "We laugh at the joke.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Warum lachst du?",
+        "en": "Why are you laughing?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "lachen über + Akkusativ = to laugh at something.",
+      "dual_case": false
+    },
+    "tags": [
+      "body",
+      "emotions",
+      "a1"
+    ]
+  },
+  {
+    "id": "verb_schnipsen",
+    "root": "schnipsen",
+    "english": "to snap (one's fingers) / to flick",
+    "type": "weak",
+    "frequency_rank": 156,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "schnipse",
+        "du": "schnipst",
+        "er_sie_es": "schnipst",
+        "wir": "schnipsen",
+        "ihr": "schnipst",
+        "sie_Sie": "schnipsen"
+      },
+      "past_participle": "geschnipst",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Der Kellner kommt, wenn du mit den Fingern schnipst.",
+        "en": "The waiter comes when you snap your fingers.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Ich schnipse im Takt der Musik.",
+        "en": "I snap my fingers to the beat of the music.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "Usually: mit den Fingern schnipsen. Transitive = to flick: Er schnipst die Krümel vom Tisch.",
+      "dual_case": false
+    },
+    "tags": [
+      "body",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_flüstern",
+    "root": "flüstern",
+    "english": "to whisper",
+    "type": "weak",
+    "frequency_rank": 157,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "flüstere",
+        "du": "flüsterst",
+        "er_sie_es": "flüstert",
+        "wir": "flüstern",
+        "ihr": "flüstert",
+        "sie_Sie": "flüstern"
+      },
+      "past_participle": "geflüstert",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Im Kino flüstern wir nur.",
+        "en": "In the cinema we only whisper.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Ich flüstere dir ein Geheimnis ins Ohr.",
+        "en": "I whisper a secret in your ear.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "Can take what is whispered (Akk) and a listener (Dat): Ich flüstere dir etwas ins Ohr.",
+      "dual_case": false
+    },
+    "tags": [
+      "communication",
+      "body",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_schnarchen",
+    "root": "schnarchen",
+    "english": "to snore",
+    "type": "weak",
+    "frequency_rank": 158,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "schnarche",
+        "du": "schnarchst",
+        "er_sie_es": "schnarcht",
+        "wir": "schnarchen",
+        "ihr": "schnarcht",
+        "sie_Sie": "schnarchen"
+      },
+      "past_participle": "geschnarcht",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Mein Vater schnarcht jede Nacht.",
+        "en": "My father snores every night.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Du schnarchst so laut, ich kann nicht schlafen!",
+        "en": "You snore so loudly, I can't sleep!",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "No object.",
+      "dual_case": false
+    },
+    "tags": [
+      "body",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_husten",
+    "root": "husten",
+    "english": "to cough",
+    "type": "weak",
+    "frequency_rank": 159,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "huste",
+        "du": "hustest",
+        "er_sie_es": "hustet",
+        "wir": "husten",
+        "ihr": "hustet",
+        "sie_Sie": "husten"
+      },
+      "past_participle": "gehustet",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Das Kind hustet seit drei Tagen.",
+        "en": "The child has been coughing for three days.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Ich huste die ganze Nacht.",
+        "en": "I cough all night.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "No object.",
+      "dual_case": false
+    },
+    "tags": [
+      "body",
+      "health",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_klatschen",
+    "root": "klatschen",
+    "english": "to clap / to applaud",
+    "type": "weak",
+    "frequency_rank": 160,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "klatsche",
+        "du": "klatschst",
+        "er_sie_es": "klatscht",
+        "wir": "klatschen",
+        "ihr": "klatscht",
+        "sie_Sie": "klatschen"
+      },
+      "past_participle": "geklatscht",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Am Ende des Konzerts klatschen alle Zuschauer.",
+        "en": "At the end of the concert all the spectators clap.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Ich klatsche in die Hände.",
+        "en": "I clap my hands.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "in die Hände klatschen = to clap one's hands.",
+      "dual_case": false
+    },
+    "tags": [
+      "body",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_furzen",
+    "root": "furzen",
+    "english": "to fart (vulgar)",
+    "type": "weak",
+    "frequency_rank": 161,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "furze",
+        "du": "furzt",
+        "er_sie_es": "furzt",
+        "wir": "furzen",
+        "ihr": "furzt",
+        "sie_Sie": "furzen"
+      },
+      "past_participle": "gefurzt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Der Hund furzt im Schlaf.",
+        "en": "The dog farts in its sleep.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Ich furze nie in der Öffentlichkeit.",
+        "en": "I never fart in public.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "none"
+      ],
+      "notes_en": "Vulgar register. der Furz = the fart.",
+      "dual_case": false
+    },
+    "tags": [
+      "body",
+      "vulgar",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_fahnden",
+    "root": "fahnden",
+    "english": "to search for (police) / to hunt for",
+    "type": "weak",
+    "frequency_rank": 162,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "fahnde",
+        "du": "fahndest",
+        "er_sie_es": "fahndet",
+        "wir": "fahnden",
+        "ihr": "fahndet",
+        "sie_Sie": "fahnden"
+      },
+      "past_participle": "gefahndet",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Die Polizei fahndet nach dem Täter.",
+        "en": "The police are searching for the perpetrator.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Wir fahnden seit Wochen nach dem Fehler.",
+        "en": "We have been hunting for the bug for weeks.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "dative"
+      ],
+      "notes_en": "fahnden nach + Dativ. die Fahndung = the manhunt.",
+      "dual_case": false
+    },
+    "tags": [
+      "crime",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_fürchten",
+    "root": "fürchten",
+    "english": "to fear / (sich) to be afraid",
+    "type": "weak",
+    "frequency_rank": 163,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "fürchte",
+        "du": "fürchtest",
+        "er_sie_es": "fürchtet",
+        "wir": "fürchten",
+        "ihr": "fürchtet",
+        "sie_Sie": "fürchten"
+      },
+      "past_participle": "gefürchtet",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich fürchte mich vor großen Hunden.",
+        "en": "I'm afraid of big dogs.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Viele Menschen fürchten den Winter.",
+        "en": "Many people dread winter.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "etwas (Akk) fürchten = to fear something; sich vor + Dativ fürchten = to be afraid of.",
+      "dual_case": false
+    },
+    "tags": [
+      "emotions",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_warnen",
+    "root": "warnen",
+    "english": "to warn",
+    "type": "weak",
+    "frequency_rank": 164,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "warne",
+        "du": "warnst",
+        "er_sie_es": "warnt",
+        "wir": "warnen",
+        "ihr": "warnt",
+        "sie_Sie": "warnen"
+      },
+      "past_participle": "gewarnt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich warne dich: Das Eis ist dünn!",
+        "en": "I'm warning you: the ice is thin!",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Der Wetterdienst warnt vor einem Sturm.",
+        "en": "The weather service warns of a storm.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "jemanden (Akk) vor etwas (Dat) warnen.",
+      "dual_case": false
+    },
+    "tags": [
+      "communication",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_fliehen",
+    "root": "fliehen",
+    "english": "to flee / to escape",
+    "type": "strong",
+    "frequency_rank": 165,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "fliehe",
+        "du": "fliehst",
+        "er_sie_es": "flieht",
+        "wir": "fliehen",
+        "ihr": "flieht",
+        "sie_Sie": "fliehen"
+      },
+      "past_participle": "geflohen",
+      "auxiliary": "sein"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Die Familie flieht vor dem Krieg.",
+        "en": "The family is fleeing from the war.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Der Gefangene konnte aus dem Gefängnis fliehen.",
+        "en": "The prisoner was able to escape from prison.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "intransitive",
+      "case_requirements": [
+        "dative"
+      ],
+      "notes_en": "fliehen vor + Dativ (from a danger), fliehen aus + Dativ (out of a place).",
+      "dual_case": false
+    },
+    "tags": [
+      "movement",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_schützen",
+    "root": "schützen",
+    "english": "to protect",
+    "type": "weak",
+    "frequency_rank": 166,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "schütze",
+        "du": "schützt",
+        "er_sie_es": "schützt",
+        "wir": "schützen",
+        "ihr": "schützt",
+        "sie_Sie": "schützen"
+      },
+      "past_participle": "geschützt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Die Sonnencreme schützt die Haut.",
+        "en": "Sunscreen protects the skin.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Ich schütze mich mit einer Maske.",
+        "en": "I protect myself with a mask.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "etwas (Akk) vor etwas (Dat) schützen.",
+      "dual_case": false
+    },
+    "tags": [
+      "safety",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_wundern",
+    "root": "wundern",
+    "english": "to surprise / (sich) to be surprised",
+    "type": "weak",
+    "frequency_rank": 167,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "wundere",
+        "du": "wunderst",
+        "er_sie_es": "wundert",
+        "wir": "wundern",
+        "ihr": "wundert",
+        "sie_Sie": "wundern"
+      },
+      "past_participle": "gewundert",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich wundere mich über sein Verhalten.",
+        "en": "I'm surprised by his behaviour.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Das wundert mich nicht.",
+        "en": "That doesn't surprise me.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "Etwas wundert mich (Akk) = something surprises me; sich über + Akk wundern = to be surprised at.",
+      "dual_case": false
+    },
+    "tags": [
+      "emotions",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_gedulden",
+    "root": "gedulden",
+    "english": "(sich) to be patient / to wait patiently",
+    "type": "weak",
+    "frequency_rank": 168,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "gedulde",
+        "du": "geduldest",
+        "er_sie_es": "geduldet",
+        "wir": "gedulden",
+        "ihr": "geduldet",
+        "sie_Sie": "gedulden"
+      },
+      "past_participle": "geduldet",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Bitte gedulden Sie sich einen Moment.",
+        "en": "Please be patient for a moment.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Ich gedulde mich, bis du fertig bist.",
+        "en": "I'll be patient until you're done.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "reflexive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "Always reflexive with an accusative pronoun: Ich gedulde mich. Formal request: Bitte gedulden Sie sich.",
+      "dual_case": false
+    },
+    "tags": [
+      "everyday",
+      "formal",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_bewältigen",
+    "root": "bewältigen",
+    "english": "to cope with / to manage / to overcome",
+    "type": "weak",
+    "frequency_rank": 169,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "bewältige",
+        "du": "bewältigst",
+        "er_sie_es": "bewältigt",
+        "wir": "bewältigen",
+        "ihr": "bewältigt",
+        "sie_Sie": "bewältigen"
+      },
+      "past_participle": "bewältigt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Wir bewältigen diese Krise gemeinsam.",
+        "en": "We'll overcome this crisis together.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Wie bewältigst du so viel Arbeit?",
+        "en": "How do you manage so much work?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "Takes an accusative object: eine Aufgabe bewältigen.",
+      "dual_case": false
+    },
+    "tags": [
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_gewährleisten",
+    "root": "gewährleisten",
+    "english": "to ensure / to guarantee",
+    "type": "weak",
+    "frequency_rank": 170,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "gewährleiste",
+        "du": "gewährleistest",
+        "er_sie_es": "gewährleistet",
+        "wir": "gewährleisten",
+        "ihr": "gewährleistet",
+        "sie_Sie": "gewährleisten"
+      },
+      "past_participle": "gewährleistet",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Der Vertrag gewährleistet unsere Sicherheit.",
+        "en": "The contract guarantees our security.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Wir müssen die Qualität gewährleisten.",
+        "en": "We have to ensure quality.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "Takes an accusative object. Never separates.",
+      "dual_case": false
+    },
+    "tags": [
+      "formal",
+      "work",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_beeinträchtigen",
+    "root": "beeinträchtigen",
+    "english": "to impair / to affect negatively",
+    "type": "weak",
+    "frequency_rank": 171,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "beeinträchtige",
+        "du": "beeinträchtigst",
+        "er_sie_es": "beeinträchtigt",
+        "wir": "beeinträchtigen",
+        "ihr": "beeinträchtigt",
+        "sie_Sie": "beeinträchtigen"
+      },
+      "past_participle": "beeinträchtigt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Der Lärm beeinträchtigt meine Konzentration.",
+        "en": "The noise impairs my concentration.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Zu wenig Schlaf kann die Gesundheit beeinträchtigen.",
+        "en": "Too little sleep can impair your health.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "Takes an accusative object.",
+      "dual_case": false
+    },
+    "tags": [
+      "formal",
+      "abstract",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_veranschaulichen",
+    "root": "veranschaulichen",
+    "english": "to illustrate / to make clear",
+    "type": "weak",
+    "frequency_rank": 172,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "veranschauliche",
+        "du": "veranschaulichst",
+        "er_sie_es": "veranschaulicht",
+        "wir": "veranschaulichen",
+        "ihr": "veranschaulicht",
+        "sie_Sie": "veranschaulichen"
+      },
+      "past_participle": "veranschaulicht",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Die Grafik veranschaulicht die Ergebnisse.",
+        "en": "The chart illustrates the results.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Ich veranschauliche das mit einem Beispiel.",
+        "en": "I'll illustrate that with an example.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "Takes an accusative object.",
+      "dual_case": false
+    },
+    "tags": [
+      "academic",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_analysieren",
+    "root": "analysieren",
+    "english": "to analyse",
+    "type": "weak",
+    "frequency_rank": 173,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "analysiere",
+        "du": "analysierst",
+        "er_sie_es": "analysiert",
+        "wir": "analysieren",
+        "ihr": "analysiert",
+        "sie_Sie": "analysieren"
+      },
+      "past_participle": "analysiert",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Wir analysieren die Daten.",
+        "en": "We analyse the data.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Der Arzt analysiert das Blut.",
+        "en": "The doctor analyses the blood.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "Takes an accusative object.",
+      "dual_case": false
+    },
+    "tags": [
+      "academic",
+      "work",
+      "b1"
+    ]
+  },
+  {
+    "id": "verb_beabsichtigen",
+    "root": "beabsichtigen",
+    "english": "to intend",
+    "type": "weak",
+    "frequency_rank": 174,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "beabsichtige",
+        "du": "beabsichtigst",
+        "er_sie_es": "beabsichtigt",
+        "wir": "beabsichtigen",
+        "ihr": "beabsichtigt",
+        "sie_Sie": "beabsichtigen"
+      },
+      "past_participle": "beabsichtigt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich beabsichtige, nächstes Jahr umzuziehen.",
+        "en": "I intend to move next year.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Was beabsichtigst du damit?",
+        "en": "What do you intend by that?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "Takes an accusative object or a zu-infinitive.",
+      "dual_case": false
+    },
+    "tags": [
+      "formal",
+      "b2"
+    ]
+  },
+  {
+    "id": "verb_erinnern",
+    "root": "erinnern",
+    "english": "to remind / (sich) to remember",
+    "type": "weak",
+    "frequency_rank": 175,
+    "module": "verbs",
+    "unlock_level": 2,
+    "conjugation": {
+      "present": {
+        "ich": "erinnere",
+        "du": "erinnerst",
+        "er_sie_es": "erinnert",
+        "wir": "erinnern",
+        "ihr": "erinnert",
+        "sie_Sie": "erinnern"
+      },
+      "past_participle": "erinnert",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich erinnere mich gern an meine Kindheit.",
+        "en": "I like remembering my childhood.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Das Lied erinnert mich an den Sommer.",
+        "en": "The song reminds me of summer.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "jemanden (Akk) an etwas (Akk) erinnern. Reflexive: sich an + Akkusativ erinnern.",
+      "dual_case": false
+    },
+    "tags": [
+      "memory",
+      "a2"
+    ]
+  },
+  {
+    "id": "verb_begreifen",
+    "root": "begreifen",
+    "english": "to grasp / to comprehend",
+    "type": "strong",
+    "frequency_rank": 176,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "begreife",
+        "du": "begreifst",
+        "er_sie_es": "begreift",
+        "wir": "begreifen",
+        "ihr": "begreift",
+        "sie_Sie": "begreifen"
+      },
+      "past_participle": "begriffen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich begreife das einfach nicht.",
+        "en": "I just don't get it.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Endlich begreift er die Regel.",
+        "en": "Finally he grasps the rule.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "Takes an accusative object. Strong: begriff – begriffen.",
+      "dual_case": false
+    },
+    "tags": [
+      "thinking",
+      "b1"
+    ],
+    "standalone_variant": true,
+    "prefix": "be",
+    "base": "greifen",
+    "separable": false
+  },
+  {
+    "id": "verb_benötigen",
+    "root": "benötigen",
+    "english": "to need / to require",
+    "type": "weak",
+    "frequency_rank": 177,
+    "module": "verbs",
+    "unlock_level": 3,
+    "conjugation": {
+      "present": {
+        "ich": "benötige",
+        "du": "benötigst",
+        "er_sie_es": "benötigt",
+        "wir": "benötigen",
+        "ihr": "benötigt",
+        "sie_Sie": "benötigen"
+      },
+      "past_participle": "benötigt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich benötige deine Hilfe.",
+        "en": "I need your help.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Für den Antrag benötigt man einen Pass.",
+        "en": "For the application you need a passport.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "Takes an accusative object, like brauchen.",
+      "dual_case": false
+    },
+    "tags": [
+      "formal",
+      "everyday",
+      "b1"
+    ],
+    "standalone_variant": true,
+    "prefix": "be",
+    "base": "nötigen",
+    "separable": false
+  },
+  {
+    "id": "verb_veranlassen",
+    "root": "veranlassen",
+    "english": "to prompt / to arrange for / to cause",
+    "type": "weak",
+    "frequency_rank": 178,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "veranlasse",
+        "du": "veranlasst",
+        "er_sie_es": "veranlasst",
+        "wir": "veranlassen",
+        "ihr": "veranlasst",
+        "sie_Sie": "veranlassen"
+      },
+      "past_participle": "veranlasst",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Was veranlasst dich zu dieser Entscheidung?",
+        "en": "What prompts you to make this decision?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Ich veranlasse sofort eine Überprüfung.",
+        "en": "I'll arrange for an inspection immediately.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "jemanden (Akk) zu etwas (Dat) veranlassen = to prompt someone to do something.",
+      "dual_case": false
+    },
+    "tags": [
+      "formal",
+      "b2"
+    ],
+    "standalone_variant": true,
+    "prefix": "ver",
+    "base": "anlassen",
+    "separable": false
+  },
+  {
+    "id": "verb_nachvollziehen",
+    "root": "nachvollziehen",
+    "english": "to understand / to follow (a line of reasoning)",
+    "type": "strong",
+    "frequency_rank": 179,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "vollziehe",
+        "du": "vollziehst",
+        "er_sie_es": "vollzieht",
+        "wir": "vollziehen",
+        "ihr": "vollzieht",
+        "sie_Sie": "vollziehen"
+      },
+      "past_participle": "nachvollzogen",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Ich kann deine Entscheidung gut nachvollziehen.",
+        "en": "I can understand your decision well.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Niemand vollzieht seine Logik nach.",
+        "en": "Nobody follows his logic.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "Takes an accusative object. Separable, strong: nachvollzogen.",
+      "dual_case": false
+    },
+    "tags": [
+      "thinking",
+      "b2"
+    ],
+    "separable_root": true,
+    "prefix": "nach",
+    "standalone_variant": true,
+    "base": "vollziehen",
+    "separable": true
+  },
+  {
+    "id": "verb_einschätzen",
+    "root": "einschätzen",
+    "english": "to assess / to judge",
+    "type": "weak",
+    "frequency_rank": 180,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "schätze",
+        "du": "schätzt",
+        "er_sie_es": "schätzt",
+        "wir": "schätzen",
+        "ihr": "schätzt",
+        "sie_Sie": "schätzen"
+      },
+      "past_participle": "eingeschätzt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Wie schätzt du die Lage ein?",
+        "en": "How do you assess the situation?",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Experten müssen das Risiko genau einschätzen.",
+        "en": "Experts have to assess the risk precisely.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative"
+      ],
+      "notes_en": "Takes an accusative object; als + adjective for the judgement.",
+      "dual_case": false
+    },
+    "tags": [
+      "thinking",
+      "work",
+      "b2"
+    ],
+    "separable_root": true,
+    "prefix": "ein",
+    "standalone_variant": true,
+    "base": "schätzen",
+    "separable": true
+  },
+  {
+    "id": "verb_einräumen",
+    "root": "einräumen",
+    "english": "to admit (formal) / to grant / to put away (into)",
+    "type": "weak",
+    "frequency_rank": 181,
+    "module": "verbs",
+    "unlock_level": 4,
+    "conjugation": {
+      "present": {
+        "ich": "räume",
+        "du": "räumst",
+        "er_sie_es": "räumt",
+        "wir": "räumen",
+        "ihr": "räumt",
+        "sie_Sie": "räumen"
+      },
+      "past_participle": "eingeräumt",
+      "auxiliary": "haben"
+    },
+    "prefix_variants": [],
+    "example_sentences": [
+      {
+        "de": "Der Minister räumt seinen Fehler ein.",
+        "en": "The minister admits his mistake.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      },
+      {
+        "de": "Ich räume die Spülmaschine ein.",
+        "en": "I load the dishwasher.",
+        "exercise_type": [
+          "fill_blank",
+          "translate"
+        ]
+      }
+    ],
+    "grammar": {
+      "transitivity": "transitive",
+      "case_requirements": [
+        "accusative",
+        "dative"
+      ],
+      "notes_en": "jemandem (Dat) etwas (Akk) einräumen = to grant someone something.",
+      "dual_case": false
+    },
+    "tags": [
+      "formal",
+      "b2"
+    ],
+    "separable_root": true,
+    "prefix": "ein",
+    "standalone_variant": true,
+    "base": "räumen",
+    "separable": true
   }
 ]

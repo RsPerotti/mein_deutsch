@@ -1,0 +1,196 @@
+{
+ "_schema": "Session 44 adverb seeds. Four exercises: de→en (tdist), fill (wrong = words that make the sentence ungrammatical), en→de (de_wrong), sentence meaning (sent_wrong).",
+ "adverbs": [
+  {
+   "word": "dahin",
+   "english": "(to) there / to that place",
+   "category": "Place & Direction",
+   "cefr": "A2",
+   "tags": [
+    "place_direction"
+   ],
+   "fill": {
+    "de": "Wir fahren morgen nach Berlin. Fährst du auch _____?",
+    "en": "We're going to Berlin tomorrow. Are you going there too?",
+    "wrong": [
+     "daher",
+     "damals",
+     "vorhin"
+    ]
+   },
+   "tdist": [
+    "from there",
+    "back then",
+    "against it"
+   ],
+   "de_wrong": [
+    "daher",
+    "dagegen",
+    "damals"
+   ],
+   "sentence": {
+    "de": "Ich gehe jeden Tag dahin.",
+    "en": "I go there every day.",
+    "wrong": [
+     "I come from there every day.",
+     "I never go there.",
+     "I went there once."
+    ]
+   },
+   "note": "Direction towards a place already mentioned (wohin? → dahin). Location is da/dort (wo?), origin is daher/von dort (woher?)."
+  },
+  {
+   "word": "ebenso",
+   "english": "just as / likewise",
+   "category": "Connectors",
+   "cefr": "B1",
+   "tags": [
+    "connectors"
+   ],
+   "fill": {
+    "de": "Mein Bruder ist _____ groß wie mein Vater.",
+    "en": "My brother is just as tall as my father.",
+    "wrong": [
+     "deshalb",
+     "sondern",
+     "obwohl"
+    ]
+   },
+   "tdist": [
+    "therefore",
+    "however",
+    "although"
+   ],
+   "de_wrong": [
+    "deshalb",
+    "jedoch",
+    "trotzdem"
+   ],
+   "sentence": {
+    "de": "Sie spricht Spanisch ebenso gut wie Englisch.",
+    "en": "She speaks Spanish just as well as English.",
+    "wrong": [
+     "She speaks Spanish better than English.",
+     "She speaks neither Spanish nor English.",
+     "She speaks Spanish but not English."
+    ]
+   },
+   "note": "ebenso … wie = just as … as (same as genauso … wie)."
+  },
+  {
+   "word": "ebenfalls",
+   "english": "also / as well / likewise",
+   "category": "Connectors",
+   "cefr": "B1",
+   "tags": [
+    "connectors"
+   ],
+   "fill": {
+    "de": "„Schönes Wochenende!“ – „Danke, _____!“",
+    "en": "\"Have a nice weekend!\" – \"Thanks, you too!\"",
+    "wrong": [
+     "sondern",
+     "jedoch",
+     "obwohl"
+    ]
+   },
+   "tdist": [
+    "nevertheless",
+    "therefore",
+    "instead"
+   ],
+   "de_wrong": [
+    "deshalb",
+    "jedoch",
+    "sondern"
+   ],
+   "sentence": {
+    "de": "Meine Schwester kommt ebenfalls mit.",
+    "en": "My sister is coming along as well.",
+    "wrong": [
+     "My sister isn't coming along.",
+     "Only my sister is coming along.",
+     "My sister is coming later."
+    ]
+   },
+   "note": "Formal 'auch'. Danke, ebenfalls! = Thanks, you too!"
+  },
+  {
+   "word": "obwohl",
+   "english": "although",
+   "category": "Contrast",
+   "cefr": "A2",
+   "tags": [
+    "contrast",
+    "conjunction"
+   ],
+   "fill": {
+    "de": "_____ es regnet, gehen wir spazieren.",
+    "en": "Although it's raining, we're going for a walk.",
+    "wrong": [
+     "Deshalb",
+     "Außerdem",
+     "Sondern"
+    ]
+   },
+   "tdist": [
+    "because",
+    "therefore",
+    "unless"
+   ],
+   "de_wrong": [
+    "deshalb",
+    "sondern",
+    "außerdem"
+   ],
+   "sentence": {
+    "de": "Obwohl er müde ist, arbeitet er weiter.",
+    "en": "Although he is tired, he keeps working.",
+    "wrong": [
+     "Because he is tired, he stops working.",
+     "He is tired, so he goes to bed.",
+     "If he is tired, he keeps working."
+    ]
+   },
+   "note": "Subordinating conjunction: verb goes to the END of the obwohl-clause. Compare trotzdem (main-clause adverb): Es regnet, trotzdem gehen wir."
+  },
+  {
+   "word": "insofern",
+   "english": "in that respect / insofar (as)",
+   "category": "Connectors",
+   "cefr": "B2",
+   "tags": [
+    "connectors"
+   ],
+   "fill": {
+    "de": "Das Projekt war _____ ein Erfolg, als wir viel gelernt haben.",
+    "en": "The project was a success insofar as we learned a lot.",
+    "wrong": [
+     "deshalb",
+     "obwohl",
+     "sondern"
+    ]
+   },
+   "tdist": [
+    "although",
+    "instead",
+    "in addition"
+   ],
+   "de_wrong": [
+    "obwohl",
+    "deshalb",
+    "sondern"
+   ],
+   "sentence": {
+    "de": "Insofern hast du recht.",
+    "en": "In that respect you're right.",
+    "wrong": [
+     "You're never right.",
+     "That's why you're wrong.",
+     "Although you're right."
+    ]
+   },
+   "note": "insofern … als = insofar as. Alone: in that respect / to that extent."
+  }
+ ]
+}

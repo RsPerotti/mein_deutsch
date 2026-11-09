@@ -1,0 +1,590 @@
+[
+  {
+    "id": "vp_nachdenken_ueber",
+    "verb": "nachdenken",
+    "display": "über etwas nachdenken",
+    "preposition": "über",
+    "case": "Akkusativ",
+    "da_form": "darüber",
+    "english": "to think about / to reflect on",
+    "cefr": "B1",
+    "notes": "über + Akkusativ. Question word: Worüber denkst du nach?",
+    "example_sentences": [
+      {
+        "de": "Ich denke oft über meine Zukunft nach.",
+        "en": "I often think about my future."
+      },
+      {
+        "de": "Wir müssen über das Angebot nachdenken.",
+        "en": "We need to think about the offer."
+      },
+      {
+        "de": "Gute Frage! Ich muss darüber nachdenken.",
+        "en": "Good question! I need to think about it."
+      }
+    ]
+  },
+  {
+    "id": "vp_freuen_ueber",
+    "verb": "freuen",
+    "display": "sich über etwas freuen",
+    "preposition": "über",
+    "case": "Akkusativ",
+    "da_form": "darüber",
+    "english": "to be happy about (something present or past)",
+    "cefr": "A2",
+    "notes": "Careful: sich freuen AUF + Akk = to look forward to (future). sich freuen ÜBER = happy about something that is here or happened.",
+    "example_sentences": [
+      {
+        "de": "Ich freue mich über dein Geschenk.",
+        "en": "I'm happy about your present."
+      },
+      {
+        "de": "Mein Vater freut sich über die Blumen.",
+        "en": "My father is happy about the flowers."
+      },
+      {
+        "de": "Du hast die Prüfung bestanden? Ich freue mich darüber!",
+        "en": "You passed the exam? I'm happy about it!"
+      }
+    ]
+  },
+  {
+    "id": "vp_sprechen_ueber",
+    "verb": "sprechen",
+    "display": "über etwas sprechen",
+    "preposition": "über",
+    "case": "Akkusativ",
+    "da_form": "darüber",
+    "english": "to talk about",
+    "cefr": "A2",
+    "notes": "sprechen MIT + Dativ = talk with someone. sprechen von + Dativ is also possible for 'about'.",
+    "example_sentences": [
+      {
+        "de": "Wir sprechen morgen über das Projekt.",
+        "en": "We'll talk about the project tomorrow."
+      },
+      {
+        "de": "Sie haben lange über ihre Probleme gesprochen.",
+        "en": "They talked about their problems for a long time."
+      }
+    ]
+  },
+  {
+    "id": "vp_denken_an",
+    "verb": "denken",
+    "display": "an etwas/jemanden denken",
+    "preposition": "an",
+    "case": "Akkusativ",
+    "da_form": "daran",
+    "english": "to think of",
+    "cefr": "A2",
+    "notes": "an + Akkusativ. Denk daran! = Don't forget! (denken über = have an opinion about).",
+    "example_sentences": [
+      {
+        "de": "Ich denke oft an meine Oma.",
+        "en": "I often think of my grandma."
+      },
+      {
+        "de": "Denkst du noch an das Konzert?",
+        "en": "Do you still think of the concert?"
+      }
+    ]
+  },
+  {
+    "id": "vp_arbeiten_an",
+    "verb": "arbeiten",
+    "display": "an etwas arbeiten",
+    "preposition": "an",
+    "case": "Dativ",
+    "da_form": "daran",
+    "english": "to work on",
+    "cefr": "A2",
+    "notes": "an + Dativ (unlike denken an / glauben an, which take Akkusativ).",
+    "example_sentences": [
+      {
+        "de": "Ich arbeite gerade an einem neuen Projekt.",
+        "en": "I'm currently working on a new project."
+      },
+      {
+        "de": "Er arbeitet seit Jahren an seinem Roman.",
+        "en": "He has been working on his novel for years."
+      },
+      {
+        "de": "Der Bericht ist noch nicht fertig, ich arbeite noch daran.",
+        "en": "The report isn't finished yet; I'm still working on it."
+      }
+    ]
+  },
+  {
+    "id": "vp_glauben_an",
+    "verb": "glauben",
+    "display": "an etwas/jemanden glauben",
+    "preposition": "an",
+    "case": "Akkusativ",
+    "da_form": "daran",
+    "english": "to believe in",
+    "cefr": "A2",
+    "notes": "an + Akkusativ. Without a preposition, glauben + Dat = to believe someone: Ich glaube dir.",
+    "example_sentences": [
+      {
+        "de": "Ich glaube an dich!",
+        "en": "I believe in you!"
+      },
+      {
+        "de": "Glaubst du an die große Liebe?",
+        "en": "Do you believe in true love?"
+      },
+      {
+        "de": "Er sagt, er gewinnt das Spiel. Ich glaube fest daran.",
+        "en": "He says he'll win the game. I firmly believe in it."
+      }
+    ]
+  },
+  {
+    "id": "vp_erinnern_an",
+    "verb": "erinnern",
+    "display": "sich an etwas erinnern",
+    "preposition": "an",
+    "case": "Akkusativ",
+    "da_form": "daran",
+    "english": "to remember",
+    "cefr": "A2",
+    "notes": "an + Akkusativ. jemanden an etwas erinnern = to remind someone of something.",
+    "example_sentences": [
+      {
+        "de": "Ich erinnere mich gern an meine Kindheit.",
+        "en": "I like remembering my childhood."
+      },
+      {
+        "de": "Erinnerst du dich an die Party?",
+        "en": "Do you remember the party?"
+      },
+      {
+        "de": "Unser erstes Treffen? Ja, ich erinnere mich gut daran.",
+        "en": "Our first meeting? Yes, I remember it well."
+      }
+    ]
+  },
+  {
+    "id": "vp_bedanken_fuer",
+    "verb": "bedanken",
+    "display": "sich für etwas bedanken",
+    "preposition": "für",
+    "case": "Akkusativ",
+    "da_form": "dafür",
+    "english": "to thank (someone) for",
+    "cefr": "A2",
+    "notes": "für always takes Akkusativ. The person thanked goes with bei: Ich bedanke mich bei dir für …",
+    "example_sentences": [
+      {
+        "de": "Ich bedanke mich für die Einladung.",
+        "en": "Thank you for the invitation."
+      },
+      {
+        "de": "Er hat sich für meine Hilfe bedankt.",
+        "en": "He thanked me for my help."
+      },
+      {
+        "de": "Du hast mir so geholfen – ich bedanke mich herzlich dafür!",
+        "en": "You helped me so much – thank you so much for it!"
+      }
+    ]
+  },
+  {
+    "id": "vp_interessieren_fuer",
+    "verb": "interessieren",
+    "display": "sich für etwas interessieren",
+    "preposition": "für",
+    "case": "Akkusativ",
+    "da_form": "dafür",
+    "english": "to be interested in",
+    "cefr": "A2",
+    "notes": "sich für + Akk interessieren. But: Interesse an + Dativ haben (the noun takes an).",
+    "example_sentences": [
+      {
+        "de": "Interessierst du dich für die Ausstellung?",
+        "en": "Are you interested in the exhibition?"
+      },
+      {
+        "de": "Mein Sohn interessiert sich für eine Ausbildung als Koch.",
+        "en": "My son is interested in an apprenticeship as a chef."
+      },
+      {
+        "de": "Fußball? Nein, ich interessiere mich nicht dafür.",
+        "en": "Football? No, I'm not interested in it."
+      }
+    ]
+  },
+  {
+    "id": "vp_wissen_von",
+    "verb": "wissen",
+    "display": "von etwas wissen",
+    "preposition": "von",
+    "case": "Dativ",
+    "da_form": "davon",
+    "english": "to know about",
+    "cefr": "B1",
+    "notes": "von + Dativ. Also possible: wissen über + Akk (more detailed knowledge).",
+    "example_sentences": [
+      {
+        "de": "Ich weiß nichts von einem Treffen.",
+        "en": "I don't know anything about a meeting."
+      },
+      {
+        "de": "Weißt du etwas von dem Unfall?",
+        "en": "Do you know anything about the accident?"
+      },
+      {
+        "de": "Die Party ist abgesagt? Ich weiß nichts davon.",
+        "en": "The party is cancelled? I don't know anything about it."
+      }
+    ]
+  },
+  {
+    "id": "vp_fragen_nach",
+    "verb": "fragen",
+    "display": "nach etwas fragen",
+    "preposition": "nach",
+    "case": "Dativ",
+    "da_form": "danach",
+    "english": "to ask for / to ask about",
+    "cefr": "A2",
+    "notes": "nach + Dativ. Compare: um etwas bitten = to ask for (request) something.",
+    "example_sentences": [
+      {
+        "de": "Der Tourist fragt nach dem Weg.",
+        "en": "The tourist asks for directions."
+      },
+      {
+        "de": "Sie hat nach deiner Telefonnummer gefragt.",
+        "en": "She asked for your phone number."
+      },
+      {
+        "de": "Ich weiß nicht, wie spät es ist. Frag doch den Kellner danach!",
+        "en": "I don't know what time it is. Why don't you ask the waiter?"
+      }
+    ]
+  },
+  {
+    "id": "vp_suchen_nach",
+    "verb": "suchen",
+    "display": "nach etwas suchen",
+    "preposition": "nach",
+    "case": "Dativ",
+    "da_form": "danach",
+    "english": "to look for / to search for",
+    "cefr": "A2",
+    "notes": "suchen + Akk is also correct (Ich suche meinen Schlüssel); suchen nach + Dat stresses the searching.",
+    "example_sentences": [
+      {
+        "de": "Ich suche nach meinem Schlüssel.",
+        "en": "I'm looking for my key."
+      },
+      {
+        "de": "Die Firma sucht nach einem neuen Mitarbeiter.",
+        "en": "The company is looking for a new employee."
+      },
+      {
+        "de": "Mein Handy ist weg! Hilfst du mir, danach zu suchen?",
+        "en": "My phone is gone! Will you help me look for it?"
+      }
+    ]
+  },
+  {
+    "id": "vp_streben_nach",
+    "verb": "streben",
+    "display": "nach etwas streben",
+    "preposition": "nach",
+    "case": "Dativ",
+    "da_form": "danach",
+    "english": "to strive for",
+    "cefr": "B2",
+    "notes": "nach + Dativ. Same meaning: etwas (Akk) anstreben.",
+    "example_sentences": [
+      {
+        "de": "Viele Menschen streben nach dem Glück.",
+        "en": "Many people strive for happiness."
+      },
+      {
+        "de": "Er strebt nach einem besseren Leben.",
+        "en": "He strives for a better life."
+      },
+      {
+        "de": "Erfolg ist ihm wichtig, er strebt ständig danach.",
+        "en": "Success matters to him; he constantly strives for it."
+      }
+    ]
+  },
+  {
+    "id": "vp_fahnden_nach",
+    "verb": "fahnden",
+    "display": "nach jemandem fahnden",
+    "preposition": "nach",
+    "case": "Dativ",
+    "da_form": "danach",
+    "english": "to search for (police)",
+    "cefr": "B2",
+    "notes": "nach + Dativ. die Fahndung = the manhunt.",
+    "example_sentences": [
+      {
+        "de": "Die Polizei fahndet nach einem Bankräuber.",
+        "en": "The police are searching for a bank robber."
+      },
+      {
+        "de": "Interpol fahndet nach dem Mann.",
+        "en": "Interpol is searching for the man."
+      }
+    ]
+  },
+  {
+    "id": "vp_fuerchten_vor",
+    "verb": "fürchten",
+    "display": "sich vor etwas fürchten",
+    "preposition": "vor",
+    "case": "Dativ",
+    "da_form": "davor",
+    "english": "to be afraid of",
+    "cefr": "B1",
+    "notes": "vor + Dativ (fear/danger is always vor + Dativ).",
+    "example_sentences": [
+      {
+        "de": "Das Kind fürchtet sich vor dem Gewitter.",
+        "en": "The child is afraid of the thunderstorm."
+      },
+      {
+        "de": "Ich fürchte mich vor der Dunkelheit.",
+        "en": "I'm afraid of the dark."
+      },
+      {
+        "de": "Ein Vorstellungsgespräch? Ich fürchte mich ein bisschen davor.",
+        "en": "A job interview? I'm a bit afraid of it."
+      }
+    ]
+  },
+  {
+    "id": "vp_angst_vor",
+    "verb": "Angst",
+    "display": "Angst vor etwas haben",
+    "preposition": "vor",
+    "case": "Dativ",
+    "da_form": "davor",
+    "english": "to be afraid of",
+    "cefr": "A2",
+    "notes": "vor + Dativ. Angst um + Akk = worried about (someone's safety).",
+    "example_sentences": [
+      {
+        "de": "Ich habe Angst vor dem Hund.",
+        "en": "I'm afraid of the dog."
+      },
+      {
+        "de": "Hast du Angst vor der Prüfung?",
+        "en": "Are you afraid of the exam?"
+      },
+      {
+        "de": "Fliegen? Ich habe große Angst davor.",
+        "en": "Flying? I'm really scared of it."
+      }
+    ]
+  },
+  {
+    "id": "vp_warnen_vor",
+    "verb": "warnen",
+    "display": "vor etwas warnen",
+    "preposition": "vor",
+    "case": "Dativ",
+    "da_form": "davor",
+    "english": "to warn about / against",
+    "cefr": "B1",
+    "notes": "jemanden (Akk) vor etwas (Dat) warnen.",
+    "example_sentences": [
+      {
+        "de": "Die Ärztin warnt vor dem Rauchen.",
+        "en": "The doctor warns against smoking."
+      },
+      {
+        "de": "Ich warne dich vor diesem Mann.",
+        "en": "I'm warning you about this man."
+      },
+      {
+        "de": "Glatteis? Der Wetterbericht hat davor gewarnt.",
+        "en": "Black ice? The weather report warned about it."
+      }
+    ]
+  },
+  {
+    "id": "vp_fliehen_vor",
+    "verb": "fliehen",
+    "display": "vor etwas fliehen",
+    "preposition": "vor",
+    "case": "Dativ",
+    "da_form": "davor",
+    "english": "to flee from",
+    "cefr": "B1",
+    "notes": "vor + Dativ (from a danger). aus + Dativ (out of a place).",
+    "example_sentences": [
+      {
+        "de": "Die Familie flieht vor dem Krieg.",
+        "en": "The family is fleeing from the war."
+      },
+      {
+        "de": "Wir fliehen vor dem Regen ins Café.",
+        "en": "We flee from the rain into the café."
+      },
+      {
+        "de": "Der Sturm kam schnell, aber wir konnten davor fliehen.",
+        "en": "The storm came quickly, but we were able to flee from it."
+      }
+    ]
+  },
+  {
+    "id": "vp_schuetzen_vor",
+    "verb": "schützen",
+    "display": "sich vor etwas schützen",
+    "preposition": "vor",
+    "case": "Dativ",
+    "da_form": "davor",
+    "english": "to protect (oneself) from",
+    "cefr": "B1",
+    "notes": "vor + Dativ. Also possible: schützen gegen + Akk.",
+    "example_sentences": [
+      {
+        "de": "Ich schütze mich vor der Sonne.",
+        "en": "I protect myself from the sun."
+      },
+      {
+        "de": "Eine Impfung schützt vor der Grippe.",
+        "en": "A vaccination protects against the flu."
+      },
+      {
+        "de": "Die Sonne ist stark – Sonnencreme schützt dich davor.",
+        "en": "The sun is strong – sunscreen protects you from it."
+      }
+    ]
+  },
+  {
+    "id": "vp_wundern_ueber",
+    "verb": "wundern",
+    "display": "sich über etwas wundern",
+    "preposition": "über",
+    "case": "Akkusativ",
+    "da_form": "darüber",
+    "english": "to be surprised at",
+    "cefr": "B1",
+    "notes": "über + Akkusativ, like sich freuen über / sich ärgern über.",
+    "example_sentences": [
+      {
+        "de": "Ich wundere mich über dein Verhalten.",
+        "en": "I'm surprised by your behaviour."
+      },
+      {
+        "de": "Er wundert sich über die hohen Preise.",
+        "en": "He is surprised at the high prices."
+      },
+      {
+        "de": "Er ist plötzlich so freundlich – ich wundere mich darüber.",
+        "en": "He's suddenly so friendly – I'm surprised at it."
+      }
+    ]
+  },
+  {
+    "id": "vp_helfen_bei",
+    "verb": "helfen",
+    "display": "jemandem bei etwas helfen",
+    "preposition": "bei",
+    "case": "Dativ",
+    "da_form": "dabei",
+    "english": "to help (someone) with",
+    "cefr": "A2",
+    "notes": "helfen takes the Dativ for the person (jemandem) and bei + Dativ for the task.",
+    "example_sentences": [
+      {
+        "de": "Kannst du mir bei dem Umzug helfen?",
+        "en": "Can you help me with the move?"
+      },
+      {
+        "de": "Ich helfe dir gern bei der Arbeit.",
+        "en": "I'm happy to help you with the work."
+      },
+      {
+        "de": "Du musst die Wohnung streichen? Ich helfe dir dabei!",
+        "en": "You have to paint the flat? I'll help you with it!"
+      }
+    ]
+  },
+  {
+    "id": "vp_einladen_zu",
+    "verb": "einladen",
+    "display": "jemanden zu etwas einladen",
+    "preposition": "zu",
+    "case": "Dativ",
+    "da_form": "dazu",
+    "english": "to invite (someone) to",
+    "cefr": "A2",
+    "notes": "zu + Dativ (zum = zu dem, zur = zu der).",
+    "example_sentences": [
+      {
+        "de": "Ich lade dich zu meiner Party ein.",
+        "en": "I'm inviting you to my party."
+      },
+      {
+        "de": "Sie hat uns zu einem Kaffee eingeladen.",
+        "en": "She invited us for a coffee."
+      },
+      {
+        "de": "Sie feiert ihren Geburtstag und hat mich dazu eingeladen.",
+        "en": "She's celebrating her birthday and invited me to it."
+      }
+    ]
+  },
+  {
+    "id": "vp_anfangen_mit",
+    "verb": "anfangen",
+    "display": "mit etwas anfangen",
+    "preposition": "mit",
+    "case": "Dativ",
+    "da_form": "damit",
+    "english": "to start (with) something",
+    "cefr": "A2",
+    "notes": "mit + Dativ. Same meaning: mit etwas beginnen.",
+    "example_sentences": [
+      {
+        "de": "Wir fangen mit dem Unterricht an.",
+        "en": "We're starting the lesson."
+      },
+      {
+        "de": "Ich fange morgen mit einer Diät an.",
+        "en": "I'm starting a diet tomorrow."
+      },
+      {
+        "de": "Die Hausaufgaben? Ich fange gleich damit an.",
+        "en": "The homework? I'm starting on it right away."
+      }
+    ]
+  },
+  {
+    "id": "vp_protestieren_gegen",
+    "verb": "protestieren",
+    "display": "gegen etwas protestieren",
+    "preposition": "gegen",
+    "case": "Akkusativ",
+    "da_form": "dagegen",
+    "english": "to protest against",
+    "cefr": "B1",
+    "notes": "gegen always takes Akkusativ. Ich bin dagegen = I'm against it.",
+    "example_sentences": [
+      {
+        "de": "Die Studenten protestieren gegen die hohen Mieten.",
+        "en": "The students are protesting against the high rents."
+      },
+      {
+        "de": "Viele protestieren gegen das neue Gesetz.",
+        "en": "Many people are protesting against the new law."
+      },
+      {
+        "de": "Das neue Gesetz? Wir protestieren dagegen.",
+        "en": "The new law? We're protesting against it."
+      }
+    ]
+  }
+]

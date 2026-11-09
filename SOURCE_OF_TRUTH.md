@@ -1,11 +1,21 @@
 # Mein Deutsch — Source of Truth
-*Last updated: 2026-10-22 — Session 43 (Lesen & Hören: 83 articles, v25)*
+*Last updated: 2026-11-09 — Session 44 (Bilder-Intake + Verben mit Präposition, v26)*
 
 ---
 
 ## Current State
 
-**10 modules built and live, plus Wiederholung.** App at https://rsperotti.github.io/mein_deutsch (v25).
+**10 modules built and live, plus Wiederholung.** App at https://rsperotti.github.io/mein_deutsch (v26).
+
+**Session 44 — Bilder-Intake (v26).** Vocabulary from 10 Instagram screenshots: **114 new items, 611
+exercises** — 39 verbs, 18 nouns (the -satz family + 9), 16 adjectives (mostly feelings), 5 adverbs,
+12 Ausdrücke (incl. 7 double conjunctions) and a **new section in Präpositionen: Verben mit Präposition**
+(24 pairs such as *denken an + Akk*, *Angst haben vor + Dat*; list with intro card + practice of
+preposition / da-word / case, 82 exercises, all levels at once, no gating). Everything runs on the Main
+engine, so it writes both progress stores and enters Wiederholung. Verified against de.wiktionary.org
+and, for verb + preposition valency, **DWDS**. Pipeline: `_factory/bilder-intake-2026-11-09/`
+seeds → `generate.py` → `bundle-data.py` → `validate.py` (V/N/A/S/F/P/G checks; `verify-validator.py`
+25/25) + `qa-verb-prepositions.js` (34). PRD: `PRD_Bilder_Intake.md`.
 
 **Session 43 — Lesen & Hören update (v25).** 38 new DW Top-Thema articles (to 2026-10-20) → **83 articles, 1592 vocab**. German quotation marks restored in all transcripts (old crawler dropped HTML entities). Bundle is now reproducible: `_factory/listening/bundle-listening.py` → `validate-listening.py` (A–I, mutation-tested).
 
@@ -237,7 +247,10 @@ to both stores" as a mandatory check for any new engine.
 | Wörter intake CEFR | Capped at B2 — no C1/C2 labels (decision 2026-07-07). |
 | Wörter intake pipeline | Sheet = inbox. Diff against `_factory/intake-log.json`, seed files + generator, validation pass per category before merge. |
 | New verb exercise depth | 8 per word (9 for roots) — not the full ~22 of original seeds. Expandable later. |
-| Ausdrücke scope | Minimal by design — only expressions from Ricco's readings. No gating. |
+| Ausdrücke scope | Expressions Ricco brings in (readings, screenshots). No gating. Double conjunctions (je … desto, weder … noch …) live here as fixed patterns (Ricco, 2026-11-09). |
+| Screenshot intake | Ricco's Instagram screenshots are a second intake next to the Wörter sheet (2026-11-09). Same discipline: dedupe against the app, verify against Wiktionary/DWDS, seeds → generator → independent validator. Synonym pairs are added as plain words, no "level-up" drill (Ricco). |
+| Verben mit Präposition | Section inside Präpositionen (Ricco, 2026-11-09). Exercises carry `vp_id`; category `verben` serves them all levels at once; the classic level-filtered practice excludes them. Distractor rule: the word after the gap shows its case and every distractor governs only the other case; every preposition Wiktionary or DWDS attests for the verb is banned as a distractor; da-word distractors never include ones usable as stand-alone adverbs. |
+| Verb distractors (new items) | No Präteritum forms as wrong options — a past form is grammatical in a present sentence. Wrong person / unsplit separable / bare Partizip II / zu-infinitive instead. Applies to items from S44 on; older verb exercises not yet audited. |
 | Deklination exercises | type_ending: strict, ending only ("en" ✓, "großen" ✗). No auto-advance; feedback card after every answer. |
 | Deklination lessons | 5 lessons, NO gating (Artikel model). Signal principle as unifying idea. |
 | Deklination CEFR filter | **Cumulative** ("Niveau bis") — NOT exact-match. Changelog: deviation from PRD spec, flagged + accepted 2026-07-09 (exact-match B2 = empty session; no B2 adjectives in weak/mixed pairs). |
@@ -255,7 +268,7 @@ to both stores" as a mandatory check for any new engine.
 | Wechselpräfix pair list | Generated from the AMBIGUOUS verdicts, never hand-kept. `validate-prefixes.py` fails if an AMBIGUOUS verb is missing from Lesson 5, or if a verb has other than exactly one `drilled` reading. |
 | Lesson section types | `explanation` (all modules) and `pairs` (Vorsilben Lesson 5 only). A new type gets its own renderer branch — the existing branch is never edited, and `qa-prefixes.js` asserts the Verbs renderer stays free of it. |
 | Variant glosses | Where a verb has two readings, the Verbs card gloss is pinned to the filed reading via an `english` field in the seed. `prefixes.json` keeps both readings — it has a `why` field to explain them; the Verbs card does not. |
-| Stammverben rule | A Stammverb is not prefix + an independent living verb, per de.wiktionary.org's Herkunft. Base in app → variant; base not in app → standalone variation (no new base verbs; content freeze). Decided 2026-10-19 (S41). |
+| Stammverben rule | A Stammverb is not prefix + an independent living verb, per de.wiktionary.org's Herkunft. Base in app → variant; base not in app → standalone variation. Decided 2026-10-19 (S41). *Changelog 2026-11-09 (S44):* "no new base verbs; content freeze" lifted by Ricco for the screenshot intake — 25 new Stammverben added. Noun + verb compounds (*gewährleisten* = Gewähr + leisten) are not prefix verbs; check C skips them. |
 | Data edits | Never edit `js/data.js`. Data changes go into `data/*.json` and through `bundle-data.py`; `validate-stammverben.py` check G fails otherwise. S41. |
 | Wiederholung vs progress | Review answers never move progress bars and are not backfilled — a review session must be deliberate (Ricco, 2026-10-19). |
 | Variant case requirements | Variants inherit `grammar.case_requirements` from their root unless they carry their own override. Overrides exist only where the case genuinely diverges — chiefly the transitivising prefixes be-, er-, ver-, über-. |
@@ -272,18 +285,18 @@ to both stores" as a mandatory check for any new engine.
 
 | Module | Scope | Items | Exercises | Status |
 |---|---|---|---|---|
-| Verbs | A1–B2 | 114 roots + **306 variants** + 26 standalone | **3,708** | ✅ Complete (S41 audit) |
-| Nouns | A1–B2 | 230 (152 roots + 78 variants) | 690 | ✅ Complete |
-| Adverbs | A1–B2 | 213 | 940 | ✅ Complete (+ Skalen, S42) |
-| Adjectives | A1–B2 | 136 | 544 | ✅ Complete |
-| Prepositions | A1–B2 | 53 | 158 | ✅ Complete |
+| Verbs | A1–B2 | 139 roots + 314 variants + 32 standalone | **4,051** | ✅ Complete (+39 in S44) |
+| Nouns | A1–B2 | 248 (162 roots + 86 variants) | 744 | ✅ Complete (+18 in S44) |
+| Adverbs | A1–B2 | 218 | 960 | ✅ Complete (+ Skalen, S42; +5 S44) |
+| Adjectives | A1–B2 | 152 | 608 | ✅ Complete (+16 in S44) |
+| Prepositions | A1–B2 | 53 + 24 Verben mit Präposition | 240 (158 + 82) | ✅ Complete (VmP section S44) |
 | Listening | 2026 | 83 articles (to 2026-10-20) | — | ✅ Complete |
 | Particles | A1–C2 | 34 | 510 | ✅ Complete |
-| Ausdrücke | B1–B2 | 8 expressions | 32 | ✅ Live — grows with readings |
+| Ausdrücke | A2–B2 | 20 expressions | 80 | ✅ Live — grows with readings/screenshots |
 | Deklinationen | A1–B2 | 3 patterns × 4 cases | 360 | ✅ Complete (Session 36) |
 | Vorsilben | — | 35 prefixes (33 drilled) | 330 | ✅ Complete (Session 37) |
 
-**Total exercises: ~5,824 across 9 modules + Deklinationen area + Artikel (dynamic queue from unlocked nouns).**
+**Total exercises: ~6,435 across 9 modules + Deklinationen area + Artikel (dynamic queue from unlocked nouns).**
 
 ---
 

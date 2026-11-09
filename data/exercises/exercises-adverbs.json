@@ -17501,5 +17501,345 @@
     },
     "explanation_en": "Entfernung (nah → fern): hier → dort → weit weg",
     "exercise_id": "ex_adv_scale_entfernung_002"
+  },
+  {
+    "exercise_id": "ex_adv_dahin_001",
+    "word_id": "adv_dahin",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "dahin",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "(to) there / to that place",
+    "wrong_answers": [
+      "from there",
+      "back then",
+      "against it"
+    ],
+    "explanation_en": "'dahin' means '(to) there / to that place'. Direction towards a place already mentioned (wohin? → dahin). Location is da/dort (wo?), origin is daher/von dort (woher?)."
+  },
+  {
+    "exercise_id": "ex_adv_dahin_002",
+    "word_id": "adv_dahin",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir fahren morgen nach Berlin. Fährst du auch _____?",
+      "en": "We're going to Berlin tomorrow. Are you going there too?"
+    },
+    "correct_answer": "dahin",
+    "wrong_answers": [
+      "daher",
+      "damals",
+      "vorhin"
+    ],
+    "explanation_en": "Only 'dahin' ((to) there / to that place) fits the grammar here. Direction towards a place already mentioned (wohin? → dahin). Location is da/dort (wo?), origin is daher/von dort (woher?)."
+  },
+  {
+    "exercise_id": "ex_adv_dahin_003",
+    "word_id": "adv_dahin",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "(to) there / to that place",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "dahin",
+    "wrong_answers": [
+      "daher",
+      "dagegen",
+      "damals"
+    ],
+    "explanation_en": "'(to) there / to that place' is 'dahin' in German."
+  },
+  {
+    "exercise_id": "ex_adv_dahin_004",
+    "word_id": "adv_dahin",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Ich gehe jeden Tag dahin.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "I go there every day.",
+    "wrong_answers": [
+      "I come from there every day.",
+      "I never go there.",
+      "I went there once."
+    ],
+    "explanation_en": "'Ich gehe jeden Tag dahin.' = 'I go there every day.'"
+  },
+  {
+    "exercise_id": "ex_adv_ebenso_001",
+    "word_id": "adv_ebenso",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "ebenso",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "just as / likewise",
+    "wrong_answers": [
+      "therefore",
+      "however",
+      "although"
+    ],
+    "explanation_en": "'ebenso' means 'just as / likewise'. ebenso … wie = just as … as (same as genauso … wie)."
+  },
+  {
+    "exercise_id": "ex_adv_ebenso_002",
+    "word_id": "adv_ebenso",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Mein Bruder ist _____ groß wie mein Vater.",
+      "en": "My brother is just as tall as my father."
+    },
+    "correct_answer": "ebenso",
+    "wrong_answers": [
+      "deshalb",
+      "sondern",
+      "obwohl"
+    ],
+    "explanation_en": "Only 'ebenso' (just as / likewise) fits the grammar here. ebenso … wie = just as … as (same as genauso … wie)."
+  },
+  {
+    "exercise_id": "ex_adv_ebenso_003",
+    "word_id": "adv_ebenso",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "just as / likewise",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "ebenso",
+    "wrong_answers": [
+      "deshalb",
+      "jedoch",
+      "trotzdem"
+    ],
+    "explanation_en": "'just as / likewise' is 'ebenso' in German."
+  },
+  {
+    "exercise_id": "ex_adv_ebenso_004",
+    "word_id": "adv_ebenso",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Sie spricht Spanisch ebenso gut wie Englisch.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "She speaks Spanish just as well as English.",
+    "wrong_answers": [
+      "She speaks Spanish better than English.",
+      "She speaks neither Spanish nor English.",
+      "She speaks Spanish but not English."
+    ],
+    "explanation_en": "'Sie spricht Spanisch ebenso gut wie Englisch.' = 'She speaks Spanish just as well as English.'"
+  },
+  {
+    "exercise_id": "ex_adv_ebenfalls_001",
+    "word_id": "adv_ebenfalls",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "ebenfalls",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "also / as well / likewise",
+    "wrong_answers": [
+      "nevertheless",
+      "therefore",
+      "instead"
+    ],
+    "explanation_en": "'ebenfalls' means 'also / as well / likewise'. Formal 'auch'. Danke, ebenfalls! = Thanks, you too!"
+  },
+  {
+    "exercise_id": "ex_adv_ebenfalls_002",
+    "word_id": "adv_ebenfalls",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "„Schönes Wochenende!“ – „Danke, _____!“",
+      "en": "\"Have a nice weekend!\" – \"Thanks, you too!\""
+    },
+    "correct_answer": "ebenfalls",
+    "wrong_answers": [
+      "sondern",
+      "jedoch",
+      "obwohl"
+    ],
+    "explanation_en": "Only 'ebenfalls' (also / as well / likewise) fits the grammar here. Formal 'auch'. Danke, ebenfalls! = Thanks, you too!"
+  },
+  {
+    "exercise_id": "ex_adv_ebenfalls_003",
+    "word_id": "adv_ebenfalls",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "also / as well / likewise",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "ebenfalls",
+    "wrong_answers": [
+      "deshalb",
+      "jedoch",
+      "sondern"
+    ],
+    "explanation_en": "'also / as well / likewise' is 'ebenfalls' in German."
+  },
+  {
+    "exercise_id": "ex_adv_ebenfalls_004",
+    "word_id": "adv_ebenfalls",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Meine Schwester kommt ebenfalls mit.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "My sister is coming along as well.",
+    "wrong_answers": [
+      "My sister isn't coming along.",
+      "Only my sister is coming along.",
+      "My sister is coming later."
+    ],
+    "explanation_en": "'Meine Schwester kommt ebenfalls mit.' = 'My sister is coming along as well.'"
+  },
+  {
+    "exercise_id": "ex_adv_obwohl_001",
+    "word_id": "adv_obwohl",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "obwohl",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "although",
+    "wrong_answers": [
+      "because",
+      "therefore",
+      "unless"
+    ],
+    "explanation_en": "'obwohl' means 'although'. Subordinating conjunction: verb goes to the END of the obwohl-clause. Compare trotzdem (main-clause adverb): Es regnet, trotzdem gehen wir."
+  },
+  {
+    "exercise_id": "ex_adv_obwohl_002",
+    "word_id": "adv_obwohl",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "_____ es regnet, gehen wir spazieren.",
+      "en": "Although it's raining, we're going for a walk."
+    },
+    "correct_answer": "Obwohl",
+    "wrong_answers": [
+      "Deshalb",
+      "Außerdem",
+      "Sondern"
+    ],
+    "explanation_en": "Only 'obwohl' (although) fits the grammar here. Subordinating conjunction: verb goes to the END of the obwohl-clause. Compare trotzdem (main-clause adverb): Es regnet, trotzdem gehen wir."
+  },
+  {
+    "exercise_id": "ex_adv_obwohl_003",
+    "word_id": "adv_obwohl",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "although",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "obwohl",
+    "wrong_answers": [
+      "deshalb",
+      "sondern",
+      "außerdem"
+    ],
+    "explanation_en": "'although' is 'obwohl' in German."
+  },
+  {
+    "exercise_id": "ex_adv_obwohl_004",
+    "word_id": "adv_obwohl",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Obwohl er müde ist, arbeitet er weiter.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "Although he is tired, he keeps working.",
+    "wrong_answers": [
+      "Because he is tired, he stops working.",
+      "He is tired, so he goes to bed.",
+      "If he is tired, he keeps working."
+    ],
+    "explanation_en": "'Obwohl er müde ist, arbeitet er weiter.' = 'Although he is tired, he keeps working.'"
+  },
+  {
+    "exercise_id": "ex_adv_insofern_001",
+    "word_id": "adv_insofern",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "insofern",
+      "prompt_en": "WHAT DOES THIS ADVERB MEAN?"
+    },
+    "correct_answer": "in that respect / insofar (as)",
+    "wrong_answers": [
+      "although",
+      "instead",
+      "in addition"
+    ],
+    "explanation_en": "'insofern' means 'in that respect / insofar (as)'. insofern … als = insofar as. Alone: in that respect / to that extent."
+  },
+  {
+    "exercise_id": "ex_adv_insofern_002",
+    "word_id": "adv_insofern",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Projekt war _____ ein Erfolg, als wir viel gelernt haben.",
+      "en": "The project was a success insofar as we learned a lot."
+    },
+    "correct_answer": "insofern",
+    "wrong_answers": [
+      "deshalb",
+      "obwohl",
+      "sondern"
+    ],
+    "explanation_en": "Only 'insofern' (in that respect / insofar (as)) fits the grammar here. insofern … als = insofar as. Alone: in that respect / to that extent."
+  },
+  {
+    "exercise_id": "ex_adv_insofern_003",
+    "word_id": "adv_insofern",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "in that respect / insofar (as)",
+      "prompt_en": "WIE SAGT MAN DAS AUF DEUTSCH?"
+    },
+    "correct_answer": "insofern",
+    "wrong_answers": [
+      "obwohl",
+      "deshalb",
+      "sondern"
+    ],
+    "explanation_en": "'in that respect / insofar (as)' is 'insofern' in German."
+  },
+  {
+    "exercise_id": "ex_adv_insofern_004",
+    "word_id": "adv_insofern",
+    "type": "translate_word",
+    "difficulty": 3,
+    "question": {
+      "de": "Insofern hast du recht.",
+      "prompt_en": "WHAT DOES THIS SENTENCE MEAN?"
+    },
+    "correct_answer": "In that respect you're right.",
+    "wrong_answers": [
+      "You're never right.",
+      "That's why you're wrong.",
+      "Although you're right."
+    ],
+    "explanation_en": "'Insofern hast du recht.' = 'In that respect you're right.'"
   }
 ]

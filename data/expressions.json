@@ -7,8 +7,14 @@
     "register": "Colloquial",
     "situation_en": "Something went well by pure luck — you caught the delayed train, found the last free table, passed by one point.",
     "example_sentences": [
-      {"de": "Da hast du echt Schwein gehabt — der Zug hatte zum Glück Verspätung!", "en": "You really got lucky there — luckily the train was delayed!"},
-      {"de": "Wir haben Schwein gehabt: Das waren die letzten zwei Tickets.", "en": "We got lucky: those were the last two tickets."}
+      {
+        "de": "Da hast du echt Schwein gehabt — der Zug hatte zum Glück Verspätung!",
+        "en": "You really got lucky there — luckily the train was delayed!"
+      },
+      {
+        "de": "Wir haben Schwein gehabt: Das waren die letzten zwei Tickets.",
+        "en": "We got lucky: those were the last two tickets."
+      }
     ],
     "notes": "Almost always in the Perfekt: Schwein gehabt! The pig is a German good-luck symbol (das Glücksschwein) — marzipan pigs are given as New Year presents.",
     "related": "Glück haben (neutral register), das Glücksschwein, Pech haben (opposite: to be unlucky)"
@@ -21,8 +27,14 @@
     "register": "Neutral",
     "situation_en": "Someone is unsure what to do and you offer your opinion on what they should do.",
     "example_sentences": [
-      {"de": "Meine Oma gibt mir immer gute Ratschläge.", "en": "My grandma always gives me good advice."},
-      {"de": "Er gibt gern Ratschläge, ohne gefragt zu werden.", "en": "He likes giving advice without being asked."}
+      {
+        "de": "Meine Oma gibt mir immer gute Ratschläge.",
+        "en": "My grandma always gives me good advice."
+      },
+      {
+        "de": "Er gibt gern Ratschläge, ohne gefragt zu werden.",
+        "en": "He likes giving advice without being asked."
+      }
     ],
     "notes": "Fixed verb: geben (not machen!). Singular: einen Ratschlag / einen Rat geben. Ask for advice: jemanden um Rat fragen.",
     "related": "der Ratschlag (noun), um Rat fragen, der Tipp"
@@ -35,8 +47,14 @@
     "register": "Formal / discussions",
     "situation_en": "A discussion is getting emotional or personal and you want to bring it back to the facts.",
     "example_sentences": [
-      {"de": "Die Diskussion wurde laut. „Bitte sachlich bleiben!“, sagte die Moderatorin.", "en": "The discussion got loud. \"Please stay objective!\", said the moderator."},
-      {"de": "Bleiben wir sachlich: Was sind die Fakten?", "en": "Let's stick to the facts: what are the facts?"}
+      {
+        "de": "Die Diskussion wurde laut. „Bitte sachlich bleiben!“, sagte die Moderatorin.",
+        "en": "The discussion got loud. \"Please stay objective!\", said the moderator."
+      },
+      {
+        "de": "Bleiben wir sachlich: Was sind die Fakten?",
+        "en": "Let's stick to the facts: what are the facts?"
+      }
     ],
     "notes": "sachlich comes from die Sache (the matter). Core vocabulary for meetings, debates and online discussions. Opposite: persönlich/emotional werden.",
     "related": "sachlich (objective), die Sachlichkeit, zur Sache kommen (to get to the point)"
@@ -49,8 +67,14 @@
     "register": "Conversational",
     "situation_en": "You want to close a topic, move on, or signal that the details don't matter right now.",
     "example_sentences": [
-      {"de": "Wie auch immer — wir müssen jetzt eine Entscheidung treffen.", "en": "Anyway — we have to make a decision now."},
-      {"de": "Wie auch immer, das Ergebnis bleibt gleich.", "en": "Be that as it may, the result stays the same."}
+      {
+        "de": "Wie auch immer — wir müssen jetzt eine Entscheidung treffen.",
+        "en": "Anyway — we have to make a decision now."
+      },
+      {
+        "de": "Wie auch immer, das Ergebnis bleibt gleich.",
+        "en": "Be that as it may, the result stays the same."
+      }
     ],
     "notes": "Discourse marker to change or close a topic — makes conversation flow naturally. Family: was auch immer (whatever), wo auch immer (wherever), wie dem auch sei (formal).",
     "related": "jedenfalls (in any case), egal (doesn't matter), wie dem auch sei"
@@ -63,8 +87,14 @@
     "register": "Colloquial",
     "situation_en": "You and someone else just made an arrangement or deal and you seal it.",
     "example_sentences": [
-      {"de": "„Ich koche, du spülst?“ — „Abgemacht!“", "en": "\"I cook, you do the dishes?\" — \"Deal!\""},
-      {"de": "Also morgen um zehn? Abgemacht!", "en": "So tomorrow at ten? Settled!"}
+      {
+        "de": "„Ich koche, du spülst?“ — „Abgemacht!“",
+        "en": "\"I cook, you do the dishes?\" — \"Deal!\""
+      },
+      {
+        "de": "Also morgen um zehn? Abgemacht!",
+        "en": "So tomorrow at ten? Settled!"
+      }
     ],
     "notes": "Partizip II of abmachen (to arrange/agree on — see Verbs). Used alone as a one-word answer to seal an agreement, like shaking hands verbally.",
     "related": "abmachen (verb), einverstanden (agreed), Deal (colloquial Anglicism)"
@@ -77,8 +107,14 @@
     "register": "Neutral",
     "situation_en": "Someone proposes something and you formally give your OK — or you ask someone for theirs.",
     "example_sentences": [
-      {"de": "Bist du mit dem Plan einverstanden?", "en": "Do you agree with the plan?"},
-      {"de": "„Treffen wir uns um acht?“ — „Einverstanden.“", "en": "\"Shall we meet at eight?\" — \"Agreed.\""}
+      {
+        "de": "Bist du mit dem Plan einverstanden?",
+        "en": "Do you agree with the plan?"
+      },
+      {
+        "de": "„Treffen wir uns um acht?“ — „Einverstanden.“",
+        "en": "\"Shall we meet at eight?\" — \"Agreed.\""
+      }
     ],
     "notes": "Pattern: einverstanden sein mit + Dativ. As a standalone answer it is slightly more formal than Abgemacht. Noun: das Einverständnis (consent).",
     "related": "das Einverständnis, zustimmen (to agree), Abgemacht!"
@@ -91,8 +127,14 @@
     "register": "Neutral",
     "situation_en": "You want to express 'to the maximum degree that is possible' without the long so-…-wie-möglich construction.",
     "example_sentences": [
-      {"de": "Trink möglichst viel Wasser — das ist gesund.", "en": "Drink as much water as possible — it's healthy."},
-      {"de": "Ich versuche, möglichst oft zu Fuß zu gehen.", "en": "I try to walk as often as possible."}
+      {
+        "de": "Trink möglichst viel Wasser — das ist gesund.",
+        "en": "Drink as much water as possible — it's healthy."
+      },
+      {
+        "de": "Ich versuche, möglichst oft zu Fuß zu gehen.",
+        "en": "I try to walk as often as possible."
+      }
     ],
     "notes": "möglichst + adjective/adverb compresses 'so X wie möglich': möglichst schnell = so schnell wie möglich. Extremely common in instructions and advice.",
     "related": "so … wie möglich, möglich (possible), die Möglichkeit"
@@ -105,10 +147,256 @@
     "register": "Conversational",
     "situation_en": "Too many names, numbers or similar words — and your head loses track.",
     "example_sentences": [
-      {"de": "Bei den vielen Namen komme ich durcheinander.", "en": "With all these names I get confused."},
-      {"de": "Ich bin mit den Terminen völlig durcheinander gekommen.", "en": "I got the appointments completely mixed up."}
+      {
+        "de": "Bei den vielen Namen komme ich durcheinander.",
+        "en": "With all these names I get confused."
+      },
+      {
+        "de": "Ich bin mit den Terminen völlig durcheinander gekommen.",
+        "en": "I got the appointments completely mixed up."
+      }
     ],
     "notes": "durcheinander = mixed up, in disarray. Related: das Durcheinander (chaos/mess), etwas durcheinanderbringen (to mix things up). Perfekt with sein: Ich bin durcheinander gekommen.",
     "related": "das Durcheinander, durcheinanderbringen, verwechseln (to confuse two things)"
+  },
+  {
+    "id": "expr_mir_ist_nach",
+    "expression": "Mir ist nach …",
+    "english": "I feel like … / I'm in the mood for …",
+    "literal": "to me (it) is after …",
+    "register": "Colloquial",
+    "situation_en": "Saying what you feel like doing or having right now.",
+    "example_sentences": [
+      {
+        "de": "Heute ist mir nach Pizza.",
+        "en": "I feel like pizza today."
+      },
+      {
+        "de": "Mir ist heute nicht nach Feiern.",
+        "en": "I'm not in the mood for partying today."
+      }
+    ],
+    "notes": "mir (Dativ) + ist + nach + Dativ. Same meaning: Ich habe Lust auf … (+ Akk).",
+    "related": "Lust haben auf"
+  },
+  {
+    "id": "expr_was_haeltst_du_von",
+    "expression": "Was hältst du von …?",
+    "english": "What do you think of …?",
+    "literal": "what do you hold of …?",
+    "register": "Neutral",
+    "situation_en": "Asking for someone's opinion about something.",
+    "example_sentences": [
+      {
+        "de": "Was hältst du von der Idee?",
+        "en": "What do you think of the idea?"
+      },
+      {
+        "de": "Was hältst du davon, ins Kino zu gehen?",
+        "en": "What do you think about going to the cinema?"
+      }
+    ],
+    "notes": "halten von + Dativ = to have an opinion of. Answers: Ich halte viel/nichts davon.",
+    "related": "Meinung, denken über"
+  },
+  {
+    "id": "expr_gerade_dabei",
+    "expression": "Ich bin gerade dabei, … zu …",
+    "english": "I'm in the middle of …ing",
+    "literal": "I am just thereby, to …",
+    "register": "Neutral",
+    "situation_en": "Saying what you are busy doing right now.",
+    "example_sentences": [
+      {
+        "de": "Ich bin gerade dabei zu kochen.",
+        "en": "I'm in the middle of cooking."
+      },
+      {
+        "de": "Wir sind gerade dabei, die Wohnung zu putzen.",
+        "en": "We're in the middle of cleaning the flat."
+      }
+    ],
+    "notes": "dabei sein + zu-Infinitiv. German has no -ing form; this (or just 'gerade' + verb) expresses it.",
+    "related": "gerade"
+  },
+  {
+    "id": "expr_erinnert_mich_an",
+    "expression": "Das erinnert mich an …",
+    "english": "That reminds me of …",
+    "literal": "that reminds me of …",
+    "register": "Neutral",
+    "situation_en": "Something brings back a memory.",
+    "example_sentences": [
+      {
+        "de": "Das erinnert mich an meinen Urlaub.",
+        "en": "That reminds me of my holiday."
+      },
+      {
+        "de": "Dieses Lied erinnert mich an dich.",
+        "en": "This song reminds me of you."
+      }
+    ],
+    "notes": "jemanden an + Akkusativ erinnern. Reflexive: sich an etwas erinnern = to remember.",
+    "related": "erinnern, die Erinnerung"
+  },
+  {
+    "id": "expr_klasse",
+    "expression": "Klasse!",
+    "english": "Great! / Awesome!",
+    "literal": "class!",
+    "register": "Colloquial",
+    "situation_en": "Reacting with enthusiasm to good news.",
+    "example_sentences": [
+      {
+        "de": "Du hast den Job bekommen? Klasse!",
+        "en": "You got the job? Great!"
+      },
+      {
+        "de": "Das war ein klasse Abend!",
+        "en": "That was a great evening!"
+      }
+    ],
+    "notes": "Colloquial praise. As an adjective it never takes endings: ein klasse Abend. B1/B2 alternative: ausgezeichnet.",
+    "related": "ausgezeichnet, toll, super"
+  },
+  {
+    "id": "expr_je_desto",
+    "expression": "je … desto",
+    "english": "the … the … (je mehr, desto besser)",
+    "literal": "ever … the more",
+    "register": "Neutral",
+    "situation_en": "Saying that one thing grows as another grows.",
+    "example_sentences": [
+      {
+        "de": "Je mehr ich übe, desto besser spreche ich Deutsch.",
+        "en": "The more I practise, the better I speak German."
+      },
+      {
+        "de": "Je älter er wird, desto ruhiger wird er.",
+        "en": "The older he gets, the calmer he becomes."
+      }
+    ],
+    "notes": "je + comparative … verb at the END; desto + comparative + verb SECOND. umso can replace desto.",
+    "related": "umso"
+  },
+  {
+    "id": "expr_sowohl_als_auch",
+    "expression": "sowohl … als auch",
+    "english": "both … and",
+    "literal": "as well … as also",
+    "register": "Neutral",
+    "situation_en": "Including two things equally.",
+    "example_sentences": [
+      {
+        "de": "Ich spreche sowohl Deutsch als auch Englisch.",
+        "en": "I speak both German and English."
+      },
+      {
+        "de": "Sowohl die Kinder als auch die Eltern waren begeistert.",
+        "en": "Both the children and the parents were thrilled."
+      }
+    ],
+    "notes": "Links two equal parts. Also possible: sowohl … wie auch.",
+    "related": "und"
+  },
+  {
+    "id": "expr_entweder_oder",
+    "expression": "entweder … oder",
+    "english": "either … or",
+    "literal": "either … or",
+    "register": "Neutral",
+    "situation_en": "Only one of two options is possible.",
+    "example_sentences": [
+      {
+        "de": "Du kannst entweder Tee oder Kaffee haben.",
+        "en": "You can have either tea or coffee."
+      },
+      {
+        "de": "Entweder kommst du mit, oder du bleibst zu Hause.",
+        "en": "Either you come along or you stay at home."
+      }
+    ],
+    "notes": "Only one of the two. Entweder at the start: the verb follows directly (Entweder kommst du …).",
+    "related": "oder"
+  },
+  {
+    "id": "expr_weder_noch",
+    "expression": "weder … noch",
+    "english": "neither … nor",
+    "literal": "neither … still",
+    "register": "Neutral",
+    "situation_en": "Excluding both of two things.",
+    "example_sentences": [
+      {
+        "de": "Er hat weder Zeit noch Geld.",
+        "en": "He has neither time nor money."
+      },
+      {
+        "de": "Ich trinke weder Kaffee noch Tee.",
+        "en": "I drink neither coffee nor tea."
+      }
+    ],
+    "notes": "Already negative — no nicht or kein needed.",
+    "related": "nicht, kein"
+  },
+  {
+    "id": "expr_nicht_nur_sondern_auch",
+    "expression": "nicht nur … sondern auch",
+    "english": "not only … but also",
+    "literal": "not only … but also",
+    "register": "Neutral",
+    "situation_en": "Adding a second, stronger point.",
+    "example_sentences": [
+      {
+        "de": "Sie ist nicht nur klug, sondern auch freundlich.",
+        "en": "She is not only clever but also friendly."
+      },
+      {
+        "de": "Er spricht nicht nur Deutsch, sondern auch Japanisch.",
+        "en": "He speaks not only German but also Japanese."
+      }
+    ],
+    "notes": "Stresses the second part. Comma before sondern.",
+    "related": "sondern"
+  },
+  {
+    "id": "expr_zwar_aber",
+    "expression": "zwar … aber",
+    "english": "admittedly … but / … it's true, but",
+    "literal": "indeed … but",
+    "register": "Neutral",
+    "situation_en": "Conceding a point, then contrasting it.",
+    "example_sentences": [
+      {
+        "de": "Das Auto ist zwar teuer, aber sehr gut.",
+        "en": "The car is expensive, admittedly, but very good."
+      },
+      {
+        "de": "Ich habe zwar wenig Zeit, aber ich helfe dir.",
+        "en": "I don't have much time, it's true, but I'll help you."
+      }
+    ],
+    "notes": "Concede, then contrast. doch or jedoch can replace aber.",
+    "related": "aber, doch, jedoch"
+  },
+  {
+    "id": "expr_einerseits_andererseits",
+    "expression": "einerseits … andererseits",
+    "english": "on the one hand … on the other hand",
+    "literal": "on one side … on the other side",
+    "register": "Neutral",
+    "situation_en": "Weighing two sides of a decision.",
+    "example_sentences": [
+      {
+        "de": "Einerseits möchte ich reisen, andererseits muss ich sparen.",
+        "en": "On the one hand I want to travel, on the other hand I have to save."
+      },
+      {
+        "de": "Einerseits ist die Stadt laut, andererseits ist sie spannend.",
+        "en": "On the one hand the city is noisy, on the other hand it's exciting."
+      }
+    ],
+    "notes": "Both words take position 1, so the verb follows directly. The single words are also in the Adverbs module.",
+    "related": "einerseits, andererseits"
   }
 ]

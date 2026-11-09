@@ -5184,5 +5184,156 @@
       "entfernung",
       "a2"
     ]
+  },
+  {
+    "id": "adv_dahin",
+    "word": "dahin",
+    "english": "(to) there / to that place",
+    "category": "Place & Direction",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Wir fahren morgen nach Berlin. Fährst du auch dahin?",
+        "en": "We're going to Berlin tomorrow. Are you going there too?",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Ich gehe jeden Tag dahin.",
+        "en": "I go there every day.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "place_direction",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_ebenso",
+    "word": "ebenso",
+    "english": "just as / likewise",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Mein Bruder ist ebenso groß wie mein Vater.",
+        "en": "My brother is just as tall as my father.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Sie spricht Spanisch ebenso gut wie Englisch.",
+        "en": "She speaks Spanish just as well as English.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_ebenfalls",
+    "word": "ebenfalls",
+    "english": "also / as well / likewise",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "„Schönes Wochenende!“ – „Danke, ebenfalls!“",
+        "en": "\"Have a nice weekend!\" – \"Thanks, you too!\"",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Meine Schwester kommt ebenfalls mit.",
+        "en": "My sister is coming along as well.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b1"
+    ]
+  },
+  {
+    "id": "adv_obwohl",
+    "word": "obwohl",
+    "english": "although",
+    "category": "Contrast",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Obwohl es regnet, gehen wir spazieren.",
+        "en": "Although it's raining, we're going for a walk.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Obwohl er müde ist, arbeitet er weiter.",
+        "en": "Although he is tired, he keeps working.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "contrast",
+      "conjunction",
+      "a2"
+    ]
+  },
+  {
+    "id": "adv_insofern",
+    "word": "insofern",
+    "english": "in that respect / insofar (as)",
+    "category": "Connectors",
+    "register": "Neutral",
+    "module": "adverbs",
+    "unlock_level": 4,
+    "cefr": "B2",
+    "example_sentences": [
+      {
+        "de": "Das Projekt war insofern ein Erfolg, als wir viel gelernt haben.",
+        "en": "The project was a success insofar as we learned a lot.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Insofern hast du recht.",
+        "en": "In that respect you're right.",
+        "exercise_type": [
+          "translate_word"
+        ]
+      }
+    ],
+    "tags": [
+      "connectors",
+      "b2"
+    ]
   }
 ]

@@ -1,0 +1,651 @@
+{
+ "_schema": "Session 44 adjective seeds. Four exercises each: de→en (tdist), fill sent[0], en→de (de_wrong), fill sent[1]. Fill distractors are chosen so they cannot describe the subject in that sentence (or cannot take the preposition that follows); no option may share a synonym cluster with the answer.",
+ "adjectives": [
+  {
+   "word": "erkältet",
+   "english": "having a cold",
+   "cefr": "B1",
+   "antonym": "",
+   "tags": [
+    "health",
+    "body"
+   ],
+   "sent": [
+    {
+     "de": "Ich habe Schnupfen und Halsschmerzen – ich bin _____.",
+     "en": "I have a runny nose and a sore throat – I've got a cold.",
+     "wrong": [
+      "teuer",
+      "pünktlich",
+      "eng"
+     ]
+    },
+    {
+     "de": "Zieh eine Jacke an, sonst bist du morgen _____!",
+     "en": "Put a jacket on, otherwise you'll have a cold tomorrow!",
+     "wrong": [
+      "teuer",
+      "leer",
+      "pünktlich"
+     ]
+    }
+   ],
+   "tdist": [
+    "in love",
+    "bored",
+    "grateful"
+   ],
+   "de_wrong": [
+    "begeistert",
+    "stolz",
+    "verliebt"
+   ],
+   "note": "Partizip II of sich erkälten. die Erkältung = the cold."
+  },
+  {
+   "word": "günstig",
+   "english": "cheap / inexpensive / favourable",
+   "cefr": "A2",
+   "antonym": "teuer",
+   "tags": [
+    "shopping",
+    "money"
+   ],
+   "sent": [
+    {
+     "de": "Im Supermarkt ist das Obst heute sehr _____.",
+     "en": "The fruit at the supermarket is very cheap today.",
+     "wrong": [
+      "ehrlich",
+      "müde",
+      "mutig"
+     ]
+    },
+    {
+     "de": "Der Zeitpunkt ist _____, um ein Auto zu kaufen.",
+     "en": "It's a favourable time to buy a car.",
+     "wrong": [
+      "höflich",
+      "neugierig",
+      "fleißig"
+     ]
+    }
+   ],
+   "tdist": [
+    "expensive",
+    "grateful",
+    "lonely"
+   ],
+   "de_wrong": [
+    "teuer",
+    "dankbar",
+    "wütend"
+   ],
+   "note": "B1/B2 alternative to billig — sounds positive (good value), while billig can mean cheap-quality."
+  },
+  {
+   "word": "bedeutend",
+   "english": "significant / important / considerable",
+   "cefr": "B1",
+   "antonym": "unbedeutend",
+   "tags": [
+    "abstract"
+   ],
+   "sent": [
+    {
+     "de": "Der Unterschied ist _____: 30 Prozent!",
+     "en": "The difference is significant: 30 percent!",
+     "wrong": [
+      "höflich",
+      "müde",
+      "neugierig"
+     ]
+    },
+    {
+     "de": "Diese Entdeckung ist wissenschaftlich sehr _____.",
+     "en": "This discovery is scientifically very significant.",
+     "wrong": [
+      "ehrlich",
+      "faul",
+      "mutig"
+     ]
+    }
+   ],
+   "tdist": [
+    "lonely",
+    "grateful",
+    "relaxed"
+   ],
+   "de_wrong": [
+    "einsam",
+    "dankbar",
+    "günstig"
+   ],
+   "note": "B1/B2 alternative to wichtig; comparative bedeutender (for wichtiger)."
+  },
+  {
+   "word": "unkompliziert",
+   "english": "uncomplicated / straightforward / easy-going",
+   "cefr": "B1",
+   "antonym": "kompliziert",
+   "tags": [
+    "character",
+    "abstract"
+   ],
+   "sent": [
+    {
+     "de": "Die Anmeldung ist ganz _____ – nur zwei Klicks.",
+     "en": "Registration is really straightforward – just two clicks.",
+     "wrong": [
+      "wütend",
+      "verliebt",
+      "einsam"
+     ]
+    },
+    {
+     "de": "Mein Mitbewohner ist sehr _____ – mit ihm gibt es nie Probleme.",
+     "en": "My flatmate is very easy-going – there are never problems with him.",
+     "wrong": [
+      "leer",
+      "nass",
+      "geschlossen"
+     ]
+    }
+   ],
+   "tdist": [
+    "embarrassed",
+    "annoyed",
+    "in love"
+   ],
+   "de_wrong": [
+    "verlegen",
+    "dankbar",
+    "wütend"
+   ],
+   "note": "B1/B2 alternative to einfach."
+  },
+  {
+   "word": "ausgezeichnet",
+   "english": "excellent",
+   "cefr": "B1",
+   "antonym": "",
+   "tags": [
+    "evaluation"
+   ],
+   "sent": [
+    {
+     "de": "Das Essen in diesem Restaurant ist _____.",
+     "en": "The food in this restaurant is excellent.",
+     "wrong": [
+      "verliebt",
+      "einsam",
+      "nervös"
+     ]
+    },
+    {
+     "de": "Du hast die Prüfung mit „sehr gut“ bestanden – _____!",
+     "en": "You passed the exam with 'very good' – excellent!",
+     "wrong": [
+      "erkältet",
+      "besorgt",
+      "gestresst"
+     ]
+    }
+   ],
+   "tdist": [
+    "exhausted",
+    "worried",
+    "bored"
+   ],
+   "de_wrong": [
+    "einsam",
+    "besorgt",
+    "gelangweilt"
+   ],
+   "note": "B1/B2 alternative to Klasse! Not comparable. Also Partizip II of auszeichnen (to award)."
+  },
+  {
+   "word": "wütend",
+   "english": "angry / furious",
+   "cefr": "A2",
+   "antonym": "ruhig",
+   "tags": [
+    "emotions"
+   ],
+   "sent": [
+    {
+     "de": "Er schreit und schlägt die Tür zu – er ist richtig _____.",
+     "en": "He shouts and slams the door – he's really furious.",
+     "wrong": [
+      "entspannt",
+      "dankbar",
+      "zufrieden"
+     ]
+    },
+    {
+     "de": "Warum bist du so _____ auf mich? Ich habe nichts gemacht!",
+     "en": "Why are you so angry with me? I didn't do anything!",
+     "wrong": [
+      "dankbar",
+      "verliebt",
+      "einsam"
+     ]
+    }
+   ],
+   "tdist": [
+    "grateful",
+    "lonely",
+    "relaxed"
+   ],
+   "de_wrong": [
+    "dankbar",
+    "einsam",
+    "verliebt"
+   ],
+   "note": "wütend auf + Akk (a person), wütend über + Akk (a thing)."
+  },
+  {
+   "word": "einsam",
+   "english": "lonely",
+   "cefr": "B1",
+   "antonym": "gesellig",
+   "tags": [
+    "emotions"
+   ],
+   "sent": [
+    {
+     "de": "Seit seine Frau gestorben ist, fühlt er sich oft _____.",
+     "en": "Since his wife died, he often feels lonely.",
+     "wrong": [
+      "günstig",
+      "teuer",
+      "pünktlich"
+     ]
+    },
+    {
+     "de": "Das Haus steht ganz _____ auf dem Hügel.",
+     "en": "The house stands all alone on the hill.",
+     "wrong": [
+      "dankbar",
+      "verliebt",
+      "gestresst"
+     ]
+    }
+   ],
+   "tdist": [
+    "grateful",
+    "embarrassed",
+    "stressed"
+   ],
+   "de_wrong": [
+    "verlegen",
+    "wütend",
+    "begeistert"
+   ],
+   "note": "die Einsamkeit = loneliness."
+  },
+  {
+   "word": "gelangweilt",
+   "english": "bored",
+   "cefr": "B1",
+   "antonym": "",
+   "tags": [
+    "emotions"
+   ],
+   "sent": [
+    {
+     "de": "Der Film ist so langweilig – ich bin total _____.",
+     "en": "The film is so boring – I'm totally bored.",
+     "wrong": [
+      "begeistert",
+      "dankbar",
+      "verliebt"
+     ]
+    },
+    {
+     "de": "Die Schüler schauen _____ aus dem Fenster.",
+     "en": "The pupils look out of the window, bored.",
+     "wrong": [
+      "teuer",
+      "günstig",
+      "geschlossen"
+     ]
+    }
+   ],
+   "tdist": [
+    "proud",
+    "angry",
+    "relaxed"
+   ],
+   "de_wrong": [
+    "begeistert",
+    "verliebt",
+    "dankbar"
+   ],
+   "note": "gelangweilt = bored (how you feel); langweilig = boring (what causes it)."
+  },
+  {
+   "word": "entspannt",
+   "english": "relaxed",
+   "cefr": "A2",
+   "antonym": "gestresst",
+   "tags": [
+    "emotions"
+   ],
+   "sent": [
+    {
+     "de": "Nach dem Urlaub bin ich ganz _____.",
+     "en": "After the holiday I'm completely relaxed.",
+     "wrong": [
+      "teuer",
+      "günstig",
+      "leer"
+     ]
+    },
+    {
+     "de": "Die Atmosphäre im Café ist sehr _____.",
+     "en": "The atmosphere in the café is very relaxed.",
+     "wrong": [
+      "verliebt",
+      "dankbar",
+      "eifersüchtig"
+     ]
+    }
+   ],
+   "tdist": [
+    "stressed",
+    "lonely",
+    "worried"
+   ],
+   "de_wrong": [
+    "gestresst",
+    "wütend",
+    "verlegen"
+   ],
+   "note": "Partizip II of entspannen (to relax)."
+  },
+  {
+   "word": "verlegen",
+   "english": "embarrassed / sheepish",
+   "cefr": "B1",
+   "antonym": "selbstbewusst",
+   "tags": [
+    "emotions"
+   ],
+   "sent": [
+    {
+     "de": "Als alle ihn ansehen, wird er rot und ganz _____.",
+     "en": "When everyone looks at him, he turns red and very embarrassed.",
+     "wrong": [
+      "teuer",
+      "günstig",
+      "leer"
+     ]
+    },
+    {
+     "de": "Sie lächelte _____, als er ihr ein Kompliment machte.",
+     "en": "She smiled sheepishly when he paid her a compliment.",
+     "wrong": [
+      "teuer",
+      "günstig",
+      "geschlossen"
+     ]
+    }
+   ],
+   "tdist": [
+    "grateful",
+    "angry",
+    "bored"
+   ],
+   "de_wrong": [
+    "wütend",
+    "begeistert",
+    "entspannt"
+   ],
+   "note": "Also a verb: verlegen = to misplace / to postpone / to publish."
+  },
+  {
+   "word": "besorgt",
+   "english": "worried / concerned",
+   "cefr": "B1",
+   "antonym": "unbesorgt",
+   "tags": [
+    "emotions"
+   ],
+   "sent": [
+    {
+     "de": "Die Mutter ist _____, weil ihr Sohn noch nicht zu Hause ist.",
+     "en": "The mother is worried because her son isn't home yet.",
+     "wrong": [
+      "teuer",
+      "günstig",
+      "leer"
+     ]
+    },
+    {
+     "de": "Ich bin _____ um deine Gesundheit.",
+     "en": "I'm worried about your health.",
+     "wrong": [
+      "dankbar",
+      "stolz",
+      "verliebt"
+     ]
+    }
+   ],
+   "tdist": [
+    "bored",
+    "in love",
+    "grateful"
+   ],
+   "de_wrong": [
+    "gelangweilt",
+    "dankbar",
+    "verliebt"
+   ],
+   "note": "besorgt um + Akk. die Sorge = the worry."
+  },
+  {
+   "word": "genervt",
+   "english": "annoyed",
+   "cefr": "A2",
+   "antonym": "",
+   "tags": [
+    "emotions"
+   ],
+   "sent": [
+    {
+     "de": "Der Nachbar spielt jeden Abend laute Musik – ich bin total _____.",
+     "en": "The neighbour plays loud music every evening – I'm totally annoyed.",
+     "wrong": [
+      "teuer",
+      "günstig",
+      "leer"
+     ]
+    },
+    {
+     "de": "Er verdreht _____ die Augen.",
+     "en": "He rolls his eyes, annoyed.",
+     "wrong": [
+      "teuer",
+      "günstig",
+      "geschlossen"
+     ]
+    }
+   ],
+   "tdist": [
+    "grateful",
+    "lonely",
+    "in love"
+   ],
+   "de_wrong": [
+    "dankbar",
+    "verliebt",
+    "entspannt"
+   ],
+   "note": "Colloquial. From nerven (to get on someone's nerves)."
+  },
+  {
+   "word": "dankbar",
+   "english": "grateful / thankful",
+   "cefr": "A2",
+   "antonym": "undankbar",
+   "tags": [
+    "emotions"
+   ],
+   "sent": [
+    {
+     "de": "Ich bin dir sehr _____ für deine Hilfe.",
+     "en": "I'm very grateful to you for your help.",
+     "wrong": [
+      "wütend",
+      "verliebt",
+      "einsam"
+     ]
+    },
+    {
+     "de": "Wir sind _____, dass alle gesund sind.",
+     "en": "We are grateful that everyone is healthy.",
+     "wrong": [
+      "teuer",
+      "günstig",
+      "leer"
+     ]
+    }
+   ],
+   "tdist": [
+    "jealous",
+    "annoyed",
+    "thoughtful"
+   ],
+   "de_wrong": [
+    "wütend",
+    "einsam",
+    "verlegen"
+   ],
+   "note": "jemandem (Dat) dankbar sein für + Akk."
+  },
+  {
+   "word": "nachdenklich",
+   "english": "thoughtful / pensive",
+   "cefr": "B1",
+   "antonym": "",
+   "tags": [
+    "emotions",
+    "thinking"
+   ],
+   "sent": [
+    {
+     "de": "Nach dem Gespräch war sie sehr _____ und still.",
+     "en": "After the conversation she was very pensive and quiet.",
+     "wrong": [
+      "teuer",
+      "günstig",
+      "leer"
+     ]
+    },
+    {
+     "de": "Dieser Film macht mich _____.",
+     "en": "This film makes me thoughtful.",
+     "wrong": [
+      "teuer",
+      "günstig",
+      "geschlossen"
+     ]
+    }
+   ],
+   "tdist": [
+    "in love",
+    "stressed",
+    "relaxed"
+   ],
+   "de_wrong": [
+    "begeistert",
+    "genervt",
+    "verliebt"
+   ],
+   "note": "From nachdenken (to think about)."
+  },
+  {
+   "word": "verliebt",
+   "english": "in love",
+   "cefr": "A2",
+   "antonym": "",
+   "tags": [
+    "emotions",
+    "relationships"
+   ],
+   "sent": [
+    {
+     "de": "Paul ist in seine Kollegin _____.",
+     "en": "Paul is in love with his colleague.",
+     "wrong": [
+      "dankbar",
+      "wütend",
+      "stolz"
+     ]
+    },
+    {
+     "de": "Die beiden sind frisch _____ und sehr glücklich.",
+     "en": "The two of them are newly in love and very happy.",
+     "wrong": [
+      "teuer",
+      "günstig",
+      "leer"
+     ]
+    }
+   ],
+   "tdist": [
+    "jealous",
+    "grateful",
+    "worried"
+   ],
+   "de_wrong": [
+    "eifersüchtig",
+    "dankbar",
+    "besorgt"
+   ],
+   "note": "verliebt in + Akk. sich verlieben = to fall in love."
+  },
+  {
+   "word": "gestresst",
+   "english": "stressed",
+   "cefr": "A2",
+   "antonym": "entspannt",
+   "tags": [
+    "emotions",
+    "work"
+   ],
+   "sent": [
+    {
+     "de": "Ich habe zu viel Arbeit und bin total _____.",
+     "en": "I have too much work and I'm totally stressed.",
+     "wrong": [
+      "teuer",
+      "günstig",
+      "leer"
+     ]
+    },
+    {
+     "de": "Vor Prüfungen sind viele Studenten _____.",
+     "en": "Before exams many students are stressed.",
+     "wrong": [
+      "teuer",
+      "günstig",
+      "geschlossen"
+     ]
+    }
+   ],
+   "tdist": [
+    "relaxed",
+    "bored",
+    "grateful"
+   ],
+   "de_wrong": [
+    "entspannt",
+    "dankbar",
+    "verliebt"
+   ],
+   "note": "der Stress = stress."
+  }
+ ]
+}

@@ -65928,5 +65928,5976 @@
       "ihr": "habt zugehört",
       "sie_Sie": "haben zugehört"
     }
+  },
+  {
+    "exercise_id": "ex_verb_dauern_001",
+    "word_id": "verb_dauern",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "dauern",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to last / to take (time)",
+    "wrong_answers": [
+      "to wait",
+      "to hurry",
+      "to repeat"
+    ],
+    "explanation_en": "'dauern' means 'to last / to take (time)'. Impersonal with time: Es dauert lange. B1/B2 synonym: anhalten."
+  },
+  {
+    "exercise_id": "ex_verb_dauern_002",
+    "word_id": "verb_dauern",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Film _____ zwei Stunden.",
+      "en": "The film lasts two hours.",
+      "show_english": true
+    },
+    "correct_answer": "dauert",
+    "wrong_answers": [
+      "dauerst",
+      "dauere",
+      "gedauert"
+    ],
+    "explanation_en": "'dauert' is the er/sie/es form of 'dauern' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_dauern_003",
+    "word_id": "verb_dauern",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Bauarbeiten _____ noch drei Wochen.",
+      "en": "The construction work will take another three weeks.",
+      "show_english": true
+    },
+    "correct_answer": "dauern",
+    "wrong_answers": [
+      "dauerst",
+      "dauert",
+      "gedauert"
+    ],
+    "explanation_en": "'dauern' is the sie/Sie form of 'dauern' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_dauern_004",
+    "word_id": "verb_dauern",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wie lange _____ die Fahrt nach Hamburg?",
+      "en": "How long does the drive to Hamburg take?",
+      "show_english": true
+    },
+    "correct_answer": "dauert",
+    "wrong_answers": [
+      "dauerst",
+      "dauere",
+      "gedauert"
+    ],
+    "explanation_en": "'dauert' is the er/sie/es form of 'dauern' in the present tense."
+  },
+  {
+    "exercise_id": "verb_dauern_partizip",
+    "word_id": "verb_dauern",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "dauern",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "gedauert",
+    "explanation_en": "The Partizip II of 'dauern' is 'gedauert'. Regular verb: ge- + stem + -t."
+  },
+  {
+    "exercise_id": "verb_dauern_aux",
+    "word_id": "verb_dauern",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "dauern",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'dauern' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_dauern_table_prasens",
+    "word_id": "verb_dauern",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "dauern",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "dauere",
+      "du": "dauerst",
+      "er_sie_es": "dauert",
+      "wir": "dauern",
+      "ihr": "dauert",
+      "sie_Sie": "dauern"
+    }
+  },
+  {
+    "exercise_id": "verb_dauern_table_prateritum",
+    "word_id": "verb_dauern",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "dauern",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "dauerte",
+      "du": "dauertest",
+      "er_sie_es": "dauerte",
+      "wir": "dauerten",
+      "ihr": "dauertet",
+      "sie_Sie": "dauerten"
+    }
+  },
+  {
+    "exercise_id": "verb_dauern_table_perfekt",
+    "word_id": "verb_dauern",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "dauern",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe gedauert",
+      "du": "hast gedauert",
+      "er_sie_es": "hat gedauert",
+      "wir": "haben gedauert",
+      "ihr": "habt gedauert",
+      "sie_Sie": "haben gedauert"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_reden_001",
+    "word_id": "verb_reden",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "reden",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to talk",
+    "wrong_answers": [
+      "to listen",
+      "to write",
+      "to be silent"
+    ],
+    "explanation_en": "'reden' means 'to talk'. More colloquial than sprechen. reden über + Akk, reden mit + Dat."
+  },
+  {
+    "exercise_id": "ex_verb_reden_002",
+    "word_id": "verb_reden",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wir _____ oft über Politik.",
+      "en": "We often talk about politics.",
+      "show_english": true
+    },
+    "correct_answer": "reden",
+    "wrong_answers": [
+      "redest",
+      "redet",
+      "geredet"
+    ],
+    "explanation_en": "'reden' is the wir form of 'reden' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_reden_003",
+    "word_id": "verb_reden",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Mein Opa _____ gern über früher.",
+      "en": "My grandpa likes talking about the old days.",
+      "show_english": true
+    },
+    "correct_answer": "redet",
+    "wrong_answers": [
+      "redest",
+      "rede",
+      "geredet"
+    ],
+    "explanation_en": "'redet' is the er/sie/es form of 'reden' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_reden_004",
+    "word_id": "verb_reden",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Du _____ zu schnell!",
+      "en": "You talk too fast!",
+      "show_english": true
+    },
+    "correct_answer": "redest",
+    "wrong_answers": [
+      "redet",
+      "rede",
+      "geredet"
+    ],
+    "explanation_en": "'redest' is the du form of 'reden' in the present tense."
+  },
+  {
+    "exercise_id": "verb_reden_partizip",
+    "word_id": "verb_reden",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "reden",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "geredet",
+    "explanation_en": "The Partizip II of 'reden' is 'geredet'. Regular verb: ge- + stem + -t."
+  },
+  {
+    "exercise_id": "verb_reden_aux",
+    "word_id": "verb_reden",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "reden",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'reden' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_reden_table_prasens",
+    "word_id": "verb_reden",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "reden",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "rede",
+      "du": "redest",
+      "er_sie_es": "redet",
+      "wir": "reden",
+      "ihr": "redet",
+      "sie_Sie": "reden"
+    }
+  },
+  {
+    "exercise_id": "verb_reden_table_prateritum",
+    "word_id": "verb_reden",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "reden",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "redete",
+      "du": "redetest",
+      "er_sie_es": "redete",
+      "wir": "redeten",
+      "ihr": "redetet",
+      "sie_Sie": "redeten"
+    }
+  },
+  {
+    "exercise_id": "verb_reden_table_perfekt",
+    "word_id": "verb_reden",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "reden",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe geredet",
+      "du": "hast geredet",
+      "er_sie_es": "hat geredet",
+      "wir": "haben geredet",
+      "ihr": "habt geredet",
+      "sie_Sie": "haben geredet"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_melden_001",
+    "word_id": "verb_melden",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "melden",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to report / (sich) to get in touch",
+    "wrong_answers": [
+      "to forget",
+      "to hide",
+      "to forgive"
+    ],
+    "explanation_en": "'melden' means 'to report / (sich) to get in touch'. sich melden (bei + Dat) = to get in touch."
+  },
+  {
+    "exercise_id": "ex_verb_melden_002",
+    "word_id": "verb_melden",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____ mich morgen bei dir.",
+      "en": "I'll get in touch with you tomorrow.",
+      "show_english": true
+    },
+    "correct_answer": "melde",
+    "wrong_answers": [
+      "meldest",
+      "meldet",
+      "gemeldet"
+    ],
+    "explanation_en": "'melde' is the ich form of 'melden' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_melden_003",
+    "word_id": "verb_melden",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Warum _____ du dich nie?",
+      "en": "Why do you never get in touch?",
+      "show_english": true
+    },
+    "correct_answer": "meldest",
+    "wrong_answers": [
+      "meldet",
+      "melde",
+      "gemeldet"
+    ],
+    "explanation_en": "'meldest' is the du form of 'melden' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_melden_004",
+    "word_id": "verb_melden",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Nachbar _____ den Unfall der Polizei.",
+      "en": "The neighbour reports the accident to the police.",
+      "show_english": true
+    },
+    "correct_answer": "meldet",
+    "wrong_answers": [
+      "meldest",
+      "melde",
+      "gemeldet"
+    ],
+    "explanation_en": "'meldet' is the er/sie/es form of 'melden' in the present tense."
+  },
+  {
+    "exercise_id": "verb_melden_partizip",
+    "word_id": "verb_melden",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "melden",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "gemeldet",
+    "explanation_en": "The Partizip II of 'melden' is 'gemeldet'. Regular verb: ge- + stem + -t."
+  },
+  {
+    "exercise_id": "verb_melden_aux",
+    "word_id": "verb_melden",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "melden",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'melden' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_melden_table_prasens",
+    "word_id": "verb_melden",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "melden",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "melde",
+      "du": "meldest",
+      "er_sie_es": "meldet",
+      "wir": "melden",
+      "ihr": "meldet",
+      "sie_Sie": "melden"
+    }
+  },
+  {
+    "exercise_id": "verb_melden_table_prateritum",
+    "word_id": "verb_melden",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "melden",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "meldete",
+      "du": "meldetest",
+      "er_sie_es": "meldete",
+      "wir": "meldeten",
+      "ihr": "meldetet",
+      "sie_Sie": "meldeten"
+    }
+  },
+  {
+    "exercise_id": "verb_melden_table_perfekt",
+    "word_id": "verb_melden",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "melden",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe gemeldet",
+      "du": "hast gemeldet",
+      "er_sie_es": "hat gemeldet",
+      "wir": "haben gemeldet",
+      "ihr": "habt gemeldet",
+      "sie_Sie": "haben gemeldet"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_niesen_001",
+    "word_id": "verb_niesen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "niesen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to sneeze",
+    "wrong_answers": [
+      "to cough",
+      "to snore",
+      "to whisper"
+    ],
+    "explanation_en": "'niesen' means 'to sneeze'. When someone sneezes, Germans say: Gesundheit!"
+  },
+  {
+    "exercise_id": "ex_verb_niesen_002",
+    "word_id": "verb_niesen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich muss ständig _____.",
+      "en": "I keep having to sneeze.",
+      "show_english": true
+    },
+    "correct_answer": "niesen",
+    "wrong_answers": [
+      "niest",
+      "geniest",
+      "niese"
+    ],
+    "explanation_en": "After a modal verb (or zu/lassen) the infinitive 'niesen' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_niesen_003",
+    "word_id": "verb_niesen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Bei Heuschnupfen _____ wir oft.",
+      "en": "With hay fever we sneeze a lot.",
+      "show_english": true
+    },
+    "correct_answer": "niesen",
+    "wrong_answers": [
+      "niest",
+      "geniest",
+      "niese"
+    ],
+    "explanation_en": "'niesen' is the wir form of 'niesen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_niesen_004",
+    "word_id": "verb_niesen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Mein Bruder _____ immer dreimal hintereinander.",
+      "en": "My brother always sneezes three times in a row.",
+      "show_english": true
+    },
+    "correct_answer": "niest",
+    "wrong_answers": [
+      "niese",
+      "niesen",
+      "geniest"
+    ],
+    "explanation_en": "'niest' is the er/sie/es form of 'niesen' in the present tense."
+  },
+  {
+    "exercise_id": "verb_niesen_partizip",
+    "word_id": "verb_niesen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "niesen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "geniest",
+    "explanation_en": "The Partizip II of 'niesen' is 'geniest'. Regular verb: ge- + stem + -t."
+  },
+  {
+    "exercise_id": "verb_niesen_aux",
+    "word_id": "verb_niesen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "niesen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'niesen' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_niesen_table_prasens",
+    "word_id": "verb_niesen",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "niesen",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "niese",
+      "du": "niest",
+      "er_sie_es": "niest",
+      "wir": "niesen",
+      "ihr": "niest",
+      "sie_Sie": "niesen"
+    }
+  },
+  {
+    "exercise_id": "verb_niesen_table_prateritum",
+    "word_id": "verb_niesen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "niesen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "nieste",
+      "du": "niestest",
+      "er_sie_es": "nieste",
+      "wir": "niesten",
+      "ihr": "niestet",
+      "sie_Sie": "niesten"
+    }
+  },
+  {
+    "exercise_id": "verb_niesen_table_perfekt",
+    "word_id": "verb_niesen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "niesen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe geniest",
+      "du": "hast geniest",
+      "er_sie_es": "hat geniest",
+      "wir": "haben geniest",
+      "ihr": "habt geniest",
+      "sie_Sie": "haben geniest"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_lachen_001",
+    "word_id": "verb_lachen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "lachen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to laugh",
+    "wrong_answers": [
+      "to cry",
+      "to shout",
+      "to sigh"
+    ],
+    "explanation_en": "'lachen' means 'to laugh'. lachen über + Akk = to laugh at/about. Not lächeln (to smile)."
+  },
+  {
+    "exercise_id": "ex_verb_lachen_002",
+    "word_id": "verb_lachen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wir _____ über den Witz.",
+      "en": "We laugh at the joke.",
+      "show_english": true
+    },
+    "correct_answer": "lachen",
+    "wrong_answers": [
+      "lachst",
+      "lacht",
+      "gelacht"
+    ],
+    "explanation_en": "'lachen' is the wir form of 'lachen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_lachen_003",
+    "word_id": "verb_lachen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Baby _____ den ganzen Tag.",
+      "en": "The baby laughs all day.",
+      "show_english": true
+    },
+    "correct_answer": "lacht",
+    "wrong_answers": [
+      "lachst",
+      "lache",
+      "gelacht"
+    ],
+    "explanation_en": "'lacht' is the er/sie/es form of 'lachen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_lachen_004",
+    "word_id": "verb_lachen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Warum _____ du?",
+      "en": "Why are you laughing?",
+      "show_english": true
+    },
+    "correct_answer": "lachst",
+    "wrong_answers": [
+      "lacht",
+      "lache",
+      "gelacht"
+    ],
+    "explanation_en": "'lachst' is the du form of 'lachen' in the present tense."
+  },
+  {
+    "exercise_id": "verb_lachen_partizip",
+    "word_id": "verb_lachen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "lachen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "gelacht",
+    "explanation_en": "The Partizip II of 'lachen' is 'gelacht'. Regular verb: ge- + stem + -t."
+  },
+  {
+    "exercise_id": "verb_lachen_aux",
+    "word_id": "verb_lachen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "lachen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'lachen' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_lachen_table_prasens",
+    "word_id": "verb_lachen",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "lachen",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "lache",
+      "du": "lachst",
+      "er_sie_es": "lacht",
+      "wir": "lachen",
+      "ihr": "lacht",
+      "sie_Sie": "lachen"
+    }
+  },
+  {
+    "exercise_id": "verb_lachen_table_prateritum",
+    "word_id": "verb_lachen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "lachen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "lachte",
+      "du": "lachtest",
+      "er_sie_es": "lachte",
+      "wir": "lachten",
+      "ihr": "lachtet",
+      "sie_Sie": "lachten"
+    }
+  },
+  {
+    "exercise_id": "verb_lachen_table_perfekt",
+    "word_id": "verb_lachen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "lachen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe gelacht",
+      "du": "hast gelacht",
+      "er_sie_es": "hat gelacht",
+      "wir": "haben gelacht",
+      "ihr": "habt gelacht",
+      "sie_Sie": "haben gelacht"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_schnipsen_001",
+    "word_id": "verb_schnipsen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "schnipsen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to snap (one's fingers) / to flick",
+    "wrong_answers": [
+      "to clap",
+      "to whistle",
+      "to knock"
+    ],
+    "explanation_en": "'schnipsen' means 'to snap (one's fingers) / to flick'. mit den Fingern schnipsen. (The source image wrote 'schipsen' — that is not a German word.)"
+  },
+  {
+    "exercise_id": "ex_verb_schnipsen_002",
+    "word_id": "verb_schnipsen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Kellner kommt, wenn du mit den Fingern _____.",
+      "en": "The waiter comes when you snap your fingers.",
+      "show_english": true
+    },
+    "correct_answer": "schnipst",
+    "wrong_answers": [
+      "schnipse",
+      "schnipsen",
+      "geschnipst"
+    ],
+    "explanation_en": "'schnipst' is the du form of 'schnipsen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_schnipsen_003",
+    "word_id": "verb_schnipsen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Zuschauer _____ mit den Fingern, statt zu klatschen.",
+      "en": "The audience snap their fingers instead of clapping.",
+      "show_english": true
+    },
+    "correct_answer": "schnipsen",
+    "wrong_answers": [
+      "schnipst",
+      "geschnipst",
+      "schnipse"
+    ],
+    "explanation_en": "'schnipsen' is the sie/Sie form of 'schnipsen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_schnipsen_004",
+    "word_id": "verb_schnipsen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____ im Takt der Musik.",
+      "en": "I snap my fingers to the beat of the music.",
+      "show_english": true
+    },
+    "correct_answer": "schnipse",
+    "wrong_answers": [
+      "schnipst",
+      "geschnipst",
+      "schnipsen"
+    ],
+    "explanation_en": "'schnipse' is the ich form of 'schnipsen' in the present tense."
+  },
+  {
+    "exercise_id": "verb_schnipsen_partizip",
+    "word_id": "verb_schnipsen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "schnipsen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "geschnipst",
+    "explanation_en": "The Partizip II of 'schnipsen' is 'geschnipst'. Regular verb: ge- + stem + -t."
+  },
+  {
+    "exercise_id": "verb_schnipsen_aux",
+    "word_id": "verb_schnipsen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "schnipsen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'schnipsen' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_schnipsen_table_prasens",
+    "word_id": "verb_schnipsen",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "schnipsen",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "schnipse",
+      "du": "schnipst",
+      "er_sie_es": "schnipst",
+      "wir": "schnipsen",
+      "ihr": "schnipst",
+      "sie_Sie": "schnipsen"
+    }
+  },
+  {
+    "exercise_id": "verb_schnipsen_table_prateritum",
+    "word_id": "verb_schnipsen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "schnipsen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "schnipste",
+      "du": "schnipstest",
+      "er_sie_es": "schnipste",
+      "wir": "schnipsten",
+      "ihr": "schnipstet",
+      "sie_Sie": "schnipsten"
+    }
+  },
+  {
+    "exercise_id": "verb_schnipsen_table_perfekt",
+    "word_id": "verb_schnipsen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "schnipsen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe geschnipst",
+      "du": "hast geschnipst",
+      "er_sie_es": "hat geschnipst",
+      "wir": "haben geschnipst",
+      "ihr": "habt geschnipst",
+      "sie_Sie": "haben geschnipst"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_flüstern_001",
+    "word_id": "verb_flüstern",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "flüstern",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to whisper",
+    "wrong_answers": [
+      "to shout",
+      "to sing",
+      "to cough"
+    ],
+    "explanation_en": "'flüstern' means 'to whisper'. Opposite: schreien (to shout)."
+  },
+  {
+    "exercise_id": "ex_verb_flüstern_002",
+    "word_id": "verb_flüstern",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Im Kino _____ wir nur.",
+      "en": "In the cinema we only whisper.",
+      "show_english": true
+    },
+    "correct_answer": "flüstern",
+    "wrong_answers": [
+      "flüsterst",
+      "flüstert",
+      "geflüstert"
+    ],
+    "explanation_en": "'flüstern' is the wir form of 'flüstern' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_flüstern_003",
+    "word_id": "verb_flüstern",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Warum _____ ihr?",
+      "en": "Why are you all whispering?",
+      "show_english": true
+    },
+    "correct_answer": "flüstert",
+    "wrong_answers": [
+      "flüsterst",
+      "flüstere",
+      "geflüstert"
+    ],
+    "explanation_en": "'flüstert' is the ihr form of 'flüstern' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_flüstern_004",
+    "word_id": "verb_flüstern",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____ dir ein Geheimnis ins Ohr.",
+      "en": "I whisper a secret in your ear.",
+      "show_english": true
+    },
+    "correct_answer": "flüstere",
+    "wrong_answers": [
+      "flüsterst",
+      "flüstert",
+      "geflüstert"
+    ],
+    "explanation_en": "'flüstere' is the ich form of 'flüstern' in the present tense."
+  },
+  {
+    "exercise_id": "verb_flüstern_partizip",
+    "word_id": "verb_flüstern",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "flüstern",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "geflüstert",
+    "explanation_en": "The Partizip II of 'flüstern' is 'geflüstert'. Regular verb: ge- + stem + -t."
+  },
+  {
+    "exercise_id": "verb_flüstern_aux",
+    "word_id": "verb_flüstern",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "flüstern",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'flüstern' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_flüstern_table_prasens",
+    "word_id": "verb_flüstern",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "flüstern",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "flüstere",
+      "du": "flüsterst",
+      "er_sie_es": "flüstert",
+      "wir": "flüstern",
+      "ihr": "flüstert",
+      "sie_Sie": "flüstern"
+    }
+  },
+  {
+    "exercise_id": "verb_flüstern_table_prateritum",
+    "word_id": "verb_flüstern",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "flüstern",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "flüsterte",
+      "du": "flüstertest",
+      "er_sie_es": "flüsterte",
+      "wir": "flüsterten",
+      "ihr": "flüstertet",
+      "sie_Sie": "flüsterten"
+    }
+  },
+  {
+    "exercise_id": "verb_flüstern_table_perfekt",
+    "word_id": "verb_flüstern",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "flüstern",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe geflüstert",
+      "du": "hast geflüstert",
+      "er_sie_es": "hat geflüstert",
+      "wir": "haben geflüstert",
+      "ihr": "habt geflüstert",
+      "sie_Sie": "haben geflüstert"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_schnarchen_001",
+    "word_id": "verb_schnarchen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "schnarchen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to snore",
+    "wrong_answers": [
+      "to sneeze",
+      "to dream",
+      "to whisper"
+    ],
+    "explanation_en": "'schnarchen' means 'to snore'."
+  },
+  {
+    "exercise_id": "ex_verb_schnarchen_002",
+    "word_id": "verb_schnarchen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Mein Vater _____ jede Nacht.",
+      "en": "My father snores every night.",
+      "show_english": true
+    },
+    "correct_answer": "schnarcht",
+    "wrong_answers": [
+      "schnarchst",
+      "schnarche",
+      "geschnarcht"
+    ],
+    "explanation_en": "'schnarcht' is the er/sie/es form of 'schnarchen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_schnarchen_003",
+    "word_id": "verb_schnarchen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich _____ nur, wenn ich erkältet bin.",
+      "en": "I only snore when I have a cold.",
+      "show_english": true
+    },
+    "correct_answer": "schnarche",
+    "wrong_answers": [
+      "schnarchst",
+      "schnarcht",
+      "geschnarcht"
+    ],
+    "explanation_en": "'schnarche' is the ich form of 'schnarchen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_schnarchen_004",
+    "word_id": "verb_schnarchen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Du _____ so laut, ich kann nicht schlafen!",
+      "en": "You snore so loudly, I can't sleep!",
+      "show_english": true
+    },
+    "correct_answer": "schnarchst",
+    "wrong_answers": [
+      "schnarcht",
+      "schnarche",
+      "geschnarcht"
+    ],
+    "explanation_en": "'schnarchst' is the du form of 'schnarchen' in the present tense."
+  },
+  {
+    "exercise_id": "verb_schnarchen_partizip",
+    "word_id": "verb_schnarchen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "schnarchen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "geschnarcht",
+    "explanation_en": "The Partizip II of 'schnarchen' is 'geschnarcht'. Regular verb: ge- + stem + -t."
+  },
+  {
+    "exercise_id": "verb_schnarchen_aux",
+    "word_id": "verb_schnarchen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "schnarchen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'schnarchen' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_schnarchen_table_prasens",
+    "word_id": "verb_schnarchen",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "schnarchen",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "schnarche",
+      "du": "schnarchst",
+      "er_sie_es": "schnarcht",
+      "wir": "schnarchen",
+      "ihr": "schnarcht",
+      "sie_Sie": "schnarchen"
+    }
+  },
+  {
+    "exercise_id": "verb_schnarchen_table_prateritum",
+    "word_id": "verb_schnarchen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "schnarchen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "schnarchte",
+      "du": "schnarchtest",
+      "er_sie_es": "schnarchte",
+      "wir": "schnarchten",
+      "ihr": "schnarchtet",
+      "sie_Sie": "schnarchten"
+    }
+  },
+  {
+    "exercise_id": "verb_schnarchen_table_perfekt",
+    "word_id": "verb_schnarchen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "schnarchen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe geschnarcht",
+      "du": "hast geschnarcht",
+      "er_sie_es": "hat geschnarcht",
+      "wir": "haben geschnarcht",
+      "ihr": "habt geschnarcht",
+      "sie_Sie": "haben geschnarcht"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_husten_001",
+    "word_id": "verb_husten",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "husten",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to cough",
+    "wrong_answers": [
+      "to sneeze",
+      "to snore",
+      "to swallow"
+    ],
+    "explanation_en": "'husten' means 'to cough'. der Husten = the cough."
+  },
+  {
+    "exercise_id": "ex_verb_husten_002",
+    "word_id": "verb_husten",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Kind _____ seit drei Tagen.",
+      "en": "The child has been coughing for three days.",
+      "show_english": true
+    },
+    "correct_answer": "hustet",
+    "wrong_answers": [
+      "hustest",
+      "huste",
+      "gehustet"
+    ],
+    "explanation_en": "'hustet' is the er/sie/es form of 'husten' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_husten_003",
+    "word_id": "verb_husten",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Warum _____ du so viel?",
+      "en": "Why are you coughing so much?",
+      "show_english": true
+    },
+    "correct_answer": "hustest",
+    "wrong_answers": [
+      "hustet",
+      "huste",
+      "gehustet"
+    ],
+    "explanation_en": "'hustest' is the du form of 'husten' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_husten_004",
+    "word_id": "verb_husten",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____ die ganze Nacht.",
+      "en": "I cough all night.",
+      "show_english": true
+    },
+    "correct_answer": "huste",
+    "wrong_answers": [
+      "hustest",
+      "hustet",
+      "gehustet"
+    ],
+    "explanation_en": "'huste' is the ich form of 'husten' in the present tense."
+  },
+  {
+    "exercise_id": "verb_husten_partizip",
+    "word_id": "verb_husten",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "husten",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "gehustet",
+    "explanation_en": "The Partizip II of 'husten' is 'gehustet'. Regular verb: ge- + stem + -t."
+  },
+  {
+    "exercise_id": "verb_husten_aux",
+    "word_id": "verb_husten",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "husten",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'husten' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_husten_table_prasens",
+    "word_id": "verb_husten",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "husten",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "huste",
+      "du": "hustest",
+      "er_sie_es": "hustet",
+      "wir": "husten",
+      "ihr": "hustet",
+      "sie_Sie": "husten"
+    }
+  },
+  {
+    "exercise_id": "verb_husten_table_prateritum",
+    "word_id": "verb_husten",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "husten",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "hustete",
+      "du": "hustetest",
+      "er_sie_es": "hustete",
+      "wir": "husteten",
+      "ihr": "hustetet",
+      "sie_Sie": "husteten"
+    }
+  },
+  {
+    "exercise_id": "verb_husten_table_perfekt",
+    "word_id": "verb_husten",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "husten",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe gehustet",
+      "du": "hast gehustet",
+      "er_sie_es": "hat gehustet",
+      "wir": "haben gehustet",
+      "ihr": "habt gehustet",
+      "sie_Sie": "haben gehustet"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_klatschen_001",
+    "word_id": "verb_klatschen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "klatschen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to clap / to applaud",
+    "wrong_answers": [
+      "to whistle",
+      "to wave",
+      "to jump"
+    ],
+    "explanation_en": "'klatschen' means 'to clap / to applaud'. Colloquially also: to gossip (über jemanden klatschen)."
+  },
+  {
+    "exercise_id": "ex_verb_klatschen_002",
+    "word_id": "verb_klatschen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Am Ende des Konzerts _____ alle Zuschauer.",
+      "en": "At the end of the concert all the spectators clap.",
+      "show_english": true
+    },
+    "correct_answer": "klatschen",
+    "wrong_answers": [
+      "klatschst",
+      "klatscht",
+      "geklatscht"
+    ],
+    "explanation_en": "'klatschen' is the sie/Sie form of 'klatschen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_klatschen_003",
+    "word_id": "verb_klatschen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Warum _____ ihr nicht?",
+      "en": "Why aren't you all clapping?",
+      "show_english": true
+    },
+    "correct_answer": "klatscht",
+    "wrong_answers": [
+      "klatschst",
+      "klatsche",
+      "geklatscht"
+    ],
+    "explanation_en": "'klatscht' is the ihr form of 'klatschen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_klatschen_004",
+    "word_id": "verb_klatschen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____ in die Hände.",
+      "en": "I clap my hands.",
+      "show_english": true
+    },
+    "correct_answer": "klatsche",
+    "wrong_answers": [
+      "klatschst",
+      "klatscht",
+      "geklatscht"
+    ],
+    "explanation_en": "'klatsche' is the ich form of 'klatschen' in the present tense."
+  },
+  {
+    "exercise_id": "verb_klatschen_partizip",
+    "word_id": "verb_klatschen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "klatschen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "geklatscht",
+    "explanation_en": "The Partizip II of 'klatschen' is 'geklatscht'. Regular verb: ge- + stem + -t."
+  },
+  {
+    "exercise_id": "verb_klatschen_aux",
+    "word_id": "verb_klatschen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "klatschen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'klatschen' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_klatschen_table_prasens",
+    "word_id": "verb_klatschen",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "klatschen",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "klatsche",
+      "du": "klatschst",
+      "er_sie_es": "klatscht",
+      "wir": "klatschen",
+      "ihr": "klatscht",
+      "sie_Sie": "klatschen"
+    }
+  },
+  {
+    "exercise_id": "verb_klatschen_table_prateritum",
+    "word_id": "verb_klatschen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "klatschen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "klatschte",
+      "du": "klatschtest",
+      "er_sie_es": "klatschte",
+      "wir": "klatschten",
+      "ihr": "klatschtet",
+      "sie_Sie": "klatschten"
+    }
+  },
+  {
+    "exercise_id": "verb_klatschen_table_perfekt",
+    "word_id": "verb_klatschen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "klatschen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe geklatscht",
+      "du": "hast geklatscht",
+      "er_sie_es": "hat geklatscht",
+      "wir": "haben geklatscht",
+      "ihr": "habt geklatscht",
+      "sie_Sie": "haben geklatscht"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_furzen_001",
+    "word_id": "verb_furzen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "furzen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to fart (vulgar)",
+    "wrong_answers": [
+      "to burp",
+      "to sneeze",
+      "to snore"
+    ],
+    "explanation_en": "'furzen' means 'to fart (vulgar)'. Vulgar — with friends only."
+  },
+  {
+    "exercise_id": "ex_verb_furzen_002",
+    "word_id": "verb_furzen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Hund _____ im Schlaf.",
+      "en": "The dog farts in its sleep.",
+      "show_english": true
+    },
+    "correct_answer": "furzt",
+    "wrong_answers": [
+      "furze",
+      "furzen",
+      "gefurzt"
+    ],
+    "explanation_en": "'furzt' is the er/sie/es form of 'furzen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_furzen_003",
+    "word_id": "verb_furzen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir _____ alle mal.",
+      "en": "We all fart sometimes.",
+      "show_english": true
+    },
+    "correct_answer": "furzen",
+    "wrong_answers": [
+      "furzt",
+      "gefurzt",
+      "furze"
+    ],
+    "explanation_en": "'furzen' is the wir form of 'furzen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_furzen_004",
+    "word_id": "verb_furzen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____ nie in der Öffentlichkeit.",
+      "en": "I never fart in public.",
+      "show_english": true
+    },
+    "correct_answer": "furze",
+    "wrong_answers": [
+      "furzt",
+      "gefurzt",
+      "furzen"
+    ],
+    "explanation_en": "'furze' is the ich form of 'furzen' in the present tense."
+  },
+  {
+    "exercise_id": "verb_furzen_partizip",
+    "word_id": "verb_furzen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "furzen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "gefurzt",
+    "explanation_en": "The Partizip II of 'furzen' is 'gefurzt'. Regular verb: ge- + stem + -t."
+  },
+  {
+    "exercise_id": "verb_furzen_aux",
+    "word_id": "verb_furzen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "furzen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'furzen' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_furzen_table_prasens",
+    "word_id": "verb_furzen",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "furzen",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "furze",
+      "du": "furzt",
+      "er_sie_es": "furzt",
+      "wir": "furzen",
+      "ihr": "furzt",
+      "sie_Sie": "furzen"
+    }
+  },
+  {
+    "exercise_id": "verb_furzen_table_prateritum",
+    "word_id": "verb_furzen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "furzen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "furzte",
+      "du": "furztest",
+      "er_sie_es": "furzte",
+      "wir": "furzten",
+      "ihr": "furztet",
+      "sie_Sie": "furzten"
+    }
+  },
+  {
+    "exercise_id": "verb_furzen_table_perfekt",
+    "word_id": "verb_furzen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "furzen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe gefurzt",
+      "du": "hast gefurzt",
+      "er_sie_es": "hat gefurzt",
+      "wir": "haben gefurzt",
+      "ihr": "habt gefurzt",
+      "sie_Sie": "haben gefurzt"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_fahnden_001",
+    "word_id": "verb_fahnden",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "fahnden",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to search for (police) / to hunt for",
+    "wrong_answers": [
+      "to arrest",
+      "to escape",
+      "to accuse"
+    ],
+    "explanation_en": "'fahnden' means 'to search for (police) / to hunt for'. fahnden nach + Dativ — mostly police/official language."
+  },
+  {
+    "exercise_id": "ex_verb_fahnden_002",
+    "word_id": "verb_fahnden",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Polizei _____ nach dem Täter.",
+      "en": "The police are searching for the perpetrator.",
+      "show_english": true
+    },
+    "correct_answer": "fahndet",
+    "wrong_answers": [
+      "fahndest",
+      "fahnde",
+      "gefahndet"
+    ],
+    "explanation_en": "'fahndet' is the er/sie/es form of 'fahnden' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_fahnden_003",
+    "word_id": "verb_fahnden",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Ermittler _____ europaweit nach dem Mann.",
+      "en": "The investigators are searching for the man all over Europe.",
+      "show_english": true
+    },
+    "correct_answer": "fahnden",
+    "wrong_answers": [
+      "fahndest",
+      "fahndet",
+      "gefahndet"
+    ],
+    "explanation_en": "'fahnden' is the sie/Sie form of 'fahnden' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_fahnden_004",
+    "word_id": "verb_fahnden",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wir _____ seit Wochen nach dem Fehler.",
+      "en": "We have been hunting for the bug for weeks.",
+      "show_english": true
+    },
+    "correct_answer": "fahnden",
+    "wrong_answers": [
+      "fahndest",
+      "fahndet",
+      "gefahndet"
+    ],
+    "explanation_en": "'fahnden' is the wir form of 'fahnden' in the present tense."
+  },
+  {
+    "exercise_id": "verb_fahnden_partizip",
+    "word_id": "verb_fahnden",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "fahnden",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "gefahndet",
+    "explanation_en": "The Partizip II of 'fahnden' is 'gefahndet'. Regular verb: ge- + stem + -t."
+  },
+  {
+    "exercise_id": "verb_fahnden_aux",
+    "word_id": "verb_fahnden",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "fahnden",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'fahnden' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_fahnden_table_prasens",
+    "word_id": "verb_fahnden",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "fahnden",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "fahnde",
+      "du": "fahndest",
+      "er_sie_es": "fahndet",
+      "wir": "fahnden",
+      "ihr": "fahndet",
+      "sie_Sie": "fahnden"
+    }
+  },
+  {
+    "exercise_id": "verb_fahnden_table_prateritum",
+    "word_id": "verb_fahnden",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "fahnden",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "fahndete",
+      "du": "fahndetest",
+      "er_sie_es": "fahndete",
+      "wir": "fahndeten",
+      "ihr": "fahndetet",
+      "sie_Sie": "fahndeten"
+    }
+  },
+  {
+    "exercise_id": "verb_fahnden_table_perfekt",
+    "word_id": "verb_fahnden",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "fahnden",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe gefahndet",
+      "du": "hast gefahndet",
+      "er_sie_es": "hat gefahndet",
+      "wir": "haben gefahndet",
+      "ihr": "habt gefahndet",
+      "sie_Sie": "haben gefahndet"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_fürchten_001",
+    "word_id": "verb_fürchten",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "fürchten",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to fear / (sich) to be afraid",
+    "wrong_answers": [
+      "to hope",
+      "to trust",
+      "to dare"
+    ],
+    "explanation_en": "'fürchten' means 'to fear / (sich) to be afraid'. sich fürchten vor + Dativ = to be afraid of. Everyday: Angst haben vor."
+  },
+  {
+    "exercise_id": "ex_verb_fürchten_002",
+    "word_id": "verb_fürchten",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____ mich vor großen Hunden.",
+      "en": "I'm afraid of big dogs.",
+      "show_english": true
+    },
+    "correct_answer": "fürchte",
+    "wrong_answers": [
+      "fürchtest",
+      "fürchtet",
+      "gefürchtet"
+    ],
+    "explanation_en": "'fürchte' is the ich form of 'fürchten' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_fürchten_003",
+    "word_id": "verb_fürchten",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Mein Bruder _____ sich vor Spinnen.",
+      "en": "My brother is afraid of spiders.",
+      "show_english": true
+    },
+    "correct_answer": "fürchtet",
+    "wrong_answers": [
+      "fürchtest",
+      "fürchte",
+      "gefürchtet"
+    ],
+    "explanation_en": "'fürchtet' is the er/sie/es form of 'fürchten' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_fürchten_004",
+    "word_id": "verb_fürchten",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Viele Menschen _____ den Winter.",
+      "en": "Many people dread winter.",
+      "show_english": true
+    },
+    "correct_answer": "fürchten",
+    "wrong_answers": [
+      "fürchtest",
+      "fürchtet",
+      "gefürchtet"
+    ],
+    "explanation_en": "'fürchten' is the sie/Sie form of 'fürchten' in the present tense."
+  },
+  {
+    "exercise_id": "verb_fürchten_partizip",
+    "word_id": "verb_fürchten",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "fürchten",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "gefürchtet",
+    "explanation_en": "The Partizip II of 'fürchten' is 'gefürchtet'. Regular verb: ge- + stem + -t."
+  },
+  {
+    "exercise_id": "verb_fürchten_aux",
+    "word_id": "verb_fürchten",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "fürchten",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'fürchten' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_fürchten_table_prasens",
+    "word_id": "verb_fürchten",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "fürchten",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "fürchte",
+      "du": "fürchtest",
+      "er_sie_es": "fürchtet",
+      "wir": "fürchten",
+      "ihr": "fürchtet",
+      "sie_Sie": "fürchten"
+    }
+  },
+  {
+    "exercise_id": "verb_fürchten_table_prateritum",
+    "word_id": "verb_fürchten",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "fürchten",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "fürchtete",
+      "du": "fürchtetest",
+      "er_sie_es": "fürchtete",
+      "wir": "fürchteten",
+      "ihr": "fürchtetet",
+      "sie_Sie": "fürchteten"
+    }
+  },
+  {
+    "exercise_id": "verb_fürchten_table_perfekt",
+    "word_id": "verb_fürchten",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "fürchten",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe gefürchtet",
+      "du": "hast gefürchtet",
+      "er_sie_es": "hat gefürchtet",
+      "wir": "haben gefürchtet",
+      "ihr": "habt gefürchtet",
+      "sie_Sie": "haben gefürchtet"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_warnen_001",
+    "word_id": "verb_warnen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "warnen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to warn",
+    "wrong_answers": [
+      "to promise",
+      "to praise",
+      "to invite"
+    ],
+    "explanation_en": "'warnen' means 'to warn'. jemanden vor + Dativ warnen."
+  },
+  {
+    "exercise_id": "ex_verb_warnen_002",
+    "word_id": "verb_warnen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____ dich: Das Eis ist dünn!",
+      "en": "I'm warning you: the ice is thin!",
+      "show_english": true
+    },
+    "correct_answer": "warne",
+    "wrong_answers": [
+      "warnst",
+      "warnt",
+      "gewarnt"
+    ],
+    "explanation_en": "'warne' is the ich form of 'warnen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_warnen_003",
+    "word_id": "verb_warnen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Ärzte _____ vor zu viel Zucker.",
+      "en": "Doctors warn against too much sugar.",
+      "show_english": true
+    },
+    "correct_answer": "warnen",
+    "wrong_answers": [
+      "warnst",
+      "warnt",
+      "gewarnt"
+    ],
+    "explanation_en": "'warnen' is the sie/Sie form of 'warnen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_warnen_004",
+    "word_id": "verb_warnen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Wetterdienst _____ vor einem Sturm.",
+      "en": "The weather service warns of a storm.",
+      "show_english": true
+    },
+    "correct_answer": "warnt",
+    "wrong_answers": [
+      "warnst",
+      "warne",
+      "gewarnt"
+    ],
+    "explanation_en": "'warnt' is the er/sie/es form of 'warnen' in the present tense."
+  },
+  {
+    "exercise_id": "verb_warnen_partizip",
+    "word_id": "verb_warnen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "warnen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "gewarnt",
+    "explanation_en": "The Partizip II of 'warnen' is 'gewarnt'. Regular verb: ge- + stem + -t."
+  },
+  {
+    "exercise_id": "verb_warnen_aux",
+    "word_id": "verb_warnen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "warnen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'warnen' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_warnen_table_prasens",
+    "word_id": "verb_warnen",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "warnen",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "warne",
+      "du": "warnst",
+      "er_sie_es": "warnt",
+      "wir": "warnen",
+      "ihr": "warnt",
+      "sie_Sie": "warnen"
+    }
+  },
+  {
+    "exercise_id": "verb_warnen_table_prateritum",
+    "word_id": "verb_warnen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "warnen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "warnte",
+      "du": "warntest",
+      "er_sie_es": "warnte",
+      "wir": "warnten",
+      "ihr": "warntet",
+      "sie_Sie": "warnten"
+    }
+  },
+  {
+    "exercise_id": "verb_warnen_table_perfekt",
+    "word_id": "verb_warnen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "warnen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe gewarnt",
+      "du": "hast gewarnt",
+      "er_sie_es": "hat gewarnt",
+      "wir": "haben gewarnt",
+      "ihr": "habt gewarnt",
+      "sie_Sie": "haben gewarnt"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_fliehen_001",
+    "word_id": "verb_fliehen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "fliehen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to flee / to escape",
+    "wrong_answers": [
+      "to fly",
+      "to follow",
+      "to attack"
+    ],
+    "explanation_en": "'fliehen' means 'to flee / to escape'. Not fliegen (to fly)! fliehen – floh – ist geflohen."
+  },
+  {
+    "exercise_id": "ex_verb_fliehen_002",
+    "word_id": "verb_fliehen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Familie _____ vor dem Krieg.",
+      "en": "The family is fleeing from the war.",
+      "show_english": true
+    },
+    "correct_answer": "flieht",
+    "wrong_answers": [
+      "fliehst",
+      "fliehe",
+      "geflohen"
+    ],
+    "explanation_en": "'flieht' is the er/sie/es form of 'fliehen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_fliehen_003",
+    "word_id": "verb_fliehen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir _____ vor dem Regen ins Café.",
+      "en": "We flee from the rain into the café.",
+      "show_english": true
+    },
+    "correct_answer": "fliehen",
+    "wrong_answers": [
+      "fliehst",
+      "flieht",
+      "geflohen"
+    ],
+    "explanation_en": "'fliehen' is the wir form of 'fliehen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_fliehen_004",
+    "word_id": "verb_fliehen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Gefangene konnte aus dem Gefängnis _____.",
+      "en": "The prisoner was able to escape from prison.",
+      "show_english": true
+    },
+    "correct_answer": "fliehen",
+    "wrong_answers": [
+      "flieht",
+      "geflohen",
+      "fliehst"
+    ],
+    "explanation_en": "After a modal verb (or zu/lassen) the infinitive 'fliehen' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "verb_fliehen_partizip",
+    "word_id": "verb_fliehen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "fliehen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "geflohen",
+    "explanation_en": "The Partizip II of 'fliehen' is 'geflohen'. Irregular (strong) verb — must be memorised."
+  },
+  {
+    "exercise_id": "verb_fliehen_aux",
+    "word_id": "verb_fliehen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "fliehen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "ist",
+    "wrong_answers": [
+      "hat"
+    ],
+    "explanation_en": "'fliehen' uses 'sein' in the Perfekt (movement / change of state)."
+  },
+  {
+    "exercise_id": "verb_fliehen_table_prasens",
+    "word_id": "verb_fliehen",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "fliehen",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "fliehe",
+      "du": "fliehst",
+      "er_sie_es": "flieht",
+      "wir": "fliehen",
+      "ihr": "flieht",
+      "sie_Sie": "fliehen"
+    }
+  },
+  {
+    "exercise_id": "verb_fliehen_table_prateritum",
+    "word_id": "verb_fliehen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "fliehen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "floh",
+      "du": "flohst",
+      "er_sie_es": "floh",
+      "wir": "flohen",
+      "ihr": "floht",
+      "sie_Sie": "flohen"
+    }
+  },
+  {
+    "exercise_id": "verb_fliehen_table_perfekt",
+    "word_id": "verb_fliehen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "fliehen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "bin geflohen",
+      "du": "bist geflohen",
+      "er_sie_es": "ist geflohen",
+      "wir": "sind geflohen",
+      "ihr": "seid geflohen",
+      "sie_Sie": "sind geflohen"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_schützen_001",
+    "word_id": "verb_schützen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "schützen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to protect",
+    "wrong_answers": [
+      "to attack",
+      "to destroy",
+      "to warn"
+    ],
+    "explanation_en": "'schützen' means 'to protect'. jemanden/etwas vor + Dativ schützen. der Schutz = protection."
+  },
+  {
+    "exercise_id": "ex_verb_schützen_002",
+    "word_id": "verb_schützen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Sonnencreme _____ die Haut.",
+      "en": "Sunscreen protects the skin.",
+      "show_english": true
+    },
+    "correct_answer": "schützt",
+    "wrong_answers": [
+      "schütze",
+      "schützen",
+      "geschützt"
+    ],
+    "explanation_en": "'schützt' is the er/sie/es form of 'schützen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_schützen_003",
+    "word_id": "verb_schützen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir _____ die Pflanzen vor dem Frost.",
+      "en": "We protect the plants from the frost.",
+      "show_english": true
+    },
+    "correct_answer": "schützen",
+    "wrong_answers": [
+      "schützt",
+      "geschützt",
+      "schütze"
+    ],
+    "explanation_en": "'schützen' is the wir form of 'schützen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_schützen_004",
+    "word_id": "verb_schützen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____ mich mit einer Maske.",
+      "en": "I protect myself with a mask.",
+      "show_english": true
+    },
+    "correct_answer": "schütze",
+    "wrong_answers": [
+      "schützt",
+      "geschützt",
+      "schützen"
+    ],
+    "explanation_en": "'schütze' is the ich form of 'schützen' in the present tense."
+  },
+  {
+    "exercise_id": "verb_schützen_partizip",
+    "word_id": "verb_schützen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "schützen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "geschützt",
+    "explanation_en": "The Partizip II of 'schützen' is 'geschützt'. Regular verb: ge- + stem + -t."
+  },
+  {
+    "exercise_id": "verb_schützen_aux",
+    "word_id": "verb_schützen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "schützen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'schützen' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_schützen_table_prasens",
+    "word_id": "verb_schützen",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "schützen",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "schütze",
+      "du": "schützt",
+      "er_sie_es": "schützt",
+      "wir": "schützen",
+      "ihr": "schützt",
+      "sie_Sie": "schützen"
+    }
+  },
+  {
+    "exercise_id": "verb_schützen_table_prateritum",
+    "word_id": "verb_schützen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "schützen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "schützte",
+      "du": "schütztest",
+      "er_sie_es": "schützte",
+      "wir": "schützten",
+      "ihr": "schütztet",
+      "sie_Sie": "schützten"
+    }
+  },
+  {
+    "exercise_id": "verb_schützen_table_perfekt",
+    "word_id": "verb_schützen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "schützen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe geschützt",
+      "du": "hast geschützt",
+      "er_sie_es": "hat geschützt",
+      "wir": "haben geschützt",
+      "ihr": "habt geschützt",
+      "sie_Sie": "haben geschützt"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_wundern_001",
+    "word_id": "verb_wundern",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "wundern",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to surprise / (sich) to be surprised",
+    "wrong_answers": [
+      "to admire",
+      "to complain",
+      "to worry"
+    ],
+    "explanation_en": "'wundern' means 'to surprise / (sich) to be surprised'. sich wundern über + Akk. Don't confuse with bewundern (to admire)."
+  },
+  {
+    "exercise_id": "ex_verb_wundern_002",
+    "word_id": "verb_wundern",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____ mich über sein Verhalten.",
+      "en": "I'm surprised by his behaviour.",
+      "show_english": true
+    },
+    "correct_answer": "wundere",
+    "wrong_answers": [
+      "wunderst",
+      "wundert",
+      "gewundert"
+    ],
+    "explanation_en": "'wundere' is the ich form of 'wundern' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_wundern_003",
+    "word_id": "verb_wundern",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir _____ uns, dass niemand kommt.",
+      "en": "We're surprised that nobody is coming.",
+      "show_english": true
+    },
+    "correct_answer": "wundern",
+    "wrong_answers": [
+      "wunderst",
+      "wundert",
+      "gewundert"
+    ],
+    "explanation_en": "'wundern' is the wir form of 'wundern' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_wundern_004",
+    "word_id": "verb_wundern",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das _____ mich nicht.",
+      "en": "That doesn't surprise me.",
+      "show_english": true
+    },
+    "correct_answer": "wundert",
+    "wrong_answers": [
+      "wunderst",
+      "wundere",
+      "gewundert"
+    ],
+    "explanation_en": "'wundert' is the er/sie/es form of 'wundern' in the present tense."
+  },
+  {
+    "exercise_id": "verb_wundern_partizip",
+    "word_id": "verb_wundern",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "wundern",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "gewundert",
+    "explanation_en": "The Partizip II of 'wundern' is 'gewundert'. Regular verb: ge- + stem + -t."
+  },
+  {
+    "exercise_id": "verb_wundern_aux",
+    "word_id": "verb_wundern",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "wundern",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'wundern' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_wundern_table_prasens",
+    "word_id": "verb_wundern",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "wundern",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "wundere",
+      "du": "wunderst",
+      "er_sie_es": "wundert",
+      "wir": "wundern",
+      "ihr": "wundert",
+      "sie_Sie": "wundern"
+    }
+  },
+  {
+    "exercise_id": "verb_wundern_table_prateritum",
+    "word_id": "verb_wundern",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "wundern",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "wunderte",
+      "du": "wundertest",
+      "er_sie_es": "wunderte",
+      "wir": "wunderten",
+      "ihr": "wundertet",
+      "sie_Sie": "wunderten"
+    }
+  },
+  {
+    "exercise_id": "verb_wundern_table_perfekt",
+    "word_id": "verb_wundern",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "wundern",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe gewundert",
+      "du": "hast gewundert",
+      "er_sie_es": "hat gewundert",
+      "wir": "haben gewundert",
+      "ihr": "habt gewundert",
+      "sie_Sie": "haben gewundert"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_gedulden_001",
+    "word_id": "verb_gedulden",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "gedulden",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "(sich) to be patient / to wait patiently",
+    "wrong_answers": [
+      "to hurry",
+      "to complain",
+      "to apologise"
+    ],
+    "explanation_en": "'gedulden' means '(sich) to be patient / to wait patiently'. Always reflexive: sich gedulden. From die Geduld (patience). B1/B2 alternative to warten."
+  },
+  {
+    "exercise_id": "ex_verb_gedulden_002",
+    "word_id": "verb_gedulden",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Bitte _____ Sie sich einen Moment.",
+      "en": "Please be patient for a moment.",
+      "show_english": true
+    },
+    "correct_answer": "gedulden",
+    "wrong_answers": [
+      "geduldest",
+      "geduldet",
+      "gedulde"
+    ],
+    "explanation_en": "'gedulden' is the sie/Sie form of 'gedulden' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_gedulden_003",
+    "word_id": "verb_gedulden",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Du musst dich noch etwas _____.",
+      "en": "You have to be patient a little longer.",
+      "show_english": true
+    },
+    "correct_answer": "gedulden",
+    "wrong_answers": [
+      "geduldet",
+      "geduldest",
+      "gedulde"
+    ],
+    "explanation_en": "After a modal verb (or zu/lassen) the infinitive 'gedulden' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_gedulden_004",
+    "word_id": "verb_gedulden",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____ mich, bis du fertig bist.",
+      "en": "I'll be patient until you're done.",
+      "show_english": true
+    },
+    "correct_answer": "gedulde",
+    "wrong_answers": [
+      "geduldest",
+      "geduldet",
+      "gedulden"
+    ],
+    "explanation_en": "'gedulde' is the ich form of 'gedulden' in the present tense."
+  },
+  {
+    "exercise_id": "verb_gedulden_partizip",
+    "word_id": "verb_gedulden",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "gedulden",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "geduldet",
+    "explanation_en": "The Partizip II of 'gedulden' is 'geduldet'. Inseparable verb — no extra ge-: stem + -t."
+  },
+  {
+    "exercise_id": "verb_gedulden_aux",
+    "word_id": "verb_gedulden",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "gedulden",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'gedulden' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_gedulden_table_prasens",
+    "word_id": "verb_gedulden",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "gedulden",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "gedulde mich",
+      "du": "geduldest dich",
+      "er_sie_es": "geduldet sich",
+      "wir": "gedulden uns",
+      "ihr": "geduldet euch",
+      "sie_Sie": "gedulden sich"
+    }
+  },
+  {
+    "exercise_id": "verb_gedulden_table_prateritum",
+    "word_id": "verb_gedulden",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "gedulden",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "geduldete mich",
+      "du": "geduldetest dich",
+      "er_sie_es": "geduldete sich",
+      "wir": "geduldeten uns",
+      "ihr": "geduldetet euch",
+      "sie_Sie": "geduldeten sich"
+    }
+  },
+  {
+    "exercise_id": "verb_gedulden_table_perfekt",
+    "word_id": "verb_gedulden",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "gedulden",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe mich geduldet",
+      "du": "hast dich geduldet",
+      "er_sie_es": "hat sich geduldet",
+      "wir": "haben uns geduldet",
+      "ihr": "habt euch geduldet",
+      "sie_Sie": "haben sich geduldet"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_bewältigen_001",
+    "word_id": "verb_bewältigen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "bewältigen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to cope with / to manage / to overcome",
+    "wrong_answers": [
+      "to avoid",
+      "to postpone",
+      "to ignore"
+    ],
+    "explanation_en": "'bewältigen' means 'to cope with / to manage / to overcome'. Inseparable (be-): Partizip II without ge- — bewältigt."
+  },
+  {
+    "exercise_id": "ex_verb_bewältigen_002",
+    "word_id": "verb_bewältigen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wir _____ diese Krise gemeinsam.",
+      "en": "We'll overcome this crisis together.",
+      "show_english": true
+    },
+    "correct_answer": "bewältigen",
+    "wrong_answers": [
+      "bewältigst",
+      "bewältigt",
+      "bewältige"
+    ],
+    "explanation_en": "'bewältigen' is the wir form of 'bewältigen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_bewältigen_003",
+    "word_id": "verb_bewältigen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Allein kann ich das nicht _____.",
+      "en": "I can't manage that alone.",
+      "show_english": true
+    },
+    "correct_answer": "bewältigen",
+    "wrong_answers": [
+      "bewältigt",
+      "bewältigst",
+      "bewältige"
+    ],
+    "explanation_en": "After a modal verb (or zu/lassen) the infinitive 'bewältigen' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_bewältigen_004",
+    "word_id": "verb_bewältigen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wie _____ du so viel Arbeit?",
+      "en": "How do you manage so much work?",
+      "show_english": true
+    },
+    "correct_answer": "bewältigst",
+    "wrong_answers": [
+      "bewältigt",
+      "bewältige",
+      "bewältigen"
+    ],
+    "explanation_en": "'bewältigst' is the du form of 'bewältigen' in the present tense."
+  },
+  {
+    "exercise_id": "verb_bewältigen_partizip",
+    "word_id": "verb_bewältigen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "bewältigen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "bewältigt",
+    "explanation_en": "The Partizip II of 'bewältigen' is 'bewältigt'. Inseparable verb — no extra ge-: stem + -t."
+  },
+  {
+    "exercise_id": "verb_bewältigen_aux",
+    "word_id": "verb_bewältigen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "bewältigen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'bewältigen' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_bewältigen_table_prasens",
+    "word_id": "verb_bewältigen",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "bewältigen",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "bewältige",
+      "du": "bewältigst",
+      "er_sie_es": "bewältigt",
+      "wir": "bewältigen",
+      "ihr": "bewältigt",
+      "sie_Sie": "bewältigen"
+    }
+  },
+  {
+    "exercise_id": "verb_bewältigen_table_prateritum",
+    "word_id": "verb_bewältigen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "bewältigen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "bewältigte",
+      "du": "bewältigtest",
+      "er_sie_es": "bewältigte",
+      "wir": "bewältigten",
+      "ihr": "bewältigtet",
+      "sie_Sie": "bewältigten"
+    }
+  },
+  {
+    "exercise_id": "verb_bewältigen_table_perfekt",
+    "word_id": "verb_bewältigen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "bewältigen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe bewältigt",
+      "du": "hast bewältigt",
+      "er_sie_es": "hat bewältigt",
+      "wir": "haben bewältigt",
+      "ihr": "habt bewältigt",
+      "sie_Sie": "haben bewältigt"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_gewährleisten_001",
+    "word_id": "verb_gewährleisten",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "gewährleisten",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to ensure / to guarantee",
+    "wrong_answers": [
+      "to endanger",
+      "to refuse",
+      "to calculate"
+    ],
+    "explanation_en": "'gewährleisten' means 'to ensure / to guarantee'. Formal. Compound of die Gewähr + leisten, never splits: gewährleistet."
+  },
+  {
+    "exercise_id": "ex_verb_gewährleisten_002",
+    "word_id": "verb_gewährleisten",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Vertrag _____ unsere Sicherheit.",
+      "en": "The contract guarantees our security.",
+      "show_english": true
+    },
+    "correct_answer": "gewährleistet",
+    "wrong_answers": [
+      "gewährleistest",
+      "gewährleiste",
+      "gewährleisten"
+    ],
+    "explanation_en": "'gewährleistet' is the er/sie/es form of 'gewährleisten' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_gewährleisten_003",
+    "word_id": "verb_gewährleisten",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Firmen _____ einen sicheren Datenschutz.",
+      "en": "The companies ensure secure data protection.",
+      "show_english": true
+    },
+    "correct_answer": "gewährleisten",
+    "wrong_answers": [
+      "gewährleistest",
+      "gewährleistet",
+      "gewährleiste"
+    ],
+    "explanation_en": "'gewährleisten' is the sie/Sie form of 'gewährleisten' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_gewährleisten_004",
+    "word_id": "verb_gewährleisten",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wir müssen die Qualität _____.",
+      "en": "We have to ensure quality.",
+      "show_english": true
+    },
+    "correct_answer": "gewährleisten",
+    "wrong_answers": [
+      "gewährleistet",
+      "gewährleistest",
+      "gewährleiste"
+    ],
+    "explanation_en": "After a modal verb (or zu/lassen) the infinitive 'gewährleisten' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "verb_gewährleisten_partizip",
+    "word_id": "verb_gewährleisten",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "gewährleisten",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "gewährleistet",
+    "explanation_en": "The Partizip II of 'gewährleisten' is 'gewährleistet'. Inseparable verb — no extra ge-: stem + -t."
+  },
+  {
+    "exercise_id": "verb_gewährleisten_aux",
+    "word_id": "verb_gewährleisten",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "gewährleisten",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'gewährleisten' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_gewährleisten_table_prasens",
+    "word_id": "verb_gewährleisten",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "gewährleisten",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "gewährleiste",
+      "du": "gewährleistest",
+      "er_sie_es": "gewährleistet",
+      "wir": "gewährleisten",
+      "ihr": "gewährleistet",
+      "sie_Sie": "gewährleisten"
+    }
+  },
+  {
+    "exercise_id": "verb_gewährleisten_table_prateritum",
+    "word_id": "verb_gewährleisten",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "gewährleisten",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "gewährleistete",
+      "du": "gewährleistetest",
+      "er_sie_es": "gewährleistete",
+      "wir": "gewährleisteten",
+      "ihr": "gewährleistetet",
+      "sie_Sie": "gewährleisteten"
+    }
+  },
+  {
+    "exercise_id": "verb_gewährleisten_table_perfekt",
+    "word_id": "verb_gewährleisten",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "gewährleisten",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe gewährleistet",
+      "du": "hast gewährleistet",
+      "er_sie_es": "hat gewährleistet",
+      "wir": "haben gewährleistet",
+      "ihr": "habt gewährleistet",
+      "sie_Sie": "haben gewährleistet"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_beeinträchtigen_001",
+    "word_id": "verb_beeinträchtigen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "beeinträchtigen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to impair / to affect negatively",
+    "wrong_answers": [
+      "to improve",
+      "to measure",
+      "to explain"
+    ],
+    "explanation_en": "'beeinträchtigen' means 'to impair / to affect negatively'. Formal. Inseparable: beeinträchtigt."
+  },
+  {
+    "exercise_id": "ex_verb_beeinträchtigen_002",
+    "word_id": "verb_beeinträchtigen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Lärm _____ meine Konzentration.",
+      "en": "The noise impairs my concentration.",
+      "show_english": true
+    },
+    "correct_answer": "beeinträchtigt",
+    "wrong_answers": [
+      "beeinträchtigst",
+      "beeinträchtige",
+      "beeinträchtigen"
+    ],
+    "explanation_en": "'beeinträchtigt' is the er/sie/es form of 'beeinträchtigen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_beeinträchtigen_003",
+    "word_id": "verb_beeinträchtigen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Bauarbeiten _____ den Verkehr.",
+      "en": "The construction work affects the traffic.",
+      "show_english": true
+    },
+    "correct_answer": "beeinträchtigen",
+    "wrong_answers": [
+      "beeinträchtigst",
+      "beeinträchtigt",
+      "beeinträchtige"
+    ],
+    "explanation_en": "'beeinträchtigen' is the sie/Sie form of 'beeinträchtigen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_beeinträchtigen_004",
+    "word_id": "verb_beeinträchtigen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Zu wenig Schlaf kann die Gesundheit _____.",
+      "en": "Too little sleep can impair your health.",
+      "show_english": true
+    },
+    "correct_answer": "beeinträchtigen",
+    "wrong_answers": [
+      "beeinträchtigt",
+      "beeinträchtigst",
+      "beeinträchtige"
+    ],
+    "explanation_en": "After a modal verb (or zu/lassen) the infinitive 'beeinträchtigen' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "verb_beeinträchtigen_partizip",
+    "word_id": "verb_beeinträchtigen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "beeinträchtigen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "beeinträchtigt",
+    "explanation_en": "The Partizip II of 'beeinträchtigen' is 'beeinträchtigt'. Inseparable verb — no extra ge-: stem + -t."
+  },
+  {
+    "exercise_id": "verb_beeinträchtigen_aux",
+    "word_id": "verb_beeinträchtigen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "beeinträchtigen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'beeinträchtigen' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_beeinträchtigen_table_prasens",
+    "word_id": "verb_beeinträchtigen",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "beeinträchtigen",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "beeinträchtige",
+      "du": "beeinträchtigst",
+      "er_sie_es": "beeinträchtigt",
+      "wir": "beeinträchtigen",
+      "ihr": "beeinträchtigt",
+      "sie_Sie": "beeinträchtigen"
+    }
+  },
+  {
+    "exercise_id": "verb_beeinträchtigen_table_prateritum",
+    "word_id": "verb_beeinträchtigen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "beeinträchtigen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "beeinträchtigte",
+      "du": "beeinträchtigtest",
+      "er_sie_es": "beeinträchtigte",
+      "wir": "beeinträchtigten",
+      "ihr": "beeinträchtigtet",
+      "sie_Sie": "beeinträchtigten"
+    }
+  },
+  {
+    "exercise_id": "verb_beeinträchtigen_table_perfekt",
+    "word_id": "verb_beeinträchtigen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "beeinträchtigen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe beeinträchtigt",
+      "du": "hast beeinträchtigt",
+      "er_sie_es": "hat beeinträchtigt",
+      "wir": "haben beeinträchtigt",
+      "ihr": "habt beeinträchtigt",
+      "sie_Sie": "haben beeinträchtigt"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_veranschaulichen_001",
+    "word_id": "verb_veranschaulichen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "veranschaulichen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to illustrate / to make clear",
+    "wrong_answers": [
+      "to hide",
+      "to shorten",
+      "to doubt"
+    ],
+    "explanation_en": "'veranschaulichen' means 'to illustrate / to make clear'. From the adjective anschaulich (vivid, clear)."
+  },
+  {
+    "exercise_id": "ex_verb_veranschaulichen_002",
+    "word_id": "verb_veranschaulichen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Grafik _____ die Ergebnisse.",
+      "en": "The chart illustrates the results.",
+      "show_english": true
+    },
+    "correct_answer": "veranschaulicht",
+    "wrong_answers": [
+      "veranschaulichst",
+      "veranschauliche",
+      "veranschaulichen"
+    ],
+    "explanation_en": "'veranschaulicht' is the er/sie/es form of 'veranschaulichen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_veranschaulichen_003",
+    "word_id": "verb_veranschaulichen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Kannst du das bitte _____?",
+      "en": "Can you illustrate that, please?",
+      "show_english": true
+    },
+    "correct_answer": "veranschaulichen",
+    "wrong_answers": [
+      "veranschaulicht",
+      "veranschaulichst",
+      "veranschauliche"
+    ],
+    "explanation_en": "After a modal verb (or zu/lassen) the infinitive 'veranschaulichen' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_veranschaulichen_004",
+    "word_id": "verb_veranschaulichen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____ das mit einem Beispiel.",
+      "en": "I'll illustrate that with an example.",
+      "show_english": true
+    },
+    "correct_answer": "veranschauliche",
+    "wrong_answers": [
+      "veranschaulichst",
+      "veranschaulicht",
+      "veranschaulichen"
+    ],
+    "explanation_en": "'veranschauliche' is the ich form of 'veranschaulichen' in the present tense."
+  },
+  {
+    "exercise_id": "verb_veranschaulichen_partizip",
+    "word_id": "verb_veranschaulichen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "veranschaulichen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "veranschaulicht",
+    "explanation_en": "The Partizip II of 'veranschaulichen' is 'veranschaulicht'. Inseparable verb — no extra ge-: stem + -t."
+  },
+  {
+    "exercise_id": "verb_veranschaulichen_aux",
+    "word_id": "verb_veranschaulichen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "veranschaulichen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'veranschaulichen' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_veranschaulichen_table_prasens",
+    "word_id": "verb_veranschaulichen",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "veranschaulichen",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "veranschauliche",
+      "du": "veranschaulichst",
+      "er_sie_es": "veranschaulicht",
+      "wir": "veranschaulichen",
+      "ihr": "veranschaulicht",
+      "sie_Sie": "veranschaulichen"
+    }
+  },
+  {
+    "exercise_id": "verb_veranschaulichen_table_prateritum",
+    "word_id": "verb_veranschaulichen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "veranschaulichen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "veranschaulichte",
+      "du": "veranschaulichtest",
+      "er_sie_es": "veranschaulichte",
+      "wir": "veranschaulichten",
+      "ihr": "veranschaulichtet",
+      "sie_Sie": "veranschaulichten"
+    }
+  },
+  {
+    "exercise_id": "verb_veranschaulichen_table_perfekt",
+    "word_id": "verb_veranschaulichen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "veranschaulichen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe veranschaulicht",
+      "du": "hast veranschaulicht",
+      "er_sie_es": "hat veranschaulicht",
+      "wir": "haben veranschaulicht",
+      "ihr": "habt veranschaulicht",
+      "sie_Sie": "haben veranschaulicht"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_analysieren_001",
+    "word_id": "verb_analysieren",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "analysieren",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to analyse",
+    "wrong_answers": [
+      "to ignore",
+      "to collect",
+      "to guess"
+    ],
+    "explanation_en": "'analysieren' means 'to analyse'. -ieren verbs take no ge- in the Partizip II: analysiert."
+  },
+  {
+    "exercise_id": "ex_verb_analysieren_002",
+    "word_id": "verb_analysieren",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wir _____ die Daten.",
+      "en": "We analyse the data.",
+      "show_english": true
+    },
+    "correct_answer": "analysieren",
+    "wrong_answers": [
+      "analysierst",
+      "analysiert",
+      "analysiere"
+    ],
+    "explanation_en": "'analysieren' is the wir form of 'analysieren' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_analysieren_003",
+    "word_id": "verb_analysieren",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Du _____ immer alles zu genau.",
+      "en": "You always analyse everything too closely.",
+      "show_english": true
+    },
+    "correct_answer": "analysierst",
+    "wrong_answers": [
+      "analysiert",
+      "analysiere",
+      "analysieren"
+    ],
+    "explanation_en": "'analysierst' is the du form of 'analysieren' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_analysieren_004",
+    "word_id": "verb_analysieren",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Arzt _____ das Blut.",
+      "en": "The doctor analyses the blood.",
+      "show_english": true
+    },
+    "correct_answer": "analysiert",
+    "wrong_answers": [
+      "analysierst",
+      "analysiere",
+      "analysieren"
+    ],
+    "explanation_en": "'analysiert' is the er/sie/es form of 'analysieren' in the present tense."
+  },
+  {
+    "exercise_id": "verb_analysieren_partizip",
+    "word_id": "verb_analysieren",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "analysieren",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "analysiert",
+    "explanation_en": "The Partizip II of 'analysieren' is 'analysiert'. -ieren verb: no ge- in the Partizip II."
+  },
+  {
+    "exercise_id": "verb_analysieren_aux",
+    "word_id": "verb_analysieren",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "analysieren",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'analysieren' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_analysieren_table_prasens",
+    "word_id": "verb_analysieren",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "analysieren",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "analysiere",
+      "du": "analysierst",
+      "er_sie_es": "analysiert",
+      "wir": "analysieren",
+      "ihr": "analysiert",
+      "sie_Sie": "analysieren"
+    }
+  },
+  {
+    "exercise_id": "verb_analysieren_table_prateritum",
+    "word_id": "verb_analysieren",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "analysieren",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "analysierte",
+      "du": "analysiertest",
+      "er_sie_es": "analysierte",
+      "wir": "analysierten",
+      "ihr": "analysiertet",
+      "sie_Sie": "analysierten"
+    }
+  },
+  {
+    "exercise_id": "verb_analysieren_table_perfekt",
+    "word_id": "verb_analysieren",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "analysieren",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe analysiert",
+      "du": "hast analysiert",
+      "er_sie_es": "hat analysiert",
+      "wir": "haben analysiert",
+      "ihr": "habt analysiert",
+      "sie_Sie": "haben analysiert"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_beabsichtigen_001",
+    "word_id": "verb_beabsichtigen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "beabsichtigen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to intend",
+    "wrong_answers": [
+      "to regret",
+      "to forbid",
+      "to refuse"
+    ],
+    "explanation_en": "'beabsichtigen' means 'to intend'. Formal. Everyday: vorhaben. From die Absicht (intention)."
+  },
+  {
+    "exercise_id": "ex_verb_beabsichtigen_002",
+    "word_id": "verb_beabsichtigen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____, nächstes Jahr umzuziehen.",
+      "en": "I intend to move next year.",
+      "show_english": true
+    },
+    "correct_answer": "beabsichtige",
+    "wrong_answers": [
+      "beabsichtigst",
+      "beabsichtigt",
+      "beabsichtigen"
+    ],
+    "explanation_en": "'beabsichtige' is the ich form of 'beabsichtigen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_beabsichtigen_003",
+    "word_id": "verb_beabsichtigen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Regierung _____, die Steuern zu senken.",
+      "en": "The government intends to lower taxes.",
+      "show_english": true
+    },
+    "correct_answer": "beabsichtigt",
+    "wrong_answers": [
+      "beabsichtigst",
+      "beabsichtige",
+      "beabsichtigen"
+    ],
+    "explanation_en": "'beabsichtigt' is the er/sie/es form of 'beabsichtigen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_beabsichtigen_004",
+    "word_id": "verb_beabsichtigen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Was _____ du damit?",
+      "en": "What do you intend by that?",
+      "show_english": true
+    },
+    "correct_answer": "beabsichtigst",
+    "wrong_answers": [
+      "beabsichtigt",
+      "beabsichtige",
+      "beabsichtigen"
+    ],
+    "explanation_en": "'beabsichtigst' is the du form of 'beabsichtigen' in the present tense."
+  },
+  {
+    "exercise_id": "verb_beabsichtigen_partizip",
+    "word_id": "verb_beabsichtigen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "beabsichtigen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "beabsichtigt",
+    "explanation_en": "The Partizip II of 'beabsichtigen' is 'beabsichtigt'. Inseparable verb — no extra ge-: stem + -t."
+  },
+  {
+    "exercise_id": "verb_beabsichtigen_aux",
+    "word_id": "verb_beabsichtigen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "beabsichtigen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'beabsichtigen' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_beabsichtigen_table_prasens",
+    "word_id": "verb_beabsichtigen",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "beabsichtigen",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "beabsichtige",
+      "du": "beabsichtigst",
+      "er_sie_es": "beabsichtigt",
+      "wir": "beabsichtigen",
+      "ihr": "beabsichtigt",
+      "sie_Sie": "beabsichtigen"
+    }
+  },
+  {
+    "exercise_id": "verb_beabsichtigen_table_prateritum",
+    "word_id": "verb_beabsichtigen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "beabsichtigen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "beabsichtigte",
+      "du": "beabsichtigtest",
+      "er_sie_es": "beabsichtigte",
+      "wir": "beabsichtigten",
+      "ihr": "beabsichtigtet",
+      "sie_Sie": "beabsichtigten"
+    }
+  },
+  {
+    "exercise_id": "verb_beabsichtigen_table_perfekt",
+    "word_id": "verb_beabsichtigen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "beabsichtigen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe beabsichtigt",
+      "du": "hast beabsichtigt",
+      "er_sie_es": "hat beabsichtigt",
+      "wir": "haben beabsichtigt",
+      "ihr": "habt beabsichtigt",
+      "sie_Sie": "haben beabsichtigt"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_erinnern_001",
+    "word_id": "verb_erinnern",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "erinnern",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to remind / (sich) to remember",
+    "wrong_answers": [
+      "to forget",
+      "to repeat",
+      "to admit"
+    ],
+    "explanation_en": "'erinnern' means 'to remind / (sich) to remember'. sich erinnern an + Akk = to remember; jemanden an etwas erinnern = to remind someone of something."
+  },
+  {
+    "exercise_id": "ex_verb_erinnern_002",
+    "word_id": "verb_erinnern",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____ mich gern an meine Kindheit.",
+      "en": "I like remembering my childhood.",
+      "show_english": true
+    },
+    "correct_answer": "erinnere",
+    "wrong_answers": [
+      "erinnerst",
+      "erinnert",
+      "erinnern"
+    ],
+    "explanation_en": "'erinnere' is the ich form of 'erinnern' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_erinnern_003",
+    "word_id": "verb_erinnern",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir _____ uns kaum an den Unfall.",
+      "en": "We barely remember the accident.",
+      "show_english": true
+    },
+    "correct_answer": "erinnern",
+    "wrong_answers": [
+      "erinnerst",
+      "erinnert",
+      "erinnere"
+    ],
+    "explanation_en": "'erinnern' is the wir form of 'erinnern' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_erinnern_004",
+    "word_id": "verb_erinnern",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Lied _____ mich an den Sommer.",
+      "en": "The song reminds me of summer.",
+      "show_english": true
+    },
+    "correct_answer": "erinnert",
+    "wrong_answers": [
+      "erinnerst",
+      "erinnere",
+      "erinnern"
+    ],
+    "explanation_en": "'erinnert' is the er/sie/es form of 'erinnern' in the present tense."
+  },
+  {
+    "exercise_id": "verb_erinnern_partizip",
+    "word_id": "verb_erinnern",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "erinnern",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "erinnert",
+    "explanation_en": "The Partizip II of 'erinnern' is 'erinnert'. Inseparable verb — no extra ge-: stem + -t."
+  },
+  {
+    "exercise_id": "verb_erinnern_aux",
+    "word_id": "verb_erinnern",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "erinnern",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'erinnern' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_erinnern_table_prasens",
+    "word_id": "verb_erinnern",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "erinnern",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "erinnere",
+      "du": "erinnerst",
+      "er_sie_es": "erinnert",
+      "wir": "erinnern",
+      "ihr": "erinnert",
+      "sie_Sie": "erinnern"
+    }
+  },
+  {
+    "exercise_id": "verb_erinnern_table_prateritum",
+    "word_id": "verb_erinnern",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "erinnern",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "erinnerte",
+      "du": "erinnertest",
+      "er_sie_es": "erinnerte",
+      "wir": "erinnerten",
+      "ihr": "erinnertet",
+      "sie_Sie": "erinnerten"
+    }
+  },
+  {
+    "exercise_id": "verb_erinnern_table_perfekt",
+    "word_id": "verb_erinnern",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "erinnern",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe erinnert",
+      "du": "hast erinnert",
+      "er_sie_es": "hat erinnert",
+      "wir": "haben erinnert",
+      "ihr": "habt erinnert",
+      "sie_Sie": "haben erinnert"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_begreifen_001",
+    "word_id": "verb_begreifen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "begreifen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to grasp / to comprehend",
+    "wrong_answers": [
+      "to forget",
+      "to ignore",
+      "to doubt"
+    ],
+    "explanation_en": "'begreifen' means 'to grasp / to comprehend'. Inseparable (be- + greifen). B1/B2 alternative to verstehen."
+  },
+  {
+    "exercise_id": "ex_verb_begreifen_002",
+    "word_id": "verb_begreifen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____ das einfach nicht.",
+      "en": "I just don't get it.",
+      "show_english": true
+    },
+    "correct_answer": "begreife",
+    "wrong_answers": [
+      "begreifst",
+      "begreift",
+      "begriffen"
+    ],
+    "explanation_en": "'begreife' is the ich form of 'begreifen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_begreifen_003",
+    "word_id": "verb_begreifen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Kinder _____ schnell.",
+      "en": "Children catch on quickly.",
+      "show_english": true
+    },
+    "correct_answer": "begreifen",
+    "wrong_answers": [
+      "begreifst",
+      "begreift",
+      "begriffen"
+    ],
+    "explanation_en": "'begreifen' is the sie/Sie form of 'begreifen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_begreifen_004",
+    "word_id": "verb_begreifen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Endlich _____ er die Regel.",
+      "en": "Finally he grasps the rule.",
+      "show_english": true
+    },
+    "correct_answer": "begreift",
+    "wrong_answers": [
+      "begreifst",
+      "begreife",
+      "begriffen"
+    ],
+    "explanation_en": "'begreift' is the er/sie/es form of 'begreifen' in the present tense."
+  },
+  {
+    "exercise_id": "verb_begreifen_partizip",
+    "word_id": "verb_begreifen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "begreifen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "begriffen",
+    "explanation_en": "The Partizip II of 'begreifen' is 'begriffen'. Irregular (strong) verb — must be memorised."
+  },
+  {
+    "exercise_id": "verb_begreifen_aux",
+    "word_id": "verb_begreifen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "begreifen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'begreifen' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_begreifen_table_prasens",
+    "word_id": "verb_begreifen",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "begreifen",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "begreife",
+      "du": "begreifst",
+      "er_sie_es": "begreift",
+      "wir": "begreifen",
+      "ihr": "begreift",
+      "sie_Sie": "begreifen"
+    }
+  },
+  {
+    "exercise_id": "verb_begreifen_table_prateritum",
+    "word_id": "verb_begreifen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "begreifen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "begriff",
+      "du": "begriffst",
+      "er_sie_es": "begriff",
+      "wir": "begriffen",
+      "ihr": "begrifft",
+      "sie_Sie": "begriffen"
+    }
+  },
+  {
+    "exercise_id": "verb_begreifen_table_perfekt",
+    "word_id": "verb_begreifen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "begreifen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe begriffen",
+      "du": "hast begriffen",
+      "er_sie_es": "hat begriffen",
+      "wir": "haben begriffen",
+      "ihr": "habt begriffen",
+      "sie_Sie": "haben begriffen"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_benötigen_001",
+    "word_id": "verb_benötigen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "benötigen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to need / to require",
+    "wrong_answers": [
+      "to offer",
+      "to lose",
+      "to sell"
+    ],
+    "explanation_en": "'benötigen' means 'to need / to require'. More formal than brauchen."
+  },
+  {
+    "exercise_id": "ex_verb_benötigen_002",
+    "word_id": "verb_benötigen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____ deine Hilfe.",
+      "en": "I need your help.",
+      "show_english": true
+    },
+    "correct_answer": "benötige",
+    "wrong_answers": [
+      "benötigst",
+      "benötigt",
+      "benötigen"
+    ],
+    "explanation_en": "'benötige' is the ich form of 'benötigen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_benötigen_003",
+    "word_id": "verb_benötigen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir _____ noch zwei Stühle.",
+      "en": "We still need two chairs.",
+      "show_english": true
+    },
+    "correct_answer": "benötigen",
+    "wrong_answers": [
+      "benötigst",
+      "benötigt",
+      "benötige"
+    ],
+    "explanation_en": "'benötigen' is the wir form of 'benötigen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_benötigen_004",
+    "word_id": "verb_benötigen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Für den Antrag _____ man einen Pass.",
+      "en": "For the application you need a passport.",
+      "show_english": true
+    },
+    "correct_answer": "benötigt",
+    "wrong_answers": [
+      "benötigst",
+      "benötige",
+      "benötigen"
+    ],
+    "explanation_en": "'benötigt' is the er/sie/es form of 'benötigen' in the present tense."
+  },
+  {
+    "exercise_id": "verb_benötigen_partizip",
+    "word_id": "verb_benötigen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "benötigen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "benötigt",
+    "explanation_en": "The Partizip II of 'benötigen' is 'benötigt'. Inseparable verb — no extra ge-: stem + -t."
+  },
+  {
+    "exercise_id": "verb_benötigen_aux",
+    "word_id": "verb_benötigen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "benötigen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'benötigen' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_benötigen_table_prasens",
+    "word_id": "verb_benötigen",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "benötigen",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "benötige",
+      "du": "benötigst",
+      "er_sie_es": "benötigt",
+      "wir": "benötigen",
+      "ihr": "benötigt",
+      "sie_Sie": "benötigen"
+    }
+  },
+  {
+    "exercise_id": "verb_benötigen_table_prateritum",
+    "word_id": "verb_benötigen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "benötigen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "benötigte",
+      "du": "benötigtest",
+      "er_sie_es": "benötigte",
+      "wir": "benötigten",
+      "ihr": "benötigtet",
+      "sie_Sie": "benötigten"
+    }
+  },
+  {
+    "exercise_id": "verb_benötigen_table_perfekt",
+    "word_id": "verb_benötigen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "benötigen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe benötigt",
+      "du": "hast benötigt",
+      "er_sie_es": "hat benötigt",
+      "wir": "haben benötigt",
+      "ihr": "habt benötigt",
+      "sie_Sie": "haben benötigt"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_veranlassen_001",
+    "word_id": "verb_veranlassen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "veranlassen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to prompt / to arrange for / to cause",
+    "wrong_answers": [
+      "to prevent",
+      "to forgive",
+      "to postpone"
+    ],
+    "explanation_en": "'veranlassen' means 'to prompt / to arrange for / to cause'. Formal. Inseparable: veranlasst. der Anlass = the occasion/reason."
+  },
+  {
+    "exercise_id": "ex_verb_veranlassen_002",
+    "word_id": "verb_veranlassen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Was _____ dich zu dieser Entscheidung?",
+      "en": "What prompts you to make this decision?",
+      "show_english": true
+    },
+    "correct_answer": "veranlasst",
+    "wrong_answers": [
+      "veranlasse",
+      "veranlassen",
+      "zu veranlassen"
+    ],
+    "explanation_en": "'veranlasst' is the er/sie/es form of 'veranlassen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_veranlassen_003",
+    "word_id": "verb_veranlassen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Ergebnisse _____ uns, den Plan zu ändern.",
+      "en": "The results prompt us to change the plan.",
+      "show_english": true
+    },
+    "correct_answer": "veranlassen",
+    "wrong_answers": [
+      "veranlasst",
+      "veranlasse",
+      "zu veranlassen"
+    ],
+    "explanation_en": "'veranlassen' is the sie/Sie form of 'veranlassen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_veranlassen_004",
+    "word_id": "verb_veranlassen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____ sofort eine Überprüfung.",
+      "en": "I'll arrange for an inspection immediately.",
+      "show_english": true
+    },
+    "correct_answer": "veranlasse",
+    "wrong_answers": [
+      "veranlasst",
+      "veranlassen",
+      "zu veranlassen"
+    ],
+    "explanation_en": "'veranlasse' is the ich form of 'veranlassen' in the present tense."
+  },
+  {
+    "exercise_id": "verb_veranlassen_partizip",
+    "word_id": "verb_veranlassen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "veranlassen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "veranlasst",
+    "explanation_en": "The Partizip II of 'veranlassen' is 'veranlasst'. Inseparable verb — no extra ge-: stem + -t."
+  },
+  {
+    "exercise_id": "verb_veranlassen_aux",
+    "word_id": "verb_veranlassen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "veranlassen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'veranlassen' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_veranlassen_table_prasens",
+    "word_id": "verb_veranlassen",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "veranlassen",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "veranlasse",
+      "du": "veranlasst",
+      "er_sie_es": "veranlasst",
+      "wir": "veranlassen",
+      "ihr": "veranlasst",
+      "sie_Sie": "veranlassen"
+    }
+  },
+  {
+    "exercise_id": "verb_veranlassen_table_prateritum",
+    "word_id": "verb_veranlassen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "veranlassen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "veranlasste",
+      "du": "veranlasstest",
+      "er_sie_es": "veranlasste",
+      "wir": "veranlassten",
+      "ihr": "veranlasstet",
+      "sie_Sie": "veranlassten"
+    }
+  },
+  {
+    "exercise_id": "verb_veranlassen_table_perfekt",
+    "word_id": "verb_veranlassen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "veranlassen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe veranlasst",
+      "du": "hast veranlasst",
+      "er_sie_es": "hat veranlasst",
+      "wir": "haben veranlasst",
+      "ihr": "habt veranlasst",
+      "sie_Sie": "haben veranlasst"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_nachvollziehen_001",
+    "word_id": "verb_nachvollziehen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "nachvollziehen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to understand / to follow (a line of reasoning)",
+    "wrong_answers": [
+      "to contradict",
+      "to forget",
+      "to postpone"
+    ],
+    "explanation_en": "'nachvollziehen' means 'to understand / to follow (a line of reasoning)'. Separable: Ich vollziehe das nach. Most common with können: Das kann ich nachvollziehen."
+  },
+  {
+    "exercise_id": "ex_verb_nachvollziehen_002",
+    "word_id": "verb_nachvollziehen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich kann deine Entscheidung gut _____.",
+      "en": "I can understand your decision well.",
+      "show_english": true
+    },
+    "correct_answer": "nachvollziehen",
+    "wrong_answers": [
+      "vollzieht nach",
+      "nachvollzogen",
+      "nachvollzieht"
+    ],
+    "explanation_en": "After a modal verb (or zu/lassen) the infinitive 'nachvollziehen' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_nachvollziehen_003",
+    "word_id": "verb_nachvollziehen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich _____ den Gedanken nicht _____.",
+      "en": "I don't follow the thought.",
+      "show_english": true
+    },
+    "correct_answer": "vollziehe ... nach",
+    "wrong_answers": [
+      "vollziehst ... nach",
+      "nachvollziehe",
+      "nachvollzogen"
+    ],
+    "explanation_en": "'vollziehe ... nach' is the ich form of 'nachvollziehen' in the present tense. Separable — 'nach' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_nachvollziehen_004",
+    "word_id": "verb_nachvollziehen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Niemand _____ seine Logik _____.",
+      "en": "Nobody follows his logic.",
+      "show_english": true
+    },
+    "correct_answer": "vollzieht ... nach",
+    "wrong_answers": [
+      "vollziehst ... nach",
+      "nachvollzieht",
+      "nachvollzogen"
+    ],
+    "explanation_en": "'vollzieht ... nach' is the er/sie/es form of 'nachvollziehen' in the present tense. Separable — 'nach' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "verb_nachvollziehen_partizip",
+    "word_id": "verb_nachvollziehen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "nachvollziehen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "nachvollzogen",
+    "explanation_en": "The Partizip II of 'nachvollziehen' is 'nachvollzogen'. Irregular (strong) verb — must be memorised."
+  },
+  {
+    "exercise_id": "verb_nachvollziehen_aux",
+    "word_id": "verb_nachvollziehen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "nachvollziehen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'nachvollziehen' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_nachvollziehen_table_prasens",
+    "word_id": "verb_nachvollziehen",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "nachvollziehen",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "vollziehe nach",
+      "du": "vollziehst nach",
+      "er_sie_es": "vollzieht nach",
+      "wir": "vollziehen nach",
+      "ihr": "vollzieht nach",
+      "sie_Sie": "vollziehen nach"
+    }
+  },
+  {
+    "exercise_id": "verb_nachvollziehen_table_prateritum",
+    "word_id": "verb_nachvollziehen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "nachvollziehen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "vollzog nach",
+      "du": "vollzogst nach",
+      "er_sie_es": "vollzog nach",
+      "wir": "vollzogen nach",
+      "ihr": "vollzogt nach",
+      "sie_Sie": "vollzogen nach"
+    }
+  },
+  {
+    "exercise_id": "verb_nachvollziehen_table_perfekt",
+    "word_id": "verb_nachvollziehen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "nachvollziehen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe nachvollzogen",
+      "du": "hast nachvollzogen",
+      "er_sie_es": "hat nachvollzogen",
+      "wir": "haben nachvollzogen",
+      "ihr": "habt nachvollzogen",
+      "sie_Sie": "haben nachvollzogen"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_einschätzen_001",
+    "word_id": "verb_einschätzen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "einschätzen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to assess / to judge",
+    "wrong_answers": [
+      "to ignore",
+      "to increase",
+      "to forbid"
+    ],
+    "explanation_en": "'einschätzen' means 'to assess / to judge'. Separable: Ich schätze das anders ein."
+  },
+  {
+    "exercise_id": "ex_verb_einschätzen_002",
+    "word_id": "verb_einschätzen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wie _____ du die Lage _____?",
+      "en": "How do you assess the situation?",
+      "show_english": true
+    },
+    "correct_answer": "schätzt ... ein",
+    "wrong_answers": [
+      "schätze ... ein",
+      "einschätzt",
+      "eingeschätzt"
+    ],
+    "explanation_en": "'schätzt ... ein' is the du form of 'einschätzen' in the present tense. Separable — 'ein' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_einschätzen_003",
+    "word_id": "verb_einschätzen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich _____ ihn als sehr ehrlich _____.",
+      "en": "I judge him to be very honest.",
+      "show_english": true
+    },
+    "correct_answer": "schätze ... ein",
+    "wrong_answers": [
+      "schätzt ... ein",
+      "einschätze",
+      "eingeschätzt"
+    ],
+    "explanation_en": "'schätze ... ein' is the ich form of 'einschätzen' in the present tense. Separable — 'ein' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_einschätzen_004",
+    "word_id": "verb_einschätzen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Experten müssen das Risiko genau _____.",
+      "en": "Experts have to assess the risk precisely.",
+      "show_english": true
+    },
+    "correct_answer": "einschätzen",
+    "wrong_answers": [
+      "schätzt ein",
+      "eingeschätzt",
+      "einschätzt"
+    ],
+    "explanation_en": "After a modal verb (or zu/lassen) the infinitive 'einschätzen' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "verb_einschätzen_partizip",
+    "word_id": "verb_einschätzen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "einschätzen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "eingeschätzt",
+    "explanation_en": "The Partizip II of 'einschätzen' is 'eingeschätzt'. Separable verb: ein + ge + stem + -t."
+  },
+  {
+    "exercise_id": "verb_einschätzen_aux",
+    "word_id": "verb_einschätzen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "einschätzen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'einschätzen' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_einschätzen_table_prasens",
+    "word_id": "verb_einschätzen",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "einschätzen",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "schätze ein",
+      "du": "schätzt ein",
+      "er_sie_es": "schätzt ein",
+      "wir": "schätzen ein",
+      "ihr": "schätzt ein",
+      "sie_Sie": "schätzen ein"
+    }
+  },
+  {
+    "exercise_id": "verb_einschätzen_table_prateritum",
+    "word_id": "verb_einschätzen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "einschätzen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "schätzte ein",
+      "du": "schätztest ein",
+      "er_sie_es": "schätzte ein",
+      "wir": "schätzten ein",
+      "ihr": "schätztet ein",
+      "sie_Sie": "schätzten ein"
+    }
+  },
+  {
+    "exercise_id": "verb_einschätzen_table_perfekt",
+    "word_id": "verb_einschätzen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "einschätzen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe eingeschätzt",
+      "du": "hast eingeschätzt",
+      "er_sie_es": "hat eingeschätzt",
+      "wir": "haben eingeschätzt",
+      "ihr": "habt eingeschätzt",
+      "sie_Sie": "haben eingeschätzt"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_einräumen_001",
+    "word_id": "verb_einräumen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "einräumen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to admit (formal) / to grant / to put away (into)",
+    "wrong_answers": [
+      "to deny",
+      "to demand",
+      "to postpone"
+    ],
+    "explanation_en": "'einräumen' means 'to admit (formal) / to grant / to put away (into)'. Separable. Formal 'admit'; everyday: zugeben."
+  },
+  {
+    "exercise_id": "ex_verb_einräumen_002",
+    "word_id": "verb_einräumen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Minister _____ seinen Fehler _____.",
+      "en": "The minister admits his mistake.",
+      "show_english": true
+    },
+    "correct_answer": "räumt ... ein",
+    "wrong_answers": [
+      "räumst ... ein",
+      "einräumt",
+      "eingeräumt"
+    ],
+    "explanation_en": "'räumt ... ein' is the er/sie/es form of 'einräumen' in the present tense. Separable — 'ein' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_einräumen_003",
+    "word_id": "verb_einräumen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir _____ dir mehr Zeit _____.",
+      "en": "We grant you more time.",
+      "show_english": true
+    },
+    "correct_answer": "räumen ... ein",
+    "wrong_answers": [
+      "räumst ... ein",
+      "einräumen",
+      "eingeräumt"
+    ],
+    "explanation_en": "'räumen ... ein' is the wir form of 'einräumen' in the present tense. Separable — 'ein' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_einräumen_004",
+    "word_id": "verb_einräumen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____ die Spülmaschine _____.",
+      "en": "I load the dishwasher.",
+      "show_english": true
+    },
+    "correct_answer": "räume ... ein",
+    "wrong_answers": [
+      "räumst ... ein",
+      "einräume",
+      "eingeräumt"
+    ],
+    "explanation_en": "'räume ... ein' is the ich form of 'einräumen' in the present tense. Separable — 'ein' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "verb_einräumen_partizip",
+    "word_id": "verb_einräumen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "einräumen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "eingeräumt",
+    "explanation_en": "The Partizip II of 'einräumen' is 'eingeräumt'. Separable verb: ein + ge + stem + -t."
+  },
+  {
+    "exercise_id": "verb_einräumen_aux",
+    "word_id": "verb_einräumen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "einräumen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'einräumen' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_einräumen_table_prasens",
+    "word_id": "verb_einräumen",
+    "type": "conjugation_table",
+    "tense": "prasens",
+    "difficulty": 2,
+    "question": {
+      "de": "einräumen",
+      "tense_label": "Präsens"
+    },
+    "forms": {
+      "ich": "räume ein",
+      "du": "räumst ein",
+      "er_sie_es": "räumt ein",
+      "wir": "räumen ein",
+      "ihr": "räumt ein",
+      "sie_Sie": "räumen ein"
+    }
+  },
+  {
+    "exercise_id": "verb_einräumen_table_prateritum",
+    "word_id": "verb_einräumen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "einräumen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "räumte ein",
+      "du": "räumtest ein",
+      "er_sie_es": "räumte ein",
+      "wir": "räumten ein",
+      "ihr": "räumtet ein",
+      "sie_Sie": "räumten ein"
+    }
+  },
+  {
+    "exercise_id": "verb_einräumen_table_perfekt",
+    "word_id": "verb_einräumen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "einräumen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe eingeräumt",
+      "du": "hast eingeräumt",
+      "er_sie_es": "hat eingeräumt",
+      "wir": "haben eingeräumt",
+      "ihr": "habt eingeräumt",
+      "sie_Sie": "haben eingeräumt"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_verreisen_001",
+    "word_id": "verb_verreisen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "verreisen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to go away (on a trip)",
+    "wrong_answers": [
+      "to stay at home",
+      "to move house",
+      "to return"
+    ],
+    "explanation_en": "'verreisen' means 'to go away (on a trip)'. Inseparable (ver- never detaches). Perfekt with sein: Ich bin verreist = I'm away."
+  },
+  {
+    "exercise_id": "ex_verb_verreisen_002",
+    "word_id": "verb_verreisen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wir _____ im Sommer immer.",
+      "en": "We always go away in summer.",
+      "show_english": true
+    },
+    "correct_answer": "verreisen",
+    "wrong_answers": [
+      "verreist",
+      "verreise",
+      "zu verreisen"
+    ],
+    "explanation_en": "'verreisen' is the wir form of 'verreisen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_verreisen_003",
+    "word_id": "verb_verreisen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Über Ostern _____ du, oder?",
+      "en": "You're going away over Easter, right?",
+      "show_english": true
+    },
+    "correct_answer": "verreist",
+    "wrong_answers": [
+      "verreise",
+      "verreisen",
+      "zu verreisen"
+    ],
+    "explanation_en": "'verreist' is the du form of 'verreisen' in the present tense."
+  },
+  {
+    "exercise_id": "ex_verb_verreisen_004",
+    "word_id": "verb_verreisen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich möchte bald wieder _____.",
+      "en": "I'd like to go away again soon.",
+      "show_english": true
+    },
+    "correct_answer": "verreisen",
+    "wrong_answers": [
+      "verreist",
+      "verreise",
+      "zu verreisen"
+    ],
+    "explanation_en": "After a modal verb (or zu/lassen) the infinitive 'verreisen' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "verb_verreisen_partizip",
+    "word_id": "verb_verreisen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "verreisen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "verreist",
+    "explanation_en": "The Partizip II of 'verreisen' is 'verreist'. Inseparable verb — no extra ge-: stem + -t."
+  },
+  {
+    "exercise_id": "verb_verreisen_aux",
+    "word_id": "verb_verreisen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "verreisen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "ist",
+    "wrong_answers": [
+      "hat"
+    ],
+    "explanation_en": "'verreisen' uses 'sein' in the Perfekt (movement / change of state)."
+  },
+  {
+    "exercise_id": "verb_verreisen_table_prateritum",
+    "word_id": "verb_verreisen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "verreisen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "verreiste",
+      "du": "verreistest",
+      "er_sie_es": "verreiste",
+      "wir": "verreisten",
+      "ihr": "verreistet",
+      "sie_Sie": "verreisten"
+    }
+  },
+  {
+    "exercise_id": "verb_verreisen_table_perfekt",
+    "word_id": "verb_verreisen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "verreisen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "bin verreist",
+      "du": "bist verreist",
+      "er_sie_es": "ist verreist",
+      "wir": "sind verreist",
+      "ihr": "seid verreist",
+      "sie_Sie": "sind verreist"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_vorbeikommen_001",
+    "word_id": "verb_vorbeikommen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "vorbeikommen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to drop by / to pass by",
+    "wrong_answers": [
+      "to stay away",
+      "to call",
+      "to cancel"
+    ],
+    "explanation_en": "'vorbeikommen' means 'to drop by / to pass by'. Separable: Ich komme vorbei. Perfekt with sein. B1/B2 alternative to besuchen."
+  },
+  {
+    "exercise_id": "ex_verb_vorbeikommen_002",
+    "word_id": "verb_vorbeikommen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____ morgen kurz _____.",
+      "en": "I'll drop by briefly tomorrow.",
+      "show_english": true
+    },
+    "correct_answer": "komme ... vorbei",
+    "wrong_answers": [
+      "kommst ... vorbei",
+      "vorbeikomme",
+      "vorbeigekommen"
+    ],
+    "explanation_en": "'komme ... vorbei' is the ich form of 'vorbeikommen' in the present tense. Separable — 'vorbei' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_vorbeikommen_003",
+    "word_id": "verb_vorbeikommen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Wann _____ du _____?",
+      "en": "When are you dropping by?",
+      "show_english": true
+    },
+    "correct_answer": "kommst ... vorbei",
+    "wrong_answers": [
+      "kommt ... vorbei",
+      "vorbeikommst",
+      "vorbeigekommen"
+    ],
+    "explanation_en": "'kommst ... vorbei' is the du form of 'vorbeikommen' in the present tense. Separable — 'vorbei' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_vorbeikommen_004",
+    "word_id": "verb_vorbeikommen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Bus _____ hier jede Stunde _____.",
+      "en": "The bus passes by here every hour.",
+      "show_english": true
+    },
+    "correct_answer": "kommt ... vorbei",
+    "wrong_answers": [
+      "kommst ... vorbei",
+      "vorbeikommt",
+      "vorbeigekommen"
+    ],
+    "explanation_en": "'kommt ... vorbei' is the er/sie/es form of 'vorbeikommen' in the present tense. Separable — 'vorbei' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "verb_vorbeikommen_partizip",
+    "word_id": "verb_vorbeikommen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "vorbeikommen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "vorbeigekommen",
+    "explanation_en": "The Partizip II of 'vorbeikommen' is 'vorbeigekommen'. Irregular (strong) verb — must be memorised."
+  },
+  {
+    "exercise_id": "verb_vorbeikommen_aux",
+    "word_id": "verb_vorbeikommen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "vorbeikommen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "ist",
+    "wrong_answers": [
+      "hat"
+    ],
+    "explanation_en": "'vorbeikommen' uses 'sein' in the Perfekt (movement / change of state)."
+  },
+  {
+    "exercise_id": "verb_vorbeikommen_table_prateritum",
+    "word_id": "verb_vorbeikommen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "vorbeikommen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "kam vorbei",
+      "du": "kamst vorbei",
+      "er_sie_es": "kam vorbei",
+      "wir": "kamen vorbei",
+      "ihr": "kamt vorbei",
+      "sie_Sie": "kamen vorbei"
+    }
+  },
+  {
+    "exercise_id": "verb_vorbeikommen_table_perfekt",
+    "word_id": "verb_vorbeikommen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "vorbeikommen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "bin vorbeigekommen",
+      "du": "bist vorbeigekommen",
+      "er_sie_es": "ist vorbeigekommen",
+      "wir": "sind vorbeigekommen",
+      "ihr": "seid vorbeigekommen",
+      "sie_Sie": "sind vorbeigekommen"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_nachsehen_001",
+    "word_id": "verb_nachsehen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "nachsehen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to check / to look up",
+    "wrong_answers": [
+      "to look away",
+      "to overlook",
+      "to look like"
+    ],
+    "explanation_en": "'nachsehen' means 'to check / to look up'. Separable. Also: jemandem nachsehen = to watch someone leave."
+  },
+  {
+    "exercise_id": "ex_verb_nachsehen_002",
+    "word_id": "verb_nachsehen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____ im Wörterbuch _____.",
+      "en": "I'll look it up in the dictionary.",
+      "show_english": true
+    },
+    "correct_answer": "sehe ... nach",
+    "wrong_answers": [
+      "siehst ... nach",
+      "nachsehe",
+      "nachgesehen"
+    ],
+    "explanation_en": "'sehe ... nach' is the ich form of 'nachsehen' in the present tense. Separable — 'nach' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_nachsehen_003",
+    "word_id": "verb_nachsehen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Mechaniker _____ das Öl _____.",
+      "en": "The mechanic checks the oil.",
+      "show_english": true
+    },
+    "correct_answer": "sieht ... nach",
+    "wrong_answers": [
+      "siehst ... nach",
+      "nachsieht",
+      "nachgesehen"
+    ],
+    "explanation_en": "'sieht ... nach' is the er/sie/es form of 'nachsehen' in the present tense. Separable — 'nach' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_nachsehen_004",
+    "word_id": "verb_nachsehen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Kannst du bitte _____, ob die Tür zu ist?",
+      "en": "Can you please check whether the door is closed?",
+      "show_english": true
+    },
+    "correct_answer": "nachsehen",
+    "wrong_answers": [
+      "sieht nach",
+      "nachgesehen",
+      "nachsieht"
+    ],
+    "explanation_en": "After a modal verb (or zu/lassen) the infinitive 'nachsehen' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "verb_nachsehen_partizip",
+    "word_id": "verb_nachsehen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "nachsehen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "nachgesehen",
+    "explanation_en": "The Partizip II of 'nachsehen' is 'nachgesehen'. Irregular (strong) verb — must be memorised."
+  },
+  {
+    "exercise_id": "verb_nachsehen_aux",
+    "word_id": "verb_nachsehen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "nachsehen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'nachsehen' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_nachsehen_table_prateritum",
+    "word_id": "verb_nachsehen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "nachsehen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "sah nach",
+      "du": "sahst nach",
+      "er_sie_es": "sah nach",
+      "wir": "sahen nach",
+      "ihr": "saht nach",
+      "sie_Sie": "sahen nach"
+    }
+  },
+  {
+    "exercise_id": "verb_nachsehen_table_perfekt",
+    "word_id": "verb_nachsehen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "nachsehen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe nachgesehen",
+      "du": "hast nachgesehen",
+      "er_sie_es": "hat nachgesehen",
+      "wir": "haben nachgesehen",
+      "ihr": "habt nachgesehen",
+      "sie_Sie": "haben nachgesehen"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_herausfinden_001",
+    "word_id": "verb_herausfinden",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "herausfinden",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to find out",
+    "wrong_answers": [
+      "to invent",
+      "to lose",
+      "to take place"
+    ],
+    "explanation_en": "'herausfinden' means 'to find out'. Separable. Colloquial short form: rausfinden (Ich finde das raus)."
+  },
+  {
+    "exercise_id": "ex_verb_herausfinden_002",
+    "word_id": "verb_herausfinden",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____ die Wahrheit _____.",
+      "en": "I find out the truth.",
+      "show_english": true
+    },
+    "correct_answer": "finde ... heraus",
+    "wrong_answers": [
+      "findest ... heraus",
+      "herausfinde",
+      "herausgefunden"
+    ],
+    "explanation_en": "'finde ... heraus' is the ich form of 'herausfinden' in the present tense. Separable — 'heraus' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_herausfinden_003",
+    "word_id": "verb_herausfinden",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Polizei _____ den Grund _____.",
+      "en": "The police find out the reason.",
+      "show_english": true
+    },
+    "correct_answer": "findet ... heraus",
+    "wrong_answers": [
+      "findest ... heraus",
+      "herausfindet",
+      "herausgefunden"
+    ],
+    "explanation_en": "'findet ... heraus' is the er/sie/es form of 'herausfinden' in the present tense. Separable — 'heraus' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_herausfinden_004",
+    "word_id": "verb_herausfinden",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wir müssen _____, wer das war.",
+      "en": "We have to find out who that was.",
+      "show_english": true
+    },
+    "correct_answer": "herausfinden",
+    "wrong_answers": [
+      "findet heraus",
+      "herausgefunden",
+      "herausfindet"
+    ],
+    "explanation_en": "After a modal verb (or zu/lassen) the infinitive 'herausfinden' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "verb_herausfinden_partizip",
+    "word_id": "verb_herausfinden",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "herausfinden",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "herausgefunden",
+    "explanation_en": "The Partizip II of 'herausfinden' is 'herausgefunden'. Irregular (strong) verb — must be memorised."
+  },
+  {
+    "exercise_id": "verb_herausfinden_aux",
+    "word_id": "verb_herausfinden",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "herausfinden",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'herausfinden' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_herausfinden_table_prateritum",
+    "word_id": "verb_herausfinden",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "herausfinden",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "fand heraus",
+      "du": "fandest heraus",
+      "er_sie_es": "fand heraus",
+      "wir": "fanden heraus",
+      "ihr": "fandet heraus",
+      "sie_Sie": "fanden heraus"
+    }
+  },
+  {
+    "exercise_id": "verb_herausfinden_table_perfekt",
+    "word_id": "verb_herausfinden",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "herausfinden",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe herausgefunden",
+      "du": "hast herausgefunden",
+      "er_sie_es": "hat herausgefunden",
+      "wir": "haben herausgefunden",
+      "ihr": "habt herausgefunden",
+      "sie_Sie": "haben herausgefunden"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_voraussetzen_001",
+    "word_id": "verb_voraussetzen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "voraussetzen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to presuppose / to require",
+    "wrong_answers": [
+      "to translate",
+      "to continue",
+      "to replace"
+    ],
+    "explanation_en": "'voraussetzen' means 'to presuppose / to require'. Separable. Common: vorausgesetzt, dass … = provided that …"
+  },
+  {
+    "exercise_id": "ex_verb_voraussetzen_002",
+    "word_id": "verb_voraussetzen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Diese Stelle _____ gute Deutschkenntnisse _____.",
+      "en": "This job requires good German skills.",
+      "show_english": true
+    },
+    "correct_answer": "setzt ... voraus",
+    "wrong_answers": [
+      "setze ... voraus",
+      "voraussetzt",
+      "vorausgesetzt"
+    ],
+    "explanation_en": "'setzt ... voraus' is the er/sie/es form of 'voraussetzen' in the present tense. Separable — 'voraus' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_voraussetzen_003",
+    "word_id": "verb_voraussetzen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Viele Kurse _____ Vorwissen _____.",
+      "en": "Many courses presuppose prior knowledge.",
+      "show_english": true
+    },
+    "correct_answer": "setzen ... voraus",
+    "wrong_answers": [
+      "setzt ... voraus",
+      "voraussetzen",
+      "vorausgesetzt"
+    ],
+    "explanation_en": "'setzen ... voraus' is the sie/Sie form of 'voraussetzen' in the present tense. Separable — 'voraus' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_voraussetzen_004",
+    "word_id": "verb_voraussetzen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____ das als bekannt _____.",
+      "en": "I take that as known.",
+      "show_english": true
+    },
+    "correct_answer": "setze ... voraus",
+    "wrong_answers": [
+      "setzt ... voraus",
+      "voraussetze",
+      "vorausgesetzt"
+    ],
+    "explanation_en": "'setze ... voraus' is the ich form of 'voraussetzen' in the present tense. Separable — 'voraus' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "verb_voraussetzen_partizip",
+    "word_id": "verb_voraussetzen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "voraussetzen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "vorausgesetzt",
+    "explanation_en": "The Partizip II of 'voraussetzen' is 'vorausgesetzt'. Separable verb: voraus + ge + stem + -t."
+  },
+  {
+    "exercise_id": "verb_voraussetzen_aux",
+    "word_id": "verb_voraussetzen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "voraussetzen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'voraussetzen' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_voraussetzen_table_prateritum",
+    "word_id": "verb_voraussetzen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "voraussetzen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "setzte voraus",
+      "du": "setztest voraus",
+      "er_sie_es": "setzte voraus",
+      "wir": "setzten voraus",
+      "ihr": "setztet voraus",
+      "sie_Sie": "setzten voraus"
+    }
+  },
+  {
+    "exercise_id": "verb_voraussetzen_table_perfekt",
+    "word_id": "verb_voraussetzen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "voraussetzen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe vorausgesetzt",
+      "du": "hast vorausgesetzt",
+      "er_sie_es": "hat vorausgesetzt",
+      "wir": "haben vorausgesetzt",
+      "ihr": "habt vorausgesetzt",
+      "sie_Sie": "haben vorausgesetzt"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_vorausgehen_001",
+    "word_id": "verb_vorausgehen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "vorausgehen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to precede / to go ahead",
+    "wrong_answers": [
+      "to follow",
+      "to go back",
+      "to fall behind"
+    ],
+    "explanation_en": "'vorausgehen' means 'to precede / to go ahead'. Separable. Perfekt with sein. etwas (Dat) vorausgehen = to precede something."
+  },
+  {
+    "exercise_id": "ex_verb_vorausgehen_002",
+    "word_id": "verb_vorausgehen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____ schon mal _____.",
+      "en": "I'll go on ahead.",
+      "show_english": true
+    },
+    "correct_answer": "gehe ... voraus",
+    "wrong_answers": [
+      "gehst ... voraus",
+      "vorausgehe",
+      "vorausgegangen"
+    ],
+    "explanation_en": "'gehe ... voraus' is the ich form of 'vorausgehen' in the present tense. Separable — 'voraus' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_vorausgehen_003",
+    "word_id": "verb_vorausgehen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir _____ heute _____, ihr kommt später.",
+      "en": "We're going ahead today; you'll come later.",
+      "show_english": true
+    },
+    "correct_answer": "gehen ... voraus",
+    "wrong_answers": [
+      "gehst ... voraus",
+      "vorausgehen",
+      "vorausgegangen"
+    ],
+    "explanation_en": "'gehen ... voraus' is the wir form of 'vorausgehen' in the present tense. Separable — 'voraus' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_vorausgehen_004",
+    "word_id": "verb_vorausgehen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Dem Streit _____ ein Missverständnis _____.",
+      "en": "The argument is preceded by a misunderstanding.",
+      "show_english": true
+    },
+    "correct_answer": "geht ... voraus",
+    "wrong_answers": [
+      "gehst ... voraus",
+      "vorausgeht",
+      "vorausgegangen"
+    ],
+    "explanation_en": "'geht ... voraus' is the er/sie/es form of 'vorausgehen' in the present tense. Separable — 'voraus' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "verb_vorausgehen_partizip",
+    "word_id": "verb_vorausgehen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "vorausgehen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "vorausgegangen",
+    "explanation_en": "The Partizip II of 'vorausgehen' is 'vorausgegangen'. Irregular (strong) verb — must be memorised."
+  },
+  {
+    "exercise_id": "verb_vorausgehen_aux",
+    "word_id": "verb_vorausgehen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "vorausgehen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "ist",
+    "wrong_answers": [
+      "hat"
+    ],
+    "explanation_en": "'vorausgehen' uses 'sein' in the Perfekt (movement / change of state)."
+  },
+  {
+    "exercise_id": "verb_vorausgehen_table_prateritum",
+    "word_id": "verb_vorausgehen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "vorausgehen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "ging voraus",
+      "du": "gingst voraus",
+      "er_sie_es": "ging voraus",
+      "wir": "gingen voraus",
+      "ihr": "gingt voraus",
+      "sie_Sie": "gingen voraus"
+    }
+  },
+  {
+    "exercise_id": "verb_vorausgehen_table_perfekt",
+    "word_id": "verb_vorausgehen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "vorausgehen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "bin vorausgegangen",
+      "du": "bist vorausgegangen",
+      "er_sie_es": "ist vorausgegangen",
+      "wir": "sind vorausgegangen",
+      "ihr": "seid vorausgegangen",
+      "sie_Sie": "sind vorausgegangen"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_ausgleichen_001",
+    "word_id": "verb_ausgleichen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "ausgleichen",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to compensate / to balance out",
+    "wrong_answers": [
+      "to compare",
+      "to resemble",
+      "to waste"
+    ],
+    "explanation_en": "'ausgleichen' means 'to compensate / to balance out'. Separable. Adjective: ausgeglichen = balanced (person)."
+  },
+  {
+    "exercise_id": "ex_verb_ausgleichen_002",
+    "word_id": "verb_ausgleichen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Sport _____ den Stress _____.",
+      "en": "Sport compensates for the stress.",
+      "show_english": true
+    },
+    "correct_answer": "gleicht ... aus",
+    "wrong_answers": [
+      "gleichst ... aus",
+      "ausgleicht",
+      "ausgeglichen"
+    ],
+    "explanation_en": "'gleicht ... aus' is the er/sie/es form of 'ausgleichen' in the present tense. Separable — 'aus' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_ausgleichen_003",
+    "word_id": "verb_ausgleichen",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich _____ das Defizit _____.",
+      "en": "I balance out the deficit.",
+      "show_english": true
+    },
+    "correct_answer": "gleiche ... aus",
+    "wrong_answers": [
+      "gleichst ... aus",
+      "ausgleiche",
+      "ausgeglichen"
+    ],
+    "explanation_en": "'gleiche ... aus' is the ich form of 'ausgleichen' in the present tense. Separable — 'aus' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_ausgleichen_004",
+    "word_id": "verb_ausgleichen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Wir müssen die Verluste _____.",
+      "en": "We have to make up for the losses.",
+      "show_english": true
+    },
+    "correct_answer": "ausgleichen",
+    "wrong_answers": [
+      "gleicht aus",
+      "ausgeglichen",
+      "ausgleicht"
+    ],
+    "explanation_en": "After a modal verb (or zu/lassen) the infinitive 'ausgleichen' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "verb_ausgleichen_partizip",
+    "word_id": "verb_ausgleichen",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "ausgleichen",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "ausgeglichen",
+    "explanation_en": "The Partizip II of 'ausgleichen' is 'ausgeglichen'. Irregular (strong) verb — must be memorised."
+  },
+  {
+    "exercise_id": "verb_ausgleichen_aux",
+    "word_id": "verb_ausgleichen",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "ausgleichen",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'ausgleichen' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_ausgleichen_table_prateritum",
+    "word_id": "verb_ausgleichen",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "ausgleichen",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "glich aus",
+      "du": "glichst aus",
+      "er_sie_es": "glich aus",
+      "wir": "glichen aus",
+      "ihr": "glicht aus",
+      "sie_Sie": "glichen aus"
+    }
+  },
+  {
+    "exercise_id": "verb_ausgleichen_table_perfekt",
+    "word_id": "verb_ausgleichen",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "ausgleichen",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe ausgeglichen",
+      "du": "hast ausgeglichen",
+      "er_sie_es": "hat ausgeglichen",
+      "wir": "haben ausgeglichen",
+      "ihr": "habt ausgeglichen",
+      "sie_Sie": "haben ausgeglichen"
+    }
+  },
+  {
+    "exercise_id": "ex_verb_anstreben_001",
+    "word_id": "verb_anstreben",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "anstreben",
+      "prompt_en": "What does this verb mean?"
+    },
+    "correct_answer": "to strive for / to aim for",
+    "wrong_answers": [
+      "to give up",
+      "to avoid",
+      "to reject"
+    ],
+    "explanation_en": "'anstreben' means 'to strive for / to aim for'. Separable and transitive (+ Akk) — same meaning as streben nach + Dativ."
+  },
+  {
+    "exercise_id": "ex_verb_anstreben_002",
+    "word_id": "verb_anstreben",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich _____ eine Karriere in der Forschung _____.",
+      "en": "I'm aiming for a career in research.",
+      "show_english": true
+    },
+    "correct_answer": "strebe ... an",
+    "wrong_answers": [
+      "strebst ... an",
+      "anstrebe",
+      "angestrebt"
+    ],
+    "explanation_en": "'strebe ... an' is the ich form of 'anstreben' in the present tense. Separable — 'an' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_anstreben_003",
+    "word_id": "verb_anstreben",
+    "type": "conjugation_choice",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir _____ eine friedliche Lösung _____.",
+      "en": "We strive for a peaceful solution.",
+      "show_english": true
+    },
+    "correct_answer": "streben ... an",
+    "wrong_answers": [
+      "strebst ... an",
+      "anstreben",
+      "angestrebt"
+    ],
+    "explanation_en": "'streben ... an' is the wir form of 'anstreben' in the present tense. Separable — 'an' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "ex_verb_anstreben_004",
+    "word_id": "verb_anstreben",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Firma _____ mehr Umsatz _____.",
+      "en": "The company is aiming for more revenue.",
+      "show_english": true
+    },
+    "correct_answer": "strebt ... an",
+    "wrong_answers": [
+      "strebst ... an",
+      "anstrebt",
+      "angestrebt"
+    ],
+    "explanation_en": "'strebt ... an' is the er/sie/es form of 'anstreben' in the present tense. Separable — 'an' goes to the end of the clause."
+  },
+  {
+    "exercise_id": "verb_anstreben_partizip",
+    "word_id": "verb_anstreben",
+    "type": "partizip_ii",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "anstreben",
+      "prompt_en": "Type the Partizip II (past participle)."
+    },
+    "correct_answer": "angestrebt",
+    "explanation_en": "The Partizip II of 'anstreben' is 'angestrebt'. Separable verb: an + ge + stem + -t."
+  },
+  {
+    "exercise_id": "verb_anstreben_aux",
+    "word_id": "verb_anstreben",
+    "type": "auxiliary_choice",
+    "tense": "perfekt",
+    "difficulty": 2,
+    "question": {
+      "de": "anstreben",
+      "prompt_en": "Which auxiliary verb does this use in Perfekt?"
+    },
+    "correct_answer": "hat",
+    "wrong_answers": [
+      "ist"
+    ],
+    "explanation_en": "'anstreben' uses 'haben' in the Perfekt."
+  },
+  {
+    "exercise_id": "verb_anstreben_table_prateritum",
+    "word_id": "verb_anstreben",
+    "type": "conjugation_table",
+    "tense": "prateritum",
+    "difficulty": 3,
+    "question": {
+      "de": "anstreben",
+      "tense_label": "Präteritum"
+    },
+    "forms": {
+      "ich": "strebte an",
+      "du": "strebtest an",
+      "er_sie_es": "strebte an",
+      "wir": "strebten an",
+      "ihr": "strebtet an",
+      "sie_Sie": "strebten an"
+    }
+  },
+  {
+    "exercise_id": "verb_anstreben_table_perfekt",
+    "word_id": "verb_anstreben",
+    "type": "conjugation_table",
+    "tense": "perfekt",
+    "difficulty": 3,
+    "question": {
+      "de": "anstreben",
+      "tense_label": "Perfekt"
+    },
+    "forms": {
+      "ich": "habe angestrebt",
+      "du": "hast angestrebt",
+      "er_sie_es": "hat angestrebt",
+      "wir": "haben angestrebt",
+      "ihr": "habt angestrebt",
+      "sie_Sie": "haben angestrebt"
+    }
   }
 ]

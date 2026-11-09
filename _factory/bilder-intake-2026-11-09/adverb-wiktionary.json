@@ -1,0 +1,6 @@
+{"_note":"de.wiktionary.org, fetched 2026-11-09 via in-app browser (MediaWiki API). syn/geg = all links in Synonyme/Gegenwörter; generate.py keeps only those in the app's adverb set.",
+"dahin":{"rev":10406819,"wa":"Adverb","bed":":[1] ersetzt einen Ort (häufig mit Verben der Bewegung) :[2] ersetzt einen Zeitpunkt :[3] ersetzt eine Richtung (beispielsweise eines Bestrebens) :[4] nicht mehr so vorha","syn":[],"geg":["dorthin","hierhin"]},
+"ebenso":{"rev":10234440,"wa":"Adverb","bed":":[1] im gleichen Maße, auf die gleiche Weise","syn":["auch","genauso","geradeso","gleichermaßen","item","ebenfalls"],"geg":["anders"]},
+"ebenfalls":{"rev":10234439,"wa":"Adverb","bed":":[1] auch","syn":["auch","ebenso","gleichfalls"],"geg":[]},
+"obwohl":{"rev":10636861,"wa":"Subjunktion","bed":":[1] leitet einen Nebensatz (Konzessivsatz) ein, der einen Gegengrund zu der Hauptaussage nennt","syn":["obzwar","obgleich","obschon","wenngleich"],"geg":["weil"]},
+"insofern":{"rev":10612299,"wa":"Adverb,Subjunktion","bed":":[1] in der genannten Hinsicht, aus dem genannten Grund","syn":["insoweit"],"geg":[]}}

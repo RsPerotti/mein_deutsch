@@ -88,6 +88,10 @@ def main():
             errors.append(f"B {w}: prefix-shaped Stammverb with no Wiktionary Herkunft row")
         if w in herk:                                                         # C
             text = herk[w][1] if len(herk[w]) > 1 else ""
+            # Session 44: a noun + verb compound (gewährleisten = Gewähr + leisten) is not a
+            # prefix verb — the rule is about prefixes/particles, so C does not apply to it.
+            if "Zusammensetzung aus dem Substantiv" in text:
+                continue
             for b in re.findall(r"(?:dem|zum|vom) Verb (\w+)", text):
                 if w.endswith(b) and w != b and living_verb(b):
                     errors.append(f"C {w}: Wiktionary derives it from the verb {b}")

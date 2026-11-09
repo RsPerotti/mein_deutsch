@@ -21,6 +21,7 @@ const appData = {
   particles:    [],
   prefixes:     [],
   expressions:  [],
+  verbPrepositions: [],
   exercises:    {}   // keyed by moduleId e.g. 'module_verbs'
 };
 
@@ -96,6 +97,7 @@ function onScreenEnter(screenId) {
     case 'screen-adverb-scale':      renderAdverbScale();                     break;
     case 'screen-adjektivliste':     renderAdjektivliste();                   break;
     case 'screen-prapositionsliste': renderPrapositionsliste();               break;
+    case 'screen-verbpraep-liste':   renderVerbPraepListe();                  break;
     case 'screen-ausdrueckeliste':   renderAusdrueckeliste();                 break;
     case 'screen-listening-list':    renderListeningList();                                       break;
     case 'screen-listening-reader':  /* rendered by listening.js on demand */                     break;
@@ -187,6 +189,7 @@ async function loadData() {
   appData.exercises['module_adjectives']    = d.exercises_adjectives   || [];
   appData.prepositions                      = d.prepositions            || [];
   appData.exercises['module_prepositions']  = d.exercises_prepositions  || [];
+  appData.verbPrepositions                  = d.verb_prepositions       || [];  // Session 44
   appData.expressions                       = d.expressions             || [];
   appData.exercises['module_expressions']   = d.exercises_expressions   || [];
 
@@ -1078,7 +1081,11 @@ function filterAdjektivList(query) {
 
 function _renderPrepositionModuleCategories() {
   const total      = appData.prepositions.length;
-  const allEx      = appData.exercises['module_prepositions'] || [];
+  // Session 44: the 'Verben mit Präposition' exercises (vp_id) have their own card
+  const allEx      = (appData.exercises['module_prepositions'] || []).filter(ex => !ex.vp_id);
+  const vpEx       = (appData.exercises['module_prepositions'] || []).filter(ex => ex.vp_id);
+  const vpSeen     = vpEx.filter(ex => Progress.getExerciseHistory(ex.exercise_id).correct > 0).length;
+  const vpPct      = vpEx.length > 0 ? Math.round(vpSeen / vpEx.length * 100) : 0;
 
   // Progress: count unique exercises with at least 1 correct answer
   const history    = allEx.filter(ex => {
@@ -1121,6 +1128,104 @@ function _renderPrepositionModuleCategories() {
           <div class="progress-fill" style="width:${pct}%"></div>
         </div>
         <div class="category-card-cta">Üben →</div>
+      </div>
+    </div>
+
+    <div class="label mt-4" style="color:var(--color-text-primary);margin-bottom:var(--sp-3)">
+      Verben mit Präposition
+    </div>
+
+    <div class="category-pair">
+      <div class="category-card" onclick="navigateTo('screen-verbpraep-liste')">
+        <div class="category-card-title">Liste</div>
+        <div class="category-card-subtitle">denken an, Angst vor … + da-Wörter</div>
+        <div class="category-card-count mt-3">${appData.verbPrepositions.length} Verben</div>
+        <div class="category-card-cta">Ansehen →</div>
+      </div>
+      <div class="category-card" onclick="openExercise('module_prepositions','verben')">
+        <div class="category-card-title">Üben</div>
+        <div class="category-card-subtitle">Präposition, da-Wort, Kasus</div>
+        <div class="category-card-count mt-3">${vpSeen} / ${vpEx.length} Übungen gemacht</div>
+        <div class="progress-bar mt-2">
+          <div class="progress-fill" style="width:${vpPct}%"></div>
+        </div>
+        <div class="category-card-cta">Üben →</div>
+      </div>
+    </div>`;
+}
+
+// ─────────────────────────────────────────
+// VERBEN MIT PRÄPOSITION — list (Session 44)
+// Intro card + every verb/preposition pair, searchable. No unlock gate.
+// ─────────────────────────────────────────
+
+function renderVerbPraepListe() {
+  const q = document.getElementById('vpl-search').value || '';
+  filterVerbPraepListe(q);
+}
+
+function filterVerbPraepListe(query) {
+  const q    = (query || '').toLowerCase().trim();
+  const all  = appData.verbPrepositions;
+  const list = q
+    ? all.filter(v => v.display.toLowerCase().includes(q) || v.english.toLowerCase().includes(q) ||
+                      v.preposition.toLowerCase() === q || v.da_form.toLowerCase().includes(q))
+    : all;
+  const count = document.getElementById('vpl-search-count');
+  if (count) count.textContent = q ? `${list.length} / ${all.length}` : '';
+  const intro = q ? '' : `
+    <div class="card" style="margin-bottom:var(--sp-4)">
+      <div class="label" style="margin-bottom:var(--sp-2)">So funktioniert's</div>
+      <div style="font-size:var(--font-size-sm);color:var(--color-text-secondary);line-height:1.55">
+        Many verbs come with a <strong>fixed preposition</strong> — learn them as one unit:
+        <em>denken an</em>, <em>Angst haben vor</em>, <em>fragen nach</em>.<br><br>
+        <strong>The verb decides the case.</strong> Even two-way prepositions are fixed here:
+        <em>denken an</em> + Akkusativ, but <em>arbeiten an</em> + Dativ.<br><br>
+        <strong>da-words</strong> replace "preposition + it/that": <em>an + das → daran</em>,
+        <em>vor + das → davor</em>. Before a vowel add <strong>-r-</strong>: <em>darüber, daran, darauf</em>.<br>
+        <em>Ich denke an den Urlaub. → Ich denke daran.</em>
+      </div>
+    </div>`;
+  document.getElementById('verbpraep-liste-content').innerHTML = intro + (list.length
+    ? list.map(_renderVerbPraepCard).join('')
+    : `<div style="color:var(--color-text-muted);padding:var(--sp-4)">Keine Ergebnisse.</div>`);
+}
+
+function _renderVerbPraepCard(v) {
+  const caseDots = _renderCaseDots([v.case]);
+  return `
+    <div class="card verb-card">
+      <div class="verb-card-header" onclick="togglePrepCard('${v.id}')">
+        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+          ${caseDots}
+          <span class="verb-card-title">${v.display}</span>
+          <span class="verb-card-en"> — ${v.english}</span>
+        </div>
+        <svg id="pl-arr-${v.id}" width="16" height="16" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+             stroke-linejoin="round" style="color:var(--color-text-muted);transition:transform 0.2s;flex-shrink:0">
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </div>
+      <div class="verb-detail" id="pl-det-${v.id}">
+        <div style="margin-top:var(--sp-3);display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+          <span class="tag" style="background:var(--color-surface);border:1.5px solid var(--color-border);
+                color:var(--color-text-secondary);font-size:var(--font-size-xs);padding:3px 8px;border-radius:4px">
+            ${v.preposition} + ${v.case}</span>
+          <span class="tag" style="background:var(--color-surface);border:1.5px solid var(--color-border);
+                color:var(--color-text-secondary);font-size:var(--font-size-xs);padding:3px 8px;border-radius:4px">
+            ${v.da_form}</span>
+          <span class="tag" style="background:var(--color-surface);border:1.5px solid var(--color-border);
+                color:var(--color-text-secondary);font-size:var(--font-size-xs);padding:3px 8px;border-radius:4px">
+            ${v.cefr}</span>
+        </div>
+        ${v.notes ? `<div style="margin-top:var(--sp-3);font-size:var(--font-size-sm);color:var(--color-text-secondary);line-height:1.5">${v.notes}</div>` : ''}
+        <div class="label mt-3" style="margin-bottom:var(--sp-2)">Beispiele</div>
+        ${v.example_sentences.map(ex => `
+          <div class="example-card">
+            <div class="example-de">${ex.de}</div>
+            <div class="example-en">${ex.en}</div>
+          </div>`).join('')}
       </div>
     </div>`;
 }

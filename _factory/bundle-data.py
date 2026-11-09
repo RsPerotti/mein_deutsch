@@ -45,6 +45,7 @@ def main():
         "prepositions":            load("prepositions.json"),
         "exercises_prepositions":  load("exercises", "exercises-prepositions.json"),
         "expressions":             load("expressions.json"),
+        "verb_prepositions":       load("verb-prepositions.json"),  # Session 44 — Verben mit Präposition
         "exercises_expressions":   load("exercises", "exercises-expressions.json"),
         "exercises": {"module_verbs": load("exercises", "exercises-verbs.json")},
     }

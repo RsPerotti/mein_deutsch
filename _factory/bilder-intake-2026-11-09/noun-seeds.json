@@ -1,0 +1,701 @@
+{
+ "_schema": "Session 44 noun seeds. sent: two sentences, '_____' = the noun; the token right before the blank is a determiner that fixes gender/case, and every distractor (an app noun) has a gender that clashes with it, so only the answer is grammatical. tdist = 3 English meanings that are not synonyms.",
+ "nouns": [
+  {
+   "word": "Satz",
+   "article": "der",
+   "english": "sentence / set",
+   "plural": "Sätze",
+   "genitive": "des Satzes",
+   "section": "roots",
+   "cefr": "A2",
+   "tags": [
+    "language"
+   ],
+   "sent": [
+    {
+     "de": "Bitte lies den _____ noch einmal.",
+     "en": "Please read the sentence again.",
+     "wrong": [
+      "Frage",
+      "Wort",
+      "Seite"
+     ]
+    },
+    {
+     "de": "Ein _____ braucht ein Subjekt und ein Verb.",
+     "en": "A sentence needs a subject and a verb.",
+     "wrong": [
+      "Frage",
+      "Seite",
+      "Sprache"
+     ]
+    }
+   ],
+   "tdist": [
+    "the word",
+    "the page",
+    "the question"
+   ],
+   "note": "Root of the -satz family: Ersatz, Aufsatz, Zusatz, Absatz, Umsatz, Ansatz, Einsatz, Gegensatz, Vorsatz."
+  },
+  {
+   "word": "Ersatz",
+   "article": "der",
+   "english": "replacement / substitute",
+   "plural": "Ersätze",
+   "genitive": "des Ersatzes",
+   "section": "variations",
+   "formation": "er- + Satz",
+   "cefr": "B1",
+   "tags": [
+    "everyday"
+   ],
+   "sent": [
+    {
+     "de": "Wir brauchen einen _____ für den kaputten Laptop.",
+     "en": "We need a replacement for the broken laptop.",
+     "wrong": [
+      "Lösung",
+      "Angebot",
+      "Idee"
+     ]
+    },
+    {
+     "de": "Der _____ kommt morgen mit der Post.",
+     "en": "The replacement arrives tomorrow by post.",
+     "wrong": [
+      "Angebot",
+      "Ergebnis",
+      "Buch"
+     ]
+    }
+   ],
+   "tdist": [
+    "the essay",
+    "the paragraph",
+    "the revenue"
+   ],
+   "note": "Verb: ersetzen (to replace)."
+  },
+  {
+   "word": "Aufsatz",
+   "article": "der",
+   "english": "essay / composition",
+   "plural": "Aufsätze",
+   "genitive": "des Aufsatzes",
+   "section": "variations",
+   "formation": "auf- + Satz",
+   "cefr": "B1",
+   "tags": [
+    "school",
+    "writing"
+   ],
+   "sent": [
+    {
+     "de": "Ich schreibe einen _____ über meine Ferien.",
+     "en": "I'm writing an essay about my holidays.",
+     "wrong": [
+      "Arbeit",
+      "Buch",
+      "Seite"
+     ]
+    },
+    {
+     "de": "Der _____ muss bis Freitag fertig sein.",
+     "en": "The essay has to be finished by Friday.",
+     "wrong": [
+      "Buch",
+      "Ergebnis",
+      "Thema"
+     ]
+    }
+   ],
+   "tdist": [
+    "the replacement",
+    "the paragraph",
+    "the contrast"
+   ],
+   "note": ""
+  },
+  {
+   "word": "Zusatz",
+   "article": "der",
+   "english": "addition / additive / addendum",
+   "plural": "Zusätze",
+   "genitive": "des Zusatzes",
+   "section": "variations",
+   "formation": "zu- + Satz",
+   "cefr": "B2",
+   "tags": [
+    "abstract"
+   ],
+   "sent": [
+    {
+     "de": "Der Vertrag hat einen _____: Die Miete steigt jedes Jahr.",
+     "en": "The contract has an addendum: the rent rises every year.",
+     "wrong": [
+      "Auflage",
+      "Grundlage",
+      "Problem"
+     ]
+    },
+    {
+     "de": "Ohne einen _____ von Salz schmeckt die Suppe fade.",
+     "en": "Without an addition of salt the soup tastes bland.",
+     "wrong": [
+      "Milch",
+      "Wasser",
+      "Energie"
+     ]
+    }
+   ],
+   "tdist": [
+    "the essay",
+    "the revenue",
+    "the resolution"
+   ],
+   "note": "Adjective: zusätzlich (additional)."
+  },
+  {
+   "word": "Absatz",
+   "article": "der",
+   "english": "paragraph / heel (of a shoe)",
+   "plural": "Absätze",
+   "genitive": "des Absatzes",
+   "section": "variations",
+   "formation": "ab- + Satz",
+   "cefr": "B1",
+   "tags": [
+    "writing",
+    "clothing"
+   ],
+   "sent": [
+    {
+     "de": "Mach nach diesem Satz einen _____.",
+     "en": "Start a new paragraph after this sentence.",
+     "wrong": [
+      "Seite",
+      "Wort",
+      "Frage"
+     ]
+    },
+    {
+     "de": "Am Schuh ist der _____ abgebrochen.",
+     "en": "The heel of the shoe has broken off.",
+     "wrong": [
+      "Fenster",
+      "Handy",
+      "Bett"
+     ]
+    }
+   ],
+   "tdist": [
+    "the essay",
+    "the replacement",
+    "the sentence"
+   ],
+   "note": "In business also: sales (der Absatz von Waren)."
+  },
+  {
+   "word": "Umsatz",
+   "article": "der",
+   "english": "turnover / revenue / sales",
+   "plural": "Umsätze",
+   "genitive": "des Umsatzes",
+   "section": "variations",
+   "formation": "um- + Satz",
+   "cefr": "B2",
+   "tags": [
+    "business"
+   ],
+   "sent": [
+    {
+     "de": "Der _____ ist im letzten Jahr gestiegen.",
+     "en": "Revenue rose last year.",
+     "wrong": [
+      "Ergebnis",
+      "Interesse",
+      "Angebot"
+     ]
+    },
+    {
+     "de": "Wie hoch ist der _____ im Dezember?",
+     "en": "How high are the sales in December?",
+     "wrong": [
+      "Ergebnis",
+      "Risiko",
+      "Angebot"
+     ]
+    }
+   ],
+   "tdist": [
+    "the approach",
+    "the contrast",
+    "the addition"
+   ],
+   "note": ""
+  },
+  {
+   "word": "Einsatz",
+   "article": "der",
+   "english": "use / deployment / commitment",
+   "plural": "Einsätze",
+   "genitive": "des Einsatzes",
+   "section": "variations",
+   "formation": "ein- + Satz",
+   "cefr": "B2",
+   "tags": [
+    "work",
+    "abstract"
+   ],
+   "sent": [
+    {
+     "de": "Der _____ von Handys ist im Unterricht verboten.",
+     "en": "The use of mobile phones is forbidden in class.",
+     "wrong": [
+      "Interesse",
+      "Verhalten",
+      "Angebot"
+     ]
+    },
+    {
+     "de": "Danke für deinen _____!",
+     "en": "Thanks for your commitment!",
+     "wrong": [
+      "Leistung",
+      "Verständnis",
+      "Empfehlung"
+     ]
+    }
+   ],
+   "tdist": [
+    "the replacement",
+    "the revenue",
+    "the paragraph"
+   ],
+   "note": "Verb: einsetzen (to use, to deploy)."
+  },
+  {
+   "word": "Gegensatz",
+   "article": "der",
+   "english": "contrast / opposite",
+   "plural": "Gegensätze",
+   "genitive": "des Gegensatzes",
+   "section": "variations",
+   "formation": "gegen- + Satz",
+   "cefr": "B1",
+   "tags": [
+    "abstract"
+   ],
+   "sent": [
+    {
+     "de": "Im _____ zu dir mag ich Kaffee.",
+     "en": "Unlike you, I like coffee.",
+     "wrong": [
+      "Meinung",
+      "Wirklichkeit",
+      "Beziehung"
+     ]
+    },
+    {
+     "de": "Heiß ist der _____ von kalt.",
+     "en": "Hot is the opposite of cold.",
+     "wrong": [
+      "Ziel",
+      "Wort",
+      "Beispiel"
+     ]
+    }
+   ],
+   "tdist": [
+    "the resolution",
+    "the essay",
+    "the use"
+   ],
+   "note": "im Gegensatz zu + Dativ = in contrast to."
+  },
+  {
+   "word": "Vorsatz",
+   "article": "der",
+   "english": "resolution / intention",
+   "plural": "Vorsätze",
+   "genitive": "des Vorsatzes",
+   "section": "variations",
+   "formation": "vor- + Satz",
+   "cefr": "B1",
+   "tags": [
+    "abstract"
+   ],
+   "sent": [
+    {
+     "de": "Mein _____ für das neue Jahr: mehr Sport!",
+     "en": "My resolution for the new year: more exercise!",
+     "wrong": [
+      "Idee",
+      "Aufgabe",
+      "Meinung"
+     ]
+    },
+    {
+     "de": "Ich habe den _____, weniger Zucker zu essen.",
+     "en": "I have resolved to eat less sugar.",
+     "wrong": [
+      "Idee",
+      "Ziel",
+      "Pflicht"
+     ]
+    }
+   ],
+   "tdist": [
+    "the paragraph",
+    "the replacement",
+    "the revenue"
+   ],
+   "note": "Gute Vorsätze = (New Year's) resolutions."
+  },
+  {
+   "word": "Alltag",
+   "article": "der",
+   "english": "everyday life",
+   "plural": "Alltage",
+   "genitive": "des Alltags",
+   "section": "roots",
+   "cefr": "B1",
+   "tags": [
+    "everyday"
+   ],
+   "sent": [
+    {
+     "de": "Im _____ spreche ich viel Deutsch.",
+     "en": "In everyday life I speak a lot of German.",
+     "wrong": [
+      "Schule",
+      "Familie",
+      "Arbeit"
+     ]
+    },
+    {
+     "de": "Der _____ mit kleinen Kindern ist anstrengend.",
+     "en": "Everyday life with small children is exhausting.",
+     "wrong": [
+      "Jahr",
+      "Essen",
+      "Zimmer"
+     ]
+    }
+   ],
+   "tdist": [
+    "the weekend",
+    "the holiday",
+    "the birthday"
+   ],
+   "note": "Almost always singular. Adjective: alltäglich."
+  },
+  {
+   "word": "Gewohnheit",
+   "article": "die",
+   "english": "habit",
+   "plural": "Gewohnheiten",
+   "genitive": "der Gewohnheit",
+   "section": "roots",
+   "cefr": "B1",
+   "tags": [
+    "everyday"
+   ],
+   "sent": [
+    {
+     "de": "Kaffee am Morgen ist eine _____ von mir.",
+     "en": "Coffee in the morning is a habit of mine.",
+     "wrong": [
+      "Fehler",
+      "Problem",
+      "Ziel"
+     ]
+    },
+    {
+     "de": "Ich habe die _____, früh aufzustehen.",
+     "en": "I have the habit of getting up early.",
+     "wrong": [
+      "Grund",
+      "Ziel",
+      "Vorteil"
+     ]
+    }
+   ],
+   "tdist": [
+    "the opportunity",
+    "the experience",
+    "the decision"
+   ],
+   "note": "Adjective: gewohnt (used to)."
+  },
+  {
+   "word": "Gelegenheit",
+   "article": "die",
+   "english": "opportunity / occasion",
+   "plural": "Gelegenheiten",
+   "genitive": "der Gelegenheit",
+   "section": "roots",
+   "cefr": "B1",
+   "tags": [
+    "abstract"
+   ],
+   "sent": [
+    {
+     "de": "Ich nutze jede _____, Deutsch zu sprechen.",
+     "en": "I use every opportunity to speak German.",
+     "wrong": [
+      "Tag",
+      "Jahr",
+      "Grund"
+     ]
+    },
+    {
+     "de": "Nutze die _____!",
+     "en": "Seize the opportunity!",
+     "wrong": [
+      "Vorteil",
+      "Angebot",
+      "Weg"
+     ]
+    }
+   ],
+   "tdist": [
+    "the habit",
+    "the decision",
+    "the difficulty"
+   ],
+   "note": "Related: gelegentlich (occasionally)."
+  },
+  {
+   "word": "Unterstützung",
+   "article": "die",
+   "english": "support",
+   "plural": "Unterstützungen",
+   "genitive": "der Unterstützung",
+   "section": "roots",
+   "cefr": "B1",
+   "tags": [
+    "social"
+   ],
+   "sent": [
+    {
+     "de": "Danke für deine _____!",
+     "en": "Thanks for your support!",
+     "wrong": [
+      "Beitrag",
+      "Verständnis",
+      "Einfluss"
+     ]
+    },
+    {
+     "de": "Ohne die _____ der Eltern schaffe ich das nicht.",
+     "en": "Without my parents' support I can't do it.",
+     "wrong": [
+      "Geld",
+      "Einfluss",
+      "Interesse"
+     ]
+    }
+   ],
+   "tdist": [
+    "the attention",
+    "the safety",
+    "the success"
+   ],
+   "note": "Verb: unterstützen (to support)."
+  },
+  {
+   "word": "Sicherheit",
+   "article": "die",
+   "english": "safety / security / certainty",
+   "plural": "Sicherheiten",
+   "genitive": "der Sicherheit",
+   "section": "roots",
+   "cefr": "B1",
+   "tags": [
+    "safety"
+   ],
+   "sent": [
+    {
+     "de": "Die _____ der Kinder ist am wichtigsten.",
+     "en": "The children's safety is the most important thing.",
+     "wrong": [
+      "Zustand",
+      "Gleichgewicht",
+      "Bewusstsein"
+     ]
+    },
+    {
+     "de": "Zu Ihrer _____ schließen wir die Tür ab.",
+     "en": "For your safety we lock the door.",
+     "wrong": [
+      "Wohlbefinden",
+      "Vorteil",
+      "Interesse"
+     ]
+    }
+   ],
+   "tdist": [
+    "the freedom",
+    "the patience",
+    "the attention"
+   ],
+   "note": "Adjective: sicher (safe, sure)."
+  },
+  {
+   "word": "Geduld",
+   "article": "die",
+   "english": "patience",
+   "plural": "—",
+   "genitive": "der Geduld",
+   "section": "roots",
+   "cefr": "A2",
+   "tags": [
+    "character"
+   ],
+   "sent": [
+    {
+     "de": "Meine _____ ist am Ende.",
+     "en": "My patience has run out.",
+     "wrong": [
+      "Kopf",
+      "Herz",
+      "Zustand"
+     ]
+    },
+    {
+     "de": "Die _____ ist eine Tugend.",
+     "en": "Patience is a virtue.",
+     "wrong": [
+      "Verständnis",
+      "Fortschritt",
+      "Bewusstsein"
+     ]
+    }
+   ],
+   "tdist": [
+    "the attention",
+    "the safety",
+    "the habit"
+   ],
+   "note": "No plural. Verb: sich gedulden. Adjective: geduldig."
+  },
+  {
+   "word": "Aufmerksamkeit",
+   "article": "die",
+   "english": "attention",
+   "plural": "Aufmerksamkeiten",
+   "genitive": "der Aufmerksamkeit",
+   "section": "roots",
+   "cefr": "B1",
+   "tags": [
+    "abstract"
+   ],
+   "sent": [
+    {
+     "de": "Danke für Ihre _____.",
+     "en": "Thank you for your attention.",
+     "wrong": [
+      "Beitrag",
+      "Interesse",
+      "Verständnis"
+     ]
+    },
+    {
+     "de": "Die _____ der Schüler lässt nach.",
+     "en": "The pupils' attention is waning.",
+     "wrong": [
+      "Interesse",
+      "Fortschritt",
+      "Bewusstsein"
+     ]
+    }
+   ],
+   "tdist": [
+    "the patience",
+    "the support",
+    "the opportunity"
+   ],
+   "note": "Adjective: aufmerksam (attentive)."
+  },
+  {
+   "word": "Schwierigkeit",
+   "article": "die",
+   "english": "difficulty",
+   "plural": "Schwierigkeiten",
+   "genitive": "der Schwierigkeit",
+   "section": "roots",
+   "cefr": "B1",
+   "tags": [
+    "abstract"
+   ],
+   "sent": [
+    {
+     "de": "Die _____ liegt im Detail.",
+     "en": "The difficulty lies in the details.",
+     "wrong": [
+      "Grund",
+      "Ziel",
+      "Vorteil"
+     ]
+    },
+    {
+     "de": "Ohne jede _____ hat sie die Prüfung bestanden.",
+     "en": "She passed the exam without any difficulty.",
+     "wrong": [
+      "Fehler",
+      "Ziel",
+      "Vorteil"
+     ]
+    }
+   ],
+   "tdist": [
+    "the success",
+    "the support",
+    "the attention"
+   ],
+   "note": "Adjective: schwierig. Often plural: Schwierigkeiten haben."
+  },
+  {
+   "word": "Erfolg",
+   "article": "der",
+   "english": "success",
+   "plural": "Erfolge",
+   "genitive": "des Erfolges",
+   "section": "roots",
+   "cefr": "A2",
+   "tags": [
+    "work",
+    "abstract"
+   ],
+   "sent": [
+    {
+     "de": "Der _____ kam nach vielen Jahren.",
+     "en": "Success came after many years.",
+     "wrong": [
+      "Ergebnis",
+      "Ziel",
+      "Angebot"
+     ]
+    },
+    {
+     "de": "Das Konzert war ein _____.",
+     "en": "The concert was a success.",
+     "wrong": [
+      "Herausforderung",
+      "Sackgasse",
+      "Lösung"
+     ]
+    }
+   ],
+   "tdist": [
+    "the failure",
+    "the difficulty",
+    "the progress"
+   ],
+   "note": "Viel Erfolg! = Good luck! Adjective: erfolgreich."
+  }
+ ]
+}

@@ -3577,5 +3577,421 @@
       "reading",
       "b2"
     ]
+  },
+  {
+    "id": "adj_erkaltet",
+    "word": "erkältet",
+    "english": "having a cold",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 137,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Ich habe Schnupfen und Halsschmerzen – ich bin erkältet.",
+        "en": "I have a runny nose and a sore throat – I've got a cold."
+      },
+      {
+        "de": "Zieh eine Jacke an, sonst bist du morgen erkältet!",
+        "en": "Put a jacket on, otherwise you'll have a cold tomorrow!"
+      }
+    ],
+    "tags": [
+      "health",
+      "body",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_gunstig",
+    "word": "günstig",
+    "english": "cheap / inexpensive / favourable",
+    "comparative": "günstiger",
+    "superlative": "am günstigsten",
+    "frequency_rank": 138,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Im Supermarkt ist das Obst heute sehr günstig.",
+        "en": "The fruit at the supermarket is very cheap today."
+      },
+      {
+        "de": "Der Zeitpunkt ist günstig, um ein Auto zu kaufen.",
+        "en": "It's a favourable time to buy a car."
+      }
+    ],
+    "tags": [
+      "shopping",
+      "money",
+      "a2"
+    ],
+    "antonym": "teuer"
+  },
+  {
+    "id": "adj_bedeutend",
+    "word": "bedeutend",
+    "english": "significant / important / considerable",
+    "comparative": "bedeutender",
+    "superlative": "am bedeutendsten",
+    "frequency_rank": 139,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Der Unterschied ist bedeutend: 30 Prozent!",
+        "en": "The difference is significant: 30 percent!"
+      },
+      {
+        "de": "Diese Entdeckung ist wissenschaftlich sehr bedeutend.",
+        "en": "This discovery is scientifically very significant."
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ],
+    "antonym": "unbedeutend"
+  },
+  {
+    "id": "adj_unkompliziert",
+    "word": "unkompliziert",
+    "english": "uncomplicated / straightforward / easy-going",
+    "comparative": "unkomplizierter",
+    "superlative": "am unkompliziertesten",
+    "frequency_rank": 140,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Die Anmeldung ist ganz unkompliziert – nur zwei Klicks.",
+        "en": "Registration is really straightforward – just two clicks."
+      },
+      {
+        "de": "Mein Mitbewohner ist sehr unkompliziert – mit ihm gibt es nie Probleme.",
+        "en": "My flatmate is very easy-going – there are never problems with him."
+      }
+    ],
+    "tags": [
+      "character",
+      "abstract",
+      "b1"
+    ],
+    "antonym": "kompliziert"
+  },
+  {
+    "id": "adj_ausgezeichnet",
+    "word": "ausgezeichnet",
+    "english": "excellent",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 141,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Das Essen in diesem Restaurant ist ausgezeichnet.",
+        "en": "The food in this restaurant is excellent."
+      },
+      {
+        "de": "Du hast die Prüfung mit „sehr gut“ bestanden – ausgezeichnet!",
+        "en": "You passed the exam with 'very good' – excellent!"
+      }
+    ],
+    "tags": [
+      "evaluation",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_wutend",
+    "word": "wütend",
+    "english": "angry / furious",
+    "comparative": "wütender",
+    "superlative": "am wütendsten",
+    "frequency_rank": 142,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Er schreit und schlägt die Tür zu – er ist richtig wütend.",
+        "en": "He shouts and slams the door – he's really furious."
+      },
+      {
+        "de": "Warum bist du so wütend auf mich? Ich habe nichts gemacht!",
+        "en": "Why are you so angry with me? I didn't do anything!"
+      }
+    ],
+    "tags": [
+      "emotions",
+      "a2"
+    ],
+    "antonym": "ruhig"
+  },
+  {
+    "id": "adj_einsam",
+    "word": "einsam",
+    "english": "lonely",
+    "comparative": "einsamer",
+    "superlative": "am einsamsten",
+    "frequency_rank": 143,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Seit seine Frau gestorben ist, fühlt er sich oft einsam.",
+        "en": "Since his wife died, he often feels lonely."
+      },
+      {
+        "de": "Das Haus steht ganz einsam auf dem Hügel.",
+        "en": "The house stands all alone on the hill."
+      }
+    ],
+    "tags": [
+      "emotions",
+      "b1"
+    ],
+    "antonym": "gesellig"
+  },
+  {
+    "id": "adj_gelangweilt",
+    "word": "gelangweilt",
+    "english": "bored",
+    "comparative": "gelangweilter",
+    "superlative": "am gelangweiltesten",
+    "frequency_rank": 144,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Der Film ist so langweilig – ich bin total gelangweilt.",
+        "en": "The film is so boring – I'm totally bored."
+      },
+      {
+        "de": "Die Schüler schauen gelangweilt aus dem Fenster.",
+        "en": "The pupils look out of the window, bored."
+      }
+    ],
+    "tags": [
+      "emotions",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_entspannt",
+    "word": "entspannt",
+    "english": "relaxed",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 145,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Nach dem Urlaub bin ich ganz entspannt.",
+        "en": "After the holiday I'm completely relaxed."
+      },
+      {
+        "de": "Die Atmosphäre im Café ist sehr entspannt.",
+        "en": "The atmosphere in the café is very relaxed."
+      }
+    ],
+    "tags": [
+      "emotions",
+      "a2"
+    ],
+    "antonym": "gestresst"
+  },
+  {
+    "id": "adj_verlegen",
+    "word": "verlegen",
+    "english": "embarrassed / sheepish",
+    "comparative": "verlegener",
+    "superlative": "am verlegensten",
+    "frequency_rank": 146,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Als alle ihn ansehen, wird er rot und ganz verlegen.",
+        "en": "When everyone looks at him, he turns red and very embarrassed."
+      },
+      {
+        "de": "Sie lächelte verlegen, als er ihr ein Kompliment machte.",
+        "en": "She smiled sheepishly when he paid her a compliment."
+      }
+    ],
+    "tags": [
+      "emotions",
+      "b1"
+    ],
+    "antonym": "selbstbewusst"
+  },
+  {
+    "id": "adj_besorgt",
+    "word": "besorgt",
+    "english": "worried / concerned",
+    "comparative": "besorgter",
+    "superlative": "am besorgtesten",
+    "frequency_rank": 147,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Die Mutter ist besorgt, weil ihr Sohn noch nicht zu Hause ist.",
+        "en": "The mother is worried because her son isn't home yet."
+      },
+      {
+        "de": "Ich bin besorgt um deine Gesundheit.",
+        "en": "I'm worried about your health."
+      }
+    ],
+    "tags": [
+      "emotions",
+      "b1"
+    ],
+    "antonym": "unbesorgt"
+  },
+  {
+    "id": "adj_genervt",
+    "word": "genervt",
+    "english": "annoyed",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 148,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Der Nachbar spielt jeden Abend laute Musik – ich bin total genervt.",
+        "en": "The neighbour plays loud music every evening – I'm totally annoyed."
+      },
+      {
+        "de": "Er verdreht genervt die Augen.",
+        "en": "He rolls his eyes, annoyed."
+      }
+    ],
+    "tags": [
+      "emotions",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_dankbar",
+    "word": "dankbar",
+    "english": "grateful / thankful",
+    "comparative": "dankbarer",
+    "superlative": "am dankbarsten",
+    "frequency_rank": 149,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ich bin dir sehr dankbar für deine Hilfe.",
+        "en": "I'm very grateful to you for your help."
+      },
+      {
+        "de": "Wir sind dankbar, dass alle gesund sind.",
+        "en": "We are grateful that everyone is healthy."
+      }
+    ],
+    "tags": [
+      "emotions",
+      "a2"
+    ],
+    "antonym": "undankbar"
+  },
+  {
+    "id": "adj_nachdenklich",
+    "word": "nachdenklich",
+    "english": "thoughtful / pensive",
+    "comparative": "nachdenklicher",
+    "superlative": "am nachdenklichsten",
+    "frequency_rank": 150,
+    "module": "adjectives",
+    "unlock_level": 3,
+    "cefr": "B1",
+    "example_sentences": [
+      {
+        "de": "Nach dem Gespräch war sie sehr nachdenklich und still.",
+        "en": "After the conversation she was very pensive and quiet."
+      },
+      {
+        "de": "Dieser Film macht mich nachdenklich.",
+        "en": "This film makes me thoughtful."
+      }
+    ],
+    "tags": [
+      "emotions",
+      "thinking",
+      "b1"
+    ]
+  },
+  {
+    "id": "adj_verliebt",
+    "word": "verliebt",
+    "english": "in love",
+    "comparative": "verliebter",
+    "superlative": "am verliebtesten",
+    "frequency_rank": 151,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Paul ist in seine Kollegin verliebt.",
+        "en": "Paul is in love with his colleague."
+      },
+      {
+        "de": "Die beiden sind frisch verliebt und sehr glücklich.",
+        "en": "The two of them are newly in love and very happy."
+      }
+    ],
+    "tags": [
+      "emotions",
+      "relationships",
+      "a2"
+    ]
+  },
+  {
+    "id": "adj_gestresst",
+    "word": "gestresst",
+    "english": "stressed",
+    "comparative": "",
+    "superlative": "",
+    "frequency_rank": 152,
+    "module": "adjectives",
+    "unlock_level": 2,
+    "cefr": "A2",
+    "example_sentences": [
+      {
+        "de": "Ich habe zu viel Arbeit und bin total gestresst.",
+        "en": "I have too much work and I'm totally stressed."
+      },
+      {
+        "de": "Vor Prüfungen sind viele Studenten gestresst.",
+        "en": "Before exams many students are stressed."
+      }
+    ],
+    "tags": [
+      "emotions",
+      "work",
+      "a2"
+    ],
+    "antonym": "entspannt"
   }
 ]

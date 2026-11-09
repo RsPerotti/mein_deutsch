@@ -40,7 +40,7 @@ const reset = () => E("SRS.reset(); localStorage.clear(); exerciseMode = 'module
 
 // ── data in the bundle ───────────────────────────────────────────────────
 ok('16 axes bundled', E('appData.adverbScales.axes.length') === 16, E('appData.adverbScales.axes.length'));
-ok('213 adverbs bundled', E('appData.adverbs.length') === 213);
+ok('218 adverbs bundled (213 + 5 from Session 44)', E('appData.adverbs.length') === 218);
 const nDrill = E("appData.exercises.module_adverbs.filter(e => e.type === 'scale_choice').length");
 ok('drill exercises bundled', nDrill === 88, nDrill);
 

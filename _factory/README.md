@@ -131,3 +131,24 @@ Seeds in `adverb-scales/` (`axes.json`, `new-words.json`, `wiktionary-cache.tsv`
 
 To refresh the Wiktionary cache, fetch in the in-app browser (MediaWiki API) — neither shell can
 reach de.wiktionary.org.
+
+## Bilder-Intake (screenshots) — Session 44
+
+Vocabulary from Ricco's Instagram screenshots. Folder `bilder-intake-2026-11-09/`:
+authored seeds (`*-seeds.json`), fetched caches (`wiktionary-*.tsv`, `valency-evidence.json` =
+de.wiktionary + DWDS prepositions per verb, `adverb-wiktionary.json`), `generate.py` (idempotent —
+strips its own ids from `generated-ids.json` before re-adding), `validate.py` (independent; never
+imports the generator), `verify-validator.py` (25 seeded bugs). Run order:
+
+```bash
+python3 _factory/bilder-intake-2026-11-09/generate.py
+python3 _factory/bundle-data.py
+python3 _factory/bilder-intake-2026-11-09/validate.py          # must be 0 errors
+python3 _factory/bilder-intake-2026-11-09/verify-validator.py   # after changing the validator
+python3 _factory/validate-stammverben.py && python3 _factory/validate-adverb-distractors.py
+NODE_PATH=~/qa/node_modules node _factory/qa-verb-prepositions.js
+```
+
+For a NEW screenshot batch: copy the folder pattern (new date), keep the validator's rules, and fetch
+fresh caches in the in-app browser (Wiktionary MediaWiki API; DWDS `/wb/<word>` pages — site access was
+granted in Session 44). Verb + preposition valency comes from DWDS first, Wiktionary second.

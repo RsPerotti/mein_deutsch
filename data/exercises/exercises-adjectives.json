@@ -9246,5 +9246,1093 @@
       "offensichtlich"
     ],
     "explanation_en": "'underlying' translates to 'zugrundeliegend' in German."
+  },
+  {
+    "exercise_id": "ex_adj_erkaltet_001",
+    "word_id": "adj_erkaltet",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "erkältet",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "having a cold",
+    "wrong_answers": [
+      "in love",
+      "bored",
+      "grateful"
+    ],
+    "explanation_en": "'erkältet' means 'having a cold'. Partizip II of sich erkälten. die Erkältung = the cold."
+  },
+  {
+    "exercise_id": "ex_adj_erkaltet_002",
+    "word_id": "adj_erkaltet",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich habe Schnupfen und Halsschmerzen – ich bin _____.",
+      "en": "I have a runny nose and a sore throat – I've got a cold."
+    },
+    "correct_answer": "erkältet",
+    "wrong_answers": [
+      "teuer",
+      "pünktlich",
+      "eng"
+    ],
+    "explanation_en": "Only 'erkältet' (having a cold) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_erkaltet_003",
+    "word_id": "adj_erkaltet",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "having a cold",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "erkältet",
+    "wrong_answers": [
+      "begeistert",
+      "stolz",
+      "verliebt"
+    ],
+    "explanation_en": "'having a cold' is 'erkältet' in German."
+  },
+  {
+    "exercise_id": "ex_adj_erkaltet_004",
+    "word_id": "adj_erkaltet",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Zieh eine Jacke an, sonst bist du morgen _____!",
+      "en": "Put a jacket on, otherwise you'll have a cold tomorrow!"
+    },
+    "correct_answer": "erkältet",
+    "wrong_answers": [
+      "teuer",
+      "leer",
+      "pünktlich"
+    ],
+    "explanation_en": "Only 'erkältet' (having a cold) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_gunstig_001",
+    "word_id": "adj_gunstig",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "günstig",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "cheap / inexpensive / favourable",
+    "wrong_answers": [
+      "expensive",
+      "grateful",
+      "lonely"
+    ],
+    "explanation_en": "'günstig' means 'cheap / inexpensive / favourable'. Opposite: 'teuer'. B1/B2 alternative to billig — sounds positive (good value), while billig can mean cheap-quality."
+  },
+  {
+    "exercise_id": "ex_adj_gunstig_002",
+    "word_id": "adj_gunstig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Im Supermarkt ist das Obst heute sehr _____.",
+      "en": "The fruit at the supermarket is very cheap today."
+    },
+    "correct_answer": "günstig",
+    "wrong_answers": [
+      "ehrlich",
+      "müde",
+      "mutig"
+    ],
+    "explanation_en": "Only 'günstig' (cheap / inexpensive / favourable) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_gunstig_003",
+    "word_id": "adj_gunstig",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "cheap / inexpensive / favourable",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "günstig",
+    "wrong_answers": [
+      "teuer",
+      "dankbar",
+      "wütend"
+    ],
+    "explanation_en": "'cheap / inexpensive / favourable' is 'günstig' in German."
+  },
+  {
+    "exercise_id": "ex_adj_gunstig_004",
+    "word_id": "adj_gunstig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Der Zeitpunkt ist _____, um ein Auto zu kaufen.",
+      "en": "It's a favourable time to buy a car."
+    },
+    "correct_answer": "günstig",
+    "wrong_answers": [
+      "höflich",
+      "neugierig",
+      "fleißig"
+    ],
+    "explanation_en": "Only 'günstig' (cheap / inexpensive / favourable) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_bedeutend_001",
+    "word_id": "adj_bedeutend",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "bedeutend",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "significant / important / considerable",
+    "wrong_answers": [
+      "lonely",
+      "grateful",
+      "relaxed"
+    ],
+    "explanation_en": "'bedeutend' means 'significant / important / considerable'. Opposite: 'unbedeutend'. B1/B2 alternative to wichtig; comparative bedeutender (for wichtiger)."
+  },
+  {
+    "exercise_id": "ex_adj_bedeutend_002",
+    "word_id": "adj_bedeutend",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Unterschied ist _____: 30 Prozent!",
+      "en": "The difference is significant: 30 percent!"
+    },
+    "correct_answer": "bedeutend",
+    "wrong_answers": [
+      "höflich",
+      "müde",
+      "neugierig"
+    ],
+    "explanation_en": "Only 'bedeutend' (significant / important / considerable) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_bedeutend_003",
+    "word_id": "adj_bedeutend",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "significant / important / considerable",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "bedeutend",
+    "wrong_answers": [
+      "einsam",
+      "dankbar",
+      "günstig"
+    ],
+    "explanation_en": "'significant / important / considerable' is 'bedeutend' in German."
+  },
+  {
+    "exercise_id": "ex_adj_bedeutend_004",
+    "word_id": "adj_bedeutend",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Diese Entdeckung ist wissenschaftlich sehr _____.",
+      "en": "This discovery is scientifically very significant."
+    },
+    "correct_answer": "bedeutend",
+    "wrong_answers": [
+      "ehrlich",
+      "faul",
+      "mutig"
+    ],
+    "explanation_en": "Only 'bedeutend' (significant / important / considerable) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_unkompliziert_001",
+    "word_id": "adj_unkompliziert",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "unkompliziert",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "uncomplicated / straightforward / easy-going",
+    "wrong_answers": [
+      "embarrassed",
+      "annoyed",
+      "in love"
+    ],
+    "explanation_en": "'unkompliziert' means 'uncomplicated / straightforward / easy-going'. Opposite: 'kompliziert'. B1/B2 alternative to einfach."
+  },
+  {
+    "exercise_id": "ex_adj_unkompliziert_002",
+    "word_id": "adj_unkompliziert",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Anmeldung ist ganz _____ – nur zwei Klicks.",
+      "en": "Registration is really straightforward – just two clicks."
+    },
+    "correct_answer": "unkompliziert",
+    "wrong_answers": [
+      "wütend",
+      "verliebt",
+      "einsam"
+    ],
+    "explanation_en": "Only 'unkompliziert' (uncomplicated / straightforward / easy-going) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_unkompliziert_003",
+    "word_id": "adj_unkompliziert",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "uncomplicated / straightforward / easy-going",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "unkompliziert",
+    "wrong_answers": [
+      "verlegen",
+      "dankbar",
+      "wütend"
+    ],
+    "explanation_en": "'uncomplicated / straightforward / easy-going' is 'unkompliziert' in German."
+  },
+  {
+    "exercise_id": "ex_adj_unkompliziert_004",
+    "word_id": "adj_unkompliziert",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Mein Mitbewohner ist sehr _____ – mit ihm gibt es nie Probleme.",
+      "en": "My flatmate is very easy-going – there are never problems with him."
+    },
+    "correct_answer": "unkompliziert",
+    "wrong_answers": [
+      "leer",
+      "nass",
+      "geschlossen"
+    ],
+    "explanation_en": "Only 'unkompliziert' (uncomplicated / straightforward / easy-going) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_ausgezeichnet_001",
+    "word_id": "adj_ausgezeichnet",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "ausgezeichnet",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "excellent",
+    "wrong_answers": [
+      "exhausted",
+      "worried",
+      "bored"
+    ],
+    "explanation_en": "'ausgezeichnet' means 'excellent'. B1/B2 alternative to Klasse! Not comparable. Also Partizip II of auszeichnen (to award)."
+  },
+  {
+    "exercise_id": "ex_adj_ausgezeichnet_002",
+    "word_id": "adj_ausgezeichnet",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Das Essen in diesem Restaurant ist _____.",
+      "en": "The food in this restaurant is excellent."
+    },
+    "correct_answer": "ausgezeichnet",
+    "wrong_answers": [
+      "verliebt",
+      "einsam",
+      "nervös"
+    ],
+    "explanation_en": "Only 'ausgezeichnet' (excellent) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_ausgezeichnet_003",
+    "word_id": "adj_ausgezeichnet",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "excellent",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "ausgezeichnet",
+    "wrong_answers": [
+      "einsam",
+      "besorgt",
+      "gelangweilt"
+    ],
+    "explanation_en": "'excellent' is 'ausgezeichnet' in German."
+  },
+  {
+    "exercise_id": "ex_adj_ausgezeichnet_004",
+    "word_id": "adj_ausgezeichnet",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Du hast die Prüfung mit „sehr gut“ bestanden – _____!",
+      "en": "You passed the exam with 'very good' – excellent!"
+    },
+    "correct_answer": "ausgezeichnet",
+    "wrong_answers": [
+      "erkältet",
+      "besorgt",
+      "gestresst"
+    ],
+    "explanation_en": "Only 'ausgezeichnet' (excellent) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_wutend_001",
+    "word_id": "adj_wutend",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "wütend",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "angry / furious",
+    "wrong_answers": [
+      "grateful",
+      "lonely",
+      "relaxed"
+    ],
+    "explanation_en": "'wütend' means 'angry / furious'. Opposite: 'ruhig'. wütend auf + Akk (a person), wütend über + Akk (a thing)."
+  },
+  {
+    "exercise_id": "ex_adj_wutend_002",
+    "word_id": "adj_wutend",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Er schreit und schlägt die Tür zu – er ist richtig _____.",
+      "en": "He shouts and slams the door – he's really furious."
+    },
+    "correct_answer": "wütend",
+    "wrong_answers": [
+      "entspannt",
+      "dankbar",
+      "zufrieden"
+    ],
+    "explanation_en": "Only 'wütend' (angry / furious) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_wutend_003",
+    "word_id": "adj_wutend",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "angry / furious",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "wütend",
+    "wrong_answers": [
+      "dankbar",
+      "einsam",
+      "verliebt"
+    ],
+    "explanation_en": "'angry / furious' is 'wütend' in German."
+  },
+  {
+    "exercise_id": "ex_adj_wutend_004",
+    "word_id": "adj_wutend",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Warum bist du so _____ auf mich? Ich habe nichts gemacht!",
+      "en": "Why are you so angry with me? I didn't do anything!"
+    },
+    "correct_answer": "wütend",
+    "wrong_answers": [
+      "dankbar",
+      "verliebt",
+      "einsam"
+    ],
+    "explanation_en": "Only 'wütend' (angry / furious) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_einsam_001",
+    "word_id": "adj_einsam",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "einsam",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "lonely",
+    "wrong_answers": [
+      "grateful",
+      "embarrassed",
+      "stressed"
+    ],
+    "explanation_en": "'einsam' means 'lonely'. Opposite: 'gesellig'. die Einsamkeit = loneliness."
+  },
+  {
+    "exercise_id": "ex_adj_einsam_002",
+    "word_id": "adj_einsam",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Seit seine Frau gestorben ist, fühlt er sich oft _____.",
+      "en": "Since his wife died, he often feels lonely."
+    },
+    "correct_answer": "einsam",
+    "wrong_answers": [
+      "günstig",
+      "teuer",
+      "pünktlich"
+    ],
+    "explanation_en": "Only 'einsam' (lonely) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_einsam_003",
+    "word_id": "adj_einsam",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "lonely",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "einsam",
+    "wrong_answers": [
+      "verlegen",
+      "wütend",
+      "begeistert"
+    ],
+    "explanation_en": "'lonely' is 'einsam' in German."
+  },
+  {
+    "exercise_id": "ex_adj_einsam_004",
+    "word_id": "adj_einsam",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Das Haus steht ganz _____ auf dem Hügel.",
+      "en": "The house stands all alone on the hill."
+    },
+    "correct_answer": "einsam",
+    "wrong_answers": [
+      "dankbar",
+      "verliebt",
+      "gestresst"
+    ],
+    "explanation_en": "Only 'einsam' (lonely) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_gelangweilt_001",
+    "word_id": "adj_gelangweilt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "gelangweilt",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "bored",
+    "wrong_answers": [
+      "proud",
+      "angry",
+      "relaxed"
+    ],
+    "explanation_en": "'gelangweilt' means 'bored'. gelangweilt = bored (how you feel); langweilig = boring (what causes it)."
+  },
+  {
+    "exercise_id": "ex_adj_gelangweilt_002",
+    "word_id": "adj_gelangweilt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Film ist so langweilig – ich bin total _____.",
+      "en": "The film is so boring – I'm totally bored."
+    },
+    "correct_answer": "gelangweilt",
+    "wrong_answers": [
+      "begeistert",
+      "dankbar",
+      "verliebt"
+    ],
+    "explanation_en": "Only 'gelangweilt' (bored) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_gelangweilt_003",
+    "word_id": "adj_gelangweilt",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "bored",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "gelangweilt",
+    "wrong_answers": [
+      "begeistert",
+      "verliebt",
+      "dankbar"
+    ],
+    "explanation_en": "'bored' is 'gelangweilt' in German."
+  },
+  {
+    "exercise_id": "ex_adj_gelangweilt_004",
+    "word_id": "adj_gelangweilt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Schüler schauen _____ aus dem Fenster.",
+      "en": "The pupils look out of the window, bored."
+    },
+    "correct_answer": "gelangweilt",
+    "wrong_answers": [
+      "teuer",
+      "günstig",
+      "geschlossen"
+    ],
+    "explanation_en": "Only 'gelangweilt' (bored) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_entspannt_001",
+    "word_id": "adj_entspannt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "entspannt",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "relaxed",
+    "wrong_answers": [
+      "stressed",
+      "lonely",
+      "worried"
+    ],
+    "explanation_en": "'entspannt' means 'relaxed'. Opposite: 'gestresst'. Partizip II of entspannen (to relax)."
+  },
+  {
+    "exercise_id": "ex_adj_entspannt_002",
+    "word_id": "adj_entspannt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Nach dem Urlaub bin ich ganz _____.",
+      "en": "After the holiday I'm completely relaxed."
+    },
+    "correct_answer": "entspannt",
+    "wrong_answers": [
+      "teuer",
+      "günstig",
+      "leer"
+    ],
+    "explanation_en": "Only 'entspannt' (relaxed) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_entspannt_003",
+    "word_id": "adj_entspannt",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "relaxed",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "entspannt",
+    "wrong_answers": [
+      "gestresst",
+      "wütend",
+      "verlegen"
+    ],
+    "explanation_en": "'relaxed' is 'entspannt' in German."
+  },
+  {
+    "exercise_id": "ex_adj_entspannt_004",
+    "word_id": "adj_entspannt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die Atmosphäre im Café ist sehr _____.",
+      "en": "The atmosphere in the café is very relaxed."
+    },
+    "correct_answer": "entspannt",
+    "wrong_answers": [
+      "verliebt",
+      "dankbar",
+      "eifersüchtig"
+    ],
+    "explanation_en": "Only 'entspannt' (relaxed) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_verlegen_001",
+    "word_id": "adj_verlegen",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "verlegen",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "embarrassed / sheepish",
+    "wrong_answers": [
+      "grateful",
+      "angry",
+      "bored"
+    ],
+    "explanation_en": "'verlegen' means 'embarrassed / sheepish'. Opposite: 'selbstbewusst'. Also a verb: verlegen = to misplace / to postpone / to publish."
+  },
+  {
+    "exercise_id": "ex_adj_verlegen_002",
+    "word_id": "adj_verlegen",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Als alle ihn ansehen, wird er rot und ganz _____.",
+      "en": "When everyone looks at him, he turns red and very embarrassed."
+    },
+    "correct_answer": "verlegen",
+    "wrong_answers": [
+      "teuer",
+      "günstig",
+      "leer"
+    ],
+    "explanation_en": "Only 'verlegen' (embarrassed / sheepish) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_verlegen_003",
+    "word_id": "adj_verlegen",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "embarrassed / sheepish",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "verlegen",
+    "wrong_answers": [
+      "wütend",
+      "begeistert",
+      "entspannt"
+    ],
+    "explanation_en": "'embarrassed / sheepish' is 'verlegen' in German."
+  },
+  {
+    "exercise_id": "ex_adj_verlegen_004",
+    "word_id": "adj_verlegen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Sie lächelte _____, als er ihr ein Kompliment machte.",
+      "en": "She smiled sheepishly when he paid her a compliment."
+    },
+    "correct_answer": "verlegen",
+    "wrong_answers": [
+      "teuer",
+      "günstig",
+      "geschlossen"
+    ],
+    "explanation_en": "Only 'verlegen' (embarrassed / sheepish) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_besorgt_001",
+    "word_id": "adj_besorgt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "besorgt",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "worried / concerned",
+    "wrong_answers": [
+      "bored",
+      "in love",
+      "grateful"
+    ],
+    "explanation_en": "'besorgt' means 'worried / concerned'. Opposite: 'unbesorgt'. besorgt um + Akk. die Sorge = the worry."
+  },
+  {
+    "exercise_id": "ex_adj_besorgt_002",
+    "word_id": "adj_besorgt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Die Mutter ist _____, weil ihr Sohn noch nicht zu Hause ist.",
+      "en": "The mother is worried because her son isn't home yet."
+    },
+    "correct_answer": "besorgt",
+    "wrong_answers": [
+      "teuer",
+      "günstig",
+      "leer"
+    ],
+    "explanation_en": "Only 'besorgt' (worried / concerned) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_besorgt_003",
+    "word_id": "adj_besorgt",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "worried / concerned",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "besorgt",
+    "wrong_answers": [
+      "gelangweilt",
+      "dankbar",
+      "verliebt"
+    ],
+    "explanation_en": "'worried / concerned' is 'besorgt' in German."
+  },
+  {
+    "exercise_id": "ex_adj_besorgt_004",
+    "word_id": "adj_besorgt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Ich bin _____ um deine Gesundheit.",
+      "en": "I'm worried about your health."
+    },
+    "correct_answer": "besorgt",
+    "wrong_answers": [
+      "dankbar",
+      "stolz",
+      "verliebt"
+    ],
+    "explanation_en": "Only 'besorgt' (worried / concerned) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_genervt_001",
+    "word_id": "adj_genervt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "genervt",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "annoyed",
+    "wrong_answers": [
+      "grateful",
+      "lonely",
+      "in love"
+    ],
+    "explanation_en": "'genervt' means 'annoyed'. Colloquial. From nerven (to get on someone's nerves)."
+  },
+  {
+    "exercise_id": "ex_adj_genervt_002",
+    "word_id": "adj_genervt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Der Nachbar spielt jeden Abend laute Musik – ich bin total _____.",
+      "en": "The neighbour plays loud music every evening – I'm totally annoyed."
+    },
+    "correct_answer": "genervt",
+    "wrong_answers": [
+      "teuer",
+      "günstig",
+      "leer"
+    ],
+    "explanation_en": "Only 'genervt' (annoyed) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_genervt_003",
+    "word_id": "adj_genervt",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "annoyed",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "genervt",
+    "wrong_answers": [
+      "dankbar",
+      "verliebt",
+      "entspannt"
+    ],
+    "explanation_en": "'annoyed' is 'genervt' in German."
+  },
+  {
+    "exercise_id": "ex_adj_genervt_004",
+    "word_id": "adj_genervt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Er verdreht _____ die Augen.",
+      "en": "He rolls his eyes, annoyed."
+    },
+    "correct_answer": "genervt",
+    "wrong_answers": [
+      "teuer",
+      "günstig",
+      "geschlossen"
+    ],
+    "explanation_en": "Only 'genervt' (annoyed) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_dankbar_001",
+    "word_id": "adj_dankbar",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "dankbar",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "grateful / thankful",
+    "wrong_answers": [
+      "jealous",
+      "annoyed",
+      "thoughtful"
+    ],
+    "explanation_en": "'dankbar' means 'grateful / thankful'. Opposite: 'undankbar'. jemandem (Dat) dankbar sein für + Akk."
+  },
+  {
+    "exercise_id": "ex_adj_dankbar_002",
+    "word_id": "adj_dankbar",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich bin dir sehr _____ für deine Hilfe.",
+      "en": "I'm very grateful to you for your help."
+    },
+    "correct_answer": "dankbar",
+    "wrong_answers": [
+      "wütend",
+      "verliebt",
+      "einsam"
+    ],
+    "explanation_en": "Only 'dankbar' (grateful / thankful) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_dankbar_003",
+    "word_id": "adj_dankbar",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "grateful / thankful",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "dankbar",
+    "wrong_answers": [
+      "wütend",
+      "einsam",
+      "verlegen"
+    ],
+    "explanation_en": "'grateful / thankful' is 'dankbar' in German."
+  },
+  {
+    "exercise_id": "ex_adj_dankbar_004",
+    "word_id": "adj_dankbar",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Wir sind _____, dass alle gesund sind.",
+      "en": "We are grateful that everyone is healthy."
+    },
+    "correct_answer": "dankbar",
+    "wrong_answers": [
+      "teuer",
+      "günstig",
+      "leer"
+    ],
+    "explanation_en": "Only 'dankbar' (grateful / thankful) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_nachdenklich_001",
+    "word_id": "adj_nachdenklich",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "nachdenklich",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "thoughtful / pensive",
+    "wrong_answers": [
+      "in love",
+      "stressed",
+      "relaxed"
+    ],
+    "explanation_en": "'nachdenklich' means 'thoughtful / pensive'. From nachdenken (to think about)."
+  },
+  {
+    "exercise_id": "ex_adj_nachdenklich_002",
+    "word_id": "adj_nachdenklich",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Nach dem Gespräch war sie sehr _____ und still.",
+      "en": "After the conversation she was very pensive and quiet."
+    },
+    "correct_answer": "nachdenklich",
+    "wrong_answers": [
+      "teuer",
+      "günstig",
+      "leer"
+    ],
+    "explanation_en": "Only 'nachdenklich' (thoughtful / pensive) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_nachdenklich_003",
+    "word_id": "adj_nachdenklich",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "thoughtful / pensive",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "nachdenklich",
+    "wrong_answers": [
+      "begeistert",
+      "genervt",
+      "verliebt"
+    ],
+    "explanation_en": "'thoughtful / pensive' is 'nachdenklich' in German."
+  },
+  {
+    "exercise_id": "ex_adj_nachdenklich_004",
+    "word_id": "adj_nachdenklich",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Dieser Film macht mich _____.",
+      "en": "This film makes me thoughtful."
+    },
+    "correct_answer": "nachdenklich",
+    "wrong_answers": [
+      "teuer",
+      "günstig",
+      "geschlossen"
+    ],
+    "explanation_en": "Only 'nachdenklich' (thoughtful / pensive) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_verliebt_001",
+    "word_id": "adj_verliebt",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "verliebt",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "in love",
+    "wrong_answers": [
+      "jealous",
+      "grateful",
+      "worried"
+    ],
+    "explanation_en": "'verliebt' means 'in love'. verliebt in + Akk. sich verlieben = to fall in love."
+  },
+  {
+    "exercise_id": "ex_adj_verliebt_002",
+    "word_id": "adj_verliebt",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Paul ist in seine Kollegin _____.",
+      "en": "Paul is in love with his colleague."
+    },
+    "correct_answer": "verliebt",
+    "wrong_answers": [
+      "dankbar",
+      "wütend",
+      "stolz"
+    ],
+    "explanation_en": "Only 'verliebt' (in love) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_verliebt_003",
+    "word_id": "adj_verliebt",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "in love",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "verliebt",
+    "wrong_answers": [
+      "eifersüchtig",
+      "dankbar",
+      "besorgt"
+    ],
+    "explanation_en": "'in love' is 'verliebt' in German."
+  },
+  {
+    "exercise_id": "ex_adj_verliebt_004",
+    "word_id": "adj_verliebt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Die beiden sind frisch _____ und sehr glücklich.",
+      "en": "The two of them are newly in love and very happy."
+    },
+    "correct_answer": "verliebt",
+    "wrong_answers": [
+      "teuer",
+      "günstig",
+      "leer"
+    ],
+    "explanation_en": "Only 'verliebt' (in love) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_gestresst_001",
+    "word_id": "adj_gestresst",
+    "type": "translate_word",
+    "difficulty": 1,
+    "question": {
+      "de": "gestresst",
+      "prompt_en": "WHAT DOES THIS ADJECTIVE MEAN?"
+    },
+    "correct_answer": "stressed",
+    "wrong_answers": [
+      "relaxed",
+      "bored",
+      "grateful"
+    ],
+    "explanation_en": "'gestresst' means 'stressed'. Opposite: 'entspannt'. der Stress = stress."
+  },
+  {
+    "exercise_id": "ex_adj_gestresst_002",
+    "word_id": "adj_gestresst",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": {
+      "de": "Ich habe zu viel Arbeit und bin total _____.",
+      "en": "I have too much work and I'm totally stressed."
+    },
+    "correct_answer": "gestresst",
+    "wrong_answers": [
+      "teuer",
+      "günstig",
+      "leer"
+    ],
+    "explanation_en": "Only 'gestresst' (stressed) makes sense here."
+  },
+  {
+    "exercise_id": "ex_adj_gestresst_003",
+    "word_id": "adj_gestresst",
+    "type": "translate_word",
+    "difficulty": 2,
+    "question": {
+      "de": "stressed",
+      "prompt_en": "WHICH GERMAN WORD MEANS THIS?"
+    },
+    "correct_answer": "gestresst",
+    "wrong_answers": [
+      "entspannt",
+      "dankbar",
+      "verliebt"
+    ],
+    "explanation_en": "'stressed' is 'gestresst' in German."
+  },
+  {
+    "exercise_id": "ex_adj_gestresst_004",
+    "word_id": "adj_gestresst",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": {
+      "de": "Vor Prüfungen sind viele Studenten _____.",
+      "en": "Before exams many students are stressed."
+    },
+    "correct_answer": "gestresst",
+    "wrong_answers": [
+      "teuer",
+      "günstig",
+      "geschlossen"
+    ],
+    "explanation_en": "Only 'gestresst' (stressed) makes sense here."
   }
 ]

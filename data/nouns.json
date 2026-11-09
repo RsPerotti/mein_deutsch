@@ -7850,5 +7850,612 @@
       "b1"
     ],
     "section": "roots"
+  },
+  {
+    "id": "noun_satz",
+    "word": "Satz",
+    "article": "der",
+    "english": "sentence / set",
+    "plural": "Sätze",
+    "plural_article": "die",
+    "genitive": "des Satzes",
+    "frequency_rank": 232,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Bitte lies den Satz noch einmal.",
+        "en": "Please read the sentence again.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Ein Satz braucht ein Subjekt und ein Verb.",
+        "en": "A sentence needs a subject and a verb.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "language",
+      "a2"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_ersatz",
+    "word": "Ersatz",
+    "article": "der",
+    "english": "replacement / substitute",
+    "plural": "Ersätze",
+    "plural_article": "die",
+    "genitive": "des Ersatzes",
+    "frequency_rank": 233,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Wir brauchen einen Ersatz für den kaputten Laptop.",
+        "en": "We need a replacement for the broken laptop.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Der Ersatz kommt morgen mit der Post.",
+        "en": "The replacement arrives tomorrow by post.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "everyday",
+      "b1"
+    ],
+    "section": "variations",
+    "formation": "er- + Satz"
+  },
+  {
+    "id": "noun_aufsatz",
+    "word": "Aufsatz",
+    "article": "der",
+    "english": "essay / composition",
+    "plural": "Aufsätze",
+    "plural_article": "die",
+    "genitive": "des Aufsatzes",
+    "frequency_rank": 234,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Ich schreibe einen Aufsatz über meine Ferien.",
+        "en": "I'm writing an essay about my holidays.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Der Aufsatz muss bis Freitag fertig sein.",
+        "en": "The essay has to be finished by Friday.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "school",
+      "writing",
+      "b1"
+    ],
+    "section": "variations",
+    "formation": "auf- + Satz"
+  },
+  {
+    "id": "noun_zusatz",
+    "word": "Zusatz",
+    "article": "der",
+    "english": "addition / additive / addendum",
+    "plural": "Zusätze",
+    "plural_article": "die",
+    "genitive": "des Zusatzes",
+    "frequency_rank": 235,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Der Vertrag hat einen Zusatz: Die Miete steigt jedes Jahr.",
+        "en": "The contract has an addendum: the rent rises every year.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Ohne einen Zusatz von Salz schmeckt die Suppe fade.",
+        "en": "Without an addition of salt the soup tastes bland.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b2"
+    ],
+    "section": "variations",
+    "formation": "zu- + Satz"
+  },
+  {
+    "id": "noun_absatz",
+    "word": "Absatz",
+    "article": "der",
+    "english": "paragraph / heel (of a shoe)",
+    "plural": "Absätze",
+    "plural_article": "die",
+    "genitive": "des Absatzes",
+    "frequency_rank": 236,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Mach nach diesem Satz einen Absatz.",
+        "en": "Start a new paragraph after this sentence.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Am Schuh ist der Absatz abgebrochen.",
+        "en": "The heel of the shoe has broken off.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "writing",
+      "clothing",
+      "b1"
+    ],
+    "section": "variations",
+    "formation": "ab- + Satz"
+  },
+  {
+    "id": "noun_umsatz",
+    "word": "Umsatz",
+    "article": "der",
+    "english": "turnover / revenue / sales",
+    "plural": "Umsätze",
+    "plural_article": "die",
+    "genitive": "des Umsatzes",
+    "frequency_rank": 237,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Der Umsatz ist im letzten Jahr gestiegen.",
+        "en": "Revenue rose last year.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Wie hoch ist der Umsatz im Dezember?",
+        "en": "How high are the sales in December?",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "business",
+      "b2"
+    ],
+    "section": "variations",
+    "formation": "um- + Satz"
+  },
+  {
+    "id": "noun_einsatz",
+    "word": "Einsatz",
+    "article": "der",
+    "english": "use / deployment / commitment",
+    "plural": "Einsätze",
+    "plural_article": "die",
+    "genitive": "des Einsatzes",
+    "frequency_rank": 238,
+    "module": "nouns",
+    "unlock_level": 4,
+    "example_sentences": [
+      {
+        "de": "Der Einsatz von Handys ist im Unterricht verboten.",
+        "en": "The use of mobile phones is forbidden in class.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Danke für deinen Einsatz!",
+        "en": "Thanks for your commitment!",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "work",
+      "abstract",
+      "b2"
+    ],
+    "section": "variations",
+    "formation": "ein- + Satz"
+  },
+  {
+    "id": "noun_gegensatz",
+    "word": "Gegensatz",
+    "article": "der",
+    "english": "contrast / opposite",
+    "plural": "Gegensätze",
+    "plural_article": "die",
+    "genitive": "des Gegensatzes",
+    "frequency_rank": 239,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Im Gegensatz zu dir mag ich Kaffee.",
+        "en": "Unlike you, I like coffee.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Heiß ist der Gegensatz von kalt.",
+        "en": "Hot is the opposite of cold.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ],
+    "section": "variations",
+    "formation": "gegen- + Satz"
+  },
+  {
+    "id": "noun_vorsatz",
+    "word": "Vorsatz",
+    "article": "der",
+    "english": "resolution / intention",
+    "plural": "Vorsätze",
+    "plural_article": "die",
+    "genitive": "des Vorsatzes",
+    "frequency_rank": 240,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Mein Vorsatz für das neue Jahr: mehr Sport!",
+        "en": "My resolution for the new year: more exercise!",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Ich habe den Vorsatz, weniger Zucker zu essen.",
+        "en": "I have resolved to eat less sugar.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ],
+    "section": "variations",
+    "formation": "vor- + Satz"
+  },
+  {
+    "id": "noun_alltag",
+    "word": "Alltag",
+    "article": "der",
+    "english": "everyday life",
+    "plural": "Alltage",
+    "plural_article": "die",
+    "genitive": "des Alltags",
+    "frequency_rank": 241,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Im Alltag spreche ich viel Deutsch.",
+        "en": "In everyday life I speak a lot of German.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Der Alltag mit kleinen Kindern ist anstrengend.",
+        "en": "Everyday life with small children is exhausting.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "everyday",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_gewohnheit",
+    "word": "Gewohnheit",
+    "article": "die",
+    "english": "habit",
+    "plural": "Gewohnheiten",
+    "plural_article": "die",
+    "genitive": "der Gewohnheit",
+    "frequency_rank": 242,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Kaffee am Morgen ist eine Gewohnheit von mir.",
+        "en": "Coffee in the morning is a habit of mine.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Ich habe die Gewohnheit, früh aufzustehen.",
+        "en": "I have the habit of getting up early.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "everyday",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_gelegenheit",
+    "word": "Gelegenheit",
+    "article": "die",
+    "english": "opportunity / occasion",
+    "plural": "Gelegenheiten",
+    "plural_article": "die",
+    "genitive": "der Gelegenheit",
+    "frequency_rank": 243,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Ich nutze jede Gelegenheit, Deutsch zu sprechen.",
+        "en": "I use every opportunity to speak German.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Nutze die Gelegenheit!",
+        "en": "Seize the opportunity!",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_unterstuetzung",
+    "word": "Unterstützung",
+    "article": "die",
+    "english": "support",
+    "plural": "Unterstützungen",
+    "plural_article": "die",
+    "genitive": "der Unterstützung",
+    "frequency_rank": 244,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Danke für deine Unterstützung!",
+        "en": "Thanks for your support!",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Ohne die Unterstützung der Eltern schaffe ich das nicht.",
+        "en": "Without my parents' support I can't do it.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "social",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_sicherheit",
+    "word": "Sicherheit",
+    "article": "die",
+    "english": "safety / security / certainty",
+    "plural": "Sicherheiten",
+    "plural_article": "die",
+    "genitive": "der Sicherheit",
+    "frequency_rank": 245,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Sicherheit der Kinder ist am wichtigsten.",
+        "en": "The children's safety is the most important thing.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Zu Ihrer Sicherheit schließen wir die Tür ab.",
+        "en": "For your safety we lock the door.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "safety",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_geduld",
+    "word": "Geduld",
+    "article": "die",
+    "english": "patience",
+    "plural": "Geduld",
+    "plural_article": "die",
+    "genitive": "der Geduld",
+    "frequency_rank": 246,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Meine Geduld ist am Ende.",
+        "en": "My patience has run out.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Die Geduld ist eine Tugend.",
+        "en": "Patience is a virtue.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "character",
+      "a2"
+    ],
+    "section": "roots",
+    "plural_note": "no plural"
+  },
+  {
+    "id": "noun_aufmerksamkeit",
+    "word": "Aufmerksamkeit",
+    "article": "die",
+    "english": "attention",
+    "plural": "Aufmerksamkeiten",
+    "plural_article": "die",
+    "genitive": "der Aufmerksamkeit",
+    "frequency_rank": 247,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Danke für Ihre Aufmerksamkeit.",
+        "en": "Thank you for your attention.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Die Aufmerksamkeit der Schüler lässt nach.",
+        "en": "The pupils' attention is waning.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_schwierigkeit",
+    "word": "Schwierigkeit",
+    "article": "die",
+    "english": "difficulty",
+    "plural": "Schwierigkeiten",
+    "plural_article": "die",
+    "genitive": "der Schwierigkeit",
+    "frequency_rank": 248,
+    "module": "nouns",
+    "unlock_level": 3,
+    "example_sentences": [
+      {
+        "de": "Die Schwierigkeit liegt im Detail.",
+        "en": "The difficulty lies in the details.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Ohne jede Schwierigkeit hat sie die Prüfung bestanden.",
+        "en": "She passed the exam without any difficulty.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "abstract",
+      "b1"
+    ],
+    "section": "roots"
+  },
+  {
+    "id": "noun_erfolg",
+    "word": "Erfolg",
+    "article": "der",
+    "english": "success",
+    "plural": "Erfolge",
+    "plural_article": "die",
+    "genitive": "des Erfolges",
+    "frequency_rank": 249,
+    "module": "nouns",
+    "unlock_level": 2,
+    "example_sentences": [
+      {
+        "de": "Der Erfolg kam nach vielen Jahren.",
+        "en": "Success came after many years.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      },
+      {
+        "de": "Das Konzert war ein Erfolg.",
+        "en": "The concert was a success.",
+        "exercise_type": [
+          "fill_blank"
+        ]
+      }
+    ],
+    "tags": [
+      "work",
+      "abstract",
+      "a2"
+    ],
+    "section": "roots"
   }
 ]

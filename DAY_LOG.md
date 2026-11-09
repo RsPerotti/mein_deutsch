@@ -2,6 +2,81 @@
 
 ---
 
+## 2026-11-09 — Session 44: Bilder-Intake — vocabulary from Instagram screenshots (v26)
+
+Ricco sent 20 screenshots (10 unique, each twice) of German-learning posts and asked: identify every
+word/expression, skip what the app already has, add the rest with exercises in the right module,
+one viable answer per exercise. He knowingly lifted the 2026-08-28 content freeze for this
+("I've been seeing a lot of new content I want to include"). PRD `PRD_Bilder_Intake.md`, signed off.
+
+**Decisions (Ricco, before the PRD):** this is the whole batch · verb+preposition pairs and da-words get
+a **new section in Präpositionen** · Globio synonym pairs (billig→günstig) are added as **plain words, no
+"level-up" drill** · double conjunctions go into **Ausdrücke**.
+
+**Added — 114 items, 611 exercises:**
+- **Verbs 39** (343 ex): 25 Stammverben, 6 standalone variations (begreifen, benötigen, veranlassen,
+  nachvollziehen, einschätzen, einräumen), 8 variants under existing roots (verreisen, vorbeikommen,
+  nachsehen, herausfinden, voraussetzen, vorausgehen, ausgleichen, anstreben).
+- **Nouns 18** (54): the -satz family (Satz + 8 variations), Alltag, Gewohnheit, Gelegenheit, …
+- **Adjectives 16** (64): feelings (wütend, einsam, gelangweilt, …) + günstig, bedeutend, unkompliziert, ausgezeichnet, erkältet.
+- **Adverbs 5** (20): dahin, ebenso, ebenfalls, obwohl, insofern.
+- **Ausdrücke 12** (48): Mir ist nach …, Was hältst du von …?, Ich bin gerade dabei, … zu …,
+  Das erinnert mich an …, Klasse!, and 7 double conjunctions (je … desto, weder … noch, …).
+- **Verben mit Präposition — new section** (24 pairs, 82 ex): `data/verb-prepositions.json`; list
+  screen with an intro card (fixed preposition, verb decides the case, da-words); practice
+  `openExercise('module_prepositions','verben')`. Uses the existing `select_preposition` /
+  `select_case` types → Main engine → both progress stores + Wiederholung, no new engine.
+
+**Already in the app (skipped):** the whole Häufigkeit scale, DOGFU prepositions, 14/24 feelings,
+11/20 "Nouns for Life", 9/11 connectors, 6/7 sentence adverbs, 6/20 advanced verbs, and most of the A1/A2 Globio column.
+
+**Fixed, not copied, from the images:** "schipsen" is not a word (Wiktionary has no page) → *schnipsen*.
+Loose glosses replaced (Zusatz ≠ "additive" only, Einsatz ≠ "use" only). "wichtiger/bedeutender"
+are comparatives → added the base words. "rausfinden" is the colloquial form → added *herausfinden* with a note.
+
+**Verification (Ricco is never asked to check German):** de.wiktionary.org via the in-app browser —
+verb forms (Präsens ich/du/er, Präteritum, PII, Hilfsverb), Herkunft for the Stammverben rule, noun
+gender/plural/genitive, adjective comparison, adverb synonyms. **DWDS** (new source this session, site
+access granted in the in-app browser) for verb + preposition valency, because Wiktionary often does
+not state it (sprechen über, warnen vor, nachdenken über were missing there). Caches are committed
+in `_factory/bilder-intake-2026-11-09/`.
+
+**How single-answer is guaranteed mechanically (not by judgement):**
+- Noun gaps: the determiner before the gap fixes gender; every distractor has a clashing gender.
+- Verb+preposition gaps: the word after the gap shows its case unambiguously; every distractor governs
+  only the other case (*Ich frage für dem Weg* is ungrammatical) AND is not a preposition that
+  Wiktionary or DWDS attests for that verb (conservative: every attested preposition is banned).
+- da-word gaps: distractors exclude da-words that can stand alone as adverbs (danach, dabei, dazu …).
+- Verb gaps: no Präteritum distractors any more (a past form is grammatical in a present sentence —
+  the old generator offered them); wrong person / unsplit / bare Partizip II instead.
+- Synonym clusters (own copy in the validator) for every German-option exercise.
+
+**The validator earned its keep.** First run found 27 real problems: 18 noun distractors after
+sentence-initial "Der" that were feminine — *der* is also feminine dative, so the check (correctly)
+refused to trust context; 2 distractors whose plural equals the singular (*Verhalten* after "die");
+6 verb items with only 2 distinct wrong forms (verreisen/veranlassen have few distinct forms — fixed
+with a zu-infinitive as the third); 1 English gloss ("boring" for gelangweilt) too close under the
+cluster rule. A seeded-bug run then showed one planted case the validator missed — but the mutation
+itself was wrong (a trailing space), and replacing it surfaced a real hazard worth guarding: a base
+infinitive (*sehen*) in an infinitive slot of *nachsehen* is grammatical. Now 25/25 planted bugs caught.
+
+**Changes to existing tools:**
+- `validate-stammverben.py` check C now skips noun + verb compounds ("Zusammensetzung aus dem
+  Substantiv"): *gewährleisten* (Gewähr + leisten) is not a prefix verb. Its own mutation test still 8/8.
+- `bundle-data.py` bundles `verb_prepositions`.
+- Count pins updated: `qa-variants.js` (314 variants, 4,051 verb exercises), `qa-adverb-scales.js` (218 adverbs).
+- Generator writes JSON with indent 2 — several data files were reformatted (large diff, content-only changes otherwise).
+
+**QA:** validate.py 0 errors · verify-validator 25/25 · validate-stammverben / variants / adverb-distractors /
+adverb-scales / srs / prefixes / declension all green · qa-verb-prepositions.js 34/34 (mutation-checked:
+removing `_recordAnswer` fails it) · qa-variants 21 · qa-prefixes 71 · qa-srs 47 · qa-review 152 ·
+qa-adverb-scales 48 · qa-stuck-mode 33 · verify-srs-validator 35/35 · screenshots at 375 px, no JS errors.
+SW v25 → **v26**.
+
+**Open:** nothing blocked on Ricco.
+
+---
+
 ## 2026-10-22 — Session 43: Lesen & Hören update (v25)
 
 Ricco: add every DW Top-Thema article published since the module was built (last crawl 2026-06-07).

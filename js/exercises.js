@@ -148,7 +148,7 @@ function startExercise(state) {
   } else if (moduleId === 'module_adjectives') {
     contextLabel = 'ADJEKTIVE · GRUNDFORMEN';
   } else if (moduleId === 'module_prepositions') {
-    contextLabel = 'PRÄPOSITIONEN · ÜBUNGEN';
+    contextLabel = category === 'verben' ? 'PRÄPOSITIONEN · VERBEN' : 'PRÄPOSITIONEN · ÜBUNGEN';
   } else if (moduleId === 'module_expressions') {
     contextLabel = 'AUSDRÜCKE · ÜBUNGEN';
   } else if (moduleId === 'module_particles') {
@@ -171,8 +171,10 @@ function startExercise(state) {
   // Show/hide difficulty picker for prepositions
   const prepPicker = document.getElementById('prep-difficulty-picker');
   if (prepPicker) {
-    prepPicker.style.display = moduleId === 'module_prepositions' ? 'block' : 'none';
-    if (moduleId === 'module_prepositions') {
+    // Session 44: 'Verben mit Präposition' serves every level at once — no picker
+    const showPrepPicker = moduleId === 'module_prepositions' && category !== 'verben';
+    prepPicker.style.display = showPrepPicker ? 'block' : 'none';
+    if (showPrepPicker) {
       _updateDifficultyPicker(Progress.getPrepositionsDifficulty());
     }
   }
@@ -225,9 +227,12 @@ function _buildQueue(moduleId, category) {
 
   // Prepositions — filter by selected difficulty level (exact match)
   // Difficulty levels: 'A1' | 'A2' | 'B1' | 'B2'  (C1/C2 reserved for future expansion)
+  // Session 44: exercises carrying vp_id belong to the 'Verben mit Präposition' section
+  // (category 'verben', all levels); the level-filtered practice keeps only the classic set.
   if (moduleId === 'module_prepositions') {
+    if (category === 'verben') return _shuffle(all.filter(ex => ex.vp_id));
     const difficulty = Progress.getPrepositionsDifficulty();
-    return _shuffle(all.filter(ex => ex.difficulty === difficulty));
+    return _shuffle(all.filter(ex => !ex.vp_id && ex.difficulty === difficulty));
   }
 
   // Particles — filter by category, sorted A1 → C2 (easier first)
