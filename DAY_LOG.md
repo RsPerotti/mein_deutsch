@@ -71,9 +71,9 @@ infinitive (*sehen*) in an infinitive slot of *nachsehen* is grammatical. Now 25
 adverb-scales / srs / prefixes / declension all green · qa-verb-prepositions.js 34/34 (mutation-checked:
 removing `_recordAnswer` fails it) · qa-variants 21 · qa-prefixes 71 · qa-srs 47 · qa-review 152 ·
 qa-adverb-scales 48 · qa-stuck-mode 33 · verify-srs-validator 35/35 · screenshots at 375 px, no JS errors.
-SW v25 → **v26**.
+SW v25 → **v26**. Commit `4a82734`; **live site verified** (SW `mein-deutsch-v26`, 24 verb-preposition pairs and the new verbs in the deployed `js/data.js`).
 
-**Open:** nothing blocked on Ricco.
+**Open:** nothing blocked on Ricco. Older verb exercises still offer Präteritum forms as distractors (grammatical in present-tense sentences) — not audited; candidate for a future session.
 
 ---
 

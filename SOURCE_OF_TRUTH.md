@@ -15,7 +15,7 @@ preposition / da-word / case, 82 exercises, all levels at once, no gating). Ever
 engine, so it writes both progress stores and enters Wiederholung. Verified against de.wiktionary.org
 and, for verb + preposition valency, **DWDS**. Pipeline: `_factory/bilder-intake-2026-11-09/`
 seeds → `generate.py` → `bundle-data.py` → `validate.py` (V/N/A/S/F/P/G checks; `verify-validator.py`
-25/25) + `qa-verb-prepositions.js` (34). PRD: `PRD_Bilder_Intake.md`.
+25/25) + `qa-verb-prepositions.js` (34). PRD: `PRD_Bilder_Intake.md`. Deploy `4a82734` verified live 2026-11-09 (SW v26).
 
 **Session 43 — Lesen & Hören update (v25).** 38 new DW Top-Thema articles (to 2026-10-20) → **83 articles, 1592 vocab**. German quotation marks restored in all transcripts (old crawler dropped HTML entities). Bundle is now reproducible: `_factory/listening/bundle-listening.py` → `validate-listening.py` (A–I, mutation-tested).
 
